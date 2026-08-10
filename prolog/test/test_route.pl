@@ -17,6 +17,7 @@
 :- use_module(library(plunit)).
 :- use_module(support).
 :- use_module('../src/io/route_in').
+:- use_module('../src/io/route_out').
 :- use_module('../src/io/json_in').
 :- use_module('../src/io/json_out').
 :- use_module('../src/annotate').
@@ -258,6 +259,80 @@ test(mode_travels_with_the_annotations) :-
 :- end_tests(routing_json).
 
 % --- the city table --------------------------------------------------------
+
+% --- writing a routing back out --------------------------------------------
+
+% The reason io/route_out.pl is Prolog and not JavaScript: with both directions
+% here, "a routing survives the round trip" is a property the suite can assert
+% rather than a claim in a comment.
+:- begin_tests(route_composition).
+
+route_of(Dict, Route) :-
+    itinerary_from_json(Dict, Itin),
+    annotate(Itin, A),
+    annotated_route(A, Route).
+
+test(a_routing_survives_the_round_trip) :-
+    forall(member(R, ['LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR',
+                      'LHR-BA-X/JFK-AA-X/LAX-JL-X/NRT-CX-X/HKG-CX-X/BKK-QR-X/DOH-QR-LHR',
+                      'LHR-JFK-LAX-NRT-HKG-BKK-DOH-LHR']),
+           ( route_of(_{ route: R }, Out),
+             assertion(Out == R) )).
+
+% A surface sector replaces both the separator and the carrier, so it has to
+% come back out that way and not as a dash.
+test(a_surface_sector_round_trips_as_a_double_slash) :-
+    route_of(_{ route: 'SYD-QF-X/HKG-QR-DOH-QR-LHR-BA-JFK-AA-LAX//SYD' }, Out),
+    assertion(Out == 'SYD-QF-X/HKG-QR-DOH-QR-LHR-BA-JFK-AA-LAX//SYD').
+
+% City codes resolve to airports on the way in and stay resolved on the way out.
+% That is canonicalisation rather than loss: both name the same journey, and the
+% test pins it so the behaviour is a decision rather than a surprise.
+test(city_codes_come_back_as_airports) :-
+    route_of(_{ route: 'LON-BA-NYC-AA-X/DFW-AA-LAX-QF-SYD//MEL-QF-X/SIN-BA-LON' }, Out),
+    assertion(Out == 'LHR-BA-JFK-AA-X/DFW-AA-LAX-QF-SYD//MEL-QF-X/SIN-BA-LHR').
+
+% The point of the feature: a dated itinerary, whose stops were worked out from
+% the clock rather than declared, still writes down as a routing -- and that
+% routing must reach the same verdict as the itinerary it came from.
+test(a_dated_itinerary_composes_and_agrees) :-
+    fixture(lhr_classic, Dict),
+    route_of(Dict, Route),
+    assertion(Route == 'LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR'),
+    itinerary_from_json(Dict, Dated),
+    validate(Dated, report(V1, _, _, _)),
+    itinerary_from_json(_{ route: Route, cabin: "business" }, Composed),
+    validate(Composed, report(V2, _, _, _)),
+    assertion(V1 == valid),
+    assertion(V2 == V1).
+
+% A routing has no notation for "we do not know what this point is". Writing a
+% bare code would say stopover, which would change the itinerary and its
+% verdict, so composition fails and names the segments instead.
+test(an_undecidable_point_refuses_to_compose) :-
+    fixture(mut_no_times, Dict),
+    itinerary_from_json(Dict, Itin),
+    annotate(Itin, A),
+    assertion(\+ annotated_route(A, _)),
+    route_undecidable(A, Segments),
+    assertion(Segments == [1, 2, 3, 4, 5, 6]).
+
+% Every report carries the routing, so an API client gets it without a second
+% request -- and null, not a guess, when it cannot be written.
+test(the_report_carries_the_routing) :-
+    fixture(lhr_classic, Dict),
+    itinerary_from_json(Dict, Itin),
+    validate_annotated(Itin, _, A),
+    annotations_json(A, Ann),
+    assertion(Ann.routing == 'LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR'),
+
+    fixture(mut_no_times, Bad),
+    itinerary_from_json(Bad, BadItin),
+    validate_annotated(BadItin, _, BadA),
+    annotations_json(BadA, BadAnn),
+    assertion(BadAnn.routing == null).
+
+:- end_tests(route_composition).
 
 :- begin_tests(city_codes).
 

@@ -11,3 +11,14 @@ Dockerfile
 .dockerignore
 *.log
 httpd.log
+
+# The stylesheet toolchain. web/app.css is generated from web/app.src.css and
+# committed, so the image carries the output and never needs the input, the
+# compiler, or node. web/fonts/NOTICE.md and OFL.txt are deliberately NOT
+# excluded: the licence requires them to travel with the font files.
+node_modules
+package.json
+package-lock.json
+.impeccable.md
+web/app.src.css
+web/check-contrast.mjs

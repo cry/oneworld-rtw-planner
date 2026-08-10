@@ -1,0 +1,14 @@
+{
+  "name": "oneworld-rtw-planner-ui",
+  "private": true,
+  "description": "Build step for web/app.css only. The validator itself is Prolog and needs none of this.",
+  "scripts": {
+    "css": "tailwindcss -i web/app.src.css -o web/app.css --minify",
+    "css:watch": "tailwindcss -i web/app.src.css -o web/app.css --watch",
+    "check:contrast": "node web/check-contrast.mjs"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

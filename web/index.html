@@ -4,193 +4,56 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>oneworld Explorer validator</title>
+<meta name="description" content="Check a round-the-world itinerary against oneworld Explorer fare Rule 3015.">
+<meta name="color-scheme" content="light dark">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='none' stroke='%2314507d' stroke-width='2.5'/><ellipse cx='16' cy='16' rx='6' ry='13' fill='none' stroke='%2314507d' stroke-width='2.5'/><path d='M3.6 11h24.8M3.6 21h24.8' stroke='%2314507d' stroke-width='2.5'/></svg>">
-<style>
-  :root {
-    --bg: #f6f7f9;
-    --panel: #ffffff;
-    --ink: #16191d;
-    --muted: #6b7280;
-    --line: #dfe3e8;
-    --accent: #14507d;
-    --ok: #1a7f52;
-    --ok-bg: #e7f5ee;
-    --err: #b3261e;
-    --err-bg: #fdeceb;
-    --warn: #8a5a00;
-    --warn-bg: #fdf3e0;
-    --indet: #4a4a8a;
-    --indet-bg: #eeeef8;
-    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #14171b; --panel: #1c2026; --ink: #e6e8ea; --muted: #9aa3ad;
-      --line: #2c323a; --accent: #6fb3e0;
-      --ok: #6cd39b; --ok-bg: #16301f;
-      --err: #f2938c; --err-bg: #33191a;
-      --warn: #e5b45f; --warn-bg: #2f2616;
-      --indet: #a8a8e0; --indet-bg: #212138;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--bg); color: var(--ink);
-    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
-  }
-  header {
-    padding: 14px 20px; border-bottom: 1px solid var(--line);
-    background: var(--panel); display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
-  }
-  header h1 { font-size: 17px; margin: 0; font-weight: 650; }
-  header .meta { color: var(--muted); font-size: 13px; }
-  main {
-    display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
-    gap: 16px; padding: 16px; align-items: start;
-  }
-  @media (max-width: 980px) { main { grid-template-columns: 1fr; } }
-  .panel {
-    background: var(--panel); border: 1px solid var(--line);
-    border-radius: 8px; padding: 14px;
-  }
-  .panel h2 {
-    font-size: 12px; text-transform: uppercase; letter-spacing: .07em;
-    color: var(--muted); margin: 0 0 10px; font-weight: 650;
-  }
-  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-end; margin-bottom: 12px; }
-  label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 3px; }
-  input, select, button, textarea {
-    font: inherit; color: var(--ink); background: var(--panel);
-    border: 1px solid var(--line); border-radius: 6px; padding: 5px 7px;
-  }
-  input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
-  button {
-    background: var(--accent); color: #fff; border-color: transparent;
-    cursor: pointer; padding: 6px 13px; font-weight: 550;
-  }
-  button.ghost { background: transparent; color: var(--accent); border-color: var(--line); font-weight: 500; }
-  button:disabled { opacity: .55; cursor: default; }
-  .scroll { overflow-x: auto; }
-  table { border-collapse: collapse; width: 100%; font-size: 14px; }
-  th {
-    text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .05em;
-    color: var(--muted); font-weight: 600; padding: 0 6px 5px; white-space: nowrap;
-  }
-  td { padding: 2px 6px 2px 0; vertical-align: middle; }
-  td input, td select { width: 100%; min-width: 0; }
-  .code { width: 5.5em; text-transform: uppercase; font-family: var(--mono); }
-  .num { width: 4.5em; font-family: var(--mono); }
-  .when { width: 12.5em; }
-  .n { color: var(--muted); font-family: var(--mono); font-size: 13px; width: 1.6em; }
-  .del {
-    background: transparent; color: var(--muted); border: none;
-    padding: 2px 6px; font-size: 17px; line-height: 1;
-  }
-  .del:hover { color: var(--err); }
-  /* Routing-only itineraries have no times to show, so those columns go. */
-  .hide-when .c-when { display: none; }
-  .route { width: 100%; font-family: var(--mono); text-transform: uppercase; }
-  .hint { font-size: 12px; color: var(--muted); margin: -4px 0 12px; line-height: 1.5; }
-  .hint code { font-family: var(--mono); background: var(--bg); border: 1px solid var(--line);
-               border-radius: 4px; padding: 0 4px; text-transform: none; }
-
-  .verdict { border-radius: 8px; padding: 11px 13px; margin-bottom: 12px; border: 1px solid; }
-  .verdict strong { font-size: 16px; letter-spacing: .02em; }
-  .verdict .sub { font-size: 13px; opacity: .85; margin-top: 2px; }
-  .v-valid { background: var(--ok-bg); border-color: var(--ok); color: var(--ok); }
-  .v-invalid { background: var(--err-bg); border-color: var(--err); color: var(--err); }
-  .v-indeterminate { background: var(--indet-bg); border-color: var(--indet); color: var(--indet); }
-
-  .violation {
-    border: 1px solid var(--line); border-left-width: 3px;
-    border-radius: 6px; padding: 8px 10px; margin-bottom: 8px;
-  }
-  .violation.error { border-left-color: var(--err); }
-  .violation.warning { border-left-color: var(--warn); }
-  .violation.indeterminate { border-left-color: var(--indet); }
-  .violation .head { display: flex; gap: 7px; align-items: center; margin-bottom: 3px; flex-wrap: wrap; }
-  .chip {
-    font-size: 11px; padding: 1px 6px; border-radius: 4px;
-    font-family: var(--mono); font-weight: 600;
-  }
-  .chip.cite { background: var(--line); color: var(--ink); }
-  .chip.error { background: var(--err-bg); color: var(--err); }
-  .chip.warning { background: var(--warn-bg); color: var(--warn); }
-  .chip.indeterminate { background: var(--indet-bg); color: var(--indet); }
-  .rule { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-left: auto; }
-  .evidence { font-family: var(--mono); font-size: 11.5px; color: var(--muted); margin-top: 4px; }
-
-  .kv { display: grid; grid-template-columns: auto 1fr; gap: 3px 12px; font-size: 13.5px; }
-  .kv dt { color: var(--muted); }
-  .kv dd { margin: 0; }
-  .seq { font-family: var(--mono); font-size: 12.5px; word-break: break-word; }
-  .pt { font-size: 13px; }
-  .pt .kind { font-family: var(--mono); font-size: 11px; }
-  .stopover { color: var(--accent); font-weight: 600; }
-  .transfer { color: var(--muted); }
-  .indet { color: var(--indet); font-weight: 600; }
-  .pt .src { font-size: 11px; color: var(--muted); }
-  /* Rules the input cannot answer. Deliberately not styled as a pass. */
-  .notchecked {
-    border: 1px dashed var(--line); border-radius: 6px;
-    padding: 8px 10px; margin-bottom: 8px; font-size: 13px;
-  }
-  .notchecked h3 { margin: 0 0 5px; font-size: 12px; text-transform: uppercase;
-                   letter-spacing: .05em; color: var(--muted); font-weight: 600; }
-  .notchecked li { margin-bottom: 3px; }
-  .notchecked ul { margin: 0; padding-left: 0; list-style: none; }
-  details { margin-top: 12px; }
-  summary { cursor: pointer; font-size: 13px; color: var(--muted); }
-  pre {
-    font-family: var(--mono); font-size: 12px; background: var(--bg);
-    border: 1px solid var(--line); border-radius: 6px; padding: 9px;
-    overflow-x: auto; margin: 8px 0 0;
-  }
-  textarea { width: 100%; min-height: 150px; font-family: var(--mono); font-size: 12px; }
-  .empty { color: var(--muted); font-size: 14px; }
-</style>
+<link rel="preload" href="/fonts/archivo-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/martianmono-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/app.css">
 </head>
-<body>
+<body class="font-sans text-[14px] leading-[1.45]">
 
-<header>
-  <h1>oneworld Explorer validator</h1>
-  <span class="meta" id="ruleset">Rule 3015</span>
-  <span class="meta" style="margin-left:auto" id="status"></span>
+<!-- Masthead, set like the head of a printed tariff page: the title heavily
+     condensed over a rule, the edition flush right. -->
+<header class="border-b-2 border-ink bg-panel">
+  <div class="mx-auto flex max-w-[1680px] flex-wrap items-end justify-between gap-x-6 gap-y-1 px-4 pb-2 pt-3">
+    <h1 class="text-[21px] font-extrabold uppercase leading-none tracking-[0.015em]"
+        style="font-stretch:68%">
+      oneworld Explorer <span class="text-accent">validator</span>
+    </h1>
+    <p id="ruleset" class="mono text-[10.5px] leading-tight text-muted sm:text-right">
+      Tariff RWR2 Rule 3015
+    </p>
+  </div>
 </header>
 
-<main>
-  <section class="panel">
-    <h2>Itinerary</h2>
+<main class="mx-auto grid max-w-[1680px] items-start gap-4 p-4 xl:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)]">
 
-    <div class="row">
-      <div>
-        <label for="example">Load an example</label>
-        <select id="example">
-          <option value="">—</option>
+  <!-- ============================ input ============================ -->
+  <section class="min-w-0 rounded-sm border border-rule bg-panel" aria-labelledby="itinerary-heading">
+    <h2 id="itinerary-heading" class="sr-only">Itinerary</h2>
+
+    <!-- Cabin, passengers and the example picker sit above the tabs because they
+         describe the fare, not the routing, and survive switching between the two
+         ways of entering a journey. -->
+    <div class="flex flex-wrap items-end gap-x-4 gap-y-3 border-b border-rule px-4 py-3">
+      <div class="min-w-[15rem] flex-1">
+        <label class="label mb-1 block" for="example">Load an example</label>
+        <select id="example" class="field-select">
+          <option value="">Start from an empty itinerary</option>
         </select>
       </div>
       <div>
-        <label for="mode">Detail</label>
-        <select id="mode">
-          <option value="full">Dates and times</option>
-          <option value="routing">Routing only</option>
-        </select>
-      </div>
-      <div>
-        <label for="cabin">Cabin</label>
-        <select id="cabin">
+        <label class="label mb-1 block" for="cabin">Cabin</label>
+        <select id="cabin" class="field-select w-[9.5rem]">
           <option value="economy">Economy</option>
           <option value="business" selected>Business</option>
           <option value="first">First</option>
         </select>
       </div>
       <div>
-        <label for="origin">Origin (optional)</label>
-        <input id="origin" class="code" placeholder="auto">
-      </div>
-      <div>
-        <label for="pax">Passengers</label>
-        <select id="pax">
+        <label class="label mb-1 block" for="pax">Passengers</label>
+        <select id="pax" class="field-select w-[11.5rem]">
           <option value="adult">1 adult</option>
           <option value="adult+child">Adult + child (7)</option>
           <option value="adult+infant">Adult + infant (1)</option>
@@ -199,487 +62,154 @@
       </div>
     </div>
 
-    <div class="row">
-      <div style="flex:1 1 26em">
-        <label for="route">Routing</label>
-        <input id="route" class="route" placeholder="LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR">
+    <!-- The two ways in. Each posts a different request shape, so neither view has
+         to pretend to be the other. -->
+    <div class="flex items-stretch border-b border-rule px-4" role="tablist"
+         aria-label="How to enter the itinerary">
+      <button type="button" role="tab" id="tab-routing" aria-controls="panel-routing"
+              aria-selected="true"
+              class="tab -mb-px border-b-2 px-1 py-2.5 text-left">
+        <span class="block text-[13px] font-semibold">Routing</span>
+        <span class="tab-sub block text-[11px] text-muted">One line, no dates</span>
+      </button>
+      <button type="button" role="tab" id="tab-segments" aria-controls="panel-segments"
+              aria-selected="false" tabindex="-1"
+              class="tab -mb-px ml-6 border-b-2 px-1 py-2.5 text-left">
+        <span class="block text-[13px] font-semibold">
+          Segments <span id="segcount" class="mono text-[11px] font-normal text-muted"></span>
+        </span>
+        <span class="tab-sub block text-[11px] text-muted">Flight by flight</span>
+      </button>
+    </div>
+
+    <!-- ---------------------------- routing ---------------------------- -->
+    <div id="panel-routing" role="tabpanel" aria-labelledby="tab-routing" class="px-4 py-3">
+      <label class="label mb-1 block" for="route">Fare-construction routing</label>
+      <div class="flex flex-wrap gap-2">
+        <input id="route" class="route-input min-w-[18rem] flex-1"
+               spellcheck="false" autocomplete="off"
+               placeholder="LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR">
+        <button id="parse" class="btn">Validate routing</button>
       </div>
-      <button id="parse" class="ghost">Read routing</button>
-    </div>
-    <p class="hint" id="routehelp"></p>
-
-    <div class="scroll">
-      <table id="segtable">
-        <thead>
-          <tr>
-            <th></th><th>Type</th><th>From</th><th>To</th>
-            <th>Mkt</th><th>Op</th><th>Flight</th>
-            <th class="c-when">Departs</th><th class="c-when">Arrives</th>
-            <th>Stop at arrival</th><th></th>
-          </tr>
-        </thead>
-        <tbody id="segments"></tbody>
-      </table>
-    </div>
-
-    <div class="row" style="margin-top:12px">
-      <button id="add" class="ghost">Add segment</button>
-      <button id="clear" class="ghost">Clear</button>
-      <button id="validate" style="margin-left:auto">Validate</button>
+      <p class="hint mt-2 max-w-[68ch] text-[12px] leading-[1.6] text-muted" id="routehelp"></p>
+      <!-- Reference material, not instruction. It was five lines sitting under the
+           primary input competing with it; it belongs one click away. -->
+      <details class="group mt-1.5">
+        <summary class="label cursor-pointer select-none">
+          <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
+          City codes
+        </summary>
+        <p class="hint mt-1 max-w-[68ch] text-[12px] leading-[1.7] text-muted" id="citycodes"></p>
+      </details>
+      <p id="adopted" class="mt-2 hidden text-[12px] text-muted">
+        The parsed itinerary is in
+        <button type="button" class="jump-segments font-semibold text-accent underline underline-offset-2">Segments</button>
+        if you want to add dates or flight numbers.
+      </p>
+      <p id="composed" class="mt-2 hidden text-[12px] text-muted">
+        Written from the segment table. Dates, times and flight numbers have no
+        notation in a routing, so they are not carried across.
+      </p>
     </div>
 
-    <details>
-      <summary>Paste an itinerary as JSON</summary>
-      <textarea id="paste" placeholder='{"origin":"LHR","cabin":"business","segments":[…]}'></textarea>
-      <button id="load" class="ghost" style="margin-top:6px">Load into the form</button>
+    <!-- ---------------------------- segments ---------------------------- -->
+    <div id="panel-segments" role="tabpanel" aria-labelledby="tab-segments" class="hidden px-4 py-3">
+      <div class="mb-3 flex flex-wrap items-end gap-x-4 gap-y-3">
+        <div>
+          <label class="label mb-1 block" for="times">Times</label>
+          <!-- Not called "routing only": the sibling tab is already called Routing
+               and means something narrower. This is about whether a clock exists. -->
+          <select id="times" class="field-select w-[13.5rem]">
+            <option value="full">Dates and times given</option>
+            <option value="routing">No dates or times</option>
+          </select>
+        </div>
+        <div>
+          <label class="label mb-1 block" for="origin">Origin</label>
+          <input id="origin" class="code-input w-[6.5rem]" placeholder="auto" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="scroll-x -mx-4 px-4">
+        <table id="segtable" class="w-full border-collapse text-[13px]">
+          <thead>
+            <tr class="border-b border-rule-strong">
+              <th class="label w-6 pb-1.5 pr-1 text-left"><span class="sr-only">Segment</span>#</th>
+              <th class="label pb-1.5 pr-2 text-left">Type</th>
+              <th class="label pb-1.5 pr-2 text-left">From</th>
+              <th class="label pb-1.5 pr-2 text-left">To</th>
+              <!-- Next to "To" rather than at the far end: it describes the point
+                   the segment arrives at, and it is the one control routing-only
+                   itineraries turn on, so it must not be what scrolls out of
+                   sight when the time columns are shown. -->
+              <th class="label pb-1.5 pr-2 text-left">Stop at arrival</th>
+              <th class="label pb-1.5 pr-2 text-left">Mkt</th>
+              <th class="label pb-1.5 pr-2 text-left">Op</th>
+              <th class="label pb-1.5 pr-2 text-left">Flight</th>
+              <th class="label c-when pb-1.5 pr-2 text-left">Departs</th>
+              <th class="label c-when pb-1.5 pr-2 text-left">Arrives</th>
+              <th class="w-7 pb-1.5"><span class="sr-only">Remove</span></th>
+            </tr>
+          </thead>
+          <tbody id="segments"></tbody>
+        </table>
+      </div>
+
+      <p id="segempty" class="hidden py-6 text-center text-[13px] text-muted">
+        No segments yet. Add one, load an example, or write the journey as a
+        <button type="button" class="jump-routing font-semibold text-accent underline underline-offset-2">routing</button>.
+      </p>
+
+      <!-- Composed by the server, not here: a routing written in the browser
+           would be a second definition of the grammar with no test behind it. -->
+      <p id="routingerr" class="hidden mt-3 max-w-[68ch] text-[12.5px] text-warn"></p>
+
+      <div class="mt-3 flex flex-wrap items-center gap-2">
+        <button id="add" class="btn-quiet">Add segment</button>
+        <button id="toroute" class="btn-quiet">Show as routing</button>
+        <button id="clear" class="btn-quiet">Clear</button>
+        <!-- Clear discards a table that may have taken real typing. Undo costs one
+             variable and removes the need for a confirmation dialog. -->
+        <button id="undo" class="btn-quiet hidden">Undo clear</button>
+        <button id="validate" class="btn ml-auto">Validate segments</button>
+      </div>
+    </div>
+
+    <!-- Escape hatch for anyone driving the API directly. Collapsed: it is not part
+         of the normal path through the page. -->
+    <details class="group border-t border-rule px-4 py-2.5">
+      <summary class="label cursor-pointer select-none list-none marker:content-none">
+        <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
+        Paste an itinerary as JSON
+      </summary>
+      <textarea id="paste" rows="7" spellcheck="false" aria-label="Itinerary JSON"
+                class="field mono mt-2 block text-[12px] leading-[1.5]"
+                placeholder='{"cabin":"business","route":"LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR"}'></textarea>
+      <button id="load" class="btn-quiet mt-2">Load into the form</button>
     </details>
   </section>
 
-  <section class="panel">
-    <h2>Report</h2>
-    <div id="report"><p class="empty">Load an example or build an itinerary, then press Validate.</p></div>
+  <!-- ============================ report ============================ -->
+  <section class="min-w-0 xl:sticky xl:top-4">
+    <div class="flex items-baseline justify-between gap-3 pb-1.5">
+      <h2 class="label">Report</h2>
+      <!-- A verdict for an itinerary the user has since edited is worse than no
+           verdict, because it looks current. Any edit says so until revalidated. -->
+      <p id="stale" class="hidden text-[11.5px] font-semibold text-warn">
+        Itinerary changed since this report
+      </p>
+      <p id="status" class="mono ml-auto text-[10.5px] text-muted"></p>
+    </div>
+    <div id="report" class="rounded-sm border border-rule bg-panel"></div>
+
+    <!-- The report is replaced wholesale on every validation, which a screen
+         reader has no reason to notice. One short line goes here instead of
+         making the whole panel a live region, which would read the fare table
+         and every connection aloud on each press. -->
+    <p id="announce" class="sr-only" role="status" aria-live="polite"></p>
   </section>
 </main>
 
-<script>
-'use strict';
-
-const EXAMPLES = {
-  'Classic LHR round-the-world (valid)': {
-    origin: 'LHR', cabin: 'business',
-    segments: [
-      {type:'flight', from:'LHR', to:'JFK', carrier:'BA', flight:'BA117', dep:'2026-09-01T10:25', arr:'2026-09-01T13:30'},
-      {type:'flight', from:'JFK', to:'LAX', carrier:'AA', flight:'AA33',  dep:'2026-09-05T08:00', arr:'2026-09-05T11:15'},
-      {type:'flight', from:'LAX', to:'NRT', carrier:'JL', flight:'JL61',  dep:'2026-09-05T13:30', arr:'2026-09-06T17:00'},
-      {type:'flight', from:'NRT', to:'HKG', carrier:'CX', flight:'CX521', dep:'2026-09-10T09:00', arr:'2026-09-10T13:00'},
-      {type:'flight', from:'HKG', to:'BKK', carrier:'CX', flight:'CX709', dep:'2026-09-14T10:00', arr:'2026-09-14T12:00'},
-      {type:'flight', from:'BKK', to:'DOH', carrier:'QR', flight:'QR833', dep:'2026-09-18T02:00', arr:'2026-09-18T05:00'},
-      {type:'flight', from:'DOH', to:'LHR', carrier:'QR', flight:'QR3',   dep:'2026-09-18T08:00', arr:'2026-09-18T13:30'}
-    ]
-  },
-  'Same sector twice — 4(i)': {
-    origin: 'LHR', cabin: 'business',
-    segments: [
-      {type:'flight', from:'LHR', to:'JFK', carrier:'BA', dep:'2026-09-01T10:25', arr:'2026-09-01T13:30'},
-      {type:'flight', from:'JFK', to:'LAX', carrier:'AA', dep:'2026-09-05T08:00', arr:'2026-09-05T11:15'},
-      {type:'flight', from:'LAX', to:'NRT', carrier:'JL', dep:'2026-09-05T13:30', arr:'2026-09-06T17:00'},
-      {type:'flight', from:'NRT', to:'HKG', carrier:'CX', dep:'2026-09-10T09:00', arr:'2026-09-10T13:00'},
-      {type:'flight', from:'HKG', to:'NRT', carrier:'CX', dep:'2026-09-12T14:00', arr:'2026-09-12T19:00'},
-      {type:'flight', from:'NRT', to:'HKG', carrier:'CX', dep:'2026-09-14T09:00', arr:'2026-09-14T13:00'},
-      {type:'flight', from:'HKG', to:'DOH', carrier:'QR', dep:'2026-09-18T02:00', arr:'2026-09-18T05:30'},
-      {type:'flight', from:'DOH', to:'LHR', carrier:'QR', dep:'2026-09-18T08:00', arr:'2026-09-18T13:30'}
-    ]
-  },
-  'Doubles back to TC1 — 4(a)/4(b)': {
-    origin: 'LHR', cabin: 'business',
-    segments: [
-      {type:'flight', from:'LHR', to:'JFK', carrier:'BA', dep:'2026-09-01T10:25', arr:'2026-09-01T13:30'},
-      {type:'flight', from:'JFK', to:'LAX', carrier:'AA', dep:'2026-09-05T08:00', arr:'2026-09-05T11:15'},
-      {type:'flight', from:'LAX', to:'NRT', carrier:'JL', dep:'2026-09-05T13:30', arr:'2026-09-06T17:00'},
-      {type:'flight', from:'NRT', to:'HKG', carrier:'CX', dep:'2026-09-10T09:00', arr:'2026-09-10T13:00'},
-      {type:'flight', from:'HKG', to:'BKK', carrier:'CX', dep:'2026-09-14T10:00', arr:'2026-09-14T12:00'},
-      {type:'flight', from:'BKK', to:'JFK', carrier:'AA', dep:'2026-09-18T02:00', arr:'2026-09-18T14:00'},
-      {type:'flight', from:'JFK', to:'LHR', carrier:'BA', dep:'2026-09-18T19:00', arr:'2026-09-19T07:00'}
-    ]
-  },
-  'Africa excursion (valid — 4(e) two-way allowance)': {
-    origin: 'LHR', cabin: 'business',
-    segments: [
-      {type:'flight', from:'LHR', to:'JFK', carrier:'BA', dep:'2026-09-01T10:25', arr:'2026-09-01T13:30'},
-      {type:'flight', from:'JFK', to:'LAX', carrier:'AA', dep:'2026-09-05T08:00', arr:'2026-09-05T11:15'},
-      {type:'flight', from:'LAX', to:'NRT', carrier:'JL', dep:'2026-09-05T13:30', arr:'2026-09-06T17:00'},
-      {type:'flight', from:'NRT', to:'HKG', carrier:'CX', dep:'2026-09-10T09:00', arr:'2026-09-10T13:00'},
-      {type:'flight', from:'HKG', to:'DOH', carrier:'QR', dep:'2026-09-14T02:00', arr:'2026-09-14T05:30'},
-      {type:'flight', from:'DOH', to:'NBO', carrier:'QR', dep:'2026-09-14T08:30', arr:'2026-09-14T13:00'},
-      {type:'flight', from:'NBO', to:'LHR', carrier:'BA', dep:'2026-09-18T23:30', arr:'2026-09-19T06:00'}
-    ]
-  },
-  'Sydney origin, surface across the Pacific (valid — 4(g))': {
-    origin: 'SYD', cabin: 'economy',
-    segments: [
-      {type:'flight',  from:'SYD', to:'HKG', carrier:'QF', dep:'2026-09-01T09:20', arr:'2026-09-01T16:10'},
-      {type:'flight',  from:'HKG', to:'DOH', carrier:'QR', dep:'2026-09-06T00:20', arr:'2026-09-06T04:05'},
-      {type:'flight',  from:'DOH', to:'LHR', carrier:'QR', dep:'2026-09-10T08:00', arr:'2026-09-10T13:30'},
-      {type:'flight',  from:'LHR', to:'JFK', carrier:'BA', dep:'2026-09-15T10:25', arr:'2026-09-15T13:30'},
-      {type:'flight',  from:'JFK', to:'LAX', carrier:'AA', dep:'2026-09-20T08:00', arr:'2026-09-20T11:15'},
-      {type:'surface', from:'LAX', to:'SYD'}
-    ]
-  },
-  'No times at all (indeterminate)': {
-    origin: 'LHR', cabin: 'business',
-    segments: [
-      {type:'flight', from:'LHR', to:'JFK', carrier:'BA'},
-      {type:'flight', from:'JFK', to:'LAX', carrier:'AA'},
-      {type:'flight', from:'LAX', to:'NRT', carrier:'JL'},
-      {type:'flight', from:'NRT', to:'HKG', carrier:'CX'},
-      {type:'flight', from:'HKG', to:'BKK', carrier:'CX'},
-      {type:'flight', from:'BKK', to:'DOH', carrier:'QR'},
-      {type:'flight', from:'DOH', to:'LHR', carrier:'QR'}
-    ]
-  },
-  // The same journey as the first example, written as a routing. Every point
-  // is classified by X/ rather than by the clock, so rule 8 is decided and the
-  // verdict is not indeterminate -- only rule 7 goes unchecked.
-  'Routing only — same journey, no dates (valid)': {
-    cabin: 'business',
-    route: 'LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR'
-  },
-  'Routing only — every point a transfer (invalid, rule 8)': {
-    cabin: 'business',
-    route: 'LHR-BA-X/JFK-AA-X/LAX-JL-X/NRT-CX-X/HKG-CX-X/BKK-QR-X/DOH-QR-LHR'
-  },
-  'Routing only — city codes and a surface sector (valid)': {
-    cabin: 'business',
-    route: 'LON-BA-NYC-AA-X/DFW-AA-LAX-QF-SYD//MEL-QF-X/SIN-BA-LON'
-  }
-};
-
-const PAX = {
-  'adult':        [{type:'adult'}],
-  'adult+child':  [{type:'adult'}, {type:'child',  age: 7}],
-  'adult+infant': [{type:'adult'}, {type:'infant', age: 1}],
-  'child':        [{type:'child', age: 7}]
-};
-
-const $ = id => document.getElementById(id);
-let rows = [];
-
-// --- the segment table -----------------------------------------------------
-
-function blank() {
-  return {type:'flight', from:'', to:'', marketing:'', operating:'', flight:'', dep:'', arr:'', stop:''};
-}
-
-const mode = () => $('mode').value;
-
-function render() {
-  const body = $('segments');
-  body.innerHTML = '';
-  // Routing mode has no clock, so the time columns are hidden rather than
-  // left to be filled in and then refused by the server.
-  $('segtable').classList.toggle('hide-when', mode() === 'routing');
-  rows.forEach((r, i) => {
-    const tr = document.createElement('tr');
-    const surface = r.type === 'surface';
-    const last = i === rows.length - 1;
-    const opt = (v, label) => `<option value="${v}"${r.stop === v ? ' selected' : ''}>${label}</option>`;
-    tr.innerHTML = `
-      <td class="n">${i + 1}</td>
-      <td><select name="type-${i}" data-f="type" style="width:5.8em">
-            <option value="flight"${surface ? '' : ' selected'}>flight</option>
-            <option value="surface"${surface ? ' selected' : ''}>surface</option>
-          </select></td>
-      <td><input class="code" name="from-${i}" data-f="from" list="dl-${i}-from" value="${r.from}">
-          <datalist id="dl-${i}-from"></datalist></td>
-      <td><input class="code" name="to-${i}" data-f="to" list="dl-${i}-to" value="${r.to}">
-          <datalist id="dl-${i}-to"></datalist></td>
-      <td><input class="num" name="marketing-${i}" data-f="marketing" value="${r.marketing}" ${surface ? 'disabled' : ''}></td>
-      <td><input class="num" name="operating-${i}" data-f="operating" value="${r.operating}" ${surface ? 'disabled' : ''}></td>
-      <td><input class="num" name="flight-${i}" data-f="flight" value="${r.flight}" ${surface ? 'disabled' : ''}></td>
-      <td class="c-when"><input class="when" name="dep-${i}" type="datetime-local" data-f="dep" value="${r.dep}" ${surface ? 'disabled' : ''}></td>
-      <td class="c-when"><input class="when" name="arr-${i}" type="datetime-local" data-f="arr" value="${r.arr}" ${surface ? 'disabled' : ''}></td>
-      <td><select name="stop-${i}" data-f="stop" style="width:8em"
-                  ${last ? 'disabled title="The last segment ends the journey, so there is no intermediate point to describe."' : ''}>
-            ${opt('', last ? '—' : (mode() === 'routing' ? 'not stated' : 'from times'))}
-            ${opt('transfer', 'transfer')}
-            ${opt('stopover', 'stopover')}
-          </select></td>
-      <td><button class="del" title="Remove">&times;</button></td>`;
-
-    tr.querySelectorAll('[data-f]').forEach(el => {
-      el.addEventListener('input', () => {
-        rows[i][el.dataset.f] = el.value;
-        if (el.dataset.f === 'type') render();
-      });
-    });
-    tr.querySelectorAll('input.code').forEach(el => {
-      el.addEventListener('input', () => suggest(el, el.getAttribute('list')));
-    });
-    tr.querySelector('.del').addEventListener('click', () => { rows.splice(i, 1); render(); });
-    body.appendChild(tr);
-  });
-}
-
-let timer = null;
-function suggest(input, listId) {
-  clearTimeout(timer);
-  const q = input.value.trim();
-  if (q.length < 2) return;
-  timer = setTimeout(async () => {
-    try {
-      const r = await fetch(`/api/airports?q=${encodeURIComponent(q)}&limit=8`);
-      const d = await r.json();
-      document.getElementById(listId).innerHTML =
-        d.results.map(a => `<option value="${a.iata}">${a.city}, ${a.country}</option>`).join('');
-    } catch (e) { /* typeahead is a convenience; ignore failures */ }
-  }, 160);
-}
-
-// --- request and response --------------------------------------------------
-
-function buildRequest(routeString) {
-  const body = {cabin: $('cabin').value, passengers: PAX[$('pax').value]};
-
-  // A routing string is sent as-is so the server does the parsing. Splitting
-  // the grammar across both sides would give two definitions of it to keep in
-  // step, and the browser's would be the one nothing tests.
-  if (routeString) {
-    body.route = routeString;
-  } else {
-    const routing = mode() === 'routing';
-    body.mode = routing ? 'routing' : 'full';
-    body.segments = rows.map((r, i) => {
-      const s = {type: r.type, from: r.from.trim().toUpperCase(), to: r.to.trim().toUpperCase()};
-      if (r.type === 'flight') {
-        const mkt = r.marketing.trim(), op = r.operating.trim();
-        // `carrier` is the server's shorthand for both fields; sending it only
-        // when they genuinely match keeps the 4(j) "operator unknown" warning
-        // reachable from the form.
-        if (mkt && op && mkt.toUpperCase() === op.toUpperCase()) s.carrier = mkt;
-        else { if (mkt) s.marketingCarrier = mkt; if (op) s.operatingCarrier = op; }
-        if (r.flight.trim()) s.flight = r.flight.trim();
-        // Routing mode declares no clock, and the server refuses times sent
-        // with it rather than discarding them behind the user's back.
-        if (!routing) { if (r.dep) s.dep = r.dep; if (r.arr) s.arr = r.arr; }
-      }
-      if (r.stop && i < rows.length - 1) s.stop = r.stop;
-      return s;
-    });
-  }
-
-  const origin = $('origin').value.trim();
-  if (origin && !routeString) body.origin = origin.toUpperCase();
-  return body;
-}
-
-async function validate(routeString) {
-  const body = buildRequest(routeString);
-  $('validate').disabled = true;
-  $('status').textContent = 'validating…';
-  try {
-    const res = await fetch('/api/validate', {
-      method: 'POST',
-      headers: {'content-type': 'application/json'},
-      body: JSON.stringify(body)
-    });
-    const data = await res.json();
-    if (!res.ok) renderError(res.status, data, body);
-    else {
-      // A routing string that parsed becomes rows in the table, so it can be
-      // edited afterwards without retyping the whole thing.
-      if (routeString) adoptSegments(data.annotations);
-      renderReport(data, body);
-    }
-  } catch (e) {
-    $('report').innerHTML = `<div class="verdict v-invalid"><strong>Could not reach the service</strong>
-      <div class="sub">${esc(e.message)}</div></div>`;
-  } finally {
-    $('validate').disabled = false;
-    $('status').textContent = '';
-  }
-}
-
-const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-
-function renderError(status, data, body) {
-  $('report').innerHTML = `
-    <div class="verdict v-invalid">
-      <strong>${status} ${esc(data.error || 'error')}</strong>
-      <div class="sub">${esc(data.message || '')}</div>
-    </div>` + requestBlock(body);
-}
-
-function tally(violations) {
-  const nouns = {error: 'error', indeterminate: 'undecidable check', warning: 'warning'};
-  return ['error', 'indeterminate', 'warning'].map(sev => {
-    const n = violations.filter(v => v.severity === sev).length;
-    if (!n) return null;
-    return `${n} ${nouns[sev]}${n === 1 ? '' : 's'}`;
-  }).filter(Boolean).join(', ');
-}
-
-function renderReport(data, body) {
-  const v = data.violations || [];
-  const fare = data.fare || {};
-  const ann = data.annotations || {};
-  const counts = tally(v);
-
-  const violations = v.length
-    ? v.map(x => `
-        <div class="violation ${esc(x.severity)}">
-          <div class="head">
-            <span class="chip cite">${esc(x.citation)}</span>
-            <span class="chip ${esc(x.severity)}">${esc(x.severity)}</span>
-            <span class="rule">${esc(x.rule)}</span>
-          </div>
-          <div>${esc(x.message)}</div>
-          ${evidence(x.evidence)}
-        </div>`).join('')
-    : '<p class="empty">No rule was broken.</p>';
-
-  const points = (ann.points || []).map(p => `
-      <tr class="pt">
-        <td>after ${p.afterSegment}</td>
-        <td><strong>${esc(p.airport)}</strong></td>
-        <td class="kind ${p.kind === 'indeterminate' ? 'indet' : esc(p.kind)}">${esc(p.kind)}</td>
-        <td>${p.groundHours === null ? '—' : p.groundHours + ' h'}</td>
-        <td class="src">${esc(source(p))}</td>
-      </tr>`).join('');
-
-  // Rules the input could not answer. Rendering the verdict without these
-  // would claim coverage the report does not give.
-  const nc = data.notChecked || [];
-  const notChecked = nc.length ? `
-    <div class="notchecked">
-      <h3>Not checked — ${nc.length} rule${nc.length === 1 ? '' : 's'} this input cannot answer</h3>
-      <ul>${nc.map(x =>
-        `<li><span class="chip cite">${esc(x.citation)}</span> ${esc(x.reason)}</li>`).join('')}</ul>
-    </div>` : '';
-
-  $('report').innerHTML = `
-    <div class="verdict v-${esc(data.verdict)}">
-      <strong>${esc(String(data.verdict).toUpperCase())}</strong>
-      ${counts ? `<div class="sub">${esc(counts)}</div>` : ''}
-    </div>
-
-    <dl class="kv" style="margin:0 0 14px">
-      <dt>Fare basis</dt><dd>${fare.fareBasis === 'none'
-        ? `<em>none published for ${fare.continents} continents in ${esc(fare.cabin)}</em>`
-        : `<strong>${esc(fare.fareBasis)}</strong> — ${fare.continents} continents, ${esc(fare.cabin)}`}</dd>
-      <dt>Continents</dt><dd class="seq">${(fare.continentList || []).join(', ')}</dd>
-      <dt>Conferences</dt><dd class="seq">${(ann.trafficConferenceSequence || []).join(' → ')}</dd>
-      <dt>Route</dt><dd class="seq">${(ann.continentSequence || []).join(' → ')}</dd>
-      ${fare.cabin === 'economy' && fare.premiumEconomyUpgradeUsd
-        ? `<dt>Premium economy</dt><dd>USD ${fare.premiumEconomyUpgradeUsd} for all segments (section 12)</dd>` : ''}
-    </dl>
-
-    ${violations}
-    ${notChecked}
-
-    ${points ? `<details open><summary>Connections</summary>
-      <div class="scroll"><table>${points}</table></div></details>` : ''}
-
-    ${requestBlock(body)}
-    <details><summary>Full response</summary><pre>${esc(JSON.stringify(data, null, 2))}</pre></details>`;
-}
-
-// Which of the two sources settled this point. Worth showing: a declaration
-// that disagrees with the clock changes the stopover count, and the report
-// would otherwise give no clue which one the verdict rests on.
-function source(p) {
-  if (p.surfaceAdjacent) return 'surface sector';
-  const clock = p.derivedKind === 'transfer' || p.derivedKind === 'stopover';
-  if (p.declaredKind && clock && p.declaredKind !== p.derivedKind)
-    return `declared, over ${p.derivedKind} by the clock`;
-  if (p.declaredKind) return 'declared';
-  if (p.kind === 'indeterminate') return 'neither time nor declaration';
-  return 'ground time';
-}
-
-function evidence(e) {
-  if (!e || !Object.keys(e).length) return '';
-  const parts = Object.entries(e).map(([k, val]) =>
-    `${k}: ${Array.isArray(val) ? val.join(', ') : val}`);
-  return `<div class="evidence">${esc(parts.join('  ·  '))}</div>`;
-}
-
-function requestBlock(body) {
-  return `<details><summary>Request sent</summary><pre>${esc(JSON.stringify(body, null, 2))}</pre></details>`;
-}
-
-// --- loading ---------------------------------------------------------------
-
-// Returns the route string if the itinerary is given as one, so the caller
-// knows to validate it rather than the (still empty) segment table.
-function loadItinerary(it) {
-  $('cabin').value = it.cabin || 'economy';
-  $('origin').value = it.origin || '';
-  if (it.route) {
-    $('route').value = it.route;
-    $('mode').value = 'routing';
-    rows = [];
-    render();
-    return it.route;
-  }
-  $('route').value = '';
-  $('mode').value = it.mode || (hasTimes(it) ? 'full' : $('mode').value);
-  rows = (it.segments || []).map(s => ({
-    type: s.type || 'flight',
-    from: s.from || '', to: s.to || '',
-    marketing: s.marketingCarrier || s.carrier || '',
-    operating: s.operatingCarrier || s.carrier || '',
-    flight: s.flight || '',
-    dep: s.dep || '', arr: s.arr || '',
-    stop: s.stop || ''
-  }));
-  render();
-  return null;
-}
-
-const hasTimes = it => (it.segments || []).some(s => s.dep || s.arr);
-
-// The server's own reading of a routing, turned back into editable rows. The
-// codes here are resolved, so a city code comes back as its airport.
-function adoptSegments(ann) {
-  if (!ann || !ann.segments) return;
-  rows = ann.segments.map(s => ({
-    type: s.type, from: s.from || '', to: s.to || '',
-    marketing: s.marketingCarrier || '', operating: s.operatingCarrier || '',
-    flight: s.flight && s.flight !== 'unknown' ? s.flight : '',
-    dep: s.dep || '', arr: s.arr || '',
-    stop: s.stop || ''
-  }));
-  $('mode').value = ann.mode || 'routing';
-  if (ann.origin) $('origin').value = ann.origin;
-  render();
-}
-
-$('example').addEventListener('change', e => {
-  const it = EXAMPLES[e.target.value];
-  if (it) validate(loadItinerary(it));
-});
-$('mode').addEventListener('change', render);
-$('add').addEventListener('click', () => { rows.push(blank()); render(); });
-$('clear').addEventListener('click', () => { rows = [blank()]; $('route').value = ''; render(); });
-$('validate').addEventListener('click', () => validate());
-$('parse').addEventListener('click', readRouting);
-$('route').addEventListener('keydown', e => { if (e.key === 'Enter') readRouting(); });
-$('load').addEventListener('click', () => {
-  try {
-    validate(loadItinerary(JSON.parse($('paste').value)));
-  } catch (e) {
-    alert('That is not valid JSON: ' + e.message);
-  }
-});
-
-function readRouting() {
-  const r = $('route').value.trim();
-  if (r) validate(r);
-}
-
-for (const name of Object.keys(EXAMPLES)) {
-  const o = document.createElement('option');
-  o.value = o.textContent = name;
-  $('example').appendChild(o);
-}
-
-// The grammar and the city table are described by the service, so the page
-// never carries a second copy of either to fall out of date.
-fetch('/api/ruleset')
-  .then(r => r.json())
-  .then(d => {
-    $('ruleset').textContent =
-      `Tariff RWR2 Rule 3015 · version ${d.version} · ${d.limits.min_segments}–${d.limits.max_segments} segments`;
-    const cities = (d.cityCodes || []).map(c => `${c.code}=${c.airport}`).join(', ');
-    $('routehelp').innerHTML =
-      esc(d.routeSyntax || '').replace(/"([^"]+)"/g, '<code>$1</code>') +
-      (cities ? `<br>City codes: <code>${esc(cities)}</code>` : '');
-  })
-  .catch(() => { $('ruleset').textContent = 'Rule 3015 (service unreachable)'; });
-
-// Open on the first example so there is something to look at immediately.
-$('example').value = Object.keys(EXAMPLES)[0];
-validate(loadItinerary(EXAMPLES[$('example').value]));
-</script>
+<script src="/app.js"></script>
 </body>
 </html>

@@ -247,4 +247,99 @@ test(the_ui_is_served_without_touching_the_filesystem) :-
     assertion(Code == 200),
     assertion(sub_string(Body, _, _, _, "oneworld Explorer validator")).
 
+% The page is three files now, and a stylesheet that 404s is a UI that renders
+% as unstyled markup rather than one that fails loudly. Content types are
+% asserted too: a stylesheet served as text/plain is ignored by every browser.
+test(the_page_assets_are_served) :-
+    forall(member(Path-Type, [ '/app.css' - "text/css",
+                               '/app.js'  - "text/javascript" ]),
+           ( url(Path, Url),
+             setup_call_cleanup(
+                 http_open(Url, In, [ status_code(Code),
+                                      header(content_type, CT) ]),
+                 read_string(In, _, Body),
+                 close(In)),
+             assertion(Code == 200),
+             assertion(sub_string(CT, _, _, _, Type)),
+             string_length(Body, Len),
+             assertion(Len > 0)
+           )).
+
+% Composing a routing is a separate endpoint rather than a flag on validate,
+% because it runs no rules and answers a different question.
+test(the_routing_endpoint_composes) :-
+    fixture(lhr_classic, Body),
+    url('/api/routing', Url),
+    setup_call_cleanup(
+        http_open(Url, In, [ method(post), post(json(Body)), status_code(Code),
+                             request_header('Accept'='application/json') ]),
+        json_read_dict(In, D, [value_string_as(atom)]),
+        close(In)),
+    assertion(Code == 200),
+    assertion(D.route == 'LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR').
+
+% Refusing is the interesting half: the reply has to name the segments rather
+% than invent a classification for them.
+test(the_routing_endpoint_refuses_an_undecidable_itinerary) :-
+    fixture(mut_no_times, Body),
+    url('/api/routing', Url),
+    setup_call_cleanup(
+        http_open(Url, In, [method(post), post(json(Body)), status_code(Code)]),
+        json_read_dict(In, D, [value_string_as(atom)]),
+        close(In)),
+    assertion(Code == 400),
+    assertion(D.error == invalid_request),
+    assertion(sub_atom(D.message, _, _, _, '1, 2, 3, 4, 5, 6')).
+
+% RTW_DEV_ASSETS trades the whole point of reading the page into the program for
+% not having to restart while editing it, so the two must not be confusable: dev
+% replies are uncacheable, and production ones are not.
+test(assets_are_cacheable_unless_dev_mode_is_on) :-
+    assertion(\+ server:dev_assets),
+    server:cache_control('text/css', Css),
+    server:cache_control('font/woff2', Font),
+    assertion(Css == 'no-cache'),
+    assertion(Font == 'public, max-age=31536000, immutable'),
+    setup_call_cleanup(
+        assertz(server:dev_assets),
+        ( server:cache_control('text/css', DevCss),
+          server:cache_control('font/woff2', DevFont),
+          assertion(DevCss == 'no-store'),
+          assertion(DevFont == 'no-store')
+        ),
+        retract(server:dev_assets)).
+
+% The one route that writes bytes rather than text. An encoding applied on the
+% way out corrupts a woff2 without any error being raised, and the only symptom
+% is a browser silently falling back to a system font -- so the reply is compared
+% against the bytes the server holds.
+test(a_font_arrives_byte_for_byte) :-
+    Path = '/fonts/archivo-latin-var.woff2',
+    server:asset(Path, _, Expected),
+    url(Path, Url),
+    setup_call_cleanup(
+        http_open(Url, In, [status_code(Code)]),
+        ( set_stream(In, encoding(octet)),
+          read_string(In, _, Body) ),
+        close(In)),
+    assertion(Code == 200),
+    string_codes(Body, Got),
+    assertion(Got == Expected),
+    % woff2 files begin with the signature 'wOF2'.
+    assertion(append(`wOF2`, _, Got)).
+
+% The font handler has a prefix, so it sees every path under /fonts/. It resolves
+% nothing from disk: anything not in the table is absent, which is what keeps
+% ../../etc/passwd from being a question worth asking.
+test(an_unknown_asset_is_a_404) :-
+    forall(member(P, ['/fonts/nothing.woff2', '/fonts/../server.pl']),
+           ( url(P, Url),
+             catch(setup_call_cleanup(
+                       http_open(Url, In, [status_code(C)]),
+                       read_string(In, _, _),
+                       close(In)),
+                   _, C = 404),
+             assertion(C == 404)
+           )).
+
 :- end_tests(http).

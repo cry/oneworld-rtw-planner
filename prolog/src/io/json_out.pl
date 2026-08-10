@@ -20,6 +20,7 @@
 :- use_module('../itinerary').
 :- use_module('../carriers').
 :- use_module(route_in).
+:- use_module(route_out).
 :- use_module(library(apply)).
 
 %! report_json(+Report, -Dict) is det.
@@ -91,6 +92,7 @@ fare_json(Fare, _{ continents: N,
 %  printing its message.
 annotations_json(A, _{ origin: Origin,
                        mode: Mode,
+                       routing: Routing,
                        continentSequence: Continents,
                        trafficConferenceSequence: TCs,
                        visitedContinents: Visited,
@@ -98,6 +100,13 @@ annotations_json(A, _{ origin: Origin,
                        points: Points }) :-
     upcase_or_unknown(A.origin, Origin),
     Mode = A.mode,
+    % The same journey written as a routing, whichever way it came in. Null when
+    % a point is neither transfer nor stopover, because the notation has no way
+    % to write that down -- see io/route_out.pl.
+    (   annotated_route(A, R)
+    ->  Routing = R
+    ;   Routing = null
+    ),
     Continents = A.continents,
     TCs = A.tcs,
     Visited = A.visited,

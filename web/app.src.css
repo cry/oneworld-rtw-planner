@@ -1,0 +1,312 @@
+/* Source for web/app.css. Build with `npm run css` and commit the result.
+ *
+ * The generated file is committed for the same reason data/generated/airports.pl is:
+ * a clone runs offline, the Docker build needs no network, and any change to the
+ * output shows up as a reviewable diff. Nothing in the image knows about npm.
+ *
+ * source(none) turns off Tailwind's automatic file scanning. Left on, it would walk
+ * up from web/ and mine the Prolog sources for anything that looks like a class name.
+ */
+@import "tailwindcss" source(none);
+@source "./index.html";
+@source "./app.js";
+
+/* --- type ---------------------------------------------------------------- */
+
+/* Served from memory by server.pl at /fonts/*, not from disk. Both are variable
+ * on width as well as weight, which is what lets column headers run condensed
+ * the way a printed timetable does without loading a second file. */
+@font-face {
+  font-family: "Archivo";
+  src: url("/fonts/archivo-latin-var.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Martian Mono";
+  src: url("/fonts/martianmono-latin-var.woff2") format("woff2-variations");
+  font-weight: 100 800;
+  font-stretch: 75% 112.5%;
+  font-display: swap;
+}
+
+/* --- tokens -------------------------------------------------------------- */
+
+/* OKLCH throughout so the light and dark ramps are perceptually comparable
+ * rather than only numerically similar. Neutrals carry a trace of the brand hue
+ * (255) at chroma 0.004-0.016; it is below the threshold of "this is blue" and
+ * above the threshold of feeling related to the accent.
+ *
+ * `static` emits every token whether or not a utility references it, so the
+ * dark-mode block below always has something to override. */
+@theme static {
+  --font-sans: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Martian Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-canvas: oklch(0.972 0.004 255);
+  --color-panel: oklch(0.995 0.002 255);
+  --color-sunken: oklch(0.955 0.006 255);
+  --color-ink: oklch(0.25 0.022 255);
+  --color-muted: oklch(0.512 0.021 255);
+  /* Three tiers of line, because they answer to different rules. `rule` separates
+   * rows and sections and is decorative (~1.45:1). `rule-strong` is an emphasis
+   * rule under a column header (~1.9:1). `field-line` is the boundary of an input
+   * or select, which WCAG 1.4.11 requires to reach 3:1 against its background --
+   * a control you cannot find the edge of is a control you cannot use. Each value
+   * was solved for the least contrast that clears its target, so nothing shouts. */
+  --color-rule: oklch(0.871 0.009 255);
+  --color-rule-strong: oklch(0.789 0.013 255);
+  --color-field-line: oklch(0.665 0.014 255);
+  --color-accent: oklch(0.47 0.14 252);
+
+  --color-ok: oklch(0.478 0.117 155);
+  --color-err: oklch(0.492 0.192 27);
+  --color-warn: oklch(0.474 0.104 65);
+  --color-indet: oklch(0.462 0.116 295);
+
+  --color-ok-wash: oklch(0.955 0.028 155);
+  --color-err-wash: oklch(0.958 0.024 27);
+  --color-warn-wash: oklch(0.962 0.032 80);
+  --color-indet-wash: oklch(0.957 0.021 295);
+
+  /* 4pt scale, semantic rather than pixel-named. */
+  --spacing: 0.25rem;
+
+  --radius-xs: 3px;
+  --radius-sm: 5px;
+
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Dark is not a variant of light here: half this audience is reading a routing at
+ * 11pm. The tokens are re-derived rather than programmatically lightened, because
+ * chroma has to come down as lightness goes up or the signal colours go garish.
+ *
+ * Unlayered on purpose. @theme emits into @layer theme, and an unlayered rule beats
+ * any layer, so this wins without a specificity hack. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-canvas: oklch(0.185 0.012 255);
+    --color-panel: oklch(0.225 0.014 255);
+    --color-sunken: oklch(0.163 0.011 255);
+    --color-ink: oklch(0.928 0.008 255);
+    --color-muted: oklch(0.672 0.016 255);
+    --color-rule: oklch(0.341 0.016 255);
+    --color-rule-strong: oklch(0.407 0.019 255);
+    --color-field-line: oklch(0.513 0.016 255);
+    --color-accent: oklch(0.775 0.115 250);
+
+    --color-ok: oklch(0.812 0.145 158);
+    --color-err: oklch(0.762 0.135 27);
+    --color-warn: oklch(0.822 0.125 78);
+    --color-indet: oklch(0.795 0.105 297);
+
+    --color-ok-wash: oklch(0.278 0.043 158);
+    --color-err-wash: oklch(0.288 0.055 27);
+    --color-warn-wash: oklch(0.283 0.043 78);
+    --color-indet-wash: oklch(0.282 0.043 297);
+  }
+}
+
+@layer base {
+  /* Codes and clock times are compared down columns, so digits must not shift
+   * width between rows. */
+  :root {
+    font-variant-numeric: tabular-nums;
+    color-scheme: light dark;
+  }
+
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: color-mix(in oklch, var(--color-accent) 24%, transparent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 1px;
+    border-radius: 2px;
+  }
+
+  /* Native controls inherit the page's type rather than the platform's. */
+  input,
+  select,
+  button,
+  textarea {
+    font: inherit;
+    color: inherit;
+  }
+
+  /* Every disclosure supplies its own marker, so the platform's is suppressed
+   * once here rather than per-summary. */
+  summary {
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+/* Repeated pieces are declared with @utility rather than in @layer components,
+ * because only @utility classes can be composed with @apply in Tailwind v4. */
+
+/* Anything the user would type into a GDS is set in the mono face, slightly
+ * condensed to claw back column width. Anything explaining a rule is not. */
+@utility mono {
+  @apply font-mono;
+  font-stretch: 87.5%;
+}
+
+/* Section and column labels. Condensed uppercase is what a printed timetable does
+ * with a header, and it buys back the width a dense table needs. */
+@utility label {
+  @apply font-sans text-[10px] font-semibold uppercase tracking-[0.09em] text-muted;
+  font-stretch: 86%;
+}
+
+@utility field {
+  @apply w-full rounded-xs border border-field-line bg-panel px-1.5 py-1 text-[13px]
+         transition-colors duration-150;
+  &:hover:not(:disabled) {
+    @apply border-accent;
+  }
+  /* Disabled controls are exempt from the contrast minimum, and here they carry
+   * real meaning: a surface sector has no carrier and the final segment has no
+   * onward point, so those cells are not blanks waiting to be filled. */
+  &:disabled {
+    @apply border-rule bg-sunken text-muted;
+  }
+}
+
+/* Native select keeps its keyboard behaviour; only the arrow is replaced, so the
+ * control lines up with the text inputs beside it. */
+@utility field-select {
+  @apply field cursor-pointer appearance-none bg-no-repeat pr-5;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: right 0.75rem center, right 0.5rem center;
+  background-size: 4px 4px, 4px 4px;
+}
+
+@utility code-input {
+  @apply field mono uppercase;
+}
+
+/* The routing is the headline input on its tab, so it is set larger and looser
+ * than the codes in the table. */
+@utility route-input {
+  @apply code-input px-2 py-2 text-[14px] tracking-[0.03em];
+}
+
+@utility btn {
+  @apply inline-flex items-center gap-1.5 rounded-xs border border-transparent
+         bg-accent px-3 py-1.5 text-[13px] font-semibold text-panel
+         transition-[background-color,border-color,opacity] duration-150;
+  &:hover:not(:disabled) {
+    background: color-mix(in oklch, var(--color-accent) 88%, var(--color-ink));
+  }
+  &:disabled {
+    @apply cursor-default opacity-50;
+  }
+}
+
+@utility btn-quiet {
+  @apply btn border-rule bg-transparent font-medium text-ink;
+  &:hover:not(:disabled) {
+    @apply border-rule-strong bg-sunken;
+    background-color: var(--color-sunken);
+  }
+}
+
+/* A table of eleven columns will not fit beside the report on any screen worth
+ * designing for, so it scrolls -- but silently clipped columns are the reason
+ * people miss half a form. The two `local` layers are painted with the panel
+ * colour and travel with the content, covering the two `scroll` shadows when
+ * there is nothing more in that direction; the shadows are revealed only on the
+ * side that has more to show. */
+@utility scroll-x {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  background:
+    linear-gradient(to right, var(--color-panel) 40%, transparent) left center / 2.5rem 100% no-repeat local,
+    linear-gradient(to left, var(--color-panel) 40%, transparent) right center / 2.5rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, color-mix(in oklch, var(--color-ink) 16%, transparent), transparent)
+      left center / 0.75rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, color-mix(in oklch, var(--color-ink) 16%, transparent), transparent)
+      right center / 0.75rem 100% no-repeat scroll;
+}
+
+/* Citations and rule ids: things the user could look up in the tariff. Boxed so
+ * they read as a reference rather than as running text. */
+@utility cite {
+  @apply inline-block rounded-xs border border-rule-strong px-1 py-px
+         font-mono text-[10px] font-medium;
+  font-stretch: 87.5%;
+}
+
+/* Tabs are ruled, not pilled: the active one sits on the panel's own edge and
+ * carries the accent, so the boundary between chooser and content stays one
+ * continuous line. */
+@utility tab {
+  @apply border-transparent text-muted transition-colors duration-150;
+  &:hover {
+    @apply border-rule-strong text-ink;
+  }
+  &[aria-selected="true"] {
+    @apply border-accent text-ink;
+  }
+}
+
+/* The verdict is the largest thing on the page; everything under it is evidence
+ * for it. Condensed hard so INDETERMINATE still fits on one line. */
+@utility verdict-word {
+  @apply text-[2.1rem] font-extrabold uppercase leading-[0.95] tracking-[0.01em];
+  font-stretch: 72%;
+}
+
+@utility sev-label {
+  @apply text-[10px] font-semibold uppercase tracking-[0.08em];
+  font-stretch: 86%;
+}
+
+/* Two descendant selectors that are not utilities and cannot be expressed as
+ * ones: both style a child based on a state held by an ancestor. */
+@layer components {
+  .tab[aria-selected="true"] .tab-sub {
+    @apply text-accent;
+  }
+
+  /* Routing-only itineraries have no clock, so the time columns go rather than
+   * inviting entries the server will refuse. */
+  .hide-when .c-when {
+    display: none;
+  }
+
+  /* The routing grammar arrives from /api/ruleset with its terms in quotes; the
+   * page turns those into code spans. */
+  .hint code {
+    @apply mono rounded-xs border border-rule bg-sunken px-1 py-px text-[11px] normal-case;
+  }
+}
+
+/* One orchestrated entrance when a report lands, rather than motion scattered
+ * across the page. 140ms is below the threshold where a repeated action starts
+ * to feel like waiting. */
+@keyframes settle {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .settle {
+    animation: settle 140ms var(--ease-out-quart) both;
+  }
+}

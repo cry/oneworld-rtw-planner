@@ -26,6 +26,7 @@
 :- use_module('src/explain').
 
 :- use_module('src/io/route_in').
+:- use_module('src/io/route_out').
 :- use_module('src/io/json_in').
 :- use_module('src/io/json_out').
 

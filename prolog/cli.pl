@@ -3,7 +3,7 @@
 %
 %   swipl prolog/cli.pl -- validate <itinerary.json> [--json]
 %   swipl prolog/cli.pl -- route <routing> [--cabin business] [--json]
-%   swipl prolog/cli.pl -- serve [--port 8080]
+%   swipl prolog/cli.pl -- serve [--port 8080] [--dev]
 %
 % All three subcommands render the same report/4 term; the first two use the
 % text renderer in src/explain.pl and the service uses src/io/json_out.pl.
@@ -31,7 +31,7 @@ run(_, 2) :-
     format(user_error,
            '       swipl prolog/cli.pl -- route <routing> [--cabin economy|business|first] [--json]~n', []),
     format(user_error,
-           '       swipl prolog/cli.pl -- serve [--port 8080]~n~n', []),
+           '       swipl prolog/cli.pl -- serve [--port 8080] [--dev]~n~n', []),
     format(user_error, '~w~n', [Help]).
 
 % --- validate --------------------------------------------------------------
@@ -80,11 +80,20 @@ read_json_file(File, Dict) :-
 
 % --- serve -----------------------------------------------------------------
 
+% --dev sets the same environment variable the daemon reads, so there is one
+% switch rather than two ways to say it. It must be set before server.pl's
+% initialization goal has run -- which it has by the time main/1 is called, so
+% the flag is re-applied here explicitly.
 cmd_serve(Opts, 0) :-
     (   append(_, ['--port', PortAtom|_], Opts),
         atom_number(PortAtom, Port)
     ->  true
     ;   Port = 8080
+    ),
+    (   memberchk('--dev', Opts)
+    ->  setenv('RTW_DEV_ASSETS', '1'),
+        server:configure_dev_assets
+    ;   true
     ),
     server(Port),
     format(user_error, 'oneworld Explorer validator listening on http://localhost:~w~n', [Port]),
