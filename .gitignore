@@ -1,0 +1,4 @@
+# The stylesheet build is the only thing in this repository that needs npm, and
+# nothing at runtime does. web/app.css is its output and IS committed -- see the
+# note at the top of web/app.src.css.
+node_modules/

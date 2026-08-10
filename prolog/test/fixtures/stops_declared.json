@@ -1,0 +1,15 @@
+{
+  "_comment": "The same journey as route_classic, given as segments with declared stop kinds and no times. Proves the declaration path and the routing-string path agree.",
+  "mode": "routing",
+  "origin": "LHR",
+  "cabin": "business",
+  "segments": [
+    { "n": 1, "from": "LHR", "to": "JFK", "carrier": "BA", "stop": "stopover" },
+    { "n": 2, "from": "JFK", "to": "LAX", "carrier": "AA", "stop": "transfer" },
+    { "n": 3, "from": "LAX", "to": "NRT", "carrier": "JL", "stop": "stopover" },
+    { "n": 4, "from": "NRT", "to": "HKG", "carrier": "CX", "stop": "stopover" },
+    { "n": 5, "from": "HKG", "to": "BKK", "carrier": "CX", "stop": "stopover" },
+    { "n": 6, "from": "BKK", "to": "DOH", "carrier": "QR", "stop": "layover" },
+    { "n": 7, "from": "DOH", "to": "LHR", "carrier": "QR" }
+  ]
+}

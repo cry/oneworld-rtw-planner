@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>oneworld Explorer validator</title>
+<meta name="description" content="Check a round-the-world itinerary against oneworld Explorer fare Rule 3015.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='none' stroke='%2314507d' stroke-width='2.5'/><ellipse cx='16' cy='16' rx='6' ry='13' fill='none' stroke='%2314507d' stroke-width='2.5'/><path d='M3.6 11h24.8M3.6 21h24.8' stroke='%2314507d' stroke-width='2.5'/></svg>">
+<link rel="preload" href="/fonts/archivo-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/martianmono-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/app.css">
+
+<!-- Inline and before the stylesheet is applied, because a stored preference that
+     disagrees with the OS would otherwise show the wrong theme for one frame.
+     This is the only script that cannot be deferred. -->
+<script>
+  try {
+    var t = localStorage.getItem('rtw-theme');
+    if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+  } catch (e) { /* private mode: fall back to the OS scheme */ }
+</script>
+</head>
+<body class="font-sans text-[14px] leading-[1.45]">
+
+<!-- Masthead, set like the head of a printed tariff page: the title heavily
+     condensed over a rule, the edition flush right. -->
+<header class="border-b-2 border-ink bg-panel">
+  <div class="mx-auto flex max-w-[1680px] flex-wrap items-end justify-between gap-x-6 gap-y-1 px-4 pb-2 pt-3">
+    <h1 class="text-[21px] font-extrabold uppercase leading-none tracking-[0.015em]"
+        style="font-stretch:68%">
+      oneworld Explorer <span class="text-accent">validator</span>
+    </h1>
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5">
+      <p id="ruleset" class="mono text-[10.5px] leading-tight text-muted">
+        Tariff RWR2 Rule 3015
+      </p>
+      <div class="theme" role="group" aria-label="Colour scheme">
+        <input type="radio" name="theme" id="th-auto" value="auto" class="sr-only" checked>
+        <label for="th-auto">Auto</label>
+        <input type="radio" name="theme" id="th-light" value="light" class="sr-only">
+        <label for="th-light">Light</label>
+        <input type="radio" name="theme" id="th-dark" value="dark" class="sr-only">
+        <label for="th-dark">Dark</label>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="mx-auto grid max-w-[1680px] items-start gap-4 p-4 xl:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)]">
+
+  <!-- ============================ input ============================ -->
+  <section class="min-w-0 rounded-sm border border-rule bg-panel" aria-labelledby="itinerary-heading">
+    <h2 id="itinerary-heading" class="sr-only">Itinerary</h2>
+
+    <!-- Cabin, passengers and the example picker sit above the tabs because they
+         describe the fare, not the routing, and survive switching between the two
+         ways of entering a journey. -->
+    <div class="flex flex-wrap items-end gap-x-4 gap-y-3 border-b border-rule px-4 py-3">
+      <div class="min-w-[15rem] flex-1">
+        <label class="label mb-1 block" for="example">Load an example</label>
+        <select id="example" class="field-select">
+          <option value="">Start from an empty itinerary</option>
+        </select>
+      </div>
+      <div>
+        <label class="label mb-1 block" for="cabin">Cabin</label>
+        <select id="cabin" class="field-select w-[9.5rem]">
+          <option value="economy">Economy</option>
+          <option value="business" selected>Business</option>
+          <option value="first">First</option>
+        </select>
+      </div>
+      <div>
+        <label class="label mb-1 block" for="pax">Passengers</label>
+        <select id="pax" class="field-select w-[11.5rem]">
+          <option value="adult">1 adult</option>
+          <option value="adult+child">Adult + child (7)</option>
+          <option value="adult+infant">Adult + infant (1)</option>
+          <option value="child">Child alone (7)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- The two ways in. Each posts a different request shape, so neither view has
+         to pretend to be the other. -->
+    <div class="flex items-stretch border-b border-rule px-4" role="tablist"
+         aria-label="How to enter the itinerary">
+      <button type="button" role="tab" id="tab-routing" aria-controls="panel-routing"
+              aria-selected="true"
+              class="tab -mb-px border-b-2 px-1 py-2.5 text-left">
+        <span class="block text-[13px] font-semibold">Routing</span>
+        <span class="tab-sub block text-[11px] text-muted">One line, no dates</span>
+      </button>
+      <button type="button" role="tab" id="tab-segments" aria-controls="panel-segments"
+              aria-selected="false" tabindex="-1"
+              class="tab -mb-px ml-6 border-b-2 px-1 py-2.5 text-left">
+        <span class="block text-[13px] font-semibold">
+          Segments <span id="segcount" class="mono text-[11px] font-normal text-muted"></span>
+        </span>
+        <span class="tab-sub block text-[11px] text-muted">Flight by flight</span>
+      </button>
+    </div>
+
+    <!-- ---------------------------- routing ---------------------------- -->
+    <div id="panel-routing" role="tabpanel" aria-labelledby="tab-routing" class="px-4 py-3">
+      <label class="label mb-1 block" for="route">Fare-construction routing</label>
+      <div class="flex flex-wrap gap-2">
+        <input id="route" class="route-input min-w-[18rem] flex-1"
+               spellcheck="false" autocomplete="off"
+               placeholder="LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR">
+        <button id="parse" class="btn">Validate routing</button>
+      </div>
+      <p class="hint mt-2 max-w-[68ch] text-[12px] leading-[1.6] text-muted" id="routehelp"></p>
+      <!-- Reference material, not instruction. It was five lines sitting under the
+           primary input competing with it; it belongs one click away. -->
+      <details class="group mt-1.5">
+        <summary class="label cursor-pointer select-none">
+          <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
+          City codes
+        </summary>
+        <p class="hint mt-1 max-w-[68ch] text-[12px] leading-[1.7] text-muted" id="citycodes"></p>
+      </details>
+      <p id="adopted" class="mt-2 hidden text-[12px] text-muted">
+        The parsed itinerary is in
+        <button type="button" class="jump-segments font-semibold text-accent underline underline-offset-2">Segments</button>
+        if you want to add dates or flight numbers.
+      </p>
+      <p id="composed" class="mt-2 hidden text-[12px] text-muted">
+        Written from the segment table. Dates, times and flight numbers have no
+        notation in a routing, so they are not carried across.
+      </p>
+    </div>
+
+    <!-- ---------------------------- segments ---------------------------- -->
+    <div id="panel-segments" role="tabpanel" aria-labelledby="tab-segments" class="hidden px-4 py-3">
+      <div class="mb-3 flex flex-wrap items-end gap-x-4 gap-y-3">
+        <div>
+          <label class="label mb-1 block" for="times">Times</label>
+          <!-- Not called "routing only": the sibling tab is already called Routing
+               and means something narrower. This is about whether a clock exists. -->
+          <select id="times" class="field-select w-[13.5rem]">
+            <option value="full">Dates and times given</option>
+            <option value="routing">No dates or times</option>
+          </select>
+        </div>
+        <div>
+          <label class="label mb-1 block" for="origin">Origin</label>
+          <input id="origin" class="code-input w-[6.5rem]" placeholder="auto" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="scroll-x -mx-4 px-4">
+        <table id="segtable" class="w-full border-collapse text-[13px]">
+          <thead>
+            <tr class="border-b border-rule-strong">
+              <th class="label w-6 pb-1.5 pr-1 text-left"><span class="sr-only">Segment</span>#</th>
+              <th class="label pb-1.5 pr-2 text-left">Type</th>
+              <th class="label pb-1.5 pr-2 text-left">From</th>
+              <th class="label pb-1.5 pr-2 text-left">To</th>
+              <!-- Next to "To" rather than at the far end: it describes the point
+                   the segment arrives at, and it is the one control routing-only
+                   itineraries turn on, so it must not be what scrolls out of
+                   sight when the time columns are shown. -->
+              <th class="label pb-1.5 pr-2 text-left">Stop at arrival</th>
+              <th class="label pb-1.5 pr-2 text-left">Mkt</th>
+              <th class="label pb-1.5 pr-2 text-left">Op</th>
+              <th class="label pb-1.5 pr-2 text-left">Flight</th>
+              <th class="label c-when pb-1.5 pr-2 text-left">Departs</th>
+              <th class="label c-when pb-1.5 pr-2 text-left">Arrives</th>
+              <th class="w-7 pb-1.5"><span class="sr-only">Remove</span></th>
+            </tr>
+          </thead>
+          <tbody id="segments"></tbody>
+        </table>
+      </div>
+
+      <p id="segempty" class="hidden py-6 text-center text-[13px] text-muted">
+        No segments yet. Add one, load an example, or write the journey as a
+        <button type="button" class="jump-routing font-semibold text-accent underline underline-offset-2">routing</button>.
+      </p>
+
+      <!-- Composed by the server, not here: a routing written in the browser
+           would be a second definition of the grammar with no test behind it. -->
+      <p id="routingerr" class="hidden mt-3 max-w-[68ch] text-[12.5px] text-warn"></p>
+
+      <div class="mt-3 flex flex-wrap items-center gap-2">
+        <button id="add" class="btn-quiet">Add segment</button>
+        <button id="toroute" class="btn-quiet">Show as routing</button>
+        <button id="clear" class="btn-quiet">Clear</button>
+        <!-- Clear discards a table that may have taken real typing. Undo costs one
+             variable and removes the need for a confirmation dialog. -->
+        <button id="undo" class="btn-quiet hidden">Undo clear</button>
+        <button id="validate" class="btn ml-auto">Validate segments</button>
+      </div>
+    </div>
+
+    <!-- Escape hatch for anyone driving the API directly. Collapsed: it is not part
+         of the normal path through the page. -->
+    <details class="group border-t border-rule px-4 py-2.5">
+      <summary class="label cursor-pointer select-none list-none marker:content-none">
+        <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
+        Paste an itinerary as JSON
+      </summary>
+      <textarea id="paste" rows="7" spellcheck="false" aria-label="Itinerary JSON"
+                class="field mono mt-2 block text-[12px] leading-[1.5]"
+                placeholder='{"cabin":"business","route":"LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR"}'></textarea>
+      <button id="load" class="btn-quiet mt-2">Load into the form</button>
+    </details>
+  </section>
+
+  <!-- ============================ report ============================ -->
+  <section class="min-w-0 xl:sticky xl:top-4" aria-labelledby="report-heading">
+    <!-- The heading was a strip of chrome above the panel saying "Report" over
+         something that says INVALID in 34px. It still exists for anyone
+         navigating by headings; it just does not take a row of the layout. -->
+    <h2 id="report-heading" class="sr-only">Report</h2>
+
+    <div class="relative rounded-sm border border-rule bg-panel">
+      <div id="report"></div>
+
+      <!-- Both float over the top-right of the verdict band rather than sitting
+           above the panel, so neither costs vertical space. They carry their own
+           background because whatever is behind them is a different colour for
+           each verdict. -->
+      <div class="pointer-events-none absolute right-2.5 top-2.5 flex items-center gap-2">
+        <p id="stale" class="hidden rounded-xs bg-panel/90 px-1.5 py-0.5 text-[11px] font-semibold text-warn">
+          Itinerary changed
+        </p>
+        <p id="status" class="mono rounded-xs bg-panel/90 text-[10.5px] text-muted empty:hidden"></p>
+      </div>
+    </div>
+
+    <!-- The report is replaced wholesale on every validation, which a screen
+         reader has no reason to notice. One short line goes here instead of
+         making the whole panel a live region, which would read the fare table
+         and every connection aloud on each press. -->
+    <p id="announce" class="sr-only" role="status" aria-live="polite"></p>
+  </section>
+</main>
+
+<!-- Loaded before app.js because the report renderer calls into it synchronously.
+     It is the bulkier of the two -- most of it is the Natural Earth land outline
+     -- so it is deferred rather than blocking the first paint of the form. -->
+<script defer src="/map.js"></script>
+<script defer src="/app.js"></script>
+</body>
+</html>

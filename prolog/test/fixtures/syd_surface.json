@@ -1,0 +1,12 @@
+{
+  "_comment": "Golden: South West Pacific origin using the 4(g) exception, one transoceanic surface sector between TC1 and TC3.",
+  "origin": "SYD", "cabin": "economy",
+  "segments": [
+    {"n":1,"type":"flight","from":"SYD","to":"HKG","carrier":"QF","dep":"2026-09-01T09:20","arr":"2026-09-01T16:10"},
+    {"n":2,"type":"flight","from":"HKG","to":"DOH","carrier":"QR","dep":"2026-09-06T00:20","arr":"2026-09-06T04:05"},
+    {"n":3,"type":"flight","from":"DOH","to":"LHR","carrier":"QR","dep":"2026-09-10T08:00","arr":"2026-09-10T13:30"},
+    {"n":4,"type":"flight","from":"LHR","to":"JFK","carrier":"BA","dep":"2026-09-15T10:25","arr":"2026-09-15T13:30"},
+    {"n":5,"type":"flight","from":"JFK","to":"LAX","carrier":"AA","dep":"2026-09-20T08:00","arr":"2026-09-20T11:15"},
+    {"n":6,"type":"surface","from":"LAX","to":"SYD"}
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "_comment": "A routing with a 4(g) surface sector: BKK//SIN is covered by the passenger. Same shape as route_classic otherwise.",
+  "route": "LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK//SIN-BA-LHR",
+  "cabin": "business"
+}

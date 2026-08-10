@@ -1,0 +1,5 @@
+{
+  "_comment": "Golden fixture: lhr_classic written as a fare-construction routing. Same journey, no dates -- must produce zero violations, with rule 7 reported as not checked.",
+  "route": "LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR",
+  "cabin": "business"
+}

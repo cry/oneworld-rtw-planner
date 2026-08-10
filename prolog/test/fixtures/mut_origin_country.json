@@ -1,0 +1,14 @@
+{
+  "_comment": "The same USA-origin routing with Miami as a stopover instead of a transfer. The 4(f) exception no longer applies, so the second international departure and arrival are over the limit.",
+  "origin": "JFK", "cabin": "business",
+  "segments": [
+    {"n":1,"type":"flight","from":"JFK","to":"GRU","carrier":"AA","dep":"2026-09-01T21:05","arr":"2026-09-02T08:45"},
+    {"n":2,"type":"flight","from":"GRU","to":"MIA","carrier":"AA","dep":"2026-09-06T22:00","arr":"2026-09-07T05:30"},
+    {"n":3,"type":"flight","from":"MIA","to":"LHR","carrier":"BA","dep":"2026-09-09T18:00","arr":"2026-09-10T07:00"},
+    {"n":4,"type":"flight","from":"LHR","to":"DOH","carrier":"QR","dep":"2026-09-13T14:00","arr":"2026-09-13T23:00"},
+    {"n":5,"type":"flight","from":"DOH","to":"HKG","carrier":"QR","dep":"2026-09-14T02:00","arr":"2026-09-14T15:00"},
+    {"n":6,"type":"flight","from":"HKG","to":"NRT","carrier":"CX","dep":"2026-09-18T09:00","arr":"2026-09-18T14:00"},
+    {"n":7,"type":"flight","from":"NRT","to":"LAX","carrier":"JL","dep":"2026-09-22T17:00","arr":"2026-09-22T10:00"},
+    {"n":8,"type":"flight","from":"LAX","to":"JFK","carrier":"AA","dep":"2026-09-24T14:00","arr":"2026-09-24T22:30"}
+  ]
+}

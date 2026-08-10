@@ -1,0 +1,5 @@
+{
+  "_comment": "Mutation of route_classic: every intermediate point marked X/, so the itinerary has no stopovers at all and breaches rule 8's minimum of two.",
+  "route": "LHR-BA-X/JFK-AA-X/LAX-JL-X/NRT-CX-X/HKG-CX-X/BKK-QR-X/DOH-QR-LHR",
+  "cabin": "business"
+}

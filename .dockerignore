@@ -1,0 +1,25 @@
+# Everything the image does not need. The COPY lines in the Dockerfile are
+# explicit, so this is defence in depth plus a smaller build context.
+.git
+.gitignore
+.claude
+PLANS
+README.md
+parsed-rules-aug-2026.md
+prolog/test
+Dockerfile
+.dockerignore
+*.log
+httpd.log
+
+# The UI toolchain. web/app.css and web/map.js are generated from app.src.css
+# and map.src.js and committed, so the image carries the outputs and never needs
+# the inputs, the compilers, or node. web/fonts/NOTICE.md and OFL.txt are
+# deliberately NOT excluded: the licence requires them to travel with the fonts.
+node_modules
+package.json
+package-lock.json
+.impeccable.md
+web/app.src.css
+web/map.src.js
+web/check-contrast.mjs

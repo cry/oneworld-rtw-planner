@@ -1,0 +1,10 @@
+{
+  "_comment": "Well-formed JSON referencing an unknown airport and leaving a gap between segments 2 and 3. Both are reported as violations inside the report, not as a request error.",
+  "origin": "LHR", "cabin": "business",
+  "segments": [
+    {"n":1,"type":"flight","from":"LHR","to":"JFK","carrier":"BA","dep":"2026-09-01T10:25","arr":"2026-09-01T13:30"},
+    {"n":2,"type":"flight","from":"JFK","to":"ZZZ","carrier":"AA","dep":"2026-09-05T08:00","arr":"2026-09-05T11:15"},
+    {"n":3,"type":"flight","from":"LAX","to":"NRT","carrier":"JL","dep":"2026-09-05T13:30","arr":"2026-09-06T17:00"},
+    {"n":4,"type":"flight","from":"NRT","to":"LHR","carrier":"JL","dep":"2026-09-10T09:00","arr":"2026-09-10T15:00"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "_comment": "Mutation breaking 4(l) only: two flights within Australia in the PER city-pair set, PER-SYD and PER-MEL.",
+  "origin": "SYD", "cabin": "economy",
+  "segments": [
+    {"n":1,"type":"flight","from":"SYD","to":"PER","carrier":"QF","dep":"2026-09-01T09:00","arr":"2026-09-01T12:00"},
+    {"n":2,"type":"flight","from":"PER","to":"MEL","carrier":"QF","dep":"2026-09-05T08:00","arr":"2026-09-05T14:00"},
+    {"n":3,"type":"flight","from":"MEL","to":"HKG","carrier":"QF","dep":"2026-09-05T17:00","arr":"2026-09-05T23:30"},
+    {"n":4,"type":"flight","from":"HKG","to":"DOH","carrier":"QR","dep":"2026-09-10T02:00","arr":"2026-09-10T05:00"},
+    {"n":5,"type":"flight","from":"DOH","to":"LHR","carrier":"QR","dep":"2026-09-14T08:00","arr":"2026-09-14T13:30"},
+    {"n":6,"type":"flight","from":"LHR","to":"JFK","carrier":"BA","dep":"2026-09-19T10:25","arr":"2026-09-19T13:30"},
+    {"n":7,"type":"flight","from":"JFK","to":"LAX","carrier":"AA","dep":"2026-09-24T08:00","arr":"2026-09-24T11:15"},
+    {"n":8,"type":"flight","from":"LAX","to":"SYD","carrier":"QF","dep":"2026-09-24T22:00","arr":"2026-09-26T07:00"}
+  ]
+}

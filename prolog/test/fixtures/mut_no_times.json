@@ -1,0 +1,13 @@
+{
+  "_comment": "Indeterminacy fixture: lhr_classic with every timestamp removed. Must not be reported valid.",
+  "origin": "LHR", "cabin": "business",
+  "segments": [
+    {"n":1,"type":"flight","from":"LHR","to":"JFK","carrier":"BA"},
+    {"n":2,"type":"flight","from":"JFK","to":"LAX","carrier":"AA"},
+    {"n":3,"type":"flight","from":"LAX","to":"NRT","carrier":"JL"},
+    {"n":4,"type":"flight","from":"NRT","to":"HKG","carrier":"CX"},
+    {"n":5,"type":"flight","from":"HKG","to":"BKK","carrier":"CX"},
+    {"n":6,"type":"flight","from":"BKK","to":"DOH","carrier":"QR"},
+    {"n":7,"type":"flight","from":"DOH","to":"LHR","carrier":"QR"}
+  ]
+}
