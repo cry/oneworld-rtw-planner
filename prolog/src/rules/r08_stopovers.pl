@@ -6,12 +6,13 @@
     continent of origin."
 
     This rule depends entirely on the stopover classification in annotate.pl,
-    which is why an itinerary with no timestamps produces `indeterminate` here
-    rather than passing.
+    which is why an itinerary with neither timestamps nor declared stop kinds
+    produces `indeterminate` here rather than passing.
 */
 
 :- use_module('../geo').
 :- use_module('../annotate').
+:- use_module('../itinerary').
 :- use_module('../../data/limits').
 :- use_module(library(aggregate)).
 
@@ -49,8 +50,36 @@ validate:violation(A, v(stopovers_undecidable, '8', indeterminate, Msg,
     Segs \== [],
     length(Segs, Count),
     format(atom(Msg),
-           '~w connection(s) have no ground time (after segment(s) ~w), so stopovers could not be counted and rule 8 could not be decided.',
+           '~w connection(s) are unclassified (after segment(s) ~w): no ground time and no declared stop kind, so stopovers could not be counted and rule 8 could not be decided.',
            [Count, Segs]).
+
+% A declared stop kind is taken as authoritative -- the traveller knows what
+% was booked -- but where it contradicts the ground time or a surface sector,
+% resolving that silently would hide the fact that the stopover count depends
+% on which one is believed. So the disagreement is reported and the itinerary
+% is left valid, since neither source is wrong on its face.
+validate:violation(A, v(stop_kind_conflict, '8', warning, Msg,
+                        [segments([N]), airport(Airport),
+                         declared(D), derived(Derived)])) :-
+    ann_point(A, P),
+    D = P.declared,
+    stop_kind(D),
+    Derived = P.derived,
+    stop_kind(Derived),
+    D \== Derived,
+    N = P.after,
+    iata(P.airport, Airport),
+    conflict_reason(P, Reason),
+    format(atom(Msg),
+           '~w (after segment ~w) is declared a ~w but ~w; the declared ~w is used.',
+           [Airport, N, D, Reason, D]).
+
+conflict_reason(P, Reason) :-
+    (   P.surface == true
+    ->  Reason = 'adjoins a surface sector, which breaks the flown journey at the passenger\'s own expense (4(g))'
+    ;   Hours is round(P.ground_minutes / 6) / 10.0,
+        format(atom(Reason), 'the ~w hours on the ground make it a ~w', [Hours, P.derived])
+    ).
 
 stopover_count(A, N) :-
     aggregate_all(count, ( ann_point(A, P), P.kind == stopover ), N).

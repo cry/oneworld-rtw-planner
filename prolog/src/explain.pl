@@ -2,7 +2,7 @@
 
 /** <module> Report term -> human-readable text.
 
-    One of two renderers over report/3; io/json_out.pl is the other. Neither
+    One of two renderers over report/4; io/json_out.pl is the other. Neither
     contains rule logic, which is what keeps the CLI and the HTTP service
     saying the same thing.
 */
@@ -14,14 +14,25 @@
 explain(Report) :- explain(Report, current_output).
 
 %! explain(+Report, +Stream) is det.
-explain(report(Verdict, Violations, Fare), S) :-
+explain(report(Verdict, Violations, Fare, NotChecked), S) :-
     verdict_headline(Verdict, Head),
     (   tally(Violations, Tally), Tally \== ''
     ->  format(S, '~w — ~w~n', [Head, Tally])
     ;   format(S, '~w~n', [Head])
     ),
     forall(member(V, Violations), violation_line(V, S)),
+    not_checked_lines(NotChecked, S),
     fare_line(Fare, S).
+
+% A verdict that leaves rules unchecked says so on its own line. Printing the
+% headline alone would read as a clean bill of health for rules that never ran.
+not_checked_lines([], _) :- !.
+not_checked_lines(NCs, S) :-
+    length(NCs, N),
+    plural(N, 'rule', Word),
+    format(S, 'Not checked — ~d ~w this input cannot answer:~n', [N, Word]),
+    forall(member(nc(_, Citation, Reason), NCs),
+           format(S, '  [~w]~t~14| ~w~n', [Citation, Reason])).
 
 % Counted by severity rather than lumped together: a report carrying only
 % warnings is still valid, and calling those "violations" misreads it.

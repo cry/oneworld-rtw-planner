@@ -10,6 +10,7 @@
 % directory without a file_search_path alias.
 
 :- use_module('data/limits').
+:- use_module('data/cities').
 :- use_module('data/countries').
 :- use_module('data/overrides').
 :- use_module('data/transcon').
@@ -24,6 +25,7 @@
 :- use_module('src/validate').
 :- use_module('src/explain').
 
+:- use_module('src/io/route_in').
 :- use_module('src/io/json_in').
 :- use_module('src/io/json_out').
 
@@ -46,7 +48,7 @@
 :- if(current_prolog_flag(rtw_tests, true)).
 :- use_module(library(plunit)).
 :- ensure_loaded('test/test_geo').
-:- ensure_loaded('test/test_annotate').
 :- ensure_loaded('test/test_rules').
+:- ensure_loaded('test/test_route').
 :- ensure_loaded('test/test_json').
 :- endif.

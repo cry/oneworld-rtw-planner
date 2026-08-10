@@ -49,7 +49,7 @@ test(tc1_origin_meeting_the_minimum_stay) :-
     assertion(Verdict-Ids == valid-[]).
 
 test(date_line_crossing_is_not_an_input_error) :-
-    fixture_report(jfk_tc1, _, report(_, Violations, _)),
+    fixture_report(jfk_tc1, _, report(_, Violations, _, _)),
     assertion(\+ memberchk(v(input_error, _, _, _, _), Violations)).
 
 % 4(f) permits a second international departure from a USA origin only when one
@@ -61,10 +61,10 @@ test(usa_origin_using_the_transfer_exception) :-
     assertion(Verdict-Ids == valid-[]).
 
 test(fare_basis_follows_continent_count) :-
-    fixture_report(lhr_classic, _, report(_, _, Fare3)),
+    fixture_report(lhr_classic, _, report(_, _, Fare3, _)),
     assertion(Fare3.continents == 3),
     assertion(Fare3.basis == 'DONE3'),
-    fixture_report(lhr_africa, _, report(_, _, Fare4)),
+    fixture_report(lhr_africa, _, report(_, _, Fare4, _)),
     assertion(Fare4.continents == 4),
     assertion(Fare4.basis == 'DONE4').
 
@@ -193,7 +193,7 @@ test(cuba_with_a_us_carrier) :-
 % A single Cuban stop appears as both an arrival and the next departure; it
 % must still be reported once.
 test(cuba_reported_once) :-
-    fixture_report(mut_cuba, _, report(_, Violations, _)),
+    fixture_report(mut_cuba, _, report(_, Violations, _, _)),
     assertion(Violations = [_]).
 
 :- end_tests(mutations).
@@ -230,7 +230,7 @@ test(infant_without_an_age_warns) :-
 test(swp_europe_nonstop_warns_and_counts_asia) :-
     fixture_rules(syd_via_asia, V-Ids),
     assertion(V-Ids == valid-[via_asia_counted]),
-    fixture_report(syd_via_asia, _, report(_, _, Fare)),
+    fixture_report(syd_via_asia, _, report(_, _, Fare, _)),
     assertion(Fare.continents == 4),
     assertion(Fare.basis == 'LONE4').
 
@@ -250,7 +250,7 @@ test(missing_times_are_not_valid) :-
 % Unresolvable references are violations inside the report, not request errors,
 % so they render alongside the rule violations.
 test(unknown_airport_and_gap_are_violations) :-
-    fixture_report(mut_input_errors, V, report(_, Violations, _)),
+    fixture_report(mut_input_errors, V, report(_, Violations, _, _)),
     assertion(V == invalid),
     rule_ids(Violations, Ids),
     assertion(Ids == [input_error]),

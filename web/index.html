@@ -87,6 +87,12 @@
     padding: 2px 6px; font-size: 17px; line-height: 1;
   }
   .del:hover { color: var(--err); }
+  /* Routing-only itineraries have no times to show, so those columns go. */
+  .hide-when .c-when { display: none; }
+  .route { width: 100%; font-family: var(--mono); text-transform: uppercase; }
+  .hint { font-size: 12px; color: var(--muted); margin: -4px 0 12px; line-height: 1.5; }
+  .hint code { font-family: var(--mono); background: var(--bg); border: 1px solid var(--line);
+               border-radius: 4px; padding: 0 4px; text-transform: none; }
 
   .verdict { border-radius: 8px; padding: 11px 13px; margin-bottom: 12px; border: 1px solid; }
   .verdict strong { font-size: 16px; letter-spacing: .02em; }
@@ -123,6 +129,16 @@
   .stopover { color: var(--accent); font-weight: 600; }
   .transfer { color: var(--muted); }
   .indet { color: var(--indet); font-weight: 600; }
+  .pt .src { font-size: 11px; color: var(--muted); }
+  /* Rules the input cannot answer. Deliberately not styled as a pass. */
+  .notchecked {
+    border: 1px dashed var(--line); border-radius: 6px;
+    padding: 8px 10px; margin-bottom: 8px; font-size: 13px;
+  }
+  .notchecked h3 { margin: 0 0 5px; font-size: 12px; text-transform: uppercase;
+                   letter-spacing: .05em; color: var(--muted); font-weight: 600; }
+  .notchecked li { margin-bottom: 3px; }
+  .notchecked ul { margin: 0; padding-left: 0; list-style: none; }
   details { margin-top: 12px; }
   summary { cursor: pointer; font-size: 13px; color: var(--muted); }
   pre {
@@ -154,6 +170,13 @@
         </select>
       </div>
       <div>
+        <label for="mode">Detail</label>
+        <select id="mode">
+          <option value="full">Dates and times</option>
+          <option value="routing">Routing only</option>
+        </select>
+      </div>
+      <div>
         <label for="cabin">Cabin</label>
         <select id="cabin">
           <option value="economy">Economy</option>
@@ -176,13 +199,23 @@
       </div>
     </div>
 
+    <div class="row">
+      <div style="flex:1 1 26em">
+        <label for="route">Routing</label>
+        <input id="route" class="route" placeholder="LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR">
+      </div>
+      <button id="parse" class="ghost">Read routing</button>
+    </div>
+    <p class="hint" id="routehelp"></p>
+
     <div class="scroll">
-      <table>
+      <table id="segtable">
         <thead>
           <tr>
             <th></th><th>Type</th><th>From</th><th>To</th>
             <th>Mkt</th><th>Op</th><th>Flight</th>
-            <th>Departs</th><th>Arrives</th><th></th>
+            <th class="c-when">Departs</th><th class="c-when">Arrives</th>
+            <th>Stop at arrival</th><th></th>
           </tr>
         </thead>
         <tbody id="segments"></tbody>
@@ -283,6 +316,21 @@ const EXAMPLES = {
       {type:'flight', from:'BKK', to:'DOH', carrier:'QR'},
       {type:'flight', from:'DOH', to:'LHR', carrier:'QR'}
     ]
+  },
+  // The same journey as the first example, written as a routing. Every point
+  // is classified by X/ rather than by the clock, so rule 8 is decided and the
+  // verdict is not indeterminate -- only rule 7 goes unchecked.
+  'Routing only — same journey, no dates (valid)': {
+    cabin: 'business',
+    route: 'LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR'
+  },
+  'Routing only — every point a transfer (invalid, rule 8)': {
+    cabin: 'business',
+    route: 'LHR-BA-X/JFK-AA-X/LAX-JL-X/NRT-CX-X/HKG-CX-X/BKK-QR-X/DOH-QR-LHR'
+  },
+  'Routing only — city codes and a surface sector (valid)': {
+    cabin: 'business',
+    route: 'LON-BA-NYC-AA-X/DFW-AA-LAX-QF-SYD//MEL-QF-X/SIN-BA-LON'
   }
 };
 
@@ -299,15 +347,22 @@ let rows = [];
 // --- the segment table -----------------------------------------------------
 
 function blank() {
-  return {type:'flight', from:'', to:'', marketing:'', operating:'', flight:'', dep:'', arr:''};
+  return {type:'flight', from:'', to:'', marketing:'', operating:'', flight:'', dep:'', arr:'', stop:''};
 }
+
+const mode = () => $('mode').value;
 
 function render() {
   const body = $('segments');
   body.innerHTML = '';
+  // Routing mode has no clock, so the time columns are hidden rather than
+  // left to be filled in and then refused by the server.
+  $('segtable').classList.toggle('hide-when', mode() === 'routing');
   rows.forEach((r, i) => {
     const tr = document.createElement('tr');
     const surface = r.type === 'surface';
+    const last = i === rows.length - 1;
+    const opt = (v, label) => `<option value="${v}"${r.stop === v ? ' selected' : ''}>${label}</option>`;
     tr.innerHTML = `
       <td class="n">${i + 1}</td>
       <td><select name="type-${i}" data-f="type" style="width:5.8em">
@@ -321,8 +376,14 @@ function render() {
       <td><input class="num" name="marketing-${i}" data-f="marketing" value="${r.marketing}" ${surface ? 'disabled' : ''}></td>
       <td><input class="num" name="operating-${i}" data-f="operating" value="${r.operating}" ${surface ? 'disabled' : ''}></td>
       <td><input class="num" name="flight-${i}" data-f="flight" value="${r.flight}" ${surface ? 'disabled' : ''}></td>
-      <td><input class="when" name="dep-${i}" type="datetime-local" data-f="dep" value="${r.dep}" ${surface ? 'disabled' : ''}></td>
-      <td><input class="when" name="arr-${i}" type="datetime-local" data-f="arr" value="${r.arr}" ${surface ? 'disabled' : ''}></td>
+      <td class="c-when"><input class="when" name="dep-${i}" type="datetime-local" data-f="dep" value="${r.dep}" ${surface ? 'disabled' : ''}></td>
+      <td class="c-when"><input class="when" name="arr-${i}" type="datetime-local" data-f="arr" value="${r.arr}" ${surface ? 'disabled' : ''}></td>
+      <td><select name="stop-${i}" data-f="stop" style="width:8em"
+                  ${last ? 'disabled title="The last segment ends the journey, so there is no intermediate point to describe."' : ''}>
+            ${opt('', last ? '—' : (mode() === 'routing' ? 'not stated' : 'from times'))}
+            ${opt('transfer', 'transfer')}
+            ${opt('stopover', 'stopover')}
+          </select></td>
       <td><button class="del" title="Remove">&times;</button></td>`;
 
     tr.querySelectorAll('[data-f]').forEach(el => {
@@ -356,30 +417,43 @@ function suggest(input, listId) {
 
 // --- request and response --------------------------------------------------
 
-function buildRequest() {
-  const segments = rows.map(r => {
-    const s = {type: r.type, from: r.from.trim().toUpperCase(), to: r.to.trim().toUpperCase()};
-    if (r.type === 'flight') {
-      const mkt = r.marketing.trim(), op = r.operating.trim();
-      // `carrier` is the server's shorthand for both fields; sending it only
-      // when they genuinely match keeps the 4(j) "operator unknown" warning
-      // reachable from the form.
-      if (mkt && op && mkt.toUpperCase() === op.toUpperCase()) s.carrier = mkt;
-      else { if (mkt) s.marketingCarrier = mkt; if (op) s.operatingCarrier = op; }
-      if (r.flight.trim()) s.flight = r.flight.trim();
-      if (r.dep) s.dep = r.dep;
-      if (r.arr) s.arr = r.arr;
-    }
-    return s;
-  });
-  const body = {cabin: $('cabin').value, passengers: PAX[$('pax').value], segments};
+function buildRequest(routeString) {
+  const body = {cabin: $('cabin').value, passengers: PAX[$('pax').value]};
+
+  // A routing string is sent as-is so the server does the parsing. Splitting
+  // the grammar across both sides would give two definitions of it to keep in
+  // step, and the browser's would be the one nothing tests.
+  if (routeString) {
+    body.route = routeString;
+  } else {
+    const routing = mode() === 'routing';
+    body.mode = routing ? 'routing' : 'full';
+    body.segments = rows.map((r, i) => {
+      const s = {type: r.type, from: r.from.trim().toUpperCase(), to: r.to.trim().toUpperCase()};
+      if (r.type === 'flight') {
+        const mkt = r.marketing.trim(), op = r.operating.trim();
+        // `carrier` is the server's shorthand for both fields; sending it only
+        // when they genuinely match keeps the 4(j) "operator unknown" warning
+        // reachable from the form.
+        if (mkt && op && mkt.toUpperCase() === op.toUpperCase()) s.carrier = mkt;
+        else { if (mkt) s.marketingCarrier = mkt; if (op) s.operatingCarrier = op; }
+        if (r.flight.trim()) s.flight = r.flight.trim();
+        // Routing mode declares no clock, and the server refuses times sent
+        // with it rather than discarding them behind the user's back.
+        if (!routing) { if (r.dep) s.dep = r.dep; if (r.arr) s.arr = r.arr; }
+      }
+      if (r.stop && i < rows.length - 1) s.stop = r.stop;
+      return s;
+    });
+  }
+
   const origin = $('origin').value.trim();
-  if (origin) body.origin = origin.toUpperCase();
+  if (origin && !routeString) body.origin = origin.toUpperCase();
   return body;
 }
 
-async function validate() {
-  const body = buildRequest();
+async function validate(routeString) {
+  const body = buildRequest(routeString);
   $('validate').disabled = true;
   $('status').textContent = 'validating…';
   try {
@@ -390,7 +464,12 @@ async function validate() {
     });
     const data = await res.json();
     if (!res.ok) renderError(res.status, data, body);
-    else renderReport(data, body);
+    else {
+      // A routing string that parsed becomes rows in the table, so it can be
+      // edited afterwards without retyping the whole thing.
+      if (routeString) adoptSegments(data.annotations);
+      renderReport(data, body);
+    }
   } catch (e) {
     $('report').innerHTML = `<div class="verdict v-invalid"><strong>Could not reach the service</strong>
       <div class="sub">${esc(e.message)}</div></div>`;
@@ -444,7 +523,18 @@ function renderReport(data, body) {
         <td><strong>${esc(p.airport)}</strong></td>
         <td class="kind ${p.kind === 'indeterminate' ? 'indet' : esc(p.kind)}">${esc(p.kind)}</td>
         <td>${p.groundHours === null ? '—' : p.groundHours + ' h'}</td>
+        <td class="src">${esc(source(p))}</td>
       </tr>`).join('');
+
+  // Rules the input could not answer. Rendering the verdict without these
+  // would claim coverage the report does not give.
+  const nc = data.notChecked || [];
+  const notChecked = nc.length ? `
+    <div class="notchecked">
+      <h3>Not checked — ${nc.length} rule${nc.length === 1 ? '' : 's'} this input cannot answer</h3>
+      <ul>${nc.map(x =>
+        `<li><span class="chip cite">${esc(x.citation)}</span> ${esc(x.reason)}</li>`).join('')}</ul>
+    </div>` : '';
 
   $('report').innerHTML = `
     <div class="verdict v-${esc(data.verdict)}">
@@ -464,12 +554,26 @@ function renderReport(data, body) {
     </dl>
 
     ${violations}
+    ${notChecked}
 
     ${points ? `<details open><summary>Connections</summary>
       <div class="scroll"><table>${points}</table></div></details>` : ''}
 
     ${requestBlock(body)}
     <details><summary>Full response</summary><pre>${esc(JSON.stringify(data, null, 2))}</pre></details>`;
+}
+
+// Which of the two sources settled this point. Worth showing: a declaration
+// that disagrees with the clock changes the stopover count, and the report
+// would otherwise give no clue which one the verdict rests on.
+function source(p) {
+  if (p.surfaceAdjacent) return 'surface sector';
+  const clock = p.derivedKind === 'transfer' || p.derivedKind === 'stopover';
+  if (p.declaredKind && clock && p.declaredKind !== p.derivedKind)
+    return `declared, over ${p.derivedKind} by the clock`;
+  if (p.declaredKind) return 'declared';
+  if (p.kind === 'indeterminate') return 'neither time nor declaration';
+  return 'ground time';
 }
 
 function evidence(e) {
@@ -485,35 +589,73 @@ function requestBlock(body) {
 
 // --- loading ---------------------------------------------------------------
 
+// Returns the route string if the itinerary is given as one, so the caller
+// knows to validate it rather than the (still empty) segment table.
 function loadItinerary(it) {
   $('cabin').value = it.cabin || 'economy';
   $('origin').value = it.origin || '';
+  if (it.route) {
+    $('route').value = it.route;
+    $('mode').value = 'routing';
+    rows = [];
+    render();
+    return it.route;
+  }
+  $('route').value = '';
+  $('mode').value = it.mode || (hasTimes(it) ? 'full' : $('mode').value);
   rows = (it.segments || []).map(s => ({
     type: s.type || 'flight',
     from: s.from || '', to: s.to || '',
     marketing: s.marketingCarrier || s.carrier || '',
     operating: s.operatingCarrier || s.carrier || '',
     flight: s.flight || '',
-    dep: s.dep || '', arr: s.arr || ''
+    dep: s.dep || '', arr: s.arr || '',
+    stop: s.stop || ''
   }));
+  render();
+  return null;
+}
+
+const hasTimes = it => (it.segments || []).some(s => s.dep || s.arr);
+
+// The server's own reading of a routing, turned back into editable rows. The
+// codes here are resolved, so a city code comes back as its airport.
+function adoptSegments(ann) {
+  if (!ann || !ann.segments) return;
+  rows = ann.segments.map(s => ({
+    type: s.type, from: s.from || '', to: s.to || '',
+    marketing: s.marketingCarrier || '', operating: s.operatingCarrier || '',
+    flight: s.flight && s.flight !== 'unknown' ? s.flight : '',
+    dep: s.dep || '', arr: s.arr || '',
+    stop: s.stop || ''
+  }));
+  $('mode').value = ann.mode || 'routing';
+  if (ann.origin) $('origin').value = ann.origin;
   render();
 }
 
 $('example').addEventListener('change', e => {
   const it = EXAMPLES[e.target.value];
-  if (it) { loadItinerary(it); validate(); }
+  if (it) validate(loadItinerary(it));
 });
+$('mode').addEventListener('change', render);
 $('add').addEventListener('click', () => { rows.push(blank()); render(); });
-$('clear').addEventListener('click', () => { rows = [blank()]; render(); });
-$('validate').addEventListener('click', validate);
+$('clear').addEventListener('click', () => { rows = [blank()]; $('route').value = ''; render(); });
+$('validate').addEventListener('click', () => validate());
+$('parse').addEventListener('click', readRouting);
+$('route').addEventListener('keydown', e => { if (e.key === 'Enter') readRouting(); });
 $('load').addEventListener('click', () => {
   try {
-    loadItinerary(JSON.parse($('paste').value));
-    validate();
+    validate(loadItinerary(JSON.parse($('paste').value)));
   } catch (e) {
     alert('That is not valid JSON: ' + e.message);
   }
 });
+
+function readRouting() {
+  const r = $('route').value.trim();
+  if (r) validate(r);
+}
 
 for (const name of Object.keys(EXAMPLES)) {
   const o = document.createElement('option');
@@ -521,18 +663,23 @@ for (const name of Object.keys(EXAMPLES)) {
   $('example').appendChild(o);
 }
 
+// The grammar and the city table are described by the service, so the page
+// never carries a second copy of either to fall out of date.
 fetch('/api/ruleset')
   .then(r => r.json())
   .then(d => {
     $('ruleset').textContent =
       `Tariff RWR2 Rule 3015 · version ${d.version} · ${d.limits.min_segments}–${d.limits.max_segments} segments`;
+    const cities = (d.cityCodes || []).map(c => `${c.code}=${c.airport}`).join(', ');
+    $('routehelp').innerHTML =
+      esc(d.routeSyntax || '').replace(/"([^"]+)"/g, '<code>$1</code>') +
+      (cities ? `<br>City codes: <code>${esc(cities)}</code>` : '');
   })
   .catch(() => { $('ruleset').textContent = 'Rule 3015 (service unreachable)'; });
 
 // Open on the first example so there is something to look at immediately.
 $('example').value = Object.keys(EXAMPLES)[0];
-loadItinerary(EXAMPLES[$('example').value]);
-validate();
+validate(loadItinerary(EXAMPLES[$('example').value]));
 </script>
 </body>
 </html>

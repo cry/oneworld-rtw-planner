@@ -36,6 +36,7 @@ annotate(Itin, A) :-
     A = ann{ origin: Itin.origin,
              cabin: Itin.cabin,
              passengers: Itin.passengers,
+             mode: Itin.mode,
              input_errors: Itin.errors,
              segments: Segs,
              points: Points,
@@ -54,7 +55,7 @@ annotate_segment(S, A) :-
     international(FC, TC, From, To, Intl),
     A = aseg{ n: S.n, type: S.type, from: From, to: To,
               marketing: S.marketing, operating: S.operating, flight: S.flight,
-              dep: S.dep, arr: S.arr,
+              dep: S.dep, arr: S.arr, stop: S.stop,
               from_country: FC, to_country: TC,
               from_region: FR,  to_region: TR,
               from_cont: FCont, to_cont: TCont,
@@ -110,14 +111,33 @@ point(Segs, Pt) :-
     append(_, [A, B|_], Segs),
     Airport = A.to,
     ground_minutes(A, B, Mins),
-    classify(A, B, Airport, Mins, Kind),
+    surface_adjacent(A, B, Surface),
+    derived_kind(A, B, Airport, Mins, Surface, Derived),
+    declared_kind(A, Declared),
+    effective_kind(Surface, Declared, Derived, Kind),
     Pt = pt{ after: A.n, airport: Airport, continent: A.to_cont,
-             ground_minutes: Mins, kind: Kind }.
+             ground_minutes: Mins, kind: Kind,
+             declared: Declared, derived: Derived, surface: Surface }.
 
 ground_minutes(A, B, Mins) :-
     (   dt_minutes_between(A.arr, B.dep, M)
     ->  Mins = M
     ;   Mins = unknown
+    ).
+
+surface_adjacent(A, B, Surface) :-
+    (   ( A.type == surface ; B.type == surface )
+    ->  Surface = true
+    ;   Surface = false
+    ).
+
+%! declared_kind(+ArrivingSegment, -Kind) is det.
+%  What the traveller said about the point this segment arrives at -- the
+%  `X/` of fare-construction notation, or the `stop` field of a JSON segment.
+declared_kind(A, Kind) :-
+    (   stop_kind(A.stop)
+    ->  Kind = A.stop
+    ;   Kind = unknown
     ).
 
 % Convention, since Rule 3015 never defines stopover-vs-transfer:
@@ -126,17 +146,27 @@ ground_minutes(A, B, Mins) :-
 %     at the passenger's expense (4(g)) and breaks the flown journey.
 %   * Otherwise more than 24 hours on the ground, or more than 4 hours where
 %     both adjacent sectors are domestic within the USA/Canada.
-%   * Missing timestamps give `indeterminate`, which propagates into rule 8 as
-%     an `indeterminate` violation rather than a silent pass.
+%   * With no timestamps this is `indeterminate`, which propagates into rule 8
+%     as an `indeterminate` violation rather than a silent pass.
 %
 % Both thresholds live in data/limits.pl so they are auditable.
-classify(A, B, _, _, stopover) :-
-    ( A.type == surface ; B.type == surface ), !.
-classify(_, _, _, unknown, indeterminate) :- !.
-classify(A, B, Airport, Mins, Kind) :-
+derived_kind(_, _, _, _, true, stopover) :- !.
+derived_kind(_, _, _, unknown, _, indeterminate) :- !.
+derived_kind(A, B, Airport, Mins, _, Kind) :-
     threshold_hours(A, B, Airport, Hours),
     Limit is Hours * 60,
     ( Mins > Limit -> Kind = stopover ; Kind = transfer ).
+
+%! effective_kind(+Surface, +Declared, +Derived, -Kind) is det.
+%
+%  A declaration beats the clock: the traveller knows what was booked, and a
+%  routing-only itinerary has no clock to read. It does not beat a surface
+%  sector, because 4(g) surface travel is at the passenger's own expense and
+%  breaks the flown journey whatever it is called. Where the two disagree the
+%  disagreement is reported by rule 8 rather than resolved in silence.
+effective_kind(true, _, Derived, Derived) :- !.
+effective_kind(_, unknown, Derived, Derived) :- !.
+effective_kind(_, Declared, _, Declared).
 
 threshold_hours(A, B, Airport, Hours) :-
     (   airport_country(Airport, C), memberchk(C, ['US', 'CA']),

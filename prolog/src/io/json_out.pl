@@ -13,11 +13,13 @@
 */
 
 :- use_module('../../data/limits').
+:- use_module('../../data/cities').
 :- use_module('../../data/surcharges').
 :- use_module('../geo').
 :- use_module('../annotate').
 :- use_module('../itinerary').
 :- use_module('../carriers').
+:- use_module(route_in).
 :- use_module(library(apply)).
 
 %! report_json(+Report, -Dict) is det.
@@ -25,15 +27,22 @@ report_json(Report, Dict) :- report_json(Report, _{}, Dict).
 
 %! report_json(+Report, +Extra, -Dict) is det.
 %  Extra is merged in last, so a caller can attach the annotated itinerary.
-report_json(report(Verdict, Violations, Fare), Extra, Dict) :-
+report_json(report(Verdict, Violations, Fare, NotChecked), Extra, Dict) :-
     ruleset_version(Version),
     maplist(violation_json, Violations, Vs),
+    maplist(not_checked_json, NotChecked, NCs),
     fare_json(Fare, FareDict),
     Base = _{ verdict: Verdict,
               rulesetVersion: Version,
               violations: Vs,
+              notChecked: NCs,
               fare: FareDict },
     Dict = Base.put(Extra).
+
+% Rules the input could not answer at all. A client that renders `verdict`
+% without rendering this is claiming coverage the report does not give.
+not_checked_json(nc(Rule, Citation, Reason),
+                 _{ rule: Rule, citation: Citation, reason: Reason }).
 
 violation_json(v(Rule, Citation, Severity, Message, Evidence),
                _{ rule: Rule,
@@ -81,12 +90,14 @@ fare_json(Fare, _{ continents: N,
 %  UI can draw the route and explain a violation in context rather than just
 %  printing its message.
 annotations_json(A, _{ origin: Origin,
+                       mode: Mode,
                        continentSequence: Continents,
                        trafficConferenceSequence: TCs,
                        visitedContinents: Visited,
                        segments: Segs,
                        points: Points }) :-
     upcase_or_unknown(A.origin, Origin),
+    Mode = A.mode,
     Continents = A.continents,
     TCs = A.tcs,
     Visited = A.visited,
@@ -99,9 +110,11 @@ segment_json(S, _{ n: N, type: Type, from: From, to: To,
                    fromTrafficConference: FTC, toTrafficConference: TTC,
                    marketingCarrier: Mkt, operatingCarrier: Op, flight: Flight,
                    dep: Dep, arr: Arr,
+                   stop: Stop,
                    intercontinental: Inter, international: Intl, ocean: Ocean,
                    fromCoords: FromCoords, toCoords: ToCoords }) :-
     N = S.n, Type = S.type,
+    null_if_unknown(S.stop, Stop),
     upcase_or_unknown(S.from, From),
     upcase_or_unknown(S.to, To),
     city_or_unknown(S.from, FromCity),
@@ -117,12 +130,18 @@ segment_json(S, _{ n: N, type: Type, from: From, to: To,
     coords_json(S.from, FromCoords),
     coords_json(S.to, ToCoords).
 
+% Both the declared and the derived classification travel with the point, not
+% just the one that won, so a client can show which source decided it.
 point_json(P, _{ afterSegment: N, airport: Airport, continent: Cont,
-                 kind: Kind, groundHours: Hours }) :-
+                 kind: Kind, declaredKind: Declared, derivedKind: Derived,
+                 surfaceAdjacent: Surface, groundHours: Hours }) :-
     N = P.after,
     upcase_or_unknown(P.airport, Airport),
     Cont = P.continent,
     Kind = P.kind,
+    null_if_unknown(P.declared, Declared),
+    null_if_unknown(P.derived, Derived),
+    Surface = P.surface,
     (   P.ground_minutes == unknown
     ->  Hours = null
     ;   Hours is round(P.ground_minutes / 6) / 10.0
@@ -136,6 +155,9 @@ coords_json(A, Coords) :-
 
 upcase_or_unknown(unknown, null) :- !.
 upcase_or_unknown(A, U) :- upcase_atom(A, U).
+
+null_if_unknown(unknown, null) :- !.
+null_if_unknown(V, V).
 
 city_or_unknown(A, City) :-
     (   airport_city(A, City) -> true ; City = null ).
@@ -152,6 +174,10 @@ ruleset_json(_{ version: Version,
                 continents: Continents,
                 fareBasis: Bases,
                 carriers: Carriers,
+                cityCodes: Cities,
+                stopKinds: StopKinds,
+                modes: Modes,
+                routeSyntax: RouteHelp,
                 surchargeBands: Bands }) :-
     ruleset_version(Version),
     all_limits(Pairs),
@@ -167,6 +193,13 @@ ruleset_json(_{ version: Version,
     findall(_{ code: C, name: Name },
             ( eligible_carrier(C), carrier_name(C, Name) ),
             Carriers),
+    findall(_{ code: Upper, name: Name, airport: AirportUpper },
+            ( city_code(City, Airport), city_name(City, Name),
+              upcase_atom(City, Upper), upcase_atom(Airport, AirportUpper) ),
+            Cities),
+    findall(K, stop_kind(K), StopKinds),
+    findall(M, itinerary_mode(M), Modes),
+    route_help(RouteHelp),
     surcharge_bands(Bands0),
     maplist([band(Desc, Usd), _{ sectors: Desc, usd: Usd }]>>true, Bands0, Bands).
 

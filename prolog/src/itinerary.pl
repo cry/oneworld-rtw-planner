@@ -1,5 +1,7 @@
 :- module(itinerary,
-          [ build_itinerary/5,
+          [ build_itinerary/6,
+            itinerary_mode/1,
+            stop_kind/1,
             dt_stamp/2,
             dt_iso/2,
             dt_days_between/3,
@@ -30,12 +32,29 @@
 :- use_module(geo).
 :- use_module('../data/limits').
 
-%! build_itinerary(+Origin, +Cabin, +Passengers, +RawSegs, -Itin) is det.
+%! itinerary_mode(?Mode) is nondet.
+%
+%  `full` means the itinerary carries a calendar: connections are classified
+%  from timestamps and rules 6 and 7 apply. `routing` means it does not --
+%  the route and the declared stop kinds are all there is, so rules 6 and 7
+%  have nothing to measure and are reported as not checked rather than as
+%  undecidable. See validate.pl for why that distinction is not a silent pass.
+itinerary_mode(full).
+itinerary_mode(routing).
+
+%! stop_kind(?Kind) is nondet.
+%  What a traveller can declare about an intermediate point, independently of
+%  any timestamps. `transfer` is the `X/` of fare-construction notation.
+stop_kind(transfer).
+stop_kind(stopover).
+
+%! build_itinerary(+Origin, +Cabin, +Passengers, +Mode, +RawSegs, -Itin) is det.
 %
 %  Origin may be `unknown`, in which case it is taken from the first segment.
 %  RawSegs is a list of rseg(N, Type, From, To, Marketing, Operating, Flight,
-%  Dep, Arr); every field except Type/From/To may be `unknown`.
-build_itinerary(Origin0, Cabin, Passengers, RawSegs, Itin) :-
+%  Dep, Arr, Stop); every field except Type/From/To may be `unknown`. Stop
+%  declares the kind of the intermediate point at that segment's *arrival*.
+build_itinerary(Origin0, Cabin, Passengers, Mode, RawSegs, Itin) :-
     number_segments(RawSegs, 1, Segs, NumErrs),
     resolve_origin(Origin0, Segs, Origin, OriginErrs),
     maplist(segment_errors, Segs, SegErrsL),
@@ -45,6 +64,7 @@ build_itinerary(Origin0, Cabin, Passengers, RawSegs, Itin) :-
     Itin = itin{ origin: Origin,
                  cabin: Cabin,
                  passengers: Passengers,
+                 mode: Mode,
                  segments: Segs,
                  errors: Errors }.
 
@@ -53,12 +73,12 @@ build_itinerary(Origin0, Cabin, Passengers, RawSegs, Itin) :-
 % make every later violation cite the wrong segment.
 number_segments([], _, [], []).
 number_segments([R|Rs], I, [S|Ss], Errs) :-
-    R = rseg(N, Type, From0, To0, Mkt, Op, Flt, Dep, Arr),
-    downcase_atom(From0, From),
-    downcase_atom(To0, To),
+    R = rseg(N, Type, From0, To0, Mkt, Op, Flt, Dep, Arr, Stop),
+    place(From0, From),
+    place(To0, To),
     S = seg{ n: I, type: Type, from: From, to: To,
              marketing: Mkt, operating: Op, flight: Flt,
-             dep: Dep, arr: Arr },
+             dep: Dep, arr: Arr, stop: Stop },
     (   ( N == unknown ; N == I )
     ->  Errs = Errs1
     ;   format(atom(M),
@@ -69,10 +89,16 @@ number_segments([R|Rs], I, [S|Ss], Errs) :-
     I1 is I + 1,
     number_segments(Rs, I1, Ss, Errs1).
 
+% A metropolitan city code stands for its representative airport everywhere
+% downstream, so `NYC` and `JFK` are one place to 4(i) and to the geography.
+place(Given, Place) :-
+    downcase_atom(Given, Lower),
+    resolve_place(Lower, Place).
+
 resolve_origin(unknown, [S|_], Origin, []) :- !, Origin = S.from.
 resolve_origin(unknown, [], unknown, []) :- !.
 resolve_origin(Given0, Segs, Origin, Errs) :-
-    downcase_atom(Given0, Origin),
+    place(Given0, Origin),
     (   Segs = [S|_], S.from \== Origin
     ->  iata(Origin, UO), iata(S.from, UF),
         format(atom(M),

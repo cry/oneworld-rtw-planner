@@ -11,6 +11,11 @@
 :- use_module('../../data/limits').
 
 :- multifile validate:violation/2.
+:- multifile validate:not_checked/2.
+
+validate:not_checked(A, nc(max_stay, '7',
+                           'Return travel from the last stopover must commence within 12 months of departure, but a routing-only itinerary carries no dates to measure it against.')) :-
+    A.mode == routing.
 
 validate:violation(A, v(max_stay, '7', error, Msg,
                         [segments([1, N]), months(Months), max(Max)])) :-
@@ -24,6 +29,7 @@ validate:violation(A, v(max_stay, '7', error, Msg,
            [Months, N, Max]).
 
 validate:violation(A, v(max_stay, '7', indeterminate, Msg, [])) :-
+    A.mode == full,
     \+ departure(A, _),
     A.segments \== [],
     format(atom(Msg),

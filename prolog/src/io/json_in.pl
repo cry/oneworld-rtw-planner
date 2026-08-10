@@ -10,6 +10,7 @@
 */
 
 :- use_module('../itinerary').
+:- use_module(route_in).
 :- use_module('../../data/limits').
 :- use_module(library(apply)).
 
@@ -22,22 +23,23 @@
 %                     "flight": "BA117",
 %                     "dep": "2026-09-01T10:25", "arr": "2026-09-01T13:30" } ] }
 %
-%  Only `from`, `to` and `segments` are required. `cabin` defaults to economy,
-%  `origin` to the departure point of segment 1, `type` to flight, and
-%  `carrier` is accepted as shorthand for both carrier fields.
+%  Alternatively the whole routing may be given as one fare-construction
+%  string, which is the natural input when there are no dates:
+%
+%   { "route": "NYC-X/LON-SIN-X/HKG-NYC", "cabin": "business" }
+%
+%  Only `from`, `to` and one of `segments`/`route` are required. `cabin`
+%  defaults to economy, `origin` to the departure point of segment 1, `type` to
+%  flight, and `carrier` is accepted as shorthand for both carrier fields.
+%
+%  `mode` is `full` (the default for `segments`) or `routing` (the default for
+%  `route`). See itinerary_mode/1.
 itinerary_from_json(Dict, Itin) :-
     (   is_dict(Dict) -> true
     ;   throw(input_error('Request body must be a JSON object.'))
     ),
-    (   get_dict(segments, Dict, SegsJson), is_list(SegsJson)
-    ->  true
-    ;   throw(input_error('Missing or non-list "segments".'))
-    ),
-    (   SegsJson == []
-    ->  throw(input_error('"segments" must not be empty.'))
-    ;   true
-    ),
-    length(SegsJson, SegCount),
+    raw_segments(Dict, RawSegs, DefaultMode),
+    length(RawSegs, SegCount),
     limit(max_input_segments, MaxSegs),
     (   SegCount > MaxSegs
     ->  format(atom(TooMany),
@@ -46,13 +48,65 @@ itinerary_from_json(Dict, Itin) :-
         throw(input_error(TooMany))
     ;   true
     ),
+    mode(Dict, DefaultMode, Mode),
+    check_times_against_mode(Mode, RawSegs),
     atom_field(Dict, origin, unknown, Origin),
     cabin(Dict, Cabin),
     passengers(Dict, Passengers),
-    maplist(segment, SegsJson, RawSegs),
-    build_itinerary(Origin, Cabin, Passengers, RawSegs, Itin).
+    build_itinerary(Origin, Cabin, Passengers, Mode, RawSegs, Itin).
 
-segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr)) :-
+% One of the two forms, never both: a route string and a segment array that
+% disagreed would leave no principled way to choose between them.
+raw_segments(Dict, RawSegs, DefaultMode) :-
+    has_field(Dict, segments, HasSegments),
+    has_field(Dict, route, HasRoute),
+    (   HasSegments == true, HasRoute == true
+    ->  throw(input_error('Give either "segments" or "route", not both.'))
+    ;   HasRoute == true
+    ->  DefaultMode = routing,
+        verbatim_field(Dict, route, unknown, Route),
+        route_segments(Route, RawSegs)
+    ;   HasSegments == true
+    ->  DefaultMode = full,
+        get_dict(segments, Dict, SegsJson),
+        (   is_list(SegsJson) -> true
+        ;   throw(input_error('"segments" must be a list.'))
+        ),
+        (   SegsJson == []
+        ->  throw(input_error('"segments" must not be empty.'))
+        ;   true
+        ),
+        maplist(segment, SegsJson, RawSegs)
+    ;   throw(input_error('Missing "segments" or "route".'))
+    ).
+
+has_field(Dict, Key, Present) :-
+    (   get_dict(Key, Dict, V), V \== null
+    ->  Present = true
+    ;   Present = false
+    ).
+
+mode(Dict, Default, Mode) :-
+    atom_field(Dict, mode, Default, M),
+    (   itinerary_mode(M)
+    ->  Mode = M
+    ;   findall(K, itinerary_mode(K), Ks),
+        format(atom(Msg), 'Mode must be one of ~w, not "~w".', [Ks, M]),
+        throw(input_error(Msg))
+    ).
+
+% Routing mode means "this itinerary has no calendar". Quietly discarding
+% times supplied alongside it would make the two rules that need them look
+% unanswerable when the data to answer them was right there.
+check_times_against_mode(routing, RawSegs) :- !,
+    (   member(rseg(_, _, _, _, _, _, _, Dep, Arr, _), RawSegs),
+        ( Dep \== unknown ; Arr \== unknown )
+    ->  throw(input_error('Segment times are not accepted in routing mode; use mode "full" to have them checked, or remove them.'))
+    ;   true
+    ).
+check_times_against_mode(_, _).
+
+segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr, Stop)) :-
     (   is_dict(J) -> true
     ;   throw(input_error('Each entry of "segments" must be a JSON object.'))
     ),
@@ -69,7 +123,28 @@ segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr)) :-
     atom_field(J, operatingCarrier, Shared, Op),
     verbatim_field(J, flight, unknown, Flight),
     time_field(J, dep, Dep),
-    time_field(J, arr, Arr).
+    time_field(J, arr, Arr),
+    stop(J, Stop).
+
+% What kind of point the segment arrives at, when the traveller knows it
+% independently of any clock. `layover` and `connection` are the words people
+% actually use for a transfer, so they are accepted rather than rejected on a
+% vocabulary technicality. On the final segment there is no intermediate point
+% to describe and the value is ignored.
+stop(J, Stop) :-
+    atom_field(J, stop, unknown, S),
+    (   S == unknown       -> Stop = unknown
+    ;   stop_synonym(S, K) -> Stop = K
+    ;   findall(K, stop_kind(K), Ks),
+        format(atom(M), 'Segment "stop" must be one of ~w, not "~w".', [Ks, S]),
+        throw(input_error(M))
+    ).
+
+stop_synonym(K, K)          :- stop_kind(K).
+stop_synonym(layover,    transfer).
+stop_synonym(connection, transfer).
+stop_synonym(transit,    transfer).
+stop_synonym(stop,       stopover).
 
 segment_type(J, Type) :-
     atom_field(J, type, flight, T),

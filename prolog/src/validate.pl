@@ -2,6 +2,7 @@
           [ validate/2,
             validate_annotated/3,
             violation/2,
+            not_checked/2,
             severity_rank/2,
             verdict_of/2
           ]).
@@ -27,6 +28,17 @@
 
     `indeterminate` exists so that an itinerary entered without timestamps is
     never reported clean. It is not a passing grade.
+
+    There is a second registry, not_checked/2, for rules a *mode* puts out of
+    reach rather than an omission in the data. A routing-only itinerary has no
+    calendar at all, so rules 6 and 7 have nothing to measure; calling that
+    `indeterminate` would make every routing-only check indeterminate and drain
+    the severity of its meaning. Instead those rules are named in the report as
+    not checked. The distinction is: `indeterminate` means "you left something
+    out that this rule needs", not_checked means "this rule is not answerable
+    from the kind of input you gave". Neither is a pass, and both are rendered.
+
+        nc(RuleId, Citation, Reason)
 */
 
 :- use_module(annotate).
@@ -34,6 +46,9 @@
 
 :- multifile violation/2.
 :- discontiguous violation/2.
+
+:- multifile not_checked/2.
+:- discontiguous not_checked/2.
 
 %! validate(+Itin, -Report) is det.
 validate(Itin, Report) :-
@@ -48,12 +63,15 @@ validate_annotated(Itin, Report, A) :-
     annotate(Itin, A),
     validate_ann(A, Report).
 
-validate_ann(A, report(Verdict, Violations, Fare)) :-
+validate_ann(A, report(Verdict, Violations, Fare, Skipped)) :-
     findall(V, violation(A, V), Found),
     append(A.input_errors, Found, All),
     sort(All, Deduped),
     order_for_display(Deduped, Violations),
     verdict_of(Violations, Verdict),
+    findall(NC, not_checked(A, NC), Skipped0),
+    sort(Skipped0, Skipped1),
+    order_not_checked(Skipped1, Skipped),
     fare(A, Fare).
 
 %! severity_rank(?Severity, ?Rank) is nondet.
@@ -74,6 +92,12 @@ verdict_of(_, valid).
 % Present the report worst-first, then in itinerary order.
 order_for_display(Vs, Sorted) :-
     map_list_to_pairs(display_key, Vs, Pairs),
+    keysort(Pairs, Keyed),
+    pairs_values(Keyed, Sorted).
+
+% sort/2 above orders these by rule id too; the reader expects rule order.
+order_not_checked(NCs, Sorted) :-
+    map_list_to_pairs([nc(R, C, _), C-R]>>true, NCs, Pairs),
     keysort(Pairs, Keyed),
     pairs_values(Keyed, Sorted).
 

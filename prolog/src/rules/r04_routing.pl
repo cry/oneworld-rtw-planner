@@ -447,12 +447,20 @@ validate:violation(A, v(operator_unknown, '4(j)', warning, Msg, [segments([N])])
            'Segment ~w does not state an operating carrier, so its codeshare eligibility under 4(j) was not checked.',
            [N]).
 
-validate:violation(A, v(marketing_carrier_missing, '4(j)', warning, Msg, [segments([N])])) :-
-    ann_seg(A, S),
-    S.type == flight,
-    S.marketing == unknown,
-    N = S.n,
-    format(atom(Msg), 'Segment ~w does not state a carrier, so 4(j) was not checked for it.', [N]).
+% Aggregated rather than one warning per segment: a routing given without
+% carriers at all would otherwise bury its real violations under a warning for
+% every sector, and "no carriers were given" is one fact, not sixteen.
+validate:violation(A, v(marketing_carrier_missing, '4(j)', warning, Msg, [segments(Ns)])) :-
+    findall(N, ( ann_seg(A, S), S.type == flight, S.marketing == unknown, N = S.n ), Ns),
+    Ns \== [],
+    length(Ns, Count),
+    (   Count == 1
+    ->  format(atom(Msg),
+               'Segment ~w does not state a carrier, so 4(j) was not checked for it.', [Ns])
+    ;   format(atom(Msg),
+               '~w segments (~w) do not state a carrier, so 4(j) was not checked for them.',
+               [Count, Ns])
+    ).
 
 % ===========================================================================
 % 4(k): transcontinental USA and Alaska

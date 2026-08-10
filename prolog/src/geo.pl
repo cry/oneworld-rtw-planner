@@ -17,6 +17,7 @@
             is_transcontinental_us/2,
             ocean_crossing/3,
             airport_search/3,
+            resolve_place/2,
             iata/2
           ]).
 
@@ -28,6 +29,7 @@
 */
 
 :- use_module('../data/limits').
+:- use_module('../data/cities').
 :- use_module('../data/countries').
 :- use_module('../data/overrides').
 :- use_module('../data/transcon').
@@ -37,6 +39,17 @@
 
 %! airport_known(+Iata) is semidet.
 airport_known(A) :- airport(A, _, _, _, _, _), !.
+
+%! resolve_place(+Code, -Airport) is det.
+%  Metropolitan city codes are what routings are written in, so they are
+%  resolved to a representative airport before anything else sees them. An
+%  unrecognised code is passed through untouched and fails airport_known/1
+%  later, which is what turns it into an input_error violation.
+resolve_place(Code, Airport) :-
+    (   city_code(Code, A)
+    ->  Airport = A
+    ;   Airport = Code
+    ).
 
 %! iata(+Code, -Display) is det.
 %  Codes are held lower-case internally so they can be table keys; every

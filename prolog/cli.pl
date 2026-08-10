@@ -2,10 +2,11 @@
 % cli.pl -- command line front end.
 %
 %   swipl prolog/cli.pl -- validate <itinerary.json> [--json]
+%   swipl prolog/cli.pl -- route <routing> [--cabin business] [--json]
 %   swipl prolog/cli.pl -- serve [--port 8080]
 %
-% Both subcommands render the same report/3 term; `validate` uses the text
-% renderer in src/explain.pl and the service uses src/io/json_out.pl.
+% All three subcommands render the same report/4 term; the first two use the
+% text renderer in src/explain.pl and the service uses src/io/json_out.pl.
 
 :- initialization(main, main).
 
@@ -21,17 +22,36 @@ main(Argv) :-
     halt(Code).
 
 run([validate, File|Opts], Code) :- !, cmd_validate(File, Opts, Code).
+run([route, Route|Opts], Code)   :- !, cmd_route(Route, Opts, Code).
 run([serve|Opts], Code)          :- !, cmd_serve(Opts, Code).
 run(_, 2) :-
+    route_help(Help),
     format(user_error,
            'usage: swipl prolog/cli.pl -- validate <itinerary.json> [--json]~n', []),
     format(user_error,
-           '       swipl prolog/cli.pl -- serve [--port 8080]~n', []).
+           '       swipl prolog/cli.pl -- route <routing> [--cabin economy|business|first] [--json]~n', []),
+    format(user_error,
+           '       swipl prolog/cli.pl -- serve [--port 8080]~n~n', []),
+    format(user_error, '~w~n', [Help]).
 
 % --- validate --------------------------------------------------------------
 
 cmd_validate(File, Opts, Code) :-
     read_json_file(File, Dict),
+    report_for(Dict, Opts, Code).
+
+% --- route -----------------------------------------------------------------
+
+% The routing form goes through the same JSON reader rather than a second path
+% into the validator, so `route` and a posted {"route": ...} cannot drift.
+cmd_route(Route, Opts, Code) :-
+    (   append(_, ['--cabin', Cabin|_], Opts)
+    ->  Dict = _{ route: Route, cabin: Cabin }
+    ;   Dict = _{ route: Route }
+    ),
+    report_for(Dict, Opts, Code).
+
+report_for(Dict, Opts, Code) :-
     itinerary_from_json(Dict, Itin),
     validate_annotated(Itin, Report, A),
     (   memberchk('--json', Opts)
@@ -41,7 +61,7 @@ cmd_validate(File, Opts, Code) :-
         nl
     ;   explain(Report)
     ),
-    Report = report(Verdict, _, _),
+    Report = report(Verdict, _, _, _),
     exit_code(Verdict, Code).
 
 exit_code(valid, 0).

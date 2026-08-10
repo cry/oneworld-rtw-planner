@@ -16,6 +16,15 @@
 :- use_module('../../data/limits').
 
 :- multifile validate:violation/2.
+:- multifile validate:not_checked/2.
+
+% A routing-only itinerary carries no calendar, so there is nothing to measure
+% ten days against. Named in the report rather than reported as undecidable:
+% see the registry note in validate.pl.
+validate:not_checked(A, nc(min_stay, '6',
+                           'Travel originates in TC1, so a 10-day minimum stay applies, but a routing-only itinerary carries no dates to measure it against.')) :-
+    A.mode == routing,
+    tc1_origin(A).
 
 validate:violation(A, v(min_stay, '6', error, Msg,
                         [segments([F, L]), days(Days), min(Min)])) :-
@@ -34,6 +43,7 @@ validate:violation(A, v(min_stay, '6', error, Msg,
 % Timestamps are what this rule is about, so their absence is reported rather
 % than passed over.
 validate:violation(A, v(min_stay, '6', indeterminate, Msg, [segments([F, L])])) :-
+    A.mode == full,
     tc1_origin(A),
     first_last_international(A, First, Last),
     F = First.n, L = Last.n,

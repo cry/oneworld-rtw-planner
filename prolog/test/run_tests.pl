@@ -10,4 +10,5 @@
 :- use_module(library(plunit)).
 :- use_module(test_geo).
 :- use_module(test_rules).
+:- use_module(test_route).
 :- use_module(test_json).
