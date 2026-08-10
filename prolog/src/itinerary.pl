@@ -28,6 +28,7 @@
 */
 
 :- use_module(geo).
+:- use_module('../data/limits').
 
 %! build_itinerary(+Origin, +Cabin, +Passengers, +RawSegs, -Itin) is det.
 %
@@ -91,12 +92,21 @@ segment_error(S, v(input_error, input, error, M, [segments([N]), airport(U)])) :
     iata(A, U),
     format(atom(M), 'Segment ~w references ~w, which is not a known airport with scheduled service.',
            [N, U]).
-segment_error(S, v(input_error, input, error, M, [segments([N])])) :-
+% These are local wall-clock times, so an eastbound trans-Pacific sector
+% legitimately arrives at an earlier clock time than it departed: NRT 17:00
+% arrives LAX 10:00 on the same calendar day. Only a regression wider than the
+% whole span of world time zones (UTC+14 to UTC-12) can be a data error rather
+% than a date line crossing.
+segment_error(S, v(input_error, input, error, M, [segments([N]), hours(Hours)])) :-
     N = S.n,
-    dt_stamp(S.dep, D),
-    dt_stamp(S.arr, Arr),
-    Arr < D,
-    format(atom(M), 'Segment ~w arrives before it departs.', [N]).
+    dt_minutes_between(S.dep, S.arr, Minutes),
+    limit(max_local_time_regression_hours, Max),
+    Limit is -Max * 60,
+    Minutes < Limit,
+    Hours is truncate(-Minutes / 60),
+    format(atom(M),
+           'Segment ~w arrives ~w hours before it departs, which no time zone difference explains.',
+           [N, Hours]).
 segment_error(S, v(input_error, input, error, M, [segments([N]), airport(U)])) :-
     N = S.n,
     A = S.from,

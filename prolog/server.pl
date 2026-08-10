@@ -19,6 +19,7 @@
 :- use_module(library(http/http_cors)).
 :- use_module(library(http/http_parameters)).
 :- use_module(library(apply)).
+:- use_module(library(time)).
 
 :- use_module('src/geo').
 :- use_module('src/validate').
@@ -77,17 +78,42 @@ validate_endpoint(Request) :-
     ).
 
 validate_request(Request) :-
+    check_body_size(Request),
     http_read_json_dict(Request, Dict, [value_string_as(string)]),
+    % The report is built under a time limit and replied outside it, so a
+    % timeout can never leave a half-written response on the wire.
+    limit(request_time_limit_seconds, Seconds),
+    call_with_time_limit(Seconds, build_report(Dict, Json)),
+    reply_json_dict(Json).
+
+build_report(Dict, Json) :-
     itinerary_from_json(Dict, Itin),
     validate_annotated(Itin, Report, A),
     annotations_json(A, Annotations),
-    report_json(Report, _{ annotations: Annotations }, Json),
-    reply_json_dict(Json).
+    report_json(Report, _{ annotations: Annotations }, Json).
+
+% Refuse an oversized body before reading it rather than after. The declared
+% length is what SWI will read, so checking it here is the cheap guard; the
+% segment cap in io/json_in.pl is the one that bounds the actual work.
+check_body_size(Request) :-
+    limit(max_request_bytes, Max),
+    (   memberchk(content_length(Length), Request),
+        Length > Max
+    ->  throw(request_too_large(Length, Max))
+    ;   true
+    ).
 
 % Malformed input is a 400 with a structured body; anything else is a bug in a
 % rule and is reported as a 500 rather than being swallowed into a verdict.
 reply_error(input_error(Message)) :- !,
     reply_json_dict(_{ error: 'invalid_request', message: Message }, [status(400)]).
+reply_error(request_too_large(Length, Max)) :- !,
+    format(atom(M), 'Request body is ~d bytes; the maximum is ~d.', [Length, Max]),
+    reply_json_dict(_{ error: 'request_too_large', message: M }, [status(413)]).
+reply_error(time_limit_exceeded) :- !,
+    reply_json_dict(_{ error: 'timeout',
+                       message: 'Validation exceeded its time limit.' },
+                    [status(503)]).
 reply_error(http_reply(_) ) :- !,
     reply_json_dict(_{ error: 'invalid_request',
                        message: 'Request body must be JSON.' }, [status(400)]).

@@ -42,6 +42,19 @@ limit(infant_discount_percent,         10).   % 19
 limit(child_min_age,                    2).   % 19
 limit(child_max_age,                   11).   % 19
 
+% Service limits. Not from the fare rule: these bound the work a single request
+% can cause. Several rules are quadratic in the segment count (4(i) compares
+% every pair), so the input is capped well above the 16 the fare permits but far
+% below anything that could be used to make the validator spin.
+limit(max_input_segments,             100).
+limit(max_request_bytes,           131072).
+limit(request_time_limit_seconds,      10).
+
+% Local wall-clock arithmetic: see the date line note in src/itinerary.pl. The
+% span from UTC+14 to UTC-12 is 26 hours, so a sector whose arrival clock time
+% precedes its departure by more than that cannot be a date line crossing.
+limit(max_local_time_regression_hours, 26).
+
 % Stopover thresholds. The fare rule never defines stopover-vs-transfer; these
 % are the industry convention and are declared here so they are auditable and
 % adjustable rather than buried in annotate.pl.

@@ -15,6 +15,7 @@
 :- use_module('../src/io/json_out').
 :- use_module('../src/validate').
 :- use_module('../server').
+:- use_module('../data/limits').
 
 :- begin_tests(json_in).
 
@@ -58,6 +59,15 @@ test(bad_cabin_throws, [throws(input_error(_))]) :-
 
 test(unparseable_date_throws, [throws(input_error(_))]) :-
     itinerary_from_json(_{ segments: [ _{from:"LHR", to:"JFK", dep:"next tuesday"} ] }, _).
+
+% Several rules are quadratic in the segment count, so the reader caps the
+% input well above the 16 the fare permits and far below anything expensive.
+test(segment_cap_throws, [throws(input_error(_))]) :-
+    limit(max_input_segments, Max),
+    Over is Max + 1,
+    length(Segs, Over),
+    maplist(=(_{ from: "LHR", to: "JFK" }), Segs),
+    itinerary_from_json(_{ segments: Segs }, _).
 
 :- end_tests(json_in).
 
@@ -163,15 +173,44 @@ test(validate_matches_the_report_term) :-
              assertion(Rs == Ids)
            )).
 
-test(malformed_body_is_a_400) :-
+post_json(Body, Code, Dict) :-
     url('/api/validate', Url),
-    catch(setup_call_cleanup(
-              http_open(Url, In, [ method(post),
-                                   post(json(_{ segments: [ _{ from: "LHR" } ] })) ]),
-              read_string(In, _, _),
-              close(In)),
-          error(existence_error(_, _), Ctx),
-          true),
-    assertion(nonvar(Ctx)).
+    setup_call_cleanup(
+        http_open(Url, In, [ method(post), post(json(Body)), status_code(Code) ]),
+        json_read_dict(In, Dict, [value_string_as(atom)]),
+        close(In)).
+
+test(malformed_body_is_a_400) :-
+    post_json(_{ segments: [ _{ from: "LHR" } ] }, Code, D),
+    assertion(Code == 400),
+    assertion(D.error == invalid_request).
+
+% Bounded work per request: the declared length is refused before the body is
+% read, and the segment cap refuses a small body that would still be expensive.
+% The body is refused on its declared length, before it is read -- which is the
+% point, since reading it is the cost being avoided. A client that writes the
+% whole body before reading the response may therefore see the connection go
+% away instead of the 413; both outcomes mean refused, and the test accepts
+% either. curl and other streaming clients do receive the 413.
+test(oversized_body_is_refused) :-
+    limit(max_request_bytes, Max),
+    Count is Max // 20,
+    length(Segs, Count),
+    maplist(=(_{ from: "LHR", to: "JFK", carrier: "BA" }), Segs),
+    catch(( post_json(_{ segments: Segs }, Code, D),
+            assertion(Code == 413),
+            assertion(D.error == request_too_large)
+          ),
+          error(socket_error(_, _), _),
+          true).
+
+test(too_many_segments_is_a_400) :-
+    limit(max_input_segments, Max),
+    Over is Max + 1,
+    length(Segs, Over),
+    maplist(=(_{ from: "LHR", to: "JFK" }), Segs),
+    post_json(_{ segments: Segs }, Code, D),
+    assertion(Code == 400),
+    assertion(D.error == invalid_request).
 
 :- end_tests(http).

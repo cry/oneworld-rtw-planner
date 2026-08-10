@@ -43,6 +43,11 @@ Fare basis: DONE3 (3 continents, business)
 | `GET` | `/api/airports?q=&limit=` | typeahead over the airport table, with coordinates |
 | `GET` | `/api/health` | status and ruleset version |
 
+Errors come back as `{"error": ..., "message": ...}`: `400 invalid_request` for malformed input,
+`413 request_too_large`, `503 timeout`, `500 internal_error`. Request bodies are capped at 128 KB
+and 100 segments, and each validation runs under a 10-second limit — all three in
+[`prolog/data/limits.pl`](prolog/data/limits.pl) alongside the fare caps.
+
 `/api/ruleset` exists so a web UI never hardcodes rule data. Every validate response also carries an
 `annotations` object — the derived route, the collapsed continent and traffic-conference sequences,
 and each connection's ground time and stopover classification — so a UI can draw the itinerary and
@@ -74,9 +79,16 @@ Only `segments[].{from,to}` are required. `cabin` defaults to economy, `origin` 
 point of segment 1, `type` to `flight`, and `carrier` is shorthand for both carrier fields. Times
 are **local wall-clock** times; a zone designator is accepted and discarded.
 
+`carrier` sets both carrier fields; `marketingCarrier` on its own leaves the operator unknown rather
+than assuming there is no codeshare.
+
 Missing information degrades honestly rather than silently passing: absent timestamps make the
 stopover rules `indeterminate` and the verdict `indeterminate`, and an absent operating carrier
-makes 4(j) a `warning`.
+makes 4(j) a `warning`. Warnings alone leave a verdict of `valid`.
+
+Because the times are local, an eastbound trans-Pacific sector legitimately arrives at an earlier
+clock time than it departed — NRT 17:00 to LAX 10:00 the same day. Only a regression wider than the
+span of world time zones is treated as a data error.
 
 ## How it works
 
@@ -150,7 +162,12 @@ Four suites, in descending value:
    surface exception. All must stay silent.
 3. **Geography units** — every place the fare rule and physical geography disagree.
 4. **Serialization and HTTP round trip** — the JSON body must report the same verdict and rule ids
-   the text renderer prints, which is what keeps the two renderers from drifting.
+   the text renderer prints, which is what keeps the two renderers from drifting, plus the request
+   size, segment and timeout guards.
+
+Some rules cannot fire alone: a two-segment itinerary is below the 4(h) minimum and is necessarily
+also short of continents, stopovers and a traffic-conference cycle. Those tests still assert an
+exact set, just a set of more than one.
 
 ## Scope
 

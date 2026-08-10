@@ -10,6 +10,7 @@
 */
 
 :- use_module('../itinerary').
+:- use_module('../../data/limits').
 :- use_module(library(apply)).
 
 %! itinerary_from_json(+Dict, -Itin) is det.
@@ -36,6 +37,15 @@ itinerary_from_json(Dict, Itin) :-
     ->  throw(input_error('"segments" must not be empty.'))
     ;   true
     ),
+    length(SegsJson, SegCount),
+    limit(max_input_segments, MaxSegs),
+    (   SegCount > MaxSegs
+    ->  format(atom(TooMany),
+               'Itinerary has ~w segments; this service accepts at most ~w.',
+               [SegCount, MaxSegs]),
+        throw(input_error(TooMany))
+    ;   true
+    ),
     atom_field(Dict, origin, unknown, Origin),
     cabin(Dict, Cabin),
     passengers(Dict, Passengers),
@@ -50,9 +60,13 @@ segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr)) :-
     segment_type(J, Type),
     required_atom(J, from, From),
     required_atom(J, to, To),
+    % `carrier` is shorthand for "same carrier both ways" and so fills both
+    % fields. `marketingCarrier` on its own leaves the operator unknown rather
+    % than assuming there is no codeshare -- 4(j) turns on who actually
+    % operates, and quietly guessing would report a clean 4(j) it never checked.
     atom_field(J, carrier, unknown, Shared),
     atom_field(J, marketingCarrier, Shared, Mkt),
-    atom_field(J, operatingCarrier, Mkt, Op),
+    atom_field(J, operatingCarrier, Shared, Op),
     verbatim_field(J, flight, unknown, Flight),
     time_field(J, dep, Dep),
     time_field(J, arr, Arr).

@@ -15,15 +15,31 @@ explain(Report) :- explain(Report, current_output).
 
 %! explain(+Report, +Stream) is det.
 explain(report(Verdict, Violations, Fare), S) :-
-    length(Violations, N),
     verdict_headline(Verdict, Head),
-    (   N =:= 0
-    ->  format(S, '~w~n', [Head])
-    ;   plural(N, 'violation', Word),
-        format(S, '~w — ~d ~w~n', [Head, N, Word])
+    (   tally(Violations, Tally), Tally \== ''
+    ->  format(S, '~w — ~w~n', [Head, Tally])
+    ;   format(S, '~w~n', [Head])
     ),
     forall(member(V, Violations), violation_line(V, S)),
     fare_line(Fare, S).
+
+% Counted by severity rather than lumped together: a report carrying only
+% warnings is still valid, and calling those "violations" misreads it.
+tally(Violations, Tally) :-
+    findall(Part,
+            ( severity_rank(Severity, _),
+              aggregate_all(count, member(v(_, _, Severity, _, _), Violations), N),
+              N > 0,
+              severity_noun(Severity, Noun),
+              plural(N, Noun, Word),
+              format(atom(Part), '~d ~w', [N, Word])
+            ),
+            Parts),
+    atomic_list_concat(Parts, ', ', Tally).
+
+severity_noun(error,         'error').
+severity_noun(indeterminate, 'undecidable check').
+severity_noun(warning,       'warning').
 
 verdict_headline(valid,         'VALID').
 verdict_headline(invalid,       'INVALID').

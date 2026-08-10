@@ -40,6 +40,17 @@ test(swp_origin_transoceanic_surface_exception) :-
     fixture_rules(syd_surface, Verdict-Ids),
     assertion(Verdict-Ids == valid-[]).
 
+% Rule 6 applies only to TC1 origins, and this fixture meets its 10 days.
+% Segment 5 is eastbound trans-Pacific: it arrives at an earlier clock time
+% than it departed, which is a date line crossing, not a data error.
+test(tc1_origin_meeting_the_minimum_stay) :-
+    fixture_rules(jfk_tc1, Verdict-Ids),
+    assertion(Verdict-Ids == valid-[]).
+
+test(date_line_crossing_is_not_an_input_error) :-
+    fixture_report(jfk_tc1, _, report(_, Violations, _)),
+    assertion(\+ memberchk(v(input_error, _, _, _, _), Violations)).
+
 test(fare_basis_follows_continent_count) :-
     fixture_report(lhr_classic, _, report(_, _, Fare3)),
     assertion(Fare3.continents == 3),
@@ -108,6 +119,34 @@ test(transoceanic_surface_without_the_exception) :-
     fixture_rules(mut_transoceanic_surface, V-Ids),
     assertion(V-Ids == invalid-[transoceanic_surface]).
 
+test(minimum_stay_from_tc1) :-
+    fixture_rules(mut_min_stay, V-Ids),
+    assertion(V-Ids == invalid-[min_stay]).
+
+test(codeshare_operator_not_permitted) :-
+    fixture_rules(mut_codeshare, V-Ids),
+    assertion(V-Ids == invalid-[codeshare_not_permitted]).
+
+test(too_many_segments) :-
+    fixture_rules(mut_seg_count_max, V-Ids),
+    assertion(V-Ids == invalid-[seg_count_max]).
+
+% Some rules cannot fire alone: two segments are below the minimum and are also
+% necessarily short of continents, stopovers and a traffic-conference cycle.
+% The assertion is still exact, it is just exact about a set.
+test(too_few_segments) :-
+    fixture_rules(mut_seg_count_min, V-Ids),
+    assertion(V-Ids == invalid-[min_stopovers, seg_count_min,
+                                tc_cycle, too_few_continents]).
+
+test(fewer_than_three_continents) :-
+    fixture_rules(mut_two_continents, V-Ids),
+    assertion(V-Ids == invalid-[tc_cycle, too_few_continents]).
+
+test(child_discount_eligibility) :-
+    fixture_rules(mut_discounts, V-Ids),
+    assertion(V-Ids == invalid-[child_age_out_of_range, unaccompanied_child]).
+
 test(mauritius_south_africa_exclusion) :-
     fixture_rules(mut_europe_both_ways, V-Ids),
     assertion(V-Ids == invalid-[europe_both_ways_excluded]).
@@ -127,6 +166,21 @@ test(cuba_reported_once) :-
     assertion(Violations = [_]).
 
 :- end_tests(mutations).
+
+% --- warnings do not invalidate --------------------------------------------
+
+:- begin_tests(warnings).
+
+% 4(j) turns on who operates the flight. An absent operating carrier is not a
+% pass and not a failure: the check simply did not run, and the report says so.
+test(unknown_operator_warns_but_stays_valid) :-
+    fixture_rules(mut_operator_unknown, V-Ids),
+    assertion(V-Ids == valid-[operator_unknown]).
+
+test(carrier_shorthand_suppresses_the_warning) :-
+    fixture_rules(lhr_classic, valid-[]).
+
+:- end_tests(warnings).
 
 % --- undecidable input -----------------------------------------------------
 
