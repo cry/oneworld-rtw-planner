@@ -86,7 +86,13 @@ hardcodes no rule data: the version, segment limits, city codes and routing gram
 
 Exit codes: `0` valid, `1` invalid or indeterminate, `2` malformed input, `3` internal error.
 
-### Deployment
+```
+INVALID — 1 error
+  [4(i)]       error           Sector NRT-HKG flown twice in the same direction (segments 4 and 6).
+Fare basis: DONE3 (3 continents, business)
+```
+
+## Deployment
 
 `cli.pl serve` is for development: it parks the main thread on a message that never arrives, so a
 `SIGTERM` kills work in flight. Production uses [`prolog/daemon.pl`](prolog/daemon.pl), which is
@@ -95,29 +101,97 @@ Exit codes: `0` valid, `1` invalid or indeterminate, `2` malformed input, `3` in
 the signal handling: SIGINT/SIGTERM shut down without abandoning in-flight requests, SIGHUP reloads,
 SIGUSR1 reopens logs.
 
+### Docker
+
+Build. The airport table is committed, so the build needs no network and nothing is compiled:
+
 ```sh
 docker build -t rtw-validator .
+```
+
+Run. The first form is enough to try it; the second is how to deploy it:
+
+```sh
+# quick look — the UI is then at http://localhost:8080
+docker run --rm -p 8080:8080 rtw-validator
+
+# hardened: no root, no writable filesystem, no capabilities
 docker run -d --name rtw -p 8080:8080 \
   --read-only --cap-drop=ALL --security-opt no-new-privileges \
+  --restart unless-stopped \
   rtw-validator
 ```
 
-The image runs as uid 10001 on a read-only root filesystem with every capability dropped, and
-carries a `HEALTHCHECK` against `/api/health`. It has no writable path and no test corpus. Under
-systemd instead, use `Type=simple` with `--no-fork` (**not** `Type=forking`, which would wait for a
-parent that never exits):
+Everything after the image name is passed to the daemon, so `CMD` is the place to change the port
+or the worker count. Note that `-p` maps the *host* port to the container's, so both must change
+together:
+
+```sh
+docker run -d --name rtw -p 9000:9000 rtw-validator --port=9000 --workers=32
+```
+
+Operate it:
+
+```sh
+docker logs -f rtw                                     # stderr: startup, 500s with backtraces
+docker inspect --format '{{.State.Health.Status}}' rtw # the built-in HEALTHCHECK
+curl -fsS localhost:8080/api/health
+docker stop rtw && docker start rtw                    # SIGTERM is handled; stop returns in ~0.5s
+docker build -t rtw-validator . && docker rm -f rtw    # rebuild after a change, then run again
+```
+
+The image carries the CLI too, so it can validate a file without a server:
+
+```sh
+docker run --rm -i --entrypoint swipl rtw-validator \
+  /app/prolog/cli.pl -- route "NYC-BA-X/LON-QR-SIN-QF-SYD-QF-X/LAX-AA-NYC"
+```
+
+**Building on Apple Silicon for an x86 host** — the image is architecture-specific, and a `linux/arm64`
+image will not start on a `linux/amd64` server:
+
+```sh
+docker buildx build --platform linux/amd64 -t rtw-validator:amd64 --load .
+```
+
+Access logging is off unless `RTW_HTTP_LOG` names a file — a reverse proxy usually logs this better,
+and merely loading `library(http/http_log)` would otherwise write `httpd.log` into the working
+directory. To turn it on, give the container somewhere writable, since the root filesystem is not.
+The `mode=1777` matters: a bare `--tmpfs` mounts root-owned and the server runs as uid 10001, and
+`library(http/http_log)` swallows the resulting permission error rather than failing loudly.
+
+```sh
+docker run -d --name rtw -p 8080:8080 --read-only --tmpfs /var/log:mode=1777 \
+  -e RTW_HTTP_LOG=/var/log/rtw-http.log rtw-validator
+```
+
+The image runs as uid 10001 with every capability dropped, has no writable path, and ships neither
+the test suite nor the fixtures. `HEALTHCHECK` polls `/api/health` every 30 s. The base image is
+pinned to `swipl:10.0.2` rather than `:stable`, which moves; `docker buildx imagetools inspect
+swipl:10.0.2` gives a digest if you want the build pinned harder than that.
+
+### systemd
+
+Use `Type=simple` with `--no-fork` — **not** `Type=forking`, which would wait for a parent that
+never exits:
 
 ```ini
+[Service]
+Type=simple
+User=rtw
+WorkingDirectory=/opt/rtw
 ExecStart=/usr/bin/swipl --stack-limit=512m prolog/daemon.pl --no-fork --port=8080 --workers=16
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
 ```
 
-Put a reverse proxy in front for TLS, HTTP/2 and slow-client buffering. Access logging is off
-unless `RTW_HTTP_LOG` names a file — a proxy usually logs this better, and merely loading
-`library(http/http_log)` would otherwise write `httpd.log` into the working directory.
+Only the parent needs to be root, and only to bind a privileged port; `--user` drops privileges
+afterwards.
 
-Three things the server does deliberately, each of which was a production problem:
+### Why the server is built the way it is
+
+Put a reverse proxy in front for TLS, HTTP/2 and slow-client buffering. Beyond that, three things
+the server does deliberately, each of which was a production problem:
 
 - **The UI is read into the program at load time**, not opened per request. A path resolved with
   `prolog_load_context/2` is fixed at *compile* time, so a saved state or an image built anywhere
@@ -132,12 +206,6 @@ Three things the server does deliberately, each of which was a production proble
   answering, and a load balancer then pulls the instance for something that is not an outage. A full
   queue is refused with 503 rather than accumulated; both sizes are in
   [`prolog/data/limits.pl`](prolog/data/limits.pl).
-
-```
-INVALID — 1 error
-  [4(i)]       error           Sector NRT-HKG flown twice in the same direction (segments 4 and 6).
-Fare basis: DONE3 (3 continents, business)
-```
 
 ### HTTP API
 
