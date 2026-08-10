@@ -1,0 +1,13 @@
+# Everything the image does not need. The COPY lines in the Dockerfile are
+# explicit, so this is defence in depth plus a smaller build context.
+.git
+.gitignore
+.claude
+PLANS
+README.md
+parsed-rules-aug-2026.md
+prolog/test
+Dockerfile
+.dockerignore
+*.log
+httpd.log

@@ -86,6 +86,53 @@ hardcodes no rule data: the version, segment limits, city codes and routing gram
 
 Exit codes: `0` valid, `1` invalid or indeterminate, `2` malformed input, `3` internal error.
 
+### Deployment
+
+`cli.pl serve` is for development: it parks the main thread on a message that never arrives, so a
+`SIGTERM` kills work in flight. Production uses [`prolog/daemon.pl`](prolog/daemon.pl), which is
+`library(http/http_unix_daemon)` plus the application. That supplies the whole daemon CLI —
+`--port --ip --user --group --workers --pidfile --fork --syslog --https --certfile --keyfile` — and
+the signal handling: SIGINT/SIGTERM shut down without abandoning in-flight requests, SIGHUP reloads,
+SIGUSR1 reopens logs.
+
+```sh
+docker build -t rtw-validator .
+docker run -d --name rtw -p 8080:8080 \
+  --read-only --cap-drop=ALL --security-opt no-new-privileges \
+  rtw-validator
+```
+
+The image runs as uid 10001 on a read-only root filesystem with every capability dropped, and
+carries a `HEALTHCHECK` against `/api/health`. It has no writable path and no test corpus. Under
+systemd instead, use `Type=simple` with `--no-fork` (**not** `Type=forking`, which would wait for a
+parent that never exits):
+
+```ini
+ExecStart=/usr/bin/swipl --stack-limit=512m prolog/daemon.pl --no-fork --port=8080 --workers=16
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+```
+
+Put a reverse proxy in front for TLS, HTTP/2 and slow-client buffering. Access logging is off
+unless `RTW_HTTP_LOG` names a file — a proxy usually logs this better, and merely loading
+`library(http/http_log)` would otherwise write `httpd.log` into the working directory.
+
+Three things the server does deliberately, each of which was a production problem:
+
+- **The UI is read into the program at load time**, not opened per request. A path resolved with
+  `prolog_load_context/2` is fixed at *compile* time, so a saved state or an image built anywhere
+  but the deployment directory served 404s for a file sitting right there. It also leaves no
+  filesystem access in the request path, which is what lets the container run read-only.
+- **A 500 says nothing about the failure.** The term and its backtrace go to stderr, where systemd
+  and Docker collect them; the client gets a fixed message. Returning the raw term is the hazard
+  `library(http/http_error)` exists to warn about. Every other status still describes the caller's
+  own request back to them.
+- **Validation has its own thread pool.** It is the only expensive handler and the only one under a
+  time limit. Sharing the default five workers means five slow requests stop `/api/health`
+  answering, and a load balancer then pulls the instance for something that is not an outage. A full
+  queue is refused with 503 rather than accumulated; both sizes are in
+  [`prolog/data/limits.pl`](prolog/data/limits.pl).
+
 ```
 INVALID — 1 error
   [4(i)]       error           Sector NRT-HKG flown twice in the same direction (segments 4 and 6).

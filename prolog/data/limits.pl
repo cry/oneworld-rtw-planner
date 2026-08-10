@@ -50,6 +50,12 @@ limit(max_input_segments,             100).
 limit(max_request_bytes,           131072).
 limit(request_time_limit_seconds,      10).
 
+% Validation runs in its own thread pool so that slow requests cannot starve
+% the cheap endpoints -- see the note in server.pl. A full backlog is refused
+% with 503 rather than queued without bound.
+limit(validate_workers,                 8).
+limit(validate_backlog,                64).
+
 % Local wall-clock arithmetic: see the date line note in src/itinerary.pl. The
 % span from UTC+14 to UTC-12 is 26 hours, so a sector whose arrival clock time
 % precedes its departure by more than that cannot be a date line crossing.

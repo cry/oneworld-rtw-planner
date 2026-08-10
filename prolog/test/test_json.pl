@@ -213,4 +213,38 @@ test(too_many_segments_is_a_400) :-
     assertion(Code == 400),
     assertion(D.error == invalid_request).
 
+% A bug in a rule must not describe the validator's internals to an
+% unauthenticated caller: that is the hazard library(http/http_error) exists to
+% warn about, and it is invisible until something actually throws. The mapping
+% is checked rather than the wiring, which the 400 cases above already cover.
+test(an_internal_error_does_not_leak_the_term) :-
+    Secret = error(existence_error(procedure, some_internal_predicate/3), _),
+    server:error_reply(Secret, Status, Dict),
+    assertion(Status == 500),
+    assertion(Dict.error == internal_error),
+    assertion(\+ sub_atom(Dict.message, _, _, _, 'some_internal_predicate')),
+    assertion(\+ sub_atom(Dict.message, _, _, _, 'existence_error')).
+
+% The cases that describe the caller's own request back to them stay verbatim;
+% only the fallback is opaque.
+test(client_errors_keep_their_message) :-
+    server:error_reply(input_error('Missing "segments" or "route".'), S1, D1),
+    assertion(S1 == 400),
+    assertion(D1.message == 'Missing "segments" or "route".'),
+    server:error_reply(time_limit_exceeded, S2, _),
+    assertion(S2 == 503),
+    server:error_reply(request_too_large(200000, 131072), S3, _),
+    assertion(S3 == 413).
+
+% Served from memory, so it cannot depend on the working directory or on a
+% path baked in at compile time -- see the note in server.pl.
+test(the_ui_is_served_without_touching_the_filesystem) :-
+    url('/', Url),
+    setup_call_cleanup(
+        http_open(Url, In, [status_code(Code)]),
+        read_string(In, _, Body),
+        close(In)),
+    assertion(Code == 200),
+    assertion(sub_string(Body, _, _, _, "oneworld Explorer validator")).
+
 :- end_tests(http).
