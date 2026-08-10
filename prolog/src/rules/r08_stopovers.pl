@@ -13,17 +13,19 @@
 :- use_module('../geo').
 :- use_module('../annotate').
 :- use_module('../itinerary').
+:- use_module('../phrasing').
 :- use_module('../../data/limits').
 :- use_module(library(aggregate)).
 
 :- multifile validate:violation/2.
+:- multifile validate:check/2.
 
 validate:violation(A, v(min_stopovers, '8', error, Msg, [count(N), min(Min)])) :-
     \+ any_indeterminate_point(A),
     stopover_count(A, N),
     limit(min_stopovers, Min),
     N < Min,
-    plural_word(N, 'stopover', Word),
+    plural(N, 'stopover', Word),
     format(atom(Msg),
            'Itinerary has ~w ~w; a minimum of ~w is required.', [N, Word, Min]).
 
@@ -96,5 +98,28 @@ origin_continent(A, Cont) :-
     A.origin \== unknown,
     airport_continent(A.origin, Cont).
 
-plural_word(1, W, W) :- !.
-plural_word(_, W, P) :- atom_concat(W, s, P).
+% The unclassified count travels with the stopover count rather than in a check
+% of its own: a stopover total with four connections unread is a lower bound,
+% and reading the two numbers apart is what makes it look like a total.
+validate:check(A, chk(min_stopovers, '8', 'Stopovers', Detail,
+                      [min_stopovers, stopovers_undecidable, stop_kind_conflict])) :-
+    stopover_count(A, N),
+    limit(min_stopovers, Min),
+    aggregate_all(count, ( ann_point(A, P), P.kind == indeterminate ), Unread),
+    quantity(N, 'stopover', Count),
+    (   Unread == 0
+    ->  format(atom(Detail), '~w, of ~w required.', [Count, Min])
+    ;   quantity(Unread, 'connection', Unclassified),
+        format(atom(Detail), '~w, of ~w required, with ~w unclassified.',
+               [Count, Min, Unclassified])
+    ).
+
+validate:check(A, chk(origin_continent_stopovers, '8',
+                      'Stopovers in the origin continent', Detail,
+                      [origin_continent_stopovers])) :-
+    origin_continent(A, Cont),
+    aggregate_all(count,
+                  ( ann_point(A, P), P.kind == stopover, P.continent == Cont ),
+                  N),
+    limit(max_stopovers_origin_continent, Max),
+    format(atom(Detail), '~w in ~w, of ~w permitted.', [N, Cont, Max]).

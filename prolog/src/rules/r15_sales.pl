@@ -10,8 +10,10 @@
 :- use_module('../geo').
 :- use_module('../annotate').
 :- use_module('../carriers').
+:- use_module('../phrasing').
 
 :- multifile validate:violation/2.
+:- multifile validate:check/2.
 
 % Reported once per offending carrier segment, not once per time a Cuban
 % airport appears: a single stop shows up as both an arrival and the next
@@ -46,14 +48,51 @@ restricted_carrier(as).
 restricted_carrier(C) :- affiliate(aa, C, _).
 restricted_carrier(C) :- affiliate(as, C, _).
 
+% Rule 15 is about Cuba, so an itinerary that does not go there has nothing for
+% it to measure. Reporting a clean pass on the carrier half alone would read as
+% a restriction cleared rather than one never engaged.
+validate:check(A, Check) :-
+    cuba_airports(A, Cuba),
+    (   Cuba == []
+    ->  Check = chk_na(cuba_us_carrier, '15', 'Cuba and US carriers',
+                       'The itinerary does not touch Cuba.')
+    ;   findall(U, ( restricted_us_segment(A, _, C), iata(C, U) ), Carriers0),
+        sort(Carriers0, Carriers),
+        listed(Cuba, Places),
+        (   Carriers == []
+        ->  format(atom(Detail),
+                   'Touches Cuba (~w) and carries neither American nor Alaska.', [Places])
+        ;   listed(Carriers, List),
+            format(atom(Detail), 'Touches Cuba (~w) and carries ~w.', [Places, List])
+        ),
+        Check = chk(cuba_us_carrier, '15', 'Cuba and US carriers', Detail,
+                    [cuba_us_carrier])
+    ).
+
 % Ticket stock is a separate section 15 provision and does not depend on the
 % routing, so it is reported as a warning against the marketing carriers used.
 validate:violation(A, v(jq_stock_conflict, '15', warning, Msg, [segments([N])])) :-
+    jetstar_segment(A, N),
+    format(atom(Msg),
+           'Segment ~w is QF marketed and JQ operated, so IB and WY ticket stock cannot be used for this ticket.',
+           [N]).
+
+jetstar_segment(A, N) :-
     ann_seg(A, S),
     S.type == flight,
     S.marketing == qf,
     S.operating == jq,
-    N = S.n,
-    format(atom(Msg),
-           'Segment ~w is QF marketed and JQ operated, so IB and WY ticket stock cannot be used for this ticket.',
-           [N]).
+    N = S.n.
+
+% Reported as a measurement rather than declared not applicable: every ticket
+% has stock, so "which stock may be used" is always an answer this report owes.
+validate:check(A, chk(jq_stock_conflict, '15', 'Ticket stock', Detail,
+                      [jq_stock_conflict])) :-
+    findall(N, jetstar_segment(A, N), Segs),
+    (   Segs == []
+    ->  Detail = 'No segment is QF marketed and JQ operated, so any eligible ticket stock may be used.'
+    ;   segments_phrase(Segs, Where),
+        format(atom(Detail),
+               'QF marketed and JQ operated on ~w, which rules out IB and WY ticket stock.',
+               [Where])
+    ).

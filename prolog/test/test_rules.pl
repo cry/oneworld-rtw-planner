@@ -49,7 +49,7 @@ test(tc1_origin_meeting_the_minimum_stay) :-
     assertion(Verdict-Ids == valid-[]).
 
 test(date_line_crossing_is_not_an_input_error) :-
-    fixture_report(jfk_tc1, _, report(_, Violations, _, _)),
+    fixture_report(jfk_tc1, _, report(_, Violations, _, _, _)),
     assertion(\+ memberchk(v(input_error, _, _, _, _), Violations)).
 
 % 4(f) permits a second international departure from a USA origin only when one
@@ -61,10 +61,10 @@ test(usa_origin_using_the_transfer_exception) :-
     assertion(Verdict-Ids == valid-[]).
 
 test(fare_basis_follows_continent_count) :-
-    fixture_report(lhr_classic, _, report(_, _, Fare3, _)),
+    fixture_report(lhr_classic, _, report(_, _, Fare3, _, _)),
     assertion(Fare3.continents == 3),
     assertion(Fare3.basis == 'DONE3'),
-    fixture_report(lhr_africa, _, report(_, _, Fare4, _)),
+    fixture_report(lhr_africa, _, report(_, _, Fare4, _, _)),
     assertion(Fare4.continents == 4),
     assertion(Fare4.basis == 'DONE4').
 
@@ -193,7 +193,7 @@ test(cuba_with_a_us_carrier) :-
 % A single Cuban stop appears as both an arrival and the next departure; it
 % must still be reported once.
 test(cuba_reported_once) :-
-    fixture_report(mut_cuba, _, report(_, Violations, _, _)),
+    fixture_report(mut_cuba, _, report(_, Violations, _, _, _)),
     assertion(Violations = [_]).
 
 :- end_tests(mutations).
@@ -230,7 +230,7 @@ test(infant_without_an_age_warns) :-
 test(swp_europe_nonstop_warns_and_counts_asia) :-
     fixture_rules(syd_via_asia, V-Ids),
     assertion(V-Ids == valid-[via_asia_counted]),
-    fixture_report(syd_via_asia, _, report(_, _, Fare, _)),
+    fixture_report(syd_via_asia, _, report(_, _, Fare, _, _)),
     assertion(Fare.continents == 4),
     assertion(Fare.basis == 'LONE4').
 
@@ -250,13 +250,89 @@ test(missing_times_are_not_valid) :-
 % Unresolvable references are violations inside the report, not request errors,
 % so they render alongside the rule violations.
 test(unknown_airport_and_gap_are_violations) :-
-    fixture_report(mut_input_errors, V, report(_, Violations, _, _)),
+    fixture_report(mut_input_errors, V, report(_, Violations, _, _, _)),
     assertion(V == invalid),
     rule_ids(Violations, Ids),
     assertion(Ids == [input_error]),
     assertion(Violations = [_, _]).
 
 :- end_tests(indeterminacy).
+
+% --- the check register ----------------------------------------------------
+
+:- begin_tests(checks).
+
+% The load-bearing property. A rule that can fire without a check reporting
+% what it measured makes the register a claim about coverage it does not have,
+% and a new rule added without a check is exactly how that would happen.
+test(every_rule_that_can_fire_is_measured) :-
+    fixture_names(Names),
+    findall(Name-Rule,
+            ( member(Name, Names), uncovered_rule(Name, Rule) ),
+            Gaps),
+    assertion(Gaps == []).
+
+uncovered_rule(Name, Rule) :-
+    fixture(Name, Dict),
+    itinerary_from_json(Dict, Itin),
+    annotate(Itin, A),
+    findall(R, ( validate:check(A, C), covered_rule(C, R) ), Covered),
+    validate:violation(A, v(Rule, _, _, _, _)),
+    Rule \== input_error,
+    \+ memberchk(Rule, Covered).
+
+covered_rule(chk(_, _, _, _, Covers), Rule) :- member(Rule, Covers).
+
+% What the section is for: the number and the cap it sits under, not "ok".
+test(a_satisfied_cap_states_the_measurement) :-
+    fixture_check(lhr_classic, segment_count, check(_, Citation, _, Outcome, Detail)),
+    assertion(Citation == '4(h)'),
+    assertion(Outcome == pass),
+    assertion(sub_atom(Detail, _, _, _, '7 segments')),
+    assertion(sub_atom(Detail, _, _, _, 'maximum 16')).
+
+% The outcome is derived from the violations, never stated by the check, so a
+% breached cap cannot read as a pass.
+test(a_breached_cap_reports_as_failed) :-
+    fixture_check(mut_seg_count_max, segment_count, check(_, _, _, Outcome, _)),
+    assertion(Outcome == fail).
+
+% An unread connection makes the stopover total a lower bound. The check has to
+% inherit that from rule 8's indeterminate violation rather than pass on the
+% count it managed to reach.
+test(an_unread_connection_leaves_the_stopover_check_undecided) :-
+    fixture_check(mut_no_times, min_stopovers, check(_, _, _, Outcome, Detail)),
+    assertion(Outcome == indeterminate),
+    assertion(sub_atom(Detail, _, _, _, 'unclassified')).
+
+% not_checked and not_applicable are different absences: one is a rule the
+% input mode cannot answer, the other a rule the itinerary never engages.
+test(a_rule_the_input_mode_cannot_answer_is_not_a_pass) :-
+    fixture_check(route_classic, max_stay, check(_, _, _, Outcome, _)),
+    assertion(Outcome == not_checked).
+
+test(a_rule_the_geography_never_engages_is_not_a_pass) :-
+    fixture_check(lhr_classic, au_city_pair, check(_, _, _, Outcome, _)),
+    assertion(Outcome == not_applicable),
+    fixture_check(mut_au_city_pair, au_city_pair, check(_, _, _, Fired, _)),
+    assertion(Fired == fail).
+
+% Measurements over an itinerary that did not parse describe a journey nobody
+% submitted.
+test(input_errors_withhold_the_register) :-
+    fixture_checks(mut_input_errors, Checks),
+    assertion(Checks == []).
+
+test(checks_come_out_in_rule_order) :-
+    fixture_checks(lhr_classic, Checks),
+    findall(N,
+            ( member(check(_, Citation, _, _, _), Checks),
+              citation_key(Citation, N-_) ),
+            Numbers),
+    assertion(Numbers \== []),
+    assertion(\+ ( append(_, [X, Y|_], Numbers), X > Y )).
+
+:- end_tests(checks).
 
 % --- rule internals --------------------------------------------------------
 

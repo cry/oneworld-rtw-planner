@@ -8,9 +8,30 @@
 
 :- use_module('../geo').
 :- use_module('../annotate').
+:- use_module('../phrasing').
 :- use_module('../../data/limits').
 
 :- multifile validate:violation/2.
+:- multifile validate:check/2.
+
+validate:check(A, chk(passengers, '19', 'Children and infants', Detail,
+                      [unaccompanied_child, infant_russia_origin,
+                       infant_age_unstated, infant_too_old,
+                       child_age_out_of_range])) :-
+    findall(T, ( member(P, A.passengers), T = P.type ), Types),
+    Types \== [],
+    msort(Types, Sorted),
+    clumped(Sorted, Counts),
+    findall(Part, ( member(Type-N, Counts), quantity(N, Type, Part) ), Parts),
+    listed(Parts, Party),
+    (   ( memberchk(child, Types) ; memberchk(infant, Types) )
+    ->  limit(child_min_age, MinAge),
+        limit(child_max_age, MaxAge),
+        format(atom(Detail),
+               '~w; the child discount applies to ages ~w-~w, and a child or infant must travel with an adult.',
+               [Party, MinAge, MaxAge])
+    ;   format(atom(Detail), '~w; no child or infant restriction applies.', [Party])
+    ).
 
 % "Unaccompanied children are not accepted for transportation using the
 % oneworld Explorer fare."

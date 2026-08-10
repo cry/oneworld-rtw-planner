@@ -9,9 +9,20 @@
 
 :- use_module('../annotate').
 :- use_module('../pricing').
+:- use_module('../phrasing').
 :- use_module('../../data/limits').
 
 :- multifile validate:violation/2.
+:- multifile validate:check/2.
+
+validate:check(A, chk(continent_count, '0', 'Continent count', Detail,
+                      [too_few_continents, via_asia_counted])) :-
+    continent_count(A, Continents, N),
+    limit(min_continents, Min),
+    quantity(N, 'continent', Count),
+    listed(Continents, List),
+    format(atom(Detail),
+           '~w (~w); the fare basis table starts at ~w.', [Count, List, Min]).
 
 validate:violation(A, v(too_few_continents, '0', error, Msg,
                         [count(N), min(Min), continents(Cs)])) :-

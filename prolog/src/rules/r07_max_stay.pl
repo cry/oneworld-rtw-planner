@@ -8,10 +8,12 @@
 
 :- use_module('../annotate').
 :- use_module('../itinerary').
+:- use_module('../phrasing').
 :- use_module('../../data/limits').
 
 :- multifile validate:violation/2.
 :- multifile validate:not_checked/2.
+:- multifile validate:check/2.
 
 validate:not_checked(A, nc(max_stay, '7',
                            'Return travel from the last stopover must commence within 12 months of departure, but a routing-only itinerary carries no dates to measure it against.')) :-
@@ -52,3 +54,18 @@ last_stopover_departure(A, N, Dep) :-
     S.n == N,
     Dep = S.dep,
     Dep \== unknown.
+
+validate:check(A, chk(max_stay, '7', 'Maximum stay', Detail, [max_stay])) :-
+    A.segments \== [],
+    limit(max_stay_months, Max),
+    (   departure(A, Dep),
+        last_stopover_departure(A, N, Onward),
+        dt_months_between(Dep, Onward, Months)
+    ->  quantity(Months, 'month', Elapsed),
+        format(atom(Detail),
+               '~w from departure to the onward flight from the last stopover (segment ~w), of ~w permitted.',
+               [Elapsed, N, Max])
+    ;   format(atom(Detail),
+               'Return travel from the last stopover must commence within ~w months of departure; the itinerary carries no dates to measure that against.',
+               [Max])
+    ).

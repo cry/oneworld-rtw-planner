@@ -86,6 +86,23 @@ test(report_carries_verdict_and_rules) :-
     assertion(V.evidence.segments == [4, 6]),
     assertion(V.evidence.pair == 'NRT-HKG').
 
+% The check register has to travel with the report, or the UI has nothing to
+% show for the rules that held and would have to re-derive them in JavaScript.
+test(report_carries_the_check_register) :-
+    fixture(mut_dup_sector, Dict),
+    itinerary_from_json(Dict, Itin),
+    validate(Itin, Report),
+    report_json(Report, Json),
+    Checks = Json.checks,
+    once(( member(Failed, Checks), get_dict(rule, Failed, dup_sector) )),
+    assertion(Failed.citation == '4(i)'),
+    assertion(Failed.outcome == fail),
+    assertion(Failed.label == 'Repeated sectors'),
+    once(( member(Passed, Checks), get_dict(rule, Passed, segment_count) )),
+    assertion(Passed.outcome == pass),
+    atom_length(Passed.detail, Len),
+    assertion(Len > 0).
+
 test(annotations_describe_the_route) :-
     fixture(lhr_classic, Dict),
     itinerary_from_json(Dict, Itin),

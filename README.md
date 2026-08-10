@@ -29,6 +29,9 @@ swipl prolog/cli.pl -- validate prolog/test/fixtures/lhr_classic.json
 # the same report as JSON
 swipl prolog/cli.pl -- validate prolog/test/fixtures/mut_dup_sector.json --json
 
+# list every rule that was measured, not just the ones that were broken
+swipl prolog/cli.pl -- validate prolog/test/fixtures/lhr_classic.json --checks
+
 # check a routing with no dates at all
 swipl prolog/cli.pl -- route "NYC-BA-X/LON-QR-BKK//SIN-QF-SYD-QF-X/LAX-AA-NYC" --cabin business
 ```
@@ -74,7 +77,37 @@ INVALID — 1 error
   [8]          error           Itinerary has 0 stopovers; a minimum of 2 is required.
 Not checked — 1 rule this input cannot answer:
   [7]          Return travel from the last stopover must commence within 12 months of departure, …
+Checks — 1 failed, 16 ok, 1 not run, 5 n/a. Re-run with --checks to list them.
 ```
+
+### What passed, and by how much
+
+"No rule was broken" is a claim about coverage that a reader has no way to audit, and the number a
+cap was cleared by is what a fare-construction tool is actually asked. So every report carries a
+**check register** alongside the violations: one line per rule, stating what it measured.
+
+```
+$ swipl prolog/cli.pl -- validate prolog/test/fixtures/lhr_classic.json --checks
+VALID
+Checks — 17 ok, 5 n/a:
+  [4(e)]       ok        Intercontinental sectors              asia: 1 out, 1 in, max 2; europe_…
+  [4(h)]       ok        Segment count                         7 segments, of a minimum 3 and a …
+  [4(i)]       ok        Repeated sectors                      7 flight sectors, each city pair …
+  [4(l)]       n/a       Australian city pairs                 The itinerary has no flight withi…
+  [8]          ok        Stopovers                             4 stopovers, of 2 required.
+```
+
+A check clause states the measurement and nothing else. Its outcome — `ok`, `failed`, `flagged`,
+`undecided`, `not run`, `n/a` — is derived by the driver from the violations the same run produced,
+so the register cannot contradict the verdict above it, and a rule cannot be marked satisfied by
+forgetting to check it. The suite asserts the other half: no rule can fire without a check covering
+it.
+
+The four ways a rule can come out other than pass or fail are distinct on purpose. `undecided` is
+data the input left out, `not run` is a rule the input *mode* cannot answer, and `n/a` is a rule the
+itinerary never engages — 4(l) with no Australian sectors is not a restriction cleared. The register
+is withheld entirely when the input has errors: caps measured over an itinerary that did not parse
+describe a journey nobody submitted.
 
 ### Web UI
 
@@ -97,8 +130,11 @@ survives the round trip.
 
 Cabin and passengers sit above the tabs: they describe the fare, not the routing, and survive
 switching. The report panel gives the verdict, the fare basis, each violation with its citation and
-evidence, the rules the input could not answer, and how every connection was classified and by which
-source. Editing the form after a verdict marks the report as out of date rather than leaving a stale
+evidence, the rules the input could not answer, an expandable **Rules evaluated** register of every
+check and what it measured, and how every connection was classified and by which source. The
+register is collapsed by default — it is four times the length of the verdict it supports — and
+`ok` is the quietest thing in it, since on a valid itinerary it is every row and colouring them all
+would leave nothing for the one that is not. Editing the form after a verdict marks the report as out of date rather than leaving a stale
 answer looking current.
 
 **The route map** under Connections is drawn by [`web/map.src.js`](web/map.src.js) from the
@@ -335,7 +371,9 @@ Errors come back as `{"error": ..., "message": ...}`: `400 invalid_request` for 
 and 100 segments, and each validation runs under a 10-second limit — all three in
 [`prolog/data/limits.pl`](prolog/data/limits.pl) alongside the fare caps.
 
-`/api/ruleset` exists so a web UI never hardcodes rule data. Every validate response also carries an
+`/api/ruleset` exists so a web UI never hardcodes rule data. Every validate response carries a
+`checks` array — `{rule, citation, label, outcome, detail}` per rule measured, see
+[What passed, and by how much](#what-passed-and-by-how-much) — and an
 `annotations` object — the derived route, the collapsed continent and traffic-conference sequences,
 each connection's ground time and stopover classification, and `annotations.routing`, the whole
 journey written back out as a routing string — so a UI can draw the itinerary and show *why* a rule
@@ -411,7 +449,8 @@ Three layers with one contract between them:
 ```
 "route" ──route_in──┐
                     ├──> itinerary ──annotate──> A ──validate──> report(Verdict, Violations,
-"segments" ─json_in─┘                            │                      │      Fare, NotChecked)
+"segments" ─json_in─┘                            │                      │      Fare, NotChecked,
+                                                 │                      │      Checks)
                                                  │  ┌───────────────────┴────────┐
                                     route_out ───┘  explain (text)        json_out (HTTP)
                                         │
@@ -432,7 +471,10 @@ either direction.
 **Rules are violation generators.** Each rule is a clause of `validate:violation/2` that *succeeds
 when the rule is broken* and binds a term describing the breakage. A naive
 `valid(I) :- rule1(I), rule2(I), ...` would give a bare "no"; inverting it means backtracking
-enumerates every violation of every rule in one pass, each carrying its own evidence.
+enumerates every violation of every rule in one pass, each carrying its own evidence. Two smaller
+registries sit beside it: `validate:not_checked/2` for rules the input mode puts out of reach, and
+`validate:check/2` for what each rule measured. A check reports the measurement and names the
+violation ids it decides; the driver, not the rule, turns that into an outcome.
 
 **One annotation pass.** `annotate/2` runs once and derives continents, traffic conferences, ocean
 crossings and the stopover/transfer classification of every connection, so most rule bodies stay two
@@ -480,7 +522,7 @@ Africa (the rule needs Europe). `data/countries.pl` carries the fare-rule taxono
 swipl -g run_tests -t halt prolog/test/run_tests.pl
 ```
 
-Five suites, in descending value:
+Six suites, in descending value:
 
 1. **Mutation tests** — each fixture is the golden itinerary with exactly one rule broken, asserting
    that exactly the expected rule ids fire. This catches false negatives and rules that over-fire on
@@ -494,8 +536,12 @@ Five suites, in descending value:
    rules it cannot check instead of passing them. Composition is asserted as a round trip: parse a
    routing, annotate it, write it back out, and get the same string — which is the property that
    justifies `route_out.pl` being Prolog instead of thirty lines of JavaScript.
-4. **Geography units** — every place the fare rule and physical geography disagree.
-5. **Serialization and HTTP round trip** — the JSON body must report the same verdict and rule ids
+4. **The check register** — that a satisfied cap states its number, that a breached one cannot read
+   as a pass, and the load-bearing one: across every fixture, no rule can fire without a check
+   covering it. That is what stops a rule being added without a measurement and the register
+   quietly claiming coverage it does not have.
+5. **Geography units** — every place the fare rule and physical geography disagree.
+6. **Serialization and HTTP round trip** — the JSON body must report the same verdict and rule ids
    the text renderer prints, which is what keeps the two renderers from drifting, plus the request
    size, segment and timeout guards, and the static assets: a stylesheet or map bundle that 404s
    leaves the UI degraded rather than failing loudly, and a font re-encoded on the way out arrives

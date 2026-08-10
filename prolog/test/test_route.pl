@@ -152,7 +152,7 @@ test(undeclared_points_in_routing_mode_are_still_undecidable) :-
         _{ mode: "routing",
            segments: [ _{ from: "LHR", to: "JFK" }, _{ from: "JFK", to: "LHR" } ] },
         Itin),
-    validate(Itin, report(Verdict, Violations, _, _)),
+    validate(Itin, report(Verdict, Violations, _, _, _)),
     rule_ids(Violations, Ids),
     assertion(Verdict == invalid),          % also too short, below the 4(h) minimum
     assertion(memberchk(stopovers_undecidable, Ids)).
@@ -300,9 +300,9 @@ test(a_dated_itinerary_composes_and_agrees) :-
     route_of(Dict, Route),
     assertion(Route == 'LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR'),
     itinerary_from_json(Dict, Dated),
-    validate(Dated, report(V1, _, _, _)),
+    validate(Dated, report(V1, _, _, _, _)),
     itinerary_from_json(_{ route: Route, cabin: "business" }, Composed),
-    validate(Composed, report(V2, _, _, _)),
+    validate(Composed, report(V2, _, _, _, _)),
     assertion(V1 == valid),
     assertion(V2 == V1).
 
@@ -363,7 +363,7 @@ test(a_city_code_is_the_same_place_as_its_airport) :-
 
 routed_not_checked(Route, Ids) :-
     itinerary_from_json(_{ route: Route }, Itin),
-    validate(Itin, report(_, _, _, NotChecked)),
+    validate(Itin, report(_, _, _, NotChecked, _)),
     findall(R, member(nc(R, _, _), NotChecked), Ids).
 
 ann_of(Name, A) :-

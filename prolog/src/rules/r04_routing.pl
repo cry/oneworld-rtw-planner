@@ -9,12 +9,14 @@
 :- use_module('../geo').
 :- use_module('../annotate').
 :- use_module('../carriers').
+:- use_module('../phrasing').
 :- use_module('../../data/limits').
 :- use_module('../../data/transcon').
 :- use_module('../../data/au_pairs').
 :- use_module(library(aggregate)).
 
 :- multifile validate:violation/2.
+:- multifile validate:check/2.
 
 % ===========================================================================
 % 4(a) + 4(b) + 4(c): the traffic-conference cycle
@@ -65,6 +67,16 @@ crossings(A, [atlantic(NA), pacific(NP)]) :-
     aggregate_all(count, ( ann_seg(A, S), S.ocean == atlantic ), NA),
     aggregate_all(count, ( ann_seg(A, S), S.ocean == pacific ), NP).
 
+validate:check(A, chk(tc_cycle, '4(a),4(b)', 'Traffic-conference cycle', Detail,
+                      [tc_cycle])) :-
+    Seq = A.tcs,
+    Seq \== [],
+    atomic_list_concat(Seq, ' → ', Path),
+    crossings(A, [atlantic(NA), pacific(NP)]),
+    quantity(NA, 'Atlantic crossing', Atlantic),
+    quantity(NP, 'Pacific crossing', Pacific),
+    format(atom(Detail), '~w; ~w, ~w.', [Path, Atlantic, Pacific]).
+
 % ---------------------------------------------------------------------------
 % 4(b) exception: no backtracking between Hawaii and other points in North
 % America. Backtracking within a continent is otherwise permitted, so this is
@@ -89,6 +101,21 @@ hawaii_hop(A, N, From, To, Direction) :-
     S.to_cont == north_america,
     (   is_hawaii(From), \+ is_hawaii(To) -> Direction = outbound
     ;   is_hawaii(To), \+ is_hawaii(From) -> Direction = inbound
+    ).
+
+validate:check(A, Check) :-
+    findall(N, hawaii_hop(A, N, _, _, _), Hops),
+    (   Hops == []
+    ->  Check = chk_na(hawaii_backtrack, '4(b)', 'Hawaii backtracking',
+                       'No sector runs between Hawaii and the North American mainland.')
+    ;   length(Hops, N),
+        quantity(N, 'sector', Count),
+        segments_phrase(Hops, Where),
+        format(atom(Detail),
+               '~w between Hawaii and the North American mainland (~w); a there-and-back pair is not permitted.',
+               [Count, Where]),
+        Check = chk(hawaii_backtrack, '4(b)', 'Hawaii backtracking', Detail,
+                    [hawaii_backtrack])
     ).
 
 % ---------------------------------------------------------------------------
@@ -135,6 +162,22 @@ country_pair(X, Y, C1, C2) :-
     airport_country(X, CX), airport_country(Y, CY),
     ( CX == C1, CY == C2 ; CX == C2, CY == C1 ), !.
 
+validate:check(A, chk(end_at_origin, '4(c)', 'Terminates at origin', Detail, [end_at_origin])) :-
+    A.segments \== [],
+    last(A.segments, Last),
+    End = Last.to,
+    Origin = A.origin,
+    iata(End, UE), iata(Origin, UO),
+    (   End == Origin
+    ->  format(atom(Detail), 'Finishes at ~w, the point of origin.', [UE])
+    ;   permitted_od_surface(End, Origin, Description)
+    ->  format(atom(Detail),
+               'Finishes at ~w rather than ~w; ~w-~w is a permitted origin-destination surface sector, ~w.',
+               [UE, UO, UE, UO, Description])
+    ;   format(atom(Detail),
+               'Finishes at ~w rather than at the point of origin, ~w.', [UE, UO])
+    ).
+
 % ---------------------------------------------------------------------------
 % 4(d): travel may not be via the point of origin.
 
@@ -149,6 +192,18 @@ validate:violation(A, v(origin_revisited, '4(d)', error, Msg,
     format(atom(Msg),
            'The journey passes back through its point of origin (~w) after segment ~w; 4(d) does not permit travel via the origin.',
            [U, N]).
+
+validate:check(A, chk(origin_revisited, '4(d)', 'Origin not revisited', Detail,
+                      [origin_revisited])) :-
+    A.origin \== unknown,
+    iata(A.origin, U),
+    length(A.points, N),
+    quantity(N, 'intermediate point', Count),
+    aggregate_all(count, ( ann_point(A, P), P.airport == A.origin ), Revisits),
+    (   Revisits == 0
+    ->  format(atom(Detail), '~w, none of them ~w.', [Count, U])
+    ;   format(atom(Detail), '~w, ~w of them ~w.', [Count, Revisits, U])
+    ).
 
 % ===========================================================================
 % 4(e): intercontinental departures and arrivals per continent
@@ -218,6 +273,27 @@ validate:violation(A, v(europe_both_ways_excluded, '4(e)', error, Msg,
            'Travel is to and from Europe in both directions, so the itinerary may not include Mauritius or South Africa (~w).',
            [U]).
 
+% One line per continent the itinerary actually enters or leaves. Listing all
+% six would bury the two that carry the constraint under four zeroes.
+validate:check(A, chk(intercontinental, '4(e)', 'Intercontinental sectors', Detail,
+                      [intercont_departures, intercont_arrivals,
+                       europe_both_ways_excluded])) :-
+    findall(Part, intercont_summary(A, Part), Parts),
+    (   Parts == []
+    ->  Detail = 'No sector leaves the continent it starts in.'
+    ;   atomic_list_concat(Parts, '; ', Body),
+        format(atom(Detail), '~w.', [Body])
+    ).
+
+intercont_summary(A, Part) :-
+    continent(Cont),
+    memberchk(Cont, A.visited),
+    intercont_count(A, Cont, from_cont, Out),
+    intercont_count(A, Cont, to_cont, In),
+    ( Out > 0 -> true ; In > 0 ),
+    intercont_allowance(A, Cont, Max),
+    format(atom(Part), '~w: ~w out, ~w in, max ~w', [Cont, Out, In, Max]).
+
 % ===========================================================================
 % 4(f): international departures and arrivals from the country of origin
 % ===========================================================================
@@ -282,6 +358,24 @@ arriving_segment(A, N, S) :-
     ann_seg(A, S),
     S.n == N.
 
+validate:check(A, chk(origin_country_traffic, '4(f)',
+                      'Origin-country international sectors', Detail,
+                      [origin_country_departures, origin_country_arrivals])) :-
+    origin_country(A, Country),
+    Country \== unknown,
+    intl_country_count(A, Country, from_country, Out),
+    intl_country_count(A, Country, to_country, In),
+    origin_country_allowance(A, Country, Max),
+    (   Max > 1
+    ->  Note = ' (the 4(f) exception for a USA origin with an international transfer)'
+    ;   Note = ''
+    ),
+    quantity(Out, 'international departure', Departures),
+    quantity(In, 'arrival', Arrivals),
+    format(atom(Detail),
+           '~w from ~w and ~w into it, of ~w each permitted~w.',
+           [Departures, Country, Arrivals, Max, Note]).
+
 % "No more than 4 international transfers from the one country permitted."
 %
 % No fixture reaches this: five international transfers in one country needs
@@ -318,6 +412,24 @@ onward_segment(A, N, Next) :-
     ann_seg(A, Next),
     Next.n == M.
 
+validate:check(A, chk(transfers_per_country, '4(f)',
+                      'International transfers per country', Detail,
+                      [intl_transfers_per_country])) :-
+    limit(max_intl_transfers_per_country, Max),
+    findall(N-Country,
+            ( transfer_country(A, Country),
+              aggregate_all(count, international_transfer(A, Country, _), N) ),
+            Counts),
+    (   Counts == []
+    ->  format(atom(Detail),
+               'No international transfer; 4(f) permits ~w in any one country.', [Max])
+    ;   sort(0, @>=, Counts, [Most-Where|_]),
+        quantity(Most, 'international transfer', Count),
+        format(atom(Detail),
+               'At most ~w in any one country (~w), of ~w permitted.',
+               [Count, Where, Max])
+    ).
+
 % ===========================================================================
 % 4(g): surface sectors
 % ===========================================================================
@@ -346,6 +458,23 @@ transoceanic_surface_allowance(A, Max) :-
     (   origin_continent(A, south_west_pacific)
     ->  limit(max_transoceanic_surface_swp, Max)
     ;   limit(max_transoceanic_surface, Max)
+    ).
+
+validate:check(A, chk(transoceanic_surface, '4(g)', 'Transoceanic surface sectors',
+                      Detail, [transoceanic_surface])) :-
+    findall(N, transoceanic_surface(A, N), Segs),
+    length(Segs, Count),
+    transoceanic_surface_allowance(A, Max),
+    (   origin_continent(A, south_west_pacific)
+    ->  Because = ', the allowance for travel originating in the South West Pacific'
+    ;   Because = ''
+    ),
+    (   Segs == []
+    ->  format(atom(Detail), 'None; 4(g) permits ~w~w.', [Max, Because])
+    ;   segments_phrase(Segs, Where),
+        quantity(Count, 'sector', Quantity),
+        format(atom(Detail), '~w across the Atlantic or Pacific (~w), of ~w permitted~w.',
+               [Quantity, Where, Max, Because])
     ).
 
 origin_continent(A, Cont) :-
@@ -388,6 +517,32 @@ intra_continental_flight(A, Cont, N) :-
     S.to_cont == Cont,
     N = S.n.
 
+validate:check(A, chk(segment_count, '4(h)', 'Segment count', Detail,
+                      [seg_count_max, seg_count_min])) :-
+    ann_segment_count(A, N),
+    limit(min_segments, Min),
+    limit(max_segments, Max),
+    quantity(N, 'segment', Count),
+    format(atom(Detail),
+           '~w, of a minimum ~w and a maximum ~w; surface sectors count toward the maximum.',
+           [Count, Min, Max]).
+
+validate:check(A, chk(free_segments, '4(h)', 'Free segments per continent', Detail,
+                      [free_segments])) :-
+    findall(Part, free_segment_summary(A, Part), Parts),
+    (   Parts == []
+    ->  Detail = 'No flight begins and ends in the same continent.'
+    ;   atomic_list_concat(Parts, '; ', Body),
+        format(atom(Detail), '~w.', [Body])
+    ).
+
+free_segment_summary(A, Part) :-
+    continent(Cont),
+    free_segments(Cont, Max),
+    aggregate_all(count, intra_continental_flight(A, Cont, _), N),
+    N > 0,
+    format(atom(Part), '~w: ~w of ~w', [Cont, N, Max]).
+
 % ===========================================================================
 % 4(i): the same city pair may not be flown twice in the same direction
 % ===========================================================================
@@ -403,6 +558,22 @@ validate:violation(A, v(dup_sector, '4(i)', error, Msg,
     format(atom(Msg),
            'Sector ~w-~w flown twice in the same direction (segments ~w and ~w).',
            [UF, UT, I, J]).
+
+validate:check(A, chk(dup_sector, '4(i)', 'Repeated sectors', Detail,
+                      [dup_sector])) :-
+    findall(From-To, ann_flight(A, _, From, To), Flown),
+    Flown \== [],
+    length(Flown, N),
+    sort(Flown, Distinct),
+    length(Distinct, D),
+    Repeats is N - D,
+    quantity(N, 'flight sector', Count),
+    (   Repeats == 0
+    ->  format(atom(Detail), '~w, each city pair flown once in that direction.', [Count])
+    ;   quantity(Repeats, 'sector', Repeated),
+        format(atom(Detail), '~w over ~w distinct city pairs, so ~w repeat a direction.',
+               [Count, D, Repeated])
+    ).
 
 % ===========================================================================
 % 4(j): carriers, affiliates and codeshares
@@ -462,6 +633,34 @@ validate:violation(A, v(marketing_carrier_missing, '4(j)', warning, Msg, [segmen
                [Count, Ns])
     ).
 
+validate:check(A, chk(carriers, '4(j)', 'Carriers and codeshares', Detail,
+                      [carrier_not_eligible, codeshare_not_permitted,
+                       operator_unknown, marketing_carrier_missing])) :-
+    aggregate_all(count, ( ann_seg(A, S), S.type == flight ), Flights),
+    Flights > 0,
+    carrier_set(A, marketing, Marketing),
+    carrier_set(A, operating, Operating),
+    quantity(Flights, 'flight segment', Count),
+    (   Marketing == []
+    ->  format(atom(Detail), '~w, none of them naming a carrier.', [Count])
+    ;   listed(Marketing, Marketed),
+        (   Operating == []
+        ->  format(atom(Detail), '~w marketed by ~w; no operating carrier is stated.',
+                   [Count, Marketed])
+        ;   listed(Operating, Operated),
+            format(atom(Detail), '~w marketed by ~w, operated by ~w.',
+                   [Count, Marketed, Operated])
+        )
+    ).
+
+carrier_set(A, Key, Codes) :-
+    findall(U,
+            ( ann_seg(A, S), S.type == flight,
+              get_dict(Key, S, Code), Code \== unknown,
+              iata(Code, U) ),
+            All),
+    sort(All, Codes).
+
 % ===========================================================================
 % 4(k): transcontinental USA and Alaska
 % ===========================================================================
@@ -502,6 +701,55 @@ alaska_flight(A, from, N) :-
     is_alaska(S.from), \+ is_alaska(S.to),
     N = S.n.
 
+% 4(k) and 4(l) below are geography-specific, so they are declared not
+% applicable rather than passed when the itinerary never goes near them. A
+% clean pass on "transcontinental USA" for a journey that never lands in the
+% USA is a truth that reads as coverage.
+validate:check(A, Check) :-
+    limit(max_transcontinental_us, Max),
+    findall(N, transcontinental_flight(A, N), Segs),
+    (   Segs == [], \+ touches_country(A, 'US')
+    ->  Check = chk_na(transcontinental_us, '4(k)', 'Transcontinental USA',
+                       'The itinerary does not touch the United States.')
+    ;   Segs == []
+    ->  format(atom(Detail),
+               'No flight crosses the USA between the 4(k) state columns; ~w is permitted.',
+               [Max]),
+        Check = chk(transcontinental_us, '4(k)', 'Transcontinental USA', Detail,
+                    [transcontinental_us])
+    ;   length(Segs, N),
+        quantity(N, 'transcontinental USA flight', Count),
+        segments_phrase(Segs, Where),
+        format(atom(Detail), '~w (~w), of ~w permitted.', [Count, Where, Max]),
+        Check = chk(transcontinental_us, '4(k)', 'Transcontinental USA', Detail,
+                    [transcontinental_us])
+    ).
+
+validate:check(A, Check) :-
+    limit(max_flights_to_alaska, MaxTo),
+    limit(max_flights_from_alaska, MaxFrom),
+    findall(N, alaska_flight(A, to, N), To),
+    findall(N, alaska_flight(A, from, N), From),
+    (   \+ touches_alaska(A)
+    ->  Check = chk_na(alaska_flights, '4(k)', 'Flights to and from Alaska',
+                       'The itinerary does not touch the State of Alaska.')
+    ;   length(To, NTo), length(From, NFrom),
+        format(atom(Detail), '~w in, ~w out, of ~w in and ~w out permitted.',
+               [NTo, NFrom, MaxTo, MaxFrom]),
+        Check = chk(alaska_flights, '4(k)', 'Flights to and from Alaska', Detail,
+                    [alaska_flights])
+    ).
+
+touches_country(A, Country) :-
+    ann_airport(A, Airport),
+    airport_country(Airport, Country),
+    !.
+
+touches_alaska(A) :-
+    ann_airport(A, Airport),
+    is_alaska(Airport),
+    !.
+
 % ===========================================================================
 % 4(l): Australian city pairs
 % ===========================================================================
@@ -522,4 +770,36 @@ au_restricted_flight(A, Set, N) :-
     ann_seg(A, S),
     S.type == flight,
     au_restricted_pair(S.from-S.to, Set),
+    N = S.n.
+
+validate:check(A, Check) :-
+    limit(max_au_city_pair_flights, Max),
+    findall(Set-N, ( au_pair_set(Set, _), au_restricted_flight(A, Set, N) ), Flown),
+    (   Flown == [], \+ domestic_australian_flight(A, _)
+    ->  Check = chk_na(au_city_pair, '4(l)', 'Australian city pairs',
+                       'The itinerary has no flight within Australia.')
+    ;   findall(Part, au_set_summary(A, Part), Parts),
+        (   Parts == []
+        ->  format(atom(Detail),
+                   'No flight falls in a 4(l) restricted city-pair set; ~w per set is permitted.',
+                   [Max])
+        ;   atomic_list_concat(Parts, '; ', Body),
+            format(atom(Detail), '~w, of ~w per set permitted.', [Body, Max])
+        ),
+        Check = chk(au_city_pair, '4(l)', 'Australian city pairs', Detail,
+                    [au_city_pair])
+    ).
+
+au_set_summary(A, Part) :-
+    au_pair_set(Set, _),
+    aggregate_all(count, au_restricted_flight(A, Set, _), N),
+    N > 0,
+    upcase_atom(Set, U),
+    format(atom(Part), '~w ~w', [U, N]).
+
+domestic_australian_flight(A, N) :-
+    ann_seg(A, S),
+    S.type == flight,
+    S.from_country == 'AU',
+    S.to_country == 'AU',
     N = S.n.

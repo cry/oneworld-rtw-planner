@@ -128,6 +128,20 @@ const KIND = {
   indeterminate: 'text-indet font-semibold'
 };
 
+// The check register. `pass` is deliberately the quietest of the six: on a valid
+// itinerary it is every row, and colouring them all green would leave nothing
+// for the two that are not. An absence — n/a, not run — is dimmed rather than
+// dressed up as a result.
+const OUTCOME = {
+  pass:           { word: 'ok',        text: 'text-muted', dim: false },
+  fail:           { word: 'failed',    text: 'text-err',   dim: false },
+  warning:        { word: 'flagged',   text: 'text-warn',  dim: false },
+  indeterminate:  { word: 'undecided', text: 'text-indet', dim: false },
+  not_checked:    { word: 'not run',   text: 'text-indet', dim: true },
+  not_applicable: { word: 'n/a',       text: 'text-muted', dim: true }
+};
+const OUTCOME_ORDER = ['fail', 'indeterminate', 'warning', 'pass', 'not_checked', 'not_applicable'];
+
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"]/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -399,12 +413,14 @@ function renderReport(data, body) {
   const fare = data.fare || {};
   const ann = data.annotations || {};
   const nc = data.notChecked || [];
+  const checks = data.checks || [];
   const look = VERDICT[data.verdict] || VERDICT.indeterminate;
   const counts = tally(v);
 
   markFresh();
   announce(`${data.verdict}. ${counts || 'No rule was broken.'}` +
-           (nc.length ? ` ${nc.length} rule${nc.length === 1 ? '' : 's'} not checked.` : ''));
+           (nc.length ? ` ${nc.length} rule${nc.length === 1 ? '' : 's'} not checked.` : '') +
+           (checks.length ? ` ${checks.length} rules evaluated.` : ''));
 
   $('report').innerHTML = `
     <div class="settle">
@@ -418,6 +434,7 @@ function renderReport(data, body) {
       ${fareBlock(fare, ann)}
       ${violationList(v)}
       ${notCheckedList(nc)}
+      ${checkList(checks, v)}
       ${connections(ann)}
 
       <div class="border-t border-rule">
@@ -529,6 +546,48 @@ function notCheckedList(nc) {
         </ul>
       </div>
     </div>`;
+}
+
+// What every rule measured, not just the ones that were broken. "No rule was
+// broken" is a claim about coverage a reader has no way to audit, and the
+// number a cap was cleared by is the thing a fare-construction tool is actually
+// asked. Collapsed by default because it is four times the length of the
+// verdict it supports.
+function checkList(checks, violations) {
+  if (!checks.length) {
+    return violations.some(x => x.rule === 'input_error')
+      ? `<p class="border-t border-rule px-4 py-3 text-[13px] text-muted">
+           No rule was evaluated — the input errors above describe an itinerary the rules cannot be measured against.
+         </p>`
+      : '';
+  }
+
+  const counts = OUTCOME_ORDER
+    .map(name => {
+      const n = checks.filter(c => c.outcome === name).length;
+      return n ? `${n} ${OUTCOME[name].word}` : null;
+    })
+    .filter(Boolean).join(', ');
+
+  return `
+    <details class="group border-t border-rule">
+      <summary class="label cursor-pointer select-none px-4 py-2">
+        <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
+        Rules evaluated (${checks.length}) — ${esc(counts)}
+      </summary>
+      <ul class="border-t border-rule">${checks.map(c => {
+        const look = OUTCOME[c.outcome] || OUTCOME.pass;
+        return `
+        <li class="border-b border-rule px-4 py-1.5 last:border-b-0">
+          <div class="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+            <span class="cite">${esc(c.citation)}</span>
+            <span class="text-[12.5px] font-medium ${look.dim ? 'text-muted' : ''}">${esc(c.label)}</span>
+            <span class="sev-label ml-auto shrink-0 ${look.text}">${esc(look.word)}</span>
+          </div>
+          <p class="mt-0.5 max-w-[64ch] text-[12px] text-muted">${esc(c.detail)}</p>
+        </li>`;
+      }).join('')}</ul>
+    </details>`;
 }
 
 function connections(ann) {

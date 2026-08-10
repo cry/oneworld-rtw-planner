@@ -28,15 +28,17 @@ report_json(Report, Dict) :- report_json(Report, _{}, Dict).
 
 %! report_json(+Report, +Extra, -Dict) is det.
 %  Extra is merged in last, so a caller can attach the annotated itinerary.
-report_json(report(Verdict, Violations, Fare, NotChecked), Extra, Dict) :-
+report_json(report(Verdict, Violations, Fare, NotChecked, Checks), Extra, Dict) :-
     ruleset_version(Version),
     maplist(violation_json, Violations, Vs),
     maplist(not_checked_json, NotChecked, NCs),
+    maplist(check_json, Checks, Cs),
     fare_json(Fare, FareDict),
     Base = _{ verdict: Verdict,
               rulesetVersion: Version,
               violations: Vs,
               notChecked: NCs,
+              checks: Cs,
               fare: FareDict },
     Dict = Base.put(Extra).
 
@@ -44,6 +46,12 @@ report_json(report(Verdict, Violations, Fare, NotChecked), Extra, Dict) :-
 % without rendering this is claiming coverage the report does not give.
 not_checked_json(nc(Rule, Citation, Reason),
                  _{ rule: Rule, citation: Citation, reason: Reason }).
+
+% What each rule measured, whether or not it was broken. `outcome` is derived
+% from the violations in the same report, so it cannot contradict `verdict`.
+check_json(check(Rule, Citation, Label, Outcome, Detail),
+           _{ rule: Rule, citation: Citation, label: Label,
+              outcome: Outcome, detail: Detail }).
 
 violation_json(v(Rule, Citation, Severity, Message, Evidence),
                _{ rule: Rule,

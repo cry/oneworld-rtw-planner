@@ -13,6 +13,7 @@
 :- use_module('../geo').
 :- use_module('../annotate').
 :- use_module('../itinerary').
+:- use_module('../phrasing').
 :- use_module('../../data/limits').
 
 :- multifile validate:violation/2.
@@ -62,3 +63,27 @@ first_last_international(A, First, Last) :-
     Intl \== [],
     Intl = [First|_],
     last(Intl, Last).
+
+:- multifile validate:check/2.
+
+validate:check(A, Check) :-
+    limit(min_stay_days_tc1, Min),
+    (   \+ tc1_origin(A)
+    ->  Check = chk_na(min_stay, '6', 'Minimum stay',
+                       'Travel does not originate in Traffic Conference 1, so no minimum stay applies.')
+    ;   first_last_international(A, First, Last),
+        F = First.n, L = Last.n,
+        F \== L,
+        dt_days_between(First.dep, Last.dep, Days0)
+    ->  Days is truncate(Days0),
+        quantity(Days, 'day', Elapsed),
+        format(atom(Detail),
+               '~w between the first international sector (segment ~w) and the last (segment ~w), of ~w required.',
+               [Elapsed, F, L, Min]),
+        Check = chk(min_stay, '6', 'Minimum stay', Detail, [min_stay])
+    ;   quantity(Min, 'day', Required),
+        format(atom(Detail),
+               'Travel originates in TC1, so ~w must separate the first and last international sectors; the itinerary carries no dates for them.',
+               [Required]),
+        Check = chk(min_stay, '6', 'Minimum stay', Detail, [min_stay])
+    ).
