@@ -1,14 +1,20 @@
 {
   "name": "oneworld-rtw-planner-ui",
   "private": true,
-  "description": "Build step for web/app.css only. The validator itself is Prolog and needs none of this.",
+  "description": "Build step for the two generated files in web/ (app.css and map.js). The validator itself is Prolog and needs none of this.",
   "scripts": {
+    "build": "npm run css && npm run map",
     "css": "tailwindcss -i web/app.src.css -o web/app.css --minify",
     "css:watch": "tailwindcss -i web/app.src.css -o web/app.css --watch",
+    "map": "esbuild web/map.src.js --bundle --minify --format=iife --global-name=RTWMap --legal-comments=eof --banner:js=\"/*! Bundles d3-geo and topojson-client (ISC, Copyright Mike Bostock) and Natural Earth land data via world-atlas (ISC). Source and rationale: web/map.src.js */\" --outfile=web/map.js --log-level=warning",
     "check:contrast": "node web/check-contrast.mjs"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.3",
-    "tailwindcss": "^4.3.3"
+    "d3-geo": "^3.1.1",
+    "esbuild": "^0.28.2",
+    "tailwindcss": "^4.3.3",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
   }
 }

@@ -252,7 +252,8 @@ test(the_ui_is_served_without_touching_the_filesystem) :-
 % asserted too: a stylesheet served as text/plain is ignored by every browser.
 test(the_page_assets_are_served) :-
     forall(member(Path-Type, [ '/app.css' - "text/css",
-                               '/app.js'  - "text/javascript" ]),
+                               '/app.js'  - "text/javascript",
+                               '/map.js'  - "text/javascript" ]),
            ( url(Path, Url),
              setup_call_cleanup(
                  http_open(Url, In, [ status_code(Code),

@@ -295,6 +295,83 @@
   }
 }
 
+/* --- the route map ------------------------------------------------------- */
+
+/* Everything is drawn with tokens rather than literal colours, so the map
+ * follows the theme with no second palette and no redraw on a scheme change.
+ * The SVG scales with the panel: it is vector, so one render serves every size
+ * and there is nothing to recompute on resize. */
+@layer components {
+  .map {
+    @apply block w-full rounded-xs border border-rule bg-sunken;
+    height: auto;
+  }
+
+  .map-land {
+    fill: color-mix(in oklch, var(--color-ink) 9%, transparent);
+    stroke: color-mix(in oklch, var(--color-ink) 22%, transparent);
+    stroke-width: 0.4;
+  }
+
+  .map-graticule {
+    fill: none;
+    stroke: color-mix(in oklch, var(--color-ink) 9%, transparent);
+    stroke-width: 0.4;
+  }
+
+  .map-arc {
+    fill: none;
+    stroke: var(--color-accent);
+    stroke-width: 1.4;
+    stroke-linecap: round;
+  }
+
+  /* A surface sector is the one leg the traveller arranges, and 4(g) turns on
+   * telling it apart from a flight. */
+  .map-arc.is-surface {
+    stroke-dasharray: 4 3;
+    stroke: var(--color-muted);
+  }
+
+  .map-stop {
+    fill: var(--color-accent);
+    stroke: var(--color-sunken);
+    stroke-width: 1.2;
+  }
+
+  /* Hollow, because a transfer is a point the journey passes through rather
+   * than one it stops at -- the same distinction the report's colour makes. */
+  .map-stop.is-transfer {
+    fill: var(--color-sunken);
+    stroke: var(--color-muted);
+    stroke-width: 1.4;
+  }
+
+  .map-stop.is-indeterminate {
+    fill: var(--color-indet);
+  }
+
+  .map-label {
+    @apply font-mono;
+    font-size: 9.5px;
+    font-stretch: 87.5%;
+    fill: var(--color-ink);
+    paint-order: stroke;
+    stroke: var(--color-sunken);
+    stroke-width: 2.5;
+    stroke-linejoin: round;
+  }
+
+  .map-stop.is-lit {
+    fill: var(--color-ink);
+    stroke: var(--color-sunken);
+  }
+
+  .map-label.is-lit {
+    font-weight: 700;
+  }
+}
+
 /* One orchestrated entrance when a report lands, rather than motion scattered
  * across the page. 140ms is below the threshold where a repeated action starts
  * to feel like waiting. */

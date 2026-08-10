@@ -414,6 +414,37 @@ function renderReport(data, body) {
         ${disclosure('Full response', JSON.stringify(data, null, 2))}
       </div>
     </div>`;
+
+  drawMap(ann);
+}
+
+// The map is drawn after the report's markup is in the document, because it
+// builds real SVG nodes rather than a string. A failure here must not take the
+// report down with it: the table below says everything the map does.
+function drawMap(ann) {
+  const box = $('map');
+  if (!box) return;
+  try {
+    if (!window.RTWMap || !RTWMap.draw(box, ann)) box.remove();
+  } catch (e) {
+    box.remove();
+  }
+}
+
+// Hovering a connection lights up the same airport on the map. Cheap, and the
+// alternative is counting dots along a route that crosses itself.
+document.getElementById('report').addEventListener('mouseover', e => {
+  const row = e.target.closest('tr[data-airport]');
+  highlight(row && row.dataset.airport);
+});
+document.getElementById('report').addEventListener('mouseout', e => {
+  if (e.target.closest('tr[data-airport]')) highlight(null);
+});
+
+function highlight(code) {
+  for (const node of document.querySelectorAll('#map [data-airport]')) {
+    node.classList.toggle('is-lit', !!code && node.dataset.airport === code);
+  }
 }
 
 // Ruled rows rather than a card: the fare is a reading off the itinerary, and the
@@ -498,6 +529,7 @@ function connections(ann) {
         <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
         Connections (${points.length})
       </summary>
+      <div id="map" class="px-4 pb-2"></div>
       <div class="scroll-x px-4 pb-3">
         <table class="w-full border-collapse text-[12.5px]">
           <thead>
@@ -511,7 +543,7 @@ function connections(ann) {
           </thead>
           <tbody>
             ${points.map(p => `
-              <tr class="border-b border-rule last:border-b-0">
+              <tr class="border-b border-rule last:border-b-0" data-airport="${esc(p.airport)}">
                 <td class="mono py-1 pr-3 text-[11px] text-muted">${p.afterSegment}</td>
                 <td class="mono py-1 pr-3 font-medium">${esc(p.airport)}</td>
                 <td class="py-1 pr-3 ${KIND[p.kind] || ''}">${esc(p.kind)}</td>

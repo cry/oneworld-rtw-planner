@@ -190,17 +190,26 @@
   </section>
 
   <!-- ============================ report ============================ -->
-  <section class="min-w-0 xl:sticky xl:top-4">
-    <div class="flex items-baseline justify-between gap-3 pb-1.5">
-      <h2 class="label">Report</h2>
-      <!-- A verdict for an itinerary the user has since edited is worse than no
-           verdict, because it looks current. Any edit says so until revalidated. -->
-      <p id="stale" class="hidden text-[11.5px] font-semibold text-warn">
-        Itinerary changed since this report
-      </p>
-      <p id="status" class="mono ml-auto text-[10.5px] text-muted"></p>
+  <section class="min-w-0 xl:sticky xl:top-4" aria-labelledby="report-heading">
+    <!-- The heading was a strip of chrome above the panel saying "Report" over
+         something that says INVALID in 34px. It still exists for anyone
+         navigating by headings; it just does not take a row of the layout. -->
+    <h2 id="report-heading" class="sr-only">Report</h2>
+
+    <div class="relative rounded-sm border border-rule bg-panel">
+      <div id="report"></div>
+
+      <!-- Both float over the top-right of the verdict band rather than sitting
+           above the panel, so neither costs vertical space. They carry their own
+           background because whatever is behind them is a different colour for
+           each verdict. -->
+      <div class="pointer-events-none absolute right-2.5 top-2.5 flex items-center gap-2">
+        <p id="stale" class="hidden rounded-xs bg-panel/90 px-1.5 py-0.5 text-[11px] font-semibold text-warn">
+          Itinerary changed
+        </p>
+        <p id="status" class="mono rounded-xs bg-panel/90 text-[10.5px] text-muted empty:hidden"></p>
+      </div>
     </div>
-    <div id="report" class="rounded-sm border border-rule bg-panel"></div>
 
     <!-- The report is replaced wholesale on every validation, which a screen
          reader has no reason to notice. One short line goes here instead of
@@ -210,6 +219,10 @@
   </section>
 </main>
 
-<script src="/app.js"></script>
+<!-- Loaded before app.js because the report renderer calls into it synchronously.
+     It is the bulkier of the two -- most of it is the Natural Earth land outline
+     -- so it is deferred rather than blocking the first paint of the form. -->
+<script defer src="/map.js"></script>
+<script defer src="/app.js"></script>
 </body>
 </html>
