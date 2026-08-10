@@ -16,15 +16,24 @@ reader and plunit all ship with SWI. The airport table is committed, so a fresh 
 ## Use
 
 ```sh
+# run the service and open the UI at http://localhost:8080
+swipl prolog/cli.pl -- serve --port 8080
+
 # validate one itinerary, human-readable
 swipl prolog/cli.pl -- validate prolog/test/fixtures/lhr_classic.json
 
 # the same report as JSON
 swipl prolog/cli.pl -- validate prolog/test/fixtures/mut_dup_sector.json --json
-
-# run the HTTP service
-swipl prolog/cli.pl -- serve --port 8080
 ```
+
+### Web UI
+
+`swipl prolog/cli.pl -- serve` also serves [`web/index.html`](web/index.html) at `/` — a single
+self-contained page with no build step and no dependencies. It has a segment editor with airport
+typeahead from `/api/airports`, a set of example itineraries covering valid, invalid and
+indeterminate outcomes, and a report panel showing the verdict, the fare basis, each violation with
+its citation and evidence, and the stopover/transfer classification of every connection. It
+hardcodes no rule data: the version and segment limits in the header come from `/api/ruleset`.
 
 Exit codes: `0` valid, `1` invalid or indeterminate, `2` malformed input, `3` internal error.
 
@@ -42,6 +51,7 @@ Fare basis: DONE3 (3 continents, business)
 | `GET` | `/api/ruleset` | version, limits, free-segment caps, carriers, continents, fare-basis and surcharge tables |
 | `GET` | `/api/airports?q=&limit=` | typeahead over the airport table, with coordinates |
 | `GET` | `/api/health` | status and ruleset version |
+| `GET` | `/` | the bundled web UI |
 
 Errors come back as `{"error": ..., "message": ...}`: `400 invalid_request` for malformed input,
 `413 request_too_large`, `503 timeout`, `500 internal_error`. Request bodies are capped at 128 KB

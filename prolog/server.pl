@@ -27,9 +27,19 @@
 :- use_module('src/io/json_out').
 :- use_module('data/limits').
 
-% A web UI is expected to be served from a different origin during development.
+% The bundled UI is served from this same origin, but CORS stays open so a UI
+% under its own dev server can call the API too.
 :- set_setting_default(http:cors, [*]).
 
+% web/ sits beside prolog/ at the repository root.
+:- prolog_load_context(directory, Dir),
+   file_directory_name(Dir, Root),
+   (   user:file_search_path(rtw_root, Root)
+   ->  true
+   ;   asserta(user:file_search_path(rtw_root, Root))
+   ).
+
+:- http_handler(root(.),            home,     [method(get)]).
 :- http_handler(root(api/health),   health,   [method(get)]).
 :- http_handler(root(api/ruleset),  ruleset,  [method(get)]).
 :- http_handler(root(api/airports), airports, [method(get)]).
@@ -45,6 +55,11 @@ stop_server(Port) :-
     http_stop_server(Port, []).
 
 % --- endpoints -------------------------------------------------------------
+
+% A single self-contained page. It talks to the endpoints below and hardcodes
+% no rule data -- limits and the ruleset version come from /api/ruleset.
+home(Request) :-
+    http_reply_file(rtw_root('web/index.html'), [unsafe(false)], Request).
 
 health(_Request) :-
     cors_enable,
