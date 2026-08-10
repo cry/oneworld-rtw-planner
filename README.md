@@ -29,7 +29,7 @@ swipl prolog/cli.pl -- serve --port 8080
 Exit codes: `0` valid, `1` invalid or indeterminate, `2` malformed input, `3` internal error.
 
 ```
-INVALID — 1 violation
+INVALID — 1 error
   [4(i)]       error           Sector NRT-HKG flown twice in the same direction (segments 4 and 6).
 Fare basis: DONE3 (3 continents, business)
 ```
@@ -76,11 +76,11 @@ curl -s -X POST localhost:8080/api/validate \
 ```
 
 Only `segments[].{from,to}` are required. `cabin` defaults to economy, `origin` to the departure
-point of segment 1, `type` to `flight`, and `carrier` is shorthand for both carrier fields. Times
-are **local wall-clock** times; a zone designator is accepted and discarded.
+point of segment 1, and `type` to `flight`. Times are **local wall-clock** times; a zone designator
+is accepted and discarded.
 
-`carrier` sets both carrier fields; `marketingCarrier` on its own leaves the operator unknown rather
-than assuming there is no codeshare.
+`carrier` is shorthand that fills both carrier fields; `marketingCarrier` on its own leaves the
+operator unknown rather than assuming there is no codeshare.
 
 Missing information degrades honestly rather than silently passing: absent timestamps make the
 stopover rules `indeterminate` and the verdict `indeterminate`, and an absent operating carrier
