@@ -114,6 +114,36 @@ no runtime beyond the browser. The projection is equirectangular and cut at the 
 closed loop around the globe cannot be drawn on a rectangle without one cut somewhere, and the
 Pacific is where every round-the-world map puts it.
 
+**The itinerary lives in the URL**, so a routing can be pasted into a message and come back as a
+validated report. Opening a link populates the form, picks the right tab, and validates.
+
+| Parameter | Holds |
+|---|---|
+| `r` | the routing box, verbatim |
+| `s` | the segment table, base64url JSON — only when it was typed rather than parsed from `r` |
+| `t=s` | the Segments tab was the one being looked at |
+| `c`, `p` | cabin and passengers, only when not the default |
+
+```
+?r=LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR
+?r=LON-BA-NYC-AA-X/DFW-AA-LAX-QF-SYD//MEL-QF-X/SIN-BA-LON&c=economy&p=adult%2Bchild
+```
+
+`/` is legal in a query string, so it is left unencoded — most of what keeps a routing link
+readable. Rows filled in from a parsed routing are *derived* and deliberately not written to `s`:
+the routing regenerates them exactly, and storing them too would bury a readable link under two
+kilobytes of base64. The flag clears the moment the table is edited directly, because from then on
+it holds a date or a flight number the routing cannot express. Updates use `replaceState`, since at
+one history entry per keystroke the back button would become an undo key.
+
+**Colour scheme** is a three-way control in the header: Auto, Light, Dark. Auto follows the OS and
+stores nothing, so a machine that has never been told otherwise keeps tracking it. The whole theme
+is one `color-scheme` declaration — every token is a `light-dark(light, dark)` pair, so the two
+values that have to stay related sit on the same line, and the browser's own furniture (scrollbars,
+form controls, the canvas behind the page) switches with the page. A small inline script in
+`<head>` applies a stored choice before first paint; it is the only script on the page that is not
+deferred.
+
 The page hardcodes no rule data — version, segment limits, city codes and the routing grammar all
 come from `/api/ruleset`.
 

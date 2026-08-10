@@ -10,6 +10,16 @@
 <link rel="preload" href="/fonts/archivo-latin-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/martianmono-latin-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/app.css">
+
+<!-- Inline and before the stylesheet is applied, because a stored preference that
+     disagrees with the OS would otherwise show the wrong theme for one frame.
+     This is the only script that cannot be deferred. -->
+<script>
+  try {
+    var t = localStorage.getItem('rtw-theme');
+    if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+  } catch (e) { /* private mode: fall back to the OS scheme */ }
+</script>
 </head>
 <body class="font-sans text-[14px] leading-[1.45]">
 
@@ -21,9 +31,19 @@
         style="font-stretch:68%">
       oneworld Explorer <span class="text-accent">validator</span>
     </h1>
-    <p id="ruleset" class="mono text-[10.5px] leading-tight text-muted sm:text-right">
-      Tariff RWR2 Rule 3015
-    </p>
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5">
+      <p id="ruleset" class="mono text-[10.5px] leading-tight text-muted">
+        Tariff RWR2 Rule 3015
+      </p>
+      <div class="theme" role="group" aria-label="Colour scheme">
+        <input type="radio" name="theme" id="th-auto" value="auto" class="sr-only" checked>
+        <label for="th-auto">Auto</label>
+        <input type="radio" name="theme" id="th-light" value="light" class="sr-only">
+        <label for="th-light">Light</label>
+        <input type="radio" name="theme" id="th-dark" value="dark" class="sr-only">
+        <label for="th-dark">Dark</label>
+      </div>
+    </div>
   </div>
 </header>
 

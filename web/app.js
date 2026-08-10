@@ -149,6 +149,7 @@ function show(next, { focus = false } = {}) {
     $('panel-' + name).classList.toggle('hidden', !on);
     if (on && focus) tab.focus();
   }
+  syncUrl();
 }
 
 for (const [name, id] of Object.entries(TABS)) {
@@ -197,39 +198,39 @@ function render() {
     tr.innerHTML = `
       <td class="mono py-1 pr-1 text-[11px] text-muted">${i + 1}</td>
       <td class="py-1 pr-2">
-        <select class="field-select w-[5.9rem]" data-f="type" aria-label="Segment ${i + 1} type">
+        <select class="field-select w-[5.9rem]" data-f="type" name="type-${i}" aria-label="Segment ${i + 1} type">
           <option value="flight"${surface ? '' : ' selected'}>flight</option>
           <option value="surface"${surface ? ' selected' : ''}>surface</option>
         </select></td>
       <td class="py-1 pr-2">
-        <input class="code-input w-[5.4rem]" data-f="from" value="${esc(r.from)}"
+        <input class="code-input w-[5.4rem]" data-f="from" name="from-${i}" value="${esc(r.from)}"
                list="dl-${i}-from" autocomplete="off" aria-label="Segment ${i + 1} from">
         <datalist id="dl-${i}-from"></datalist></td>
       <td class="py-1 pr-2">
-        <input class="code-input w-[5.4rem]" data-f="to" value="${esc(r.to)}"
+        <input class="code-input w-[5.4rem]" data-f="to" name="to-${i}" value="${esc(r.to)}"
                list="dl-${i}-to" autocomplete="off" aria-label="Segment ${i + 1} to">
         <datalist id="dl-${i}-to"></datalist></td>
       <td class="py-1 pr-2">
-        <select class="field-select w-[8.4rem]" data-f="stop" aria-label="Stop at arrival of segment ${i + 1}"
+        <select class="field-select w-[8.4rem]" data-f="stop" name="stop-${i}" aria-label="Stop at arrival of segment ${i + 1}"
           ${last ? 'disabled title="The last segment ends the journey, so there is no intermediate point to describe."' : ''}>
           ${opt('', last ? '—' : (timesGiven() ? 'from times' : 'not stated'))}
           ${opt('transfer', 'transfer')}
           ${opt('stopover', 'stopover')}
         </select></td>
       <td class="py-1 pr-2">
-        <input class="code-input w-[4rem]" data-f="marketing" value="${esc(r.marketing)}" ${off}
+        <input class="code-input w-[4rem]" data-f="marketing" name="marketing-${i}" value="${esc(r.marketing)}" ${off}
                aria-label="Segment ${i + 1} marketing carrier"></td>
       <td class="py-1 pr-2">
-        <input class="code-input w-[4rem]" data-f="operating" value="${esc(r.operating)}" ${off}
+        <input class="code-input w-[4rem]" data-f="operating" name="operating-${i}" value="${esc(r.operating)}" ${off}
                aria-label="Segment ${i + 1} operating carrier"></td>
       <td class="py-1 pr-2">
-        <input class="code-input w-[5.6rem]" data-f="flight" value="${esc(r.flight)}" ${off}
+        <input class="code-input w-[5.6rem]" data-f="flight" name="flight-${i}" value="${esc(r.flight)}" ${off}
                aria-label="Segment ${i + 1} flight number"></td>
       <td class="c-when py-1 pr-2">
-        <input class="field mono w-[11.5rem] text-[12px]" type="datetime-local" data-f="dep"
+        <input class="field mono w-[11.5rem] text-[12px]" type="datetime-local" data-f="dep" name="dep-${i}"
                value="${esc(r.dep)}" ${off} aria-label="Segment ${i + 1} departure"></td>
       <td class="c-when py-1 pr-2">
-        <input class="field mono w-[11.5rem] text-[12px]" type="datetime-local" data-f="arr"
+        <input class="field mono w-[11.5rem] text-[12px]" type="datetime-local" data-f="arr" name="arr-${i}"
                value="${esc(r.arr)}" ${off} aria-label="Segment ${i + 1} arrival"></td>
       <td class="py-1">
         <button class="del inline-flex size-6 items-center justify-center rounded-xs text-[15px] leading-none text-muted transition-colors duration-150 hover:bg-err-wash hover:text-err"
@@ -246,9 +247,15 @@ function render() {
         el.addEventListener('input', () => suggest(el, el.getAttribute('list')));
       }
     });
-    tr.querySelector('.del').addEventListener('click', () => { rows.splice(i, 1); render(); });
+    tr.querySelector('.del').addEventListener('click', () => {
+      segmentsDerived = false;
+      rows.splice(i, 1);
+      render();
+    });
     body.appendChild(tr);
   });
+
+  syncUrl();
 }
 
 let timer = null;
@@ -325,7 +332,11 @@ function markFresh() {
 }
 
 for (const ev of ['input', 'change']) {
-  document.getElementById('itinerary-heading').parentElement.addEventListener(ev, markStale);
+  document.getElementById('itinerary-heading').parentElement.addEventListener(ev, e => {
+    if (e.target.closest('#panel-segments')) segmentsDerived = false;
+    markStale();
+    syncUrl();
+  });
 }
 
 async function validate(routeString) {
@@ -602,6 +613,7 @@ function loadItinerary(it) {
     return it.route;
   }
   $('route').value = '';
+  segmentsDerived = false;
   $('times').value = it.mode === 'routing' ? 'routing' : (hasTimes(it) ? 'full' : $('times').value);
   rows = (it.segments || []).map(s => ({
     type: s.type || 'flight',
@@ -624,6 +636,7 @@ const hasTimes = it => (it.segments || []).some(s => s.dep || s.arr);
 // here are resolved, so a city code comes back as its airport.
 function adoptSegments(ann) {
   if (!ann || !ann.segments) return;
+  segmentsDerived = true;
   rows = ann.segments.map(s => ({
     type: s.type, from: s.from || '', to: s.to || '',
     marketing: s.marketingCarrier || '', operating: s.operatingCarrier || '',
@@ -638,6 +651,165 @@ function adoptSegments(ann) {
   $('adopted').classList.remove('hidden');
 }
 
+// --- colour scheme ---------------------------------------------------------
+
+// Three states. "Auto" is the default and stores nothing, so a machine that has
+// never been told otherwise keeps following the OS; the other two write a key.
+// The theme itself is one `color-scheme` declaration in app.src.css -- all this
+// does is set or clear data-theme. The pre-paint copy of the read is inline in
+// index.html, because doing it here would show one frame of the wrong theme.
+const THEME_KEY = 'rtw-theme';
+
+function applyTheme(choice) {
+  if (choice === 'light' || choice === 'dark') {
+    document.documentElement.dataset.theme = choice;
+  } else {
+    delete document.documentElement.dataset.theme;
+  }
+  try {
+    if (choice === 'auto') localStorage.removeItem(THEME_KEY);
+    else localStorage.setItem(THEME_KEY, choice);
+  } catch (e) { /* private mode: the choice holds for this page only */ }
+}
+
+for (const input of document.querySelectorAll('input[name="theme"]')) {
+  input.addEventListener('change', () => applyTheme(input.value));
+}
+
+// Reflect what the inline script already applied, so the control agrees with the
+// page it is describing.
+(() => {
+  let stored = null;
+  try { stored = localStorage.getItem(THEME_KEY); } catch (e) { /* ignore */ }
+  const chosen = $('th-' + stored) || $('th-auto');
+  chosen.checked = true;
+})();
+
+// --- the URL ---------------------------------------------------------------
+
+// The itinerary lives in the query string, so a routing can be pasted into a
+// message and come back as a validated report. Written with replaceState rather
+// than pushState: at one entry per keystroke the back button would become an
+// undo key, which is not what anyone reaches for it expecting.
+//
+//   ?r=LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR    the routing box, verbatim
+//   ?s=<base64url>                                 the segment table
+//   &t=s                                           the Segments tab was active
+//   &c=economy &p=adult+child                      only when not the default
+//
+// Both r and s are written when both hold something, so switching tabs to read
+// the syntax help cannot quietly drop the table from a link you then share.
+const CABIN_DEFAULT = 'business';
+const PAX_DEFAULT = 'adult';
+
+// `/` is legal in a query string (RFC 3986) and the routing notation is full of
+// it. Leaving it alone is most of what keeps the URL readable, which is the
+// whole point of storing the routing rather than an opaque blob.
+const enc = v => encodeURIComponent(v).replace(/%2F/g, '/');
+
+const b64url = s =>
+  btoa(String.fromCharCode(...new TextEncoder().encode(s)))
+    .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+
+const unb64url = s =>
+  new TextDecoder().decode(
+    Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/')), c => c.charCodeAt(0)));
+
+// Positional rather than keyed, and trailing blanks are dropped: a keyed object
+// would roughly double a sixteen-segment URL for no gain, since nothing but this
+// file ever reads it.
+const FIELDS = ['type', 'from', 'to', 'marketing', 'operating', 'flight', 'dep', 'arr', 'stop'];
+
+function encodeSegments() {
+  const payload = {
+    v: 1,
+    m: timesGiven() ? 'full' : 'routing',
+    o: $('origin').value.trim().toUpperCase(),
+    g: rows.map(r => {
+      const cells = FIELDS.map(f => r[f] || '');
+      while (cells.length && cells[cells.length - 1] === '') cells.pop();
+      return cells;
+    })
+  };
+  if (!payload.o) delete payload.o;
+  return b64url(JSON.stringify(payload));
+}
+
+function decodeSegments(text) {
+  const payload = JSON.parse(unb64url(text));
+  if (!payload || !Array.isArray(payload.g)) throw new Error('no segments');
+  segmentsDerived = false;
+  $('times').value = payload.m === 'routing' ? 'routing' : 'full';
+  $('origin').value = payload.o || '';
+  rows = payload.g.map(cells => {
+    const row = blank();
+    FIELDS.forEach((f, i) => { row[f] = cells[i] || ''; });
+    row.type = row.type === 'surface' ? 'surface' : 'flight';
+    return row;
+  });
+}
+
+// Rows filled in from a parsed routing are derived, not authored: the routing
+// regenerates them exactly, so writing them to the URL as well would bury a
+// readable ?r=LHR-BA-JFK... under two kilobytes of base64 for nothing. The flag
+// clears the moment the table is touched directly, because from then on it holds
+// something -- a date, a flight number -- the routing cannot express.
+let segmentsDerived = false;
+let booted = false;
+let urlTimer = null;
+let pendingTab = null;
+
+function syncUrl() {
+  if (!booted) return;
+  clearTimeout(urlTimer);
+  urlTimer = setTimeout(writeUrl, 250);
+}
+
+function writeUrl() {
+  const parts = [];
+  const route = $('route').value.trim();
+  const authored = rows.length > 0 && !segmentsDerived;
+  if (route) parts.push('r=' + enc(route));
+  if (authored) parts.push('s=' + encodeSegments());
+  if (view === 'segments' && (authored || route)) parts.push('t=s');
+  if ($('cabin').value !== CABIN_DEFAULT) parts.push('c=' + enc($('cabin').value));
+  if ($('pax').value !== PAX_DEFAULT) parts.push('p=' + enc($('pax').value));
+
+  const query = parts.join('&');
+  history.replaceState(null, '', query ? '?' + query : location.pathname);
+}
+
+// Returns the routing to validate, null to validate the segment table, or
+// undefined when the URL carried no itinerary at all.
+function readUrl() {
+  const q = new URLSearchParams(location.search);
+  if (q.has('c')) $('cabin').value = q.get('c');
+  if (q.has('p') && PAX[q.get('p')]) $('pax').value = q.get('p');
+
+  const route = q.get('r') || '';
+  $('route').value = route;
+
+  let haveSegments = false;
+  if (q.has('s')) {
+    // A hand-mangled link should land on an empty form, not a broken one.
+    try { decodeSegments(q.get('s')); haveSegments = true; }
+    catch (e) { rows = []; }
+  }
+
+  const segmentsActive = haveSegments && (q.get('t') === 's' || !route);
+  show(segmentsActive ? 'segments' : 'routing');
+
+  if (segmentsActive) return null;
+  // A link made from the Segments tab while a routing was showing there carries
+  // t=s but no s, because the rows were derived. Validating the routing rebuilds
+  // them, so the tab is switched once that has happened.
+  if (route) {
+    if (q.get('t') === 's') pendingTab = 'segments';
+    return route;
+  }
+  return undefined;
+}
+
 // --- wiring ----------------------------------------------------------------
 
 $('example').addEventListener('change', e => {
@@ -645,11 +817,12 @@ $('example').addEventListener('change', e => {
   if (it) validate(loadItinerary(it));
 });
 $('times').addEventListener('change', render);
-$('add').addEventListener('click', () => { rows.push(blank()); render(); });
+$('add').addEventListener('click', () => { segmentsDerived = false; rows.push(blank()); render(); });
 
 let cleared = null;
 $('clear').addEventListener('click', () => {
-  cleared = { rows: rows.slice(), route: $('route').value };
+  cleared = { rows: rows.slice(), route: $('route').value, derived: segmentsDerived };
+  segmentsDerived = false;
   $('undo').classList.toggle('hidden', rows.length === 0 && !cleared.route);
   rows = [];
   $('route').value = '';
@@ -662,6 +835,7 @@ $('undo').addEventListener('click', () => {
   if (!cleared) return;
   rows = cleared.rows;
   $('route').value = cleared.route;
+  segmentsDerived = cleared.derived;
   cleared = null;
   $('undo').classList.add('hidden');
   render();
@@ -760,5 +934,15 @@ fetch('/api/ruleset')
   })
   .catch(() => { $('ruleset').textContent = 'Tariff RWR2 Rule 3015 · service unreachable'; });
 
-show('routing');
+// The URL is read before anything renders, because render() is one of the things
+// that writes it back and would otherwise erase the link that was just opened.
+// booted stays false until the form matches the URL, for the same reason.
+const linked = readUrl();
 render();
+booted = true;
+
+if (linked !== undefined) {
+  validate(linked || undefined).then(() => {
+    if (pendingTab) { show(pendingTab); pendingTab = null; }
+  });
+}

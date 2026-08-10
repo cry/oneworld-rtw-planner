@@ -39,37 +39,46 @@
  * (255) at chroma 0.004-0.016; it is below the threshold of "this is blue" and
  * above the threshold of feeling related to the accent.
  *
- * `static` emits every token whether or not a utility references it, so the
- * dark-mode block below always has something to override. */
+ * Every colour is one light-dark(light, dark) pair, so the two values that have
+ * to stay related sit on the same line and the whole theme switches on a single
+ * `color-scheme` declaration -- see the three selectors below. Dark is not a
+ * programmatic lightening of light: chroma has to come down as lightness goes
+ * up or the signal colours go garish, so each was re-derived.
+ *
+ * light-dark() resolves inside color-mix() and inside Tailwind's own opacity
+ * modifiers (`bg-panel/90`), which is what makes this work at all.
+ *
+ * `static` emits every token whether or not a utility references it. */
 @theme static {
   --font-sans: "Archivo", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Martian Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
-  --color-canvas: oklch(0.972 0.004 255);
-  --color-panel: oklch(0.995 0.002 255);
-  --color-sunken: oklch(0.955 0.006 255);
-  --color-ink: oklch(0.25 0.022 255);
-  --color-muted: oklch(0.512 0.021 255);
+  --color-canvas: light-dark(oklch(0.972 0.004 255), oklch(0.185 0.012 255));
+  --color-panel: light-dark(oklch(0.995 0.002 255), oklch(0.225 0.014 255));
+  --color-sunken: light-dark(oklch(0.955 0.006 255), oklch(0.163 0.011 255));
+  --color-ink: light-dark(oklch(0.25 0.022 255), oklch(0.928 0.008 255));
+  --color-muted: light-dark(oklch(0.512 0.021 255), oklch(0.672 0.016 255));
+
   /* Three tiers of line, because they answer to different rules. `rule` separates
    * rows and sections and is decorative (~1.45:1). `rule-strong` is an emphasis
    * rule under a column header (~1.9:1). `field-line` is the boundary of an input
    * or select, which WCAG 1.4.11 requires to reach 3:1 against its background --
    * a control you cannot find the edge of is a control you cannot use. Each value
    * was solved for the least contrast that clears its target, so nothing shouts. */
-  --color-rule: oklch(0.871 0.009 255);
-  --color-rule-strong: oklch(0.789 0.013 255);
-  --color-field-line: oklch(0.665 0.014 255);
-  --color-accent: oklch(0.47 0.14 252);
+  --color-rule: light-dark(oklch(0.871 0.009 255), oklch(0.341 0.016 255));
+  --color-rule-strong: light-dark(oklch(0.789 0.013 255), oklch(0.407 0.019 255));
+  --color-field-line: light-dark(oklch(0.665 0.014 255), oklch(0.513 0.016 255));
+  --color-accent: light-dark(oklch(0.47 0.14 252), oklch(0.775 0.115 250));
 
-  --color-ok: oklch(0.478 0.117 155);
-  --color-err: oklch(0.492 0.192 27);
-  --color-warn: oklch(0.474 0.104 65);
-  --color-indet: oklch(0.462 0.116 295);
+  --color-ok: light-dark(oklch(0.478 0.117 155), oklch(0.812 0.145 158));
+  --color-err: light-dark(oklch(0.492 0.192 27), oklch(0.762 0.135 27));
+  --color-warn: light-dark(oklch(0.474 0.104 65), oklch(0.822 0.125 78));
+  --color-indet: light-dark(oklch(0.462 0.116 295), oklch(0.795 0.105 297));
 
-  --color-ok-wash: oklch(0.955 0.028 155);
-  --color-err-wash: oklch(0.958 0.024 27);
-  --color-warn-wash: oklch(0.962 0.032 80);
-  --color-indet-wash: oklch(0.957 0.021 295);
+  --color-ok-wash: light-dark(oklch(0.955 0.028 155), oklch(0.278 0.043 158));
+  --color-err-wash: light-dark(oklch(0.958 0.024 27), oklch(0.288 0.055 27));
+  --color-warn-wash: light-dark(oklch(0.962 0.032 80), oklch(0.283 0.043 78));
+  --color-indet-wash: light-dark(oklch(0.957 0.021 295), oklch(0.282 0.043 297));
 
   /* 4pt scale, semantic rather than pixel-named. */
   --spacing: 0.25rem;
@@ -80,34 +89,24 @@
   --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-/* Dark is not a variant of light here: half this audience is reading a routing at
- * 11pm. The tokens are re-derived rather than programmatically lightened, because
- * chroma has to come down as lightness goes up or the signal colours go garish.
+/* The whole theme toggle. Absent data-theme the page follows the OS, which is
+ * the default and what most people want; the two overrides exist because a
+ * preference for one scheme is not always a preference for the same scheme
+ * everywhere. Setting color-scheme rather than a class also fixes the browser's
+ * own furniture -- scrollbars, form controls, the canvas behind the page.
  *
- * Unlayered on purpose. @theme emits into @layer theme, and an unlayered rule beats
- * any layer, so this wins without a specificity hack. */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-canvas: oklch(0.185 0.012 255);
-    --color-panel: oklch(0.225 0.014 255);
-    --color-sunken: oklch(0.163 0.011 255);
-    --color-ink: oklch(0.928 0.008 255);
-    --color-muted: oklch(0.672 0.016 255);
-    --color-rule: oklch(0.341 0.016 255);
-    --color-rule-strong: oklch(0.407 0.019 255);
-    --color-field-line: oklch(0.513 0.016 255);
-    --color-accent: oklch(0.775 0.115 250);
+ * Unlayered on purpose: @theme emits into @layer theme, and an unlayered rule
+ * beats any layer without needing a specificity hack. */
+:root {
+  color-scheme: light dark;
+}
 
-    --color-ok: oklch(0.812 0.145 158);
-    --color-err: oklch(0.762 0.135 27);
-    --color-warn: oklch(0.822 0.125 78);
-    --color-indet: oklch(0.795 0.105 297);
+:root[data-theme="light"] {
+  color-scheme: light;
+}
 
-    --color-ok-wash: oklch(0.278 0.043 158);
-    --color-err-wash: oklch(0.288 0.055 27);
-    --color-warn-wash: oklch(0.283 0.043 78);
-    --color-indet-wash: oklch(0.282 0.043 297);
-  }
+:root[data-theme="dark"] {
+  color-scheme: dark;
 }
 
 @layer base {
@@ -115,7 +114,6 @@
    * width between rows. */
   :root {
     font-variant-numeric: tabular-nums;
-    color-scheme: light dark;
   }
 
   body {
@@ -292,6 +290,35 @@
    * page turns those into code spans. */
   .hint code {
     @apply mono rounded-xs border border-rule bg-sunken px-1 py-px text-[11px] normal-case;
+  }
+}
+
+/* Three states, not two: "follow the OS" is the default and has to stay
+ * reachable after someone has overridden it. Real radio inputs, kept focusable
+ * rather than display:none, so arrow keys move between them for free. */
+@layer components {
+  .theme {
+    @apply inline-flex overflow-hidden rounded-xs border border-rule;
+  }
+
+  .theme label {
+    @apply cursor-pointer px-1.5 py-0.5 text-[10px] font-semibold uppercase
+           tracking-[0.07em] text-muted transition-colors duration-150;
+    font-stretch: 86%;
+  }
+
+  .theme label:hover {
+    @apply bg-sunken text-ink;
+  }
+
+  .theme input:checked + label {
+    @apply bg-accent text-panel;
+  }
+
+  /* The input itself is visually hidden, so the ring has to go on the label. */
+  .theme input:focus-visible + label {
+    outline: 2px solid var(--color-accent);
+    outline-offset: -2px;
   }
 }
 

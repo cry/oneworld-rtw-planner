@@ -1,7 +1,8 @@
 // Contrast check over the palette in app.src.css. Run with `npm run check:contrast`.
 //
 // The tokens are duplicated here rather than parsed out of the CSS, which is a real
-// cost: change one and you must change both. It buys a check that runs without a
+// cost: in app.src.css each colour is one light-dark(light, dark) pair, and both
+// halves also appear in the two tables below. It buys a check that runs without a
 // browser, a build, or a CSS parser, and the duplication fails loudly -- a token
 // edited in one place and not the other shows up as a ratio that moved for no
 // reason. Values are OKLCH [L, C, H], converted to sRGB and scored by WCAG 2.2.
