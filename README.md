@@ -169,9 +169,19 @@ Some rules cannot fire alone: a two-segment itinerary is below the 4(h) minimum 
 also short of continents, stopovers and a traffic-conference cycle. Those tests still assert an
 exact set, just a set of more than one.
 
+Every rule id has a fixture except one. 4(f)'s "no more than 4 international transfers from the one
+country" needs enough re-entries to breach 4(h)'s free-segment cap first, so the itinerary is
+rejected before that rule can fire. It is implemented because the rule text states it, and marked
+untested in the source rather than left to look covered.
+
 ## Scope
 
 Checked: 4(a)–4(l), 6, 7, 8, 15, 19, and the section 0 continent-count to fare-basis mapping.
 
 Not checked, because they are not decidable from an itinerary: capacity limitations, GDS fare
-amounts, booking-class availability, group travel, and voluntary-change fees.
+amounts, group travel, and voluntary-change fees. Section 5(b)'s booking codes are checkable in
+principle but would need a booked class per segment, which the input format does not carry.
+
+There is deliberately no "too many continents" rule: the fare table stops at six and the continent
+list has exactly six members, so it could never fire. What it would have been reaching for — that
+the fare table covers every count the geography can produce — is asserted as a test instead.

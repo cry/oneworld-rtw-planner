@@ -22,14 +22,12 @@ validate:violation(A, v(too_few_continents, '0', error, Msg,
            'Itinerary visits ~w continent(s) (~w); the fare requires at least ~w.',
            [N, Cs, Min]).
 
-validate:violation(A, v(too_many_continents, '0', error, Msg,
-                        [count(N), max(Max), continents(Cs)])) :-
-    continent_count(A, Cs, N),
-    limit(max_continents, Max),
-    N > Max,
-    format(atom(Msg),
-           'Itinerary visits ~w continents (~w); the fare table stops at ~w.',
-           [N, Cs, Max]).
+% There is deliberately no "too many continents" rule. The fare table stops at
+% six and the continent list has exactly six members, so no itinerary can
+% exceed it -- such a rule would be unreachable and would look like coverage it
+% does not provide. What it was reaching for is that the fare table must cover
+% every count the geography can produce, and that is asserted in
+% test/test_rules.pl where it belongs.
 
 % Section 0: a nonstop or surface sector between the South West Pacific and
 % Europe/Middle East is priced as travel via Asia, which adds a continent the

@@ -1,0 +1,13 @@
+{
+  "_comment": "QF marketed and JQ operated is permitted under 4(j), but section 15 then rules out IB and WY ticket stock. A warning against an otherwise valid itinerary.",
+  "origin": "SYD", "cabin": "economy",
+  "segments": [
+    {"n":1,"type":"flight","from":"SYD","to":"MEL","marketingCarrier":"QF","operatingCarrier":"JQ","dep":"2026-09-01T07:00","arr":"2026-09-01T08:30"},
+    {"n":2,"type":"flight","from":"MEL","to":"HKG","carrier":"QF","dep":"2026-09-05T11:00","arr":"2026-09-05T18:30"},
+    {"n":3,"type":"flight","from":"HKG","to":"DOH","carrier":"QR","dep":"2026-09-10T00:20","arr":"2026-09-10T04:05"},
+    {"n":4,"type":"flight","from":"DOH","to":"LHR","carrier":"QR","dep":"2026-09-14T08:00","arr":"2026-09-14T13:30"},
+    {"n":5,"type":"flight","from":"LHR","to":"JFK","carrier":"BA","dep":"2026-09-19T10:25","arr":"2026-09-19T13:30"},
+    {"n":6,"type":"flight","from":"JFK","to":"LAX","carrier":"AA","dep":"2026-09-24T08:00","arr":"2026-09-24T11:15"},
+    {"n":7,"type":"flight","from":"LAX","to":"SYD","carrier":"QF","dep":"2026-09-24T22:00","arr":"2026-09-26T07:00"}
+  ]
+}

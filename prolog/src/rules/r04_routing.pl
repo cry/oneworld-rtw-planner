@@ -255,19 +255,40 @@ intl_country_count(A, Country, Key, N) :-
 
 % "EXCEPTION: Two permitted for origin USA when one arrival-departure is a
 % transfer without stopover."
+%
+% The transfer has to be one of the country's own international
+% arrival-departure pairs. Accepting any US transfer anywhere would let a purely
+% domestic connection -- a change of plane at ORD in the middle of the journey
+% -- buy the second international departure, which is not what the exception
+% says.
 origin_country_allowance(A, 'US', Max) :-
-    usa_transfer_without_stopover(A), !,
+    origin_country_transfer(A, 'US'), !,
     limit(max_intl_dep_origin_country_usa, Max).
 origin_country_allowance(_, _, Max) :-
     limit(max_intl_dep_origin_country, Max).
 
-usa_transfer_without_stopover(A) :-
+origin_country_transfer(A, Country) :-
     ann_point(A, P),
     P.kind == transfer,
-    airport_country(P.airport, 'US'),
+    airport_country(P.airport, Country),
+    N = P.after,
+    arriving_segment(A, N, In),
+    In.international == true,
+    onward_segment(A, N, Out),
+    Out.international == true,
     !.
 
+arriving_segment(A, N, S) :-
+    ann_seg(A, S),
+    S.n == N.
+
 % "No more than 4 international transfers from the one country permitted."
+%
+% No fixture reaches this: five international transfers in one country needs
+% enough re-entries to breach 4(h)'s per-continent free segment cap first, so
+% the itinerary is rejected before this rule can fire. It is implemented anyway
+% because the rule text states it and a future edition may raise the caps --
+% but it is untested, and worth knowing that.
 validate:violation(A, v(intl_transfers_per_country, '4(f)', error, Msg,
                         [country(Country), count(N), max(Max)])) :-
     transfer_country(A, Country),

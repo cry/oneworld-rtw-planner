@@ -15,6 +15,7 @@
 :- use_module('../src/validate').
 :- use_module('../src/annotate').
 :- use_module('../src/pricing').
+:- use_module('../data/limits').
 :- use_module('../src/rules/r04_routing').
 
 % --- golden itineraries ----------------------------------------------------
@@ -50,6 +51,14 @@ test(tc1_origin_meeting_the_minimum_stay) :-
 test(date_line_crossing_is_not_an_input_error) :-
     fixture_report(jfk_tc1, _, report(_, Violations, _)),
     assertion(\+ memberchk(v(input_error, _, _, _, _), Violations)).
+
+% 4(f) permits a second international departure from a USA origin only when one
+% of the country's own international arrival-departure pairs is a transfer.
+% Miami is that transfer here; mut_origin_country is the same routing with
+% Miami as a stopover instead.
+test(usa_origin_using_the_transfer_exception) :-
+    fixture_rules(jfk_us_transfer, Verdict-Ids),
+    assertion(Verdict-Ids == valid-[]).
 
 test(fare_basis_follows_continent_count) :-
     fixture_report(lhr_classic, _, report(_, _, Fare3)),
@@ -147,6 +156,28 @@ test(child_discount_eligibility) :-
     fixture_rules(mut_discounts, V-Ids),
     assertion(V-Ids == invalid-[child_age_out_of_range, unaccompanied_child]).
 
+test(alaska_flight_limits) :-
+    fixture_rules(mut_alaska, V-Ids),
+    assertion(V-Ids == invalid-[alaska_flights]).
+
+test(stopovers_in_the_continent_of_origin) :-
+    fixture_rules(mut_origin_continent_stopovers, V-Ids),
+    assertion(V-Ids == invalid-[origin_continent_stopovers]).
+
+% The USA exception no longer applies once Miami is a stopover, so both
+% directions of the 4(f) count go over.
+test(origin_country_international_limits) :-
+    fixture_rules(mut_origin_country, V-Ids),
+    assertion(V-Ids == invalid-[origin_country_arrivals, origin_country_departures]).
+
+test(infant_over_the_age_limit) :-
+    fixture_rules(mut_infant_too_old, V-Ids),
+    assertion(V-Ids == invalid-[infant_too_old]).
+
+test(infant_from_a_russian_origin) :-
+    fixture_rules(led_infant, V-Ids),
+    assertion(V-Ids == invalid-[infant_russia_origin]).
+
 test(mauritius_south_africa_exclusion) :-
     fixture_rules(mut_europe_both_ways, V-Ids),
     assertion(V-Ids == invalid-[europe_both_ways_excluded]).
@@ -179,6 +210,29 @@ test(unknown_operator_warns_but_stays_valid) :-
 
 test(carrier_shorthand_suppresses_the_warning) :-
     fixture_rules(lhr_classic, valid-[]).
+
+test(no_carrier_at_all_warns) :-
+    fixture_rules(mut_no_carrier, V-Ids),
+    assertion(V-Ids == valid-[marketing_carrier_missing]).
+
+% QF marketed and JQ operated is permitted by 4(j) but constrains ticket stock
+% under section 15, which is a property of the ticket rather than the routing.
+test(jetstar_operated_qf_limits_ticket_stock) :-
+    fixture_rules(syd_jetstar, V-Ids),
+    assertion(V-Ids == valid-[jq_stock_conflict]).
+
+test(infant_without_an_age_warns) :-
+    fixture_rules(mut_infant_age_unstated, V-Ids),
+    assertion(V-Ids == valid-[infant_age_unstated]).
+
+% Priced as travel via Asia, so the fare basis counts a continent the itinerary
+% never lands in. Surfacing that stops the count looking like an error.
+test(swp_europe_nonstop_warns_and_counts_asia) :-
+    fixture_rules(syd_via_asia, V-Ids),
+    assertion(V-Ids == valid-[via_asia_counted]),
+    fixture_report(syd_via_asia, _, report(_, _, Fare)),
+    assertion(Fare.continents == 4),
+    assertion(Fare.basis == 'LONE4').
 
 :- end_tests(warnings).
 
@@ -217,6 +271,17 @@ test(valid_traffic_conference_cycles) :-
     assertion(\+ valid_tc_cycle([tc2, tc1, tc2])),     % never reaches TC3
     assertion(\+ valid_tc_cycle([tc2, tc1, tc3])),     % does not come home
     assertion(\+ valid_tc_cycle([tc2, tc1, tc3, tc1, tc2])).
+
+% There is no "too many continents" rule because it could never fire: the fare
+% table stops at six and the continent list has exactly six members. What that
+% rule was reaching for is this -- the table must cover every count the
+% geography can actually produce.
+test(fare_table_covers_every_reachable_continent_count) :-
+    aggregate_all(count, continent(_), Total),
+    limit(max_continents, Total),
+    limit(min_continents, Min),
+    forall(( between(Min, Total, N), member(Cabin, [economy, business, first]) ),
+           assertion(fare_basis(Cabin, N, _))).
 
 test(collapse_removes_only_consecutive_duplicates) :-
     collapse([tc2, tc2, tc1, tc1, tc1, tc3, tc2], S),

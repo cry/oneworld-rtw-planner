@@ -1,0 +1,10 @@
+{
+  "_comment": "Golden: a nonstop between the South West Pacific and Europe is priced as travel via Asia, so Asia is counted as a continent the itinerary never lands in. A warning, and the fare basis is LONE4 rather than LONE3.",
+  "origin": "SYD", "cabin": "economy",
+  "segments": [
+    {"n":1,"type":"flight","from":"SYD","to":"LHR","carrier":"QF","dep":"2026-09-01T09:20","arr":"2026-09-02T05:10"},
+    {"n":2,"type":"flight","from":"LHR","to":"JFK","carrier":"BA","dep":"2026-09-06T10:25","arr":"2026-09-06T13:30"},
+    {"n":3,"type":"flight","from":"JFK","to":"LAX","carrier":"AA","dep":"2026-09-11T08:00","arr":"2026-09-11T11:15"},
+    {"n":4,"type":"flight","from":"LAX","to":"SYD","carrier":"QF","dep":"2026-09-16T22:00","arr":"2026-09-18T07:00"}
+  ]
+}

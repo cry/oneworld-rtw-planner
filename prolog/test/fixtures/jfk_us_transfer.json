@@ -1,0 +1,14 @@
+{
+  "_comment": "Golden: USA origin using the 4(f) exception. Two international departures are permitted because Miami is an international arrival-departure transfer without a stopover.",
+  "origin": "JFK", "cabin": "business",
+  "segments": [
+    {"n":1,"type":"flight","from":"JFK","to":"GRU","carrier":"AA","dep":"2026-09-01T21:05","arr":"2026-09-02T08:45"},
+    {"n":2,"type":"flight","from":"GRU","to":"MIA","carrier":"AA","dep":"2026-09-06T22:00","arr":"2026-09-07T05:30"},
+    {"n":3,"type":"flight","from":"MIA","to":"LHR","carrier":"BA","dep":"2026-09-07T18:00","arr":"2026-09-08T07:00"},
+    {"n":4,"type":"flight","from":"LHR","to":"DOH","carrier":"QR","dep":"2026-09-11T14:00","arr":"2026-09-11T23:00"},
+    {"n":5,"type":"flight","from":"DOH","to":"HKG","carrier":"QR","dep":"2026-09-12T02:00","arr":"2026-09-12T15:00"},
+    {"n":6,"type":"flight","from":"HKG","to":"NRT","carrier":"CX","dep":"2026-09-16T09:00","arr":"2026-09-16T14:00"},
+    {"n":7,"type":"flight","from":"NRT","to":"LAX","carrier":"JL","dep":"2026-09-20T17:00","arr":"2026-09-20T10:00"},
+    {"n":8,"type":"flight","from":"LAX","to":"JFK","carrier":"AA","dep":"2026-09-22T14:00","arr":"2026-09-22T22:30"}
+  ]
+}
