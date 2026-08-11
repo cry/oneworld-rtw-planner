@@ -7,9 +7,9 @@
 <meta name="description" content="Check a round-the-world itinerary against oneworld Explorer fare Rule 3015.">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='none' stroke='%2314507d' stroke-width='2.5'/><ellipse cx='16' cy='16' rx='6' ry='13' fill='none' stroke='%2314507d' stroke-width='2.5'/><path d='M3.6 11h24.8M3.6 21h24.8' stroke='%2314507d' stroke-width='2.5'/></svg>">
-<link rel="preload" href="/fonts/archivo-latin-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/martianmono-latin-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/app.css">
+<link rel="preload" href="fonts/archivo-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/martianmono-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="app.css">
 
 <!-- Inline and before the stylesheet is applied, because a stored preference that
      disagrees with the OS would otherwise show the wrong theme for one frame.
@@ -250,10 +250,18 @@
   </section>
 </main>
 
-<!-- Loaded before app.js because the report renderer calls into it synchronously.
-     It is the bulkier of the two -- most of it is the Natural Earth land outline
-     -- so it is deferred rather than blocking the first paint of the form. -->
-<script defer src="/map.js"></script>
-<script defer src="/app.js"></script>
+<!-- Every path on this page is relative. GitHub Pages serves a project repository
+     from /<repo>/ rather than from the root, and an absolute path that works
+     behind the service would 404 there. They resolve identically either way.
+
+     map.js is loaded before app.js because the report renderer calls into it
+     synchronously. It is the bulkier of the two -- most of it is the Natural
+     Earth land outline -- so it is deferred rather than blocking the first paint
+     of the form. api.js starts the worker that carries the validator itself; it
+     precedes app.js, which calls it as soon as it runs. `defer` keeps them in
+     the order they appear. -->
+<script defer src="map.js"></script>
+<script defer src="api.js"></script>
+<script defer src="app.js"></script>
 </body>
 </html>

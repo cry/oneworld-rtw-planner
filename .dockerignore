@@ -12,10 +12,11 @@ Dockerfile
 *.log
 httpd.log
 
-# The UI toolchain. web/app.css and web/map.js are generated from app.src.css
-# and map.src.js and committed, so the image carries the outputs and never needs
-# the inputs, the compilers, or node. web/fonts/NOTICE.md and OFL.txt are
-# deliberately NOT excluded: the licence requires them to travel with the fonts.
+# The UI toolchain. web/app.css, web/map.js, web/rtw.pvm and web/vendor/ are all
+# generated and committed, so the image carries the outputs and never needs the
+# inputs, the compilers, or node. web/fonts/NOTICE.md and OFL.txt are
+# deliberately NOT excluded: the licence requires them to travel with the fonts,
+# and neither is web/vendor/ -- the page loads the Prolog engine from there.
 node_modules
 package.json
 package-lock.json
@@ -23,3 +24,4 @@ package-lock.json
 web/app.src.css
 web/map.src.js
 web/check-contrast.mjs
+web/rtw.build.json

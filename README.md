@@ -8,14 +8,19 @@ The ruleset is oneworld Explorer, Tariff RWR2 Rule 3015, version 27 FEB 26, tran
 [`parsed-rules-aug-2026.md`](parsed-rules-aug-2026.md). Every violation cites the clause it came
 from, so any answer can be audited against that text.
 
+There are three ways to run it: a CLI, an HTTP service, and a **static page that carries the
+validator with it** — the same Prolog compiled to WebAssembly, so the browser runs the rules rather
+than asking a server about them. That page needs no server at all and is what gets published to
+GitHub Pages. See [In the browser](#in-the-browser).
+
 ## Requirements
 
 SWI-Prolog 9 or later (`brew install swi-prolog`). No third-party packs — the HTTP server, CSV
 reader and plunit all ship with SWI. The airport table is committed, so a fresh clone runs offline.
 
-Node is needed only to rebuild the two generated files under `web/`, and only if you edit them:
-both are committed. Running, testing and deploying the validator never touch npm — see
-[Web UI](#web-ui).
+Node is needed only to rebuild the generated files under `web/` — the stylesheet, the map bundle and
+the WebAssembly pair — and only if you edit them: all are committed. Running, testing and deploying
+the validator never touch npm, and neither does the page once it is built. See [Web UI](#web-ui).
 
 ## Use
 
@@ -139,28 +144,29 @@ describe a journey nobody submitted.
 
 ### Web UI
 
-`swipl prolog/cli.pl -- serve` also serves the page in [`web/`](web/) at `/`. The report is the
-page: on a wide screen the form takes a sidebar and the answer takes the rest. There are two ways to
-enter a journey, on two tabs, because they are different jobs rather than one job at two levels of
-detail:
+The page in [`web/`](web/) is served at `/` by `swipl prolog/cli.pl -- serve`, and is also a static
+site that works with no server behind it at all — see [In the browser](#in-the-browser). The report
+is the page: on a wide screen the form takes a sidebar and the answer takes the rest. There are two
+ways to enter a journey, on two tabs, because they are different jobs rather than one job at two
+levels of detail:
 
-* **Routing** — one line, `LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR`, posted as `{"route": …}` for
-  the server to parse. A routing that parses fills the Segments tab in, using the server's own
-  reading of it, so it can be refined without retyping. The field wraps rather than scrolling
-  sideways, which the grammar allows for free — whitespace is a separator, so a routing broken
-  across lines parses exactly as one line does.
-* **Segments** — the flight-by-flight table, posted as `{"mode": …, "segments": […]}`, with airport
-  typeahead from `/api/airports` (accent-folded, so `sao paulo` finds São Paulo and `belem` finds
-  Belém), a per-segment stop-kind column, and a switch for whether dates and
-  times are supplied at all. With no clock the time columns are hidden rather than offered and then
-  refused. **Show as routing** sends the table to `/api/routing` and writes it back out as one line.
-  This is the one view a sidebar cannot hold — eleven columns — so opening it widens the form to an
-  equal share of the page and closing it gives the width back.
+* **Routing** — one line, `LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR`, handed over as
+  `{"route": …}` for Prolog to parse. A routing that parses fills the Segments tab in, using the
+  validator's own reading of it, so it can be refined without retyping. The field wraps rather than
+  scrolling sideways, which the grammar allows for free — whitespace is a separator, so a routing
+  broken across lines parses exactly as one line does.
+* **Segments** — the flight-by-flight table, handed over as `{"mode": …, "segments": […]}`, with
+  airport typeahead (accent-folded, so `sao paulo` finds São Paulo and `belem` finds Belém), a
+  per-segment stop-kind column, and a switch for whether dates and times are supplied at all. With
+  no clock the time columns are hidden rather than offered and then refused. **Show as routing**
+  sends the table through the `routing` operation and writes it back out as one line. This is the
+  one view a sidebar cannot hold — eleven columns — so opening it widens the form to an equal share
+  of the page and closing it gives the width back.
 
-Neither direction of the grammar is implemented in the browser: reading a routing is
-`/api/validate`'s job and writing one is `/api/routing`'s. A copy of the grammar in JavaScript would
-be the one nothing tests, and with both directions in Prolog the suite can assert that a routing
-survives the round trip.
+Neither direction of the grammar is implemented in the browser: reading a routing is the `validate`
+operation's job and writing one is `routing`'s. A copy of the grammar in JavaScript would be the one
+nothing tests, and with both directions in Prolog the suite can assert that a routing survives the
+round trip.
 
 Cabin and passengers sit above the tabs: they describe the fare, not the routing, and survive
 switching. The report panel gives the verdict, the fare basis, each violation with its citation and
@@ -215,9 +221,9 @@ form controls, the canvas behind the page) switches with the page. A small inlin
 deferred.
 
 The page hardcodes no rule data — version, segment limits, city codes and the routing grammar all
-come from `/api/ruleset`.
+come from the validator's own `ruleset` reply.
 
-**Building.** Two files under `web/` are generated and **committed**, for the same reason
+**Building.** Four files under `web/` are generated and **committed**, for the same reason
 `data/generated/airports.pl` is: a clone runs offline and any change shows up as a reviewable diff.
 Nothing at runtime, and nothing in the Docker build, needs node.
 
@@ -225,19 +231,31 @@ Nothing at runtime, and nothing in the Docker build, needs node.
 |---|---|---|
 | `web/app.css` | `web/app.src.css` | Tailwind CLI |
 | `web/map.js` | `web/map.src.js` + `d3-geo`, `topojson-client`, `world-atlas` | esbuild |
+| `web/rtw.pvm` | every `.pl` under `prolog/`, via `prolog/wasm.pl` | `prolog/tools/build_image.mjs` |
+| `web/vendor/swipl-bundle-no-data.js` | the `swipl-wasm` package | copied verbatim |
+| `web/rtw.build.json` | a digest of the above two inputs | `prolog/tools/build_image.mjs` |
 
 ```sh
 npm install                # once
-npm run build              # rebuild both
+npm run build              # rebuild all four
 npm run css                # or just the stylesheet
 npm run map                # or just the map bundle
+npm run wasm               # or just the WebAssembly pair
 npm run css:watch          # leave running while working on styles
 npm run check:contrast     # WCAG check over the palette, no browser needed
+npm run test:wasm          # the browser build answers what the native one answers
 ```
 
 If you change a class in `web/index.html` or `web/app.js` and forget to rebuild, the page renders
-without that style — `npm run build && git diff --exit-code web/app.css web/map.js` in CI catches
-both.
+without that style; if you change a rule and forget, the page validates against the *old* rules,
+which is the worse of the two because nothing looks wrong. `npm run build` followed by
+`git status --porcelain -- web/` catches both, and the Pages workflow refuses to deploy without it.
+
+That check works because `npm run wasm` is idempotent: a SWI saved state is a ZIP archive and records
+the time it was written, so two builds of identical sources differ in every compressed byte. Rather
+than compare bytes, the build records a digest of its inputs in `web/rtw.build.json` and does nothing
+when they already match — which moves the question from "are these bytes what we would produce now"
+to "was this built from these sources". `npm run wasm -- --force` rebuilds regardless.
 
 The server reads `web/` into memory **at load time**, so a change to any of these files normally
 needs a restart to show up. `--dev` turns that off:
@@ -265,7 +283,101 @@ INVALID — 1 error
 Fare basis: DONE3 (3 continents, business)
 ```
 
+## In the browser
+
+The page does not ask a server whether an itinerary is valid. It runs the validator itself: SWI-Prolog
+compiled to WebAssembly, loading an image built from the same `.pl` files the container runs. Nothing
+is reimplemented in JavaScript, and there is no second copy of a rule to fall out of step with the
+first.
+
+```
+web/app.js ──> RTWApi.{validate,routing,ruleset,airports}      web/api.js
+                            │  postMessage
+                            ▼
+                      web/worker.js ──> vendor/swipl-bundle-no-data.js + rtw.pvm
+                            │
+                            ▼
+                 rtw_call(Op, InText, Status, OutText)         prolog/wasm.pl
+                            │
+                            ▼
+              the same load.pl, the same rules, the same io/json_out.pl
+```
+
+[`prolog/wasm.pl`](prolog/wasm.pl) is the counterpart of [`prolog/server.pl`](prolog/server.pl) — the
+same four operations under the same names, the same error mapping, the same status codes, and no rule
+logic in either. Both are renderers of one `report/3` term.
+
+**It is one backend, not two.** The service still answers `/api/validate` and the rest for
+programmatic callers, but the page never calls them. A page that chose between a local and a remote
+validator would have two code paths to keep in step and a class of bugs that appears on only one of
+them; this way the published site and the container render identically, because they are running the
+same thing.
+
+**What it costs.** About 1.3 MB gzipped, in two files:
+
+| File | Raw | Gzipped |
+|---|---|---|
+| `web/vendor/swipl-bundle-no-data.js` | 2.5 MB | 865 KB |
+| `web/rtw.pvm` | 416 KB | (already compressed) |
+
+The image carries the Prolog library with it, which is why the stock `swipl-web.data` is not shipped
+at all — that is what makes this pair about 700 KB smaller than serving the sources plus the standard
+library. It boots in roughly 50 ms; a sixteen-segment itinerary then validates in about a
+millisecond, which is faster than the round trip it replaces.
+
+**Three properties of the WebAssembly build shaped the code.**
+
+* *No cross-origin isolation is required.* The build uses neither `SharedArrayBuffer` nor pthreads, so
+  it needs no COOP/COEP headers — which matters because GitHub Pages cannot set them. This was the one
+  thing that could have ruled the approach out, and it does not.
+* *A saved image has no autoloading.* Only what was compiled in exists; a goal composed in the browser
+  cannot reach library predicates, and even `member/2` raises an existence error. So `rtw_call/4` is
+  the only way in: the browser names an operation, never a goal. The constraint enforces a boundary
+  worth having anyway.
+* *`library(http/json)` is absent* — the HTTP package is not part of the build. `library(json)` is,
+  and carries the same predicates; `cli.pl` already chose between them with `exists_source/1`, and
+  `wasm.pl` uses the same conditional rather than a second spelling.
+
+**The two engines are not the same version.** `swipl-wasm` currently builds SWI 10.1.10; the container
+runs 10.0.2. Nothing in the suite can see that, so
+[`prolog/test/test_wasm.mjs`](prolog/test/test_wasm.mjs) does: it drives every fixture through
+`rtw_call/4` on both engines and compares the **whole reply**, not just the verdict — a few thousand
+characters of message prose, ordering and evidence per fixture. All 54 are byte-for-byte identical. It
+is the counterpart of the HTTP round-trip test in `test_json.pl`: same purpose, different second
+renderer.
+
+```sh
+npm run wasm          # build web/rtw.pvm and the vendored engine
+npm run test:wasm     # 54 fixtures, wasm against native
+```
+
+### GitHub Pages
+
+`web/` is the site. It has no build output that is not committed and no absolute paths, so it can be
+served from anywhere — including `https://<user>.github.io/<repo>/`, which is why every path on the
+page is relative: an absolute `/app.css` works behind the service and 404s under a project subpath.
+
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml) runs the Prolog suite, rebuilds every
+generated file, refuses to continue if the result differs from what was committed, runs the parity
+test and the contrast check, then publishes `web/`. The freshness check is the one that matters: a
+stale `rtw.pvm` would publish rules that are not the ones in the source tree, and nothing downstream
+would notice.
+
+Pages has to be pointed at Actions once, by hand: **Settings → Pages → Build and deployment →
+Source: GitHub Actions**.
+
+To look at the static site locally, serve the directory with anything:
+
+```sh
+python3 -m http.server 8000 --directory web      # then http://localhost:8000/
+```
+
 ## Deployment
+
+The service is what you deploy when something other than a browser needs to ask — the HTTP API below
+is the only way to validate an itinerary from a script, a scheduler or another service. It serves the
+same page as the static site, and that page runs the same WebAssembly validator either way; the
+container is not doing the validating for it.
 
 `cli.pl serve` is for development: it parks the main thread on a message that never arrives, so a
 `SIGTERM` kills work in flight. Production uses [`prolog/daemon.pl`](prolog/daemon.pl), which is
@@ -376,9 +488,13 @@ the server does deliberately, each of which was a production problem:
   but the deployment directory served 404s for a file sitting right there. Reading at compile time
   is the fix rather than the disease: what gets baked in is the content, not a path that will not
   exist later. It also leaves no filesystem access in the request path, which is what lets the
-  container run read-only. Every asset — page, stylesheet, script, both fonts — is held as bytes and
-  written back verbatim, so one code path serves text and woff2 alike; the font handler resolves
-  nothing from disk, so there is no traversal to defend against.
+  container run read-only. Every asset — page, stylesheet, scripts, both fonts, and now a 2.5 MB
+  Prolog engine and a 416 KB image — is held as a *string* of bytes and written back verbatim, so
+  one code path serves text and woff2 alike; the font and vendor handlers resolve nothing from disk,
+  so there is no traversal to defend against. A string rather than the code list this used to be,
+  and the difference is not stylistic: a code list costs about seventy-five times the size of the
+  file it came from, so reading the WebAssembly bundle that way peaked at 194 MB of RSS against
+  19 MB as a string. The suite asserts a font still round-trips byte for byte.
 - **A 500 says nothing about the failure.** The term and its backtrace go to stderr, where systemd
   and Docker collect them; the client gets a fixed message. Returning the raw term is the hazard
   `library(http/http_error)` exists to warn about. Every other status still describes the caller's
@@ -491,10 +607,13 @@ Three layers with one contract between them:
 "segments" ─json_in─┘                            │                      │      Fare, NotChecked,
                                                  │                      │      Checks)
                                                  │  ┌───────────────────┴────────┐
-                                    route_out ───┘  explain (text)        json_out (HTTP)
-                                        │
-                                    "route"
+                                    route_out ───┘  explain (text)        json_out (dicts)
+                                        │                  │                     │
+                                    "route"              cli.pl        server.pl · wasm.pl
 ```
+
+`json_out` has two callers and neither contains rule logic: `server.pl` answers HTTP, and `wasm.pl`
+answers the browser directly. Three front ends, one `report/3`.
 
 The two input forms meet at `build_itinerary/6` and no rule knows which was used, which is what
 makes the routing form a second front end rather than a separate, weaker validator; the test suite
@@ -586,7 +705,7 @@ than quietly dropping a city out of reach of the search.
 swipl -g run_tests -t halt prolog/test/run_tests.pl
 ```
 
-Seven suites, in descending value:
+Seven suites, in descending value, plus an eighth that needs node as well and runs on its own:
 
 1. **Mutation tests** — each fixture is the golden itinerary with exactly one rule broken, asserting
    that exactly the expected rule ids fire. This catches false negatives and rules that over-fire on
@@ -617,6 +736,16 @@ Seven suites, in descending value:
    size, segment and timeout guards, and the static assets: a stylesheet or map bundle that 404s
    leaves the UI degraded rather than failing loudly, and a font re-encoded on the way out arrives
    corrupt with no error raised, so it is compared byte for byte against what the server holds.
+
+```sh
+npm run test:wasm
+```
+
+8. **The two engines agree** — the page runs a different SWI-Prolog from the container (10.1.10
+   against 10.0.2), and no plunit test can see that. Every fixture is driven through `rtw_call/4` on
+   both and the **whole reply** compared, not the verdict alone: message prose, ordering and
+   evidence included. All 54 are byte-for-byte identical. It needs both engines present, which is
+   why it is a node script rather than a unit.
 
 `npm run check:contrast` is separate and does not need SWI: it scores every colour pair in the
 palette against WCAG 2.2, including the 3:1 minimum for the boundary of a control.
