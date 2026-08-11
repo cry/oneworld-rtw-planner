@@ -2,13 +2,16 @@
 
 /* Behaviour for the validator page.
  *
- * Two ways in, one itinerary. The Routing tab posts {route: "..."} and lets the
- * server parse it; the Segments tab posts {mode, segments: [...]}.
+ * Two ways in, one itinerary. The Routing tab sends {route: "..."} and lets the
+ * validator parse it; the Segments tab sends {mode, segments: [...]}. Both go
+ * through api.js to Prolog compiled to WebAssembly, running in a worker on this
+ * machine -- see web/api.js for why there is one backend and not two.
  *
  * The grammar is not implemented here in either direction. Reading a routing is
- * /api/validate's job and writing one is /api/routing's, because a copy of the
- * grammar living in the browser would be the one nothing tests. Both directions
- * are Prolog, and the suite asserts that a routing survives the round trip.
+ * the `validate` operation's job and writing one is `routing`'s, because a copy
+ * of the grammar living in the browser would be the one nothing tests. Both
+ * directions are Prolog, and the suite asserts that a routing survives the round
+ * trip.
  *
  * Every class name below is written out in full rather than assembled from pieces,
  * because Tailwind generates CSS by scanning this file for literal strings.
@@ -291,11 +294,10 @@ function suggest(input, listId) {
   const seq = ++state.seq;
   state.timer = setTimeout(async () => {
     try {
-      const r = await fetch(`/api/airports?q=${encodeURIComponent(q)}&limit=8`);
-      const d = await r.json();
-      if (seq !== state.seq) return;
+      const r = await RTWApi.airports(q, 8);
+      if (seq !== state.seq || !r.ok) return;
       $(listId).innerHTML =
-        d.results.map(a => `<option value="${esc(a.iata)}">${esc(a.city)}, ${esc(a.country)}</option>`).join('');
+        r.data.results.map(a => `<option value="${esc(a.iata)}">${esc(a.city)}, ${esc(a.country)}</option>`).join('');
     } catch (e) { /* typeahead is a convenience; a failure is not worth reporting */ }
   }, 160);
 }
@@ -375,23 +377,18 @@ async function validate(routeString) {
   buttons().forEach(b => { b.disabled = true; });
   $('status').textContent = 'validating…';
   try {
-    const res = await fetch('/api/validate', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify(body)
-    });
-    const data = await res.json();
-    if (!res.ok) renderError(res.status, data, body);
+    const res = await RTWApi.validate(body);
+    if (!res.ok) renderError(res.data, body);
     else {
-      // A routing that parsed becomes rows in the Segments tab, using the server's
-      // own reading of it, so it can be refined without retyping.
-      if (routeString) adoptSegments(data.annotations);
-      renderReport(data, body);
+      // A routing that parsed becomes rows in the Segments tab, using the
+      // validator's own reading of it, so it can be refined without retyping.
+      if (routeString) adoptSegments(res.data.annotations);
+      renderReport(res.data, body);
     }
   } catch (e) {
     $('report').innerHTML = `
       <div class="p-4">
-        <p class="verdict-word text-err">Unreachable</p>
+        <p class="verdict-word text-err">Unavailable</p>
         <p class="mt-1 text-[13px] text-muted">The validator did not answer. ${esc(e.message)}</p>
       </div>`;
   } finally {
@@ -400,17 +397,16 @@ async function validate(routeString) {
   }
 }
 
-function renderError(status, data, body) {
+function renderError(data, body) {
   markFresh();
-  announce(`Request refused: ${data.message || data.error || 'error'}`);
+  announce(`Refused: ${data.message || data.error || 'error'}`);
   $('report').innerHTML = `
     <div class="settle">
       <div class="border-b border-rule bg-err-wash p-4">
         <p class="verdict-word text-err">${esc(String(data.error || 'error').replace(/_/g, ' '))}</p>
-        <p class="mono mt-1.5 text-[11px] text-muted">HTTP ${status}</p>
       </div>
       <p class="max-w-[68ch] p-4 text-[13.5px]">${esc(data.message || '')}</p>
-      ${disclosure('Request sent', JSON.stringify(body, null, 2))}
+      ${disclosure('Itinerary sent', JSON.stringify(body, null, 2))}
     </div>`;
 }
 
@@ -451,7 +447,7 @@ function renderReport(data, body) {
       ${connections(ann)}
 
       <div class="border-t border-rule">
-        ${disclosure('Request sent', JSON.stringify(body, null, 2))}
+        ${disclosure('Itinerary sent', JSON.stringify(body, null, 2))}
         ${disclosure('Full response', JSON.stringify(data, null, 2))}
       </div>
     </div>`;
@@ -878,7 +874,7 @@ function readUrl() {
   const q = new URLSearchParams(location.search);
   // Both are checked against what the control actually offers. Assigning an
   // unknown value to a <select> leaves it empty rather than rejecting it, and an
-  // empty cabin reaches /api/validate as a 400 on a link that merely had a typo.
+  // empty cabin is refused by the validator on a link that merely had a typo.
   if (q.has('c') && CABINS.has(q.get('c'))) $('cabin').value = q.get('c');
   if (q.has('p') && PAX[q.get('p')]) $('pax').value = q.get('p');
 
@@ -960,11 +956,11 @@ function readRouting() {
   if (r) validate(r);
 }
 
-// Segments -> routing. The string is composed by /api/routing from the same
-// annotation pass the validator uses, so the browser never has to know the
-// grammar in this direction either. A routing cannot express a point that is
-// neither a transfer nor a stopover, and the server says which ones rather than
-// quietly promoting them to stopovers and changing the itinerary's meaning.
+// Segments -> routing. The string is composed by Prolog from the same annotation
+// pass the validator uses, so the browser never has to know the grammar in this
+// direction either. A routing cannot express a point that is neither a transfer
+// nor a stopover, and the validator says which ones rather than quietly
+// promoting them to stopovers and changing the itinerary's meaning.
 $('toroute').addEventListener('click', async () => {
   $('routingerr').classList.add('hidden');
   if (rows.length === 0) { show('segments'); return; }
@@ -972,27 +968,23 @@ $('toroute').addEventListener('click', async () => {
   btn.disabled = true;
   $('status').textContent = 'composing…';
   try {
-    const res = await fetch('/api/routing', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify(buildRequest())
-    });
-    const data = await res.json();
+    const res = await RTWApi.routing(buildRequest());
     if (res.ok) {
-      $('route').value = data.route;
+      const route = res.data.route;
+      $('route').value = route;
       $('adopted').classList.add('hidden');
       $('composed').classList.remove('hidden');
       show('routing');
       $('route').focus();
-      $('route').setSelectionRange(data.route.length, data.route.length);
-      announce(`Routing: ${data.route}`);
+      $('route').setSelectionRange(route.length, route.length);
+      announce(`Routing: ${route}`);
     } else {
-      $('routingerr').textContent = data.message || 'Could not write this itinerary as a routing.';
+      $('routingerr').textContent = res.data.message || 'Could not write this itinerary as a routing.';
       $('routingerr').classList.remove('hidden');
       announce($('routingerr').textContent);
     }
   } catch (e) {
-    $('routingerr').textContent = `Could not reach the service. ${e.message}`;
+    $('routingerr').textContent = `The validator did not answer. ${e.message}`;
     $('routingerr').classList.remove('hidden');
   } finally {
     btn.disabled = false;
@@ -1019,11 +1011,17 @@ $('report').innerHTML = `
     </dl>
   </div>`;
 
-// The grammar, the limits and the city table are described by the service, so the
-// page never carries a second copy of any of them to fall out of date.
-fetch('/api/ruleset')
-  .then(r => r.json())
-  .then(d => {
+// The grammar, the limits and the city table are described by the ruleset the
+// validator reports, so the page never carries a second copy of any of them to
+// fall out of date. This is also the first thing that needs the worker, so it is
+// what the page waits on: by the time it answers, the image has booted.
+buttons().forEach(b => { b.disabled = true; });
+$('status').textContent = 'starting the validator…';
+
+RTWApi.ruleset()
+  .then(res => {
+    if (!res.ok) throw new Error(res.data.message || 'the ruleset could not be read');
+    const d = res.data;
     $('ruleset').textContent =
       `Tariff RWR2 Rule 3015 · version ${d.version} · ` +
       `${d.limits.min_segments}–${d.limits.max_segments} segments`;
@@ -1032,7 +1030,11 @@ fetch('/api/ruleset')
     $('citycodes').innerHTML = (d.cityCodes || [])
       .map(c => `<code>${esc(c.code)}</code>&nbsp;${esc(c.airport)}`).join('&ensp;');
   })
-  .catch(() => { $('ruleset').textContent = 'Tariff RWR2 Rule 3015 · service unreachable'; });
+  .catch(() => { $('ruleset').textContent = 'Tariff RWR2 Rule 3015 · validator unavailable'; })
+  .finally(() => {
+    buttons().forEach(b => { b.disabled = false; });
+    $('status').textContent = '';
+  });
 
 // The URL is read before anything renders, because render() is one of the things
 // that writes it back and would otherwise erase the link that was just opened.
@@ -1041,8 +1043,14 @@ const linked = readUrl();
 render();
 booted = true;
 
+// A linked itinerary validates as soon as the worker is up. validate() disables
+// and re-enables the buttons itself, so it is sequenced after the ruleset call
+// rather than racing it -- otherwise whichever finished second would re-enable
+// them while the other was still working.
 if (linked !== undefined) {
-  validate(linked || undefined).then(() => {
-    if (pendingTab) { show(pendingTab); pendingTab = null; }
-  });
+  RTWApi.ready()
+    .then(() => validate(linked || undefined))
+    .then(() => {
+      if (pendingTab) { show(pendingTab); pendingTab = null; }
+    });
 }

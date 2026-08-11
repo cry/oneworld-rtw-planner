@@ -18,7 +18,7 @@
  * the way a printed timetable does without loading a second file. */
 @font-face {
   font-family: "Archivo";
-  src: url("/fonts/archivo-latin-var.woff2") format("woff2-variations");
+  src: url("fonts/archivo-latin-var.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-stretch: 62% 125%;
   font-display: swap;
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: "Martian Mono";
-  src: url("/fonts/martianmono-latin-var.woff2") format("woff2-variations");
+  src: url("fonts/martianmono-latin-var.woff2") format("woff2-variations");
   font-weight: 100 800;
   font-stretch: 75% 112.5%;
   font-display: swap;

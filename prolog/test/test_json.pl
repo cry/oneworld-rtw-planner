@@ -348,10 +348,12 @@ test(a_font_arrives_byte_for_byte) :-
           read_string(In, _, Body) ),
         close(In)),
     assertion(Code == 200),
-    string_codes(Body, Got),
-    assertion(Got == Expected),
+    % Both sides are strings of bytes: that is how the asset table holds a file,
+    % and comparing them directly is what proves format/2's ~s does not re-encode
+    % one on its way out.
+    assertion(Body == Expected),
     % woff2 files begin with the signature 'wOF2'.
-    assertion(append(`wOF2`, _, Got)).
+    assertion(sub_string(Body, 0, 4, _, "wOF2")).
 
 % The font handler has a prefix, so it sees every path under /fonts/. It resolves
 % nothing from disk: anything not in the table is absent, which is what keeps

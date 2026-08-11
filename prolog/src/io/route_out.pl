@@ -1,5 +1,5 @@
 :- module(route_out, [annotated_route/2, route_undecidable/2,
-                      route_ambiguous_carrier/2]).
+                      route_ambiguous_carrier/2, no_routing_message/2]).
 
 /** <module> Annotated itinerary -> fare-construction routing string.
 
@@ -39,6 +39,7 @@
 */
 
 :- use_module('../geo').
+:- use_module('../phrasing').
 :- use_module(library(apply)).
 :- use_module(library(lists)).
 
@@ -129,3 +130,47 @@ arrival_token(A, LastN, S, Token) :-
 point_kind(A, N, Kind) :-
     once(( member(P, A.points), P.after == N )),
     Kind = P.kind.
+
+% --- why a routing could not be written -------------------------------------
+%
+% annotated_route/2 failing is not an answer anyone can act on, so the two
+% reasons it fails are put into words here. They sit in this module rather than
+% in whichever front end noticed, because there are now two of those -- the HTTP
+% server and the browser, which runs this same code compiled to WebAssembly --
+% and a message maintained in one of them would drift from the other. Saying the
+% wrong one sends the reader to fix a point that is not the problem.
+
+%! no_routing_message(+A, -Message) is det.
+%
+%  Only meaningful once annotated_route/2 has failed; it names the first of the
+%  two reasons that applies.
+no_routing_message(A, Message) :-
+    route_undecidable(A, Segments),
+    Segments \== [],
+    !,
+    undecidable_message(Segments, Message).
+no_routing_message(A, Message) :-
+    route_ambiguous_carrier(A, Segments),
+    ambiguous_carrier_message(Segments, Message).
+
+% Named rather than glossed over: a routing has no way to write "we do not know
+% what this point is", and quietly writing a stopover would change the
+% itinerary's meaning and its verdict.
+undecidable_message(Segments, Message) :-
+    length(Segments, N),
+    segments_phrase(Segments, Where),
+    agree(N, 'The point', 'The points', Point),
+    agree(N, 'is', 'are', Is),
+    agree(N, 'it', 'them', It),
+    format(atom(Message),
+           '~w after ~w ~w neither a transfer nor a stopover, so this itinerary cannot be written as a routing. Give ~w a ground time, or say which one ~w.',
+           [Point, Where, Is, It, It]).
+
+% A three-letter designator that is also an airport code has no unambiguous
+% spelling in this notation, so it is refused rather than written down as a
+% string that would parse back into a different journey.
+ambiguous_carrier_message(Segments, Message) :-
+    segments_phrase(Segments, Where),
+    format(atom(Message),
+           'The carrier on ~w has a three-letter code that is also an airport code, so this itinerary cannot be written as a routing without changing what it says. Use the JSON form instead.',
+           [Where]).

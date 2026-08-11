@@ -1,0 +1,90 @@
+# Publish the validator to GitHub Pages.
+#
+# The page carries the validator with it -- Prolog compiled to WebAssembly -- so
+# there is nothing to deploy but static files and no service behind them.
+#
+# Pages must be set to deploy from GitHub Actions once, by hand:
+#   Settings -> Pages -> Build and deployment -> Source: GitHub Actions
+#
+# web/ is published as it stands in the repository. The generated files in it are
+# committed, which is what lets `docker build` and a fresh clone work offline; the
+# cost is that they can go stale, so `verify` rebuilds them and refuses to deploy
+# if the result differs from what was committed. That is the one way this
+# arrangement can silently ship the wrong rules.
+
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish rather than cancelling it half-published.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # The parity test compares the WebAssembly build against this one, so both
+      # engines have to be present.
+      - name: Install SWI-Prolog
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends swi-prolog-nox
+
+      - run: npm ci
+
+      - name: Prolog suite
+        run: swipl -g run_tests -t halt prolog/test/run_tests.pl
+
+      - name: Rebuild the generated files
+        run: npm run build
+
+      # A stale artifact would publish rules that are not the ones in the source
+      # tree, and nothing downstream would notice. `git status` rather than
+      # `git diff`, so that a generated file nobody remembered to add counts too.
+      #
+      # This works because the build is idempotent: rtw.pvm is rewritten only
+      # when the digest of the Prolog sources changes. A saved state is a ZIP and
+      # records the time it was written, so comparing the bytes of two builds
+      # would differ every run -- see prolog/tools/build_image.mjs.
+      - name: Committed build outputs are current
+        run: |
+          if [ -n "$(git status --porcelain -- web/)" ]; then
+            echo "::error::web/ is stale. Run 'npm run build' and commit the result."
+            git status --short -- web/
+            exit 1
+          fi
+
+      - name: WebAssembly matches native
+        run: npm run test:wasm
+
+      - name: Contrast
+        run: npm run check:contrast
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
