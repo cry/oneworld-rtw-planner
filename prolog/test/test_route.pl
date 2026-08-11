@@ -23,6 +23,7 @@
 :- use_module('../src/annotate').
 :- use_module('../src/validate').
 :- use_module('../data/cities').
+:- use_module('../src/carriers').
 :- use_module('../src/geo').
 
 % --- the grammar -----------------------------------------------------------
@@ -152,7 +153,7 @@ test(undeclared_points_in_routing_mode_are_still_undecidable) :-
         _{ mode: "routing",
            segments: [ _{ from: "LHR", to: "JFK" }, _{ from: "JFK", to: "LHR" } ] },
         Itin),
-    validate(Itin, report(Verdict, Violations, _, _)),
+    validate(Itin, report(Verdict, Violations, _, _, _)),
     rule_ids(Violations, Ids),
     assertion(Verdict == invalid),          % also too short, below the 4(h) minimum
     assertion(memberchk(stopovers_undecidable, Ids)).
@@ -189,7 +190,13 @@ test(a_surface_sector_outranks_a_declared_transfer) :-
     annotate(Itin, A),
     once(( ann_point(A, P), P.after == 1 )),
     assertion(P.declared == transfer),
-    assertion(P.kind == stopover).
+    assertion(P.kind == stopover),
+    % And the warning has to say the derived kind won. It used to say "the
+    % declared transfer is used" here, which is the opposite of the number rule
+    % 8's minimum and origin-continent cap were then counted from.
+    validate:violation(A, v(stop_kind_conflict, _, _, Msg, Evidence)),
+    assertion(memberchk(used(stopover), Evidence)),
+    assertion(sub_atom(Msg, _, _, _, 'the derived stopover is used')).
 
 test(layover_and_connection_are_accepted_for_transfer) :-
     forall(member(Word, ["layover", "connection", "transit", "transfer"]),
@@ -300,9 +307,9 @@ test(a_dated_itinerary_composes_and_agrees) :-
     route_of(Dict, Route),
     assertion(Route == 'LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR'),
     itinerary_from_json(Dict, Dated),
-    validate(Dated, report(V1, _, _, _)),
+    validate(Dated, report(V1, _, _, _, _)),
     itinerary_from_json(_{ route: Route, cabin: "business" }, Composed),
-    validate(Composed, report(V2, _, _, _)),
+    validate(Composed, report(V2, _, _, _, _)),
     assertion(V1 == valid),
     assertion(V2 == V1).
 
@@ -359,11 +366,99 @@ test(a_city_code_is_the_same_place_as_its_airport) :-
     assertion(S.from == jfk),
     assertion(S.to == lhr).
 
+% The table has to run backwards too. 4(i) is written in city pairs and 4(c)
+% and 4(d) in points, so an airport that belongs to a metropolitan area has to
+% be findable from the airport.
+test(a_metro_airport_knows_its_city) :-
+    assertion(city_of(lgw, lon)),
+    assertion(city_of(lhr, lon)),
+    assertion(city_of(ewr, nyc)),
+    assertion(\+ city_of(man, _)),
+    assertion(same_place(lhr, lgw)),
+    assertion(\+ same_place(lhr, man)).
+
+% Every member has to resolve, for the same reason the representatives do.
+test(every_metro_airport_resolves) :-
+    findall(A, ( city_airports(_, As), member(A, As), \+ airport_known(A) ), Bad),
+    assertion(Bad == []).
+
+% No airport may sit in two metropolitan areas, or city_of/2's commit picks one
+% arbitrarily and 4(i) starts depending on clause order.
+test(no_airport_belongs_to_two_cities) :-
+    findall(A-Cs,
+            ( city_airports(_, As), member(A, As),
+              findall(C, ( city_airports(C, Members), memberchk(A, Members) ), Cs),
+              Cs = [_, _|_] ),
+            Overlaps),
+    assertion(Overlaps == []).
+
+% 4(i) says "the same city pairs/sectors". LHR-JFK out and LGW-JFK back repeats
+% a city pair without repeating a three-letter code.
+test(one_city_pair_flown_twice_from_different_airports) :-
+    routed_rules('LHR-BA-JFK-AA-LAX-QF-SYD-QF-SIN-BA-LGW-BA-JFK-AA-ORD-BA-LHR', _-Ids),
+    assertion(memberchk(dup_sector, Ids)).
+
+% 4(d) is about the point of origin, and a second London airport is that point.
+test(a_stop_at_another_airport_of_the_origin_city_is_via_the_origin) :-
+    routed_rules('LHR-BA-JFK-BA-LGW-BA-NRT-JL-LHR', _-Ids),
+    assertion(memberchk(origin_revisited, Ids)).
+
+% ...and finishing at one is finishing at the origin, not an OD surface sector.
+test(finishing_at_another_airport_of_the_origin_city_is_finishing_at_home) :-
+    routed_rules('LHR-BA-JFK-AA-LAX-QF-SYD-QF-X/SIN-BA-LGW', V-Ids),
+    assertion(V-Ids == valid-[]).
+
 :- end_tests(city_codes).
+
+% --- carriers that look like places ----------------------------------------
+
+:- begin_tests(carrier_codes).
+
+% HAC is Hokkaido Air System in the 4(j) affiliate table and Hachijojima in the
+% airport table. The notation cannot say which is meant, so a routing reads it
+% as the place -- the far likelier thing to write down.
+test(a_three_letter_code_that_is_an_airport_stays_an_airport) :-
+    route_segments('HND-HAC-OKD', Segs),
+    assertion(Segs = [_, _]),
+    Segs = [First|_],
+    arg(3, First, From), arg(4, First, To),
+    assertion(From == hnd),
+    assertion(To == hac).
+
+% A three-letter designator that collides with nothing is still a carrier, so
+% the grammar is not simply capped at two characters.
+test(a_three_letter_carrier_that_is_not_a_place_is_a_carrier) :-
+    assertion(( carrier_code(hac), place_code_known(hac) )),
+    findall(C, ( carrier_code(C), atom_length(C, 3), \+ place_code_known(C) ), Free),
+    forall(member(C, Free), assertion(\+ place_code_known(C))).
+
+% The round trip is the property this notation exists to have. Composing HAC
+% would emit a string that parses back to a journey via Hachijojima, so it is
+% refused and named instead.
+test(an_ambiguous_carrier_is_refused_rather_than_composed) :-
+    itinerary_from_json(
+        _{ origin: "HND",
+           segments: [ _{ from: "HND", to: "OKD", carrier: "HAC", stop: "stopover" },
+                       _{ from: "OKD", to: "HND", carrier: "JL" } ] },
+        Itin),
+    annotate(Itin, A),
+    assertion(\+ annotated_route(A, _)),
+    route_ambiguous_carrier(A, Segments),
+    assertion(Segments == [1]),
+    % and it is not confused with the other reason a routing cannot be written
+    route_undecidable(A, Undecided),
+    assertion(Undecided == []).
+
+:- end_tests(carrier_codes).
+
+routed_rules(Route, Verdict-Ids) :-
+    itinerary_from_json(_{ route: Route }, Itin),
+    validate(Itin, report(Verdict, Violations, _, _, _)),
+    rule_ids(Violations, Ids).
 
 routed_not_checked(Route, Ids) :-
     itinerary_from_json(_{ route: Route }, Itin),
-    validate(Itin, report(_, _, _, NotChecked)),
+    validate(Itin, report(_, _, _, NotChecked, _)),
     findall(R, member(nc(R, _, _), NotChecked), Ids).
 
 ann_of(Name, A) :-

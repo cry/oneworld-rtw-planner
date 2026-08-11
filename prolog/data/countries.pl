@@ -50,8 +50,10 @@ continent_group(south_america,
 % --- TC2 -------------------------------------------------------------------
 
 % Europe/Middle East is one continent with two zones. The zone split matters
-% for 4(c)(b) (surface sectors within the Middle East) and for the section 12
-% "sectors within Middle East" surcharge band, so it is tracked separately.
+% for 4(c)(b) (surface sectors within the Middle East), for 4(e)'s closing
+% sentence (which says "Europe" two lines after saying "Europe/Middle East" in
+% full, and means the zone), and for the section 12 "sectors within Middle
+% East" surcharge band, so it is tracked separately.
 continent_group(europe_middle_east,
     [ 'AD','AL','AM','AT','AZ','BA','BE','BG','BY','CH','CY','CZ','DE','DK',
       'DZ','EE','ES','FI','FO','FR','GB','GE','GG','GI','GR','HR','HU','IE',

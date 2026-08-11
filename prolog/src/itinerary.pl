@@ -4,9 +4,12 @@
             stop_kind/1,
             dt_stamp/2,
             dt_iso/2,
+            dt_words/2,
             dt_days_between/3,
             dt_minutes_between/3,
-            dt_months_between/3
+            dt_months_between/3,
+            dt_plus_months/3,
+            dt_beyond_months/3
           ]).
 
 /** <module> Raw segment list -> canonical itinerary term.
@@ -169,6 +172,21 @@ dt_iso(dt(Y, Mo, D, H, Mi), A) :-
     format(atom(A), '~|~`0t~d~4+-~|~`0t~d~2+-~|~`0t~d~2+T~|~`0t~d~2+:~|~`0t~d~2+',
            [Y, Mo, D, H, Mi]).
 
+%! dt_words(+Dt, -Atom) is det.
+%  "1 September 2027". The ISO form is right for a field and wrong in the
+%  middle of a sentence, where a reader has to decode it before carrying on.
+dt_words(unknown, unknown) :- !.
+dt_words(dt(Y, Mo, D, _, _), A) :-
+    month_name(Mo, Month),
+    format(atom(A), '~d ~w ~d', [D, Month, Y]).
+
+month_name(1,  'January').    month_name(2,  'February').
+month_name(3,  'March').      month_name(4,  'April').
+month_name(5,  'May').        month_name(6,  'June').
+month_name(7,  'July').       month_name(8,  'August').
+month_name(9,  'September').  month_name(10, 'October').
+month_name(11, 'November').   month_name(12, 'December').
+
 %! dt_minutes_between(+From, +To, -Minutes) is semidet.
 dt_minutes_between(From, To, Minutes) :-
     dt_stamp(From, A),
@@ -183,9 +201,45 @@ dt_days_between(From, To, Days) :-
 %! dt_months_between(+From, +To, -Months) is semidet.
 %  Calendar months, not 30-day units: rule 7's "12 months" is a calendar
 %  period, so 1 Sep 2026 -> 1 Sep 2027 is exactly 12 and legal.
+%
+%  This truncates, so it answers "how many whole months" and NOT "is the
+%  deadline past" -- 1 Sep 2026 -> 20 Sep 2027 is twelve whole months and
+%  nineteen days over. Use dt_beyond_months/3 to test a limit; this is for
+%  saying how long the journey ran.
 dt_months_between(dt(Y1, M1, D1, H1, Mi1), dt(Y2, M2, D2, H2, Mi2), Months) :-
     Whole is (Y2 - Y1) * 12 + (M2 - M1),
     (   [D2, H2, Mi2] @< [D1, H1, Mi1]   % day-of-month has not come round yet
     ->  Months is Whole - 1
     ;   Months = Whole
     ).
+
+%! dt_plus_months(+From, +N, -To) is det.
+%  The same clock time N calendar months on, clamped to the last day where the
+%  target month is shorter: 31 Jan plus one month is 28 Feb, and 29 Feb plus
+%  twelve months is 28 Feb.
+dt_plus_months(dt(Y, M, D, H, Mi), N, dt(Y2, M2, D2, H, Mi)) :-
+    Total is Y * 12 + (M - 1) + N,
+    Y2 is Total // 12,
+    M2 is Total mod 12 + 1,
+    days_in_month(Y2, M2, Last),
+    D2 is min(D, Last).
+
+days_in_month(Y, 2, Days) :- !, ( leap_year(Y) -> Days = 29 ; Days = 28 ).
+days_in_month(_, M, 30) :- memberchk(M, [4, 6, 9, 11]), !.
+days_in_month(_, _, 31).
+
+leap_year(Y) :-
+    0 is Y mod 4,
+    (   0 is Y mod 100
+    ->  0 is Y mod 400
+    ;   true
+    ).
+
+%! dt_beyond_months(+From, +To, +N) is semidet.
+%  True when To falls strictly after the N-month anniversary of From. This is
+%  the test a calendar limit wants: comparing truncated month counts lets
+%  anything short of a thirteenth whole month through.
+dt_beyond_months(From, To, N) :-
+    dt_plus_months(From, N, Deadline),
+    dt_minutes_between(Deadline, To, Minutes),
+    Minutes > 0.

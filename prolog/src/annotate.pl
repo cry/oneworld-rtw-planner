@@ -5,6 +5,7 @@
             ann_point/2,
             ann_visits/2,
             ann_segment_count/2,
+            od_surface_gap/1,
             ann_airport/2,
             collapse/2
           ]).
@@ -236,5 +237,33 @@ ann_airport(A, Airport) :-
 ann_visits(A, C) :- memberchk(C, A.visited).
 
 %! ann_segment_count(+A, -N) is det.
-%  4(h) counts surface segments toward the maximum, so this is every segment.
-ann_segment_count(A, N) :- length(A.segments, N).
+%  Every segment the itinerary lists, and nothing else. The
+%  origin-destination gap is *not* counted, though 4(h) does say "including
+%  surface segments between any 2 airports" and the gap is between 2 airports.
+%
+%  It was counted here for a while, on that reading. What settles it the other
+%  way is what the reading costs: 4(c) permits the journey to end away from the
+%  origin, and nothing in 4(c) or 4(h) says taking that permission also costs a
+%  segment. Counting the gap caps an open-jaw journey at 15 flights while a
+%  closed loop gets 16 -- a real penalty derived from a clause that never
+%  mentions open jaws. The surface segments 4(h) has in view are 4(g)'s
+%  intermediate ones, which are sectors of the journey; the gap is the part of
+%  the world the ticket deliberately does not cover.
+%
+%  Held itineraries agree: a 16-flight CAI-...-DOH with a 4(c)(b) Middle East
+%  open jaw prices, and it cannot if the gap counts.
+%
+%  The gap is still reported -- see r04's free-segment check and od_gap_clause/2
+%  -- because a traveller reading a count of 16 should know which 16.
+%
+%  Two airports of one metropolitan city are one point, so LHR out and LGW back
+%  is not a gap; see geo:place_key/2.
+ann_segment_count(A, N) :-
+    length(A.segments, N).
+
+%! od_surface_gap(+A) is semidet.
+od_surface_gap(A) :-
+    A.segments \== [],
+    A.origin \== unknown,
+    last(A.segments, Last),
+    \+ same_place(Last.to, A.origin).

@@ -1,0 +1,87 @@
+{
+  "_comment": "The classic golden with every stop declared, and the departure time removed from the onward flight out of BKK -- the last stopover. The declarations keep rule 8 decidable, so rule 7 is left alone with the one instant it measures to and has to say it cannot answer rather than quietly passing.",
+  "origin": "LHR",
+  "cabin": "business",
+  "passengers": [
+    {
+      "type": "adult"
+    }
+  ],
+  "segments": [
+    {
+      "n": 1,
+      "type": "flight",
+      "from": "LHR",
+      "to": "JFK",
+      "carrier": "BA",
+      "flight": "BA117",
+      "dep": "2026-09-01T10:25",
+      "arr": "2026-09-01T13:30",
+      "stop": "stopover"
+    },
+    {
+      "n": 2,
+      "type": "flight",
+      "from": "JFK",
+      "to": "LAX",
+      "carrier": "AA",
+      "flight": "AA33",
+      "dep": "2026-09-05T08:00",
+      "arr": "2026-09-05T11:15",
+      "stop": "transfer"
+    },
+    {
+      "n": 3,
+      "type": "flight",
+      "from": "LAX",
+      "to": "NRT",
+      "carrier": "JL",
+      "flight": "JL61",
+      "dep": "2026-09-05T13:30",
+      "arr": "2026-09-06T17:00",
+      "stop": "stopover"
+    },
+    {
+      "n": 4,
+      "type": "flight",
+      "from": "NRT",
+      "to": "HKG",
+      "carrier": "CX",
+      "flight": "CX521",
+      "dep": "2026-09-10T09:00",
+      "arr": "2026-09-10T13:00",
+      "stop": "stopover"
+    },
+    {
+      "n": 5,
+      "type": "flight",
+      "from": "HKG",
+      "to": "BKK",
+      "carrier": "CX",
+      "flight": "CX709",
+      "dep": "2026-09-14T10:00",
+      "arr": "2026-09-14T12:00",
+      "stop": "stopover"
+    },
+    {
+      "n": 6,
+      "type": "flight",
+      "from": "BKK",
+      "to": "DOH",
+      "carrier": "QR",
+      "flight": "QR833",
+      "arr": "2026-09-18T05:00",
+      "stop": "transfer"
+    },
+    {
+      "n": 7,
+      "type": "flight",
+      "from": "DOH",
+      "to": "LHR",
+      "carrier": "QR",
+      "flight": "QR3",
+      "dep": "2026-09-18T08:00",
+      "arr": "2026-09-18T13:30"
+    }
+  ]
+}

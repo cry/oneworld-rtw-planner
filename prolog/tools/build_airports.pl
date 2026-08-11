@@ -106,6 +106,13 @@ write_file(S, Keys, N) :-
     format(S, "% IsoRegion is what makes the sub-country splits possible (Russia at the~n", []),
     format(S, "% Urals, Hawaii and Alaska, the 4(k) transcontinental columns). Coordinates~n", []),
     format(S, "% are carried for the Urals split and for route drawing in the web UI.~n~n", []),
+    % Several hundred city names are non-ASCII, and SWI reads source files in
+    % the locale encoding unless told otherwise. Without this a container or a
+    % cron job running under LC_ALL=C loads the table mojibaked and serves it
+    % that way, which is worse than failing.
+    format(S, "% Several hundred city names below are non-ASCII, so the encoding is~n", []),
+    format(S, "% declared rather than left to the locale of whoever loads the file.~n", []),
+    format(S, ":- encoding(utf8).~n~n", []),
     forall(member(k(Iata, _, Country, Region, City, Lat, Lon), Keys),
            format(S, "airport(~q, ~q, ~q, ~q, ~w, ~w).~n",
                   [Iata, Country, Region, City, Lat, Lon])).

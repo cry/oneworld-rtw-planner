@@ -29,6 +29,9 @@ swipl prolog/cli.pl -- validate prolog/test/fixtures/lhr_classic.json
 # the same report as JSON
 swipl prolog/cli.pl -- validate prolog/test/fixtures/mut_dup_sector.json --json
 
+# list every rule that was measured, not just the ones that were broken
+swipl prolog/cli.pl -- validate prolog/test/fixtures/lhr_classic.json --checks
+
 # check a routing with no dates at all
 swipl prolog/cli.pl -- route "NYC-BA-X/LON-QR-BKK//SIN-QF-SYD-QF-X/LAX-AA-NYC" --cabin business
 ```
@@ -51,11 +54,32 @@ NYC-BA-X/LON-QR-BKK//SIN-QF-SYD-QF-X/LAX-AA-NYC
 | `BA` between two points | the carrier of the leg that follows |
 
 Length tells the token kinds apart — airline designators are two characters and place codes are
-three — so `XIY` is Xi'an rather than a transfer at `IY`, and nothing needs escaping. Metropolitan
-city codes (`NYC`, `LON`, `TYO`, …) resolve to a representative airport, listed at
-[`prolog/data/cities.pl`](prolog/data/cities.pl) and served from `/api/ruleset`. They resolve to
-the airport rather than becoming a place of their own, so `NYC-LON` and `JFK-LHR` are one sector to
-4(i).
+three — so `XIY` is Xi'an rather than a transfer at `IY`, and nothing needs escaping. A handful of
+4(j) affiliates do carry three-letter designators; those are read as carriers only when no airport
+or city answers to the same code. `HAC` is both Hokkaido Air System and Hachijojima, so a routing
+reads it as the airport, and composing a routing for an itinerary flown on HAC is refused rather
+than written down as a string that would parse back into a different journey.
+
+Metropolitan city codes (`NYC`, `LON`, `TYO`, …) are listed at
+[`prolog/data/cities.pl`](prolog/data/cities.pl) and served from `/api/ruleset`. The table runs
+both ways. Forwards, a city code resolves to a representative airport, so `NYC-LON` and `JFK-LHR`
+are the same journey. Backwards, an airport knows the metropolitan area it belongs to — which is
+what 4(i) is actually written in ("the same city pairs / sectors cannot be flown more than once")
+and what 4(c) and 4(d) mean by a point. So `LON-NYC` flown out of Heathrow and back into Gatwick is
+one city pair flown twice, a stop at Gatwick on a journey that began at Heathrow is travel via the
+origin, and finishing at Gatwick is finishing at home rather than an origin-destination surface
+sector. Airports that IATA holds as their own city are deliberately absent from the table — Paris
+Beauvais, Westchester, Kitchener/Waterloo — because grouping places the fare rule keeps separate
+invents violations, which is the more expensive way to be wrong.
+
+Where there is a real gap, it is checked against 4(c)'s seven permitted relations and named in the
+report, but it is **not** counted toward 4(h)'s maximum of 16. 4(h) does say "including surface
+segments between any 2 airports", and the gap is between 2 airports — but the segments it has in
+view are 4(g)'s intermediate ones, which are sectors of the journey, and the gap is the part of the
+world the ticket deliberately does not cover. Counting it would cap an open-jaw journey at 15
+flights while a closed loop gets 16, a penalty for using 4(c) that no clause in 4(c) or 4(h)
+describes. Held itineraries agree: a 16-flight `CAI-…-DOH` closed by a 4(c)(b) Middle East open jaw
+prices, and it cannot if the gap counts.
 
 The same information can be given per segment instead, as `"stop": "transfer" | "stopover"` on the
 segment that *arrives* at the point (`layover`, `connection` and `transit` are accepted for
@@ -71,24 +95,67 @@ this rule needs was left out; neither is a pass, and the CLI and UI render both.
 ```
 $ swipl prolog/cli.pl -- route "LHR-BA-X/JFK-AA-X/LAX-QF-X/SYD-QF-X/SIN-BA-LHR"
 INVALID — 1 error
-  [8]          error           Itinerary has 0 stopovers; a minimum of 2 is required.
+  [8]          error           The journey has 0 stopovers. It needs at least 2.
 Not checked — 1 rule this input cannot answer:
   [7]          Return travel from the last stopover must commence within 12 months of departure, …
+Checks — 1 failed, 16 ok, 1 not run, 5 n/a. Re-run with --checks to list them.
 ```
+
+### What passed, and by how much
+
+"No rule was broken" is a claim about coverage that a reader has no way to audit, and the number a
+cap was cleared by is what a fare-construction tool is actually asked. So every report carries a
+**check register** alongside the violations: one line per rule, stating what it measured.
+
+```
+$ swipl prolog/cli.pl -- validate prolog/test/fixtures/lhr_classic.json --checks
+VALID
+Checks — 18 ok, 6 n/a:
+  [4(e)]       ok        Intercontinental sectors              Each continent has a limit on flig…
+  [4(h)]       ok        Segment count                         The journey has 7 segments. The ru…
+  [4(i)]       ok        Repeated sectors                      The journey flies 7 sectors. It fl…
+  [4(l)]       n/a       Australian city pairs                 The journey has no flight inside A…
+  [7]          ok        Maximum stay                          16 days pass between the first fli…
+  [8]          ok        Stopovers                             The journey has 4 stopovers. It ne…
+```
+
+Every line is written to be read once. Short sentences, one fact each, common words, and the
+continents spelled the way a person says them rather than the way the table keys them —
+`europe_middle_east` is a key, "Europe & Middle East" is a place. The report carries its own table
+of those names so the page never has to guess at one or wait for a second request before it can
+render the first report.
+
+A check clause states the measurement and nothing else. Its outcome — `ok`, `failed`, `flagged`,
+`undecided`, `not run`, `n/a` — is derived by the driver from the violations the same run produced,
+so the register cannot contradict the verdict above it, and a rule cannot be marked satisfied by
+forgetting to check it. The suite asserts the other half: no rule can fire without a check covering
+it.
+
+The four ways a rule can come out other than pass or fail are distinct on purpose. `undecided` is
+data the input left out, `not run` is a rule the input *mode* cannot answer, and `n/a` is a rule the
+itinerary never engages — 4(l) with no Australian sectors is not a restriction cleared. The register
+is withheld entirely when the input has errors: caps measured over an itinerary that did not parse
+describe a journey nobody submitted.
 
 ### Web UI
 
-`swipl prolog/cli.pl -- serve` also serves the page in [`web/`](web/) at `/`. There are two ways to
+`swipl prolog/cli.pl -- serve` also serves the page in [`web/`](web/) at `/`. The report is the
+page: on a wide screen the form takes a sidebar and the answer takes the rest. There are two ways to
 enter a journey, on two tabs, because they are different jobs rather than one job at two levels of
 detail:
 
 * **Routing** — one line, `LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR`, posted as `{"route": …}` for
   the server to parse. A routing that parses fills the Segments tab in, using the server's own
-  reading of it, so it can be refined without retyping.
+  reading of it, so it can be refined without retyping. The field wraps rather than scrolling
+  sideways, which the grammar allows for free — whitespace is a separator, so a routing broken
+  across lines parses exactly as one line does.
 * **Segments** — the flight-by-flight table, posted as `{"mode": …, "segments": […]}`, with airport
-  typeahead from `/api/airports`, a per-segment stop-kind column, and a switch for whether dates and
+  typeahead from `/api/airports` (accent-folded, so `sao paulo` finds São Paulo and `belem` finds
+  Belém), a per-segment stop-kind column, and a switch for whether dates and
   times are supplied at all. With no clock the time columns are hidden rather than offered and then
   refused. **Show as routing** sends the table to `/api/routing` and writes it back out as one line.
+  This is the one view a sidebar cannot hold — eleven columns — so opening it widens the form to an
+  equal share of the page and closing it gives the width back.
 
 Neither direction of the grammar is implemented in the browser: reading a routing is
 `/api/validate`'s job and writing one is `/api/routing`'s. A copy of the grammar in JavaScript would
@@ -97,8 +164,11 @@ survives the round trip.
 
 Cabin and passengers sit above the tabs: they describe the fare, not the routing, and survive
 switching. The report panel gives the verdict, the fare basis, each violation with its citation and
-evidence, the rules the input could not answer, and how every connection was classified and by which
-source. Editing the form after a verdict marks the report as out of date rather than leaving a stale
+evidence, the rules the input could not answer, an expandable **Rules evaluated** register of every
+check and what it measured, and how every connection was classified and by which source. The
+register is collapsed by default — it is four times the length of the verdict it supports — and
+`ok` is the quietest thing in it, since on a valid itinerary it is every row and colouring them all
+would leave nothing for the one that is not. Editing the form after a verdict marks the report as out of date rather than leaving a stale
 answer looking current.
 
 **The route map** under Connections is drawn by [`web/map.src.js`](web/map.src.js) from the
@@ -326,7 +396,7 @@ the server does deliberately, each of which was a production problem:
 | `POST` | `/api/validate` | itinerary JSON in, report JSON out |
 | `POST` | `/api/routing` | itinerary JSON in, `{"route": …}` out — the same journey written as a routing, no rules run |
 | `GET` | `/api/ruleset` | version, limits, free-segment caps, carriers, city codes, routing grammar, continents, fare-basis and surcharge tables |
-| `GET` | `/api/airports?q=&limit=` | typeahead over the airport table, with coordinates |
+| `GET` | `/api/airports?q=&limit=` | typeahead over the airport table, accent-folded, with coordinates |
 | `GET` | `/api/health` | status and ruleset version |
 | `GET` | `/` | the bundled web UI |
 
@@ -335,11 +405,14 @@ Errors come back as `{"error": ..., "message": ...}`: `400 invalid_request` for 
 and 100 segments, and each validation runs under a 10-second limit — all three in
 [`prolog/data/limits.pl`](prolog/data/limits.pl) alongside the fare caps.
 
-`/api/ruleset` exists so a web UI never hardcodes rule data. Every validate response also carries an
+`/api/ruleset` exists so a web UI never hardcodes rule data. Every validate response carries a
+`checks` array — `{rule, citation, label, outcome, detail}` per rule measured, see
+[What passed, and by how much](#what-passed-and-by-how-much) — and an
 `annotations` object — the derived route, the collapsed continent and traffic-conference sequences,
-each connection's ground time and stopover classification, and `annotations.routing`, the whole
-journey written back out as a routing string — so a UI can draw the itinerary and show *why* a rule
-fired rather than only printing its message.
+each connection's ground time and stopover classification, `annotations.names` (the display name for
+every continent and traffic conference, so a client never has to invent one from the atom), and
+`annotations.routing`, the whole journey written back out as a routing string — so a UI can draw the
+itinerary and show *why* a rule fired rather than only printing its message.
 
 ```sh
 curl -s -X POST localhost:8080/api/validate \
@@ -397,7 +470,11 @@ operator unknown rather than assuming there is no codeshare.
 
 Missing information degrades honestly rather than silently passing: a connection with neither a
 timestamp nor a declared stop kind makes rule 8 `indeterminate` and the verdict `indeterminate`, and
-an absent operating carrier makes 4(j) a `warning`. Warnings alone leave a verdict of `valid`.
+an absent operating carrier makes 4(j) a `warning`. A journey that touches Cuba with no carrier
+named anywhere makes rule 15 `indeterminate` for the same reason: the restriction is about who
+flies it, the sector that puts most itineraries into Cuba is American, and "it does not use
+American or Alaska" is not something the report may say about an input that named nobody. Warnings
+alone leave a verdict of `valid`.
 Routing mode relaxes which rules *apply*, never the standard of evidence for the ones that do.
 
 Because the times are local, an eastbound trans-Pacific sector legitimately arrives at an earlier
@@ -411,7 +488,8 @@ Three layers with one contract between them:
 ```
 "route" ──route_in──┐
                     ├──> itinerary ──annotate──> A ──validate──> report(Verdict, Violations,
-"segments" ─json_in─┘                            │                      │      Fare, NotChecked)
+"segments" ─json_in─┘                            │                      │      Fare, NotChecked,
+                                                 │                      │      Checks)
                                                  │  ┌───────────────────┴────────┐
                                     route_out ───┘  explain (text)        json_out (HTTP)
                                         │
@@ -432,7 +510,10 @@ either direction.
 **Rules are violation generators.** Each rule is a clause of `validate:violation/2` that *succeeds
 when the rule is broken* and binds a term describing the breakage. A naive
 `valid(I) :- rule1(I), rule2(I), ...` would give a bare "no"; inverting it means backtracking
-enumerates every violation of every rule in one pass, each carrying its own evidence.
+enumerates every violation of every rule in one pass, each carrying its own evidence. Two smaller
+registries sit beside it: `validate:not_checked/2` for rules the input mode puts out of reach, and
+`validate:check/2` for what each rule measured. A check reports the measurement and names the
+violation ids it decides; the driver, not the rule, turns that into an outcome.
 
 **One annotation pass.** `annotate/2` runs once and derives continents, traffic conferences, ocean
 crossings and the stopover/transfer classification of every connection, so most rule bodies stay two
@@ -474,13 +555,38 @@ America), Dubai and Amman under Asia (the rule needs Europe/Middle East), and Ca
 Africa (the rule needs Europe). `data/countries.pl` carries the fare-rule taxonomy;
 `data/overrides.pl` holds only what a country-level table cannot express.
 
+Europe/Middle East is one continent made of two zones, and the difference is load-bearing in three
+places: 4(c)(b) permits an origin–destination surface gap *within the Middle East*, section 12
+prices *sectors within the Middle East* separately, and 4(e)'s closing sentence bars Mauritius and
+South Africa when travel is to and from *Europe* in both directions — the zone, named two lines
+after the same rule says "Europe/Middle East" in full.
+
+Two words in that sentence carry it. *Europe* means the zone, so a Gulf gateway is not a Europe
+gateway. *Both directions* means the two crossings of the Africa border, the one in and the one
+out — not a count of crossings anywhere in the journey. Either word read wrong rejects an itinerary
+that gets ticketed: at continent granularity an Africa excursion flown in and out through the Gulf
+fails, and on a count of Europe arrivals a journey fails over an unrelated Asia-to-Paris sector.
+`mut_europe_both_ways` and `mut_europe_both_ways_gulf` are the same journey differing in one point
+and must land on opposite verdicts; `osl_africa_gulf_gateway` is the one with the unrelated second
+Europe arrival, and it is valid.
+
+Several hundred city names are non-ASCII, which costs two things. The generated file declares
+`:- encoding(utf8)` rather than trusting the locale of whoever loads it, and the typeahead in
+[`prolog/src/fold.pl`](prolog/src/fold.pl) matches on an accent-folded copy of both sides, so
+`sao paulo` finds São Paulo and `zurich` finds Zürich — the cities whose spelling is hardest to
+reproduce being exactly the ones a search is most needed for. The fold table is explicit rather than
+derived from Unicode normalisation, because the letters that are not an ASCII letter with a mark on
+top — ø, æ, ð, þ, dotless ı, ł — need a table either way. A test asserts it covers every character
+in the generated airport table, so regenerating that table with a new letter fails the suite rather
+than quietly dropping a city out of reach of the search.
+
 ## Tests
 
 ```sh
 swipl -g run_tests -t halt prolog/test/run_tests.pl
 ```
 
-Five suites, in descending value:
+Seven suites, in descending value:
 
 1. **Mutation tests** — each fixture is the golden itinerary with exactly one rule broken, asserting
    that exactly the expected rule ids fire. This catches false negatives and rules that over-fire on
@@ -494,8 +600,19 @@ Five suites, in descending value:
    rules it cannot check instead of passing them. Composition is asserted as a round trip: parse a
    routing, annotate it, write it back out, and get the same string — which is the property that
    justifies `route_out.pl` being Prolog instead of thirty lines of JavaScript.
-4. **Geography units** — every place the fare rule and physical geography disagree.
-5. **Serialization and HTTP round trip** — the JSON body must report the same verdict and rule ids
+4. **The check register** — that a satisfied cap states its number, that a breached one cannot read
+   as a pass, and the load-bearing one: across every fixture, no rule can fire without a check
+   covering it. That is what stops a rule being added without a measurement and the register
+   quietly claiming coverage it does not have.
+5. **Metropolitan cities and carrier codes** — that an airport can be found from its city as well as
+   the reverse, that no airport sits in two cities, and that the rules written in cities see them:
+   `LHR-JFK` out and `LGW-JFK` back is one city pair flown twice. Also the one place the notation is
+   genuinely ambiguous — `HAC` is an airline and an airport — asserting that a routing reads it as
+   the airport and that composing one for an itinerary flown on it is refused rather than corrupted.
+6. **Geography units** — every place the fare rule and physical geography disagree, plus that the
+   generated airport table declares its own encoding: several hundred city names are non-ASCII, and
+   a build under a non-UTF-8 locale would otherwise load them corrupt and serve them that way.
+7. **Serialization and HTTP round trip** — the JSON body must report the same verdict and rule ids
    the text renderer prints, which is what keeps the two renderers from drifting, plus the request
    size, segment and timeout guards, and the static assets: a stylesheet or map bundle that 404s
    leaves the UI degraded rather than failing loudly, and a font re-encoded on the way out arrives
@@ -508,10 +625,14 @@ Some rules cannot fire alone: a two-segment itinerary is below the 4(h) minimum 
 also short of continents, stopovers and a traffic-conference cycle. Those tests still assert an
 exact set, just a set of more than one.
 
-Every rule id has a fixture except one. 4(f)'s "no more than 4 international transfers from the one
-country" needs enough re-entries to breach 4(h)'s free-segment cap first, so the itinerary is
-rejected before that rule can fire. It is implemented because the rule text states it, and marked
-untested in the source rather than left to look covered.
+4(f)'s "no more than 4 international transfers from the one country" is the sharpest of these. A
+fifth transfer costs either a fifth pair of intra-continental legs, which breaches 4(h), or a third
+intercontinental crossing, which breaches 4(e) — so those two caps between them hold the reachable
+maximum at exactly the 4 that 4(f) permits, and `mut_intl_transfers` asserts the pair. Four is
+comfortably reachable and gets flown: `doh_transfers` is a Gulf-hub itinerary sitting on 4(f), 4(e)
+and 4(h) simultaneously, and it is valid.
+
+Every rule id has a fixture.
 
 ## Scope
 
@@ -520,6 +641,14 @@ Checked: 4(a)–4(l), 6, 7, 8, 15, 19, and the section 0 continent-count to fare
 Not checked, because they are not decidable from an itinerary: capacity limitations, GDS fare
 amounts, group travel, and voluntary-change fees. Section 5(b)'s booking codes are checkable in
 principle but would need a booked class per segment, which the input format does not carry.
+
+One rule is checked but cannot be decided, and says so. Rule 19's real trigger is an infant
+*reaching* two years old between departure and the end of the journey, and the input carries an age
+rather than a date of birth — so a one-year-old who turns two next month and one who turned one
+last week are the same value here. On a fare whose journey may run a full twelve months that is a
+live case, and the consequence is a full child fare bought retroactively for the whole trip, so an
+infant stated as 1 draws a warning rather than silence. Supplying a date of birth would make it
+decidable; nothing else would.
 
 There is deliberately no "too many continents" rule: the fare table stops at six and the continent
 list has exactly six members, so it could never fire. What it would have been reaching for — that

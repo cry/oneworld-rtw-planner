@@ -9,18 +9,34 @@
 
 :- use_module('../annotate').
 :- use_module('../pricing').
+:- use_module('../phrasing').
 :- use_module('../../data/limits').
 
 :- multifile validate:violation/2.
+:- multifile validate:check/2.
+
+validate:check(A, chk(continent_count, '0', 'Continent count', Detail,
+                      [too_few_continents, via_asia_counted])) :-
+    continent_count(A, Continents, N),
+    limit(min_continents, Min),
+    quantity(N, 'continent', Count),
+    maplist(continent_name, Continents, Named),
+    listed_and(Named, List),
+    format(atom(Detail),
+           'The journey visits ~w: ~w. The fare needs at least ~w.',
+           [Count, List, Min]).
 
 validate:violation(A, v(too_few_continents, '0', error, Msg,
                         [count(N), min(Min), continents(Cs)])) :-
     continent_count(A, Cs, N),
     limit(min_continents, Min),
     N < Min,
+    quantity(N, 'continent', Visited),
+    maplist(continent_name, Cs, Named),
+    listed_and(Named, List),
     format(atom(Msg),
-           'Itinerary visits ~w continent(s) (~w); the fare requires at least ~w.',
-           [N, Cs, Min]).
+           'The journey visits only ~w: ~w. The fare needs at least ~w.',
+           [Visited, List, Min]).
 
 % There is deliberately no "too many continents" rule. The fare table stops at
 % six and the continent list has exactly six members, so no itinerary can

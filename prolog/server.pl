@@ -24,6 +24,7 @@
 :- use_module(library(time)).
 
 :- use_module('src/geo').
+:- use_module('src/phrasing').
 :- use_module('src/annotate').
 :- use_module('src/validate').
 :- use_module('src/io/json_in').
@@ -250,25 +251,42 @@ routing_request(Request) :-
     annotate(Itin, A),
     (   annotated_route(A, Route)
     ->  reply_json_dict(_{ route: Route })
-    ;   route_undecidable(A, Segments),
-        undecidable_message(Segments, Message),
+    ;   no_routing_message(A, Message),
         throw(input_error(Message))
     ).
+
+% Two different things stop a routing being written, and saying the wrong one
+% sends the reader to fix a point that is not the problem.
+no_routing_message(A, Message) :-
+    route_undecidable(A, Segments),
+    Segments \== [],
+    !,
+    undecidable_message(Segments, Message).
+no_routing_message(A, Message) :-
+    route_ambiguous_carrier(A, Segments),
+    ambiguous_carrier_message(Segments, Message).
+
+% A three-letter designator that is also an airport code has no unambiguous
+% spelling in this notation, so it is refused rather than written down as a
+% string that would parse back into a different journey.
+ambiguous_carrier_message(Segments, Message) :-
+    segments_phrase(Segments, Where),
+    format(atom(Message),
+           'The carrier on ~w has a three-letter code that is also an airport code, so this itinerary cannot be written as a routing without changing what it says. Use the JSON form instead.',
+           [Where]).
 
 % Named rather than glossed over: a routing has no way to write "we do not know
 % what this point is", and quietly writing a stopover would change the
 % itinerary's meaning and its verdict.
 undecidable_message(Segments, Message) :-
-    atomic_list_concat(Segments, ', ', List),
     length(Segments, N),
-    (   N =:= 1
-    ->  format(atom(Message),
-               'The point after segment ~w is neither a transfer nor a stopover, so this itinerary cannot be written as a routing. Give it a ground time or declare the stop.',
-               [List])
-    ;   format(atom(Message),
-               'The points after segments ~w are neither transfers nor stopovers, so this itinerary cannot be written as a routing. Give them ground times or declare the stops.',
-               [List])
-    ).
+    segments_phrase(Segments, Where),
+    agree(N, 'The point', 'The points', Point),
+    agree(N, 'is', 'are', Is),
+    agree(N, 'it', 'them', It),
+    format(atom(Message),
+           '~w after ~w ~w neither a transfer nor a stopover, so this itinerary cannot be written as a routing. Give ~w a ground time, or say which one ~w.',
+           [Point, Where, Is, It, It]).
 
 validate_request(Request) :-
     check_body_size(Request),

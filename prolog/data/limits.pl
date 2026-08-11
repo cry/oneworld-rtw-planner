@@ -4,7 +4,9 @@
             free_segments/2,
             fare_basis/3,
             continent/1,
+            continent_name/2,
             traffic_conference/2,
+            tc_name/2,
             all_limits/1
           ]).
 
@@ -94,6 +96,24 @@ fare_basis(first,    6, 'AONE6').
 
 %! continent(?Continent) is nondet.
 continent(C) :- free_segments(C, _).
+
+%! continent_name(?Continent, ?Name) is nondet.
+%  How a continent is written for a reader. The atoms are table keys and read
+%  like table keys; nobody outside the program calls a place `south_west_pacific`.
+%  Rule 3015 writes the second one "Europe/Middle East", which is a slash doing
+%  the work of a conjunction; spelled out it cannot be misread as a choice
+%  between the two.
+continent_name(north_america,      'North America').
+continent_name(south_america,      'South America').
+continent_name(europe_middle_east, 'Europe & Middle East').
+continent_name(africa,             'Africa').
+continent_name(asia,               'Asia').
+continent_name(south_west_pacific, 'South West Pacific').
+
+%! tc_name(?TC, ?Name) is nondet.
+tc_name(tc1, 'TC1').
+tc_name(tc2, 'TC2').
+tc_name(tc3, 'TC3').
 
 %! traffic_conference(?Continent, ?TC) is nondet.
 %  Section 0. This mapping is why 4(b) (a TC-level rule) and 4(e) (a

@@ -8,6 +8,7 @@
 
 :- use_module(library(plunit)).
 :- use_module('../src/geo').
+:- use_module('../src/fold').
 :- use_module('../data/limits').
 
 :- begin_tests(geography).
@@ -99,5 +100,60 @@ test(every_airport_resolves) :-
 test(search_finds_heathrow) :-
     airport_search(lhr, 5, Results),
     memberchk(lhr, Results).
+
+% Several hundred city names are non-ASCII. SWI reads source files in the
+% locale encoding unless the file says otherwise, so a build under LC_ALL=C
+% loads the table mojibaked and serves it that way through /api/airports.
+% Asserting the declaration rather than the loaded text, because on a release
+% that already defaults to UTF-8 the text alone proves nothing.
+test(the_generated_airport_table_declares_its_encoding) :-
+    module_property(test_geo, file(Here)),
+    file_directory_name(Here, Dir),
+    atomic_list_concat([Dir, '/../data/generated/airports.pl'], Path),
+    read_file_to_string(Path, Text, [encoding(utf8)]),
+    assertion(sub_string(Text, _, _, _, ":- encoding(utf8).")).
+
+test(non_ascii_city_names_survive_loading) :-
+    airport_city(bel, City),
+    atom_codes(City, Codes),
+    assertion(memberchk(0'é, Codes)).
+
+% The search folds accents so that the cities hardest to spell are still
+% reachable. This is the half that matters: an unaccented query must find them.
+test(accented_cities_are_found_without_the_accents) :-
+    forall(member(Query-Wanted, ['belem'-bel, 'sao paulo'-gru, 'zurich'-zrh,
+                                 'malmo'-mmx, 'dusseldorf'-dus,
+                                 'adiyaman'-adf]),        % dotless i, no mark to strip
+           ( airport_search(Query, 8, Results),
+             assertion(memberchk(Wanted, Results)) )).
+
+% ...and typing the accents must still work, so folding cannot be one-sided.
+test(accented_queries_still_match) :-
+    airport_search('Belém', 5, Results),
+    assertion(memberchk(bel, Results)).
+
+% A regenerated airport table that introduces a letter the fold table does not
+% know would silently put that city out of reach of an unaccented search.
+test(the_fold_table_covers_every_letter_in_the_airport_table) :-
+    findall(Code,
+            ( airport(_, _, _, City, _, _),
+              atom_codes(City, Codes),
+              member(Code, Codes),
+              Code > 127,
+              \+ fold_char(Code, _)
+            ),
+            Missing0),
+    sort(Missing0, Missing),
+    assertion(Missing == []).
+
+% Folding must reach ASCII, not merely a different accented letter.
+test(folding_lands_on_ascii) :-
+    findall(Code-Ascii,
+            ( fold_char(Code, Ascii),
+              atom_codes(Ascii, Out),
+              \+ forall(member(C, Out), C < 128)
+            ),
+            Bad),
+    assertion(Bad == []).
 
 :- end_tests(geography).

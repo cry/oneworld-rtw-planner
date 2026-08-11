@@ -1,0 +1,59 @@
+{
+  "_comment": "Rule 15 with the carriers stripped from the two segments that decide it. The journey still touches Cuba, so the rule still applies, but nothing in the input says who flies it -- and Havana-Miami is American in practice. Reporting this clean would be a pass on a question nobody answered.",
+  "origin": "LHR",
+  "cabin": "business",
+  "segments": [
+    {
+      "n": 1,
+      "type": "flight",
+      "from": "LHR",
+      "to": "HAV",
+      "dep": "2026-09-01T10:25",
+      "arr": "2026-09-01T16:30"
+    },
+    {
+      "n": 2,
+      "type": "flight",
+      "from": "HAV",
+      "to": "MIA",
+      "dep": "2026-09-05T08:00",
+      "arr": "2026-09-05T09:15"
+    },
+    {
+      "n": 3,
+      "type": "flight",
+      "from": "MIA",
+      "to": "NRT",
+      "carrier": "JL",
+      "dep": "2026-09-05T13:30",
+      "arr": "2026-09-06T17:00"
+    },
+    {
+      "n": 4,
+      "type": "flight",
+      "from": "NRT",
+      "to": "HKG",
+      "carrier": "CX",
+      "dep": "2026-09-10T09:00",
+      "arr": "2026-09-10T13:00"
+    },
+    {
+      "n": 5,
+      "type": "flight",
+      "from": "HKG",
+      "to": "DOH",
+      "carrier": "QR",
+      "dep": "2026-09-14T02:00",
+      "arr": "2026-09-14T05:00"
+    },
+    {
+      "n": 6,
+      "type": "flight",
+      "from": "DOH",
+      "to": "LHR",
+      "carrier": "QR",
+      "dep": "2026-09-14T08:00",
+      "arr": "2026-09-14T13:30"
+    }
+  ]
+}

@@ -1,18 +1,25 @@
 #!/usr/bin/env swipl
 % cli.pl -- command line front end.
 %
-%   swipl prolog/cli.pl -- validate <itinerary.json> [--json]
-%   swipl prolog/cli.pl -- route <routing> [--cabin business] [--json]
+%   swipl prolog/cli.pl -- validate <itinerary.json> [--json] [--checks]
+%   swipl prolog/cli.pl -- route <routing> [--cabin business] [--json] [--checks]
 %   swipl prolog/cli.pl -- serve [--port 8080] [--dev]
 %
-% All three subcommands render the same report/4 term; the first two use the
+% All three subcommands render the same report/5 term; the first two use the
 % text renderer in src/explain.pl and the service uses src/io/json_out.pl.
 
 :- initialization(main, main).
 
 :- ensure_loaded('load').
 :- use_module('server').
+% SWI 10 moved JSON out of the HTTP package: `library(json)` does not exist on
+% 9.x, and `library(http/json)` prints a deprecation notice on 10.x. Asking
+% which one is present is the only spelling that is silent on both.
+:- if(exists_source(library(json))).
 :- use_module(library(json)).
+:- else.
+:- use_module(library(http/json)).
+:- endif.
 :- use_module(library(main)).
 
 % halt/1 unwinds through catch/3, so the exit code is carried out as a value
@@ -27,9 +34,9 @@ run([serve|Opts], Code)          :- !, cmd_serve(Opts, Code).
 run(_, 2) :-
     route_help(Help),
     format(user_error,
-           'usage: swipl prolog/cli.pl -- validate <itinerary.json> [--json]~n', []),
+           'usage: swipl prolog/cli.pl -- validate <itinerary.json> [--json] [--checks]~n', []),
     format(user_error,
-           '       swipl prolog/cli.pl -- route <routing> [--cabin economy|business|first] [--json]~n', []),
+           '       swipl prolog/cli.pl -- route <routing> [--cabin economy|business|first] [--json] [--checks]~n', []),
     format(user_error,
            '       swipl prolog/cli.pl -- serve [--port 8080] [--dev]~n~n', []),
     format(user_error, '~w~n', [Help]).
@@ -59,10 +66,14 @@ report_for(Dict, Opts, Code) :-
         report_json(Report, _{ annotations: Ann }, Json),
         json_write_dict(current_output, Json, [width(96)]),
         nl
-    ;   explain(Report)
+    ;   explain_options(Opts, ExplainOpts),
+        explain(Report, current_output, ExplainOpts)
     ),
-    Report = report(Verdict, _, _, _),
+    Report = report(Verdict, _, _, _, _),
     exit_code(Verdict, Code).
+
+explain_options(Opts, [checks(true)]) :- memberchk('--checks', Opts), !.
+explain_options(_, []).
 
 exit_code(valid, 0).
 exit_code(indeterminate, 1).

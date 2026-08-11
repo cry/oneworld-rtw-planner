@@ -31,6 +31,7 @@
 */
 
 :- use_module('../geo').
+:- use_module('../carriers').
 :- use_module(library(apply)).
 
 %! route_help(-Text) is det.
@@ -104,6 +105,19 @@ carrier_token(T, Code) :-
     atom_chars(T, Cs),
     maplist([C]>>char_type(C, alnum), Cs),
     downcase_atom(T, Code).
+% A few 4(j) affiliates carry three-letter designators, so length alone no
+% longer separates carriers from places. A three-letter token is read as a
+% carrier only when it is one and no airport or city answers to it -- which
+% leaves HAC the airport at Hachijojima rather than Hokkaido Air System, since
+% a routing that names a place is the far likelier reading and the notation has
+% no way to say which was meant. io/route_out refuses to compose the other one.
+carrier_token(T, Code) :-
+    atom_length(T, 3),
+    atom_chars(T, Cs),
+    maplist([C]>>char_type(C, alnum), Cs),
+    downcase_atom(T, Code),
+    carrier_code(Code),
+    \+ place_code_known(Code).
 
 point_token(T, Code, transfer) :-
     ( atom_concat('X/', Code0, T) ; atom_concat('X', Code0, T) ),

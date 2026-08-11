@@ -51,6 +51,23 @@ continent_count(A, Continents, N) :-
 %! via_asia_sector(+A, -SegmentNumber) is nondet.
 %  A single segment, flight or surface, joining the South West Pacific
 %  directly to Europe/Middle East.
+%
+%  This feeds the continent count and nothing else. It deliberately does not
+%  feed 4(e), even though "considered travelling via Asia" could be read as
+%  putting an arrival into Asia and a departure from it on the itinerary, and
+%  some experienced bookers do read it that way.
+%
+%  Two things hold it here. The sentence sits in section 0 under how the fare
+%  is determined, and what it says must be counted is continents -- the input
+%  to the fare basis, which is the paragraph above it. And the reading is
+%  nearly inert: the deemed pair would consume one of Asia's two allowed
+%  arrivals and one of its two departures, so it only ever bites an itinerary
+%  that already enters Asia twice by air *and* flies a nonstop between the
+%  South West Pacific and Europe. A traveller who has flown LON-SYD through
+%  and never met an Asia problem is what that predicts, and the one itinerary
+%  on record of the biting shape is already invalid five other ways -- so
+%  adopting it would have changed no verdict anyone has produced, while
+%  putting a new way to fail in front of journeys that price today.
 via_asia_sector(A, N) :-
     ann_seg(A, S),
     sort([S.from_cont, S.to_cont], [europe_middle_east, south_west_pacific]),

@@ -128,6 +128,20 @@ const KIND = {
   indeterminate: 'text-indet font-semibold'
 };
 
+// The check register. `pass` is deliberately the quietest of the six: on a valid
+// itinerary it is every row, and colouring them all green would leave nothing
+// for the two that are not. An absence — n/a, not run — is dimmed rather than
+// dressed up as a result.
+const OUTCOME = {
+  pass:           { word: 'ok',        text: 'text-muted', dim: false },
+  fail:           { word: 'failed',    text: 'text-err',   dim: false },
+  warning:        { word: 'flagged',   text: 'text-warn',  dim: false },
+  indeterminate:  { word: 'undecided', text: 'text-indet', dim: false },
+  not_checked:    { word: 'not run',   text: 'text-indet', dim: true },
+  not_applicable: { word: 'n/a',       text: 'text-muted', dim: true }
+};
+const OUTCOME_ORDER = ['fail', 'indeterminate', 'warning', 'pass', 'not_checked', 'not_applicable'];
+
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"]/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -149,6 +163,11 @@ function show(next, { focus = false } = {}) {
     $('panel-' + name).classList.toggle('hidden', !on);
     if (on && focus) tab.focus();
   }
+  // The Routing tab is one text field and belongs in a sidebar. The Segments tab
+  // is an eleven-column table and does not, so the form takes half the width
+  // while it is open. Toggling a class rather than restyling in place keeps the
+  // two widths in the stylesheet where the rest of the layout lives.
+  $('layout').classList.toggle('wide-form', next === 'segments');
   syncUrl();
 }
 
@@ -258,15 +277,23 @@ function render() {
   syncUrl();
 }
 
-let timer = null;
+// Debounced per input, not globally: every from/to field on the page shares this
+// function, and one timer between them means tabbing to the next airport cancels
+// the lookup for the one just typed. The sequence number drops a slow reply that
+// lands after a newer one for the same field.
+const typeahead = new WeakMap();
 function suggest(input, listId) {
-  clearTimeout(timer);
+  const state = typeahead.get(input) || { timer: null, seq: 0 };
+  typeahead.set(input, state);
+  clearTimeout(state.timer);
   const q = input.value.trim();
   if (q.length < 2) return;
-  timer = setTimeout(async () => {
+  const seq = ++state.seq;
+  state.timer = setTimeout(async () => {
     try {
       const r = await fetch(`/api/airports?q=${encodeURIComponent(q)}&limit=8`);
       const d = await r.json();
+      if (seq !== state.seq) return;
       $(listId).innerHTML =
         d.results.map(a => `<option value="${esc(a.iata)}">${esc(a.city)}, ${esc(a.country)}</option>`).join('');
     } catch (e) { /* typeahead is a convenience; a failure is not worth reporting */ }
@@ -399,12 +426,14 @@ function renderReport(data, body) {
   const fare = data.fare || {};
   const ann = data.annotations || {};
   const nc = data.notChecked || [];
+  const checks = data.checks || [];
   const look = VERDICT[data.verdict] || VERDICT.indeterminate;
   const counts = tally(v);
 
   markFresh();
   announce(`${data.verdict}. ${counts || 'No rule was broken.'}` +
-           (nc.length ? ` ${nc.length} rule${nc.length === 1 ? '' : 's'} not checked.` : ''));
+           (nc.length ? ` ${nc.length} rule${nc.length === 1 ? '' : 's'} not checked.` : '') +
+           (checks.length ? ` ${checks.length} rules evaluated.` : ''));
 
   $('report').innerHTML = `
     <div class="settle">
@@ -418,6 +447,7 @@ function renderReport(data, body) {
       ${fareBlock(fare, ann)}
       ${violationList(v)}
       ${notCheckedList(nc)}
+      ${checkList(checks, v)}
       ${connections(ann)}
 
       <div class="border-t border-rule">
@@ -458,9 +488,22 @@ function highlight(code) {
   }
 }
 
+// Continents and traffic conferences are table keys in the report and read like
+// table keys. The report carries its own table of display names — see
+// place_names/1 in json_out.pl — so this never has to guess, and never has to
+// wait for a second request to come back before the first report can render.
+// Anything the table does not cover falls back to the atom rather than to a
+// title-cased guess, which would quietly invent a name for a new continent.
+function named(names, key) {
+  return (names && names[key]) || key;
+}
+const namedList = (names, keys, sep) =>
+  (keys || []).map(k => named(names, k)).join(sep);
+
 // Ruled rows rather than a card: the fare is a reading off the itinerary, and the
 // tariff sets its own summaries as a table.
 function fareBlock(fare, ann) {
+  const names = ann.names;
   const line = (k, val) => val
     ? `<div class="flex flex-wrap items-baseline gap-x-3 border-t border-rule px-4 py-1.5">
          <dt class="label w-[7.5rem] shrink-0">${k}</dt>
@@ -475,9 +518,9 @@ function fareBlock(fare, ann) {
 
   return `<dl class="mb-0">
     ${line('Fare basis', basis)}
-    ${line('Continents', `<span class="mono text-[12px]">${esc((fare.continentList || []).join(' · '))}</span>`)}
-    ${line('Conferences', `<span class="mono text-[12px]">${esc((ann.trafficConferenceSequence || []).join(' → '))}</span>`)}
-    ${line('Route', `<span class="mono text-[12px] break-words">${esc((ann.continentSequence || []).join(' → '))}</span>`)}
+    ${line('Continents', `<span class="text-[12.5px]">${esc(namedList(names, fare.continentList, ' · '))}</span>`)}
+    ${line('Conferences', `<span class="mono text-[12px]">${esc(namedList(names, ann.trafficConferenceSequence, ' → '))}</span>`)}
+    ${line('Route', `<span class="text-[12.5px] break-words">${esc(namedList(names, ann.continentSequence, ' → '))}</span>`)}
     ${fare.cabin === 'economy' && fare.premiumEconomyUpgradeUsd
       ? line('Premium economy', `USD ${fare.premiumEconomyUpgradeUsd} for all segments <span class="text-muted">(section 12)</span>`)
       : ''}
@@ -529,6 +572,48 @@ function notCheckedList(nc) {
         </ul>
       </div>
     </div>`;
+}
+
+// What every rule measured, not just the ones that were broken. "No rule was
+// broken" is a claim about coverage a reader has no way to audit, and the
+// number a cap was cleared by is the thing a fare-construction tool is actually
+// asked. Collapsed by default because it is four times the length of the
+// verdict it supports.
+function checkList(checks, violations) {
+  if (!checks.length) {
+    return violations.some(x => x.rule === 'input_error')
+      ? `<p class="border-t border-rule px-4 py-3 text-[13px] text-muted">
+           No rule was evaluated — the input errors above describe an itinerary the rules cannot be measured against.
+         </p>`
+      : '';
+  }
+
+  const counts = OUTCOME_ORDER
+    .map(name => {
+      const n = checks.filter(c => c.outcome === name).length;
+      return n ? `${n} ${OUTCOME[name].word}` : null;
+    })
+    .filter(Boolean).join(', ');
+
+  return `
+    <details class="group border-t border-rule">
+      <summary class="label cursor-pointer select-none px-4 py-2">
+        <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
+        Rules evaluated (${checks.length}) — ${esc(counts)}
+      </summary>
+      <ul class="border-t border-rule">${checks.map(c => {
+        const look = OUTCOME[c.outcome] || OUTCOME.pass;
+        return `
+        <li class="border-b border-rule px-4 py-1.5 last:border-b-0">
+          <div class="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+            <span class="cite">${esc(c.citation)}</span>
+            <span class="text-[12.5px] font-medium ${look.dim ? 'text-muted' : ''}">${esc(c.label)}</span>
+            <span class="sev-label ml-auto shrink-0 ${look.text}">${esc(look.word)}</span>
+          </div>
+          <p class="mt-0.5 max-w-[64ch] text-[12px] text-muted">${esc(c.detail)}</p>
+        </li>`;
+      }).join('')}</ul>
+    </details>`;
 }
 
 function connections(ann) {
@@ -702,6 +787,9 @@ for (const input of document.querySelectorAll('input[name="theme"]')) {
 const CABIN_DEFAULT = 'business';
 const PAX_DEFAULT = 'adult';
 
+// Read off the markup rather than restated here, so the two cannot drift.
+const CABINS = new Set([...$('cabin').options].map(o => o.value));
+
 // `/` is legal in a query string (RFC 3986) and the routing notation is full of
 // it. Leaving it alone is most of what keeps the URL readable, which is the
 // whole point of storing the routing rather than an opaque blob.
@@ -767,7 +855,12 @@ function syncUrl() {
 
 function writeUrl() {
   const parts = [];
-  const route = $('route').value.trim();
+  // The field wraps and may hold hand-entered breaks, which the grammar treats
+  // as separators and a URL renders as %0A. The link is meant to be legible, so
+  // the whitespace is collapsed on the way into it — this changes nothing about
+  // what gets parsed, since a run of whitespace and a single space are one
+  // separator either way.
+  const route = $('route').value.trim().replace(/\s+/g, ' ');
   const authored = rows.length > 0 && !segmentsDerived;
   if (route) parts.push('r=' + enc(route));
   if (authored) parts.push('s=' + encodeSegments());
@@ -783,7 +876,10 @@ function writeUrl() {
 // undefined when the URL carried no itinerary at all.
 function readUrl() {
   const q = new URLSearchParams(location.search);
-  if (q.has('c')) $('cabin').value = q.get('c');
+  // Both are checked against what the control actually offers. Assigning an
+  // unknown value to a <select> leaves it empty rather than rejecting it, and an
+  // empty cabin reaches /api/validate as a 400 on a link that merely had a typo.
+  if (q.has('c') && CABINS.has(q.get('c'))) $('cabin').value = q.get('c');
   if (q.has('p') && PAX[q.get('p')]) $('pax').value = q.get('p');
 
   const route = q.get('r') || '';
@@ -842,7 +938,11 @@ $('undo').addEventListener('click', () => {
 });
 $('validate').addEventListener('click', () => validate());
 $('parse').addEventListener('click', readRouting);
-$('route').addEventListener('keydown', e => { if (e.key === 'Enter') readRouting(); });
+// Enter validates, as it did when this was a single-line input. Shift+Enter is
+// left alone so the field can still be broken across lines by hand.
+$('route').addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); readRouting(); }
+});
 $('load').addEventListener('click', () => {
   try {
     validate(loadItinerary(JSON.parse($('paste').value)));
