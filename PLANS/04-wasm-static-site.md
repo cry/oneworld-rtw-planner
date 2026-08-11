@@ -76,10 +76,22 @@ uses the same conditional rather than inventing a second spelling.
 
 ## The drift that had to be guarded
 
-**Two engines.** `swipl-wasm` builds SWI 10.1.10; the container runs 10.0.2. No plunit test can see
-a difference between them, so `prolog/test/test_wasm.mjs` drives every fixture through `rtw_call/4`
-on both and compares the *whole reply* — message prose, ordering, evidence — not the verdict alone.
-All 54 are byte-for-byte identical.
+**Two engines.** `swipl-wasm` builds SWI 10.1.10; the container runs 10.0.2; CI's apt supplies 9.x.
+No plunit test can see a difference between them, so `prolog/test/test_wasm.mjs` drives every fixture
+through `rtw_call/4` on both and compares the *whole reply* — message prose, ordering, evidence — not
+the verdict alone. All 54 agree.
+
+That comparison started out textual, and CI caught the mistake on the first run: all 54 fixtures
+reported as differing, none of them meaningfully. SWI moved JSON out of the HTTP package at version
+10, so on 9.x `wasm.pl` takes its `library(http/json)` fallback — which puts a space after a comma
+where `library(json)` does not. Comparing text asserted a property of whichever pretty-printer
+happened to be installed. The fix was to parse both replies and compare them field by field, which
+keeps everything that carries meaning (array order, messages, evidence, the presence of every key)
+and drops the one thing that does not. The failure report improved with it: it now names the first
+differing path, such as `checks[9].detail`, instead of printing 300 characters of agreement.
+
+Pinning CI to a 10.x would have hidden this instead of fixing it, and would have stopped CI
+exercising the fallback branch at all.
 
 **Stale artifacts.** `web/rtw.pvm` is committed, like `app.css`, `map.js` and `airports.pl`, so that
 `docker build` and a fresh clone work offline. The cost is that it is a compiled copy of the rules
