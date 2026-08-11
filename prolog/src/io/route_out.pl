@@ -1,4 +1,5 @@
-:- module(route_out, [annotated_route/2, route_undecidable/2]).
+:- module(route_out, [annotated_route/2, route_undecidable/2,
+                      route_ambiguous_carrier/2]).
 
 /** <module> Annotated itinerary -> fare-construction routing string.
 
@@ -24,6 +25,9 @@
       * A routing carries one carrier per leg. A codeshare with different
         marketing and operating carriers keeps only the marketing one, which is
         the one 4(j) is written against.
+      * A three-letter carrier designator that is also a place code cannot be
+        written at all -- see route_ambiguous_carrier/2. HAC is the only one in
+        the 4(j) table, and it is Hachijojima as well as Hokkaido Air System.
       * Dates and times have no notation at all. Composing a dated itinerary
         gives a routing that answers every rule except 6 and 7.
 
@@ -34,6 +38,7 @@
     annotated_route/2 fails and route_undecidable/2 names the segments.
 */
 
+:- use_module('../geo').
 :- use_module(library(apply)).
 :- use_module(library(lists)).
 
@@ -44,6 +49,7 @@
 annotated_route(A, Route) :-
     A.segments = [First|_],
     route_undecidable(A, []),
+    route_ambiguous_carrier(A, []),
     last(A.segments, Last),
     LastN = Last.n,
     upcase_atom(First.from, Origin),
@@ -65,6 +71,26 @@ route_undecidable(A, Segments) :-
 
 decided(transfer).
 decided(stopover).
+
+%! route_ambiguous_carrier(+A, -Segments) is det.
+%
+%  The segment numbers whose carrier cannot be written in a routing because the
+%  code would be read back as a place. Only three-letter designators can
+%  collide, and of the 4(j) affiliates only HAC does -- it is also the airport
+%  at Hachijojima -- but composing it anyway would emit a string that parses to
+%  a different itinerary than the one it was composed from, which is the one
+%  failure a round-trippable notation must not have.
+route_ambiguous_carrier(A, Segments) :-
+    findall(N,
+            ( member(S, A.segments),
+              S.type == flight,
+              carrier_of(S, Upper),
+              downcase_atom(Upper, Code),
+              atom_length(Code, 3),
+              place_code_known(Code),
+              N = S.n
+            ),
+            Segments).
 
 % Each segment contributes the separator that precedes it and the token for the
 % point it arrives at. The origin is emitted by the caller because it is the one

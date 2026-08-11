@@ -6,7 +6,14 @@
 /** <module> Shared fixture loading for the plunit suites.
 */
 
+% SWI 10 moved JSON out of the HTTP package: `library(json)` does not exist on
+% 9.x, and `library(http/json)` prints a deprecation notice on 10.x. Asking
+% which one is present is the only spelling that is silent on both.
+:- if(exists_source(library(json))).
 :- use_module(library(json)).
+:- else.
+:- use_module(library(http/json)).
+:- endif.
 :- use_module('../src/io/json_in').
 :- use_module('../src/validate').
 

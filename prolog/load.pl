@@ -19,6 +19,7 @@
 
 :- use_module('src/geo').
 :- use_module('src/carriers').
+:- use_module('src/fold').
 :- use_module('src/phrasing').
 :- use_module('src/itinerary').
 :- use_module('src/annotate').

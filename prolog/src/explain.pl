@@ -79,8 +79,8 @@ outcome_word(not_applicable, 'n/a').
 not_checked_lines([], _) :- !.
 not_checked_lines(NCs, S) :-
     length(NCs, N),
-    plural(N, 'rule', Word),
-    format(S, 'Not checked — ~d ~w this input cannot answer:~n', [N, Word]),
+    quantity(N, 'rule', Count),
+    format(S, 'Not checked — ~w this input cannot answer:~n', [Count]),
     forall(member(nc(_, Citation, Reason), NCs),
            format(S, '  [~w]~t~14| ~w~n', [Citation, Reason])).
 
@@ -92,8 +92,7 @@ tally(Violations, Tally) :-
               aggregate_all(count, member(v(_, _, Severity, _, _), Violations), N),
               N > 0,
               severity_noun(Severity, Noun),
-              plural(N, Noun, Word),
-              format(atom(Part), '~d ~w', [N, Word])
+              quantity(N, Noun, Part)
             ),
             Parts),
     atomic_list_concat(Parts, ', ', Tally).
@@ -114,8 +113,8 @@ fare_line(Fare, S) :-
     Cabin = Fare.cabin,
     (   Fare.basis == none
     ->  format(S, 'Fare basis: none published for ~d continents in ~w.~n', [N, Cabin])
-    ;   plural(N, 'continent', Word),
-        format(S, 'Fare basis: ~w (~d ~w, ~w)~n', [Fare.basis, N, Word, Cabin])
+    ;   quantity(N, 'continent', Count),
+        format(S, 'Fare basis: ~w (~w, ~w)~n', [Fare.basis, Count, Cabin])
     ),
     upgrade_line(Fare, S).
 

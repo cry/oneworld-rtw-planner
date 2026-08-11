@@ -13,8 +13,8 @@ au_pair_set(drw, drw-[cbr, mel, syd]).
 au_pair_set(kta, kta-[bne, mel, syd]).
 au_pair_set(per, per-[bne, cbr, cns, syd, mel]).
 
-%! au_restricted_pair(+From, +To, -SetName) is semidet.
-%  Direction-independent.
+%! au_restricted_pair(+Pair, -SetName) is semidet.
+%  Pair is `From-To`, and the match is direction-independent.
 au_restricted_pair(From-To, Set) :-
     au_pair_set(Set, Hub-Others),
     (   From == Hub, memberchk(To, Others)

@@ -9,7 +9,14 @@
 
 :- use_module(library(plunit)).
 :- use_module(library(http/http_open)).
+% SWI 10 moved JSON out of the HTTP package: `library(json)` does not exist on
+% 9.x, and `library(http/json)` prints a deprecation notice on 10.x. Asking
+% which one is present is the only spelling that is silent on both.
+:- if(exists_source(library(json))).
+:- use_module(library(json)).
+:- else.
 :- use_module(library(http/json)).
+:- endif.
 :- use_module(support).
 :- use_module('../src/io/json_in').
 :- use_module('../src/io/json_out').
@@ -307,7 +314,7 @@ test(the_routing_endpoint_refuses_an_undecidable_itinerary) :-
         close(In)),
     assertion(Code == 400),
     assertion(D.error == invalid_request),
-    assertion(sub_atom(D.message, _, _, _, '1, 2, 3, 4, 5, 6')).
+    assertion(sub_atom(D.message, _, _, _, 'segments 1, 2, 3, 4, 5 and 6')).
 
 % RTW_DEV_ASSETS trades the whole point of reading the page into the program for
 % not having to restart while editing it, so the two must not be confusable: dev

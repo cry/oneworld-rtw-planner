@@ -18,6 +18,10 @@
             ocean_crossing/3,
             airport_search/3,
             resolve_place/2,
+            place_code_known/1,
+            place_key/2,
+            same_place/2,
+            place_name/2,
             iata/2
           ]).
 
@@ -28,6 +32,7 @@
     IATA code without an extra layer of indirection.
 */
 
+:- use_module(fold).
 :- use_module('../data/limits').
 :- use_module('../data/cities').
 :- use_module('../data/countries').
@@ -50,6 +55,40 @@ resolve_place(Code, Airport) :-
     ->  Airport = A
     ;   Airport = Code
     ).
+
+%! place_code_known(+Code) is semidet.
+%  True when a code names an airport or a metropolitan city -- that is, when a
+%  routing token would be read as a place. io/route_in and io/route_out both
+%  ask this about three-letter carrier designators, which are the only tokens
+%  the notation cannot tell apart by shape.
+place_code_known(Code) :- airport_known(Code), !.
+place_code_known(Code) :- city_code(Code, _).
+
+%! place_key(+Airport, -Key) is det.
+%  The identity a fare rule compares on. Rule 4 is written in cities -- 4(i)
+%  says "the same city pairs/sectors", 4(c) and 4(d) say "point" -- so LHR and
+%  LGW are one place to it and two places to the airport table. Airports
+%  outside any metropolitan area are their own key, which is the common case.
+%
+%  Deliberately not applied at parse time: an itinerary that says LGW must keep
+%  saying LGW in the report, on the map, and in the routing it round-trips to.
+%  Only the rules that ask "is this the same point" fold the two together.
+place_key(Airport, Key) :-
+    (   city_of(Airport, City)
+    ->  Key = City
+    ;   Key = Airport
+    ).
+
+%! same_place(+A, +B) is semidet.
+same_place(A, B) :- place_key(A, K), place_key(B, K).
+
+%! place_name(+Airport, -Display) is det.
+%  How a place is named once two airports have been folded into one: the
+%  metropolitan code where there is one, so a 4(i) message about LHR-JFK and
+%  LGW-JFK reads "LON-NYC" rather than picking one airport and looking wrong.
+place_name(Airport, Display) :-
+    place_key(Airport, Key),
+    iata(Key, Display).
 
 %! iata(+Code, -Display) is det.
 %  Codes are held lower-case internally so they can be table keys; every
@@ -135,12 +174,14 @@ tc_ocean(tc3, tc1, pacific).
 
 %! airport_search(+Query, +Limit, -Results) is det.
 %  Typeahead for the web UI. Exact IATA match first, then IATA prefix, then
-%  city substring; case-insensitive throughout.
+%  city prefix, then city substring. Case and accents are folded on both sides,
+%  so `belem` finds Belém and `sao paulo` finds São Paulo: the cities whose
+%  spelling is hardest to reproduce are the ones the search is most needed for.
 airport_search(Query, Limit, Results) :-
-    downcase_atom(Query, Q),
+    fold_diacritics(Query, Q),
     findall(Rank-A,
             ( airport(A, _, _, City, _, _),
-              downcase_atom(City, LC),
+              fold_diacritics(City, LC),
               (   A == Q                       -> Rank = 0
               ;   sub_atom(A, 0, _, _, Q)      -> Rank = 1
               ;   sub_atom(LC, 0, _, _, Q)     -> Rank = 2

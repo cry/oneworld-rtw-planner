@@ -10,6 +10,10 @@
 % Urals, Hawaii and Alaska, the 4(k) transcontinental columns). Coordinates
 % are carried for the Urals split and for route drawing in the web UI.
 
+% Several hundred city names below are non-ASCII, so the encoding is
+% declared rather than left to the locale of whoever loads the file.
+:- encoding(utf8).
+
 airport(aaa, 'PF', 'PF-U-A', 'Anaa', -17.3526, -145.509995).
 airport(aac, 'EG', 'EG-SIN', 'El Arish', 31.055324, 33.827964).
 airport(aae, 'DZ', 'DZ-23', 'Annaba', 36.826781, 7.81334).

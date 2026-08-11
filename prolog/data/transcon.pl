@@ -10,6 +10,21 @@
     taxonomy (US states in two columns) that has nothing to do with the
     section 0 continent list, and folding them together is an easy bug.
     Matched on iso_region, which is why the generated airport table carries it.
+
+    Neither column lists Hawaii, and this table does not add it. That is a
+    decision, not an oversight. Experienced bookers do apply 4(k) to Hawaii --
+    the advice "you have already used your transcontinental flight on LAX-NYC,
+    so fly NYC-DFW-HNL rather than NYC-HNL" only follows if HNL is Column A,
+    since routing via Texas defeats it and Texas is in neither column. But
+    4(k)'s own sentence is a closed definition ("travel between a State in
+    Column A and a State in Column B"), the rule gives Alaska a separate
+    sentence rather than a column, and it gives Hawaii a separate sentence too
+    -- in 4(b), where backtracking to Hawaii is barred outright. A place the
+    rule handles in its own clause is not obviously also a column entry.
+
+    If this is revisited, note that Alaska is the control: it must stay out of
+    both columns, so ANC-PHL is not transcontinental. Adding Hawaii by
+    loosening the table would sweep Alaska in with it.
 */
 
 %! transcon_column(?IsoRegion, ?Column) is nondet.

@@ -70,7 +70,7 @@ validate:check(A, Check) :-
     limit(min_stay_days_tc1, Min),
     (   \+ tc1_origin(A)
     ->  Check = chk_na(min_stay, '6', 'Minimum stay',
-                       'Travel does not originate in Traffic Conference 1, so no minimum stay applies.')
+                       'The journey does not start in TC1. The minimum stay does not apply.')
     ;   first_last_international(A, First, Last),
         F = First.n, L = Last.n,
         F \== L,
@@ -78,12 +78,12 @@ validate:check(A, Check) :-
     ->  Days is truncate(Days0),
         quantity(Days, 'day', Elapsed),
         format(atom(Detail),
-               '~w between the first international sector (segment ~w) and the last (segment ~w), of ~w required.',
+               '~w pass between the first international flight (segment ~w) and the last (segment ~w). The journey needs at least ~w.',
                [Elapsed, F, L, Min]),
         Check = chk(min_stay, '6', 'Minimum stay', Detail, [min_stay])
     ;   quantity(Min, 'day', Required),
         format(atom(Detail),
-               'Travel originates in TC1, so ~w must separate the first and last international sectors; the itinerary carries no dates for them.',
+               'The journey starts in TC1, so ~w must pass between the first international flight and the last. The journey has no dates for them.',
                [Required]),
         Check = chk(min_stay, '6', 'Minimum stay', Detail, [min_stay])
     ).

@@ -1,0 +1,20 @@
+{
+  "_comment": "Golden, and booked. Alaska is reached and left through Dallas, which puts the itinerary's one transcontinental flight on JFK-LAX and nothing else: Texas is in neither of 4(k)'s columns, and neither is Alaska. Also exercises repeated points that must not trip 4(i) or 4(d) -- Hong Kong, New York, Dallas and Sydney each appear twice, always in opposite directions -- and sits on 4(e)'s Europe/Middle East and South West Pacific limits and rule 8's origin-continent stopover cap.",
+  "origin": "HND", "cabin": "economy",
+  "segments": [
+    {"n":1,"type":"flight","from":"HND","to":"HKG","carrier":"JL","dep":"2026-09-01T09:00","arr":"2026-09-01T13:00"},
+    {"n":2,"type":"flight","from":"HKG","to":"SIN","carrier":"CX","dep":"2026-09-05T08:00","arr":"2026-09-05T12:00"},
+    {"n":3,"type":"flight","from":"SIN","to":"LHR","carrier":"BA","dep":"2026-09-05T23:00","arr":"2026-09-06T05:30"},
+    {"n":4,"type":"flight","from":"LHR","to":"JFK","carrier":"BA","dep":"2026-09-06T11:00","arr":"2026-09-06T14:00"},
+    {"n":5,"type":"flight","from":"JFK","to":"DFW","carrier":"AA","dep":"2026-09-10T08:00","arr":"2026-09-10T11:00"},
+    {"n":6,"type":"flight","from":"DFW","to":"ANC","carrier":"AA","dep":"2026-09-10T14:00","arr":"2026-09-10T17:30"},
+    {"n":7,"type":"flight","from":"ANC","to":"DFW","carrier":"AA","dep":"2026-09-14T22:00","arr":"2026-09-15T06:00"},
+    {"n":8,"type":"flight","from":"DFW","to":"JFK","carrier":"AA","dep":"2026-09-15T09:00","arr":"2026-09-15T13:30"},
+    {"n":9,"type":"flight","from":"JFK","to":"LAX","carrier":"AA","dep":"2026-09-19T08:00","arr":"2026-09-19T11:00"},
+    {"n":10,"type":"flight","from":"LAX","to":"SYD","carrier":"QF","dep":"2026-09-19T22:30","arr":"2026-09-21T07:00"},
+    {"n":11,"type":"flight","from":"SYD","to":"AKL","carrier":"QF","dep":"2026-09-25T09:00","arr":"2026-09-25T14:00"},
+    {"n":12,"type":"flight","from":"AKL","to":"SYD","carrier":"QF","dep":"2026-09-25T20:00","arr":"2026-09-25T21:30"},
+    {"n":13,"type":"flight","from":"SYD","to":"HKG","carrier":"CX","dep":"2026-09-30T10:00","arr":"2026-09-30T17:30"},
+    {"n":14,"type":"flight","from":"HKG","to":"HND","carrier":"CX","dep":"2026-10-04T09:00","arr":"2026-10-04T14:00"}
+  ]
+}

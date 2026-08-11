@@ -12,7 +12,14 @@
 
 :- ensure_loaded('load').
 :- use_module('server').
+% SWI 10 moved JSON out of the HTTP package: `library(json)` does not exist on
+% 9.x, and `library(http/json)` prints a deprecation notice on 10.x. Asking
+% which one is present is the only spelling that is silent on both.
+:- if(exists_source(library(json))).
 :- use_module(library(json)).
+:- else.
+:- use_module(library(http/json)).
+:- endif.
 :- use_module(library(main)).
 
 % halt/1 unwinds through catch/3, so the exit code is carried out as a value

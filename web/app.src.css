@@ -414,3 +414,27 @@
     animation: settle 140ms var(--ease-out-quart) both;
   }
 }
+
+/* The form is a sidebar while the Routing tab is open -- one text field does not
+ * need half a page, and the report is what the page is for. The Segments tab is
+ * an eleven-column table, so the form takes an equal share while it is open
+ * rather than making that table scroll inside a column too narrow to read it.
+ *
+ * The transition is on grid-template-columns, which animates because both ends
+ * are the same kind of track list. Everything else about the two states is
+ * identical, so nothing reflows except the boundary between them. */
+@media (width >= 80rem) {
+  #layout {
+    transition: grid-template-columns 200ms var(--ease-out-quart);
+  }
+
+  #layout.wide-form {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #layout {
+    transition: none;
+  }
+}

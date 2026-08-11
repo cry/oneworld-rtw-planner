@@ -12,6 +12,9 @@
 :- use_module(library(plunit)).
 :- use_module(support).
 :- use_module('../src/geo').
+:- use_module('../src/carriers').
+:- use_module('../src/itinerary').
+:- use_module('../src/io/json_in').
 :- use_module('../src/validate').
 :- use_module('../src/annotate').
 :- use_module('../src/pricing').
@@ -39,6 +42,22 @@ test(south_america_excursion_is_legal) :-
 
 test(swp_origin_transoceanic_surface_exception) :-
     fixture_rules(syd_surface, Verdict-Ids),
+    assertion(Verdict-Ids == valid-[]).
+
+% 4(e)'s Mauritius/South Africa sentence turns on the two Africa gateways, not
+% on a count of arrivals into Europe. This journey has a second Europe arrival
+% -- Hong Kong to Paris -- that has nothing to do with the Africa excursion,
+% and the excursion itself goes in through Doha, so the sentence does not bite.
+test(one_gulf_gateway_clears_the_africa_exclusion) :-
+    fixture_rules(osl_africa_gulf_gateway, Verdict-Ids),
+    assertion(Verdict-Ids == valid-[]).
+
+% Four international transfers at one Gulf hub: 4(f)'s cap exactly, with 4(e)
+% and 4(h) also on their limits. The Africa legs are intercontinental, so they
+% cost nothing against the Europe/Middle East free-segment allowance -- which
+% is what lets a real itinerary get this far up 4(f) at all.
+test(four_transfers_in_one_country_is_the_limit) :-
+    fixture_rules(doh_transfers, Verdict-Ids),
     assertion(Verdict-Ids == valid-[]).
 
 % Rule 6 applies only to TC1 origins, and this fixture meets its 10 days.
@@ -106,6 +125,27 @@ test(two_transcontinental_us_flights) :-
     fixture_rules(mut_transcontinental, V-Ids),
     assertion(V-Ids == invalid-[transcontinental_us]).
 
+% 4(k) names two columns of states and Alaska is in neither, so a flight
+% between Anchorage and the east coast is not transcontinental. Pinned because
+% Alaska and Hawaii both sit outside the columns, and the loosest way to bring
+% Hawaii in would drag Alaska with it. Alaska's own limit is one flight each
+% way, which this journey keeps.
+test(alaska_is_in_neither_column) :-
+    routed_report('LHR-JFK-ANC-PHL-LAX-NRT-HKG-LHR', _, report(Verdict, _, _, _, _)),
+    assertion(Verdict == valid).
+
+% The same limits on a booked itinerary: one transcontinental flight, one
+% flight into Alaska and one out, and four points visited twice without
+% tripping 4(i) or 4(d).
+test(booked_alaska_round_trip) :-
+    fixture_rules(hnd_alaska, Verdict-Ids),
+    assertion(Verdict-Ids == valid-[]),
+    fixture_check(hnd_alaska, transcontinental_us,
+                  check(_, _, _, Transcon, _)),
+    assertion(Transcon == pass),
+    fixture_check(hnd_alaska, alaska_flights, check(_, _, _, Alaska, _)),
+    assertion(Alaska == pass).
+
 % Two Africa excursions exhaust both the Europe/Middle East allowance and
 % Africa's own, in both directions.
 test(intercontinental_allowance) :-
@@ -117,6 +157,20 @@ test(intercontinental_allowance) :-
 test(hawaii_backtracking) :-
     fixture_rules(mut_hawaii_backtrack, V-Ids),
     assertion(V-Ids == invalid-[hawaii_backtrack]).
+
+% Surfacing the return leg does not make the pair legal. Checking flights alone
+% passes this, which is how it went unnoticed.
+test(hawaii_backtracking_by_surface) :-
+    fixture_rules(mut_hawaii_surface, V-Ids),
+    assertion(V-Ids == invalid-[hawaii_backtrack]).
+
+% 4(f)'s transfer cap cannot be broken alone: a fifth transfer costs either a
+% fifth pair of intra-continental legs or a third intercontinental crossing, so
+% 4(h) or 4(e) always comes with it. It does fire, though -- the driver
+% enumerates every violation rather than stopping at the first.
+test(international_transfers_from_one_country) :-
+    fixture_rules(mut_intl_transfers, V-Ids),
+    assertion(V-Ids == invalid-[free_segments, intl_transfers_per_country]).
 
 test(australian_city_pair_set) :-
     fixture_rules(mut_au_city_pair, V-Ids),
@@ -174,17 +228,60 @@ test(infant_over_the_age_limit) :-
     fixture_rules(mut_infant_too_old, V-Ids),
     assertion(V-Ids == invalid-[infant_too_old]).
 
+% The infant is stated as 1, which is also the age rule 19's own trigger cannot
+% tell apart from an infant who turns 2 mid-journey, so the warning rides along.
 test(infant_from_a_russian_origin) :-
     fixture_rules(led_infant, V-Ids),
-    assertion(V-Ids == invalid-[infant_russia_origin]).
+    assertion(V-Ids == invalid-[infant_russia_origin, infant_turns_two]).
 
 test(mauritius_south_africa_exclusion) :-
     fixture_rules(mut_europe_both_ways, V-Ids),
     assertion(V-Ids == invalid-[europe_both_ways_excluded]).
 
+% The same journey with the outbound crossing at Doha instead of Paris. The
+% exclusion names the Europe zone, not the Europe/Middle East continent, so one
+% token decides this and nothing else about the two itineraries differs.
+test(africa_via_the_gulf_is_not_excluded) :-
+    fixture_rules(mut_europe_both_ways_gulf, V-Ids),
+    assertion(V-Ids == valid-[]).
+
 test(twelve_month_maximum_stay) :-
     fixture_rules(mut_max_stay, V-Ids),
     assertion(V-Ids == invalid-[max_stay]).
+
+% The boundary the whole-month count could not see. Departing 1 Sep 2026 and
+% returning 20 Sep 2027 is nineteen days late and twelve *whole* months, so a
+% truncating comparison reads it as exactly at the limit; anything short of a
+% thirteenth completed month ran valid.
+test(maximum_stay_is_measured_from_the_anniversary_not_whole_months) :-
+    fixture_rules(mut_max_stay_days, V-Ids),
+    assertion(V-Ids == invalid-[max_stay]).
+
+% The other side of the same boundary, so the fix cannot be "always fire".
+test(returning_inside_the_anniversary_is_valid) :-
+    itinerary_from_json(
+        _{ segments: [ _{ from: "LHR", to: "JFK", carrier: "BA",
+                          dep: "2026-09-01T10:25", arr: "2026-09-01T13:30",
+                          stop: "stopover" },
+                       _{ from: "JFK", to: "LHR", carrier: "BA",
+                          dep: "2027-09-01T09:00", arr: "2027-09-01T21:00" } ] },
+        Itin),
+    validate(Itin, report(_, Violations, _, _, _)),
+    rule_ids(Violations, Ids),
+    assertion(\+ memberchk(max_stay, Ids)).
+
+% 4(j)'s last clause: "Ground transportation services operated by/for BA/QF may
+% not be included as part of the oneworld Explorer." A surface sector normally
+% names no carrier at all -- route_surface is the golden that does not -- and
+% naming one is what makes it a ground service sold with the ticket. The
+% stop_kind_conflict alongside it is the SIN transfer that the surface sector
+% turns into a stopover, which is rule 8 reporting correctly.
+test(ground_transport_carried_by_ba) :-
+    itinerary_from_json(_{ route: "LHR-BA-JFK-AA-LAX-QF-SYD-QF-X/SIN-BA//LGW" }, Itin),
+    validate(Itin, report(V, Violations, _, _, _)),
+    rule_ids(Violations, Ids),
+    assertion(V == invalid),
+    assertion(Ids == [ground_transport, stop_kind_conflict]).
 
 test(cuba_with_a_us_carrier) :-
     fixture_rules(mut_cuba, V-Ids),
@@ -225,6 +322,14 @@ test(infant_without_an_age_warns) :-
     fixture_rules(mut_infant_age_unstated, V-Ids),
     assertion(V-Ids == valid-[infant_age_unstated]).
 
+% Rule 19's actual trigger is an infant reaching 2 *during* the journey, and the
+% input carries an age rather than a date of birth. Stating 1 used to silence
+% the rule entirely -- including from the page's own adult+infant preset, which
+% sends exactly this.
+test(an_infant_who_may_turn_two_en_route_warns) :-
+    fixture_rules(mut_infant_turns_two, V-Ids),
+    assertion(V-Ids == valid-[infant_turns_two]).
+
 % Priced as travel via Asia, so the fare basis counts a continent the itinerary
 % never lands in. Surfacing that stops the count looking like an error.
 test(swp_europe_nonstop_warns_and_counts_asia) :-
@@ -246,6 +351,29 @@ test(missing_times_are_not_valid) :-
     fixture_rules(mut_no_times, V-Ids),
     assertion(V == indeterminate),
     assertion(Ids == [max_stay, stopovers_undecidable]).
+
+% Rule 7 measures to one instant: the departure of the onward flight from the
+% last stopover. When only that instant is missing the rule used to fail
+% silently and read as satisfied, because its indeterminate clause only covered
+% a missing *first* departure.
+test(an_untimed_return_leg_is_undecided_not_satisfied) :-
+    fixture_rules(mut_untimed_return, V-Ids),
+    assertion(V-Ids == indeterminate-[max_stay]).
+
+% Rule 15 needs a carrier the way rule 7 needs a date. Left blank, the check
+% used to read "it does not use American or Alaska", which is a clean pass on a
+% question nobody answered -- and the sector that puts most itineraries into
+% Cuba is American. 4(j)'s own missing-carrier warning rides along, from the
+% same two blanks.
+test(cuba_without_carriers_is_undecided_not_clean) :-
+    fixture_rules(mut_cuba_no_carrier, V-Ids),
+    assertion(V-Ids == indeterminate-[cuba_us_carrier, marketing_carrier_missing]).
+
+% ...and once a carrier is named the rule is settled, so the blank segments
+% around it must not add an undecided verdict on top of the error.
+test(a_named_carrier_settles_cuba_outright) :-
+    fixture_rules(mut_cuba, V-Ids),
+    assertion(V-Ids == invalid-[cuba_us_carrier]).
 
 % Unresolvable references are violations inside the report, not request errors,
 % so they render alongside the rule violations.
@@ -289,7 +417,7 @@ test(a_satisfied_cap_states_the_measurement) :-
     assertion(Citation == '4(h)'),
     assertion(Outcome == pass),
     assertion(sub_atom(Detail, _, _, _, '7 segments')),
-    assertion(sub_atom(Detail, _, _, _, 'maximum 16')).
+    assertion(sub_atom(Detail, _, _, _, 'allows 3 to 16')).
 
 % The outcome is derived from the violations, never stated by the check, so a
 % breached cap cannot read as a pass.
@@ -303,7 +431,7 @@ test(a_breached_cap_reports_as_failed) :-
 test(an_unread_connection_leaves_the_stopover_check_undecided) :-
     fixture_check(mut_no_times, min_stopovers, check(_, _, _, Outcome, Detail)),
     assertion(Outcome == indeterminate),
-    assertion(sub_atom(Detail, _, _, _, 'unclassified')).
+    assertion(sub_atom(Detail, _, _, _, 'could not be read')).
 
 % not_checked and not_applicable are different absences: one is a rule the
 % input mode cannot answer, the other a rule the itinerary never engages.
@@ -387,6 +515,69 @@ test(swp_europe_nonstop_counts_asia) :-
     assertion(memberchk(asia, Continents)),
     assertion(N == 4).
 
+% Section 15 lists fifteen stocks against sixteen eligible carriers. The one it
+% leaves out is NU, which may be flown under 4(j) but may not issue the ticket.
+test(ticket_stock_is_every_eligible_carrier_but_nu) :-
+    findall(C, eligible_carrier(C), Eligible0), sort(Eligible0, Eligible),
+    findall(C, ticketing_stock(C), Stock0), sort(Stock0, Stock),
+    subtract(Eligible, Stock, Excluded),
+    assertion(Excluded == [nu]),
+    length(Stock, N),
+    assertion(N == 15).
+
+% The gap between where a journey ends and where it began is detected, because
+% 4(c) decides whether it is allowed at all and the count is worth explaining.
+% It is not one of the segments 4(h) counts: taking the permission 4(c) grants
+% would otherwise cost a flight, which no clause says it should.
+test(the_origin_destination_gap_is_not_a_counted_segment) :-
+    Out = [ _{ type: "flight", from: "LHR", to: "JFK", carrier: "BA" },
+            _{ type: "flight", from: "JFK", to: "SYD", carrier: "QF" },
+            _{ type: "flight", from: "SYD", to: "MAN", carrier: "QF" } ],
+    dict_ann(_{ mode: "routing", origin: "LHR", segments: Out }, Gap),
+    ann_segment_count(Gap, Counted),
+    assertion(Counted == 3),
+    assertion(od_surface_gap(Gap)).
+
+% A sixteen-flight journey closed by a 4(c) open jaw is at the limit, not over
+% it. The Cairo-to-Doha shape below is held and priced in the wild.
+test(sixteen_flights_and_an_open_jaw_is_at_the_limit) :-
+    routed_report('CAI-X/DOH-MAD-EZE-JFK-MEX-LAX-ANC-DFW-ICN-HKG-SIN-HND-BKK-X/HEL-CDG-DOH',
+                  A, report(Verdict, _, _, _, _)),
+    ann_segment_count(A, N),
+    assertion(N == 16),
+    assertion(od_surface_gap(A)),
+    assertion(Verdict == valid).
+
+% ...but two airports of one city are one point, so this journey has no gap.
+test(a_second_airport_of_the_origin_city_is_not_a_gap) :-
+    Home = [ _{ type: "flight", from: "LHR", to: "JFK", carrier: "BA" },
+             _{ type: "flight", from: "JFK", to: "SYD", carrier: "QF" },
+             _{ type: "flight", from: "SYD", to: "LGW", carrier: "QF" } ],
+    dict_ann(_{ mode: "routing", origin: "LHR", segments: Home }, A),
+    ann_segment_count(A, N),
+    assertion(N == 3),
+    assertion(\+ od_surface_gap(A)).
+
+% Calendar arithmetic, including the two cases that make month addition awkward.
+test(month_addition_clamps_to_the_end_of_a_short_month) :-
+    dt_plus_months(dt(2026, 1, 31, 9, 0), 1, Feb),
+    assertion(Feb == dt(2026, 2, 28, 9, 0)),
+    dt_plus_months(dt(2028, 2, 29, 9, 0), 12, NonLeap),
+    assertion(NonLeap == dt(2029, 2, 28, 9, 0)),
+    dt_plus_months(dt(2026, 9, 1, 10, 25), 12, Anniversary),
+    assertion(Anniversary == dt(2027, 9, 1, 10, 25)).
+
+test(a_limit_is_past_the_anniversary_not_the_month_count) :-
+    From = dt(2026, 9, 1, 10, 25),
+    assertion(dt_beyond_months(From, dt(2027, 9, 20, 0, 0), 12)),
+    assertion(dt_beyond_months(From, dt(2027, 9, 1, 10, 26), 12)),
+    assertion(\+ dt_beyond_months(From, dt(2027, 9, 1, 10, 25), 12)),
+    assertion(\+ dt_beyond_months(From, dt(2027, 8, 31, 23, 59), 12)),
+    % The truncating count still reads all four as twelve whole months.
+    forall(member(To, [dt(2027, 9, 20, 0, 0), dt(2027, 9, 1, 10, 26),
+                       dt(2027, 9, 1, 10, 25)]),
+           ( dt_months_between(From, To, M), assertion(M == 12) )).
+
 ann_of(Name, A) :-
     fixture(Name, Dict),
     dict_ann(Dict, A).
@@ -396,3 +587,10 @@ dict_ann(Dict, A) :-
     annotate(Itin, A).
 
 :- end_tests(invariants).
+
+% File level, not inside a unit: plunit scopes a unit's clauses to its own
+% module, and this is called from `mutations` as well as `invariants`.
+routed_report(Route, A, Report) :-
+    itinerary_from_json(_{ route: Route }, Itin),
+    annotate(Itin, A),
+    validate(Itin, Report).

@@ -1,0 +1,17 @@
+{
+  "_comment": "Golden: four international transfers at Doha, which is 4(f)'s exact limit, with 4(h)'s Europe/Middle East free-segment cap and 4(e)'s two-way allowance also sitting on their limits. The shape comes from Gulf-hub itineraries that get flown -- the Africa legs are intercontinental, so they cost nothing against the Europe/Middle East free-segment allowance.",
+  "origin": "KHI", "cabin": "economy",
+  "segments": [
+    {"n":1,"type":"flight","from":"KHI","to":"DOH","carrier":"QR","dep":"2026-09-01T02:30","arr":"2026-09-01T04:00"},
+    {"n":2,"type":"flight","from":"DOH","to":"CMN","carrier":"QR","dep":"2026-09-01T07:30","arr":"2026-09-01T13:00"},
+    {"n":3,"type":"flight","from":"CMN","to":"DOH","carrier":"QR","dep":"2026-09-06T15:00","arr":"2026-09-07T01:00"},
+    {"n":4,"type":"flight","from":"DOH","to":"CAI","carrier":"QR","dep":"2026-09-07T04:00","arr":"2026-09-07T06:30"},
+    {"n":5,"type":"flight","from":"CAI","to":"DOH","carrier":"QR","dep":"2026-09-11T08:00","arr":"2026-09-11T13:30"},
+    {"n":6,"type":"flight","from":"DOH","to":"NBO","carrier":"QR","dep":"2026-09-11T16:00","arr":"2026-09-11T22:30"},
+    {"n":7,"type":"flight","from":"NBO","to":"DOH","carrier":"QR","dep":"2026-09-16T14:00","arr":"2026-09-16T21:00"},
+    {"n":8,"type":"flight","from":"DOH","to":"SFO","carrier":"QR","dep":"2026-09-17T01:00","arr":"2026-09-17T09:30"},
+    {"n":9,"type":"flight","from":"SFO","to":"JFK","carrier":"AA","dep":"2026-09-21T08:00","arr":"2026-09-21T16:30"},
+    {"n":10,"type":"flight","from":"JFK","to":"NRT","carrier":"JL","dep":"2026-09-25T13:00","arr":"2026-09-26T17:00"},
+    {"n":11,"type":"flight","from":"NRT","to":"KHI","carrier":"QR","dep":"2026-09-30T10:00","arr":"2026-09-30T18:00"}
+  ]
+}

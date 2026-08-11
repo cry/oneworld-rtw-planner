@@ -20,18 +20,23 @@ validate:check(A, chk(continent_count, '0', 'Continent count', Detail,
     continent_count(A, Continents, N),
     limit(min_continents, Min),
     quantity(N, 'continent', Count),
-    listed(Continents, List),
+    maplist(continent_name, Continents, Named),
+    listed_and(Named, List),
     format(atom(Detail),
-           '~w (~w); the fare basis table starts at ~w.', [Count, List, Min]).
+           'The journey visits ~w: ~w. The fare needs at least ~w.',
+           [Count, List, Min]).
 
 validate:violation(A, v(too_few_continents, '0', error, Msg,
                         [count(N), min(Min), continents(Cs)])) :-
     continent_count(A, Cs, N),
     limit(min_continents, Min),
     N < Min,
+    quantity(N, 'continent', Visited),
+    maplist(continent_name, Cs, Named),
+    listed_and(Named, List),
     format(atom(Msg),
-           'Itinerary visits ~w continent(s) (~w); the fare requires at least ~w.',
-           [N, Cs, Min]).
+           'The journey visits only ~w: ~w. The fare needs at least ~w.',
+           [Visited, List, Min]).
 
 % There is deliberately no "too many continents" rule. The fare table stops at
 % six and the continent list has exactly six members, so no itinerary can

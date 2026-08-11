@@ -104,8 +104,10 @@ annotations_json(A, _{ origin: Origin,
                        continentSequence: Continents,
                        trafficConferenceSequence: TCs,
                        visitedContinents: Visited,
+                       names: Names,
                        segments: Segs,
                        points: Points }) :-
+    place_names(Names),
     upcase_or_unknown(A.origin, Origin),
     Mode = A.mode,
     % The same journey written as a routing, whichever way it came in. Null when
@@ -120,6 +122,15 @@ annotations_json(A, _{ origin: Origin,
     Visited = A.visited,
     maplist(segment_json, A.segments, Segs),
     maplist(point_json, A.points, Points).
+
+% Sent with the report rather than fetched once from /api/ruleset, because the
+% first report can render before a separate request has come back, and a table
+% of nine short strings is cheaper than the bug where it has not.
+place_names(Names) :-
+    findall(Key-Name,
+            ( continent_name(Key, Name) ; tc_name(Key, Name) ),
+            Pairs),
+    dict_pairs(Names, _, Pairs).
 
 segment_json(S, _{ n: N, type: Type, from: From, to: To,
                    fromCity: FromCity, toCity: ToCity,

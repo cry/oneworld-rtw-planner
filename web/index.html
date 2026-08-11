@@ -47,7 +47,13 @@
   </div>
 </header>
 
-<main class="mx-auto grid max-w-[1680px] items-start gap-4 p-4 xl:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)]">
+<!-- The report is the page. The form is how you address a question to it, so it
+     takes a sidebar's width and the answer takes the rest; on the Segments tab
+     the form widens to fit its table, which is the one view that needs the room.
+     Below xl the two stack, form first, because on a phone you cannot read an
+     answer to a question you have not asked yet. -->
+<main id="layout"
+      class="mx-auto grid max-w-[1680px] items-start gap-4 p-4 xl:grid-cols-[23rem_minmax(0,1fr)]">
 
   <!-- ============================ input ============================ -->
   <section class="min-w-0 rounded-sm border border-rule bg-panel" aria-labelledby="itinerary-heading">
@@ -105,10 +111,15 @@
     <!-- ---------------------------- routing ---------------------------- -->
     <div id="panel-routing" role="tabpanel" aria-labelledby="tab-routing" class="px-4 py-3">
       <label class="label mb-1 block" for="route">Fare-construction routing</label>
+      <!-- A textarea rather than an input because a routing is longer than the
+           column it now sits in, and a field that scrolls sideways hides most of
+           what you typed. The grammar already separates on whitespace, so a
+           wrapped routing parses exactly as a single line does. Enter still
+           validates; Shift+Enter is the way to insert a break. -->
       <div class="flex flex-wrap gap-2">
-        <input id="route" class="route-input min-w-[18rem] flex-1"
-               spellcheck="false" autocomplete="off"
-               placeholder="LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR">
+        <textarea id="route" rows="2" class="route-input w-full resize-y"
+                  spellcheck="false" autocomplete="off" wrap="soft"
+                  placeholder="LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-QR-LHR"></textarea>
         <button id="parse" class="btn">Validate routing</button>
       </div>
       <p class="hint mt-2 max-w-[68ch] text-[12px] leading-[1.6] text-muted" id="routehelp"></p>
