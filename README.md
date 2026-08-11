@@ -339,12 +339,17 @@ millisecond, which is faster than the round trip it replaces.
   `wasm.pl` uses the same conditional rather than a second spelling.
 
 **The two engines are not the same version.** `swipl-wasm` currently builds SWI 10.1.10; the container
-runs 10.0.2. Nothing in the suite can see that, so
+runs 10.0.2; CI's apt supplies 9.x. Nothing in the suite can see that, so
 [`prolog/test/test_wasm.mjs`](prolog/test/test_wasm.mjs) does: it drives every fixture through
 `rtw_call/4` on both engines and compares the **whole reply**, not just the verdict — a few thousand
-characters of message prose, ordering and evidence per fixture. All 54 are byte-for-byte identical. It
-is the counterpart of the HTTP round-trip test in `test_json.pl`: same purpose, different second
-renderer.
+characters of message prose, ordering and evidence per fixture. All 54 agree. It is the counterpart of
+the HTTP round-trip test in `test_json.pl`: same purpose, different second renderer.
+
+The comparison is *structural*: both replies are parsed and compared field by field, and the first
+disagreement is reported as a path such as `checks[9].detail`. It cannot be textual, because the
+`library(json)` / `library(http/json)` split means whichever module is present decides whether a
+space follows a comma — a fact about a pretty-printer, not about the fare. Array order, every
+message, every piece of evidence and the presence of every key are all still compared exactly.
 
 ```sh
 npm run wasm          # build web/rtw.pvm and the vendored engine
@@ -743,9 +748,9 @@ npm run test:wasm
 
 8. **The two engines agree** — the page runs a different SWI-Prolog from the container (10.1.10
    against 10.0.2), and no plunit test can see that. Every fixture is driven through `rtw_call/4` on
-   both and the **whole reply** compared, not the verdict alone: message prose, ordering and
-   evidence included. All 54 are byte-for-byte identical. It needs both engines present, which is
-   why it is a node script rather than a unit.
+   both and the **whole reply** compared field by field, not the verdict alone: message prose,
+   ordering and evidence included. All 54 agree. It needs both engines present, which is why it is a
+   node script rather than a unit.
 
 `npm run check:contrast` is separate and does not need SWI: it scores every colour pair in the
 palette against WCAG 2.2, including the 3:1 minimum for the boundary of a control.
