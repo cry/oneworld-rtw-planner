@@ -222,10 +222,11 @@ of those names so the page never has to guess at one or wait for a second reques
 render the first report.
 
 A violation covers a case, not a segment. Four sectors on one ineligible airline are one thing wrong
-with the ticket; six sectors sold in a code 5(b) permits only conditionally are one permission being
-leaned on. Reported one per segment they buried whatever else the report had to say, so each rule
-groups by the fact — the carrier, the codeshare pair, the case that permits the code — and two
-different facts stay two violations. The evidence carries every segment number either way.
+with the ticket; two sectors on the same codeshare pair are one pairing. Reported one per segment
+they buried whatever else the report had to say, so each rule groups by the fact — the carrier, the
+codeshare pair, the case that permits the code — and two different facts stay two violations. The
+evidence carries every segment number either way, and the register's own sentences group the same
+way.
 
 A check clause states the measurement and nothing else. Its outcome — `ok`, `failed`, `flagged`,
 `undecided`, `not run`, `n/a` — is derived by the driver from the violations the same run produced,
@@ -963,10 +964,22 @@ Where a class *is* given, three outcomes are possible, because 5(b) has three ki
 The applicable code for the cabin passes. Anything the table does not name for that carrier is an
 error. In between sit the codes its notes permit conditionally — a lower cabin's own code, `Y` on a
 First fare, `B` (or `H` on AA) on a DONE Business fare, and `A` on QR for services within the Middle
-East — and those are flagged rather than refused, because every one of them turns on what the
-*flight* offers. "For flights where First or Business Class is not offered or available, passengers
-may travel in a lower class" makes a business fare ticketed in `L` legal on an aircraft with no
-business cabin and illegal on one that has it, and an itinerary carries the route, not the seat map.
+East. Those pass too, and the register names the segments and the note they lean on:
+
+> **[5(b)] ok — Booking codes.** 7 of 7 flights state the class sold, on a Business fare. 1 is a code
+> 5(b) allows only in a stated case and 6 are the applicable code. Segment 4 is sold in L on CX
+> rather than the applicable code. That is allowed: it is the Economy code, which a Business fare may
+> use only where Business is not offered or not available on that flight. The fare for the highest
+> class used applies.
+
+Each of them turns on what the *flight* offers rather than on the routing — "for flights where First
+or Business Class is not offered or available, passengers may travel in a lower class" makes a
+business fare ticketed in `L` legal on an aircraft with no business cabin and illegal on one that has
+it — and an itinerary carries the route, not the seat map. That was once reported as a warning, and
+it should not have been. The permission is the tariff's own, a ticket sold under it is a correct
+ticket, and the condition was settled by the airline's inventory at the point of sale: the code is in
+the itinerary because a seat in it was sold. There is nothing for a traveller to act on, and a
+warning nobody can act on crowds out the ones they can.
 
 One rule is checked but cannot be decided, and says so. Rule 19's real trigger is an infant
 *reaching* two years old between departure and the end of the journey, and the input carries an age

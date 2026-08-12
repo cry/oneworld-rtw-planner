@@ -364,15 +364,18 @@ test(swp_europe_nonstop_warns_and_counts_asia) :-
     assertion(Fare.basis == 'LONE4').
 
 % The 5(b) note lets a business fare travel in the lower class's own code where
-% business is not offered or not available on that flight. Whether it was is a
-% fact about the aircraft, not about the routing, so the code is flagged and the
-% verdict stays valid -- the same posture as a declared stop kind that
-% disagrees with the clock.
-test(a_lower_class_code_is_flagged_not_refused) :-
+% business is not offered or not available on that flight. That is a permission
+% the tariff grants, so the ticket is correct and nothing is flagged: the
+% register says which note it leans on and the check still passes. It used to
+% draw a warning, which named a condition the airline's inventory had already
+% settled at the point of sale and left the reader nothing to do about it.
+test(a_lower_class_code_is_allowed_not_flagged) :-
     fixture_rules(mut_booking_code_lower, V-Ids),
-    assertion(V-Ids == valid-[booking_code_conditional]),
-    fixture_check(mut_booking_code_lower, booking_code, check(_, _, _, Outcome, _)),
-    assertion(Outcome == warning).
+    assertion(V-Ids == valid-[]),
+    fixture_check(mut_booking_code_lower, booking_code, check(_, _, _, Outcome, Detail)),
+    assertion(Outcome == pass),
+    assertion(sub_atom(Detail, _, _, _, 'Segment 4 is sold in L on CX')),
+    assertion(sub_atom(Detail, _, _, _, 'not offered or not available')).
 
 % A reason that covers six sectors is one fact. Reported once per segment it
 % buried whatever else the report had to say, and made one thing gone wrong
@@ -380,8 +383,9 @@ test(a_lower_class_code_is_flagged_not_refused) :-
 % and the rest of the rules had not followed.
 %
 % Grouped by the *case*, not by the sentence: two sectors under one permission
-% are one warning, and two sectors under different permissions stay two.
-test(one_warning_per_case_not_per_segment) :-
+% are one statement, and two sectors under different permissions stay two. That
+% holds for the register's notes as much as for the violations.
+test(one_statement_per_case_not_per_segment) :-
     itinerary_from_json(
         _{ cabin: "business", mode: "routing",
            segments: [ _{from: "LHR", to: "JFK", carrier: "BA", bookingClass: "L", stop: "stopover"},
@@ -391,16 +395,18 @@ test(one_warning_per_case_not_per_segment) :-
                        _{from: "HKG", to: "BKK", carrier: "CX", bookingClass: "Z", stop: "stopover"},
                        _{from: "BKK", to: "LHR", carrier: "QR", bookingClass: "B"} ] },
         Itin),
-    validate(Itin, report(_, Violations, _, _, _)),
-    % Two sectors in a lower cabin's code, two under the DONE alternate: two
-    % warnings, not four. And two sectors in a code the table does not name at
-    % all: one error, not two.
-    findall(V, member(v(booking_code_conditional, _, _, _, V), Violations), Flagged),
-    assertion(length(Flagged, 2)),
+    validate(Itin, report(_, Violations, _, _, Checks)),
+    % Two sectors in a code the table does not name at all: one error, not two.
     findall(V, member(v(booking_code, _, _, _, V), Violations), Wrong),
     assertion(length(Wrong, 1)),
     memberchk(v(booking_code, _, _, _, Ev), Violations),
-    memberchk(segments([4, 5]), Ev).
+    memberchk(segments([4, 5]), Ev),
+    % Two sectors in a lower cabin's code and two under the DONE alternate: two
+    % notes in the register, not four, and neither of them a violation.
+    assertion(\+ member(v(_, '5(b)', warning, _, _), Violations)),
+    memberchk(check(booking_code, _, _, _, Detail), Checks),
+    assertion(sub_atom(Detail, _, _, _, 'Segments 1 and 3 are sold in L on BA and L on JL')),
+    assertion(sub_atom(Detail, _, _, _, 'Segments 2 and 6 are sold in H on AA and B on QR')).
 
 % The same convention over 4(j): grouped by the carrier, because four sectors
 % on one ineligible airline are one thing wrong with the ticket.

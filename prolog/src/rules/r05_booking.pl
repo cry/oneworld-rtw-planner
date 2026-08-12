@@ -17,18 +17,23 @@
     Three outcomes, because 5(b) has three kinds of class in it:
 
       * the applicable code for the cabin -- ok;
-      * a code the notes permit only in a stated case -- flagged, because the
-        case is about what the *flight* offers and no itinerary can show that;
+      * a code the notes permit only in a stated case -- also ok, and recorded
+        in the register with the case it leans on;
       * anything else -- an error.
 
-    The second is the interesting one. "For flights where First or Business
-    Class is not offered or available, passengers may travel in a lower class,
-    in the applicable booking code for that lower class" makes a business fare
-    ticketed in L legal on a flight with no business cabin and illegal on one
-    that has it. The itinerary carries the route, not the seat map, so the
-    report says which condition the code depends on and leaves the verdict
-    valid -- the same posture rule 8 takes when a declared stop kind disagrees
-    with the clock.
+    The second used to be a warning and is not one. "For flights where First or
+    Business Class is not offered or available, passengers may travel in a lower
+    class, in the applicable booking code for that lower class" is a permission
+    the tariff grants, and a ticket sold under it is a correct ticket. The
+    condition is about what the *flight* offers -- a seat map, which no
+    itinerary carries -- but it is also a condition the airline's own inventory
+    settled at the moment of sale: the code is in the itinerary because a seat
+    in it was sold. There is nothing here for a traveller to fix, and a warning
+    that cannot be acted on is noise in front of the ones that can.
+
+    What the case is still worth saying, so it is said where statements of fact
+    belong: the check register names the segments and the note they rely on. The
+    outcome of the check is unaffected, which is the point.
 */
 
 :- use_module('../geo').
@@ -170,11 +175,13 @@ validate:violation(A, v(booking_code, '5(b)', error, Msg,
                [Where, Sold, Fare])
     ).
 
-% Grouped by the case that permits the code rather than by the sentence, so two
-% sectors under one permission are one warning and two sectors under different
-% permissions stay two.
-validate:violation(A, v(booking_code_conditional, '5(b)', warning, Msg,
-                        [segments(Ns), sold(Sold), allowed(Kind)])) :-
+%! conditional_note(+A, ?Kind, -Note) is nondet.
+%  One sentence per permission leaned on, for the register. Grouped by the case
+%  that permits the code rather than by the segment, on the reasoning
+%  marketing_carrier_missing gives in r04_routing.pl: two sectors under one
+%  permission are one fact, and two sectors under different permissions stay
+%  two.
+conditional_note(A, Kind, Note) :-
     conditional_kind(Kind),
     findall(N-Given-U,
             (   classed_flight(A, S),
@@ -196,7 +203,7 @@ validate:violation(A, v(booking_code_conditional, '5(b)', warning, Msg,
     segments_phrase(Ns, upper, Where),
     length(Ns, Count),
     agree(Count, 'is', 'are', Is),
-    format(atom(Msg),
+    format(atom(Note),
            '~w ~w sold in ~w rather than the applicable code. That is allowed: ~w. The fare for the highest class used applies.',
            [Where, Is, Sold, Reason]).
 
@@ -269,8 +276,7 @@ validate:check(A, chk_na(booking_code, '5(b)', 'Booking codes', Reason)) :-
     ).
 
 validate:check(A, chk(booking_code, '5(b)', 'Booking codes', Detail,
-                      [booking_code, booking_code_conditional,
-                       booking_code_unreadable])) :-
+                      [booking_code, booking_code_unreadable])) :-
     classed_flight(A, _),
     flights(A, Flights),
     tally(A, Stated, Counts),
@@ -279,8 +285,10 @@ validate:check(A, chk(booking_code, '5(b)', 'Booking codes', Detail,
     plural(Flights, 'flight', Flight),
     findall(Part, register_part(Counts, Part), Parts),
     listed_and(Parts, Tail),
-    format(atom(Detail), '~w of ~w ~w state the class sold, on ~w fare. ~w.',
-           [Stated, Flights, Flight, Fare, Tail]).
+    format(atom(Head), '~w of ~w ~w state the class sold, on ~w fare. ~w.',
+           [Stated, Flights, Flight, Fare, Tail]),
+    findall(Note, conditional_note(A, _, Note), Notes),
+    atomic_list_concat([Head|Notes], ' ', Detail).
 
 % One clause per outcome, in the order a reader wants them: what went wrong
 % first, then what is merely conditional, then what is fine.
