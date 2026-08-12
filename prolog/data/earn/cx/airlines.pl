@@ -83,7 +83,7 @@ cx_coverage(rj, [1, 2, 3, 4], 'zones 1-4', '82 pairs, 39-4740 mi. Zones 5,6 unob
 cx_coverage(aa, [1, 2, 4, 5, 6], 'zones 1-2 4-6', '90 pairs, 68-8794 mi. Zone 3 unobserved').
 cx_coverage(as, [1, 2, 3, 4, 5], 'zones 1-5', '43 pairs, 56-5438 mi. Zone 6 unobserved').
 cx_coverage(ca, [1, 2, 3, 4, 5], 'zones 1-5', '90 pairs, 163-7355 mi. Zone 6 unobserved').
-cx_coverage(jl, [1, 2, 3, 4, 5], 'zones 1-5', '89 pairs, 105-6737 mi. Zone 6 unobserved').
+cx_coverage(jl, [1, 2, 3, 4, 5], 'zones 1-5', '89 pairs, 105-6737 mi. Zone 6 unobserved. Class lists resolved from the page model, not from sampling').
 cx_coverage(lh, [1, 2, 3, 4, 5], 'zones 1-5', '32 pairs, 85-5867 mi. Zone 6 unobserved').
 cx_coverage(qr, [1, 2, 3, 4, 5], 'zones 1-5', '90 pairs, 55-7036 mi. Zone 6 unobserved').
 cx_coverage(at, [1, 2, 3, 4, 5, 6], 'all 6 zones', '80 pairs, 88-7689 mi. Complete').

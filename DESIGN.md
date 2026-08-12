@@ -217,14 +217,32 @@ page decides an answer, so it is a predicate of its own — `cx_class_settled/3`
 prints its reason instead of claiming the table said so. `B`, `H` and `K` are not settled that way
 and stay a range.
 
+**The fare group is the unit of earning, not the booking class.** Every class in a group earns
+identically, and the group is the carrier's own — `JL` Business group B is `(J, C, D, I)` at 125%
+while group G is `(X)` at 70%, a threefold spread inside one cabin. The membership comes from each
+carrier's published fare groups and not from the sampling, which matters because the earlier capture
+derived it from the calculator's one representative class per group: the representative is sometimes
+not even a member of the group it names, so it both invented classes and dropped real ones on two
+airlines. That is also why a class the table does not name is refused rather than priced off its
+neighbour — a substitution here would be wrong by up to three times.
+
+**Two airlines price the same class differently by whether the sector stays inside one country**, so
+`(airline, cabin, class)` is not a key for them: `JL` Economy `Y` is group F at 100% abroad and
+group H at 50% at home. Scope narrows in two places either side of the cabin, and the order is what
+makes both right — a card scoped to the other reach is never a candidate at all, but the *preference*
+for an exactly-scoped card over an `all` one runs after the cabin, because a domestic business ticket
+in `J` is a business ticket even though the domestic economy group also lists `J`.
+
 **A band nobody sampled is not a zero, and a real zero is not a gap.** The partner tables are the
 calculator's own responses to 26,780 queries over 1,752 city pairs, sampled 23 to 90 pairs per
-airline rather than enumerated, so 118 of the 942 cells were never seen. Those carry no Status Points
+airline rather than enumerated, so 106 of the 936 cells were never seen. Those carry no Status Points
 rate at all and reach the reader as `an unknown number of Status Points` beside a mileage figure that
-*is* known, since the miles come off the distance rather than off the band. Nine carriers — exactly
-the non-oneworld partners — earn a measured zero everywhere, which prints as the `0` it is. Where the
-two meet, the zone label says which: `Zone 1 (1-750 miles) — Air New Zealand was sampled in zones 5
-only, so this band was never observed`.
+*is* known, since the miles come off the distance rather than off the band. Two fare groups were
+never sampled at any distance and have no percentage either, which the report says in those terms
+rather than as a route it does not cover. Nine carriers — exactly the non-oneworld partners — earn a
+measured zero everywhere, which prints as the `0` it is. Where they meet, the zone label says which:
+`Zone 1 (1-750 miles) — Air New Zealand was sampled in zones 5 only, so this band was never
+observed`.
 
 **An itinerary that names a cabin has said more than it looks like it has.** Section 5(b) publishes
 the class an Explorer fare books into, so a sector with no `bookingClass` is priced off the fare's
@@ -323,12 +341,33 @@ operation's job and writing one is `routing`'s. A copy of the grammar in JavaScr
 nothing tests, and with both directions in Prolog the suite can assert that a routing survives the
 round trip.
 
-**The answer is two columns on a wide screen**: the verdict and the rules on the left, earning and
-the map on the right. Stacked, the map — the tallest thing on the page by a wide margin — sat between
-the reader and everything printed after it, which is where the earning panel had ended up. Beside, the
-scroll is the taller of the two columns rather than the sum of them, and nothing had to be hidden to
-get there. The Segments tab keeps a single column, because the form takes half the width there and
-splitting what is left would give two columns too narrow for either.
+**The answer is two columns on a wide screen**: the verdict, the rules and the map on the left,
+earning and the connections table on the right. Stacked, the scroll is the sum of both; beside, it is
+the taller of the two, and nothing had to be hidden to get there. The Segments tab keeps a single
+column, because the form takes half the width there and splitting what is left would give two columns
+too narrow for either.
+
+**The map is in the report and not in the panel beside it.** It reads as the evidence for the lines
+above it — a repeated sector, a continent entered twice, a surface gap — which is a thing to look at
+while reading them rather than after scrolling past a register. It sat in the aside for one release
+because stacked it is the tallest element on the page and had been coming between the reader and
+everything printed after it; the two-column layout is what actually solved that, and once the columns
+existed the map belonged with the rules it illustrates.
+
+**Rules the input cannot answer are not called out separately.** They used to have a dashed block of
+their own under the violations, on the grounds that an absence should not be rendered in the same
+register as a satisfied rule. But every one of them already appears in the check register reading
+`not run`, with the same explanation in its own words — the suite asserts that no skipped rule lacks
+a check covering it — so the block was a second copy of a list one disclosure away, sitting between
+the verdict and the map in the space a reader crosses most often.
+
+**A programme is a section, not a tickbox.** Choosing which programmes to price before seeing any of
+them is a choice made in the dark, and the answer to "where should I credit this ticket?" is the
+comparison itself. So every registered programme is always priced and always shows its totals; what
+a section holds is the detail behind one. A membership tier is inside the programme that publishes
+it, because a tier is a fact about the traveller's standing with one airline and not a page-wide
+setting — which also means the control appears exactly when the validator says that programme has
+tiers, and never otherwise.
 
 There are no tiles, and that is the point. A slippy map over OpenStreetMap would put the page back
 on the network — the same reason the fonts and the stylesheet are bundled — and street-level tiles

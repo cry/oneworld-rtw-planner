@@ -258,13 +258,15 @@
          sold can still be priced for what it would earn, and one that is
          perfectly valid can be unpriceable. Hidden until the first validation. -->
     <div id="earn-panel" class="hidden rounded-sm border border-rule bg-panel">
-      <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-rule px-4 py-2">
+      <div class="border-b border-rule px-4 py-2">
         <h2 class="label">Earning</h2>
-        <!-- Filled from the validator's own programme list, so the page names no
-             programme, no currency and no fare family of its own -- the same
-             reason it hardcodes no rule. -->
-        <div id="programs" class="flex flex-wrap items-center gap-x-3 gap-y-1"></div>
       </div>
+      <!-- One expandable section per programme, filled from the validator's own
+           list, so the page names no programme, no currency, no fare family and
+           no tier of its own -- the same reason it hardcodes no rule. Every
+           programme is always priced and always shows its totals; the section
+           holds the detail behind them, and a membership tier sits inside the
+           programme it belongs to rather than in a row of controls above. -->
       <div id="earn"></div>
     </div>
 

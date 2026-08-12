@@ -208,7 +208,12 @@ document.querySelectorAll('.jump-routing').forEach(b =>
 // rule: a second copy is the one that goes out of date.
 let PROGRAMS = [];
 let FAMILIES = [];
-let chosen = null;   // null until the list arrives; then a Set of programme ids
+// Which programme sections are expanded. Every programme is priced and every
+// total is shown whatever this holds -- it decides how much of the detail behind
+// a total is on screen, and nothing about what was asked. It used to be a set of
+// tickboxes deciding which programmes to price at all, which made the reader
+// choose before they had seen anything to choose between.
+let opened = null;   // null until the list arrives; then a Set of programme ids
 const tiers = new Map();   // programme id -> the member's tier, when they have one
 
 // --- the segment table -----------------------------------------------------
@@ -496,7 +501,7 @@ function renderReport(data, body) {
 
       ${fareBlock(fare, ann)}
       ${violationList(v)}
-      ${notCheckedList(nc)}
+      ${mapBlock(ann)}
       ${checkList(checks, v)}
 
       <div class="border-t border-rule">
@@ -514,9 +519,12 @@ function renderReport(data, body) {
   drawMap(ann);
 }
 
+// Every registered programme, every time. Asking is cheap -- the validator is in
+// this tab -- and a total the reader did not ask for is the only way they find
+// out the ticket was worth crediting somewhere they had not thought of, which is
+// the question having more than one programme is for.
 async function earn(body) {
-  if (!chosen || chosen.size === 0) { $('earn-panel').classList.add('hidden'); return; }
-  const asked = { ...body, programs: [...chosen] };
+  const asked = { ...body };
   if (tiers.size) {
     asked.members = Object.fromEntries([...tiers].map(([id, tier]) => [id, { tier }]));
   }
@@ -631,55 +639,109 @@ function earnRows(p) {
     }).join('')}</tbody></table>`;
 }
 
+// One programme, as a section that opens. The name and the totals are the
+// summary and are therefore always on screen, whether or not it is open; a
+// reader comparing two programmes is comparing exactly those two lines. What
+// opening adds is everything that makes a total checkable — the per-segment
+// register, the estimate caveat, the tables and their fetch dates — plus the
+// one control that changes the figures, which belongs to the programme that
+// publishes the tiers and not to a row of settings above the panel.
 function earnProgram(p) {
-  const priced = p.segments.some(r => r.outcome === 'ok');
-  return `<div class="border-t border-rule first:border-t-0 px-4 py-2.5">
-    <div class="flex flex-wrap items-baseline justify-between gap-x-4">
-      <p class="text-[13px] font-semibold">${esc(p.name)}</p>
-      <p class="text-[13px]">${p.totals.map(t => total(t, p.currencies)).join(' · ')}</p>
+  const detail = p.segments.length;
+  // The tiers come from /api/programs and not from the reply being rendered: an
+  // earn report says what a journey earned, and the list of tiers a programme
+  // publishes is a fact about the programme.
+  const published = (PROGRAMS.find(x => x.id === p.id) || {}).tiers || [];
+  const tierPicker = published.length ? `
+    <label class="mt-1 flex flex-wrap items-center gap-2 text-[12px] text-muted">
+      Membership
+      <select class="tier field-select h-6 w-[9rem] py-0 text-[11.5px]" data-prog="${esc(p.id)}"
+              aria-label="${esc(p.name)} membership tier">
+        <option value="">no status</option>
+        ${published.map(t => `<option value="${esc(t.key)}"${tiers.get(p.id) === t.key ? ' selected' : ''}>${esc(t.name)}</option>`).join('')}
+      </select>
+    </label>` : '';
+
+  return `<details class="group prog border-t border-rule first:border-t-0"
+                   data-prog="${esc(p.id)}"${opened && opened.has(p.id) ? ' open' : ''}>
+    <summary class="flex cursor-pointer select-none flex-wrap items-baseline justify-between gap-x-4 px-4 py-2.5">
+      <span class="text-[13px] font-semibold">
+        <span class="mono inline-block w-3 text-muted transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
+        ${esc(p.name)}
+      </span>
+      <span class="text-[13px]">${p.totals.map(t => total(t, p.currencies)).join(' · ')}</span>
+    </summary>
+    <div class="px-4 pb-2.5 pl-7">
+      ${tierPicker}
+      ${detail ? `
+        <div class="scroll-x mt-1.5">${earnRows(p)}</div>
+        <!-- The first note is the one that must never be a click away: it says
+             the figure is an estimate. The rest is provenance -- which tables,
+             read when, and what they do not cover -- which a reader wants when
+             checking a number and not while reading one. -->
+        <p class="mt-2 text-[11.5px] leading-[1.6] text-muted">${esc(p.notes[0] || '')}</p>
+        ${p.notes.length > 1 || p.sources.length ? `
+          <details class="group/src mt-1">
+            <summary class="label cursor-pointer select-none text-[10.5px]">
+              <span class="mono inline-block w-3 transition-transform duration-150 group-open/src:rotate-90">&rsaquo;</span>
+              Where these came from
+            </summary>
+            <p class="mt-1 text-[11.5px] leading-[1.6] text-muted">
+              ${p.notes.slice(1).map(esc).join(' ')}
+              ${p.sources.map(x => `The <a class="underline underline-offset-2" href="${esc(x.url)}" rel="noreferrer">${esc(x.table.replace(/_/g, ' '))} table</a> was read ${esc(x.fetched)}.`).join(' ')}
+            </p>
+          </details>` : ''}` : ''}
     </div>
-    ${priced || p.segments.length
-      ? `<details open class="group mt-1">
-           <!-- Open, unlike the check register. A total nobody can trace is the
-                failure this whole panel exists to avoid, and the register is
-                what makes one traceable; it is also beside the verdict now
-                rather than below it, so it costs nobody a scroll. -->
-           <summary class="label cursor-pointer select-none">
-             <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
-             Per segment
-           </summary>
-           <div class="scroll-x mt-1">${earnRows(p)}</div>
-           <!-- The first note is the one that must never be a click away: it says
-                the figure is an estimate. The rest is provenance -- which tables,
-                read when, and what they do not cover -- which a reader wants when
-                checking a number and not while reading one, and which had grown
-                into the tallest thing in this panel. -->
-           <p class="mt-2 text-[11.5px] leading-[1.6] text-muted">${esc(p.notes[0] || '')}</p>
-           ${p.notes.length > 1 || p.sources.length ? `
-             <details class="group mt-1">
-               <summary class="label cursor-pointer select-none text-[10.5px]">
-                 <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
-                 Where these came from
-               </summary>
-               <p class="mt-1 text-[11.5px] leading-[1.6] text-muted">
-                 ${p.notes.slice(1).map(esc).join(' ')}
-                 ${p.sources.map(x => `The <a class="underline underline-offset-2" href="${esc(x.url)}" rel="noreferrer">${esc(x.table.replace(/_/g, ' '))} table</a> was read ${esc(x.fetched)}.`).join(' ')}
-               </p>
-             </details>` : ''}
-         </details>`
-      : ''}
-  </div>`;
+  </details>`;
 }
+
+// Set when a tier was just changed, so the control the reader is holding keeps
+// focus across the re-render its own change caused. The picker used to sit
+// outside this region and never lose it; moving it into the programme is worth
+// one line here.
+let refocusTier = null;
 
 function renderEarn(data) {
   const panel = $('earn-panel');
   const programs = (data && data.programs) || [];
   if (!programs.length) { panel.classList.add('hidden'); return; }
   panel.classList.remove('hidden');
+  if (!opened) opened = new Set(programs.map(p => p.id));
   // No ranking between programmes, and deliberately: a mile and a Status Point
   // are not commensurable without a valuation, and a valuation is an opinion.
   // They are listed, not scored.
   $('earn').innerHTML = programs.map(earnProgram).join('');
+
+  // `toggle` does not bubble, so these are wired per section rather than once on
+  // the panel. What each one records is the whole panel's state read back off the
+  // document, never a delta from the event: setting innerHTML fires a toggle on
+  // the sections it replaced as well as on the ones it created, and the two
+  // arrive in no guaranteed order, so an add-or-remove here dropped a section
+  // that was plainly open on screen. Reading the live DOM cannot disagree with
+  // it, and a stale event just recomputes the same answer.
+  for (const section of $('earn').querySelectorAll('details.prog')) {
+    section.addEventListener('toggle', () => {
+      opened = new Set([...$('earn').querySelectorAll('details.prog')]
+        .filter(d => d.open).map(d => d.dataset.prog));
+      syncUrl();
+    });
+  }
+  for (const sel of $('earn').querySelectorAll('.tier')) {
+    sel.addEventListener('change', () => {
+      if (sel.value) tiers.set(sel.dataset.prog, sel.value);
+      else tiers.delete(sel.dataset.prog);
+      refocusTier = sel.dataset.prog;
+      syncUrl();
+      // Re-priced rather than marked stale: the itinerary did not change, only
+      // what the traveller holds, and the answer is one call away.
+      if (reported) reprice();
+    });
+  }
+  if (refocusTier) {
+    const sel = $('earn').querySelector(`.tier[data-prog="${CSS.escape(refocusTier)}"]`);
+    if (sel) sel.focus();
+    refocusTier = null;
+  }
 }
 
 function earnUnavailable(message) {
@@ -694,10 +756,11 @@ function earnUnavailable(message) {
 function drawMap(ann) {
   const box = $('map');
   if (!box) return;
+  const drop = () => ($('map-block') || box).remove();
   try {
-    if (!window.RTWMap || !RTWMap.draw(box, ann)) box.remove();
+    if (!window.RTWMap || !RTWMap.draw(box, ann)) drop();
   } catch (e) {
-    box.remove();
+    drop();
   }
 }
 
@@ -784,26 +847,20 @@ function violationList(v) {
   }).join('')}</ul>`;
 }
 
-// Rules the input cannot answer at all. Dashed and unfilled on purpose: this is an
-// absence, and rendering it in the same register as a satisfied rule would claim
-// coverage the report does not give.
-function notCheckedList(nc) {
-  if (!nc.length) return '';
-  return `
-    <div class="border-t border-rule px-4 py-3">
-      <div class="rounded-sm border border-dashed border-rule-strong px-3 py-2.5">
-        <h3 class="label mb-1.5">
-          Not checked — ${nc.length} rule${nc.length === 1 ? '' : 's'} this input cannot answer
-        </h3>
-        <ul class="space-y-1">
-          ${nc.map(x => `
-            <li class="flex flex-wrap items-baseline gap-2 text-[12.5px]">
-              <span class="cite shrink-0">${esc(x.citation)}</span>
-              <span class="min-w-0 flex-1 text-muted">${esc(x.reason)}</span>
-            </li>`).join('')}
-        </ul>
-      </div>
-    </div>`;
+// The route, under the rules it broke. It reads as the evidence for the lines
+// above it -- a repeated sector, a continent entered twice, a surface gap -- and
+// that is a thing to look at while reading them rather than after scrolling past
+// the register. It used to sit above the connections table in the panel beside,
+// which put the tallest element on the page between the reader and everything
+// printed after it.
+//
+// The box is emptied by drawMap when there is nothing to draw, so a journey with
+// no resolvable coordinates costs no space here.
+function mapBlock(ann) {
+  if (!(ann.points || []).length) return '';
+  return `<div id="map-block" class="border-t border-rule">
+            <div id="map" class="px-4 py-3"></div>
+          </div>`;
 }
 
 // What every rule measured, not just the ones that were broken. "No rule was
@@ -857,7 +914,6 @@ function connections(ann) {
         <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
         Connections (${points.length})
       </summary>
-      <div id="map" class="px-4 pb-2"></div>
       <div class="scroll-x px-4 pb-3">
         <table class="w-full border-collapse text-[12.5px]">
           <thead>
@@ -976,20 +1032,18 @@ function adoptSegments(ann) {
   $('adopted').classList.remove('hidden');
 }
 
-// --- the programme picker --------------------------------------------------
+// --- the programme list ----------------------------------------------------
 
-// Built from the validator's own list. Every programme is on by default, which
-// is also what the validator does with an empty list -- "where should I credit
-// this ticket?" is the question having more than one is for, and it cannot be
-// asked one programme at a time.
-function buildPicker(programs) {
+// Taken from the validator's own list, which is also the only thing that decides
+// what the page offers: the tiers a programme publishes, the fare families it
+// prices, and whether the segment table needs a column for them.
+function adoptPrograms(programs) {
   PROGRAMS = programs;
   FAMILIES = [...new Set(programs.flatMap(p => p.fareFamilies || []))];
-  chosen = new Set(
+  opened = new Set(
     pendingPrograms
       ? pendingPrograms.filter(id => programs.some(p => p.id === id))
       : programs.map(p => p.id));
-  if (chosen.size === 0) chosen = new Set(programs.map(p => p.id));
   pendingPrograms = null;
   for (const [id, tier] of pendingTiers || []) {
     const p = programs.find(x => x.id === id);
@@ -1001,43 +1055,6 @@ function buildPicker(programs) {
   // nothing behind it.
   $('segtable').classList.toggle('hide-fare', FAMILIES.length === 0);
 
-  // A tier changes what a journey earns, so it sits with the programme it
-  // belongs to rather than in a settings drawer. A programme that publishes no
-  // tiers gets no control, which is again the validator's answer and not a
-  // decision made here.
-  $('programs').innerHTML = programs.map(p => `
-    <span class="flex items-center gap-1.5">
-      <label class="flex cursor-pointer items-center gap-1.5 text-[12px]">
-        <input type="checkbox" class="prog accent-accent" value="${esc(p.id)}"
-               ${chosen.has(p.id) ? 'checked' : ''}>
-        ${esc(p.name)}
-      </label>
-      ${p.tiers && p.tiers.length ? `
-        <select class="tier field-select h-6 w-[8.5rem] py-0 text-[11.5px]" data-prog="${esc(p.id)}"
-                aria-label="${esc(p.name)} membership tier">
-          <option value="">no status</option>
-          ${p.tiers.map(t => `<option value="${esc(t.key)}"${tiers.get(p.id) === t.key ? ' selected' : ''}>${esc(t.name)}</option>`).join('')}
-        </select>` : ''}
-    </span>`).join('');
-
-  $('programs').querySelectorAll('.tier').forEach(sel => {
-    sel.addEventListener('change', () => {
-      if (sel.value) tiers.set(sel.dataset.prog, sel.value);
-      else tiers.delete(sel.dataset.prog);
-      syncUrl();
-      if (reported) reprice();
-    });
-  });
-
-  $('programs').querySelectorAll('.prog').forEach(box => {
-    box.addEventListener('change', () => {
-      if (box.checked) chosen.add(box.value); else chosen.delete(box.value);
-      syncUrl();
-      // Re-priced rather than marked stale: the itinerary did not change, only
-      // which programmes were asked about, and the answer is one call away.
-      if (reported) reprice();
-    });
-  });
   render();
 }
 
@@ -1191,9 +1208,10 @@ function writeUrl() {
   if (view === 'segments' && (authored || route)) parts.push('t=s');
   if ($('cabin').value !== CABIN_DEFAULT) parts.push('c=' + enc($('cabin').value));
   if ($('pax').value !== PAX_DEFAULT) parts.push('p=' + enc($('pax').value));
-  // Absent means every registered programme, which is also the validator's own
-  // default, so the common case adds nothing to the link.
-  if (chosen && chosen.size !== PROGRAMS.length) parts.push('g=' + enc([...chosen].join(',')));
+  // Which programme sections are open. Every programme is priced whatever this
+  // says, so absent means all of them are open -- the common case, which
+  // therefore adds nothing to the link.
+  if (opened && opened.size !== PROGRAMS.length) parts.push('g=' + enc([...opened].join(',')));
   if (tiers.size) parts.push('m=' + enc([...tiers].map(([id, t]) => `${id}:${t}`).join(',')));
 
   const query = parts.join('&');
@@ -1238,6 +1256,9 @@ function readUrl() {
     catch (e) { rows = []; }
   }
 
+  // An empty `g` is a link where every section was closed, which is a state
+  // worth being able to share -- so this deliberately does not fall back to
+  // opening them all.
   if (q.has('g')) pendingPrograms = q.get('g').split(',').filter(Boolean);
   // Checked against what each programme publishes once the list arrives, not
   // here: a tier this page has never heard of is the validator's to refuse.
@@ -1418,7 +1439,7 @@ RTWApi.ruleset()
 // picker are all built from, so the page carries no copy of any programme's
 // name, currencies or fare families.
 RTWApi.programs()
-  .then(res => { if (res.ok) buildPicker(res.data.programs || []); })
+  .then(res => { if (res.ok) adoptPrograms(res.data.programs || []); })
   .catch(() => { /* the page still validates; it just cannot price */ });
 
 // The URL is read before anything renders, because render() is one of the things

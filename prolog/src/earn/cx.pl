@@ -33,12 +33,25 @@
     Cathay-operated figure, and a Cathay flight number with no operator named
     cannot be answered at all.
 
-    *What is not observed is not zero.* The partner tables were sampled, 23 to 90
-    city pairs each, not enumerated; 118 of the 942 cells were never seen. Those
-    cells carry no Status Points rate at all, so the kernel reports them
-    undecided, and the zone label says which airline was sampled where. Nine
-    carriers earn a real, measured zero -- they are exactly the non-oneworld
-    partners -- and that is a different thing again, printed as the 0 it is.
+    *Three ways to have no answer, and none of them is a zero.* A class in no fare
+    group is refused outright and never priced off a neighbouring class, because
+    within one cabin the rates differ by up to three times -- Japan Airlines'
+    Business group B is 125% and its group G is 70%. A distance band nobody
+    sampled carries no Status Points rate at all, so the kernel reports it
+    undecided beside a mileage figure that is known, and the zone label says which
+    airline was sampled where. And two fare groups exist in their carriers'
+    definitions with no rate at any distance and no percentage either, which is
+    said in those terms. Against all three, nine carriers earn a real, measured
+    zero -- they are exactly the non-oneworld partners -- printed as the 0 it is.
+
+    *The fare group is the unit, not the booking class.* Every class in a group
+    earns identically, and the membership comes from each carrier's published fare
+    groups rather than from the sampling. That matters because the earlier capture
+    derived it from the calculator's one representative class per group, and the
+    representative is sometimes not a member of the group it names: it invented
+    classes and dropped real ones on two airlines. Two of them also price the same
+    class differently by whether the sector stays inside one country, so
+    (airline, cabin, class) is not a key -- see prefer_scope/3.
 
     *The bucket stayed opaque, and the basis did the work.* American is the one
     airline whose mile percentage varies: 150% where both airports are in the
@@ -157,14 +170,14 @@ earn_kernel:fare_bucket(cx, S, A, Bucket, Basis) :-
         Basis = null
     ;   Class = S.booking_class,
         Class \== unknown
-    ->  candidates(Airline, Metal, A.cabin, Family, Class, Cards),
+    ->  candidates(Airline, Metal, S, A.cabin, Family, Class, Cards),
         resolve(Airline, Metal, Family, Class, Cards, Bucket, Basis)
     ;   % No class given, so the fare's own is used -- see src/earn/presumed.pl.
         presumed_classes(S, A, Presumed),
         Presumed \== [],
         presumption(A, Presumed, Why)
     ->  findall(Card,
-                ( member(C, Presumed), candidates(Airline, Metal, A.cabin, Family, C, Cs), member(Card, Cs) ),
+                ( member(C, Presumed), candidates(Airline, Metal, S, A.cabin, Family, C, Cs), member(Card, Cs) ),
                 Cards0),
         sort(Cards0, Cards),
         resolve_presumed(Cards, Why, Bucket, Basis)
@@ -172,16 +185,44 @@ earn_kernel:fare_bucket(cx, S, A, Bucket, Basis) :-
         Basis = null
     ).
 
-%! candidates(+Airline, +Metal, +Cabin, +Family, +Class, -Cards) is det.
-candidates(Airline, Metal, Cabin, Family, Class, Cards) :-
-    findall(fare(Airline, RowCabin, Brand, Group),
-            (   cx_class(Airline, RowCabin, Brand, Group, Class),
+%! candidates(+Airline, +Metal, +S, +Cabin, +Family, +Class, -Cards) is det.
+candidates(Airline, Metal, S, Cabin, Family, Class, Cards) :-
+    findall(fare(Airline, RowCabin, Brand, Group, Scope),
+            (   cx_class(Airline, RowCabin, Brand, Group, Scope, Class),
                 metal_brand(Metal, Brand),
                 brand_allowed(Airline, Metal, RowCabin, Family, Class, Brand)
             ),
             Cards0),
     sort(Cards0, Cards1),
-    prefer_cabin(Cabin, Cards1, Cards).
+    reach(S, Reach),
+    include(scope_allows(Reach), Cards1, Usable),
+    prefer_cabin(Cabin, Usable, Cards2),
+    prefer_scope(Reach, Cards2, Cards).
+
+% Two airlines file the same class in two fare groups and price them apart by
+% whether the sector stays inside one country: Japan Airlines' Economy Y is
+% group F at 100% internationally and group H at 50% at home, and its First F is
+% 150% or 125% the same way. Every other airline files `all` and only, so this
+% does nothing at all for 24 of the 26.
+%
+% Scope narrows in two places, either side of the cabin, and the order is what
+% makes both right. A card scoped to the other reach is never a candidate --
+% a domestic-only group must not price an international sector -- so that filter
+% runs first. The *preference* for an exactly-scoped card over an `all` one runs
+% last, after the cabin: Japan Airlines files J in Business at 125% and again in
+% its domestic Economy group, and a domestic business ticket in J is a business
+% ticket. Preferring the scope first read it as economy.
+prefer_scope(Reach, Cards, Kept) :-
+    include(in_scope(Reach), Cards, Exact),
+    Exact \== [],
+    !,
+    Kept = Exact.
+prefer_scope(_, Cards, Cards).
+
+scope_allows(_, fare(_, _, _, _, all)) :- !.
+scope_allows(Reach, fare(_, _, _, _, Reach)).
+
+in_scope(Reach, fare(_, _, _, _, Reach)).
 
 % Cathay's Codeshare card is not available to its own metal, and its own three
 % Economy cards are not available to a partner's.
@@ -205,7 +246,7 @@ brand_allowed(Airline, Metal, Cabin, Family, Class, Brand) :-
     ).
 
 branded(Airline, Metal, Cabin) :-
-    findall(B, ( cx_row(Airline, Cabin, B, _), metal_brand(Metal, B) ), Brands0),
+    findall(B, ( cx_row(Airline, Cabin, B, _, _), metal_brand(Metal, B) ), Brands0),
     sort(Brands0, Brands),
     Brands = [_, _|_].
 
@@ -221,7 +262,7 @@ prefer_cabin(Cabin, Cards, Matching) :-
     !.
 prefer_cabin(_, Cards, Cards).
 
-in_cabin(Cabin, fare(_, Cabin, _, _)).
+in_cabin(Cabin, fare(_, Cabin, _, _, _)).
 
 % Nothing lists this class. Which of the three reasons it is matters to the
 % reader, and only the first is anything they can act on.
@@ -233,36 +274,52 @@ resolve(_, codeshare, _, Class, [], indeterminate(Why), null) :-
     format(atom(Why),
            'A Cathay flight number on a partner aircraft earns the Codeshare card, which Cathay publishes for ~w only. Class ~w is not on it.',
            [List, U]).
-% Whether that is a fact or a hole depends on which half of the capture the
-% airline is in, and the difference is worth a sentence. Cathay's own cards were
-% enumerated in full, so a class they do not name is a class that does not earn.
-% The partner cards were sampled 23 to 90 city pairs each and a sampled pair only
-% observes the classes it actually sells, so three of the 25 are missing the very
-% code section 5(b) books an Explorer fare into -- Japan Airlines and Japan
-% Transocean have no D and no L, Malaysia has no I and no L. Saying "lists no
-% earning" over that would report a gap in the observations as a decision by the
-% airline.
+% A class this airline prices only on the other kind of sector -- Japan
+% Transocean files most of its Economy classes domestically and nothing else, so
+% an international sector in one of them has a class the table knows and a rate it
+% does not give. Named apart from the class it has never heard of, because they
+% are different facts and only one of them is about this sector.
+resolve(Airline, _, _, Class, [], indeterminate(Why), null) :-
+    cx_class(Airline, _, _, _, Scope, Class),
+    Scope \== all,
+    !,
+    upcase_atom(Class, U),
+    cx_airline(Airline, Name, _),
+    format(atom(Why),
+           'Asia Miles prices class ~w on ~w only on ~w sectors, and this one is not.',
+           [U, Name, Scope]).
+% A class in no fare group at all. The class lists come from each carrier's
+% published fare groups rather than from the sampling, so this is a fact about
+% the table and not a hole in it -- and the sector stays undecided rather than
+% borrowing a rate from a neighbouring class, because within one cabin the
+% multipliers differ by up to three times. Japan Airlines' Business group B is
+% 125% and its group G is 70%, so a substitution here would be a wrong answer
+% dressed as a right one.
 resolve(Airline, _, Family, Class, [], indeterminate(Why), null) :-
     !,
     upcase_atom(Class, U),
-    cx_airline(Airline, Name, Scheme),
+    cx_airline(Airline, Name, _),
     (   Family \== unknown
     ->  format(atom(Why), 'Cathay lists no earning for class ~w on a ~w fare.', [U, Family])
-    ;   Scheme == cx
-    ->  format(atom(Why), 'Cathay lists no earning for class ~w.', [U])
-    ;   findall(C, cx_class(Airline, _, _, _, C), Cs0),
-        sort(Cs0, Cs),
-        length(Cs, N),
-        format(atom(Why),
-               'Asia Miles has no card for class ~w on ~w. The capture names ~w classes for this airline and was sampled rather than enumerated, so a class it leaves out is as likely to be one nobody observed as one that earns nothing.',
-               [U, Name, N])
+    ;   format(atom(Why),
+               'Class ~w is in no ~w fare group Asia Miles publishes, so this sector cannot be priced. Rates differ by up to three times within one cabin, so no neighbouring class is used in its place.',
+               [U, Name])
     ).
+% A card the carrier defines and the sampling never reached: it has no rate at any
+% distance and no percentage either. Two of them, and answering here rather than
+% letting the accrual fail is what stops it reading as a route the table does not
+% cover, which is a different problem with a different fix.
+resolve(_, _, _, _, [Card], indeterminate(Why), null) :-
+    cx_unpriced(Card, Note),
+    !,
+    earn_kernel:term_label(Card, Label),
+    format(atom(Why), 'Asia Miles publishes the ~w card and no rate for it. ~w', [Label, Note]).
 % How the card was settled travels with the answer, because "declared", "the
 % operator decided it" and "there was only one it could be" are different degrees
 % of confidence, and the register is where a reader checks which they were given.
 resolve(Airline, Metal, Declared, Class, [Card], Card, Basis) :-
     !,
-    Card = fare(_, Cabin, Brand, _),
+    Card = fare(_, Cabin, Brand, _, _),
     (   Metal == codeshare
     ->  Basis = 'a Cathay flight number on a partner aircraft'
     ;   Declared \== unknown, cx_family(Declared, Brand)
@@ -284,7 +341,7 @@ resolve(_, _, _, Class, Cards, one_of(Cards, Why), null) :-
 
 card_brands(Cards, List) :-
     findall(Label,
-            ( member(fare(_, _, Brand, _), Cards), cx_brand_label(Brand, Label) ),
+            ( member(fare(_, _, Brand, _, _), Cards), cx_brand_label(Brand, Label) ),
             Labels0),
     sort(Labels0, Labels),
     atomic_list_concat(Labels, ', ', List).
@@ -301,9 +358,9 @@ resolve_presumed(Cards, Why, one_of(Cards, Reason), null) :-
 % that share it. Either alone would be ambiguous -- Qantas files Economy twice,
 % once for Y and once for everything below it -- and the pair is what a reader
 % checks the number against.
-earn_kernel:term_label(fare(_, _, Brand, Group), Label) :-
+earn_kernel:term_label(fare(Airline, Cabin, Brand, Group, Scope), Label) :-
     cx_brand_label(Brand, B),
-    cx_group_label(Group, G),
+    cx_group_label(Airline, Cabin, Group, Scope, G),
     format(atom(Label), '~w (~w)', [B, G]).
 earn_kernel:term_label(zone(_, _, _, Label), Label).
 
