@@ -1,0 +1,35 @@
+{
+  "source": "https://www.cathaypacific.com/cx/en_US/membership/news-and-updates/Changes-to-your-Status-Points-and-Asia-Miles-earnings-on-flights.html",
+  "fetched": "2026-08-11",
+  "effectiveFrom": "2025-08-20",
+  "note": "Asia Miles == Status Points * 100 in every row. Values in parentheses on the page are the delta against the pre-20-Aug-2025 table and are not part of the rate.",
+  "zones": [
+    { "key": "ultra_short", "label": "Ultra-short", "min": 1, "max": 750 },
+    { "key": "short_1", "label": "Short - Type 1", "min": 751, "max": 2750 },
+    { "key": "short_2", "label": "Short - Type 2", "min": 751, "max": 2750,
+      "qualifier": "to or from Japan, Indonesia, Sri Lanka, Nepal, Bangladesh and India" },
+    { "key": "medium", "label": "Medium", "min": 2751, "max": 5000 },
+    { "key": "long", "label": "Long", "min": 5001, "max": 7500 },
+    { "key": "ultra_long", "label": "Ultra-long", "min": 7501, "max": null }
+  ],
+  "economy": {
+    "ultra_short": { "flex": { "YBHK": 25, "MLV": 20, "SNQO": 15 }, "essential": { "YBHK": 15, "MLV": 10, "SNQO": 5 }, "light": { "YBHK": 10, "MLV": 6, "SNQO": 3 } },
+    "short_1":     { "flex": { "YBHK": 30, "MLV": 25, "SNQO": 20 }, "essential": { "YBHK": 20, "MLV": 15, "SNQO": 10 }, "light": { "YBHK": 15, "MLV": 10, "SNQO": 6 } },
+    "short_2":     { "flex": { "YBHK": 35, "MLV": 30, "SNQO": 25 }, "essential": { "YBHK": 25, "MLV": 20, "SNQO": 15 }, "light": { "YBHK": 18, "MLV": 12, "SNQO": 8 } },
+    "medium":      { "flex": { "YBHK": 48, "MLV": 42, "SNQO": 32 }, "essential": { "YBHK": 38, "MLV": 32, "SNQO": 22 }, "light": { "YBHK": 30, "MLV": 22, "SNQO": 15 } },
+    "long":        { "flex": { "YBHK": 70, "MLV": 60, "SNQO": 38 }, "essential": { "YBHK": 60, "MLV": 50, "SNQO": 28 }, "light": { "YBHK": 40, "MLV": 32, "SNQO": 18 } },
+    "ultra_long":  { "flex": { "YBHK": 90, "MLV": 80, "SNQO": 45 }, "essential": { "YBHK": 70, "MLV": 60, "SNQO": 35 }, "light": { "YBHK": 50, "MLV": 40, "SNQO": 25 } }
+  },
+  "economyClasses": { "YBHK": ["Y","B","H","K"], "MLV": ["M","L","V"], "SNQO": ["S","N","Q","O"] },
+  "premiumEconomy": {
+    "flex":      { "classes": ["W","R"], "ultra_short": 25, "short_1": 30, "short_2": 35, "medium": 60, "long": 80, "ultra_long": 100 },
+    "essential": { "classes": ["E"],     "ultra_short": 15, "short_1": 20, "short_2": 25, "medium": 45, "long": 65, "ultra_long": 85 }
+  },
+  "business": {
+    "flex":            { "classes": ["J","C"],     "ultra_short": 30, "short_1": 40, "short_2": 50, "medium": 90,  "long": 130, "ultra_long": 150 },
+    "essential_light": { "classes": ["D","P","I"], "ultra_short": 25, "short_1": 35, "short_2": 45, "medium": 75,  "long": 100, "ultra_long": 120 }
+  },
+  "first": {
+    "flex": { "classes": ["F","A"], "ultra_short": 35, "short_1": 45, "short_2": 60, "medium": 110, "long": 160, "ultra_long": 180 }
+  }
+}

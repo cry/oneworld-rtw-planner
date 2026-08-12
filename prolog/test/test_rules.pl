@@ -87,6 +87,20 @@ test(fare_basis_follows_continent_count) :-
     assertion(Fare4.continents == 4),
     assertion(Fare4.basis == 'DONE4').
 
+% The same journey with a booked class on every segment. 5(b) is the only rule
+% the extra field reaches, and the applicable business code must clear it.
+test(booked_classes_do_not_disturb_a_valid_itinerary) :-
+    fixture_rules(lhr_classes, Verdict-Ids),
+    assertion(Verdict-Ids == valid-[]).
+
+% An itinerary that states no class must not be reported as though 5(b) had
+% been cleared. It is `n/a` rather than a pass, and the reason says why.
+test(a_classless_itinerary_says_5b_had_nothing_to_read) :-
+    fixture_check(lhr_classic, booking_code, check(_, Citation, _, Outcome, Detail)),
+    assertion(Citation == '5(b)'),
+    assertion(Outcome == not_applicable),
+    assertion(sub_atom(Detail, _, _, _, 'No segment states the class it is sold in')).
+
 :- end_tests(golden).
 
 % --- one broken rule at a time ---------------------------------------------
@@ -293,6 +307,16 @@ test(cuba_reported_once) :-
     fixture_report(mut_cuba, _, report(_, Violations, _, _, _)),
     assertion(Violations = [_]).
 
+% K is a CX code in no cabin of the 5(b) table, so it is not this fare however
+% the flight was sold. Exactly one rule, and the register must read `failed`
+% rather than reporting six matching codes and calling that a pass.
+test(booking_code_outside_the_table) :-
+    fixture_rules(mut_booking_code, V-Ids),
+    assertion(V-Ids == invalid-[booking_code]),
+    fixture_check(mut_booking_code, booking_code, check(_, _, _, Outcome, Detail)),
+    assertion(Outcome == fail),
+    assertion(sub_atom(Detail, _, _, _, '7 of 7 flights')).
+
 :- end_tests(mutations).
 
 % --- warnings do not invalidate --------------------------------------------
@@ -338,6 +362,69 @@ test(swp_europe_nonstop_warns_and_counts_asia) :-
     fixture_report(syd_via_asia, _, report(_, _, Fare, _, _)),
     assertion(Fare.continents == 4),
     assertion(Fare.basis == 'LONE4').
+
+% The 5(b) note lets a business fare travel in the lower class's own code where
+% business is not offered or not available on that flight. That is a permission
+% the tariff grants, so the ticket is correct and nothing is flagged: the
+% register says which note it leans on and the check still passes. It used to
+% draw a warning, which named a condition the airline's inventory had already
+% settled at the point of sale and left the reader nothing to do about it.
+test(a_lower_class_code_is_allowed_not_flagged) :-
+    fixture_rules(mut_booking_code_lower, V-Ids),
+    assertion(V-Ids == valid-[]),
+    fixture_check(mut_booking_code_lower, booking_code, check(_, _, _, Outcome, Detail)),
+    assertion(Outcome == pass),
+    assertion(sub_atom(Detail, _, _, _, 'Segment 4 is sold in L on CX')),
+    assertion(sub_atom(Detail, _, _, _, 'not offered or not available')).
+
+% A reason that covers six sectors is one fact. Reported once per segment it
+% buried whatever else the report had to say, and made one thing gone wrong
+% read as six -- which is the reasoning marketing_carrier_missing already gave
+% and the rest of the rules had not followed.
+%
+% Grouped by the *case*, not by the sentence: two sectors under one permission
+% are one statement, and two sectors under different permissions stay two. That
+% holds for the register's notes as much as for the violations.
+test(one_statement_per_case_not_per_segment) :-
+    itinerary_from_json(
+        _{ cabin: "business", mode: "routing",
+           segments: [ _{from: "LHR", to: "JFK", carrier: "BA", bookingClass: "L", stop: "stopover"},
+                       _{from: "JFK", to: "LAX", carrier: "AA", bookingClass: "H", stop: "stopover"},
+                       _{from: "LAX", to: "NRT", carrier: "JL", bookingClass: "L", stop: "stopover"},
+                       _{from: "NRT", to: "HKG", carrier: "CX", bookingClass: "K", stop: "stopover"},
+                       _{from: "HKG", to: "BKK", carrier: "CX", bookingClass: "Z", stop: "stopover"},
+                       _{from: "BKK", to: "LHR", carrier: "QR", bookingClass: "B"} ] },
+        Itin),
+    validate(Itin, report(_, Violations, _, _, Checks)),
+    % Two sectors in a code the table does not name at all: one error, not two.
+    findall(V, member(v(booking_code, _, _, _, V), Violations), Wrong),
+    assertion(length(Wrong, 1)),
+    memberchk(v(booking_code, _, _, _, Ev), Violations),
+    memberchk(segments([4, 5]), Ev),
+    % Two sectors in a lower cabin's code and two under the DONE alternate: two
+    % notes in the register, not four, and neither of them a violation.
+    assertion(\+ member(v(_, '5(b)', warning, _, _), Violations)),
+    memberchk(check(booking_code, _, _, _, Detail), Checks),
+    assertion(sub_atom(Detail, _, _, _, 'Segments 1 and 3 are sold in L on BA and L on JL')),
+    assertion(sub_atom(Detail, _, _, _, 'Segments 2 and 6 are sold in H on AA and B on QR')).
+
+% The same convention over 4(j): grouped by the carrier, because four sectors
+% on one ineligible airline are one thing wrong with the ticket.
+test(one_error_per_carrier_not_per_segment) :-
+    itinerary_from_json(
+        _{ cabin: "business", mode: "routing",
+           segments: [ _{from: "LHR", to: "DXB", marketingCarrier: "EK", operatingCarrier: "EK", stop: "stopover"},
+                       _{from: "DXB", to: "SIN", marketingCarrier: "EK", operatingCarrier: "EK", stop: "stopover"},
+                       _{from: "SIN", to: "SYD", carrier: "QF", stop: "stopover"},
+                       _{from: "SYD", to: "LAX", carrier: "QF", stop: "stopover"},
+                       _{from: "LAX", to: "LHR", carrier: "BA"} ] },
+        Itin),
+    validate(Itin, report(_, Violations, _, _, _)),
+    findall(Ev, member(v(carrier_not_eligible, _, _, _, Ev), Violations), Errors),
+    assertion(length(Errors, 1)),
+    Errors = [Ev],
+    memberchk(segments([1, 2]), Ev),
+    memberchk(carrier('EK'), Ev).
 
 :- end_tests(warnings).
 

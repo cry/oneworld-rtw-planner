@@ -1,0 +1,42 @@
+{
+  "source": "https://www.qantas.com/au/en/frequent-flyer/discover-and-earn/earning-points.html",
+  "fetched": "2026-08-11",
+  "via": "Transcribed by hand from the published tier bonus table; unlike the other captures here it was not read out of the page, which the scraper could not reach.",
+  "note": "Qantas Points only. Status Credits take no tier bonus, and neither currency takes one on a partner-marketed sector -- the bonus is a Qantas-flight benefit.",
+  "appliesTo": [
+    "points"
+  ],
+  "appliesOn": {
+    "marketingCarrier": [
+      "QF"
+    ],
+    "reading": "A Qantas flight number. Qantas describes the bonus as applying to eligible Qantas and Jetstar flights, which is how every other row of its earning tables is selected; an Explorer fare cannot be flown on Jetstar as the marketing carrier, so QF is the whole of it here."
+  },
+  "tiers": [
+    {
+      "key": "bronze",
+      "label": "Bronze",
+      "bonusPercent": 0
+    },
+    {
+      "key": "silver",
+      "label": "Silver",
+      "bonusPercent": 50
+    },
+    {
+      "key": "gold",
+      "label": "Gold",
+      "bonusPercent": 75
+    },
+    {
+      "key": "platinum",
+      "label": "Platinum",
+      "bonusPercent": 100
+    },
+    {
+      "key": "platinum_one",
+      "label": "Platinum One",
+      "bonusPercent": 100
+    }
+  ]
+}

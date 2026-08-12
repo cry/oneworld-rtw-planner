@@ -22,13 +22,17 @@
 :- use_module(library(thread_pool)).
 :- use_module(library(apply)).
 :- use_module(library(time)).
+:- use_module(library(yall)).
 
 :- use_module('src/geo').
 :- use_module('src/annotate').
 :- use_module('src/validate').
 :- use_module('src/io/json_in').
 :- use_module('src/io/json_out').
+:- use_module('src/io/earn_out').
 :- use_module('src/io/route_out').
+:- use_module('src/earn/kernel').
+:- use_module('src/earn/registry').
 :- use_module('data/limits').
 
 % The bundled UI is served from this same origin, but CORS stays open so a UI
@@ -151,6 +155,10 @@ thread_pool:create_pool(rtw_validate) :-
 :- http_handler(root(vendor),       static,   [prefix, method(get)]).
 :- http_handler(root(api/health),   health,   [method(get)]).
 :- http_handler(root(api/ruleset),  ruleset,  [method(get)]).
+% The counterpart of /api/ruleset for the earning side: the programmes, their
+% currencies and where each table was read. It exists so the page hardcodes no
+% programme, for the same reason it hardcodes no rule.
+:- http_handler(root(api/programs), programs, [method(get)]).
 :- http_handler(root(api/airports), airports, [method(get)]).
 :- http_handler(root(api/validate), validate_endpoint,
                 [method(post), methods([post, options]), spawn(rtw_validate)]).
@@ -158,6 +166,11 @@ thread_pool:create_pool(rtw_validate) :-
 % which is linear in a segment count the reader already caps.
 :- http_handler(root(api/routing), routing_endpoint,
                 [method(post), methods([post, options])]).
+% Earning runs no rules either, but it is linear in segments times programmes
+% times currencies and reaches a table on every step, so it shares the bounded
+% pool rather than the server's default workers.
+:- http_handler(root(api/earn), earn_endpoint,
+                [method(post), methods([post, options]), spawn(rtw_validate)]).
 
 %! server(+Port) is det.
 server(Port) :-
@@ -229,6 +242,11 @@ ruleset(_Request) :-
     ruleset_json(Dict),
     reply_json_dict(Dict).
 
+programs(_Request) :-
+    cors_enable,
+    programs_json(Dict),
+    reply_json_dict(Dict).
+
 airports(Request) :-
     cors_enable,
     http_parameters(Request,
@@ -262,6 +280,44 @@ routing_endpoint(Request) :-
     ->  reply_json_dict(_{}, [status(200)])
     ;   catch_with_backtrace(routing_request(Request), Error,
                              reply_error(Error, Request))
+    ).
+
+% What the journey earns, which runs no fare rules at all: a journey that cannot
+% be sold can still be priced for its earn, and one that is perfectly valid can
+% be unpriceable. That is why it is its own endpoint rather than a field on the
+% report -- see PLANS/05-loyalty-earning.md.
+earn_endpoint(Request) :-
+    cors_enable,
+    (   memberchk(method(options), Request)
+    ->  reply_json_dict(_{}, [status(200)])
+    ;   catch_with_backtrace(earn_request(Request), Error,
+                             reply_error(Error, Request))
+    ).
+
+earn_request(Request) :-
+    check_body_size(Request),
+    http_read_json_dict(Request, Dict, [value_string_as(string)]),
+    limit(request_time_limit_seconds, Seconds),
+    call_with_time_limit(Seconds, build_earn(Dict, Json)),
+    reply_json_dict(Json).
+
+build_earn(Dict, Json) :-
+    asked_programs(Dict, Asked),
+    resolve_programs(Asked, Programs),
+    itinerary_from_json(Dict, Itin),
+    annotate(Itin, A),
+    earn(A, Programs, Report),
+    earn_json(Report, Json).
+
+% Absent or empty means every registered programme, which is the useful default:
+% "where should I credit this ticket?" is the question having more than one is
+% for, and it cannot be asked one programme at a time.
+asked_programs(Dict, Asked) :-
+    (   get_dict(programs, Dict, List), is_list(List)
+    ->  maplist([V, A]>>( atom_string(A, V) ), List, Asked)
+    ;   get_dict(programs, Dict, V), V \== null
+    ->  throw(input_error('"programs" must be a list of programme ids.'))
+    ;   Asked = []
     ).
 
 routing_request(Request) :-

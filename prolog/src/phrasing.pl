@@ -1,5 +1,5 @@
-:- module(phrasing, [plural/3, agree/4, quantity/3,
-                     listed/2, listed_and/2, segments_phrase/2]).
+:- module(phrasing, [plural/3, agree/4, quantity/3, article/3,
+                     listed/2, listed_and/2, segments_phrase/2, segments_phrase/3]).
 
 /** <module> The small amount of English every rule module needs.
 
@@ -33,6 +33,29 @@ quantity(N, Word, Atom) :-
     plural(N, Word, Form),
     format(atom(Atom), '~w ~w', [N, Form]).
 
+%! article(+Word, +Case, -Atom) is det.
+%  "a Business fare", "an Economy fare". Case is `lower` or `upper`, for
+%  whether the phrase begins a sentence.
+%
+%  The test is the first letter, not the first sound, which is the wrong rule
+%  in general English and the right one for every word this program puts after
+%  an article: cabin names, continent names and the words `error` and `airport`.
+%  A sound-based version needs a pronunciation table, which is a thing this
+%  program has no reason to own -- the same call phrasing.pl makes about
+%  irregular plurals in agree/4.
+article(Word, Case, Phrase) :-
+    sub_atom(Word, 0, 1, _, First),
+    downcase_atom(First, Lower),
+    (   memberchk(Lower, [a, e, i, o, u]) -> Article0 = an ; Article0 = a ),
+    (   Case == upper
+    ->  upcase_first(Article0, Article)
+    ;   Article = Article0
+    ),
+    format(atom(Phrase), '~w ~w', [Article, Word]).
+
+upcase_first(a,  'A').
+upcase_first(an, 'An').
+
 %! listed(+Items, -Atom) is det.
 %  A comma-separated list, or `none` for an empty one. Rendering `[]` in a
 %  sentence reads as a missing value rather than as an empty set.
@@ -51,8 +74,16 @@ listed_and(Items, Atom) :-
 
 %! segments_phrase(+Numbers, -Atom) is det.
 %  "segment 4", "segments 4 and 9".
-segments_phrase(Ns, Atom) :-
+segments_phrase(Ns, Atom) :- segments_phrase(Ns, lower, Atom).
+
+%! segments_phrase(+Numbers, +Case, -Atom) is det.
+%  Case is `lower` or `upper`, for whether the phrase begins a sentence. A
+%  message that opens with the segments it is about wants the second, and
+%  enough of them do now that capitalising by hand at each one had started to
+%  go wrong.
+segments_phrase(Ns, Case, Atom) :-
     length(Ns, Count),
-    plural(Count, 'segment', Word),
+    ( Case == upper -> Stem = 'Segment' ; Stem = 'segment' ),
+    plural(Count, Stem, Word),
     listed_and(Ns, List),
     format(atom(Atom), '~w ~w', [Word, List]).

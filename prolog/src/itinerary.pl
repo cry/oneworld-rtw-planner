@@ -1,5 +1,5 @@
 :- module(itinerary,
-          [ build_itinerary/6,
+          [ build_itinerary/7,
             itinerary_mode/1,
             stop_kind/1,
             dt_stamp/2,
@@ -51,13 +51,15 @@ itinerary_mode(routing).
 stop_kind(transfer).
 stop_kind(stopover).
 
-%! build_itinerary(+Origin, +Cabin, +Passengers, +Mode, +RawSegs, -Itin) is det.
+%! build_itinerary(+Origin, +Cabin, +Passengers, +Members, +Mode, +RawSegs, -Itin) is det.
 %
 %  Origin may be `unknown`, in which case it is taken from the first segment.
 %  RawSegs is a list of rseg(N, Type, From, To, Marketing, Operating, Flight,
-%  Dep, Arr, Stop); every field except Type/From/To may be `unknown`. Stop
-%  declares the kind of the intermediate point at that segment's *arrival*.
-build_itinerary(Origin0, Cabin, Passengers, Mode, RawSegs, Itin) :-
+%  Dep, Arr, Stop, BookingClass, FareFamily); every field except Type/From/To
+%  may be `unknown`. Stop declares the kind of the intermediate point at that
+%  segment's *arrival*; BookingClass is the 5(b) RBD the segment is sold in, and
+%  FareFamily the carrier's branded fare, which only the earning side reads.
+build_itinerary(Origin0, Cabin, Passengers, Members, Mode, RawSegs, Itin) :-
     number_segments(RawSegs, 1, Segs, NumErrs),
     resolve_origin(Origin0, Segs, Origin, OriginErrs),
     maplist(segment_errors, Segs, SegErrsL),
@@ -67,6 +69,7 @@ build_itinerary(Origin0, Cabin, Passengers, Mode, RawSegs, Itin) :-
     Itin = itin{ origin: Origin,
                  cabin: Cabin,
                  passengers: Passengers,
+                 members: Members,
                  mode: Mode,
                  segments: Segs,
                  errors: Errors }.
@@ -76,12 +79,13 @@ build_itinerary(Origin0, Cabin, Passengers, Mode, RawSegs, Itin) :-
 % make every later violation cite the wrong segment.
 number_segments([], _, [], []).
 number_segments([R|Rs], I, [S|Ss], Errs) :-
-    R = rseg(N, Type, From0, To0, Mkt, Op, Flt, Dep, Arr, Stop),
+    R = rseg(N, Type, From0, To0, Mkt, Op, Flt, Dep, Arr, Stop, Class, Family),
     place(From0, From),
     place(To0, To),
     S = seg{ n: I, type: Type, from: From, to: To,
              marketing: Mkt, operating: Op, flight: Flt,
-             dep: Dep, arr: Arr, stop: Stop },
+             dep: Dep, arr: Arr, stop: Stop,
+             booking_class: Class, fare_family: Family },
     (   ( N == unknown ; N == I )
     ->  Errs = Errs1
     ;   format(atom(M),

@@ -1,0 +1,1136 @@
+:- module(qff_regions,
+          [ region_places/2,
+            region_countries/2,
+            region_label/2,
+            region_pair/4,
+            region_pair_band/4,
+            region_pair_edges/1
+          ]).
+
+/** <module> Qantas Frequent Flyer regions and region pairs. GENERATED -- do not edit.
+
+    Built by prolog/tools/build_qff_tables.mjs from
+    data/earn/sources/qff-region-definitions.json and qff-regions.json, read
+    2026-08-11 from
+    https://www.qantas.com/en-au/frequent-flyer/calculators/earning-tables/partner-airlines
+
+    The third geography taxonomy in this repository, and deliberately its own
+    table. Qantas splits West Coast from East Coast USA/Canada, which the fare
+    rule does not; it files Santiago, Dallas and Tel Aviv as regions of their
+    own; and its "Northern Africa" reaches Kenya, Uganda, Somalia and the
+    Seychelles. data/countries.pl already had to diverge from OurAirports'
+    continent column for the same kind of reason. A test asserts these stay
+    separate, so a later contributor cannot tidy up by aliasing one to another.
+
+    A region is a set of places, a set of countries, or both. Places are matched
+    on geo:place_key/2, so a region naming New York covers JFK, LGA, EWR and
+    SWF -- which is what the published table means by a city.
+*/
+
+%! region_places(?Region, ?Places) is nondet.
+region_places(sydney_melbourne_brisbane_gold_coast, [syd, mel, bne, ool]).
+region_places(west_coast_usa_canada, [las, lax, phx, sfo, sea, yvr]).
+region_places(east_coast_usa_canada, [bos, clt, chi, mia, nyc, mco, yto, was]).
+region_places(dallas, [dfw]).
+region_places(santiago, [scl]).
+region_places(dubai, [dxb]).
+region_places(doha, [doh]).
+region_places(perth, [per]).
+region_places(adelaide, [adl]).
+region_places(cairns, [cns]).
+region_places(muscat, [mct]).
+region_places(tel_aviv, [tlv]).
+region_places(dubai_doha_muscat, [dxb, doh, mct]).
+region_places(new_york_and_boston, [nyc, bos]).
+region_places(los_angeles, [lax]).
+region_places(east_coast_usa, [bos, clt, chi, mia, nyc, mco, was]).
+
+%! region_countries(?Region, ?Countries) is nondet.
+region_countries(hong_kong, ['HK']).
+region_countries(malaysia, ['MY']).
+region_countries(thailand, ['TH']).
+region_countries(japan, ['JP']).
+region_countries(singapore, ['SG']).
+region_countries(china, ['CN']).
+region_countries(sri_lanka, ['LK']).
+region_countries(western_europe, ['AT', 'BE', 'CZ', 'DE', 'DK', 'ES', 'FR', 'GB', 'IE', 'IT', 'NL', 'PT', 'CH']).
+region_countries(new_zealand_or_papua_new_guinea, ['NZ', 'PG']).
+region_countries(fiji, ['FJ']).
+region_countries(northern_europe, ['FI', 'NO', 'SE']).
+region_countries(hong_kong_thailand_japan, ['HK', 'TH', 'JP']).
+region_countries(southeast_europe, ['GR', 'TR', 'CY']).
+region_countries(southeast_asia_or_northern_africa, ['BN', 'BT', 'KH', 'CC', 'ID', 'LA', 'MY', 'MM', 'PH', 'SG', 'TH', 'TL', 'VN', 'BF', 'DZ', 'BJ', 'CV', 'CF', 'TD', 'CD', 'DJ', 'EG', 'GQ', 'ER', 'ET', 'GM', 'GH', 'GN', 'GW', 'CI', 'KE', 'LR', 'LY', 'ML', 'MA', 'NE', 'NG', 'CM', 'ST', 'SN', 'SC', 'SL', 'SO', 'SS', 'SD', 'TG', 'TN', 'UG']).
+region_countries(new_zealand, ['NZ']).
+region_countries(intra_usa, ['US']).
+
+%! region_label(?Region, ?Label) is nondet.
+region_label(sydney_melbourne_brisbane_gold_coast, 'Sydney, Melbourne, Brisbane, Gold Coast').
+region_label(west_coast_usa_canada, 'West Coast USA/Canada').
+region_label(east_coast_usa_canada, 'East Coast USA/Canada').
+region_label(dallas, 'Dallas').
+region_label(santiago, 'Santiago').
+region_label(hong_kong, 'Hong Kong').
+region_label(malaysia, 'Malaysia').
+region_label(thailand, 'Thailand').
+region_label(japan, 'Japan').
+region_label(singapore, 'Singapore').
+region_label(china, 'China').
+region_label(sri_lanka, 'Sri Lanka').
+region_label(dubai, 'Dubai').
+region_label(doha, 'Doha').
+region_label(western_europe, 'Western Europe').
+region_label(new_zealand_or_papua_new_guinea, 'New Zealand or Papua New Guinea').
+region_label(fiji, 'Fiji').
+region_label(perth, 'Perth').
+region_label(adelaide, 'Adelaide').
+region_label(cairns, 'Cairns').
+region_label(muscat, 'Muscat').
+region_label(northern_europe, 'Northern Europe').
+region_label(hong_kong_thailand_japan, 'Hong Kong, Thailand and Japan').
+region_label(southeast_europe, 'Southeast Europe').
+region_label(tel_aviv, 'Tel Aviv').
+region_label(dubai_doha_muscat, 'Dubai, Doha, Muscat').
+region_label(southeast_asia_or_northern_africa, 'Southeast Asia or Northern Africa').
+region_label(new_zealand, 'New Zealand').
+region_label(intra_usa, 'Intra-USA Short Haul').
+region_label(new_york_and_boston, 'New York and Boston').
+region_label(los_angeles, 'Los Angeles').
+region_label(east_coast_usa, 'East Coast USA').
+
+%! region_pair(?From, ?To, ?Category, ?Rates) is nondet.
+%  "Between X and Y", so the pair is symmetric and src/earn/qff.pl tries it
+%  both ways round rather than this file listing each row twice.
+region_pair(sydney_melbourne_brisbane_gold_coast, west_coast_usa_canada, discount_economy,
+            [ rate(points, fixed(4500)),
+              rate(status_credits, fixed(45)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, west_coast_usa_canada, economy,
+            [ rate(points, fixed(6750)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, west_coast_usa_canada, flexible_economy,
+            [ rate(points, fixed(9000)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, west_coast_usa_canada, premium_economy,
+            [ rate(points, fixed(9000)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, west_coast_usa_canada, business,
+            [ rate(points, fixed(13500)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, west_coast_usa_canada, first,
+            [ rate(points, fixed(18000)),
+              rate(status_credits, fixed(270)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, east_coast_usa_canada, discount_economy,
+            [ rate(points, fixed(6200)),
+              rate(status_credits, fixed(70)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, east_coast_usa_canada, economy,
+            [ rate(points, fixed(9300)),
+              rate(status_credits, fixed(95)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, east_coast_usa_canada, flexible_economy,
+            [ rate(points, fixed(12400)),
+              rate(status_credits, fixed(140)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, east_coast_usa_canada, premium_economy,
+            [ rate(points, fixed(12400)),
+              rate(status_credits, fixed(140)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, east_coast_usa_canada, business,
+            [ rate(points, fixed(18600)),
+              rate(status_credits, fixed(280)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, east_coast_usa_canada, first,
+            [ rate(points, fixed(24800)),
+              rate(status_credits, fixed(420)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dallas, discount_economy,
+            [ rate(points, fixed(4900)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dallas, economy,
+            [ rate(points, fixed(7350)),
+              rate(status_credits, fixed(70)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dallas, flexible_economy,
+            [ rate(points, fixed(9800)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dallas, premium_economy,
+            [ rate(points, fixed(9800)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dallas, business,
+            [ rate(points, fixed(14700)),
+              rate(status_credits, fixed(200)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dallas, first,
+            [ rate(points, fixed(19600)),
+              rate(status_credits, fixed(300)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, santiago, discount_economy,
+            [ rate(points, fixed(1750)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, santiago, economy,
+            [ rate(points, fixed(3500)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, santiago, flexible_economy,
+            [ rate(points, fixed(7000)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, santiago, premium_economy,
+            [ rate(points, fixed(7700)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, santiago, business,
+            [ rate(points, fixed(8750)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, santiago, first,
+            [ rate(points, fixed(10500)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, hong_kong, discount_economy,
+            [ rate(points, fixed(1100)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, hong_kong, economy,
+            [ rate(points, fixed(2250)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, hong_kong, flexible_economy,
+            [ rate(points, fixed(4500)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, hong_kong, premium_economy,
+            [ rate(points, fixed(4950)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, hong_kong, business,
+            [ rate(points, fixed(5600)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, hong_kong, first,
+            [ rate(points, fixed(6750)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, malaysia, discount_economy,
+            [ rate(points, fixed(1000)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, malaysia, economy,
+            [ rate(points, fixed(2000)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, malaysia, flexible_economy,
+            [ rate(points, fixed(4000)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, malaysia, premium_economy,
+            [ rate(points, fixed(4400)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, malaysia, business,
+            [ rate(points, fixed(5000)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, malaysia, first,
+            [ rate(points, fixed(6000)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, thailand, discount_economy,
+            [ rate(points, fixed(1100)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, thailand, economy,
+            [ rate(points, fixed(2250)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, thailand, flexible_economy,
+            [ rate(points, fixed(4500)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, thailand, premium_economy,
+            [ rate(points, fixed(4950)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, thailand, business,
+            [ rate(points, fixed(5600)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, thailand, first,
+            [ rate(points, fixed(6750)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, japan, discount_economy,
+            [ rate(points, fixed(1200)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, japan, economy,
+            [ rate(points, fixed(2400)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, japan, flexible_economy,
+            [ rate(points, fixed(4800)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, japan, premium_economy,
+            [ rate(points, fixed(5300)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, japan, business,
+            [ rate(points, fixed(6000)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, japan, first,
+            [ rate(points, fixed(7200)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, singapore, discount_economy,
+            [ rate(points, fixed(1000)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, singapore, economy,
+            [ rate(points, fixed(2000)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, singapore, flexible_economy,
+            [ rate(points, fixed(4000)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, singapore, premium_economy,
+            [ rate(points, fixed(4400)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, singapore, business,
+            [ rate(points, fixed(5000)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, singapore, first,
+            [ rate(points, fixed(6000)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, china, discount_economy,
+            [ rate(points, fixed(1225)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, china, economy,
+            [ rate(points, fixed(2450)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, china, flexible_economy,
+            [ rate(points, fixed(4900)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, china, premium_economy,
+            [ rate(points, fixed(5400)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, china, business,
+            [ rate(points, fixed(6125)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, china, first,
+            [ rate(points, fixed(7350)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, sri_lanka, discount_economy,
+            [ rate(points, fixed(1100)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, sri_lanka, economy,
+            [ rate(points, fixed(2250)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, sri_lanka, flexible_economy,
+            [ rate(points, fixed(4500)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, sri_lanka, premium_economy,
+            [ rate(points, fixed(4950)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, sri_lanka, business,
+            [ rate(points, fixed(5600)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, sri_lanka, first,
+            [ rate(points, fixed(6750)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dubai, discount_economy,
+            [ rate(points, fixed(1850)),
+              rate(status_credits, none) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dubai, economy,
+            [ rate(points, fixed(3700)),
+              rate(status_credits, none) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dubai, flexible_economy,
+            [ rate(points, fixed(7400)),
+              rate(status_credits, none) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dubai, premium_economy,
+            [ rate(points, fixed(8140)),
+              rate(status_credits, none) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dubai, business,
+            [ rate(points, fixed(9250)),
+              rate(status_credits, none) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, dubai, first,
+            [ rate(points, fixed(11100)),
+              rate(status_credits, none) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, doha, discount_economy,
+            [ rate(points, fixed(1850)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, doha, economy,
+            [ rate(points, fixed(3700)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, doha, flexible_economy,
+            [ rate(points, fixed(7400)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, doha, premium_economy,
+            [ rate(points, fixed(7400)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, doha, business,
+            [ rate(points, fixed(7400)),
+              rate(status_credits, fixed(80)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, doha, first,
+            [ rate(points, fixed(9250)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, western_europe, discount_economy,
+            [ rate(points, fixed(2625)),
+              rate(status_credits, fixed(35)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, western_europe, economy,
+            [ rate(points, fixed(5250)),
+              rate(status_credits, fixed(35)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, western_europe, flexible_economy,
+            [ rate(points, fixed(10500)),
+              rate(status_credits, fixed(70)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, western_europe, premium_economy,
+            [ rate(points, fixed(11500)),
+              rate(status_credits, fixed(70)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, western_europe, business,
+            [ rate(points, fixed(13125)),
+              rate(status_credits, fixed(140)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, western_europe, first,
+            [ rate(points, fixed(15750)),
+              rate(status_credits, fixed(210)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, new_zealand_or_papua_new_guinea, discount_economy,
+            [ rate(points, fixed(375)),
+              rate(status_credits, fixed(10)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, new_zealand_or_papua_new_guinea, economy,
+            [ rate(points, fixed(750)),
+              rate(status_credits, fixed(10)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, new_zealand_or_papua_new_guinea, flexible_economy,
+            [ rate(points, fixed(1500)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, new_zealand_or_papua_new_guinea, premium_economy,
+            [ rate(points, fixed(1650)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, new_zealand_or_papua_new_guinea, business,
+            [ rate(points, fixed(1875)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, new_zealand_or_papua_new_guinea, first,
+            [ rate(points, fixed(2250)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, fiji, discount_economy,
+            [ rate(points, fixed(450)),
+              rate(status_credits, fixed(10)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, fiji, economy,
+            [ rate(points, fixed(900)),
+              rate(status_credits, fixed(10)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, fiji, flexible_economy,
+            [ rate(points, fixed(1800)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, fiji, premium_economy,
+            [ rate(points, fixed(1980)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, fiji, business,
+            [ rate(points, fixed(2250)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(sydney_melbourne_brisbane_gold_coast, fiji, first,
+            [ rate(points, fixed(2700)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(perth, hong_kong, discount_economy,
+            [ rate(points, fixed(950)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(perth, hong_kong, economy,
+            [ rate(points, fixed(1875)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(perth, hong_kong, flexible_economy,
+            [ rate(points, fixed(3750)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(perth, hong_kong, premium_economy,
+            [ rate(points, fixed(4125)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(perth, hong_kong, business,
+            [ rate(points, fixed(4700)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(perth, hong_kong, first,
+            [ rate(points, fixed(5650)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(perth, singapore, discount_economy,
+            [ rate(points, fixed(625)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(perth, singapore, economy,
+            [ rate(points, fixed(1250)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(perth, singapore, flexible_economy,
+            [ rate(points, fixed(2500)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(perth, singapore, premium_economy,
+            [ rate(points, fixed(2750)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(perth, singapore, business,
+            [ rate(points, fixed(3200)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(perth, singapore, first,
+            [ rate(points, fixed(3750)),
+              rate(status_credits, fixed(150)) ]).
+region_pair(perth, malaysia, discount_economy,
+            [ rate(points, fixed(625)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(perth, malaysia, economy,
+            [ rate(points, fixed(1250)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(perth, malaysia, flexible_economy,
+            [ rate(points, fixed(2500)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(perth, malaysia, premium_economy,
+            [ rate(points, fixed(2750)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(perth, malaysia, business,
+            [ rate(points, fixed(3200)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(perth, malaysia, first,
+            [ rate(points, fixed(3750)),
+              rate(status_credits, fixed(150)) ]).
+region_pair(perth, dubai, discount_economy,
+            [ rate(points, fixed(1400)),
+              rate(status_credits, none) ]).
+region_pair(perth, dubai, economy,
+            [ rate(points, fixed(2800)),
+              rate(status_credits, none) ]).
+region_pair(perth, dubai, flexible_economy,
+            [ rate(points, fixed(5600)),
+              rate(status_credits, none) ]).
+region_pair(perth, dubai, premium_economy,
+            [ rate(points, fixed(6160)),
+              rate(status_credits, none) ]).
+region_pair(perth, dubai, business,
+            [ rate(points, fixed(7000)),
+              rate(status_credits, none) ]).
+region_pair(perth, dubai, first,
+            [ rate(points, fixed(8400)),
+              rate(status_credits, none) ]).
+region_pair(perth, doha, discount_economy,
+            [ rate(points, fixed(1450)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(perth, doha, economy,
+            [ rate(points, fixed(2900)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(perth, doha, flexible_economy,
+            [ rate(points, fixed(5800)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(perth, doha, premium_economy,
+            [ rate(points, fixed(5800)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(perth, doha, business,
+            [ rate(points, fixed(5800)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(perth, doha, first,
+            [ rate(points, fixed(7250)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(adelaide, hong_kong, discount_economy,
+            [ rate(points, fixed(1100)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(adelaide, hong_kong, economy,
+            [ rate(points, fixed(2150)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(adelaide, hong_kong, flexible_economy,
+            [ rate(points, fixed(4300)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(adelaide, hong_kong, premium_economy,
+            [ rate(points, fixed(4750)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(adelaide, hong_kong, business,
+            [ rate(points, fixed(5400)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(adelaide, hong_kong, first,
+            [ rate(points, fixed(6500)),
+              rate(status_credits, fixed(150)) ]).
+region_pair(adelaide, malaysia, discount_economy,
+            [ rate(points, fixed(850)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(adelaide, malaysia, economy,
+            [ rate(points, fixed(1750)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(adelaide, malaysia, flexible_economy,
+            [ rate(points, fixed(3500)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(adelaide, malaysia, premium_economy,
+            [ rate(points, fixed(3800)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(adelaide, malaysia, business,
+            [ rate(points, fixed(4400)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(adelaide, malaysia, first,
+            [ rate(points, fixed(5250)),
+              rate(status_credits, fixed(150)) ]).
+region_pair(adelaide, doha, discount_economy,
+            [ rate(points, fixed(1750)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(adelaide, doha, economy,
+            [ rate(points, fixed(3500)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(adelaide, doha, flexible_economy,
+            [ rate(points, fixed(7000)),
+              rate(status_credits, fixed(45)) ]).
+region_pair(adelaide, doha, premium_economy,
+            [ rate(points, fixed(7000)),
+              rate(status_credits, fixed(45)) ]).
+region_pair(adelaide, doha, business,
+            [ rate(points, fixed(7000)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(adelaide, doha, first,
+            [ rate(points, fixed(8750)),
+              rate(status_credits, fixed(135)) ]).
+region_pair(adelaide, dubai, discount_economy,
+            [ rate(points, fixed(1725)),
+              rate(status_credits, none) ]).
+region_pair(adelaide, dubai, economy,
+            [ rate(points, fixed(3450)),
+              rate(status_credits, none) ]).
+region_pair(adelaide, dubai, flexible_economy,
+            [ rate(points, fixed(6900)),
+              rate(status_credits, none) ]).
+region_pair(adelaide, dubai, premium_economy,
+            [ rate(points, fixed(7590)),
+              rate(status_credits, none) ]).
+region_pair(adelaide, dubai, business,
+            [ rate(points, fixed(8625)),
+              rate(status_credits, none) ]).
+region_pair(adelaide, dubai, first,
+            [ rate(points, fixed(10350)),
+              rate(status_credits, none) ]).
+region_pair(cairns, hong_kong, discount_economy,
+            [ rate(points, fixed(850)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(cairns, hong_kong, economy,
+            [ rate(points, fixed(1700)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(cairns, hong_kong, flexible_economy,
+            [ rate(points, fixed(3400)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(cairns, hong_kong, premium_economy,
+            [ rate(points, fixed(3740)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(cairns, hong_kong, business,
+            [ rate(points, fixed(4250)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(cairns, hong_kong, first,
+            [ rate(points, fixed(5100)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(western_europe, thailand, discount_economy,
+            [ rate(points, fixed(1450)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, thailand, economy,
+            [ rate(points, fixed(2950)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, thailand, flexible_economy,
+            [ rate(points, fixed(5900)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, thailand, premium_economy,
+            [ rate(points, fixed(6500)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, thailand, business,
+            [ rate(points, fixed(7400)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(western_europe, thailand, first,
+            [ rate(points, fixed(8900)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(western_europe, hong_kong, discount_economy,
+            [ rate(points, fixed(1475)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, hong_kong, economy,
+            [ rate(points, fixed(2950)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, hong_kong, flexible_economy,
+            [ rate(points, fixed(5900)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, hong_kong, premium_economy,
+            [ rate(points, fixed(6500)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, hong_kong, business,
+            [ rate(points, fixed(7400)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(western_europe, hong_kong, first,
+            [ rate(points, fixed(8900)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(western_europe, malaysia, discount_economy,
+            [ rate(points, fixed(1625)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, malaysia, economy,
+            [ rate(points, fixed(3250)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, malaysia, flexible_economy,
+            [ rate(points, fixed(6500)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, malaysia, premium_economy,
+            [ rate(points, fixed(7150)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, malaysia, business,
+            [ rate(points, fixed(8125)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(western_europe, malaysia, first,
+            [ rate(points, fixed(9750)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(western_europe, japan, discount_economy,
+            [ rate(points, fixed(1475)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, japan, economy,
+            [ rate(points, fixed(2950)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, japan, flexible_economy,
+            [ rate(points, fixed(5900)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, japan, premium_economy,
+            [ rate(points, fixed(6500)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, japan, business,
+            [ rate(points, fixed(7400)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(western_europe, japan, first,
+            [ rate(points, fixed(8900)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(western_europe, singapore, discount_economy,
+            [ rate(points, fixed(1625)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, singapore, economy,
+            [ rate(points, fixed(3250)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, singapore, flexible_economy,
+            [ rate(points, fixed(6500)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, singapore, premium_economy,
+            [ rate(points, fixed(7150)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, singapore, business,
+            [ rate(points, fixed(8125)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(western_europe, singapore, first,
+            [ rate(points, fixed(9750)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(western_europe, china, discount_economy,
+            [ rate(points, fixed(1375)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, china, economy,
+            [ rate(points, fixed(2750)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, china, flexible_economy,
+            [ rate(points, fixed(5500)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, china, premium_economy,
+            [ rate(points, fixed(6050)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(western_europe, china, business,
+            [ rate(points, fixed(6875)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(western_europe, china, first,
+            [ rate(points, fixed(8250)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(western_europe, sri_lanka, discount_economy,
+            [ rate(points, fixed(1300)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, sri_lanka, economy,
+            [ rate(points, fixed(2600)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, sri_lanka, flexible_economy,
+            [ rate(points, fixed(5200)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, sri_lanka, premium_economy,
+            [ rate(points, fixed(5700)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, sri_lanka, business,
+            [ rate(points, fixed(6500)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(western_europe, sri_lanka, first,
+            [ rate(points, fixed(7800)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(western_europe, dubai, discount_economy,
+            [ rate(points, fixed(800)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(western_europe, dubai, economy,
+            [ rate(points, fixed(1600)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(western_europe, dubai, flexible_economy,
+            [ rate(points, fixed(3200)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, dubai, premium_economy,
+            [ rate(points, fixed(3520)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, dubai, business,
+            [ rate(points, fixed(4000)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, dubai, first,
+            [ rate(points, fixed(4800)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(western_europe, doha, discount_economy,
+            [ rate(points, fixed(750)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(western_europe, doha, economy,
+            [ rate(points, fixed(1500)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(western_europe, doha, flexible_economy,
+            [ rate(points, fixed(3000)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, doha, premium_economy,
+            [ rate(points, fixed(3000)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, doha, business,
+            [ rate(points, fixed(3000)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, doha, first,
+            [ rate(points, fixed(3750)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(western_europe, muscat, discount_economy,
+            [ rate(points, fixed(900)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(western_europe, muscat, economy,
+            [ rate(points, fixed(1800)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(western_europe, muscat, flexible_economy,
+            [ rate(points, fixed(3600)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, muscat, premium_economy,
+            [ rate(points, fixed(4000)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(western_europe, muscat, business,
+            [ rate(points, fixed(5000)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(western_europe, muscat, first,
+            [ rate(points, fixed(6000)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(northern_europe, hong_kong_thailand_japan, discount_economy,
+            [ rate(points, fixed(1225)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, hong_kong_thailand_japan, economy,
+            [ rate(points, fixed(2450)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, hong_kong_thailand_japan, flexible_economy,
+            [ rate(points, fixed(4900)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(northern_europe, hong_kong_thailand_japan, premium_economy,
+            [ rate(points, fixed(5400)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(northern_europe, hong_kong_thailand_japan, business,
+            [ rate(points, fixed(6125)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(northern_europe, hong_kong_thailand_japan, first,
+            [ rate(points, fixed(7350)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(northern_europe, singapore, discount_economy,
+            [ rate(points, fixed(1425)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, singapore, economy,
+            [ rate(points, fixed(2850)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, singapore, flexible_economy,
+            [ rate(points, fixed(5700)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(northern_europe, singapore, premium_economy,
+            [ rate(points, fixed(6300)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(northern_europe, singapore, business,
+            [ rate(points, fixed(7125)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(northern_europe, singapore, first,
+            [ rate(points, fixed(8550)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(northern_europe, china, discount_economy,
+            [ rate(points, fixed(1050)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, china, economy,
+            [ rate(points, fixed(2125)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, china, flexible_economy,
+            [ rate(points, fixed(4250)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(northern_europe, china, premium_economy,
+            [ rate(points, fixed(4675)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(northern_europe, china, business,
+            [ rate(points, fixed(5325)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(northern_europe, china, first,
+            [ rate(points, fixed(6375)),
+              rate(status_credits, fixed(180)) ]).
+region_pair(northern_europe, dubai, discount_economy,
+            [ rate(points, fixed(750)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(northern_europe, dubai, economy,
+            [ rate(points, fixed(1500)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(northern_europe, dubai, flexible_economy,
+            [ rate(points, fixed(3000)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, dubai, premium_economy,
+            [ rate(points, fixed(3300)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, dubai, business,
+            [ rate(points, fixed(3750)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(northern_europe, dubai, first,
+            [ rate(points, fixed(4500)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(northern_europe, doha, discount_economy,
+            [ rate(points, fixed(750)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(northern_europe, doha, economy,
+            [ rate(points, fixed(1500)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(northern_europe, doha, flexible_economy,
+            [ rate(points, fixed(3000)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, doha, premium_economy,
+            [ rate(points, fixed(3000)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, doha, business,
+            [ rate(points, fixed(3000)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(northern_europe, doha, first,
+            [ rate(points, fixed(3750)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(northern_europe, muscat, discount_economy,
+            [ rate(points, fixed(800)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(northern_europe, muscat, economy,
+            [ rate(points, fixed(1600)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(northern_europe, muscat, flexible_economy,
+            [ rate(points, fixed(3200)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, muscat, premium_economy,
+            [ rate(points, fixed(3800)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(northern_europe, muscat, business,
+            [ rate(points, fixed(4500)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(northern_europe, muscat, first,
+            [ rate(points, fixed(5550)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(southeast_europe, dubai, discount_economy,
+            [ rate(points, fixed(500)),
+              rate(status_credits, none) ]).
+region_pair(southeast_europe, dubai, economy,
+            [ rate(points, fixed(1000)),
+              rate(status_credits, none) ]).
+region_pair(southeast_europe, dubai, flexible_economy,
+            [ rate(points, fixed(2000)),
+              rate(status_credits, none) ]).
+region_pair(southeast_europe, dubai, premium_economy,
+            [ rate(points, fixed(2200)),
+              rate(status_credits, none) ]).
+region_pair(southeast_europe, dubai, business,
+            [ rate(points, fixed(2500)),
+              rate(status_credits, none) ]).
+region_pair(southeast_europe, dubai, first,
+            [ rate(points, fixed(3000)),
+              rate(status_credits, none) ]).
+region_pair(southeast_europe, doha, discount_economy,
+            [ rate(points, fixed(450)),
+              rate(status_credits, fixed(10)) ]).
+region_pair(southeast_europe, doha, economy,
+            [ rate(points, fixed(900)),
+              rate(status_credits, fixed(10)) ]).
+region_pair(southeast_europe, doha, flexible_economy,
+            [ rate(points, fixed(1800)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(southeast_europe, doha, premium_economy,
+            [ rate(points, fixed(1800)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(southeast_europe, doha, business,
+            [ rate(points, fixed(1800)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(southeast_europe, doha, first,
+            [ rate(points, fixed(2250)),
+              rate(status_credits, fixed(75)) ]).
+region_pair(southeast_europe, muscat, discount_economy,
+            [ rate(points, fixed(520)),
+              rate(status_credits, fixed(10)) ]).
+region_pair(southeast_europe, muscat, economy,
+            [ rate(points, fixed(1030)),
+              rate(status_credits, fixed(10)) ]).
+region_pair(southeast_europe, muscat, flexible_economy,
+            [ rate(points, fixed(2050)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(southeast_europe, muscat, premium_economy,
+            [ rate(points, fixed(2300)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(southeast_europe, muscat, business,
+            [ rate(points, fixed(3000)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(southeast_europe, muscat, first,
+            [ rate(points, fixed(3600)),
+              rate(status_credits, fixed(75)) ]).
+region_pair(tel_aviv, hong_kong, discount_economy,
+            [ rate(points, fixed(1200)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(tel_aviv, hong_kong, economy,
+            [ rate(points, fixed(2400)),
+              rate(status_credits, fixed(15)) ]).
+region_pair(tel_aviv, hong_kong, flexible_economy,
+            [ rate(points, fixed(4800)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(tel_aviv, hong_kong, premium_economy,
+            [ rate(points, fixed(5250)),
+              rate(status_credits, fixed(30)) ]).
+region_pair(tel_aviv, hong_kong, business,
+            [ rate(points, fixed(6000)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(tel_aviv, hong_kong, first,
+            [ rate(points, fixed(7200)),
+              rate(status_credits, fixed(90)) ]).
+region_pair(dubai_doha_muscat, southeast_asia_or_northern_africa, discount_economy,
+            [ rate(points, fixed(850)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(dubai_doha_muscat, southeast_asia_or_northern_africa, economy,
+            [ rate(points, fixed(1700)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(dubai_doha_muscat, southeast_asia_or_northern_africa, flexible_economy,
+            [ rate(points, fixed(3400)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(dubai_doha_muscat, southeast_asia_or_northern_africa, premium_economy,
+            [ rate(points, fixed(3750)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(dubai_doha_muscat, southeast_asia_or_northern_africa, business,
+            [ rate(points, fixed(4250)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(dubai_doha_muscat, southeast_asia_or_northern_africa, first,
+            [ rate(points, fixed(5100)),
+              rate(status_credits, fixed(150)) ]).
+region_pair(dubai_doha_muscat, new_zealand, discount_economy,
+            [ rate(points, fixed(1875)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(dubai_doha_muscat, new_zealand, economy,
+            [ rate(points, fixed(3750)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(dubai_doha_muscat, new_zealand, flexible_economy,
+            [ rate(points, fixed(7500)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(dubai_doha_muscat, new_zealand, premium_economy,
+            [ rate(points, fixed(8250)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(dubai_doha_muscat, new_zealand, business,
+            [ rate(points, fixed(9400)),
+              rate(status_credits, fixed(80)) ]).
+region_pair(dubai_doha_muscat, new_zealand, first,
+            [ rate(points, fixed(11250)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(east_coast_usa_canada, west_coast_usa_canada, discount_economy,
+            [ rate(points, fixed(625)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(east_coast_usa_canada, west_coast_usa_canada, economy,
+            [ rate(points, fixed(1250)),
+              rate(status_credits, fixed(35)) ]).
+region_pair(east_coast_usa_canada, west_coast_usa_canada, flexible_economy,
+            [ rate(points, fixed(2500)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(east_coast_usa_canada, west_coast_usa_canada, premium_economy,
+            [ rate(points, fixed(2750)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(east_coast_usa_canada, west_coast_usa_canada, business,
+            [ rate(points, fixed(3125)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(east_coast_usa_canada, west_coast_usa_canada, first,
+            [ rate(points, fixed(3750)),
+              rate(status_credits, fixed(150)) ]).
+region_pair(dallas, new_york_and_boston, discount_economy,
+            [ rate(points, fixed(500)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(dallas, new_york_and_boston, economy,
+            [ rate(points, fixed(750)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(dallas, new_york_and_boston, flexible_economy,
+            [ rate(points, fixed(1500)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(dallas, new_york_and_boston, premium_economy,
+            [ rate(points, fixed(1650)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(dallas, new_york_and_boston, business,
+            [ rate(points, fixed(1875)),
+              rate(status_credits, fixed(80)) ]).
+region_pair(dallas, new_york_and_boston, first,
+            [ rate(points, fixed(2250)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(dallas, west_coast_usa_canada, discount_economy,
+            [ rate(points, fixed(625)),
+              rate(status_credits, fixed(25)) ]).
+region_pair(dallas, west_coast_usa_canada, economy,
+            [ rate(points, fixed(1250)),
+              rate(status_credits, fixed(35)) ]).
+region_pair(dallas, west_coast_usa_canada, flexible_economy,
+            [ rate(points, fixed(2500)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(dallas, west_coast_usa_canada, premium_economy,
+            [ rate(points, fixed(2750)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(dallas, west_coast_usa_canada, business,
+            [ rate(points, fixed(3125)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(dallas, west_coast_usa_canada, first,
+            [ rate(points, fixed(3750)),
+              rate(status_credits, fixed(150)) ]).
+region_pair(new_zealand, santiago, discount_economy,
+            [ rate(points, fixed(1375)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(new_zealand, santiago, economy,
+            [ rate(points, fixed(2750)),
+              rate(status_credits, fixed(20)) ]).
+region_pair(new_zealand, santiago, flexible_economy,
+            [ rate(points, fixed(5500)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(new_zealand, santiago, premium_economy,
+            [ rate(points, fixed(6050)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(new_zealand, santiago, business,
+            [ rate(points, fixed(6875)),
+              rate(status_credits, fixed(80)) ]).
+region_pair(new_zealand, santiago, first,
+            [ rate(points, fixed(8250)),
+              rate(status_credits, fixed(120)) ]).
+region_pair(new_zealand, los_angeles, discount_economy,
+            [ rate(points, fixed(4000)),
+              rate(status_credits, fixed(40)) ]).
+region_pair(new_zealand, los_angeles, economy,
+            [ rate(points, fixed(6000)),
+              rate(status_credits, fixed(55)) ]).
+region_pair(new_zealand, los_angeles, flexible_economy,
+            [ rate(points, fixed(8000)),
+              rate(status_credits, fixed(80)) ]).
+region_pair(new_zealand, los_angeles, premium_economy,
+            [ rate(points, fixed(8250)),
+              rate(status_credits, fixed(80)) ]).
+region_pair(new_zealand, los_angeles, business,
+            [ rate(points, fixed(12000)),
+              rate(status_credits, fixed(160)) ]).
+region_pair(new_zealand, los_angeles, first,
+            [ rate(points, fixed(16000)),
+              rate(status_credits, fixed(240)) ]).
+region_pair(new_zealand, dallas, discount_economy,
+            [ rate(points, fixed(4250)),
+              rate(status_credits, fixed(45)) ]).
+region_pair(new_zealand, dallas, economy,
+            [ rate(points, fixed(6375)),
+              rate(status_credits, fixed(60)) ]).
+region_pair(new_zealand, dallas, flexible_economy,
+            [ rate(points, fixed(8500)),
+              rate(status_credits, fixed(85)) ]).
+region_pair(new_zealand, dallas, premium_economy,
+            [ rate(points, fixed(8500)),
+              rate(status_credits, fixed(85)) ]).
+region_pair(new_zealand, dallas, business,
+            [ rate(points, fixed(12750)),
+              rate(status_credits, fixed(170)) ]).
+region_pair(new_zealand, dallas, first,
+            [ rate(points, fixed(17000)),
+              rate(status_credits, fixed(250)) ]).
+region_pair(new_zealand, east_coast_usa, discount_economy,
+            [ rate(points, fixed(5200)),
+              rate(status_credits, fixed(50)) ]).
+region_pair(new_zealand, east_coast_usa, economy,
+            [ rate(points, fixed(7925)),
+              rate(status_credits, fixed(70)) ]).
+region_pair(new_zealand, east_coast_usa, flexible_economy,
+            [ rate(points, fixed(10650)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(new_zealand, east_coast_usa, premium_economy,
+            [ rate(points, fixed(10650)),
+              rate(status_credits, fixed(100)) ]).
+region_pair(new_zealand, east_coast_usa, business,
+            [ rate(points, fixed(16100)),
+              rate(status_credits, fixed(200)) ]).
+region_pair(new_zealand, east_coast_usa, first,
+            [ rate(points, fixed(21550)),
+              rate(status_credits, fixed(300)) ]).
+
+%! region_pair_band(?Region, ?Band, ?Category, ?Rates) is nondet.
+%  Intra-USA Short Haul: a group of the region table that is itself banded on
+%  distance, with both endpoints in the one region. It is why route_basis/5
+%  returns an opaque basis rather than "a region pair, else a band".
+region_pair_band(intra_usa, band(1, 400), discount_economy,
+                 [ rate(points, fixed(100)),
+                   rate(status_credits, fixed(10)) ]).
+region_pair_band(intra_usa, band(1, 400), economy,
+                 [ rate(points, fixed(125)),
+                   rate(status_credits, fixed(10)) ]).
+region_pair_band(intra_usa, band(1, 400), flexible_economy,
+                 [ rate(points, fixed(250)),
+                   rate(status_credits, fixed(20)) ]).
+region_pair_band(intra_usa, band(1, 400), premium_economy,
+                 [ rate(points, fixed(300)),
+                   rate(status_credits, fixed(20)) ]).
+region_pair_band(intra_usa, band(1, 400), business,
+                 [ rate(points, fixed(400)),
+                   rate(status_credits, fixed(40)) ]).
+region_pair_band(intra_usa, band(1, 400), first,
+                 [ rate(points, fixed(500)),
+                   rate(status_credits, fixed(60)) ]).
+region_pair_band(intra_usa, band(401, 750), discount_economy,
+                 [ rate(points, fixed(150)),
+                   rate(status_credits, fixed(10)) ]).
+region_pair_band(intra_usa, band(401, 750), economy,
+                 [ rate(points, fixed(300)),
+                   rate(status_credits, fixed(10)) ]).
+region_pair_band(intra_usa, band(401, 750), flexible_economy,
+                 [ rate(points, fixed(600)),
+                   rate(status_credits, fixed(20)) ]).
+region_pair_band(intra_usa, band(401, 750), premium_economy,
+                 [ rate(points, fixed(660)),
+                   rate(status_credits, fixed(20)) ]).
+region_pair_band(intra_usa, band(401, 750), business,
+                 [ rate(points, fixed(750)),
+                   rate(status_credits, fixed(40)) ]).
+region_pair_band(intra_usa, band(401, 750), first,
+                 [ rate(points, fixed(900)),
+                   rate(status_credits, fixed(60)) ]).
+
+%! region_pair_edges(-Edges) is det.
+region_pair_edges([400, 750]).

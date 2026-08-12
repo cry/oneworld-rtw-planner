@@ -1,0 +1,70 @@
+{
+  "source": "https://www.qantas.com/en-au/frequent-flyer/calculators/earning-tables/region-definitions",
+  "fetched": "2026-08-11",
+  "note": "The regions named by the row and column labels of qff-regions.json. Countries are given by name on the page; the ISO 3166-1 alpha-2 codes here are this repository's, and are what data/earn/qff/regions.pl is generated against. This taxonomy is not physical geography and is not the fare rule's: see 'Northern Africa' below, which reaches Kenya, Uganda, Somalia and the Seychelles.",
+  "cityRegions": {
+    "west_coast_usa_canada": {
+      "label": "West Coast USA/Canada",
+      "places": ["LAS", "LAX", "PHX", "SFO", "SEA", "YVR"],
+      "names": ["Las Vegas", "Los Angeles", "Phoenix", "San Francisco", "Seattle", "Vancouver"]
+    },
+    "east_coast_usa_canada": {
+      "label": "East Coast USA/Canada",
+      "places": ["BOS", "CLT", "CHI", "MIA", "NYC", "MCO", "YTO", "WAS"],
+      "names": ["Boston", "Charlotte", "Chicago", "Miami", "New York", "Orlando", "Toronto", "Washington DC"]
+    },
+    "new_york_and_boston": {
+      "label": "New York and Boston",
+      "places": ["JFK", "LGA", "EWR", "BOS"],
+      "names": ["John F Kennedy", "La Guardia", "Newark", "Boston"]
+    }
+  },
+  "countryRegions": {
+    "western_europe": {
+      "label": "Western Europe",
+      "countries": ["AT", "BE", "CZ", "DE", "DK", "ES", "FR", "GB", "IE", "IT", "NL", "PT", "CH"]
+    },
+    "northern_europe": {
+      "label": "Northern Europe",
+      "countries": ["FI", "NO", "SE"]
+    },
+    "southeast_europe": {
+      "label": "Southeast Europe",
+      "countries": ["GR", "TR", "CY"]
+    },
+    "southeast_asia": {
+      "label": "Southeast Asia",
+      "countries": ["BN", "BT", "KH", "CC", "ID", "LA", "MY", "MM", "PH", "SG", "TH", "TL", "VN"]
+    },
+    "northeast_asia": {
+      "label": "Northeast Asia",
+      "countries": ["CN", "HK", "JP", "MO", "MN", "KP", "KR", "TW"]
+    },
+    "northern_africa": {
+      "label": "Northern Africa",
+      "countries": ["BF", "DZ", "BJ", "CV", "CF", "TD", "CD", "DJ", "EG", "GQ", "ER", "ET",
+                    "GM", "GH", "GN", "GW", "CI", "KE", "LR", "LY", "ML", "MA", "NE", "NG",
+                    "CM", "ST", "SN", "SC", "SL", "SO", "SS", "SD", "TG", "TN", "UG"]
+    }
+  },
+  "unions": {
+    "europe": ["southeast_europe", "northern_europe", "western_europe"]
+  },
+  "undefinedOnThePage": {
+    "note": "Row labels in qff-regions.json that the definitions page does not define, because they are a country or a city and stand for themselves.",
+    "labels": ["Dallas", "Santiago", "Hong Kong", "Japan", "Singapore", "Malaysia", "Thailand",
+               "China", "Sri Lanka", "Dubai", "Doha", "Muscat", "Tel Aviv", "Fiji",
+               "New Zealand or Papua New Guinea", "Los Angeles", "East Coast USA",
+               "New York, Newark or Boston", "Sydney, Melbourne, Brisbane, Gold Coast",
+               "Perth", "Adelaide", "Cairns"]
+  },
+  "qantasAndJetstarBands": {
+    "note": "The band boundaries for Qantas- and Jetstar-marketed flights. Kept for completeness; an Explorer fare is priced off the partner table in qff-bands.json, which has its own boundaries and its own numbers.",
+    "domesticAustralia": [
+      { "key": "short",  "max": 750 },
+      { "key": "medium", "min": 751, "max": 1500 },
+      { "key": "long",   "min": 1501 }
+    ],
+    "otherBands": [0, 750, 1500, 2500, 3500, 5000, 6500]
+  }
+}

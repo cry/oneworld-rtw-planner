@@ -25,3 +25,8 @@ web/app.src.css
 web/map.src.js
 web/check-contrast.mjs
 web/rtw.build.json
+
+# The raw earning-table captures are the generators' input, not the validator's.
+# The .pl files built from them are what gets loaded, and those are committed
+# alongside; see prolog/data/earn/sources/README.md.
+prolog/data/earn/sources

@@ -167,10 +167,18 @@ function show(next, { focus = false } = {}) {
     if (on && focus) tab.focus();
   }
   // The Routing tab is one text field and belongs in a sidebar. The Segments tab
-  // is an eleven-column table and does not, so the form takes half the width
+  // is a thirteen-column table and does not, so the form takes half the width
   // while it is open. Toggling a class rather than restyling in place keeps the
   // two widths in the stylesheet where the rest of the layout lives.
   $('layout').classList.toggle('wide-form', next === 'segments');
+  // The table is wider than its container and the browser keeps a scroll offset
+  // from while the panel was hidden, which lands the reader mid-table with the
+  // segment numbers off to the left. It only became visible once the class and
+  // fare columns pushed the table over the width, but it was always there.
+  if (next === 'segments') {
+    const box = document.querySelector('#panel-segments .scroll-x');
+    if (box) box.scrollLeft = 0;
+  }
   syncUrl();
 }
 
@@ -194,10 +202,20 @@ document.querySelectorAll('.jump-segments').forEach(b =>
 document.querySelectorAll('.jump-routing').forEach(b =>
   b.addEventListener('click', () => show('routing', { focus: true })));
 
+// Everything the page knows about earning programmes comes from the validator's
+// own programme list -- the names, the currencies, the fare families and the
+// provenance. The page names none of them, for the same reason it hardcodes no
+// rule: a second copy is the one that goes out of date.
+let PROGRAMS = [];
+let FAMILIES = [];
+let chosen = null;   // null until the list arrives; then a Set of programme ids
+const tiers = new Map();   // programme id -> the member's tier, when they have one
+
 // --- the segment table -----------------------------------------------------
 
 const blank = () =>
-  ({ type: 'flight', from: '', to: '', marketing: '', operating: '', flight: '', dep: '', arr: '', stop: '' });
+  ({ type: 'flight', from: '', to: '', marketing: '', operating: '', flight: '',
+     dep: '', arr: '', stop: '', class: '', family: '' });
 
 const timesGiven = () => $('times').value === 'full';
 
@@ -216,6 +234,7 @@ function render() {
     const last = i === rows.length - 1;
     const off = surface ? 'disabled' : '';
     const opt = (v, label) => `<option value="${v}"${r.stop === v ? ' selected' : ''}>${label}</option>`;
+    const fam = (v, label) => `<option value="${v}"${r.family === v ? ' selected' : ''}>${label}</option>`;
 
     tr.innerHTML = `
       <td class="mono py-1 pr-1 text-[11px] text-muted">${i + 1}</td>
@@ -248,6 +267,14 @@ function render() {
       <td class="py-1 pr-2">
         <input class="code-input w-[5.6rem]" data-f="flight" name="flight-${i}" value="${esc(r.flight)}" ${off}
                aria-label="Segment ${i + 1} flight number"></td>
+      <td class="py-1 pr-2">
+        <input class="code-input w-[2.9rem]" data-f="class" name="class-${i}" value="${esc(r.class)}" ${off}
+               maxlength="1" aria-label="Segment ${i + 1} booking class"></td>
+      <td class="c-fare py-1 pr-2">
+        <select class="field-select w-[6.6rem]" data-f="family" name="family-${i}" ${off}
+                aria-label="Segment ${i + 1} fare family">
+          ${fam('', 'not stated')}${FAMILIES.map(f => fam(f, f)).join('')}
+        </select></td>
       <td class="c-when py-1 pr-2">
         <input class="field mono w-[11.5rem] text-[12px]" type="datetime-local" data-f="dep" name="dep-${i}"
                value="${esc(r.dep)}" ${off} aria-label="Segment ${i + 1} departure"></td>
@@ -324,6 +351,8 @@ function buildRequest(routeString) {
       if (mkt && op && mkt.toUpperCase() === op.toUpperCase()) s.carrier = mkt;
       else { if (mkt) s.marketingCarrier = mkt; if (op) s.operatingCarrier = op; }
       if (r.flight.trim()) s.flight = r.flight.trim();
+      if (r.class.trim()) s.bookingClass = r.class.trim().toUpperCase();
+      if (r.family) s.fareFamily = r.family;
       // The server refuses times sent in routing mode rather than discarding them
       // behind the user's back, so they are withheld here.
       if (!routing) { if (r.dep) s.dep = r.dep; if (r.arr) s.arr = r.arr; }
@@ -360,9 +389,18 @@ function markFresh() {
   $('stale').classList.add('hidden');
 }
 
+// A class or a fare family is authored data on a row that may still be derived:
+// the routing regenerates every other cell exactly, and it has no notation for
+// either of these. So editing one leaves the rows derived and the link readable,
+// and the two values ride along in `b` and `f` instead of dragging the whole
+// table into `s` as two kilobytes of base64.
+const AUTHORED_ELSEWHERE = new Set(['class', 'family']);
+
 for (const ev of ['input', 'change']) {
   document.getElementById('itinerary-heading').parentElement.addEventListener(ev, e => {
-    if (e.target.closest('#panel-segments')) segmentsDerived = false;
+    if (e.target.closest('#panel-segments') && !AUTHORED_ELSEWHERE.has(e.target.dataset.f)) {
+      segmentsDerived = false;
+    }
     markStale();
     syncUrl();
   });
@@ -382,8 +420,22 @@ async function validate(routeString) {
     else {
       // A routing that parsed becomes rows in the Segments tab, using the
       // validator's own reading of it, so it can be refined without retyping.
-      if (routeString) adoptSegments(res.data.annotations);
+      if (routeString) {
+        adoptSegments(res.data.annotations);
+        // A link may have carried classes for a routing whose rows only exist
+        // now that it has been parsed.
+        if (pendingClasses || pendingFamilies) { applyPositional(); render(); }
+      }
       renderReport(res.data, body);
+      // Earning is asked separately. It runs no fare rules, so it is answered
+      // even when the verdict is invalid -- being unable to sell a ticket does
+      // not stop it earning.
+      //
+      // Always from the rows, never from the routing string, even when the
+      // routing is what was validated: a routing has no notation for a booking
+      // class, and the rows adopted from it are the validator's own reading of
+      // the same journey with the classes attached.
+      await earn(rows.length ? buildRequest() : body);
     }
   } catch (e) {
     $('report').innerHTML = `
@@ -399,6 +451,8 @@ async function validate(routeString) {
 
 function renderError(data, body) {
   markFresh();
+  $('context-panel').classList.add('hidden');
+  $('context').innerHTML = '';
   announce(`Refused: ${data.message || data.error || 'error'}`);
   $('report').innerHTML = `
     <div class="settle">
@@ -444,7 +498,6 @@ function renderReport(data, body) {
       ${violationList(v)}
       ${notCheckedList(nc)}
       ${checkList(checks, v)}
-      ${connections(ann)}
 
       <div class="border-t border-rule">
         ${disclosure('Itinerary sent', JSON.stringify(body, null, 2))}
@@ -452,7 +505,187 @@ function renderReport(data, body) {
       </div>
     </div>`;
 
+  // How each point was classified, and the map, in their own panel so they can
+  // sit beside the verdict rather than under it.
+  const context = connections(ann);
+  $('context').innerHTML = context;
+  $('context-panel').classList.toggle('hidden', !context);
+
   drawMap(ann);
+}
+
+async function earn(body) {
+  if (!chosen || chosen.size === 0) { $('earn-panel').classList.add('hidden'); return; }
+  const asked = { ...body, programs: [...chosen] };
+  if (tiers.size) {
+    asked.members = Object.fromEntries([...tiers].map(([id, tier]) => [id, { tier }]));
+  }
+  try {
+    const res = await RTWApi.earn(asked);
+    if (res.ok) renderEarn(res.data);
+    else earnUnavailable(res.data.message || 'This itinerary could not be priced.');
+  } catch (e) {
+    earnUnavailable(`The validator did not answer. ${e.message}`);
+  }
+}
+
+// --- earning ---------------------------------------------------------------
+
+// A number the reader is meant to be able to check, so every one of them says
+// which row it came from. Four shapes, and none of the three that is not a
+// number may be shown as one: a range is two rates the input could not choose
+// between, `no` is a rate the table publishes as nothing, and an unknown is a
+// rate nobody stated. A 0 would misreport all three, and differently.
+function amount(a, currencies, program) {
+  const name = (currencies.find(c => c.key === a.currency) || {}).name || a.currency;
+  if (a.known === 'range') return `${num(a.low)}–${num(a.high)} ${esc(name)}`;
+  if (a.known === 'published_as_none') return `no ${esc(name)}`;
+  if (a.known !== 'known') return `? ${esc(name)}`;
+  // A figure with a status bonus in it shows the bonus. The base rate is what
+  // the published table says and the bonus is what the member's card adds --
+  // two facts from two sources, and a reader checking either needs both.
+  if (a.bonus > 0) {
+    return `${num(a.value)} ${esc(name)} <span class="text-muted">(${num(a.base)} + ${num(a.bonus)} ${esc(tierName(program, a.tier))})</span>`;
+  }
+  return `${num(a.value)} ${esc(name)}`;
+}
+
+function tierName(program, key) {
+  const p = PROGRAMS.find(x => x.id === (program || {}).id);
+  const t = ((p || {}).tiers || []).find(x => x.key === key);
+  return t ? t.name : key;
+}
+
+const num = (n) => Number(n).toLocaleString('en-US');
+
+function total(t, currencies) {
+  const name = (currencies.find(c => c.key === t.currency) || {}).name || t.currency;
+  // Nothing resolved at all. "0+" is arithmetically true and reads as a figure,
+  // which is the one thing this total must not do when no sector was priced.
+  if (t.lowerBound && t.high === 0) {
+    return `<span class="text-muted">no ${esc(name)} priced</span>
+            <span class="text-muted">(${t.unpricedSegments} ${t.unpricedSegments === 1 ? 'sector' : 'sectors'})</span>`;
+  }
+  const figure = t.amount === null ? `${num(t.low)}–${num(t.high)}` : num(t.amount);
+  // The lower bound is said in the same breath as the number. A footnote would
+  // let the total be read off the line above it, which is the whole failure this
+  // is here to prevent.
+  return t.lowerBound
+    ? `<span class="mono font-semibold">${figure}+</span> ${esc(name)}
+       <span class="text-muted">(${t.unpricedSegments} unpriced)</span>`
+    : `<span class="mono font-semibold">${figure}</span> ${esc(name)}`;
+}
+
+const EARN_OUTCOME = {
+  ok: { word: 'ok', cls: 'text-muted' },
+  indeterminate: { word: 'undecided', cls: 'text-warn' },
+  not_applicable: { word: 'n/a', cls: 'text-muted' },
+};
+
+// A reason that applies to six sectors is one fact, not six. Repeating it once
+// per row pushed the priced sectors -- the ones a reader came for -- off the
+// bottom of a panel filled with the same sentence, and made a journey where
+// nothing could be priced look like six different problems. Sectors that could
+// not be priced are grouped by the reason they could not, in the order the
+// reason first appears, and the priced ones keep their own rows.
+function earnGroups(segments) {
+  const byReason = new Map();
+  const out = [];
+  for (const r of segments) {
+    if (r.outcome === 'ok' || !r.reason) { out.push({ rows: [r] }); continue; }
+    const key = `${r.outcome}\u0000${r.reason}`;
+    const seen = byReason.get(key);
+    if (seen) { seen.rows.push(r); continue; }
+    const group = { rows: [r], reason: r.reason, outcome: r.outcome };
+    byReason.set(key, group);
+    out.push(group);
+  }
+  return out;
+}
+
+function earnRows(p) {
+  return `<table class="w-full border-collapse text-[12.5px]">
+    <tbody>${earnGroups(p.segments).map(g => {
+      const [r] = g.rows;
+      const look = EARN_OUTCOME[r.outcome] || EARN_OUTCOME.indeterminate;
+      const figures = r.amounts.length
+        ? r.amounts.map(a => amount(a, p.currencies, p)).join(' · ')
+        : `<span class="${look.cls}">${esc(r.reason || look.word)}</span>`;
+      // The row it was read off, under the figure it produced. This is the earn
+      // register, and it is on by default for the same reason the check register
+      // exists: a number nobody can trace is worse than no number.
+      const basis = r.outcome === 'ok'
+        ? `${esc(r.bucket)}${r.bucketBasis ? ` <span class="text-muted">(${esc(r.bucketBasis)})</span>` : ''}
+           · ${esc(r.routeBasis)} · ${num(r.distanceMiles)} mi${
+             r.nearBoundaryMiles ? ` <span class="text-warn">· within 1.5% of the ${num(r.nearBoundaryMiles)}-mile edge</span>` : ''}`
+        : '';
+      return `<tr class="border-t border-rule align-baseline">
+        <td class="mono w-6 py-1 pr-1 text-[11px] text-muted">${g.rows.map(x => x.segment).join('<br>')}</td>
+        <td class="mono w-[5.5rem] py-1 pr-2 text-[12px]">${g.rows.map(x => `${esc(x.from)}–${esc(x.to)}`).join('<br>')}</td>
+        <td class="py-1">
+          <div>${figures}</div>
+          ${basis ? `<div class="mt-0.5 text-[11.5px] text-muted">${basis}</div>` : ''}
+          ${r.assumption ? `<div class="mt-0.5 text-[11.5px] text-warn">${esc(r.assumption)}</div>` : ''}
+        </td>
+      </tr>`;
+    }).join('')}</tbody></table>`;
+}
+
+function earnProgram(p) {
+  const priced = p.segments.some(r => r.outcome === 'ok');
+  return `<div class="border-t border-rule first:border-t-0 px-4 py-2.5">
+    <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+      <p class="text-[13px] font-semibold">${esc(p.name)}</p>
+      <p class="text-[13px]">${p.totals.map(t => total(t, p.currencies)).join(' · ')}</p>
+    </div>
+    ${priced || p.segments.length
+      ? `<details open class="group mt-1">
+           <!-- Open, unlike the check register. A total nobody can trace is the
+                failure this whole panel exists to avoid, and the register is
+                what makes one traceable; it is also beside the verdict now
+                rather than below it, so it costs nobody a scroll. -->
+           <summary class="label cursor-pointer select-none">
+             <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
+             Per segment
+           </summary>
+           <div class="scroll-x mt-1">${earnRows(p)}</div>
+           <!-- The first note is the one that must never be a click away: it says
+                the figure is an estimate. The rest is provenance -- which tables,
+                read when, and what they do not cover -- which a reader wants when
+                checking a number and not while reading one, and which had grown
+                into the tallest thing in this panel. -->
+           <p class="mt-2 text-[11.5px] leading-[1.6] text-muted">${esc(p.notes[0] || '')}</p>
+           ${p.notes.length > 1 || p.sources.length ? `
+             <details class="group mt-1">
+               <summary class="label cursor-pointer select-none text-[10.5px]">
+                 <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
+                 Where these came from
+               </summary>
+               <p class="mt-1 text-[11.5px] leading-[1.6] text-muted">
+                 ${p.notes.slice(1).map(esc).join(' ')}
+                 ${p.sources.map(x => `The <a class="underline underline-offset-2" href="${esc(x.url)}" rel="noreferrer">${esc(x.table.replace(/_/g, ' '))} table</a> was read ${esc(x.fetched)}.`).join(' ')}
+               </p>
+             </details>` : ''}
+         </details>`
+      : ''}
+  </div>`;
+}
+
+function renderEarn(data) {
+  const panel = $('earn-panel');
+  const programs = (data && data.programs) || [];
+  if (!programs.length) { panel.classList.add('hidden'); return; }
+  panel.classList.remove('hidden');
+  // No ranking between programmes, and deliberately: a mile and a Status Point
+  // are not commensurable without a valuation, and a valuation is an opinion.
+  // They are listed, not scored.
+  $('earn').innerHTML = programs.map(earnProgram).join('');
+}
+
+function earnUnavailable(message) {
+  $('earn-panel').classList.remove('hidden');
+  $('earn').innerHTML =
+    `<p class="px-4 py-3 text-[13px] text-muted">${esc(message)}</p>`;
 }
 
 // The map is drawn after the report's markup is in the document, because it
@@ -470,11 +703,14 @@ function drawMap(ann) {
 
 // Hovering a connection lights up the same airport on the map. Cheap, and the
 // alternative is counting dots along a route that crosses itself.
-document.getElementById('report').addEventListener('mouseover', e => {
+// On #answer rather than #report: the connections table and the map it lights
+// up now live in a sibling panel, and one listener over both is simpler than
+// two that have to stay in step.
+document.getElementById('answer').addEventListener('mouseover', e => {
   const row = e.target.closest('tr[data-airport]');
   highlight(row && row.dataset.airport);
 });
-document.getElementById('report').addEventListener('mouseout', e => {
+document.getElementById('answer').addEventListener('mouseout', e => {
   if (e.target.closest('tr[data-airport]')) highlight(null);
 });
 
@@ -616,7 +852,7 @@ function connections(ann) {
   const points = ann.points || [];
   if (!points.length) return '';
   return `
-    <details open class="group border-t border-rule">
+    <details open class="group">
       <summary class="label cursor-pointer select-none px-4 py-2">
         <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
         Connections (${points.length})
@@ -703,7 +939,8 @@ function loadItinerary(it) {
     operating: s.operatingCarrier || s.carrier || '',
     flight: s.flight || '',
     dep: s.dep || '', arr: s.arr || '',
-    stop: s.stop || ''
+    stop: s.stop || '',
+    class: s.bookingClass || '', family: s.fareFamily || ''
   }));
   render();
   show('segments');
@@ -718,12 +955,19 @@ const hasTimes = it => (it.segments || []).some(s => s.dep || s.arr);
 function adoptSegments(ann) {
   if (!ann || !ann.segments) return;
   segmentsDerived = true;
-  rows = ann.segments.map(s => ({
+  // A class or a fare family typed against a routing survives it being
+  // re-validated. The routing regenerates every other cell and has no notation
+  // for these two, so dropping them would silently discard the only thing on
+  // the row the user actually typed.
+  const kept = rows.length === ann.segments.length ? rows : null;
+  rows = ann.segments.map((s, i) => ({
     type: s.type, from: s.from || '', to: s.to || '',
     marketing: s.marketingCarrier || '', operating: s.operatingCarrier || '',
     flight: s.flight && s.flight !== 'unknown' ? s.flight : '',
     dep: s.dep || '', arr: s.arr || '',
-    stop: s.stop || ''
+    stop: s.stop || '',
+    class: s.bookingClass || (kept ? kept[i].class : ''),
+    family: s.fareFamily || (kept ? kept[i].family : '')
   }));
   $('times').value = ann.mode === 'full' ? 'full' : 'routing';
   if (ann.origin) $('origin').value = ann.origin;
@@ -731,6 +975,75 @@ function adoptSegments(ann) {
   $('composed').classList.add('hidden');
   $('adopted').classList.remove('hidden');
 }
+
+// --- the programme picker --------------------------------------------------
+
+// Built from the validator's own list. Every programme is on by default, which
+// is also what the validator does with an empty list -- "where should I credit
+// this ticket?" is the question having more than one is for, and it cannot be
+// asked one programme at a time.
+function buildPicker(programs) {
+  PROGRAMS = programs;
+  FAMILIES = [...new Set(programs.flatMap(p => p.fareFamilies || []))];
+  chosen = new Set(
+    pendingPrograms
+      ? pendingPrograms.filter(id => programs.some(p => p.id === id))
+      : programs.map(p => p.id));
+  if (chosen.size === 0) chosen = new Set(programs.map(p => p.id));
+  pendingPrograms = null;
+  for (const [id, tier] of pendingTiers || []) {
+    const p = programs.find(x => x.id === id);
+    if (p && (p.tiers || []).some(t => t.key === tier)) tiers.set(id, tier);
+  }
+  pendingTiers = null;
+
+  // No programme prices a fare family, so the column would be a control with
+  // nothing behind it.
+  $('segtable').classList.toggle('hide-fare', FAMILIES.length === 0);
+
+  // A tier changes what a journey earns, so it sits with the programme it
+  // belongs to rather than in a settings drawer. A programme that publishes no
+  // tiers gets no control, which is again the validator's answer and not a
+  // decision made here.
+  $('programs').innerHTML = programs.map(p => `
+    <span class="flex items-center gap-1.5">
+      <label class="flex cursor-pointer items-center gap-1.5 text-[12px]">
+        <input type="checkbox" class="prog accent-accent" value="${esc(p.id)}"
+               ${chosen.has(p.id) ? 'checked' : ''}>
+        ${esc(p.name)}
+      </label>
+      ${p.tiers && p.tiers.length ? `
+        <select class="tier field-select h-6 w-[8.5rem] py-0 text-[11.5px]" data-prog="${esc(p.id)}"
+                aria-label="${esc(p.name)} membership tier">
+          <option value="">no status</option>
+          ${p.tiers.map(t => `<option value="${esc(t.key)}"${tiers.get(p.id) === t.key ? ' selected' : ''}>${esc(t.name)}</option>`).join('')}
+        </select>` : ''}
+    </span>`).join('');
+
+  $('programs').querySelectorAll('.tier').forEach(sel => {
+    sel.addEventListener('change', () => {
+      if (sel.value) tiers.set(sel.dataset.prog, sel.value);
+      else tiers.delete(sel.dataset.prog);
+      syncUrl();
+      if (reported) reprice();
+    });
+  });
+
+  $('programs').querySelectorAll('.prog').forEach(box => {
+    box.addEventListener('change', () => {
+      if (box.checked) chosen.add(box.value); else chosen.delete(box.value);
+      syncUrl();
+      // Re-priced rather than marked stale: the itinerary did not change, only
+      // which programmes were asked about, and the answer is one call away.
+      if (reported) reprice();
+    });
+  });
+  render();
+}
+
+// The rows always, never the routing string: a routing has no notation for a
+// booking class and the rows carry one. Same reason as in validate().
+const reprice = () => earn(rows.length ? buildRequest() : buildRequest($('route').value.trim()));
 
 // --- colour scheme ---------------------------------------------------------
 
@@ -802,7 +1115,8 @@ const unb64url = s =>
 // Positional rather than keyed, and trailing blanks are dropped: a keyed object
 // would roughly double a sixteen-segment URL for no gain, since nothing but this
 // file ever reads it.
-const FIELDS = ['type', 'from', 'to', 'marketing', 'operating', 'flight', 'dep', 'arr', 'stop'];
+const FIELDS = ['type', 'from', 'to', 'marketing', 'operating', 'flight', 'dep', 'arr', 'stop',
+                'class', 'family'];
 
 function encodeSegments() {
   const payload = {
@@ -839,6 +1153,10 @@ function decodeSegments(text) {
 // clears the moment the table is touched directly, because from then on it holds
 // something -- a date, a flight number -- the routing cannot express.
 let segmentsDerived = false;
+let pendingPrograms = null;
+let pendingTiers = null;
+let pendingClasses = null;
+let pendingFamilies = null;
 let booted = false;
 let urlTimer = null;
 let pendingTab = null;
@@ -860,13 +1178,45 @@ function writeUrl() {
   const authored = rows.length > 0 && !segmentsDerived;
   if (route) parts.push('r=' + enc(route));
   if (authored) parts.push('s=' + encodeSegments());
+  // Only for derived rows: `s` already carries these positionally when the table
+  // was authored, and writing them twice could put two answers in one link.
+  // One character per segment, so ?r=LHR-BA-JFK-AA-LHR&b=DDD stays readable --
+  // which is most of what keeps a routing link worth sharing.
+  if (!authored && rows.length) {
+    const classes = positional(rows.map(r => (r.class || '').toUpperCase().slice(0, 1)));
+    const families = positional(rows.map(r => familyLetter(r.family)));
+    if (classes) parts.push('b=' + enc(classes));
+    if (families) parts.push('f=' + enc(families));
+  }
   if (view === 'segments' && (authored || route)) parts.push('t=s');
   if ($('cabin').value !== CABIN_DEFAULT) parts.push('c=' + enc($('cabin').value));
   if ($('pax').value !== PAX_DEFAULT) parts.push('p=' + enc($('pax').value));
+  // Absent means every registered programme, which is also the validator's own
+  // default, so the common case adds nothing to the link.
+  if (chosen && chosen.size !== PROGRAMS.length) parts.push('g=' + enc([...chosen].join(',')));
+  if (tiers.size) parts.push('m=' + enc([...tiers].map(([id, t]) => `${id}:${t}`).join(',')));
 
   const query = parts.join('&');
   history.replaceState(null, '', query ? '?' + query : location.pathname);
 }
+
+// A dash holds a gap so the string stays positional, and a run of them at the
+// end is dropped. All dashes means nothing was stated and the parameter is
+// omitted entirely.
+const positional = (cells) => {
+  const out = cells.map(c => c || '-');
+  while (out.length && out[out.length - 1] === '-') out.pop();
+  return out.join('');
+};
+
+// Families are written by initial, which is unambiguous across everything any
+// registered programme publishes and is checked to be -- a two-character
+// encoding would make the parameter longer than the routing beside it.
+const familyLetter = (family) =>
+  family && FAMILIES.includes(family) ? family[0].toUpperCase() : '';
+
+const familyFromLetter = (letter) =>
+  FAMILIES.find(f => f[0].toUpperCase() === letter) || '';
 
 // Returns the routing to validate, null to validate the segment table, or
 // undefined when the URL carried no itinerary at all.
@@ -888,6 +1238,16 @@ function readUrl() {
     catch (e) { rows = []; }
   }
 
+  if (q.has('g')) pendingPrograms = q.get('g').split(',').filter(Boolean);
+  // Checked against what each programme publishes once the list arrives, not
+  // here: a tier this page has never heard of is the validator's to refuse.
+  if (q.has('m')) pendingTiers = q.get('m').split(',').map(p => p.split(':')).filter(p => p.length === 2);
+  // Held until the rows exist -- a routing has to be validated before there are
+  // any rows for its classes to land on.
+  pendingClasses = q.get('b') || null;
+  pendingFamilies = q.get('f') || null;
+  if (haveSegments) applyPositional();
+
   const segmentsActive = haveSegments && (q.get('t') === 's' || !route);
   show(segmentsActive ? 'segments' : 'routing');
 
@@ -900,6 +1260,24 @@ function readUrl() {
     return route;
   }
   return undefined;
+}
+
+// The `b` and `f` parameters name a class and a family per segment, and the
+// segments they name may not exist yet: a routing has to be parsed first. So
+// they are held and applied to whatever rows end up on the page.
+function applyPositional() {
+  if (pendingClasses) {
+    [...pendingClasses].forEach((c, i) => {
+      if (rows[i] && c !== '-') rows[i].class = c;
+    });
+  }
+  if (pendingFamilies) {
+    [...pendingFamilies].forEach((c, i) => {
+      if (rows[i] && c !== '-') rows[i].family = familyFromLetter(c);
+    });
+  }
+  pendingClasses = null;
+  pendingFamilies = null;
 }
 
 // --- wiring ----------------------------------------------------------------
@@ -1035,6 +1413,13 @@ RTWApi.ruleset()
     buttons().forEach(b => { b.disabled = false; });
     $('status').textContent = '';
   });
+
+// The programme list is what the earning column, the fare-family select and the
+// picker are all built from, so the page carries no copy of any programme's
+// name, currencies or fare families.
+RTWApi.programs()
+  .then(res => { if (res.ok) buildPicker(res.data.programs || []); })
+  .catch(() => { /* the page still validates; it just cannot price */ });
 
 // The URL is read before anything renders, because render() is one of the things
 // that writes it back and would otherwise erase the link that was just opened.

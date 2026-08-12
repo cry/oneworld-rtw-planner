@@ -16,6 +16,7 @@
 :- use_module('data/transcon').
 :- use_module('data/au_pairs').
 :- use_module('data/surcharges').
+:- use_module('data/booking_codes').
 
 :- use_module('src/geo').
 :- use_module('src/carriers').
@@ -27,15 +28,24 @@
 :- use_module('src/validate').
 :- use_module('src/explain').
 
+% What a routing earns, which runs no fare rules and is a separate question
+% from whether it may be sold. src/earn/registry.pl is the one file that names
+% the programmes; the kernel names none of them. See PLANS/05-loyalty-earning.md.
+:- use_module('src/earn/kernel').
+:- use_module('src/earn/registry').
+:- use_module('src/earn/explain').
+
 :- use_module('src/io/route_in').
 :- use_module('src/io/route_out').
 :- use_module('src/io/json_in').
 :- use_module('src/io/json_out').
+:- use_module('src/io/earn_out').
 
 % Rule modules export nothing. Loading them is what registers their clauses of
 % validate:violation/2; there is no other registry.
 :- use_module('src/rules/r00_continents').
 :- use_module('src/rules/r04_routing').
+:- use_module('src/rules/r05_booking').
 :- use_module('src/rules/r06_min_stay').
 :- use_module('src/rules/r07_max_stay').
 :- use_module('src/rules/r08_stopovers').
@@ -54,4 +64,6 @@
 :- ensure_loaded('test/test_rules').
 :- ensure_loaded('test/test_route').
 :- ensure_loaded('test/test_json').
+:- ensure_loaded('test/earn/conformance').
+:- ensure_loaded('test/test_earn').
 :- endif.

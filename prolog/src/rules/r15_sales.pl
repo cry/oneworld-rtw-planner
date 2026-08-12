@@ -111,11 +111,17 @@ validate:check(A, Check) :-
 
 % Ticket stock is a separate section 15 provision and does not depend on the
 % routing, so it is reported as a warning against the marketing carriers used.
-validate:violation(A, v(jq_stock_conflict, '15', warning, Msg, [segments([N])])) :-
-    jetstar_segment(A, N),
+% One violation however many sectors: it is a fact about the ticket rather than
+% about a sector, and one QF/JQ sector settles it for the whole ticket.
+validate:violation(A, v(jq_stock_conflict, '15', warning, Msg, [segments(Ns)])) :-
+    findall(N, jetstar_segment(A, N), Ns),
+    Ns \== [],
+    segments_phrase(Ns, upper, Where),
+    length(Ns, Count),
+    agree(Count, 'is', 'are', Is),
     format(atom(Msg),
-           'Segment ~w is QF marketed and JQ operated, so IB and WY ticket stock cannot be used for this ticket.',
-           [N]).
+           '~w ~w QF marketed and JQ operated, so IB and WY ticket stock cannot be used for this ticket.',
+           [Where, Is]).
 
 jetstar_segment(A, N) :-
     ann_seg(A, S),

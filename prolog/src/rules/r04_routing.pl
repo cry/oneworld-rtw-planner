@@ -711,44 +711,72 @@ validate:check(A, chk(dup_sector, '4(i)', 'Repeated sectors', Detail,
 % 4(j): carriers, affiliates and codeshares
 % ===========================================================================
 
+% Grouped by the carrier, not reported once per segment: four sectors on one
+% ineligible airline are one thing wrong with the ticket, and four copies of
+% the same sentence bury whatever else the report has to say. Two ineligible
+% airlines stay two violations, because those are two facts.
 validate:violation(A, v(carrier_not_eligible, '4(j)', error, Msg,
-                        [segments([N]), carrier(U)])) :-
-    ann_seg(A, S),
-    S.type == flight,
-    Mkt = S.marketing,
-    Mkt \== unknown,
-    \+ eligible_carrier(Mkt),
-    N = S.n,
+                        [segments(Ns), carrier(U)])) :-
+    ineligible_marketing(A, Mkt),
+    findall(N, ( ann_seg(A, S), S.type == flight, S.marketing == Mkt, N = S.n ), Ns),
     iata(Mkt, U),
+    segments_phrase(Ns, upper, Where),
+    length(Ns, Count),
+    agree(Count, 'is', 'are', Is),
     format(atom(Msg),
-           'Segment ~w is marketed by ~w, which is not one of the carriers this fare applies on.',
-           [N, U]).
+           '~w ~w marketed by ~w, which is not one of the carriers this fare applies on.',
+           [Where, Is, U]).
 
+ineligible_marketing(A, Mkt) :-
+    findall(M, ( ann_seg(A, S), S.type == flight, M = S.marketing,
+                 M \== unknown, \+ eligible_carrier(M) ), Ms),
+    sort(Ms, Distinct),
+    member(Mkt, Distinct).
+
+% Grouped by the pair, for the same reason: the marketing and operating carriers
+% together are the fact, and a codeshare flown on several sectors is one of them.
 validate:violation(A, v(codeshare_not_permitted, '4(j)', error, Msg,
-                        [segments([N]), carrier(UM), operator(UO)])) :-
-    ann_seg(A, S),
-    S.type == flight,
-    Mkt = S.marketing, Op = S.operating,
-    Mkt \== unknown, Op \== unknown,
-    eligible_carrier(Mkt),
-    \+ permitted_operator(Mkt, Op),
-    N = S.n,
+                        [segments(Ns), carrier(UM), operator(UO)])) :-
+    bad_codeshare(A, Mkt, Op),
+    findall(N, ( ann_seg(A, S), S.type == flight,
+                 S.marketing == Mkt, S.operating == Op, N = S.n ), Ns),
     iata(Mkt, UM), iata(Op, UO),
+    segments_phrase(Ns, upper, Where),
+    length(Ns, Count),
+    agree(Count, 'is', 'are', Is),
     format(atom(Msg),
-           'Segment ~w is marketed by ~w but operated by ~w, which 4(j) does not permit.',
-           [N, UM, UO]).
+           '~w ~w marketed by ~w but operated by ~w, which 4(j) does not permit.',
+           [Where, Is, UM, UO]).
+
+bad_codeshare(A, Mkt, Op) :-
+    findall(M-O,
+            (   ann_seg(A, S), S.type == flight,
+                M = S.marketing, O = S.operating,
+                M \== unknown, O \== unknown,
+                eligible_carrier(M),
+                \+ permitted_operator(M, O)
+            ),
+            Pairs),
+    sort(Pairs, Distinct),
+    member(Mkt-Op, Distinct).
 
 % Carrier eligibility cannot be decided without knowing who actually operates
 % the flight, so an absent operating carrier is a warning, not a pass.
-validate:violation(A, v(operator_unknown, '4(j)', warning, Msg, [segments([N])])) :-
-    ann_seg(A, S),
-    S.type == flight,
-    S.marketing \== unknown,
-    S.operating == unknown,
-    N = S.n,
+%
+% Aggregated, like marketing_carrier_missing below it and for the same reason:
+% an itinerary given without operating carriers at all is one omission, not one
+% per sector.
+validate:violation(A, v(operator_unknown, '4(j)', warning, Msg, [segments(Ns)])) :-
+    findall(N, ( ann_seg(A, S), S.type == flight,
+                 S.marketing \== unknown, S.operating == unknown, N = S.n ), Ns),
+    Ns \== [],
+    segments_phrase(Ns, upper, Where),
+    length(Ns, Count),
+    agree(Count, 'does', 'do', Does),
+    agree(Count, 'its', 'their', Their),
     format(atom(Msg),
-           'Segment ~w does not state an operating carrier, so its codeshare eligibility under 4(j) was not checked.',
-           [N]).
+           '~w ~w not state an operating carrier, so ~w codeshare eligibility under 4(j) was not checked.',
+           [Where, Does, Their]).
 
 % Aggregated rather than one warning per segment: a routing given without
 % carriers at all would otherwise bury its real violations under a warning for

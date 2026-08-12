@@ -177,6 +177,11 @@
               <th class="label pb-1.5 pr-2 text-left">Mkt</th>
               <th class="label pb-1.5 pr-2 text-left">Op</th>
               <th class="label pb-1.5 pr-2 text-left">Flight</th>
+              <!-- The class is what section 5(b) is written in and what every
+                   earning table is read against; the fare family is what one of
+                   them cannot price a sector without. Neither is required. -->
+              <th class="label pb-1.5 pr-2 text-left" title="Booking class (RBD)">Cls</th>
+              <th class="label c-fare pb-1.5 pr-2 text-left">Fare</th>
               <th class="label c-when pb-1.5 pr-2 text-left">Departs</th>
               <th class="label c-when pb-1.5 pr-2 text-left">Arrives</th>
               <th class="w-7 pb-1.5"><span class="sr-only">Remove</span></th>
@@ -221,13 +226,18 @@
   </section>
 
   <!-- ============================ report ============================ -->
-  <section class="min-w-0 xl:sticky xl:top-4" aria-labelledby="report-heading">
+  <!-- Two sub-columns on a wide screen, one below it. The verdict and the rules
+       are what the page is for and go first; earning and the map are read after
+       and go beside rather than under, because stacking them put the map -- the
+       tallest thing here by far -- between the reader and everything that came
+       after it. -->
+  <section id="answer" class="min-w-0 xl:sticky xl:top-4" aria-labelledby="report-heading">
     <!-- The heading was a strip of chrome above the panel saying "Report" over
          something that says INVALID in 34px. It still exists for anyone
          navigating by headings; it just does not take a row of the layout. -->
     <h2 id="report-heading" class="sr-only">Report</h2>
 
-    <div class="relative rounded-sm border border-rule bg-panel">
+    <div class="relative min-w-0 rounded-sm border border-rule bg-panel">
       <div id="report"></div>
 
       <!-- Both float over the top-right of the verdict band rather than sitting
@@ -240,6 +250,31 @@
         </p>
         <p id="status" class="mono rounded-xs bg-panel/90 text-[10.5px] text-muted empty:hidden"></p>
       </div>
+    </div>
+
+    <div id="aside" class="min-w-0 space-y-4">
+    <!-- A second panel rather than a section of the report, because earning is a
+         different question: it runs no fare rules, an itinerary that cannot be
+         sold can still be priced for what it would earn, and one that is
+         perfectly valid can be unpriceable. Hidden until the first validation. -->
+    <div id="earn-panel" class="hidden rounded-sm border border-rule bg-panel">
+      <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-rule px-4 py-2">
+        <h2 class="label">Earning</h2>
+        <!-- Filled from the validator's own programme list, so the page names no
+             programme, no currency and no fare family of its own -- the same
+             reason it hardcodes no rule. -->
+        <div id="programs" class="flex flex-wrap items-center gap-x-3 gap-y-1"></div>
+      </div>
+      <div id="earn"></div>
+    </div>
+
+    <!-- How each point was classified, and the map drawn from the same
+         coordinates. Split out of the report panel so it can sit beside the
+         verdict rather than under it: it is the tallest thing on the page and
+         the least often the reason someone opened it. -->
+    <div id="context-panel" class="hidden rounded-sm border border-rule bg-panel">
+      <div id="context"></div>
+    </div>
     </div>
 
     <!-- The report is replaced wholesale on every validation, which a screen

@@ -53,7 +53,41 @@ itinerary_from_json(Dict, Itin) :-
     atom_field(Dict, origin, unknown, Origin),
     cabin(Dict, Cabin),
     passengers(Dict, Passengers),
-    build_itinerary(Origin, Cabin, Passengers, Mode, RawSegs, Itin).
+    members(Dict, Members),
+    build_itinerary(Origin, Cabin, Passengers, Members, Mode, RawSegs, Itin).
+
+% Which loyalty programme the traveller holds status in, and at what tier:
+%
+%   "members": { "qff": { "tier": "gold" } }
+%
+% A bare string is accepted for the same value, because the object exists only
+% to leave room for a membership number nobody has asked for yet.
+%
+% No fare rule reads this. It is here because a tier changes what a journey
+% earns, and the programme ids and tier names are the earning side's to check --
+% this reader deliberately does not know them, so an unknown one is refused by
+% the programme that owns it rather than by a list kept here that would go out
+% of date.
+members(Dict, Members) :-
+    (   get_dict(members, Dict, M), M \== null
+    ->  (   is_dict(M) -> true
+        ;   throw(input_error('"members" must be a JSON object keyed by programme.'))
+        ),
+        dict_pairs(M, _, Pairs),
+        maplist(member_tier, Pairs, Tiers),
+        dict_pairs(Members, members, Tiers)
+    ;   Members = members{}
+    ).
+
+member_tier(Id-Value, Id-Tier) :-
+    (   is_dict(Value)
+    ->  (   get_dict(tier, Value, T), T \== null
+        ->  to_atom(tier, T, Tier)
+        ;   format(atom(M), 'Membership of "~w" must state a "tier".', [Id]),
+            throw(input_error(M))
+        )
+    ;   to_atom(tier, Value, Tier)
+    ).
 
 % One of the two forms, never both: a route string and a segment array that
 % disagreed would leave no principled way to choose between them.
@@ -99,14 +133,14 @@ mode(Dict, Default, Mode) :-
 % times supplied alongside it would make the two rules that need them look
 % unanswerable when the data to answer them was right there.
 check_times_against_mode(routing, RawSegs) :- !,
-    (   member(rseg(_, _, _, _, _, _, _, Dep, Arr, _), RawSegs),
+    (   member(rseg(_, _, _, _, _, _, _, Dep, Arr, _, _, _), RawSegs),
         ( Dep \== unknown ; Arr \== unknown )
     ->  throw(input_error('Segment times are not accepted in routing mode; use mode "full" to have them checked, or remove them.'))
     ;   true
     ).
 check_times_against_mode(_, _).
 
-segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr, Stop)) :-
+segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr, Stop, Class, Family)) :-
     (   is_dict(J) -> true
     ;   throw(input_error('Each entry of "segments" must be a JSON object.'))
     ),
@@ -124,7 +158,35 @@ segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr, Stop)) :-
     verbatim_field(J, flight, unknown, Flight),
     time_field(J, dep, Dep),
     time_field(J, arr, Arr),
-    stop(J, Stop).
+    stop(J, Stop),
+    booking_class(J, Class),
+    fare_family(J, Family).
+
+% The branded fare the segment was sold under. Optional, programme-interpreted,
+% and read by no fare rule: Rule 3015 has nothing to say about a carrier's fare
+% families. It is here because at least one loyalty programme cannot price a
+% sector without it -- Cathay lists the same economy booking classes under Flex,
+% Essential and Light with different earn against each, so the class does not
+% imply the family and there is nothing to derive one from.
+fare_family(J, Family) :-
+    atom_field(J, fareFamily, unknown, Family).
+
+% The class the segment is booked in -- one RBD letter, which is what section
+% 5(b) is written in. Optional: an itinerary that does not carry one still
+% answers every other rule, and 5(b) reports that it had nothing to read rather
+% than guessing a class from the cabin.
+booking_class(J, Class) :-
+    atom_field(J, bookingClass, unknown, C),
+    (   C == unknown
+    ->  Class = unknown
+    ;   atom_length(C, 1), char_type(C, alpha)
+    ->  Class = C
+    ;   upcase_atom(C, U),
+        format(atom(M),
+               'Segment "bookingClass" must be a single booking code letter, not "~w".',
+               [U]),
+        throw(input_error(M))
+    ).
 
 % What kind of point the segment arrives at, when the traveller knows it
 % independently of any clock. `layover` and `connection` are the words people

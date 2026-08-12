@@ -1,0 +1,22 @@
+{
+  "_comment": "lhr_classes with segment 4 sold in L, the CX economy code. 5(b)'s note permits that on a business fare where business is not offered or not available on the flight, which an itinerary cannot show -- so it is flagged and the verdict stays valid.",
+  "origin": "LHR",
+  "cabin": "business",
+  "passengers": [{ "type": "adult" }],
+  "segments": [
+    { "n": 1, "type": "flight", "from": "LHR", "to": "JFK", "carrier": "BA", "flight": "BA117",
+      "dep": "2026-09-01T10:25", "arr": "2026-09-01T13:30", "bookingClass": "D" },
+    { "n": 2, "type": "flight", "from": "JFK", "to": "LAX", "carrier": "AA", "flight": "AA33",
+      "dep": "2026-09-05T08:00", "arr": "2026-09-05T11:15", "bookingClass": "D" },
+    { "n": 3, "type": "flight", "from": "LAX", "to": "NRT", "carrier": "JL", "flight": "JL61",
+      "dep": "2026-09-05T13:30", "arr": "2026-09-06T17:00", "bookingClass": "D" },
+    { "n": 4, "type": "flight", "from": "NRT", "to": "HKG", "carrier": "CX", "flight": "CX521",
+      "dep": "2026-09-10T09:00", "arr": "2026-09-10T13:00", "bookingClass": "L" },
+    { "n": 5, "type": "flight", "from": "HKG", "to": "BKK", "carrier": "CX", "flight": "CX709",
+      "dep": "2026-09-14T10:00", "arr": "2026-09-14T12:00", "bookingClass": "D" },
+    { "n": 6, "type": "flight", "from": "BKK", "to": "DOH", "carrier": "QR", "flight": "QR833",
+      "dep": "2026-09-18T02:00", "arr": "2026-09-18T05:00", "bookingClass": "D" },
+    { "n": 7, "type": "flight", "from": "DOH", "to": "LHR", "carrier": "QR", "flight": "QR3",
+      "dep": "2026-09-18T08:00", "arr": "2026-09-18T13:30", "bookingClass": "D" }
+  ]
+}

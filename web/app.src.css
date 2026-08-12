@@ -231,6 +231,15 @@
 @utility scroll-x {
   overflow-x: auto;
   overscroll-behavior-x: contain;
+  /* An absolutely positioned descendant is laid out against its nearest
+   * positioned ancestor, not against the box that clips it -- so without this,
+   * the `sr-only` labels in the segment table's header (which sr-only makes
+   * absolute) sat at their static position out past 800px, escaped the clip
+   * and gave the whole *page* a horizontal scrollbar on a narrow screen. The
+   * table itself was scrolling correctly the whole time, which is what made it
+   * look like a table problem. Positioning the scroller makes it the
+   * containing block, so what it clips is everything it contains. */
+  position: relative;
   background:
     linear-gradient(to right, var(--color-panel) 40%, transparent) left center / 2.5rem 100% no-repeat local,
     linear-gradient(to left, var(--color-panel) 40%, transparent) right center / 2.5rem 100% no-repeat local,
@@ -283,6 +292,14 @@
   /* Routing-only itineraries have no clock, so the time columns go rather than
    * inviting entries the server will refuse. */
   .hide-when .c-when {
+    display: none;
+  }
+
+  /* A fare family means nothing unless some registered earning programme prices
+   * one, and which programmes are registered is something only /api/programs
+   * knows. So the column is hidden until it answers, and stays hidden if none of
+   * them publishes families -- the page never names a programme to decide it. */
+  .hide-fare .c-fare {
     display: none;
   }
 
@@ -430,6 +447,26 @@
 
   #layout.wide-form {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+/* The answer is two sub-columns once there is room for both to stay readable.
+ * Stacked, the map -- the tallest thing on the page by a wide margin -- sat
+ * between the reader and everything printed after it, which is where the
+ * earning panel ended up. Beside, the scroll is the taller of the two rather
+ * than the sum, and nothing had to be hidden to get there.
+ *
+ * Not while the Segments tab is open: the form takes half the width there, and
+ * splitting what is left would give two columns too narrow for either. */
+#answer {
+  display: grid;
+  gap: 1rem;
+  align-items: start;
+}
+
+@media (width >= 96rem) {
+  #layout:not(.wide-form) #answer {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
   }
 }
 

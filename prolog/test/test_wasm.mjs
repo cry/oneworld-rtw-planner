@@ -14,6 +14,12 @@
 // wording or evidence differs between engines fails here rather than being
 // noticed by a reader months later.
 //
+// Every fixture goes through every operation that takes an itinerary, so `earn`
+// came along for free the moment it became one: its tables, its distances and
+// its reasons for not being able to price a sector are all compared the same
+// way, and a floating-point difference between the two engines would show up
+// here as a changed mileage band rather than as a wrong number on a page.
+//
 // The comparison is *structural*, not textual, and that distinction is the whole
 // reason this file has a diff routine in it. SWI moved JSON out of the HTTP
 // package at version 10: on 9.x wasm.pl falls back to library(http/json), which
@@ -39,18 +45,21 @@ const REPO = path.resolve(HERE, '..', '..');
 const FIXTURES = path.join(HERE, 'fixtures');
 const IMAGE = path.join(REPO, 'web', 'rtw.pvm');
 
-// One line per fixture: the name, a tab, and the reply. width(0) in rtw_call/4
-// keeps a reply on one line, which is what makes a line-oriented comparison
-// safe -- some of these messages are long enough that atom_json_dict would
-// otherwise wrap them.
+// One line per fixture per operation: the operation, a slash, the name, a tab,
+// and the reply. width(0) in rtw_call/4 keeps a reply on one line, which is what
+// makes a line-oriented comparison safe -- some of these messages are long
+// enough that atom_json_dict would otherwise wrap them.
+const OPS = ['validate', 'earn'];
+
 const BASELINE_GOAL = `
     forall(( member(D, ['${FIXTURES}/']), atom_concat(D, '*.json', P),
-             expand_file_name(P, Fs), member(F, Fs) ),
+             expand_file_name(P, Fs), member(F, Fs),
+             member(Op, [${OPS.join(', ')}]) ),
            ( setup_call_cleanup(open(F, read, S),
                                 read_string(S, _, Text), close(S)),
-             rtw_call(validate, Text, _, Out),
+             rtw_call(Op, Text, _, Out),
              file_base_name(F, Base),
-             format("~w\\t~w~n", [Base, Out]) ))`;
+             format("~w/~w\\t~w~n", [Op, Base, Out]) ))`;
 
 function fail(message) {
   console.error(`test:wasm — ${message}`);
@@ -129,34 +138,37 @@ const Module = await SWIPL({
 });
 
 const names = fs.readdirSync(FIXTURES).filter((f) => f.endsWith('.json')).sort();
-if (names.length !== native.size) {
-  fail(`native run covered ${native.size} fixtures but ${names.length} are on disk`);
+const cases = names.flatMap((name) => OPS.map((op) => `${op}/${name}`));
+if (cases.length !== native.size) {
+  fail(`native run covered ${native.size} replies but ${cases.length} are expected ` +
+       `(${names.length} fixtures × ${OPS.length} operations)`);
 }
 
 const differing = [];
-for (const name of names) {
+for (const key of cases) {
+  const [op, name] = [key.slice(0, key.indexOf('/')), key.slice(key.indexOf('/') + 1)];
   const answer = Module.prolog
-    .query('rtw_call(validate, In, Status, Out)',
-           { In: fs.readFileSync(path.join(FIXTURES, name), 'utf8') })
+    .query('rtw_call(Op, In, Status, Out)',
+           { Op: op, In: fs.readFileSync(path.join(FIXTURES, name), 'utf8') })
     .once();
   if (!answer) {
-    differing.push([name, { path: '(reply)', native: 'a report', wasm: 'the query failed' }]);
+    differing.push([key, { path: '(reply)', native: 'a report', wasm: 'the query failed' }]);
     continue;
   }
   let mine, theirs;
   try {
-    theirs = JSON.parse(native.get(name));
+    theirs = JSON.parse(native.get(key));
     mine = JSON.parse(answer.Out);
   } catch (error) {
-    differing.push([name, { path: '(json)', native: 'parseable', wasm: error.message }]);
+    differing.push([key, { path: '(json)', native: 'parseable', wasm: error.message }]);
     continue;
   }
   const found = firstDifference(theirs, mine);
-  if (found) differing.push([name, found]);
+  if (found) differing.push([key, found]);
 }
 
 if (differing.length) {
-  console.error(`test:wasm — ${differing.length} of ${names.length} fixtures differ:\n`);
+  console.error(`test:wasm — ${differing.length} of ${cases.length} replies differ:\n`);
   for (const [name, diff] of differing) {
     console.error(`  ${name} — ${diff.path}`);
     console.error(`    native: ${show(diff.native)}`);
@@ -175,5 +187,5 @@ const nativeVersion = swiVersion(Number(
   execFileSync('swipl', ['-q', '-g', 'current_prolog_flag(version, V), write(V)', '-t', 'halt'],
               { encoding: 'utf8' }).trim()));
 
-console.log(`test:wasm — ${names.length} fixtures identical ` +
-            `(wasm SWI ${wasmVersion} against native SWI ${nativeVersion})`);
+console.log(`test:wasm — ${cases.length} replies identical over ${names.length} fixtures ` +
+            `× ${OPS.join(', ')} (wasm SWI ${wasmVersion} against native SWI ${nativeVersion})`);

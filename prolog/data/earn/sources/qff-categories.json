@@ -1,0 +1,54 @@
+{
+  "source": "https://www.qantas.com/en-au/frequent-flyer/calculators/earning-tables/categories",
+  "fetched": "2026-08-11",
+  "note": "Only the sixteen carriers eligible under Rule 3015 4(j) are kept. Columns are the Qantas Frequent Flyer Earn Categories. '-' means the carrier publishes no class in that category. Footnote markers (^ ~ * # +) are dropped from the class strings and recorded in `caveats`.",
+  "columns": ["discount_economy", "economy", "flexible_economy", "premium_economy", "business", "first"],
+  "carriers": {
+    "qf": {
+      "name": "Qantas",
+      "scope": "international",
+      "columns": ["discount_economy", "economy", "flexible_economy", "discount_premium_economy", "premium_economy", "flexible_premium_economy", "discount_business", "business", "flexible_business", "first"],
+      "international": ["ENOQ", "GKLMSV", "BHY", "T", "R", "W", "I", "D", "CJ", "AF"],
+      "domestic": ["EGLMNOQSV", "-", "BHKY", "T", "R", "W", "-", "DI", "CJ", "-"]
+    },
+    "as": { "name": "Alaska Airlines",   "all": ["GOQX", "KLMNSV", "BHY", "-", "CDIJ", "AF"] },
+    "aa": { "name": "American Airlines", "all": ["NOQ", "GKLMSV", "HY", "PW", "CDIJR", "AF"] },
+    "ba": { "name": "British Airways",   "all": ["GKLMNOQSV", "-", "BEHTWY", "-", "CDIRJ", "AF"] },
+    "cx": { "name": "Cathay Pacific",    "all": ["ML", "BHK", "YE", "RW", "CDIJP", "AF"] },
+    "fj": {
+      "name": "Fiji Airways",
+      "within_fiji": ["-", "-", "HLQY", "-", "-", "-"],
+      "all_other":   ["GNTV", "KLMOQSW", "BHY", "-", "CDIJZ", "-"]
+    },
+    "ay": {
+      "name": "Finnair",
+      "effective": "2026-02-01",
+      "all": ["A", "GLNOQSVZ", "BHKYM", "EPTW", "CDIJR", "-"],
+      "before_2026_02_01": ["AZ", "GLMNOQSV", "BHKY", "EPTW", "CDIJR", "-"]
+    },
+    "ib": { "name": "Iberia", "all": ["AFGNOQZ", "KLMSV", "BHY", "ETW", "CDIJR", "-"] },
+    "jl": {
+      "name": "Japan Airlines",
+      "within_japan": "awarded on information provided by Japan Airlines; not tabulated",
+      "all_other": ["GNOQZ", "HKLMSV", "BY", "EWPR", "CDIJX", "AF"]
+    },
+    "nu": { "name": "Japan Transocean Air", "sameAs": "jl" },
+    "mh": {
+      "name": "Malaysia Airlines",
+      "effective": "2025-09-01",
+      "long_haul": ["KLMV", "YBH", "Z", "-", "AFCDJ", "-"],
+      "long_haul_scope": "Australia and Malaysia, UK or Europe; New Zealand and Malaysia, UK or Europe; Malaysia and UK, Europe or Middle East",
+      "all_other": ["KLMV", "YBH", "Z", "-", "CDJ", "AF"]
+    },
+    "wy": { "name": "Oman Air", "effective": "2025-09-30", "all": ["NQORTE", "MLVS", "YBHK", "-", "JCDIP", "FA"] },
+    "qr": { "name": "Qatar Airways", "all": ["KLMV", "BH", "Y", "-", "CDIJPR", "AF"] },
+    "at": { "name": "Royal Air Maroc", "all": ["NOQRSTW", "HKLMV", "BY", "-", "CDIJ", "-"] },
+    "rj": { "name": "Royal Jordanian", "all": ["VSNQOPW", "KML", "BYH", "IZ", "CDJ", "-"] },
+    "ul": {
+      "name": "SriLankan Airlines",
+      "named_routes": ["EGKLMNOQRSW", "BHP", "Y", "-", "CDIJ", "-"],
+      "named_routes_scope": "Southeast Australia and Malaysia or Sri Lanka; Europe and Malaysia or Sri Lanka",
+      "all_other": ["GLNOQRSV", "EKMW", "BHPY", "-", "CDIJ", "-"]
+    }
+  }
+}

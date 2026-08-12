@@ -2,8 +2,8 @@
 
 /* The seam between the page and the validator.
  *
- * app.js used to call four HTTP endpoints. It now calls the four operations
- * below, which are the same four, answered by Prolog running in a worker on this
+ * app.js used to call four HTTP endpoints. It now calls the operations below,
+ * which are the same ones, answered by Prolog running in a worker on this
  * machine rather than by Prolog running in a container. Replies keep the shape
  * app.js already handled -- {ok, status, data}, with the same status codes and
  * the same error bodies -- so the page's error handling did not have to be
@@ -81,20 +81,23 @@ const RTWApi = (() => {
     });
   }
 
-  // The ruleset cannot change within a page load, so it is fetched once and
-  // shared. It doubles as the readiness signal: everything else the page does is
-  // gated on it, and by the time it answers the worker has booted the image.
-  let rulesetCall = null;
-  function ruleset() {
-    if (!rulesetCall) rulesetCall = call('ruleset', {});
-    return rulesetCall;
+  // Neither the ruleset nor the programme list can change within a page load, so
+  // each is fetched once and shared. The ruleset doubles as the readiness signal:
+  // everything else the page does is gated on it, and by the time it answers the
+  // worker has booted the image.
+  const once = new Map();
+  function cached(op) {
+    if (!once.has(op)) once.set(op, call(op, {}));
+    return once.get(op);
   }
 
   return {
-    ruleset,
-    ready: () => ruleset().then(() => undefined),
+    ruleset: () => cached('ruleset'),
+    programs: () => cached('programs'),
+    ready: () => cached('ruleset').then(() => undefined),
     validate: (itinerary) => call('validate', itinerary),
     routing: (itinerary) => call('routing', itinerary),
+    earn: (itinerary) => call('earn', itinerary),
     airports: (q, limit) => call('airports', { q, limit }),
   };
 })();

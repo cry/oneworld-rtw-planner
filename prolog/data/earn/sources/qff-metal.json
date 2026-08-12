@@ -1,0 +1,148 @@
+{
+  "source": "https://www.qantas.com/en-au/frequent-flyer/calculators/earning-tables/qantas-jetstar",
+  "fetched": "2026-08-11",
+  "via": "Transcribed by hand. The Qantas site refused the scraper on this page; the other Qantas captures here were read out of the page's own DOM.",
+  "effectiveFrom": "2025-07-22",
+  "note": "Qantas- and Jetstar-marketed flights. Only the Qantas-marketed rows are used: an Explorer fare cannot be sold with a JQ flight number. This table publishes all ten earn categories, where the partner table publishes six -- which is why the two are separate tables here and why a QF-marketed sector is priced off this one.",
+  "supersedes": {
+    "domesticAustralia": "2025-07-21",
+    "note": "The page still carries the Domestic Australia rows in force up to and on 21 July 2025. They are not transcribed: nothing reads an effective date yet, so carrying them would put two answers in the table with no way to choose. See PLANS/05, phase 4."
+  },
+  "columns": ["discount_economy", "economy", "flexible_economy",
+              "discount_premium_economy", "premium_economy", "flexible_premium_economy",
+              "discount_business", "business", "flexible_business", "first"],
+  "minimumPointsGuarantee": {
+    "applied": false,
+    "why": "It depends on the member's tier and on any status bonus, and the page states neither the interaction nor which segments are eligible in terms an itinerary can settle. Reported as a note rather than applied, so a figure here is never higher than the published base rate.",
+    "allOtherFlights": [800, 800, 1200, 1200, 1200, 1200, 1400, 1400, 1400, 1400],
+    "jetstarDomesticNewZealand": [400, 800, 1200, null, null, null, null, null, null, null]
+  },
+  "domesticAustralia": {
+    "scope": "Both endpoints in Australia. Qantas-marketed rows only.",
+    "bands": [
+      { "key": "short",  "min": 1,    "max": 750,  "label": "Domestic Australia short, 0 to 750 miles" },
+      { "key": "medium", "min": 751,  "max": 1500, "label": "Domestic Australia medium, 751 to 1,500 miles" },
+      { "key": "long",   "min": 1501, "max": null, "label": "Domestic Australia long, 1,501 miles and over" }
+    ],
+    "rows": {
+      "short":  { "points": [500, 500, 750, 750, 1125, 1250, null, 1750, 2000, 2250],
+                  "credits": [10, 10, 20, 20, 20, 20, null, 40, 45, 60] },
+      "medium": { "points": [875, 875, 1375, 1375, 1750, 1940, null, 2625, 2940, 3500],
+                  "credits": [15, 15, 30, 30, 30, 30, null, 60, 70, 90] },
+      "long":   { "points": [1815, 1815, 2750, 2750, 3375, 3625, null, 4125, 4500, 5500],
+                  "credits": [20, 20, 40, 40, 40, 40, null, 80, 95, 120] }
+    }
+  },
+  "groups": [
+    {
+      "from": "Adelaide, Brisbane, Gold Coast, Melbourne, Sydney",
+      "rows": {
+        "New Zealand or Papua New Guinea": { "points": [1000, 1375, 1750, 1750, 2125, 2300, 2500, 2700, 2875, 3250], "credits": [20, 25, 40, 40, 45, 50, 80, 85, 90, 120] },
+        "Northeast Asia or Southeast Asia": { "points": [2600, 3900, 5200, 5200, 6500, 7200, 7800, 8450, 9100, 10400], "credits": [30, 40, 60, 60, 65, 70, 120, 125, 135, 180] },
+        "Hawaii":                           { "points": [3000, 4500, 6000, 6000, 7500, 8250, 9000, 9750, 10500, 12000], "credits": [35, 45, 70, 70, 75, 80, 140, 150, 160, 210] },
+        "Delhi or Bengaluru":               { "points": [3600, 5400, 7200, 7200, 9000, 9800, 10700, 11600, 12500, 14300], "credits": [40, 50, 75, 75, 80, 85, 150, 155, 165, 230] },
+        "Johannesburg":                     { "points": [3750, 5625, 7500, 7500, 9375, 10300, 11250, 12200, 13125, 15000], "credits": [40, 55, 80, 80, 85, 90, 160, 165, 175, 240] },
+        "Santiago":                         { "points": [3750, 5625, 7500, 7500, 9375, 10300, 11250, 12200, 13125, 15000], "credits": [40, 55, 80, 80, 85, 90, 160, 165, 175, 240] },
+        "Dallas":                           { "points": [4900, 7350, 9800, 9800, 12250, 13400, 14700, 15950, 17200, 19600], "credits": [50, 70, 100, 100, 105, 115, 200, 210, 220, 300] },
+        "West Coast USA/Canada or Dubai":   { "points": [4500, 6750, 9000, 9000, 11250, 12400, 13500, 14625, 15750, 18000], "credits": [45, 60, 90, 90, 100, 115, 180, 190, 200, 270] },
+        "East Coast USA/Canada or Europe":  { "points": [6200, 9300, 12400, 12400, 15500, 17000, 18600, 20150, 21700, 24800], "credits": [70, 95, 140, 140, 150, 165, 280, 295, 310, 420] }
+      }
+    },
+    {
+      "from": "Darwin, Perth",
+      "rows": {
+        "Southeast Asia": { "points": [1450, 2025, 2700, 2700, 3375, 3725, 4050, 4400, 4725, 5400], "credits": [25, 25, 50, 50, 50, 50, 100, 100, 100, 150] },
+        "Northeast Asia": { "points": [2500, 3750, 5000, 5000, 6250, 6900, 7500, 8125, 8750, 10000], "credits": [30, 40, 60, 60, 65, 70, 120, 125, 135, 180] },
+        "Dubai":          { "points": [3000, 4500, 6000, 6000, 7500, 8250, 9000, 9750, 10500, 12000], "credits": [35, 45, 70, 70, 75, 80, 140, 150, 160, 210] },
+        "Europe":         { "points": [4700, 7050, 9400, 9400, 11750, 12850, 14100, 15300, 16450, 18800], "credits": [60, 80, 120, 120, 130, 140, 240, 255, 270, 360] },
+        "Johannesburg":   { "points": [3000, 4500, 6000, 6000, 7500, 8250, 9000, 9750, 10500, 12000], "credits": [35, 45, 70, 70, 70, 80, 140, 150, 160, 210] }
+      }
+    },
+    {
+      "from": "New Zealand",
+      "rows": {
+        "Dallas":                { "points": [4250, 6375, 8500, 8500, 10625, 11625, 12750, 13835, 14920, 17000], "credits": [45, 60, 85, 85, 90, 100, 170, 180, 190, 260] },
+        "Santiago":              { "points": [2900, 4350, 5800, 5800, 7250, 8000, 8700, 9450, 10150, 11600], "credits": [35, 45, 70, 70, 70, 70, 140, 150, 160, 210] },
+        "East Coast USA/Canada": { "points": [5200, 7925, 10650, 10650, 13375, 14700, 16100, 17450, 18825, 21550], "credits": [50, 70, 100, 100, 105, 110, 200, 210, 220, 300] }
+      }
+    },
+    {
+      "from": "Dallas",
+      "rows": {
+        "East Coast USA/Canada": { "points": [1300, 1950, 2600, 2600, 3250, 3600, 3900, 4200, 4500, 5200], "credits": [20, 25, 40, 40, 45, 50, 80, 85, 90, 120] },
+        "West Coast USA/Canada": { "points": [1700, 2550, 3400, 3400, 4250, 4600, 5100, 5525, 5950, 6800], "credits": [25, 35, 50, 50, 55, 60, 100, 105, 110, 150] }
+      }
+    },
+    {
+      "from": "East Coast USA/Canada",
+      "rows": {
+        "West Coast USA/Canada": { "points": [1700, 2550, 3400, 3400, 4250, 4600, 5100, 5525, 5950, 6800], "credits": [25, 35, 50, 50, 55, 60, 100, 105, 110, 150] }
+      }
+    },
+    {
+      "from": "Dubai",
+      "rows": {
+        "Europe or Northern Africa or Southeast Asia": { "points": [1700, 2550, 3400, 3400, 4250, 4600, 5100, 5525, 5950, 6800], "credits": [25, 35, 50, 50, 55, 60, 100, 105, 110, 150] }
+      }
+    },
+    {
+      "from": "Europe",
+      "rows": {
+        "Northeast Asia or Southeast Asia": { "points": [3600, 5400, 7200, 7200, 9000, 9800, 10800, 11700, 12600, 14400], "credits": [40, 55, 80, 80, 85, 90, 160, 165, 175, 240] }
+      }
+    },
+    {
+      "from": "Tel Aviv",
+      "rows": {
+        "Hong Kong": { "points": [3500, 5500, 7500, 7500, 9000, 10000, 12000, 13000, 14000, 16000], "credits": [30, 40, 60, 60, 70, 80, 120, 130, 140, 180] }
+      }
+    }
+  ],
+  "bandsNote": "The page writes the last two bands as '5,001 to 6,500' and '6,500 miles and over', which overlap at exactly 6,500. The lower band's stated upper bound is taken as binding, so the top band starts at 6,501.",
+  "bands": [
+    { "max": 750,  "points": [300, 450, 650, 650, 750, 850, 900, 975, 1050, 1200],            "credits": [10, 10, 20, 20, 20, 20, 40, 40, 40, 60] },
+    { "max": 1500, "points": [550, 850, 1100, 1100, 1350, 1500, 1650, 1800, 1950, 2200],      "credits": [15, 15, 30, 30, 30, 30, 60, 65, 70, 90] },
+    { "max": 2500, "points": [1100, 1650, 2200, 2200, 2750, 3050, 3300, 3575, 3850, 4400],    "credits": [20, 25, 40, 40, 40, 40, 80, 85, 95, 120] },
+    { "max": 3500, "points": [1600, 2400, 3200, 3200, 4000, 4400, 4800, 5200, 5600, 6400],    "credits": [25, 35, 50, 50, 50, 50, 100, 105, 115, 150] },
+    { "max": 5000, "points": [2450, 3700, 4900, 4900, 6150, 6750, 7350, 7975, 8600, 9800],    "credits": [30, 40, 60, 60, 60, 60, 120, 130, 140, 180] },
+    { "max": 6500, "points": [2900, 4350, 5800, 5800, 7250, 8000, 8700, 9425, 10150, 11600],  "credits": [35, 45, 70, 70, 70, 70, 140, 150, 160, 210] },
+    { "max": null, "points": [4000, 6000, 8000, 8000, 10000, 11000, 12000, 13000, 14000, 16000], "credits": [40, 55, 80, 80, 80, 80, 160, 170, 180, 240] }
+  ],
+  "regions": {
+    "adelaide_brisbane_gold_coast_melbourne_sydney": { "label": "Adelaide, Brisbane, Gold Coast, Melbourne, Sydney", "places": ["ADL", "BNE", "OOL", "MEL", "SYD"] },
+    "darwin_perth":       { "label": "Darwin, Perth", "places": ["DRW", "PER"] },
+    "hawaii":             { "label": "Hawaii", "isoRegions": ["US-HI"] },
+    "delhi_or_bengaluru": { "label": "Delhi or Bengaluru", "places": ["DEL", "BLR"] },
+    "johannesburg":       { "label": "Johannesburg", "places": ["JNB"] },
+    "australia":          { "label": "Australia", "countries": ["AU"] }
+  },
+  "rowRegions": {
+    "New Zealand or Papua New Guinea": "new_zealand_or_papua_new_guinea",
+    "Northeast Asia or Southeast Asia": "northeast_asia_or_southeast_asia",
+    "Hawaii": "hawaii",
+    "Delhi or Bengaluru": "delhi_or_bengaluru",
+    "Johannesburg": "johannesburg",
+    "Santiago": "santiago",
+    "Dallas": "dallas",
+    "West Coast USA/Canada or Dubai": "west_coast_usa_canada_or_dubai",
+    "East Coast USA/Canada or Europe": "east_coast_usa_canada_or_europe",
+    "Southeast Asia": "southeast_asia",
+    "Northeast Asia": "northeast_asia",
+    "Dubai": "dubai",
+    "Europe": "europe",
+    "New Zealand": "new_zealand",
+    "East Coast USA/Canada": "east_coast_usa_canada",
+    "West Coast USA/Canada": "west_coast_usa_canada",
+    "Europe or Northern Africa or Southeast Asia": "europe_or_northern_africa_or_southeast_asia",
+    "Tel Aviv": "tel_aviv",
+    "Hong Kong": "hong_kong",
+    "Adelaide, Brisbane, Gold Coast, Melbourne, Sydney": "adelaide_brisbane_gold_coast_melbourne_sydney",
+    "Darwin, Perth": "darwin_perth"
+  },
+  "composedRegions": {
+    "northeast_asia_or_southeast_asia": ["northeast_asia", "southeast_asia"],
+    "west_coast_usa_canada_or_dubai": ["west_coast_usa_canada", "dubai"],
+    "east_coast_usa_canada_or_europe": ["east_coast_usa_canada", "europe"],
+    "europe_or_northern_africa_or_southeast_asia": ["europe", "northern_africa", "southeast_asia"]
+  }
+}

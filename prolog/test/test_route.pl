@@ -32,24 +32,24 @@
 
 test(x_prefix_marks_a_transfer_and_bare_codes_are_stopovers) :-
     route_segments('LHR-X/JFK-LAX-LHR', Segs),
-    assertion(Segs = [ rseg(1, flight, lhr, jfk, _, _, _, _, _, transfer),
-                       rseg(2, flight, jfk, lax, _, _, _, _, _, stopover),
-                       rseg(3, flight, lax, lhr, _, _, _, _, _, unknown) ]).
+    assertion(Segs = [ rseg(1, flight, lhr, jfk, _, _, _, _, _, transfer, _, _),
+                       rseg(2, flight, jfk, lax, _, _, _, _, _, stopover, _, _),
+                       rseg(3, flight, lax, lhr, _, _, _, _, _, unknown, _, _) ]).
 
 % Fare construction is written in city codes. The parser passes codes through
 % untouched -- resolution belongs to itinerary.pl, so that a city code posted
 % in a `segments` array resolves the same way; see the city_codes suite below.
 test(city_codes_pass_through_the_parser_unresolved) :-
     route_segments('NYC-X/LON-SIN', Segs),
-    assertion(Segs = [ rseg(1, _, nyc, lon, _, _, _, _, _, transfer),
-                       rseg(2, _, lon, sin, _, _, _, _, _, unknown) ]).
+    assertion(Segs = [ rseg(1, _, nyc, lon, _, _, _, _, _, transfer, _, _),
+                       rseg(2, _, lon, sin, _, _, _, _, _, unknown, _, _) ]).
 
 % The prefix is only read on a four-character token, so a three-letter code
 % beginning with X is a place, not a transfer at a two-letter one.
 test(three_letter_codes_starting_with_x_are_places) :-
     route_segments('HKG-XIY-PEK', Segs),
-    assertion(Segs = [ rseg(1, _, hkg, xiy, _, _, _, _, _, stopover),
-                       rseg(2, _, xiy, pek, _, _, _, _, _, unknown) ]).
+    assertion(Segs = [ rseg(1, _, hkg, xiy, _, _, _, _, _, stopover, _, _),
+                       rseg(2, _, xiy, pek, _, _, _, _, _, unknown, _, _) ]).
 
 test(bare_x_prefix_is_accepted_as_well_as_x_slash) :-
     route_segments('LHR-XJFK-LHR', A),
@@ -58,8 +58,8 @@ test(bare_x_prefix_is_accepted_as_well_as_x_slash) :-
 
 test(double_slash_makes_a_surface_sector) :-
     route_segments('BKK//SIN-LHR', Segs),
-    assertion(Segs = [ rseg(1, surface, bkk, sin, _, _, _, _, _, _),
-                       rseg(2, flight,  sin, lhr, _, _, _, _, _, _) ]).
+    assertion(Segs = [ rseg(1, surface, bkk, sin, _, _, _, _, _, _, _, _),
+                       rseg(2, flight, sin, lhr, _, _, _, _, _, _, _, _) ]).
 
 test(surface_sector_may_be_spaced_out) :-
     route_segments('BKK//SIN', A),
@@ -70,8 +70,8 @@ test(surface_sector_may_be_spaced_out) :-
 % never need separating by anything but position.
 test(two_letter_tokens_are_the_carrier_of_the_following_leg) :-
     route_segments('LHR-BA-X/JFK-AA-LAX', Segs),
-    assertion(Segs = [ rseg(1, _, lhr, jfk, ba, ba, _, _, _, _),
-                       rseg(2, _, jfk, lax, aa, aa, _, _, _, _) ]).
+    assertion(Segs = [ rseg(1, _, lhr, jfk, ba, ba, _, _, _, _, _, _),
+                       rseg(2, _, jfk, lax, aa, aa, _, _, _, _, _, _) ]).
 
 test(whitespace_and_commas_separate_like_dashes) :-
     route_segments('LON BA JFK, AA X/DFW', A),

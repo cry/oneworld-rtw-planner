@@ -1,0 +1,130 @@
+{
+  "source": "https://www.qantas.com/en-au/frequent-flyer/calculators/earning-tables/partner-airlines",
+  "fetched": "2026-08-11",
+  "note": "Region-pair table, partner-marketed flights. Each entry is [points, credits] over the six earn categories in order: discount_economy, economy, flexible_economy, premium_economy, business, first. A '-' in credits means the carrier serving that pair earns no Status Credits (Emirates).",
+  "groups": [
+    {
+      "from": "Sydney, Melbourne, Brisbane, Gold Coast",
+      "rows": {
+        "West Coast USA/Canada":            { "points": [4500, 6750, 9000, 9000, 13500, 18000], "credits": [45, 60, 90, 90, 180, 270] },
+        "East Coast USA/Canada":            { "points": [6200, 9300, 12400, 12400, 18600, 24800], "credits": [70, 95, 140, 140, 280, 420] },
+        "Dallas":                           { "points": [4900, 7350, 9800, 9800, 14700, 19600], "credits": [50, 70, 100, 100, 200, 300] },
+        "Santiago":                         { "points": [1750, 3500, 7000, 7700, 8750, 10500], "credits": [30, 30, 60, 60, 120, 180] },
+        "Hong Kong":                        { "points": [1100, 2250, 4500, 4950, 5600, 6750], "credits": [15, 15, 30, 30, 60, 90] },
+        "Malaysia":                         { "points": [1000, 2000, 4000, 4400, 5000, 6000], "credits": [15, 15, 30, 30, 60, 90] },
+        "Thailand":                         { "points": [1100, 2250, 4500, 4950, 5600, 6750], "credits": [15, 15, 30, 30, 60, 90] },
+        "Japan":                            { "points": [1200, 2400, 4800, 5300, 6000, 7200], "credits": [15, 15, 30, 30, 60, 90] },
+        "Singapore":                        { "points": [1000, 2000, 4000, 4400, 5000, 6000], "credits": [15, 15, 30, 30, 60, 90] },
+        "China":                            { "points": [1225, 2450, 4900, 5400, 6125, 7350], "credits": [15, 15, 30, 30, 60, 90] },
+        "Sri Lanka":                        { "points": [1100, 2250, 4500, 4950, 5600, 6750], "credits": [15, 15, 30, 30, 60, 90] },
+        "Dubai":                            { "points": [1850, 3700, 7400, 8140, 9250, 11100], "credits": null },
+        "Doha":                             { "points": [1850, 3700, 7400, 7400, 7400, 9250], "credits": [20, 20, 40, 40, 80, 120] },
+        "Western Europe":                   { "points": [2625, 5250, 10500, 11500, 13125, 15750], "credits": [35, 35, 70, 70, 140, 210] },
+        "New Zealand or Papua New Guinea":  { "points": [375, 750, 1500, 1650, 1875, 2250], "credits": [10, 10, 20, 20, 40, 60] },
+        "Fiji":                             { "points": [450, 900, 1800, 1980, 2250, 2700], "credits": [10, 10, 20, 20, 40, 60] }
+      }
+    },
+    {
+      "from": "Perth",
+      "rows": {
+        "Hong Kong": { "points": [950, 1875, 3750, 4125, 4700, 5650], "credits": [30, 30, 60, 60, 120, 180] },
+        "Singapore": { "points": [625, 1250, 2500, 2750, 3200, 3750], "credits": [25, 25, 50, 50, 100, 150] },
+        "Malaysia":  { "points": [625, 1250, 2500, 2750, 3200, 3750], "credits": [25, 25, 50, 50, 100, 150] },
+        "Dubai":     { "points": [1400, 2800, 5600, 6160, 7000, 8400], "credits": null },
+        "Doha":      { "points": [1450, 2900, 5800, 5800, 5800, 7250], "credits": [30, 30, 60, 60, 120, 180] }
+      }
+    },
+    {
+      "from": "Adelaide",
+      "rows": {
+        "Hong Kong": { "points": [1100, 2150, 4300, 4750, 5400, 6500], "credits": [25, 25, 50, 50, 100, 150] },
+        "Malaysia":  { "points": [850, 1750, 3500, 3800, 4400, 5250], "credits": [25, 25, 50, 50, 100, 150] },
+        "Doha":      { "points": [1750, 3500, 7000, 7000, 7000, 8750], "credits": [20, 20, 45, 45, 90, 135] },
+        "Dubai":     { "points": [1725, 3450, 6900, 7590, 8625, 10350], "credits": null }
+      }
+    },
+    {
+      "from": "Cairns",
+      "rows": {
+        "Hong Kong": { "points": [850, 1700, 3400, 3740, 4250, 5100], "credits": [15, 15, 25, 25, 50, 100] }
+      }
+    },
+    {
+      "from": "Western Europe",
+      "rows": {
+        "Thailand":  { "points": [1450, 2950, 5900, 6500, 7400, 8900], "credits": [30, 30, 60, 60, 120, 180] },
+        "Hong Kong": { "points": [1475, 2950, 5900, 6500, 7400, 8900], "credits": [30, 30, 60, 60, 120, 180] },
+        "Malaysia":  { "points": [1625, 3250, 6500, 7150, 8125, 9750], "credits": [30, 30, 60, 60, 120, 180] },
+        "Japan":     { "points": [1475, 2950, 5900, 6500, 7400, 8900], "credits": [30, 30, 60, 60, 120, 180] },
+        "Singapore": { "points": [1625, 3250, 6500, 7150, 8125, 9750], "credits": [30, 30, 60, 60, 120, 180] },
+        "China":     { "points": [1375, 2750, 5500, 6050, 6875, 8250], "credits": [30, 30, 60, 90, 120, 180] },
+        "Sri Lanka": { "points": [1300, 2600, 5200, 5700, 6500, 7800], "credits": [30, 30, 60, 60, 120, 180] },
+        "Dubai":     { "points": [800, 1600, 3200, 3520, 4000, 4800], "credits": [15, 15, 30, 30, 60, 90] },
+        "Doha":      { "points": [750, 1500, 3000, 3000, 3000, 3750], "credits": [15, 15, 30, 30, 60, 90] },
+        "Muscat":    { "points": [900, 1800, 3600, 4000, 5000, 6000], "credits": [15, 15, 30, 30, 60, 90] }
+      }
+    },
+    {
+      "from": "Northern Europe",
+      "rows": {
+        "Hong Kong, Thailand and Japan": { "points": [1225, 2450, 4900, 5400, 6125, 7350], "credits": [30, 30, 60, 60, 120, 180] },
+        "Singapore": { "points": [1425, 2850, 5700, 6300, 7125, 8550], "credits": [30, 30, 60, 60, 120, 180] },
+        "China":     { "points": [1050, 2125, 4250, 4675, 5325, 6375], "credits": [30, 30, 60, 60, 120, 180] },
+        "Dubai":     { "points": [750, 1500, 3000, 3300, 3750, 4500], "credits": [15, 15, 30, 30, 60, 90] },
+        "Doha":      { "points": [750, 1500, 3000, 3000, 3000, 3750], "credits": [15, 15, 30, 30, 60, 90] },
+        "Muscat":    { "points": [800, 1600, 3200, 3800, 4500, 5550], "credits": [15, 15, 30, 30, 60, 90] }
+      }
+    },
+    {
+      "from": "Southeast Europe",
+      "rows": {
+        "Dubai":  { "points": [500, 1000, 2000, 2200, 2500, 3000], "credits": null },
+        "Doha":   { "points": [450, 900, 1800, 1800, 1800, 2250], "credits": [10, 10, 25, 25, 50, 75] },
+        "Muscat": { "points": [520, 1030, 2050, 2300, 3000, 3600], "credits": [10, 10, 25, 25, 50, 75] }
+      }
+    },
+    {
+      "from": "Tel Aviv",
+      "rows": {
+        "Hong Kong": { "points": [1200, 2400, 4800, 5250, 6000, 7200], "credits": [15, 15, 30, 30, 60, 90] }
+      }
+    },
+    {
+      "from": "Dubai, Doha, Muscat",
+      "rows": {
+        "Southeast Asia or Northern Africa": { "points": [850, 1700, 3400, 3750, 4250, 5100], "credits": [25, 25, 50, 50, 100, 150] },
+        "New Zealand": { "points": [1875, 3750, 7500, 8250, 9400, 11250], "credits": [20, 20, 40, 40, 80, 120] }
+      }
+    },
+    {
+      "from": "Intra-USA Short Haul",
+      "mileageBands": true,
+      "rows": {
+        "Up to 400 miles":   { "points": [100, 125, 250, 300, 400, 500], "credits": [10, 10, 20, 20, 40, 60] },
+        "401 to 750 miles":  { "points": [150, 300, 600, 660, 750, 900], "credits": [10, 10, 20, 20, 40, 60] }
+      }
+    },
+    {
+      "from": "East Coast USA/Canada",
+      "rows": {
+        "West Coast USA/Canada": { "points": [625, 1250, 2500, 2750, 3125, 3750], "credits": [25, 35, 50, 50, 100, 150] }
+      }
+    },
+    {
+      "from": "Dallas",
+      "rows": {
+        "New York, Newark or Boston": { "points": [500, 750, 1500, 1650, 1875, 2250], "credits": [20, 25, 40, 40, 80, 120] },
+        "West Coast USA/Canada":      { "points": [625, 1250, 2500, 2750, 3125, 3750], "credits": [25, 35, 50, 50, 100, 150] }
+      }
+    },
+    {
+      "from": "New Zealand",
+      "rows": {
+        "Santiago":       { "points": [1375, 2750, 5500, 6050, 6875, 8250], "credits": [20, 20, 40, 40, 80, 120] },
+        "Los Angeles":    { "points": [4000, 6000, 8000, 8250, 12000, 16000], "credits": [40, 55, 80, 80, 160, 240] },
+        "Dallas":         { "points": [4250, 6375, 8500, 8500, 12750, 17000], "credits": [45, 60, 85, 85, 170, 250] },
+        "East Coast USA": { "points": [5200, 7925, 10650, 10650, 16100, 21550], "credits": [50, 70, 100, 100, 200, 300] }
+      }
+    }
+  ]
+}
