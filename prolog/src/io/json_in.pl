@@ -99,14 +99,14 @@ mode(Dict, Default, Mode) :-
 % times supplied alongside it would make the two rules that need them look
 % unanswerable when the data to answer them was right there.
 check_times_against_mode(routing, RawSegs) :- !,
-    (   member(rseg(_, _, _, _, _, _, _, Dep, Arr, _, _), RawSegs),
+    (   member(rseg(_, _, _, _, _, _, _, Dep, Arr, _, _, _), RawSegs),
         ( Dep \== unknown ; Arr \== unknown )
     ->  throw(input_error('Segment times are not accepted in routing mode; use mode "full" to have them checked, or remove them.'))
     ;   true
     ).
 check_times_against_mode(_, _).
 
-segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr, Stop, Class)) :-
+segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr, Stop, Class, Family)) :-
     (   is_dict(J) -> true
     ;   throw(input_error('Each entry of "segments" must be a JSON object.'))
     ),
@@ -125,7 +125,17 @@ segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr, Stop, Class)) :-
     time_field(J, dep, Dep),
     time_field(J, arr, Arr),
     stop(J, Stop),
-    booking_class(J, Class).
+    booking_class(J, Class),
+    fare_family(J, Family).
+
+% The branded fare the segment was sold under. Optional, programme-interpreted,
+% and read by no fare rule: Rule 3015 has nothing to say about a carrier's fare
+% families. It is here because at least one loyalty programme cannot price a
+% sector without it -- Cathay lists the same economy booking classes under Flex,
+% Essential and Light with different earn against each, so the class does not
+% imply the family and there is nothing to derive one from.
+fare_family(J, Family) :-
+    atom_field(J, fareFamily, unknown, Family).
 
 % The class the segment is booked in -- one RBD letter, which is what section
 % 5(b) is written in. Optional: an itinerary that does not carry one still

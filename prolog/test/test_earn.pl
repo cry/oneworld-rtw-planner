@@ -20,6 +20,7 @@
 :- use_module('../src/annotate').
 :- use_module('../src/io/json_in').
 :- use_module('../src/io/earn_out').
+:- use_module('../data/earn/cx/table_cx').
 :- use_module(library(lists)).
 
 sector(Carrier, Class, From, To, Row) :-
@@ -33,7 +34,8 @@ sector(Carrier, Class, From, To, Row) :-
     annotate(Itin, A),
     earn(A, [qff], Report),
     Report.programs = [P],
-    P.segments = [Row|_].
+    P.segments = [Row|_],
+    !.
 
 amount(Row, Currency, Value) :-
     once(( member(Amt, Row.amounts), Amt.currency == Currency )),
@@ -170,6 +172,133 @@ test(a_longer_intra_usa_sector_falls_through_to_the_bands) :-
     assertion(Points == 1375).
 
 :- end_tests(earn_qff).
+
+% --- Cathay ------------------------------------------------------------------
+
+cx_sector(Class, From, To, Cabin, Row) :-
+    itinerary_from_json(
+        _{ cabin: Cabin, mode: "routing",
+           segments: [ _{ carrier: "CX", bookingClass: Class, from: From, to: To, stop: "stopover" },
+                       _{ carrier: "CX", bookingClass: Class, from: To, to: From } ] },
+        Itin),
+    annotate(Itin, A),
+    earn(A, [cx], Report),
+    Report.programs = [P],
+    P.segments = [Row|_],
+    !.
+
+cx_family_sector(Class, Family, From, To, Cabin, Row) :-
+    itinerary_from_json(
+        _{ cabin: Cabin, mode: "routing",
+           segments: [ _{ carrier: "CX", bookingClass: Class, fareFamily: Family,
+                          from: From, to: To, stop: "stopover" },
+                       _{ carrier: "CX", bookingClass: Class, fareFamily: Family,
+                          from: To, to: From } ] },
+        Itin),
+    annotate(Itin, A),
+    earn(A, [cx], Report),
+    Report.programs = [P],
+    P.segments = [Row|_],
+    !.
+
+:- begin_tests(earn_cx).
+
+% Effective from 20 August 2025, Economy, Short - Type 2, fare class Y,B,H,K,
+% Flex: 35 Status Points and 3,500 Asia Miles. HKG-NRT is 1,841 miles and
+% touches Japan, so it is Type 2 rather than Type 1.
+test(a_declared_family_gives_one_number) :-
+    cx_family_sector("K", "flex", "HKG", "NRT", "economy", Row),
+    assertion(Row.outcome == ok),
+    assertion(Row.bucket == 'Economy flex'),
+    assertion(Row.bucketBasis == 'fare family declared'),
+    assertion(sub_atom(Row.basis, _, _, _, 'Short - Type 2')),
+    amount(Row, status_points, Points),
+    amount(Row, asia_miles, Miles),
+    assertion(Points == 35),
+    assertion(Miles == 3500).
+
+% The same class with no family declared. Cathay lists Y,B,H,K under Flex (35),
+% Essential (25) and Light (18) on this zone, and the class cannot tell them
+% apart -- so the answer is the spread and the register says why.
+test(an_undeclared_family_gives_the_spread) :-
+    cx_sector("K", "HKG", "NRT", "economy", Row),
+    assertion(Row.outcome == ok),
+    amount(Row, status_points, Points),
+    assertion(Points == range(18, 35)),
+    amount(Row, asia_miles, Miles),
+    assertion(Miles == range(1800, 3500)),
+    assertion(sub_atom(Row.assumption, _, _, _, 'more than one fare family')).
+
+% The zone that a distance alone cannot decide, and the reason route_basis/5
+% takes the endpoints. HKG-SIN is 1,594 miles -- the same 751-to-2,750 band as
+% HKG-NRT -- but Singapore is not one of the six countries, so it is Type 1 and
+% earns less in every family.
+test(the_same_band_splits_on_the_endpoints) :-
+    cx_family_sector("K", "flex", "HKG", "NRT", "economy", Type2),
+    cx_family_sector("K", "flex", "HKG", "SIN", "economy", Type1),
+    assertion(sub_atom(Type2.basis, _, _, _, 'Short - Type 2')),
+    assertion(sub_atom(Type1.basis, _, _, _, 'Short - Type 1')),
+    amount(Type2, status_points, P2),
+    amount(Type1, status_points, P1),
+    assertion(P2 == 35),
+    assertion(P1 == 30).
+
+% Business publishes one row for Flex and one shared row for "Essential,
+% Light". D is on the shared row, so both candidates price the same, the range
+% collapses, and no assumption is reported -- saying "they earn differently"
+% over one row would be false as well as noisy.
+test(a_shared_row_collapses_without_an_assumption) :-
+    cx_sector("D", "HKG", "LHR", "business", Row),
+    assertion(Row.outcome == ok),
+    amount(Row, status_points, Points),
+    assertion(Points == 100),
+    assertion(Row.assumption == null),
+    assertion(sub_atom(Row.bucket, _, _, _, 'Business essential')),
+    assertion(sub_atom(Row.bucket, _, _, _, 'Business light')).
+
+% Outside Economy a class does pick its family out, so no range arises.
+test(a_premium_cabin_class_settles_its_own_family) :-
+    forall(member(Class-Cabin-Points,
+                  ["J"-"business"-130, "F"-"first"-160,
+                   "W"-"business"-80, "E"-"business"-65]),
+           (   cx_sector(Class, "HKG", "LHR", Cabin, Row),
+               assertion(Row.outcome == ok),
+               assertion(Row.assumption == null),
+               amount(Row, status_points, P),
+               assertion(P == Points)
+           )).
+
+% A partner-marketed sector earns; Cathay just does not publish a table saying
+% how much. Undecided, and the message says so, because zero would be a claim
+% and the wrong one.
+test(a_partner_sector_is_undecided_not_zero) :-
+    itinerary_from_json(
+        _{ cabin: "business", mode: "routing",
+           segments: [ _{ carrier: "BA", bookingClass: "D", from: "LHR", to: "HKG", stop: "stopover" },
+                       _{ carrier: "CX", bookingClass: "J", from: "HKG", to: "LHR" } ] },
+        Itin),
+    annotate(Itin, A),
+    earn(A, [cx], Report),
+    Report.programs = [P],
+    P.segments = [Row|_],
+    assertion(Row.outcome == indeterminate),
+    assertion(Row.amounts == []),
+    assertion(sub_atom(Row.reason, _, _, _, 'It is not nothing.')).
+
+% In every published row Asia Miles is exactly a hundred times Status Points.
+% The generator refuses to write the table without it; this asserts the table
+% that got written keeps it, because the day it stops being true is far likelier
+% to be the day a row was mistranscribed than the day Cathay changed it.
+test(asia_miles_are_a_hundred_status_points_throughout) :-
+    findall(Bucket-Zone,
+            (   cx_table:cx_rate(Bucket, Zone, status_points, fixed(Points)),
+                cx_table:cx_rate(Bucket, Zone, asia_miles, fixed(Miles)),
+                Miles =\= Points * 100
+            ),
+            Broken),
+    assertion(Broken == []).
+
+:- end_tests(earn_cx).
 
 % --- distance ---------------------------------------------------------------
 

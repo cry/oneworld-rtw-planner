@@ -52,7 +52,7 @@ totals_line(Program, S) :-
 
 total_text(Program, Total, Text) :-
     currency_name(Program, Total.currency, Name),
-    format(atom(Amount), '~D', [Total.amount]),
+    amount_text(Total.amount, Amount),
     (   Total.lowerBound == true
     ->  quantity(Total.unpriced, 'sector', Unpriced),
         format(atom(Text), '~w ~w or more (~w unpriced)', [Amount, Name, Unpriced])
@@ -82,9 +82,13 @@ row_detail(Row, Detail) :-
     ->  Detail = Row.reason
     ;   distance_text(Row, Miles),
         (   Row.bucketBasis == null
-        ->  format(atom(Detail), '~w · ~w · ~w', [Row.bucket, Row.basis, Miles])
-        ;   format(atom(Detail), '~w (~w) · ~w · ~w',
+        ->  format(atom(Head), '~w · ~w · ~w', [Row.bucket, Row.basis, Miles])
+        ;   format(atom(Head), '~w (~w) · ~w · ~w',
                    [Row.bucket, Row.bucketBasis, Row.basis, Miles])
+        ),
+        (   Row.assumption == null
+        ->  Detail = Head
+        ;   format(atom(Detail), '~w~n~t~30| ~w', [Head, Row.assumption])
         )
     ).
 
@@ -116,6 +120,10 @@ amount_pair(Program, Amt, Text) :-
 %  said" is the difference a zero would destroy.
 amount_text(none, 'no') :- !.
 amount_text(indeterminate, 'an unknown number of') :- !.
+% A range is written with both ends and never with a midpoint: no combination
+% of the traveller's actual fares can produce the middle of it.
+amount_text(range(Low, High), Text) :- !,
+    format(atom(Text), '~D to ~D', [Low, High]).
 amount_text(N, Text) :- format(atom(Text), '~D', [N]).
 
 currency_name(Program, Key, Name) :-

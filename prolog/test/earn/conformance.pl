@@ -146,6 +146,42 @@ test(the_earning_geography_is_not_the_fare_rules_geography) :-
     assertion(memberchk(africa, Continents)),
     assertion(memberchk(europe_middle_east, Continents)).
 
+% Bands and zones have to be total over every distance a sector can be, or a
+% real itinerary falls in a hole and the programme reports undecided for a
+% reason that is a gap in the table rather than a gap in the input. The
+% boundaries themselves are checked as well as the middles, because an
+% off-by-one at an edge is how a table gets transcribed wrong.
+test(every_distance_resolves_to_a_route_basis) :-
+    findall(Id-Miles,
+            (   known_program(Id),
+                member(Miles, [1, 99, 100, 101, 250, 400, 401, 500, 750, 751,
+                               1500, 2500, 2750, 2751, 3500, 5000, 5001, 6500,
+                               7500, 7501, 12000, 30000]),
+                route_basis(Id, lhr, jfk, Miles, Basis),
+                Basis = indeterminate(_)
+            ),
+            Gaps),
+    assertion(Gaps == []).
+
+% A range is two different numbers the right way round. One that collapsed
+% should have been reported as a number, and an inverted one is an arithmetic
+% slip that would read as a plausible answer.
+test(a_range_is_two_numbers_in_order) :-
+    itinerary(_{ cabin: "economy", mode: "routing",
+                 segments: [ _{from: "HKG", to: "NRT", carrier: "CX", bookingClass: "K", stop: "stopover"},
+                             _{from: "NRT", to: "HKG", carrier: "CX", bookingClass: "K"} ] },
+              A),
+    earn_programs(Ids),
+    earn(A, Ids, Report),
+    findall(Low-High,
+            (   member(P, Report.programs),
+                member(Row, P.segments),
+                member(Amt, Row.amounts),
+                get_dict(value, Amt, range(Low, High))
+            ),
+            Ranges),
+    forall(member(L-H, Ranges), assertion(L < H)).
+
 % --- the same assertions, run over an itinerary ----------------------------
 
 % Surface sectors earn nothing in every programme, and it is `n/a` rather than

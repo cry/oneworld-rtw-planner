@@ -174,11 +174,99 @@ bucket_step(Id, A, S, Miles, Row) :-
     (   fare_bucket(Id, S, Bucket, BucketBasis)
     ->  (   Bucket = indeterminate(Why)
         ->  outcome_row(S, indeterminate, Why, [distance(Miles)], Row)
+        ;   Bucket = one_of(Buckets, Assumption)
+        ->  bounded_step(Id, A, S, Miles, Buckets, BucketBasis, Assumption, Row)
         ;   basis_step(Id, A, S, Miles, Bucket, BucketBasis, Row)
         )
     ;   outcome_row(S, indeterminate,
                     'This programme publishes no earning category for the class this segment is sold in.',
                     [distance(Miles)], Row)
+    ).
+
+% More than one bucket could describe the segment and the input does not say
+% which. The sector is priced against every one of them and the answer is the
+% spread, which is a smaller claim than picking a bucket and a much larger one
+% than refusing to answer -- and the difference matters, because for at least
+% one programme this is the ordinary case rather than the exception. Cathay
+% lists the same economy booking classes under Flex, Essential and Light with
+% different earn against each, so a ticket that names a class and not a family
+% has genuinely bought one of three things.
+%
+% Where every bucket prices the same, the range collapses and the row reads as
+% an ordinary answer, because it is one.
+bounded_step(Id, A, S, Miles, Buckets, BucketBasis, Assumption, Row) :-
+    maplist(priced_bucket(Id, A, S, Miles), Buckets, Rows),
+    include(is_ok, Rows, Ok),
+    (   Ok == []
+    ->  Rows = [First|_],
+        outcome_row(S, indeterminate, First.reason, [distance(Miles)], Row)
+    ;   Ok = [Sample|_],
+        merge_amounts(Id, Ok, Amounts),
+        findall(B, ( member(R, Ok), get_dict(basis, R, B) ), Bases0),
+        sort(Bases0, Bases),
+        ( Bases = [OneBasis] -> Basis = OneBasis ; listed(Bases, Basis) ),
+        % Candidates that all price the same are not an assumption the reader
+        % has to carry: the input did not settle which bucket applied and it
+        % made no difference. Cathay's Business "Essential, Light" row is
+        % exactly that, and saying "they earn differently" over it would be
+        % false as well as noisy.
+        (   spread(Amounts)
+        ->  Told = Assumption
+        ;   Told = null
+        ),
+        bucket_spread(Ok, BucketText),
+        outcome_row(S, ok, null,
+                    [distance(Miles), bucket_text(BucketText, BucketBasis),
+                     basis_text(Basis), assumption(Told),
+                     near_boundary(Sample.nearBoundary), amounts(Amounts)],
+                    Row)
+    ).
+
+spread(Amounts) :-
+    member(Amt, Amounts),
+    get_dict(value, Amt, Value),
+    Value = range(_, _),
+    !.
+
+is_ok(Row) :- Row.outcome == ok.
+
+priced_bucket(Id, A, S, Miles, Bucket, Row) :-
+    basis_step(Id, A, S, Miles, Bucket, null, Row).
+
+bucket_spread(Rows, Text) :-
+    findall(B, ( member(R, Rows), get_dict(bucket, R, B) ), Bs0),
+    sort(Bs0, Bs),
+    listed_or(Bs, Text).
+
+listed_or([One], One) :- !.
+listed_or(Items, Text) :-
+    append(Front, [Last], Items),
+    atomic_list_concat(Front, ', ', Head),
+    format(atom(Text), '~w or ~w', [Head, Last]).
+
+listed(Items, Text) :- atomic_list_concat(Items, ', ', Text).
+
+% One amount per currency, spanning what the candidate buckets produced. A
+% currency that came out the same everywhere keeps its number; one that did not
+% becomes range(Low, High), and every renderer has to say so rather than
+% quietly showing an end of it.
+merge_amounts(Id, Rows, Amounts) :-
+    findall(Amount,
+            ( currency(Id, Key, _, _), merged_amount(Rows, Key, Amount) ),
+            Amounts).
+
+merged_amount(Rows, Key, amt{ currency: Key, value: Value, bonus: 0, tier: null }) :-
+    findall(V, ( member(R, Rows), row_amount(R, Key, V) ), Values0),
+    sort(Values0, Values),
+    (   Values = [One]
+    ->  Value = One
+    ;   include(number, Values, Numbers),
+        (   Numbers == []
+        ->  Value = indeterminate
+        ;   min_list(Numbers, Low),
+            max_list(Numbers, High),
+            Value = range(Low, High)
+        )
     ).
 
 basis_step(Id, A, S, Miles, Bucket, BucketBasis, Row) :-
@@ -281,12 +369,22 @@ member_tier(A, Id, Tier) :-
 total_for(Rows, Key, tot{ currency: Key, amount: Amount,
                           lowerBound: Bound, unpriced: Unpriced }) :-
     findall(V, ( member(Row, Rows), row_amount(Row, Key, V) ), Values),
-    include(number, Values, Numbers),
-    sum_list(Numbers, Amount),
+    total_amount(Values, Amount),
     aggregate_all(count, ( member(Row, Rows), Row.outcome == indeterminate ), Undecided),
     aggregate_all(count, member(indeterminate, Values), Missing),
     Unpriced is Undecided + Missing,
     ( Unpriced > 0 -> Bound = true ; Bound = false ).
+
+% A journey with one ranged sector has a ranged total, and the ends add
+% independently. Collapsing to a midpoint would produce a number that no
+% combination of the traveller's actual fares can produce.
+total_amount(Values, Amount) :-
+    foldl(add_amount, Values, 0-0, Low-High),
+    ( Low == High -> Amount = Low ; Amount = range(Low, High) ).
+
+add_amount(range(L, H), Lo0-Hi0, Lo-Hi) :- !, Lo is Lo0 + L, Hi is Hi0 + H.
+add_amount(V, Lo0-Hi0, Lo-Hi) :- number(V), !, Lo is Lo0 + V, Hi is Hi0 + V.
+add_amount(_, Acc, Acc).
 
 row_amount(Row, Key, Value) :-
     get_dict(amounts, Row, Amounts),
@@ -305,6 +403,7 @@ outcome_row(S, Outcome, Reason, Parts,
                  distance: Distance,
                  bucket: Bucket, bucketBasis: BucketBasis,
                  basis: Basis,
+                 assumption: Assumption,
                  nearBoundary: Near,
                  amounts: Amounts }) :-
     N = S.n,
@@ -316,12 +415,17 @@ outcome_row(S, Outcome, Reason, Parts,
     part(distance, Parts, null, Distance),
     (   memberchk(bucket(B, BB), Parts)
     ->  bucket_text(B, Bucket), BucketBasis = BB
+    ;   memberchk(bucket_text(Bucket, BucketBasis), Parts)
+    ->  true
     ;   Bucket = null, BucketBasis = null
     ),
     (   memberchk(basis(Ba), Parts)
     ->  bucket_text(Ba, Basis)
+    ;   memberchk(basis_text(Basis), Parts)
+    ->  true
     ;   Basis = null
     ),
+    part(assumption, Parts, null, Assumption),
     part(near_boundary, Parts, null, Near),
     part(amounts, Parts, [], Amounts).
 

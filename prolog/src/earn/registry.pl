@@ -14,6 +14,7 @@
 
 :- use_module(kernel).
 :- use_module(qff).
+:- use_module(cx).
 
 %! earn_programs(-Ids) is det.
 %  Every registered programme, in a stable order.

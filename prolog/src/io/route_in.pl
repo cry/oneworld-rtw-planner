@@ -41,7 +41,7 @@ route_help('NYC-X/LON-SIN-NYC — points separated by "-", "X/" marks a transfer
 
 %! route_segments(+Text, -RawSegs) is det.
 %
-%  Produces the same rseg/11 terms io/json_in.pl builds from a `segments`
+%  Produces the same rseg/12 terms io/json_in.pl builds from a `segments`
 %  array, so both front ends meet at build_itinerary/6 and no rule knows which
 %  was used. Throws input_error(Message) on anything unparseable.
 route_segments(Text, RawSegs) :-
@@ -145,8 +145,9 @@ segments([point(From, _, _, _), Next|Rest], N, [Seg|Segs]) :-
     ->  Stop = unknown
     ;   Stop = Declared
     ),
-    % No booking class: a routing is a fare notation and has no place to write
-    % one. Section 5(b) reports that it had nothing to read -- see PLANS/05.
-    Seg = rseg(N, Type, From, To, Carrier, Carrier, unknown, unknown, unknown, Stop, unknown),
+    % No booking class and no fare family: a routing is a fare notation and has
+    % no place to write either. Section 5(b) and the earning programmes report
+    % that they had nothing to read -- see PLANS/05.
+    Seg = rseg(N, Type, From, To, Carrier, Carrier, unknown, unknown, unknown, Stop, unknown, unknown),
     N1 is N + 1,
     segments([Next|Rest], N1, Segs).

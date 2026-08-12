@@ -35,9 +35,13 @@ program_json(P, _{ id: Id, name: Name,
     maplist(total_json, P.totals, Totals),
     maplist(row_json, P.segments, Rows).
 
-total_json(T, _{ currency: Key, amount: Amount,
+total_json(T, _{ currency: Key, amount: Amount, low: Low, high: High,
                  lowerBound: Bound, unpricedSegments: Unpriced }) :-
-    Key = T.currency, Amount = T.amount,
+    Key = T.currency,
+    (   T.amount = range(L, H)
+    ->  Amount = null, Low = L, High = H
+    ;   Amount = T.amount, Low = T.amount, High = T.amount
+    ),
     Bound = T.lowerBound, Unpriced = T.unpriced.
 
 row_json(R, _{ segment: N, from: From, to: To, type: Type,
@@ -46,6 +50,7 @@ row_json(R, _{ segment: N, from: From, to: To, type: Type,
                distanceMiles: Distance,
                bucket: Bucket, bucketBasis: BucketBasis,
                routeBasis: Basis,
+               assumption: Assumption,
                nearBoundaryMiles: Near,
                amounts: Amounts }) :-
     N = R.segment, From = R.from, To = R.to, Type = R.type,
@@ -53,22 +58,29 @@ row_json(R, _{ segment: N, from: From, to: To, type: Type,
     Outcome = R.outcome, Reason = R.reason,
     Distance = R.distance,
     Bucket = R.bucket, BucketBasis = R.bucketBasis,
-    Basis = R.basis, Near = R.nearBoundary,
+    Basis = R.basis, Assumption = R.assumption, Near = R.nearBoundary,
     maplist(amount_json, R.amounts, Amounts).
 
 amount_json(A, _{ currency: Key, value: Value, known: Known,
+                  low: Low, high: High,
                   base: Base, bonus: Bonus, tier: Tier }) :-
     Key = A.currency,
     Bonus = A.bonus, Tier = A.tier,
-    known_value(A.value, Value, Known),
+    known_value(A.value, Value, Known, Low, High),
     (   number(Value)
     ->  Base is Value - Bonus
     ;   Base = null
     ).
 
-known_value(none,          null, published_as_none) :- !.
-known_value(indeterminate, null, unknown) :- !.
-known_value(V,             V,    known).
+% Four states, and a client that renders `value` alone must not be able to
+% mistake any of the three that are not a number for one. `none` is a rate the
+% table publishes as nothing, `unknown` is a rate nobody stated, and `range` is
+% two rates the input could not choose between -- each of which a 0 would
+% misreport, and each differently.
+known_value(none,          null, published_as_none, null, null) :- !.
+known_value(indeterminate, null, unknown,           null, null) :- !.
+known_value(range(L, H),   null, range,             L,    H) :- !.
+known_value(V,             V,    known,             V,    V).
 
 %! programs_json(-Dict) is det.
 %  Everything a client would otherwise have to hardcode about the programmes,

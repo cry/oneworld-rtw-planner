@@ -138,6 +138,15 @@ family, and the range answer when no family is declared. **This phase is the int
 any kernel change it forces is a phase 1 design miss and gets said out loud in the commit rather
 than absorbed.
 
+*Done, and the audit came back with one finding.* The opaque bucket, the endpoints in
+`route_basis/5` and the per-currency bonus rule all held without alteration — Cathay's zone
+qualifier and its cabin-and-family bucket dropped straight into them. What it forced was **ranges**:
+`fare_bucket/4` may now bind `one_of(Buckets, Why)`, and the kernel prices every candidate and
+reports the spread. That is a real phase 1 miss. The plan had already found that Cathay's fare family
+cannot be derived from the RBD, and had still filed ranges under phase 5 as a nicety for classless
+routings — when for Cathay a range is the *ordinary* answer, not the degenerate one. Everything else
+the phase needed was already there.
+
 **4 — Cathay partner earn, effective dating, more than one programme at once.** Partner earn is a
 percentage of flown miles, which is what proves fixed and proportional accrual share one path.
 

@@ -58,6 +58,7 @@ annotate_segment(S, A) :-
               marketing: S.marketing, operating: S.operating, flight: S.flight,
               dep: S.dep, arr: S.arr, stop: S.stop,
               booking_class: S.booking_class,
+              fare_family: S.fare_family,
               from_country: FC, to_country: TC,
               from_region: FR,  to_region: TR,
               from_cont: FCont, to_cont: TCont,

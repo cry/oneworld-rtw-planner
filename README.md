@@ -145,6 +145,13 @@ is not a great-circle distance; everywhere except near an edge the two agree wel
 a band, and near an edge is exactly where a good-enough answer stops being good enough. The edges are
 asked for per *basis*, so a region pair — which never looked at the distance — is never flagged.
 
+**Where the input cannot say which of several rates applies, the answer is the spread.** Cathay
+lists the same economy booking classes — `Y,B,H,K`, then `M,L,V`, then `S,N,Q,O` — under Flex,
+Essential *and* Light with different earn against each, so a ticket in `K` has genuinely bought one
+of three things and the class cannot tell them apart. Give a `fareFamily` and the answer is a number;
+leave it out and it is `18 to 35 Status Points`, with the register saying why. Never a midpoint: no
+combination of the traveller's actual fares can produce one.
+
 **Nothing that could not be priced is reported as zero.** A sector whose class was not given, whose
 operating carrier is unnamed, or whose category depends on a table that is not loaded, comes back
 `undecided`, and the journey total then reads "0 Qantas Points or more (5 sectors unpriced)" rather
@@ -287,6 +294,7 @@ Nothing at runtime, and nothing in the Docker build, needs node.
 | `web/vendor/swipl-bundle-no-data.js` | the `swipl-wasm` package | copied verbatim |
 | `web/rtw.build.json` | a digest of the above two inputs | `prolog/tools/build_image.mjs` |
 | `prolog/data/earn/qff/*.pl` | the captures in `prolog/data/earn/sources/` | `prolog/tools/build_qff_tables.mjs` |
+| `prolog/data/earn/cx/*.pl` | the same | `prolog/tools/build_cx_tables.mjs` |
 
 ```sh
 npm install                # once
@@ -295,6 +303,7 @@ npm run css                # or just the stylesheet
 npm run map                # or just the map bundle
 npm run wasm               # or just the WebAssembly pair
 npm run earn:qff           # or just the Qantas earning tables
+npm run earn:cx            # or just the Cathay earning tables
 npm run css:watch          # leave running while working on styles
 npm run check:contrast     # WCAG check over the palette, no browser needed
 npm run test:wasm          # the browser build answers what the native one answers
@@ -647,8 +656,10 @@ no intermediate point to describe.
 `carrier` is shorthand that fills both carrier fields; `marketingCarrier` on its own leaves the
 operator unknown rather than assuming there is no codeshare.
 
-`bookingClass` is the single RBD letter the segment is sold in, and it is what rule 5(b) reads. It
-is optional and has no effect on any other rule. Which 5(b) row it is read against is decided by the
+`bookingClass` is the single RBD letter the segment is sold in, and it is what rule 5(b) reads.
+`fareFamily` is the carrier's branded fare — Cathay's `flex`, `essential` or `light` — which no fare
+rule reads at all and which one loyalty programme cannot price a sector without. Both are optional
+and neither affects any other rule. Which 5(b) row it is read against is decided by the
 *marketing* carrier — 5(b) is about the code the fare is sold in, and the seller is who sells it,
 unlike 4(j), which turns on who operates.
 
@@ -726,6 +737,12 @@ arrival and the next departure *at the same airport*, and rules 6 and 7 compare 
 and month granularity.
 
 ## Geography
+
+`prolog/data/earn/cx/zones.pl` is the **fourth**: five zones of pure distance and a sixth,
+Short - Type 2, which is the *same* 751-to-2,750-mile band as Short - Type 1 and is separated from it
+only by whether the sector is to or from Japan, Indonesia, Sri Lanka, Nepal, Bangladesh or India. No
+distance decides it, which is why the route basis a programme resolves takes the endpoints and not
+just a distance.
 
 `prolog/data/earn/qff/regions.pl` is the **third** geography taxonomy here, and deliberately its own
 table. Qantas splits West Coast from East Coast USA/Canada, which the fare rule does not; it files
@@ -820,8 +837,11 @@ Nine suites, in descending value, plus a tenth that needs node as well and runs 
    at once matching asking for each on its own. Nothing in the file names a programme.
 9. **Earn numbers** — hand-computed values with the published row named in a comment above each, and
    the same mutation idea as the rule suite: change one booking class and assert exactly one column
-   moves. Also the great-circle distance against four known city pairs, and that a sector 25 miles
-   inside a band edge is flagged while one in the middle of a band is not.
+   moves. Also the great-circle distance against four known city pairs; that a sector near a band edge
+   is flagged while one in the middle of a band is not; that HKG-NRT and HKG-SIN fall in different
+   Cathay zones despite sitting in the same mileage band, which is the one place a distance is not
+   enough; and that Asia Miles are exactly a hundred Status Points in every row of the table, since
+   the day that stops being true is far likelier to be the day a row was mistranscribed.
 
 ```sh
 npm run test:wasm
@@ -884,9 +904,10 @@ decidable; nothing else would.
 
 Not part of Rule 3015 at all, and a separate operation for that reason — see
 [What it earns](#what-it-earns) and [`PLANS/05-loyalty-earning.md`](PLANS/05-loyalty-earning.md).
-Qantas Frequent Flyer is registered and priced off its published region pairs and mileage bands;
-Cathay, effective dating and tier bonuses are the phases still to come, and the two tables that have
-not been captured yet are listed in
+Two programmes are registered. Qantas Frequent Flyer is priced off its published region pairs and
+mileage bands; Cathay off its distance zones, for Cathay-marketed flights only. Effective dating,
+Cathay's partner earn and tier bonuses are the phases still to come, and the tables that have not
+been captured yet are listed in
 [`prolog/data/earn/sources/README.md`](prolog/data/earn/sources/README.md).
 
 Deliberately out of scope in both programmes: award bookings, which earn nothing; Qantas Loyalty
