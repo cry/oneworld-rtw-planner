@@ -448,7 +448,7 @@ cx_metal_sector(Class, Operator, From, To, Cabin, Row) :-
 test(cathay_metal_earns_a_fixed_amount) :-
     cx_family_sector("K", "flex", "HKG", "CDG", "economy", Row),
     assertion(Row.outcome == ok),
-    assertion(Row.bucket == 'Economy Flex (B H K Y)'),
+    assertion(Row.bucket == 'Economy Flex (Y B H K)'),
     assertion(Row.bucketBasis == 'fare family declared'),
     assertion(sub_atom(Row.basis, _, _, _, 'Zone 5')),
     amount(Row, status_points, Points),
@@ -464,7 +464,7 @@ test(cathay_metal_earns_a_fixed_amount) :-
 test(a_partner_earns_a_share_of_the_distance) :-
     cx_sector('QF', "J", "HKG", "SYD", "business", Row),
     assertion(Row.outcome == ok),
-    assertion(Row.bucket == 'Business (C D I J)'),
+    assertion(Row.bucket == 'Business (J C D I)'),
     amount(Row, status_points, Points),
     amount(Row, asia_miles, Miles),
     assertion(Points == 60),
@@ -531,7 +531,7 @@ test(an_override_beats_the_distance) :-
 test(a_codeshare_earns_the_codeshare_card) :-
     cx_metal_sector("K", "BA", "HKG", "CDG", "economy", Codeshare),
     cx_metal_sector("K", "CX", "HKG", "CDG", "economy", Own),
-    assertion(Codeshare.bucket == 'Codeshare (B H K Y)'),
+    assertion(Codeshare.bucket == 'Codeshare (Y B H K)'),
     assertion(Codeshare.bucketBasis == 'a Cathay flight number on a partner aircraft'),
     amount(Codeshare, status_points, PC),
     assertion(PC == 40),
@@ -649,7 +649,7 @@ test(an_undeclared_brand_gives_the_spread) :-
 test(full_fare_economy_is_settled_as_flex) :-
     cx_sector("Y", "HKG", "CDG", "economy", Row),
     assertion(Row.outcome == ok),
-    assertion(Row.bucket == 'Economy Flex (B H K Y)'),
+    assertion(Row.bucket == 'Economy Flex (Y B H K)'),
     assertion(sub_atom(Row.bucketBasis, _, _, _, 'full-fare economy')),
     assertion(Row.assumption == null),
     amount(Row, status_points, Points),
@@ -660,7 +660,7 @@ test(full_fare_economy_is_settled_as_flex) :-
 % register must not pretend it decided anything.
 test(the_settled_class_is_a_cathay_fact_only) :-
     cx_sector('BA', "Y", "HKG", "BKK", "economy", Row),
-    assertion(Row.bucket == 'Economy (B H Y)'),
+    assertion(Row.bucket == 'Economy (Y B H)'),
     assertion(Row.bucketBasis == 'the only card listing this class').
 
 % Fare brands are Cathay's own Economy and nowhere else, so a family left set in
@@ -671,7 +671,7 @@ test(a_brand_only_applies_where_there_is_one) :-
     cx_family_sector("D", "light", "HKG", "CDG", "business", Declared),
     cx_sector("D", "HKG", "CDG", "business", Plain),
     assertion(Declared.outcome == ok),
-    assertion(Declared.bucket == 'Business (D I P)'),
+    assertion(Declared.bucket == 'Business (D P I)'),
     amount(Declared, status_points, PD),
     amount(Plain, status_points, PP),
     assertion(PD == 100),
@@ -690,10 +690,10 @@ test(an_unpublished_fare_brand_is_refused) :-
 % as two fare families and this one does not name at all.
 test(a_premium_cabin_class_picks_its_own_card) :-
     forall(member(Class-Cabin-Card-Points,
-                  ["J"-"business"-'Business (C J)'-130,
-                   "D"-"business"-'Business (D I P)'-100,
-                   "F"-"first"-'First (A F)'-160,
-                   "W"-"business"-'Premium Economy (R W)'-80,
+                  ["J"-"business"-'Business (J C)'-130,
+                   "D"-"business"-'Business (D P I)'-100,
+                   "F"-"first"-'First (F A)'-160,
+                   "W"-"business"-'Premium Economy (W R)'-80,
                    "E"-"business"-'Premium Economy (E)'-65]),
            (   cx_sector(Class, "HKG", "CDG", Cabin, Row),
                assertion(Row.outcome == ok),
@@ -703,19 +703,99 @@ test(a_premium_cabin_class_picks_its_own_card) :-
                assertion(P == Points)
            )).
 
-% A class can sit in two cabins on one airline -- Japan Airlines files A in First
-% at 150% and again in Economy at 50% -- and the cabin the fare was sold in is
-% what tells them apart. The cabin narrows an answer here and never removes the
-% only one: a Cathay ticket in W on a Business fare is still a Premium Economy
-% seat, which the case above asserts.
+% A class can sit in two cabins on one airline -- Japan Airlines files J in
+% Business at 125% and again in its domestic Economy group at 50% -- and the cabin
+% the fare was sold in is what tells them apart. The cabin narrows an answer here
+% and never removes the only one: a Cathay ticket in W on a Business fare is still
+% a Premium Economy seat, which the case above asserts.
 test(a_class_in_two_cabins_is_settled_by_the_cabin) :-
-    cx_sector('JL', "A", "NRT", "LHR", "first", First),
-    cx_sector('JL', "A", "NRT", "LHR", "economy", Economy),
-    assertion(First.bucket == 'First (A F)'),
-    assertion(Economy.bucket == 'Economy (A I)'),
-    amount(First, asia_miles, MF),
+    cx_sector('JL', "J", "HND", "CTS", "business", Business),
+    cx_sector('JL', "J", "HND", "CTS", "economy", Economy),
+    assertion(Business.bucket == 'Business (J C D I)'),
+    assertion(Economy.bucket == 'Economy (J Y)'),
+    amount(Business, asia_miles, MB),
     amount(Economy, asia_miles, ME),
-    assertion(MF =:= 3 * ME).
+    assertion(MB > 2.4 * ME).
+
+% --- fare groups and scope ---------------------------------------------------
+
+% Worked example A2, and the reason the class lists were rebuilt. Earning is
+% priced per *fare group*, and D sits in Japan Airlines' Business group B with J,
+% C and I at 125%. The previous capture derived class lists from the API's one
+% representative class per group and recorded D as absent, which was an artefact
+% of that method rather than a fact about the airline.
+test(a_fare_group_prices_every_class_in_it) :-
+    forall(member(Class, ["J", "C", "D", "I"]),
+           (   cx_sector('JL', Class, "LAX", "NRT", "business", Row),
+               assertion(Row.outcome == ok),
+               assertion(Row.bucket == 'Business (J C D I)'),
+               amount(Row, status_points, P),
+               assertion(P == 75),
+               amount(Row, asia_miles, M),
+               assertion(abs(M - 6798) < 20)
+           )).
+
+% ...and the group beside it in the same cabin earns a third as much, which is
+% why a class the table does not name is never priced off its neighbour.
+test(two_groups_in_one_cabin_can_differ_threefold) :-
+    cx_sector('JL', "D", "LAX", "NRT", "business", Full),
+    cx_sector('JL', "X", "LAX", "NRT", "business", Discount),
+    assertion(Discount.bucket == 'Business (X)'),
+    amount(Full, status_points, PF),
+    amount(Discount, status_points, PD),
+    assertion(PF == 75),
+    assertion(PD == 25),
+    amount(Full, asia_miles, MF),
+    amount(Discount, asia_miles, MD),
+    assertion(MF > 1.7 * MD).
+
+% Two airlines price the same class differently by whether the sector stays inside
+% one country, so (airline, cabin, class) is not a key for them. Y is Japan
+% Airlines' Economy group F at 100% abroad and its group H at 50% at home.
+test(scope_splits_a_class_on_two_airlines) :-
+    cx_sector('JL', "Y", "NRT", "LHR", "economy", Abroad),
+    cx_sector('JL', "Y", "HND", "CTS", "economy", Home),
+    assertion(Abroad.bucket == 'Economy (Y)'),
+    assertion(Home.bucket == 'Economy (J Y)'),
+    amount(Abroad, asia_miles, MA),
+    amount(Home, asia_miles, MH),
+    assertion(MA =:= Abroad.distance),
+    assertion(MH =:= round(Home.distance / 2)),
+    % First goes the same way: group A at 150% abroad, group B at 125% at home.
+    cx_sector('JL', "F", "NRT", "LHR", "first", FirstAbroad),
+    cx_sector('JL', "F", "HND", "CTS", "first", FirstHome),
+    assertion(FirstAbroad.bucket == 'First (F A)'),
+    assertion(FirstHome.bucket == 'First (F)').
+
+% A card scoped to the other kind of sector is not a candidate at all. Japan
+% Transocean files most of its Economy classes domestically and nowhere else, so
+% an international sector in one of them is a class the table knows and a rate it
+% does not give -- which is a different fact from a class it has never heard of,
+% and says so.
+test(a_domestic_only_card_does_not_price_an_international_sector) :-
+    cx_sector('NU', "K", "OKA", "TPE", "economy", Row),
+    assertion(Row.outcome == indeterminate),
+    assertion(sub_atom(Row.reason, _, _, _, 'only on domestic sectors')).
+
+% A class in no fare group at all. The lists come from each carrier's published
+% fare groups rather than from sampling, so this is a fact about the table --
+% and the sector stays undecided rather than borrowing the rate of a class beside
+% it, which the case above shows can be three times wrong.
+test(a_class_in_no_fare_group_is_refused_not_substituted) :-
+    cx_sector('BA', "X", "LHR", "JFK", "economy", Row),
+    assertion(Row.outcome == indeterminate),
+    assertion(Row.amounts == []),
+    assertion(sub_atom(Row.reason, _, _, _, 'in no British Airways fare group')),
+    assertion(sub_atom(Row.reason, _, _, _, 'no neighbouring class is used')).
+
+% Two fare groups exist in the carriers' own definitions and were never sampled
+% at all, so they have no rate at any distance and no percentage either. The card
+% is real and the answer is not, which is worth saying in those terms rather than
+% letting it read as a route the table does not cover.
+test(a_card_with_no_rate_anywhere_says_so) :-
+    cx_sector('OS', "T", "VIE", "FRA", "economy", Row),
+    assertion(Row.outcome == indeterminate),
+    assertion(sub_atom(Row.reason, _, _, _, 'Economy (T L) card and no rate for it')).
 
 % --- American's one conditional row ------------------------------------------
 
@@ -755,15 +835,15 @@ test(an_airline_outside_the_programme_earns_nothing) :-
 test(the_x100_rule_is_cathays_and_only_cathays) :-
     findall(Card-Zone,
             (   cx_table:cx_rate(Card, Zone, _, Rates),
-                Card = fare(cx, _, _, _),
-                memberchk(rate(status_points, fixed(Points)), Rates),
+                Card = fare(cx, _, _, _, _),
+                memberchk(rate(status_points, fixed(_)), Rates),
                 \+ memberchk(rate(asia_miles, fixed(_)), Rates)
             ),
             NotFixed),
     assertion(NotFixed == []),
     findall(Card-Zone,
             (   cx_table:cx_rate(Card, Zone, _, Rates),
-                Card = fare(cx, _, _, _),
+                Card = fare(cx, _, _, _, _),
                 memberchk(rate(status_points, fixed(Points)), Rates),
                 memberchk(rate(asia_miles, fixed(Miles)), Rates),
                 Miles =\= Points * 100
@@ -772,7 +852,7 @@ test(the_x100_rule_is_cathays_and_only_cathays) :-
     assertion(Broken == []),
     findall(Card,
             (   cx_table:cx_rate(Card, _, _, Rates),
-                Card \= fare(cx, _, _, _),
+                Card \= fare(cx, _, _, _, _),
                 memberchk(rate(asia_miles, fixed(_)), Rates)
             ),
             PartnerFixed),
@@ -781,24 +861,27 @@ test(the_x100_rule_is_cathays_and_only_cathays) :-
 % Which carriers cannot price an Explorer fare at all, held as an exact list.
 %
 % Section 5(b) publishes the class this fare books into per carrier, so those are
-% the codes this repository actually asks for -- and the partner cards were
-% sampled 23 to 90 city pairs each, where a sampled pair only observes the
-% classes it sells. Three carriers are missing the very code an Explorer ticket
-% is sold in. That is a hole in the observations rather than a mistake in reading
-% them, so it is written down rather than fixed here, and src/earn/cx.pl says as
-% much on the sector instead of reporting it as a decision the airline made.
+% the codes this repository actually asks for. Malaysia files neither I nor L in
+% any fare group, so a Malaysian sector on an IONE3 business fare or on any
+% economy fare cannot be priced -- and that is now a fact about the table rather
+% than a gap in the sampling, because the class lists come from each carrier's
+% published fare groups.
 %
-% Asserted exactly, both ways: a fourth carrier appearing is a regression in the
-% capture, and one of these three disappearing means a re-sample filled it in and
-% this list should lose a line.
-test(three_carriers_cannot_price_an_explorer_fare) :-
+% It was three carriers until the lists were rebuilt: Japan Airlines and Japan
+% Transocean appeared to be missing D and L, which turned out to be an artefact of
+% deriving class lists from one representative class per group.
+%
+% Asserted exactly, both ways: a second carrier appearing is a regression in the
+% capture, and this one disappearing means Malaysia's groups grew and the list
+% should lose its last line.
+test(one_carrier_cannot_price_an_explorer_fare) :-
     findall(Airline-Missing,
             (   cx_airlines:cx_airline(Airline, _, _),
                 booking_codes:carrier_has_codes(Airline),
                 findall(Code,
                         (   booking_codes:booking_column(Column),
                             booking_codes:booking_code(Airline, _, Column, Code),
-                            \+ cx_buckets:cx_class(Airline, _, _, _, Code)
+                            \+ cx_buckets:cx_class(Airline, _, _, _, _, Code)
                         ),
                         Missing0),
                 sort(Missing0, Missing),
@@ -806,22 +889,26 @@ test(three_carriers_cannot_price_an_explorer_fare) :-
             ),
             Gaps0),
     sort(Gaps0, Gaps),
-    assertion(Gaps == [jl-[d, l], mh-[i, l], nu-[d, l]]).
+    assertion(Gaps == [mh-[i, l]]).
 
 % Every card the class table can reach has a rate in every zone of its own
-% scheme, or is one of the cells the capture marks unobserved. A card with no row
-% at all is a transcription error that would surface as an undecided sector the
-% reader would take for their own fault.
+% scheme, unless it is one of the two the capture says was never sampled at all.
+% A card with no row and no such note is a transcription error that would surface
+% as an undecided sector the reader would take for their own fault.
 test(every_card_prices_every_zone_of_its_scheme) :-
     findall(Card-Zone,
-            (   cx_buckets:cx_row(Airline, Cabin, Brand, Group),
-                Card = fare(Airline, Cabin, Brand, Group),
+            (   cx_buckets:cx_row(Airline, Cabin, Brand, Group, Scope),
+                Card = fare(Airline, Cabin, Brand, Group, Scope),
+                \+ cx_table:cx_unpriced(Card, _),
                 cx_airlines:cx_airline(Airline, _, Scheme),
                 cx_zones:cx_zone(Scheme, Zone, _, _, _),
                 \+ cx_table:cx_rate(Card, Zone, _, _)
             ),
             Missing),
-    assertion(Missing == []).
+    assertion(Missing == []),
+    % ...and the two that have none say why, rather than being absent silently.
+    findall(C, cx_table:cx_unpriced(C, _), Unpriced),
+    assertion(length(Unpriced, 2)).
 
 :- end_tests(earn_cx).
 

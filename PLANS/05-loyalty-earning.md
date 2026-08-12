@@ -175,11 +175,11 @@ phase 1 decision paying for itself:
   the sector, so `route_basis/5` carried it into the accrual as part of the basis. Had the accrual
   been handed a bucket and a distance, as the original plan had it, this would have needed a sixth
   argument.
-* *Holes in the data.* The partner tables were sampled, not enumerated, so 118 of 942 cells were
-  never observed. Those rows omit the Status Points rate entirely, and the kernel's existing rule —
-  a rate row silent about a declared currency has not priced it — reports them undecided beside a
-  mileage figure that *is* known. `none` and `indeterminate` being different things, decided in
-  phase 1, is what made a half-priced sector expressible at all.
+* *Holes in the data.* The partner tables were sampled, not enumerated, so about a tenth of the
+  cells were never observed. Those rows omit the Status Points rate entirely, and the kernel's
+  existing rule — a rate row silent about a declared currency has not priced it — reports them
+  undecided beside a mileage figure that *is* known. `none` and `indeterminate` being different
+  things, decided in phase 1, is what made a half-priced sector expressible at all.
 
 What it did cost: the conformance test for an unnamed operating carrier had to change its fixture
 from a partner flight number to a Cathay one. That is not a weakening. Asia Miles reads the
@@ -187,7 +187,26 @@ from a partner flight number to a Cathay one. That is not a weakening. Asia Mile
 nothing and there is nothing for the test to hold; on a Cathay flight number both programmes turn on
 it, for different reasons. The property survives; the fixture that exercised it did not.
 
-Two corrections to earlier phases came out of the same capture, and both were the old data being
+*Rebuilt again a snapshot later, and this time the data was wrong rather than thin.* The v3 capture
+takes booking-class membership from each carrier's published fare groups instead of from the
+calculator's one representative class per group — a representative that is sometimes not even a
+member of the group it names. On Japan Airlines and Japan Transocean that had both invented classes
+and dropped real ones; every rate was right and only the labels were wrong, which is the shape of
+error a totals-only check cannot see. It also added a `scope` column, because those two airlines
+price the same class differently by whether the sector stays inside one country.
+
+The kernel again needed nothing. The fare group and the scope went into the bucket term, which the
+kernel does not look inside, and the domestic/international test was already being computed for
+American's conditional percentage. What it *did* find was a real defect in the resolver's ordering:
+preferring an exactly-scoped card before applying the cabin read a domestic business ticket in `J` as
+an economy one, because Japan Airlines lists `J` in both. Scope filters before the cabin and prefers
+after it.
+
+The 5(b) coverage list shrank from three carriers to one as a result: `JL` and `NU` were never
+missing the codes an Explorer fare books into, and the previous phase had written that down as a fact
+about the airlines. Only Malaysia is genuinely short.
+
+Two corrections to earlier phases came out of the v2 capture, and both were the old data being
 thinner than it looked rather than read wrongly. The enhanced-region country list is **seven**
 countries and not six — Kazakhstan was missing. And the Business row headed "Essential, Light" was
 read as two fare families; the calculator publishes no Business brands at all, only two class-group

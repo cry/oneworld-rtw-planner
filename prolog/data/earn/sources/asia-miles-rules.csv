@@ -21,6 +21,18 @@ rule,CX_codeshare_economy,equals Economy Light,"Partner-operated metal under a C
 rule,CX_codeshare_premium,not published,"The CX table shows no codeshare row for Premium Economy, Business or First"
 rule,AA_business_multiplier,150% domestic / 125% international,"American Airlines is the ONLY airline whose mile percentage varies. Domestic means both airports in the same country. Verified 90/90 with zero violations, including AKL-CHC as domestic New Zealand"
 rule,symmetry,A-B equals B-A,"Verified on CX across 1,588 bidirectional pairs, zero exceptions"
+rule,fare_group_is_the_unit,earning is per fare_group not per class,"The calculates endpoint returns ONE representative bookingClass per group. The authoritative class list comes from bookingClassGroup resolved against the page model at miles-and-points-calculator.model.json under fareGroups.rbdGroups"
+rule,ignore_bookingClass_field,unreliable,"The API bookingClass value is a representative and is sometimes NOT a member of its own group. JL Business group G returns bookingClass H but the official group is (X). Never treat it as the class list"
+rule,scope_column,all / domestic / international,"JL and NU price the same class differently by sector scope. JL Economy Y earns 100% internationally but the domestic group prices J and Y at 50%. Resolve scope before matching, and expect two candidate rows"
+rule,missing_booking_class,return CLASS_NOT_IN_TABLE,"An absent class is NOT a zero and NOT eligible for substitution from a neighbouring class in the same cabin. Within one cabin multipliers differ by up to 2x. Escalate to the live calculator"
+no_answer_state,CLASS_NOT_IN_TABLE,row absent entirely,Class not present in any fare group for this airline
+no_answer_state,UNOBSERVED,? in status_points_by_zone,Class is known but this distance band was never sampled
+no_answer_state,zero,literal 0,Measured or inferred zero for the nine non-oneworld carriers
+unobserved_group,OS Economy group H,"(T, L)","Group exists in the page model but never appeared in sampling. Percentage and points both unknown"
+unobserved_group,LX Economy group H,"(T, L)","Group exists in the page model but never appeared in sampling. Percentage and points both unknown"
+correction,v2_booking_classes,JL and NU were wrong,"The previous version derived class lists from the API representative bookingClass. For JL and NU this omitted real classes and invented phantom ones. JL Business was published as C and H; the correct groups are (J, C, D, I) at 125% and (X) at 70%. Rates were right, class labels were wrong"
+correction,v2_scope,not modelled,"The previous version had no scope column, so JL and NU domestic fares were unrepresentable"
+correction,affected_airlines,JL and NU only,"All 24 other airlines returned complete class lists from the API and were unaffected. CX class groupings independently match the page model exactly"
 zero_points,AC,Air Canada,Earns Asia Miles but zero Status Points on every observed sector
 zero_points,CA,Air China,Earns Asia Miles but zero Status Points on every observed sector
 zero_points,NZ,Air New Zealand,Earns Asia Miles but zero Status Points on every observed sector
@@ -51,7 +63,7 @@ coverage,RJ,zones 1-4,"82 pairs, 39-4740 mi. Zones 5,6 unobserved"
 coverage,AA,zones 1-2 4-6,"90 pairs, 68-8794 mi. Zone 3 unobserved"
 coverage,AS,zones 1-5,"43 pairs, 56-5438 mi. Zone 6 unobserved"
 coverage,CA,zones 1-5,"90 pairs, 163-7355 mi. Zone 6 unobserved"
-coverage,JL,zones 1-5,"89 pairs, 105-6737 mi. Zone 6 unobserved"
+coverage,JL,zones 1-5,"89 pairs, 105-6737 mi. Zone 6 unobserved. Class lists resolved from the page model, not from sampling"
 coverage,LH,zones 1-5,"32 pairs, 85-5867 mi. Zone 6 unobserved"
 coverage,QR,zones 1-5,"90 pairs, 55-7036 mi. Zone 6 unobserved"
 coverage,AT,all 6 zones,"80 pairs, 88-7689 mi. Complete"
@@ -68,6 +80,10 @@ validation,partner_reproduction_miles,26780 / 26780,"Every partner observation r
 validation,partner_zone_fit,1828 / 1828,"Every airline-cabin-class-zone key is single-valued under the 750/2750/3700/5000/7500 cutoffs"
 validation,CX_reproduction,1549 / 1557,"CX city pairs reproduced by distance + region rule; the 8 misses are the 4 override pairs in both directions"
 validation,distance_derivation,745 pairs,"Max Economy miles matched great-circle within 6% for 100% of pairs on every airline (CA 98%)"
+validation,holdout_JL_LAX_NRT,8 / 8,"Held-out pair not in the sample. Table predicted all 8 returned class/cabin combinations exactly"
+validation,JL_LAX_NRT_class_D,resolved,"JL Business D is in fare group B at 125%. At 5,438 mi that is band 5 = 75 Status Points and 6,798 Asia Miles, matching the rendered calculator"
+validation,class_expansion_rebuild,127232 / 127232,"Every observation, expanded through its fare group to every member class, reproduced exactly with zero missing classes"
+validation,fresh_pull,1752 pairs re-queried,"Full re-pull capturing bookingClassGroup. 26,780 observations, zero failures"
 validation,ui_crosscheck,HKG-CDG and QF HKG-SYD,"Both match the rendered calculator exactly"
 scope,airlines,26,"Cathay Pacific plus 25 partners, as listed in the calculator airline dropdown"
 scope,trip_type,one way,All figures are one-way earning

@@ -80,6 +80,10 @@ const lookup = parseCsv(read(LOOKUP));
 const rules = parseCsv(read(RULES));
 const guide = read(GUIDE);
 
+// Checked before anything is written, not after: a guard that fires at the end
+// has already left the generated tables on disk.
+if (!/parsing guide \(v3\)/.test(guide)) die(`${GUIDE} is not the v3 guide these tables were built from`);
+
 const ruleRows = (type) => rules.filter((r) => r.record_type === type);
 const ruleValue = (type, key) => {
   const row = ruleRows(type).find((r) => r.key === key);
@@ -176,6 +180,17 @@ const zeroPoints = ruleRows('zero_points').filter((r) => r.key !== '_pattern').m
 
 const atom = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
 
+// Fare groups the carrier defines and the sampling never reached, so neither the
+// points nor the percentage is known. Two of them, and they are the reason a card
+// can exist with no rate at all -- which src/earn/cx.pl reports as its own answer
+// rather than letting it read as a route the table does not cover.
+const unsampledGroups = ruleRows('unobserved_group').map((r) => {
+  const m = /^(\S+)\s+(.+?)\s+group\s+(\S+)$/.exec(r.key)
+    ?? die(`cannot read an airline, cabin and group from "${r.key}"`);
+  return { airline: atom(m[1]), cabin: atom(m[2]), group: atom(m[3]), note: r.notes };
+});
+
+
 // A brand is what the calculator calls the rate card. It is a real axis only on
 // Cathay's own Economy, where the same booking classes sit under Flex, Essential
 // and Light with different earn against each; everywhere else the brand is just
@@ -186,27 +201,51 @@ const CX_ECONOMY_BRANDS = ['economy_flex', 'economy_essential', 'economy_light',
 // was bought.
 const FAMILIES = [['flex', 'economy_flex'], ['essential', 'economy_essential'], ['light', 'economy_light']];
 
+// The fare group is the unit of earning, not the booking class: every class in a
+// group earns identically, and the group code is the carrier's own. It is part of
+// the card key rather than a derived label, because two groups on one airline can
+// carry the same classes under different scopes -- and because the class list came
+// out of the carrier's published fare groups rather than out of the sampling,
+// which is what makes it complete.
+//
+// Scope is the same domestic/international test the route basis already makes.
+// Only JL and NU use it, and there it is load-bearing: JL Economy Y earns 100% on
+// an international sector and 50% on a domestic one, so (airline, cabin, class)
+// is not a key for them.
+const SCOPES = ['all', 'domestic', 'international'];
+
 const rows = lookup.map((r) => {
   const scheme = { CX: 'cx', PARTNER: 'partner' }[r.zone_scheme] ?? die(`unknown zone_scheme "${r.zone_scheme}"`);
   const classes = r.booking_classes.split(/\s+/).filter(Boolean);
   if (classes.length === 0) die(`row ${r.airline}/${r.cabin} lists no booking classes`);
   const points = r.status_points_by_zone.split(';').map((s) => s.trim());
   if (points.length !== 6) die(`row ${r.airline}/${r.cabin}/${r.booking_classes} has ${points.length} zone values, not 6`);
+  if (!r.fare_group) die(`row ${r.airline}/${r.cabin}/${r.booking_classes} names no fare group`);
+  if (!SCOPES.includes(r.scope)) die(`unknown scope "${r.scope}" on ${r.airline}/${r.cabin}/${r.fare_group}`);
   return {
     airline: atom(r.airline),
     airlineName: r.airline_name,
     scheme,
     cabin: atom(r.cabin),
     brand: atom(r.fare_brand),
-    group: classes.join('').toLowerCase(),
+    group: atom(r.fare_group),
+    scope: r.scope,
     classesLabel: classes.join(' '),
     classes: classes.map((c) => c.toLowerCase()),
     operatedBy: r.operated_by,
     points: points.map((p) => (p === '?' ? null : Number(p))),
     milesBasis: r.asia_miles_basis,
-    milesValue: r.asia_miles_value,
+    // A group that exists in the carrier's definitions but was never sampled has
+    // no percentage either, which is a third thing again from a rate of nothing.
+    milesValue: r.asia_miles_value === '?' ? null : r.asia_miles_value,
   };
 });
+
+// The card key has to be unique or two published rows would collapse into one.
+for (const [key, group] of Object.entries(Object.groupBy(rows, (r) =>
+    `${r.airline}/${r.cabin}/${r.brand}/${r.group}/${r.scope}`))) {
+  if (group.length > 1) die(`${key} appears ${group.length} times; the card key is not unique`);
+}
 
 for (const row of rows) {
   if (row.points.some((p) => p !== null && !Number.isInteger(p))) {
@@ -217,9 +256,8 @@ for (const row of rows) {
   // Coverage is per airline and a `?` is per cell, so the two only constrain
   // each other in one direction: a zone the airline was never sampled in cannot
   // hold a measured number. The converse does not hold and must not be asserted
-  // -- Japan Airlines was sampled in zones 1 to 5 and still has holes at 3, 4
-  // and 5 on its E, J and A/I cards, because a sampled city pair only observes
-  // the classes that pair actually sells.
+  // -- Japan Airlines was sampled in zones 1 to 5 and still has a hole at zone 6
+  // on every card, and its domestic groups were never sampled above zone 2.
   for (const [i, p] of row.points.entries()) {
     if (p !== null && p !== 0 && !cov.zones.includes(i + 1)) {
       die(`${row.airline.toUpperCase()} zone ${i + 1} carries a rate but ${RULES} says it was never sampled`);
@@ -236,13 +274,21 @@ for (const row of rows) {
       : false) {
     die(`unexpected Cathay Economy brand "${row.brand}"`);
   }
+  if (row.scope !== 'all' && !['jl', 'nu'].includes(row.airline)) {
+    die(`${row.airline.toUpperCase()} uses scope "${row.scope}"; only JL and NU are supposed to`);
+  }
+  // A card with no percentage must have no points either, or it would be priced
+  // in one currency and silently unpriced in the other for no stated reason.
+  if (row.milesValue === null && row.points.some((p) => p !== null)) {
+    die(`${row.airline.toUpperCase()}/${row.cabin}/${row.group} has points but no percentage`);
+  }
 }
 
 // Cathay is the only airline with more than one brand per cabin, and Economy is
 // the only cabin it has them in. Asserted rather than assumed, because a second
 // airline growing a brand axis would turn a single answer into a range without
 // anything else in the pipeline noticing.
-for (const [key, group] of Object.entries(Object.groupBy(rows, (r) => `${r.airline}/${r.cabin}/${r.group}`))) {
+for (const [key, group] of Object.entries(Object.groupBy(rows, (r) => `${r.airline}/${r.cabin}/${r.group}/${r.scope}`))) {
   const brands = new Set(group.map((r) => r.brand));
   if (brands.size > 1 && !key.startsWith('cx/economy/')) {
     die(`${key} has ${brands.size} fare brands; only Cathay's own Economy is supposed to`);
@@ -270,6 +316,7 @@ const MILES_PER_POINT = 100;
 // route basis rather than as a special case in the resolver.
 function milesExpr(row) {
   if (row.scheme === 'cx') return null;   // priced per zone, below
+  if (row.milesValue === null) return [];  // never sampled; see the check above
   const parts = row.milesValue.split('/').map((s) => s.trim());
   if (parts.length === 1) return [['any', Number(parts[0])]];
   return parts.map((part) => {
@@ -279,13 +326,25 @@ function milesExpr(row) {
   });
 }
 
+const card = (row) =>
+  `fare(${row.airline}, ${row.cabin}, ${row.brand}, ${row.group}, ${row.scope})`;
+
 const rateFacts = [];
+const unpricedFacts = [];
 let inferredZeros = 0;
 let unobserved = 0;
+let unpricedCards = 0;
 for (const row of rows) {
-  const bucket = `fare(${row.airline}, ${row.cabin}, ${row.brand}, ${row.group})`;
   const cov = coverage[row.airline.toUpperCase()];
   const miles = milesExpr(row);
+  if (miles !== null && miles.length === 0) {
+    const note = unsampledGroups.find((g) =>
+      g.airline === row.airline && g.cabin === row.cabin && g.group === row.group);
+    if (!note) die(`${row.airline.toUpperCase()}/${row.cabin}/${row.group} has no percentage and ${RULES} does not say why`);
+    unpricedFacts.push(`cx_unpriced(${card(row)}, ${quote(note.note)}).`);
+    unpricedCards++;
+    continue;
+  }
   for (const zone of ZONES[row.scheme]) {
     const points = row.points[zone.pos - 1];
     if (points === null) unobserved++;
@@ -300,7 +359,7 @@ for (const row of rows) {
       // the only honest thing to say about a band nobody sampled.
       if (points !== null) rates.push(`rate(status_points, fixed(${points}))`);
       rates.push(`rate(asia_miles, ${milesRate})`);
-      rateFacts.push(`cx_rate(${bucket}, ${zone.pos}, ${reach}, [${rates.join(', ')}]).`);
+      rateFacts.push(`cx_rate(${card(row)}, ${zone.pos}, ${reach}, [${rates.join(', ')}]).`);
     }
   }
 }
@@ -412,9 +471,9 @@ ${overrides.flatMap(({ pairs, pos, why }) => pairs.map(([from, to]) =>
 `;
 
 const bucketsPl = `:- module(cx_buckets,
-          [ cx_row/4,
-            cx_class/5,
-            cx_group_label/2,
+          [ cx_row/5,
+            cx_class/6,
+            cx_group_label/5,
             cx_brand_label/2,
             cx_cabin_label/2,
             cx_family/2,
@@ -424,27 +483,39 @@ const bucketsPl = `:- module(cx_buckets,
 
 /** <module> Which rate card a ticket reads against. GENERATED -- do not edit.
 
-${provenance(`    One row per (airline, cabin, class group, fare brand), which is the grain the
-    calculator publishes. The brand is a real axis only on Cathay's own Economy:
-    there the same booking classes sit under Flex, Essential and Light with
-    different earn against each, so a ticket that names a class and not a family
-    has genuinely bought one of three things and the honest answer is the spread.
-    In every other cabin, and on every partner, the brand is the cabin repeated
-    and a class picks its card out on its own.`)}*/
+${provenance(`    One row per (airline, cabin, fare group, scope, fare brand), which is the grain
+    the calculator publishes. The fare group is the carrier's own code and the
+    real unit of earning: every class in a group earns identically, and the
+    membership comes from the carrier's published fare groups rather than from
+    sampling -- so a class this file does not name is a class no group contains,
+    not one nobody happened to observe.
 
-%! cx_row(?Airline, ?Cabin, ?Brand, ?Group) is nondet.
-${rows.map((r) => `cx_row(${r.airline}, ${r.cabin}, ${r.brand}, ${r.group}).`).join('\n')}
+    Scope is the domestic/international test, and only Japan Airlines and Japan
+    Transocean use anything but \`all\`. There it decides the answer: JL Economy Y
+    is group F at 100% on an international sector and group H at 50% on a
+    domestic one, so (airline, cabin, class) is not a key for them.
 
-%! cx_class(?Airline, ?Cabin, ?Brand, ?Group, ?Class) is nondet.
+    The brand is a real axis only on Cathay's own Economy: there the same booking
+    classes sit under Flex, Essential and Light with different earn against each,
+    so a ticket that names a class and not a family has genuinely bought one of
+    three things and the honest answer is the spread. In every other cabin, and on
+    every partner, the brand is the cabin repeated and a class picks its card out
+    on its own.`)}*/
+
+%! cx_row(?Airline, ?Cabin, ?Brand, ?Group, ?Scope) is nondet.
+${rows.map((r) => `cx_row(${r.airline}, ${r.cabin}, ${r.brand}, ${r.group}, ${r.scope}).`).join('\n')}
+
+%! cx_class(?Airline, ?Cabin, ?Brand, ?Group, ?Scope, ?Class) is nondet.
 %  A faithful transcription: a class appears once per card that lists it.
 ${rows.flatMap((r) => r.classes.map((c) =>
-  `cx_class(${r.airline}, ${r.cabin}, ${r.brand}, ${r.group}, ${c}).`)).join('\n')}
+  `cx_class(${r.airline}, ${r.cabin}, ${r.brand}, ${r.group}, ${r.scope}, ${c}).`)).join('\n')}
 
-%! cx_group_label(?Group, ?Label) is nondet.
-%  The class group as the table writes it, so a figure can be checked against the
-%  published row rather than against a key this file invented.
-${[...new Map(rows.map((r) => [r.group, r.classesLabel])).entries()]
-  .map(([group, label]) => `cx_group_label(${group}, ${quote(label)}).`).join('\n')}
+%! cx_group_label(?Airline, ?Cabin, ?Group, ?Scope, ?Label) is nondet.
+%  The fare group's membership as the table writes it, so a figure can be checked
+%  against the published row rather than against a key this file invented.
+${[...new Map(rows.map((r) => [`${r.airline}/${r.cabin}/${r.group}/${r.scope}`, r]))
+  .values()]
+  .map((r) => `cx_group_label(${r.airline}, ${r.cabin}, ${r.group}, ${r.scope}, ${quote(r.classesLabel)}).`).join('\n')}
 
 %! cx_brand_label(?Brand, ?Label) is nondet.
 ${[...new Map(rows.map((r) => [r.brand, r.brand === 'codeshare' ? 'Codeshare' : null])).keys()]
@@ -486,7 +557,7 @@ ${[...new Set(rows.filter((r) => r.brand === 'codeshare').map((r) => r.cabin))]
 cx_class_settled(y, economy_flex, 'Y is full-fare economy, which is sold as the flexible fare').
 `;
 
-const tablePl = `:- module(cx_table, [cx_rate/4]).
+const tablePl = `:- module(cx_table, [cx_rate/4, cx_unpriced/2]).
 
 /** <module> Status Points and Asia Miles, per card and zone. GENERATED -- do not edit.
 
@@ -508,6 +579,12 @@ ${provenance(`    One fact per (card, zone position, reach), binding the rate li
 
 %! cx_rate(?Card, ?Zone, ?Reach, ?Rates) is nondet.
 ${rateFacts.join('\n')}
+
+%! cx_unpriced(?Card, ?Why) is nondet.
+%  A fare group the carrier defines and the sampling never reached, so it has no
+%  rate at any distance and no percentage either. Two of them, and they are a
+%  different thing from a card whose rate is simply zero.
+${unpricedFacts.join('\n')}
 `;
 
 const notes = [
@@ -529,6 +606,10 @@ cx_source(earning, source(${quote(SOURCE_URL)}, ${quote(SNAPSHOT)})).
 ${notes.map((n) => `cx_note(${quote(n)}).`).join('\n')}
 `;
 
+if (unpricedFacts.length !== unsampledGroups.length) {
+  die(`${RULES} names ${unsampledGroups.length} never-sampled groups but ${unpricedFacts.length} cards have no rate`);
+}
+
 fs.mkdirSync(OUT, { recursive: true });
 const written = [];
 const files = [['airlines.pl', airlinesPl], ['zones.pl', zonesPl],
@@ -539,8 +620,8 @@ for (const [name, text] of files) {
   if (before !== text) fs.writeFileSync(file, text);
   written.push(`${name}${before === text ? ' (unchanged)' : ''}`);
 }
-if (!/Supersedes v1/.test(guide)) die(`${GUIDE} is not the v2 guide these tables were built from`);
 
 console.log(`earn:cx — ${rows.length} cards over ${airlines.length} airlines, ${rateFacts.length} rate rows`);
-console.log(`earn:cx — ${unobserved} unsampled cells left unpriced, ${inferredZeros} inferred zeros`);
+console.log(`earn:cx — ${unobserved} unsampled cells left unpriced, ${inferredZeros} inferred zeros, ` +
+            `${unpricedCards} cards never sampled at all`);
 console.log(`earn:cx — ${written.join(', ')}`);

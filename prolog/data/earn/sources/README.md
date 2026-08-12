@@ -27,11 +27,16 @@ One table is **not** here and the programme that needs it cannot be finished wit
 
 * **Cathay's membership tiers**, and the bonus each one pays.
 
-Three of the 25 partners have no card for the very code section 5(b) books an Explorer fare into —
-`JL` and `NU` are missing `D` and `L`, `MH` is missing `I` and `L` — so those sectors cannot be
-priced. A sampled city pair only observes the classes it actually sells, which is the likeliest
-explanation, and the only fix is more sampling. `prolog/test/test_earn.pl` holds the list exactly, so
-a fourth appearing is a regression and one disappearing means a re-sample filled it in.
+One of the 25 partners has no fare group containing a code section 5(b) books an Explorer fare into:
+`MH` files neither `I` nor `L`, so a Malaysian sector on an IONE3 business fare or on any economy
+fare cannot be priced. `prolog/test/test_earn.pl` holds that exactly, so a second carrier appearing is
+a regression and this one disappearing means Malaysia's groups grew.
+
+It was three carriers under the v2 capture, which derived class lists from the calculator's one
+representative class per group. `JL` and `NU` appeared to be missing `D` and `L`; both were artefacts
+of that method rather than facts about the airlines. v3 takes the membership from each carrier's
+published fare groups instead, so a class the table does not name is now a real absence — which is
+why the resolver refuses it rather than hedging.
 
 Cathay partner earn used to be the other. It is served by the calculator rather than published as a
 grid, and the two CSVs above are that calculator's own responses — 26,780 of them over 1,752 city

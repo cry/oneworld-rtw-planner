@@ -217,14 +217,32 @@ page decides an answer, so it is a predicate of its own — `cx_class_settled/3`
 prints its reason instead of claiming the table said so. `B`, `H` and `K` are not settled that way
 and stay a range.
 
+**The fare group is the unit of earning, not the booking class.** Every class in a group earns
+identically, and the group is the carrier's own — `JL` Business group B is `(J, C, D, I)` at 125%
+while group G is `(X)` at 70%, a threefold spread inside one cabin. The membership comes from each
+carrier's published fare groups and not from the sampling, which matters because the earlier capture
+derived it from the calculator's one representative class per group: the representative is sometimes
+not even a member of the group it names, so it both invented classes and dropped real ones on two
+airlines. That is also why a class the table does not name is refused rather than priced off its
+neighbour — a substitution here would be wrong by up to three times.
+
+**Two airlines price the same class differently by whether the sector stays inside one country**, so
+`(airline, cabin, class)` is not a key for them: `JL` Economy `Y` is group F at 100% abroad and
+group H at 50% at home. Scope narrows in two places either side of the cabin, and the order is what
+makes both right — a card scoped to the other reach is never a candidate at all, but the *preference*
+for an exactly-scoped card over an `all` one runs after the cabin, because a domestic business ticket
+in `J` is a business ticket even though the domestic economy group also lists `J`.
+
 **A band nobody sampled is not a zero, and a real zero is not a gap.** The partner tables are the
 calculator's own responses to 26,780 queries over 1,752 city pairs, sampled 23 to 90 pairs per
-airline rather than enumerated, so 118 of the 942 cells were never seen. Those carry no Status Points
+airline rather than enumerated, so 106 of the 936 cells were never seen. Those carry no Status Points
 rate at all and reach the reader as `an unknown number of Status Points` beside a mileage figure that
-*is* known, since the miles come off the distance rather than off the band. Nine carriers — exactly
-the non-oneworld partners — earn a measured zero everywhere, which prints as the `0` it is. Where the
-two meet, the zone label says which: `Zone 1 (1-750 miles) — Air New Zealand was sampled in zones 5
-only, so this band was never observed`.
+*is* known, since the miles come off the distance rather than off the band. Two fare groups were
+never sampled at any distance and have no percentage either, which the report says in those terms
+rather than as a route it does not cover. Nine carriers — exactly the non-oneworld partners — earn a
+measured zero everywhere, which prints as the `0` it is. Where they meet, the zone label says which:
+`Zone 1 (1-750 miles) — Air New Zealand was sampled in zones 5 only, so this band was never
+observed`.
 
 **An itinerary that names a cabin has said more than it looks like it has.** Section 5(b) publishes
 the class an Explorer fare books into, so a sector with no `bookingClass` is priced off the fare's

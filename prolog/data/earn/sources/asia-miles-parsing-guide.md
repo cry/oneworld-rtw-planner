@@ -1,10 +1,10 @@
-# Asia Miles earning — parsing guide (v2)
+# Asia Miles earning — parsing guide (v3)
 
 Spec for `asia_miles_earning_lookup.csv` and `asia_miles_rules_and_coverage.csv`.
 Together they answer: *for a flight on Cathay Pacific or any of its 25 partners, how many Status
 Points and Asia Miles does it earn?*
 
-Supersedes v1, which covered Cathay only and contained an error (see §9).
+Supersedes v2, whose booking-class lists for JL and NU were wrong, and v1 before it (see §9).
 
 UTF-8, comma-delimited, RFC-4180 quoted. Strip the BOM before matching the first header cell.
 
@@ -36,7 +36,7 @@ Two consequences that will bite a careless parser:
 
 ## 2. `asia_miles_earning_lookup.csv`
 
-157 rows. Grain: one row per **(airline × cabin × booking-class group × fare brand)**. Status points
+157 rows. Grain: one row per **(airline × cabin × fare group × scope × fare brand)**. Status points
 for all six bands are packed into a single column.
 
 | Column | Notes |
@@ -45,7 +45,9 @@ for all six bands are packed into a single column.
 | `airline_name` | Display name |
 | `zone_scheme` | `CX` or `PARTNER`. **Determines how to read `status_points_by_zone`** — see §3 |
 | `cabin` | `Economy`, `Premium Economy`, `Business`, `First` |
-| `booking_classes` | Space-separated classes sharing this row. Split on whitespace and match exactly |
+| `fare_group` | The carrier's RBD group code. **This is the real unit of earning** — see §2b |
+| `booking_classes` | Space-separated classes in this group. Split on whitespace and match exactly |
+| `scope` | `all`, `domestic` or `international`. Only JL and NU use anything but `all` — see §2b |
 | `fare_brand` | CX Economy: `Economy Light` / `Economy Essential` / `Economy Flex` / `Codeshare`. Everywhere else, equals the cabin |
 | `operated_by` | See §5 |
 | `status_points_by_zone` | Six values, semicolon-separated, zones 1→6 in order. `?` means **unobserved** — see §6 |
@@ -69,6 +71,31 @@ zone_scheme = PARTNER          zone_scheme = CX
 
 CX position 3 is **not** a distance band — it is the enhanced-region variant of band 2. Treating the
 two schemes identically is the most likely source of a silent wrong answer.
+
+---
+
+## 2b. Fare groups and scope — and a trap in the source API
+
+**Earning is priced per fare group, not per booking class.** Each airline defines RBD groups (`A`, `B`,
+`F`, `G`, `H`, `J`…) and every class in a group earns identically. `fare_group` carries that code;
+`booking_classes` is its membership.
+
+This matters if you ever rebuild this data. The `calculates` endpoint returns only **one representative
+class per group**, and that representative is sometimes **not even a member of the group it names** —
+JL Business group `G` returns `bookingClass: "H"`, but the official membership is `(X)`. Deriving class
+lists from `calculates` alone produces both missing and phantom classes. The authoritative membership
+lives in the page model at `miles-and-points-calculator.model.json`, under `fareGroups.rbdGroups`.
+
+### Scope
+
+`JL` and `NU` price the same class differently by sector scope, so `(airline, cabin, booking_class)` is
+**not a unique key** for them:
+
+- `JL` Economy `Y` earns 100% internationally (group F), but the domestic group H prices `J` and `Y` at 50%
+- `JL` First `F` earns 150% via group A, and 125% domestic via group B
+
+Resolve scope (both airports in the same country, or not) before matching, and expect two candidate
+rows. For all other airlines `scope` is `all` and the key is unique.
 
 ---
 
@@ -121,7 +148,11 @@ OUTPUT: status_points, asia_miles
 
 5. ROW
    Filter on airline_code, cabin, fare_brand, and booking_class within
-   booking_classes -> exactly one row.
+   booking_classes.
+   -> exactly one row : continue
+   -> zero rows       : CLASS_NOT_IN_TABLE. Stop. Do NOT fall back to
+                        another class in the same cabin, and do NOT
+                        assume zero. See section 6a.
 
 6. POINTS
    pts := status_points_by_zone[zone]
@@ -169,6 +200,25 @@ the airline earns nothing anywhere. That is flagged in the source data as `infer
 
 ---
 
+## 6a. Missing values and how to read them
+
+Class membership is now taken from the carrier's published fare groups rather than from sampling, so
+the class lists are complete. What can still be missing is a *value*.
+
+| State | Meaning | Where it shows |
+|---|---|---|
+| `UNOBSERVED` | Class is known, but this distance band was never sampled | `?` in `status_points_by_zone` |
+| `0` | Measured or inferred zero | Literal `0`, the nine non-oneworld carriers |
+| `CLASS_NOT_IN_TABLE` | Class is in no fare group for this airline | Row absent entirely |
+
+Two fare groups exist in the carrier definitions but were never observed, so both their percentage and
+their points are unknown: **`OS` Economy group H `(T, L)`** and **`LX` Economy group H `(T, L)`**.
+
+Never substitute a neighbouring class within a cabin. Multipliers differ by up to 2x — JL Business
+group B is 125% while group G is 70% — so guessing is worse than failing.
+
+---
+
 ## 7. Where distance comes from
 
 Cathay uses **published sector mileage**, which is not in either CSV. Two ways to obtain it:
@@ -196,17 +246,29 @@ Cathay uses **published sector mileage**, which is not in either CSV. Two ways t
    Emirates aircraft uses the QF rows.
 9. **Some codes are rail stations.** Ten French TGV Air codes appear as airports; geocoding them will fail.
 
+10. **`(airline, cabin, class)` is not unique for JL and NU.** Scope splits them. Match on `scope` too,
+    or accept multiple candidates and disambiguate on the domestic/international test — see §2b.
+
+11. **Never rebuild class lists from the `calculates` endpoint.** It returns one representative class per
+    group, sometimes not even a member of that group. Use `fareGroups.rbdGroups` from the page model.
+
 ---
 
-## 9. Correction to v1
+## 9. Corrections to earlier versions
 
-The previous guide asserted `asia_miles = status_points × 100` as a **general invariant** and
-recommended it as a parser checksum. That was wrong — it is specific to the Cathay table, and every
-partner breaks it. It survives here only as the CX rule.
+**v1 → v2.** v1 asserted `asia_miles = status_points × 100` as a general invariant and recommended it as
+a parser checksum. It is specific to the Cathay table; every partner breaks it. v1 also described partner
+premium-cabin earning as unresolvable, conflating a CX-numbered ticket on partner metal (genuinely
+unpublished) with a partner-numbered ticket (resolvable via that airline's own table).
 
-v1 also described partner premium-cabin earning as unresolvable. That conflated a CX-numbered ticket
-on partner metal (genuinely unpublished) with a partner-numbered ticket (resolvable via that airline's
-own table, now included). §5 separates the two.
+**v2 → v3.** v2 derived booking-class lists from the API's representative `bookingClass` field. For `JL`
+and `NU` this both **omitted real classes and invented phantom ones**. JL Business was published as
+classes `C` and `H`; the correct groups are `(J, C, D, I)` at 125% and `(X)` at 70%. The *rates* were
+right in every case — only the class labels were wrong. All 24 other airlines were unaffected, and CX's
+groupings independently match the page model exactly.
+
+v2 also had no `scope` column, so JL and NU domestic fares were unrepresentable, and it wrongly recorded
+`JL` Business `D` as a genuine absence when it was an artefact of this defect.
 
 ---
 
@@ -214,8 +276,13 @@ own table, now included). §5 separates the two.
 
 **A. QF 127, HKG→SYD, Business, class `J`.**
 Partner scheme. Distance 4,592 mi → band 4 (3,701–5,000).
-Row `QF / Business / C D I J` → points `15;25;45;60;75;85` → position 4 = **60**.
+Row `QF / Business / group B / J C D I` → points `15;25;45;60;75;85` → position 4 = **60**.
 Miles = 4,592 × 125% = **5,740**. Matches the live calculator.
+
+**A2. JL LAX→NRT, Business, class `D`.**
+Distance 5,438 mi → band 5. `D` is in JL Business **group B** `(J, C, D, I)` at 125%.
+Points `15;25;45;60;75;?` → position 5 = **75**. Miles = 5,438 × 125% = **6,798**. Matches.
+The same route in class `X` (group G, 70%) gives **25** / 3,807 — a 3x spread inside one cabin.
 
 **B. CX 261, HKG→CDG, Economy, class `K`, Economy Flex, Cathay-operated.**
 CX scheme. Distance 5,979 mi → band 5.
@@ -239,6 +306,8 @@ Points **0** (zero-point carrier). Miles = distance × 100%. Note NZ coverage is
 |---|---|
 | Partner table reproduces observations (points) | 26,780 / 26,780 |
 | Partner table reproduces observations (miles) | 26,780 / 26,780 within ±1 mile |
+| Class expansion through fare groups | 127,232 / 127,232, zero missing classes |
+| Held-out pair JL LAX–NRT incl. class `D` | matches the rendered calculator |
 | Partner band fit under 750/2750/3700/5000/7500 | 1,828 / 1,828 keys single-valued |
 | CX table reproduces its 324 cells | 324 / 324 |
 | CX city-pair reproduction | 1,549 / 1,557 (8 misses = the 4 override pairs, both directions) |
