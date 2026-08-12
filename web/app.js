@@ -483,10 +483,13 @@ function renderReport(data, body) {
   const nc = data.notChecked || [];
   const checks = data.checks || [];
   const look = VERDICT[data.verdict] || VERDICT.indeterminate;
-  const counts = tally(v);
+  // The one place the clean outcome is written, now that it is not also said
+  // below the verdict. A live region should read out what the page shows, so
+  // both take the same string.
+  const counts = tally(v) || 'Every rule this input can answer is satisfied.';
 
   markFresh();
-  announce(`${data.verdict}. ${counts || 'No rule was broken.'}` +
+  announce(`${data.verdict}. ${counts}` +
            (nc.length ? ` ${nc.length} rule${nc.length === 1 ? '' : 's'} not checked.` : '') +
            (checks.length ? ` ${checks.length} rules evaluated.` : ''));
 
@@ -494,9 +497,7 @@ function renderReport(data, body) {
     <div class="settle">
       <div class="border-b border-rule ${look.wash} p-4">
         <p class="verdict-word ${look.text}">${esc(data.verdict)}</p>
-        <p class="mt-1.5 text-[12.5px] ${counts ? look.text : 'text-muted'}">
-          ${counts ? esc(counts) : 'Every rule this input can answer is satisfied.'}
-        </p>
+        <p class="mt-1.5 text-[12.5px] ${v.length ? look.text : 'text-muted'}">${esc(counts)}</p>
       </div>
 
       ${fareBlock(fare, ann)}
@@ -869,10 +870,13 @@ function fareBlock(fare, ann) {
   </dl>`;
 }
 
+// The rules that were broken, and nothing when none were. A verdict of VALID is
+// derived from exactly this list being empty -- verdict_of/2 has no other way to
+// reach it -- so a line here saying so restated the word above it in smaller
+// type. What a reader wants instead when the list is empty is the check
+// register, which says what was measured rather than what was not found.
 function violationList(v) {
-  if (!v.length) {
-    return `<p class="border-t border-rule px-4 py-3 text-[13px] text-muted">No rule was broken.</p>`;
-  }
+  if (!v.length) return '';
   return `<ul class="border-t border-rule">${v.map(x => {
     const look = SEV[x.severity] || SEV.error;
     // Citation, severity and rule id share one wrapping row above the message
@@ -910,11 +914,11 @@ function mapBlock(ann) {
           </div>`;
 }
 
-// What every rule measured, not just the ones that were broken. "No rule was
-// broken" is a claim about coverage a reader has no way to audit, and the
-// number a cap was cleared by is the thing a fare-construction tool is actually
-// asked. Collapsed by default because it is four times the length of the
-// verdict it supports.
+// What every rule measured, not just the ones that were broken. "Every rule this
+// input can answer is satisfied" is a claim about coverage a reader has no way to
+// audit from the verdict alone, and the number a cap was cleared by is the thing
+// a fare-construction tool is actually asked. Collapsed by default because it is
+// four times the length of the verdict it supports.
 function checkList(checks, violations) {
   if (!checks.length) {
     return violations.some(x => x.rule === 'input_error')
