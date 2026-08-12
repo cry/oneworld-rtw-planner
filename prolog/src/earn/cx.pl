@@ -160,9 +160,9 @@ earn_kernel:fare_bucket(cx, S, A, Bucket, Basis) :-
     ->  candidates(Airline, Metal, A.cabin, Family, Class, Cards),
         resolve(Airline, Metal, Family, Class, Cards, Bucket, Basis)
     ;   % No class given, so the fare's own is used -- see src/earn/presumed.pl.
-        presumed_classes(S, A.cabin, Presumed),
+        presumed_classes(S, A, Presumed),
         Presumed \== [],
-        presumption(A.cabin, Presumed, Why)
+        presumption(A, Presumed, Why)
     ->  findall(Card,
                 ( member(C, Presumed), candidates(Airline, Metal, A.cabin, Family, C, Cs), member(Card, Cs) ),
                 Cards0),
@@ -233,13 +233,29 @@ resolve(_, codeshare, _, Class, [], indeterminate(Why), null) :-
     format(atom(Why),
            'A Cathay flight number on a partner aircraft earns the Codeshare card, which Cathay publishes for ~w only. Class ~w is not on it.',
            [List, U]).
+% Whether that is a fact or a hole depends on which half of the capture the
+% airline is in, and the difference is worth a sentence. Cathay's own cards were
+% enumerated in full, so a class they do not name is a class that does not earn.
+% The partner cards were sampled 23 to 90 city pairs each and a sampled pair only
+% observes the classes it actually sells, so three of the 25 are missing the very
+% code section 5(b) books an Explorer fare into -- Japan Airlines and Japan
+% Transocean have no D and no L, Malaysia has no I and no L. Saying "lists no
+% earning" over that would report a gap in the observations as a decision by the
+% airline.
 resolve(Airline, _, Family, Class, [], indeterminate(Why), null) :-
     !,
     upcase_atom(Class, U),
-    cx_airline(Airline, Name, _),
-    (   Family == unknown
-    ->  format(atom(Why), 'Asia Miles lists no earning for class ~w on ~w.', [U, Name])
-    ;   format(atom(Why), 'Asia Miles lists no earning for class ~w on ~w on a ~w fare.', [U, Name, Family])
+    cx_airline(Airline, Name, Scheme),
+    (   Family \== unknown
+    ->  format(atom(Why), 'Cathay lists no earning for class ~w on a ~w fare.', [U, Family])
+    ;   Scheme == cx
+    ->  format(atom(Why), 'Cathay lists no earning for class ~w.', [U])
+    ;   findall(C, cx_class(Airline, _, _, _, C), Cs0),
+        sort(Cs0, Cs),
+        length(Cs, N),
+        format(atom(Why),
+               'Asia Miles has no card for class ~w on ~w. The capture names ~w classes for this airline and was sampled rather than enumerated, so a class it leaves out is as likely to be one nobody observed as one that earns nothing.',
+               [U, Name, N])
     ).
 % How the card was settled travels with the answer, because "declared", "the
 % operator decided it" and "there was only one it could be" are different degrees

@@ -202,6 +202,20 @@ double, and wrong-high is the bad direction for an estimate. Only the *applicabl
 never the alternates 5(b)'s notes permit in a stated case: those turn on what the flight offers,
 which is a seat map rather than a tariff.
 
+**And the fare basis picks which of them, not the cabin.** 5(b) heads its two business columns
+"Business — DONE\*" and "Business — IONE3", which are fare bases rather than cabins: a `DONE4` fare
+books into the DONE column, and the IONE3 column describes a fare this itinerary is not. Reading the
+cabin's columns instead returns `D` *and* `I`, which on Qantas' own table are Business and Discount
+Business — so every classless `QF` business sector used to come back undecided over an ambiguity the
+fare basis printed at the top of the same report had already settled. The register now says which
+fare it read: `no class given; section 5(b) books a DONE4 fare into D on this carrier`.
+
+Where one column still leaves two categories, the answer is the spread rather than a refusal —
+Malaysia files `A` in both Business and First, so a classless First fare there is `8,125 to 9,750
+Qantas Points`. That is the same kernel path Cathay's undeclared fare brands take. Rule 5(b) itself
+keeps the cabin's wider projection and must: a ticket presented in either business column is booked
+in a code the rule names, whatever basis this validator reports.
+
 **A membership tier changes the answer, and says where.** `"members": {"qff": {"tier": "gold"}}`
 adds Qantas' status bonus — 50% at Silver, 75% at Gold, 100% at Platinum. It reaches Qantas Points
 and not Status Credits, which is the currency's own `bonus_applies` flag rather than a conditional

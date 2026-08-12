@@ -24,6 +24,7 @@
 :- use_module('../data/earn/cx/buckets').
 :- use_module('../data/earn/cx/zones').
 :- use_module('../data/earn/cx/airlines').
+:- use_module('../data/booking_codes').
 :- use_module(library(lists)).
 
 sector(Carrier, Class, From, To, Row) :-
@@ -267,6 +268,81 @@ test(economy_is_presumed_as_l_not_y) :-
     sector("BA", "Y", "LHR", "JFK", Flexible),
     amount(Flexible, points, P3),
     assertion(P3 > P1).
+
+% ...and the *fare basis* picks which business column, which the cabin cannot.
+% 5(b) heads its two business columns "Business — DONE*" and "Business — IONE3",
+% and those are fare bases rather than cabins: a DONE4 fare books into D, and the
+% IONE3 column describes a fare this itinerary is not. Asking for the cabin's
+% columns returned D and I, which on Qantas' own table are Business and Discount
+% Business -- so every classless QF business sector came back undecided over an
+% ambiguity the fare basis at the top of the same report had already settled.
+test(a_business_fare_is_presumed_from_its_basis_not_its_cabin) :-
+    itinerary_from_json(
+        _{ route: "LON-BA-NYC-AA-X/DFW-AA-LAX-QF-SYD//MEL-QF-X/SIN-BA-LON",
+           cabin: "business" },
+        Itin),
+    annotate(Itin, A),
+    earn(A, [qff], Report),
+    Report.programs = [P],
+    % Every flown sector prices, and the total is not a lower bound.
+    forall(( member(Row, P.segments), Row.type == flight ),
+           assertion(Row.outcome == ok)),
+    forall(member(Total, P.totals), assertion(Total.lowerBound == false)),
+    % The two QF-marketed ones are what used to fail, and the register names the
+    % fare it read the class off rather than only the cabin.
+    member(Row4, P.segments), Row4.segment == 4, !,
+    assertion(Row4.bucket == 'Business'),
+    assertion(sub_atom(Row4.bucketBasis, _, _, _, 'a DONE4 fare into D')).
+
+% Economy and First are untouched by that, because 5(b) publishes one column for
+% each: LONE4 names the Economy column and AONE4 the First one, which are the
+% same columns the cabin was already reaching.
+test(the_other_cabins_read_the_same_column_either_way) :-
+    forall(member(Cabin-Basis-Code, ["economy"-'LONE4'-'L', "first"-'AONE4'-'A']),
+           (   priced_route("LON-BA-NYC-AA-X/DFW-AA-LAX-QF-SYD//MEL-QF-X/SIN-BA-LON",
+                            Cabin, 4, Row),
+               assertion(Row.outcome == ok),
+               format(atom(Phrase), '~w fare into ~w on this carrier', [Basis, Code]),
+               assertion(sub_atom(Row.bucketBasis, _, _, _, Phrase))
+           )).
+
+% A journey with fewer than three continents has no published fare basis at all
+% -- rule 0 raises that as an error -- so there is nothing to narrow the column
+% with and the cabin's wider projection stands in. Named rather than left to be
+% discovered, because it is the one input where the two projections still differ.
+test(a_fare_with_no_published_basis_falls_back_to_the_cabin) :-
+    classless("QF", "SYD", "LAX", "business", Row),
+    assertion(Row.outcome == ok),
+    assertion(sub_atom(Row.assumption, _, _, _, 'books business into D or I')),
+    % ...which is exactly the input the safety net exists for: D and I earn in
+    % two categories on Qantas' own table, so the answer is the spread rather
+    % than the refusal this used to be.
+    amount(Row, points, Points),
+    assertion(Points = range(_, _)).
+
+priced_route(Route, Cabin, N, Row) :-
+    itinerary_from_json(_{ route: Route, cabin: Cabin }, Itin),
+    annotate(Itin, A),
+    earn(A, [qff], Report),
+    Report.programs = [P],
+    member(Row, P.segments),
+    Row.segment == N,
+    !.
+
+% Where one column still leaves two categories, the answer is the spread and not
+% a refusal. Malaysia files A in both Business and First, so a classless First
+% fare on MH books into a code that earns two ways -- and pricing both is the
+% same posture the Cathay resolver takes over a class listed under three fare
+% brands, down the same kernel path.
+test(a_code_that_earns_two_ways_gives_the_spread) :-
+    classless("MH", "KUL", "LHR", "first", Row),
+    assertion(Row.outcome == ok),
+    assertion(Row.bucket == 'Business or First'),
+    amount(Row, points, Points),
+    assertion(Points = range(_, _)),
+    Points = range(Low, High),
+    assertion(Low < High),
+    assertion(sub_atom(Row.assumption, _, _, _, 'the figures span both')).
 
 % Qantas pays its status bonus on Qantas-marketed sectors and not on partner
 % ones, so the same journey carries a bonus on one sector and none on the next.
@@ -701,6 +777,36 @@ test(the_x100_rule_is_cathays_and_only_cathays) :-
             ),
             PartnerFixed),
     assertion(PartnerFixed == []).
+
+% Which carriers cannot price an Explorer fare at all, held as an exact list.
+%
+% Section 5(b) publishes the class this fare books into per carrier, so those are
+% the codes this repository actually asks for -- and the partner cards were
+% sampled 23 to 90 city pairs each, where a sampled pair only observes the
+% classes it sells. Three carriers are missing the very code an Explorer ticket
+% is sold in. That is a hole in the observations rather than a mistake in reading
+% them, so it is written down rather than fixed here, and src/earn/cx.pl says as
+% much on the sector instead of reporting it as a decision the airline made.
+%
+% Asserted exactly, both ways: a fourth carrier appearing is a regression in the
+% capture, and one of these three disappearing means a re-sample filled it in and
+% this list should lose a line.
+test(three_carriers_cannot_price_an_explorer_fare) :-
+    findall(Airline-Missing,
+            (   cx_airlines:cx_airline(Airline, _, _),
+                booking_codes:carrier_has_codes(Airline),
+                findall(Code,
+                        (   booking_codes:booking_column(Column),
+                            booking_codes:booking_code(Airline, _, Column, Code),
+                            \+ cx_buckets:cx_class(Airline, _, _, _, Code)
+                        ),
+                        Missing0),
+                sort(Missing0, Missing),
+                Missing \== []
+            ),
+            Gaps0),
+    sort(Gaps0, Gaps),
+    assertion(Gaps == [jl-[d, l], mh-[i, l], nu-[d, l]]).
 
 % Every card the class table can reach has a rate in every zone of its own
 % scheme, or is one of the cells the capture marks unobserved. A card with no row
