@@ -611,19 +611,57 @@ function earnGroups(segments) {
   return out;
 }
 
-function earnRows(p) {
+// Which sentences in this register would be printed more than once. Both of the
+// prose fields are card-level facts wearing sector-level clothes: the bucket
+// basis is read off the fare, which is one fare for the whole ticket, so it says
+// the same thing on every priced row, and an assumption drawn from it repeats
+// with it. Six copies of one sentence is not six facts, and it crowds out the
+// figures a reader came for. Anything printed twice is printed once at the foot
+// of the card instead, numbered in the order it first appears.
+//
+// Only what is actually rendered is counted. Sectors that could not be priced
+// are already grouped by their reason, and a group prints its leader's prose
+// once however many rows it holds; counting the segments behind it would number
+// a sentence that appears on screen exactly once.
+function earnFootnotes(groups) {
+  const order = [], seen = new Map();
+  for (const g of groups) {
+    for (const text of [g.rows[0].bucketBasis, g.rows[0].assumption]) {
+      if (!text) continue;
+      if (!seen.has(text)) { seen.set(text, 0); order.push(text); }
+      seen.set(text, seen.get(text) + 1);
+    }
+  }
+  const notes = new Map();
+  for (const text of order) if (seen.get(text) > 1) notes.set(text, notes.size + 1);
+  return notes;
+}
+
+// The marker is what keeps a hoisted sentence traceable: it sits where the words
+// were, against the thing they qualify, so the figure is still one step from its
+// reason rather than none. An assumption keeps its warn colour even reduced to a
+// digit, because the row still has a caveat on it and must still look like it.
+const footMark = (n, cls) => `<sup class="ml-px text-[9px] ${cls}">${n}</sup>`;
+
+function earnRows(p, groups, notes) {
   return `<table class="w-full border-collapse text-[12.5px]">
-    <tbody>${earnGroups(p.segments).map(g => {
+    <tbody>${groups.map(g => {
       const [r] = g.rows;
       const look = EARN_OUTCOME[r.outcome] || EARN_OUTCOME.indeterminate;
+      const told = r.assumption ? notes.get(r.assumption) : undefined;
       const figures = r.amounts.length
         ? r.amounts.map(a => amount(a, p.currencies, p)).join(' · ')
         : `<span class="${look.cls}">${esc(r.reason || look.word)}</span>`;
       // The row it was read off, under the figure it produced. This is the earn
       // register, and it is on by default for the same reason the check register
       // exists: a number nobody can trace is worse than no number.
+      const why = r.bucketBasis ? notes.get(r.bucketBasis) : undefined;
+      const bucket = `${esc(r.bucket)}${
+        !r.bucketBasis ? ''
+          : why ? footMark(why, 'text-muted')
+          : ` <span class="text-muted">(${esc(r.bucketBasis)})</span>`}`;
       const basis = r.outcome === 'ok'
-        ? `${esc(r.bucket)}${r.bucketBasis ? ` <span class="text-muted">(${esc(r.bucketBasis)})</span>` : ''}
+        ? `${bucket}
            · ${esc(r.routeBasis)} · ${num(r.distanceMiles)} mi${
              r.nearBoundaryMiles ? ` <span class="text-warn">· within 1.5% of the ${num(r.nearBoundaryMiles)}-mile edge</span>` : ''}`
         : '';
@@ -631,9 +669,9 @@ function earnRows(p) {
         <td class="mono w-6 py-1 pr-1 text-[11px] text-muted">${g.rows.map(x => x.segment).join('<br>')}</td>
         <td class="mono w-[5.5rem] py-1 pr-2 text-[12px]">${g.rows.map(x => `${esc(x.from)}–${esc(x.to)}`).join('<br>')}</td>
         <td class="py-1">
-          <div>${figures}</div>
+          <div>${figures}${told ? footMark(told, 'text-warn') : ''}</div>
           ${basis ? `<div class="mt-0.5 text-[11.5px] text-muted">${basis}</div>` : ''}
-          ${r.assumption ? `<div class="mt-0.5 text-[11.5px] text-warn">${esc(r.assumption)}</div>` : ''}
+          ${r.assumption && !told ? `<div class="mt-0.5 text-[11.5px] text-warn">${esc(r.assumption)}</div>` : ''}
         </td>
       </tr>`;
     }).join('')}</tbody></table>`;
@@ -648,6 +686,8 @@ function earnRows(p) {
 // publishes the tiers and not to a row of settings above the panel.
 function earnProgram(p) {
   const detail = p.segments.length;
+  const groups = earnGroups(p.segments);
+  const notes = earnFootnotes(groups);
   // The tiers come from /api/programs and not from the reply being rendered: an
   // earn report says what a journey earned, and the list of tiers a programme
   // publishes is a fact about the programme.
@@ -674,18 +714,25 @@ function earnProgram(p) {
     <div class="px-4 pb-2.5 pl-7">
       ${tierPicker}
       ${detail ? `
-        <div class="scroll-x mt-1.5">${earnRows(p)}</div>
+        <div class="scroll-x mt-1.5">${earnRows(p, groups, notes)}</div>
         <!-- The first note is the one that must never be a click away: it says
              the figure is an estimate. The rest is provenance -- which tables,
              read when, and what they do not cover -- which a reader wants when
-             checking a number and not while reading one. -->
+             checking a number and not while reading one. The numbered notes are
+             provenance too, of the narrower kind: where one figure came from
+             rather than where the whole table did, so they sit in the same place
+             and above it, since the rows above point at them by number. -->
         <p class="mt-2 text-[11.5px] leading-[1.6] text-muted">${esc(p.notes[0] || '')}</p>
-        ${p.notes.length > 1 || p.sources.length ? `
+        ${p.notes.length > 1 || p.sources.length || notes.size ? `
           <details class="group/src mt-1">
             <summary class="label cursor-pointer select-none text-[10.5px]">
               <span class="mono inline-block w-3 transition-transform duration-150 group-open/src:rotate-90">&rsaquo;</span>
               Where these came from
             </summary>
+            ${notes.size ? `
+              <ol class="mt-1 list-none space-y-0.5 text-[11.5px] leading-[1.6] text-muted">
+                ${[...notes].map(([text, n]) => `<li class="-indent-3 pl-3"><sup class="mr-0.5 text-[9px]">${n}</sup>${esc(text)}</li>`).join('')}
+              </ol>` : ''}
             <p class="mt-1 text-[11.5px] leading-[1.6] text-muted">
               ${p.notes.slice(1).map(esc).join(' ')}
               ${p.sources.map(x => `The <a class="underline underline-offset-2" href="${esc(x.url)}" rel="noreferrer">${esc(x.table.replace(/_/g, ' '))} table</a> was read ${esc(x.fetched)}.`).join(' ')}
