@@ -234,6 +234,11 @@ levels of detail:
   empty stop. The columns that identify one sector — the airports, the flight number, the times —
   have no handle: filling those down could only describe a journey nobody could fly.
 
+**Help** in the masthead opens a panel explaining what a oneworld Explorer fare is, what this
+answers, and how to drive the page. What the fare *is* is prose; every figure in it — the continent
+and flight counts, the stay limit, the cabins, the carrier count, the routing grammar — comes from
+the ruleset the validator reports, so there is no second copy to fall out of date.
+
 Cabin and passengers sit above the tabs: they describe the fare, not the routing, and survive
 switching. The report panel gives the verdict, the fare basis, each violation with its citation and
 evidence, **the route drawn as a map**, and an expandable **Rules evaluated** register of every rule

@@ -1620,6 +1620,70 @@ $('report').innerHTML = `
     </dl>
   </div>`;
 
+// --- help ------------------------------------------------------------------
+//
+// The one modal on the page. It explains the page rather than being part of it,
+// so it has no place in the reading order, and a reader who opens it has nothing
+// else to do until they close it -- which is the case a dialog is actually for.
+// Being a native <dialog> opened with showModal(), the browser supplies the
+// inert background, the Escape key and the focus return; what is left here is
+// the button, the light-dismiss, and filling in the figures.
+const help = $('help');
+
+$('help-open').addEventListener('click', () => help.showModal());
+for (const el of document.querySelectorAll('#help-close, .help-dismiss')) {
+  el.addEventListener('click', () => help.close());
+}
+
+// Clicking outside the box. The dialog element fills the viewport as far as hit
+// testing is concerned, so a press that lands on the dialog itself rather than
+// on anything inside it is a press on the backdrop. Checked on both press and
+// release so that a drag which began inside -- selecting a line of the text and
+// letting go past the edge -- does not read as a dismissal.
+let pressedBackdrop = false;
+help.addEventListener('pointerdown', e => { pressedBackdrop = e.target === help; });
+help.addEventListener('click', e => { if (pressedBackdrop && e.target === help) help.close(); });
+
+// The routing grammar, as the validator states it, with its quoted terms turned
+// into code spans. Two places show it -- under the routing field and in the help
+// -- and both take it from here rather than from each other.
+function syntaxHtml(d) {
+  return esc(d.routeSyntax || '').replace(/&quot;([^&]+?)&quot;/g, '<code>$1</code>');
+}
+
+// Every figure in the help comes from the ruleset. The page states what the fare
+// is, which is prose and its own to write; it states no limit, no cabin and no
+// carrier of its own, for the same reason it hardcodes no rule.
+function adoptRuleset(d) {
+  $('help-source').textContent = `${d.source || 'Tariff RWR2 Rule 3015'} · version ${d.version}`;
+  $('help-syntax').innerHTML = syntaxHtml(d);
+
+  const L = d.limits || {};
+  const cabins = [...new Set((d.fareBasis || []).map(f => f.cabin))];
+  // How many traffic conferences there are, not which continents are in them:
+  // the ruleset publishes the keys and not the display names, and the page has
+  // no business title-casing `europe_middle_east` into a name of its own. The
+  // report prints them properly, because a report carries its own name table.
+  const conferences = new Set((d.continents || []).map(c => c.trafficConference)).size;
+
+  const facts = [
+    ['Continents', `${L.min_continents} to ${L.max_continents}`],
+    ['Flights', `${L.min_segments} to ${L.max_segments}`],
+    ['Stopovers', `at least ${L.min_stopovers}`],
+    ['Direction', `one continuous circle through ${conferences} traffic conferences, ` +
+                  'ending where it started'],
+    ['Maximum stay', `${L.max_stay_months} months`],
+    ['Cabins', cabins.join(', ')],
+    ['Carriers', `${(d.carriers || []).length} oneworld members`],
+  ].filter(([, v]) => v && !/undefined|NaN/.test(v));
+
+  $('help-limits').innerHTML = facts.map(([k, v]) => `
+    <div class="flex gap-3">
+      <dt class="w-[8.5rem] shrink-0 text-muted">${esc(k)}</dt>
+      <dd>${esc(v)}</dd>
+    </div>`).join('');
+}
+
 // The grammar, the limits and the city table are described by the ruleset the
 // validator reports, so the page never carries a second copy of any of them to
 // fall out of date. This is also the first thing that needs the worker, so it is
@@ -1634,12 +1698,17 @@ RTWApi.ruleset()
     $('ruleset').textContent =
       `Tariff RWR2 Rule 3015 · version ${d.version} · ` +
       `${d.limits.min_segments}–${d.limits.max_segments} segments`;
-    $('routehelp').innerHTML =
-      esc(d.routeSyntax || '').replace(/&quot;([^&]+?)&quot;/g, '<code>$1</code>');
+    $('routehelp').innerHTML = syntaxHtml(d);
     $('citycodes').innerHTML = (d.cityCodes || [])
       .map(c => `<code>${esc(c.code)}</code>&nbsp;${esc(c.airport)}`).join('&ensp;');
+    adoptRuleset(d);
   })
-  .catch(() => { $('ruleset').textContent = 'Tariff RWR2 Rule 3015 · validator unavailable'; })
+  .catch(() => {
+    $('ruleset').textContent = 'Tariff RWR2 Rule 3015 · validator unavailable';
+    $('help-limits').innerHTML =
+      '<p class="text-muted">The validator could not be reached, so the figures it publishes ' +
+      'are not available here.</p>';
+  })
   .finally(() => {
     buttons().forEach(b => { b.disabled = false; });
     $('status').textContent = '';

@@ -35,6 +35,7 @@
       <p id="ruleset" class="mono text-[10.5px] leading-tight text-muted">
         Tariff RWR2 Rule 3015
       </p>
+      <button type="button" id="help-open" class="chip">Help</button>
       <div class="theme" role="group" aria-label="Colour scheme">
         <input type="radio" name="theme" id="th-auto" value="auto" class="sr-only" checked>
         <label for="th-auto">Auto</label>
@@ -278,6 +279,123 @@
     <p id="announce" class="sr-only" role="status" aria-live="polite"></p>
   </section>
 </main>
+
+<!-- ============================ help ============================ -->
+<!-- A native <dialog> opened with showModal(), which is the whole reason this is
+     one element and no focus-trap code: the browser makes the rest of the page
+     inert, sends Escape here, restores focus to the button on close, and gives
+     ::backdrop to style. Nothing else on this page is a modal, and this is the
+     one thing that has no place in the reading order -- it explains the page
+     rather than being part of it.
+
+     Every figure in it is a slot. The prose is about what the fare is, which is
+     the page's to say; the numbers are the ruleset's, and the page holds no
+     second copy of any of them for the same reason it hardcodes no rule. -->
+<dialog id="help" class="help-dialog" aria-labelledby="help-title">
+  <div class="flex shrink-0 items-start justify-between gap-4 border-b border-rule px-5 py-3">
+    <div>
+      <h2 id="help-title" class="text-[15px] font-semibold">Round-the-world fares, and this validator</h2>
+      <p id="help-source" class="mono mt-0.5 text-[10.5px] text-muted">Tariff RWR2 Rule 3015</p>
+    </div>
+    <button type="button" id="help-close" autofocus
+            class="-mr-1 inline-flex size-7 shrink-0 items-center justify-center rounded-xs text-[17px] leading-none text-muted transition-colors duration-150 hover:bg-sunken hover:text-ink"
+            aria-label="Close">&times;</button>
+  </div>
+
+  <div class="help-body space-y-5 px-5 py-4 text-[13px] leading-[1.6]">
+    <section>
+      <h3 class="label mb-1.5">What the fare is</h3>
+      <p class="max-w-[68ch]">
+        A <strong>oneworld Explorer</strong> is one round-the-world ticket priced by
+        <strong>how many continents you visit</strong>, not by how far you fly. You buy a continent
+        count and a cabin — that pair is the fare basis, so <code class="cite">DONE3</code> is
+        business across three continents — and inside it you can build almost any journey, as long
+        as it keeps circling the world in one direction and stays within the rule's limits.
+      </p>
+      <p class="mt-2 max-w-[68ch]">
+        Every flight has to be on a oneworld member airline. A leg you cross some other way — a
+        train, a car, a ticket bought separately — is a <strong>surface sector</strong>: allowed,
+        counted as part of the journey's shape, and arranged by you.
+      </p>
+      <p class="mt-2 max-w-[68ch] text-muted">
+        Because the price follows continents rather than distance, two people on the same fare basis
+        can fly wildly different mileages. That is the whole game, and it is what makes the routing
+        rules worth checking.
+      </p>
+    </section>
+
+    <section>
+      <h3 class="label mb-1.5">What the rule requires</h3>
+      <!-- Built from the ruleset the validator reports. Until it answers, this
+           says so rather than showing numbers the page invented. -->
+      <dl id="help-limits" class="grid gap-x-6 gap-y-1.5 text-[12.5px] sm:grid-cols-2">
+        <p class="text-muted">Reading the ruleset…</p>
+      </dl>
+    </section>
+
+    <section>
+      <h3 class="label mb-1.5">What this tool is for</h3>
+      <p class="max-w-[68ch]">
+        One question: <strong>is this itinerary a valid Explorer fare, and if not, why?</strong>
+        Every answer cites the clause it came from, so you can check it against the published rule
+        instead of taking this page's word for it.
+      </p>
+      <p class="mt-2 max-w-[68ch]">
+        There are three verdicts, not two. <strong>Indeterminate</strong> means a rule could not be
+        measured from what you gave it — usually because there are no dates — and the report names
+        which rule and what it wanted. A rule that could not be measured is never reported as passed.
+      </p>
+      <p class="mt-2 max-w-[68ch] text-muted">
+        It does not sell tickets, quote prices, or invent itineraries for you. It also estimates what
+        a ticket would earn in the loyalty programmes it knows about; the airline's own calculator is
+        the authority on that.
+      </p>
+    </section>
+
+    <section>
+      <h3 class="label mb-1.5">Using it</h3>
+      <dl class="space-y-2.5 max-w-[72ch]">
+        <div>
+          <dt class="font-semibold">Routing — one line</dt>
+          <dd class="hint text-muted" id="help-syntax"></dd>
+        </div>
+        <div>
+          <dt class="font-semibold">Segments — flight by flight</dt>
+          <dd class="text-muted">
+            The same journey as a table, where you can add dates, flight numbers, booking classes and
+            fare families. Columns the whole ticket shares — the carriers, the class, the fare family,
+            the kind of connection — fill down: drag the small square at the corner of a cell, or
+            press <kbd class="cite">Ctrl</kbd>&nbsp;<kbd class="cite">D</kbd>. Without dates, choose
+            <em>No dates or times</em> and the rules that need a clock report as undecided rather than
+            guessing. <strong>Show as routing</strong> writes the table back out as one line.
+          </dd>
+        </div>
+        <div>
+          <dt class="font-semibold">The report</dt>
+          <dd class="text-muted">
+            The verdict, then every rule broken with its clause and the evidence behind it, then the
+            route drawn as a map. <strong>Rules evaluated</strong> lists every rule that ran and what
+            it measured — not only the ones that failed — including the ones this input could not
+            answer. Editing the form after a verdict marks the report out of date rather than leaving
+            a stale answer looking current.
+          </dd>
+        </div>
+        <div>
+          <dt class="font-semibold">Sharing and starting</dt>
+          <dd class="text-muted">
+            The address bar carries the itinerary, so a link reproduces exactly what you are looking
+            at. <strong>Load an example</strong> is the fastest way in — several of them are
+            deliberately invalid, and are the quickest way to see what a broken rule reads like.
+          </dd>
+        </div>
+      </dl>
+    </section>
+  </div>
+
+  <div class="flex shrink-0 justify-end border-t border-rule px-5 py-3">
+    <button type="button" class="btn help-dismiss">Close</button>
+  </div>
+</dialog>
 
 <!-- Every path on this page is relative. GitHub Pages serves a project repository
      from /<repo>/ rather than from the root, and an absolute path that works

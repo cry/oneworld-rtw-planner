@@ -46,6 +46,7 @@ const PAIRS = [
   ['ink','panel',4.5,'body text'], ['ink','canvas',4.5,'body on canvas'],
   ['muted','panel',4.5,'labels, hints, evidence'], ['muted','canvas',4.5,'muted on canvas'],
   ['muted','sunken',4.5,'muted in code blocks'],
+  ['ink','sunken',4.5,'text on a hovered quiet control'],
   ['accent','panel',4.5,'links, active tab, stopover'],
   ['err','errWash',4.5,'INVALID on its wash'], ['ok','okWash',4.5,'VALID on its wash'],
   ['indet','indetWash',4.5,'INDETERMINATE on its wash'], ['warn','warnWash',4.5,'warning on its wash'],

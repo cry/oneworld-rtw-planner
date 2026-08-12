@@ -408,6 +408,30 @@ it, because a tier is a fact about the traveller's standing with one airline and
 setting — which also means the control appears exactly when the validator says that programme has
 tiers, and never otherwise.
 
+**The help panel is the one modal, and it is a `<dialog>`.** Modals are usually the lazy answer, and
+everything else on this page is a section you can scroll to or a disclosure you can open. Help is the
+exception on its own terms: it explains the page rather than being part of it, so it has no place in
+the reading order, and a reader who opens it has nothing else to do until they close it — which is
+what a modal actually models. Being a native `<dialog>` opened with `showModal()`, the browser
+supplies the parts usually written badly by hand: the rest of the page goes inert, Escape closes it,
+focus returns to the button that opened it, and `::backdrop` is a real element to style. What is left
+in JavaScript is the button, the light-dismiss, and filling in the figures.
+
+Two details worth recording. Preflight's `margin: 0` on everything silently removes the `margin: auto`
+the UA stylesheet uses to centre a modal dialog, which puts the box in the top-left corner; putting it
+back is the whole of the positioning. And the dialog is a flex column with a scrolling middle rather
+than one scrolling box, so the title and both ways out stay on screen however far down the reader is —
+a modal whose only exit has scrolled away is how modals earned their reputation.
+
+What the panel *says* splits the same way the rest of the page does. What a round-the-world fare is,
+and what this tool is for, is prose and the page's to write. Every figure in it — the continent and
+flight counts, the stopover minimum, the stay limit, the cabins, the carrier count, the routing
+grammar — comes from `/api/ruleset`, for the same reason the page hardcodes no rule. One row was cut
+for that reason: the ruleset publishes traffic conferences by continent *key* and not by display name,
+and the page has no business title-casing `europe_middle_east` into a name of its own. It states how
+many conferences there are; a report prints them properly, because a report carries its own name
+table.
+
 There are no tiles, and that is the point. A slippy map over OpenStreetMap would put the page back
 on the network — the same reason the fonts and the stylesheet are bundled — and street-level tiles
 carry nothing legible at the only zoom a round-the-world route is ever viewed at. `d3-geo` plus the
