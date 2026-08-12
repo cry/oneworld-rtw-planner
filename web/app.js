@@ -456,8 +456,6 @@ async function validate(routeString) {
 
 function renderError(data, body) {
   markFresh();
-  $('context-panel').classList.add('hidden');
-  $('context').innerHTML = '';
   announce(`Refused: ${data.message || data.error || 'error'}`);
   $('report').innerHTML = `
     <div class="settle">
@@ -503,6 +501,7 @@ function renderReport(data, body) {
       ${fareBlock(fare, ann)}
       ${violationList(v)}
       ${mapBlock(ann)}
+      ${connections(ann)}
       ${checkList(checks, v)}
 
       <div class="border-t border-rule">
@@ -510,12 +509,6 @@ function renderReport(data, body) {
         ${disclosure('Full response', JSON.stringify(data, null, 2))}
       </div>
     </div>`;
-
-  // How each point was classified, and the map, in their own panel so they can
-  // sit beside the verdict rather than under it.
-  const context = connections(ann);
-  $('context').innerHTML = context;
-  $('context-panel').classList.toggle('hidden', !context);
 
   drawMap(ann);
 }
@@ -666,7 +659,10 @@ function earnRows(p, groups, notes) {
            · ${esc(r.routeBasis)} · ${num(r.distanceMiles)} mi${
              r.nearBoundaryMiles ? ` <span class="text-warn">· within 1.5% of the ${num(r.nearBoundaryMiles)}-mile edge</span>` : ''}`
         : '';
-      return `<tr class="border-t border-rule align-baseline">
+      // No rule above the first sector. The table sits directly under the
+      // programme's own summary, which is already ruled off from it, and a second
+      // line a few pixels below the first reads as a box drawn around nothing.
+      return `<tr class="border-t border-rule align-baseline first:border-t-0">
         <td class="mono w-6 py-1 pr-1 text-[11px] text-muted">${g.rows.map(x => x.segment).join('<br>')}</td>
         <td class="mono w-[5.5rem] py-1 pr-2 text-[12px]">${g.rows.map(x => `${esc(x.from)}–${esc(x.to)}`).join('<br>')}</td>
         <td class="py-1">
@@ -814,10 +810,8 @@ function drawMap(ann) {
 }
 
 // Hovering a connection lights up the same airport on the map. Cheap, and the
-// alternative is counting dots along a route that crosses itself.
-// On #answer rather than #report: the connections table and the map it lights
-// up now live in a sibling panel, and one listener over both is simpler than
-// two that have to stay in step.
+// alternative is counting dots along a route that crosses itself. Delegated from
+// #answer, which outlives every render of the table and the map inside it.
 document.getElementById('answer').addEventListener('mouseover', e => {
   const row = e.target.closest('tr[data-airport]');
   highlight(row && row.dataset.airport);
@@ -957,11 +951,16 @@ function checkList(checks, violations) {
     </details>`;
 }
 
+// How each point was classified, in the report rather than a panel of its own.
+// It is evidence for the verdict above it -- a stopover the clock and the ticket
+// disagree about is why a count came out the way it did -- and a card holding
+// one table was a border and a heading spent on saying that a table is a table.
+// Collapsed, because it answers a question asked after the verdict, not with it.
 function connections(ann) {
   const points = ann.points || [];
   if (!points.length) return '';
   return `
-    <details open class="group">
+    <details class="group border-t border-rule">
       <summary class="label cursor-pointer select-none px-4 py-2">
         <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
         Connections (${points.length})
