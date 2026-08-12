@@ -41,6 +41,7 @@
 :- use_module('../../data/earn/qff/categories').
 :- use_module('../../data/earn/qff/bands').
 :- use_module('../../data/earn/qff/regions').
+:- use_module('../../data/earn/qff/metal').
 :- use_module('../../data/earn/qff/tiers').
 :- use_module('../../data/earn/qff/source').
 :- use_module(library(apply)).
@@ -223,7 +224,14 @@ earn_kernel:term_label(category(Category), Label) :- category_label(Category, La
 earn_kernel:term_label(mileage_band(_, Label), Label).
 earn_kernel:term_label(region_band(_, _, Label), Label).
 earn_kernel:term_label(region_pair(_, _, Label), Label).
+earn_kernel:term_label(qf_band(_, Label), Label).
+earn_kernel:term_label(qf_domestic(_, Label), Label).
+earn_kernel:term_label(qf_pair(_, _, Label), Label).
 
+category_label(discount_premium_economy, 'Discount Premium Economy').
+category_label(flexible_premium_economy, 'Flexible Premium Economy').
+category_label(discount_business,        'Discount Business').
+category_label(flexible_business,        'Flexible Business').
 category_label(discount_economy, 'Discount Economy').
 category_label(economy,          'Economy').
 category_label(flexible_economy, 'Flexible Economy').
@@ -238,11 +246,108 @@ category_label(first,            'First').
 % distance, then the "All other flights" mileage bands as the fallback. This is
 % why route_basis/5 returns an opaque basis rather than "a region pair, else a
 % band" -- Intra-USA Short Haul is both at once.
-earn_kernel:route_basis(qff, From, To, Miles, Basis) :-
+% Two tables, and which one applies is decided by who sold the ticket. Qantas
+% publishes one set of rates for its own flights and another for its partners',
+% with ten earn categories against the partner table's six, so a QF-marketed
+% sector and a BA-marketed one over the same ground earn differently and are
+% read off different pages. This is why route_basis/5 is handed the segment.
+earn_kernel:route_basis(qff, S, _A, Miles, Basis) :-
+    (   metal_carrier(S.marketing)
+    ->  metal_basis(S.from, S.to, Miles, Basis)
+    ;   partner_basis(S.from, S.to, Miles, Basis)
+    ).
+
+partner_basis(From, To, Miles, Basis) :-
     (   region_basis(From, To, Miles, Found)
     ->  Basis = Found
     ;   mileage_basis(Miles, Basis)
     ).
+
+% Qantas' own table, in the order the page reads: Domestic Australia, which is
+% banded on distance; then the named pairs; then "All other" mileage bands.
+metal_basis(From, To, Miles, Basis) :-
+    (   metal_domestic_basis(From, To, Miles, Found)
+    ->  Basis = Found
+    ;   metal_pair_basis(From, To, Found)
+    ->  Basis = Found
+    ;   metal_band(Band, Low, High),
+        Miles >= Low,
+        ( High == inf -> true ; Miles =< High )
+    ->  metal_band_label(Band, Label),
+        Basis = qf_band(Band, Label)
+    ;   format(atom(Why), 'No Qantas mileage band covers ~w miles.', [Miles]),
+        Basis = indeterminate(Why)
+    ).
+
+metal_domestic_basis(From, To, Miles, qf_domestic(Band, Label)) :-
+    in_metal_region(From, australia),
+    in_metal_region(To, australia),
+    metal_domestic(Band, Low, High),
+    Miles >= Low,
+    ( High == inf -> true ; Miles =< High ),
+    !,
+    metal_domestic_label(Band, Label).
+
+metal_pair_basis(From, To, Basis) :-
+    findall(RF-RT,
+            (   in_metal_region(From, RF),
+                in_metal_region(To, RT),
+                ( metal_pair(RF, RT, _, _) ; metal_pair(RT, RF, _, _) )
+            ),
+            Pairs0),
+    sort(Pairs0, Pairs),
+    Pairs \== [],
+    maplist(metal_pair_rates, Pairs, RateSets),
+    sort(RateSets, Distinct),
+    (   Distinct = [_]
+    ->  Pairs = [Pair|_],
+        metal_published_order(Pair, RF-RT),
+        metal_region_label(RF, LF),
+        metal_region_label(RT, LT),
+        format(atom(Label), '~w and ~w', [LF, LT]),
+        Basis = qf_pair(RF, RT, Label)
+    ;   findall(Name,
+                ( member(P, Pairs), metal_published_order(P, F-T), metal_pair_name(F, T, Name) ),
+                Names0),
+        sort(Names0, Names),
+        atomic_list_concat(Names, '; ', List),
+        format(atom(Why),
+               'More than one row of Qantas'' own table covers this sector and they do not agree: ~w.',
+               [List]),
+        Basis = indeterminate(Why)
+    ).
+
+metal_published_order(RF-RT, Ordered) :-
+    ( metal_pair(RF, RT, _, _) -> Ordered = RF-RT ; Ordered = RT-RF ).
+
+metal_pair_name(RF, RT, Name) :-
+    metal_region_label(RF, LF),
+    metal_region_label(RT, LT),
+    format(atom(Name), '~w and ~w', [LF, LT]).
+
+metal_pair_rates(RF-RT, Rates) :-
+    qf_categories(Categories),
+    findall(Category-R,
+            (   member(Category, Categories),
+                ( metal_pair(RF, RT, Category, R) -> true ; metal_pair(RT, RF, Category, R) )
+            ),
+            Rates).
+
+% A place is in a metal region by city, by country, or by the state code the
+% airport table already carries -- which is what "Hawaii" needs, being a state
+% rather than either of the other two.
+in_metal_region(Airport, Region) :-
+    metal_region_places(Region, Places),
+    place_key(Airport, Key),
+    memberchk(Key, Places).
+in_metal_region(Airport, Region) :-
+    metal_region_countries(Region, Countries),
+    airport_country(Airport, Country),
+    memberchk(Country, Countries).
+in_metal_region(Airport, Region) :-
+    metal_region_iso(Region, Isos),
+    airport_region(Airport, Iso),
+    memberchk(Iso, Isos).
 
 mileage_basis(Miles, Basis) :-
     (   partner_band(Band, Low, High),
@@ -349,6 +454,8 @@ in_region(Airport, Region) :-
 % Only a basis that read the distance has an edge to be near.
 earn_kernel:route_basis_edges(qff, mileage_band(_, _), Edges) :- band_edges(Edges).
 earn_kernel:route_basis_edges(qff, region_band(_, _, _), Edges) :- region_pair_edges(Edges).
+earn_kernel:route_basis_edges(qff, qf_band(_, _), Edges) :- metal_edges(Edges).
+earn_kernel:route_basis_edges(qff, qf_domestic(_, _), Edges) :- metal_edges(Edges).
 
 earn_kernel:accrual(qff, category(Category), mileage_band(Band, _), _Carrier, Rates) :-
     band_accrual(Band, Category, Rates).
@@ -358,6 +465,15 @@ earn_kernel:accrual(qff, category(Category), region_pair(RF, RT, _), _Carrier, R
     (   region_pair(RF, RT, Category, Rates)
     ->  true
     ;   region_pair(RT, RF, Category, Rates)
+    ).
+earn_kernel:accrual(qff, category(Category), qf_band(Band, _), _Carrier, Rates) :-
+    metal_band_accrual(Band, Category, Rates).
+earn_kernel:accrual(qff, category(Category), qf_domestic(Band, _), _Carrier, Rates) :-
+    metal_domestic_accrual(Band, Category, Rates).
+earn_kernel:accrual(qff, category(Category), qf_pair(RF, RT, _), _Carrier, Rates) :-
+    (   metal_pair(RF, RT, Category, Rates)
+    ->  true
+    ;   metal_pair(RT, RF, Category, Rates)
     ).
 
 % --- the status bonus -------------------------------------------------------

@@ -196,21 +196,47 @@ test(a_longer_intra_usa_sector_falls_through_to_the_bands) :-
     amount(Row, points, Points),
     assertion(Points == 1375).
 
-% Qantas publishes ten columns for its own airline, splitting business and
-% premium economy into discount, standard and flexible grades; the partner table
-% an Explorer fare is priced against has one column for each. Dropping the extra
-% grades left a QF-marketed sector sold in C or J with no earn category at all,
-% reported as though Qantas published nothing for its own flights.
-test(qantas_grade_columns_collapse_onto_the_partner_six) :-
-    forall(member(Class-Bucket, ["I"-'Business', "D"-'Business',
-                                 "C"-'Business', "J"-'Business',
-                                 "T"-'Premium Economy', "R"-'Premium Economy',
-                                 "W"-'Premium Economy',
+% Qantas publishes ten categories for its own flights where every partner
+% publishes six, splitting business and premium economy into discount, standard
+% and flexible grades. A QF-marketed sector is priced off Qantas' own table and
+% keeps all ten, so the grades are distinguishable rather than collapsed.
+test(qantas_keeps_its_own_ten_categories) :-
+    forall(member(Class-Bucket, ["I"-'Discount Business', "D"-'Business',
+                                 "C"-'Flexible Business', "J"-'Flexible Business',
+                                 "T"-'Discount Premium Economy',
+                                 "R"-'Premium Economy',
+                                 "W"-'Flexible Premium Economy',
                                  "A"-'First', "F"-'First']),
            (   sector("QF", Class, "SYD", "LAX", Row),
                assertion(Row.outcome == ok),
                assertion(Row.bucket == Bucket)
            )).
+
+% The same ground, one sold by Qantas and one by a partner, is read off two
+% different tables and earns two different numbers. Which table applies is
+% decided by who sold the ticket, which is why route_basis/5 is handed the
+% segment.
+test(who_sold_it_decides_which_table_prices_it) :-
+    sector("QF", "D", "SYD", "LAX", Own),
+    sector("AA", "D", "SYD", "LAX", Partner),
+    assertion(Own.distance == Partner.distance),
+    amount(Own, points, OwnPoints),
+    amount(Partner, points, PartnerPoints),
+    assertion(OwnPoints == 14625),
+    assertion(PartnerPoints == 13500),
+    assertion(sub_atom(Own.basis, _, _, _, 'Adelaide')),
+    assertion(sub_atom(Partner.basis, _, _, _, 'Sydney')).
+
+% Qantas' own table bands Australian domestic sectors on distance. Short is
+% 0-750 miles, Business 1,750 points and 40 Status Credits.
+test(a_domestic_australian_sector_is_banded) :-
+    sector("QF", "D", "SYD", "MEL", Row),
+    assertion(Row.outcome == ok),
+    assertion(sub_atom(Row.basis, _, _, _, 'Domestic Australia short')),
+    amount(Row, points, Points),
+    amount(Row, status_credits, Credits),
+    assertion(Points == 1750),
+    assertion(Credits == 40).
 
 % An itinerary that names a cabin has said more than it looks like it has:
 % section 5(b) publishes the class an Explorer fare books into, so a sector with
@@ -244,14 +270,18 @@ test(economy_is_presumed_as_l_not_y) :-
 % That is why bonus/6 is handed the segment and not only the tier.
 test(the_status_bonus_is_a_qantas_flight_benefit) :-
     tiered("QF", "SYD", "LAX", gold, Own),
-    tiered("AA", "SYD", "LAX", gold, Partner),
+    tiered("QF", "SYD", "LAX", bronze, OwnBase),
     amount(Own, points, OwnPoints),
-    amount(Partner, points, PartnerPoints),
-    assertion(OwnPoints =:= round(PartnerPoints * 1.75)),
+    amount(OwnBase, points, BasePoints),
+    assertion(OwnPoints =:= round(BasePoints * 1.75)),
     once(( member(A, Own.amounts), A.currency == points )),
     assertion(A.bonus > 0),
+    % The same tier over a partner-marketed sector gets nothing: the bonus is a
+    % benefit of flying Qantas, not of holding the card.
+    tiered("AA", "SYD", "LAX", gold, Partner),
     once(( member(B, Partner.amounts), B.currency == points )),
-    assertion(B.bonus == 0).
+    assertion(B.bonus == 0),
+    assertion(Partner.outcome == ok).
 
 % Status Credits declare bonus_applies(false), so no tier reaches them. It is
 % the currency's own flag rather than anything the kernel or the tier table
@@ -474,7 +504,7 @@ test(a_sector_well_inside_a_band_is_not_flagged) :-
 % near and flagging it would send the reader to check a number that decided
 % nothing. AKL-LAX is 6,516 miles against a 6,500-mile band edge it does not use.
 test(a_region_pair_is_never_flagged_for_a_band_edge) :-
-    sector("QF", "D", "AKL", "LAX", Row),
+    sector("AA", "D", "AKL", "LAX", Row),
     assertion(Row.outcome == ok),
     assertion(sub_atom(Row.basis, _, _, _, 'New Zealand')),
     assertion(Row.nearBoundary == null).

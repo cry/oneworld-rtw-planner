@@ -43,6 +43,12 @@ The plan this document replaces was written before anyone had read the published
 found in them change the design, and each is the kind of detail that would otherwise have arrived
 halfway through the implementation as a special case.
 
+**Qantas has two whole tables, not one.** Its own flights are priced off the Qantas and Jetstar
+table, which publishes *ten* earn categories — business and premium economy each split into
+discount, standard and flexible — and its partners' off the partner table, which publishes six. The
+same ground earns differently depending on who sold the ticket, so `route_basis/5` cannot be handed
+only a distance and a pair of airports.
+
 **Qantas has two band tables, not one.** The partner earning table is thirteen groups of named
 endpoints — "Between Sydney, Melbourne, Brisbane, Gold Coast and …" — plus an "All other flights"
 table of ten mileage bands. But one of the thirteen groups, *Intra-USA Short Haul*, is itself banded
@@ -168,7 +174,13 @@ flying one airline rather than of holding a card, and the same journey carries o
 none on the next. And `fare_bucket/4` became `fare_bucket/5`, taking the annotated itinerary as
 `eligible/4` always had: a bucket can turn on something the segment does not carry — the fare's
 cabin is the obvious one, and it is what lets a programme fall back on the class the tariff says the
-fare is sold in.
+fare is sold in. `route_basis/5` went the same way when Qantas' own table arrived: which table
+prices a sector is decided by who sold it.
+
+Three widenings in three phases is a pattern rather than three accidents. Giving each resolver a
+bespoke signature — a distance here, a pair of airports there — was premature narrowing: the plan
+guessed which facts each one would want, and guessed wrong every time. Every resolver now takes the
+segment and the annotated itinerary, the same two things, and picks what it needs out of them.
 
 Sub-totals per programme, and **no ranking between them**. A mile and a Status Point are not
 commensurable without a valuation, valuations are opinions, and this codebase's whole posture is

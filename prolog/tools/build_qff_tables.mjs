@@ -29,6 +29,7 @@ const bands = read('qff-bands.json');
 const regionDefs = read('qff-region-definitions.json');
 const regions = read('qff-regions.json');
 const tiers = read('qff-tiers.json');
+const metal = read('qff-metal.json');
 
 // The fare rule's sixteen eligible carriers, and nothing else. Qantas publishes
 // earn categories for airlines an Explorer fare may not be flown on at all --
@@ -55,16 +56,6 @@ const SCOPES = {
   named_routes: 'named_routes',
 };
 
-// Which of the partner table's six columns a published column earns in. Only
-// Qantas' own table has more than six; every partner publishes exactly these.
-const PARTNER_COLUMN = Object.fromEntries([
-  ...COLUMNS.map((c) => [c, c]),
-  ['discount_premium_economy', 'premium_economy'],
-  ['flexible_premium_economy', 'premium_economy'],
-  ['discount_business', 'business'],
-  ['flexible_business', 'business'],
-]);
-
 const quote = (s) => `'${String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`;
 
 function rows() {
@@ -81,19 +72,17 @@ function rows() {
         unpublished.push([code, scope, classes]);
         continue;
       }
-      // QF publishes ten columns rather than six, splitting business and
-      // premium economy into discount, standard and flexible grades. The
-      // partner earning table this fare is priced against has one column for
-      // each, so the grades collapse onto it: I, D, C and J are all Business,
-      // and T, R and W are all Premium Economy.
-      //
-      // Dropping the extra grades instead -- which is what this did at first --
-      // left a QF-marketed sector sold in C or J with no earn category at all,
-      // reported as though Qantas published nothing for its own airline.
+      // QF publishes ten categories where every partner publishes six,
+      // splitting business and premium economy into discount, standard and
+      // flexible grades. Both sets are kept: a QF-marketed sector is priced off
+      // Qantas' own table, which has all ten columns, and a partner-marketed one
+      // off the partner table, which has six. Collapsing the grades -- which is
+      // what this did while only the partner table was captured -- would now
+      // throw away three quarters of the detail in Qantas' own rows.
       const columns = entry.columns || COLUMNS;
       classes.forEach((letters, i) => {
-        const column = PARTNER_COLUMN[columns[i]];
-        if (letters === '-' || !column) return;
+        const column = columns[i];
+        if (letters === '-') return;
         for (const letter of letters) {
           out.push([code, scope, letter.toLowerCase(), column]);
         }
@@ -120,7 +109,8 @@ const categoriesPl = `:- module(qff_categories,
           [ earn_category/4,
             earn_category_unpublished/3,
             earn_scope/2,
-            earn_categories/1
+            earn_categories/1,
+            qf_categories/1
           ]).
 
 /** <module> Qantas Frequent Flyer earn categories. GENERATED -- do not edit.
@@ -158,6 +148,11 @@ earn_scope(named_routes,  region).
 %! earn_categories(-Categories) is det.
 %  The six columns of the partner earning table, in published order.
 earn_categories([${COLUMNS.join(', ')}]).
+
+%! qf_categories(-Categories) is det.
+%  The ten Qantas publishes for its own flights, which split business and
+%  premium economy into discount, standard and flexible grades.
+qf_categories([${metal.columns.join(', ')}]).
 
 %! earn_category(?Carrier, ?Scope, ?Class, ?Category) is nondet.
 ${categoryRows.map(([c, s, l, col]) => `earn_category(${c}, ${s}, ${l}, ${col}).`).join('\n')}
@@ -427,6 +422,160 @@ ${tiers.appliesTo.map((c) => `qff_tier_currency(${c}).`).join('\n')}
 ${tiers.appliesOn.marketingCarrier.map((c) => `qff_tier_carrier(${c.toLowerCase()}).`).join('\n')}
 `;
 
+// --- Qantas' own table -----------------------------------------------------
+
+// Every region the metal table names, over the definitions already loaded for
+// the partner table plus the handful only this one uses. A composed region --
+// "Northeast Asia or Southeast Asia" -- is the union of regions defined
+// elsewhere, so the definition still lives in exactly one place.
+const metalRegions = new Map();
+
+for (const [key, r] of Object.entries(metal.regions)) {
+  metalRegions.set(key, { key, label: r.label,
+                          places: (r.places || []).map((p) => p.toLowerCase()),
+                          countries: r.countries || [],
+                          isoRegions: r.isoRegions || [] });
+}
+for (const [label, key] of Object.entries(metal.rowRegions)) {
+  if (metalRegions.has(key)) continue;
+  const composed = metal.composedRegions[key];
+  if (composed) {
+    metalRegions.set(key, {
+      key, label,
+      places: composed.flatMap(regionPlaces),
+      countries: composed.flatMap(regionCountries),
+      isoRegions: [],
+    });
+    continue;
+  }
+  // "Europe" is defined on the definitions page as the three European regions
+  // together, so it is a union rather than a region of its own.
+  if (regionDefs.unions[key]) {
+    metalRegions.set(key, { key, label, places: [], countries: regionCountries(key), isoRegions: [] });
+    continue;
+  }
+  const named = Object.values(LABELS).find((v) => v.key === key);
+  if (!named) throw new Error(`the metal table names a region nothing defines: ${key}`);
+  metalRegions.set(key, { key, label, places: named.places || [], countries: named.countries || [], isoRegions: [] });
+}
+
+function regionPlaces(key) {
+  const named = Object.values(LABELS).find((v) => v.key === key) || metal.regions[key] || {};
+  return (named.places || []).map((p) => String(p).toLowerCase());
+}
+function regionCountries(key) {
+  if (regionDefs.unions[key]) return regionDefs.unions[key].flatMap((k) => regionDefs.countryRegions[k].countries);
+  const named = Object.values(LABELS).find((v) => v.key === key) || metal.regions[key] || {};
+  return named.countries || [];
+}
+
+const metalPairs = [];
+const metalEdges = new Set();
+for (const group of metal.groups) {
+  const from = metal.rowRegions[group.from];
+  if (!from) throw new Error(`no region for metal group "${group.from}"`);
+  for (const [label, row] of Object.entries(group.rows)) {
+    const to = metal.rowRegions[label];
+    if (!to) throw new Error(`no region for metal row "${label}"`);
+    metal.columns.forEach((column, i) => metalPairs.push({ from, to, column, row, i }));
+  }
+}
+
+const metalBands = metal.bands.map((band, i) => {
+  const lower = i === 0 ? 1 : metal.bands[i - 1].max + 1;
+  if (band.max !== null) metalEdges.add(band.max);
+  return { key: `band(${lower}, ${band.max === null ? 'inf' : band.max})`, lower, upper: band.max, band };
+});
+
+const domestic = metal.domesticAustralia.bands.map((b) => {
+  if (b.max !== null) metalEdges.add(b.max);
+  return { ...b, key: `band(${b.min}, ${b.max === null ? 'inf' : b.max})`,
+           row: metal.domesticAustralia.rows[b.key] };
+});
+
+const bandLabel = (lower, upper) =>
+  upper === null ? `${lower.toLocaleString('en-US')} miles and over`
+  : lower === 1 ? `up to ${upper.toLocaleString('en-US')} miles`
+  : `${lower.toLocaleString('en-US')} to ${upper.toLocaleString('en-US')} miles`;
+
+const metalPl = `:- module(qff_metal,
+          [ metal_region_places/2,
+            metal_region_countries/2,
+            metal_region_iso/2,
+            metal_region_label/2,
+            metal_pair/4,
+            metal_band/3,
+            metal_band_label/2,
+            metal_band_accrual/3,
+            metal_domestic/3,
+            metal_domestic_label/2,
+            metal_domestic_accrual/3,
+            metal_edges/1,
+            metal_carrier/1
+          ]).
+
+/** <module> Qantas' own earning table. GENERATED -- do not edit.
+
+    Built by prolog/tools/build_qff_tables.mjs from
+    data/earn/sources/qff-metal.json, ${metal.fetched}, effective from
+    ${metal.effectiveFrom}:
+    ${metal.source}
+
+    ${metal.note}
+
+    ${metal.bandsNote}
+*/
+
+%! metal_carrier(?Carrier) is nondet.
+%  The marketing carriers this table prices. Jetstar's rows are on the same page
+%  and are not here: an Explorer fare cannot be sold with a JQ flight number.
+metal_carrier(qf).
+
+%! metal_region_places(?Region, ?Places) is nondet.
+${[...metalRegions.values()].filter((r) => r.places.length)
+  .map((r) => `metal_region_places(${r.key}, [${[...new Set(r.places)].join(', ')}]).`).join('\n')}
+
+%! metal_region_countries(?Region, ?Countries) is nondet.
+${[...metalRegions.values()].filter((r) => r.countries.length)
+  .map((r) => `metal_region_countries(${r.key}, [${[...new Set(r.countries)].map((c) => `'${c}'`).join(', ')}]).`).join('\n')}
+
+%! metal_region_iso(?Region, ?IsoRegions) is nondet.
+%  Regions the table names that are a state rather than a country or a city.
+${[...metalRegions.values()].filter((r) => r.isoRegions.length)
+  .map((r) => `metal_region_iso(${r.key}, [${r.isoRegions.map((c) => `'${c}'`).join(', ')}]).`).join('\n')}
+
+%! metal_region_label(?Region, ?Label) is nondet.
+${[...metalRegions.values()].map((r) => `metal_region_label(${r.key}, ${quote(r.label)}).`).join('\n')}
+
+%! metal_pair(?From, ?To, ?Category, ?Rates) is nondet.
+${metalPairs.map(({ from, to, column, row, i }) =>
+  `metal_pair(${from}, ${to}, ${column},\n           [ rate(points, ${rate(row, 'points', i)}),\n             rate(status_credits, ${rate(row, 'credits', i)}) ]).`).join('\n')}
+
+%! metal_domestic(?Band, ?Low, ?High) is nondet.
+%  Both endpoints in Australia, banded on distance.
+${domestic.map((d) => `metal_domestic(${d.key}, ${d.min}, ${d.max === null ? 'inf' : d.max}).`).join('\n')}
+
+%! metal_domestic_label(?Band, ?Label) is nondet.
+${domestic.map((d) => `metal_domestic_label(${d.key}, ${quote(d.label)}).`).join('\n')}
+
+%! metal_domestic_accrual(?Band, ?Category, ?Rates) is nondet.
+${domestic.flatMap((d) => metal.columns.map((column, i) =>
+  `metal_domestic_accrual(${d.key}, ${column},\n                       [ rate(points, ${rate(d.row, 'points', i)}),\n                         rate(status_credits, ${rate(d.row, 'credits', i)}) ]).`)).join('\n')}
+
+%! metal_band(?Band, ?Low, ?High) is nondet.
+${metalBands.map((b) => `metal_band(${b.key}, ${b.lower}, ${b.upper === null ? 'inf' : b.upper}).`).join('\n')}
+
+%! metal_band_label(?Band, ?Label) is nondet.
+${metalBands.map((b) => `metal_band_label(${b.key}, ${quote(bandLabel(b.lower, b.upper))}).`).join('\n')}
+
+%! metal_band_accrual(?Band, ?Category, ?Rates) is nondet.
+${metalBands.flatMap((b) => metal.columns.map((column, i) =>
+  `metal_band_accrual(${b.key}, ${column},\n                   [ rate(points, ${rate(b.band, 'points', i)}),\n                     rate(status_credits, ${rate(b.band, 'credits', i)}) ]).`)).join('\n')}
+
+%! metal_edges(-Edges) is det.
+metal_edges([${[...metalEdges].sort((a, b) => a - b).join(', ')}]).
+`;
+
 const sourcePl = `:- module(qff_source, [qff_source/2, qff_note/1]).
 
 /** <module> Where the Qantas tables were read, and when. GENERATED -- do not edit.
@@ -442,12 +591,15 @@ qff_source(bands,      source(${quote(bands.source)}, ${quote(bands.fetched)})).
 qff_source(regions,    source(${quote(regions.source)}, ${quote(regions.fetched)})).
 qff_source(region_definitions, source(${quote(regionDefs.source)}, ${quote(regionDefs.fetched)})).
 qff_source(tiers,      source(${quote(tiers.source)}, ${quote(tiers.fetched)})).
+qff_source(qantas_flights, source(${quote(metal.source)}, ${quote(metal.fetched)})).
 
 %! qff_note(?Note) is nondet.
 %  What a reader of these numbers has to be told alongside them.
 qff_note('These figures are an estimate. The airline\\'s own calculator is authoritative.').
 qff_note('A tier bonus applies to Qantas Points on Qantas-marketed sectors only; every other figure is the base rate.').
 qff_note(${quote(tiers.via)}).
+qff_note('A Qantas-marketed sector is priced off Qantas\\' own table and a partner-marketed one off the partner table; the two publish different categories and different rates.').
+qff_note(${quote('A minimum points guarantee may raise some Qantas-marketed figures. ' + metal.minimumPointsGuarantee.why)}).
 ${Object.entries(categories.carriers)
   .filter(([code, e]) => ELIGIBLE.includes(code) && e.effective)
   .map(([code, e]) => `qff_note('${code.toUpperCase()} categories are the rows in force from ${e.effective}; earlier rows are not carried.').`)
@@ -460,6 +612,7 @@ for (const [name, text] of [['categories.pl', categoriesPl],
                             ['bands.pl', bandsPl],
                             ['regions.pl', regionsPl],
                             ['tiers.pl', tiersPl],
+                            ['metal.pl', metalPl],
                             ['source.pl', sourcePl]]) {
   const file = path.join(OUT, name);
   const before = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : null;
@@ -470,4 +623,6 @@ for (const [name, text] of [['categories.pl', categoriesPl],
 console.log(`earn:qff — ${categoryRows.length} category rows over ${ELIGIBLE.length} carriers, ` +
             `${bandRows.length} bands × ${COLUMNS.length} categories, ` +
             `${pairRows.length / COLUMNS.length} region pairs over ${usedRegions.size} regions`);
+console.log(`earn:qff — Qantas' own table: ${metalPairs.length / metal.columns.length} pairs, ` +
+            `${metalBands.length} bands, ${domestic.length} domestic bands × ${metal.columns.length} categories`);
 console.log(`earn:qff — ${written.join(', ')}`);

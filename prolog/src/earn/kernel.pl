@@ -37,7 +37,7 @@
         fare_family(Id, Family)
         eligible(Id, Segment, Annotated, Outcome)
         fare_bucket(Id, Segment, Annotated, Bucket, Basis)
-        route_basis(Id, From, To, Distance, Basis)
+        route_basis(Id, Segment, Annotated, Distance, Basis)
         accrual(Id, Bucket, Basis, Carrier, Rates)
         tier(Id, Tier, DisplayName)
         bonus(Id, Tier, Segment, CurrencyKey, BaseAmount, BonusAmount)
@@ -57,11 +57,15 @@
     back on the class the tariff says the fare is sold in when the itinerary did
     not say.
 
-    *route_basis/5 takes airports, not just a distance.* Cathay's Short-Type 2
-    zone is 751 to 2,750 miles *to or from* one of six countries, which distance
-    alone cannot decide. With the endpoints in the signature, Qantas' region pair
-    and its mileage-band fallback become two clauses of one predicate instead of
-    two mechanisms.
+    *No resolver is handed less than the segment and the annotation.* The plan
+    this was built from gave each one a bespoke signature -- a distance here, a
+    pair of airports there -- and every one of them turned out to be too narrow
+    within two programmes: a Cathay zone needs the endpoints, a fare bucket needs
+    the cabin, a route basis needs the marketing carrier because Qantas publishes
+    one table for its own flights and another for its partners', and a tier bonus
+    needs the segment because it is a benefit of flying an airline rather than of
+    holding a card. Guessing which facts a resolver will want is what went wrong;
+    handing it the same two things every time is what stopped it.
 
     *An accrual returns an expression, not a number.* See src/earn/expr.pl:
     fixed rates and proportional ones then share one path, which Cathay needs
@@ -307,7 +311,7 @@ merged_amount(Rows, Key, amt{ currency: Key, value: Value, bonus: 0, tier: null 
     ).
 
 basis_step(Id, A, S, Miles, Bucket, BucketBasis, Row) :-
-    (   route_basis(Id, S.from, S.to, Miles, Basis)
+    (   route_basis(Id, S, A, Miles, Basis)
     ->  (   Basis = indeterminate(Why)
         ->  outcome_row(S, indeterminate, Why,
                         [distance(Miles), bucket(Bucket, BucketBasis)], Row)

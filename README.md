@@ -135,10 +135,16 @@ It is on by default, unlike the check register, because a points figure carries 
 been *calculated*, and this one was looked up in a table with no version, no clause numbers and no
 notice period. The fetch date follows the totals for the same reason.
 
-**A sector is priced off the most specific row that covers it** — a named region pair first, then
-Intra-USA Short Haul, which is a region group that is itself banded on distance, then the "All other
-flights" mileage bands. That middle case is why the route basis a programme returns is opaque to the
-kernel rather than being "a region pair, else a band".
+**Which table prices a sector is decided by who sold it.** Qantas publishes one set of rates for its
+own flights and another for its partners', with ten earn categories against the partner table's six —
+so a `QF`-marketed sector and a `BA`-marketed one over the same ground earn differently and are read
+off different pages. `SYD-LAX` in `D` is 14,625 Qantas Points on Qantas and 13,500 on American.
+
+**Within a table, a sector takes the most specific row that covers it** — Australian domestic bands,
+then the named region pairs, then the mileage bands; on the partner table, region pairs, then
+Intra-USA Short Haul (a region group that is itself banded on distance), then the bands. That middle
+case is why the route basis a programme returns is opaque to the kernel rather than being "a region
+pair, else a band".
 
 **A sector within 1.5% of a band edge says so.** What an airline bands on is ticketed mileage, which
 is not a great-circle distance; everywhere except near an edge the two agree well inside the width of
@@ -958,10 +964,10 @@ decidable; nothing else would.
 
 Not part of Rule 3015 at all, and a separate operation for that reason — see
 [What it earns](#what-it-earns) and [`PLANS/05-loyalty-earning.md`](PLANS/05-loyalty-earning.md).
-Two programmes are registered. Qantas Frequent Flyer is priced off its published region pairs and
-mileage bands; Cathay off its distance zones, for Cathay-marketed flights only. Effective dating,
-Cathay's partner earn and tier bonuses are the phases still to come, and the tables that have not
-been captured yet are listed in
+Two programmes are registered. Qantas Frequent Flyer is priced off both its published tables — its
+own for Qantas-marketed sectors, the partner one for everything else — with its status bonus applied;
+Cathay off its distance zones, for Cathay-marketed flights only. Effective dating, Cathay's partner
+earn and Cathay's tiers are what is left, and the tables that have not been captured are listed in
 [`prolog/data/earn/sources/README.md`](prolog/data/earn/sources/README.md).
 
 Deliberately out of scope in both programmes: award bookings, which earn nothing; Qantas Loyalty

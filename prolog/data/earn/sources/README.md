@@ -15,15 +15,17 @@ travels with the numbers into `program_source/3` and into every earn report. See
 | `qff-categories.json` | carrier and RBD to Qantas Frequent Flyer earn category | the Qantas earn-category tables |
 | `qff-regions.json` | region-pair rows, partner-marketed | the Qantas partner airline earning tables |
 | `qff-bands.json` | the "All other flights" mileage bands | the same page |
+| `qff-metal.json` | Qantas' own table: region pairs, Australian domestic bands and mileage bands, over ten earn categories | the Qantas and Jetstar earning tables |
+| `qff-tiers.json` | the Qantas status bonus by tier | the Qantas earning-points page |
 | `cx-marketed.json` | distance zone, cabin, fare family and class to Status Points and Asia Miles | Cathay's 20 August 2025 earnings change |
 
-Two tables are **not** here yet and the programmes that need them cannot be finished without them:
+Two tables are **not** here and the programmes that need them cannot be finished without them:
 
 * **Cathay partner earn** — a share of flown miles per marketing carrier and class. It is served by
   Cathay's calculator rather than published as a table, so it needs the calculator's own responses.
-* **Tier bonuses**, for both programmes.
+* **Cathay's membership tiers.**
 
-`qff-regions.json` also names regions — "West Coast USA/Canada", "Western Europe", "Southeast Asia"
-— that Qantas defines in a glossary this capture does not include. Those definitions are what
-`data/earn/qff/regions.pl` has to be built from, and inventing them from the names would be the
-third geography taxonomy in this repository invented rather than read.
+Two of these were transcribed by hand rather than read out of the page, and each says so in its own
+`via` field: `qff-metal.json` and `qff-tiers.json`. The Qantas site refused the scraper on both
+pages. That is worth knowing when checking a figure, which is why the note travels into the report
+rather than staying here.

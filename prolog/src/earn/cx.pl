@@ -182,8 +182,8 @@ earn_kernel:term_label(zone(_, Label), Label).
 % 2,750 miles as Short - Type 1 and is separated from it only by whether the
 % sector touches Japan, Indonesia, Sri Lanka, Nepal, Bangladesh or India -- so
 % the endpoints have to be in the signature, and they are.
-earn_kernel:route_basis(cx, From, To, Miles, Basis) :-
-    (   zone_for(From, To, Miles, Zone)
+earn_kernel:route_basis(cx, S, _A, Miles, Basis) :-
+    (   zone_for(S.from, S.to, Miles, Zone)
     ->  cx_zone_label(Zone, Label),
         Basis = zone(Zone, Label)
     ;   format(atom(Why), 'No Cathay distance zone covers ~w miles.', [Miles]),

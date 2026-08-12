@@ -152,12 +152,20 @@ test(the_earning_geography_is_not_the_fare_rules_geography) :-
 % boundaries themselves are checked as well as the middles, because an
 % off-by-one at an edge is how a table gets transcribed wrong.
 test(every_distance_resolves_to_a_route_basis) :-
+    % A real segment, because a route basis can turn on who sold the ticket as
+    % well as on how far it goes.
+    itinerary(_{ cabin: "business", mode: "routing",
+                 segments: [ _{from: "LHR", to: "JFK", carrier: "BA", bookingClass: "D", stop: "stopover"},
+                             _{from: "JFK", to: "LHR", carrier: "BA", bookingClass: "D"} ] },
+              A),
+    ann_seg(A, S),
+    S.n == 1,
     findall(Id-Miles,
             (   known_program(Id),
                 member(Miles, [1, 99, 100, 101, 250, 400, 401, 500, 750, 751,
                                1500, 2500, 2750, 2751, 3500, 5000, 5001, 6500,
                                7500, 7501, 12000, 30000]),
-                route_basis(Id, lhr, jfk, Miles, Basis),
+                route_basis(Id, S, A, Miles, Basis),
                 Basis = indeterminate(_)
             ),
             Gaps),
