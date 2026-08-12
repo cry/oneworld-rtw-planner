@@ -122,8 +122,8 @@ Qantas Frequent Flyer
   25,500 Qantas Points, 660 Status Credits
   [1]   LHR-JFK     ok         4,000 Qantas Points, 100 Status Credits
                                Business (all flights) · 2,501 to 3,500 miles · 3,442 mi
-  [2]   JFK-LAX     ok         2,500 Qantas Points, 80 Status Credits
-                               Business (all flights) · 1,501 to 2,500 miles · 2,469 mi — within 1.5% of the 2,500-mile edge
+  [2]   JFK-LAX     ok         3,125 Qantas Points, 100 Status Credits
+                               Business (all flights) · East Coast USA/Canada and West Coast USA/Canada · 2,469 mi
   …
   These figures are an estimate. The airline's own calculator is authoritative.
   bands table read 2026-08-11 from https://www.qantas.com/en-au/frequent-flyer/calculators/…
@@ -135,9 +135,15 @@ It is on by default, unlike the check register, because a points figure carries 
 been *calculated*, and this one was looked up in a table with no version, no clause numbers and no
 notice period. The fetch date follows the totals for the same reason.
 
+**A sector is priced off the most specific row that covers it** — a named region pair first, then
+Intra-USA Short Haul, which is a region group that is itself banded on distance, then the "All other
+flights" mileage bands. That middle case is why the route basis a programme returns is opaque to the
+kernel rather than being "a region pair, else a band".
+
 **A sector within 1.5% of a band edge says so.** What an airline bands on is ticketed mileage, which
 is not a great-circle distance; everywhere except near an edge the two agree well inside the width of
-a band, and near an edge is exactly where a good-enough answer stops being good enough.
+a band, and near an edge is exactly where a good-enough answer stops being good enough. The edges are
+asked for per *basis*, so a region pair — which never looked at the distance — is never flagged.
 
 **Nothing that could not be priced is reported as zero.** A sector whose class was not given, whose
 operating carrier is unnamed, or whose category depends on a table that is not loaded, comes back
@@ -721,6 +727,14 @@ and month granularity.
 
 ## Geography
 
+`prolog/data/earn/qff/regions.pl` is the **third** geography taxonomy here, and deliberately its own
+table. Qantas splits West Coast from East Coast USA/Canada, which the fare rule does not; it files
+Santiago, Dallas and Tel Aviv as regions of their own; and one of its regions, "Southeast Asia or
+Northern Africa", spans three of the fare rule's six continents — it reaches Kenya, Uganda, Somalia
+and the Seychelles at one end and Egypt, Libya and Morocco, which Rule 3015 puts in Europe/Middle
+East, at the other. A test asserts the two stay independent, so a later contributor cannot tidy up by
+aliasing one to the other.
+
 `prolog/data/generated/airports.pl` holds 4,161 airports with scheduled service and an IATA code,
 built from the [OurAirports](https://davidmegginson.github.io/ourairports-data/airports.csv) CSV:
 
@@ -870,9 +884,9 @@ decidable; nothing else would.
 
 Not part of Rule 3015 at all, and a separate operation for that reason — see
 [What it earns](#what-it-earns) and [`PLANS/05-loyalty-earning.md`](PLANS/05-loyalty-earning.md).
-Qantas Frequent Flyer is registered and priced off its published mileage bands; its region-pair
-table, Cathay, effective dating and tier bonuses are the phases still to come, and the two tables
-that have not been captured yet are listed in
+Qantas Frequent Flyer is registered and priced off its published region pairs and mileage bands;
+Cathay, effective dating and tier bonuses are the phases still to come, and the two tables that have
+not been captured yet are listed in
 [`prolog/data/earn/sources/README.md`](prolog/data/earn/sources/README.md).
 
 Deliberately out of scope in both programmes: award bookings, which earn nothing; Qantas Loyalty

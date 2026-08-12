@@ -10,6 +10,8 @@
 %! qff_source(?Table, ?Source) is nondet.
 qff_source(categories, source('https://www.qantas.com/en-au/frequent-flyer/calculators/earning-tables/categories', '2026-08-11')).
 qff_source(bands,      source('https://www.qantas.com/en-au/frequent-flyer/calculators/earning-tables/partner-airlines', '2026-08-11')).
+qff_source(regions,    source('https://www.qantas.com/en-au/frequent-flyer/calculators/earning-tables/partner-airlines', '2026-08-11')).
+qff_source(region_definitions, source('https://www.qantas.com/en-au/frequent-flyer/calculators/earning-tables/region-definitions', '2026-08-11')).
 
 %! qff_note(?Note) is nondet.
 %  What a reader of these numbers has to be told alongside them.

@@ -5,7 +5,7 @@
             eligible/4,
             fare_bucket/4,
             route_basis/5,
-            route_basis_edges/2,
+            route_basis_edges/3,
             accrual/5,
             bonus/5,
             program_source/3,
@@ -197,7 +197,7 @@ accrual_step(Id, A, S, Miles, Bucket, BucketBasis, Basis, Row) :-
     Carrier = S.marketing,
     (   accrual(Id, Bucket, Basis, Carrier, Rates)
     ->  amounts(Id, A, Miles, Rates, Amounts),
-        near_boundary_flag(Id, Miles, Flag),
+        near_boundary_flag(Id, Basis, Miles, Flag),
         outcome_row(S, ok, null,
                     [distance(Miles), bucket(Bucket, BucketBasis), basis(Basis),
                      near_boundary(Flag), amounts(Amounts)],
@@ -209,16 +209,20 @@ accrual_step(Id, A, S, Miles, Bucket, BucketBasis, Basis, Row) :-
 
 % A distance within a whisker of a band or zone edge is where a great circle
 % stops being a good enough stand-in for the airline's own mileage -- see
-% src/earn/distance.pl. The programme supplies the edges of whatever table it
-% just used; a programme that bands on nothing supplies none and never flags.
-near_boundary_flag(Id, Miles, Flag) :-
-    (   route_basis_edges(Id, Edges),
+% src/earn/distance.pl.
+%
+% The edges are asked for *per basis*, not per programme, because a programme
+% can price one sector off a distance and the next off a pair of endpoints. A
+% basis that never looked at the distance has no edge to be near, and flagging
+% it would tell the reader to go and check a number that decided nothing.
+near_boundary_flag(Id, Basis, Miles, Flag) :-
+    (   route_basis_edges(Id, Basis, Edges),
         near_boundary(Miles, Edges, Edge)
     ->  Flag = Edge
     ;   Flag = null
     ).
 
-:- multifile route_basis_edges/2.
+:- multifile route_basis_edges/3.
 
 % --- amounts ---------------------------------------------------------------
 

@@ -119,6 +119,56 @@ test(a_non_oneworld_operator_earns_nothing) :-
     assertion(Row.outcome == not_applicable),
     assertion(sub_atom(Row.reason, _, _, _, 'outside oneworld')).
 
+% Partner earning table, group "Between East Coast USA/Canada and …", row "West
+% Coast USA/Canada", column Business: 3,125 Qantas Points and 100 Status
+% Credits. The named pair takes precedence over the mileage band the same sector
+% would otherwise fall in, which prices it at 2,500 and 80.
+test(a_named_region_pair_beats_the_mileage_band) :-
+    sector("AA", "D", "JFK", "LAX", Row),
+    assertion(Row.outcome == ok),
+    assertion(Row.basis == 'East Coast USA/Canada and West Coast USA/Canada'),
+    amount(Row, points, Points),
+    amount(Row, status_credits, Credits),
+    assertion(Points == 3125),
+    assertion(Credits == 100).
+
+% "Between X and Y" is symmetric, and the table publishes each pair once.
+test(a_region_pair_reads_the_same_both_ways) :-
+    sector("AA", "D", "JFK", "LAX", Out),
+    sector("AA", "D", "LAX", "JFK", Back),
+    amount(Out, points, P1), amount(Back, points, P2),
+    assertion(P1 == P2),
+    assertion(Out.basis == Back.basis).
+
+% A region is a set of *places*, matched on place_key/2, so a region naming New
+% York covers Newark -- which is what the published table means by a city, and
+% the same folding 4(i) and 4(c) are written in.
+test(a_region_naming_a_city_covers_its_airports) :-
+    sector("AA", "D", "EWR", "LAX", Row),
+    assertion(Row.basis == 'East Coast USA/Canada and West Coast USA/Canada').
+
+% Intra-USA Short Haul is a region group that is itself banded on distance --
+% the reason route_basis/5 hands back an opaque basis rather than "a region
+% pair, else a band". LAX-SFO is 338 miles: "Up to 400 miles", Business 400
+% points and 40 Status Credits.
+test(a_region_group_can_itself_be_banded) :-
+    sector("AA", "D", "LAX", "SFO", Row),
+    assertion(Row.outcome == ok),
+    assertion(Row.basis == 'Intra-USA Short Haul, 1 to 400 miles'),
+    amount(Row, points, Points),
+    amount(Row, status_credits, Credits),
+    assertion(Points == 400),
+    assertion(Credits == 40).
+
+% ...and above its top band it falls through to the global table, because the
+% published group has no row for a longer intra-USA sector. BOS-MIA is 1,260
+% miles: "751 to 1,500 miles", Business 1,375 points and 60 Status Credits.
+test(a_longer_intra_usa_sector_falls_through_to_the_bands) :-
+    sector("AA", "D", "BOS", "MIA", Row),
+    assertion(Row.basis == '751 to 1,500 miles'),
+    amount(Row, points, Points),
+    assertion(Points == 1375).
+
 :- end_tests(earn_qff).
 
 % --- distance ---------------------------------------------------------------
@@ -143,15 +193,24 @@ test(distance_is_symmetric) :-
     assertion(A == B).
 
 % A sector within 1.5% of a band edge is flagged, because that is exactly where
-% a great circle stops standing in for the airline's own mileage. JFK-LAX is
-% about 2,475 miles against a 2,500-mile edge.
+% a great circle stops standing in for the airline's own mileage. LHR-YYZ
+% measures 3,546 miles against a 3,500-mile edge.
 test(a_sector_near_a_band_edge_is_flagged) :-
-    sector("BA", "D", "JFK", "LAX", Row),
+    sector("BA", "D", "LHR", "YYZ", Row),
     assertion(Row.outcome == ok),
-    assertion(Row.nearBoundary == 2500).
+    assertion(Row.nearBoundary == 3500).
 
 test(a_sector_well_inside_a_band_is_not_flagged) :-
     sector("BA", "D", "LHR", "JFK", Row),
+    assertion(Row.nearBoundary == null).
+
+% A region pair never looked at the distance, so there is no edge for it to be
+% near and flagging it would send the reader to check a number that decided
+% nothing. AKL-LAX is 6,516 miles against a 6,500-mile band edge it does not use.
+test(a_region_pair_is_never_flagged_for_a_band_edge) :-
+    sector("QF", "D", "AKL", "LAX", Row),
+    assertion(Row.outcome == ok),
+    assertion(sub_atom(Row.basis, _, _, _, 'New Zealand')),
     assertion(Row.nearBoundary == null).
 
 :- end_tests(earn_distance).

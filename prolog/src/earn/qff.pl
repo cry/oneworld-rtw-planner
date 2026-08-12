@@ -5,12 +5,12 @@
     Resolvers only. Every number is in data/earn/qff/, every decision about
     sequencing is in kernel.pl, and this file is what joins the two.
 
-    Phase 1 resolves the mileage-band fallback and nothing else. The region-pair
-    table -- thirteen groups of named endpoints, which take precedence over the
-    bands -- arrives in phase 2 as a second clause of route_basis/5 and needs no
-    change here or in the kernel. That is the property the plugin interface was
-    built for, so it is worth being explicit that phase 2 is meant to be a data
-    change plus one clause.
+    Three route bases, in the order the published table means them to be read:
+    the named region pairs, then Intra-USA Short Haul, which is a region group
+    that is itself banded on distance, then the "All other flights" mileage
+    bands. That third case is the fallback and the second is the reason
+    route_basis/5 returns an opaque basis rather than "a region pair, else a
+    band".
 
     Two things about the categories are worth reading before the code.
 
@@ -18,12 +18,16 @@
     publish different class-to-category rows for different parts of their
     network -- Fiji Airways inside Fiji, Japan Airlines inside Japan, Malaysia
     on its long-haul markets, SriLankan on named routes, and Qantas between its
-    own domestic and international networks. Two of those five are decided by
-    the endpoints alone and are decided here; two need the region tables and
-    cannot be until phase 2. Where a class falls in the same category on both
-    candidate rows, the answer is the same either way and is given. Where it
-    does not, the segment is undecided and says which two categories it is
-    between -- which is a smaller and more useful claim than picking one.
+    own domestic and international networks. Three of those are decided by the
+    endpoints alone and are decided here. Malaysia's and SriLankan's are not,
+    and cannot be from the tables in this repository: they are scoped to
+    "Australia", "the UK" and "the Middle East", which the earning-table region
+    page does not define, and inventing definitions for them would be a fifth
+    geography taxonomy made up rather than read. Where a class falls in the same
+    category on both candidate rows the answer is the same either way and is
+    given; where it does not, the segment is undecided and says which two
+    categories it is between, which is a smaller and more useful claim than
+    picking one.
 
     *A published row can be empty.* Japan Airlines' within-Japan row says points
     are awarded on information Japan Airlines provides, and does not tabulate
@@ -35,6 +39,7 @@
 :- use_module('../carriers').
 :- use_module('../../data/earn/qff/categories').
 :- use_module('../../data/earn/qff/bands').
+:- use_module('../../data/earn/qff/regions').
 :- use_module('../../data/earn/qff/source').
 :- use_module(library(apply)).
 :- use_module(library(lists)).
@@ -44,7 +49,7 @@
 :- multifile earn_kernel:eligible/4.
 :- multifile earn_kernel:fare_bucket/4.
 :- multifile earn_kernel:route_basis/5.
-:- multifile earn_kernel:route_basis_edges/2.
+:- multifile earn_kernel:route_basis_edges/3.
 :- multifile earn_kernel:accrual/5.
 :- multifile earn_kernel:program_source/3.
 :- multifile earn_kernel:program_note/2.
@@ -132,16 +137,15 @@ resolve(_, _, _, _, Categories, category(Category), Basis) :-
     !,
     memberchk(Category-Scope, Categories),
     scope_label(Scope, Basis).
-% The candidate rows disagree, which can only happen where one of them is
-% decided by a region table this phase does not have. Naming both categories is
-% a smaller claim than choosing one, and it is also the exact thing phase 2
-% makes go away.
+% The candidate rows disagree, which happens only where one of them is scoped to
+% a region nothing in this repository defines -- see the module comment. Naming
+% both categories is a smaller claim than choosing one.
 resolve(_, _, _, _, Categories, indeterminate(Why), null) :-
     findall(Name, ( member(C-_, Categories), category_label(C, Name) ), Names0),
     sort(Names0, Names),
     atomic_list_concat(Names, ' or ', List),
     format(atom(Why),
-           'This class earns in ~w depending on the route, and the route tables that decide which are not loaded.',
+           'This class earns in ~w depending on the route, and the carrier scopes its rows to regions the published tables do not define.',
            [List]).
 
 % Which rows of the table could describe this segment. `always` rows always can;
@@ -187,6 +191,8 @@ scope_label(named_routes,  'the named-routes row').
 % a bucket and a basis as opaque and would otherwise print the raw term.
 earn_kernel:term_label(category(Category), Label) :- category_label(Category, Label).
 earn_kernel:term_label(mileage_band(_, Label), Label).
+earn_kernel:term_label(region_band(_, _, Label), Label).
+earn_kernel:term_label(region_pair(_, _, Label), Label).
 
 category_label(discount_economy, 'Discount Economy').
 category_label(economy,          'Economy').
@@ -197,10 +203,18 @@ category_label(first,            'First').
 
 % --- which route basis ------------------------------------------------------
 
-% Phase 1: the "All other flights" mileage bands. Phase 2 adds a clause above
-% this one for the thirteen region-pair groups, which take precedence; the
-% endpoints are already in the signature for it.
-earn_kernel:route_basis(qff, _From, _To, Miles, Basis) :-
+% Three bases, in the order the published table is meant to be read: the named
+% region pairs first, then the one region group that is itself banded on
+% distance, then the "All other flights" mileage bands as the fallback. This is
+% why route_basis/5 returns an opaque basis rather than "a region pair, else a
+% band" -- Intra-USA Short Haul is both at once.
+earn_kernel:route_basis(qff, From, To, Miles, Basis) :-
+    (   region_basis(From, To, Miles, Found)
+    ->  Basis = Found
+    ;   mileage_basis(Miles, Basis)
+    ).
+
+mileage_basis(Miles, Basis) :-
     (   partner_band(Band, Low, High),
         Miles >= Low,
         ( High == inf -> true ; Miles =< High )
@@ -210,10 +224,111 @@ earn_kernel:route_basis(qff, _From, _To, Miles, Basis) :-
         Basis = indeterminate(Why)
     ).
 
-earn_kernel:route_basis_edges(qff, Edges) :- band_edges(Edges).
+% Both endpoints inside one banded region -- Intra-USA Short Haul, and only up
+% to 750 miles. A longer intra-USA sector has no row here and falls through to
+% a named pair or to the global bands, which is what the published table does.
+region_basis(From, To, Miles, region_band(Region, Band, Label)) :-
+    region_pair_band(Region, Band, _, _),
+    in_region(From, Region),
+    in_region(To, Region),
+    Band = band(Low, High),
+    Miles >= Low, Miles =< High,
+    !,
+    region_label(Region, RegionLabel),
+    format(atom(Label), '~w, ~D to ~D miles', [RegionLabel, Low, High]).
+% A named pair. "Between X and Y" is symmetric, so both orders are tried.
+region_basis(From, To, _Miles, Basis) :-
+    candidate_pairs(From, To, Pairs),
+    Pairs \== [],
+    maplist(pair_rates, Pairs, RateSets),
+    sort(RateSets, Distinct),
+    (   Distinct = [_]
+    ->  Pairs = [Pair|_],
+        % Named the way the table names it -- group heading first, row second --
+        % rather than in the direction of travel, so an outbound sector and its
+        % return read as the one row they are.
+        published_order(Pair, RF-RT),
+        pair_name(RF, RT, Label),
+        Basis = region_pair(RF, RT, Label)
+    ;   % Two published rows could describe this sector and they disagree. Both
+        % are named rather than one being chosen, because choosing would be a
+        % guess wearing the same clothes as an answer.
+        findall(Name,
+                (   member(Pair, Pairs),
+                    published_order(Pair, RF-RT),
+                    pair_name(RF, RT, Name)
+                ),
+                Names0),
+        sort(Names0, Names),
+        atomic_list_concat(Names, '; ', List),
+        format(atom(Why),
+               'More than one row of the region table covers this sector and they do not agree: ~w.',
+               [List]),
+        Basis = indeterminate(Why)
+    ).
+
+published_order(RF-RT, Ordered) :-
+    (   region_pair(RF, RT, _, _)
+    ->  Ordered = RF-RT
+    ;   Ordered = RT-RF
+    ).
+
+pair_name(RF, RT, Name) :-
+    region_label(RF, LF),
+    region_label(RT, LT),
+    format(atom(Name), '~w and ~w', [LF, LT]).
+
+candidate_pairs(From, To, Pairs) :-
+    findall(RF-RT,
+            (   in_region(From, RF),
+                in_region(To, RT),
+                (   region_pair(RF, RT, _, _)
+                ;   region_pair(RT, RF, _, _)
+                )
+            ),
+            Pairs0),
+    sort(Pairs0, Pairs).
+
+% Every rate the pair publishes, so two candidate pairs can be compared as
+% wholes. Comparing one category would call two rows equal that differ in
+% another cabin.
+pair_rates(RF-RT, Rates) :-
+    earn_categories(Categories),
+    findall(Category-R,
+            (   member(Category, Categories),
+                (   region_pair(RF, RT, Category, R)
+                ->  true
+                ;   region_pair(RT, RF, Category, R)
+                )
+            ),
+            Rates).
+
+%! in_region(+Airport, ?Region) is nondet.
+%  Places are matched on place_key/2, so a region naming New York covers JFK,
+%  LGA, EWR and SWF -- which is what the published table means by a city, and
+%  the same folding 4(i) and 4(c) are written in.
+in_region(Airport, Region) :-
+    region_places(Region, Places),
+    place_key(Airport, Key),
+    memberchk(Key, Places).
+in_region(Airport, Region) :-
+    region_countries(Region, Countries),
+    airport_country(Airport, Country),
+    memberchk(Country, Countries).
+
+% Only a basis that read the distance has an edge to be near.
+earn_kernel:route_basis_edges(qff, mileage_band(_, _), Edges) :- band_edges(Edges).
+earn_kernel:route_basis_edges(qff, region_band(_, _, _), Edges) :- region_pair_edges(Edges).
 
 earn_kernel:accrual(qff, category(Category), mileage_band(Band, _), _Carrier, Rates) :-
     band_accrual(Band, Category, Rates).
+earn_kernel:accrual(qff, category(Category), region_band(Region, Band, _), _Carrier, Rates) :-
+    region_pair_band(Region, Band, Category, Rates).
+earn_kernel:accrual(qff, category(Category), region_pair(RF, RT, _), _Carrier, Rates) :-
+    (   region_pair(RF, RT, Category, Rates)
+    ->  true
+    ;   region_pair(RT, RF, Category, Rates)
+    ).
 
 % --- provenance -------------------------------------------------------------
 

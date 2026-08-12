@@ -26,6 +26,8 @@ const read = (name) => JSON.parse(fs.readFileSync(path.join(SOURCES, name), 'utf
 
 const categories = read('qff-categories.json');
 const bands = read('qff-bands.json');
+const regionDefs = read('qff-region-definitions.json');
+const regions = read('qff-regions.json');
 
 // The fare rule's sixteen eligible carriers, and nothing else. Qantas publishes
 // earn categories for airlines an Explorer fare may not be flown on at all --
@@ -223,6 +225,161 @@ ${bandRows.flatMap(({ key, band }) =>
 ).join('\n')}
 `;
 
+// --- the regions and the region-pair table ---------------------------------
+
+// Every label that appears as a group heading or a row heading in
+// qff-regions.json, against what it means. Most come straight from the
+// definitions page; the rest are a city or a country standing for itself, which
+// the page leaves undefined because it does not need defining.
+//
+// This is the repository's *third* geography taxonomy and it has to stay its own
+// table. Qantas splits West Coast from East Coast USA/Canada, which the fare
+// rule does not; it files Santiago, Dallas and Tel Aviv as regions of their own;
+// and its "Northern Africa" reaches Kenya, Uganda, Somalia and the Seychelles.
+// data/countries.pl already had to diverge from OurAirports' continent column
+// for the same kind of reason, and aliasing one of these tables to another would
+// invent violations or invent points.
+const NAMED = Object.fromEntries(
+  Object.entries(regionDefs.countryRegions).map(([key, r]) => [r.label, { key, countries: r.countries }])
+    .concat(Object.entries(regionDefs.cityRegions).map(([key, r]) =>
+      [r.label, { key, places: r.places.map((p) => p.toLowerCase()) }])));
+
+const union = (...keys) => keys.flatMap((k) => regionDefs.countryRegions[k].countries);
+
+const LABELS = {
+  ...NAMED,
+  // Australian gateways, which the earning table groups by city rather than by
+  // any region the definitions page names.
+  'Sydney, Melbourne, Brisbane, Gold Coast': { key: 'sydney_melbourne_brisbane_gold_coast', places: ['syd', 'mel', 'bne', 'ool'] },
+  Perth:    { key: 'perth',    places: ['per'] },
+  Adelaide: { key: 'adelaide', places: ['adl'] },
+  Cairns:   { key: 'cairns',   places: ['cns'] },
+  // Gulf gateways, once as a group and once each as a destination.
+  'Dubai, Doha, Muscat': { key: 'dubai_doha_muscat', places: ['dxb', 'doh', 'mct'] },
+  Dubai:  { key: 'dubai',  places: ['dxb'] },
+  Doha:   { key: 'doha',   places: ['doh'] },
+  Muscat: { key: 'muscat', places: ['mct'] },
+  'Tel Aviv': { key: 'tel_aviv', places: ['tlv'] },
+  Dallas: { key: 'dallas', places: ['dfw'] },
+  Santiago: { key: 'santiago', places: ['scl'] },
+  'Los Angeles': { key: 'los_angeles', places: ['lax'] },
+  'New York, Newark or Boston': { key: 'new_york_and_boston', places: ['nyc', 'bos'] },
+  // The one row that says "East Coast USA" rather than "East Coast USA/Canada".
+  // Read as the American members of that list: the difference is two Canadian
+  // cities, and widening a region invents earn where narrowing it only withholds
+  // it -- the same way round data/cities.pl decides a doubtful membership.
+  'East Coast USA': { key: 'east_coast_usa', places: ['bos', 'clt', 'chi', 'mia', 'nyc', 'mco', 'was'] },
+  // Countries standing for themselves.
+  'Hong Kong': { key: 'hong_kong', countries: ['HK'] },
+  Malaysia:    { key: 'malaysia',  countries: ['MY'] },
+  Thailand:    { key: 'thailand',  countries: ['TH'] },
+  Japan:       { key: 'japan',     countries: ['JP'] },
+  Singapore:   { key: 'singapore', countries: ['SG'] },
+  China:       { key: 'china',     countries: ['CN'] },
+  'Sri Lanka': { key: 'sri_lanka', countries: ['LK'] },
+  Fiji:        { key: 'fiji',      countries: ['FJ'] },
+  'New Zealand': { key: 'new_zealand', countries: ['NZ'] },
+  'New Zealand or Papua New Guinea': { key: 'new_zealand_or_papua_new_guinea', countries: ['NZ', 'PG'] },
+  'Hong Kong, Thailand and Japan': { key: 'hong_kong_thailand_japan', countries: ['HK', 'TH', 'JP'] },
+  'Southeast Asia or Northern Africa': { key: 'southeast_asia_or_northern_africa', countries: union('southeast_asia', 'northern_africa') },
+  // Both endpoints in the USA, and then banded on distance -- the one group in
+  // the region table that is itself a mileage table.
+  'Intra-USA Short Haul': { key: 'intra_usa', countries: ['US'] },
+};
+
+const BAND_ROWS = { 'Up to 400 miles': [1, 400], '401 to 750 miles': [401, 750] };
+
+function regionKey(label) {
+  const entry = LABELS[label];
+  if (!entry) throw new Error(`no region definition for "${label}"`);
+  return entry;
+}
+
+const usedRegions = new Map();
+const pairRows = [];
+const bandPairRows = [];
+const pairEdges = new Set();
+
+for (const group of regions.groups) {
+  const from = regionKey(group.from);
+  usedRegions.set(from.key, from);
+  for (const [rowLabel, row] of Object.entries(group.rows)) {
+    if (group.mileageBands) {
+      const [low, high] = BAND_ROWS[rowLabel];
+      pairEdges.add(high);
+      COLUMNS.forEach((column, i) => {
+        bandPairRows.push({ from: from.key, band: `band(${low}, ${high})`, column, row, i });
+      });
+      continue;
+    }
+    const to = regionKey(rowLabel);
+    usedRegions.set(to.key, to);
+    COLUMNS.forEach((column, i) => {
+      pairRows.push({ from: from.key, to: to.key, column, row, i });
+    });
+  }
+}
+
+const label = (entry) =>
+  Object.entries(LABELS).find(([, v]) => v.key === entry.key)[0];
+
+const regionsPl = `:- module(qff_regions,
+          [ region_places/2,
+            region_countries/2,
+            region_label/2,
+            region_pair/4,
+            region_pair_band/4,
+            region_pair_edges/1
+          ]).
+
+/** <module> Qantas Frequent Flyer regions and region pairs. GENERATED -- do not edit.
+
+    Built by prolog/tools/build_qff_tables.mjs from
+    data/earn/sources/qff-region-definitions.json and qff-regions.json, read
+    ${regions.fetched} from
+    ${regions.source}
+
+    The third geography taxonomy in this repository, and deliberately its own
+    table. Qantas splits West Coast from East Coast USA/Canada, which the fare
+    rule does not; it files Santiago, Dallas and Tel Aviv as regions of their
+    own; and its "Northern Africa" reaches Kenya, Uganda, Somalia and the
+    Seychelles. data/countries.pl already had to diverge from OurAirports'
+    continent column for the same kind of reason. A test asserts these stay
+    separate, so a later contributor cannot tidy up by aliasing one to another.
+
+    A region is a set of places, a set of countries, or both. Places are matched
+    on geo:place_key/2, so a region naming New York covers JFK, LGA, EWR and
+    SWF -- which is what the published table means by a city.
+*/
+
+%! region_places(?Region, ?Places) is nondet.
+${[...usedRegions.values()].filter((r) => r.places)
+  .map((r) => `region_places(${r.key}, [${r.places.join(', ')}]).`).join('\n')}
+
+%! region_countries(?Region, ?Countries) is nondet.
+${[...usedRegions.values()].filter((r) => r.countries)
+  .map((r) => `region_countries(${r.key}, [${r.countries.map((c) => `'${c}'`).join(', ')}]).`).join('\n')}
+
+%! region_label(?Region, ?Label) is nondet.
+${[...usedRegions.values()].map((r) => `region_label(${r.key}, ${quote(label(r))}).`).join('\n')}
+
+%! region_pair(?From, ?To, ?Category, ?Rates) is nondet.
+%  "Between X and Y", so the pair is symmetric and src/earn/qff.pl tries it
+%  both ways round rather than this file listing each row twice.
+${pairRows.map(({ from, to, column, row, i }) =>
+  `region_pair(${from}, ${to}, ${column},\n            [ rate(points, ${rate(row, 'points', i)}),\n              rate(status_credits, ${rate(row, 'credits', i)}) ]).`).join('\n')}
+
+%! region_pair_band(?Region, ?Band, ?Category, ?Rates) is nondet.
+%  Intra-USA Short Haul: a group of the region table that is itself banded on
+%  distance, with both endpoints in the one region. It is why route_basis/5
+%  returns an opaque basis rather than "a region pair, else a band".
+${bandPairRows.map(({ from, band, column, row, i }) =>
+  `region_pair_band(${from}, ${band}, ${column},\n                 [ rate(points, ${rate(row, 'points', i)}),\n                   rate(status_credits, ${rate(row, 'credits', i)}) ]).`).join('\n')}
+
+%! region_pair_edges(-Edges) is det.
+region_pair_edges([${[...pairEdges].sort((a, b) => a - b).join(', ')}]).
+`;
+
 const sourcePl = `:- module(qff_source, [qff_source/2, qff_note/1]).
 
 /** <module> Where the Qantas tables were read, and when. GENERATED -- do not edit.
@@ -235,6 +392,8 @@ const sourcePl = `:- module(qff_source, [qff_source/2, qff_note/1]).
 %! qff_source(?Table, ?Source) is nondet.
 qff_source(categories, source(${quote(categories.source)}, ${quote(categories.fetched)})).
 qff_source(bands,      source(${quote(bands.source)}, ${quote(bands.fetched)})).
+qff_source(regions,    source(${quote(regions.source)}, ${quote(regions.fetched)})).
+qff_source(region_definitions, source(${quote(regionDefs.source)}, ${quote(regionDefs.fetched)})).
 
 %! qff_note(?Note) is nondet.
 %  What a reader of these numbers has to be told alongside them.
@@ -250,6 +409,7 @@ fs.mkdirSync(OUT, { recursive: true });
 const written = [];
 for (const [name, text] of [['categories.pl', categoriesPl],
                             ['bands.pl', bandsPl],
+                            ['regions.pl', regionsPl],
                             ['source.pl', sourcePl]]) {
   const file = path.join(OUT, name);
   const before = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : null;
@@ -258,5 +418,6 @@ for (const [name, text] of [['categories.pl', categoriesPl],
 }
 
 console.log(`earn:qff — ${categoryRows.length} category rows over ${ELIGIBLE.length} carriers, ` +
-            `${bandRows.length} bands × ${COLUMNS.length} categories`);
+            `${bandRows.length} bands × ${COLUMNS.length} categories, ` +
+            `${pairRows.length / COLUMNS.length} region pairs over ${usedRegions.size} regions`);
 console.log(`earn:qff — ${written.join(', ')}`);

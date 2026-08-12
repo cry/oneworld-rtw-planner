@@ -31,6 +31,8 @@
 :- use_module('../../src/itinerary').
 :- use_module('../../src/io/json_in').
 :- use_module('../../data/limits').
+:- use_module('../../data/countries').
+:- use_module('../../data/earn/qff/regions').
 :- use_module(library(lists)).
 :- use_module(library(apply)).
 
@@ -98,20 +100,51 @@ well_formed_arg(Arg) :- number(Arg), !.
 well_formed_arg(Args) :- is_list(Args), !, forall(member(A, Args), well_formed(A)).
 well_formed_arg(Arg) :- well_formed(Arg).
 
-% A programme that bands or zones on distance has to say where its edges are, or
-% the near-a-boundary warning silently never fires and the one case a great
-% circle is not good enough for goes unreported.
-test(a_banding_programme_declares_its_edges) :-
-    forall(( known_program(Id), banded(Id) ),
-           (   route_basis_edges(Id, Edges),
-               assertion(Edges \== []),
+% A basis that bands or zones on distance has to say where its edges are, or the
+% near-a-boundary warning silently never fires and the one case a great circle
+% is not good enough for goes unreported. Asked per basis rather than per
+% programme, because a programme can price one sector off a distance and the
+% next off a pair of endpoints.
+test(a_banding_basis_declares_its_edges) :-
+    findall(Id-Name/Arity,
+            (   accrual(Id, _, Basis, _, _),
+                compound(Basis),
+                functor(Basis, Name, Arity),
+                sub_atom(Name, _, _, _, band),
+                functor(Probe, Name, Arity),
+                \+ route_basis_edges(Id, Probe, _)
+            ),
+            Missing0),
+    sort(Missing0, Missing),
+    assertion(Missing == []).
+
+test(declared_edges_are_sorted_distinct_numbers) :-
+    forall(route_basis_edges(_, _, Edges),
+           (   assertion(Edges \== []),
                assertion(forall(member(E, Edges), number(E))),
-               msort(Edges, Sorted),
+               sort(Edges, Sorted),
                assertion(Sorted == Edges)
            )).
 
-banded(Id) :- accrual(Id, _, Basis, _, _), compound(Basis), functor(Basis, F, _),
-              sub_atom(F, _, _, _, band), !.
+% The third and fourth geography taxonomies in this repository have to stay
+% their own tables. Qantas splits West Coast from East Coast USA/Canada, which
+% the fare rule does not, and files Kenya, Uganda and the Seychelles under
+% "Northern Africa". A contributor tidying up by aliasing one to another would
+% invent earn where the tables disagree, and they disagree a lot.
+test(the_earning_geography_is_not_the_fare_rules_geography) :-
+    region_countries(southeast_asia_or_northern_africa, Countries),
+    findall(Continent,
+            ( member(C, Countries), country_continent(C, Continent) ),
+            Continents0),
+    sort(Continents0, Continents),
+    % One Qantas earning region, spanning three of the fare rule's six
+    % continents: Asia, Africa, and the Europe/Middle East that Egypt, Libya,
+    % Morocco, Tunisia, Algeria and Sudan belong to under Rule 3015.
+    length(Continents, N),
+    assertion(N >= 3),
+    assertion(memberchk(asia, Continents)),
+    assertion(memberchk(africa, Continents)),
+    assertion(memberchk(europe_middle_east, Continents)).
 
 % --- the same assertions, run over an itinerary ----------------------------
 

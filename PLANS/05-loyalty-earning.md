@@ -123,6 +123,16 @@ the interface ends up shaped like Qantas.
 **2 — the Qantas region tables.** Categories, regions, the region-pair rows, the two band tables,
 the generator, the provenance facts.
 
+*Done.* One thing it changed in the interface, and it is the good kind: the near-a-boundary flag
+now asks the programme for the edges of the *basis* it resolved rather than of the programme, because
+a region pair never reads the distance and flagging it would send a reader to check a number that
+decided nothing. It also settled two labels the earlier phases had left open — a pair is named the
+way the table names it, group heading first, so an outbound sector and its return read as the one row
+they are; and Malaysia's and SriLankan's route-scoped categories turned out **not** to be decidable
+from these tables after all. They are scoped to "Australia", "the UK" and "the Middle East", which
+the earning-table region page does not define, so they stay undecided rather than becoming a fifth
+geography invented rather than read.
+
 **3 — Cathay, CX metal only.** Zones qualified by distance *and* endpoint, buckets over cabin and
 family, and the range answer when no family is declared. **This phase is the interface's audit:**
 any kernel change it forces is a phase 1 design miss and gets said out loud in the commit rather
