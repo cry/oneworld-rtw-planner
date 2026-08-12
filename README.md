@@ -151,19 +151,46 @@ is not a great-circle distance; everywhere except near an edge the two agree wel
 a band, and near an edge is exactly where a good-enough answer stops being good enough. The edges are
 asked for per *basis*, so a region pair — which never looked at the distance — is never flagged.
 
+**Two earning models can live in one programme.** Asia Miles covers Cathay and 25 partners, and the
+two halves work differently enough that reading one against the other returns a plausible number
+from the wrong row. Cathay's own flights earn fixed Status Points per distance zone and Asia Miles at
+exactly a hundred times the points; every partner earns fixed points per zone and Asia Miles as a
+*percentage of the distance flown*, off a band set with one more boundary in it, at 3,700 miles. So
+`HKG-SYD` in `J` on `QF` is 60 Status Points and 5,740 Asia Miles — not the 6,000 the Cathay rule
+would give. The scheme travels on the airline and is an argument to every zone fact rather than an
+assumption anywhere, and it is the reason an accrual returns `fixed(70)` or `pct(125)` instead of a
+number.
+
+**The marketing carrier picks the table and the operator picks the card.** A `QF` flight number flown
+on an Emirates aircraft reads the `QF` rows. A `CX` flight number is priced twice over: on Cathay
+metal Economy splits into Flex, Essential and Light, and on a partner's it earns the Codeshare card
+instead — which Premium Economy, Business and First do not have at all, so a codeshare in a premium
+cabin is unknown here rather than quietly priced off the Cathay-operated figure. A Cathay flight
+number with no operator named cannot be answered, because those two rates are what it is between.
+
 **Where the input cannot say which of several rates applies, the answer is the spread.** Cathay
 lists the same economy booking classes — `Y,B,H,K`, then `M,L,V`, then `S,N,Q,O` — under Flex,
 Essential *and* Light with different earn against each, so a ticket in `K` has genuinely bought one
 of three things and the class cannot tell them apart. Give a `fareFamily` and the answer is a number;
-leave it out and it is `18 to 35 Status Points`, with the register saying why. Never a midpoint: no
+leave it out and it is `40 to 70 Status Points`, with the register saying why. Never a midpoint: no
 combination of the traveller's actual fares can produce one.
 
-It is a narrower problem than the grid makes it look. Outside Economy the class picks the family out
-on its own, and inside it `Y` is full-fare and therefore the flexible fare whatever the grid lists it
-under. That last one is the only place in either programme where a fact that is not on the published
+It is a narrower problem than the grid makes it look, and it is Cathay's own Economy alone: no
+partner publishes a fare brand, so a family left set in a picker is quietly irrelevant there rather
+than an error. Within that Economy, `Y` is full-fare and therefore the flexible fare whatever the
+grid lists it under. That is the only place in either programme where a fact not on the published
 page decides an answer, so it is a predicate of its own — `cx_class_settled/3` — and the register
 prints its reason instead of claiming the table said so. `B`, `H` and `K` are not settled that way
 and stay a range.
+
+**A band nobody sampled is not a zero, and a real zero is not a gap.** The partner tables are the
+calculator's own responses to 26,780 queries over 1,752 city pairs, sampled 23 to 90 pairs per
+airline rather than enumerated, so 118 of the 942 cells were never seen. Those carry no Status Points
+rate at all and reach the reader as `an unknown number of Status Points` beside a mileage figure that
+*is* known, since the miles come off the distance rather than off the band. Nine carriers — exactly
+the non-oneworld partners — earn a measured zero everywhere, which prints as the `0` it is. Where the
+two meet, the zone label says which: `Zone 1 (1-750 miles) — Air New Zealand was sampled in zones 5
+only, so this band was never observed`.
 
 **An itinerary that names a cabin has said more than it looks like it has.** Section 5(b) publishes
 the class an Explorer fare books into, so a sector with no `bookingClass` is priced off the fare's
@@ -372,7 +399,7 @@ npm run css                # or just the stylesheet
 npm run map                # or just the map bundle
 npm run wasm               # or just the WebAssembly pair
 npm run earn:qff           # or just the Qantas earning tables
-npm run earn:cx            # or just the Cathay earning tables
+npm run earn:cx            # or just the Asia Miles earning tables
 npm run css:watch          # leave running while working on styles
 npm run check:contrast     # WCAG check over the palette, no browser needed
 npm run test:wasm          # the browser build answers what the native one answers
@@ -726,8 +753,9 @@ no intermediate point to describe.
 operator unknown rather than assuming there is no codeshare.
 
 `bookingClass` is the single RBD letter the segment is sold in, and it is what rule 5(b) reads.
-`fareFamily` is the carrier's branded fare — Cathay's `flex`, `essential` or `light` — which no fare
-rule reads at all and which one loyalty programme cannot price a sector without. Both are optional
+`fareFamily` is the carrier's branded fare — Cathay's `flex`, `essential` or `light`, which are the
+only fare brands either programme prices — read by no fare rule at all, and the thing Cathay's own
+Economy cannot be priced to a single number without. Both are optional
 and neither affects any other rule. A missing `bookingClass` is *not* filled in for rule 5(b), which
 checks the class that was booked and would otherwise report a pass it never checked; only the earning
 side reads the tariff to fill the gap, and only because an estimate may.
@@ -917,8 +945,9 @@ Nine suites, in descending value, plus a tenth that needs node as well and runs 
    moves. Also the great-circle distance against four known city pairs; that a sector near a band edge
    is flagged while one in the middle of a band is not; that HKG-NRT and HKG-SIN fall in different
    Cathay zones despite sitting in the same mileage band, which is the one place a distance is not
-   enough; and that Asia Miles are exactly a hundred Status Points in every row of the table, since
-   the day that stops being true is far likelier to be the day a row was mistranscribed.
+   enough; and that Asia Miles are exactly a hundred Status Points on every Cathay row and on no
+   partner row — both halves, because the first version of that capture stated the relationship as a
+   general invariant and recommended it as a checksum, which was wrong.
 
 ```sh
 npm run test:wasm
@@ -994,15 +1023,18 @@ decidable; nothing else would.
 Not part of Rule 3015 at all, and a separate operation for that reason — see
 [What it earns](#what-it-earns) and [`PLANS/05-loyalty-earning.md`](PLANS/05-loyalty-earning.md).
 Two programmes are registered. Qantas Frequent Flyer is priced off both its published tables — its
-own for Qantas-marketed sectors, the partner one for everything else — with its status bonus applied;
-Cathay off its distance zones, for Cathay-marketed flights only. Effective dating, Cathay's partner
-earn and Cathay's tiers are what is left, and the tables that have not been captured are listed in
+own for Qantas-marketed sectors, the partner one for everything else — with its status bonus applied.
+Asia Miles covers Cathay and its 25 partners off two different models: Cathay's own flights from a
+table of fixed amounts, every partner as a percentage of the distance flown. Effective dating and
+Cathay's tiers are what is left, and the tables that have not been captured are listed in
 [`prolog/data/earn/sources/README.md`](prolog/data/earn/sources/README.md).
 
 Deliberately out of scope in both programmes: award bookings, which earn nothing; Qantas Loyalty
-Bonus, Points Club and lifetime credits; Cathay's non-oneworld partners; miles from anything that is
-not a flight; and any ranking of one programme against another, since a mile and a Status Point are
-not commensurable without a valuation and a valuation is an opinion.
+Bonus, Points Club and lifetime credits; miles from anything that is not a flight; and any ranking of
+one programme against another, since a mile and a Status Point are not commensurable without a
+valuation and a valuation is an opinion. Nine of Asia Miles' partners are outside oneworld and so
+cannot appear on an Explorer fare at all; they are priced anyway, because the table publishes them
+and leaving rows out of a transcription is how a transcription stops being one.
 
 There is deliberately no "too many continents" rule: the fare table stops at six and the continent
 list has exactly six members, so it could never fire. What it would have been reaching for — that

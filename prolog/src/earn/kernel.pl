@@ -47,9 +47,9 @@
     Four properties hold it together, and all four have to be preserved.
 
     *A bucket is opaque.* Qantas binds category(business); Cathay binds
-    bucket(business, flex). The kernel only ever hands a bucket back to the same
-    programme's accrual/5, so a programme whose bucket comes from somewhere this
-    file has never heard of needs no change here.
+    fare(qf, business, business, cdij). The kernel only ever hands a bucket back
+    to the same programme's accrual/5, so a programme whose bucket comes from
+    somewhere this file has never heard of needs no change here.
 
     Like eligible/4, it is handed the whole annotated itinerary as well as the
     segment, because a bucket can turn on something the segment does not carry:
@@ -66,6 +66,11 @@
     needs the segment because it is a benefit of flying an airline rather than of
     holding a card. Guessing which facts a resolver will want is what went wrong;
     handing it the same two things every time is what stopped it.
+
+    It has since paid for itself once more without changing: American's Asia
+    Miles Business rate is 150% within one country and 125% between two, which is
+    a fact about the sector rather than about the fare, and route_basis/5 carried
+    it into the accrual because it had the segment to read it off.
 
     *An accrual returns an expression, not a number.* See src/earn/expr.pl:
     fixed rates and proportional ones then share one path, which Cathay needs
@@ -248,9 +253,8 @@ bounded_step(Id, A, S, Miles, Buckets, BucketBasis, Assumption, Row) :-
         ( Bases = [OneBasis] -> Basis = OneBasis ; listed(Bases, Basis) ),
         % Candidates that all price the same are not an assumption the reader
         % has to carry: the input did not settle which bucket applied and it
-        % made no difference. Cathay's Business "Essential, Light" row is
-        % exactly that, and saying "they earn differently" over it would be
-        % false as well as noisy.
+        % made no difference. Saying "they earn differently" over a pair that
+        % does not would be false as well as noisy.
         (   spread(Amounts)
         ->  Told = Assumption
         ;   Told = null
