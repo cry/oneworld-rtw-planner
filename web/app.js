@@ -483,10 +483,13 @@ function renderReport(data, body) {
   const nc = data.notChecked || [];
   const checks = data.checks || [];
   const look = VERDICT[data.verdict] || VERDICT.indeterminate;
-  const counts = tally(v);
+  // The one place the clean outcome is written, now that it is not also said
+  // below the verdict. A live region should read out what the page shows, so
+  // both take the same string.
+  const counts = tally(v) || 'Every rule this input can answer is satisfied.';
 
   markFresh();
-  announce(`${data.verdict}. ${counts || 'No rule was broken.'}` +
+  announce(`${data.verdict}. ${counts}` +
            (nc.length ? ` ${nc.length} rule${nc.length === 1 ? '' : 's'} not checked.` : '') +
            (checks.length ? ` ${checks.length} rules evaluated.` : ''));
 
@@ -494,9 +497,7 @@ function renderReport(data, body) {
     <div class="settle">
       <div class="border-b border-rule ${look.wash} p-4">
         <p class="verdict-word ${look.text}">${esc(data.verdict)}</p>
-        <p class="mt-1.5 text-[12.5px] ${counts ? look.text : 'text-muted'}">
-          ${counts ? esc(counts) : 'Every rule this input can answer is satisfied.'}
-        </p>
+        <p class="mt-1.5 text-[12.5px] ${v.length ? look.text : 'text-muted'}">${esc(counts)}</p>
       </div>
 
       ${fareBlock(fare, ann)}
@@ -616,8 +617,8 @@ function earnGroups(segments) {
 // basis is read off the fare, which is one fare for the whole ticket, so it says
 // the same thing on every priced row, and an assumption drawn from it repeats
 // with it. Six copies of one sentence is not six facts, and it crowds out the
-// figures a reader came for. Anything printed twice is printed once at the foot
-// of the card instead, numbered in the order it first appears.
+// figures a reader came for. Anything printed twice is printed once under the
+// table instead, numbered in the order it first appears.
 //
 // Only what is actually rendered is counted. Sectors that could not be priced
 // are already grouped by their reason, and a group prints its leader's prose
@@ -715,24 +716,25 @@ function earnProgram(p) {
       ${tierPicker}
       ${detail ? `
         <div class="scroll-x mt-1.5">${earnRows(p, groups, notes)}</div>
+        <!-- The numbered notes stay open and stay next to the table, because the
+             rows above point up at them: a marker whose text is behind a click
+             is a figure the reader cannot finish reading. Hoisting them off the
+             rows was about printing one sentence once, not about hiding it. -->
+        ${notes.size ? `
+          <ol class="mt-1.5 list-none space-y-0.5 text-[11.5px] leading-[1.6] text-muted">
+            ${[...notes].map(([text, n]) => `<li class="-indent-3 pl-3"><sup class="mr-0.5 text-[9px]">${n}</sup>${esc(text)}</li>`).join('')}
+          </ol>` : ''}
         <!-- The first note is the one that must never be a click away: it says
              the figure is an estimate. The rest is provenance -- which tables,
              read when, and what they do not cover -- which a reader wants when
-             checking a number and not while reading one. The numbered notes are
-             provenance too, of the narrower kind: where one figure came from
-             rather than where the whole table did, so they sit in the same place
-             and above it, since the rows above point at them by number. -->
+             checking a number and not while reading one. -->
         <p class="mt-2 text-[11.5px] leading-[1.6] text-muted">${esc(p.notes[0] || '')}</p>
-        ${p.notes.length > 1 || p.sources.length || notes.size ? `
+        ${p.notes.length > 1 || p.sources.length ? `
           <details class="group/src mt-1">
             <summary class="label cursor-pointer select-none text-[10.5px]">
               <span class="mono inline-block w-3 transition-transform duration-150 group-open/src:rotate-90">&rsaquo;</span>
               Where these came from
             </summary>
-            ${notes.size ? `
-              <ol class="mt-1 list-none space-y-0.5 text-[11.5px] leading-[1.6] text-muted">
-                ${[...notes].map(([text, n]) => `<li class="-indent-3 pl-3"><sup class="mr-0.5 text-[9px]">${n}</sup>${esc(text)}</li>`).join('')}
-              </ol>` : ''}
             <p class="mt-1 text-[11.5px] leading-[1.6] text-muted">
               ${p.notes.slice(1).map(esc).join(' ')}
               ${p.sources.map(x => `The <a class="underline underline-offset-2" href="${esc(x.url)}" rel="noreferrer">${esc(x.table.replace(/_/g, ' '))} table</a> was read ${esc(x.fetched)}.`).join(' ')}
@@ -869,10 +871,13 @@ function fareBlock(fare, ann) {
   </dl>`;
 }
 
+// The rules that were broken, and nothing when none were. A verdict of VALID is
+// derived from exactly this list being empty -- verdict_of/2 has no other way to
+// reach it -- so a line here saying so restated the word above it in smaller
+// type. What a reader wants instead when the list is empty is the check
+// register, which says what was measured rather than what was not found.
 function violationList(v) {
-  if (!v.length) {
-    return `<p class="border-t border-rule px-4 py-3 text-[13px] text-muted">No rule was broken.</p>`;
-  }
+  if (!v.length) return '';
   return `<ul class="border-t border-rule">${v.map(x => {
     const look = SEV[x.severity] || SEV.error;
     // Citation, severity and rule id share one wrapping row above the message
@@ -910,11 +915,11 @@ function mapBlock(ann) {
           </div>`;
 }
 
-// What every rule measured, not just the ones that were broken. "No rule was
-// broken" is a claim about coverage a reader has no way to audit, and the
-// number a cap was cleared by is the thing a fare-construction tool is actually
-// asked. Collapsed by default because it is four times the length of the
-// verdict it supports.
+// What every rule measured, not just the ones that were broken. "Every rule this
+// input can answer is satisfied" is a claim about coverage a reader has no way to
+// audit from the verdict alone, and the number a cap was cleared by is the thing
+// a fare-construction tool is actually asked. Collapsed by default because it is
+// four times the length of the verdict it supports.
 function checkList(checks, violations) {
   if (!checks.length) {
     return violations.some(x => x.rule === 'input_error')
