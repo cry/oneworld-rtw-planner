@@ -310,6 +310,78 @@
   }
 }
 
+/* A masthead control, set to sit beside the colour-scheme switcher as a peer
+ * rather than above or below it: same border, same small caps, same height. */
+@utility chip {
+  @apply inline-flex cursor-pointer items-center rounded-xs border border-rule px-1.5 py-0.5
+         text-[10px] font-semibold uppercase tracking-[0.07em] text-muted
+         transition-colors duration-150;
+  font-stretch: 86%;
+  &:hover {
+    @apply border-rule-strong bg-sunken text-ink;
+  }
+}
+
+/* The one modal on the page, and it earns the exception: it explains the page
+ * rather than being part of it, so it has no place in the reading order, and a
+ * reader who opens it has nothing else to do until they are done.
+ *
+ * A native <dialog>, so the browser supplies the parts that are usually written
+ * badly by hand -- the rest of the page goes inert, Escape closes, focus returns
+ * to whatever opened it, and ::backdrop is a real element to style.
+ *
+ * Sized to the text rather than the viewport: prose is capped near 68ch inside,
+ * and the box stops short of the window edge on both axes so the whole of it is
+ * always reachable. It is a column with a scrolling middle rather than one
+ * scrolling box, so the title and the two ways out stay on screen however far
+ * down the reader is -- a modal whose only exit has scrolled away is the reason
+ * modals have their reputation. */
+.help-dialog {
+  /* The UA centres a modal dialog with margin:auto against its inset-0 box, and
+   * preflight's `margin: 0` on everything takes that away. Putting it back is
+   * the whole of the positioning. */
+  margin: auto;
+  width: min(50rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 4rem);
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid var(--color-rule-strong);
+  border-radius: var(--radius-sm);
+  background: var(--color-panel);
+  color: var(--color-ink);
+}
+
+.help-dialog[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.help-body {
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.help-dialog::backdrop {
+  background: color-mix(in oklch, var(--color-canvas) 65%, transparent);
+  backdrop-filter: blur(2px);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .help-dialog[open] {
+    animation: settle 160ms var(--ease-out-quart) both;
+  }
+
+  .help-dialog[open]::backdrop {
+    animation: fade 160ms var(--ease-out-quart) both;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+
 /* --- filling a column ------------------------------------------------------
  *
  * The spreadsheet gesture: the focused cell carries a small square at the corner
