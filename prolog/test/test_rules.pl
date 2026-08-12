@@ -374,6 +374,52 @@ test(a_lower_class_code_is_flagged_not_refused) :-
     fixture_check(mut_booking_code_lower, booking_code, check(_, _, _, Outcome, _)),
     assertion(Outcome == warning).
 
+% A reason that covers six sectors is one fact. Reported once per segment it
+% buried whatever else the report had to say, and made one thing gone wrong
+% read as six -- which is the reasoning marketing_carrier_missing already gave
+% and the rest of the rules had not followed.
+%
+% Grouped by the *case*, not by the sentence: two sectors under one permission
+% are one warning, and two sectors under different permissions stay two.
+test(one_warning_per_case_not_per_segment) :-
+    itinerary_from_json(
+        _{ cabin: "business", mode: "routing",
+           segments: [ _{from: "LHR", to: "JFK", carrier: "BA", bookingClass: "L", stop: "stopover"},
+                       _{from: "JFK", to: "LAX", carrier: "AA", bookingClass: "H", stop: "stopover"},
+                       _{from: "LAX", to: "NRT", carrier: "JL", bookingClass: "L", stop: "stopover"},
+                       _{from: "NRT", to: "HKG", carrier: "CX", bookingClass: "K", stop: "stopover"},
+                       _{from: "HKG", to: "BKK", carrier: "CX", bookingClass: "Z", stop: "stopover"},
+                       _{from: "BKK", to: "LHR", carrier: "QR", bookingClass: "B"} ] },
+        Itin),
+    validate(Itin, report(_, Violations, _, _, _)),
+    % Two sectors in a lower cabin's code, two under the DONE alternate: two
+    % warnings, not four. And two sectors in a code the table does not name at
+    % all: one error, not two.
+    findall(V, member(v(booking_code_conditional, _, _, _, V), Violations), Flagged),
+    assertion(length(Flagged, 2)),
+    findall(V, member(v(booking_code, _, _, _, V), Violations), Wrong),
+    assertion(length(Wrong, 1)),
+    memberchk(v(booking_code, _, _, _, Ev), Violations),
+    memberchk(segments([4, 5]), Ev).
+
+% The same convention over 4(j): grouped by the carrier, because four sectors
+% on one ineligible airline are one thing wrong with the ticket.
+test(one_error_per_carrier_not_per_segment) :-
+    itinerary_from_json(
+        _{ cabin: "business", mode: "routing",
+           segments: [ _{from: "LHR", to: "DXB", marketingCarrier: "EK", operatingCarrier: "EK", stop: "stopover"},
+                       _{from: "DXB", to: "SIN", marketingCarrier: "EK", operatingCarrier: "EK", stop: "stopover"},
+                       _{from: "SIN", to: "SYD", carrier: "QF", stop: "stopover"},
+                       _{from: "SYD", to: "LAX", carrier: "QF", stop: "stopover"},
+                       _{from: "LAX", to: "LHR", carrier: "BA"} ] },
+        Itin),
+    validate(Itin, report(_, Violations, _, _, _)),
+    findall(Ev, member(v(carrier_not_eligible, _, _, _, Ev), Violations), Errors),
+    assertion(length(Errors, 1)),
+    Errors = [Ev],
+    memberchk(segments([1, 2]), Ev),
+    memberchk(carrier('EK'), Ev).
+
 :- end_tests(warnings).
 
 % --- undecidable input -----------------------------------------------------

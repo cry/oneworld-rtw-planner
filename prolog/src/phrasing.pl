@@ -1,5 +1,5 @@
 :- module(phrasing, [plural/3, agree/4, quantity/3, article/3,
-                     listed/2, listed_and/2, segments_phrase/2]).
+                     listed/2, listed_and/2, segments_phrase/2, segments_phrase/3]).
 
 /** <module> The small amount of English every rule module needs.
 
@@ -74,8 +74,16 @@ listed_and(Items, Atom) :-
 
 %! segments_phrase(+Numbers, -Atom) is det.
 %  "segment 4", "segments 4 and 9".
-segments_phrase(Ns, Atom) :-
+segments_phrase(Ns, Atom) :- segments_phrase(Ns, lower, Atom).
+
+%! segments_phrase(+Numbers, +Case, -Atom) is det.
+%  Case is `lower` or `upper`, for whether the phrase begins a sentence. A
+%  message that opens with the segments it is about wants the second, and
+%  enough of them do now that capitalising by hand at each one had started to
+%  go wrong.
+segments_phrase(Ns, Case, Atom) :-
     length(Ns, Count),
-    plural(Count, 'segment', Word),
+    ( Case == upper -> Stem = 'Segment' ; Stem = 'segment' ),
+    plural(Count, Stem, Word),
     listed_and(Ns, List),
     format(atom(Atom), '~w ~w', [Word, List]).

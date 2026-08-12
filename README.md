@@ -221,6 +221,12 @@ continents spelled the way a person says them rather than the way the table keys
 of those names so the page never has to guess at one or wait for a second request before it can
 render the first report.
 
+A violation covers a case, not a segment. Four sectors on one ineligible airline are one thing wrong
+with the ticket; six sectors sold in a code 5(b) permits only conditionally are one permission being
+leaned on. Reported one per segment they buried whatever else the report had to say, so each rule
+groups by the fact — the carrier, the codeshare pair, the case that permits the code — and two
+different facts stay two violations. The evidence carries every segment number either way.
+
 A check clause states the measurement and nothing else. Its outcome — `ok`, `failed`, `flagged`,
 `undecided`, `not run`, `n/a` — is derived by the driver from the violations the same run produced,
 so the register cannot contradict the verdict above it, and a rule cannot be marked satisfied by

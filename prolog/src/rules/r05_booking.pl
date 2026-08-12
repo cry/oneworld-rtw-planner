@@ -85,7 +85,7 @@ applicable(Carrier, _, economy, Class) :-
 %! conditional(+S, +Carrier, +Scope, +Cabin, +Class, -Reason) is nondet.
 %  A code the notes to 5(b) permit, but only where something about the flight
 %  is true that an itinerary cannot show.
-conditional(_, Carrier, Scope, Cabin, Class, Reason) :-
+conditional(_, Carrier, Scope, Cabin, Class, lower_class-Reason) :-
     lower_column(Cabin, Column),
     booking_code(Carrier, Scope, Column, Class),
     column_cabin_word(Column, Lower),
@@ -94,13 +94,13 @@ conditional(_, Carrier, Scope, Cabin, Class, Reason) :-
     format(atom(Reason),
            'it is the ~w code, which ~w fare may use only where ~w is not offered or not available on that flight',
            [Lower, Fare, Word]).
-conditional(_, Carrier, _, business, Class, Reason) :-
+% Carrier-free, deliberately: it is the same permission whichever airline the
+% ticket is on, and naming one in the sentence would make two sectors under one
+% permission read as two different permissions.
+conditional(_, Carrier, _, business, Class, business_alternate-Reason) :-
     business_alternate_code(Carrier, Class),
-    iata(Carrier, U),
-    format(atom(Reason),
-           'section 5(b) lets a DONE Business fare book it on ~w in place of the applicable code',
-           [U]).
-conditional(_, _, _, first, Class, Reason) :-
+    Reason = 'section 5(b) lets a DONE Business fare book B, or H on AA, in place of the applicable code'.
+conditional(_, _, _, first, Class, first_alternate-Reason) :-
     first_alternate_code(Class),
     Reason = 'a First fare may book Y only where the applicable lower-class code is unavailable'.
 % The exception is written "for services within the Middle East", so it is a
@@ -108,7 +108,7 @@ conditional(_, _, _, first, Class, Reason) :-
 % Bangkok is not within the Middle East and A is not open to it. Both endpoints
 % have to be in the zone -- which is the same zone 4(c)(b) and the section 12
 % surcharge band are written in, and the reason geo.pl tracks it at all.
-conditional(S, Carrier, _, business, Class, Reason) :-
+conditional(S, Carrier, _, business, Class, middle_east-Reason) :-
     middle_east_business_code(Carrier, Class),
     S.from_zone == middle_east,
     S.to_zone == middle_east,
@@ -135,39 +135,84 @@ column_cabin_word(economy,        'Economy').
 
 % --- violations ------------------------------------------------------------
 
+% Aggregated, on the same reasoning marketing_carrier_missing gives in
+% r04_routing.pl: a fare sold in the wrong code on six sectors is one thing gone
+% wrong, and six near-identical sentences bury whatever else the report has to
+% say. One violation per distinct case, never one per segment.
 validate:violation(A, v(booking_code, '5(b)', error, Msg,
-                        [segments([N]), carrier(U), given(Given),
-                         expected(Expected)])) :-
-    classed_flight(A, S),
-    N = S.n,
-    row_for(S, Carrier, Scope),
-    Class = S.booking_class,
-    \+ applicable(Carrier, Scope, A.cabin, Class),
-    \+ conditional(S, Carrier, Scope, A.cabin, Class, _),
-    iata(Carrier, U),
-    upcase_atom(Class, Given),
-    expected_phrase(Carrier, Scope, A.cabin, Expected),
+                        [segments(Ns), sold(Sold), expected(Expected)])) :-
+    findall(N-Given-U-Exp,
+            (   classed_flight(A, S),
+                N = S.n,
+                row_for(S, Carrier, Scope),
+                Class = S.booking_class,
+                \+ applicable(Carrier, Scope, A.cabin, Class),
+                \+ conditional(S, Carrier, Scope, A.cabin, Class, _),
+                upcase_atom(Class, Given),
+                iata(Carrier, U),
+                expected_phrase(Carrier, Scope, A.cabin, Exp)
+            ),
+            Wrong),
+    Wrong \== [],
+    findall(N, member(N-_-_-_, Wrong), Ns),
+    sold_phrase(Wrong, Sold),
     cabin_word(A.cabin, Word),
-    article(Word, upper, Fare),
-    format(atom(Msg),
-           'Segment ~w is sold in ~w on ~w. ~w Explorer fare books into ~w; ~w is not a code section 5(b) names.',
-           [N, Given, U, Fare, Expected, Given]).
+    article(Word, lower, Fare),
+    (   Wrong = [_-_-_-Expected]
+    ->  segments_phrase(Ns, upper, Where),
+        format(atom(Msg),
+               '~w is sold in ~w. ~w Explorer fare books into ~w; section 5(b) does not name that code.',
+               [Where, Sold, Fare, Expected])
+    ;   Expected = 'the applicable code',
+        segments_phrase(Ns, upper, Where),
+        format(atom(Msg),
+               '~w are sold in ~w. Section 5(b) names none of those for ~w Explorer fare on those carriers.',
+               [Where, Sold, Fare])
+    ).
 
+% Grouped by the case that permits the code rather than by the sentence, so two
+% sectors under one permission are one warning and two sectors under different
+% permissions stay two.
 validate:violation(A, v(booking_code_conditional, '5(b)', warning, Msg,
-                        [segments([N]), carrier(U), given(Given),
-                         expected(Expected)])) :-
-    classed_flight(A, S),
-    N = S.n,
-    row_for(S, Carrier, Scope),
-    Class = S.booking_class,
-    \+ applicable(Carrier, Scope, A.cabin, Class),
-    once(conditional(S, Carrier, Scope, A.cabin, Class, Reason)),
-    iata(Carrier, U),
-    upcase_atom(Class, Given),
-    expected_phrase(Carrier, Scope, A.cabin, Expected),
+                        [segments(Ns), sold(Sold), allowed(Kind)])) :-
+    conditional_kind(Kind),
+    findall(N-Given-U,
+            (   classed_flight(A, S),
+                N = S.n,
+                row_for(S, Carrier, Scope),
+                Class = S.booking_class,
+                \+ applicable(Carrier, Scope, A.cabin, Class),
+                once(conditional(S, Carrier, Scope, A.cabin, Class, Kind-_)),
+                upcase_atom(Class, Given),
+                iata(Carrier, U)
+            ),
+            Hits),
+    Hits \== [],
+    once(( classed_flight(A, S0), row_for(S0, C0, Sc0), Class0 = S0.booking_class,
+           conditional(S0, C0, Sc0, A.cabin, Class0, Kind-Reason) )),
+    findall(N, member(N-_-_, Hits), Ns),
+    findall(N-G-U-none, member(N-G-U, Hits), Padded),
+    sold_phrase(Padded, Sold),
+    segments_phrase(Ns, upper, Where),
+    length(Ns, Count),
+    agree(Count, 'is', 'are', Is),
     format(atom(Msg),
-           'Segment ~w is sold in ~w on ~w rather than ~w. That is allowed: ~w. The fare for the highest class used applies.',
-           [N, Given, U, Expected, Reason]).
+           '~w ~w sold in ~w rather than the applicable code. That is allowed: ~w. The fare for the highest class used applies.',
+           [Where, Is, Sold, Reason]).
+
+conditional_kind(lower_class).
+conditional_kind(business_alternate).
+conditional_kind(first_alternate).
+conditional_kind(middle_east).
+
+% "H on AA", "H on AA and B on BA". The code and the carrier stay together
+% because either alone is not enough to look the row up.
+sold_phrase(Rows, Phrase) :-
+    findall(Item,
+            ( member(_-Given-U-_, Rows), format(atom(Item), '~w on ~w', [Given, U]) ),
+            Items0),
+    list_to_set(Items0, Items),
+    listed_and(Items, Phrase).
 
 % A class was given and the row it should be read against could not be found.
 % Reported once for the whole itinerary rather than per segment: the reason is
@@ -178,13 +223,12 @@ validate:violation(A, v(booking_code_unreadable, '5(b)', indeterminate, Msg,
     findall(N, ( classed_flight(A, S), \+ row_for(S, _, _), N = S.n ), Ns),
     Ns \== [],
     length(Ns, Count),
-    plural(Count, 'Segment', Word),
-    listed_and(Ns, List),
+    segments_phrase(Ns, upper, Where),
     agree(Count, 'states', 'state', States),
     agree(Count, 'names', 'name', Names),
     format(atom(Msg),
-           '~w ~w ~w a booked class but ~w no carrier section 5(b) publishes codes for, so the class cannot be checked.',
-           [Word, List, States, Names]).
+           '~w ~w a booked class but ~w no carrier section 5(b) publishes codes for, so the class cannot be checked.',
+           [Where, States, Names]).
 
 %! expected_phrase(+Carrier, +Scope, +Cabin, -Phrase) is det.
 %  The applicable code, written the way the table publishes it. Business has
