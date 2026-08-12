@@ -34,15 +34,16 @@
 
 :- use_module(library(apply)).
 :- use_module(library(lists)).
+:- use_module(library(yall)).
 
 %! rtw_call(+Op, +InText, -Status, -OutText) is det.
 %
 %  One operation per server endpoint, with the same names: `validate`, `routing`,
-%  `ruleset` and `airports`. InText and OutText are JSON text, and Status is the
-%  status the server would have replied with -- 200, 400 for input the caller can
-%  fix, 500 for a bug in a rule. Carrying the status rather than leaving the
-%  browser to infer failure from the shape of the body keeps the two front ends
-%  describing the same failure the same way.
+%  `ruleset`, `airports`, `earn` and `programs`. InText and OutText are JSON
+%  text, and Status is the status the server would have replied with -- 200, 400
+%  for input the caller can fix, 500 for a bug in a rule. Carrying the status
+%  rather than leaving the browser to infer failure from the shape of the body
+%  keeps the two front ends describing the same failure the same way.
 %
 %  Total, and deterministic: an operation that throws and an operation that
 %  merely fails both come back as a reply. A predicate that failed where it was
@@ -81,6 +82,22 @@ rtw_do(routing, In, _{ route: Route }) :-
 rtw_do(ruleset, _, Out) :-
     ruleset_json(Out).
 
+% The earning side, which runs no fare rules. Same two names the server uses.
+rtw_do(earn, In, Out) :-
+    input_dict(In, Dict),
+    (   get_dict(programs, Dict, List), is_list(List)
+    ->  maplist([V, P]>>atom_string(P, V), List, Asked)
+    ;   Asked = []
+    ),
+    resolve_programs(Asked, Programs),
+    itinerary_from_json(Dict, Itin),
+    annotate(Itin, A),
+    earn(A, Programs, Report),
+    earn_json(Report, Out).
+
+rtw_do(programs, _, Out) :-
+    programs_json(Out).
+
 rtw_do(airports, In, _{ query: Q, results: Results }) :-
     input_dict(In, Dict),
     (   get_dict(q, Dict, Q0), atom_string(Q, Q0)
@@ -96,7 +113,7 @@ rtw_do(airports, In, _{ query: Q, results: Results }) :-
     ).
 
 rtw_do(Op, _, _) :-
-    \+ memberchk(Op, [validate, routing, ruleset, airports]),
+    \+ memberchk(Op, [validate, routing, ruleset, airports, earn, programs]),
     format(atom(M), 'There is no "~w" operation.', [Op]),
     throw(input_error(M)).
 

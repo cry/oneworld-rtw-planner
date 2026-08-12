@@ -18,9 +18,10 @@ GitHub Pages. See [In the browser](#in-the-browser).
 SWI-Prolog 9 or later (`brew install swi-prolog`). No third-party packs — the HTTP server, CSV
 reader and plunit all ship with SWI. The airport table is committed, so a fresh clone runs offline.
 
-Node is needed only to rebuild the generated files under `web/` — the stylesheet, the map bundle and
-the WebAssembly pair — and only if you edit them: all are committed. Running, testing and deploying
-the validator never touch npm, and neither does the page once it is built. See [Web UI](#web-ui).
+Node is needed only to rebuild the generated files — the stylesheet, the map bundle, the WebAssembly
+pair and the loyalty earning tables — and only if you edit them: all are committed. Running, testing
+and deploying the validator never touch npm, and neither does the page once it is built. See
+[Web UI](#web-ui).
 
 ## Use
 
@@ -39,6 +40,9 @@ swipl prolog/cli.pl -- validate prolog/test/fixtures/lhr_classic.json --checks
 
 # check a routing with no dates at all
 swipl prolog/cli.pl -- route "NYC-BA-X/LON-QR-BKK//SIN-QF-SYD-QF-X/LAX-AA-NYC" --cabin business
+
+# what the same ticket would earn, in every registered loyalty programme
+swipl prolog/cli.pl -- earn prolog/test/fixtures/lhr_classes.json
 ```
 
 ### Routings
@@ -105,6 +109,47 @@ Not checked — 1 rule this input cannot answer:
   [7]          Return travel from the last stopover must commence within 12 months of departure, …
 Checks — 1 failed, 16 ok, 1 not run, 7 n/a. Re-run with --checks to list them.
 ```
+
+### What it earns
+
+A separate question, answered by a separate operation over the same annotated itinerary. It runs no
+fare rules — a journey that cannot be sold can still be priced for what it would earn, and one that
+is perfectly valid can be unpriceable.
+
+```
+$ swipl prolog/cli.pl -- earn prolog/test/fixtures/lhr_classes.json
+Qantas Frequent Flyer
+  25,500 Qantas Points, 660 Status Credits
+  [1]   LHR-JFK     ok         4,000 Qantas Points, 100 Status Credits
+                               Business (all flights) · 2,501 to 3,500 miles · 3,442 mi
+  [2]   JFK-LAX     ok         2,500 Qantas Points, 80 Status Credits
+                               Business (all flights) · 1,501 to 2,500 miles · 2,469 mi — within 1.5% of the 2,500-mile edge
+  …
+  These figures are an estimate. The airline's own calculator is authoritative.
+  bands table read 2026-08-11 from https://www.qantas.com/en-au/frequent-flyer/calculators/…
+```
+
+Every line says which category it resolved, from which row, which route basis priced it and how far
+the sector was measured to be — the earn register, and the counterpart of the check register above.
+It is on by default, unlike the check register, because a points figure carries an air of having
+been *calculated*, and this one was looked up in a table with no version, no clause numbers and no
+notice period. The fetch date follows the totals for the same reason.
+
+**A sector within 1.5% of a band edge says so.** What an airline bands on is ticketed mileage, which
+is not a great-circle distance; everywhere except near an edge the two agree well inside the width of
+a band, and near an edge is exactly where a good-enough answer stops being good enough.
+
+**Nothing that could not be priced is reported as zero.** A sector whose class was not given, whose
+operating carrier is unnamed, or whose category depends on a table that is not loaded, comes back
+`undecided`, and the journey total then reads "0 Qantas Points or more (5 sectors unpriced)" rather
+than a smaller number that looks complete. A rate a table publishes as a dash is a third thing again
+— "no Status Credits", which is a fact, not a gap.
+
+More than one programme can be asked at once, and the reply carries sub-totals per programme and
+**no ranking between them**: a mile and a Status Point are not commensurable without a valuation,
+valuations are opinions, and every number here traces to a row. See
+[`PLANS/05-loyalty-earning.md`](PLANS/05-loyalty-earning.md) for the design and what is still
+missing.
 
 ### What passed, and by how much
 
@@ -235,6 +280,7 @@ Nothing at runtime, and nothing in the Docker build, needs node.
 | `web/rtw.pvm` | every `.pl` under `prolog/`, via `prolog/wasm.pl` | `prolog/tools/build_image.mjs` |
 | `web/vendor/swipl-bundle-no-data.js` | the `swipl-wasm` package | copied verbatim |
 | `web/rtw.build.json` | a digest of the above two inputs | `prolog/tools/build_image.mjs` |
+| `prolog/data/earn/qff/*.pl` | the captures in `prolog/data/earn/sources/` | `prolog/tools/build_qff_tables.mjs` |
 
 ```sh
 npm install                # once
@@ -242,6 +288,7 @@ npm run build              # rebuild all four
 npm run css                # or just the stylesheet
 npm run map                # or just the map bundle
 npm run wasm               # or just the WebAssembly pair
+npm run earn:qff           # or just the Qantas earning tables
 npm run css:watch          # leave running while working on styles
 npm run check:contrast     # WCAG check over the palette, no browser needed
 npm run test:wasm          # the browser build answers what the native one answers
@@ -292,7 +339,7 @@ is reimplemented in JavaScript, and there is no second copy of a rule to fall ou
 first.
 
 ```
-web/app.js ──> RTWApi.{validate,routing,ruleset,airports}      web/api.js
+web/app.js ──> RTWApi.{validate,routing,earn,ruleset,programs,…}  web/api.js
                             │  postMessage
                             ▼
                       web/worker.js ──> vendor/swipl-bundle-no-data.js + rtw.pvm
@@ -305,8 +352,8 @@ web/app.js ──> RTWApi.{validate,routing,ruleset,airports}      web/api.js
 ```
 
 [`prolog/wasm.pl`](prolog/wasm.pl) is the counterpart of [`prolog/server.pl`](prolog/server.pl) — the
-same four operations under the same names, the same error mapping, the same status codes, and no rule
-logic in either. Both are renderers of one `report/3` term.
+same six operations under the same names, the same error mapping, the same status codes, and no rule
+logic in either. Both are renderers of the same terms.
 
 **It is one backend, not two.** The service still answers `/api/validate` and the rest for
 programmatic callers, but the page never calls them. A page that chose between a local and a remote
@@ -517,6 +564,8 @@ the server does deliberately, each of which was a production problem:
 |---|---|---|
 | `POST` | `/api/validate` | itinerary JSON in, report JSON out |
 | `POST` | `/api/routing` | itinerary JSON in, `{"route": …}` out — the same journey written as a routing, no rules run |
+| `POST` | `/api/earn` | itinerary plus `programs` in, points and status currency out, no rules run |
+| `GET` | `/api/programs` | the registered loyalty programmes, their currencies, and where each table was read |
 | `GET` | `/api/ruleset` | version, limits, free-segment caps, carriers, city codes, routing grammar, continents, fare-basis and surcharge tables |
 | `GET` | `/api/airports?q=&limit=` | typeahead over the airport table, accent-folded, with coordinates |
 | `GET` | `/api/health` | status and ruleset version |
@@ -527,7 +576,8 @@ Errors come back as `{"error": ..., "message": ...}`: `400 invalid_request` for 
 and 100 segments, and each validation runs under a 10-second limit — all three in
 [`prolog/data/limits.pl`](prolog/data/limits.pl) alongside the fare caps.
 
-`/api/ruleset` exists so a web UI never hardcodes rule data. Every validate response carries a
+`/api/ruleset` exists so a web UI never hardcodes rule data, and `/api/programs` is its counterpart
+on the earning side for the same reason: the page names no programme, no currency and no table. Every validate response carries a
 `checks` array — `{rule, citation, label, outcome, detail}` per rule measured, see
 [What passed, and by how much](#what-passed-and-by-how-much) — and an
 `annotations` object — the derived route, the collapsed continent and traffic-conference sequences,
@@ -717,7 +767,7 @@ than quietly dropping a city out of reach of the search.
 swipl -g run_tests -t halt prolog/test/run_tests.pl
 ```
 
-Seven suites, in descending value, plus an eighth that needs node as well and runs on its own:
+Nine suites, in descending value, plus a tenth that needs node as well and runs on its own:
 
 1. **Mutation tests** — each fixture is the golden itinerary with exactly one rule broken, asserting
    that exactly the expected rule ids fire. This catches false negatives and rules that over-fire on
@@ -748,16 +798,27 @@ Seven suites, in descending value, plus an eighth that needs node as well and ru
    size, segment and timeout guards, and the static assets: a stylesheet or map bundle that 404s
    leaves the UI degraded rather than failing loudly, and a font re-encoded on the way out arrives
    corrupt with no error raised, so it is compared byte for byte against what the server holds.
+8. **Earn conformance** — run over *every* registered loyalty programme, and the thing that makes
+   adding a third one cheap. No orphan rows and no unpriceable buckets; every declared currency
+   produced by some accrual and no accrual pricing a currency nobody declared; every rate an
+   expression the evaluator knows; surface sectors earning nothing; an unnamed operating carrier
+   undecided rather than zero in every programme and every currency; and asking for two programmes
+   at once matching asking for each on its own. Nothing in the file names a programme.
+9. **Earn numbers** — hand-computed values with the published row named in a comment above each, and
+   the same mutation idea as the rule suite: change one booking class and assert exactly one column
+   moves. Also the great-circle distance against four known city pairs, and that a sector 25 miles
+   inside a band edge is flagged while one in the middle of a band is not.
 
 ```sh
 npm run test:wasm
 ```
 
-8. **The two engines agree** — the page runs a different SWI-Prolog from the container (10.1.10
-   against 10.0.2), and no plunit test can see that. Every fixture is driven through `rtw_call/4` on
-   both and the **whole reply** compared field by field, not the verdict alone: message prose,
-   ordering and evidence included. All 57 agree. It needs both engines present, which is why it is a
-   node script rather than a unit.
+10. **The two engines agree** — the page runs a different SWI-Prolog from the container (10.1.10
+    against 10.0.2), and no plunit test can see that. Every fixture is driven through `rtw_call/4` on
+    both, for every operation that takes an itinerary, and the **whole reply** compared field by
+    field rather than the verdict alone: message prose, ordering and evidence included. 57 fixtures
+    × `validate` and `earn` — all 114 agree. It needs both engines present, which is why it is a node
+    script rather than a unit.
 
 `npm run check:contrast` is separate and does not need SWI: it scores every colour pair in the
 palette against WCAG 2.2, including the 3:1 minimum for the boundary of a control.
@@ -804,6 +865,20 @@ last week are the same value here. On a fare whose journey may run a full twelve
 live case, and the consequence is a full child fare bought retroactively for the whole trip, so an
 infant stated as 1 draws a warning rather than silence. Supplying a date of birth would make it
 decidable; nothing else would.
+
+### What the ticket earns
+
+Not part of Rule 3015 at all, and a separate operation for that reason — see
+[What it earns](#what-it-earns) and [`PLANS/05-loyalty-earning.md`](PLANS/05-loyalty-earning.md).
+Qantas Frequent Flyer is registered and priced off its published mileage bands; its region-pair
+table, Cathay, effective dating and tier bonuses are the phases still to come, and the two tables
+that have not been captured yet are listed in
+[`prolog/data/earn/sources/README.md`](prolog/data/earn/sources/README.md).
+
+Deliberately out of scope in both programmes: award bookings, which earn nothing; Qantas Loyalty
+Bonus, Points Club and lifetime credits; Cathay's non-oneworld partners; miles from anything that is
+not a flight; and any ranking of one programme against another, since a mile and a Status Point are
+not commensurable without a valuation and a valuation is an opinion.
 
 There is deliberately no "too many continents" rule: the fare table stops at six and the continent
 list has exactly six members, so it could never fire. What it would have been reaching for — that

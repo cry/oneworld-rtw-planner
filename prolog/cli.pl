@@ -28,15 +28,23 @@ main(Argv) :-
     catch(run(Argv, Code), Error, fatal(Error, Code)),
     halt(Code).
 
-run([validate, File|Opts], Code) :- !, cmd_validate(File, Opts, Code).
-run([route, Route|Opts], Code)   :- !, cmd_route(Route, Opts, Code).
-run([serve|Opts], Code)          :- !, cmd_serve(Opts, Code).
+run([validate, File|Opts], Code)       :- !, cmd_validate(File, Opts, Code).
+run([route, Route|Opts], Code)         :- !, cmd_route(Route, Opts, Code).
+run([earn, '--route', Route|Opts], C)  :- !, cmd_earn(_{ route: Route }, Opts, C).
+run([earn, File|Opts], Code)           :- !, read_json_file(File, D), cmd_earn(D, Opts, Code).
+run([serve|Opts], Code)                :- !, cmd_serve(Opts, Code).
 run(_, 2) :-
     route_help(Help),
+    earn_programs(Programs),
+    atomic_list_concat(Programs, ',', Ids),
     format(user_error,
            'usage: swipl prolog/cli.pl -- validate <itinerary.json> [--json] [--checks]~n', []),
     format(user_error,
            '       swipl prolog/cli.pl -- route <routing> [--cabin economy|business|first] [--json] [--checks]~n', []),
+    format(user_error,
+           '       swipl prolog/cli.pl -- earn <itinerary.json> [--programs ~w] [--json]~n', [Ids]),
+    format(user_error,
+           '       swipl prolog/cli.pl -- earn --route <routing> [--cabin business] [--programs ~w] [--json]~n', [Ids]),
     format(user_error,
            '       swipl prolog/cli.pl -- serve [--port 8080] [--dev]~n~n', []),
     format(user_error, '~w~n', [Help]).
@@ -57,6 +65,47 @@ cmd_route(Route, Opts, Code) :-
     ;   Dict = _{ route: Route }
     ),
     report_for(Dict, Opts, Code).
+
+% --- earn ------------------------------------------------------------------
+
+% A separate subcommand rather than a flag on validate, for the same reason
+% /api/routing is a separate endpoint: it answers a different question and runs
+% no fare rules. A journey that cannot be sold can still be priced for what it
+% would earn, and a journey that is perfectly valid can be unpriceable.
+cmd_earn(Dict0, Opts, Code) :-
+    (   append(_, ['--cabin', Cabin|_], Opts)
+    ->  Dict = Dict0.put(cabin, Cabin)
+    ;   Dict = Dict0
+    ),
+    asked_programs(Opts, Asked),
+    resolve_programs(Asked, Programs),
+    itinerary_from_json(Dict, Itin),
+    annotate(Itin, A),
+    earn(A, Programs, Report),
+    (   memberchk('--json', Opts)
+    ->  earn_json(Report, Json),
+        json_write_dict(current_output, Json, [width(96)]),
+        nl
+    ;   explain_earn(Report, current_output)
+    ),
+    earn_exit_code(Report, Code).
+
+asked_programs(Opts, Asked) :-
+    (   append(_, ['--programs', List|_], Opts)
+    ->  atomic_list_concat(Asked0, ',', List),
+        exclude(==(''), Asked0, Asked)
+    ;   Asked = []
+    ).
+
+% 1 where any sector could not be priced, matching what an indeterminate verdict
+% means for validate: the answer came back, and it is not the whole answer.
+earn_exit_code(Report, Code) :-
+    (   member(Program, Report.programs),
+        member(Total, Program.totals),
+        Total.lowerBound == true
+    ->  Code = 1
+    ;   Code = 0
+    ).
 
 report_for(Dict, Opts, Code) :-
     itinerary_from_json(Dict, Itin),
