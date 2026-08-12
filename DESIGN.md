@@ -343,9 +343,39 @@ round trip.
 
 **The answer is two columns on a wide screen**: the verdict, the rules, the map and the connections
 table on the left, earning on the right. Stacked, the scroll is the sum of both; beside, it is the
-taller of the two, and nothing had to be hidden to get there. The Segments tab keeps a single column,
-because the form takes half the width there and splitting what is left would give two columns too
-narrow for either.
+taller of the two, and nothing had to be hidden to get there. It keeps both sub-columns on the
+Segments tab too, at a lower viewport threshold, because the answer is wider there — it has the whole
+page rather than sharing it with the sidebar, so the width at which two readable columns fit differs
+by exactly the sidebar. Both are page layout, which is what viewport queries are for; neither panel
+cares how wide the other is.
+
+**The Segments tab takes the page, and the answer goes under it.** It used to widen the form to half
+the width, which was measured against the wrong thing: a seven-segment table wants 878px with no
+clock and 1,262px with dates and times, and half of a 1,680px page is 814px. The page was reflowing
+into two equal columns to hand the table a column it then scrolled inside anyway. Full width fits it
+at either setting with nothing to scroll, and it costs the answer nothing it was using.
+
+That is still a change of shape, so it is animated — but by the browser, not by hand. `show()` runs
+the class toggle inside `document.startViewTransition`, and the form, the report and the earning
+panel each carry a `view-transition-name`, which is what turns "three panels teleport" into "three
+panels travel". Only the named boxes animate: the root snapshot has its animation removed, because
+nothing outside them moves and cross-fading it only makes the text underneath shimmer. Neither at
+boot — a deep link into the Segments tab would animate from a layout that was never on screen — nor
+under `prefers-reduced-motion`, nor in a browser without the API, where the switch is simply instant.
+
+**A column fills down like a spreadsheet's.** A ticket is mostly one carrier, one booking class and
+one kind of connection repeated down a column, and typing that seven times is seven chances at a typo
+the validator will then faithfully report. The focused cell carries a handle; dragging it copies the
+value into the rows it crosses, and <kbd>Ctrl</kbd>+<kbd>D</kbd> does the same to the last segment,
+because a mouse-only gesture is no gesture at all for some readers.
+
+Two rules keep it honest. It is offered only on the columns that describe the *ticket* — carrier,
+class, fare family, kind of connection — and never on the ones that identify a *sector*: an airport,
+a flight number or a departure time filled down a column can only produce a journey nobody could fly,
+and a gesture whose only outcome is wrong data should not be offered. And it writes only where typing
+would be allowed, which it decides by reading the `disabled` attribute the markup already sets rather
+than keeping a second copy of the rule that a surface sector has no carrier and the last segment has
+no arrival to describe. A second copy is the one that goes out of date.
 
 **Earning is the only thing in the second column.** The connections table had a panel of its own
 there, which was a border and a heading spent on announcing that a table is a table. It is evidence

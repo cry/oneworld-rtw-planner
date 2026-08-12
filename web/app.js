@@ -156,7 +156,25 @@ let view = 'routing';
 
 const TABS = { routing: 'tab-routing', segments: 'tab-segments' };
 
-function show(next, { focus = false } = {}) {
+// Switching tabs relays out the page: the form goes from a sidebar to the full
+// width and the answer moves from beside it to under it. That is a real change
+// of shape and it is worth animating, but only the browser knows where every
+// panel ended up, so the work is handed to a view transition rather than to a
+// hand-written FLIP. Each panel that moves carries a view-transition-name, so
+// what the reader sees is three boxes travelling to their new places instead of
+// a page that blinks into a different arrangement.
+//
+// Not at boot -- a deep link into the Segments tab would animate from a layout
+// that was never on screen -- and not when the reader has asked for less motion.
+function show(next, opts = {}) {
+  if (!booted || !document.startViewTransition ||
+      matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return apply(next, opts);
+  }
+  document.startViewTransition(() => apply(next, opts));
+}
+
+function apply(next, { focus = false } = {}) {
   view = next;
   for (const [name, id] of Object.entries(TABS)) {
     const on = name === next;
@@ -167,14 +185,14 @@ function show(next, { focus = false } = {}) {
     if (on && focus) tab.focus();
   }
   // The Routing tab is one text field and belongs in a sidebar. The Segments tab
-  // is a thirteen-column table and does not, so the form takes half the width
-  // while it is open. Toggling a class rather than restyling in place keeps the
-  // two widths in the stylesheet where the rest of the layout lives.
+  // is a thirteen-column table that does not fit one -- it wants 1,262px with
+  // dates and times shown -- so it takes the page and the answer goes under it.
+  // Toggling a class rather than restyling in place keeps both arrangements in
+  // the stylesheet where the rest of the layout lives.
   $('layout').classList.toggle('wide-form', next === 'segments');
-  // The table is wider than its container and the browser keeps a scroll offset
-  // from while the panel was hidden, which lands the reader mid-table with the
-  // segment numbers off to the left. It only became visible once the class and
-  // fare columns pushed the table over the width, but it was always there.
+  // The table can still be wider than its container on a narrow screen, and the
+  // browser keeps a scroll offset from while the panel was hidden, which lands
+  // the reader mid-table with the segment numbers off to the left.
   if (next === 'segments') {
     const box = document.querySelector('#panel-segments .scroll-x');
     if (box) box.scrollLeft = 0;
@@ -243,11 +261,11 @@ function render() {
 
     tr.innerHTML = `
       <td class="mono py-1 pr-1 text-[11px] text-muted">${i + 1}</td>
-      <td class="py-1 pr-2">
-        <select class="field-select w-[5.9rem]" data-f="type" name="type-${i}" aria-label="Segment ${i + 1} type">
+      <td class="py-1 pr-2"><span class="fillable"
+        ><select class="field-select w-[5.9rem]" data-f="type" name="type-${i}" aria-label="Segment ${i + 1} type">
           <option value="flight"${surface ? '' : ' selected'}>flight</option>
           <option value="surface"${surface ? ' selected' : ''}>surface</option>
-        </select></td>
+        </select></span></td>
       <td class="py-1 pr-2">
         <input class="code-input w-[5.4rem]" data-f="from" name="from-${i}" value="${esc(r.from)}"
                list="dl-${i}-from" autocomplete="off" aria-label="Segment ${i + 1} from">
@@ -256,30 +274,30 @@ function render() {
         <input class="code-input w-[5.4rem]" data-f="to" name="to-${i}" value="${esc(r.to)}"
                list="dl-${i}-to" autocomplete="off" aria-label="Segment ${i + 1} to">
         <datalist id="dl-${i}-to"></datalist></td>
-      <td class="py-1 pr-2">
-        <select class="field-select w-[8.4rem]" data-f="stop" name="stop-${i}" aria-label="Stop at arrival of segment ${i + 1}"
+      <td class="py-1 pr-2"><span class="fillable"
+        ><select class="field-select w-[8.4rem]" data-f="stop" name="stop-${i}" aria-label="Stop at arrival of segment ${i + 1}"
           ${last ? 'disabled title="The last segment ends the journey, so there is no intermediate point to describe."' : ''}>
           ${opt('', last ? '—' : (timesGiven() ? 'from times' : 'not stated'))}
           ${opt('transfer', 'transfer')}
           ${opt('stopover', 'stopover')}
-        </select></td>
-      <td class="py-1 pr-2">
-        <input class="code-input w-[4rem]" data-f="marketing" name="marketing-${i}" value="${esc(r.marketing)}" ${off}
-               aria-label="Segment ${i + 1} marketing carrier"></td>
-      <td class="py-1 pr-2">
-        <input class="code-input w-[4rem]" data-f="operating" name="operating-${i}" value="${esc(r.operating)}" ${off}
-               aria-label="Segment ${i + 1} operating carrier"></td>
+        </select></span></td>
+      <td class="py-1 pr-2"><span class="fillable"
+        ><input class="code-input w-[4rem]" data-f="marketing" name="marketing-${i}" value="${esc(r.marketing)}" ${off}
+               aria-label="Segment ${i + 1} marketing carrier"></span></td>
+      <td class="py-1 pr-2"><span class="fillable"
+        ><input class="code-input w-[4rem]" data-f="operating" name="operating-${i}" value="${esc(r.operating)}" ${off}
+               aria-label="Segment ${i + 1} operating carrier"></span></td>
       <td class="py-1 pr-2">
         <input class="code-input w-[5.6rem]" data-f="flight" name="flight-${i}" value="${esc(r.flight)}" ${off}
                aria-label="Segment ${i + 1} flight number"></td>
-      <td class="py-1 pr-2">
-        <input class="code-input w-[2.9rem]" data-f="class" name="class-${i}" value="${esc(r.class)}" ${off}
-               maxlength="1" aria-label="Segment ${i + 1} booking class"></td>
-      <td class="c-fare py-1 pr-2">
-        <select class="field-select w-[6.6rem]" data-f="family" name="family-${i}" ${off}
+      <td class="py-1 pr-2"><span class="fillable"
+        ><input class="code-input w-[2.9rem]" data-f="class" name="class-${i}" value="${esc(r.class)}" ${off}
+               maxlength="1" aria-label="Segment ${i + 1} booking class"></span></td>
+      <td class="c-fare py-1 pr-2"><span class="fillable"
+        ><select class="field-select w-[6.6rem]" data-f="family" name="family-${i}" ${off}
                 aria-label="Segment ${i + 1} fare family">
           ${fam('', 'not stated')}${FAMILIES.map(f => fam(f, f)).join('')}
-        </select></td>
+        </select></span></td>
       <td class="c-when py-1 pr-2">
         <input class="field mono w-[11.5rem] text-[12px]" type="datetime-local" data-f="dep" name="dep-${i}"
                value="${esc(r.dep)}" ${off} aria-label="Segment ${i + 1} departure"></td>
@@ -310,6 +328,147 @@ function render() {
   });
 
   syncUrl();
+}
+
+// --- filling a column ------------------------------------------------------
+//
+// A ticket is mostly one carrier, one booking class and one kind of connection
+// repeated down a column, and typing that seven times is seven chances to make
+// a typo the validator will then faithfully report. So the focused cell carries
+// the spreadsheet gesture for it: a small square at its corner that fills the
+// value into every row you drag it across. Ctrl+D does the same to the bottom of
+// the table, because a mouse-only gesture is no gesture at all for some readers.
+//
+// Only on columns that describe the ticket rather than the sector. A carrier, a
+// class, a fare family and a kind of connection are things a whole journey tends
+// to share; an airport, a flight number and a departure time identify one
+// sector, and filling those down a column can only produce a journey nobody
+// could fly. The handle is not offered where the only outcome is wrong data.
+const FILLABLE = new Set(['type', 'stop', 'marketing', 'operating', 'class', 'family']);
+
+const fillHandle = document.createElement('span');
+fillHandle.className = 'fill-handle';
+fillHandle.title = 'Drag to fill the column. Ctrl+D fills to the last segment.';
+
+let activeCell = null;   // {i, f} -- the cell the handle is attached to
+let drag = null;         // {i, f, to} while a fill is being dragged
+
+const segRows = () => [...$('segments').children];
+const control = (i, f) => {
+  const tr = $('segments').children[i];
+  return tr ? tr.querySelector(`[data-f="${f}"]`) : null;
+};
+
+$('segments').addEventListener('focusin', e => {
+  const el = e.target.closest('[data-f]');
+  if (!el || !FILLABLE.has(el.dataset.f) || el.disabled) { fillHandle.remove(); activeCell = null; return; }
+  activeCell = { i: segRows().indexOf(el.closest('tr')), f: el.dataset.f };
+  el.closest('.fillable').appendChild(fillHandle);
+});
+
+// The handle marks the current cell, so it stays while focus moves within the
+// table and goes when focus leaves it altogether -- otherwise it is an accent
+// dot sitting on a table nobody is editing. Never mid-drag: pressing the handle
+// deliberately keeps focus where it is, and the pointer is still down.
+$('segments').addEventListener('focusout', e => {
+  if (drag) return;
+  const to = e.relatedTarget;
+  if (to && to.closest && to.closest('#segments')) return;
+  fillHandle.remove();
+  activeCell = null;
+});
+
+// Which row a pointer is over, by geometry rather than by hit testing: dragging
+// past the last row is the ordinary way to fill the whole column, and there is
+// nothing under the pointer there to ask.
+function rowAt(clientY) {
+  const trs = segRows();
+  for (let k = 0; k < trs.length; k++) {
+    if (clientY < trs[k].getBoundingClientRect().bottom) return k;
+  }
+  return trs.length - 1;
+}
+
+function paint() {
+  for (const box of $('segments').querySelectorAll('.fill-target')) box.classList.remove('fill-target');
+  if (!drag) return;
+  for (const k of span(drag.i, drag.to)) {
+    const el = control(k, drag.f);
+    if (el && !el.disabled) el.closest('.fillable').classList.add('fill-target');
+  }
+}
+
+// Every row the fill covers except the one it started from, in either direction:
+// dragging up a column is as reasonable as dragging down it.
+function span(from, to) {
+  const [lo, hi] = to < from ? [to, from] : [from, to];
+  const out = [];
+  for (let k = lo; k <= hi; k++) if (k !== from) out.push(k);
+  return out;
+}
+
+fillHandle.addEventListener('pointerdown', e => {
+  if (!activeCell) return;
+  e.preventDefault();   // keep focus on the cell being filled from
+  // Capture so the drag survives leaving the square, which it does immediately.
+  // It can refuse -- a pointer that is already gone -- and the drag is still
+  // well defined without it, because every listener below is on the handle.
+  try { fillHandle.setPointerCapture(e.pointerId); } catch { /* not captured */ }
+  drag = { ...activeCell, to: activeCell.i };
+  paint();
+});
+
+fillHandle.addEventListener('pointermove', e => {
+  if (!drag) return;
+  const to = rowAt(e.clientY);
+  if (to === drag.to) return;
+  drag.to = to;
+  paint();
+});
+
+fillHandle.addEventListener('pointerup', () => {
+  if (!drag) return;
+  const { i, f, to } = drag;
+  drag = null;
+  paint();
+  fill(f, i, to);
+});
+
+const cancelDrag = () => { if (drag) { drag = null; paint(); } };
+fillHandle.addEventListener('pointercancel', cancelDrag);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') cancelDrag(); });
+
+// The keyboard path, and the reason the gesture is not mouse-only. Ctrl+D is
+// what a spreadsheet binds fill-down to; the browser binds it to bookmarking,
+// which is why this takes the key rather than letting it through.
+$('segments').addEventListener('keydown', e => {
+  if ((e.key !== 'd' && e.key !== 'D') || !(e.ctrlKey || e.metaKey) || e.altKey || e.shiftKey) return;
+  const el = e.target.closest('[data-f]');
+  if (!el || !FILLABLE.has(el.dataset.f) || el.disabled) return;
+  e.preventDefault();
+  fill(el.dataset.f, segRows().indexOf(el.closest('tr')), rows.length - 1);
+});
+
+// The fill writes only where typing would be allowed. A surface sector has no
+// carrier and the last segment has no arrival to describe, and both are already
+// disabled in the markup -- so this reads that rather than keeping a second copy
+// of the rule, which is the copy that would go out of date.
+function fill(f, from, to) {
+  const value = rows[from][f];
+  let n = 0;
+  for (const k of span(from, to)) {
+    const el = control(k, f);
+    if (!el || el.disabled || rows[k][f] === value) continue;
+    rows[k][f] = value;
+    n++;
+  }
+  if (!n) return;
+  if (!AUTHORED_ELSEWHERE.has(f)) segmentsDerived = false;
+  markStale();
+  render();
+  const back = control(from, f);
+  if (back) back.focus();
+  announce(`Filled ${n} cell${n === 1 ? '' : 's'}.`);
 }
 
 // Debounced per input, not globally: every from/to field on the page shares this
