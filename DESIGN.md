@@ -341,15 +341,24 @@ operation's job and writing one is `routing`'s. A copy of the grammar in JavaScr
 nothing tests, and with both directions in Prolog the suite can assert that a routing survives the
 round trip.
 
-**The answer is two columns on a wide screen**: the verdict, the rules and the map on the left,
-earning and the connections table on the right. Stacked, the scroll is the sum of both; beside, it is
-the taller of the two, and nothing had to be hidden to get there. The Segments tab keeps a single
-column, because the form takes half the width there and splitting what is left would give two columns
-too narrow for either.
+**The answer is two columns on a wide screen**: the verdict, the rules, the map and the connections
+table on the left, earning on the right. Stacked, the scroll is the sum of both; beside, it is the
+taller of the two, and nothing had to be hidden to get there. The Segments tab keeps a single column,
+because the form takes half the width there and splitting what is left would give two columns too
+narrow for either.
+
+**Earning is the only thing in the second column.** The connections table had a panel of its own
+there, which was a border and a heading spent on announcing that a table is a table. It is evidence
+for the verdict — a stopover the clock and the ticket disagree about is *why* a count came out the
+way it did — so it belongs in the report, under the map it shares coordinates with, collapsed
+because it answers a question asked after the verdict rather than with it. Earning stayed a panel
+because it is a different question and not evidence for anything above it: it runs no fare rules, an
+itinerary that cannot be sold can still be priced, and one that is perfectly valid can be
+unpriceable.
 
 **The map is in the report and not in the panel beside it.** It reads as the evidence for the lines
 above it — a repeated sector, a continent entered twice, a surface gap — which is a thing to look at
-while reading them rather than after scrolling past a register. It sat in the aside for one release
+while reading them rather than after scrolling past a register. It sat in the second column for one release
 because stacked it is the tallest element on the page and had been coming between the reader and
 everything printed after it; the two-column layout is what actually solved that, and once the columns
 existed the map belonged with the rules it illustrates.
