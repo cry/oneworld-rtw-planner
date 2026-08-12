@@ -323,12 +323,33 @@ operation's job and writing one is `routing`'s. A copy of the grammar in JavaScr
 nothing tests, and with both directions in Prolog the suite can assert that a routing survives the
 round trip.
 
-**The answer is two columns on a wide screen**: the verdict and the rules on the left, earning and
-the map on the right. Stacked, the map — the tallest thing on the page by a wide margin — sat between
-the reader and everything printed after it, which is where the earning panel had ended up. Beside, the
-scroll is the taller of the two columns rather than the sum of them, and nothing had to be hidden to
-get there. The Segments tab keeps a single column, because the form takes half the width there and
-splitting what is left would give two columns too narrow for either.
+**The answer is two columns on a wide screen**: the verdict, the rules and the map on the left,
+earning and the connections table on the right. Stacked, the scroll is the sum of both; beside, it is
+the taller of the two, and nothing had to be hidden to get there. The Segments tab keeps a single
+column, because the form takes half the width there and splitting what is left would give two columns
+too narrow for either.
+
+**The map is in the report and not in the panel beside it.** It reads as the evidence for the lines
+above it — a repeated sector, a continent entered twice, a surface gap — which is a thing to look at
+while reading them rather than after scrolling past a register. It sat in the aside for one release
+because stacked it is the tallest element on the page and had been coming between the reader and
+everything printed after it; the two-column layout is what actually solved that, and once the columns
+existed the map belonged with the rules it illustrates.
+
+**Rules the input cannot answer are not called out separately.** They used to have a dashed block of
+their own under the violations, on the grounds that an absence should not be rendered in the same
+register as a satisfied rule. But every one of them already appears in the check register reading
+`not run`, with the same explanation in its own words — the suite asserts that no skipped rule lacks
+a check covering it — so the block was a second copy of a list one disclosure away, sitting between
+the verdict and the map in the space a reader crosses most often.
+
+**A programme is a section, not a tickbox.** Choosing which programmes to price before seeing any of
+them is a choice made in the dark, and the answer to "where should I credit this ticket?" is the
+comparison itself. So every registered programme is always priced and always shows its totals; what
+a section holds is the detail behind one. A membership tier is inside the programme that publishes
+it, because a tier is a fact about the traveller's standing with one airline and not a page-wide
+setting — which also means the control appears exactly when the validator says that programme has
+tiers, and never otherwise.
 
 There are no tiles, and that is the point. A slippy map over OpenStreetMap would put the page back
 on the network — the same reason the fonts and the stylesheet are bundled — and street-level tiles

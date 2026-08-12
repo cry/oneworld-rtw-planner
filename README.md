@@ -227,29 +227,35 @@ levels of detail:
 
 Cabin and passengers sit above the tabs: they describe the fare, not the routing, and survive
 switching. The report panel gives the verdict, the fare basis, each violation with its citation and
-evidence, the rules the input could not answer, an expandable **Rules evaluated** register of every
-check and what it measured, and how every connection was classified and by which source. The
-register is collapsed by default — it is four times the length of the verdict it supports — and
-`ok` is the quietest thing in it, since on a valid itinerary it is every row and colouring them all
-would leave nothing for the one that is not. Editing the form after a verdict marks the report as
-out of date rather than leaving a stale answer looking current.
+evidence, **the route drawn as a map**, and an expandable **Rules evaluated** register of every rule
+measured and what it measured — including the ones this input could not answer, which read `not run`
+there and are not called out separately above. The register is collapsed by default — it is four
+times the length of the verdict it supports — and `ok` is the quietest thing in it, since on a valid
+itinerary it is every row and colouring them all would leave nothing for the one that is not. Editing
+the form after a verdict marks the report as out of date rather than leaving a stale answer looking
+current.
 
 **The earning panel** is its own panel, because earning is a different question answered by a
 different operation: an itinerary that cannot be sold can still be priced for what it would earn, and
-one that is perfectly valid can be unpriceable. It shows a total per programme and, per segment, the
-figure with the row it was read off underneath — the earn register, and the counterpart of the check
-register. That register is open by default, unlike the check register: a total nobody can trace is
-the failure this panel exists to avoid. Sectors that could not be priced are grouped by the reason
-they could not, so a journey where nothing resolved reads as one fact rather than as sixteen. A
-programme picker above it is built from the validator's own list, so the page names no programme, no
-currency, no fare family and no tier of its own; unticking one re-prices without re-validating, since
-the itinerary did not change. Programmes are listed, never ranked: a mile and a Status Point are not
-commensurable without a valuation, and a valuation is an opinion.
+one that is perfectly valid can be unpriceable. Every registered programme gets a section, built from
+the validator's own list, so the page names no programme, no currency, no fare family and no tier of
+its own. The programme's name and its totals are the section's heading and are always on screen;
+opening it adds everything that makes those totals checkable — the figure for each sector with the
+row it was read off underneath, the estimate caveat, and the tables with the dates they were read.
+That per-segment register is the earn register, the counterpart of the check register, and sectors
+that could not be priced are grouped by the reason they could not, so a journey where nothing
+resolved reads as one fact rather than as sixteen.
 
-**The route map** under Connections is drawn by [`web/map.src.js`](web/map.src.js) from the
-coordinates already in `annotations`: a great-circle arc per segment, dashed for a surface sector,
-filled markers for stopovers and hollow ones for transfers. Hovering a connection lights up the same
-airport on the map.
+**A membership tier lives inside the programme that publishes it** — `"members": {"qff": {"tier":
+"gold"}}` from a control in the Qantas section rather than a row of settings above the panel, because
+it is a fact about the traveller's relationship with that one airline. Changing it re-prices without
+re-validating, since the itinerary did not change. Programmes are listed, never ranked: a mile and a
+Status Point are not commensurable without a valuation, and a valuation is an opinion.
+
+**The route map** sits in the report, under the rules the journey broke, and is drawn by
+[`web/map.src.js`](web/map.src.js) from the coordinates already in `annotations`: a great-circle arc
+per segment, dashed for a surface sector, filled markers for stopovers and hollow ones for transfers.
+Hovering a connection in the panel beside lights up the same airport on the map.
 
 **The itinerary lives in the URL**, so a routing can be pasted into a message and come back as a
 validated report. Opening a link populates the form, picks the right tab, and validates.
@@ -261,7 +267,7 @@ validated report. Opening a link populates the form, picks the right tab, and va
 | `t=s` | the Segments tab was the one being looked at |
 | `c`, `p` | cabin and passengers, only when not the default |
 | `b`, `f` | booking class and fare family, one character per segment, `-` for a gap |
-| `g` | the earning programmes, only when not all of them |
+| `g` | which earning programme sections are open, only when not all of them |
 | `m` | membership tiers, as `qff:gold`, comma-separated |
 
 ```
