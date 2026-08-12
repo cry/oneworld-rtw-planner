@@ -221,9 +221,18 @@ levels of detail:
   times are supplied at all. With no clock the time columns are hidden rather than offered and then
   refused; the fare-family column is hidden the same way when no registered earning programme prices
   one, which the page learns from the validator rather than deciding for itself. **Show as routing**
-  sends the table through the `routing` operation and writes it back out as one line. This is the
-  one view a sidebar cannot hold — eleven columns — so opening it widens the form to an equal share
-  of the page and closing it gives the width back.
+  sends the table through the `routing` operation and writes it back out as one line. This is the one
+  view a sidebar cannot hold — thirteen columns, 1,262px with dates and times shown — so opening it
+  gives the form the whole page and moves the answer underneath, and closing it puts both back. The
+  panels animate between the two arrangements rather than jumping.
+
+  Columns the whole ticket tends to share — the two carrier codes, the booking class, the fare family
+  and the kind of connection — **fill down** the way a spreadsheet's do. The focused cell carries a
+  small square at its corner; drag it over the rows below (or press <kbd>Ctrl</kbd>+<kbd>D</kbd> to
+  reach the last segment) and the value is copied into every row it covers. It writes only where
+  typing would be allowed, so a surface sector keeps its empty carrier and the last segment keeps its
+  empty stop. The columns that identify one sector — the airports, the flight number, the times —
+  have no handle: filling those down could only describe a journey nobody could fly.
 
 Cabin and passengers sit above the tabs: they describe the fare, not the routing, and survive
 switching. The report panel gives the verdict, the fare basis, each violation with its citation and
