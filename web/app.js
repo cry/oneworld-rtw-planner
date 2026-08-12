@@ -451,6 +451,8 @@ async function validate(routeString) {
 
 function renderError(data, body) {
   markFresh();
+  $('context-panel').classList.add('hidden');
+  $('context').innerHTML = '';
   announce(`Refused: ${data.message || data.error || 'error'}`);
   $('report').innerHTML = `
     <div class="settle">
@@ -496,13 +498,18 @@ function renderReport(data, body) {
       ${violationList(v)}
       ${notCheckedList(nc)}
       ${checkList(checks, v)}
-      ${connections(ann)}
 
       <div class="border-t border-rule">
         ${disclosure('Itinerary sent', JSON.stringify(body, null, 2))}
         ${disclosure('Full response', JSON.stringify(data, null, 2))}
       </div>
     </div>`;
+
+  // How each point was classified, and the map, in their own panel so they can
+  // sit beside the verdict rather than under it.
+  const context = connections(ann);
+  $('context').innerHTML = context;
+  $('context-panel').classList.toggle('hidden', !context);
 
   drawMap(ann);
 }
@@ -575,9 +582,31 @@ const EARN_OUTCOME = {
   not_applicable: { word: 'n/a', cls: 'text-muted' },
 };
 
+// A reason that applies to six sectors is one fact, not six. Repeating it once
+// per row pushed the priced sectors -- the ones a reader came for -- off the
+// bottom of a panel filled with the same sentence, and made a journey where
+// nothing could be priced look like six different problems. Sectors that could
+// not be priced are grouped by the reason they could not, in the order the
+// reason first appears, and the priced ones keep their own rows.
+function earnGroups(segments) {
+  const byReason = new Map();
+  const out = [];
+  for (const r of segments) {
+    if (r.outcome === 'ok' || !r.reason) { out.push({ rows: [r] }); continue; }
+    const key = `${r.outcome}\u0000${r.reason}`;
+    const seen = byReason.get(key);
+    if (seen) { seen.rows.push(r); continue; }
+    const group = { rows: [r], reason: r.reason, outcome: r.outcome };
+    byReason.set(key, group);
+    out.push(group);
+  }
+  return out;
+}
+
 function earnRows(p) {
   return `<table class="w-full border-collapse text-[12.5px]">
-    <tbody>${p.segments.map(r => {
+    <tbody>${earnGroups(p.segments).map(g => {
+      const [r] = g.rows;
       const look = EARN_OUTCOME[r.outcome] || EARN_OUTCOME.indeterminate;
       const figures = r.amounts.length
         ? r.amounts.map(a => amount(a, p.currencies, p)).join(' · ')
@@ -591,8 +620,8 @@ function earnRows(p) {
              r.nearBoundaryMiles ? ` <span class="text-warn">· within 1.5% of the ${num(r.nearBoundaryMiles)}-mile edge</span>` : ''}`
         : '';
       return `<tr class="border-t border-rule align-baseline">
-        <td class="mono w-6 py-1 pr-1 text-[11px] text-muted">${r.segment}</td>
-        <td class="mono w-[5.5rem] py-1 pr-2 text-[12px]">${esc(r.from)}–${esc(r.to)}</td>
+        <td class="mono w-6 py-1 pr-1 text-[11px] text-muted">${g.rows.map(x => x.segment).join('<br>')}</td>
+        <td class="mono w-[5.5rem] py-1 pr-2 text-[12px]">${g.rows.map(x => `${esc(x.from)}–${esc(x.to)}`).join('<br>')}</td>
         <td class="py-1">
           <div>${figures}</div>
           ${basis ? `<div class="mt-0.5 text-[11.5px] text-muted">${basis}</div>` : ''}
@@ -610,16 +639,33 @@ function earnProgram(p) {
       <p class="text-[13px]">${p.totals.map(t => total(t, p.currencies)).join(' · ')}</p>
     </div>
     ${priced || p.segments.length
-      ? `<details class="group mt-1">
+      ? `<details open class="group mt-1">
+           <!-- Open, unlike the check register. A total nobody can trace is the
+                failure this whole panel exists to avoid, and the register is
+                what makes one traceable; it is also beside the verdict now
+                rather than below it, so it costs nobody a scroll. -->
            <summary class="label cursor-pointer select-none">
              <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
              Per segment
            </summary>
            <div class="scroll-x mt-1">${earnRows(p)}</div>
-           <p class="mt-2 text-[11.5px] leading-[1.6] text-muted">
-             ${p.notes.map(esc).join(' ')}
-             ${p.sources.map(x => `The <a class="underline underline-offset-2" href="${esc(x.url)}" rel="noreferrer">${esc(x.table.replace(/_/g, ' '))} table</a> was read ${esc(x.fetched)}.`).join(' ')}
-           </p>
+           <!-- The first note is the one that must never be a click away: it says
+                the figure is an estimate. The rest is provenance -- which tables,
+                read when, and what they do not cover -- which a reader wants when
+                checking a number and not while reading one, and which had grown
+                into the tallest thing in this panel. -->
+           <p class="mt-2 text-[11.5px] leading-[1.6] text-muted">${esc(p.notes[0] || '')}</p>
+           ${p.notes.length > 1 || p.sources.length ? `
+             <details class="group mt-1">
+               <summary class="label cursor-pointer select-none text-[10.5px]">
+                 <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
+                 Where these came from
+               </summary>
+               <p class="mt-1 text-[11.5px] leading-[1.6] text-muted">
+                 ${p.notes.slice(1).map(esc).join(' ')}
+                 ${p.sources.map(x => `The <a class="underline underline-offset-2" href="${esc(x.url)}" rel="noreferrer">${esc(x.table.replace(/_/g, ' '))} table</a> was read ${esc(x.fetched)}.`).join(' ')}
+               </p>
+             </details>` : ''}
          </details>`
       : ''}
   </div>`;
@@ -657,11 +703,14 @@ function drawMap(ann) {
 
 // Hovering a connection lights up the same airport on the map. Cheap, and the
 // alternative is counting dots along a route that crosses itself.
-document.getElementById('report').addEventListener('mouseover', e => {
+// On #answer rather than #report: the connections table and the map it lights
+// up now live in a sibling panel, and one listener over both is simpler than
+// two that have to stay in step.
+document.getElementById('answer').addEventListener('mouseover', e => {
   const row = e.target.closest('tr[data-airport]');
   highlight(row && row.dataset.airport);
 });
-document.getElementById('report').addEventListener('mouseout', e => {
+document.getElementById('answer').addEventListener('mouseout', e => {
   if (e.target.closest('tr[data-airport]')) highlight(null);
 });
 
@@ -803,7 +852,7 @@ function connections(ann) {
   const points = ann.points || [];
   if (!points.length) return '';
   return `
-    <details open class="group border-t border-rule">
+    <details open class="group">
       <summary class="label cursor-pointer select-none px-4 py-2">
         <span class="mono inline-block w-3 transition-transform duration-150 group-open:rotate-90">&rsaquo;</span>
         Connections (${points.length})

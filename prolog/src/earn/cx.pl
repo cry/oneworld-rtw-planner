@@ -90,11 +90,11 @@ earn_kernel:eligible(cx, S, _A, Outcome) :-
     ->  Outcome = indeterminate('No marketing carrier, so there is no earning table to read this segment against.')
     ;   Marketing == cx
     ->  Outcome = eligible
-    ;   iata(Marketing, U),
-        format(atom(Why),
-               'Cathay serves partner earn from its calculator rather than as a published table, so what a ~w-marketed sector earns cannot be read here. It is not nothing.',
-               [U]),
-        Outcome = indeterminate(Why)
+    ;   % Deliberately without the carrier's name. It is the same fact about
+        % every sector Cathay did not sell, and putting the carrier in the
+        % sentence made one fact read as several -- the sector is in the row
+        % beside it either way.
+        Outcome = indeterminate('Cathay serves partner earn from its calculator rather than as a published table, so what a sector it did not sell earns cannot be read here. It is not nothing.')
     ).
 
 % --- which bucket -----------------------------------------------------------

@@ -270,14 +270,24 @@ register is collapsed by default — it is four times the length of the verdict 
 would leave nothing for the one that is not. Editing the form after a verdict marks the report as out of date rather than leaving a stale
 answer looking current.
 
-**The earning panel** sits under the report, because earning is a different question answered by a
+**The answer is two columns on a wide screen**: the verdict and the rules on the left, earning and
+the map on the right. Stacked, the map — the tallest thing on the page by a wide margin — sat between
+the reader and everything printed after it, which is where the earning panel had ended up. Beside, the
+scroll is the taller of the two columns rather than the sum of them, and nothing had to be hidden to
+get there. The Segments tab keeps a single column, because the form takes half the width there and
+splitting what is left would give two columns too narrow for either.
+
+**The earning panel** is its own panel, because earning is a different question answered by a
 different operation: an itinerary that cannot be sold can still be priced for what it would earn, and
 one that is perfectly valid can be unpriceable. It shows a total per programme and, per segment, the
 figure with the row it was read off underneath — the earn register, and the counterpart of the check
-register. A programme picker above it is built from the validator's own list, so the page names no
-programme, no currency and no fare family of its own; unticking one re-prices without re-validating,
-since the itinerary did not change. Programmes are listed, never ranked: a mile and a Status Point
-are not commensurable without a valuation, and a valuation is an opinion.
+register. That register is open by default, unlike the check register: a total nobody can trace is
+the failure this panel exists to avoid. Sectors that could not be priced are grouped by the reason
+they could not, so a journey where nothing resolved reads as one fact rather than as sixteen. A
+programme picker above it is built from the validator's own list, so the page names no programme, no
+currency, no fare family and no tier of its own; unticking one re-prices without re-validating, since
+the itinerary did not change. Programmes are listed, never ranked: a mile and a Status Point are not
+commensurable without a valuation, and a valuation is an opinion.
 
 **The route map** under Connections is drawn by [`web/map.src.js`](web/map.src.js) from the
 coordinates already in `annotations`: a great-circle arc per segment, dashed for a surface sector,
