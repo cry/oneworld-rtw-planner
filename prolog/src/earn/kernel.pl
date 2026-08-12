@@ -10,6 +10,7 @@
             bonus/5,
             program_source/3,
             program_note/2,
+            fare_family/2,
             currency_option/3,
             known_program/1
           ]).
@@ -32,6 +33,7 @@
 
         earn_program(Id, DisplayName, ProvenanceKey)
         currency(Id, CurrencyKey, DisplayName, Opts)
+        fare_family(Id, Family)
         eligible(Id, Segment, Annotated, Outcome)
         fare_bucket(Id, Segment, Bucket, Basis)
         route_basis(Id, From, To, Distance, Basis)
@@ -84,6 +86,10 @@
 :- multifile bonus/5.
 :- multifile program_source/3.
 :- multifile program_note/2.
+% The branded fares a programme prices differently, so a page can offer them
+% without naming one. A programme whose earn does not turn on a fare family
+% declares none, and there is then nothing for a caller to choose.
+:- multifile fare_family/2.
 
 :- discontiguous earn_program/3.
 

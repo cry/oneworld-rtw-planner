@@ -92,6 +92,7 @@ programs_json(_{ programs: Programs }) :-
 
 program_summary(Id, _{ id: Id, name: Name,
                        currencies: Currencies,
+                       fareFamilies: Families,
                        sources: Sources,
                        notes: Notes }) :-
     earn_program(Id, Name, _),
@@ -102,6 +103,7 @@ program_summary(Id, _{ id: Id, name: Name,
               option_or(rounding(R), Opts, nearest, R, Rounding),
               option_or(scope(Sc), Opts, per_segment, Sc, Scope) ),
             Currencies),
+    findall(Family, fare_family(Id, Family), Families),
     findall(_{ table: Table, url: Url, fetched: Fetched },
             program_source(Id, Table, source(Url, Fetched)),
             Sources),

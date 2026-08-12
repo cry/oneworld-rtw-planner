@@ -286,6 +286,14 @@
     display: none;
   }
 
+  /* A fare family means nothing unless some registered earning programme prices
+   * one, and which programmes are registered is something only /api/programs
+   * knows. So the column is hidden until it answers, and stays hidden if none of
+   * them publishes families -- the page never names a programme to decide it. */
+  .hide-fare .c-fare {
+    display: none;
+  }
+
   /* The routing grammar arrives from /api/ruleset with its terms in quotes; the
    * page turns those into code spans. */
   .hint code {

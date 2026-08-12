@@ -153,6 +153,14 @@ percentage of flown miles, which is what proves fixed and proportional accrual s
 **5 — tiers, ranges and the page.** Class and family columns in the Segments tab, a programme
 picker fed by `/api/programs`, an earn panel beside the report, and the new URL parameters.
 
+*The page is done; tiers are not, and cannot be until the tier tables are captured.* Ranges arrived
+early, in phase 3, because Cathay needs them for the ordinary case rather than the edge one. Two
+things the page settled that the plan had not: the fare-family column hides itself when no
+registered programme prices a family, which the page learns from `/api/programs` rather than
+deciding, so it still names no programme; and `b`/`f` are positional one-character parameters
+precisely so that a class typed against a routing does not drag the whole segment table into `s` and
+bury a legible link. Editing only those two fields leaves the rows derived.
+
 Sub-totals per programme, and **no ranking between them**. A mile and a Status Point are not
 commensurable without a valuation, valuations are opinions, and this codebase's whole posture is
 that every number traces to a source.

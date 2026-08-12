@@ -60,8 +60,13 @@
 :- multifile earn_kernel:program_source/3.
 :- multifile earn_kernel:program_note/2.
 :- multifile earn_kernel:term_label/2.
+:- multifile earn_kernel:fare_family/2.
 
 earn_kernel:earn_program(cx, 'Cathay', cx).
+
+% What a caller may put in `fareFamily`. Served from /api/programs so a page can
+% offer the choice without knowing a programme's name.
+earn_kernel:fare_family(cx, Family) :- cx_family(Family).
 
 % Two currencies out of one number -- every published row has Asia Miles at a
 % hundred times Status Points, which the generator refuses to write a table

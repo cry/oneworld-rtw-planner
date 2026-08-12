@@ -216,8 +216,10 @@ levels of detail:
   broken across lines parses exactly as one line does.
 * **Segments** — the flight-by-flight table, handed over as `{"mode": …, "segments": […]}`, with
   airport typeahead (accent-folded, so `sao paulo` finds São Paulo and `belem` finds Belém), a
-  per-segment stop-kind column, and a switch for whether dates and times are supplied at all. With
-  no clock the time columns are hidden rather than offered and then refused. **Show as routing**
+  per-segment stop-kind column, a booking class, a fare family, and a switch for whether dates and
+  times are supplied at all. With no clock the time columns are hidden rather than offered and then
+  refused; the fare-family column is hidden the same way when no registered earning programme prices
+  one, which the page learns from the validator rather than deciding for itself. **Show as routing**
   sends the table through the `routing` operation and writes it back out as one line. This is the
   one view a sidebar cannot hold — eleven columns — so opening it widens the form to an equal share
   of the page and closing it gives the width back.
@@ -235,6 +237,15 @@ register is collapsed by default — it is four times the length of the verdict 
 `ok` is the quietest thing in it, since on a valid itinerary it is every row and colouring them all
 would leave nothing for the one that is not. Editing the form after a verdict marks the report as out of date rather than leaving a stale
 answer looking current.
+
+**The earning panel** sits under the report, because earning is a different question answered by a
+different operation: an itinerary that cannot be sold can still be priced for what it would earn, and
+one that is perfectly valid can be unpriceable. It shows a total per programme and, per segment, the
+figure with the row it was read off underneath — the earn register, and the counterpart of the check
+register. A programme picker above it is built from the validator's own list, so the page names no
+programme, no currency and no fare family of its own; unticking one re-prices without re-validating,
+since the itinerary did not change. Programmes are listed, never ranked: a mile and a Status Point
+are not commensurable without a valuation, and a valuation is an opinion.
 
 **The route map** under Connections is drawn by [`web/map.src.js`](web/map.src.js) from the
 coordinates already in `annotations`: a great-circle arc per segment, dashed for a surface sector,
@@ -258,11 +269,19 @@ validated report. Opening a link populates the form, picks the right tab, and va
 | `s` | the segment table, base64url JSON — only when it was typed rather than parsed from `r` |
 | `t=s` | the Segments tab was the one being looked at |
 | `c`, `p` | cabin and passengers, only when not the default |
+| `b`, `f` | booking class and fare family, one character per segment, `-` for a gap |
+| `g` | the earning programmes, only when not all of them |
 
 ```
 ?r=LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR
 ?r=LON-BA-NYC-AA-X/DFW-AA-LAX-QF-SYD//MEL-QF-X/SIN-BA-LON&c=economy&p=adult%2Bchild
+?r=LHR-CX-HKG-CX-NRT-JL-LAX-BA-LHR&b=DKJD&f=-F
 ```
+
+`b` and `f` are positional and one character each for the same reason the routing is left readable:
+a routing has no notation for a booking class, so a class typed against one is authored data on a
+derived row, and writing the whole table to `s` to carry two letters would bury a legible link under
+two kilobytes of base64. Editing only those two fields therefore leaves the rows derived.
 
 `/` is legal in a query string, so it is left unencoded — most of what keeps a routing link
 readable. Rows filled in from a parsed routing are *derived* and deliberately not written to `s`:
