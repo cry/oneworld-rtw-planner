@@ -21,6 +21,7 @@
 :- use_module('../src/io/json_in').
 :- use_module('../src/io/json_out').
 :- use_module('../src/validate').
+:- use_module('../src/annotate').
 :- use_module('../server').
 :- use_module('../data/limits').
 
@@ -66,6 +67,24 @@ test(bad_cabin_throws, [throws(input_error(_))]) :-
 
 test(unparseable_date_throws, [throws(input_error(_))]) :-
     itinerary_from_json(_{ segments: [ _{from:"LHR", to:"JFK", dep:"next tuesday"} ] }, _).
+
+% A booking code is one letter. A fare basis or a cabin name in the field is a
+% different thing entered in the wrong place, and reading its first letter as
+% the code would decide 5(b) on a coincidence.
+test(multi_letter_booking_class_throws, [throws(input_error(_))]) :-
+    itinerary_from_json(_{ segments: [ _{from:"LHR", to:"JFK", bookingClass:"DONE3"} ] }, _).
+
+% Codes are held lower-case internally, like carriers and airports, and shown
+% the way a traveller writes them.
+test(booking_class_is_folded_and_shown_upper) :-
+    itinerary_from_json(_{ segments: [ _{from:"LHR", to:"JFK", carrier:"BA",
+                                         bookingClass:"d"} ] }, Itin),
+    Itin.segments = [Seg|_],
+    assertion(Seg.booking_class == d),
+    annotate(Itin, A),
+    annotations_json(A, Ann),
+    Ann.segments = [Json|_],
+    assertion(Json.bookingClass == 'D').
 
 % Several rules are quadratic in the segment count, so the reader caps the
 % input well above the 16 the fare permits and far below anything expensive.

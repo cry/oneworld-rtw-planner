@@ -55,8 +55,9 @@ stop_kind(stopover).
 %
 %  Origin may be `unknown`, in which case it is taken from the first segment.
 %  RawSegs is a list of rseg(N, Type, From, To, Marketing, Operating, Flight,
-%  Dep, Arr, Stop); every field except Type/From/To may be `unknown`. Stop
-%  declares the kind of the intermediate point at that segment's *arrival*.
+%  Dep, Arr, Stop, BookingClass); every field except Type/From/To may be
+%  `unknown`. Stop declares the kind of the intermediate point at that
+%  segment's *arrival*; BookingClass is the 5(b) RBD the segment is sold in.
 build_itinerary(Origin0, Cabin, Passengers, Mode, RawSegs, Itin) :-
     number_segments(RawSegs, 1, Segs, NumErrs),
     resolve_origin(Origin0, Segs, Origin, OriginErrs),
@@ -76,12 +77,12 @@ build_itinerary(Origin0, Cabin, Passengers, Mode, RawSegs, Itin) :-
 % make every later violation cite the wrong segment.
 number_segments([], _, [], []).
 number_segments([R|Rs], I, [S|Ss], Errs) :-
-    R = rseg(N, Type, From0, To0, Mkt, Op, Flt, Dep, Arr, Stop),
+    R = rseg(N, Type, From0, To0, Mkt, Op, Flt, Dep, Arr, Stop, Class),
     place(From0, From),
     place(To0, To),
     S = seg{ n: I, type: Type, from: From, to: To,
              marketing: Mkt, operating: Op, flight: Flt,
-             dep: Dep, arr: Arr, stop: Stop },
+             dep: Dep, arr: Arr, stop: Stop, booking_class: Class },
     (   ( N == unknown ; N == I )
     ->  Errs = Errs1
     ;   format(atom(M),

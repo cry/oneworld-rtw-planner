@@ -99,14 +99,14 @@ mode(Dict, Default, Mode) :-
 % times supplied alongside it would make the two rules that need them look
 % unanswerable when the data to answer them was right there.
 check_times_against_mode(routing, RawSegs) :- !,
-    (   member(rseg(_, _, _, _, _, _, _, Dep, Arr, _), RawSegs),
+    (   member(rseg(_, _, _, _, _, _, _, Dep, Arr, _, _), RawSegs),
         ( Dep \== unknown ; Arr \== unknown )
     ->  throw(input_error('Segment times are not accepted in routing mode; use mode "full" to have them checked, or remove them.'))
     ;   true
     ).
 check_times_against_mode(_, _).
 
-segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr, Stop)) :-
+segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr, Stop, Class)) :-
     (   is_dict(J) -> true
     ;   throw(input_error('Each entry of "segments" must be a JSON object.'))
     ),
@@ -124,7 +124,25 @@ segment(J, rseg(N, Type, From, To, Mkt, Op, Flight, Dep, Arr, Stop)) :-
     verbatim_field(J, flight, unknown, Flight),
     time_field(J, dep, Dep),
     time_field(J, arr, Arr),
-    stop(J, Stop).
+    stop(J, Stop),
+    booking_class(J, Class).
+
+% The class the segment is booked in -- one RBD letter, which is what section
+% 5(b) is written in. Optional: an itinerary that does not carry one still
+% answers every other rule, and 5(b) reports that it had nothing to read rather
+% than guessing a class from the cabin.
+booking_class(J, Class) :-
+    atom_field(J, bookingClass, unknown, C),
+    (   C == unknown
+    ->  Class = unknown
+    ;   atom_length(C, 1), char_type(C, alpha)
+    ->  Class = C
+    ;   upcase_atom(C, U),
+        format(atom(M),
+               'Segment "bookingClass" must be a single booking code letter, not "~w".',
+               [U]),
+        throw(input_error(M))
+    ).
 
 % What kind of point the segment arrives at, when the traveller knows it
 % independently of any clock. `layover` and `connection` are the words people

@@ -103,7 +103,7 @@ INVALID — 1 error
   [8]          error           The journey has 0 stopovers. It needs at least 2.
 Not checked — 1 rule this input cannot answer:
   [7]          Return travel from the last stopover must commence within 12 months of departure, …
-Checks — 1 failed, 16 ok, 1 not run, 5 n/a. Re-run with --checks to list them.
+Checks — 1 failed, 16 ok, 1 not run, 7 n/a. Re-run with --checks to list them.
 ```
 
 ### What passed, and by how much
@@ -115,11 +115,12 @@ cap was cleared by is what a fare-construction tool is actually asked. So every 
 ```
 $ swipl prolog/cli.pl -- validate prolog/test/fixtures/lhr_classic.json --checks
 VALID
-Checks — 18 ok, 6 n/a:
+Checks — 18 ok, 7 n/a:
   [4(e)]       ok        Intercontinental sectors              Each continent has a limit on flig…
   [4(h)]       ok        Segment count                         The journey has 7 segments. The ru…
   [4(i)]       ok        Repeated sectors                      The journey flies 7 sectors. It fl…
   [4(l)]       n/a       Australian city pairs                 The journey has no flight inside A…
+  [5(b)]       n/a       Booking codes                         No segment states the class it is …
   [7]          ok        Maximum stay                          16 days pass between the first fli…
   [8]          ok        Stopovers                             The journey has 4 stopovers. It ne…
 ```
@@ -342,7 +343,7 @@ millisecond, which is faster than the round trip it replaces.
 runs 10.0.2; CI's apt supplies 9.x. Nothing in the suite can see that, so
 [`prolog/test/test_wasm.mjs`](prolog/test/test_wasm.mjs) does: it drives every fixture through
 `rtw_call/4` on both engines and compares the **whole reply**, not just the verdict — a few thousand
-characters of message prose, ordering and evidence per fixture. All 54 agree. It is the counterpart of
+characters of message prose, ordering and evidence per fixture. All 57 agree. It is the counterpart of
 the HTTP round-trip test in `test_json.pl`: same purpose, different second renderer.
 
 The comparison is *structural*: both replies are parsed and compared field by field, and the first
@@ -353,7 +354,7 @@ message, every piece of evidence and the presence of every key are all still com
 
 ```sh
 npm run wasm          # build web/rtw.pvm and the vendored engine
-npm run test:wasm     # 54 fixtures, wasm against native
+npm run test:wasm     # 57 fixtures, wasm against native
 ```
 
 ### GitHub Pages
@@ -567,7 +568,8 @@ itinerary's meaning. `annotations.routing` is `null` in the same case.
   "segments": [
     { "n": 1, "type": "flight", "from": "LHR", "to": "JFK",
       "marketingCarrier": "BA", "operatingCarrier": "BA", "flight": "BA117",
-      "dep": "2026-09-01T10:25", "arr": "2026-09-01T13:30", "stop": "stopover" },
+      "dep": "2026-09-01T10:25", "arr": "2026-09-01T13:30", "stop": "stopover",
+      "bookingClass": "D" },
     { "n": 2, "type": "surface", "from": "GRU", "to": "GIG" }
   ]
 }
@@ -588,6 +590,11 @@ no intermediate point to describe.
 
 `carrier` is shorthand that fills both carrier fields; `marketingCarrier` on its own leaves the
 operator unknown rather than assuming there is no codeshare.
+
+`bookingClass` is the single RBD letter the segment is sold in, and it is what rule 5(b) reads. It
+is optional and has no effect on any other rule. Which 5(b) row it is read against is decided by the
+*marketing* carrier — 5(b) is about the code the fare is sold in, and the seller is who sells it,
+unlike 4(j), which turns on who operates.
 
 Missing information degrades honestly rather than silently passing: a connection with neither a
 timestamp nor a declared stop kind makes rule 8 `indeterminate` and the verdict `indeterminate`, and
@@ -749,7 +756,7 @@ npm run test:wasm
 8. **The two engines agree** — the page runs a different SWI-Prolog from the container (10.1.10
    against 10.0.2), and no plunit test can see that. Every fixture is driven through `rtw_call/4` on
    both and the **whole reply** compared field by field, not the verdict alone: message prose,
-   ordering and evidence included. All 54 agree. It needs both engines present, which is why it is a
+   ordering and evidence included. All 57 agree. It needs both engines present, which is why it is a
    node script rather than a unit.
 
 `npm run check:contrast` is separate and does not need SWI: it scores every colour pair in the
@@ -770,11 +777,25 @@ Every rule id has a fixture.
 
 ## Scope
 
-Checked: 4(a)–4(l), 6, 7, 8, 15, 19, and the section 0 continent-count to fare-basis mapping.
+Checked: 4(a)–4(l), 5(b), 6, 7, 8, 15, 19, and the section 0 continent-count to fare-basis mapping.
 
 Not checked, because they are not decidable from an itinerary: capacity limitations, GDS fare
-amounts, group travel, and voluntary-change fees. Section 5(b)'s booking codes are checkable in
-principle but would need a booked class per segment, which the input format does not carry.
+amounts, group travel, and voluntary-change fees.
+
+5(b) is checked only where the itinerary says what class it was sold in, which is optional — see
+`bookingClass` in [Itinerary format](#itinerary-format). With no class anywhere the register says it
+had nothing to read, which is deliberately not `indeterminate`: a routing is a fare notation with
+nowhere to write a booking code, and treating that as missing data would make every routing
+undecidable over a field the notation cannot express.
+
+Where a class *is* given, three outcomes are possible, because 5(b) has three kinds of class in it.
+The applicable code for the cabin passes. Anything the table does not name for that carrier is an
+error. In between sit the codes its notes permit conditionally — a lower cabin's own code, `Y` on a
+First fare, `B` (or `H` on AA) on a DONE Business fare, and `A` on QR for services within the Middle
+East — and those are flagged rather than refused, because every one of them turns on what the
+*flight* offers. "For flights where First or Business Class is not offered or available, passengers
+may travel in a lower class" makes a business fare ticketed in `L` legal on an aircraft with no
+business cabin and illegal on one that has it, and an itinerary carries the route, not the seat map.
 
 One rule is checked but cannot be decided, and says so. Rule 19's real trigger is an infant
 *reaching* two years old between departure and the end of the journey, and the input carries an age

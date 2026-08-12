@@ -16,6 +16,7 @@
 :- use_module('data/transcon').
 :- use_module('data/au_pairs').
 :- use_module('data/surcharges').
+:- use_module('data/booking_codes').
 
 :- use_module('src/geo').
 :- use_module('src/carriers').
@@ -36,6 +37,7 @@
 % validate:violation/2; there is no other registry.
 :- use_module('src/rules/r00_continents').
 :- use_module('src/rules/r04_routing').
+:- use_module('src/rules/r05_booking').
 :- use_module('src/rules/r06_min_stay').
 :- use_module('src/rules/r07_max_stay').
 :- use_module('src/rules/r08_stopovers').

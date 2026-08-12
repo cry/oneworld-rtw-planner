@@ -87,6 +87,20 @@ test(fare_basis_follows_continent_count) :-
     assertion(Fare4.continents == 4),
     assertion(Fare4.basis == 'DONE4').
 
+% The same journey with a booked class on every segment. 5(b) is the only rule
+% the extra field reaches, and the applicable business code must clear it.
+test(booked_classes_do_not_disturb_a_valid_itinerary) :-
+    fixture_rules(lhr_classes, Verdict-Ids),
+    assertion(Verdict-Ids == valid-[]).
+
+% An itinerary that states no class must not be reported as though 5(b) had
+% been cleared. It is `n/a` rather than a pass, and the reason says why.
+test(a_classless_itinerary_says_5b_had_nothing_to_read) :-
+    fixture_check(lhr_classic, booking_code, check(_, Citation, _, Outcome, Detail)),
+    assertion(Citation == '5(b)'),
+    assertion(Outcome == not_applicable),
+    assertion(sub_atom(Detail, _, _, _, 'No segment states the class it is sold in')).
+
 :- end_tests(golden).
 
 % --- one broken rule at a time ---------------------------------------------
@@ -293,6 +307,16 @@ test(cuba_reported_once) :-
     fixture_report(mut_cuba, _, report(_, Violations, _, _, _)),
     assertion(Violations = [_]).
 
+% K is a CX code in no cabin of the 5(b) table, so it is not this fare however
+% the flight was sold. Exactly one rule, and the register must read `failed`
+% rather than reporting six matching codes and calling that a pass.
+test(booking_code_outside_the_table) :-
+    fixture_rules(mut_booking_code, V-Ids),
+    assertion(V-Ids == invalid-[booking_code]),
+    fixture_check(mut_booking_code, booking_code, check(_, _, _, Outcome, Detail)),
+    assertion(Outcome == fail),
+    assertion(sub_atom(Detail, _, _, _, '7 of 7 flights')).
+
 :- end_tests(mutations).
 
 % --- warnings do not invalidate --------------------------------------------
@@ -338,6 +362,17 @@ test(swp_europe_nonstop_warns_and_counts_asia) :-
     fixture_report(syd_via_asia, _, report(_, _, Fare, _, _)),
     assertion(Fare.continents == 4),
     assertion(Fare.basis == 'LONE4').
+
+% The 5(b) note lets a business fare travel in the lower class's own code where
+% business is not offered or not available on that flight. Whether it was is a
+% fact about the aircraft, not about the routing, so the code is flagged and the
+% verdict stays valid -- the same posture as a declared stop kind that
+% disagrees with the clock.
+test(a_lower_class_code_is_flagged_not_refused) :-
+    fixture_rules(mut_booking_code_lower, V-Ids),
+    assertion(V-Ids == valid-[booking_code_conditional]),
+    fixture_check(mut_booking_code_lower, booking_code, check(_, _, _, Outcome, _)),
+    assertion(Outcome == warning).
 
 :- end_tests(warnings).
 
