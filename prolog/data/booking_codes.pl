@@ -5,6 +5,7 @@
             cabin_column/2,
             sector_scope/3,
             explorer_classes/5,
+            basis_classes/5,
             premium_economy_code/2,
             business_alternate_code/2,
             first_alternate_code/1,
@@ -110,15 +111,58 @@ sector_scope(From, To, Scope) :-
 %  same projection in the other direction, to decide whether a class that *was*
 %  given is one of these.
 explorer_classes(Carrier, From, To, Cabin, Codes) :-
-    sector_scope(From, To, Wanted),
-    (   booking_code(Carrier, Wanted, _, _)
-    ->  Scope = Wanted
-    ;   Scope = any
-    ),
+    carrier_scope(Carrier, From, To, Scope),
     findall(Code,
             ( cabin_column(Cabin, Column), booking_code(Carrier, Scope, Column, Code) ),
             Codes0),
     sort(Codes0, Codes).
+
+%! basis_classes(+Carrier, +FromCountry, +ToCountry, +Basis, -Codes) is semidet.
+%  The same projection narrowed to the column the *reported fare basis* names.
+%  Fails where the basis does not name one, which is where fewer than three
+%  continents left the itinerary with no published basis at all.
+%
+%  Only business has two columns, so this only ever narrows a business fare --
+%  and there it is the difference between a presumption and a guess. 5(b) heads
+%  its columns "Business — DONE*" and "Business — IONE3", which are fare bases
+%  and not cabins, so a DONE4 fare books into the DONE column and the IONE3 one
+%  describes a fare this itinerary is not. Asking for both, as the cabin does,
+%  produces two codes that can earn in two different categories on the same
+%  carrier -- and then declines to price a sector over an ambiguity the fare
+%  basis printed at the top of the same report had already settled.
+%
+%  Rule 5(b) itself keeps the cabin projection above, and must: a ticket
+%  presented in either column is booked in a code the rule names, whatever this
+%  validator reports the basis as.
+basis_classes(Carrier, From, To, Basis, Codes) :-
+    basis_column(Basis, Column),
+    carrier_scope(Carrier, From, To, Scope),
+    findall(Code, booking_code(Carrier, Scope, Column, Code), Codes0),
+    sort(Codes0, Codes),
+    Codes \== [].
+
+%! basis_column(+Basis, -Column) is semidet.
+%  'DONE4' names the DONE column. The fare bases in data/limits.pl and the
+%  column headings in 5(b) are the same four forms, which is not a coincidence:
+%  the column is which fare it is.
+basis_column(Basis, Column) :-
+    atom(Basis),
+    sub_atom(Basis, 0, 4, _, Form),
+    basis_form_column(Form, Column).
+
+basis_form_column('AONE', first).
+basis_form_column('DONE', business_done).
+basis_form_column('IONE', business_ione3).
+basis_form_column('LONE', economy).
+
+% A carrier that publishes separate domestic rows is read against the one the
+% sector falls in; everyone else has a single `any` row.
+carrier_scope(Carrier, From, To, Scope) :-
+    sector_scope(From, To, Wanted),
+    (   booking_code(Carrier, Wanted, _, _)
+    ->  Scope = Wanted
+    ;   Scope = any
+    ).
 
 %! premium_economy_code(?Carrier, ?Code) is nondet.
 %  The second table in 5(b). Premium economy is not a fare basis of its own --

@@ -21,6 +21,10 @@
 :- use_module('../src/io/json_in').
 :- use_module('../src/io/earn_out').
 :- use_module('../data/earn/cx/table_cx').
+:- use_module('../data/earn/cx/buckets').
+:- use_module('../data/earn/cx/zones').
+:- use_module('../data/earn/cx/airlines').
+:- use_module('../data/booking_codes').
 :- use_module(library(lists)).
 
 sector(Carrier, Class, From, To, Row) :-
@@ -265,6 +269,81 @@ test(economy_is_presumed_as_l_not_y) :-
     amount(Flexible, points, P3),
     assertion(P3 > P1).
 
+% ...and the *fare basis* picks which business column, which the cabin cannot.
+% 5(b) heads its two business columns "Business — DONE*" and "Business — IONE3",
+% and those are fare bases rather than cabins: a DONE4 fare books into D, and the
+% IONE3 column describes a fare this itinerary is not. Asking for the cabin's
+% columns returned D and I, which on Qantas' own table are Business and Discount
+% Business -- so every classless QF business sector came back undecided over an
+% ambiguity the fare basis at the top of the same report had already settled.
+test(a_business_fare_is_presumed_from_its_basis_not_its_cabin) :-
+    itinerary_from_json(
+        _{ route: "LON-BA-NYC-AA-X/DFW-AA-LAX-QF-SYD//MEL-QF-X/SIN-BA-LON",
+           cabin: "business" },
+        Itin),
+    annotate(Itin, A),
+    earn(A, [qff], Report),
+    Report.programs = [P],
+    % Every flown sector prices, and the total is not a lower bound.
+    forall(( member(Row, P.segments), Row.type == flight ),
+           assertion(Row.outcome == ok)),
+    forall(member(Total, P.totals), assertion(Total.lowerBound == false)),
+    % The two QF-marketed ones are what used to fail, and the register names the
+    % fare it read the class off rather than only the cabin.
+    member(Row4, P.segments), Row4.segment == 4, !,
+    assertion(Row4.bucket == 'Business'),
+    assertion(sub_atom(Row4.bucketBasis, _, _, _, 'a DONE4 fare into D')).
+
+% Economy and First are untouched by that, because 5(b) publishes one column for
+% each: LONE4 names the Economy column and AONE4 the First one, which are the
+% same columns the cabin was already reaching.
+test(the_other_cabins_read_the_same_column_either_way) :-
+    forall(member(Cabin-Basis-Code, ["economy"-'LONE4'-'L', "first"-'AONE4'-'A']),
+           (   priced_route("LON-BA-NYC-AA-X/DFW-AA-LAX-QF-SYD//MEL-QF-X/SIN-BA-LON",
+                            Cabin, 4, Row),
+               assertion(Row.outcome == ok),
+               format(atom(Phrase), '~w fare into ~w on this carrier', [Basis, Code]),
+               assertion(sub_atom(Row.bucketBasis, _, _, _, Phrase))
+           )).
+
+% A journey with fewer than three continents has no published fare basis at all
+% -- rule 0 raises that as an error -- so there is nothing to narrow the column
+% with and the cabin's wider projection stands in. Named rather than left to be
+% discovered, because it is the one input where the two projections still differ.
+test(a_fare_with_no_published_basis_falls_back_to_the_cabin) :-
+    classless("QF", "SYD", "LAX", "business", Row),
+    assertion(Row.outcome == ok),
+    assertion(sub_atom(Row.assumption, _, _, _, 'books business into D or I')),
+    % ...which is exactly the input the safety net exists for: D and I earn in
+    % two categories on Qantas' own table, so the answer is the spread rather
+    % than the refusal this used to be.
+    amount(Row, points, Points),
+    assertion(Points = range(_, _)).
+
+priced_route(Route, Cabin, N, Row) :-
+    itinerary_from_json(_{ route: Route, cabin: Cabin }, Itin),
+    annotate(Itin, A),
+    earn(A, [qff], Report),
+    Report.programs = [P],
+    member(Row, P.segments),
+    Row.segment == N,
+    !.
+
+% Where one column still leaves two categories, the answer is the spread and not
+% a refusal. Malaysia files A in both Business and First, so a classless First
+% fare on MH books into a code that earns two ways -- and pricing both is the
+% same posture the Cathay resolver takes over a class listed under three fare
+% brands, down the same kernel path.
+test(a_code_that_earns_two_ways_gives_the_spread) :-
+    classless("MH", "KUL", "LHR", "first", Row),
+    assertion(Row.outcome == ok),
+    assertion(Row.bucket == 'Business or First'),
+    amount(Row, points, Points),
+    assertion(Points = range(_, _)),
+    Points = range(Low, High),
+    assertion(Low < High),
+    assertion(sub_atom(Row.assumption, _, _, _, 'the figures span both')).
+
 % Qantas pays its status bonus on Qantas-marketed sectors and not on partner
 % ones, so the same journey carries a bonus on one sector and none on the next.
 % That is why bonus/6 is handed the segment and not only the tier.
@@ -306,13 +385,22 @@ test(an_unpublished_tier_is_refused, [throws(input_error(_))]) :-
 
 :- end_tests(earn_qff).
 
-% --- Cathay ------------------------------------------------------------------
+% --- Asia Miles --------------------------------------------------------------
+%
+% Every expected value below is a cell of asia-miles-lookup.csv, named in the
+% comment above it, and the five worked examples from the parsing guide are here
+% under their own letters. The guide states the property a correct parser has:
+% reproduce all five, refuse a Cathay-numbered Business ticket on partner metal,
+% and report an unsampled band as unobserved rather than as a number.
 
 cx_sector(Class, From, To, Cabin, Row) :-
+    cx_sector('CX', Class, From, To, Cabin, Row).
+
+cx_sector(Carrier, Class, From, To, Cabin, Row) :-
     itinerary_from_json(
         _{ cabin: Cabin, mode: "routing",
-           segments: [ _{ carrier: "CX", bookingClass: Class, from: From, to: To, stop: "stopover" },
-                       _{ carrier: "CX", bookingClass: Class, from: To, to: From } ] },
+           segments: [ _{ carrier: Carrier, bookingClass: Class, from: From, to: To, stop: "stopover" },
+                       _{ carrier: Carrier, bookingClass: Class, from: To, to: From } ] },
         Itin),
     annotate(Itin, A),
     earn(A, [cx], Report),
@@ -334,115 +422,142 @@ cx_family_sector(Class, Family, From, To, Cabin, Row) :-
     P.segments = [Row|_],
     !.
 
+% A Cathay flight number and a named operator, which is what tells its own metal
+% from a partner's -- and the one thing this programme cannot answer without.
+cx_metal_sector(Class, Operator, From, To, Cabin, Row) :-
+    itinerary_from_json(
+        _{ cabin: Cabin, mode: "routing",
+           segments: [ _{ marketingCarrier: "CX", operatingCarrier: Operator,
+                          bookingClass: Class, from: From, to: To, stop: "stopover" },
+                       _{ marketingCarrier: "CX", operatingCarrier: Operator,
+                          bookingClass: Class, from: To, to: From } ] },
+        Itin),
+    annotate(Itin, A),
+    earn(A, [cx], Report),
+    Report.programs = [P],
+    P.segments = [Row|_],
+    !.
+
 :- begin_tests(earn_cx).
 
-% Effective from 20 August 2025, Economy, Short - Type 2, fare class Y,B,H,K,
-% Flex: 35 Status Points and 3,500 Asia Miles. HKG-NRT is 1,841 miles and
-% touches Japan, so it is Type 2 rather than Type 1.
-test(a_declared_family_gives_one_number) :-
-    cx_family_sector("K", "flex", "HKG", "NRT", "economy", Row),
+% --- the two models ---------------------------------------------------------
+
+% Worked example B. CX / Economy / B H K Y / Economy Flex is 25;30;35;48;70;90,
+% and HKG-CDG is zone 5. Cathay's own metal earns a fixed number of miles at
+% exactly a hundred times the points.
+test(cathay_metal_earns_a_fixed_amount) :-
+    cx_family_sector("K", "flex", "HKG", "CDG", "economy", Row),
     assertion(Row.outcome == ok),
-    assertion(Row.bucket == 'Economy flex'),
+    assertion(Row.bucket == 'Economy Flex (B H K Y)'),
     assertion(Row.bucketBasis == 'fare family declared'),
-    assertion(sub_atom(Row.basis, _, _, _, 'Short - Type 2')),
+    assertion(sub_atom(Row.basis, _, _, _, 'Zone 5')),
     amount(Row, status_points, Points),
     amount(Row, asia_miles, Miles),
-    assertion(Points == 35),
-    assertion(Miles == 3500).
+    assertion(Points == 70),
+    assertion(Miles == 7000).
 
-% The same class with no family declared. Cathay lists Y,B,H,K under Flex (35),
-% Essential (25) and Light (18) on this zone, and the class cannot tell them
-% apart -- so the answer is the spread and the register says why.
-test(an_undeclared_family_gives_the_spread) :-
-    cx_sector("K", "HKG", "NRT", "economy", Row),
+% Worked example A, and the difference the whole rewrite turns on. A partner
+% earns banded points and Asia Miles as a percentage of the distance flown, so
+% the x100 relationship that holds over every Cathay row is false here: QF /
+% Business / C D I J is 15;25;45;60;75;85 and HKG-SYD is zone 4, which is 60
+% points and 125% of the distance rather than 6,000 miles.
+test(a_partner_earns_a_share_of_the_distance) :-
+    cx_sector('QF', "J", "HKG", "SYD", "business", Row),
     assertion(Row.outcome == ok),
+    assertion(Row.bucket == 'Business (C D I J)'),
     amount(Row, status_points, Points),
-    assertion(Points == range(18, 35)),
     amount(Row, asia_miles, Miles),
-    assertion(Miles == range(1800, 3500)),
-    assertion(sub_atom(Row.assumption, _, _, _, 'more than one fare family')).
+    assertion(Points == 60),
+    Expected is round(Row.distance * 125 / 100),
+    assertion(Miles == Expected),
+    assertion(Miles =\= Points * 100),
+    % The guide's own figures, against our great circle rather than Cathay's
+    % published sector mileage. Within a mile or two, which is the agreement the
+    % capture measured over 745 pairs.
+    assertion(abs(Row.distance - 4592) < 20),
+    assertion(abs(Miles - 5740) < 30).
 
-% The zone that a distance alone cannot decide, and the reason route_basis/5
-% takes the endpoints. HKG-SIN is 1,594 miles -- the same 751-to-2,750 band as
-% HKG-NRT -- but Singapore is not one of the six countries, so it is Type 1 and
-% earns less in every family.
+% The extra boundary. Partners band at 3,700 miles and Cathay does not, so a
+% sector between 2,751 and 5,000 falls in zone 3 on a partner and zone 4 on
+% Cathay -- the mistake the capture warns about, and the reason the scheme is an
+% argument to every zone fact.
+test(only_partners_have_a_3700_mile_boundary) :-
+    cx_sector('BA', "J", "LHR", "JFK", "business", Partner),
+    cx_sector("J", "HKG", "SYD", "business", Cathay),
+    assertion(Partner.distance > 2750), assertion(Partner.distance < 3700),
+    assertion(Cathay.distance > 2750), assertion(Cathay.distance < 5000),
+    assertion(sub_atom(Partner.basis, _, _, _, 'Zone 3 (2,751-3,700 miles)')),
+    assertion(sub_atom(Cathay.basis, _, _, _, 'Zone 4 (2,751-5,000 miles)')).
+
+% --- the Cathay region split -------------------------------------------------
+
+% The zone a distance alone cannot decide, and the reason route_basis/5 takes the
+% endpoints. HKG-NRT is 1,841 miles and HKG-SIN is 1,594 -- the same 751-to-2,750
+% band -- but Japan is one of the seven countries on the enhanced card and
+% Singapore is not, so the same fare earns 35 points on one and 30 on the other.
 test(the_same_band_splits_on_the_endpoints) :-
-    cx_family_sector("K", "flex", "HKG", "NRT", "economy", Type2),
-    cx_family_sector("K", "flex", "HKG", "SIN", "economy", Type1),
-    assertion(sub_atom(Type2.basis, _, _, _, 'Short - Type 2')),
-    assertion(sub_atom(Type1.basis, _, _, _, 'Short - Type 1')),
-    amount(Type2, status_points, P2),
-    amount(Type1, status_points, P1),
-    assertion(P2 == 35),
-    assertion(P1 == 30).
+    cx_family_sector("K", "flex", "HKG", "NRT", "economy", Enhanced),
+    cx_family_sector("K", "flex", "HKG", "SIN", "economy", Standard),
+    assertion(sub_atom(Enhanced.basis, _, _, _, 'enhanced region')),
+    assertion(\+ sub_atom(Standard.basis, _, _, _, 'enhanced')),
+    amount(Enhanced, status_points, PE),
+    amount(Standard, status_points, PS),
+    assertion(PE == 35),
+    assertion(PS == 30).
 
-% The published Business row is headed "Essential, Light", which is one heading
-% written across the whole grid rather than two Business fares -- Light is an
-% Economy fare. So D is Business Essential outright: one bucket, one number, and
-% nothing for the reader to be warned about.
-test(business_is_flex_or_essential_and_nothing_else) :-
-    forall(member(Class-Family-Points, ["J"-'Business flex'-130,
-                                        "D"-'Business essential'-100,
-                                        "P"-'Business essential'-100,
-                                        "I"-'Business essential'-100]),
-           (   cx_sector(Class, "HKG", "LHR", "business", Row),
-               assertion(Row.outcome == ok),
-               assertion(Row.bucket == Family),
-               assertion(Row.assumption == null),
-               amount(Row, status_points, P),
-               assertion(P == Points)
-           )).
+% Kazakhstan is on the enhanced list and was not on the six-country list this
+% programme was first built from, so it is asserted rather than left to the
+% generator's count.
+test(kazakhstan_is_on_the_enhanced_card) :-
+    cx_family_sector("K", "flex", "HKG", "ALA", "economy", Row),
+    assertion(sub_atom(Row.basis, _, _, _, 'enhanced region')).
 
-% Y is full-fare economy, so it is the flexible fare whatever the grid lists it
-% under. It is the one place in either programme where a fact that is not on the
-% page decides an answer, so the register carries the reason rather than claiming
-% the table settled it.
-test(full_fare_economy_is_settled_as_flex) :-
-    cx_sector("Y", "HKG", "LHR", "economy", Row),
-    assertion(Row.outcome == ok),
-    assertion(Row.bucket == 'Economy flex'),
-    assertion(sub_atom(Row.bucketBasis, _, _, _, 'full-fare economy')),
-    assertion(Row.assumption == null),
+% A city pair whose card is not the one its distance predicts. Cathay publishes
+% no reason for any of the four, so the override is applied before the distance
+% is looked at and the register says it is an exception rather than explaining it.
+test(an_override_beats_the_distance) :-
+    cx_family_sector("Y", "flex", "HKG", "CZX", "economy", Row),
+    assertion(Row.distance > 750),
+    assertion(sub_atom(Row.basis, _, _, _, 'Zone 1')),
+    assertion(sub_atom(Row.basis, _, _, _, 'exception to the distance rule')),
     amount(Row, status_points, Points),
-    assertion(Points == 70).
+    assertion(Points == 25).
 
-% ...and the classes beside it in the same group are not settled that way, so
-% they stay a range. A blanket assumption over the whole group would have been
-% the easy version of this and the wrong one.
-test(the_rest_of_the_group_is_still_a_range) :-
-    forall(member(Class, ["B", "H", "K"]),
-           (   cx_sector(Class, "HKG", "LHR", "economy", Row),
-               amount(Row, status_points, Points),
-               assertion(Points == range(40, 70))
-           )).
+% --- who operates the flight -------------------------------------------------
 
-% A Business ticket declared as a Light fare is told there is no such thing,
-% rather than being priced off a family that does not exist.
-test(there_is_no_business_light) :-
-    cx_family_sector("D", "light", "HKG", "LHR", "business", Row),
+% Worked example C. A Cathay flight number on partner metal earns the Codeshare
+% card, which is numerically Economy Light in every band -- 40 points on zone 5
+% rather than the 70 the same ticket earns on Cathay's own aircraft.
+test(a_codeshare_earns_the_codeshare_card) :-
+    cx_metal_sector("K", "BA", "HKG", "CDG", "economy", Codeshare),
+    cx_metal_sector("K", "CX", "HKG", "CDG", "economy", Own),
+    assertion(Codeshare.bucket == 'Codeshare (B H K Y)'),
+    assertion(Codeshare.bucketBasis == 'a Cathay flight number on a partner aircraft'),
+    amount(Codeshare, status_points, PC),
+    assertion(PC == 40),
+    % ...and the operator is the only thing that changed. Y is settled as Flex on
+    % Cathay's own metal and there is no such choice on the codeshare card.
+    amount(Own, status_points, PO),
+    assertion(PO == range(40, 70)),
+    assertion(PC \== PO).
+
+% Cathay publishes a codeshare rate for Economy and for nothing else, so the
+% premium cabins are unknown rather than quietly priced off the Cathay-operated
+% figure. This is one of the three things the guide says a correct parser must do.
+test(a_premium_codeshare_is_unknown_not_the_cathay_rate) :-
+    cx_metal_sector("J", "BA", "HKG", "CDG", "business", Row),
     assertion(Row.outcome == indeterminate),
-    assertion(sub_atom(Row.reason, _, _, _, 'light')).
+    assertion(Row.amounts == []),
+    assertion(sub_atom(Row.reason, _, _, _, 'Codeshare card')),
+    assertion(sub_atom(Row.reason, _, _, _, 'Economy only')).
 
-% Outside Economy a class does pick its family out, so no range arises.
-test(a_premium_cabin_class_settles_its_own_family) :-
-    forall(member(Class-Cabin-Points,
-                  ["J"-"business"-130, "F"-"first"-160,
-                   "W"-"business"-80, "E"-"business"-65]),
-           (   cx_sector(Class, "HKG", "LHR", Cabin, Row),
-               assertion(Row.outcome == ok),
-               assertion(Row.assumption == null),
-               amount(Row, status_points, P),
-               assertion(P == Points)
-           )).
-
-% A partner-marketed sector earns; Cathay just does not publish a table saying
-% how much. Undecided, and the message says so, because zero would be a claim
-% and the wrong one.
-test(a_partner_sector_is_undecided_not_zero) :-
+% ...and a Cathay flight number with no operator named cannot be answered at all,
+% because those two rates are what it is between.
+test(a_cathay_flight_number_needs_its_operator) :-
     itinerary_from_json(
-        _{ cabin: "business", mode: "routing",
-           segments: [ _{ carrier: "BA", bookingClass: "D", from: "LHR", to: "HKG", stop: "stopover" },
-                       _{ carrier: "CX", bookingClass: "J", from: "HKG", to: "LHR" } ] },
+        _{ cabin: "economy", mode: "routing",
+           segments: [ _{ marketingCarrier: "CX", bookingClass: "K", from: "HKG", to: "CDG", stop: "stopover" },
+                       _{ carrier: "CX", bookingClass: "K", from: "CDG", to: "HKG" } ] },
         Itin),
     annotate(Itin, A),
     earn(A, [cx], Report),
@@ -450,20 +565,263 @@ test(a_partner_sector_is_undecided_not_zero) :-
     P.segments = [Row|_],
     assertion(Row.outcome == indeterminate),
     assertion(Row.amounts == []),
-    assertion(sub_atom(Row.reason, _, _, _, 'It is not nothing.')).
+    assertion(sub_atom(Row.reason, _, _, _, 'operating carrier is not given')).
 
-% In every published row Asia Miles is exactly a hundred times Status Points.
-% The generator refuses to write the table without it; this asserts the table
-% that got written keeps it, because the day it stops being true is far likelier
-% to be the day a row was mistranscribed than the day Cathay changed it.
-test(asia_miles_are_a_hundred_status_points_throughout) :-
-    findall(Bucket-Zone,
-            (   cx_table:cx_rate(Bucket, Zone, status_points, fixed(Points)),
-                cx_table:cx_rate(Bucket, Zone, asia_miles, fixed(Miles)),
+% The marketing carrier picks the table and the operator does not, everywhere
+% except Cathay's own flight numbers. A QF ticket flown by anyone reads the QF
+% rows.
+test(a_partner_reads_its_own_rows_whoever_flies_it) :-
+    itinerary_from_json(
+        _{ cabin: "business", mode: "routing",
+           segments: [ _{ marketingCarrier: "QF", operatingCarrier: "EK",
+                          bookingClass: "J", from: "HKG", to: "SYD", stop: "stopover" },
+                       _{ carrier: "QF", bookingClass: "J", from: "SYD", to: "HKG" } ] },
+        Itin),
+    annotate(Itin, A),
+    earn(A, [cx], Report),
+    Report.programs = [P],
+    P.segments = [Row|_],
+    assertion(Row.outcome == ok),
+    amount(Row, status_points, Points),
+    assertion(Points == 60).
+
+% --- what is not observed, and what is a real zero ---------------------------
+
+% Worked example D. Nine carriers earn Asia Miles and no Status Points at all,
+% and they are exactly the non-oneworld partners. LH / Business / C D J Z is
+% 0;0;0;0;0;0, which is a measured zero and prints as one.
+test(a_zero_point_carrier_earns_a_real_zero) :-
+    cx_sector('LH', "C", "FRA", "JFK", "business", Row),
+    assertion(Row.outcome == ok),
+    amount(Row, status_points, Points),
+    assertion(Points == 0),
+    amount(Row, asia_miles, Miles),
+    Expected is round(Row.distance * 125 / 100),
+    assertion(Miles == Expected).
+
+% ...and a band nobody sampled is not that. American was sampled in zones 1-2 and
+% 4-6, so its zone 3 cells are `?` in the capture, and a `?` reaches the reader as
+% undecided rather than as a zero that would add correctly and read wrongly. The
+% miles are still known, because they come off the distance rather than the band.
+test(an_unsampled_band_is_undecided_not_zero) :-
+    cx_sector('AA', "J", "LHR", "JFK", "business", Row),
+    assertion(Row.outcome == ok),
+    assertion(sub_atom(Row.basis, _, _, _, 'Zone 3')),
+    assertion(sub_atom(Row.basis, _, _, _, 'never observed')),
+    amount(Row, status_points, Points),
+    assertion(Points == indeterminate),
+    amount(Row, asia_miles, Miles),
+    assertion(integer(Miles)),
+    assertion(Miles > 0).
+
+% The two are told apart on the page as well as in the term. Air New Zealand
+% earns a real zero everywhere and was sampled only in zone 5, so its zone 1
+% figure is an inferred zero -- and the band says so, which is the difference
+% between a zero a reader can rely on and one nobody measured.
+test(an_inferred_zero_says_it_was_never_sampled) :-
+    cx_sector('NZ', "B", "AKL", "CHC", "economy", Inferred),
+    cx_sector('NZ', "B", "AKL", "SIN", "economy", Observed),
+    amount(Inferred, status_points, PI),
+    amount(Observed, status_points, PO),
+    assertion(PI == 0),
+    assertion(PO == 0),
+    assertion(sub_atom(Inferred.basis, _, _, _, 'never observed')),
+    assertion(\+ sub_atom(Observed.basis, _, _, _, 'never observed')).
+
+% --- fare brands --------------------------------------------------------------
+
+% The one thing this programme forces on the kernel. Cathay lists Y,B,H,K under
+% Flex (70), Essential (60) and Light (40) on zone 5, and the class cannot tell
+% them apart -- so the answer is the spread and the register says why.
+test(an_undeclared_brand_gives_the_spread) :-
+    cx_sector("K", "HKG", "CDG", "economy", Row),
+    assertion(Row.outcome == ok),
+    amount(Row, status_points, Points),
+    assertion(Points == range(40, 70)),
+    amount(Row, asia_miles, Miles),
+    assertion(Miles == range(4000, 7000)),
+    assertion(sub_atom(Row.assumption, _, _, _, 'more than one fare brand')).
+
+% Y is full-fare economy, so it is the flexible fare whatever the grid lists it
+% under. It is the one place in either programme where a fact that is not on the
+% page decides an answer, so the register carries the reason rather than claiming
+% the table settled it.
+test(full_fare_economy_is_settled_as_flex) :-
+    cx_sector("Y", "HKG", "CDG", "economy", Row),
+    assertion(Row.outcome == ok),
+    assertion(Row.bucket == 'Economy Flex (B H K Y)'),
+    assertion(sub_atom(Row.bucketBasis, _, _, _, 'full-fare economy')),
+    assertion(Row.assumption == null),
+    amount(Row, status_points, Points),
+    assertion(Points == 70).
+
+% ...and only where there is a brand to settle. British Airways files one Economy
+% card for B, H and Y, so Y there is not a statement about flexibility and the
+% register must not pretend it decided anything.
+test(the_settled_class_is_a_cathay_fact_only) :-
+    cx_sector('BA', "Y", "HKG", "BKK", "economy", Row),
+    assertion(Row.bucket == 'Economy (B H Y)'),
+    assertion(Row.bucketBasis == 'the only card listing this class').
+
+% Fare brands are Cathay's own Economy and nowhere else, so a family left set in
+% a picker changes nothing on a card that has no brand axis. It is quietly
+% irrelevant rather than an error: saying so on every sector it did not decide
+% would be noise about a field that decided nothing.
+test(a_brand_only_applies_where_there_is_one) :-
+    cx_family_sector("D", "light", "HKG", "CDG", "business", Declared),
+    cx_sector("D", "HKG", "CDG", "business", Plain),
+    assertion(Declared.outcome == ok),
+    assertion(Declared.bucket == 'Business (D I P)'),
+    amount(Declared, status_points, PD),
+    amount(Plain, status_points, PP),
+    assertion(PD == 100),
+    assertion(PD == PP).
+
+% A family the programme does not publish is refused rather than ignored, which
+% is the same call check_tier/2 makes about a tier: a caller who mistyped it and
+% got the base answer back could not tell that from having declared nothing.
+test(an_unpublished_fare_brand_is_refused) :-
+    cx_family_sector("K", "premium", "HKG", "CDG", "economy", Row),
+    assertion(Row.outcome == indeterminate),
+    assertion(sub_atom(Row.reason, _, _, _, 'no fare family called premium')).
+
+% Outside Economy a class picks its card out on its own, so no range arises. The
+% two Business cards are the C,J one and the D,I,P one, which the old capture read
+% as two fare families and this one does not name at all.
+test(a_premium_cabin_class_picks_its_own_card) :-
+    forall(member(Class-Cabin-Card-Points,
+                  ["J"-"business"-'Business (C J)'-130,
+                   "D"-"business"-'Business (D I P)'-100,
+                   "F"-"first"-'First (A F)'-160,
+                   "W"-"business"-'Premium Economy (R W)'-80,
+                   "E"-"business"-'Premium Economy (E)'-65]),
+           (   cx_sector(Class, "HKG", "CDG", Cabin, Row),
+               assertion(Row.outcome == ok),
+               assertion(Row.bucket == Card),
+               assertion(Row.assumption == null),
+               amount(Row, status_points, P),
+               assertion(P == Points)
+           )).
+
+% A class can sit in two cabins on one airline -- Japan Airlines files A in First
+% at 150% and again in Economy at 50% -- and the cabin the fare was sold in is
+% what tells them apart. The cabin narrows an answer here and never removes the
+% only one: a Cathay ticket in W on a Business fare is still a Premium Economy
+% seat, which the case above asserts.
+test(a_class_in_two_cabins_is_settled_by_the_cabin) :-
+    cx_sector('JL', "A", "NRT", "LHR", "first", First),
+    cx_sector('JL', "A", "NRT", "LHR", "economy", Economy),
+    assertion(First.bucket == 'First (A F)'),
+    assertion(Economy.bucket == 'Economy (A I)'),
+    amount(First, asia_miles, MF),
+    amount(Economy, asia_miles, ME),
+    assertion(MF =:= 3 * ME).
+
+% --- American's one conditional row ------------------------------------------
+
+% The only percentage in the table that varies, and it varies on the sector
+% rather than on the fare -- which is why it reaches the accrual as part of the
+% route basis and needed no change to the kernel's protocol. Domestic means both
+% airports in the same country, not inside the USA.
+test(american_business_is_150_percent_at_home_and_125_abroad) :-
+    cx_sector('AA', "J", "JFK", "LAX", "business", Domestic),
+    cx_sector('AA', "J", "LHR", "JFK", "business", International),
+    amount(Domestic, asia_miles, MD),
+    amount(International, asia_miles, MI),
+    ExpectedD is round(Domestic.distance * 150 / 100),
+    ExpectedI is round(International.distance * 125 / 100),
+    assertion(MD == ExpectedD),
+    assertion(MI == ExpectedI).
+
+% --- what is outside the programme -------------------------------------------
+
+% Emirates is not one of the 26, and a sector on it earns no Asia Miles at all.
+% That is `n/a` -- a fact about the ticket -- and not the undecided a missing
+% table would give, which is the distinction the old Cathay-only implementation
+% could not make and reported every partner as.
+test(an_airline_outside_the_programme_earns_nothing) :-
+    cx_sector('EK', "J", "DXB", "LHR", "business", Row),
+    assertion(Row.outcome == not_applicable),
+    assertion(Row.amounts == []),
+    assertion(sub_atom(Row.reason, _, _, _, 'neither Cathay nor one of its 25 partners')).
+
+% --- the tables themselves ---------------------------------------------------
+
+% Asia Miles is exactly a hundred times Status Points on every Cathay row, and on
+% no partner row. Asserting both halves is the point: the first version of this
+% capture stated the relationship as a general invariant and recommended it as a
+% parser checksum, which was wrong, and a table that quietly grew a fixed partner
+% rate would otherwise look right.
+test(the_x100_rule_is_cathays_and_only_cathays) :-
+    findall(Card-Zone,
+            (   cx_table:cx_rate(Card, Zone, _, Rates),
+                Card = fare(cx, _, _, _),
+                memberchk(rate(status_points, fixed(Points)), Rates),
+                \+ memberchk(rate(asia_miles, fixed(_)), Rates)
+            ),
+            NotFixed),
+    assertion(NotFixed == []),
+    findall(Card-Zone,
+            (   cx_table:cx_rate(Card, Zone, _, Rates),
+                Card = fare(cx, _, _, _),
+                memberchk(rate(status_points, fixed(Points)), Rates),
+                memberchk(rate(asia_miles, fixed(Miles)), Rates),
                 Miles =\= Points * 100
             ),
             Broken),
-    assertion(Broken == []).
+    assertion(Broken == []),
+    findall(Card,
+            (   cx_table:cx_rate(Card, _, _, Rates),
+                Card \= fare(cx, _, _, _),
+                memberchk(rate(asia_miles, fixed(_)), Rates)
+            ),
+            PartnerFixed),
+    assertion(PartnerFixed == []).
+
+% Which carriers cannot price an Explorer fare at all, held as an exact list.
+%
+% Section 5(b) publishes the class this fare books into per carrier, so those are
+% the codes this repository actually asks for -- and the partner cards were
+% sampled 23 to 90 city pairs each, where a sampled pair only observes the
+% classes it sells. Three carriers are missing the very code an Explorer ticket
+% is sold in. That is a hole in the observations rather than a mistake in reading
+% them, so it is written down rather than fixed here, and src/earn/cx.pl says as
+% much on the sector instead of reporting it as a decision the airline made.
+%
+% Asserted exactly, both ways: a fourth carrier appearing is a regression in the
+% capture, and one of these three disappearing means a re-sample filled it in and
+% this list should lose a line.
+test(three_carriers_cannot_price_an_explorer_fare) :-
+    findall(Airline-Missing,
+            (   cx_airlines:cx_airline(Airline, _, _),
+                booking_codes:carrier_has_codes(Airline),
+                findall(Code,
+                        (   booking_codes:booking_column(Column),
+                            booking_codes:booking_code(Airline, _, Column, Code),
+                            \+ cx_buckets:cx_class(Airline, _, _, _, Code)
+                        ),
+                        Missing0),
+                sort(Missing0, Missing),
+                Missing \== []
+            ),
+            Gaps0),
+    sort(Gaps0, Gaps),
+    assertion(Gaps == [jl-[d, l], mh-[i, l], nu-[d, l]]).
+
+% Every card the class table can reach has a rate in every zone of its own
+% scheme, or is one of the cells the capture marks unobserved. A card with no row
+% at all is a transcription error that would surface as an undecided sector the
+% reader would take for their own fault.
+test(every_card_prices_every_zone_of_its_scheme) :-
+    findall(Card-Zone,
+            (   cx_buckets:cx_row(Airline, Cabin, Brand, Group),
+                Card = fare(Airline, Cabin, Brand, Group),
+                cx_airlines:cx_airline(Airline, _, Scheme),
+                cx_zones:cx_zone(Scheme, Zone, _, _, _),
+                \+ cx_table:cx_rate(Card, Zone, _, _)
+            ),
+            Missing),
+    assertion(Missing == []).
 
 :- end_tests(earn_cx).
 

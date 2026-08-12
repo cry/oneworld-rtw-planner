@@ -239,13 +239,20 @@ test(a_surface_sector_earns_nothing_everywhere) :-
            ;   true
            )).
 
-% The load-bearing one. An unnamed operator must never be priced as zero, in any
-% programme: the restriction it blocks is about who flies the flight, and "the
-% operator is unknown" is not an answer to that.
+% The load-bearing one. Where a programme's answer turns on who flies the flight,
+% an unnamed operator must never be priced as zero: "the operator is unknown" is
+% not an answer to the question the field decides.
+%
+% The flight number is Cathay's because both registered programmes turn on the
+% operator there and for different reasons -- Qantas refuses earn on a codeshare
+% flown outside oneworld, and Cathay prices its own metal and a partner's off two
+% different cards. A partner's flight number would no longer do: Asia Miles reads
+% the marketing carrier's rows whoever flies the aircraft, which is a real
+% difference between the programmes rather than a hole in one of them.
 test(an_unknown_operating_carrier_is_undecided_never_zero) :-
     itinerary(_{ cabin: "business", mode: "routing",
-                 segments: [ _{from: "LHR", to: "JFK", marketingCarrier: "BA", bookingClass: "D", stop: "stopover"},
-                             _{from: "JFK", to: "LHR", marketingCarrier: "BA", bookingClass: "D"} ] },
+                 segments: [ _{from: "HKG", to: "LHR", marketingCarrier: "CX", bookingClass: "D", stop: "stopover"},
+                             _{from: "LHR", to: "HKG", marketingCarrier: "CX", bookingClass: "D"} ] },
               A),
     earn_programs(Ids),
     earn(A, Ids, Report),
@@ -259,8 +266,8 @@ test(an_unknown_operating_carrier_is_undecided_never_zero) :-
 % smaller number that looks complete.
 test(an_unpriced_sector_makes_the_total_a_lower_bound) :-
     itinerary(_{ cabin: "business", mode: "routing",
-                 segments: [ _{from: "LHR", to: "JFK", marketingCarrier: "BA", bookingClass: "D", stop: "stopover"},
-                             _{from: "JFK", to: "LHR", carrier: "BA", bookingClass: "D"} ] },
+                 segments: [ _{from: "HKG", to: "LHR", marketingCarrier: "CX", bookingClass: "D", stop: "stopover"},
+                             _{from: "LHR", to: "HKG", carrier: "CX", bookingClass: "D"} ] },
               A),
     earn_programs(Ids),
     earn(A, Ids, Report),

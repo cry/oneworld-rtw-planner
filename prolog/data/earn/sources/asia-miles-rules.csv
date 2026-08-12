@@ -1,0 +1,76 @@
+record_type,key,value,notes
+model,CX,banded,"Cathay Pacific uses fixed points AND fixed miles per zone. Asia Miles = status_points x 100 exactly"
+model,all_25_partners,distance_proportional,"Asia Miles = sector distance x percentage. Status Points come from a separate band table. The x100 relationship does NOT hold"
+band,CX_boundaries,"750 / 2750 / 5000 / 7500","5 distance bands. Band 2 additionally splits by region into 2-standard and 2-enhanced, giving 6 rate cards"
+band,partner_boundaries,"750 / 2750 / 3700 / 5000 / 7500","6 distance bands. Partners have an extra boundary at 3700 mi that CX does not have"
+band,partner_zone_1,0-750 mi,Inclusive
+band,partner_zone_2,751-2750 mi,Inclusive
+band,partner_zone_3,2751-3700 mi,"Inclusive. This band does not exist in the CX table"
+band,partner_zone_4,3701-5000 mi,Inclusive
+band,partner_zone_5,5001-7500 mi,Inclusive
+band,partner_zone_6,7501+ mi,Unbounded
+boundary,750 mi,both CX and partners,"FUZZY on great-circle. Bracketed to 749-756 across airlines. Cathay uses published sector mileage"
+boundary,2750 mi,both CX and partners,"CLEAN. Bracketed to 2743-2784"
+boundary,3700 mi,partners only,"CLEAN. Bracketed to 3699-3711 by a targeted 64-pair refinement across BA, AA, JL and QF"
+boundary,5000 mi,both CX and partners,"CLEAN. Bracketed to 4986-5060"
+boundary,7500 mi,both CX and partners,"CLEAN. Bracketed to 7312-7796"
+rule,distance_definition,published sector mileage,"Recoverable from any partner table: the highest-earning Economy class earns exactly 100% of sector distance. Validated against great-circle on 745 pairs, 100% agreement within 6%"
+rule,CX_asia_miles,status_points x 100,"Held in all 6,372 CX observations. CX only"
+rule,CX_zone2_enhanced,"Japan, India, Bangladesh, Sri Lanka, Nepal, Kazakhstan, Indonesia","If EITHER endpoint is in one of these 7 countries and distance is 751-2750 mi, CX uses the enhanced card. 111/111 and 516/516, zero country-pair overlap"
+rule,CX_codeshare_economy,equals Economy Light,"Partner-operated metal under a CX flight number earns the Light rate exactly. 60/60 sampled pairs"
+rule,CX_codeshare_premium,not published,"The CX table shows no codeshare row for Premium Economy, Business or First"
+rule,AA_business_multiplier,150% domestic / 125% international,"American Airlines is the ONLY airline whose mile percentage varies. Domestic means both airports in the same country. Verified 90/90 with zero violations, including AKL-CHC as domestic New Zealand"
+rule,symmetry,A-B equals B-A,"Verified on CX across 1,588 bidirectional pairs, zero exceptions"
+zero_points,AC,Air Canada,Earns Asia Miles but zero Status Points on every observed sector
+zero_points,CA,Air China,Earns Asia Miles but zero Status Points on every observed sector
+zero_points,NZ,Air New Zealand,Earns Asia Miles but zero Status Points on every observed sector
+zero_points,OS,Austrian Airlines,Earns Asia Miles but zero Status Points on every observed sector
+zero_points,PG,Bangkok Airways,Earns Asia Miles but zero Status Points on every observed sector
+zero_points,LA,LATAM,Earns Asia Miles but zero Status Points on every observed sector
+zero_points,LH,Lufthansa,Earns Asia Miles but zero Status Points on every observed sector
+zero_points,ZH,Shenzhen Airlines,Earns Asia Miles but zero Status Points on every observed sector
+zero_points,LX,Swiss,Earns Asia Miles but zero Status Points on every observed sector
+zero_points,_pattern,non-oneworld partners,"All 9 zero-point carriers are non-oneworld. Every oneworld member in the list earns Status Points"
+override,HKG-CZX / CZX-HKG,CX Zone 1,"Great-circle 755 mi predicts Zone 2; actual card is Zone 1"
+override,MFM-NKG / NKG-MFM,CX Zone 2-standard,"Great-circle 738 mi predicts Zone 1; actual card is Zone 2"
+override,ALA-TSE / TSE-ALA,CX Zone 4,"Almaty-Astana is 591 gc mi but earns the 5001-7500 card. No rule explains this"
+override,HKG-NOP / NOP-HKG,CX Zone 5,"NOP could not be resolved to a location so distance is unverified"
+unresolved_code,"NOP, SPL, PNH, ULN",present in API absent from UI,"Returned by the airports endpoint with no city/country metadata and not selectable in the dropdown"
+note,rail_stations,TGV Air codes,"XDB Lille, ZFQ Bordeaux, XYD Lyon, XRF Marseille, QJZ Nantes, ZLN Le Mans, XSH Tours, XOP Poitiers, XPJ Montpellier, XHK Valence are French rail stations"
+coverage,NZ,zones 5 only,"3 pairs, 5697-5867 mi. Zones 1,2,3,4,6 unobserved"
+coverage,OS,zones 1 only,"4 pairs, 193-488 mi. Zones 2,3,4,5,6 unobserved"
+coverage,AC,zones 1-2,"26 pairs, 38-2287 mi. Zones 3,4,5,6 unobserved"
+coverage,I2,zones 1-2,"33 pairs, 221-1796 mi. Zones 3,4,5,6 unobserved"
+coverage,NU,zones 1-2,"23 pairs, 75-1210 mi. Zones 3,4,5,6 unobserved"
+coverage,PG,zones 1-2,"40 pairs, 75-1967 mi. Zones 3,4,5,6 unobserved"
+coverage,ZH,zones 1-2,"90 pairs, 109-2246 mi. Zones 3,4,5,6 unobserved"
+coverage,FJ,zones 1-2 4-5,"41 pairs, 75-6626 mi. Zones 3,6 unobserved"
+coverage,LX,zones 1-2 4-5,"28 pairs, 31-5867 mi. Zones 3,6 unobserved"
+coverage,LA,zones 1-4,"90 pairs, 107-4986 mi. Zones 5,6 unobserved"
+coverage,RJ,zones 1-4,"82 pairs, 39-4740 mi. Zones 5,6 unobserved"
+coverage,AA,zones 1-2 4-6,"90 pairs, 68-8794 mi. Zone 3 unobserved"
+coverage,AS,zones 1-5,"43 pairs, 56-5438 mi. Zone 6 unobserved"
+coverage,CA,zones 1-5,"90 pairs, 163-7355 mi. Zone 6 unobserved"
+coverage,JL,zones 1-5,"89 pairs, 105-6737 mi. Zone 6 unobserved"
+coverage,LH,zones 1-5,"32 pairs, 85-5867 mi. Zone 6 unobserved"
+coverage,QR,zones 1-5,"90 pairs, 55-7036 mi. Zone 6 unobserved"
+coverage,AT,all 6 zones,"80 pairs, 88-7689 mi. Complete"
+coverage,AY,all 6 zones,"89 pairs, 50-9031 mi. Complete"
+coverage,BA,all 6 zones,"90 pairs, 58-9000 mi. Complete"
+coverage,IB,all 6 zones,"89 pairs, 45-10568 mi. Complete"
+coverage,MH,all 6 zones,"79 pairs, 23-7796 mi. Complete"
+coverage,QF,all 6 zones,"89 pairs, 44-10505 mi. Complete"
+coverage,UL,all 6 zones,"81 pairs, 65-8034 mi. Complete"
+coverage,WY,all 6 zones,"72 pairs, 121-9031 mi. Complete"
+coverage,CX,all 6 cards,"1,593 city pairs exhaustively enumerated, not sampled. Complete"
+validation,partner_reproduction_points,26780 / 26780,"Every partner observation reproduced exactly by the lookup table"
+validation,partner_reproduction_miles,26780 / 26780,"Every partner observation reproduced within 1 mile of round(distance x pct)"
+validation,partner_zone_fit,1828 / 1828,"Every airline-cabin-class-zone key is single-valued under the 750/2750/3700/5000/7500 cutoffs"
+validation,CX_reproduction,1549 / 1557,"CX city pairs reproduced by distance + region rule; the 8 misses are the 4 override pairs in both directions"
+validation,distance_derivation,745 pairs,"Max Economy miles matched great-circle within 6% for 100% of pairs on every airline (CA 98%)"
+validation,ui_crosscheck,HKG-CDG and QF HKG-SYD,"Both match the rendered calculator exactly"
+scope,airlines,26,"Cathay Pacific plus 25 partners, as listed in the calculator airline dropdown"
+scope,trip_type,one way,All figures are one-way earning
+scope,sampling,"1,752 pairs, 26,780 observations","Partners sampled 23-90 pairs each; CX exhaustively enumerated at 1,593 pairs"
+scope,snapshot_date,2026-08-11,Cathay revised CX rates effective 20 August 2025
+scope,source,api.cathaypacific.com/mpo-miles-services/v3/miles-calculator,airports and calculates endpoints

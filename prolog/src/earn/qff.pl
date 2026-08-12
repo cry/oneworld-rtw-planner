@@ -115,9 +115,9 @@ earn_kernel:fare_bucket(qff, S, A, Bucket, Basis) :-
     ->  category_hits(Carrier, Scopes, Class, Categories),
         resolve(Carrier, S, Scopes, Class, Categories, Bucket, Basis)
     ;   % No class given, so the fare's own is used -- see src/earn/presumed.pl.
-        presumed_classes(S, A.cabin, Presumed),
+        presumed_classes(S, A, Presumed),
         Presumed \== [],
-        presumption(A.cabin, Presumed, Why)
+        presumption(A, Presumed, Why)
     ->  findall(Hit,
                 ( member(C, Presumed), category_hits(Carrier, Scopes, C, Hits), member(Hit, Hits) ),
                 Categories),
@@ -135,14 +135,27 @@ resolve_presumed(_, _, Categories, Why, category(Category), Why) :-
     findall(C, member(C-_, Categories), Cs),
     sort(Cs, [Category]),
     !.
-% Two of the codes this fare books into earn in different categories. That can
-% happen where a carrier files the DONE and IONE3 business codes apart, and
-% naming both is a smaller claim than choosing one.
-resolve_presumed(_, _, Categories, Why, indeterminate(Reason), null) :-
+% The codes this fare books into earn in more than one category. The sector is
+% priced against every one of them and the answer is the spread -- the same
+% posture the Cathay resolver takes over a class its table lists under three
+% fare brands, and the kernel path both share.
+%
+% This used to refuse instead, and refusing was wrong twice over: a spread is
+% strictly more informative than nothing, and the case it fired on most was one
+% the fare basis had already settled -- see basis_classes/5 in
+% data/booking_codes.pl, which is why it now fires rarely rather than on every
+% classless Qantas sector. It stays because a carrier can still file two codes
+% of one fare in two categories, and the next one to do it should widen an
+% answer rather than remove one.
+resolve_presumed(_, _, Categories, Why, one_of(Buckets, Reason), null) :-
+    findall(category(C), member(C-_, Categories), Buckets0),
+    sort(Buckets0, Buckets),
     findall(Name, ( member(C-_, Categories), category_label(C, Name) ), Names0),
     sort(Names0, Names),
     atomic_list_concat(Names, ' or ', List),
-    format(atom(Reason), 'This fare books into codes that earn in ~w (~w).', [List, Why]).
+    format(atom(Reason),
+           'This fare books into codes that earn in ~w, and the figures span both (~w).',
+           [List, Why]).
 
 category_hits(Carrier, Scopes, Class, Categories) :-
     findall(Category-Scope,

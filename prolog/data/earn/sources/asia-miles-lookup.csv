@@ -1,0 +1,158 @@
+airline,airline_name,zone_scheme,cabin,booking_classes,fare_brand,operated_by,status_points_by_zone,asia_miles_basis,asia_miles_value
+CX,Cathay Pacific,CX,First,A F,First,Cathay Pacific operated,35;45;60;110;160;180,status_points_x100,100
+CX,Cathay Pacific,CX,Business,C J,Business,Cathay Pacific operated,30;40;50;90;130;150,status_points_x100,100
+CX,Cathay Pacific,CX,Business,D I P,Business,Cathay Pacific operated,25;35;45;75;100;120,status_points_x100,100
+CX,Cathay Pacific,CX,Premium Economy,E,Premium Economy,Cathay Pacific operated,15;20;25;45;65;85,status_points_x100,100
+CX,Cathay Pacific,CX,Premium Economy,R W,Premium Economy,Cathay Pacific operated,25;30;35;60;80;100,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,B H K Y,Economy Flex,Cathay Pacific operated,25;30;35;48;70;90,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,B H K Y,Economy Essential,Cathay Pacific operated,15;20;25;38;60;70,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,B H K Y,Economy Light,Cathay Pacific operated,10;15;18;30;40;50,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,B H K Y,Codeshare,Partner operated (CX codeshare),10;15;18;30;40;50,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,L M V,Economy Flex,Cathay Pacific operated,20;25;30;42;60;80,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,L M V,Economy Essential,Cathay Pacific operated,10;15;20;32;50;60,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,L M V,Economy Light,Cathay Pacific operated,6;10;12;22;32;40,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,L M V,Codeshare,Partner operated (CX codeshare),6;10;12;22;32;40,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,N O Q S,Economy Flex,Cathay Pacific operated,15;20;25;32;38;45,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,N O Q S,Economy Essential,Cathay Pacific operated,5;10;15;22;28;35,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,N O Q S,Economy Light,Cathay Pacific operated,3;6;8;15;18;25,status_points_x100,100
+CX,Cathay Pacific,CX,Economy,N O Q S,Codeshare,Partner operated (CX codeshare),3;6;8;15;18;25,status_points_x100,100
+AA,American Airlines,PARTNER,First,A F,First,Marketing carrier AA,15;25;?;70;90;100,percent_of_distance,150
+AA,American Airlines,PARTNER,Business,C D I J R,Business,Marketing carrier AA,15;25;?;60;75;85,percent_of_distance,150 domestic / 125 international
+AA,American Airlines,PARTNER,Premium Economy,P,Premium Economy,Marketing carrier AA,5;10;?;25;35;40,percent_of_distance,100
+AA,American Airlines,PARTNER,Premium Economy,W,Premium Economy,Marketing carrier AA,10;15;?;30;40;45,percent_of_distance,110
+AA,American Airlines,PARTNER,Economy,Y,Economy,Marketing carrier AA,5;10;?;25;35;40,percent_of_distance,100
+AA,American Airlines,PARTNER,Economy,H K L M V,Economy,Marketing carrier AA,5;10;?;20;25;30,percent_of_distance,75
+AA,American Airlines,PARTNER,Economy,G N Q S,Economy,Marketing carrier AA,5;5;?;10;10;10,percent_of_distance,25
+AC,Air Canada,PARTNER,Business,C D J P Z,Business,Marketing carrier AC,0;0;0;0;0;0,percent_of_distance,125
+AC,Air Canada,PARTNER,Premium Economy,A E O,Premium Economy,Marketing carrier AC,0;0;0;0;0;0,percent_of_distance,110
+AC,Air Canada,PARTNER,Economy,B H M Q U V W Y,Economy,Marketing carrier AC,0;0;0;0;0;0,percent_of_distance,100
+AC,Air Canada,PARTNER,Economy,G K L S T,Economy,Marketing carrier AC,0;0;0;0;0;0,percent_of_distance,25
+AS,Alaska Air Group,PARTNER,First,A C D F I J,First,Marketing carrier AS,15;25;50;70;90;?,percent_of_distance,150
+AS,Alaska Air Group,PARTNER,Economy,B H K L M N S V Y,Economy,Marketing carrier AS,5;10;20;25;35;?,percent_of_distance,100
+AS,Alaska Air Group,PARTNER,Economy,G O Q,Economy,Marketing carrier AS,5;10;15;15;20;?,percent_of_distance,50
+AT,Royal Air Maroc,PARTNER,Business,C D I J,Business,Marketing carrier AT,15;25;45;60;75;85,percent_of_distance,125
+AT,Royal Air Maroc,PARTNER,Economy,Y,Economy,Marketing carrier AT,5;10;20;25;35;40,percent_of_distance,100
+AT,Royal Air Maroc,PARTNER,Economy,B H,Economy,Marketing carrier AT,5;10;15;15;20;25,percent_of_distance,50
+AT,Royal Air Maroc,PARTNER,Economy,K L M,Economy,Marketing carrier AT,5;5;5;10;10;10,percent_of_distance,25
+AY,Finnair,PARTNER,Business,C D J,Business,Marketing carrier AY,15;25;45;60;75;85,percent_of_distance,125
+AY,Finnair,PARTNER,Business,I R,Business,Marketing carrier AY,10;20;35;50;65;70,percent_of_distance,100
+AY,Finnair,PARTNER,Premium Economy,E P T W,Premium Economy,Marketing carrier AY,5;10;20;25;35;40,percent_of_distance,100
+AY,Finnair,PARTNER,Economy,B H K M Y,Economy,Marketing carrier AY,5;10;20;25;35;40,percent_of_distance,100
+AY,Finnair,PARTNER,Economy,L V,Economy,Marketing carrier AY,5;10;15;15;20;25,percent_of_distance,50
+BA,British Airways,PARTNER,First,A F,First,Marketing carrier BA,15;25;50;70;90;100,percent_of_distance,150
+BA,British Airways,PARTNER,Business,C D I J R,Business,Marketing carrier BA,15;25;45;60;75;85,percent_of_distance,125
+BA,British Airways,PARTNER,Premium Economy,E T,Premium Economy,Marketing carrier BA,5;10;20;25;35;40,percent_of_distance,100
+BA,British Airways,PARTNER,Premium Economy,W,Premium Economy,Marketing carrier BA,10;15;25;30;40;45,percent_of_distance,110
+BA,British Airways,PARTNER,Economy,B H Y,Economy,Marketing carrier BA,5;10;20;25;35;40,percent_of_distance,100
+BA,British Airways,PARTNER,Economy,K L M N Q S V,Economy,Marketing carrier BA,5;5;5;10;10;10,percent_of_distance,25
+CA,Air China,PARTNER,First,A,First,Marketing carrier CA,0;0;0;0;0;0,percent_of_distance,150
+CA,Air China,PARTNER,First,F,First,Marketing carrier CA,0;0;0;0;0;0,percent_of_distance,200
+CA,Air China,PARTNER,Business,C J,Business,Marketing carrier CA,0;0;0;0;0;0,percent_of_distance,150
+CA,Air China,PARTNER,Business,D R Z,Business,Marketing carrier CA,0;0;0;0;0;0,percent_of_distance,125
+CA,Air China,PARTNER,Premium Economy,E,Premium Economy,Marketing carrier CA,0;0;0;0;0;0,percent_of_distance,100
+CA,Air China,PARTNER,Premium Economy,G,Premium Economy,Marketing carrier CA,0;0;0;0;0;0,percent_of_distance,110
+CA,Air China,PARTNER,Economy,B Y,Economy,Marketing carrier CA,0;0;0;0;0;0,percent_of_distance,100
+CA,Air China,PARTNER,Economy,M U,Economy,Marketing carrier CA,0;0;0;0;0;0,percent_of_distance,75
+CA,Air China,PARTNER,Economy,H Q S T V W,Economy,Marketing carrier CA,0;0;0;0;0;0,percent_of_distance,50
+CA,Air China,PARTNER,Economy,K L P,Economy,Marketing carrier CA,0;0;0;0;0;0,percent_of_distance,25
+FJ,Fiji Airways,PARTNER,Business,C J,Business,Marketing carrier FJ,15;25;?;60;75;?,percent_of_distance,150
+FJ,Fiji Airways,PARTNER,Business,D I Z,Business,Marketing carrier FJ,10;20;?;50;65;?,percent_of_distance,125
+FJ,Fiji Airways,PARTNER,Economy,B H K Y,Economy,Marketing carrier FJ,5;10;?;25;35;?,percent_of_distance,100
+FJ,Fiji Airways,PARTNER,Economy,L M W,Economy,Marketing carrier FJ,5;10;?;20;25;?,percent_of_distance,75
+FJ,Fiji Airways,PARTNER,Economy,N S V,Economy,Marketing carrier FJ,5;10;?;15;20;?,percent_of_distance,50
+FJ,Fiji Airways,PARTNER,Economy,A F G O P Q R T,Economy,Marketing carrier FJ,5;5;?;10;10;?,percent_of_distance,25
+I2,Iberia Express,PARTNER,Business,C D I J R,Business,Marketing carrier I2,15;25;?;?;?;?,percent_of_distance,125
+I2,Iberia Express,PARTNER,Premium Economy,E T,Premium Economy,Marketing carrier I2,5;10;?;?;?;?,percent_of_distance,100
+I2,Iberia Express,PARTNER,Premium Economy,W,Premium Economy,Marketing carrier I2,10;15;?;?;?;?,percent_of_distance,110
+I2,Iberia Express,PARTNER,Economy,B H Y,Economy,Marketing carrier I2,5;10;?;?;?;?,percent_of_distance,100
+I2,Iberia Express,PARTNER,Economy,F G K L M N Q S V Z,Economy,Marketing carrier I2,5;5;?;?;?;?,percent_of_distance,25
+IB,Iberia,PARTNER,Business,C D I J R,Business,Marketing carrier IB,15;25;45;60;75;85,percent_of_distance,125
+IB,Iberia,PARTNER,Premium Economy,E T,Premium Economy,Marketing carrier IB,5;10;20;25;35;40,percent_of_distance,100
+IB,Iberia,PARTNER,Premium Economy,W,Premium Economy,Marketing carrier IB,10;15;25;30;40;45,percent_of_distance,110
+IB,Iberia,PARTNER,Economy,B H Y,Economy,Marketing carrier IB,5;10;20;25;35;40,percent_of_distance,100
+IB,Iberia,PARTNER,Economy,F G K L M N Q S V Z,Economy,Marketing carrier IB,5;5;5;10;10;10,percent_of_distance,25
+JL,Japan Airlines,PARTNER,First,A F,First,Marketing carrier JL,15;25;50;70;90;?,percent_of_distance,150
+JL,Japan Airlines,PARTNER,First,E,First,Marketing carrier JL,15;25;?;?;?;?,percent_of_distance,125
+JL,Japan Airlines,PARTNER,Business,C,Business,Marketing carrier JL,15;25;45;60;75;?,percent_of_distance,125
+JL,Japan Airlines,PARTNER,Business,H,Business,Marketing carrier JL,5;10;15;20;25;?,percent_of_distance,70
+JL,Japan Airlines,PARTNER,Premium Economy,W,Premium Economy,Marketing carrier JL,5;10;20;25;35;?,percent_of_distance,100
+JL,Japan Airlines,PARTNER,Premium Economy,P,Premium Economy,Marketing carrier JL,5;10;15;15;20;?,percent_of_distance,50
+JL,Japan Airlines,PARTNER,Economy,Y,Economy,Marketing carrier JL,5;10;20;25;35;?,percent_of_distance,100
+JL,Japan Airlines,PARTNER,Economy,J,Economy,Marketing carrier JL,5;10;?;?;?;?,percent_of_distance,100
+JL,Japan Airlines,PARTNER,Economy,R,Economy,Marketing carrier JL,5;10;15;15;20;?,percent_of_distance,50
+JL,Japan Airlines,PARTNER,Economy,A I,Economy,Marketing carrier JL,5;10;?;?;?;?,percent_of_distance,50
+LA,LATAM,PARTNER,Business,C D I J Z,Business,Marketing carrier LA,0;0;0;0;0;0,percent_of_distance,125
+LA,LATAM,PARTNER,Premium Economy,P W,Premium Economy,Marketing carrier LA,0;0;0;0;0;0,percent_of_distance,110
+LA,LATAM,PARTNER,Economy,B H K L M N O Q S V X Y,Economy,Marketing carrier LA,0;0;0;0;0;0,percent_of_distance,100
+LH,Lufthansa,PARTNER,First,A F,First,Marketing carrier LH,0;0;0;0;0;0,percent_of_distance,150
+LH,Lufthansa,PARTNER,Business,C D J Z,Business,Marketing carrier LH,0;0;0;0;0;0,percent_of_distance,125
+LH,Lufthansa,PARTNER,Business,P,Business,Marketing carrier LH,0;0;0;0;0;0,percent_of_distance,100
+LH,Lufthansa,PARTNER,Premium Economy,E G,Premium Economy,Marketing carrier LH,0;0;0;0;0;0,percent_of_distance,110
+LH,Lufthansa,PARTNER,Premium Economy,N,Premium Economy,Marketing carrier LH,0;0;0;0;0;0,percent_of_distance,100
+LH,Lufthansa,PARTNER,Economy,B M U Y,Economy,Marketing carrier LH,0;0;0;0;0;0,percent_of_distance,100
+LH,Lufthansa,PARTNER,Economy,H Q S V W,Economy,Marketing carrier LH,0;0;0;0;0;0,percent_of_distance,50
+LX,Swiss,PARTNER,First,A F,First,Marketing carrier LX,0;0;0;0;0;0,percent_of_distance,150
+LX,Swiss,PARTNER,Business,C D J Z,Business,Marketing carrier LX,0;0;0;0;0;0,percent_of_distance,125
+LX,Swiss,PARTNER,Business,P,Business,Marketing carrier LX,0;0;0;0;0;0,percent_of_distance,100
+LX,Swiss,PARTNER,Premium Economy,E G,Premium Economy,Marketing carrier LX,0;0;0;0;0;0,percent_of_distance,110
+LX,Swiss,PARTNER,Premium Economy,N,Premium Economy,Marketing carrier LX,0;0;0;0;0;0,percent_of_distance,100
+LX,Swiss,PARTNER,Economy,B M U Y,Economy,Marketing carrier LX,0;0;0;0;0;0,percent_of_distance,100
+LX,Swiss,PARTNER,Economy,H Q S V W,Economy,Marketing carrier LX,0;0;0;0;0;0,percent_of_distance,50
+MH,Malaysia Airlines,PARTNER,First,A F P,First,Marketing carrier MH,15;25;50;70;90;100,percent_of_distance,150
+MH,Malaysia Airlines,PARTNER,Business,C D J Z,Business,Marketing carrier MH,15;25;45;60;75;85,percent_of_distance,125
+MH,Malaysia Airlines,PARTNER,Economy,B H Y,Economy,Marketing carrier MH,5;10;20;25;35;40,percent_of_distance,100
+MH,Malaysia Airlines,PARTNER,Economy,K M,Economy,Marketing carrier MH,5;10;15;15;20;25,percent_of_distance,50
+NU,Japan Transocean Air,PARTNER,First,F,First,Marketing carrier NU,15;25;?;?;?;?,percent_of_distance,150
+NU,Japan Transocean Air,PARTNER,First,E,First,Marketing carrier NU,15;25;?;?;?;?,percent_of_distance,125
+NU,Japan Transocean Air,PARTNER,Business,C,Business,Marketing carrier NU,15;?;?;?;?;?,percent_of_distance,125
+NU,Japan Transocean Air,PARTNER,Business,H,Business,Marketing carrier NU,5;?;?;?;?;?,percent_of_distance,70
+NU,Japan Transocean Air,PARTNER,Premium Economy,W,Premium Economy,Marketing carrier NU,5;?;?;?;?;?,percent_of_distance,100
+NU,Japan Transocean Air,PARTNER,Premium Economy,P,Premium Economy,Marketing carrier NU,5;?;?;?;?;?,percent_of_distance,50
+NU,Japan Transocean Air,PARTNER,Economy,J Y,Economy,Marketing carrier NU,5;10;?;?;?;?,percent_of_distance,100
+NU,Japan Transocean Air,PARTNER,Economy,A I,Economy,Marketing carrier NU,5;10;?;?;?;?,percent_of_distance,50
+NU,Japan Transocean Air,PARTNER,Economy,R,Economy,Marketing carrier NU,5;?;?;?;?;?,percent_of_distance,50
+NZ,Air New Zealand,PARTNER,Business,C D J Z,Business,Marketing carrier NZ,0;0;0;0;0;0,percent_of_distance,125
+NZ,Air New Zealand,PARTNER,Premium Economy,A E O U,Premium Economy,Marketing carrier NZ,0;0;0;0;0;0,percent_of_distance,110
+NZ,Air New Zealand,PARTNER,Economy,B M Y,Economy,Marketing carrier NZ,0;0;0;0;0;0,percent_of_distance,100
+NZ,Air New Zealand,PARTNER,Economy,H Q T V W,Economy,Marketing carrier NZ,0;0;0;0;0;0,percent_of_distance,50
+OS,Austrian Airlines,PARTNER,Business,C D J Z,Business,Marketing carrier OS,0;0;0;0;0;0,percent_of_distance,125
+OS,Austrian Airlines,PARTNER,Business,P,Business,Marketing carrier OS,0;0;0;0;0;0,percent_of_distance,100
+OS,Austrian Airlines,PARTNER,Economy,B M U Y,Economy,Marketing carrier OS,0;0;0;0;0;0,percent_of_distance,100
+OS,Austrian Airlines,PARTNER,Economy,H Q S V W,Economy,Marketing carrier OS,0;0;0;0;0;0,percent_of_distance,50
+PG,Bangkok Airways,PARTNER,Business,C D,Business,Marketing carrier PG,0;0;0;0;0;0,percent_of_distance,125
+PG,Bangkok Airways,PARTNER,Economy,H K L M N T Y,Economy,Marketing carrier PG,0;0;0;0;0;0,percent_of_distance,100
+PG,Bangkok Airways,PARTNER,Economy,B G Q V,Economy,Marketing carrier PG,0;0;0;0;0;0,percent_of_distance,50
+QF,Qantas,PARTNER,First,A F,First,Marketing carrier QF,15;25;50;70;90;100,percent_of_distance,150
+QF,Qantas,PARTNER,Business,C D I J,Business,Marketing carrier QF,15;25;45;60;75;85,percent_of_distance,125
+QF,Qantas,PARTNER,Premium Economy,R T W,Premium Economy,Marketing carrier QF,10;15;25;30;40;45,percent_of_distance,110
+QF,Qantas,PARTNER,Economy,Y,Economy,Marketing carrier QF,5;10;20;25;35;40,percent_of_distance,100
+QF,Qantas,PARTNER,Economy,B H K L M V,Economy,Marketing carrier QF,5;10;15;15;20;25,percent_of_distance,50
+QR,Qatar Airways,PARTNER,First,A F,First,Marketing carrier QR,15;25;50;70;90;?,percent_of_distance,150
+QR,Qatar Airways,PARTNER,Business,C D I J R,Business,Marketing carrier QR,15;25;45;60;75;?,percent_of_distance,125
+QR,Qatar Airways,PARTNER,Business,P,Business,Marketing carrier QR,5;10;15;20;25;?,percent_of_distance,75
+QR,Qatar Airways,PARTNER,Economy,B H Y,Economy,Marketing carrier QR,5;10;20;25;35;?,percent_of_distance,100
+QR,Qatar Airways,PARTNER,Economy,K L M V,Economy,Marketing carrier QR,5;10;15;15;20;?,percent_of_distance,50
+QR,Qatar Airways,PARTNER,Economy,G N Q S,Economy,Marketing carrier QR,5;5;5;10;10;?,percent_of_distance,25
+RJ,Royal Jordanian Airlines,PARTNER,Business,C D J,Business,Marketing carrier RJ,15;25;45;60;?;?,percent_of_distance,125
+RJ,Royal Jordanian Airlines,PARTNER,Business,I Z,Business,Marketing carrier RJ,10;20;35;50;?;?,percent_of_distance,100
+RJ,Royal Jordanian Airlines,PARTNER,Economy,Y,Economy,Marketing carrier RJ,5;10;20;25;?;?,percent_of_distance,100
+RJ,Royal Jordanian Airlines,PARTNER,Economy,B H K,Economy,Marketing carrier RJ,5;10;15;20;?;?,percent_of_distance,75
+RJ,Royal Jordanian Airlines,PARTNER,Economy,L M N Q S V,Economy,Marketing carrier RJ,5;10;15;15;?;?,percent_of_distance,50
+UL,SriLankan Airlines,PARTNER,Business,C D J,Business,Marketing carrier UL,15;25;45;60;75;85,percent_of_distance,125
+UL,SriLankan Airlines,PARTNER,Business,I,Business,Marketing carrier UL,10;20;35;50;65;70,percent_of_distance,100
+UL,SriLankan Airlines,PARTNER,Economy,B H P Y,Economy,Marketing carrier UL,5;10;20;25;35;40,percent_of_distance,100
+UL,SriLankan Airlines,PARTNER,Economy,E K M W,Economy,Marketing carrier UL,5;10;15;20;25;30,percent_of_distance,75
+UL,SriLankan Airlines,PARTNER,Economy,L R S V,Economy,Marketing carrier UL,5;10;15;15;20;25,percent_of_distance,50
+UL,SriLankan Airlines,PARTNER,Economy,N,Economy,Marketing carrier UL,5;5;5;10;10;10,percent_of_distance,25
+WY,Oman Air,PARTNER,First,A F,First,Marketing carrier WY,15;25;50;70;90;100,percent_of_distance,150
+WY,Oman Air,PARTNER,Business,C D I J P,Business,Marketing carrier WY,15;25;45;60;75;85,percent_of_distance,125
+WY,Oman Air,PARTNER,Economy,Y,Economy,Marketing carrier WY,5;10;20;25;35;40,percent_of_distance,100
+WY,Oman Air,PARTNER,Economy,B,Economy,Marketing carrier WY,5;10;15;15;20;25,percent_of_distance,50
+WY,Oman Air,PARTNER,Economy,H K L M N O Q R S T V,Economy,Marketing carrier WY,5;5;5;10;10;10,percent_of_distance,25
+ZH,Shenzhen Airlines,PARTNER,Business,C J,Business,Marketing carrier ZH,0;0;0;0;0;0,percent_of_distance,150
+ZH,Shenzhen Airlines,PARTNER,Business,D R Z,Business,Marketing carrier ZH,0;0;0;0;0;0,percent_of_distance,125
+ZH,Shenzhen Airlines,PARTNER,Premium Economy,E,Premium Economy,Marketing carrier ZH,0;0;0;0;0;0,percent_of_distance,100
+ZH,Shenzhen Airlines,PARTNER,Premium Economy,G,Premium Economy,Marketing carrier ZH,0;0;0;0;0;0,percent_of_distance,110
+ZH,Shenzhen Airlines,PARTNER,Economy,B H M U Y,Economy,Marketing carrier ZH,0;0;0;0;0;0,percent_of_distance,100
+ZH,Shenzhen Airlines,PARTNER,Economy,Q S T V W,Economy,Marketing carrier ZH,0;0;0;0;0;0,percent_of_distance,50
+ZH,Shenzhen Airlines,PARTNER,Economy,A K L P,Economy,Marketing carrier ZH,0;0;0;0;0;0,percent_of_distance,25

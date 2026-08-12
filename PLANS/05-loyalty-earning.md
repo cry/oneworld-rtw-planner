@@ -107,7 +107,8 @@ date is doing more work here than it looks like.
 taxonomies in this repository, and each has to be independent of the others and of each other.
 Qantas splits West Coast from East Coast USA/Canada and files Santiago, Dallas and Tel Aviv as
 regions of their own; the fare rule does none of that; OurAirports' physical continents match
-neither; Cathay's zones are distance from Hong Kong qualified by a six-country list. The repo
+neither; Cathay's zones are a distance band qualified by a seven-country list, under one of two band
+schemes depending on who sold the ticket. The repo
 learned this once already, when `data/countries.pl` had to diverge from the CSV's `continent`
 column. A test asserts the taxonomies stay separate tables, so a later contributor cannot tidy up by
 aliasing one to another.
@@ -156,6 +157,42 @@ the phase needed was already there.
 **4 — Cathay partner earn, effective dating, more than one programme at once.** Partner earn is a
 percentage of flown miles, which is what proves fixed and proportional accrual share one path.
 
+*Partner earn done, from a capture nobody had when this plan was written.* The blocker was real —
+Cathay serves partner earn from its calculator rather than publishing a grid — and it was cleared by
+querying that calculator: 26,780 observations over 1,752 city pairs, arriving as two CSVs and a
+parsing guide rather than as a transcription of a page. The whole Cathay implementation was replaced
+against them, and **the audit came back clean a second time**: 26 airlines, two earning models and a
+conditional percentage went in without widening the protocol once.
+
+The three things that could have forced a change and did not are worth naming, because each was a
+phase 1 decision paying for itself:
+
+* *Two band schemes in one programme.* Partners band at 3,700 miles and Cathay does not. The scheme
+  is part of the basis term, which the kernel never looks inside, so `route_basis_edges/3` returns a
+  different edge list per sector without the kernel knowing there are two.
+* *A percentage that varies by sector.* American's Business card is 150% where both airports are in
+  the same country and 125% otherwise — the only conditional rate in 157 cards. It is a fact about
+  the sector, so `route_basis/5` carried it into the accrual as part of the basis. Had the accrual
+  been handed a bucket and a distance, as the original plan had it, this would have needed a sixth
+  argument.
+* *Holes in the data.* The partner tables were sampled, not enumerated, so 118 of 942 cells were
+  never observed. Those rows omit the Status Points rate entirely, and the kernel's existing rule —
+  a rate row silent about a declared currency has not priced it — reports them undecided beside a
+  mileage figure that *is* known. `none` and `indeterminate` being different things, decided in
+  phase 1, is what made a half-priced sector expressible at all.
+
+What it did cost: the conformance test for an unnamed operating carrier had to change its fixture
+from a partner flight number to a Cathay one. That is not a weakening. Asia Miles reads the
+*marketing* carrier's rows whoever flies the aircraft, so on a partner sector the operator decides
+nothing and there is nothing for the test to hold; on a Cathay flight number both programmes turn on
+it, for different reasons. The property survives; the fixture that exercised it did not.
+
+Two corrections to earlier phases came out of the same capture, and both were the old data being
+thinner than it looked rather than read wrongly. The enhanced-region country list is **seven**
+countries and not six — Kazakhstan was missing. And the Business row headed "Essential, Light" was
+read as two fare families; the calculator publishes no Business brands at all, only two class-group
+cards at the same rates. Fare brands are Cathay's own Economy and nowhere else.
+
 **5 — tiers, ranges and the page.** Class and family columns in the Segments tab, a programme
 picker fed by `/api/programs`, an earn panel beside the report, and the new URL parameters.
 
@@ -189,8 +226,13 @@ that every number traces to a source.
 ## Out of scope
 
 Award bookings, which earn nothing. Qantas Loyalty Bonus, Points Club and lifetime credits. Cathay's
-non-oneworld partners and its club-tier mechanics. Miles from anything that is not a flight. Any
-minimum-earn-per-segment guarantee, in either programme, until it is read rather than assumed.
+club-tier mechanics. Miles from anything that is not a flight. Any minimum-earn-per-segment
+guarantee, in either programme, until it is read rather than assumed.
+
+Cathay's nine non-oneworld partners *are* priced, which reverses an earlier line here. They cannot
+appear on an Explorer fare, so nothing in this repository can reach them — but they are rows of the
+capture, and leaving rows out of a transcription is how a transcription stops being one. They earn a
+measured zero Status Points, which is worth having written down somewhere.
 
 A free sanity ceiling worth asserting: 4(h) caps the journey at 16 segments, so every total has an
 upper bound the validator already knows.
