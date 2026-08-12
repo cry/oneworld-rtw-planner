@@ -3,11 +3,12 @@
             earn_program/3,
             currency/4,
             eligible/4,
-            fare_bucket/4,
+            fare_bucket/5,
             route_basis/5,
             route_basis_edges/3,
             accrual/5,
-            bonus/5,
+            bonus/6,
+            tier/3,
             program_source/3,
             program_note/2,
             fare_family/2,
@@ -35,10 +36,11 @@
         currency(Id, CurrencyKey, DisplayName, Opts)
         fare_family(Id, Family)
         eligible(Id, Segment, Annotated, Outcome)
-        fare_bucket(Id, Segment, Bucket, Basis)
+        fare_bucket(Id, Segment, Annotated, Bucket, Basis)
         route_basis(Id, From, To, Distance, Basis)
         accrual(Id, Bucket, Basis, Carrier, Rates)
-        bonus(Id, Tier, CurrencyKey, BaseAmount, BonusAmount)
+        tier(Id, Tier, DisplayName)
+        bonus(Id, Tier, Segment, CurrencyKey, BaseAmount, BonusAmount)
         program_source(Id, Table, Source)
         program_note(Id, Note)
 
@@ -48,6 +50,12 @@
     bucket(business, flex). The kernel only ever hands a bucket back to the same
     programme's accrual/5, so a programme whose bucket comes from somewhere this
     file has never heard of needs no change here.
+
+    Like eligible/4, it is handed the whole annotated itinerary as well as the
+    segment, because a bucket can turn on something the segment does not carry:
+    the fare's cabin is the obvious one, and it is what lets a programme fall
+    back on the class the tariff says the fare is sold in when the itinerary did
+    not say.
 
     *route_basis/5 takes airports, not just a distance.* Cathay's Short-Type 2
     zone is 751 to 2,750 miles *to or from* one of six countries, which distance
@@ -61,6 +69,11 @@
 
     *A currency declares its own rules.* "Status Points take no tier bonus" is
     bonus_applies(false) in the programme's data, never a conditional here.
+
+    bonus/6 takes the segment as well as the tier, because a bonus can be a
+    benefit of flying one airline rather than of holding a card: Qantas pays its
+    status bonus on Qantas-marketed sectors and not on partner ones, so the same
+    journey carries a bonus on one sector and none on the next.
 
     Undecidability propagates rather than collapsing. A segment the programme
     cannot price does not earn zero -- it earns `indeterminate`, the journey
@@ -80,10 +93,11 @@
 :- multifile earn_program/3.
 :- multifile currency/4.
 :- multifile eligible/4.
-:- multifile fare_bucket/4.
+:- multifile fare_bucket/5.
 :- multifile route_basis/5.
 :- multifile accrual/5.
-:- multifile bonus/5.
+:- multifile bonus/6.
+:- multifile tier/3.
 :- multifile program_source/3.
 :- multifile program_note/2.
 % The branded fares a programme prices differently, so a page can offer them
@@ -123,6 +137,7 @@ program_report(A, Id, Report) :-
             ( currency(Id, Key, CName, Opts),
               ( memberchk(bonus_applies(true), Opts) -> Bonus = true ; Bonus = false ) ),
             Currencies),
+    check_tier(Id, A),
     findall(S, ann_seg(A, S), Segs),
     maplist(segment_row(Id, A), Segs, Rows),
     findall(Key, member(cur{ key: Key, name: _, bonusApplies: _ }, Currencies), Keys),
@@ -137,6 +152,22 @@ program_report(A, Id, Report) :-
                       totals: Totals,
                       sources: Sources,
                       notes: Notes }.
+
+% A tier the programme does not publish is a caller error, not a silent zero:
+% a member who typed "platinum1" and got the base rate back would have no way to
+% tell it from having no status at all.
+check_tier(Id, A) :-
+    (   member_tier(A, Id, Tier),
+        \+ tier(Id, Tier, _)
+    ->  findall(T, tier(Id, T, _), Known),
+        (   Known == []
+        ->  format(atom(M), 'The "~w" programme has no membership tiers.', [Id])
+        ;   atomic_list_concat(Known, ', ', List),
+            format(atom(M), 'No "~w" tier called "~w". It has: ~w.', [Id, Tier, List])
+        ),
+        throw(input_error(M))
+    ;   true
+    ).
 
 % --- one segment -----------------------------------------------------------
 
@@ -177,7 +208,7 @@ priced_row(Id, A, S, Row) :-
     ).
 
 bucket_step(Id, A, S, Miles, Row) :-
-    (   fare_bucket(Id, S, Bucket, BucketBasis)
+    (   fare_bucket(Id, S, A, Bucket, BucketBasis)
     ->  (   Bucket = indeterminate(Why)
         ->  outcome_row(S, indeterminate, Why, [distance(Miles)], Row)
         ;   Bucket = one_of(Buckets, Assumption)
@@ -290,7 +321,7 @@ basis_step(Id, A, S, Miles, Bucket, BucketBasis, Row) :-
 accrual_step(Id, A, S, Miles, Bucket, BucketBasis, Basis, Row) :-
     Carrier = S.marketing,
     (   accrual(Id, Bucket, Basis, Carrier, Rates)
-    ->  amounts(Id, A, Miles, Rates, Amounts),
+    ->  amounts(Id, A, S, Miles, Rates, Amounts),
         near_boundary_flag(Id, Basis, Miles, Flag),
         outcome_row(S, ok, null,
                     [distance(Miles), bucket(Bucket, BucketBasis), basis(Basis),
@@ -325,20 +356,20 @@ near_boundary_flag(Id, Basis, Miles, Flag) :-
 % a declared currency has not priced it, and the difference between that and
 % pricing it at nothing is exactly the difference this whole design exists to
 % keep: `none` is published, `indeterminate` is missing.
-amounts(Id, A, Miles, Rates, Amounts) :-
+amounts(Id, A, S, Miles, Rates, Amounts) :-
     findall(Amount,
             ( currency(Id, Key, _, Opts),
-              amount_for(Id, A, Miles, Rates, Key, Opts, Amount) ),
+              amount_for(Id, A, S, Miles, Rates, Key, Opts, Amount) ),
             Amounts).
 
-amount_for(Id, A, Miles, Rates, Key, Opts, amt{ currency: Key, value: Value,
-                                                bonus: Bonus, tier: Tier }) :-
+amount_for(Id, A, S, Miles, Rates, Key, Opts, amt{ currency: Key, value: Value,
+                                                   bonus: Bonus, tier: Tier }) :-
     (   memberchk(rounding(Rounding), Opts) -> true ; Rounding = nearest ),
     (   memberchk(rate(Key, Expr), Rates)
     ->  eval(Expr, Miles, Rounding, Base)
     ;   Base = indeterminate
     ),
-    tier_bonus(Id, A, Key, Opts, Base, Tier, Bonus),
+    tier_bonus(Id, A, S, Key, Opts, Base, Tier, Bonus),
     (   number(Base), number(Bonus)
     ->  Value is Base + Bonus
     ;   Value = Base
@@ -348,7 +379,7 @@ amount_for(Id, A, Miles, Rates, Key, Opts, amt{ currency: Key, value: Value,
 % the kernel there is no bonus to apply, and saying that here -- rather than
 % leaving the field out -- is what stops a later reader mistaking a base-rate
 % number for a member's actual earn.
-tier_bonus(Id, A, Key, Opts, Base, Tier, Bonus) :-
+tier_bonus(Id, A, S, Key, Opts, Base, Tier, Bonus) :-
     (   member_tier(A, Id, Tier0)
     ->  Tier = Tier0
     ;   Tier = null
@@ -356,12 +387,12 @@ tier_bonus(Id, A, Key, Opts, Base, Tier, Bonus) :-
     (   Tier \== null,
         memberchk(bonus_applies(true), Opts),
         number(Base),
-        bonus(Id, Tier, Key, Base, B)
+        bonus(Id, Tier, S, Key, Base, B)
     ->  Bonus = B
     ;   Bonus = 0
     ).
 
-% The annotated itinerary carries no member tier yet; see PLANS/05, phase 5.
+% Absent when no membership was given for this programme.
 member_tier(A, Id, Tier) :-
     get_dict(members, A, Members),
     get_dict(Id, Members, Tier).

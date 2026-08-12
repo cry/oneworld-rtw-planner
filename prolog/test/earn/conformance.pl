@@ -182,6 +182,35 @@ test(a_range_is_two_numbers_in_order) :-
             Ranges),
     forall(member(L-H, Ranges), assertion(L < H)).
 
+% A currency that declares bonus_applies(false) must never receive one, in any
+% programme and at any tier. It is the currency's own flag, and the kernel
+% honouring it is what keeps "Status Points take no tier bonus" a line of data
+% rather than a conditional somewhere.
+test(a_currency_that_takes_no_bonus_never_gets_one) :-
+    findall(Id-Key-Tier,
+            (   currency(Id, Key, _, Opts),
+                \+ memberchk(bonus_applies(true), Opts),
+                tier(Id, Tier, _),
+                bonus(Id, Tier, _, Key, 1000, B),
+                B =\= 0
+            ),
+            Wrong),
+    assertion(Wrong == []).
+
+% Every tier a programme publishes is one a caller may name, and every tier a
+% caller may name is one the programme publishes. A tier in the table that
+% nothing accepts, or a bonus keyed on a tier nobody can ask for, is a row that
+% can never be reached.
+test(every_published_tier_is_usable) :-
+    forall(known_program(Id),
+           (   findall(T, tier(Id, T, _), Tiers),
+               sort(Tiers, Distinct),
+               length(Tiers, N),
+               length(Distinct, N),
+               forall(member(T, Tiers),
+                      ( tier(Id, T, Label), assertion(atom(Label)), assertion(Label \== '') ))
+           )).
+
 % --- the same assertions, run over an itinerary ----------------------------
 
 % Surface sectors earn nothing in every programme, and it is `n/a` rather than

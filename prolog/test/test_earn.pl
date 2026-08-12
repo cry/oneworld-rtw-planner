@@ -37,6 +37,31 @@ sector(Carrier, Class, From, To, Row) :-
     P.segments = [Row|_],
     !.
 
+classless(Carrier, From, To, Cabin, Row) :-
+    itinerary_from_json(
+        _{ cabin: Cabin, mode: "routing",
+           segments: [ _{ carrier: Carrier, from: From, to: To, stop: "stopover" },
+                       _{ carrier: Carrier, from: To, to: From } ] },
+        Itin),
+    annotate(Itin, A),
+    earn(A, [qff], Report),
+    Report.programs = [P],
+    P.segments = [Row|_],
+    !.
+
+tiered(Carrier, From, To, Tier, Row) :-
+    itinerary_from_json(
+        _{ cabin: "business", mode: "routing",
+           members: _{ qff: _{ tier: Tier } },
+           segments: [ _{ carrier: Carrier, bookingClass: "D", from: From, to: To, stop: "stopover" },
+                       _{ carrier: Carrier, bookingClass: "D", from: To, to: From } ] },
+        Itin),
+    annotate(Itin, A),
+    earn(A, [qff], Report),
+    Report.programs = [P],
+    P.segments = [Row|_],
+    !.
+
 amount(Row, Currency, Value) :-
     once(( member(Amt, Row.amounts), Amt.currency == Currency )),
     Value = Amt.value.
@@ -186,6 +211,68 @@ test(qantas_grade_columns_collapse_onto_the_partner_six) :-
                assertion(Row.outcome == ok),
                assertion(Row.bucket == Bucket)
            )).
+
+% An itinerary that names a cabin has said more than it looks like it has:
+% section 5(b) publishes the class an Explorer fare books into, so a sector with
+% no class is priced off the fare's own class rather than being refused.
+test(a_missing_class_is_taken_from_the_fare) :-
+    forall(member(Cabin-Bucket, ["economy"-'Discount Economy',
+                                 "business"-'Business',
+                                 "first"-'First']),
+           (   classless("BA", "LHR", "JFK", Cabin, Row),
+               assertion(Row.outcome == ok),
+               assertion(Row.bucket == Bucket),
+               assertion(sub_atom(Row.bucketBasis, _, _, _, 'section 5(b)'))
+           )).
+
+% Economy comes out as L, which is what 5(b) says an economy Explorer fare books
+% into -- not Y, which is the conventional shorthand for the cabin and a
+% different, much better-earning class. On the Qantas table L is Discount
+% Economy and Y is Flexible Economy, so the difference is roughly double.
+test(economy_is_presumed_as_l_not_y) :-
+    classless("BA", "LHR", "JFK", "economy", Presumed),
+    sector("BA", "L", "LHR", "JFK", Stated),
+    amount(Presumed, points, P1),
+    amount(Stated, points, P2),
+    assertion(P1 == P2),
+    sector("BA", "Y", "LHR", "JFK", Flexible),
+    amount(Flexible, points, P3),
+    assertion(P3 > P1).
+
+% Qantas pays its status bonus on Qantas-marketed sectors and not on partner
+% ones, so the same journey carries a bonus on one sector and none on the next.
+% That is why bonus/6 is handed the segment and not only the tier.
+test(the_status_bonus_is_a_qantas_flight_benefit) :-
+    tiered("QF", "SYD", "LAX", gold, Own),
+    tiered("AA", "SYD", "LAX", gold, Partner),
+    amount(Own, points, OwnPoints),
+    amount(Partner, points, PartnerPoints),
+    assertion(OwnPoints =:= round(PartnerPoints * 1.75)),
+    once(( member(A, Own.amounts), A.currency == points )),
+    assertion(A.bonus > 0),
+    once(( member(B, Partner.amounts), B.currency == points )),
+    assertion(B.bonus == 0).
+
+% Status Credits declare bonus_applies(false), so no tier reaches them. It is
+% the currency's own flag rather than anything the kernel or the tier table
+% decides.
+test(status_credits_take_no_tier_bonus) :-
+    forall(member(Tier, [bronze, silver, gold, platinum, platinum_one]),
+           (   tiered("QF", "SYD", "LAX", Tier, Row),
+               once(( member(A, Row.amounts), A.currency == status_credits )),
+               assertion(A.bonus == 0)
+           )),
+    tiered("QF", "SYD", "LAX", bronze, Base),
+    tiered("QF", "SYD", "LAX", platinum, Top),
+    amount(Base, points, BasePoints),
+    amount(Top, points, TopPoints),
+    assertion(TopPoints =:= BasePoints * 2).
+
+% A tier nobody publishes is a caller error, not a silent base rate: a member
+% who typed it and got the base rate back could not tell that from having no
+% status at all.
+test(an_unpublished_tier_is_refused, [throws(input_error(_))]) :-
+    tiered("QF", "SYD", "LAX", platinum1, _).
 
 :- end_tests(earn_qff).
 

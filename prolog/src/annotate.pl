@@ -37,6 +37,7 @@ annotate(Itin, A) :-
     A = ann{ origin: Itin.origin,
              cabin: Itin.cabin,
              passengers: Itin.passengers,
+             members: Itin.members,
              mode: Itin.mode,
              input_errors: Itin.errors,
              segments: Segs,

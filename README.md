@@ -159,6 +159,25 @@ page decides an answer, so it is a predicate of its own — `cx_class_settled/3`
 prints its reason instead of claiming the table said so. `B`, `H` and `K` are not settled that way
 and stay a range.
 
+**An itinerary that names a cabin has said more than it looks like it has.** Section 5(b) publishes
+the class an Explorer fare books into, so a sector with no `bookingClass` is priced off the fare's
+own class rather than refused, and the register says which code it used. Economy comes out as `L` —
+what 5(b) actually says an economy Explorer fare books into — and not `Y`, which is the conventional
+shorthand for the cabin and a different, much better-earning class. On the Qantas table `L` is
+Discount Economy where `Y` is Flexible Economy, so presuming `Y` would overstate the earn by roughly
+double, and wrong-high is the bad direction for an estimate. Only the *applicable* codes are used,
+never the alternates 5(b)'s notes permit in a stated case: those turn on what the flight offers,
+which is a seat map rather than a tariff.
+
+**A membership tier changes the answer, and says where.** `"members": {"qff": {"tier": "gold"}}`
+adds Qantas' status bonus — 50% at Silver, 75% at Gold, 100% at Platinum. It reaches Qantas Points
+and not Status Credits, which is the currency's own `bonus_applies` flag rather than a conditional
+anywhere; and it is a benefit of flying Qantas rather than of holding a card, so the same journey
+carries a bonus on one sector and none on the next. Each figure shows the split —
+`23,625 Qantas Points (13,500 + 10,125 Gold)`. A tier the programme does not publish is refused
+rather than quietly priced at the base rate, which a member who mistyped it could not otherwise tell
+from having no status at all.
+
 **Nothing that could not be priced is reported as zero.** A sector whose class was not given, whose
 operating carrier is unnamed, or whose category depends on a table that is not loaded, comes back
 `undecided`, and the journey total then reads "0 Qantas Points or more (5 sectors unpriced)" rather
@@ -278,6 +297,7 @@ validated report. Opening a link populates the form, picks the right tab, and va
 | `c`, `p` | cabin and passengers, only when not the default |
 | `b`, `f` | booking class and fare family, one character per segment, `-` for a gap |
 | `g` | the earning programmes, only when not all of them |
+| `m` | membership tiers, as `qff:gold`, comma-separated |
 
 ```
 ?r=LHR-BA-JFK-AA-X/LAX-JL-NRT-CX-HKG-CX-BKK-QR-X/DOH-QR-LHR
@@ -685,7 +705,15 @@ operator unknown rather than assuming there is no codeshare.
 `bookingClass` is the single RBD letter the segment is sold in, and it is what rule 5(b) reads.
 `fareFamily` is the carrier's branded fare — Cathay's `flex`, `essential` or `light` — which no fare
 rule reads at all and which one loyalty programme cannot price a sector without. Both are optional
-and neither affects any other rule. Which 5(b) row it is read against is decided by the
+and neither affects any other rule. A missing `bookingClass` is *not* filled in for rule 5(b), which
+checks the class that was booked and would otherwise report a pass it never checked; only the earning
+side reads the tariff to fill the gap, and only because an estimate may.
+
+`members` is optional and read by nothing but the earning side:
+
+```json
+"members": { "qff": { "tier": "gold" } }
+``` Which 5(b) row it is read against is decided by the
 *marketing* carrier — 5(b) is about the code the fare is sold in, and the seller is who sells it,
 unlike 4(j), which turns on who operates.
 

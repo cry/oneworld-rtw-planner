@@ -42,7 +42,7 @@ route_help('NYC-X/LON-SIN-NYC — points separated by "-", "X/" marks a transfer
 %! route_segments(+Text, -RawSegs) is det.
 %
 %  Produces the same rseg/12 terms io/json_in.pl builds from a `segments`
-%  array, so both front ends meet at build_itinerary/6 and no rule knows which
+%  array, so both front ends meet at build_itinerary/7 and no rule knows which
 %  was used. Throws input_error(Message) on anything unparseable.
 route_segments(Text, RawSegs) :-
     text_to_string(Text, S0),

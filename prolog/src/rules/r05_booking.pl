@@ -61,32 +61,13 @@ row_for(S, Carrier, Scope) :-
     Carrier = S.marketing,
     Carrier \== unknown,
     carrier_has_codes(Carrier),
-    (   sector_scope(S, Wanted), booking_code(Carrier, Wanted, _, _)
+    (   sector_scope(S.from_country, S.to_country, Wanted),
+        booking_code(Carrier, Wanted, _, _)
     ->  Scope = Wanted
     ;   Scope = any
     ).
 
-% A sector that begins and ends in one country is that carrier's domestic
-% network. Deliberately not annotate.pl's `international` field: that carries
-% 4(f)'s USA/Canada exception, which has nothing to do with which 5(b) row a
-% Finnish or Japanese domestic flight is sold under.
-sector_scope(S, Scope) :-
-    (   S.from_country \== unknown,
-        S.from_country == S.to_country
-    ->  Scope = domestic
-    ;   Scope = international
-    ).
-
 % --- what 5(b) permits -----------------------------------------------------
-
-%! cabin_column(?Cabin, ?Column) is nondet.
-%  The fare's cabin against the columns of the 5(b) table. Business has two,
-%  because the table publishes two and this validator reports the DONE one
-%  while IONE3 exists in select markets -- see data/limits.pl.
-cabin_column(first,    first).
-cabin_column(business, business_done).
-cabin_column(business, business_ione3).
-cabin_column(economy,  economy).
 
 %! applicable(+Carrier, +Scope, +Cabin, +Class) is semidet.
 applicable(Carrier, Scope, Cabin, Class) :-

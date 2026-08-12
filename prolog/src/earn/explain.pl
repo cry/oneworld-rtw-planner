@@ -109,10 +109,20 @@ row_amounts(Program, Row, Text) :-
     findall(T, ( member(Amt, Row.amounts), amount_pair(Program, Amt, T) ), Ts),
     listed(Ts, Text).
 
+% A figure with a status bonus in it shows the bonus, because the base rate is
+% what the published table says and the bonus is what the member's card adds --
+% two facts from two sources, and a reader checking either needs to see both.
 amount_pair(Program, Amt, Text) :-
     currency_name(Program, Amt.currency, Name),
     amount_text(Amt.value, Value),
-    format(atom(Text), '~w ~w', [Value, Name]).
+    (   number(Amt.bonus), Amt.bonus > 0
+    ->  Basis is Amt.value - Amt.bonus,
+        amount_text(Basis, Base),
+        amount_text(Amt.bonus, Bonus),
+        format(atom(Text), '~w ~w (~w + ~w ~w)',
+               [Value, Name, Base, Bonus, Amt.tier])
+    ;   format(atom(Text), '~w ~w', [Value, Name])
+    ).
 
 %! amount_text(+Value, -Text) is det.
 %  `none` and `indeterminate` are both rendered as words rather than as 0,

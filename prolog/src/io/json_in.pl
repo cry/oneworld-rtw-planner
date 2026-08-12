@@ -53,7 +53,41 @@ itinerary_from_json(Dict, Itin) :-
     atom_field(Dict, origin, unknown, Origin),
     cabin(Dict, Cabin),
     passengers(Dict, Passengers),
-    build_itinerary(Origin, Cabin, Passengers, Mode, RawSegs, Itin).
+    members(Dict, Members),
+    build_itinerary(Origin, Cabin, Passengers, Members, Mode, RawSegs, Itin).
+
+% Which loyalty programme the traveller holds status in, and at what tier:
+%
+%   "members": { "qff": { "tier": "gold" } }
+%
+% A bare string is accepted for the same value, because the object exists only
+% to leave room for a membership number nobody has asked for yet.
+%
+% No fare rule reads this. It is here because a tier changes what a journey
+% earns, and the programme ids and tier names are the earning side's to check --
+% this reader deliberately does not know them, so an unknown one is refused by
+% the programme that owns it rather than by a list kept here that would go out
+% of date.
+members(Dict, Members) :-
+    (   get_dict(members, Dict, M), M \== null
+    ->  (   is_dict(M) -> true
+        ;   throw(input_error('"members" must be a JSON object keyed by programme.'))
+        ),
+        dict_pairs(M, _, Pairs),
+        maplist(member_tier, Pairs, Tiers),
+        dict_pairs(Members, members, Tiers)
+    ;   Members = members{}
+    ).
+
+member_tier(Id-Value, Id-Tier) :-
+    (   is_dict(Value)
+    ->  (   get_dict(tier, Value, T), T \== null
+        ->  to_atom(tier, T, Tier)
+        ;   format(atom(M), 'Membership of "~w" must state a "tier".', [Id]),
+            throw(input_error(M))
+        )
+    ;   to_atom(tier, Value, Tier)
+    ).
 
 % One of the two forms, never both: a route string and a segment array that
 % disagreed would leave no principled way to choose between them.

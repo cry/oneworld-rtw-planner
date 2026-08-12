@@ -28,6 +28,7 @@ const categories = read('qff-categories.json');
 const bands = read('qff-bands.json');
 const regionDefs = read('qff-region-definitions.json');
 const regions = read('qff-regions.json');
+const tiers = read('qff-tiers.json');
 
 // The fare rule's sixteen eligible carriers, and nothing else. Qantas publishes
 // earn categories for airlines an Explorer fare may not be flown on at all --
@@ -396,6 +397,36 @@ ${bandPairRows.map(({ from, band, column, row, i }) =>
 region_pair_edges([${[...pairEdges].sort((a, b) => a - b).join(', ')}]).
 `;
 
+const tiersPl = `:- module(qff_tiers, [qff_tier/3, qff_tier_currency/1, qff_tier_carrier/1]).
+
+/** <module> Qantas Frequent Flyer status bonus. GENERATED -- do not edit.
+
+    Built by prolog/tools/build_qff_tables.mjs from
+    data/earn/sources/qff-tiers.json.
+
+    ${tiers.note}
+
+    Two conditions, and both matter. The bonus is on Qantas Points and not on
+    Status Credits, which is the currency's own \`bonus_applies\` flag rather
+    than anything the kernel decides. And it is a Qantas-flight benefit: a
+    partner-marketed sector earns the base rate whatever the member's tier, so
+    the same journey can carry a bonus on one sector and none on the next.
+
+    ${tiers.appliesOn.reading}
+*/
+
+%! qff_tier(?Tier, ?Label, ?BonusPercent) is nondet.
+${tiers.tiers.map((t) => `qff_tier(${t.key}, ${quote(t.label)}, ${t.bonusPercent}).`).join('\n')}
+
+%! qff_tier_currency(?Currency) is nondet.
+%  The currencies a tier bonus reaches.
+${tiers.appliesTo.map((c) => `qff_tier_currency(${c}).`).join('\n')}
+
+%! qff_tier_carrier(?Carrier) is nondet.
+%  The marketing carriers whose sectors carry it.
+${tiers.appliesOn.marketingCarrier.map((c) => `qff_tier_carrier(${c.toLowerCase()}).`).join('\n')}
+`;
+
 const sourcePl = `:- module(qff_source, [qff_source/2, qff_note/1]).
 
 /** <module> Where the Qantas tables were read, and when. GENERATED -- do not edit.
@@ -410,11 +441,13 @@ qff_source(categories, source(${quote(categories.source)}, ${quote(categories.fe
 qff_source(bands,      source(${quote(bands.source)}, ${quote(bands.fetched)})).
 qff_source(regions,    source(${quote(regions.source)}, ${quote(regions.fetched)})).
 qff_source(region_definitions, source(${quote(regionDefs.source)}, ${quote(regionDefs.fetched)})).
+qff_source(tiers,      source(${quote(tiers.source)}, ${quote(tiers.fetched)})).
 
 %! qff_note(?Note) is nondet.
 %  What a reader of these numbers has to be told alongside them.
 qff_note('These figures are an estimate. The airline\\'s own calculator is authoritative.').
-qff_note('Base rate for a one-way sector, before any tier bonus.').
+qff_note('A tier bonus applies to Qantas Points on Qantas-marketed sectors only; every other figure is the base rate.').
+qff_note(${quote(tiers.via)}).
 ${Object.entries(categories.carriers)
   .filter(([code, e]) => ELIGIBLE.includes(code) && e.effective)
   .map(([code, e]) => `qff_note('${code.toUpperCase()} categories are the rows in force from ${e.effective}; earlier rows are not carried.').`)
@@ -426,6 +459,7 @@ const written = [];
 for (const [name, text] of [['categories.pl', categoriesPl],
                             ['bands.pl', bandsPl],
                             ['regions.pl', regionsPl],
+                            ['tiers.pl', tiersPl],
                             ['source.pl', sourcePl]]) {
   const file = path.join(OUT, name);
   const before = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : null;

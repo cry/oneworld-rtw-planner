@@ -36,10 +36,12 @@
 */
 
 :- use_module('../geo').
+:- use_module(presumed).
 :- use_module('../carriers').
 :- use_module('../../data/earn/qff/categories').
 :- use_module('../../data/earn/qff/bands').
 :- use_module('../../data/earn/qff/regions').
+:- use_module('../../data/earn/qff/tiers').
 :- use_module('../../data/earn/qff/source').
 :- use_module(library(apply)).
 :- use_module(library(lists)).
@@ -47,10 +49,12 @@
 :- multifile earn_kernel:earn_program/3.
 :- multifile earn_kernel:currency/4.
 :- multifile earn_kernel:eligible/4.
-:- multifile earn_kernel:fare_bucket/4.
+:- multifile earn_kernel:fare_bucket/5.
 :- multifile earn_kernel:route_basis/5.
 :- multifile earn_kernel:route_basis_edges/3.
 :- multifile earn_kernel:accrual/5.
+:- multifile earn_kernel:tier/3.
+:- multifile earn_kernel:bonus/6.
 :- multifile earn_kernel:program_source/3.
 :- multifile earn_kernel:program_note/2.
 :- multifile earn_kernel:term_label/2.
@@ -101,17 +105,43 @@ oneworld_operator(C) :- memberchk(C, [jq, qq]).
 
 % --- which category ---------------------------------------------------------
 
-earn_kernel:fare_bucket(qff, S, Bucket, Basis) :-
+earn_kernel:fare_bucket(qff, S, A, Bucket, Basis) :-
     Carrier = S.marketing,
     Carrier \== unknown,
+    candidate_scopes(Carrier, S, Scopes),
     Class = S.booking_class,
-    (   Class == unknown
-    ->  Bucket = indeterminate('The class this segment is sold in is not given, and the earn category is read from it.'),
-        Basis = null
-    ;   candidate_scopes(Carrier, S, Scopes),
-        category_hits(Carrier, Scopes, Class, Categories),
+    (   Class \== unknown
+    ->  category_hits(Carrier, Scopes, Class, Categories),
         resolve(Carrier, S, Scopes, Class, Categories, Bucket, Basis)
+    ;   % No class given, so the fare's own is used -- see src/earn/presumed.pl.
+        presumed_classes(S, A.cabin, Presumed),
+        Presumed \== [],
+        presumption(A.cabin, Presumed, Why)
+    ->  findall(Hit,
+                ( member(C, Presumed), category_hits(Carrier, Scopes, C, Hits), member(Hit, Hits) ),
+                Categories),
+        resolve_presumed(Carrier, S, Categories, Why, Bucket, Basis)
+    ;   Bucket = indeterminate('The class this segment is sold in is not given, and no 5(b) row says what this fare books into on this carrier.'),
+        Basis = null
     ).
+
+resolve_presumed(_, _, [], Why, indeterminate(Reason), null) :-
+    !,
+    format(atom(Reason),
+           'Qantas Frequent Flyer lists no earn category for the class this fare books into (~w).',
+           [Why]).
+resolve_presumed(_, _, Categories, Why, category(Category), Why) :-
+    findall(C, member(C-_, Categories), Cs),
+    sort(Cs, [Category]),
+    !.
+% Two of the codes this fare books into earn in different categories. That can
+% happen where a carrier files the DONE and IONE3 business codes apart, and
+% naming both is a smaller claim than choosing one.
+resolve_presumed(_, _, Categories, Why, indeterminate(Reason), null) :-
+    findall(Name, ( member(C-_, Categories), category_label(C, Name) ), Names0),
+    sort(Names0, Names),
+    atomic_list_concat(Names, ' or ', List),
+    format(atom(Reason), 'This fare books into codes that earn in ~w (~w).', [List, Why]).
 
 category_hits(Carrier, Scopes, Class, Categories) :-
     findall(Category-Scope,
@@ -329,6 +359,24 @@ earn_kernel:accrual(qff, category(Category), region_pair(RF, RT, _), _Carrier, R
     ->  true
     ;   region_pair(RT, RF, Category, Rates)
     ).
+
+% --- the status bonus -------------------------------------------------------
+
+earn_kernel:tier(qff, Tier, Label) :- qff_tier(Tier, Label, _).
+
+% Two conditions, and the second is the one worth noticing: the bonus is a
+% benefit of flying Qantas, not of holding a card. A partner-marketed sector
+% earns the base rate whatever the member's tier, so the same journey carries a
+% bonus on one sector and none on the next -- which is why bonus/6 is handed the
+% segment and not only the tier.
+%
+% The first condition is the currency, and the kernel has already applied it:
+% Status Credits declare bonus_applies(false) and never reach here.
+earn_kernel:bonus(qff, Tier, S, Currency, Base, Bonus) :-
+    qff_tier_currency(Currency),
+    qff_tier_carrier(S.marketing),
+    qff_tier(Tier, _, Percent),
+    Bonus is round(Base * Percent / 100).
 
 % --- provenance -------------------------------------------------------------
 

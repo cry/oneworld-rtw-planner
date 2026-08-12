@@ -2,6 +2,9 @@
           [ booking_code/4,
             booking_column/1,
             column_name/2,
+            cabin_column/2,
+            sector_scope/3,
+            explorer_classes/5,
             premium_economy_code/2,
             business_alternate_code/2,
             first_alternate_code/1,
@@ -73,6 +76,49 @@ row([wy],                     any,           a, d, i, l).
 %  carrier has one; an affiliate flying under its parent's code does not, and
 %  neither does JQ or QQ.
 carrier_has_codes(C) :- booking_code(C, _, _, _), !.
+
+%! cabin_column(?Cabin, ?Column) is nondet.
+%  A fare's cabin against the columns of the table. Business has two, because
+%  the table publishes two and this validator reports the DONE one while IONE3
+%  exists in select markets -- see data/limits.pl.
+cabin_column(first,    first).
+cabin_column(business, business_done).
+cabin_column(business, business_ione3).
+cabin_column(economy,  economy).
+
+%! sector_scope(+FromCountry, +ToCountry, -Scope) is det.
+%  Which row of the table a sector is read against. A sector that begins and
+%  ends in one country is that carrier's domestic network.
+%
+%  Deliberately not annotate.pl's `international` field: that carries 4(f)'s
+%  USA/Canada exception, which has nothing to do with which 5(b) row a Finnish
+%  or Japanese domestic flight is sold under.
+sector_scope(From, To, Scope) :-
+    (   From \== unknown, From == To
+    ->  Scope = domestic
+    ;   Scope = international
+    ).
+
+%! explorer_classes(+Carrier, +FromCountry, +ToCountry, +Cabin, -Codes) is det.
+%  Every code an Explorer fare in this cabin books into on this carrier and this
+%  kind of sector -- the applicable ones only, not the alternates the notes
+%  permit in a stated case, which turn on what the flight offers.
+%
+%  This is what lets the earning side answer a sector whose class was not given:
+%  the fare says which class it is sold in, so an itinerary that named a cabin
+%  has said more than it looks like it has. src/rules/r05_booking.pl reads the
+%  same projection in the other direction, to decide whether a class that *was*
+%  given is one of these.
+explorer_classes(Carrier, From, To, Cabin, Codes) :-
+    sector_scope(From, To, Wanted),
+    (   booking_code(Carrier, Wanted, _, _)
+    ->  Scope = Wanted
+    ;   Scope = any
+    ),
+    findall(Code,
+            ( cabin_column(Cabin, Column), booking_code(Carrier, Scope, Column, Code) ),
+            Codes0),
+    sort(Codes0, Codes).
 
 %! premium_economy_code(?Carrier, ?Code) is nondet.
 %  The second table in 5(b). Premium economy is not a fare basis of its own --

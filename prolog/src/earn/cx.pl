@@ -47,6 +47,7 @@
 */
 
 :- use_module('../geo').
+:- use_module(presumed).
 :- use_module('../../data/earn/cx/buckets').
 :- use_module('../../data/earn/cx/zones').
 :- use_module('../../data/earn/cx/table_cx').
@@ -57,7 +58,7 @@
 :- multifile earn_kernel:earn_program/3.
 :- multifile earn_kernel:currency/4.
 :- multifile earn_kernel:eligible/4.
-:- multifile earn_kernel:fare_bucket/4.
+:- multifile earn_kernel:fare_bucket/5.
 :- multifile earn_kernel:route_basis/5.
 :- multifile earn_kernel:route_basis_edges/3.
 :- multifile earn_kernel:accrual/5.
@@ -98,15 +99,30 @@ earn_kernel:eligible(cx, S, _A, Outcome) :-
 
 % --- which bucket -----------------------------------------------------------
 
-earn_kernel:fare_bucket(cx, S, Bucket, Basis) :-
+earn_kernel:fare_bucket(cx, S, A, Bucket, Basis) :-
+    Family = S.fare_family,
     Class = S.booking_class,
-    (   Class == unknown
-    ->  Bucket = indeterminate('The class this segment is sold in is not given, and the earn is read from it.'),
-        Basis = null
-    ;   Family = S.fare_family,
-        candidates(Class, Family, Candidates),
+    (   Class \== unknown
+    ->  candidates(Class, Family, Candidates),
         resolve(Class, Family, Candidates, Bucket, Basis)
+    ;   % No class given, so the fare's own is used -- see src/earn/presumed.pl.
+        presumed_classes(S, A.cabin, Presumed),
+        Presumed \== [],
+        presumption(A.cabin, Presumed, Why)
+    ->  findall(B, ( member(C, Presumed), candidates(C, Family, Cs), member(B, Cs) ), Bs0),
+        sort(Bs0, Buckets),
+        resolve_presumed(Buckets, Why, Bucket, Basis)
+    ;   Bucket = indeterminate('The class this segment is sold in is not given, and no 5(b) row says what this fare books into on this carrier.'),
+        Basis = null
     ).
+
+resolve_presumed([], Why, indeterminate(Reason), null) :-
+    !,
+    format(atom(Reason), 'Cathay lists no earn for the class this fare books into (~w).', [Why]).
+resolve_presumed([Bucket], Why, Bucket, Why) :- !.
+resolve_presumed(Buckets, Why, one_of(Buckets, Reason), null) :-
+    format(atom(Reason),
+           'The figures span every fare this class could have been sold under: ~w.', [Why]).
 
 % A declared family wins outright. Failing that, a class whose family is settled
 % off the page -- see cx_class_settled/3 -- is filtered to it, and everything

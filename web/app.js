@@ -209,6 +209,7 @@ document.querySelectorAll('.jump-routing').forEach(b =>
 let PROGRAMS = [];
 let FAMILIES = [];
 let chosen = null;   // null until the list arrives; then a Set of programme ids
+const tiers = new Map();   // programme id -> the member's tier, when they have one
 
 // --- the segment table -----------------------------------------------------
 
@@ -509,6 +510,9 @@ function renderReport(data, body) {
 async function earn(body) {
   if (!chosen || chosen.size === 0) { $('earn-panel').classList.add('hidden'); return; }
   const asked = { ...body, programs: [...chosen] };
+  if (tiers.size) {
+    asked.members = Object.fromEntries([...tiers].map(([id, tier]) => [id, { tier }]));
+  }
   try {
     const res = await RTWApi.earn(asked);
     if (res.ok) renderEarn(res.data);
@@ -525,12 +529,24 @@ async function earn(body) {
 // number may be shown as one: a range is two rates the input could not choose
 // between, `no` is a rate the table publishes as nothing, and an unknown is a
 // rate nobody stated. A 0 would misreport all three, and differently.
-function amount(a, currencies) {
+function amount(a, currencies, program) {
   const name = (currencies.find(c => c.key === a.currency) || {}).name || a.currency;
   if (a.known === 'range') return `${num(a.low)}–${num(a.high)} ${esc(name)}`;
   if (a.known === 'published_as_none') return `no ${esc(name)}`;
   if (a.known !== 'known') return `? ${esc(name)}`;
+  // A figure with a status bonus in it shows the bonus. The base rate is what
+  // the published table says and the bonus is what the member's card adds --
+  // two facts from two sources, and a reader checking either needs both.
+  if (a.bonus > 0) {
+    return `${num(a.value)} ${esc(name)} <span class="text-muted">(${num(a.base)} + ${num(a.bonus)} ${esc(tierName(program, a.tier))})</span>`;
+  }
   return `${num(a.value)} ${esc(name)}`;
+}
+
+function tierName(program, key) {
+  const p = PROGRAMS.find(x => x.id === (program || {}).id);
+  const t = ((p || {}).tiers || []).find(x => x.key === key);
+  return t ? t.name : key;
 }
 
 const num = (n) => Number(n).toLocaleString('en-US');
@@ -564,7 +580,7 @@ function earnRows(p) {
     <tbody>${p.segments.map(r => {
       const look = EARN_OUTCOME[r.outcome] || EARN_OUTCOME.indeterminate;
       const figures = r.amounts.length
-        ? r.amounts.map(a => amount(a, p.currencies)).join(' · ')
+        ? r.amounts.map(a => amount(a, p.currencies, p)).join(' · ')
         : `<span class="${look.cls}">${esc(r.reason || look.word)}</span>`;
       // The row it was read off, under the figure it produced. This is the earn
       // register, and it is on by default for the same reason the check register
@@ -926,17 +942,43 @@ function buildPicker(programs) {
       : programs.map(p => p.id));
   if (chosen.size === 0) chosen = new Set(programs.map(p => p.id));
   pendingPrograms = null;
+  for (const [id, tier] of pendingTiers || []) {
+    const p = programs.find(x => x.id === id);
+    if (p && (p.tiers || []).some(t => t.key === tier)) tiers.set(id, tier);
+  }
+  pendingTiers = null;
 
   // No programme prices a fare family, so the column would be a control with
   // nothing behind it.
   $('segtable').classList.toggle('hide-fare', FAMILIES.length === 0);
 
+  // A tier changes what a journey earns, so it sits with the programme it
+  // belongs to rather than in a settings drawer. A programme that publishes no
+  // tiers gets no control, which is again the validator's answer and not a
+  // decision made here.
   $('programs').innerHTML = programs.map(p => `
-    <label class="flex cursor-pointer items-center gap-1.5 text-[12px]">
-      <input type="checkbox" class="prog accent-accent" value="${esc(p.id)}"
-             ${chosen.has(p.id) ? 'checked' : ''}>
-      ${esc(p.name)}
-    </label>`).join('');
+    <span class="flex items-center gap-1.5">
+      <label class="flex cursor-pointer items-center gap-1.5 text-[12px]">
+        <input type="checkbox" class="prog accent-accent" value="${esc(p.id)}"
+               ${chosen.has(p.id) ? 'checked' : ''}>
+        ${esc(p.name)}
+      </label>
+      ${p.tiers && p.tiers.length ? `
+        <select class="tier field-select h-6 w-[8.5rem] py-0 text-[11.5px]" data-prog="${esc(p.id)}"
+                aria-label="${esc(p.name)} membership tier">
+          <option value="">no status</option>
+          ${p.tiers.map(t => `<option value="${esc(t.key)}"${tiers.get(p.id) === t.key ? ' selected' : ''}>${esc(t.name)}</option>`).join('')}
+        </select>` : ''}
+    </span>`).join('');
+
+  $('programs').querySelectorAll('.tier').forEach(sel => {
+    sel.addEventListener('change', () => {
+      if (sel.value) tiers.set(sel.dataset.prog, sel.value);
+      else tiers.delete(sel.dataset.prog);
+      syncUrl();
+      if (reported) reprice();
+    });
+  });
 
   $('programs').querySelectorAll('.prog').forEach(box => {
     box.addEventListener('change', () => {
@@ -944,12 +986,15 @@ function buildPicker(programs) {
       syncUrl();
       // Re-priced rather than marked stale: the itinerary did not change, only
       // which programmes were asked about, and the answer is one call away.
-      if (reported) earn(buildRequest($('route').value.trim() && view === 'routing'
-        ? $('route').value.trim() : undefined));
+      if (reported) reprice();
     });
   });
   render();
 }
+
+// The rows always, never the routing string: a routing has no notation for a
+// booking class and the rows carry one. Same reason as in validate().
+const reprice = () => earn(rows.length ? buildRequest() : buildRequest($('route').value.trim()));
 
 // --- colour scheme ---------------------------------------------------------
 
@@ -1060,6 +1105,7 @@ function decodeSegments(text) {
 // something -- a date, a flight number -- the routing cannot express.
 let segmentsDerived = false;
 let pendingPrograms = null;
+let pendingTiers = null;
 let pendingClasses = null;
 let pendingFamilies = null;
 let booted = false;
@@ -1099,6 +1145,7 @@ function writeUrl() {
   // Absent means every registered programme, which is also the validator's own
   // default, so the common case adds nothing to the link.
   if (chosen && chosen.size !== PROGRAMS.length) parts.push('g=' + enc([...chosen].join(',')));
+  if (tiers.size) parts.push('m=' + enc([...tiers].map(([id, t]) => `${id}:${t}`).join(',')));
 
   const query = parts.join('&');
   history.replaceState(null, '', query ? '?' + query : location.pathname);
@@ -1143,6 +1190,9 @@ function readUrl() {
   }
 
   if (q.has('g')) pendingPrograms = q.get('g').split(',').filter(Boolean);
+  // Checked against what each programme publishes once the list arrives, not
+  // here: a tier this page has never heard of is the validator's to refuse.
+  if (q.has('m')) pendingTiers = q.get('m').split(',').map(p => p.split(':')).filter(p => p.length === 2);
   // Held until the rows exist -- a routing has to be validated before there are
   // any rows for its classes to land on.
   pendingClasses = q.get('b') || null;

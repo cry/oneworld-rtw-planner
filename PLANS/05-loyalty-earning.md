@@ -153,13 +153,22 @@ percentage of flown miles, which is what proves fixed and proportional accrual s
 **5 — tiers, ranges and the page.** Class and family columns in the Segments tab, a programme
 picker fed by `/api/programs`, an earn panel beside the report, and the new URL parameters.
 
-*The page is done; tiers are not, and cannot be until the tier tables are captured.* Ranges arrived
+*Done, apart from Cathay's tiers, whose table has not been captured.* Ranges arrived
 early, in phase 3, because Cathay needs them for the ordinary case rather than the edge one. Two
 things the page settled that the plan had not: the fare-family column hides itself when no
 registered programme prices a family, which the page learns from `/api/programs` rather than
 deciding, so it still names no programme; and `b`/`f` are positional one-character parameters
 precisely so that a class typed against a routing does not drag the whole segment table into `s` and
 bury a legible link. Editing only those two fields leaves the rows derived.
+
+Two more interface findings came out of the tier work, and both were the protocol being too narrow
+rather than the design being wrong. `bonus/5` became `bonus/6`, taking the segment: Qantas pays its
+status bonus on Qantas-marketed sectors and not on partner ones, so a bonus can be a benefit of
+flying one airline rather than of holding a card, and the same journey carries one on one sector and
+none on the next. And `fare_bucket/4` became `fare_bucket/5`, taking the annotated itinerary as
+`eligible/4` always had: a bucket can turn on something the segment does not carry — the fare's
+cabin is the obvious one, and it is what lets a programme fall back on the class the tariff says the
+fare is sold in.
 
 Sub-totals per programme, and **no ranking between them**. A mile and a Status Point are not
 commensurable without a valuation, valuations are opinions, and this codebase's whole posture is
