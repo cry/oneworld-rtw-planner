@@ -152,6 +152,13 @@ of three things and the class cannot tell them apart. Give a `fareFamily` and th
 leave it out and it is `18 to 35 Status Points`, with the register saying why. Never a midpoint: no
 combination of the traveller's actual fares can produce one.
 
+It is a narrower problem than the grid makes it look. Outside Economy the class picks the family out
+on its own, and inside it `Y` is full-fare and therefore the flexible fare whatever the grid lists it
+under. That last one is the only place in either programme where a fact that is not on the published
+page decides an answer, so it is a predicate of its own — `cx_class_settled/3` — and the register
+prints its reason instead of claiming the table said so. `B`, `H` and `K` are not settled that way
+and stay a range.
+
 **Nothing that could not be priced is reported as zero.** A sector whose class was not given, whose
 operating carrier is unnamed, or whose category depends on a table that is not loaded, comes back
 `undecided`, and the journey total then reads "0 Qantas Points or more (5 sectors unpriced)" rather

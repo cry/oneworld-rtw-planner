@@ -1,4 +1,10 @@
-:- module(cx_buckets, [cx_class/4, cx_bucket/3, cx_cabin_label/2, cx_family/1]).
+:- module(cx_buckets,
+          [ cx_class/4,
+            cx_class_settled/3,
+            cx_bucket/3,
+            cx_cabin_label/2,
+            cx_family/1
+          ]).
 
 /** <module> Cathay fare buckets. GENERATED -- do not edit.
 
@@ -12,9 +18,10 @@
     a ticket that names a class and not a family has bought one of three things
     and the honest answer is the spread.
 
-    Business publishes one row for Flex and one shared row for "Essential,
-    Light"; it is written out under both families with the same rates, so
-    nothing downstream needs to know the row was shared.
+    The published Business row is headed "Essential, Light", which is one
+    heading written across the whole grid rather than two Business fares: Light
+    is an Economy fare. So Business is Flex or Essential, and every cabin except
+    Economy has a class that picks its family out on its own.
 */
 
 %! cx_family(?Family) is nondet.
@@ -36,10 +43,11 @@ cx_bucket(premium_economy, flex, wr).
 cx_bucket(premium_economy, essential, e).
 cx_bucket(business, flex, jc).
 cx_bucket(business, essential, dpi).
-cx_bucket(business, light, dpi).
 cx_bucket(first, flex, fa).
 
 %! cx_class(?Cabin, ?Family, ?Group, ?Class) is nondet.
+%  A faithful transcription: a class appears once per family the grid lists it
+%  under, which for Economy is all three.
 cx_class(economy, flex, ybhk, y).
 cx_class(economy, flex, ybhk, b).
 cx_class(economy, flex, ybhk, h).
@@ -81,11 +89,15 @@ cx_class(business, flex, jc, c).
 cx_class(business, essential, dpi, d).
 cx_class(business, essential, dpi, p).
 cx_class(business, essential, dpi, i).
-cx_class(business, light, dpi, d).
-cx_class(business, light, dpi, p).
-cx_class(business, light, dpi, i).
 cx_class(first, flex, fa, f).
 cx_class(first, flex, fa, a).
+
+%! cx_class_settled(?Class, ?Family, ?Reason) is nondet.
+%  The one place a fact that is not on the page decides an answer. Where a class
+%  is listed under several families but its family is settled anyway, this says
+%  which and why, and src/earn/cx.pl reports the reason as the basis rather than
+%  claiming the table said so.
+cx_class_settled(y, flex, 'Y is full-fare economy, which is sold as the flexible fare').
 
 %! cx_cabin_label(?Cabin, ?Label) is nondet.
 cx_cabin_label(economy,         'Economy').

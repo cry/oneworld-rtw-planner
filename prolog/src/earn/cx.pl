@@ -30,11 +30,15 @@
     wearing the same clothes as an answer, so the bucket comes back as
     `one_of/2` and the kernel prices every candidate and reports the spread.
 
-    That is confined to Economy, which is worth knowing: in every other cabin
-    the class does pick the family out. W and R are Premium Economy Flex, E is
-    Premium Economy Essential, J and C are Business Flex, D, P and I are the
-    shared Business "Essential, Light" row, and F and A are First, which is sold
-    as Flex only.
+    That is confined to Economy, and to part of it. In every other cabin the
+    class picks the family out on its own: W and R are Premium Economy Flex, E is
+    Premium Economy Essential, J and C are Business Flex, D, P and I are Business
+    Essential, and F and A are First, which is sold as Flex only. Within Economy,
+    Y is full-fare and therefore the flexible fare whatever the grid lists it
+    under -- the one place in either programme where a fact that is not on the
+    page decides an answer, which is why it is a predicate of its own,
+    cx_class_settled/3, carrying its reason into the register. B, H and K are not
+    settled that way and stay a range.
 
     Cathay-marketed flights only. Partner earn is a share of flown miles served
     by Cathay's calculator rather than published as a table, so a partner sector
@@ -104,10 +108,19 @@ earn_kernel:fare_bucket(cx, S, Bucket, Basis) :-
         resolve(Class, Family, Candidates, Bucket, Basis)
     ).
 
+% A declared family wins outright. Failing that, a class whose family is settled
+% off the page -- see cx_class_settled/3 -- is filtered to it, and everything
+% else keeps every family the grid lists it under, which is what becomes a range.
 candidates(Class, Family, Candidates) :-
+    (   Family \== unknown
+    ->  Wanted = Family
+    ;   cx_class_settled(Class, Settled, _)
+    ->  Wanted = Settled
+    ;   Wanted = any
+    ),
     findall(bucket(Cabin, F, Group),
             (   cx_class(Cabin, F, Group, Class),
-                ( Family == unknown -> true ; F == Family )
+                ( Wanted == any -> true ; F == Wanted )
             ),
             Candidates0),
     sort(Candidates0, Candidates).
@@ -122,11 +135,13 @@ resolve(Class, Family, [], indeterminate(Why), null) :-
 % How the family was settled travels with the answer, because "declared" and
 % "there was only one it could be" are different degrees of confidence and the
 % register is the place a reader checks which they were given.
-resolve(_, Declared, [Bucket], Bucket, Basis) :-
+resolve(Class, Declared, [Bucket], Bucket, Basis) :-
     !,
-    (   Declared == unknown
-    ->  Basis = 'the only fare family listing this class'
-    ;   Basis = 'fare family declared'
+    (   Declared \== unknown
+    ->  Basis = 'fare family declared'
+    ;   cx_class_settled(Class, _, Reason)
+    ->  Basis = Reason
+    ;   Basis = 'the only fare family listing this class'
     ).
 % More than one family lists this class, and the input did not say which was
 % bought. The kernel prices every candidate and reports the spread; naming the

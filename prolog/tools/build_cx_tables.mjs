@@ -39,11 +39,8 @@ const SHORT_TYPE_2 = ['JP', 'ID', 'LK', 'NP', 'BD', 'IN'];
 // derive one from -- which is what makes fareFamily worth carrying in the
 // input and a range worth having in the kernel.
 //
-// Business publishes one row for Flex and one shared row for "Essential,
-// Light". It is emitted under both declared families with the same rates, so
-// the shared row needs no special case anywhere downstream: a Business ticket
-// with no declared family produces a range whose two ends happen to differ,
-// and one declared as either Essential or Light produces a single number.
+// So a range is Economy's problem and nowhere else's: in every other cabin a
+// class picks its family out on its own.
 const buckets = [];
 const rates = [];
 
@@ -57,13 +54,31 @@ for (const [group, classes] of Object.entries(cx.economyClasses)) {
   }
 }
 
+// The Business row is headed "Essential, Light" in the published grid, which is
+// one heading written across the whole table rather than two Business fares:
+// Light is an Economy fare and Business is sold as Flex or Essential. So the row
+// is Essential, and a ticket declared as a Business Light fare is honestly told
+// there is no such thing rather than being priced off a family that does not
+// exist.
 const premium = [
   ['premium_economy', 'flex',      cx.premiumEconomy.flex],
   ['premium_economy', 'essential', cx.premiumEconomy.essential],
   ['business',        'flex',      cx.business.flex],
   ['business',        'essential', cx.business.essential_light],
-  ['business',        'light',     cx.business.essential_light],
   ['first',           'flex',      cx.first.flex],
+];
+
+// A class the published table lists under more than one family but whose family
+// is settled anyway. This is the one place in either programme where a fact not
+// on the page decides an answer, so it is written out on its own with the reason
+// attached, emitted as its own predicate, and named in the register wherever it
+// applies -- never folded into the table, which stays a transcription.
+//
+// Y is full-fare economy. The grid lists Y,B,H,K under Flex, Essential and Light
+// alike, but a Y ticket is the flexible fare by construction; B, H and K are not
+// and stay a range until a fareFamily says which they were.
+const SETTLED = [
+  ['y', 'flex', 'Y is full-fare economy, which is sold as the flexible fare'],
 ];
 
 for (const [cabin, family, row] of premium) {
@@ -81,7 +96,13 @@ const MILES_PER_POINT = 100;
 const classRows = buckets.flatMap(({ cabin, family, group, classes }) =>
   classes.map((c) => `cx_class(${cabin}, ${family}, ${group}, ${c.toLowerCase()}).`));
 
-const bucketsPl = `:- module(cx_buckets, [cx_class/4, cx_bucket/3, cx_cabin_label/2, cx_family/1]).
+const bucketsPl = `:- module(cx_buckets,
+          [ cx_class/4,
+            cx_class_settled/3,
+            cx_bucket/3,
+            cx_cabin_label/2,
+            cx_family/1
+          ]).
 
 /** <module> Cathay fare buckets. GENERATED -- do not edit.
 
@@ -95,9 +116,10 @@ const bucketsPl = `:- module(cx_buckets, [cx_class/4, cx_bucket/3, cx_cabin_labe
     a ticket that names a class and not a family has bought one of three things
     and the honest answer is the spread.
 
-    Business publishes one row for Flex and one shared row for "Essential,
-    Light"; it is written out under both families with the same rates, so
-    nothing downstream needs to know the row was shared.
+    The published Business row is headed "Essential, Light", which is one
+    heading written across the whole grid rather than two Business fares: Light
+    is an Economy fare. So Business is Flex or Essential, and every cabin except
+    Economy has a class that picks its family out on its own.
 */
 
 %! cx_family(?Family) is nondet.
@@ -109,7 +131,16 @@ cx_family(light).
 ${buckets.map(({ cabin, family, group }) => `cx_bucket(${cabin}, ${family}, ${group}).`).join('\n')}
 
 %! cx_class(?Cabin, ?Family, ?Group, ?Class) is nondet.
+%  A faithful transcription: a class appears once per family the grid lists it
+%  under, which for Economy is all three.
 ${classRows.join('\n')}
+
+%! cx_class_settled(?Class, ?Family, ?Reason) is nondet.
+%  The one place a fact that is not on the page decides an answer. Where a class
+%  is listed under several families but its family is settled anyway, this says
+%  which and why, and src/earn/cx.pl reports the reason as the basis rather than
+%  claiming the table said so.
+${SETTLED.map(([c, f, why]) => `cx_class_settled(${c}, ${f}, ${quote(why)}).`).join('\n')}
 
 %! cx_cabin_label(?Cabin, ?Label) is nondet.
 cx_cabin_label(economy,         'Economy').

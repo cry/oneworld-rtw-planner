@@ -293,8 +293,13 @@ earn_category(qf, international, v, economy).
 earn_category(qf, international, b, flexible_economy).
 earn_category(qf, international, h, flexible_economy).
 earn_category(qf, international, y, flexible_economy).
+earn_category(qf, international, t, premium_economy).
 earn_category(qf, international, r, premium_economy).
+earn_category(qf, international, w, premium_economy).
+earn_category(qf, international, i, business).
 earn_category(qf, international, d, business).
+earn_category(qf, international, c, business).
+earn_category(qf, international, j, business).
 earn_category(qf, international, a, first).
 earn_category(qf, international, f, first).
 earn_category(qf, domestic, e, discount_economy).
@@ -310,9 +315,13 @@ earn_category(qf, domestic, b, flexible_economy).
 earn_category(qf, domestic, h, flexible_economy).
 earn_category(qf, domestic, k, flexible_economy).
 earn_category(qf, domestic, y, flexible_economy).
+earn_category(qf, domestic, t, premium_economy).
 earn_category(qf, domestic, r, premium_economy).
+earn_category(qf, domestic, w, premium_economy).
 earn_category(qf, domestic, d, business).
 earn_category(qf, domestic, i, business).
+earn_category(qf, domestic, c, business).
+earn_category(qf, domestic, j, business).
 earn_category(qr, all, k, discount_economy).
 earn_category(qr, all, l, discount_economy).
 earn_category(qr, all, m, discount_economy).

@@ -54,6 +54,16 @@ const SCOPES = {
   named_routes: 'named_routes',
 };
 
+// Which of the partner table's six columns a published column earns in. Only
+// Qantas' own table has more than six; every partner publishes exactly these.
+const PARTNER_COLUMN = Object.fromEntries([
+  ...COLUMNS.map((c) => [c, c]),
+  ['discount_premium_economy', 'premium_economy'],
+  ['flexible_premium_economy', 'premium_economy'],
+  ['discount_business', 'business'],
+  ['flexible_business', 'business'],
+]);
+
 const quote = (s) => `'${String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`;
 
 function rows() {
@@ -70,13 +80,19 @@ function rows() {
         unpublished.push([code, scope, classes]);
         continue;
       }
-      // QF publishes ten columns rather than six; its extra discount and
-      // flexible grades are not reachable on a partner-marketed Explorer
-      // sector, so only the six shared with the partner table are kept.
+      // QF publishes ten columns rather than six, splitting business and
+      // premium economy into discount, standard and flexible grades. The
+      // partner earning table this fare is priced against has one column for
+      // each, so the grades collapse onto it: I, D, C and J are all Business,
+      // and T, R and W are all Premium Economy.
+      //
+      // Dropping the extra grades instead -- which is what this did at first --
+      // left a QF-marketed sector sold in C or J with no earn category at all,
+      // reported as though Qantas published nothing for its own airline.
       const columns = entry.columns || COLUMNS;
       classes.forEach((letters, i) => {
-        const column = columns[i];
-        if (letters === '-' || !COLUMNS.includes(column)) return;
+        const column = PARTNER_COLUMN[columns[i]];
+        if (letters === '-' || !column) return;
         for (const letter of letters) {
           out.push([code, scope, letter.toLowerCase(), column]);
         }

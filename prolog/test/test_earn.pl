@@ -171,6 +171,22 @@ test(a_longer_intra_usa_sector_falls_through_to_the_bands) :-
     amount(Row, points, Points),
     assertion(Points == 1375).
 
+% Qantas publishes ten columns for its own airline, splitting business and
+% premium economy into discount, standard and flexible grades; the partner table
+% an Explorer fare is priced against has one column for each. Dropping the extra
+% grades left a QF-marketed sector sold in C or J with no earn category at all,
+% reported as though Qantas published nothing for its own flights.
+test(qantas_grade_columns_collapse_onto_the_partner_six) :-
+    forall(member(Class-Bucket, ["I"-'Business', "D"-'Business',
+                                 "C"-'Business', "J"-'Business',
+                                 "T"-'Premium Economy', "R"-'Premium Economy',
+                                 "W"-'Premium Economy',
+                                 "A"-'First', "F"-'First']),
+           (   sector("QF", Class, "SYD", "LAX", Row),
+               assertion(Row.outcome == ok),
+               assertion(Row.bucket == Bucket)
+           )).
+
 :- end_tests(earn_qff).
 
 % --- Cathay ------------------------------------------------------------------
@@ -243,18 +259,52 @@ test(the_same_band_splits_on_the_endpoints) :-
     assertion(P2 == 35),
     assertion(P1 == 30).
 
-% Business publishes one row for Flex and one shared row for "Essential,
-% Light". D is on the shared row, so both candidates price the same, the range
-% collapses, and no assumption is reported -- saying "they earn differently"
-% over one row would be false as well as noisy.
-test(a_shared_row_collapses_without_an_assumption) :-
-    cx_sector("D", "HKG", "LHR", "business", Row),
+% The published Business row is headed "Essential, Light", which is one heading
+% written across the whole grid rather than two Business fares -- Light is an
+% Economy fare. So D is Business Essential outright: one bucket, one number, and
+% nothing for the reader to be warned about.
+test(business_is_flex_or_essential_and_nothing_else) :-
+    forall(member(Class-Family-Points, ["J"-'Business flex'-130,
+                                        "D"-'Business essential'-100,
+                                        "P"-'Business essential'-100,
+                                        "I"-'Business essential'-100]),
+           (   cx_sector(Class, "HKG", "LHR", "business", Row),
+               assertion(Row.outcome == ok),
+               assertion(Row.bucket == Family),
+               assertion(Row.assumption == null),
+               amount(Row, status_points, P),
+               assertion(P == Points)
+           )).
+
+% Y is full-fare economy, so it is the flexible fare whatever the grid lists it
+% under. It is the one place in either programme where a fact that is not on the
+% page decides an answer, so the register carries the reason rather than claiming
+% the table settled it.
+test(full_fare_economy_is_settled_as_flex) :-
+    cx_sector("Y", "HKG", "LHR", "economy", Row),
     assertion(Row.outcome == ok),
-    amount(Row, status_points, Points),
-    assertion(Points == 100),
+    assertion(Row.bucket == 'Economy flex'),
+    assertion(sub_atom(Row.bucketBasis, _, _, _, 'full-fare economy')),
     assertion(Row.assumption == null),
-    assertion(sub_atom(Row.bucket, _, _, _, 'Business essential')),
-    assertion(sub_atom(Row.bucket, _, _, _, 'Business light')).
+    amount(Row, status_points, Points),
+    assertion(Points == 70).
+
+% ...and the classes beside it in the same group are not settled that way, so
+% they stay a range. A blanket assumption over the whole group would have been
+% the easy version of this and the wrong one.
+test(the_rest_of_the_group_is_still_a_range) :-
+    forall(member(Class, ["B", "H", "K"]),
+           (   cx_sector(Class, "HKG", "LHR", "economy", Row),
+               amount(Row, status_points, Points),
+               assertion(Points == range(40, 70))
+           )).
+
+% A Business ticket declared as a Light fare is told there is no such thing,
+% rather than being priced off a family that does not exist.
+test(there_is_no_business_light) :-
+    cx_family_sector("D", "light", "HKG", "LHR", "business", Row),
+    assertion(Row.outcome == indeterminate),
+    assertion(sub_atom(Row.reason, _, _, _, 'light')).
 
 % Outside Economy a class does pick its family out, so no range arises.
 test(a_premium_cabin_class_settles_its_own_family) :-
