@@ -13,6 +13,9 @@ validator with it** — the same Prolog compiled to WebAssembly, so the browser 
 than asking a server about them. That page needs no server at all and is what gets published to
 GitHub Pages. See [In the browser](#in-the-browser).
 
+This file is how to use it. [`DESIGN.md`](DESIGN.md) is why it is built the way it is — the rule
+readings that are not obvious, the shape of the code, and what the test suite is actually for.
+
 ## Requirements
 
 SWI-Prolog 9 or later (`brew install swi-prolog`). No third-party packs — the HTTP server, CSV
@@ -44,6 +47,16 @@ swipl prolog/cli.pl -- route "NYC-BA-X/LON-QR-BKK//SIN-QF-SYD-QF-X/LAX-AA-NYC" -
 # what the same ticket would earn, in every registered loyalty programme
 swipl prolog/cli.pl -- earn prolog/test/fixtures/lhr_classes.json
 ```
+
+A report names the verdict, then every rule broken with the clause it came from, then the fare basis:
+
+```
+INVALID — 1 error
+  [4(i)]       error           Sector NRT-HKG flown twice in the same direction (segments 4 and 6).
+Fare basis: DONE3 (3 continents, business)
+```
+
+Exit codes: `0` valid, `1` invalid or indeterminate, `2` malformed input, `3` internal error.
 
 ### Routings
 
@@ -81,14 +94,9 @@ sector. Airports that IATA holds as their own city are deliberately absent from 
 Beauvais, Westchester, Kitchener/Waterloo — because grouping places the fare rule keeps separate
 invents violations, which is the more expensive way to be wrong.
 
-Where there is a real gap, it is checked against 4(c)'s seven permitted relations and named in the
-report, but it is **not** counted toward 4(h)'s maximum of 16. 4(h) does say "including surface
-segments between any 2 airports", and the gap is between 2 airports — but the segments it has in
-view are 4(g)'s intermediate ones, which are sectors of the journey, and the gap is the part of the
-world the ticket deliberately does not cover. Counting it would cap an open-jaw journey at 15
-flights while a closed loop gets 16, a penalty for using 4(c) that no clause in 4(c) or 4(h)
-describes. Held itineraries agree: a 16-flight `CAI-…-DOH` closed by a 4(c)(b) Middle East open jaw
-prices, and it cannot if the gap counts.
+A 4(c) origin–destination gap is checked against the seven relations that clause permits and named
+in the report, but it is **not** counted toward 4(h)'s maximum of 16 segments — see
+[Reading the rule](DESIGN.md#reading-the-rule-where-it-is-ambiguous).
 
 The same information can be given per segment instead, as `"stop": "transfer" | "stopover"` on the
 segment that *arrives* at the point (`layover`, `connection` and `transit` are accepted for
@@ -109,6 +117,7 @@ Not checked — 1 rule this input cannot answer:
   [7]          Return travel from the last stopover must commence within 12 months of departure, …
 Checks — 1 failed, 16 ok, 1 not run, 7 n/a. Re-run with --checks to list them.
 ```
+
 
 ### What it earns
 
@@ -135,86 +144,11 @@ It is on by default, unlike the check register, because a points figure carries 
 been *calculated*, and this one was looked up in a table with no version, no clause numbers and no
 notice period. The fetch date follows the totals for the same reason.
 
-**Which table prices a sector is decided by who sold it.** Qantas publishes one set of rates for its
-own flights and another for its partners', with ten earn categories against the partner table's six —
-so a `QF`-marketed sector and a `BA`-marketed one over the same ground earn differently and are read
-off different pages. `SYD-LAX` in `D` is 14,625 Qantas Points on Qantas and 13,500 on American.
-
-**Within a table, a sector takes the most specific row that covers it** — Australian domestic bands,
-then the named region pairs, then the mileage bands; on the partner table, region pairs, then
-Intra-USA Short Haul (a region group that is itself banded on distance), then the bands. That middle
-case is why the route basis a programme returns is opaque to the kernel rather than being "a region
-pair, else a band".
-
-**A sector within 1.5% of a band edge says so.** What an airline bands on is ticketed mileage, which
-is not a great-circle distance; everywhere except near an edge the two agree well inside the width of
-a band, and near an edge is exactly where a good-enough answer stops being good enough. The edges are
-asked for per *basis*, so a region pair — which never looked at the distance — is never flagged.
-
-**Two earning models can live in one programme.** Asia Miles covers Cathay and 25 partners, and the
-two halves work differently enough that reading one against the other returns a plausible number
-from the wrong row. Cathay's own flights earn fixed Status Points per distance zone and Asia Miles at
-exactly a hundred times the points; every partner earns fixed points per zone and Asia Miles as a
-*percentage of the distance flown*, off a band set with one more boundary in it, at 3,700 miles. So
-`HKG-SYD` in `J` on `QF` is 60 Status Points and 5,740 Asia Miles — not the 6,000 the Cathay rule
-would give. The scheme travels on the airline and is an argument to every zone fact rather than an
-assumption anywhere, and it is the reason an accrual returns `fixed(70)` or `pct(125)` instead of a
-number.
-
-**The marketing carrier picks the table and the operator picks the card.** A `QF` flight number flown
-on an Emirates aircraft reads the `QF` rows. A `CX` flight number is priced twice over: on Cathay
-metal Economy splits into Flex, Essential and Light, and on a partner's it earns the Codeshare card
-instead — which Premium Economy, Business and First do not have at all, so a codeshare in a premium
-cabin is unknown here rather than quietly priced off the Cathay-operated figure. A Cathay flight
-number with no operator named cannot be answered, because those two rates are what it is between.
-
-**Where the input cannot say which of several rates applies, the answer is the spread.** Cathay
-lists the same economy booking classes — `Y,B,H,K`, then `M,L,V`, then `S,N,Q,O` — under Flex,
-Essential *and* Light with different earn against each, so a ticket in `K` has genuinely bought one
-of three things and the class cannot tell them apart. Give a `fareFamily` and the answer is a number;
-leave it out and it is `40 to 70 Status Points`, with the register saying why. Never a midpoint: no
-combination of the traveller's actual fares can produce one.
-
-It is a narrower problem than the grid makes it look, and it is Cathay's own Economy alone: no
-partner publishes a fare brand, so a family left set in a picker is quietly irrelevant there rather
-than an error. Within that Economy, `Y` is full-fare and therefore the flexible fare whatever the
-grid lists it under. That is the only place in either programme where a fact not on the published
-page decides an answer, so it is a predicate of its own — `cx_class_settled/3` — and the register
-prints its reason instead of claiming the table said so. `B`, `H` and `K` are not settled that way
-and stay a range.
-
-**A band nobody sampled is not a zero, and a real zero is not a gap.** The partner tables are the
-calculator's own responses to 26,780 queries over 1,752 city pairs, sampled 23 to 90 pairs per
-airline rather than enumerated, so 118 of the 942 cells were never seen. Those carry no Status Points
-rate at all and reach the reader as `an unknown number of Status Points` beside a mileage figure that
-*is* known, since the miles come off the distance rather than off the band. Nine carriers — exactly
-the non-oneworld partners — earn a measured zero everywhere, which prints as the `0` it is. Where the
-two meet, the zone label says which: `Zone 1 (1-750 miles) — Air New Zealand was sampled in zones 5
-only, so this band was never observed`.
-
-**An itinerary that names a cabin has said more than it looks like it has.** Section 5(b) publishes
-the class an Explorer fare books into, so a sector with no `bookingClass` is priced off the fare's
-own class rather than refused, and the register says which code it used. Economy comes out as `L` —
-what 5(b) actually says an economy Explorer fare books into — and not `Y`, which is the conventional
-shorthand for the cabin and a different, much better-earning class. On the Qantas table `L` is
-Discount Economy where `Y` is Flexible Economy, so presuming `Y` would overstate the earn by roughly
-double, and wrong-high is the bad direction for an estimate. Only the *applicable* codes are used,
-never the alternates 5(b)'s notes permit in a stated case: those turn on what the flight offers,
-which is a seat map rather than a tariff.
-
-**And the fare basis picks which of them, not the cabin.** 5(b) heads its two business columns
-"Business — DONE\*" and "Business — IONE3", which are fare bases rather than cabins: a `DONE4` fare
-books into the DONE column, and the IONE3 column describes a fare this itinerary is not. Reading the
-cabin's columns instead returns `D` *and* `I`, which on Qantas' own table are Business and Discount
-Business — so every classless `QF` business sector used to come back undecided over an ambiguity the
-fare basis printed at the top of the same report had already settled. The register now says which
-fare it read: `no class given; section 5(b) books a DONE4 fare into D on this carrier`.
-
-Where one column still leaves two categories, the answer is the spread rather than a refusal —
-Malaysia files `A` in both Business and First, so a classless First fare there is `8,125 to 9,750
-Qantas Points`. That is the same kernel path Cathay's undeclared fare brands take. Rule 5(b) itself
-keeps the cabin's wider projection and must: a ticket presented in either business column is booked
-in a code the rule names, whatever basis this validator reports.
+**Which table prices a sector is decided by who sold it**, and the two registered programmes read
+their tables in quite different ways — Qantas from region pairs and mileage bands, Asia Miles from
+distance zones for Cathay's own flights and a percentage of the distance flown for its 25 partners.
+[`DESIGN.md`](DESIGN.md#what-the-ticket-earns) sets out both models, why a class alone sometimes
+cannot settle a rate, and how the answer says so.
 
 **A membership tier changes the answer, and says where.** `"members": {"qff": {"tier": "gold"}}`
 adds Qantas' status bonus — 50% at Silver, 75% at Gold, 100% at Platinum. It reaches Qantas Points
@@ -262,19 +196,6 @@ continents spelled the way a person says them rather than the way the table keys
 of those names so the page never has to guess at one or wait for a second request before it can
 render the first report.
 
-A violation covers a case, not a segment. Four sectors on one ineligible airline are one thing wrong
-with the ticket; two sectors on the same codeshare pair are one pairing. Reported one per segment
-they buried whatever else the report had to say, so each rule groups by the fact — the carrier, the
-codeshare pair, the case that permits the code — and two different facts stay two violations. The
-evidence carries every segment number either way, and the register's own sentences group the same
-way.
-
-A check clause states the measurement and nothing else. Its outcome — `ok`, `failed`, `flagged`,
-`undecided`, `not run`, `n/a` — is derived by the driver from the violations the same run produced,
-so the register cannot contradict the verdict above it, and a rule cannot be marked satisfied by
-forgetting to check it. The suite asserts the other half: no rule can fire without a check covering
-it.
-
 The four ways a rule can come out other than pass or fail are distinct on purpose. `undecided` is
 data the input left out, `not run` is a rule the input *mode* cannot answer, and `n/a` is a rule the
 itinerary never engages — 4(l) with no Australian sectors is not a restriction cleared. The register
@@ -304,26 +225,14 @@ levels of detail:
   one view a sidebar cannot hold — eleven columns — so opening it widens the form to an equal share
   of the page and closing it gives the width back.
 
-Neither direction of the grammar is implemented in the browser: reading a routing is the `validate`
-operation's job and writing one is `routing`'s. A copy of the grammar in JavaScript would be the one
-nothing tests, and with both directions in Prolog the suite can assert that a routing survives the
-round trip.
-
 Cabin and passengers sit above the tabs: they describe the fare, not the routing, and survive
 switching. The report panel gives the verdict, the fare basis, each violation with its citation and
 evidence, the rules the input could not answer, an expandable **Rules evaluated** register of every
 check and what it measured, and how every connection was classified and by which source. The
 register is collapsed by default — it is four times the length of the verdict it supports — and
 `ok` is the quietest thing in it, since on a valid itinerary it is every row and colouring them all
-would leave nothing for the one that is not. Editing the form after a verdict marks the report as out of date rather than leaving a stale
-answer looking current.
-
-**The answer is two columns on a wide screen**: the verdict and the rules on the left, earning and
-the map on the right. Stacked, the map — the tallest thing on the page by a wide margin — sat between
-the reader and everything printed after it, which is where the earning panel had ended up. Beside, the
-scroll is the taller of the two columns rather than the sum of them, and nothing had to be hidden to
-get there. The Segments tab keeps a single column, because the form takes half the width there and
-splitting what is left would give two columns too narrow for either.
+would leave nothing for the one that is not. Editing the form after a verdict marks the report as
+out of date rather than leaving a stale answer looking current.
 
 **The earning panel** is its own panel, because earning is a different question answered by a
 different operation: an itinerary that cannot be sold can still be priced for what it would earn, and
@@ -341,14 +250,6 @@ commensurable without a valuation, and a valuation is an opinion.
 coordinates already in `annotations`: a great-circle arc per segment, dashed for a surface sector,
 filled markers for stopovers and hollow ones for transfers. Hovering a connection lights up the same
 airport on the map.
-
-There are no tiles, and that is the point. A slippy map over OpenStreetMap would put the page back
-on the network — the same reason the fonts and the stylesheet are bundled — and street-level tiles
-carry nothing legible at the only zoom a round-the-world route is ever viewed at. `d3-geo` plus the
-Natural Earth 110m land outline is 55 KB of data, renders as vectors that scale for free, and needs
-no runtime beyond the browser. The projection is equirectangular and cut at the antimeridian: a
-closed loop around the globe cannot be drawn on a rectangle without one cut somewhere, and the
-Pacific is where every round-the-world map puts it.
 
 **The itinerary lives in the URL**, so a routing can be pasted into a message and come back as a
 validated report. Opening a link populates the form, picks the right tab, and validates.
@@ -369,32 +270,14 @@ validated report. Opening a link populates the form, picks the right tab, and va
 ?r=LHR-CX-HKG-CX-NRT-JL-LAX-BA-LHR&b=DKJD&f=-F
 ```
 
-`b` and `f` are positional and one character each for the same reason the routing is left readable:
-a routing has no notation for a booking class, so a class typed against one is authored data on a
-derived row, and writing the whole table to `s` to carry two letters would bury a legible link under
-two kilobytes of base64. Editing only those two fields therefore leaves the rows derived.
-
-`/` is legal in a query string, so it is left unencoded — most of what keeps a routing link
-readable. Rows filled in from a parsed routing are *derived* and deliberately not written to `s`:
-the routing regenerates them exactly, and storing them too would bury a readable link under two
-kilobytes of base64. The flag clears the moment the table is edited directly, because from then on
-it holds a date or a flight number the routing cannot express. Updates use `replaceState`, since at
-one history entry per keystroke the back button would become an undo key.
-
 **Colour scheme** is a three-way control in the header: Auto, Light, Dark. Auto follows the OS and
-stores nothing, so a machine that has never been told otherwise keeps tracking it. The whole theme
-is one `color-scheme` declaration — every token is a `light-dark(light, dark)` pair, so the two
-values that have to stay related sit on the same line, and the browser's own furniture (scrollbars,
-form controls, the canvas behind the page) switches with the page. A small inline script in
-`<head>` applies a stored choice before first paint; it is the only script on the page that is not
-deferred.
+stores nothing, so a machine that has never been told otherwise keeps tracking it.
 
-The page hardcodes no rule data — version, segment limits, city codes and the routing grammar all
-come from the validator's own `ruleset` reply.
+## Building
 
-**Building.** Four files under `web/` are generated and **committed**, for the same reason
-`data/generated/airports.pl` is: a clone runs offline and any change shows up as a reviewable diff.
-Nothing at runtime, and nothing in the Docker build, needs node.
+Everything below is generated and **committed**, for the same reason `data/generated/airports.pl`
+is: a clone runs offline and any change shows up as a reviewable diff. Nothing at runtime, and
+nothing in the Docker build, needs node.
 
 | Generated | From | By |
 |---|---|---|
@@ -408,7 +291,7 @@ Nothing at runtime, and nothing in the Docker build, needs node.
 
 ```sh
 npm install                # once
-npm run build              # rebuild all four
+npm run build              # rebuild everything in the table above
 npm run css                # or just the stylesheet
 npm run map                # or just the map bundle
 npm run wasm               # or just the WebAssembly pair
@@ -423,12 +306,6 @@ If you change a class in `web/index.html` or `web/app.js` and forget to rebuild,
 without that style; if you change a rule and forget, the page validates against the *old* rules,
 which is the worse of the two because nothing looks wrong. `npm run build` followed by
 `git status --porcelain -- web/` catches both, and the Pages workflow refuses to deploy without it.
-
-That check works because `npm run wasm` is idempotent: a SWI saved state is a ZIP archive and records
-the time it was written, so two builds of identical sources differ in every compressed byte. Rather
-than compare bytes, the build records a digest of its inputs in `web/rtw.build.json` and does nothing
-when they already match — which moves the question from "are these bytes what we would produce now"
-to "was this built from these sources". `npm run wasm -- --force` rebuilds regardless.
 
 The server reads `web/` into memory **at load time**, so a change to any of these files normally
 needs a restart to show up. `--dev` turns that off:
@@ -448,43 +325,12 @@ Both fonts are bundled under [`web/fonts/`](web/fonts/) rather than fetched from
 is meant to run offline and read-only, and a font request would be the only outbound call the page
 makes. They are OFL-licensed; see [`web/fonts/NOTICE.md`](web/fonts/NOTICE.md).
 
-Exit codes: `0` valid, `1` invalid or indeterminate, `2` malformed input, `3` internal error.
-
-```
-INVALID — 1 error
-  [4(i)]       error           Sector NRT-HKG flown twice in the same direction (segments 4 and 6).
-Fare basis: DONE3 (3 continents, business)
-```
-
 ## In the browser
 
 The page does not ask a server whether an itinerary is valid. It runs the validator itself: SWI-Prolog
 compiled to WebAssembly, loading an image built from the same `.pl` files the container runs. Nothing
 is reimplemented in JavaScript, and there is no second copy of a rule to fall out of step with the
 first.
-
-```
-web/app.js ──> RTWApi.{validate,routing,earn,ruleset,programs,…}  web/api.js
-                            │  postMessage
-                            ▼
-                      web/worker.js ──> vendor/swipl-bundle-no-data.js + rtw.pvm
-                            │
-                            ▼
-                 rtw_call(Op, InText, Status, OutText)         prolog/wasm.pl
-                            │
-                            ▼
-              the same load.pl, the same rules, the same io/json_out.pl
-```
-
-[`prolog/wasm.pl`](prolog/wasm.pl) is the counterpart of [`prolog/server.pl`](prolog/server.pl) — the
-same six operations under the same names, the same error mapping, the same status codes, and no rule
-logic in either. Both are renderers of the same terms.
-
-**It is one backend, not two.** The service still answers `/api/validate` and the rest for
-programmatic callers, but the page never calls them. A page that chose between a local and a remote
-validator would have two code paths to keep in step and a class of bugs that appears on only one of
-them; this way the published site and the container render identically, because they are running the
-same thing.
 
 **What it costs.** About 1.3 MB gzipped, in two files:
 
@@ -498,36 +344,8 @@ at all — that is what makes this pair about 700 KB smaller than serving the so
 library. It boots in roughly 50 ms; a sixteen-segment itinerary then validates in about a
 millisecond, which is faster than the round trip it replaces.
 
-**Three properties of the WebAssembly build shaped the code.**
-
-* *No cross-origin isolation is required.* The build uses neither `SharedArrayBuffer` nor pthreads, so
-  it needs no COOP/COEP headers — which matters because GitHub Pages cannot set them. This was the one
-  thing that could have ruled the approach out, and it does not.
-* *A saved image has no autoloading.* Only what was compiled in exists; a goal composed in the browser
-  cannot reach library predicates, and even `member/2` raises an existence error. So `rtw_call/4` is
-  the only way in: the browser names an operation, never a goal. The constraint enforces a boundary
-  worth having anyway.
-* *`library(http/json)` is absent* — the HTTP package is not part of the build. `library(json)` is,
-  and carries the same predicates; `cli.pl` already chose between them with `exists_source/1`, and
-  `wasm.pl` uses the same conditional rather than a second spelling.
-
-**The two engines are not the same version.** `swipl-wasm` currently builds SWI 10.1.10; the container
-runs 10.0.2; CI's apt supplies 9.x. Nothing in the suite can see that, so
-[`prolog/test/test_wasm.mjs`](prolog/test/test_wasm.mjs) does: it drives every fixture through
-`rtw_call/4` on both engines and compares the **whole reply**, not just the verdict — a few thousand
-characters of message prose, ordering and evidence per fixture. All 57 agree. It is the counterpart of
-the HTTP round-trip test in `test_json.pl`: same purpose, different second renderer.
-
-The comparison is *structural*: both replies are parsed and compared field by field, and the first
-disagreement is reported as a path such as `checks[9].detail`. It cannot be textual, because the
-`library(json)` / `library(http/json)` split means whichever module is present decides whether a
-space follows a comma — a fact about a pretty-printer, not about the fare. Array order, every
-message, every piece of evidence and the presence of every key are all still compared exactly.
-
-```sh
-npm run wasm          # build web/rtw.pvm and the vendored engine
-npm run test:wasm     # 57 fixtures, wasm against native
-```
+[`DESIGN.md`](DESIGN.md#in-the-browser-webassembly) covers what the WebAssembly build constrains,
+and how the two engines are held to the same answers.
 
 ### GitHub Pages
 
@@ -656,33 +474,6 @@ Restart=on-failure
 Only the parent needs to be root, and only to bind a privileged port; `--user` drops privileges
 afterwards.
 
-### Why the server is built the way it is
-
-Put a reverse proxy in front for TLS, HTTP/2 and slow-client buffering. Beyond that, three things
-the server does deliberately, each of which was a production problem:
-
-- **The UI is read into the program at load time**, not opened per request. A path resolved with
-  `prolog_load_context/2` is fixed at *compile* time, so a saved state or an image built anywhere
-  but the deployment directory served 404s for a file sitting right there. Reading at compile time
-  is the fix rather than the disease: what gets baked in is the content, not a path that will not
-  exist later. It also leaves no filesystem access in the request path, which is what lets the
-  container run read-only. Every asset — page, stylesheet, scripts, both fonts, and now a 2.5 MB
-  Prolog engine and a 416 KB image — is held as a *string* of bytes and written back verbatim, so
-  one code path serves text and woff2 alike; the font and vendor handlers resolve nothing from disk,
-  so there is no traversal to defend against. A string rather than the code list this used to be,
-  and the difference is not stylistic: a code list costs about seventy-five times the size of the
-  file it came from, so reading the WebAssembly bundle that way peaked at 194 MB of RSS against
-  19 MB as a string. The suite asserts a font still round-trips byte for byte.
-- **A 500 says nothing about the failure.** The term and its backtrace go to stderr, where systemd
-  and Docker collect them; the client gets a fixed message. Returning the raw term is the hazard
-  `library(http/http_error)` exists to warn about. Every other status still describes the caller's
-  own request back to them.
-- **Validation has its own thread pool.** It is the only expensive handler and the only one under a
-  time limit. Sharing the default five workers means five slow requests stop `/api/health`
-  answering, and a load balancer then pulls the instance for something that is not an outage. A full
-  queue is refused with 503 rather than accumulated; both sizes are in
-  [`prolog/data/limits.pl`](prolog/data/limits.pl).
-
 ### HTTP API
 
 | Method | Path | Purpose |
@@ -702,9 +493,9 @@ and 100 segments, and each validation runs under a 10-second limit — all three
 [`prolog/data/limits.pl`](prolog/data/limits.pl) alongside the fare caps.
 
 `/api/ruleset` exists so a web UI never hardcodes rule data, and `/api/programs` is its counterpart
-on the earning side for the same reason: the page names no programme, no currency and no table. Every validate response carries a
-`checks` array — `{rule, citation, label, outcome, detail}` per rule measured, see
-[What passed, and by how much](#what-passed-and-by-how-much) — and an
+on the earning side for the same reason: the page names no programme, no currency and no table.
+Every validate response carries a `checks` array — `{rule, citation, label, outcome, detail}` per
+rule measured, see [What passed, and by how much](#what-passed-and-by-how-much) — and an
 `annotations` object — the derived route, the collapsed continent and traffic-conference sequences,
 each connection's ground time and stopover classification, `annotations.names` (the display name for
 every continent and traffic conference, so a client never has to invent one from the atom), and
@@ -732,7 +523,7 @@ It refuses, with `400` and the segment numbers, when a point is neither a transf
 routing has no notation for "unknown", and a bare code means stopover, so guessing would change the
 itinerary's meaning. `annotations.routing` is `null` in the same case.
 
-### Itinerary format
+## Itinerary format
 
 ```json
 {
@@ -767,20 +558,22 @@ no intermediate point to describe.
 operator unknown rather than assuming there is no codeshare.
 
 `bookingClass` is the single RBD letter the segment is sold in, and it is what rule 5(b) reads.
+Which 5(b) row it is read against is decided by the *marketing* carrier — 5(b) is about the code the
+fare is sold in, and the seller is who sells it, unlike 4(j), which turns on who operates. A missing
+`bookingClass` is *not* filled in for rule 5(b), which checks the class that was booked and would
+otherwise report a pass it never checked; only the earning side reads the tariff to fill the gap, and
+only because an estimate may.
+
 `fareFamily` is the carrier's branded fare — Cathay's `flex`, `essential` or `light`, which are the
 only fare brands either programme prices — read by no fare rule at all, and the thing Cathay's own
-Economy cannot be priced to a single number without. Both are optional
-and neither affects any other rule. A missing `bookingClass` is *not* filled in for rule 5(b), which
-checks the class that was booked and would otherwise report a pass it never checked; only the earning
-side reads the tariff to fill the gap, and only because an estimate may.
+Economy cannot be priced to a single number without. Both are optional and neither affects any other
+rule.
 
 `members` is optional and read by nothing but the earning side:
 
 ```json
 "members": { "qff": { "tier": "gold" } }
-``` Which 5(b) row it is read against is decided by the
-*marketing* carrier — 5(b) is about the code the fare is sold in, and the seller is who sells it,
-unlike 4(j), which turns on who operates.
+```
 
 Missing information degrades honestly rather than silently passing: a connection with neither a
 timestamp nor a declared stop kind makes rule 8 `indeterminate` and the verdict `indeterminate`, and
@@ -789,205 +582,22 @@ named anywhere makes rule 15 `indeterminate` for the same reason: the restrictio
 flies it, the sector that puts most itineraries into Cuba is American, and "it does not use
 American or Alaska" is not something the report may say about an input that named nobody. Warnings
 alone leave a verdict of `valid`.
+
 Routing mode relaxes which rules *apply*, never the standard of evidence for the ones that do.
 
 Because the times are local, an eastbound trans-Pacific sector legitimately arrives at an earlier
 clock time than it departed — NRT 17:00 to LAX 10:00 the same day. Only a regression wider than the
 span of world time zones is treated as a data error.
 
-## How it works
-
-Three layers with one contract between them:
-
-```
-"route" ──route_in──┐
-                    ├──> itinerary ──annotate──> A ──validate──> report(Verdict, Violations,
-"segments" ─json_in─┘                            │                      │      Fare, NotChecked,
-                                                 │                      │      Checks)
-                                                 │  ┌───────────────────┴────────┐
-                                    route_out ───┘  explain (text)        json_out (dicts)
-                                        │                  │                     │
-                                    "route"              cli.pl        server.pl · wasm.pl
-```
-
-`json_out` has two callers and neither contains rule logic: `server.pl` answers HTTP, and `wasm.pl`
-answers the browser directly. Three front ends, one `report/3`.
-
-The two input forms meet at `build_itinerary/6` and no rule knows which was used, which is what
-makes the routing form a second front end rather than a separate, weaker validator; the test suite
-asserts that the same journey written both ways reaches the same verdict.
-
-`route_out` closes the loop from the other end. It hangs off the annotation rather than the raw
-itinerary because the notation records what each point *counts as*, which is a conclusion and not an
-input: a stop inferred from a two-hour connection and one declared `X/` are indistinguishable by the
-time they reach it. That is what makes the round trip assertable — parse a routing, annotate it,
-write it out, get the same string — and what stops the browser from needing to know the grammar in
-either direction.
-
-**Rules are violation generators.** Each rule is a clause of `validate:violation/2` that *succeeds
-when the rule is broken* and binds a term describing the breakage. A naive
-`valid(I) :- rule1(I), rule2(I), ...` would give a bare "no"; inverting it means backtracking
-enumerates every violation of every rule in one pass, each carrying its own evidence. Two smaller
-registries sit beside it: `validate:not_checked/2` for rules the input mode puts out of reach, and
-`validate:check/2` for what each rule measured. A check reports the measurement and names the
-violation ids it decides; the driver, not the rule, turns that into an outcome.
-
-**One annotation pass.** `annotate/2` runs once and derives continents, traffic conferences, ocean
-crossings and the stopover/transfer classification of every connection, so most rule bodies stay two
-or three goals long. It is eager and pure — it returns a term, asserts nothing, tables nothing —
-which is what makes the validator safe to call concurrently from HTTP worker threads.
-
-**No numbers in rules.** Every cap comes from [`prolog/data/limits.pl`](prolog/data/limits.pl),
-tagged with a ruleset version, so a reissued fare is a data change plus tests rather than a rewrite.
-
-Two things the code encodes deliberately, because they are where a naive implementation goes wrong:
-
-- **4(a) + 4(b) + 4(c) collapse into one invariant.** One crossing of each ocean, a continuous
-  forward TC1–TC2–TC3 direction, and termination at origin together force the collapsed
-  traffic-conference sequence to be exactly a 3-cycle. Checking that one property catches all three
-  and gives a better message than counting ocean crossings.
-- **4(b) is a traffic-conference rule; 4(e) is a continent rule.** A South America excursion never
-  leaves TC1 and an Africa excursion never leaves TC2, so neither breaks the forward-direction rule;
-  what bounds them is 4(e)'s allowance. Encoding these at the same level makes every legal
-  side-trip look like a violation.
-
-There is no timezone database anywhere, and none is needed: ground time is the gap between an
-arrival and the next departure *at the same airport*, and rules 6 and 7 compare times only at day
-and month granularity.
-
-## Geography
-
-`prolog/data/earn/cx/zones.pl` is the **fourth**: five zones of pure distance and a sixth,
-Short - Type 2, which is the *same* 751-to-2,750-mile band as Short - Type 1 and is separated from it
-only by whether the sector is to or from Japan, Indonesia, Sri Lanka, Nepal, Bangladesh or India. No
-distance decides it, which is why the route basis a programme resolves takes the endpoints and not
-just a distance.
-
-`prolog/data/earn/qff/regions.pl` is the **third** geography taxonomy here, and deliberately its own
-table. Qantas splits West Coast from East Coast USA/Canada, which the fare rule does not; it files
-Santiago, Dallas and Tel Aviv as regions of their own; and one of its regions, "Southeast Asia or
-Northern Africa", spans three of the fare rule's six continents — it reaches Kenya, Uganda, Somalia
-and the Seychelles at one end and Egypt, Libya and Morocco, which Rule 3015 puts in Europe/Middle
-East, at the other. A test asserts the two stay independent, so a later contributor cannot tidy up by
-aliasing one to the other.
-
-`prolog/data/generated/airports.pl` holds 4,161 airports with scheduled service and an IATA code,
-built from the [OurAirports](https://davidmegginson.github.io/ourairports-data/airports.csv) CSV:
-
-```sh
-curl -o /tmp/airports.csv https://davidmegginson.github.io/ourairports-data/airports.csv
-swipl -g main -t halt prolog/tools/build_airports.pl -- /tmp/airports.csv
-```
-
-Regeneration is manual and the output is committed, so upstream geography changes arrive as a
-reviewable diff. The CSV's own `continent` column is **not used** — it is physical geography, and
-the fare rule's continents are IATA areas. It files Honolulu under Oceania (4(b) needs it in North
-America), Dubai and Amman under Asia (the rule needs Europe/Middle East), and Casablanca under
-Africa (the rule needs Europe). `data/countries.pl` carries the fare-rule taxonomy;
-`data/overrides.pl` holds only what a country-level table cannot express.
-
-Europe/Middle East is one continent made of two zones, and the difference is load-bearing in three
-places: 4(c)(b) permits an origin–destination surface gap *within the Middle East*, section 12
-prices *sectors within the Middle East* separately, and 4(e)'s closing sentence bars Mauritius and
-South Africa when travel is to and from *Europe* in both directions — the zone, named two lines
-after the same rule says "Europe/Middle East" in full.
-
-Two words in that sentence carry it. *Europe* means the zone, so a Gulf gateway is not a Europe
-gateway. *Both directions* means the two crossings of the Africa border, the one in and the one
-out — not a count of crossings anywhere in the journey. Either word read wrong rejects an itinerary
-that gets ticketed: at continent granularity an Africa excursion flown in and out through the Gulf
-fails, and on a count of Europe arrivals a journey fails over an unrelated Asia-to-Paris sector.
-`mut_europe_both_ways` and `mut_europe_both_ways_gulf` are the same journey differing in one point
-and must land on opposite verdicts; `osl_africa_gulf_gateway` is the one with the unrelated second
-Europe arrival, and it is valid.
-
-Several hundred city names are non-ASCII, which costs two things. The generated file declares
-`:- encoding(utf8)` rather than trusting the locale of whoever loads it, and the typeahead in
-[`prolog/src/fold.pl`](prolog/src/fold.pl) matches on an accent-folded copy of both sides, so
-`sao paulo` finds São Paulo and `zurich` finds Zürich — the cities whose spelling is hardest to
-reproduce being exactly the ones a search is most needed for. The fold table is explicit rather than
-derived from Unicode normalisation, because the letters that are not an ASCII letter with a mark on
-top — ø, æ, ð, þ, dotless ı, ł — need a table either way. A test asserts it covers every character
-in the generated airport table, so regenerating that table with a new letter fails the suite rather
-than quietly dropping a city out of reach of the search.
-
 ## Tests
 
 ```sh
-swipl -g run_tests -t halt prolog/test/run_tests.pl
+swipl -g run_tests -t halt prolog/test/run_tests.pl   # 263 tests, no node needed
+npm run test:wasm                                     # the browser build against the native one
+npm run check:contrast                                # WCAG over the palette, no browser needed
 ```
 
-Nine suites, in descending value, plus a tenth that needs node as well and runs on its own:
-
-1. **Mutation tests** — each fixture is the golden itinerary with exactly one rule broken, asserting
-   that exactly the expected rule ids fire. This catches false negatives and rules that over-fire on
-   legal itineraries at the same time, and it verifies rule independence.
-2. **Golden fixtures** — a classic LHR round-the-world, an Africa excursion, a South America
-   excursion with a surface sector, and a South West Pacific origin using the 4(g) transoceanic
-   surface exception. All must stay silent.
-3. **Routings and declared stops** — the golden itinerary written as a routing string and again as
-   segments with declared stops must reach the same verdict as the dated one. Also the grammar
-   itself, the precedence between a declaration and the clock, and that routing mode names the
-   rules it cannot check instead of passing them. Composition is asserted as a round trip: parse a
-   routing, annotate it, write it back out, and get the same string — which is the property that
-   justifies `route_out.pl` being Prolog instead of thirty lines of JavaScript.
-4. **The check register** — that a satisfied cap states its number, that a breached one cannot read
-   as a pass, and the load-bearing one: across every fixture, no rule can fire without a check
-   covering it. That is what stops a rule being added without a measurement and the register
-   quietly claiming coverage it does not have.
-5. **Metropolitan cities and carrier codes** — that an airport can be found from its city as well as
-   the reverse, that no airport sits in two cities, and that the rules written in cities see them:
-   `LHR-JFK` out and `LGW-JFK` back is one city pair flown twice. Also the one place the notation is
-   genuinely ambiguous — `HAC` is an airline and an airport — asserting that a routing reads it as
-   the airport and that composing one for an itinerary flown on it is refused rather than corrupted.
-6. **Geography units** — every place the fare rule and physical geography disagree, plus that the
-   generated airport table declares its own encoding: several hundred city names are non-ASCII, and
-   a build under a non-UTF-8 locale would otherwise load them corrupt and serve them that way.
-7. **Serialization and HTTP round trip** — the JSON body must report the same verdict and rule ids
-   the text renderer prints, which is what keeps the two renderers from drifting, plus the request
-   size, segment and timeout guards, and the static assets: a stylesheet or map bundle that 404s
-   leaves the UI degraded rather than failing loudly, and a font re-encoded on the way out arrives
-   corrupt with no error raised, so it is compared byte for byte against what the server holds.
-8. **Earn conformance** — run over *every* registered loyalty programme, and the thing that makes
-   adding a third one cheap. No orphan rows and no unpriceable buckets; every declared currency
-   produced by some accrual and no accrual pricing a currency nobody declared; every rate an
-   expression the evaluator knows; surface sectors earning nothing; an unnamed operating carrier
-   undecided rather than zero in every programme and every currency; and asking for two programmes
-   at once matching asking for each on its own. Nothing in the file names a programme.
-9. **Earn numbers** — hand-computed values with the published row named in a comment above each, and
-   the same mutation idea as the rule suite: change one booking class and assert exactly one column
-   moves. Also the great-circle distance against four known city pairs; that a sector near a band edge
-   is flagged while one in the middle of a band is not; that HKG-NRT and HKG-SIN fall in different
-   Cathay zones despite sitting in the same mileage band, which is the one place a distance is not
-   enough; and that Asia Miles are exactly a hundred Status Points on every Cathay row and on no
-   partner row — both halves, because the first version of that capture stated the relationship as a
-   general invariant and recommended it as a checksum, which was wrong.
-
-```sh
-npm run test:wasm
-```
-
-10. **The two engines agree** — the page runs a different SWI-Prolog from the container (10.1.10
-    against 10.0.2), and no plunit test can see that. Every fixture is driven through `rtw_call/4` on
-    both, for every operation that takes an itinerary, and the **whole reply** compared field by
-    field rather than the verdict alone: message prose, ordering and evidence included. 57 fixtures
-    × `validate` and `earn` — all 114 agree. It needs both engines present, which is why it is a node
-    script rather than a unit.
-
-`npm run check:contrast` is separate and does not need SWI: it scores every colour pair in the
-palette against WCAG 2.2, including the 3:1 minimum for the boundary of a control.
-
-Some rules cannot fire alone: a two-segment itinerary is below the 4(h) minimum and is necessarily
-also short of continents, stopovers and a traffic-conference cycle. Those tests still assert an
-exact set, just a set of more than one.
-
-4(f)'s "no more than 4 international transfers from the one country" is the sharpest of these. A
-fifth transfer costs either a fifth pair of intra-continental legs, which breaches 4(h), or a third
-intercontinental crossing, which breaches 4(e) — so those two caps between them hold the reachable
-maximum at exactly the 4 that 4(f) permits, and `mut_intl_transfers` asserts the pair. Four is
-comfortably reachable and gets flown: `doh_transfers` is a Gulf-hub itinerary sitting on 4(f), 4(e)
-and 4(h) simultaneously, and it is valid.
-
+Ten suites; [`DESIGN.md`](DESIGN.md#tests) says what each is for and which of them are load-bearing.
 Every rule id has a fixture.
 
 ## Scope
@@ -1007,22 +617,8 @@ Where a class *is* given, three outcomes are possible, because 5(b) has three ki
 The applicable code for the cabin passes. Anything the table does not name for that carrier is an
 error. In between sit the codes its notes permit conditionally — a lower cabin's own code, `Y` on a
 First fare, `B` (or `H` on AA) on a DONE Business fare, and `A` on QR for services within the Middle
-East. Those pass too, and the register names the segments and the note they lean on:
-
-> **[5(b)] ok — Booking codes.** 7 of 7 flights state the class sold, on a Business fare. 1 is a code
-> 5(b) allows only in a stated case and 6 are the applicable code. Segment 4 is sold in L on CX
-> rather than the applicable code. That is allowed: it is the Economy code, which a Business fare may
-> use only where Business is not offered or not available on that flight. The fare for the highest
-> class used applies.
-
-Each of them turns on what the *flight* offers rather than on the routing — "for flights where First
-or Business Class is not offered or available, passengers may travel in a lower class" makes a
-business fare ticketed in `L` legal on an aircraft with no business cabin and illegal on one that has
-it — and an itinerary carries the route, not the seat map. That was once reported as a warning, and
-it should not have been. The permission is the tariff's own, a ticket sold under it is a correct
-ticket, and the condition was settled by the airline's inventory at the point of sale: the code is in
-the itinerary because a seat in it was sold. There is nothing for a traveller to act on, and a
-warning nobody can act on crowds out the ones they can.
+East. Those pass too, and the register names the segments and the note they lean on; see
+[Reading the rule](DESIGN.md#reading-the-rule-where-it-is-ambiguous) for why they are not warnings.
 
 One rule is checked but cannot be decided, and says so. Rule 19's real trigger is an infant
 *reaching* two years old between departure and the end of the journey, and the input carries an age
@@ -1050,6 +646,5 @@ valuation and a valuation is an opinion. Nine of Asia Miles' partners are outsid
 cannot appear on an Explorer fare at all; they are priced anyway, because the table publishes them
 and leaving rows out of a transcription is how a transcription stops being one.
 
-There is deliberately no "too many continents" rule: the fare table stops at six and the continent
-list has exactly six members, so it could never fire. What it would have been reaching for — that
-the fare table covers every count the geography can produce — is asserted as a test instead.
+[`DESIGN.md`](DESIGN.md) has the rest: how the rules are structured, the four geography taxonomies,
+the earning kernel and its plugin protocol, the WebAssembly target, and the test suites.
