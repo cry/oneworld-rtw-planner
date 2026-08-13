@@ -178,6 +178,21 @@ test(hawaii_backtracking_by_surface) :-
     fixture_rules(mut_hawaii_surface, V-Ids),
     assertion(V-Ids == invalid-[hawaii_backtrack]).
 
+% A backtrack is a reversal, so what it is reported against is a pair of
+% *consecutive* crossings. Matching every departure from Hawaii against every
+% arrival gave the cross product instead: this journey reverses three times and
+% used to raise four violations, the extra one pairing segment 1 with segment 4
+% across two crossings that already have violations of their own.
+test(hawaii_backtracking_is_reported_per_reversal) :-
+    itinerary_from_json(
+        _{ route: "LAX-AA-HNL-AA-SFO-AA-HNL-AA-SEA-JL-X/NRT-BA-LHR-BA-JFK-AA-LAX" },
+        Itin),
+    validate(Itin, report(_, Violations, _, _, _)),
+    findall(Segs,
+            member(v(hawaii_backtrack, _, _, _, [segments(Segs)|_]), Violations),
+            Pairs),
+    assertion(Pairs == [[1, 2], [2, 3], [3, 4]]).
+
 % 4(f)'s transfer cap cannot be broken alone: a fifth transfer costs either a
 % fifth pair of intra-continental legs or a third intercontinental crossing, so
 % 4(h) or 4(e) always comes with it. It does fire, though -- the driver
@@ -471,6 +486,29 @@ test(unknown_airport_and_gap_are_violations) :-
     assertion(Ids == [input_error]),
     assertion(Violations = [_, _]).
 
+% Continuity is two properties, not one. The airports here chain perfectly, so
+% only the clock catches it -- and it has to, because a negative ground time is
+% not merely unreported: derived_kind/6 reads anything at or below the threshold
+% as a transfer, so the itinerary would come back with rule 8 counting stopovers
+% at points the traveller never stopped at.
+test(a_segment_departing_before_the_previous_arrives_is_an_error) :-
+    fixture_report(mut_time_order, V, report(_, Violations, _, _, _)),
+    assertion(V == invalid),
+    rule_ids(Violations, Ids),
+    assertion(Ids == [input_error]),
+    Violations = [v(_, _, _, Message, Evidence)],
+    assertion(memberchk(segments([2, 3]), Evidence)),
+    assertion(sub_atom(Message, _, _, _, 'forward in time')).
+
+% The tolerance segment_error/2 allows inside a sector must not leak across the
+% join: an eastbound trans-Pacific arrival really does precede its departure on
+% the clock, but the next departure is read at the same airport in the same zone,
+% so no allowance is owed there.
+test(a_date_line_crossing_still_connects_forward) :-
+    fixture_report(hnd_alaska, _, report(_, Violations, _, _, _)),
+    rule_ids(Violations, Ids),
+    assertion(\+ memberchk(input_error, Ids)).
+
 :- end_tests(indeterminacy).
 
 % --- the check register ----------------------------------------------------
@@ -526,6 +564,26 @@ test(a_rule_the_input_mode_cannot_answer_is_not_a_pass) :-
     fixture_check(route_classic, max_stay, check(_, _, _, Outcome, _)),
     assertion(Outcome == not_checked).
 
+% ...and neither absence may be reported as the other. Rule 6 needs two
+% international sectors to have a gap at all; with fewer it used to fall through
+% to the missing-dates branch and report "the journey has no dates for them" as
+% a pass, over an itinerary where every date was filled in.
+test(a_rule_with_nothing_to_span_says_so_rather_than_blaming_the_dates) :-
+    itinerary_from_json(
+        _{ origin: "JFK", cabin: "business",
+           segments: [ _{ from: "JFK", to: "LAX", carrier: "AA",
+                          dep: "2026-09-01T09:00", arr: "2026-09-01T12:00" },
+                       _{ from: "LAX", to: "SFO", carrier: "AA",
+                          dep: "2026-09-10T09:00", arr: "2026-09-10T10:30" },
+                       _{ from: "SFO", to: "JFK", carrier: "AA",
+                          dep: "2026-09-20T09:00", arr: "2026-09-20T17:00" } ] },
+        Itin),
+    validate(Itin, report(_, _, _, _, Checks)),
+    memberchk(check(min_stay, _, _, Outcome, Detail), Checks),
+    assertion(Outcome == not_applicable),
+    assertion(sub_atom(Detail, _, _, _, 'fewer than two international sectors')),
+    assertion(\+ sub_atom(Detail, _, _, _, 'no dates')).
+
 test(a_rule_the_geography_never_engages_is_not_a_pass) :-
     fixture_check(lhr_classic, au_city_pair, check(_, _, _, Outcome, _)),
     assertion(Outcome == not_applicable),
@@ -546,6 +604,41 @@ test(checks_come_out_in_rule_order) :-
             Numbers),
     assertion(Numbers \== []),
     assertion(\+ ( append(_, [X, Y|_], Numbers), X > Y )).
+
+% The violations list is ordered worst-first and then in itinerary order. Where
+% both of those tie, it used to fall back on the citation compared as text, which
+% files rule 15 between rule 0 and rule 4 -- so a 4(d) and a 15 landing on the
+% same segment came out in ASCII order. citation_key/2 already existed for this
+% and was used by the two orderings beside it but not by this one.
+test(violations_at_one_segment_come_out_in_rule_order) :-
+    cuba_via_miami(Itin),
+    validate(Itin, report(_, Violations, _, _, _)),
+    findall(key(Rank, Seg, Number),
+            ( member(v(_, Citation, Severity, _, Evidence), Violations),
+              severity_rank(Severity, Rank),
+              ( memberchk(segments([S|_]), Evidence) -> Seg = S ; Seg = 0 ),
+              citation_key(Citation, Number-_) ),
+            Keys),
+    % The fixture has to actually exercise the tie, or the property is vacuous.
+    assertion(( append(_, [key(R, S, _), key(R, S, _)|_], Keys) )),
+    assertion(\+ ( append(_, [key(R2, S2, X), key(R2, S2, Y)|_], Keys), X > Y )).
+
+% Rule 4(d) and rule 15 both fire on segment 2: the journey turns round at Havana
+% and comes back through its own point of origin, on American.
+cuba_via_miami(Itin) :-
+    itinerary_from_json(
+        _{ origin: "MIA", cabin: "business",
+           segments: [ _{ from: "MIA", to: "HAV", carrier: "AA",
+                          dep: "2026-09-01T09:00", arr: "2026-09-01T10:00" },
+                       _{ from: "HAV", to: "MIA", carrier: "AA",
+                          dep: "2026-09-12T09:00", arr: "2026-09-12T10:00" },
+                       _{ from: "MIA", to: "LHR", carrier: "BA",
+                          dep: "2026-09-13T18:00", arr: "2026-09-14T08:00" },
+                       _{ from: "LHR", to: "NRT", carrier: "JL",
+                          dep: "2026-09-25T12:00", arr: "2026-09-26T08:00" },
+                       _{ from: "NRT", to: "MIA", carrier: "AA",
+                          dep: "2026-10-05T12:00", arr: "2026-10-05T18:00" } ] },
+        Itin).
 
 :- end_tests(checks).
 

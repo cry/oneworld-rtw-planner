@@ -104,16 +104,40 @@ place(Given, Place) :-
 
 resolve_origin(unknown, [S|_], Origin, []) :- !, Origin = S.from.
 resolve_origin(unknown, [], unknown, []) :- !.
+% Compared as places rather than as codes. A fare is written in city codes --
+% see data/cities.pl -- so `LON` against a segment leaving LGW is the ordinary
+% way to state an origin, not a contradiction; and 4(c), 4(d) and 4(i) all ask
+% "is this the same point" through same_place/2, so an origin that did not would
+% be the one place in the program where LHR and LGW are two places.
+%
+% The cost of getting this wrong is more than one wrong message: a single input
+% error withholds the whole check register (see validate.pl), so a routing
+% written the way fares are written would come back with nothing measured.
 resolve_origin(Given0, Segs, Origin, Errs) :-
-    place(Given0, Origin),
-    (   Segs = [S|_], S.from \== Origin
-    ->  iata(Origin, UO), iata(S.from, UF),
-        format(atom(M),
-               'Declared origin ~w does not match the departure point of segment 1 (~w).',
-               [UO, UF]),
-        Errs = [v(input_error, input, error, M, [segments([1]), pair(UO-UF)])]
-    ;   Errs = []
+    place(Given0, Declared),
+    (   Segs = [S|_]
+    ->  (   same_place(S.from, Declared)
+        %  Carry the itinerary's own departure point rather than the
+        %  representative airport the code resolved to, so nothing downstream --
+        %  a message, the map, the annotations -- names an airport the traveller
+        %  never used.
+        ->  Origin = S.from, Errs = []
+        ;   Origin = Declared,
+            origin_mismatch(Given0, S.from, Err),
+            Errs = [Err]
+        )
+    ;   Origin = Declared, Errs = []
     ).
+
+% Reports the code as it was given. Naming the resolved airport instead accused
+% the traveller of writing LHR when they wrote LON.
+origin_mismatch(Given, From, v(input_error, input, error, M,
+                               [segments([1]), pair(UG-UF)])) :-
+    iata(Given, UG),
+    iata(From, UF),
+    format(atom(M),
+           'Declared origin ~w does not match the departure point of segment 1 (~w).',
+           [UG, UF]).
 
 segment_errors(S, Errs) :-
     findall(E, segment_error(S, E), Errs).
@@ -161,6 +185,29 @@ continuity_error(Segs, v(input_error, input, error, M, [segments([I, J]), pair(U
     format(atom(M),
            'Segment ~w arrives at ~w but segment ~w departs from ~w; the journey must be continuous (add a surface sector).',
            [I, UT, J, UF]).
+% Time has to run forward across the join as well as place. Both stamps are read
+% at the same airport and so in the same time zone, which is what makes this
+% exact and lets it do without the date-line tolerance segment_error/2 has to
+% allow within a sector -- and it is why the airports must match before the
+% comparison is worth making. Two clocks in unknown, different zones prove
+% nothing, and that case is already the gap error above.
+%
+% Unchecked, a negative ground time reaches derived_kind/6 in annotate.pl, which
+% reads anything at or below the threshold as a transfer. So segments entered out
+% of order are silently reclassified rather than reported, and rule 8 then counts
+% its stopovers from points the traveller never stopped at.
+continuity_error(Segs, v(input_error, input, error, M,
+                         [segments([I, J]), airport(U), minutes(Minutes)])) :-
+    append(_, [A, B|_], Segs),
+    A.to == B.from,
+    dt_minutes_between(A.arr, B.dep, Raw),
+    Raw < 0,
+    Minutes is round(-Raw),
+    I = A.n, J = B.n,
+    iata(A.to, U),
+    format(atom(M),
+           'Segment ~w departs ~w before segment ~w has arrived there; the journey must run forward in time.',
+           [J, U, I]).
 
 % --- time helpers ----------------------------------------------------------
 

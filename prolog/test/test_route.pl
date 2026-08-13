@@ -408,6 +408,41 @@ test(finishing_at_another_airport_of_the_origin_city_is_finishing_at_home) :-
     routed_rules('LHR-BA-JFK-AA-LAX-QF-SYD-QF-X/SIN-BA-LGW', V-Ids),
     assertion(V-Ids == valid-[]).
 
+% Starting at one is starting at the origin too. A declared origin is the fourth
+% place the program asks "is this the same point", and comparing codes there
+% while comparing places everywhere else made the ordinary way of writing a fare
+% -- a city code against the airport it resolves to -- an input error, which
+% costs the whole check register.
+test(a_declared_city_code_origin_matches_its_airport) :-
+    origin_itinerary("LON", "LGW", ViaCity),
+    assertion(ViaCity.errors == []),
+    origin_itinerary("LHR", "LGW", ViaSibling),
+    assertion(ViaSibling.errors == []).
+
+% The origin carried forward is the point the itinerary actually departs from,
+% so no message, map pin or annotation names an airport that is not in the
+% journey.
+test(a_matching_origin_resolves_to_the_departure_point) :-
+    origin_itinerary("LON", "LGW", Itin),
+    assertion(Itin.origin == lgw).
+
+% Still an error when the two are genuinely different places, and the message
+% quotes the code that was given rather than the one it resolved to.
+test(an_origin_elsewhere_is_still_reported_as_given) :-
+    origin_itinerary("CDG", "LGW", Itin),
+    Itin.errors = [v(input_error, _, _, Message, Evidence)],
+    assertion(memberchk(pair('CDG'-'LGW'), Evidence)),
+    assertion(sub_atom(Message, _, _, _, 'Declared origin CDG')),
+    assertion(\+ sub_atom(Message, _, _, _, 'LHR')).
+
+origin_itinerary(Origin, From, Itin) :-
+    itinerary_from_json(
+        _{ origin: Origin,
+           segments: [ _{ from: From, to: "JFK", carrier: "BA" },
+                       _{ from: "JFK", to: "NRT", carrier: "JL" },
+                       _{ from: "NRT", to: "LHR", carrier: "BA" } ] },
+        Itin).
+
 :- end_tests(city_codes).
 
 % --- carriers that look like places ----------------------------------------

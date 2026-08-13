@@ -62,9 +62,17 @@ const RTWApi = (() => {
   // A Prolog query cannot be interrupted from inside, so the way to stop one is
   // to discard the worker running it. The next call starts a fresh one, which
   // costs the boot again -- about 50 ms plus a cached fetch.
+  //
+  // The fetched-once replies go with the worker that answered them. They are
+  // memoised on the promise rather than on the value, so one that was still in
+  // flight when the worker was discarded stays cached as the failure it resolved
+  // to -- and the page would then describe the ruleset and the programme list as
+  // unavailable for the rest of its life, even though the very next validate()
+  // brings a working worker up.
   function restart(message) {
     if (worker) worker.terminate();
     worker = null;
+    once.clear();
     failAll(message);
   }
 

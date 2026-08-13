@@ -196,8 +196,13 @@ citation_key(Citation, Number-Citation) :-
 leading_digits([C|T], [C|Ds]) :- code_type(C, digit), !, leading_digits(T, Ds).
 leading_digits(_, []).
 
-display_key(v(Rule, Citation, Severity, _, Evidence), key(Rank, Seg, Citation, Rule)) :-
+% The citation goes in through citation_key/2 for the same reason it does in the
+% two orderings above: compared as text, rule 15 sorts between rule 0 and rule 4,
+% so two violations at the same severity and the same segment came out in ASCII
+% order of their citation rather than in rule order.
+display_key(v(Rule, Citation, Severity, _, Evidence), key(Rank, Seg, Key, Rule)) :-
     severity_rank(Severity, Rank),
+    citation_key(Citation, Key),
     (   memberchk(segments([S|_]), Evidence)
     ->  Seg = S
     ;   Seg = 0

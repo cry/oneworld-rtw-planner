@@ -109,11 +109,26 @@ continent_name(europe_middle_east, 'Europe & Middle East').
 continent_name(africa,             'Africa').
 continent_name(asia,               'Asia').
 continent_name(south_west_pacific, 'South West Pacific').
+continent_name(unknown,            'an unrecognised region').
 
 %! tc_name(?TC, ?Name) is nondet.
 tc_name(tc1, 'TC1').
 tc_name(tc2, 'TC2').
 tc_name(tc3, 'TC3').
+tc_name(unknown, 'an unrecognised region').
+
+% Both tables carry `unknown` so that they are total over the values annotate.pl
+% can actually produce. geo_of/6 yields `unknown` for a point it cannot place,
+% and a rule that renders a sequence containing one -- 4(a)/4(b)'s traffic
+% conference cycle is the case -- would otherwise fail at maplist/3 and take its
+% whole check clause out of the register with it. A check that vanishes is worse
+% than one that reads awkwardly: the report loses a line without saying so.
+%
+% They are deliberately *not* reachable from continent/1, which is what the rules
+% iterate over, so no rule gains a phantom continent from this. The one
+% enumeration that does pick them up is json_out:place_names/1, and it wants
+% them: segment_json/2 already sends `unknown` to the browser as a continent, and
+% until now there was no name for the page to render it with.
 
 %! traffic_conference(?Continent, ?TC) is nondet.
 %  Section 0. This mapping is why 4(b) (a TC-level rule) and 4(e) (a

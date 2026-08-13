@@ -256,6 +256,23 @@ test(too_many_segments_is_a_400) :-
     assertion(Code == 400),
     assertion(D.error == invalid_request).
 
+% The guard is on the declared length, so a request that declares none used to
+% walk straight past it and be read to end of stream unbounded -- and the segment
+% cap cannot stand in for it, because that is applied to a document already in
+% memory. Asserted against check_body_size/1 rather than over a socket, because
+% http_open/3 always sends a Content-Length and the wiring around it is covered
+% by the two cases above.
+test(a_body_with_no_declared_length_is_refused) :-
+    limit(max_request_bytes, Max),
+    Under is Max - 1,
+    assertion(server:check_body_size([method(post), content_length(Under)])),
+    catch(( server:check_body_size([method(post)]), fail ),
+          length_required(Reported),
+          assertion(Reported == Max)),
+    server:error_reply(length_required(Max), Status, Dict),
+    assertion(Status == 411),
+    assertion(Dict.error == length_required).
+
 % A bug in a rule must not describe the validator's internals to an
 % unauthenticated caller: that is the hazard library(http/http_error) exists to
 % warn about, and it is invisible until something actually throws. The mapping

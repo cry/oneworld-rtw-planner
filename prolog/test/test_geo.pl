@@ -93,9 +93,53 @@ test(section_12_regions) :-
 
 % Every airport in the generated table must resolve to a fare-rule continent;
 % an unmapped country would silently make segments look intra-continental.
+%
+% And to a traffic conference, which is a separate claim: airports.pl is
+% regenerated from upstream while countries.pl is maintained by hand, so a
+% country appearing upstream and not here is the way this breaks. 4(a)/4(b) is
+% checked entirely on the traffic-conference sequence, so that is the assertion
+% the routing rules actually rest on.
 test(every_airport_resolves) :-
-    findall(A, ( airport(A, _, _, _, _, _), \+ airport_continent(A, _) ), Bad),
-    assertion(Bad == []).
+    findall(A, ( airport(A, _, _, _, _, _), \+ airport_continent(A, _) ), Placeless),
+    assertion(Placeless == []),
+    findall(A, ( airport(A, _, _, _, _, _), \+ airport_tc(A, _) ), Unassigned),
+    assertion(Unassigned == []).
+
+% One row per code. The whole geography rests on airport/6 being a function of
+% its first argument -- airport_country/2 and its siblings are single-goal
+% lookups that take the first answer -- so a second row for one code would make
+% every one of them quietly nondeterministic and dependent on file order.
+% build_airports.pl is what enforces this, and it enforced nothing for a while:
+% its deduplication was an exclude/3 whose lambda compared against a variable
+% yall had renamed out from under it, so it excluded nothing and the table was
+% clean only because the upstream CSV happened to be.
+test(each_iata_code_has_exactly_one_row) :-
+    findall(A, airport(A, _, _, _, _, _), All),
+    msort(All, Sorted),
+    sort(All, Distinct),
+    length(Sorted, N),
+    length(Distinct, M),
+    (   N =:= M
+    ->  true
+    ;   findall(D, ( member(D, Distinct),
+                     aggregate_all(count, airport(D, _, _, _, _, _), C), C > 1 ),
+                Repeated),
+        assertion(Repeated == [])
+    ).
+
+% ...and if one ever does slip through, the report must degrade rather than lose
+% a line. Rendering a sequence is what 4(a)/4(b)'s check does with it, and a
+% partial name table used to make that maplist fail and take the whole check
+% clause out of the register without saying anything.
+test(the_name_tables_are_total_over_what_annotate_can_produce) :-
+    forall(( airport(A, _, _, _, _, _), airport_continent(A, Cont) ),
+           continent_name(Cont, _)),
+    forall(( airport(A, _, _, _, _, _), airport_tc(A, TC) ), tc_name(TC, _)),
+    assertion(continent_name(unknown, _)),
+    assertion(tc_name(unknown, _)),
+    % The fallback must stay out of the list the rules iterate, or every
+    % per-continent cap gains a seventh continent that no itinerary can enter.
+    assertion(\+ continent(unknown)).
 
 test(search_finds_heathrow) :-
     airport_search(lhr, 5, Results),

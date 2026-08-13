@@ -126,10 +126,16 @@ annotations_json(A, _{ origin: Origin,
 % Sent with the report rather than fetched once from /api/ruleset, because the
 % first report can render before a separate request has come back, and a table
 % of nine short strings is cheaper than the bug where it has not.
+% The two tables are flattened into one namespace here, and nothing makes their
+% keys disjoint -- `unknown` is in both, because annotate.pl produces it for a
+% continent and for a traffic conference alike and the page has to render either.
+% So the keys are deduplicated rather than assumed unique; dict_pairs/3 throws on
+% a repeat, which turns a naming overlap into a 500 on every request.
 place_names(Names) :-
     findall(Key-Name,
             ( continent_name(Key, Name) ; tc_name(Key, Name) ),
-            Pairs),
+            Pairs0),
+    sort(1, @<, Pairs0, Pairs),
     dict_pairs(Names, _, Pairs).
 
 segment_json(S, _{ n: N, type: Type, from: From, to: To,

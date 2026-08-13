@@ -86,22 +86,34 @@ validate:check(A, chk(tc_cycle, '4(a),4(b)', 'Traffic-conference cycle', Detail,
 % America. Backtracking within a continent is otherwise permitted, so this is
 % specifically a there-and-back pair.
 
+% A backtrack is a *reversal*: one crossing of the Hawaii-mainland boundary
+% followed by the next one going the other way. So the hops are collected in
+% segment order and read as consecutive pairs, rather than every outbound being
+% matched against every inbound -- which reported the cross product, so a journey
+% that went out and back twice raised four violations instead of two, one of them
+% pairing the first arrival with a departure three crossings later that it has
+% nothing to do with.
+%
 % Both hops are carried in the evidence, in segment order and paired with the
-% segment numbers beside them: naming only the outbound sector's airports
-% describes half of what the message says is wrong.
+% segment numbers beside them: naming only one sector's airports describes half
+% of what the message says is wrong.
 validate:violation(A, v(hawaii_backtrack, '4(b)', error, Msg,
-                        [segments([Lo, Hi]), pairs([LoPair, HiPair])])) :-
-    hawaii_hop(A, I, FI, TI, outbound),
-    hawaii_hop(A, J, FJ, TJ, inbound),
+                        [segments([I, J]), pairs([PairI, PairJ])])) :-
+    hawaii_hops(A, Hops),
+    append(_, [hop(I, FI, TI, DI), hop(J, FJ, TJ, DJ)|_], Hops),
+    DI \== DJ,
     sector_pair(FI, TI, PairI),
     sector_pair(FJ, TJ, PairJ),
-    (   I =< J
-    ->  Lo = I, Hi = J, LoPair = PairI, HiPair = PairJ
-    ;   Lo = J, Hi = I, LoPair = PairJ, HiPair = PairI
-    ),
     format(atom(Msg),
            'Segments ~w and ~w backtrack between Hawaii and the North American mainland, which 4(b) does not permit.',
-           [Lo, Hi]).
+           [I, J]).
+
+%! hawaii_hops(+A, -Hops) is det.
+%  Every crossing of the Hawaii-mainland boundary, in segment order -- which is
+%  the order ann_seg/2 yields, so the pairs above come out with I < J without
+%  having to sort them.
+hawaii_hops(A, Hops) :-
+    findall(hop(N, From, To, Dir), hawaii_hop(A, N, From, To, Dir), Hops).
 
 %! sector_pair(+From, +To, -Pair) is det.
 %  Airports rather than cities: a Hawaii hop is a physical crossing, and which

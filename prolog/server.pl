@@ -349,12 +349,23 @@ build_report(Dict, Json) :-
 % Refuse an oversized body before reading it rather than after. The declared
 % length is what SWI will read, so checking it here is the cheap guard; the
 % segment cap in io/json_in.pl is the one that bounds the actual work.
+%
+% A body with no declared length is refused rather than read. Guarding only the
+% declared case left the guard trivially avoidable: a chunked request carries no
+% Content-Length, http_read_json_dict/3 then reads to end of stream with no
+% bound, and the segment cap cannot help because it is applied to a document that
+% has already been read into memory. Requiring the length is the whole fix -- an
+% itinerary is a few kilobytes and every HTTP client sends one for a body that
+% size, so nothing legitimate is turned away. 411 is the status that says exactly
+% this, rather than blaming the content.
 check_body_size(Request) :-
     limit(max_request_bytes, Max),
-    (   memberchk(content_length(Length), Request),
-        Length > Max
-    ->  throw(request_too_large(Length, Max))
-    ;   true
+    (   memberchk(content_length(Length), Request)
+    ->  (   Length > Max
+        ->  throw(request_too_large(Length, Max))
+        ;   true
+        )
+    ;   throw(length_required(Max))
     ).
 
 % Malformed input is a 400 with a structured body; anything else is a bug in a
@@ -384,6 +395,11 @@ error_reply(input_error(Message), 400,
 error_reply(request_too_large(Length, Max), 413,
             _{ error: 'request_too_large', message: M }) :- !,
     format(atom(M), 'Request body is ~d bytes; the maximum is ~d.', [Length, Max]).
+error_reply(length_required(Max), 411,
+            _{ error: 'length_required', message: M }) :- !,
+    format(atom(M),
+           'Request must declare a Content-Length; the maximum accepted is ~d bytes.',
+           [Max]).
 error_reply(time_limit_exceeded, 503,
             _{ error: 'timeout',
                message: 'Validation exceeded its time limit.' }) :- !.
