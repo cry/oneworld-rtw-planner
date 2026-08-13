@@ -232,7 +232,13 @@ levels of detail:
   reach the last segment) and the value is copied into every row it covers. It writes only where
   typing would be allowed, so a surface sector keeps its empty carrier and the last segment keeps its
   empty stop. The columns that identify one sector — the airports, the flight number, the times —
-  have no handle: filling those down could only describe a journey nobody could fly.
+  have no handle: filling those down could only describe a journey nobody could fly. **Mkt** and
+  **Op** also fill *across* to each other, since a sector nobody codeshared has the same code in
+  both, and dragging down and across at once fills the rectangle — a whole ticket on one carrier in
+  one gesture. No other neighbouring columns mean the same kind of thing, so no others fill sideways.
+
+  The abbreviated headings say what they stand for on hover: **Mkt** the marketing carrier, whose
+  code is on the ticket, and **Op** the operating carrier, whose aircraft flies it.
 
 **Help** in the masthead opens a panel explaining what a oneworld Explorer fare is, what this
 answers, and how to drive the page. What the fare *is* is prose; every figure in it — the continent
@@ -247,7 +253,11 @@ there and are not called out separately above. The register is collapsed by defa
 times the length of the verdict it supports — and `ok` is the quietest thing in it, since on a valid
 itinerary it is every row and colouring them all would leave nothing for the one that is not. Editing
 the form after a verdict marks the report as out of date rather than leaving a stale answer looking
-current.
+current. Validating scrolls the report into view when it is not already there — under the full-width
+Segments table it is otherwise below the fold — and leaves the page alone when it is, which on a wide
+screen in the Routing tab it always is. When it does scroll, a **Back to the segments** button floats
+over the answer until the form is on screen again, so the page that moved itself also offers the way
+back.
 
 **The earning panel** is its own panel, because earning is a different question answered by a
 different operation: an itinerary that cannot be sold can still be priced for what it would earn, and
