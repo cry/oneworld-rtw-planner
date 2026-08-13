@@ -1,0 +1,20 @@
+== Airlines and destinations ==
+=== Passenger ===
+{{incomplete list|date=August 2026}}
+{{Airport-dest-list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]] (begins 28 August 2026)
+<!-- -->
+| [[Avior Airlines]] | [[Hato International Airport|Willemstad]]
+<!-- -->
+| [[Venezolana]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->}}
+
+=== Cargo ===
+{{Airport-dest-list
+<!-- -->
+| [[Aerosucre]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+}}

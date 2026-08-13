@@ -1,0 +1,67 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+| [[Air Nostrum]] | '''Seasonal charter:''' [[Porto Airport|Porto]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Binter Canarias]] | '''Seasonal:''' [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Discover Airlines]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[easyJet]] | [[Gatwick Airport|London–Gatwick]] <br /> '''Seasonal:''' [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Belfast International Airport|Belfast–International]], [[Berlin Brandenburg Airport|Berlin]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Bristol Airport|Bristol]], [[Geneva Airport|Geneva]], [[Lisbon Airport|Lisbon]], [[Luton Airport|London–Luton]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Manchester Airport|Manchester]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nantes Atlantique Airport|Nantes]], [[Naples International Airport|Naples]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Porto Airport|Porto]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Cologne Bonn Airport|Cologne/Bonn]], [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]] <br /> '''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]],{{citation needed|date=July 2025}} [[Bilbao Airport|Bilbao]], [[Ibiza Airport|Ibiza]], [[León Airport|León]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Valencia Airport|Valencia]], [[Zaragoza Airport|Zaragoza]]
+<!-- -->
+| [[ITA Airways]] | '''Seasonal:''' [[Milan Linate Airport|Milan–Linate]],{{citation needed|date=July 2025}} [[Rome Fiumicino Airport|Rome–Fiumicino]]{{citation needed|date=July 2025}}
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[London Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[Lufthansa]] | '''Seasonal:''' [[Munich Airport|Munich]]{{citation needed|date=July 2025}}
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:''' [[Milan Bergamo Airport|Bergamo]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Rome Fiumicino Airport|Rome-Fiumicino]], [[Venice Marco Polo Airport|Venice]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| [[Ryanair]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Málaga Airport|Málaga]] <br /> '''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Bergamo Airport|Bergamo]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Bordeaux–Mérignac Airport|Bordeaux]]{{citation needed|date=April 2025}}, [[Brussels South Charleroi Airport|Charleroi]],{{citation needed|date=July 2025}} [[Dublin Airport|Dublin]], [[East Midlands Airport|East Midlands]], [[London Stansted Airport|London–Stansted]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Manchester Airport|Manchester]], [[Marseille Provence Airport|Marseille]], [[Naples International Airport|Naples]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Seville Airport|Seville]], [[Treviso Airport|Treviso]], [[Toulouse-Blagnac Airport|Toulouse]], [[Valencia Airport|Valencia]]
+<!-- -->
+| [[Scandinavian Airlines]] | '''Seasonal charter:''' [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[SkyAlps]] | '''Seasonal:''' [[Bolzano Airport|Bolzano]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal:''' [[Václav Havel Airport Prague|Prague]] <br>'''Seasonal charter:''' [[Porto Airport|Porto]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | '''Seasonal:''' [[Geneva Airport|Geneva]]
+<!-- -->
+| [[TAP Air Portugal]] | '''Seasonal:''' [[Lisbon Airport|Lisbon]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Nantes Atlantique Airport|Nantes]]{{better source needed|date=June 2025}}, [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]],{{citation needed|date=July 2025}} [[Cardiff Airport|Cardiff]], [[East Midlands Airport|East Midlands]], [[Exeter Airport|Exeter]],{{citation needed|date=July 2025}} [[Glasgow Airport|Glasgow]],{{citation needed|date=July 2025}} [[Gatwick Airport|London–Gatwick]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Norwich Airport|Norwich]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[TUI fly Deutschland]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Hannover Airport|Hannover]], [[Munich Airport|Munich]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Asturias Airport|Asturias]], [[Bilbao Airport|Bilbao]], [[Brest Bretagne Airport|Brest]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Lille Airport|Lille]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Marseille Provence Airport|Marseille]], [[Montpellier–Méditerranée Airport|Montpellier]], [[Nantes Atlantique Airport|Nantes]], [[San Sebastián Airport|San Sebastián]], [[Zaragoza Airport|Zaragoza]]
+<!-- -->
+| [[Vueling]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]] <br /> '''Seasonal:''' [[Bilbao Airport|Bilbao]], [[Florence Airport|Florence]], [[Orly Airport|Paris–Orly]], [[Seville Airport|Seville]]
+<!-- -->
+| [[Wizz Air]] | '''Seasonal:''' [[Rome Fiumicino Airport|Rome–Fiumicino]] (begins 30 June 2026), [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+}}
+
+===Cargo===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Swiftair]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+}}

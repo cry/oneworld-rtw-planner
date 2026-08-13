@@ -1,0 +1,9 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[Alliance Airlines]] | '''Charter:''' [[Coondewanna Airport|Coondewanna]],{{cn|date=May 2025}} [[Newman Airport|Newman]],{{cn|date=May 2025}} [[Perth Airport|Perth]]{{cn|date=May 2025}}
+| [[Jetstar]] | [[Melbourne Airport|Melbourne]] [[Sydney Airport|Sydney]] (suspended until 22 September 2026)
+| [[QantasLink]] |  '''Charter:''' [[Graeme Rowley Aerodrome|Christmas Creek]],{{cn|date=May 2025}} [[Solomon Airport|Solomon]]{{cn|date=May 2025}}, [[Perth Airport|Perth]]
+| [[Skippers Aviation]] | '''Charter:''' [[Perth Airport|Perth]],{{cn|date=May 2025}} [[Thunderbox Gold Mine]]{{cn|date=May 2025}}
+| {{nowrap|[[Virgin Australia Regional Airlines]]}} | '''Charter:''' [[Barimunya Airport|Barimunya]],{{cn|date=May 2025}} [[Boolgeeda Airport|Boolgeeda]],{{cn|date=May 2025}} [[Geraldton Airport|Geraldton]],{{cn|date=May 2025}} [[Perth Airport|Perth]], [[West Angelas mine|West Angelas]]
+}}

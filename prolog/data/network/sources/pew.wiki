@@ -1,0 +1,26 @@
+==Airlines and destinations==
+{{more citations needed section|date=April 2020}}
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+|[[Air Arabia]]| [[Ras Al Khaimah International Airport|Ras Al Khaimah]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[AirSial]]| [[Jinnah International Airport|Karachi]]
+<!-- -->
+|[[Emirates (airline)|Emirates]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Etihad Airways]]| [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+|[[Flyadeal]] | [[King Khalid International Airport|Riyadh]]
+<!-- -->
+|[[Flydubai]]| [[Dubai International Airport|Dubai–International(suspended)]]
+<!-- -->
+|[[Fly Jinnah]]| [[Jinnah International Airport|Karachi]]
+<!-- -->
+|{{nowrap|[[Pakistan International Airlines]]}}| [[Abu Dhabi International Airport|Abu Dhabi]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[Jinnah International Airport|Karachi]], [[Muscat International Airport|Muscat]], [[King Khalid International Airport|Riyadh]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]
+<!-- -->
+|[[SalamAir]]| [[Muscat International Airport|Muscat]]
+<!-- -->
+|[[Saudia]]| [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+}}

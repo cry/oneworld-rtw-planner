@@ -1,0 +1,10 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled flights at Gibraltar Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+|[[British Airways]]|[[Heathrow Airport|London–Heathrow]]
+<!-- -->
+|[[easyJet]]|[[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]]
+<!-- -->
+}}

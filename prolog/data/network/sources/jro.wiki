@@ -1,0 +1,30 @@
+==Airlines and destinations==
+The following airlines maintain regular, scheduled passenger and cargo service to and from Kilimanjaro International Airport.
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Tanzania]] | [[Entebbe International Airport|Entebbe]],{{cn|date=December 2025}} [[Gatwick Airport|London–Gatwick]] (begins 1 July 2027)
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Kenya Airways]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:''' [[Milan Malpensa Airport|Milan-Malpensa]] (begins 14 July 2026)
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Uganda Airlines]] | [[Entebbe International Airport|Entebbe]]{{cn|date=December 2025}}
+<!-- -->
+}}

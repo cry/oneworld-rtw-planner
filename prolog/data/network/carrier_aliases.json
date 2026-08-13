@@ -1,0 +1,50 @@
+{
+  "_comment": "ONLY the delta over prolog/src/carriers.pl. carrier_name/2 already maps all sixteen member names and affiliate/3 the fourteen affiliates that hold their own designator, so restating either here would be a third copy of the vocabulary and the one that drifts. What is left is the spellings English Wikipedia's airport tables use that neither of those covers. prolog/test/test_network.pl asserts every designator this file can produce satisfies carriers:carrier_code/1, which is what stops the two halves diverging.",
+  "_aliases": "An operator string naming exactly one operating certificate. The regional brands here -- QantasLink, Fiji Link, Royal Air Maroc Express, BA Euroflyer -- are the ones carriers.pl records as flying under the parent's own designator, so the parent's code is the operating carrier and not a guess.",
+  "aliases": {
+    "Royal Jordanian Airlines": "rj",
+    "SriLankan": "ul",
+    "Qantas Airways": "qf",
+    "QantasLink": "qf",
+    "Jetstar Airways": "jq",
+    "Fiji Link": "fj",
+    "Royal Air Maroc Express": "at",
+    "BA Euroflyer": "ba",
+    "BA Cityflyer": "cj",
+    "British Airways Cityflyer": "cj",
+    "Iberia Regional": "yw",
+    "Iberia Regional Air Nostrum": "yw",
+    "Air Nostrum (Iberia Regional)": "yw",
+    "Norra": "n7",
+    "Nordic Regional Airlines (Norra)": "n7",
+    "Japan Transocean Air (JTA)": "nu",
+    "J-Air (Japan Airlines)": "xm",
+    "Envoy Air (American Eagle)": "mq",
+    "PSA Airlines (American Eagle)": "oh",
+    "Piedmont Airlines (American Eagle)": "pt",
+    "Republic Airways (American Eagle)": "yx",
+    "SkyWest Airlines (American Eagle)": "oo",
+    "SkyWest Airlines (Alaska SkyWest)": "oo",
+    "Horizon Air (Alaska Horizon)": "qx",
+    "Alaska SkyWest": "oo",
+    "Alaska Horizon": "qx"
+  },
+  "_brands": "A brand covering several operating certificates. PLANS/06 phase 2: where the table cannot say which one flew, the operating carrier is UNKNOWN and never a guess -- and an unknown operating carrier is not a carriers:carrier_code/1, so the row yields no fact and reaches services.rejects.json under operator_brand_ambiguous instead. 4(j) already degrades to a warning on an absent operating carrier; feeding it a wrong one is worse than feeding it nothing.",
+  "brands": {
+    "American Eagle": [
+      "mq",
+      "oh",
+      "pt",
+      "yx",
+      "oo"
+    ]
+  },
+  "_excluded": "Strings that resolve through one of the tables above but must not: a cargo or charter arm carrying the passenger airline's name, or a namesake that is a different company.",
+  "excluded": [
+    "American Airlines Cargo",
+    "British Airways World Cargo",
+    "Cathay Cargo",
+    "Qantas Freight",
+    "Qatar Airways Cargo"
+  ]
+}

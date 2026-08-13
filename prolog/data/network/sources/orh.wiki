@@ -1,0 +1,46 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] |[[Philadelphia International Airport|Philadelphia]]
+| [[Delta Connection]] | [[LaGuardia Airport|New York–LaGuardia]] 
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Orlando International Airport|Orlando]] <br />'''Seasonal:''' [[Southwest Florida International Airport|Fort Myers]] 
+}}
+
+===Historical service===
+{{div col}}
+*[[Northeast Airlines]], 1946–1972 (merged with Delta Air Lines)
+*[[Mohawk Airlines]], 1965–1971 (merged with Allegheny Airlines)
+*Statewide Airlines, 1965–1966
+*[[Executive Airlines]], 1969–1972
+*[[Allegheny Airlines]], 1971–1975
+*[[Delta Air Lines]], 1972–1980, 2019–2020, 2021– 
+*Pilgrim Airlines, 1974–1975
+*Precision Airlines, 1978–1981
+*[[Bar Harbor Airlines]], 1980–1998
+*[[Piedmont Airlines]], 1986–1989 (merged with US Airways)
+*[[Continental Airlines|Continental]], 1987–1988
+*[[Northwest Airlines|Northwest]], 1988–1990
+*[[US Airways Express]], 1988–2003
+*[[Continental Express]], 1990–1998
+*[[Carnival Air Lines]], 1993–1994
+*Florida Shuttle, 1993–1994
+*[[United Express]], 1998 (April–November)
+*[[Pan American Airways (1998-2004)|Pan American Airways]], 2001–2002
+*[[American Airlines]], 2000–2002, 2018–2020, 2021–
+*[[Allegiant Air]], 2005–2006
+*[[Direct Air]], 2008–2012
+*[[JetBlue]], 2013–2020, 2021–
+*[[Rectrix Aviation|Rectrix Shuttle]], 2017–2018
+{{div col end}}
+Source:
+
+===Historical service===
+*[[Bar Harbor, Maine]]
+*[[Boston]]
+*[[Manchester, New Hampshire]]
+*[[Hyannis, Massachusetts]]
+*[[New York City|New York]] - [[John F. Kennedy International Airport|JFK Airport]]
+
+Source:

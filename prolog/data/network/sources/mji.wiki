@@ -1,0 +1,57 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[Afriqiyah Airways]]}} | [[Borg El Arab International Airport|Alexandria]], [[Queen Alia International Airport|Amman]], [[Benina International Airport|Benghazi]], [[Cairo International Airport|Cairo]], [[Istanbul Airport|Istanbul]], [[Kufra Airport|Kufra]], [[Port Sudan New International Airport|Port Sudan]], [[Sfax Thyna International Airport|Sfax]], [[Tunis Carthage Airport|Tunis]] <br />'''Hajj & Umrah:''' [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+| [[Air Cairo]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Air Libya]] | [[Benina International Airport|Benghazi]]
+<!-- -->
+| [[Berniq Airways]] | [[Benina International Airport|Benghazi]], [[Cairo International Airport|Cairo]], [[Istanbul Airport|Istanbul]]<br />'''Hajj & Umrah:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| [[Buraq Air]] | [[Benina International Airport|Benghazi]], [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+| [[Crown Airlines]] | [[Benina International Airport|Benghazi]], [[Cairo International Airport|Cairo]], [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Fly Cham]] | [[Damascus International Airport|Damascus]]
+<!-- -->
+| [[Fly Oya]] | [[Borg El Arab International Airport|Alexandria]], [[Al Abraq International Airport|Beida]],{{citation needed|date=February 2026}} [[Benina International Airport|Benghazi]],{{citation needed|date=February 2026}} [[Cairo International Airport|Cairo]], [[Dubai International Airport|Dubai–International]],{{citation needed|date=February 2026}} [[Ghat Airport|Ghat]],{{citation needed|date=February 2026}} [[Istanbul Airport|Istanbul]],{{citation needed|date=February 2026}} [[Diori Hamani International Airport|Niamey]],{{citation needed|date=February 2026}} [[Sabha Airport|Sabha]]{{citation needed|date=February 2026}} <br />'''Hajj & Umrah:''' [[King Abdulaziz International Airport|Jeddah]],{{cn|date=March 2025}} [[Prince Mohammad bin Abdulaziz International Airport|Medina]]{{cn|date=March 2025}}
+<!-- -->
+| {{nowrap|[[Ghadames Air Transport]]}} | [[Istanbul Airport|Istanbul]], [[Tunis Carthage International Airport|Tunis]]
+<!-- -->
+| {{nowrap|[[Global Aviation and Services Group|Global Air]]}} | [[Al Abraq International Airport|Beida]],{{citation needed|date=February 2026}} [[Benina International Airport|Benghazi]],{{citation needed|date=February 2026}} [[Ghat Airport|Ghat]],{{citation needed|date=February 2026}} [[Ubari Airport|Ubari]]{{citation needed|date=February 2026}}
+<!-- -->
+| [[ITA Airways]] | [[Rome Fiumicino Airport|Rome–Fiumicino]] (resumes 3 September 2026)
+<!-- -->
+| [[Libyan Airlines]] | [[Borg El Arab International Airport|Alexandria]], [[Benina International Airport|Benghazi]], [[Cairo International Airport|Cairo]], [[Istanbul Airport|Istanbul]], [[Diori Hamani International Airport|Niamey]],{{citation needed|date=February 2026}} [[Tunis–Carthage International Airport|Tunis]]<br />'''Hajj & Umrah:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]] [[Ghadames Airport|Ghadames East]]
+<!-- -->
+| [[Libyan Wings]] | [[Queen Alia International Airport|Amman–Queen Alia]], [[Benina International Airport|Benghazi]], [[Istanbul Airport|Istanbul]], [[Sabha Airport|Sabha]],{{citation needed|date=February 2026}} [[Tunis Carthage International Airport|Tunis]]
+<!-- -->
+| [[MedSky Airways]] | [[Athens International Airport|Athens]], [[Benina International Airport|Benghazi]], [[Istanbul Airport|Istanbul]], [[Malta International Airport|Malta]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Sabha Airport|Sabha]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[Tunisair]] | [[Tunis Carthage International Airport|Tunis]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Egyptair Cargo]] | [[Cairo International Airport|Cairo]], [[Ostend–Bruges International Airport|Ostend]]
+<!-- -->
+| [[MNG Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Turkish Cargo]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[ULS Airlines Cargo]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

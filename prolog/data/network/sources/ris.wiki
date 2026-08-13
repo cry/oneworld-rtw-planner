@@ -1,0 +1,6 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+| [[ANA Wings]] | '''Seasonal:''' [[Sapporo Airport|Sapporo–Chitose]]{{cn|date=August 2025}}
+| [[Hokkaido Air System]] | [[Okadama Airport|Sapporo–Okadama]]
+}}

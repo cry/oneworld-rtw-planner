@@ -1,0 +1,8 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+
+{{Airport destination list
+<!-- -->
+| [[Jetstar]] |[[Adelaide Airport|Adelaide]], [[Brisbane Airport|Brisbane]], [[Ngurah Rai International Airport|Denpasar]], [[Gold Coast Airport|Gold Coast]], [[Sydney Airport|Sydney]]
+<!-- -->
+}}

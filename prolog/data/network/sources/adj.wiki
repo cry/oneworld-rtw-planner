@@ -1,0 +1,13 @@
+== Airlines and destinations ==
+{{airport-dest-list
+<!-- -->
+| [[Air Arabia]] | [[Zayed International Airport|Abu Dhabi]], [[Alexandria International Airport (Egypt)|Alexandria]]
+<!-- -->
+| [[Air Cairo]] | [[Assiut Airport|Assiut]]
+<!-- -->
+|[[flynas]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Royal Jordanian]] | '''Seasonal:''' [[Antalya Airport|Antalya]], [[Istanbul Airport|Istanbul]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+}}

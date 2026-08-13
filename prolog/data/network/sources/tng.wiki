@@ -1,0 +1,53 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines operate regular scheduled and charter flights at Tangier Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Arabia Maroc|Air Arabia]] | [[Agadir Airport|Agadir]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Barcelona–El Prat Airport|Barcelona]], [[Bilbao Airport|Bilbao]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Brussels Airport|Brussels]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[Gatwick Airport|London–Gatwick]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Barajas Airport|Madrid]], [[Montpellier Airport|Montpellier]], [[Nador International Airport|Nador]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]] <br/> '''Seasonal:''' [[Girona Airport|Girona]]
+<!-- -->
+| [[Air Cairo]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Alexandria Airlines]] | '''Seasonal charter:''' [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Avion Express]] |'''Charter:''' [[Grenoble]]
+<!-- -->
+| [[Binter Canarias]] | '''Seasonal:''' [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+| [[Brussels Airlines]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[easyJet]] | '''Seasonal:''' [[EuroAirport Basel–Mulhouse–Freiburg|Basel/Mulhouse]], [[Geneva Airport|Geneva]], [[Lyon–Saint-Exupéry Airport|Lyon]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Cologne Bonn Airport|Cologne/Bonn]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Norwegian Air Shuttle]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Amsterdam Airport Schiphol|Amsterdam]],{{ref|a|a}} [[Brussels Airport|Brussels]],{{ref|a|a}} [[Istanbul Airport|Istanbul]], [[Orly Airport|Paris–Orly]]{{ref|b|b}} <br /> '''Seasonal:''' [[Barcelona–El Prat Airport|Barcelona]], [[Gatwick Airport|London–Gatwick]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+| {{nowrap|[[Royal Air Maroc Express]]}} | [[Cherif Al Idrissi Airport|Al Hoceima]], [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Ryanair]] | [[Agadir–Al Massira Airport|Agadir]], [[Barcelona Airport|Barcelona]], [[Beauvais Airport|Beauvais]], [[Beni Mellal Airport|Beni Mellal]], [[Bergamo Airport|Bergamo]], [[Brussels South Charleroi Airport|Charleroi]], [[Eindhoven Airport|Eindhoven]], [[Karlsruhe/Baden-Baden Airport|Karlsruhe/Baden-Baden]], [[Lisbon Airport|Lisbon]], [[London Stansted Airport|London–Stansted]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Manchester Airport|Manchester]], [[Marrakesh Menara Airport|Marrakesh]], [[Marseille Provence Airport|Marseille]], [[Memmingen Airport|Memmingen]], [[Angads Airport|Oujda]], [[Porto Airport|Porto]], [[Seville Airport|Seville]], [[Toulouse Airport|Toulouse]], [[Valencia Airport|Valencia]], [[Weeze Airport|Weeze]]<br /> '''Seasonal:''' [[Carcassonne Airport|Carcassonne]]
+<!-- -->
+| [[TAP Air Portugal]] | '''Seasonal:''' [[Lisbon Airport|Lisbon]]
+<!-- -->
+| [[Transavia]] | [[Orly Airport|Paris–Orly]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]] <br>'''Seasonal:''' [[Nantes Airport|Nantes]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Antwerp International Airport|Antwerp]], [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Vueling]] | [[Barcelona–El Prat Airport|Barcelona]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+}}
+
+<small>{{note|a|a}} This flight operates via Nador. However, this carrier does not sell tickets solely between Tangier and Nador.</small> <br />
+<small>{{note|b|b}} This flight operates via Fez on selected days. However, this carrier does not sell tickets solely between Tangier and Fez.</small>
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[DHL Aviation]] | [[Madrid Airport|Madrid]]
+<!-- -->
+}}

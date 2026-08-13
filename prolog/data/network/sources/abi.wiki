@@ -1,0 +1,27 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{More citations needed section|date=June 2024}}
+
+=== Passenger ===
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| [[United Express]] | [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]]}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:25em; margin:0.2em auto"
+|-
+! Destination map
+|-
+|{{Location map+ |United States |width=1000 |float=center
+|caption=Destination from Abilene Regional Airport
+|places=
+{{Location map~ |United States |lat=32.4119|long=-99.6800|position=left|label='''<small>Abilene</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United States |lat=32.899741|long=-97.040424|position=right |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United States |lat=39.861667|long=-104.673056|position=right |label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United States |lat=29.984444|long=-95.341389|position=right |label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}
+
+As of December 2022, all [[American Eagle (airline brand)|American Eagle]] flights operated by [[Envoy Air]] on behalf of [[American Airlines]] between Abilene (ABI) and Dallas/Ft. Worth (DFW) were being flown with [[Embraer E-Jet family|Embraer E175]] regional jets. [[United Express]] flights operated on behalf of [[United Airlines]] by [[SkyWest Airlines]] to Houston and Denver are operated by [[Bombardier CRJ100/200|Bombardier CRJ-200]] aircraft.
+
+=== Cargo ===
+The following [[airline]]s offer scheduled cargo service:
+{{Airport destination list|[[FedEx Feeder]]<br> operated by [[Baron Aviation Services|Baron Aviation]]|[[Lubbock Preston Smith International Airport|Lubbock]]}}

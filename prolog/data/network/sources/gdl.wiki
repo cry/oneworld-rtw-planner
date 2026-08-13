@@ -1,0 +1,135 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport-dest-list
+<!-- -->
+| [[Aeroméxico]] | [[Los Angeles International Airport|Los Angeles]], [[Madrid–Barajas Airport|Madrid]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Salt Lake City International Airport|Salt Lake City]]<br>'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Fresno Yosemite International Airport|Fresno]], [[Harry Reid International Airport|Las Vegas]], [[Miami International Airport|Miami]], [[Orlando International Airport|Orlando]], [[Sacramento International Airport|Sacramento]], [[San Francisco International Airport|San Francisco]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Tijuana International Airport|Tijuana]]
+<!-- -->
+| {{nowrap|[[Aeroméxico Connect]]}} |[[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]] <br>'''Seasonal:''' [[San Jose International Airport|San Jose (CA)]] (resumes November 7, 2026)
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+|[[American Eagle (airline brand)|American Eagle]]| [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Flair Airlines]] | [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]]
+<!-- -->
+| {{nowrap|[[Mexicana de Aviación (2023–present)|Mexicana de Aviación]]}} | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Los Cabos International Airport|San José del Cabo]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+| [[Viva (airline)|Viva]] | [[El Dorado International Airport|Bogotá]], [[Cancún International Airport|Cancún]], [[O'Hare International Airport|Chicago–O'Hare]], [[Chihuahua International Airport|Chihuahua]], [[Ciudad Juárez International Airport|Ciudad Juárez]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Hermosillo International Airport|Hermosillo]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[La Paz International Airport|La Paz]], [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]], [[Mérida International Airport|Mérida]], [[Mexicali International Airport|Mexicali]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]], [[Puebla International Airport|Puebla]], [[Puerto Escondido International Airport|Puerto Escondido]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[General Lucio Blanco International Airport|Reynosa]], [[Los Cabos International Airport|San José del Cabo]], [[Tijuana International Airport|Tijuana]], [[Tuxtla Gutiérrez International Airport|Tuxtla Gutiérrez]], [[Veracruz International Airport|Veracruz]], [[Villahermosa International Airport|Villahermosa]]<br>'''Seasonal:''' [[Oakland San Francisco Bay Airport|Oakland]]
+<!-- -->
+| [[Volaris]] | [[Acapulco International Airport|Acapulco]], [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] (begins December 2, 2026), [[El Dorado International Airport|Bogotá]], [[Cancún International Airport|Cancún]], [[Charlotte Douglas International Airport|Charlotte]], [[Midway International Airport|Chicago–Midway]], [[O'Hare International Airport|Chicago–O'Hare]], [[Chihuahua International Airport|Chihuahua]], [[Ciudad Juárez International Airport|Ciudad Juárez]], [[Ciudad Obregón International Airport|Ciudad Obregón]], [[Culiacán International Airport|Culiacán]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Denver International Airport|Denver]], [[Detroit Metropolitan Airport|Detroit]], [[Durango International Airport|Durango]], [[Fresno Yosemite International Airport|Fresno]], [[La Aurora International Airport|Guatemala City]] (resumes December 4, 2026), [[Hermosillo International Airport|Hermosillo]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Ixtapa-Zihuatanejo International Airport|Ixtapa/Zihuatanejo]], [[La Paz International Airport|La Paz]], [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]], [[Los Mochis International Airport|Los Mochis]], [[Mazatlán International Airport|Mazatlán]], [[José María Córdova International Airport|Medellín–JMC]] (begins December 2, 2026), [[Mérida International Airport|Mérida]], [[Mexicali International Airport|Mexicali]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Miami International Airport|Miami]], [[Monterrey International Airport|Monterrey]], [[Newark Liberty International Airport|Newark]], [[Oakland San Francisco Bay Airport|Oakland]], [[Oaxaca International Airport|Oaxaca]],[[Ontario International Airport|Ontario]], [[Orlando International Airport|Orlando]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Portland International Airport|Portland (OR)]], [[Puebla International Airport|Puebla]], [[Puerto Escondido International Airport|Puerto Escondido]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Querétaro Intercontinental Airport|Querétaro]], [[Reno–Tahoe International Airport|Reno/Tahoe]], [[General Lucio Blanco International Airport|Reynosa]], [[Sacramento International Airport|Sacramento]], [[Saltillo Airport|Saltillo]] (begins December 1, 2026), [[Salt Lake City International Airport|Salt Lake City]], [[San Antonio International Airport|San Antonio]], [[San Jose International Airport|San Jose (CA)]], [[Los Cabos International Airport|San José del Cabo]], [[San Luis Potosí International Airport|San Luis Potosí]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Tapachula International Airport|Tapachula]], [[Tijuana International Airport|Tijuana]], [[Toluca International Airport|Toluca/Mexico City]], [[Torreón International Airport|Torreón/Gómez Palacio]], [[Tulum International Airport|Tulum]], [[Tuxtla Gutiérrez International Airport|Tuxtla Gutiérrez]], [[Veracruz International Airport|Veracruz]], [[Villahermosa International Airport|Villahermosa]], [[Dulles International Airport|Washington–Dulles]] (begins December 1, 2026), [[Zacatecas International Airport|Zacatecas]]
+<!-- -->
+| [[Volaris Costa Rica]] | [[Juan Santamaría International Airport|San José (CR)]]
+<!-- -->
+| [[WestJet]] |'''Seasonal:''' [[Calgary International Airport|Calgary]]
+}}
+
+===Cargo===
+{{refimprove section|date=August 2025}}
+[[File:MMGLA3.jpg|thumb|Concourse A at the Airport.]]
+[[File:MMGLA2.jpg|thumb|Concourse A at the Airport.]]
+[[File:GDLN (4).jpg|thumb|Concourse B at the Airport.]]
+[[File:GDLN (5).jpg|thumb|Concourse B at the Airport.]]
+[[File:GDLN (6).jpg|thumb|Concourse B at the Airport.]]
+[[File:GDLN (3).jpg|thumb|Concourse B at the Airport.]]
+[[File:GDL (10).jpg|thumb|Concourse C at the Airport.]]
+[[File:GDL (11).jpg|thumb|Concourse C at the Airport.]]
+[[File:GDL (7).jpg|thumb|National baggage claim belt.]]
+[[File:GDL (8).jpg|thumb|National baggage claim belt.]]
+[[File:AeroMexico B787-9 Dreamliner (N446AM) at GDL.jpg|thumb|[[Boeing 787|Boeing 787-9 Dreamliner]] of [[Aeroméxico]] (N446AM) on the platform. This is the largest aircraft model that regularly handles passenger operations at Guadalajara Airport.]]
+[[File:GDLN (2).jpg|thumb|A321 [[Volaris]] plane at the airport.]]
+
+=== Destinations map ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=800|float=right|caption=Domestic destinations from Guadalajara International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Mexico|lat=20.5260 |long=-103.3076| position=bottom|label=<div style="position:relative; top:-10px;"><small>'''Guadalajara'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=right|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.7566 |long=-99.0152|position=top|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City/AIFA}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.1638 |long=-98.3761|position=bottom|label='''[[Puebla International Airport|{{nowrap|Puebla}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.3389 |long=-99.5698|position=left|label='''[[Toluca International Airport|{{nowrap|Toluca}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=16.7616 |long=-99.7559|position=left|label='''[[Acapulco International Airport|{{nowrap|Acapulco}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=21.036667 |long=-86.876944|position=left|label='''[[Cancún International Airport|{{nowrap|Cancún}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=28.7040 |long=-105.9690|position=top|label='''[[Chihuahua International Airport|{{nowrap|Chihuahua}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=31.6358 |long=-106.4359|position=top|label='''[[Ciudad Juárez International Airport|{{nowrap|Ciudad Juárez}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=27.3980 |long=-109.8334|position=right|label='''[[Ciudad Obregón International Airport|{{nowrap|Ciudad Obregón}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=24.7630 |long=-107.4767|position=right|label='''[[Culiacán International Airport|{{nowrap|Culiacán}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=24.1260 |long=-104.5339|position=right|label='''[[Durango International Airport|{{nowrap|Durango}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=29.0900 |long=-111.0520|position=right|label='''[[Hermosillo International Airport|{{nowrap|Hermosillo}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=17.6062 |long=-101.4637|position=left|label='''[[Ixtapa-Zihuatanejo International Airport|{{nowrap|Ixtapa/Zihuatanejo}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=24.0761 |long=-110.3671|position=top|label='''[[La Paz International Airport|{{nowrap|La Paz}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.6870 |long=-109.0831|position=right|label='''[[Los Mochis International Airport|{{nowrap|Los Mochis}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=23.161389|long=-106.266111|position=right|label='''[[Mazatlán International Airport|Mazatlán]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.9338 |long=-89.6604|position=left|label='''[[Mérida International Airport|{{nowrap|Mérida}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.6306 |long=-115.242|position=top|label='''[[Mexicali International Airport|{{nowrap|Mexicali}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.778333 |long=-100.106389|position=top|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=17.0008 |long=-96.7221|position=right|label='''[[Oaxaca International Airport|{{nowrap|Oaxaca}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=15.98 |long=-97.088889|position=left|label='''[[Puerto Escondido International Airport|{{nowrap|Puerto Escondido}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.6805 |long=-105.2524|position=left|label='''[[Licenciado Gustavo Díaz Ordaz International Airport|{{nowrap|Puerto Vallarta}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.6225 |long=-100.1873|position=right|label='''[[Querétaro Intercontinental Airport|{{nowrap|Querétaro}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=26.0118 |long=-98.2272|position=top|label='''[[General Lucio Blanco International Airport|{{nowrap|Reynosa}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Blue pog.svg | Mexico|lat=25.549444 |long=-100.92861|position=bottom|label='''[[Saltillo Airport|{{nowrap|Saltillo}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=23.1455 |long=-109.7183|position=top|label='''[[Los Cabos International Airport|{{nowrap|San José del Cabo}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=22.2569 |long=-100.9342|position=top|label='''[[San Luis Potosí International Airport|{{nowrap|San Luis Potosí}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=14.7903 |long=-92.3687|position=left|label='''[[Tapachula International Airport|{{nowrap|Tapachula}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.5633 |long=-103.3988|position=top|label='''[[Torreón International Airport|{{nowrap|Torreón}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.216667 |long=-87.466667|position=left|label='''[[Tulum International Airport|{{nowrap|Tulum}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=16.5592 |long=-93.0232|position=top|label='''[[Tuxtla Gutiérrez International Airport|{{nowrap|Tuxtla Gutiérrez}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.1448 |long=-96.1864|position=right|label='''[[Veracruz International Airport|{{nowrap|Veracruz}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=17.9955 |long=-92.8173|position=right|label='''[[Villahermosa International Airport|{{nowrap|Villahermosa}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=22.9003 |long=-102.6804|position=top|label='''[[Zacatecas International Airport|{{nowrap|Zacatecas}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|North_America|width=800|float=center|caption=North American destinations from Guadalajara International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | North_America |lat=20.5260 |long=-103.3076| position=right|label=<div style="position:relative; top:0px;"><small>'''Guadalajara'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | North_America |lat=49.194722|long=-123.183889|position=top|label='''<small>[[Vancouver International Airport|Vancouver]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=43.4036|long=-79.3750|position=top|label='''<small>[[Toronto Pearson International Airport|{{nowrap|Toronto-Pearson}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=45.470556|long=-73.740833|position=top|label='''<small>[[Montréal–Trudeau International Airport|{{nowrap|Montréal–Trudeau}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg | North_America |lat=51.1225|long=-114.013333|position=top|label='''<small>[[Calgary International Airport|Calgary]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=33.636667|long=-84.428056|position=left|label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=35.213889|long=-80.943056|position=top|label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=41.978611|long=-87.904722|position=left|label='''<small>[[O'Hare International Airport|{{nowrap|Chicago-O'Hare}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=32.896944|long=-97.038056|position=top|label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=39.861667|long=-104.673056|position=bottom|label='''<small>[[Denver International Airport|Denver]] </small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |mark = Blue pog.svg | North_America |lat=42.21443|long=-83.35332|position=left|label='''<small>[[Detroit Metropolitan Airport|Detroit]] </small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=29.984444|long=-95.341389|position=right|label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=36.08|long=-115.152222|position=right|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=33.9425|long=-118.408056|position=left|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |  North_America |lat=25.793333|long=-80.290556|position=right|label='''<small>[[Miami International Airport|Miami]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=40.6925  |long=-74.168611|position=left|label='''<small>[[Newark Liberty International Airport|Newark]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=37.721389|long=-122.220833|position=right|label='''<small>[[Oakland San Francisco Bay Airport|{{nowrap|Oakland}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=28.429444|long=-81.308889|position=right|label='''<small>[[Orlando International Airport|Orlando]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=38.695556|long=-121.590833|position=left|label='''<small>[[Sacramento International Airport|Sacramento]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=40.788333|long=-111.977778|position=right|label='''<small>[[Salt Lake City International Airport|{{nowrap|Salt Lake City}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = green pog.svg | North_America |lat=37.618889|long=-122.375|position=left|label='''<small>[[San Francisco International Airport|{{nowrap|San Francisco}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=47.448889|long=-122.309444|position=left|label='''<small>[[Seattle–Tacoma International Airport|{{nowrap|Seattle/Tacoma}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=29.526667|long=-98.471944|position=bottom|label='''<small>[[San Antonio International Airport|{{nowrap|San Antonio}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=33.434167|long=-112.011667|position=right|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=9.071389|long=-79.383611|position=top|label='''<small>[[Tocumen International Airport|Panama City]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=9.993889|long=-84.208889|position=left|label='''<small>[[Juan Santamaría International Airport|San José (CR)]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=36.4636|long=-119.4308|position=right|label='''<small>[[Fresno Yosemite International Airport|Fresno]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=37.3639|long=-121.9289|position=right|label=<div style="position:relative; right:0px; top:5px"><small>'''[[San Jose International Airport|San Jose]]'''</small></div>|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=34.056111|long=-117.601111|position=right|label='''<small>[[Ontario International Airport|Ontario]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=45.588611|long=-122.5975|position=left|label='''<small>[[Portland International Airport|{{nowrap|Portland (OR)}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=41.786111|long=-87.7525|position=bottom|label='''<small>[[Midway International Airport|{{nowrap|Chicago–Midway}}]]</small>'''|label_size=100|marksize=7 }}
+{{Location map~ | North_America |lat=39.499167|long=-119.768056|position=top|label='''<small>[[Reno–Tahoe International Airport|{{nowrap|Reno/Tahoe}}]]</small>'''|label_size=100|marksize=7 }}
+{{Location map~ | mark = Blue pog.svg | North_America |lat=38.944444|long=-77.455833|position=bottom|label='''<small>[[Dulles International Airport|{{nowrap|Washington–Dulles}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=4.701389|long=-74.146944|position=right|label='''<small>[[El Dorado International Airport|Bogotá]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Blue pog.svg | North_America |lat=14.581667|long=-90.526667|position=left|label='''<small>[[La Aurora International Airport|{{nowrap|Guatemala City}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Blue pog.svg | North_America |lat=6.167222  |long=-75.426667|position=top|label='''<small>[[José María Córdova International Airport|Medellín-JMC]]</small>'''|label_size=100 |marksize=7 }}
+
+}}
+|-
+|{{Location map+|Europe|width=800|float=center|caption=European destinations from Guadalajara International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Europe |lat=40.472222|long=-3.560833|position=top|label='''<small>[[Madrid–Barajas Airport|Madrid]]</small>'''|label_size=100 |marksize=7 }}}}
+|}

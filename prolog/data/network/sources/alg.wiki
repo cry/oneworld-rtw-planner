@@ -1,0 +1,71 @@
+==Airlines and destinations==
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED.  -->
+
+===Passenger===
+{{incomplete list|date=May 2026}}
+The following airlines operate regular scheduled and charter flights at Algiers Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Air Algérie]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Nnamdi Azikiwe International Airport|Abuja]], [[Bole International Airport|Addis Ababa]], [[Alicante–Elche Airport|Alicante]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Modibo Keita International Airport|Bamako]], [[Barcelona–El Prat Airport|Barcelona]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Beijing–Capital]], [[Beirut–Rafic Hariri International Airport|Beirut]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Brussels Airport|Brussels]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Cairo International Airport|Cairo]], [[Blaise Diagne International Airport|Dakar–Diass]], [[Indira Gandhi International Airport|Delhi]] (begins 26 October 2026), [[Hamad International Airport|Doha]], [[Douala International Airport|Douala]], <!--ROUTE TO BE CONFIRMED [[Dubai International Airport|Dubai–International]],--> [[El Bayadh Airport|El Bayadh]],{{citation needed|date=May 2026}} [[Frankfurt Airport|Frankfurt]], [[Geneva Airport|Geneva]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kuala Lumpur–International]], [[Libreville International Airport|Libreville]], [[Lille Airport|Lille]], [[Lisbon Airport|Lisbon]], [[London–Heathrow]], [[London–Stansted]], [[Dr. António Agostinho Neto International Airport|Luanda–Agostinho Neto]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Marseille Provence Airport|Marseille]], [[Mécheria Airport|Mécheria]],{{citation needed|date=May 2026}} [[Metz–Nancy–Lorraine Airport|Metz/Nancy]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Montpellier–Méditerranée Airport|Montpellier]], [[Montréal–Trudeau]], [[Moscow–Sheremetyevo]] (resumes 3 August 2026), [[Nantes Atlantique Airport|Nantes]], [[Diori Hamani International Airport|Niamey]], [[Nice Côte d'Azur Airport|Nice]], [[Nouakchott–Oumtounsy International Airport|Nouakchott]], [[N'Djamena International Airport|N'Djamena]], [[Ouagadougou Airport|Ouagadougou]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Paris–Charles de Gaulle]], [[Paris–Orly]], [[Rome–Fiumicino]], [[Francisco Sá Carneiro Airport|Porto]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]], [[Shanghai Pudong International Airport|Shanghai–Pudong]] (begins 26 October 2026), [[Strasbourg Airport|Strasbourg]], [[Abdelhafid Boussouf Bou Chekif Airport|Tiaret]],{{citation needed|date=May 2026}} [[Tunis–Carthage International Airport|Tunis]], [[Toulouse-Blagnac|Toulouse]], [[Valencia Airport|Valencia]], [[Vienna Airport|Vienna]] <br/> '''Seasonal:'''  [[Antalya Airport|Antalya]], [[Manchester Airport|Manchester]] <br/> '''Seasonal charter:''' [[Hurghada International Airport|Hurghada]],{{citation needed|date=May 2026}} [[Sharm El Sheikh International Airport|Sharm El Sheikh]]{{citation needed|date=May 2026}}
+<!-- -->
+| [[Air Canada]] | [[Montréal-Trudeau International Airport|Montreal]] (suspended until September 2026)
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[AJet]] | [[Istanbul–Sabiha Gökçen]]{{citation needed|date=May 2026}}
+<!-- -->
+| {{nowrap|[[ASL Airlines France]]}} | [[Paris–Orly]]{{citation needed|date=May 2026}} <br/> '''Seasonal:''' [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Clermont-Ferrand Auvergne Airport|Clermont-Ferrand]],{{citation needed|date=May 2026}} [[Toulon Airport|Toulon]]{{citation needed|date=May 2026}}
+<!-- -->
+| [[British Airways]] | [[London–Gatwick]]{{citation needed|date=May 2026}}
+<!-- -->
+| [[Domestic Airlines]] | [[Ghriss Airport|Mascara]],{{citation needed|date=May 2026}} [[Mécheria Airport|Mécheria]],{{citation needed|date=May 2026}} [[Tindouf Airport|Tindouf]]{{citation needed|date=May 2026}}
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]] (ends 3 February 2027)
+<!-- -->
+| [[Flynas]] | [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[ITA Airways]] | [[Rome–Fiumicino]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Nouvelair]] | [[Tunis Airport|Tunis]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]{{citation needed|date=May 2026}}
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad Bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| [[TUI fly Belgium]] | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Tunisair]] | [[Tunis Airport|Tunis]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Volotea]] | [[Bordeaux–Mérignac Airport|Bordeaux]], [[Marseille Provence Airport|Marseille]], [[Valencia Airport|Valencia]] (begins 28 November 2026)
+<!-- -->
+| [[Vueling]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+|[[Lufthansa Cargo]]|[[Frankfurt Airport|Frankfurt]]
+<!-- -->
+|[[Swiftair]]|[[Marseille Airport|Marseille]]
+<!-- -->
+|[[Turkish Cargo]]|[[Istanbul Airport|Istanbul]]
+}}
+
+[[File:Algiers Houari Boumediene Airport 05.jpg|thumb|Old Terminal 1 (2006-2018)]]
+[[File:New Algeria airport.jpg|alt=|thumb|Departure board]]
+[[File:Algiers's Airport.jpg|alt=|thumb|Arrivals]]
+[[File:Aeroport Houari Boumediene IMG 1360.JPG|thumb|New Terminal 1]]

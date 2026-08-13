@@ -1,0 +1,25 @@
+== Airlines and destinations ==
+
+=== Passenger ===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+|3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Allegiant Air]] | [[Austin–Bergstrom International Airport|Austin]], [[Logan International Airport|Boston]], [[Hollywood Burbank Airport|Burbank]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Southwest Florida International Airport|Fort Myers]], [[Jack Edwards Airport|Gulf Shores]], [[William P. Hobby Airport|Houston-Hobby]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Harry Reid International Airport|Las Vegas]], [[John Wayne Airport|Orange County]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Philadelphia International Airport|Philadelphia]], [[Mesa Gateway Airport|Phoenix/Mesa]],  [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]<br />'''Seasonal:''' [[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]], [[Nashville International Airport|Nashville]], [[Newark Liberty International Airport|Newark]], [[Portland International Airport|Portland (OR)]], [[Sarasota–Bradenton International Airport|Sarasota]] | 
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]<br/>'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]] | 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Los Angeles International Airport|Los Angeles]], [[LaGuardia Airport|New York–LaGuardia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Ronald Reagan Washington National Airport|Washington–National]]<br />'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]] |
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] | 
+<!-- -->
+| {{nowrap|[[Delta Connection]]}} | [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[LaGuardia Airport|New York–LaGuardia]] | 
+<!-- -->
+| [[Frontier Airlines]] | [[Denver International Airport|Denver]]<br />'''Seasonal:''' [[Orlando International Airport|Orlando]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Midway International Airport|Chicago–Midway]], [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]]<br /> '''Seasonal:''' [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]]{{cn|date=November 2024}} | 
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]] {{citation needed|date=March 2026}} | 
+}}

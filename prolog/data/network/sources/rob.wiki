@@ -1,0 +1,24 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+
+The following airlines offer scheduled passenger flights at Roberts International Airport :
+
+{{Airport-dest-list
+<!-- -->
+|[[Air Côte d'Ivoire]]|[[Port Bouet Airport|Abidjan]], [[Ahmed Sékou Touré International Airport|Conakry]]
+<!-- -->
+|[[Air Peace]]|[[Accra International Airport|Accra]], [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+|[[ASKY Airlines]] | [[Port Bouet Airport|Abidjan]], [[Accra International Airport|Accra]], [[Banjul International Airport|Banjul]], [[Lomé–Tokoin International Airport|Lomé]]
+<!-- -->
+|[[Brussels Airlines]] | [[Brussels Airport|Brussels]], [[Lungi International Airport|Freetown]]
+<!-- -->
+|[[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]], [[Freetown International Airport|Freetown]]
+<!-- -->
+|[[Kenya Airways]] | [[Accra International Airport|Accra]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+|[[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+|[[Turkish Airlines]] | [[Accra International Airport|Accra]], [[Istanbul Airport|Istanbul]] (all flights suspended)
+<!-- -->
+}}

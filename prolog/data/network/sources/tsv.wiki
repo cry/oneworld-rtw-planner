@@ -1,0 +1,31 @@
+==Airlines and destinations==
+
+===Passenger===
+{{airport-dest-list
+<!-- -->
+| [[Airnorth]] | [[Darwin International Airport|Darwin]]
+<!-- -->
+| [[Alliance Airlines]] | '''Mining charter:''' [[Cairns Airport|Cairns]] [[Trepell Airport|Trepell]], [[The Monument Airport|Phosphate Hill]]
+<!-- -->
+| [[Jetstar]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Qantas]] | [[Brisbane Airport|Brisbane]]
+<!-- -->
+| [[QantasLink]] | [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]], [[Cloncurry Airport|Cloncurry]], [[Mackay Airport|Mackay]], [[Melbourne Airport|Melbourne]], [[Mount Isa Airport|Mount Isa]], [[Rockhampton Airport|Rockhampton]], [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Rex Airlines]]{{efn-la|name=QLD|Some Rex services operate under subsidy from the Queensland Government on defined routes with multiple intermediate stops}} | [[Cairns Airport|Cairns]], [[Hughenden Airport|Hughenden]], [[Julia Creek Airport|Julia Creek]], [[Longreach Airport|Longreach]],{{efn-la|name=N1|Northern 1 route - Townsville-Winton-Longreach}} [[Mount Isa Airport|Mount Isa]],{{efn-la|name=N2|Northern 2 route - Townsville-Hughenden-Richmond-Julia Creek-Mount Isa}} [[Richmond Airport (Queensland)|Richmond]], [[Winton Airport|Winton]]
+<!-- -->
+| {{nowrap|[[SmartLynx Australia]]}} | '''Mining charter:''' [[Carmichael coal mine|Labona Mine]]
+<!-- -->
+| [[Virgin Australia]] | [[Brisbane Airport|Brisbane]]
+<!-- -->
+|[[National Jet Express]]|'''Mining charter:''' [[Cairns Airport|Cairns]], [[Moranbah]]}}
+
+{{notelist}}
+
+===Cargo===
+{{airport-dest-list
+| [[HeavyLift Cargo Airlines]] | '''Defence Charter:''' [[Darwin International Airport|Darwin]], [[Honiara International Airport|Honiara]]
+| [[Qantas Freight]] | [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]]
+| [[Toll Global Express|Toll Priority]] | [[Sydney Airport|Sydney]]
+}}

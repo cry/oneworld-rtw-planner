@@ -1,0 +1,75 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+The following airlines operate regular scheduled and charter flights to and from Toulouse:
+
+{{Airport-dest-list 
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal:''' [[Athens International Airport|Athens]], [[Heraklion International Airport|Heraklion]] 
+<!-- -->
+|[[Aer Lingus]]| [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Air Algérie]] | [[Houari Boumediene Airport|Algiers]], [[Mohamed Boudiaf International Airport|Constantine]], [[Oran Es Sénia Airport|Oran]]
+<!-- -->
+| {{nowrap|[[Air Arabia]]}} | [[Fes–Saïss Airport|Fès]]
+<!-- -->
+| [[Air Canada]] | [[Montréal–Pierre Elliott Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[Air Corsica]] | [[Ajaccio – Napoléon Bonaparte Airport|Ajaccio]], [[Bastia Airport|Bastia]], [[Calvi–Sainte-Catherine Airport|Calvi]], [[Figari–Sud Corse Airport|Figari]], [[Nantes Atlantique Airport|Nantes]]
+<!-- -->
+| [[Air France]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Lyon–Saint Exupéry Airport|Lyon]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal–Pierre Elliott Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+|[[APG Airlines]] | [[Lorient South Brittany Airport|Lorient]]
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| {{nowrap|[[Brussels Airlines]]}} | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Corsair International]] |[[Roland Garros Airport|Saint-Denis de la Réunion]] 
+<!-- -->
+| [[easyJet]] | [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Bristol Airport|Bristol]], [[Geneva Airport|Geneva]], [[London Gatwick Airport|London–Gatwick]], [[Lyon–Saint Exupéry Airport|Lyon]], [[Marrakesh Menara Airport|Marrakesh]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nantes Atlantique Airport|Nantes]], [[Nice Côte d'Azur Airport|Nice]], [[Orly Airport|Paris–Orly]] <br /> '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Barajas Airport|Madrid]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Lufthansa]] | [[Munich Airport|Munich]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[Nouvelair]] | [[Djerba–Zarzis International Airport|Djerba]], [[Tunis-Carthage International Airport|Tunis]]
+<!-- -->
+| {{nowrap|[[Royal Air Maroc]]}} | [[Mohammed V International Airport|Casablanca]], [[Marrakesh Menara Airport|Marrakesh]]
+<!-- -->
+| [[Ryanair]] | [[Agadir-Al Massira Airport|Agadir]], [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Bristol Airport|Bristol]], [[Budapest Airport|Budapest]], [[Charleroi Airport|Brussels-Charleroi]], [[Dublin Airport|Dublin]], [[Fes–Saïss Airport|Fès]], [[Kraków John Paul II International Airport|Kraków]], [[Lisbon Airport|Lisbon]], [[London Stansted Airport|London–Stansted]], [[Malta International Airport|Malta]], [[Manchester Airport|Manchester]], [[Marrakech-Menara Airport|Marrakesh]], [[Bergamo Airport|Milan-Bergamo]], [[Angads Airport|Oujda]], [[Paphos International Airport|Paphos]], [[Porto Airport|Porto]], [[Rabat Airport|Rabat]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Sevilla Airport|Seville]], [[Tangier Airport|Tangier]], [[Tenerife South Airport|Tenerife–South]],  [[Valencia Airport|Valencia]], [[Treviso Airport|Venice-Treviso]] <br />'''Seasonal:''' [[Bari Airport|Bari]], [[Birmingham Airport|Birmingham]], [[Corfu International Airport|Corfu]], [[Edinburgh Airport|Edinburgh]], [[Faro Airport|Faro]], [[Ibiza Airport|Ibiza]], [[Menorca Airport|Menorca]], [[Nador Airport|Nador]], [[Naples International Airport|Naples]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Smartwings]] | [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+| {{nowrap|[[TAP Air Portugal]]}} | [[Lisbon Airport|Lisbon]]
+<!-- -->
+| [[Transavia]] | [[Agadir Airport|Agadir]], [[Algiers Airport|Algiers]], [[Aristides Pereira International Airport|Boa Vista]], [[Brest Bretagne Airport|Brest]], [[Blaise Diagne International Airport|Dakar]], [[King Abdulaziz International Airport|Jeddah]], [[Marrakech-Menara Airport|Marrakesh]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Oran Airport|Oran]], [[Orly Airport|Paris–Orly]], [[Amílcar Cabral International Airport|Sal]], [[Ben Gurion Airport|Tel Aviv]]
+<!-- --> 
+| [[Tunisair]] | [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Twin Jet]] | [[Nantes Atlantique Airport|Nantes]], [[Marseille Provence Airport|Marseille]], [[Nice Côte d'Azur Airport|Nice]], [[Rennes–Saint-Jacques Airport|Rennes]]
+<!-- -->
+| [[Volotea]] | [[Caen–Carpiquet Airport|Caen]], [[Lille Airport|Lille]], [[Nantes Atlantique Airport|Nantes]], [[Pisa International Airport|Pisa]] (resumes 6 November 2026), [[Rennes–Saint-Jacques Airport|Rennes]], [[Strasbourg International Airport|Strasbourg]], [[Tenerife South Airport|Tenerife–South]], [[Venice Airport|Venice]] <br />'''Seasonal:''' [[Faro Airport|Faro]], [[Florence Airport|Florence]], [[Fuerteventura Airport|Fuertentura]] (begins 7 November 2026), [[Gran Canaria Airport|Gran Canaria]] (begins 7 November 2026), [[Luxembourg Airport|Luxembourg]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Olbia Costa Smeralda Airport|Olbia]], [[Palermo Airport|Palermo]], [[Split Airport|Split]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+|[[DHL Aviation]]|[[Lyon Airport|Lyon]]
+<!-- -->
+|[[FedEx Feeder]]|[[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[Maersk Air Cargo]]|[[Lyon Airport|Lyon]]
+<!-- -->
+|[[Swiftair]]|[[Otopeni Airport|Bucharest–Otopeni]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[UPS Airlines]]|[[Cologne-Bonn Airport|Cologne/Bonn]]}}

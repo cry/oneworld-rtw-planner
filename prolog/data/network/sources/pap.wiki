@@ -1,0 +1,27 @@
+==Airlines and destinations==
+===Passenger===
+As of March 2024, most flights are currently suspended due to the current political turmoil. The following airlines used to operate regular scheduled and charter services at the airport:
+
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Air Transat]] | [[Montréal-Pierre Elliott Trudeau International Airport|Montréal–Trudeau]] (suspended)
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]] (suspended)
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]] (suspended)
+<!-- -->
+| [[Sky High Aviation Services|Sky High]] | [[Las Américas International Airport|Santo Domingo–Las Américas]]{{cn|date=November 2025}}
+<!-- -->
+| [[Sunrise Airways]] | [[V. C. Bird International Airport|Antigua]],{{cn|date=November 2025}}, [[Cap-Haïtien International Airport|Cap-Haïtien]], [[Curaçao International Airport|Curaçao]],{{cn|date=November 2025}}, [[Jacmel Airport|Jacmel]], [[Les Cayes Airport|Les Cayes]], [[Punta Cana International Airport|Punta Cana]]{{cn|date=November 2025}}
+<!-- -->
+}}
+
+===Cargo===
+{{airport-dest-list
+<!-- -->
+| [[Amerijet International]] | [[Miami International Airport|Miami]] (suspended)
+<!-- -->
+| [[IBC Airways]] | [[Miami International Airport|Miami]]
+<!-- -->
+}}

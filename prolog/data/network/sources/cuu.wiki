@@ -1,0 +1,44 @@
+==Airlines and destinations==
+=== Passenger ===
+{{Airport destination list
+<!-- -->
+| [[Aeromexico]]| [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| {{nowrap|[[Aeroméxico Connect]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]]| [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+| [[Señor Air| Cabo Flight Center]] | [[Cabo San Lucas International Airport|Cabo San Lucas]]
+<!-- -->
+| {{nowrap|[[Mexicana de Aviación (2023–present)|Mexicana de Aviación]]}} | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+| [[TAR Aerolíneas]] | [[Culiacán International Airport|Culiacán]], [[Hermosillo International Airport|Hermosillo]], [[La Paz International Airport|La Paz]], [[Los Mochis International Airport|Los Mochis]], [[Querétaro Intercontinental Airport|Queretaro]], [[Torreón International Airport|Torreón/Gómez Palacio]]
+<!-- -->
+| [[Viva (airline)|Viva]]| [[Cancún International Airport|Cancun]], [[Guadalajara International Airport|Guadalajara]], [[Mazatlán International Airport|Mazatlán]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]]
+<!-- -->
+|[[Volaris]]| [[Denver International Airport|Denver]], [[Guadalajara International Airport|Guadalajara]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Tijuana International Airport|Tijuana]]
+}}
+
+=== Destinations map ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=right|caption=Domestic destinations from Chihuahua International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination |places={{Location map~ | Mexico|lat=28.7040 |long=-105.9690|position=right |label=<div style="position:relative; bottom:-5px;"><small>'''Chihuahua'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=bottom|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.7566 |long=-99.0152|position=right|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City/AIFA}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.7778 |long=-100.1080|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.5260 |long=-103.3076|position=bottom|label='''[[Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=23.1671 |long=-106.2701|position=bottom|label='''[[Mazatlán International Airport|{{nowrap|Mazatlán}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=24.0725 |long=-110.362222|position=right|label='''[[La Paz International Airport|{{nowrap|La Paz}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.6870 |long=-109.0831|position=right|label='''[[Los Mochis International Airport|{{nowrap|Los Mochis}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=22.9475 |long=-109.936944|position=left|label='''[[Cabo San Lucas International Airport|{{nowrap|Cabo San Lucas}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=29.0900 |long=-111.0520|position=right|label='''[[Hermosillo International Airport|{{nowrap|Hermosillo}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=24.7630 |long=-107.4767|position=right|label='''[[Culiacán International Airport|{{nowrap|Culiacán}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.540833|long=-116.97|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=21.036667 |long=-86.876944|position=left|label='''[[Cancún International Airport|{{nowrap|Cancún}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.6225 |long=-100.1873|position=top|label='''[[Querétaro Intercontinental Airport|{{nowrap|Querétaro}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.568056 |long=-103.410556|position=top|label='''[[Torreón International Airport|Torreón/Gómez Palacio]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|United_States|width=650|float=center|caption=International destinations from Chihuahua International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal/charter destination|places={{Location map~ |United_States |lat=32.8998|long=-97.0403|position=top|label='''[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=39.861667|long=-104.673056|position=top|label='''[[Denver International Airport|Denver]]'''|label_size=90 |marksize=7 }}
+}}
+|}

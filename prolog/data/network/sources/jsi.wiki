@@ -1,0 +1,43 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Skiathos Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+|[[Air Serbia]]| '''Seasonal charter:''' [[Belgrade Nikola Tesla Airport|Belgrade]]
+<!-- -->
+|[[Avanti Air]]| '''Seasonal charter:''' [[Klagenfurt Airport|Klagenfurt]]
+<!-- -->
+|[[Austrian Airlines]]| '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+|[[British Airways]]| '''Seasonal:''' [[London City Airport|London–City]]{{cn|date=July 2026}}
+<!-- -->
+|[[Cyprus Airways]]| '''Seasonal:''' [[Larnaca International Airport|Larnaca]]{{cn|date=July 2026}}
+<!-- -->
+|[[Discover Airlines]]| '''Seasonal:''' [[Frankfurt Airport|Frankfurt]],{{cn|date=July 2026}} [[Munich Airport|Munich]]{{cn|date=July 2026}}
+<!-- -->
+|[[easyJet]]| '''Seasonal:''' [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]],{{cn|date=July 2026}} [[Bristol Airport|Bristol]], [[London–Gatwick]], [[Manchester Airport|Manchester]], [[Milan–Malpensa]],{{cn|date=July 2026}} [[Naples International Airport|Naples]]{{cn|date=July 2026}}
+<!-- -->
+|[[Edelweiss Air]]| '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+|[[Jet2.com]]| '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]] (begins 6 May 2027), [[Leeds Bradford Airport|Leeds/Bradford]], [[London–Gatwick]], [[London–Luton]], [[London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+|[[Neos (airline)|Neos]]| '''Seasonal:''' [[Milan–Malpensa]],
+<!-- -->
+| [[Olympic Air]] | [[Athens International Airport|Athens]]{{cn|date=July 2026}}
+<!-- -->
+|{{nowrap|[[Scandinavian Airlines]]}}| '''Seasonal charter:''' [[Copenhagen Airport|Copenhagen]],{{cn|date=July 2026}} [[Göteborg Landvetter Airport|Gothenburg]],{{cn|date=July 2026}} [[Oslo Airport, Gardermoen|Oslo]],{{cn|date=July 2026}} [[Stavanger Airport, Sola|Stavanger]],{{cn|date=July 2026}} [[Stockholm–Arlanda]]{{cn|date=July 2026}}
+<!-- -->
+|[[Ryanair]]| '''Seasonal:''' [[Bari Karol Wojtyła Airport|Bari]],{{cn|date=July 2026}} [[Bergamo Airport|Bergamo]],{{cn|date=July 2026}} [[Bratislava Airport|Bratislava]], [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Airport|Budapest]], [[Pisa International Airport|Pisa]], [[Václav Havel Airport Prague|Prague]], [[Rome–Fiumicino]], [[Sofia Airport|Sofia]]
+<!-- -->
+|[[Sky Express (Greece)|Sky Express]]| [[Athens International Airport|Athens]]
+<!-- -->
+|{{nowrap|[[Sunclass Airlines]]}}| '''Seasonal charter:''' [[Copenhagen Airport|Copenhagen]],{{cn|date=July 2026}} [[Oslo Airport, Gardermoen|Oslo]],{{cn|date=July 2026}} [[Stockholm–Arlanda]]{{cn|date=July 2026}}
+<!-- -->
+|[[Transavia]]| '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]],{{cn|date=July 2026}} [[Paris–Orly]]
+<!-- -->
+|[[TUI Airways]]| '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[London–Gatwick]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+|[[TUI fly Netherlands]]| '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+|[[Wizz Air]]| '''Seasonal:''' [[Milan–Malpensa]], [[Naples International Airport|Naples]], [[Rome–Fiumicino]]
+}}

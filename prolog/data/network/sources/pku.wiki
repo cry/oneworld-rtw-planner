@@ -1,0 +1,36 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{airport-dest-list
+<!---->
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!---->
+| [[Batik Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!---->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!---->
+| [[Citilink]] | [[Hang Nadim International Airport|Batam]], [[Halim Perdanakusuma International Airport|Jakarta–Halim Perdanakusuma]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!---->
+|[[Garuda Indonesia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!---->
+|[[Lion Air]] | [[Hang Nadim International Airport|Batam]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kualanamu International Airport|Medan]], [[Juanda International Airport|Surabaya]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!---->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!---->
+|[[Pelita Air]]| [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!---->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!---->
+| [[Super Air Jet]] | [[Hang Nadim International Airport|Batam]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Kualanamu International Airport|Medan]]
+<!---->
+| [[Susi Air]] | [[Dabo Airport|Dabo]], [[Minangkabau International Airport|Padang]], [[Raja Haji Abdullah Airport|Tanjung Balai Karimun]]
+<!---->
+| [[Wings Air]] | [[Binaka Airport|Gunungsitoli]], [[Malacca Airport|Malacca]]
+}}
+
+===Cargo===
+{{airport-dest-list
+<!---->
+|[[Asia Cargo Airlines]] | [[Kertajati International Airport|Bandung–Kertajati]]
+}}

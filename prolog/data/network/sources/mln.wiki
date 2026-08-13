@@ -1,0 +1,10 @@
+==Airlines and destinations==
+{{incomplete list|date=August 2026}}
+The following airlines operate regular scheduled and charter flights at Melilla Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport-dest-list
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Almería Airport|Almería]], [[Granada Airport|Granada]], [[Gran Canaria Airport|Gran Canaria]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Seville Airport|Seville]] <br/> '''Seasonal:''' [[Asturias Airport|Asturias]], [[Santiago–Rosalía de Castro Airport|Santiago de Compostela]]
+<!-- -->
+}}

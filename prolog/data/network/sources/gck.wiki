@@ -1,0 +1,50 @@
+==Airlines and destinations==
+=== Passenger ===
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Garden City Regional Airport
+|places=
+{{Location map~ |United_States |lat=37.9275 |long=-100.724444 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Garden City'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7}}
+}}
+|}
+
+===Statistics===
+{{Bar graph
+| title = Carrier shares (December 2024 – November 2025)
+| bar_width   = 20
+| width_units = em
+| label_type  = Carrier&nbsp;&nbsp;
+| data_type   = Passengers (arriving and departing)
+| label1   = [[Envoy Air]]
+| data1    = 63,650
+| comment1  = 93.22%
+| label2   = [[SkyWest]]
+| data2    = 4,630
+| comment2  = 6.78%
+}}
+
+{| class="wikitable"
+|+ '''Top domestic destinations<br />(December 2024 – November 2025)'''
+|-
+! Rank
+! Airport
+! Passengers
+! Airline
+|-
+| 1
+| [[Dallas/Fort Worth International Airport|Dallas/Fort Worth International (DFW)]]
+| 34,210
+| American Eagle
+|}
+
+=== Cargo ===
+The following [[Airline|airlines]] offer scheduled cargo service:
+{{Airport destination list|[[FedEx Feeder]]<br> operated by [[Baron Aviation Services|Baron Aviation]]|[[Wichita Dwight D. Eisenhower National Airport|Wichita]]}}

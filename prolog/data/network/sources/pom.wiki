@@ -1,0 +1,24 @@
+==Airlines and destinations==
+
+===Passenger===
+{{Airport destination list
+<!-- -->
+| [[Air Niugini]] | [[Gurney Airport|Alotau]], [[Auckland Airport|Auckland]] (resumes 17 November 2026),  [[Brisbane Airport|Brisbane]], [[Buka Airport|Buka]], [[Cairns Airport|Cairns]], [[Daru Airport|Daru]], [[Goroka Airport|Goroka]], [[Hong Kong International Airport|Hong Kong]], [[Honiara Airport|Honiara]], [[Hoskins Airport|Hoskins]], [[Kavieng Airport|Kavieng]], [[Kiunga Airport|Kiunga]], [[Lae Nadzab Airport|Lae]], [[Momote Airport|Lorengau]], [[Madang Airport|Madang]], [[Ninoy Aquino International Airport|Manila]], [[Mount Hagen Airport|Mount Hagen]], [[Nadi International Airport|Nadi]], [[Girua Airport|Popondetta]], [[Bauerfield International Airport|Port Vila]], [[Rabaul Airport|Rabaul]], [[Singapore Changi Airport|Singapore]], [[Sydney Airport|Sydney]], [[Tabubil Airport|Tabubil]], [[Tari Airport|Tari]], [[Tokyo–Narita]], [[Tufi Airport|Tufi]],{{cn|date=July 2026}} [[Vanimo Airport|Vanimo]], [[Wapenamanda Airport|Wapenamanda]], [[Wewak Airport|Wewak]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Guangzhou Baiyun International Airport|Guangzhou]]{{cn|date=July 2026}}
+<!-- -->
+| {{nowrap|[[Philippine Airlines]]}} | [[Ninoy Aquino International Airport|Manila]]{{cn|date=July 2026}}
+<!-- -->
+| [[PNG Air]] | [[Gurney Airport|Alotau]], [[Daru Airport|Daru]], [[Goroka Airport|Goroka]], [[Kiunga Airport|Kiunga]], [[Lae Nadzab Airport|Lae]], [[Lihir Island Airport|Lihir Island]], [[Mount Hagen Airport|Mount Hagen]], [[Girua Airport|Popondetta]], [[Rabaul Airport|Rabaul]], [[Tabubil Airport|Tabubil]], [[Wapenamanda Airport|Wapenamanda]]
+<!-- -->
+| [[Qantas]] | [[Sydney Airport|Sydney]]
+| [[Solomon Airlines]] | [[Honiara International Airport|Honiara]]
+<!-- -->
+}}
+
+===Cargo===
+{{airport-dest-list
+<!-- -->
+| [[Solomon Airlines]] | [[Honiara International Airport|Honiara]]
+<!-- -->
+}}

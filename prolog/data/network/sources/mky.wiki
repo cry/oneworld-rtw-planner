@@ -1,0 +1,26 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[Jetstar]]
+|[[Brisbane Airport|Brisbane]] (ends 24 October 2026){{cn|date=August 2026}}
+<!-- -->
+|[[Qantas]]
+|[[Brisbane Airport|Brisbane]]
+<!-- -->
+|[[QantasLink]]
+|[[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]], [[Rockhampton Airport|Rockhampton]], [[Townsville Airport|Townsville]]
+<!-- -->
+|[[Virgin Australia]]
+|[[Brisbane Airport|Brisbane]]
+<!-- -->
+}}
+
+===Cargo===
+{{airport-dest-list
+<!-- -->
+| [[Pel-Air]] | [[Brisbane Airport|Brisbane]]
+<!-- -->
+| [[Toll Group|Toll Aviation]] | [[Brisbane Airport|Brisbane]], [[Mount Isa Airport|Mount Isa]]
+}}

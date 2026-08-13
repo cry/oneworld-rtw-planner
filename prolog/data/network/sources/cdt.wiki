@@ -1,0 +1,16 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Castellón–Costa Azahar Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]] <br> '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Ryanair]] | [[Brussels South Charleroi Airport|Charleroi]], [[London Stansted Airport|London–Stansted]]  <br /> '''Seasonal:''' [[Bergamo Airport|Bergamo]], [[Berlin Brandenburg Airport|Berlin]], [[Bologna Airport|Bologna]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Kraków John Paul II International Airport|Kraków]], [[Manchester Airport|Manchester]], [[Porto Airport|Porto]], [[Weeze Airport|Weeze]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal charter:''' [[Bratislava Airport|Bratislava]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Asturias Airport|Asturias]], [[Bilbao Airport|Bilbao]]
+<!-- -->
+| [[Wizz Air]] | [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Cluj International Airport|Cluj-Napoca]] <br />'''Seasonal:''' [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+}}

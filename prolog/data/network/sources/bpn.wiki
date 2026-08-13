@@ -1,0 +1,32 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Batik Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Hasanuddin International Airport|Makassar]], [[Supadio International Airport|Pontianak]]
+<!-- -->
+| [[Citilink]] |[[Husein Sastranegara Airport|Bandung–Husein Sastranegara]] (resumes 18 August 2026), [[Syamsudin Noor International Airport|Banjarmasin]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Hasanuddin International Airport|Makassar]], [[Juanda International Airport|Surabaya]], [[Juwata Airport|Tarakan]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!-- -->
+| [[FlyJaya]] | [[Arung Palakka Airport|Bone]]
+<!-- -->
+| [[Garuda Indonesia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Lion Air]] | [[Hang Nadim International Airport|Batam]], [[Ngurah Rai International Airport|Denpasar]], [[Sultan Hasanuddin International Airport|Makassar]], [[Kualanamu International Airport|Medan]], [[Jenderal Ahmad Yani International Airport|Semarang]], [[Juanda International Airport|Surabaya]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Pelita Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Juanda International Airport|Surabaya]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!-- -->
+| {{nowrap|[[Royal Brunei Airlines]]}} | [[Brunei International Airport|Bandar Seri Begawan]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Sriwijaya Air]] | [[Kalimarau Airport|Tanjung Redeb]]
+<!-- -->
+| [[Super Air Jet]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Lombok International Airport|Lombok]], [[Sultan Hasanuddin International Airport|Makassar]], [[Sam Ratulangi International Airport|Manado]], [[Jenderal Ahmad Yani International Airport|Semarang]], [[Juanda International Airport|Surabaya]], [[Kalimarau Airport|Tanjung Redeb]], [[Juwata Airport|Tarakan]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!-- -->
+| [[Wings Air]] | [[Syamsudin Noor International Airport|Banjarmasin]], [[Robert Atty Bessing Airport|Malinau]], [[Tampa Padang Airport|Mamuju]], [[West Kutai Melalan Airport|Melak]], [[Tjilik Riwut Airport|Palangkaraya]], [[Mutiara SIS Al-Jufrie Airport|Palu]], [[Kalimarau Airport|Tanjung Redeb]], [[Tanjung Harapan Airport|Tanjung Selor]]
+<!-- -->
+}}

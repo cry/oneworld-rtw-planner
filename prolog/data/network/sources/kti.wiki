@@ -1,0 +1,83 @@
+==Airlines and destinations==
+
+===Passenger===
+
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY.-->
+{{Airport-dest-list
+<!-- As per WP:AIRPORTS, please do not add Domestic and International Terminals. -->
+<!-- -->
+| [[Air Cambodia]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Da Nang International Airport|Da Nang]], [[Indira Gandhi International Airport|Delhi]], [[Fuzhou Changle International Airport|Fuzhou]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]], [[Dara Sakor International Airport|Koh Kong]], [[Nanning Wuxu International Airport|Nanning]], [[Cam Ranh International Airport|Nha Trang]], [[Phu Quoc International Airport|Phu Quoc]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Siem Reap–Angkor International Airport|Siem Reap]], [[Narita International Airport|Tokyo–Narita]], [[Zhengzhou Xinzheng International Airport|Zhengzhou]]
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]
+<!-- -->
+| [[AirAsia Cambodia]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Siem Reap–Angkor International Airport|Siem Reap]]
+<!-- -->
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Bangkok Airways]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Cambodia Airways]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Changsha Huanghua International Airport|Changsha]], [[Chengdu Tianfu International Airport|Chengdu–Tianfu]], [[Chongqing Jiangbei International Airport|Chongqing]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Haikou Meilan International Airport|Haikou]], [[Hong Kong International Airport|Hong Kong]], [[Dara Sakor International Airport|Koh Kong]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Macau International Airport|Macau]], [[Penang International Airport|Penang]], [[Sanya Phoenix International Airport|Sanya]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Siem Reap–Angkor International Airport|Siem Reap]], [[Changi Airport|Singapore]], [[Wattay International Airport|Vientiane]], [[Yangon International Airport|Yangon]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Kunming Changshui International Airport|Kunming]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Wuhan Tianhe International Airport|Wuhan]]
+<!-- -->
+| [[China Southern Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Indonesia AirAsia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]{{better source needed|independent source needed|date=August 2025}}
+<!-- -->
+| {{nowrap|[[Myanmar Airways International]]}} | [[Yangon International Airport|Yangon]]
+<!-- -->
+| [[PAL Express]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Qatar Airways]] |[[Hamad International Airport|Doha]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Shenzhen Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Sky Angkor Airlines]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Changsha Huanghua International Airport|Changsha]],{{citation needed|date=September 2025}} [[Chengdu Tianfu International Airport|Chengdu–Tianfu]], [[Macau International Airport|Macau]], [[Incheon International Airport|Seoul–Incheon]]<br />'''Seasonal:''' [[Gaya Airport|Gaya]]
+<!-- -->
+| [[Spring Airlines]] | [[Chengdu Tianfu International Airport|Chengdu–Tianfu]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Xi'an Xianyang International Airport|Xi'an]]
+<!-- -->
+| [[Thai AirAsia]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| [[Thai Airways International]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai VietJet Air]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Turkish Airlines]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Vietnam Airlines]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Wattay International Airport|Vientiane]]
+<!-- -->
+| [[XiamenAir]] | [[Chongqing Jiangbei International Airport|Chongqing]], [[Fuzhou Changle International Airport|Fuzhou]], [[Qingdao Jiaodong International Airport|Qingdao]], [[Xiamen Gaoqi International Airport|Xiamen]]
+<!-- -->
+}}
+
+===Cargo===
+{{more citations needed section|date=September 2025}}
+{{Airport-dest-list
+| [[Cathay Pacific|Cathay Cargo]] | [[Hong Kong International Airport|Hong Kong]], [[Penang International Airport|Penang]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Emirates SkyCargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+| [[K-Mile Air]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Pattaya Airways]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Qatar Airways|Qatar Airways Cargo]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Hamad International Airport|Doha]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Yangon International Airport|Yangon]]
+}}
+
+[[File:Techo International Airport Destination Map.png|center|500px|thumb|Techo International Airport - Destination Map (February 2026). Red shows regularly connected countries with both passenger and cargo operations. Blue shows Cambodia, where the airport is located.]]

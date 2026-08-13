@@ -1,0 +1,15 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport-dest-list
+|[[Flydubai]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Flynas]]| [[Bahrain International Airport|Bahrain]], [[King Fahd International Airport|Dammam]], [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[Kuwait International Airport|Kuwait City]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Gulf Air]] | '''Seasonal:''' [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Jordanian]] | '''Seasonal:''' [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+|[[Saudia]]| [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+}}

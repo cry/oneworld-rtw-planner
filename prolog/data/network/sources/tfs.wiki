@@ -1,0 +1,83 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Tenerife South Airport:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Aer Lingus]] | [[Dublin Airport|Dublin]] <br> '''Seasonal:''' [[Cork Airport|Cork]]
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]] (begins 1 November 2026), [[Toronto Pearson International Airport|Toronto–Pearson]] (begins 26 October 2026)
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]] (begins 15 September 2026)
+<!-- -->
+| [[airBaltic]] | '''Seasonal:''' [[Groningen Airport Eelde|Groningen]] (begins 29 October 2026), [[Riga International Airport|Riga]]{{cn|date=May 2026}} [[Tallinn Airport|Tallinn]],{{cn|date=May 2026}} [[Vilnius Airport|Vilnius]]{{cn|date=May 2026}}
+<!-- -->
+| [[Animawings]] |  '''Seasonal:''' [[Timișoara Traian Vuia International Airport|Timișoara]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna International Airport|Vienna]]{{cn|date=May 2026}}
+<!-- -->
+| [[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]] <br/> '''Seasonal:''' [[Madeira Airport|Funchal]]{{cn|date=May 2026}}
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]],{{cn|date=May 2026}} [[Heathrow Airport|London–Heathrow]]{{cn|date=May 2026}}
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]{{cn|date=May 2026}}
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Düsseldorf Airport|Düsseldorf]],{{cn|date=May 2026}} [[Frankfurt Airport|Frankfurt]],{{cn|date=May 2026}} [[Hamburg Airport|Hamburg]],{{cn|date=May 2026}} [[Munich Airport|Munich]] <br/> '''Seasonal:''' [[Stuttgart Airport|Stuttgart]]{{cn|date=May 2026}}
+<!-- -->
+| {{nowrap|[[Corendon Airlines Europe]]}} | [[Cologne Bonn Airport|Cologne/Bonn]],{{cn|date=May 2026}} [[Düsseldorf Airport|Düsseldorf]],{{cn|date=May 2026}} [[Hannover Airport|Hannover]]{{cn|date=May 2026}}
+<!-- -->
+| [[Discover Airlines]] | [[Frankfurt Airport|Frankfurt]],{{cn|date=May 2026}} [[Munich Airport|Munich]]{{cn|date=May 2026}}
+<!-- -->
+| [[easyJet]] | [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Belfast International Airport|Belfast–International]], [[Berlin Brandenburg Airport|Berlin]], [[Birmingham Airport|Birmingham]],{{cn|date=May 2026}} [[Bordeaux-Merignac Airport|Bordeaux]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Geneva Airport|Geneva]], [[Liverpool John Lennon Airport|Liverpool]], [[Gatwick Airport|London–Gatwick]],{{cn|date=May 2026}} [[Luton Airport|London–Luton]],{{cn|date=May 2026}} [[London Southend Airport|London–Southend]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Manchester Airport|Manchester]],{{cn|date=May 2026}} [[Milan Malpensa Airport|Milan–Malpensa]], [[Nantes Atlantique Airport|Nantes]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Newcastle International Airport|Newcastle upon Tyne]] (resumes 1 August 2026) <br/> ''' Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]],{{cn|date=May 2026}} [[Glasgow Airport|Glasgow]], [[Milan Linate Airport|Milan–Linate]], [[Nice Côte d'Azur Airport|Nice]]
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zurich]]{{cn|date=May 2026}}
+<!-- -->
+| [[Eurowings]] | [[Cologne Bonn Airport|Cologne/Bonn]],{{cn|date=May 2026}} [[Düsseldorf Airport|Düsseldorf]]{{cn|date=May 2026}} <br/> '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]],{{cn|date=May 2026}} [[Graz Airport|Graz]],{{cn|date=May 2026}} [[Hamburg Airport|Hamburg]],{{cn|date=May 2026}} [[Hannover Airport|Hannover]],{{cn|date=May 2026}} [[Václav Havel Airport Prague|Prague]], [[Salzburg Airport|Salzburg]],{{cn|date=May 2026}} [[Stuttgart Airport|Stuttgart]]{{cn|date=May 2026}}
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]{{cn|date=May 2026}}
+<!-- -->
+| [[Icelandair]] | [[Keflavík International Airport|Reykjavík–Keflavík]]{{cn|date=May 2026}}
+<!-- -->
+| [[Jet2.com]] | [[Belfast International Airport|Belfast–International]],{{cn|date=May 2026}} [[Birmingham Airport|Birmingham]],{{cn|date=May 2026}} [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]],{{cn|date=May 2026}} [[Leeds Bradford Airport|Leeds/Bradford]],{{cn|date=May 2026}} [[Liverpool John Lennon Airport|Liverpool]], [[Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]],{{cn|date=May 2026}} [[Manchester Airport|Manchester]],{{cn|date=May 2026}} [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Luxair]] | [[Luxembourg Airport|Luxembourg]]{{cn|date=May 2026}}
+<!-- -->
+| [[Marabu (airline)|Marabu]] | [[Cologne Bonn Airport|Cologne/Bonn]],{{cn|date=May 2026}} [[Hamburg Airport|Hamburg]]
+<!-- -->
+| [[Neos (airline)|Neos]] | [[Bologna Guglielmo Marconi Airport|Bologna]] <br/>'''Seasonal:''' [[Milan Malpensa Airport|Milan–Malpensa]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]] <br/> '''Seasonal:''' [[Aalborg Airport|Aalborg]], [[Bergen Airport, Flesland|Bergen]], [[Helsinki Airport|Helsinki]], [[Stavanger Airport|Stavanger]],{{cn|date=May 2026}} [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Ryanair]] | [[Agadir-Al Massira Airport|Agadir]], [[Milan Bergamo Airport|Bergamo]],{{cn|date=May 2026}} [[Berlin Brandenburg Airport|Berlin]], [[Birmingham Airport|Birmingham]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[Budapest Ferenc Liszt International Airport|Budapest]],{{cn|date=May 2026}} [[Brussels South Charleroi Airport|Charleroi]], [[Cardiff Airport|Cardiff]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Dublin Airport|Dublin]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Eindhoven Airport|Eindhoven]],{{cn|date=May 2026}} [[Glasgow Prestwick Airport|Glasgow–Prestwick]], [[Ireland West Airport|Knock]],{{cn|date=May 2026}} [[Kraków John Paul II International Airport|Kraków]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]], [[Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Manchester Airport|Manchester]], [[Marseille Provence Airport|Marseille]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Naples International Airport|Naples]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Santiago–Rosalía de Castro Airport|Santiago de Compostela]], [[Seville Airport|Seville]], [[Shannon Airport|Shannon]], [[Treviso Airport|Treviso]], [[Valencia Airport|Valencia]], [[Vienna International Airport|Vienna]], [[Warsaw Modlin Airport|Warsaw–Modlin]] <br /> '''Seasonal:''' [[Beauvais–Tillé Airport|Beauvais]], [[Hahn Airport|Hahn]], [[Karlsruhe/Baden-Baden Airport|Karlsruhe/Baden-Baden]], [[Marrakesh Menara Airport|Marrakesh]],{{cn|date=May 2026}} [[Memmingen Airport|Memmingen]], [[Porto Airport|Porto]],{{cn|date=May 2026}} [[Toulouse–Blagnac Airport|Toulouse]],{{cn|date=May 2026}} [[Weeze Airport|Weeze]]
+<!-- -->
+| [[Scandinavian Airlines]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]],{{cn|date=May 2026}} [[Oslo Airport, Gardermoen|Oslo]],{{cn|date=May 2026}} [[Stockholm Arlanda Airport|Stockholm–Arlanda]]{{cn|date=May 2026}}
+<!-- -->
+| [[Smartwings]] | [[Václav Havel Airport Prague|Prague]]{{cn|date=May 2026}} <br/> '''Seasonal charter:''' [[Isle of Man Airport|Isle of Man]], [[Jersey Airport|Jersey]],{{cn|date=May 2026}} [[Warsaw Chopin Airport|Warsaw-Chopin]]{{cn|date=May 2026}}
+<!-- -->
+| {{nowrap|[[Sunclass Airlines]]}} | '''Seasonal charter:''' [[Copenhagen Airport|Copenhagen]],{{cn|date=May 2026}} [[Oslo Airport, Gardermoen|Oslo]]{{cn|date=May 2026}}
+<!-- -->
+| [[Sundair]] | '''Seasonal:''' [[Münster Osnabrück Airport|Münster/Osnabrück]]{{cn|date=May 2026}}
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]]{{cn|date=May 2026}}
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport Schiphol|Amsterdam]],{{cn|date=May 2026}} [[Brussels Airport|Brussels]], [[Eindhoven Airport|Eindhoven]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+| [[TUI Airways]] | [[Birmingham Airport|Birmingham]],{{cn|date=May 2026}} [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[Cardiff Airport|Cardiff]], [[Dublin Airport|Dublin]],{{cn|date=May 2026}} [[East Midlands Airport|East Midlands]], [[Exeter Airport|Exeter]], [[Glasgow Airport|Glasgow]], [[Gatwick Airport|London–Gatwick]],{{cn|date=May 2026}} [[Manchester Airport|Manchester]],{{cn|date=May 2026}} [[Newcastle International Airport|Newcastle upon Tyne]], [[Norwich Airport|Norwich]] <br/> '''Seasonal:''' [[Aberdeen Airport|Aberdeen]], [[Belfast International Airport|Belfast–International]], [[London Stansted Airport|London–Stansted]]{{cn|date=May 2026}}
+<!-- -->
+| [[TUI fly Belgium]] | [[Antwerp International Airport|Antwerp]] (ens 25 March 2027), [[Brussels Airport|Brussels]], [[Ostend-Bruges International Airport|Ostend/Bruges]]
+<!-- -->
+| [[TUI fly Deutschland]] | [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Hannover Airport|Hannover]], [[Munich Airport|Munich]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| {{nowrap|[[TUI fly Netherlands]]}} | [[Amsterdam Airport Schiphol|Amsterdam]],{{cn|date=May 2026}} [[Eindhoven Airport|Eindhoven]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+| [[Volotea]] | [[Asturias Airport|Asturias]], [[Bilbao Airport|Bilbao]],{{cn|date=May 2026}} [[Nantes Atlantique Airport|Nantes]] <br/> '''Seasonal:'''  [[Brest Bretagne Airport|Brest]],{{cn|date=May 2026}} [[Lille Airport|Lille]], [[Montpellier–Méditerranée Airport|Montpellier]] (begins 8 November 2026)
+<!-- -->
+| [[Vueling]] |  [[Orly Airport|Paris–Orly]]{{cn|date=May 2026}}
+<!-- -->
+| [[Wizz Air]] | [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Katowice Airport|Katowice]],{{cn|date=May 2026}} [[Milan Malpensa Airport|Milan–Malpensa]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Venice Marco Polo Airport|Venice]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+}}

@@ -1,0 +1,44 @@
+==Airlines and destinations==
+===Passenger===
+[[File:B777 d'Air France à LBV.jpg|thumb|right|[[Air France]] [[Boeing 777]] arrived from [[Charles de Gaulle Airport]], France.]]
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[AfriJet]]| [[Bangui M'Poko International Airport|Bangui]], [[Maya-Maya Airport|Brazzaville]], [[Cadjehoun Airport|Cotonou]], [[Douala International Airport|Douala]], [[M'Vengue El Hadj Omar Bongo Ondimba International Airport|Franceville]], [[Oyem Airport|Oyem]], [[Pointe Noire Airport|Pointe-Noire]], [[Port-Gentil International Airport|Port Gentil]], [[Príncipe Airport|Príncipe]], [[São Tomé International Airport|São Tomé]], [[Yaoundé Nsimalen International Airport|Yaoundé]]
+<!-- -->
+|[[Air Algérie]] | [[Houari Boumediene Airport|Algiers]],
+<!-- -->
+|[[Air Côte d'Ivoire]]| [[Port Bouet Airport|Abidjan]], [[Maya-Maya Airport|Brazzaville]], [[Cadjehoun Airport|Cotonou]], [[Murtala Muhammed International Airport|Lagos]], [[Pointe Noire Airport|Pointe-Noire]]
+<!-- -->
+|[[Air France]]| [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[ASKY Airlines]]| [[Douala International Airport|Douala]], [[OR Tambo International Airport|Johannesburg–OR Tambo]], [[N'djili Airport|Kinshasa–N'djili]], [[Lomé-Tokoin Airport|Lomé]], [[São Tomé International Airport|São Tomé]], [[Yaoundé Nsimalen International Airport|Yaoundé]]
+<!-- -->
+|[[Camair-co]]| [[Cadjehoun Airport|Cotonou]], [[Douala International Airport|Douala]], [[Agostinho-Neto International Airport|Pointe-Noire]], [[Yaoundé Nsimalen International Airport|Yaoundé]]
+<!-- -->
+|[[FlyGabon (Gabon)|FlyGabon]] | [[OR Tambo International Airport|Johannesburg–OR Tambo]]
+<!-- -->
+|[[Ethiopian Airlines]]| [[Bole International Airport|Addis Ababa]], [[Malabo International Airport|Malabo]]
+<!-- -->
+|{{nowrap|[[Nationale Regionale Transport]]}}| [[M'Vengue El Hadj Omar Bongo Ondimba International Airport|Franceville]], [[Koulamoutou Airport|Koulamoutou]], [[Makokou Airport|Makokou]], [[Mouila Airport|Mouila]], [[Oyem Airport|Oyem]], [[Port-Gentil International Airport|Port-Gentil]], [[Tchibanga Airport|Tchibanga]]
+<!-- -->
+|[[Royal Air Maroc]]| [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+|[[RwandAir]]| [[Douala International Airport|Douala]], [[Kigali International Airport|Kigali]], [[Yaoundé Nsimalen International Airport|Yaoundé]]
+<!-- -->
+|[[Trans Air Congo]]| [[Douala International Airport|Douala]], [[Pointe Noire Airport|Pointe-Noire]]
+<!-- -->
+|[[Turkish Airlines]]| [[Istanbul Airport|Istanbul]], [[Quatro de Fevereiro Airport|Luanda]], [[Agostinho-Neto International Airport|Pointe-Noire]] (all flights suspended)
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+|[[Cargolux]]| [[Luxembourg Findel Airport|Luxembourg]]
+<!-- -->
+|[[DHL Aviation]]| [[Port Bouet Airport|Abidjan]], [[M'Vengue El Hadj Omar Bongo Ondimba International Airport|Franceville]], [[Port-Gentil International Airport|Port-Gentil]]
+<!-- -->
+| [[Ethiopian Cargo]]| [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Bole International Airport|Addis Ababa]]
+<!-- -->
+|[[Royal Air Maroc Cargo]]| [[Bole International Airport|Addis Ababa]], [[Mohammed V International Airport|Casablanca]]
+}}

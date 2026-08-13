@@ -1,0 +1,55 @@
+==Airlines and destinations==
+
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED.  -->
+
+===Passenger===
+<!-- Please use only independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Botswana]] | [[Sir Seretse Khama International Airport|Gaborone]]
+<!-- -->
+| [[Air Tanzania]] | [[Julius Nyerere International Airport|Dar es Salaam]]
+<!-- -->
+|[[Airlink]]| [[OR Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]], [[Robert Gabriel Mugabe International Airport|Harare]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Fastjet Zimbabwe]] | [[Robert Gabriel Mugabe International Airport|Harare]]
+<!-- -->
+| [[Kenya Airways]] | [[Robert Gabriel Mugabe International Airport|Harare]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Malawi Airlines]] | [[Robert Gabriel Mugabe International Airport|Harare]], [[Lilongwe International Airport|Lilongwe]]
+<!-- -->
+| [[Proflight Zambia]] | [[Cape Town International Airport|Cape Town]],{{Ref|a|a}} [[O.R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kasama Airport|Kasama]], [[Kamuzu International Airport|Lilongwe]], [[Livingstone Airport|Livingstone]], [[Mansa Airport|Mansa]], [[Mfuwe Airport|Mfuwe]], [[Simon Mwansa Kapwepwe International Airport|Ndola]], [[Solwezi Airport|Solwezi]], [[Hosea Kutako International Airport|Windhoek–Hosea Kutako]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]], [[Robert Gabriel Mugabe International Airport|Harare]]
+<!-- -->
+| [[RwandAir]] | [[OR Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kigali International Airport|Kigali]]
+<!-- -->
+| {{nowrap|[[South African Airways]]}} | [[OR Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| {{nowrap|[[Turkish Airlines]]}} | [[Istanbul Airport|Istanbul]] (suspended)
+<!-- --->
+| [[Uganda Airlines]] | [[Entebbe International Airport|Entebbe]],{{Ref|b|b}}
+<!-- -->
+| [[Zambia Airways]] | [[Julius Nyerere International Airport|Dar es Salaam]], [[Robert Gabriel Mugabe International Airport|Harare]], [[OR Tambo International Airport|Johannesburg–O. R. Tambo]], [[Harry Mwanga Nkumbula International Airport|Livingstone]], [[Mfuwe Airport|Mfuwe]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Simon Mwansa Kapwepwe International Airport|Ndola]]
+}}
+;Notes
+*<small>{{note|a|a}} This flight operates via Livingstone in both directions on the same flight number.</small>
+*<small>{{note|b|b}} This flight operates via Harare or continues to Harare on the same flight number. However, the carrier does not have rights to transport passengers solely between Lusaka and Harare or viceversa.</small>
+*<small>{{note|c|c}} This flight operates via Dar es Salaam in both directions on the same flight number. However, the carrier does not have rights to transport passengers solely between Lusaka and Dar es Salaam or viceversa.</small>
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+|[[Astral Aviation]]| [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+|[[Kenya Airways]]| [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+|[[Magma Aviation]]| [[Liège Airport|Liège]]
+<!-- -->
+|[[Martinair]]| [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+}}

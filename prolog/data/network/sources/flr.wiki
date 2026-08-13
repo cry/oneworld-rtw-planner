@@ -1,0 +1,50 @@
+== Airlines and destinations ==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines offers scheduled services from and to Florence Airport:
+
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Aeroitalia]] | '''Seasonal:''' [[Cagliari Elmas Airport|Cagliari]]<br />
+<!-- -->
+| [[Air Corsica]] | [[Nice Côte d'Azur Airport|Nice]]
+<!-- -->
+| [[Air Dolomiti]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | [[London City Airport|London–City]], [[London Heathrow Airport|London–Heathrow]], [[London Stansted Airport|London–Stansted]] 
+<!-- -->
+| [[Brussels Airlines]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Barajas Airport|Madrid]]
+<!-- -->
+| [[ITA Airways]] | [[Leonardo da Vinci-Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg – Findel Airport|Luxembourg]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Oslo Airport|Oslo]]
+<!-- -->
+| [[Small Fly Airlines]] | [[Marina di Campo Airport|Elba]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zürich Airport|Zürich]] 
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]]
+<!-- -->
+| [[Volotea]] | [[Bordeaux Airport|Bordeaux]], [[Cagliari Elmas Airport|Cagliari]], [[Catania–Fontanarossa Airport|Catania]], [[Nantes Airport|Nantes]], [[Falcone Borsellino Airport|Palermo]], [[Václav Havel Airport Prague|Prague]], [[San Sebastián Airport|San Sebastián]] (begins 21 September 2026) <br /> '''Seasonal:''' [[Alghero–Fertilia Airport|Alghero]], [[Asturias Airport|Asturias]] (begins 21 September 2026), [[Berlin Brandenburg Airport|Berlin]] (begins 22 September 2026), [[Bilbao Airport|Bilbao]], [[Hamburg Airport|Hamburg]], [[Lyon Airport|Lyon]], [[Olbia Airport|Olbia]], [[Seville Airport|Seville]] (begins 21 September 2026), [[Strasbourg Airport|Strasbourg]] (begins 23 September 2026), [[Toulouse–Blagnac Airport|Toulouse]], [[Valencia Airport|Valencia]] (begins 22 September 2026)
+<!-- -->
+| [[Vueling]] | [[Barcelona–El Prat Airport|Barcelona]], [[Brussels Airport|Brussels]], [[Catania–Fontanarossa Airport|Catania]], [[Gatwick Airport|London–Gatwick]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Orly Airport|Paris–Orly]] <br />'''Seasonal:''' [[Menorca Airport|Menorca]]
+| [[Widerøe]] | '''Seasonal:''' [[Bergen Airport, Flesland|Bergen]] 
+<!-- -->
+}}

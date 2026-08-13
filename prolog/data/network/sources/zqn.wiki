@@ -1,0 +1,26 @@
+==Airlines and destinations==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+| Air Fiordland | [[Milford Sound Airport|Milford Sound]]
+<!-- -->
+| Air Milford | [[Milford Sound Airport|Milford Sound]]
+<!-- -->
+| [[Air New Zealand]]| [[Auckland Airport|Auckland]], [[Christchurch International Airport|Christchurch]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]], [[Wellington International Airport|Wellington]] <br> '''Seasonal:''' [[Brisbane Airport|Brisbane]]
+<!-- -->
+| Glacier Southern Lakes Helicopters | [[Milford Sound Airport|Milford Sound]]
+<!-- -->
+| [[Glenorchy Air]] | [[Milford Sound Airport|Milford Sound]], [[Ryan's Creek Aerodrome|Stewart Island]]
+<!-- -->
+| [[Jetstar]] | [[Auckland Airport|Auckland]], [[Gold Coast Airport|Gold Coast]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]], [[Wellington International Airport|Wellington]] <br> '''Seasonal:''' [[Brisbane Airport|Brisbane]] 
+<!-- -->
+| Milford Flights | [[Milford Sound Airport|Milford Sound]]
+<!-- -->
+| Milford Sound Flightseeing | [[Milford Sound Airport|Milford Sound]]
+<!-- -->
+| [[Qantas]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+<!-- -->
+| True South Flights | [[Milford Sound Airport|Milford Sound]]
+<!-- -->
+|[[Virgin Australia]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+}}

@@ -1,0 +1,18 @@
+== Airline and destination ==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{More citations needed section|date=June 2024}}
+{{Airport destination list
+| [[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+}}
+[[American Airlines]] flights to [[Dallas/Fort Worth International Airport|Dallas–Fort Worth]] are operated by [[SkyWest]] and [[Envoy Air]] using [[Bombardier CRJ700 series|Bombardier CRJ700s]] and [[Embraer E-Jet family|Embraer E175s.]]
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:25em; margin:0.2em auto"
+! Destinations map
+|-
+|{{Location map+ |USA Texas |width=500 |float=center
+|caption=Destinations from Easterwood Airport
+|places=
+{{Location map~ |USA Texas |lat=30.5910|long=-96.3628|position=top|label='''<small>College Station</small>'''|caption=|mark=Airplane silhouette.svg|marksize=15 }}
+{{Location map~ |USA Texas |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

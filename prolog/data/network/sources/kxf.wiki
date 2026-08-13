@@ -1,0 +1,6 @@
+==Airlines and destinations==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+| [[Fiji Link]] | [[Nausori International Airport|Suva]]
+| [[Northern Air (Fiji)|Northern Air]] | [[Nausori International Airport|Suva]]
+}}

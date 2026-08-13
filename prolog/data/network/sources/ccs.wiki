@@ -1,0 +1,117 @@
+== Airlines and destinations ==
+
+=== Passenger ===
+The following airlines operate regular scheduled passenger flights at Simón Bolívar International Airport:
+
+{{Airport-dest-list
+| [[AeroCaribe]]| [[Los Roques Airport|Los Roques]]
+<!-- -->
+| [[Aerolíneas Estelar]] | [[Barinas Airport|Barinas]], [[Juan Pablo Pérez Alfonzo Airport|El Vigía]], [[Madrid-Barajas Airport|Madrid]], [[La Chinita International Airport|Maracaibo]], [[José Tadeo Monagas International Airport|Maturín]], [[Tocumen International Airport|Panama City–Tocumen]], [[Santiago Mariño Caribbean International Airport|Porlamar]], [[Manuel Carlos Piar Guayana Airport|Puerto Ordaz]], [[Juan Vicente Gómez International Airport|San Antonio del Táchira]], [[Mayor Buenaventura Vivas Airport|Santo Domingo del Táchira]]
+<!-- -->
+| [[Aeroregional]] | [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+| [[Air Century]] | [[Punta Cana International Airport|Punta Cana]], [[Las Americas International Airport|Santo Domingo]]
+<!-- -->
+| [[Air Europa]] | [[Adolfo Suarez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+| [[Avior Airlines]] | [[General José Antonio Anzoátegui International Airport|Barcelona (VE)]], [[Jacinto Lara International Airport|Barquisimeto]], [[El Dorado International Airport|Bogotá]], [[Curaçao International Airport|Curaçao]], [[Juan Pablo Pérez Alfonzo Airport|El Vigía]], [[Josefa Camejo International Airport|Las Piedras]], [[La Chinita International Airport|Maracaibo]], [[José María Córdova International Airport|Medellín–JMC]], [[Santiago Mariño Caribbean International Airport|Porlamar]], [[Manuel Carlos Piar Guayana Airport|Puerto Ordaz]]
+<!-- -->
+| [[Conviasa]] |[[Oswaldo Guevara Mujica Airport|Acarigua]], [[Grantley Adams International Airport|Barbados]], [[General José Antonio Anzoátegui International Airport|Barcelona (VE)]], [[Barinas Airport|Barinas]], [[Canaima Airport|Canaima]], [[Cancún International Airport|Cancún]], [[Antonio José de Sucre Airport|Cumaná]], [[Juan Pablo Pérez Alfonso Airport|El Vigía]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[José Martí International Airport|Havana]], [[La Fria Airport|La Fría]], [[Josefa Camejo International Airport|Las Piedras]], [[Los Roques Airport|Los Roques]], [[La Chinita International Airport|Maracaibo]], [[José Tadeo Monagas International Airport|Maturín]], [[Alberto Carnevalli Airport|Mérida (VE)]], [[Felipe Angeles International Airport|Mexico City–Felipe Ángeles]], [[Del Caribe "Santiago Mariño" International Airport|Porlamar]], [[Cacique Aramare Airport|Puerto Ayacucho]], [[Manuel Carlos Piar Guayana Airport|Puerto Ordaz]], [[Juan Vicente Gómez International Airport|San Antonio del Táchira]], [[Las Flecheras Airport|San Fernando de Apure]], [[Mayor Buenaventura Vivas Airport|Santo Domingo del Táchira]], [[Argyle International Airport|St. Vincent–Argyle]], [[Dr. Antonio Nicolás Briceño Airport|Valera]]
+<!-- -->
+| [[Caribbean Airlines]] | [[Piarco International Airport|Port of Spain]]
+<!-- -->
+| [[Copa Airlines]]|[[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Gol Linhas Aéreas]] | [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suarez-Madrid Barajas Airport|Madrid]]
+<!-- -->
+| [[LASER Airlines]] | [[General José Antonio Anzoátegui International Airport|Barcelona (VE)]], [[El Dorado International Airport|Bogotá]], [[Curaçao International Airport|Curaçao]], [[Juan Pablo Pérez Alfonso Airport|El Vigía]], [[La Fria Airport|La Fría]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Miami International Airport|Miami]], [[La Chinita International Airport|Maracaibo]], [[José Tadeo Monagas International Airport|Maturín]], [[Santiago Mariño Caribbean International Airport|Porlamar]], [[Manuel Carlos Piar Guayana Airport|Puerto Ordaz]], [[Las Americas International Airport|Santo Domingo]], [[Mayor Buenaventura Vivas Airport|Santo Domingo del Táchira]]
+<!-- -->
+| [[LATAM Colombia]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+| {{nowrap|[[Plus Ultra Líneas Aéreas]]}} | [[Madrid Barajas Airport|Madrid]], [[Tenerife North Airport|Tenerife–North]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]] (begins 3 September 2026)
+<!-- -->
+| {{nowrap|[[RUTACA Airlines]]}} | [[General José Antonio Anzoátegui International Airport|Barcelona (VE)]], [[José Leonardo Chirino Airport|Coro]], [[Tomás de Heres Airport|Ciudad Bolívar]], [[Josefa Camejo International Airport|Las Piedras]], [[Eduardo Gomes International Airport|Manaus]], [[La Chinita International Airport|Maracaibo]], [[José Tadeo Monagas International Airport|Maturín]], [[Santiago Mariño Caribbean International Airport|Porlamar]], [[Manuel Carlos Piar Guayana Airport|Puerto Ordaz]], [[Punta Cana International Airport|Punta Cana]], [[Juan Vicente Gómez International Airport|San Antonio del Táchira]], [[Mayor Buenaventura Vivas Airport|Santo Domingo del Táchira]], [[Arturo Michelena International Airport|Valencia (VE)]]
+<!-- -->
+| [[SASCA]] | [[Los Roques Airport|Los Roques]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]]<br>'''Seasonal:''' [[Cristiano Ronaldo International Airport|Funchal]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| {{nowrap|[[Turpial Airlines]]}} | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+| [[United Airlines]] | [[George Bush International Airport|Houston–Intercontinental]] (resumes 11 August 2026)
+<!-- -->
+| [[Venezolana]] |  [[La Chinita International Airport|Maracaibo]], [[Tocumen International Airport|Panama City–Tocumen]], [[Del Caribe "Santiago Mariño" International Airport|Porlamar]]
+<!-- -->
+| [[Wingo (airline)|Wingo]] | [[El Dorado International Airport|Bogotá]], [[Jose Maria Cordova International Airport|Medellín–JMC]]
+}}
+
+===Cargo===
+{{airport-dest-list
+<!-- -->
+|[[Amerijet International]]|[[Miami International Airport|Miami]]
+<!-- -->
+|[[Avianca Cargo]]|[[El Dorado International Airport|Bogotá]]
+<!-- -->
+|[[Cargojet]]|[[Las Américas International Airport|Santo Domingo-Las Américas]]
+<!-- -->
+|[[Sky Lease Cargo]]|[[Miami International Airport|Miami]]
+}}
+
+=== Chronology of former international flights ===
+
+In 2004, [[KLM]] Dutch Airlines  It was the first major airline to end its operations in Venezuela citting official reason the "consolidation" of operations with their partners [[Air France]], making its last flight to Venezuela in February 2005. In 2005, [[British Airways]] also stopped operating direct flights to Venezuela from London in February 2005, because the route continued to lose money and the decision was due to commercial reasons.
+
+Since 2014, foreign and domestic carriers have reduced and/or terminated their presence due to political instability and their inability to recover US$3.8 billion in funds owed to airlines. Some carriers have scheduled stops in nearby countries so that flight crews do not have to stay overnight in Caracas, considered unsafe.<!--http://liveandletsfly.boardingarea.com/2017/03/01/united-airlines-venezuela-via-aruba/ -->
+
+In November 2025, Venezuela withdrew operating permits from six airlines, Iberia, TAP, Avianca, Latam Colombia, Turkish Airlines, and Gol, after they suspended their routes following a US warning about risks in Venezuelan airspace.
+
+The table below outlines the chronology of route terminations since 2013.
+
+{| class="wikitable sortable"
+! Airline
+! Destination
+! Flight frequency
+! Terminated/Suspended
+|-
+| [[Aerolíneas Argentinas]] || {{flagicon|Argentina}} [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]] || 1 flight per week|| 5 August 2017
+|-
+| [[Aeroméxico]] || {{flagicon|Mexico}} [[Mexico City International Airport|Mexico City–Benito Juárez]] || 3 flights per week || 23 June 2016
+|-
+| [[Air Canada]] || {{flagicon|Canada}} [[Toronto Pearson International Airport|Toronto–Pearson]] || 4 flights per week || 18 March 2014
+|-
+| [[Air France]] || {{flagicon|France}} [[Charles de Gaulle Airport|Paris–Charles de Gaulle]] || N/A || 24 September 2020
+|-
+|rowspan="3"|[[American Airlines]] || {{flagicon|Puerto Rico}} [[Luis Muñoz Marín International Airport|San Juan–LMM]] || Daily flights || 1 July 2014
+|-
+| {{flagicon|USA}} [[Dallas/Fort Worth International Airport|Dallas–Fort Worth]] || 1 flight per week|| 1 July 2014
+|-
+| {{flagicon|USA}} [[John F. Kennedy International Airport|New York–JFK]] || 5 flights per week|| 4 April 2016
+|-
+| [[Avianca Costa Rica]] || {{flagicon|Costa Rica}} [[Juan Santamaría International Airport|San José (CR)]] || Daily flights || 7 April 2014 <small>(1st)</small><br> 28 February 2024 <small>(2nd)</small>
+|-
+| [[Delta Air Lines]] || {{flagicon|USA}} [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] || 4 flights per week || 16 September 2017
+|-
+|rowspan="2"|[[Dynamic Airways]] || {{flagicon|USA}} [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale–Hollywood]] || Daily flights || 13 August 2016
+|-
+|{{flagicon|USA}} [[John F. Kennedy International Airport|New York–JFK]] || 2 flights per week || 1 August 2017
+|-
+| [[LATAM Brasil]] || {{flagicon|Brazil}} [[São Paulo–Guarulhos International Airport|São Paulo–Guarulhos]] || 1 flight per week || 28 May 2016
+|-
+|rowspan="2"|[[LATAM Chile]] || {{flagicon|Chile}} [[Arturo Merino Benítez International Airport|Santiago]] || 2 flights per week || 1 August 2016
+|-
+|{{flagicon|USA}} [[Miami International Airport|Miami]] || 1 flight per week || 1 August 2016
+|-
+| [[Lufthansa]] || {{flagicon|Germany}} [[Frankfurt Airport|Frankfurt]] || 3 flights per week || 17 June 2016
+|-
+|[[United Airlines]] ||  {{flagicon|USA}} [[Newark Liberty International Airport|Newark]] || 5 flights per week || 20 January 2013
+|}

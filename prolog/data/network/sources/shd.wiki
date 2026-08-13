@@ -1,0 +1,178 @@
+==Airline and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list|3rdcoltitle={{Abbr|Refs.|References}}|3rdcolunsortable=yes
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]] | 
+}}
+
+===Annual Traffic===
+{| class="wikitable sortable"
+|+Annual Traffic
+|-
+! scope=col | Year
+! scope=col | Passengers 
+! scope=col | Change from Previous Year 
+! scope=col | Airline(s) 
+! scope=col | Destination(s) 
+|-
+!2005
+| style="text-align:center;"|10,271
+|
+| style="text-align:center;"|[[Colgan Air]] dba [[US Airways Express]]
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+!2006
+| style="text-align:center;"|10,624
+| style="text-align:center;"|{{increase}}3.44%
+| style="text-align:center;"|[[Colgan Air]] dba [[US Airways Express]]
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+!2007
+| style="text-align:center;"|9,202
+| style="text-align:center;"|{{decrease}}13.38%
+| style="text-align:center;"|[[Colgan Air]] dba [[US Airways Express]]
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+! rowspan="2" |2008
+| rowspan="2" style="text-align:center;"|14,932
+| rowspan="2" style="text-align:center;"|{{increase}}62.27%
+| style="text-align:center;"|[[Colgan Air]] dba [[US Airways Express]]
+| rowspan="2" style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+| style="text-align:center;"|[[Colgan Air]] dba [[United Express]]
+|-
+!2009
+| style="text-align:center;"|16,726
+| style="text-align:center;"|{{increase}}12.01%
+| style="text-align:center;"|[[Colgan Air]] dba [[United Express]]
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+!2010
+| style="text-align:center;"|20,710
+| style="text-align:center;"|{{increase}}23.82%
+| style="text-align:center;"|[[Colgan Air]] dba [[United Express]]
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+!2011
+| style="text-align:center;"|23,270
+| style="text-align:center;"|{{increase}}12.36%
+| style="text-align:center;"|[[Colgan Air]] dba [[United Express]]
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+! rowspan="3" |2012
+| rowspan="3" style="text-align:center;"|29,140
+| rowspan="3" style="text-align:center;"|{{increase}}25.23%
+| style="text-align:center;"|[[Colgan Air]] dba [[United Express]]
+| rowspan="2" style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+| style="text-align:center;"|[[Silver Airways]]
+|-
+| style="text-align:center;"|[[Frontier Airlines]]
+| style="text-align:center;"|[[Orlando International Airport|Orlando]]
+|-
+! rowspan="2" |2013
+| rowspan="2" style="text-align:center;"|38,250
+| rowspan="2" style="text-align:center;"|{{increase}}31.26%
+| style="text-align:center;"|[[Silver Airways]]
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+| style="text-align:center;"|[[Frontier Airlines]]
+| style="text-align:center;"|[[Orlando International Airport|Orlando]]
+|-
+!2014
+| style="text-align:center;"|18,776
+| style="text-align:center;"|{{decrease}}50.91%
+| style="text-align:center;"|[[Silver Airways]]
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+!2015
+| style="text-align:center;"|10,462
+| style="text-align:center;"|{{decrease}}44.28%
+| style="text-align:center;"|[[Silver Airways]]
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+! rowspan="3" |2016
+| rowspan="3"style="text-align:center;"|10,771
+| rowspan="3" style="text-align:center;"|{{increase}}2.95%
+| style="text-align:center;"|[[Silver Airways]]
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+| rowspan="2" style="text-align:center;"|[[ViaAir]]
+| style="text-align:center;"|[[Charlotte Douglas International Airport|Charlotte]]
+|-
+| style="text-align:center;"|[[Orlando Sanford International Airport|Orlando/Sanford]]
+|-
+! rowspan="2"|2017
+| rowspan="2" style="text-align:center;"|10,226
+| rowspan="2" style="text-align:center;"|{{decrease}}5.06%
+| rowspan="2" style="text-align:center;"|[[ViaAir]]
+| style="text-align:center;"|[[Charlotte Douglas International Airport|Charlotte]]
+|-
+| style="text-align:center;"|[[Orlando Sanford International Airport|Orlando/Sanford]]
+|-
+! rowspan="5"|2018
+| rowspan="5" style="text-align:center;"|23,180
+| rowspan="5" style="text-align:center;"|{{increase}}126.68%
+| rowspan="2" style="text-align:center;"|[[ViaAir]]
+| style="text-align:center;"|[[Charlotte Douglas International Airport|Charlotte]]
+|-
+| style="text-align:center;"|[[Orlando Sanford International Airport|Orlando/Sanford]]
+|-
+| rowspan="3" style="text-align:center;"|[[SkyWest Airlines]] dba [[United Express]]
+| style="text-align:center;"|[[O’Hare International Airport|Chicago–O'Hare]]
+|-
+| style="text-align:center;"|[[Greenbrier Valley Airport|Lewisburg (WV)]]
+|-
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+! rowspan="2"|2019
+| rowspan="2" style="text-align:center;"|33,540
+| rowspan="2" style="text-align:center;"|{{increase}}44.69%
+| rowspan="2" style="text-align:center;"|[[SkyWest Airlines]] dba [[United Express]]
+| style="text-align:center;"|[[O’Hare International Airport|Chicago–O'Hare]]
+|-
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+! rowspan="2"|2020
+| rowspan="2" style="text-align:center;"|11,839
+| rowspan="2" style="text-align:center;"|{{decrease}}64.70%
+| rowspan="2" style="text-align:center;"|[[SkyWest Airlines]] dba [[United Express]]
+| style="text-align:center;"|[[O’Hare International Airport|Chicago–O'Hare]]
+|-
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+! rowspan="2"|2021
+| rowspan="2" style="text-align:center;"|26,540
+| rowspan="2" style="text-align:center;"|{{increase}}124.17%
+| rowspan="2" style="text-align:center;"|[[SkyWest Airlines]] dba [[United Express]]
+| style="text-align:center;"|[[O’Hare International Airport|Chicago–O'Hare]]
+|-
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+! rowspan="4"|2022
+| rowspan="4" style="text-align:center;"|17,997
+| rowspan="4" style="text-align:center;"|{{decrease}}32.19%
+| rowspan="2" style="text-align:center;"|[[SkyWest Airlines]] dba [[United Express]]
+| style="text-align:center;"|[[O’Hare International Airport|Chicago–O'Hare]]
+|-
+| style="text-align:center;"|[[Dulles International Airport|Washington–Dulles]]
+|-
+| rowspan="2" style="text-align:center;"|[[Contour Airlines]]
+| style="text-align:center;"|[[Charlotte Douglas International Airport|Charlotte]]
+|-
+| style="text-align:center;"|[[Greenbrier Valley Airport|Lewisburg (WV)]]
+|-
+! rowspan="2"|2023
+| rowspan="2" style="text-align:center;"|13,601
+| rowspan="2" style="text-align:center;"|{{decrease}}24.43%
+| rowspan="2" style="text-align:center;"|[[Contour Airlines]]
+| style="text-align:center;"|[[Charlotte Douglas International Airport|Charlotte]]
+|-
+| style="text-align:center;"|[[North Central West Virginia Airport|Clarksburg]]
+|-
+! 2024
+| style="text-align:center;"|15,457
+| style="text-align:center;"|{{increase}}13.65%
+| style="text-align:center;"|[[Contour Airlines]]
+| style="text-align:center;"|[[Charlotte Douglas International Airport|Charlotte]]
+|}

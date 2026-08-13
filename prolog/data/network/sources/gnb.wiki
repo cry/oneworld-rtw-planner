@@ -1,0 +1,25 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights to and from Alpes–Isère Airport:
+
+{{airport-dest-list
+<!-- -->
+| [[Aurigny]] | '''Seasonal:''' [[Guernsey Airport|Guernsey]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[easyJet]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Gatwick Airport|London–Gatwick]], [[London Luton Airport|London–Luton]], [[London Southend Airport|London–Southend]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Israir]] | '''Seasonal:''' [[David Ben Gurion International Airport|Tel Aviv]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[London Gatwick Airport|London–Gatwick]] (begins 13 December 2026), [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | '''Seasonal:''' [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Ryanair]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Dublin Airport|Dublin]], [[Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Rotterdam The Hague Airport|Rotterdam/The Hague]] <br /> '''Seasonal charter:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[Wizz Air]] |'''Seasonal:''' [[Belgrade Nikola Tesla Airport|Belgrade]], [[London Gatwick Airport|London–Gatwick]], [[London Luton Airport|London–Luton]], [[Vilnius Airport|Vilnius]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+}}

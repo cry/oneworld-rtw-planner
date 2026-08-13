@@ -1,0 +1,54 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Cagliari Elmas Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{Airport-dest-list
+<!-- -->
+|[[Aeroitalia]]|[[Cuneo International Airport|Cuneo]], [[Linate Airport|Milan–Linate]], [[Rome Fiumicino Airport|Rome–Fiumicino]]<br />'''Seasonal:''' [[Alghero-Fertilia Airport | Alghero]], [[Bologna Guglielmo Marconi Airport | Bologna]], [[Catania–Fontanarossa Airport|Catania]], [[Florence Airport | Florence]], [[Lamezia Terme International Airport|Lamezia Terme]], [[Olbia Costa Smeralda Airport | Olbia]], [[Pisa International Airport | Pisa]]
+<!-- -->
+|[[Air France]]|'''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[AlbaStar]]|'''Seasonal:''' [[Orio al Serio International Airport|Milan-Bergamo]]
+<!-- -->
+|{{nowrap|[[Austrian Airlines]]}}|'''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+|[[British Airways]]|'''Seasonal:''' [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+|[[easyJet]]|[[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]],  [[Geneva Airport|Geneva]], [[Milan Malpensa Airport|Milan–Malpensa]] [[Orly Airport|Paris–Orly]] <br>'''Seasonal:''' [[Bordeaux Airport|Bordeaux]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Naples International Airport|Naples]], [[Nice Airport|Nice]]
+<!-- -->
+|[[Edelweiss Air]]|'''Seasonal:''' [[Zurich Airport|Zürich]]
+<!-- -->
+|[[Eurowings]]|'''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Hamburg Airport|Hamburg]], [[Salzburg Airport | Salzburg]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+|[[Iberia (airline)|Iberia]]|'''Seasonal:''' [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[KLM]]|'''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+|[[Lufthansa]]|'''Seasonal:''' [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+|[[Luxair]]|'''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Luxwing]] |'''Seasonal charter:''' [[Aosta Valley Airport|Aosta]]
+<!-- -->
+|{{nowrap|[[Marathon Airlines]]}}|'''Seasonal charter:''' [[Innsbruck Airport|Innsbruck]]
+<!-- -->
+|[[Neos (airline)|Neos]]|'''Seasonal:''' [[Bologna Guglielmo Marconi Airport|Bologna]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+|[[Ryanair]]|[[Bari Karol Wojtyła Airport|Bari]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Catania–Fontanarossa Airport|Catania]], [[Brussels South Charleroi Airport|Brussels-Charleroi]], [[Cuneo International Airport|Cuneo]], [[Genoa Airport|Genoa]], [[Kraków John Paul II International Airport|Kraków]], [[London Stansted Airport|London–Stansted]], [[Malta International Airport|Malta]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Naples International Airport|Naples]], [[Nuremberg Airport|Nuremberg]], [[Falcone Borsellino Airport|Palermo]], [[Beauvais–Tillé Airport|Paris-Beauvais]], [[Parma Airport|Parma]], [[Pisa International Airport|Pisa]], [[Porto Airport|Porto]], [[Federico Fellini International Airport|Rimini]], [[Ciampino–G. B. Pastine International Airport|Rome–Ciampino]], [[Seville Airport|Seville]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Turin Airport|Turin]], [[Valencia Airport|Valencia]], [[Venice Marco Polo Airport|Venice]], [[Verona Villafranca Airport|Verona]] <br> '''Seasonal:''' [[Carcassonne Airport|Carcassonne]], [[Dublin Airport|Dublin]], [[Forlì Airport|Forlì]], [[Göteborg Landvetter Airport|Gothenburg]], [[Frankfurt–Hahn Airport|Frankfurt-Hahn]], [[Karlsruhe/Baden-Baden Airport|Karlsruhe/Baden-Baden]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Orio al Serio International Airport|Milan-Bergamo]], [[Perugia San Francesco d'Assisi – Umbria International Airport|Perugia]], [[Abruzzo Airport|Pescara]], [[Poznań Airport|Poznań]], [[Trieste – Friuli Venezia Giulia Airport|Trieste]], [[Vienna International Airport|Vienna]], [[Weeze Airport|Weeze]]
+<!-- -->
+|{{nowrap|[[Scandinavian Airlines]]}}|'''Seasonal:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+|[[SkyAlps]]|'''Seasonal:''' [[Bolzano Airport|Bolzano]]
+<!-- -->
+|[[Smartwings]]|'''Seasonal:''' [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+| [[Sundor]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+|[[Transavia]]|'''Seasonal:''' [[Orly Airport|Paris–Orly]]
+<!-- -->
+|[[Volotea]]|[[Florence Airport|Florence]], [[Marseille Provence Airport|Marseille]], [[Venice Marco Polo Airport|Venice]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+|[[Vueling]]|[[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+| [[Wizz Air]] | [[Milan–Malpensa]] (begins 14 December 2026), [[Venice Marco Polo Airport|Venice]] (begins 14 December 2026)
+<!-- -->
+}}

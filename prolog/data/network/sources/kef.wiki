@@ -1,0 +1,84 @@
+==Airlines and destinations==
+===Passenger===
+Although the population of Iceland is only about 400,000, there are scheduled flights to and from numerous locations across North America and Europe. The largest carrier operating out of Keflavik is [[Icelandair]]. The airport only handles international flights; domestic flights are operated from [[Reykjavík Airport|Reykjavík's domestic airport]].
+
+The following airlines operate regular scheduled and charter services to and from Keflavík:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]], [[Copenhagen Airport|Copenhagen]] (both begin 26 October 2026)
+<!-- -->
+| [[Air Greenland]] | [[Nuuk Airport|Nuuk]] <br />
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[airBaltic]] | [[Riga International Airport|Riga]]
+| [[Alaska Airlines]] | '''Seasonal:''' [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+<!-- -->
+| [[Atlantic Airways]] | [[Vágar Airport|Vágar]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Delta Air Lines]] | '''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[Discover Airlines]] |  [[Munich Airport|Munich]]
+<!-- -->
+| [[easyJet]] | [[Edinburgh Airport|Edinburgh]], [[Luton Airport|London–Luton]], [[Manchester Airport|Manchester]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Paris–Charles de Gaulle]] <br />'''Seasonal:''' [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Gatwick Airport|London–Gatwick]], [[Lyon Airport|Lyon]], [[Newcastle International Airport|Newcastle upon Tyne]] (begins 27 October 2026)
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zürich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Iberia Express]] | '''Seasonal:''' [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Icelandair]] | [[Alicante-Elche Miguel Hernández Airport|Alicante]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Baltimore/Washington International Airport|Baltimore]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bergen Airport, Flesland|Bergen]], [[Berlin Brandenburg Airport|Berlin]], [[Boston Logan International Airport|Boston]], [[Brussels Airport|Brussels]], [[Chicago O'Hare International Airport|Chicago–O'Hare]], [[Copenhagen Airport|Copenhagen]], [[Denver International Airport|Denver]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[Frankfurt Airport|Frankfurt]], [[Glasgow Airport|Glasgow]], [[Helsinki Airport|Helsinki]], [[Lisbon Airport|Lisbon]], [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]], [[Málaga Airport|Málaga]], [[Manchester Airport|Manchester]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Munich Airport|Munich]], [[John F. Kennedy International Airport|New York–JFK]], [[Newark Liberty International Airport|Newark]], [[Nuuk Airport|Nuuk]], [[Orlando International Airport|Orlando]], [[Oslo Airport, Gardermoen|Oslo]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Václav Havel Airport Prague|Prague]], [[Raleigh-Durham International Airport|Raleigh/Durham]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Tenerife South Airport|Tenerife–South]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vágar Airport|Vágar]], [[Vancouver International Airport|Vancouver]], [[Dulles International Airport|Washington–Dulles]], [[Zurich Airport|Zürich]] <br />'''Seasonal:''' [[Billund Airport|Billund]], [[Faro Airport|Faro]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]] (begins 18 September 2026), [[Geneva Airport|Geneva]], [[Gothenburg Landvetter Airport|Gothenburg]], [[Gran Canaria Airport|Gran Canaria]], [[Halifax Stanfield International Airport|Halifax]], [[Ilulissat Airport|Ilulissat]], [[Innsbruck Airport|Innsbruck]], [[Istanbul Airport|Istanbul]], [[Kulusuk Airport|Kulusuk]], [[Miami International Airport|Miami]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nashville International Airport|Nashville]], [[Nice Côte d'Azur Airport|Nice]], [[Pittsburgh International Airport|Pittsburgh]], [[Portland International Airport|Portland (OR)]], [[Qaqortoq Airport|Qaqortoq]], [[Salzburg Airport|Salzburg]], [[Tromsø Airport|Tromsø]] (begins 23 October 2026), [[Venice Marco Polo Airport|Venice]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Málaga Airport|Málaga]], [[Tenerife South Airport|Tenerife–South]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | '''Seasonal:''' [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]]<br/>'''Seasonal:''' [[Stockholm–Arlanda]]
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[Chicago O'Hare International Airport|Chicago–O'Hare]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+| [[Vueling]] | '''Seasonal:''' [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Calgary International Airport|Calgary]], [[Edmonton International Airport|Edmonton]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]
+<!-- -->
+| [[Wizz Air]] | [[Budapest Ferenc Liszt International Airport|Budapest]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Katowice Airport|Katowice]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Warsaw Chopin Airport|Warsaw–Chopin]], [[Wrocław Airport|Wrocław]] <br />'''Seasonal:'''   [[Vilnius Airport|Vilnius]]
+
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[AirExplore]] | [[Billund Airport|Billund]]
+<!-- -->
+| [[Amerijet International]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[DHL Aviation]]{{better source needed|date=December 2024}} | [[Cologne Bonn Airport|Cologne/Bonn]], [[East Midlands Airport|East Midlands]]
+<!-- -->
+| [[Icelandair Cargo]] | [[Boston Logan International Airport|Boston]],  [[Liège Airport|Liège]], [[Los Angeles International Airport|Los Angeles]], [[John F. Kennedy International Airport|New York-JFK]]
+<!-- -->
+| [[Silk Way West Airlines]] | [[Baku International Airport|Baku]], [[O'Hare International Airport|Chicago–O'Hare]], [[Felipe Ángeles International Airport|Mexico City-AIFA]]
+<!-- -->
+}}
+[[File:Keflavík International Airport Destination Map.png|thumb|center|500px|Red for passenger destinations, blue for cargo-only destinations.]]

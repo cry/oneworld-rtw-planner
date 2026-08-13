@@ -1,0 +1,32 @@
+==Airlines and destinations==
+[[File:Boeing 737-800 (287375686).jpg|thumb|A [[Sun Country Airlines]] [[Boeing 737-800]]]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+
+[[American Airlines]], served by [[American Eagle (airline brand)|American Eagle]], has three daily departures and arrivals with direct service to Chicago. [[Sun Country Airlines]] provides periodic [[Boeing 737]] flights to cities such as [[Bullhead City, Arizona]] (next to [[Laughlin, Nevada]]). [[Allegiant Air]] offers seasonal non-stop flights to [[Phoenix, Arizona|Phoenix]] and [[Orlando, Florida|Orlando]]. [[United Airlines]], operated by [[United Express]], will begin four daily direct service flights to and from Chicago beginning October 2026.
+
+===Passenger===
+
+{{Airport destination list
+| [[Allegiant Air]] | [[Orlando Sanford International Airport|Orlando/Sanford]], [[Mesa Gateway Airport|Phoenix/Mesa]], [[Punta Gorda Airport (Florida)|Punta Gorda]] (begins October 1, 2026)
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]]
+| [[United Express]] | [[Chicago–O'Hare]] (begins October 25, 2026)
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=All passenger destinations from La Crosse Regional Airport (LSE)<br>{{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination <br /> {{font color | purple | Purple }} = Route ending
+|places=
+{{Location map~ |United_States |lat=43.875400 |long=-91.263553 |position=right |label=<small>'''{{nowrap|La Crosse}}'''</small>|caption=|mark=Airplane_silhouette.svg |marksize=20}}
+{{Location map~ |United_States |lat=41.978611 |long=-87.904722 |position=bottom |label=<small>'''{{nowrap|[[O'Hare International Airport|Chicago–O'Hare]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=28.777778 |long=-81.2375 |position=bottom |label=<small>'''{{nowrap|[[Orlando Sanford International Airport|Orlando/Sanford]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=33.307778 |long=-111.655556 |position=top |label=<small>'''{{nowrap|[[Mesa Gateway Airport|Phoenix/Mesa]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |mark = Blue pog.svg|lat=26.918889 |long=-81.990833 |position=left|label=<small>'''{{nowrap|[[Punta Gorda Airport (Florida)|Punta Gorda]]}}'''</small> |label_size=100 |marksize=10 }}
+}}
+|}
+
+===Cargo===
+{{Airport destination list
+| [[UPS Airlines]] | [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]}}

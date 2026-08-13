@@ -39,7 +39,7 @@
 %! rtw_call(+Op, +InText, -Status, -OutText) is det.
 %
 %  One operation per server endpoint, with the same names: `validate`, `routing`,
-%  `ruleset`, `airports`, `earn` and `programs`. InText and OutText are JSON
+%  `ruleset`, `airports`, `earn`, `programs` and `network`. InText and OutText are JSON
 %  text, and Status is the status the server would have replied with -- 200, 400
 %  for input the caller can fix, 500 for a bug in a rule. Carrying the status
 %  rather than leaving the browser to infer failure from the shape of the body
@@ -98,6 +98,17 @@ rtw_do(earn, In, Out) :-
 rtw_do(programs, _, Out) :-
     programs_json(Out).
 
+% Which sectors the snapshot says are actually flown. It runs no fare rules and
+% produces no violation -- absence of an edge is a fact about a wiki snapshot,
+% not a breach of a clause -- which is why it is an operation of its own rather
+% than a field on the report. Same name the server uses.
+rtw_do(network, In, Out) :-
+    input_dict(In, Dict),
+    itinerary_from_json(Dict, Itin),
+    annotate(Itin, A),
+    network_report(A, Report),
+    network_json(Report, Out).
+
 rtw_do(airports, In, _{ query: Q, results: Results }) :-
     input_dict(In, Dict),
     (   get_dict(q, Dict, Q0), atom_string(Q, Q0)
@@ -113,7 +124,7 @@ rtw_do(airports, In, _{ query: Q, results: Results }) :-
     ).
 
 rtw_do(Op, _, _) :-
-    \+ memberchk(Op, [validate, routing, ruleset, airports, earn, programs]),
+    \+ memberchk(Op, [validate, routing, ruleset, airports, earn, programs, network]),
     format(atom(M), 'There is no "~w" operation.', [Op]),
     throw(input_error(M)).
 

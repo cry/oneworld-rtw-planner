@@ -1,0 +1,30 @@
+== Airlines and destinations ==
+The following airlines serve Grenada:
+
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights at Maurice Bishop Airport:
+{{airport-dest-list
+<!-- -->
+| [[Air Canada]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[American Airlines]] |  [[Miami International Airport|Miami]]<br />'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]]
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]]<br /> '''Seasonal:''' [[Grantley Adams International Airport|Barbados]] (begins 25 October 2026), [[Hewanorra International Airport|St. Lucia–Hewanorra]]
+<!-- -->
+| [[Caribbean Airlines]] | [[Grantley Adams International Airport|Barbados]], [[Piarco International Airport|Port of Spain]], [[Argyle International Airport|St. Vincent–Argyle]]
+<!-- -->
+| [[Delta Air Lines]] |[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[InterCaribbean Airways]] | [[Grantley Adams International Airport|Barbados]], [[Cheddi Jagan International Airport|Georgetown–Cheddi Jagan]], [[Argyle International Airport|St. Vincent–Argyle]]
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[Liat20]] | [[George F. L. Charles Airport|Castries]]
+<!-- -->
+| [[Sunrise Airways]] | [[V. C. Bird International Airport|Antigua]], [[George F. L. Charles Airport|Castries]]
+<!-- -->
+| [[Virgin Atlantic]]|[[Grantley Adams International Airport|Barbados]], [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[WestJet]]| '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->}}

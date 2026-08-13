@@ -1,0 +1,27 @@
+==Airlines and destinations==
+[[File:2013-04-11 10-31-45 Zambia Copperbelt - Malabo.JPG|thumb|Malabo International Airport, April 2013]]
+{{Airport-dest-list
+<!-- -->
+| [[Afrijet Business Service|Afrijet]] | [[Douala International Airport|Douala]], [[Libreville International Airport|Libreville]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[ASKY Airlines]] | [[Lomé–Tokoin International Airport|Lomé]], [[Yaoundé Nsimalen International Airport|Yaoundé]]
+<!-- -->
+| {{nowrap|[[CEIBA Intercontinental]]}} | [[Bata Airport|Bata]], [[Lomé-Tokoin Airport|Lomé]], [[President Obiang Nguema International Airport|Mengomeyén]]
+<!-- -->
+| [[Cronos Airlines]] | [[Bata Airport|Bata]], [[Douala International Airport|Douala]], [[Port Harcourt International Airport|Port Harcourt]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]], [[Douala International Airport|Douala]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| {{nowrap|[[Plus Ultra Líneas Aéreas]]}} | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[ValueJet (Nigeria)|ValueJet]] | [[Port Harcourt International Airport|Port Harcourt]]
+<!-- -->
+| [[World2Fly]] | '''Seasonal charter:''' [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+}}

@@ -1,0 +1,57 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines operate regular scheduled and charter flights at Las Américas International Airport:
+
+{{Airport destination list
+<!-- -->
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| {{nowrap|[[Aeroméxico Connect]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]] (begins 11 December 2026)
+<!-- -->
+| [[Air Caraïbes]] | [[Paris Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Air Europa]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]] <br />'''Seasonal:''' [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[Arajet]] | [[Queen Beatrix International Airport|Aruba]], [[El Dorado International Airport|Bogotá]], [[Logan International Airport|Boston]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Cancún International Airport|Cancún]], [[Rafael Núñez International Airport|Cartagena]], [[Curaçao International Airport|Curaçao]], [[La Aurora International Airport|Guatemala City]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Jorge Chávez International Airport|Lima]], [[José María Córdova International Airport|Medellín–JMC]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Miami International Airport|Miami]], [[Newark Liberty International Airport|Newark]], [[Juan Santamaría International Airport|San José (CR)]], [[Luis Muñoz Marín International Airport|San Juan]], [[Princess Juliana International Airport|St. Maarten]]
+<!-- -->
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+|[[Frontier Airlines]] | [[Luis Muñoz Marín International Airport|San Juan]] <br /> '''Seasonal:''' [[Philadelphia International Airport|Philadelphia]], [[Tampa International Airport|Tampa]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[ITA Airways]] |'''Seasonal:''' [[Rome Fiumicino Airport|Rome–Fiumicino]] (begins 30 November 2026)
+<!-- -->
+|[[JetBlue]] | [[Logan International Airport|Boston]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[John F. Kennedy International Airport|New York–JFK]], [[Orlando International Airport|Orlando]], [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| [[LASER Airlines]] | [[Simón Bolívar International Airport (Venezuela)|Caracas]]
+<!-- -->
+| [[Sky High Aviation Services|Sky High]] | [[Cheddi Jagan International Airport|Georgetown–Cheddi Jagan]],{{cn|date=April 2026}} [[Miami International Airport|Miami]], [[Johan Adolf Pengel International Airport|Paramaribo]], [[Toussaint Louverture International Airport|Port-au-Prince]],{{cn|date=April 2026}} [[Luis Muñoz Marín International Airport|San Juan]],{{cn|date=April 2026}} [[El Salvador International Airport|San Salvador]], [[Henry E. Rohlsen Airport|St. Croix]]
+<!-- -->
+| [[Sunrise Airways]] | [[V. C. Bird International Airport|Antigua]],{{cn|date=April 2026}} [[Terrance B. Lettsome International Airport|Tortola]]{{cn|date=April 2026}}
+<!-- -->
+| [[United Airlines]] | [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[Wingo (airline)|Wingo]] | [[El Dorado International Airport|Bogotá]], [[José María Córdova International Airport|Medellín–JMC]]
+<!-- -->
+| [[World2Fly]] | [[Madrid–Barajas Airport|Madrid]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Amerijet International]] | [[Grantley Adams International Airport|Barbados]], [[Miami International Airport|Miami]], [[Punta Cana International Airport|Punta Cana]]
+<!-- -->
+| [[UPS Airlines]] | [[Louisville International Airport|Louisville]], [[Miami International Airport|Miami]]
+<!-- -->
+}}

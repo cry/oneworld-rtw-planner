@@ -1,0 +1,74 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines offer regular scheduled and charter flights at Hannover Airport.
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal:''' [[Athens International Airport|Athens]], [[Thessaloniki Airport|Thessaloniki]]
+<!-- -->
+| [[Air Cairo]] | [[Hurghada International Airport|Hurghada]] <br /> '''Seasonal:''' [[Marsa Alam International Airport|Marsa Alam]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Airport|Belgrade]]
+<!-- -->
+| [[AJet]] |[[Milas–Bodrum Airport|Bodrum]] (begins 1 July 2026),  [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Austrian Airlines]]| [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Corendon Airlines]] | [[Antalya Airport|Antalya]], [[Fuerteventura Airport|Fuerteventura]], [[Gran Canaria Airport|Gran Canaria]], [[Hurghada International Airport|Hurghada]], [[Tenerife South Airport|Tenerife–South]] <br />'''Seasonal:''' [[Çukurova International Airport|Adana/Mersin]], [[Corfu International Airport|Corfu]], [[Diyarbakır Airport|Diyarbakır]], [[Heraklion International Airport "Nikos Kazantzakis"|Heraklion]], [[Adnan Menderes Airport|İzmir]], [[Marsa Alam International Airport|Marsa Alam]], [[Kos International Airport|Kos]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Rhodes International Airport|Rhodes]], [[Samsun-Çarşamba Airport|Samsun]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+|[[Condor]]|'''Seasonal charter:''' [[Arvidsjaur Airport|Arvidsjaur]]
+<!-- -->
+| [[Eurowings]] | [[Palma de Mallorca Airport|Palma de Mallorca]], [[Pristina International Airport Adem Jashari|Pristina]] <br> '''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Bastia – Poretta Airport|Bastia]], [[Beirut–Rafic Hariri International Airport|Beirut]], [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Erbil International Airport|Erbil]], [[Gago Coutinho Airport|Faro]], [[Madeira Airport|Funchal]], [[Gran Canaria Airport|Gran Canaria]], [[Glasgow Airport|Glasgow]] (begins 29 June 2026), [[Hurghada International Airport|Hurghada]], [[Lamezia Terme International Airport|Lamezia Terme]], [[Lisbon Portela Airport|Lisbon]], [[Málaga Airport|Málaga]], [[Marrakesh Menara Airport|Marrakesh]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nice Côte d'Azur Airport|Nice]], [[Olbia Costa Smeralda Airport|Olbia]], [[Pula Airport|Pula]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Tenerife South Airport|Tenerife–South]] [[Thessaloniki Airport|Thessaloniki]] <br /> '''Seasonal charter:''' [[Arvidsjaur Airport|Arvidsjaur]]
+<!-- -->
+| [[FlyErbil]] | [[Erbil International Airport|Erbil]]
+<!-- -->
+| [[Freebird Airlines]] | [[Antalya Airport|Antalya]]
+<!-- -->
+| [[GP Aviation]] | [[Pristina Airport|Pristina]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Lufthansa City Airlines]] | [[Munich Airport|Munich]]
+<!-- -->
+| [[Mavi Gök Airlines]] | [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Nesma Airlines]] | [[Hurghada Airport|Hurghada]]
+<!-- -->
+| [[Nouvelair]] | '''Seasonal:''' [[Djerba–Zarzis International Airport|Djerba]], [[Monastir Habib Bourguiba International Airport|Monastir]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]] <br /> '''Seasonal:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[Sky Alps]] | '''Seasonal:''' [[Bolzano Airport|Bolzano]], 
+<!-- -->
+| [[Sundair]] | [[Beirut–Rafic Hariri International Airport|Beirut]]
+<!-- -->
+| [[SunExpress]] | [[Çukurova International Airport|Adana/Mersin]], [[Antalya Airport|Antalya]], [[Diyarbakır Airport|Diyarbakır]],{{citation needed|date=June 2026}} [[Adnan Menderes Airport|Izmir]]  <br />'''Seasonal:''' [[Milas–Bodrum Airport|Bodrum]], [[Erkilet International Airport|Kayseri]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zürich Airport|Zürich]]
+<!-- -->
+| [[TUI fly Deutschland]] | [[Aristides Pereira International Airport|Boa Vista]], [[Fuerteventura Airport|Fuerteventura]], [[Madeira Airport|Funchal]], [[Gran Canaria Airport|Gran Canaria]], [[Hurghada International Airport|Hurghada]], [[Lanzarote Airport|Lanzarote]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Amílcar Cabral International Airport|Sal]], [[Tenerife South Airport|Tenerife–South]] <br />'''Seasonal:''' [[Burgas Airport|Burgas]], [[Corfu International Airport|Corfu]], [[Dalaman Airport|Dalaman]], [[Djerba–Zarzis International Airport|Djerba]], [[Faro Airport|Faro]], [[Heraklion International Airport|Heraklion]], [[Ibiza Airport|Ibiza]], [[Jerez Airport|Jerez de la Frontera]], [[Kos International Airport|Kos]], [[Larnaca International Airport|Larnaca]],  [[Menorca Airport|Menorca]], [[Araxos Airport|Patras]], [[Rhodes International Airport|Rhodes]], [[Trieste Airport|Trieste]], [[Varna Airport|Varna]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Vueling]] | [[Barcelona-El Prat Airport|Barcelona]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+|[[Amazon Air]] | [[Barcelona Airport|Barcelona]], [[Madrid Airport|Madrid]], [[Milan Malpensa Airport|Milan-Malpensa]], [[Paris–Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[FedEx Express]] | [[Billund Airport|Billund]], [[Liege Airport|Liege]], [[Oslo Airport, Gardermoen|Oslo]], [[Paris–Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!--DO NOT ADD OVERNIGHT MAIL CARGO FLIGHTS ON BEHALF OF DEUTSCHE POST AS WE DO NOT STATE THESE-->
+<!-- -->
+}}

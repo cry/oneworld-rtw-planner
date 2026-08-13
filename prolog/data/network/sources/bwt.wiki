@@ -1,0 +1,11 @@
+==Airlines and destinations==
+[[Rex Airlines]] operates services to and from [[Melbourne Airport|Melbourne]] about four times per day using [[Saab 340]] turboprop aircraft. [[Sharp Airlines]] offers flights to [[King Island Airport|King Island]] and [[Launceston Airport|Launceston]] twice per day using a 19-seat [[Metro 23]] (SA-227) turboprop aircraft.{{citation needed|date=May 2026}}
+
+On 17 September 2021, [[QantasLink]] resumed direct seven weekly flights to Melbourne for the first time in 15 years with its 50-seat Q300 turboprop aircraft. In 2025, QantasLink upgraded its aircraft to 74-seat Q400 turboprops, following upgrades to the airport by the Tasmanian Government.
+
+{{airport-dest-list
+<!-- -->
+| [[QantasLink]] | [[Melbourne Airport|Melbourne]]
+<!-- -->
+| [[Rex Airlines]] | [[Melbourne Airport|Melbourne]]
+}}

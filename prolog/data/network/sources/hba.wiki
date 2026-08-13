@@ -1,0 +1,24 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+<!-- -->
+| [[Air New Zealand]] | '''Seasonal:''' [[Auckland Airport|Auckland]]
+<!-- -->
+| [[Jetstar]] | [[Adelaide Airport| Adelaide]], [[Brisbane Airport|Brisbane]], [[Gold Coast Airport|Gold Coast]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]] <br/> '''Seasonal:''' [[Newcastle Airport (New South Wales)|Newcastle]] 
+<!-- -->
+| [[Link Airways]] | [[Canberra Airport|Canberra]]
+<!-- -->
+| [[Qantas]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+<!-- -->
+| [[QantasLink]] | '''Seasonal:''' [[Canberra Airport| Canberra]], [[Perth Airport|Perth]]
+<!-- -->
+| [[Virgin Australia]]| [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Perth Airport|Perth]], [[Sydney Airport|Sydney]] <br/> '''Seasonal:'''[[Adelaide Airport| Adelaide]] 
+}}
+
+Qantas formerly operated dedicated 'flightseeing' services over Antarctica from Hobart. These flights, which used a [[Boeing 787 Dreamliner]], departed Hobart from the international/domestic terminal, and provided a guided aerial tour of Antarctica before returning to Australia. These flights were about thirteen hours in total.
+
+Prior to April 2023, [[Sharp Airlines]] flew from Hobart to [[Launceston Airport|Launceston]], [[Burnie Airport|Burnie]], King Island and [[Flinders Island Airport|Flinders Island]].
+
+=== Cargo ===
+{{Airport destination list
+| [[Qantas Freight]] | [[Launceston Airport|Launceston]], [[Melbourne Airport|Melbourne]]}}

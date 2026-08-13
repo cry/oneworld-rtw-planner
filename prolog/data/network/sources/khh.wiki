@@ -1,0 +1,55 @@
+==Airlines and destinations==
+
+{{airport-dest-list
+<!-- -->
+| [[Air Busan]] | [[Gimhae International Airport|Busan]]
+<!-- -->
+| [[Air Macau]] | [[Macau International Airport|Macau]]
+<!-- -->
+| [[AirAsia]] |  [[Kuala Lumpur–International]], [[Osaka–Kansai]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Cebu Pacific]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[China Airlines]] | [[Bangkok–Suvarnabhumi]], [[Chongqing Jiangbei International Airport|Chongqing]],  [[Fukuoka Airport|Fukuoka]], [[Hong Kong International Airport|Hong Kong]], [[Kumamoto Airport|Kumamoto]], [[Ninoy Aquino International Airport|Manila]], [[Naha Airport|Naha]], [[Osaka–Kansai]],  [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Changi Airport|Singapore]], [[Tokyo–Narita]]
+<!-- -->
+| [[Daily Air]] | [[Qimei Airport|Qimei]], [[Wang-an Airport|Wang-an]]
+<!-- -->
+| [[EVA Air]] | [[Fukuoka Airport|Fukuoka]], [[Hong Kong International Airport|Hong Kong]], [[Macau International Airport|Macau]], [[Osaka–Kansai]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Tokyo–Narita]]
+<!-- -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Jeju Air]] | [[Gimhae International Airport|Busan]], [[Gimpo International Airport|Seoul–Gimpo]]
+<!-- -->
+| [[Jetstar Japan]] | [[Tokyo–Narita]]
+<!-- -->
+| [[Juneyao Air]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]{{cn|date=July 2026}}
+<!-- -->
+| [[Mandarin Airlines]] | [[Hong Kong International Airport|Hong Kong]], [[Hualien Airport|Hualien]], [[Nangan Airport|Matsu–Nangan]]
+<!-- -->
+| [[Peach Aviation|Peach]] | [[Osaka–Kansai]]
+<!-- -->
+| [[Philippines AirAsia]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Spring Airlines]] | [[Lishe Airport|Ningbo]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[T'way Air]] | [[Busan International Airport|Busan]], [[Jeju International Airport|Jeju]], [[Gimpo International Airport|Seoul–Gimpo]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Thai AirAsia]] | [[Bangkok–Don Mueang]], [[Tokyo–Narita]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai Lion Air]] | [[Bangkok–Don Mueang]], [[Naha Airport|Naha]], [[New Chitose Airport|Sapporo–Chitose]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Da Nang International Airport|Da Nang]], [[Fukuoka Airport|Fukuoka]], [[New Ishigaki Airport|Ishigaki]] (begins 2 September 2026), [[Jeju International Airport|Jeju]], [[Komatsu Airport|Komatsu]] (begins 3 September 2026), [[Kumamoto Airport|Kumamoto]], [[Macau International Airport|Macau]],{{cn|date=July 2026}} [[Chubu Centrair International Airport|Nagoya–Centrair]],{{cn|date=July 2026}} [[Naha Airport|Naha]], [[Okayama Airport|Okayama]], [[Osaka–Kansai]],{{cn|date=July 2026}} [[New Chitose Airport|Sapporo–Chitose]], [[Sendai Airport|Sendai]], [[Gimpo International Airport|Seoul–Gimpo]], [[Tokyo–Narita]] <br/> '''Charter:''' [[Phu Quoc International Airport|Phu Quoc]]
+<!-- -->
+| [[United Airlines]] | [[Tokyo–Narita]]
+<!-- -->
+| [[VietJet Air]] | [[Da Nang International Airport|Da Nang]],{{cn|date=July 2026}} [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Phu Quoc International Airport|Phu Quoc]]{{cn|date=July 2026}}
+<!-- -->
+| [[Vietnam Airlines]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[XiamenAir]] | [[Fuzhou Changle International Airport|Fuzhou]],{{cn|date=July 2026}} [[Xiamen Gaoqi International Airport|Xiamen]]
+<!-- -->
+| }}

@@ -1,0 +1,18 @@
+==Airlines and destinations==
+[[File:Aomori Airport February 2021.jpg|thumb|Apron traffic at Aomori Airport: pictured is a [[De Havilland Canada DHC-8-400 Dash 8]] of [[ANA Wings]] parked at the gate, a [[Boeing 737 Next Generation]] of [[Japan Airlines]] during [[pushback (aviation)|pushback]], and an [[Embraer 190]] of [[J-Air]] approaching the gate.]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[ANA Wings]] | [[Itami Airport|Osaka–Itami]], [[New Chitose Airport|Sapporo–Chitose]]
+<!-- -->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Fuji Dream Airlines]] | [[Kobe Airport|Kobe]], [[Nagoya Airfield|Nagoya–Komaki]]
+<!-- -->
+| [[J-Air]] | [[Itami Airport|Osaka–Itami]], [[New Chitose Airport|Sapporo–Chitose]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+}}

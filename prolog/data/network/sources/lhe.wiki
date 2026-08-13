@@ -1,0 +1,66 @@
+==Airlines and destinations==
+===Passenger===
+{{incomplete list|date=April 2026}}
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Aero Nomad Airlines]] | [[Manas International Airport|Bishkek]]
+<!-- -->
+| [[Airblue]] | [[King Fahd International Airport|Dammam]], [[Heydar Aliyev International Airport|Baku]], [[King Abdulaziz International Airport|Jeddah]], [[Skardu International Airport|Skardu]]{{citation needed|date=April 2026}}
+<!-- -->
+| [[AirSial]] | [[King Khalid International Airport|Riyadh]],{{citation needed|date=April 2026}} [[Dubai International Airport|Dubai]], [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Centrum Air]] | [[Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[China Southern Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai]]
+<!-- -->
+| [[Etihad]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[Flyadeal]] | [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[FitsAir]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+| [[Fly Baghdad]] | [[Baghdad International Airport|Baghdad]]
+<!-- -->
+|[[Fly Jinnah]] | [[Bahrain International Airport|Bahrain]],{{citation needed|date=April 2026}} [[King Fahd International Airport|Dammam]], [[Dubai International Airport|Dubai–International]], [[Muscat International Airport|Muscat]]{{citation needed|date=April 2026}}, [[Islamabad International Airport|Islamabad]], [[Quetta International Airport|Quetta]], [[King Khalid International Airport|Riyadh]],
+<!-- -->
+| [[Iran Air]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]]{{citation needed|date=April 2026}}
+<!-- -->
+| [[Iran Airtour]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]]
+<!-- -->
+| [[Iraqi Airways]] | [[Al Najaf International Airport|Najaf]]
+<!-- -->
+| [[Kish Air]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]]
+<!-- -->
+| {{nowrap|[[Pakistan International Airlines]]}} | [[Bahrain International Airport|Bahrain]],{{citation needed|date=April 2026}} [[Heydar Aliyev International Airport|Baku]], [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[Jinnah International Airport|Karachi]], [[Heathrow Airport|London–Heathrow]], [[Manchester Airport|Manchester]], [[Muscat International Airport|Muscat]], [[Skardu International Airport|Skardu]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Riyadh Air]] | [[King Khalid International Airport|Riyadh]] (Begins 18 August)
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Thai Airways International]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+|[[Uzbekistan Airways]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+}}
+
+===Cargo===
+{{incomplete list|date=April 2026}}
+{{Airport destination list
+<!-- -->
+| [[DHL Aviation]] | [[Bahrain International|Bahrain]]
+<!-- -->
+| [[SF Airlines]] | [[Ezhou Huahu Airport|Ezhou]]
+<!-- -->
+| [[YTO Cargo Airlines]] | [[Lanzhou Zhongchuan International Airport|Lanzhou]]
+}}

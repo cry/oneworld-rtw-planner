@@ -1,0 +1,28 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights to and from Rotterdam/The Hague:
+
+
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal:''' [[Athens International Airport|Athens]] (begins 3 September 2026)
+<!-- -->
+| [[Air Algérie]] | [[Houari Boumediene Airport|Algiers]]
+<!-- -->
+| [[Air Arabia]] | [[Tangier Ibn Battouta Airport|Tangier]]
+<!-- -->
+| [[AJet]] | [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]{{cn|date=April 2026}}
+<!-- -->
+| [[Animawings]] | [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Timișoara Traian Vuia International Airport|Timișoara]]
+<!-- -->
+| [[British Airways]] | [[London City Airport|London–City]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]{{bsn|date=April 2026}}
+<!-- -->
+| [[Sun Express]] | '''Seasonal:''' [[Ankara Esenboğa Airport|Ankara]]
+<!-- -->
+| [[Transavia]] | [[Cherif Al Idrissi Airport|Al Hoceima]], [[Alicante–Elche Miguel Hernández Airport|Alicante]],{{cn|date=April 2026}} [[Barcelona–El Prat Airport|Barcelona]], [[Faro Airport|Faro]],{{cn|date=April 2026}} [[Fès–Saïs Airport|Fez]], [[Gran Canaria Airport|Gran Canaria]], [[Lisbon Airport|Lisbon]], [[London Stansted Airport|London–Stansted]], [[Málaga Airport|Málaga]]{{cn|date=April 2026}} [[Nador International Airport|Nador]], [[Seville Airport|Seville]],{{cn|date=April 2026}} [[Tenerife South Airport|Tenerife–South]], [[Trieste Airport|Trieste]], [[Valencia Airport|Valencia]] <br/> '''Seasonal:''' [[Almería Airport|Almería]], [[Bastia – Poretta Airport|Bastia]], [[Bergerac Dordogne Perigord Airport|Bergerac]], [[Brindisi Airport|Brindisi]], [[Catania–Fontanarossa Airport|Catania]],{{cn|date=April 2026}} [[Corfu International Airport|Corfu]], [[Dubrovnik Airport|Dubrovnik]], [[Geneva Airport|Geneva]], [[Girona–Costa Brava Airport|Girona]], [[Alpes–Isère Airport|Grenoble]], [[Heraklion International Airport|Heraklion]],{{cn|date=April 2026}} [[Ibiza Airport|Ibiza]],{{cn|date=April 2026}} [[Innsbruck Airport|Innsbruck]], [[Kos International Airport|Kos]], [[Oujda-Angad Airport|Oujda]], [[Falcone Borsellino Airport|Palermo]], [[Palma de Mallorca Airport|Palma de Mallorca]],{{cn|date=April 2026}} [[Perugia San Francesco d'Assisi – Umbria International Airport|Perugia]], [[Pula Airport|Pula]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Salzburg Airport|Salzburg]], [[Split Airport|Split]], [[Tangier Ibn Battouta Airport|Tangier]], [[Toulon–Hyères Airport|Toulon]], [[Zadar Airport|Zadar]]
+<!-- -->
+| {{nowrap|[[TUI fly Netherlands]]}} | [[Fuerteventura Airport|Fuerteventura]], [[Gran Canaria Airport|Gran Canaria]], [[Lanzarote Airport|Lanzarote]], [[Tenerife South Airport|Tenerife–South]] <br/> '''Seasonal:''' [[Antalya Airport|Antalya]], [[Heraklion International Airport|Heraklion]], [[Kittilä Airport|Kittilä]], [[Kos International Airport|Kos]], [[Kuusamo Airport|Kuusamo]], [[Rhodes International Airport|Rhodes]], [[Zakynthos Airport|Zakynthos]]
+<!-- -->
+}}

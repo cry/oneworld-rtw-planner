@@ -1,0 +1,23 @@
+==Airlines and destinations==
+===Passenger===
+
+{{Airport destination list
+<!-- -->
+| [[Air Europa]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[American Airlines]] | [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+|[[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Frontier Airlines]] | '''Seasonal:''' [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]],, [[Luis Muñoz Marín International Airport|San Juan]], [[Orlando International Airport|Orlando]]
+<!-- -->
+}}
+
+===Cargo===
+{{airport-dest-list
+<!-- -->
+| [[Amerijet International]] | [[Miami International Airport|Miami]], [[Gregorio Luperón International Airport|Puerto Plata]]
+<!-- -->
+}}

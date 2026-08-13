@@ -1,0 +1,64 @@
+==Airlines and destinations==
+[[File:BK Blue MBJ.jpg|thumb|A [[JetBlue]] [[A320-200|Airbus A320-200]] on the airport's tarmac in 2024]]
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[Air Canada]]|[[Toronto Pearson International Airport|Toronto–Pearson]]<br>'''Seasonal:'''  [[Halifax Stanfield International Airport|Halifax]] (resumes December 3, 2026), [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]] (resumes December 6, 2026)
+<!-- -->
+|[[Air Canada Rouge]]|'''Seasonal:''' [[Edmonton International Airport|Edmonton]] (begins 13 December 2026), [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]] (begins 14 December 2026)
+<!-- -->
+|[[Air Transat]]|[[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]] <br /> '''Seasonal:''' [[Halifax Stanfield International Airport|Halifax]]
+<!-- -->
+|[[American Airlines]]| [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]], [[Philadelphia International Airport|Philadelphia]]<br />'''Seasonal:''' [[Logan International Airport|Boston]]
+<!-- -->
+|[[Bahamasair]]|'''Seasonal:''' [[Lynden Pindling International Airport|Nassau]]
+<!-- -->
+|[[Breeze Airways]]|[[Tampa International Airport|Tampa]] (begins 19 December 2026)
+<!-- -->
+|[[Cayman Airways]]|'''Seasonal:''' [[Owen Roberts International Airport|Grand Cayman]]<!-- -->
+|[[Condor (airline)|Condor]]|'''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+|[[Copa Airlines]]|[[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+|[[Delta Air Lines]]|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[John F. Kennedy International Airport|New York–JFK]],<br />'''Seasonal:''' [[Logan International Airport|Boston]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+|[[Edelweiss Air]]|'''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+|[[Flair Airlines]]|'''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+|[[Frontier Airlines]]| [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Orlando International Airport|Orlando]]<br />'''Seasonal:''' [[Philadelphia International Airport|Philadelphia]], [[St. Louis Lambert International Airport|St. Louis]]
+<!-- -->
+|{{nowrap|[[InterCaribbean Airways]]}}|[[Norman Manley International Airport|Kingston–Norman Manley]]
+<!-- -->
+|[[International AirLink]]| [[Negril Aerodrome|Negril]]
+<!-- -->
+|[[JetBlue]]| [[Logan International Airport|Boston]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[John F. Kennedy International Airport|New York–JFK]], [[Orlando International Airport|Orlando]]
+<!-- -->
+|[[LATAM Peru]]|[[Jorge Chávez International Airport|Lima]]
+<!-- -->
+| [[Liat Air]] | [[Norman Manley International Airport|Kingston–Norman Manley]]
+<!-- -->
+|[[Neos (airline)|Neos]]|'''Seasonal:''' [[Malpensa Airport|Milan–Malpensa]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+|[[Porter Airlines]] | '''Seasonal:''' [[John C. Munro Hamilton International Airport|Hamilton (ON)]] (begins 20 December 2026), [[Ottawa Macdonald-Cartier International Airport|Ottawa]] (begins 25 November 2026), [[Toronto Pearson International Airport|Toronto–Pearson]] (begins 23 November 2026)
+<!-- -->
+|[[Southwest Airlines]]|[[Baltimore/Washington International Airport|Baltimore]], [[Midway International Airport|Chicago–Midway]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[William P. Hobby Airport|Houston–Hobby]], [[Nashville International Airport|Nashville]], [[Orlando International Airport|Orlando]]<br />'''Seasonal:''' [[Kansas City International Airport|Kansas City]], [[St. Louis Lambert International Airport|St. Louis]]
+<!-- -->
+|[[Sun Country Airlines]]|'''Seasonal:'''  [[Milwaukee Mitchell International Airport|Milwaukee]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+|[[TUI Airways]]|[[Birmingham Airport|Birmingham]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester (UK)]] <br />'''Seasonal:''' [[Glasgow Airport|Glasgow]]
+<!-- -->
+|[[TUI fly Netherlands]]|[[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+|[[United Airlines]]|[[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+|[[Virgin Atlantic]]|[[Heathrow Airport|London–Heathrow]]
+<!-- -->
+|[[WestJet]]|[[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]] <br />'''Seasonal:''' [[Calgary International Airport|Calgary]], [[Edmonton International Airport|Edmonton]], [[Québec City Jean Lesage International Airport|Québec City]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]
+<!-- -->
+|[[Wingo (airline)|Wingo]]|[[El Dorado International Airport|Bogotá]], [[Jose Maria Cordova International Airport|Medellín–JMC]]
+<!-- -->
+|[[World2fly]]|'''Seasonal:''' [[Lisbon Airport|Lisbon]]
+<!-- -->}}

@@ -1,0 +1,28 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights to and from La Romana Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Air Canada]]}} | '''Seasonal:''' [[Montréal–Trudeau]]
+<!-- -->
+| [[Air Caraïbes]] | '''Seasonal charter:''' [[Paris–Orly]]
+<!-- -->
+| [[Air Transat]]| '''Seasonal:'''  [[Montréal–Trudeau]]
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | [[Miami International Airport|Miami]]
+<!-- -->
+|[[Condor (airline)|Condor]] | [[Düsseldorf Airport|Düsseldorf ]], [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Discover Airlines|Discover]]| [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Neos (airline)|Neos]] | [[Milan–Malpensa]], [[Rome–Fiumicino]], [[Verona Airport|Verona]]
+<!-- -->
+| [[RED Air]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[TUI Airways]]| '''Seasonal charter:''' [[Birmingham Airport|Birmingham]], [[London–Gatwick]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Westjet]]| '''Seasonal:''' [[Montréal–Trudeau]]
+<!-- -->
+| [[World2Fly]] | '''Seasonal charter:''' [[Madrid–Barajas Airport|Madrid]], [[Humberto Delgado Airport|Lisbon]]
+<!-- -->
+}}

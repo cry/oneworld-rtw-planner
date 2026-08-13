@@ -1,0 +1,22 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Oujda-Angad Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+|[[Air Arabia]] | [[Brussels Airport|Brussels]], [[Marseille Provence Airport|Marseille]]{{cn|date=April 2025}}, [[Región de Murcia International Airport|Murcia]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Rabat–Salé Airport|Rabat]] <br /> '''Seasonal:''' [[Barcelona Airport|Barcelona]]{{bsn|date=April 2025}}, [[Brussels South Charleroi Airport|Charleroi]]{{bsn|date=April 2025}}, [[Lille Airport|Lille]]{{bsn|date=April 2025}}, [[Lyon–Saint-Exupéry Airport|Lyon]]{{bsn|date=April 2025}}, [[Montpellier–Méditerranée Airport|Montpellier]]
+<!-- -->
+|[[Air Nostrum]] | '''Seasonal charter:''' [[Lisbon Airport|Lisbon]], [[Porto Airport|Porto]]
+<!-- -->
+|{{nowrap|[[ASL Airlines France]]}} | '''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Strasbourg Airport|Strasbourg]]
+<!-- -->
+|[[Brussels Airlines]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+|[[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]], [[Orly Airport|Paris–Orly]] <br /> '''Seasonal:''' [[Brussels Airport|Brussels]], [[Düsseldorf Airport|Düsseldorf]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Rotterdam The Hague Airport|Rotterdam]]
+<!-- -->
+|[[Ryanair]] | [[Agadir–Al Massira Airport|Agadir]], [[Barcelona Airport|Barcelona]], [[Beauvais Airport|Beauvais]], [[Brussels South Charleroi Airport|Charleroi]], [[Marrakesh Menara Airport|Marrakesh]], [[Marseille Provence Airport|Marseille]], [[Tangier Ibn Battouta Airport|Tangier]], [[Toulouse–Blagnac Airport|Toulouse]], [[Weeze Airport|Weeze]]
+<!-- -->
+|[[Transavia]] | [[Orly Airport|Paris–Orly]] <br /> '''Seasonal:''' [[Bastia–Poretta Airport|Bastia]], [[Lyon–Saint-Exupéry Airport|Lyon]],{{cn|date=April 2025}} [[Nantes Atlantique Airport|Nantes]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]] (begins 2 July 2026)
+<!-- -->
+|[[TUI fly Belgium]] | [[Brussels Airport|Brussels]] <br /> '''Seasonal:''' [[Antwerp International Airport|Antwerp]], [[Eindhoven Airport|Eindhoven]], [[Lille Airport|Lille]],{{cn|date=April 2025}} [[Orly Airport|Paris–Orly]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]{{cn|date=April 2025}}
+<!-- -->
+}}

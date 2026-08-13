@@ -1,0 +1,14 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+The following airlines operate at regular, scheduled and charter services to and from Guernsey:
+
+{{Airport-dest-list
+<!-- -->
+|{{nowrap|[[airBaltic]]}}|'''Seasonal charter:''' [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+|{{nowrap|[[Aurigny]]}}|[[Alderney Airport|Alderney]], [[Birmingham Airport|Birmingham]],  [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]],{{Citation needed|reason=Independent source needed|date=March 2026}} [[Exeter Airport|Exeter]], [[Jersey Airport|Jersey]], [[London City Airport|London–City]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Southampton Airport|Southampton]] <br />'''Seasonal:''' [[Dublin Airport|Dublin]], [[Alpes–Isère Airport|Grenoble]], [[Leeds Bradford Airport|Leeds/Bradford]]{{Citation needed|reason=Independent source needed|date=March 2026}}<br>'''Seasonal Charter:''' [[Teesside Airport|Teesside]]
+<!-- -->
+|{{nowrap|[[British Airways]]}}|[[London Heathrow Airport|London–Heathrow]]<br>'''Seasonal charter:''' [[Gago Coutinho Airport|Faro]], [[Málaga Airport|Málaga]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+}}

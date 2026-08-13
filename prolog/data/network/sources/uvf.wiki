@@ -1,0 +1,29 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| {{nowrap| [[Air Canada Rouge]]}}| [[Toronto Pearson International Airport|Toronto–Pearson]] |
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]] <br />'''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]], [[Philadelphia International Airport|Philadelphia]] |
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]]<br> '''Seasonal:''' [[Cheddi Jagan International Airport|Georgetown–Cheddi Jagan]], [[Maurice Bishop International Airport|Grenada]], [[Arthur Napoleon Raymond Robinson International Airport|Tobago]] |
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] |
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]]<br />'''Seasonal:''' [[Logan International Airport|Boston]] |
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Newark International Airport|Newark]] | 
+<!-- -->
+| [[WestJet]] | [[Toronto Pearson International Airport|Toronto–Pearson]]|
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Air Cargo Carriers]] | [[Douglas–Charles Airport|Dominica–Douglas-Charles]] |
+<!-- -->
+| [[Amerijet International]]| [[Miami International Airport|Miami]], [[Piarco International Airport|Port of Spain]]  |
+<!-- -->
+}}

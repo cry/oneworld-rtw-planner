@@ -1,0 +1,47 @@
+==Airlines and destinations==
+El Paso International Airport has 15 gates on 2 concourses: '''Concourse A''' (used exclusively by American) has gates A1–A4 and '''Concourse B''' has gates B1–B11.
+
+===Passenger===
+{{Airport destination list
+| [[Alaska Airlines]] | [[Seattle/Tacoma]]
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] <br/> '''Seasonal:''' [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| {{nowrap|[[American Eagle (airline brand)|American Eagle]]}} | [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Frontier Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Austin–Bergstrom International Airport|Austin]], [[Long Beach Airport|Long Beach]] <br/> '''Seasonal:''' [[Chicago–Midway]], [[Nashville International Airport|Nashville]] (begins October 1, 2026)
+<!-- -->
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=800 |float=center
+|caption=Destinations from El Paso International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future Destination
+|places=
+{{Location map~ |United_States |lat=31.4826 |long=-106.2239 |position=under |label=<div style="position:relative; under:-5px;"><small>'''El Paso'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=right |label='''<small>[[Hartsfield-Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label=<small>'''[[Dallas Fort Worth International Airport|Dallas/<br>Fort Worth]]'''</small>|label_size=100 |marksize=7}}
+{{Location map~ |United_States |lat=47.450165|long=-122.309176 |position=under |label='''<small>[[Seattle/Tacoma]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=right|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=33.436921|long=-112.011667|position=right|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=36.083697|long=-115.153873|position=right|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=29.379878|long=-98.572067 |position=left|label='''<small>[[San Antonio International Airport|San Antonio]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=30.194444 |long=-97.67 |position=left |label=<small>'''{{nowrap|[[Austin–Bergstrom International Airport|Austin]]}}'''</small>|label_size=100 |marksize=7}}
+{{Location map~ |United_States |lat=32.7338|long=-117.1933|position=left|label='''<small>[[San Diego International Airport|San Diego]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=41.974186|long=-87.907783|position=left|label='''<small>[[Chicago–O'Hare]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=33.941381|long=-118.408619|position=left |label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=32.847978|long=-96.851250 |position=right|label='''<small>[[Dallas Love Airport|Dallas–Love]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=29.990140|long=-95.336792 |position=top|label='''<small>[[George Bush Intercontinental Airport|Houston–{{nowrap|Intercontinental}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=29.654751|long=-95.279002|position=bottom|label='''<small>[[Houston–Hobby]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark = Red pog.svg |lat=33.817778|long=-118.151667|position=right|label='''<small>[[Long Beach Airport|Long Beach]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark = Green pog.svg |lat=28.429444|long=-81.308889|position=left|label='''<small>[[Orlando International Airport|Orlando]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark= Green pog.svg |lat=41.786111|long=-87.7525|position=right|label='''<small>[[Chicago–Midway]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark= Blue pog.svg|lat=36.126667|long=-86.681944|position=right|label='''<small>[[Nashville International Airport|Nashville]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

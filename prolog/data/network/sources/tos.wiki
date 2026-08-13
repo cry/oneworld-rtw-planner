@@ -1,0 +1,47 @@
+==Airlines and destinations==
+The main scheduled airlines operating at Tromsø are SAS, Norwegian and Widerøe. SAS operates services to [[Oslo]] and other airports in Norway, including [[Svalbard]]. Norwegian operates eight daily services from Tromsø, both to Oslo and other domestic cities, and also offer seasonal direct flights to [[London-Gatwick]].{{full citation needed|date=June 2026}} Widerøe operates to various regional airports in northern Norway using a fleet of [[Bombardier Dash 8]] aircraft. As of 2012 it had 23 daily services from Langnes.{{full citation needed|date=June 2026}} [[West Air Sweden]] operates cargo services for [[Norway Post]]. [[Lufttransport]] has its main base at Langnes. There are also charter services to Mediterranean destinations. Inbound charter flights are often flown from central parts of Europe to Tromsø with tourists.{{full citation needed|date=June 2026}}
+
+The following airlines operate regular scheduled and charter flights at Tromsø Airport:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aer Lingus]] | '''Seasonal:''' [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]{{cn|date=June 2026}}
+<!-- -->
+| [[Air Serbia]] | '''Seasonal:''' [[Belgrade Nikola Tesla Airport|Belgrade]] (begins 14 December 2026)
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna Airport|Vienna]]{{cn|date=June 2026}}
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[London–Heathrow]]
+<!-- -->
+| [[easyJet]] |  '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Berlin Brandenburg Airport|Berlin]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]] (begins 30 November 2026), [[London–Gatwick]], [[Manchester Airport|Manchester]], [[Milan–Malpensa]], [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Edelweiss Air]] | [[Zürich Airport|Zürich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]],{{cn|date=June 2026}} [[Hamburg Airport|Hamburg]],{{cn|date=June 2026}} [[Stuttgart Airport|Stuttgart]]{{cn|date=June 2026}}
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]], [[Rovaniemi Airport|Rovaniemi]]{{cn|date=June 2026}}
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]{{cn|date=June 2026}}
+<!-- -->
+| [[Icelandair]] | '''Seasonal:''' [[Keflavík International Airport|Reykjavík–Keflavík]] (begins 23 October 2026)
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal:''' [[Warsaw–Chopin]] (begins 1 December 2026)
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]],{{cn|date=June 2026}} [[Munich Airport|Munich]]{{cn|date=June 2026}}
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Alta Airport|Alta]], [[Oslo Airport, Gardermoen|Oslo]] <br/> '''Seasonal:''' [[Bergamo Airport|Bergamo]], [[Berlin Brandenburg Airport|Berlin]], [[Copenhagen Airport|Copenhagen]],{{cn|date=June 2026}} [[Geneva Airport|Geneva]], [[Glasgow Airport|Glasgow]] (starts 11 December 2026), [[Helsinki Airport|Helsinki]] (begins 18 November 2026), [[London–Gatwick]], [[Manchester Airport|Manchester]], [[Munich Airport|Munich]], [[Paris–Charles de Gaulle]] <br/> '''Seasonal charter:''' [[Gran Canaria Airport|Gran Canaria]]{{cn|date=June 2026}}
+<!-- -->
+| [[Scandinavian Airlines]] | [[Alta Airport|Alta]],{{cn|date=June 2026}} [[Bodø Airport|Bodø]],{{cn|date=June 2026}} [[Copenhagen Airport|Copenhagen]],{{cn|date=June 2026}} [[Svalbard Airport|Longyearbyen]],{{cn|date=June 2026}} [[Oslo Airport, Gardermoen|Oslo]],{{cn|date=June 2026}} [[Stockholm–Arlanda]],{{cn|date=June 2026}}
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Paris–Orly]]{{cn|date=June 2026}}
+<!-- -->
+|[[Vueling]] | '''Seasonal:''' [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]{{cn|date=June 2026}}
+<!-- -->
+| [[Widerøe]] | [[Alta Airport|Alta]], [[Andøya Airport, Andenes|Andenes]], [[Båtsfjord Airport|Båtsfjord]], [[Bergen Airport, Flesland|Bergen]],{{cn|date=June 2026}} [[Berlevåg Airport|Berlevåg]],{{cn|date=June 2026}} [[Bodø Airport|Bodø]],{{cn|date=June 2026}} [[Hammerfest Airport|Hammerfest]],{{cn|date=June 2026}} [[Harstad/Narvik Airport, Evenes|Harstad/Narvik]],{{cn|date=June 2026}} [[Hasvik Airport|Hasvik]], [[Honningsvåg Airport, Valan|Honningsvåg]],{{cn|date=June 2026}} [[Kirkenes Airport, Høybuktmoen|Kirkenes]], [[Lakselv Airport, Banak|Lakselv]],{{cn|date=June 2026}} [[Leknes Airport|Leknes]],{{cn|date=June 2026}} [[Mehamn Airport|Mehamn]], [[Sørkjosen Airport|Sørkjosen]], [[Stokmarknes Airport|Stokmarknes]], [[Svolvær Airport|Svolvær]],{{cn|date=June 2026}} [[Trondheim Airport, Vaernes|Trondheim]], [[Vadsø Airport|Vadsø]], [[Vardø Airport, Svartnes|Vardø]]
+<!-- -->
+| [[Wizz Air]] | [[Gdańsk Lech Wałęsa Airport|Gdańsk]] <br/> '''Seasonal:''' [[London–Luton]], [[Milan–Malpensa]] (begins 15 December 2026)  
+<!-- -->
+}}

@@ -1,0 +1,50 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport-dest-list
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Aeroméxico Connect]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| {{nowrap|[[Aéreo Servicio Guerrero]]}} | [[Guerrero Negro Airport|Guerrero Negro]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[Señor Air|Cabo Flight Center]] | [[Cabo San Lucas International Airport|Cabo San Lucas]]
+<!-- -->
+| {{nowrap|[[Mexicana de Aviación (2023–present)|Mexicana de Aviación]]}} | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+| [[TAR Aerolíneas|TAR México]] | [[Chihuahua International Airport|Chihuahua]], [[Ciudad Juárez International Airport|Ciudad Juárez]], [[Culiacán International Airport|Culiacán]], [[La Paz International Airport|La Paz]], [[Torreón International Airport|Torreón/Gómez Palacio]]
+<!-- -->
+| [[Viva (airline)|Viva]] | [[Cancún International Airport|Cancún]], [[Guadalajara International Airport|Guadalajara]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Monterrey International Airport|Monterrey]], [[Los Cabos International Airport|San José del Cabo]]
+<!-- -->
+| [[Volaris]]| [[Guadalajara International Airport|Guadalajara]], [[Mexicali International Airport|Mexicali]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Tijuana International Airport|Tijuana]]
+}}
+
+[[Image:HMO terminal.JPG|thumb|Airport apron at HMO]]
+[[File:Aeropuerto de Hermosillo 9.jpg|thumb|Departures concourse]]
+[[File:Aeropuerto de Hermosillo 3.jpg|thumb|Passenger terminal entrance hall]]
+[[File:Aeropuerto de Hermosillo 7.jpg|thumb|Departures concourse]]
+[[File:Aeropuerto de Hermosillo 8.jpg|thumb|Departures concourse]]
+
+=== Destinations map ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=right|caption=Domestic destinations from Hermosillo International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination |places={{Location map~ | Mexico|lat=29.0900 |long=-111.0520|position=right |label=<div style="position:relative; top:-5px;"><small>'''Hermosillo'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=bottom|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.7566 |long=-99.0152|position=right|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City/AIFA}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.7778 |long=-100.1080|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.5260 |long=-103.3076|position=bottom|label='''[[Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=23.1455 |long=-109.7183|position=right|label='''[[Los Cabos International Airport|San José del Cabo]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=24.7630 |long=-107.4767|position=right|label='''[[Culiacán International Airport|{{nowrap|Culiacán}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=28.7040 |long=-105.9690|position=bottom|label='''[[Chihuahua International Airport|{{nowrap|Chihuahua}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.540833|long=-116.97|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.5633 |long=-103.3988|position=top|label='''[[Torreón International Airport|Torreón/Gómez Palacio]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=28.025833|long=-114.023889|position=bottom|label='''[[Guerrero Negro Airport|{{nowrap|Guerrero Negro}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=24.0761 |long=-110.3671|position=top|label='''[[La Paz International Airport|{{nowrap|La Paz}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=31.6358 |long=-106.4359|position=top|label='''[[Ciudad Juárez International Airport|{{nowrap|Ciudad Juárez}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.6306 |long=-115.242|position=right|label='''[[Mexicali International Airport|{{nowrap|Mexicali}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=22.9475 |long=-109.936944|position=left|label='''[[Cabo San Lucas International Airport|{{nowrap|Cabo San Lucas}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=21.036667 |long=-86.876944|position=left|label='''[[Cancún International Airport|{{nowrap|Cancún}}]]'''|label_size=90 |marksize=7 }}}}
+|-
+|{{Location map+|United States|width=650|float=center|caption=International destinations from Hermosillo International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places=
+{{Location map~ | United States |lat=33.434167|long=-112.011667|position=right|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}}}
+|}

@@ -1,0 +1,18 @@
+==Airlines and destinations==
+{{More citations needed section|date=June 2024}}
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Lake Charles Regional Airport
+|places=
+{{Location map~ |United_States |lat=30.1230|long=-93.2211|position=right|label='''<small>Lake Charles</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424|position=right |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=29.990140|long=-95.336792 |position=left|label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}

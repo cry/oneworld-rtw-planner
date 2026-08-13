@@ -1,0 +1,37 @@
+== Airlines and destinations ==
+
+=== Passenger ===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list|
+{{nowrap|[[Aerolíneas Argentinas]]}} | [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]]
+<!-- -->
+|[[Air Europa]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[American Airlines]] |'''Seasonal:''' [[Miami International Airport|Miami]]
+<!-- -->
+| [[Arajet]] | [[Punta Cana International Airport|Punta Cana]] (begins 3 March 2027)
+<!-- -->
+|[[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+|{{nowrap|[[Azul Brazilian Airlines]]}} | [[Belo Horizonte International Airport|Belo Horizonte-Confins]], [[Salgado Filho Porto Alegre International Airport|Porto Alegre]] (resumes 14 December 2026), [[Recife/Guararapes International Airport|Recife]]
+<!-- -->
+|[[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+|[[Gol Linhas Aéreas]] | [[Fortaleza Airport|Fortaleza]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]<br>'''Seasonal:''' [[Greater Natal International Airport|Natal]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[JetSmart|JetSmart Chile]] | [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[LATAM Airlines Brasil|LATAM Brasil]] | [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+|[[LATAM Airlines Chile|LATAM Chile]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[LATAM Airlines Perú|LATAM Perú]] | [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+|[[Paranair]] | [[Silvio Pettirossi International Airport|Asunción]], [[Rivera International Airport|Rivera]], [[Nueva Hespérides International Airport|Salto]]
+<!-- -->
+|[[Sky Airline]] | [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Salvador Bahia Airport|Salvador da Bahia]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[Sky Airline Peru]] | '''Seasonal:''' [[Hercílio Luz International Airport|Florianópolis]], [[Jorge Chávez International Airport|Lima]]
+}}

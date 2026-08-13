@@ -1,0 +1,4 @@
+==Airlines and destinations==
+{{Airport-dest-list
+| [[Japan Air Commuter]] | [[Osaka International Airport|Osaka–Itami]]
+}}

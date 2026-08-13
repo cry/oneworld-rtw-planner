@@ -1,0 +1,61 @@
+==Airlines and destinations==
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. -->
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[Air Congo]] | [[Brussels Airport|Brussels]], [[Cotonou Cadjehoun Airport|Cotonou]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Douala International Airport|Douala]], [[Entebbe International Airport|Entebbe]], [[Goma International Airport|Goma]], [[O.R. Tambo International Airport|Johannesburg–O.R. Tambo]], [[Kalemie Airport|Kalemie]], [[Kananga Airport|Kananga]], [[Kindu Airport|Kindu]], [[Kisangani Bangoka International Airport|Kisangani]], [[Lubumbashi International Airport|Lubumbashi]], [[Mbandaka Airport|Mbandaka]], [[Mbuji Mayi Airport|Mbuji-Mayi]]
+<!-- -->
+|[[Air Côte d'Ivoire]] | [[Port Bouet Airport|Abidjan]], [[Maya-Maya Airport|Brazzaville]], [[Libreville International Airport|Libreville]], [[Agostinho-Neto International Airport|Pointe-Noire]]
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Kasaï]] | [[Gemena Airport|Gemena]], [[Kananga Airport|Kananga]], [[Mbandaka Airport|Mbandaka]], [[Mbuji Mayi Airport|Mbuji-Mayi]]
+<!-- -->
+| [[Air Tanzania]] | [[Julius Nyerere International Airport|Dar es Salaam]]
+<!-- -->
+| [[Airlink]] | [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[ASKY Airlines]] | [[Maya-Maya Airport|Brazzaville]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Lomé–Tokoin Airport|Lomé]]
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]<!-- SN only have traffic rights to Brussels; do not add any other destinations here -->
+<!-- -->
+| {{nowrap|[[Compagnie Africaine d'Aviation]]}} | [[Boende Airport|Boende]], [[Goma International Airport|Goma]], [[Kananga Airport|Kananga]], [[Kindu Airport|Kindu]], [[Kisangani Bangoka International Airport|Kisangani]], [[Lodja Airport|Lodja]], [[Lubumbashi International Airport|Lubumbashi]], [[Mbandaka Airport|Mbandaka]], [[Mbuji Mayi Airport|Mbuji-Mayi]]
+<!-- -->
+| [[Congo Airways]] | [[Douala International Airport|Douala]], [[Goma International Airport|Goma]], [[OR Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kananga Airport|Kananga]], [[Kindu Airport|Kindu]], [[Bangoka International Airport|Kisangani]], [[Lubumbashi International Airport|Lubumbashi]], [[Mbandaka Airport|Mbandaka]], [[Mbuji Mayi Airport|Mbuji-Mayi]], [[Muanda Airport|Moanda]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]] (begins 18 March 2027)
+<!-- -->
+| [[Kenya Airways]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| {{nowrap|[[South African Airways]]}} | [[OR Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[TAAG Angola Airlines]] | [[Dr. Antonio Agostinho Neto International Airport|Luanda–Agostinho Neto]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] (suspended)
+<!-- -->
+| [[Uganda Airlines]] | [[Entebbe International Airport|Entebbe]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Cargolux]] | [[Luxembourg Findel Airport|Luxembourg]]
+<!-- -->
+| [[Ethiopian Airlines|Ethiopian Airlines Cargo]] | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Trans Air Cargo Service]] | [[Kavumu Airport|Kavumu]], [[Bumba Airport|Bumba]], [[Gbadolite Airport|Gbadolite]], [[Gemena Airport|Gemena]], [[Goma International Airport|Goma]], [[Kamina Airport|Kamina]], [[Kananga Airport|Kananga]], [[Kindu Airport|Kindu]], [[Kisangani Bangoka International Airport|Kisangani]], [[Lisala Airport|Lisala]], [[Lodja Airport|Lodja]], [[Lubumbashi International Airport|Lubumbashi]], [[Mbandaka Airport|Mbandaka]], [[Mbuji Mayi Airport|Mbuji Mayi]], [[Tshikapa Airport|Tshikapa]]
+<!-- -->
+| [[Turkish Cargo]] | [[Istanbul Airport|Istanbul]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+}}

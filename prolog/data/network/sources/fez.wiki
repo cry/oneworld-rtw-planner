@@ -1,0 +1,23 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Fès–Saïs Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+|[[Air Arabia Maroc]] | [[Agadir Airport|Agadir]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Barcelona–El Prat Airport|Barcelona]], [[Milan Bergamo Airport|Bergamo]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Brussels Airport|Brussels]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Marseille Provence Airport|Marseille]], [[Montpellier–Méditerranée Airport|Montpellier]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Strasbourg Airport|Strasbourg]], [[Toulouse–Blagnac Airport|Toulouse]] <br /> '''Seasonal:''' [[Nice Côte d'Azur Airport|Nice]]
+<!-- -->
+|[[Binter Canarias]] | '''Seasonal:''' [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+|[[Discover Airlines]]|'''Seasonal:''' [[Munich Airport|Munich]] (begins 25 October 2026)
+|[[Royal Air Maroc]] | [[Orly Airport|Paris–Orly]]{{ref|a|a}}
+<!-- -->
+|{{nowrap|[[Royal Air Maroc Express]]}} | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+|[[Ryanair]] |[[Agadir–Al Massira Airport|Agadir]], [[Barcelona–El Prat Airport|Barcelona]], [[Beauvais–Tillé Airport|Beauvais]], [[Il Caravaggio International Airport|Bergamo]], [[Bologna Airport|Bologna]], [[Brussels South Charleroi Airport|Charleroi]], [[Dole–Jura Airport|Dole]], [[Eindhoven Airport|Eindhoven]], [[Frankfurt–Hahn Airport|Hahn]], [[Karlsruhe/Baden-Baden Airport|Karlsruhe/Baden-Baden]], [[Lille Airport|Lille]], [[London Stansted Airport|London–Stansted]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Marrakesh Menara Airport|Marrakesh]], [[Marseille Provence Airport|Marseille]], [[Nantes Atlantique Airport|Nantes]], [[Nîmes–Alès–Camargue–Cévennes Airport|Nimes]], [[Ciampino–G. B. Pastine International Airport|Rome–Ciampino]], [[Toulouse–Blagnac Airport|Toulouse]], [[Weeze Airport|Weeze]]<br>'''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Valencia Airport|Valencia]]
+<!-- -->
+|[[Transavia]] | [[Lyon–Saint-Exupéry Airport|Lyon]], [[Orly Airport|Paris–Orly]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+|[[TUI fly Belgium]] | [[Brussels Airport|Brussels]]
+<!-- -->
+}}
+
+<small>{{note|a|a}} On selected days, this flight operates from Tangier to Paris via Fez. However, this carrier does not sell tickets solely between Fez and Tangier. </small>

@@ -1,0 +1,40 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[Afrijet Business Service|Afrijet]]| [[Libreville International Airport|Libreville]]
+<!-- -->
+|[[Air Côte d'Ivoire]]| [[Port Bouet Airport|Abidjan]], [[Accra International Airport|Accra]], [[Libreville International Airport|Libreville]], [[N'djili Airport|Kinshasa–N'djili]]
+<!-- -->
+|[[Air France]]| [[Paris–Charles de Gaulle]]
+<!-- -->
+|[[ASKY Airlines]]| [[N'djili Airport|Kinshasa–N'djili]], [[Lomé–Tokoin Airport|Lomé]]
+<!-- -->
+|[[Camair-Co]]| [[Douala International Airport|Douala]]
+<!-- -->
+|[[Canadian Airways Congo]]| [[Impfondo Airport|Impfondo]], [[Ouesso Airport|Ouesso]], [[Pointe Noire Airport|Pointe-Noire]]
+<!-- -->
+|[[Ethiopian Airlines]]| [[Bole International Airport|Addis Ababa]]
+<!-- -->
+|[[Kenya Airways]]| [[Quatro de Fevereiro Airport|Luanda]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+|[[Mauritania Airlines]]| [[Bamako–Sénou International Airport|Bamako]], [[Cadjehoun Airport|Cotonou]], [[Nouakchott–Oumtounsy International Airport|Nouakchott]]
+<!-- -->
+|[[Royal Air Maroc]]| [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+|[[RwandAir]]| [[Cadjehoun Airport|Cotonou]], [[Kigali International Airport|Kigali]]
+<!-- -->
+|[[TAAG Angola Airlines]]| [[Dr. Antonio Agostinho Neto International Airport|Luanda–Agostinho Neto]]
+<!-- -->
+|[[Trans Air Congo]]| [[Douala International Airport|Douala]], [[Libreville International Airport|Libreville]], [[Pointe Noire Airport|Pointe-Noire]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+|[[Air France Cargo]]| [[Bangui M'Poko International Airport|Bangui]]
+|[[Cargolux]]| [[Luxembourg Airport|Luxembourg]]
+|[[Etihad Cargo]]| [[Abu Dhabi International Airport|Abu Dhabi]], [[Lagos International Airport|Lagos]]
+|[[Ethiopian Airlines|Ethiopian Airlines Cargo]]| [[Bole International Airport|Addis Ababa]]
+}}

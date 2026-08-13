@@ -1,0 +1,11 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Update section|date=January 2022}}
+{{Airport-dest-list
+| [[Alaska Airlines]] | [[Seattle-Tacoma International Airport|Seattle/Tacoma]]
+| [[United Express]] | [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]]}}
+
+
+=== Cargo ===
+Source:
+{{Airport destination list|[[FedEx Feeder]]|[[Sacramento International Airport|Sacramento]]}}

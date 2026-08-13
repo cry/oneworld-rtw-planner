@@ -1,0 +1,24 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{airport-dest-list
+| [[AJet]]|[[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+|[[Emirates (airline)|Emirates]]|[[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Fly Baghdad]]|[[Damascus International Airport|Damascus]]
+<!-- -->
+|[[flydubai]]|[[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Iraqi Airways]]|[[Queen Alia International Airport|Amman–Queen Alia]], [[Baghdad International Airport|Baghdad]], [[Beijing Capital International Airport|Beijing–Capital]], [[Beirut Rafic Hariri International Airport|Beirut]], [[Cairo International Airport|Cairo]], [[Indira Gandhi International Airport|Delhi]], [[Dubai International Airport|Dubai–International]], [[Erbil International Airport|Erbil]], [[Istanbul Airport|Istanbul]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Muscat International Airport|Muscat]], [[Sulaymaniyah International Airport|Sulaymaniyah]]
+<!-- -->
+|[[Nile Air]]|[[Cairo International Airport|Cairo]]
+<!-- -->
+|{{nowrap|[[Pegasus Airlines]]}}|[[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+|[[Royal Jordanian]]|[[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+|[[Qatar Airways]]|[[Hamad International Airport|Doha]]
+<!-- -->
+|[[Turkish Airlines]]|[[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

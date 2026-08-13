@@ -1,0 +1,8 @@
+==Airlines and destinations==
+
+The following airlines operate regular scheduled flights at Mariehamn Airport:
+
+{{Airport-dest-list
+| [[Finnair]] | [[Helsinki Airport|Helsinki]]
+| [[PopulAir]] | [[Stockholm-Arlanda Airport|Stockholm–Arlanda]], [[Turku Airport|Turku]]
+}}

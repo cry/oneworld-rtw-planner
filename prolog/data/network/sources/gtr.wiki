@@ -1,0 +1,43 @@
+==Airlines and destinations==
+{{More citations needed section|date=June 2024}}
+According to [[FlightAware]], scheduled nonstop passenger service to Atlanta (ATL) is currently operated by [[Endeavor Air]] flying as the [[Delta Connection]] on behalf of [[Delta Air Lines]] with [[Bombardier CRJ900]] regional jets.
+
+{{Airport destination list
+|[[American Eagle (airline brand)|American Eagle]]|[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+}}
+
+===Statistics===
+{{Bar graph
+| title       = Carrier shares (August 2024 – July 2025)
+| bar_width   = 30
+| width_units = em
+| label_type  = Carrier
+| data_type   = Passengers (arriving and departing)
+| data_max    = 100000
+| label1      = [[Endeavor Air]]
+| data1       = 90,580
+| comment1    = 91.82%
+| label2      = [[SkyWest Airlines]]
+| data2       = 8,080
+| comment2    = 8.18%
+}}
+
+{| class="wikitable"
+|+ Top domestic destinations (August 2024 – July 2025)<!--NOTE: source does not list airlines associated with destinations at the time-->
+|-
+! Rank
+! City
+! Passengers
+! Airline
+|-
+| 1
+| [[Hartsfield-Jackson Atlanta International Airport|Atlanta, Georgia]]
+| 45,780
+| Delta Connection
+|-
+| 2
+| [[Dallas Fort Worth International Airport|Dallas/Ft. Worth, Texas]]
+| 4,030
+| American Eagle
+|}

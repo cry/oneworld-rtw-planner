@@ -1,0 +1,69 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights to and from Malta:
+
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Aer Lingus]] |[[Dublin Airport|Dublin]]
+<!-- -->
+| [[Air France]]{{citation needed|date=June 2024}} | '''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]], [[Niš Constantine the Great Airport|Niš]] (begins 25 October 2026)
+<!-- -->
+| [[airBaltic]] | '''Seasonal:''' [[Riga International Airport|Riga]], [[Tallinn Airport|Tallinn]]
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Delta Air Lines]] | '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[EasyJet]] | [[Liverpool John Lennon Airport|Liverpool]], [[Gatwick Airport|London–Gatwick]], [[London Southend Airport|London–Southend]], [[Manchester Airport|Manchester]] <br />'''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Geneva Airport|Geneva]], [[Glasgow Airport|Glasgow]] (begins 4 August 2026), [[Milan Malpensa Airport|Milan–Malpensa]], [[Naples International Airport|Naples]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Nice Côte d'Azur Airport|Nice]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]], [[Larnaca International Airport|Larnaca]]
+<!-- -->
+| [[Eurowings]] | [[Düsseldorf Airport|Düsseldorf]] <br /> '''Seasonal:''' [[Hamburg Airport|Hamburg]], [[Stuttgart Airport|Stuttgart]]
+<!--  -->
+| [[Fly Lili|FlyLili]] | '''Seasonal charter:''' [[David Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[ITA Airways]] | '''Seasonal:''' [[Linate Airport|Milan–Linate]], [[Rome Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[Jet2.com]] | [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Leeds Bradford Airport|Leeds/Bradford]], [[London Gatwick Airport|London–Gatwick]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]] <br /> '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]], [[Liverpool John Lennon Airport|Liverpool]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[KM Malta Airlines]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Berlin Brandenburg Airport|Berlin]], [[Brussels Airport|Brussels]], [[Düsseldorf Airport|Düsseldorf]], [[Istanbul Airport|Istanbul]], [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Madrid–Barajas Airport|Madrid]], [[Linate Airport|Milan–Linate]], [[Munich Airport|Munich]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Orly Airport|Paris–Orly]], [[Václav Havel Airport Prague|Prague]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Ben Gurion International Airport|Tel Aviv]], [[Vienna Airport|Vienna]], [[Zurich Airport|Zürich]]<br />'''Seasonal:''' [[Catania–Fontanarossa Airport|Catania]] (resumes 20 July 2026), [[Málaga Airport|Málaga]], [[Palermo Airport|Palermo]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Lufthansa City Airlines]] | [[Munich Airport|Munich]]
+<!-- -->
+| [[Luxair]] | [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+|[[Medavia]] | [[Mitiga International Airport|Mitiga]], [[Misrata International Airport|Misrata]]
+<!-- -->
+|[[MedSky Airways]] | [[Benina International Airport|Benghazi]], [[Misrata International Airport|Misrata]], [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | '''Seasonal:''' [[Billund Airport|Billund]] (begins 3 June 2026), [[Copenhagen Airport|Copenhagen]], [[Helsinki Airport|Helsinki]], [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Ryanair]] | [[Athens International Airport|Athens]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bari Karol Wojtyła Airport|Bari]], [[Beauvais-Tillé Airport|Beauvais]], [[Birmingham Airport|Birmingham]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Bournemouth Airport|Bournemouth]], [[Bratislava Airport|Bratislava]], [[Brussels South Charleroi Airport|Brussels-Charleroi]], [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Cagliari Elmas Airport|Cagliari]], [[Catania–Fontanarossa Airport|Catania]],  [[Cologne Bonn Airport|Cologne/Bonn]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Glasgow Airport|Glasgow]], [[Göteborg Landvetter Airport|Gothenburg]], [[Katowice Airport|Katowice]], [[Kraków John Paul II International Airport|Kraków]], [[Lisbon Airport|Lisbon]], [[Liverpool John Lennon Airport|Liverpool]], [[Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]], [[Tarbes–Lourdes–Pyrénées Airport|Lourdes]], [[Luxembourg Airport|Luxembourg]], [[Madrid–Barajas Airport|Madrid]], [[Manchester Airport|Manchester]], [[Marseille Provence Airport|Marseille]], [[Memmingen Airport|Memmingen]], [[Milan Bergamo Airport|Milan-Bergamo]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nantes Atlantique Airport|Nantes]], [[Naples International Airport|Naples]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Niš Constantine the Great Airport|Niš]] (ends 23 October 2026), [[Norwich Airport|Norwich]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Pisa International Airport|Pisa]], [[Porto Airport|Porto]], [[Poznan–Lawica Airport|Poznan]], [[Riga International Airport|Riga]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Rzeszów-Jasionka Airport|Rzeszów]], [[Seville Airport|Seville]], [[Sofia Airport|Sofia]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Thessaloniki Airport|Thessaloniki]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Toulouse–Blagnac Airport|Toulouse]], [[Vincenzo Florio Airport Trapani–Birgi|Trapani]], [[Treviso Airport|Treviso]], [[Trieste Airport|Trieste]], [[Turin Airport|Turin]], [[Vienna Airport|Vienna]], [[Vilnius Airport|Vilnius]], [[Warsaw Modlin Airport|Warsaw–Modlin]], [[Copernicus Airport Wrocław|Wrocław]], [[Zagreb Airport|Zagreb]] <br /> '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Chania International Airport|Chania]], [[East Midlands Airport|East Midlands]], [[Eindhoven Airport|Eindhoven]], [[Lamezia Terme International Airport|Lamezia Terme]], [[Paphos International Airport|Paphos]], [[Perugia San Francesco d'Assisi – Umbria International Airport|Perugia]], [[Abruzzo Airport|Pescara]], [[Shannon Airport|Shannon]], [[Valencia Airport|Valencia]]
+<!-- -->
+| [[Scandinavian Airlines]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | '''Seasonal:''' [[Zurich Airport|Zürich]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Nantes Atlantique Airport|Nantes]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Tunisair Express]] | [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Bordeaux–Mérignac Airport|Bordeaux]]
+<!-- -->
+| [[Vueling]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+| [[Wizz Air]] | [[Belgrade Nikola Tesla Airport|Belgrade]], [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Cluj International Airport|Cluj-Napoca]], [[Katowice Airport|Katowice]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Skopje International Airport|Skopje]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Warsaw Chopin Airport|Warsaw–Chopin]], [[Warsaw Modlin Airport|Warsaw–Modlin]]
+<!-- -->
+}}

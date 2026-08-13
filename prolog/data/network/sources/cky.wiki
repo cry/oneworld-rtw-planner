@@ -1,0 +1,35 @@
+==Airlines and destinations==
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT  REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED.  -->
+
+{{Airport-dest-list
+<!-- -->
+|[[Africa World Airlines]] | [[Accra International Airport|Accra]] (begins 4 August 2026)
+<!-- -->
+|[[Air Côte d'Ivoire]] | [[Port Bouet Airport|Abidjan]], [[Modibo Keita International Airport|Bamako]], [[Roberts International Airport|Monrovia–Roberts]]
+<!-- -->
+|[[Air France]] | [[Nouakchott-Oumtounsy International Airport|Nouakchott]], [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Senegal]] | [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+|[[ASKY Airlines]] | [[Bamako-Sénou International Airport|Bamako]], [[Lungi International Airport|Freetown]], [[Lomé-Tokoin Airport|Lomé]], [[Nouakchott–Oumtounsy International Airport|Nouakchott]]
+<!-- -->
+|[[Brussels Airlines]] | [[Brussels Airport|Brussels]]
+<!-- -->
+|[[Emirates (airline)|Emirates]]{{ref|1|1}} |  [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Ethiopian Airlines]] | [[Port Bouet Airport|Abidjan]], [[Addis Ababa Bole International Airport|Addis Ababa]], [[Thomas Sankara International Airport Ouagadougou|Ouagadougou]]
+<!-- -->
+|{{nowrap|[[Mauritania Airlines]]}} | [[Blaise Diagne International Airport|Dakar–Diass]], [[Nouakchott–Oumtounsy International Airport|Nouakchott]]
+<!-- -->
+|[[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+|[[Transair (Senegal)|Transair]] | [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+|[[Tunisair]] | [[Blaise Diagne International Airport|Dakar–Diass]], [[Tunis Carthage International Airport|Tunis]]
+<!-- -->
+|[[Turkish Airlines]] | [[Istanbul Airport|Istanbul]], [[Ouagadougou Airport|Ouagadougou]]
+<!-- -->
+|[[Elysian Airlines]] | [[Blaise Diagne International Airport|Dakar–Diass]], [[Nzérékoré Airport|Nzérékoré]], [[Roberts International Airport|Monrovia–Roberts]]
+}}
+;Notes:
+<small>{{note|1|1}}: [[Emirates (airline)|Emirates]]' flight to [[Dubai International|Dubai–International]] from Conakry makes an initial stop in Dakar, but the flight [[Dubai International|Dubai–International]] to Conakry is nonstop. Emirates does not have [[Freedoms of the air#Fifth freedom|fifth freedom rights]] on the Dakar to Conakry sector.</small>

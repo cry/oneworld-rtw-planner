@@ -1,0 +1,224 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+The following airlines operate regular scheduled and charter flights at Istanbul Airport:
+
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]], [[Heraklion International Airport|Heraklion]], [[Thessaloniki Airport|Thessaloniki]] <br /> '''Seasonal:''' [[Mykonos Airport|Mykonos]], [[Rhodes International Airport|Rhodes]], [[Santorini (Thira) International Airport|Santorini]]
+<!-- -->
+| [[Aeroflot]] | [[Krasnodar International Airport|Krasnodar]], [[Mineralnye Vody Airport|Mineralnye Vody]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Pulkovo Airport|Saint Petersburg]], [[Sochi International Airport|Sochi]], [[Koltsovo International Airport|Yekaterinburg]]
+<!-- -->
+| [[Afriqiyah Airways]] | [[Misrata Airport|Misrata]]
+<!-- -->
+| [[Air Algérie]] | [[Houari Boumediene Airport|Algiers]], [[Mohamed Boudiaf International Airport|Constantine]], [[Ahmed Ben Bella Airport|Oran]]
+<!-- -->
+| [[Air Arabia]] | [[Rabat Airport|Rabat]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air Astana]] | [[Almaty International Airport|Almaty]], [[Nursultan Nazarbayev International Airport|Astana]], [[Atyrau Airport|Atyrau]]
+<!-- -->
+| [[Air Cairo]] | [[Cairo International Airport|Cairo]], [[Hurghada International Airport|Hurghada]] (resumes 26 December 2026), [[Sharm El Sheikh International Airport|Sharm El Sheikh]] (resumes 26 October 2026)
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]
+<!-- -->
+| [[Air Europa]] | [[Madrid Barajas Airport|Madrid]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Montenegro]] | [[Podgorica Airport|Podgorica]], [[Tivat Airport|Tivat]]
+<!-- -->
+| [[Air Samarkand]] | [[Samarkand International Airport|Samarqand]]
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]], [[Morava Airport|Kraljevo]], [[Niš Constantine the Great Airport|Niš]]
+<!-- -->
+| [[Air Seychelles]] | [[Seychelles International Airport|Seychelles]]
+<!-- -->
+| [[Air Transat]] | [[Montréal–Trudeau International Airport|Montréal–Trudeau]] (begins 29 October 2026), [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[AirBaltic]] | [[Riga International Airport|Riga]]
+<!-- -->
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Animawings]] | [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Cluj International Airport|Cluj-Napoca]], [[Craiova International Airport|Craiova]], [[Iași International Airport|Iași]], [[Timișoara Traian Vuia International Airport|Timișoara]]
+<!-- -->
+| [[Ariana Afghan Airlines]] | [[Kabul International Airport|Kabul]]
+<!-- -->
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[ATA Airlines (Iran)|ATA Airlines]] | [[Tabriz Shahid Madani International Airport|Tabriz]], [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[Azimuth (airline)|azimuth]] | [[Krasnodar International Airport|Krasnodar]], [[Mineralnye Vody Airport|Mineralnye Vody]], [[Adler-Sochi International Airport|Sochi]]
+<!-- -->
+| [[Badr Airlines]] | [[Port Sudan New International Airport|Port Sudan]]
+<!-- -->
+| [[Basra Airlines]] | [[Baghdad International Airport|Baghdad]]
+<!-- -->
+| [[Belavia]] | [[Minsk National Airport|Minsk]]
+<!-- -->
+| [[Berniq Airways]] | [[Benina International Airport|Benghazi]]
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Caspian Airlines]] | [[Tabriz Shahid Madani International Airport|Tabriz]], [[Imam Khomeini International Airport|Tehran–Imam Khomeini]], [[Urmia Shahid Bakeri International Airport|Urmia]]
+<!-- -->
+| [[Centrum Air]] | [[Namangan Airport|Namangan]], [[Fergana International Airport|Fergana]], [[Samarqand International Airport|Samarqand]], [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Xi'an Xianyang International Airport|Xi'an]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Ürümqi Diwopu International Airport|Ürümqi]]
+<!-- -->
+| [[Croatia Airlines]] | [[Split Airport|Split]]
+<!-- -->
+| [[Crown Airlines]] | [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[Fly Kish]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Fly Oya]] | [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[Flyadeal]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[FlyArystan]] | [[Aqtau International Airport|Aqtau]], [[Sary-Arka Airport|Qarağandy]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[FlyErbil]] | [[Erbil International Airport|Erbil]]
+<!-- -->
+| [[Flykhiva]] | [[Termez Airport|Termez]]
+<!-- -->
+| [[Flynas]] | [[Abha International Airport|Abha]], [[Prince Naif bin Abdulaziz International Airport|Al-Qassim]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[FlyOne]] | [[Chișinău International Airport|Chișinău]], [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| [[Ghadames Air Transport]] | [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[HiSky]] | [[Chișinău International Airport|Chișinău]]
+<!-- -->
+| [[Icelandair]] | '''Seasonal:''' [[Keflavík International Airport|Reykjavík–Keflavík]]
+<!-- -->
+| [[IndiGo]] | [[Indira Gandhi International Airport|Delhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+<!-- -->
+| [[Iran Air]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Iran Airtour]] | [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Tabriz Shahid Madani International Airport|Tabriz]], [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Iran Aseman Airlines]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Iraqi Airways]] |[[Baghdad International Airport|Baghdad]], [[Jalal Talabani International Airport|Sulaymaniyah]], [[Kirkuk Airport|Kirkuk]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Kam Air]] | [[Kabul International Airport|Kabul]], [[Mawlana Jalaluddin Mohammad Balkhi International Airport|Mazar-i-Sharif]]
+<!-- -->
+| [[Karun Airlines]] | [[Qasem Soleimani International Airport|Ahvaz]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[KM Malta Airlines]] | [[Malta International Airport|Malta]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Libyan Airlines]] | [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[Libyan Wings]] | [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Kraków John Paul II International Airport|Kraków]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Mahan Air]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Meraj Airlines]] | [[Tabriz Shahid Madani International Airport|Tabriz]]
+<!-- -->
+| [[MIAT Mongolian Airlines]] | [[Chinggis Khaan International Airport|Ulaanbaatar]]
+<!-- -->
+| [[Middle East Airlines]] | [[Beirut–Rafic Hariri International Airport|Beirut]]
+<!-- -->
+| [[Nordwind Airlines]] | [[Kazan International Airport|Kazan]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | '''Seasonal:''' [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[Nouvelair]] | [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+| [[Oman Air]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Pegasus Airlines]] | [[İzmir Adnan Menderes Airport|İzmir]], [[Ercan International Airport|Nicosia–Ercan]]
+<!-- -->
+| [[Pobeda (airline)|Pobeda]] |  [[Vnukovo International Airport|Moscow–Vnukovo]], [[Ufa International Airport|Ufa]]
+<!-- -->
+| [[Qanot Sharq]] | [[Namangan Airport|Namangan]], [[Qarshi Airport|Qarshi]], [[Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Red Wings Airlines]] | [[Chelyabinsk Airport|Chelyabinsk]], [[Kaluga (Grabtsevo) Airport|Kaluga]], [[Uytash Airport|Makhachkala]], [[Zhukovsky International Airport|Moscow–Zhukovsky]], [[Nalchik Airport|Nalchik]], [[Begishevo Airport|Nizhnekamsk]], [[Strigino International Airport|Nizhny Novgorod]], [[Kurumoch Airport|Samara]], [[Sochi International Airport|Sochi]], [[Stavropol Shpakovskoye Airport|Stavropol]], [[Roschino International Airport|Tyumen]], [[Beslan Airport|Vladikavkaz]]
+<!-- -->
+| [[Rossiya Airlines]] | [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Pulkovo Airport|Saint Petersburg]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]], [[Tangier Ibn Battouta Airport|Tangier]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]] <br> '''Seasonal:''' [[Amman Civil Airport|Amman–City]] 
+<!-- -->
+| [[S7 Airlines]] | [[Moscow Domodedovo Airport|Moscow–Domodedovo]], [[Tolmachevo Airport|Novosibirsk]]
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[SCAT Airlines]] | [[Almaty International Airport|Almaty]], [[Aliya Moldagulova International Airport|Aqtöbe]], [[Atyrau Airport|Atyrau]], [[Şymkent International Airport|Şymkent]]
+<!-- -->
+| [[Sichuan Airlines]] | [[Athens International Airport|Athens]], [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Sky Express (Greece)|Sky Express]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Somon Air]] | [[Dushanbe International Airport|Dushanbe ]], [[Khujand Airport|Khujand]]
+<!-- -->
+| [[Soroush Air]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Southwind Airlines]] | '''Seasonal charter:''' [[Sheremetyevo International Airport|Moscow-Sheremetyevo]], [[Zhukovsky International Airport|Moscow-Zhukovsky]]
+<!-- -->
+| [[Syrian Air]] | [[Damascus International Airport|Damascus]]
+<!-- -->
+| [[TAROM]] | [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Transavia France|Transavia]] | [[Bordeaux–Mérignac Airport|Bordeaux]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Montpellier–Méditerranée Airport|Montpellier]], [[Nantes Atlantique Airport|Nantes]], [[Orly Airport|Paris–Orly]], [[Strasbourg Airport|Strasbourg]]
+<!-- -->
+| [[Tunisair]] | [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+| [[Turkish Airlines]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Zayed International Airport|Abu Dhabi]], [[Nnamdi Azikiwe International Airport|Abuja]], [[Accra International Airport|Accra]], [[Çukurova International Airport|Adana/Mersin]], [[Addis Ababa Bole International Airport|Addis Ababa]], [[Adıyaman Airport|Adıyaman]], [[Ağrı Airport|Ağrı]], [[Aleppo International Airport|Aleppo]], [[Borg El Arab Airport|Alexandria]], [[Houari Boumediene Airport|Algiers]], [[Almaty International Airport|Almaty]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Ankara Esenboğa Airport|Ankara]], [[Antalya Airport|Antalya]], [[Ivato International Airport|Antananarivo]], [[King Hussein International Airport|Aqaba]], [[Aqtau International Airport|Aqtau]], [[Aşgabat International Airport|Ashgabat]], [[Asmara International Airport|Asmara]], [[Nursultan Nazarbayev International Airport|Astana]], [[Athens International Airport|Athens]], [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Baghdad International Airport|Baghdad]], [[Bahrain International Airport|Bahrain]], [[Heydar Aliyev International Airport|Baku]], [[Bamako-Sénou International Airport|Bamako]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Banjul International Airport|Banjul]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bari Karol Wojtyła Airport|Bari]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Basra International Airport|Basra]], [[Batman Airport|Batman]], [[Batumi International Airport|Batumi]], [[Beijing Capital International Airport|Beijing–Capital]], [[Beirut–Rafic Hariri International Airport|Beirut]], [[Belgrade Nikola Tesla Airport|Belgrade]], [[Benina International Airport|Benghazi]], [[Berlin Brandenburg Airport|Berlin]], [[Bilbao Airport|Bilbao]], [[Billund Airport|Billund]], [[Bingöl Airport|Bingöl]], [[Birmingham Airport|Birmingham]], [[Manas International Airport|Bishkek]], [[Osvaldo Vieira International Airport|Bissau]], [[Milas–Bodrum Airport|Bodrum]], [[El Dorado International Airport|Bogotá]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Logan International Airport|Boston]], [[Bremen Airport|Bremen]], [[Brussels Airport|Brussels]], [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Bukhara International Airport|Bukhara]], [[Cairo International Airport|Cairo]], [[Çanakkale Airport|Çanakkale]], [[Cancún International Airport|Cancún]], [[Cape Town International Airport|Cape Town]], [[Simón Bolívar International Airport (Venezuela)|Caracas]], [[Mohammed V International Airport|Casablanca]], [[Catania–Fontanarossa Airport|Catania]], [[Chengdu Tianfu International Airport|Chengdu-Tianfu]] (begins 11 November 2026), [[O'Hare International Airport|Chicago–O'Hare]], [[Chișinău International Airport|Chișinău]], [[Cluj International Airport|Cluj-Napoca]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Conakry International Airport|Conakry]], [[Mihail Kogălniceanu International Airport|Constanța]], [[Mohamed Boudiaf International Airport|Constantine]],, [[Copenhagen Airport|Copenhagen]], [[Cadjehoun Airport|Cotonou]], [[Blaise Diagne International Airport|Dakar–Diass]], [[Dalaman Airport|Dalaman]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Damascus International Airport|Damascus]], [[King Fahd International Airport|Dammam]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Indira Gandhi International Airport|Delhi]], [[Denizli Çardak Airport|Denizli]], [[Ngurah Rai International Airport|Denpasar]] [[Denver International Airport|Denver]], [[Detroit Metropolitan Wayne County Airport|Detroit]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Diyarbakır Airport|Diyarbakır]], [[Djibouti–Ambouli International Airport|Djibouti]], [[Hamad International Airport|Doha]], [[Douala International Airport|Douala]], [[Dubai International Airport|Dubai–International]], [[Dublin Airport|Dublin]], [[King Shaka International Airport|Durban]], [[Dushanbe International Airport|Dushanbe]], [[Düsseldorf Airport|Düsseldorf]], [[Edinburgh Airport|Edinburgh]], [[Balıkesir Koca Seyit Airport|Edremit]], [[Elazığ Airport|Elazığ]], [[Entebbe International Airport|Entebbe]], [[Erbil International Airport|Erbil]], [[Erzincan Airport|Erzincan]], [[Erzurum Airport|Erzurum]], [[Fergana International Airport|Fergana]], [[Frankfurt Airport|Frankfurt]], [[Lungi International Airport|Freetown]], [[Ganja International Airport|Ganja]], [[Oğuzeli Airport|Gaziantep]], [[Gazipaşa Airport|Gazipaşa/Alanya]], [[Geneva Airport|Geneva]], [[Göteborg Landvetter Airport|Gothenburg]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Hakkari–Yüksekova Airport|Hakkari]], [[Hamburg Airport|Hamburg]], [[Hannover Airport|Hannover]], [[Noi Bai International Airport|Hanoi]], [[Hatay Airport|Hatay]], [[Helsinki Airport|Helsinki]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Hurghada International Airport|Hurghada]], [[Iğdır Airport|Iğdır]], [[Isfahan Shahid Beheshti International Airport|Isfahan]] (temporarily suspended), [[Islamabad International Airport|Islamabad]], [[Isparta Süleyman Demirel Airport|Isparta]], [[İzmir Adnan Menderes Airport|İzmir]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[King Abdulaziz International Airport|Jeddah]], [[O. R. Tambo International Airport|Johannesburg–O.&nbsp;R. Tambo]], [[Juba International Airport|Juba]], [[Kabul International Airport|Kabul]], [[Kahramanmaraş Airport|Kahramanmaraş]], [[Jinnah International Airport|Karachi]], [[Kars Harakani Airport|Kars]], [[Kastamonu Airport|Kastamonu]], [[Tribhuvan International Airport|Kathmandu]], [[Erkilet International Airport|Kayseri]], [[Kigali International Airport|Kigali]], [[Kilimanjaro International Airport|Kilimanjaro]], [[N'djili Airport|Kinshasa–N'djili]], [[Kirkuk Airport|Kirkuk]], [[Konya Airport|Konya]], [[Kraków John Paul II International Airport|Kraków]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuwait International Airport|Kuwait City]], [[Zafer Airport|Kütahya]], [[Murtala Muhammed International Airport|Lagos]], [[Allama Iqbal International Airport|Lahore]], [[Leipzig/Halle Airport|Leipzig/Halle]], [[Léon-Mba International Airport|Libreville]], [[Lisbon Airport|Lisbon]], [[Ljubljana Jože Pučnik Airport|Ljubljana]], [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]], [[London Stansted Airport|London–Stansted]], [[Los Angeles International Airport|Los Angeles]], [[Dr. António Agostinho Neto International Airport|Luanda–Agostinho Neto]], [[Kenneth Kaunda International Airport|Lusaka]], [[Luxembourg Airport|Luxembourg]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Malatya Airport|Malatya]], [[Velana International Airport|Malé]], [[Malta International Airport|Malta]], [[Manchester Airport|Manchester]], [[Ninoy Aquino International Airport|Manila]], [[Maputo International Airport|Maputo]], [[Mardin Airport|Mardin]], [[Marrakesh Menara Airport|Marrakech]], [[Marseille Provence Airport|Marseille]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]] (temporarily suspended), [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Melbourne Airport|Melbourne]], [[Amasya Merzifon Airport|Merzifon]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Miami International Airport|Miami]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Minsk National Airport|Minsk]] (resumes {{date|2026-9-20}}), [[Misrata Airport|Misrata]], [[Aden Adde International Airport|Mogadishu]], [[Moi International Airport|Mombasa]], [[Roberts International Airport|Monrovia]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Moscow Vnukovo Airport|Moscow–Vnukovo]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Munich Airport|Munich]], [[Muş Airport|Muş]], [[Muscat International Airport|Muscat]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Al Najaf International Airport|Najaf]], [[Nakhchivan International Airport|Nakhchivan]], [[Naples International Airport|Naples]], [[N'Djamena International Airport|N'Djamena]], [[Nevşehir Kapadokya Airport|Nevşehir]], [[John F. Kennedy International Airport|New York–JFK]], [[Newark Liberty International Airport|Newark]], [[Diori Hamani International Airport|Niamey]], [[Nice Côte d'Azur Airport|Nice]], [[Ercan International Airport|Nicosia–Ercan]], [[Nouakchott–Oumtounsy International Airport|Nouakchott]], [[Nuremberg Airport|Nuremberg]], [[Ahmed Ben Bella Airport|Oran]], [[Ordu-Giresun Airport|Ordu/Giresun]], [[Kansai International Airport|Osaka–Kansai]], [[Oslo Airport, Gardermoen|Oslo]], [[Ouagadougou Airport|Ouagadougou]], [[Falcone Borsellino Airport|Palermo]], [[Tocumen International Airport|Panama City–Tocumen]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Techo International Airport (Cambodia)|Phnom Penh]], [[Phuket International Airport|Phuket]], [[Podgorica Airport|Podgorica]], [[Agostinho-Neto International Airport|Pointe-Noire]], [[Porto Airport|Porto]], [[Port Sudan New International Airport|Port Sudan]], [[Václav Havel Airport Prague|Prague]], [[Pristina International Airport Adem Jashari|Pristina]], [[Riga International Airport|Riga]], [[King Khalid International Airport|Riyadh]], [[Rize-Artvin Airport|Rize/Artvin]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Pulkovo Airport|Saint Petersburg]], [[Salzburg Airport|Salzburg]], [[Samarkand International Airport|Samarqand]], [[Samsun-Çarşamba Airport|Samsun]], [[San Francisco International Airport|San Francisco]], [[Şanlıurfa GAP Airport|Şanlıurfa]], [[Arturo Merino Benítez International Airport|Santiago de Chile]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Sarajevo International Airport|Sarajevo]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Incheon International Airport|Seoul–Incheon]], [[Seville Airport|Seville]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Sharjah International Airport|Sharjah]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]], [[Shiraz Shahid Dastgheib International Airport|Shiraz]], [[Singapore Changi Airport|Singapore]], [[Sinop Airport|Sinop]], [[Şırnak Airport|Şırnak]], [[Sivas Airport|Sivas]], [[Skopje International Airport|Skopje]], [[Sofia Airport|Sofia]], [[Stockholm–Arlanda Airport|Stockholm–Arlanda]], [[Strasbourg Airport|Strasbourg]], [[Stuttgart Airport|Stuttgart]], [[Sulaimaniyah International Airport|Sulaimaniyah]], [[Sydney Airport|Sydney]], [[Ta'if Regional Airport|Ta'if]], [[Tabriz Shahid Madani International Airport|Tabriz]] (temporarily suspended), [[Taiwan Taoyuan International Airport|Taipei–Taoyuan]], [[Tallinn Airport|Tallinn]], [[Tashkent International Airport|Tashkent]], [[Tbilisi International Airport|Tbilisi]], [[Imam Khomeini International Airport|Tehran–Imam Khomeini]] (temporarily suspended), [[Thessaloniki Airport|Thessaloniki]], [[Timișoara Traian Vuia International Airport|Timișoara]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Tokat Airport|Tokat]], [[Haneda Airport|Tokyo–Haneda]], [[Narita International Airport|Tokyo–Narita]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Toulouse–Blagnac Airport|Toulouse]], [[Trabzon Airport|Trabzon]], [[Mitiga International Airport|Tripoli–Mitiga]], [[Tunis-Carthage International Airport|Tunis]], [[Turin Airport|Turin]], [[Turkistan Airport|Türkıstan]], [[Chinggis Khaan International Airport|Ulaanbaatar]], [[Urgench International Airport|Urgench]], [[Valencia Airport|Valencia]], [[Van Airport|Van]], [[Vancouver International Airport|Vancouver]], [[Varna Airport|Varna]], [[Venice Marco Polo Airport|Venice]], [[Vienna International Airport|Vienna]], [[Vilnius Airport|Vilnius]], [[Warsaw Chopin Airport|Warsaw–Chopin]], [[Dulles International Airport|Washington–Dulles]], [[Yanbu Airport|Yanbu]], [[Yaoundé Nsimalen International Airport|Yaoundé]], [[Zvartnots International Airport|Yerevan]], [[Zagreb Airport|Zagreb]], [[Abeid Amani Karume International Airport|Zanzibar]], [[Zonguldak Airport|Zonguldak]], [[Zurich Airport|Zürich]] <br /> '''Seasonal:''' [[Dubrovnik Airport|Dubrovnik]], [[Seychelles International Airport|Mahé]], [[Prince Said Ibrahim International Airport|Moroni]], [[Ohrid Airport|Ohrid]], [[Rovaniemi Airport|Rovaniemi]], [[Tivat Airport|Tivat]]
+<!-- -->
+| [[Turkmenistan Airlines]] | [[Ashgabat International Airport|Ashgabat]]
+<!-- -->
+| [[Ural Airlines]] | [[Moscow Domodedovo Airport|Moscow–Domodedovo]], [[Adler-Sochi International Airport|Sochi]], [[Koltsovo International Airport|Yekaterinburg]]
+<!-- -->
+| [[Utair]] | [[Kadyrov Grozny International Airport|Grozny]] [[Roshchino International Airport|Tyumen]] <br /> '''Seasonal:''' [[Mustai Karim Ufa International Airport|Ufa]]
+<!-- -->
+| [[Uzbekistan Airways]] | [[Andizhan Airport|Andizhan]]
+<!-- -->
+| [[Varesh Airlines]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Vueling]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+| [[Wizz Air]] | [[Budapest Ferenc Liszt International Airport|Budapest]], [[Debrecen Airport|Debrecen]], [[Iași International Airport|Iași]], [[London Gatwick Airport|London–Gatwick]] (ends 24 October 2026), [[Luton Airport|London–Luton]]
+<!-- -->
+}}
+
+[[File:Istanbul Airport Destination Map.png|thumb|center|500 px|Destinations from Istanbul Airport as of February 2026.]]

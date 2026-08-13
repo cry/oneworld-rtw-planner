@@ -1,0 +1,18 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[All Nippon Airways]] | [[Hakodate Airport|Hakodate]], [[Kagoshima Airport|Kagoshima]], [[Kumamoto Airport|Kumamoto]], [[Miyazaki Airport|Miyazaki]], [[Naha Airport|Naha]], [[Niigata Airport|Niigata]], [[New Chitose Airport|Sapporo–Chitose]], [[Sendai Airport|Sendai]], [[Haneda Airport|Tokyo–Haneda]], [[Narita International Airport|Tokyo-Narita]]
+<!-- -->
+| [[Amakusa Airlines]] | [[Kumamoto Airport|Kumamoto]]
+<!-- -->
+| [[ANA Wings]] | [[Akita Airport|Akita]], [[Aomori Airport|Aomori]], [[Fukuoka Airport|Fukuoka]], [[Fukushima Airport|Fukushima]], [[Kagoshima Airport|Kagoshima]], [[Kōchi Airport|Kōchi]], [[Kumamoto Airport|Kumamoto]], [[Matsuyama Airport|Matsuyama]], [[Nagasaki Airport|Nagasaki]], [[Niigata Airport|Niigata]], [[Oita Airport|Ōita]], [[New Chitose Airport|Sapporo–Chitose]], [[Sendai Airport|Sendai]], [[Tokyo–Haneda]]
+<!-- -->
+| [[Ibex Airlines]] | [[Fukushima Airport|Fukushima]], [[Niigata Airport|Niigata]], [[Sendai Airport|Sendai]]
+<!-- -->
+| [[J-Air]] | [[Akita Airport|Akita]], [[Aomori Airport|Aomori]], [[Fukuoka Airport|Fukuoka]], [[Hakodate Airport|Hakodate]], [[Hanamaki Airport|Hanamaki]], [[Izumo Airport|Izumo]], [[Kagoshima Airport|Kagoshima]], [[Kumamoto Airport|Kumamoto]], [[Matsuyama Airport|Matsuyama]], [[Misawa Airport|Misawa]], [[Miyazaki Airport|Miyazaki]], [[Nagasaki Airport|Nagasaki]], [[Niigata Airport|Niigata]], [[Oita Airport|Ōita]], [[Oki Airport|Oki]], [[New Chitose Airport|Sapporo–Chitose]], [[Sendai Airport|Sendai]], [[Yamagata Airport|Yamagata]] <br />'''Seasonal:''' [[Matsumoto Airport|Matsumoto]]
+<!-- -->
+|{{nowrap| [[Japan Air Commuter]]}} | [[Tajima Airport|Tajima]],  [[New Tanegashima Airport|Tanegashima]], [[Yakushima Airport|Yakushima]]
+<!-- -->
+| [[Japan Airlines]] | [[Amami Airport|Amami Ōshima]], [[Naha Airport|Naha]], [[New Chitose Airport|Sapporo–Chitose]], [[Haneda Airport|Tokyo–Haneda]], [[Narita International Airport|Tokyo-Narita]]
+}}

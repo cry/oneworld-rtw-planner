@@ -1,0 +1,13 @@
+==Airlines and destinations==
+[[File:Sandakan airport apron.jpg|thumb|Sandakan Airport apron view]]
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[AirAsia]] | [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[AirBorneo]] | [[Lahad Datu Airport|Lahad Datu]], [[Tawau Airport|Tawau]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+}}

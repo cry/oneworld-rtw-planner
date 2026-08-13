@@ -1,0 +1,4 @@
+==Airlines and destinations==
+{{airport-dest-list
+| [[Alliance Airlines]] | '''Charter:''' [[Perth Airport|Perth]]{{cn|date=May 2025}}
+}}

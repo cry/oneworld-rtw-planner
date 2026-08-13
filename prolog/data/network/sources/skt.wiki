@@ -1,0 +1,25 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[Air Arabia]]| [[Zayed International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[AirSial]]| [[King Fahd International Airport|Dammam]], [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]],  [[Jinnah International Airport|Karachi]], [[Muscat International Airport|Muscat]]
+<!-- -->
+|[[Emirates (airline)|Emirates]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Flyadeal]]| [[King Khalid International Airport|Riyadh]]
+<!-- -->
+|[[Flydubai]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Fly Jinnah]]| [[Jinnah International Airport|Karachi]] 
+<!-- -->
+|[[Jazeera Airways ]]| [[Kuwait International Airport|Kuwait]] 
+<!-- -->
+|{{nowrap|[[Pakistan International Airlines]]}}| [[Abu Dhabi International Airport|Abu Dhabi]], [[Bahrain International Airport|Bahrain]], [[King Fahd International Airport|Dammam]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[Kuwait International Airport|Kuwait City]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[King Khalid International Airport|Riyadh]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]
+<!-- -->
+|[[SalamAir]]| [[Muscat International Airport|Muscat]]
+<!-- -->
+}}

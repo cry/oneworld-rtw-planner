@@ -1,0 +1,71 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+The following airlines operate regular scheduled and charter flights at the airport.
+
+{{Airport-dest-list
+<!-- -->
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Air Europa]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Air Panama]] | '''Charter:''' [[Albrook Airport|Panama City–Albrook]]
+<!-- -->
+| [[Air Transat]] | [[Toronto Pearson International Airport|Toronto–Pearson]]<br />'''Seasonal:''' [[Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Arajet]] | [[Punta Cana International Airport|Punta Cana]], [[Las Américas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+| [[Avianca]] | [[El Edén International Airport|Armenia]], [[Ernesto Cortissoz International Airport|Barranquilla]], [[El Dorado International Airport|Bogotá]], [[Palonegro International Airport|Bucaramanga]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Rafael Núñez International Airport|Cartagena]], [[Camilo Daza International Airport|Cúcuta]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Mexico City International Airport|Mexico City]], [[Miami International Airport|Miami]], [[Los Garzones Airport|Montería]], [[John F. Kennedy International Airport|New York–JFK]], [[Antonio Nariño Airport|Pasto]], [[Matecaña International Airport|Pereira]], [[Punta Cana International Airport|Punta Cana]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]], [[Luis Muñoz Marín International Airport|San Juan]], [[Simón Bolívar International Airport (Colombia)|Santa Marta]]<br />'''Seasonal:''' [[Orlando International Airport|Orlando]]{{citation needed|date=February 2025}}
+<!-- -->
+| {{nowrap|[[Avianca Costa Rica]]}} | [[Juan Santamaría International Airport|San José (CR)]]
+<!-- -->
+| {{nowrap|[[Avianca El Salvador]]}} | [[El Salvador International Airport|San Salvador]] 
+<!-- -->
+| [[Avianca Ecuador]] | [[José Joaquín de Olmedo International Airport|Guayaquil]], [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+| [[Avior Airlines]] | [[General José Antonio Anzoátegui International Airport|Barcelona (VE)]], [[Simón Bolívar International Airport (Venezuela)|Caracas]]
+<!-- -->
+| {{nowrap|[[Copa Airlines]]}} | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| {{nowrap|[[Copa Airlines Colombia]]}} | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[JetBlue]] | [[Fort Lauderdale-Hollywood International Airport|Fort Lauderdale]], [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| [[JetSmart|JetSmart Chile]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[JetSmart|JetSmart Colombia]] | [[Ernesto Cortissoz International Airport|Barranquilla]], [[El Dorado International Airport|Bogotá]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Rafael Núñez International Airport|Cartagena]], [[Camilo Daza International Airport|Cúcuta]], [[Los Garzones Airport|Montería]], [[Matecaña International Airport|Pereira]], [[Punta Cana International Airport|Punta Cana]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]], [[Simón Bolívar International Airport (Colombia)|Santa Marta]]
+<!-- -->
+| [[JetSmart Perú]] | [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+| [[LATAM Colombia]] | [[Ernesto Cortissoz International Airport|Barranquilla]], [[El Dorado International Airport|Bogotá]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Los Garzones Airport|Montería]], [[Matecaña International Airport|Pereira]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]]
+<!-- -->
+| [[LATAM Perú]] | [[Jorge Chávez International Airport|Lima]] 
+<!-- -->
+| [[Turpial Airlines]] | [[Arturo Michelena International Airport|Valencia (VE)]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+|[[Viva (airline)|Viva]] | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+|[[Volaris]] | [[Guadalajara International Airport|Guadalajara]] (begins December 2, 2026)
+<!-- -->
+| [[WestJet]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Wingo (Airline)|Wingo]] | [[Queen Beatrix International Airport|Aruba]], [[Ernesto Cortissoz International Airport|Barranquilla]], [[El Dorado International Airport|Bogotá]], [[Palonegro International Airport|Bucaramanga]], [[Cancún International Airport|Cancún]], [[Simón Bolívar International Airport (Venezuela)|Caracas]], [[Rafael Núñez International Airport|Cartagena]], [[Hato International Airport|Curaçao]], [[La Aurora International Airport|Guatemala City]], [[Sangster International Airport|Montego Bay]], [[Panamá Pacífico International Airport|Panama City–Balboa]], [[Punta Cana International Airport|Punta Cana]], [[Juan Santamaría International Airport|San José (CR)]], [[Simón Bolívar International Airport (Colombia)|Santa Marta]], [[Las Americas International Airport|Santo Domingo–Las Americas]]<br />'''Seasonal:''' [[Santiago Mariño Caribbean International Airport|Porlamar]] 
+<!-- -->
+| [[Z Air]] | [[Flamingo International Airport|Bonaire]], [[Curaçao International Airport|Curaçao]]}}
+
+===Cargo===
+{{Airport-dest-list
+| [[Aero Union]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Amerijet International]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Avianca Cargo]] | [[Jorge Chávez International Airport|Lima]], [[Miami International Airport|Miami]], [[Mariscal Sucre International Airport|Quito]], [[Juan Santamaría International Airport|San José (CR)]]
+<!-- -->
+| [[FedEx Express]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[LATAM Cargo Brasil]] | [[Miami International Airport|Miami]]
+}}

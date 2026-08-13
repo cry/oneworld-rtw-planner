@@ -1,0 +1,16 @@
+== Airlines and destinations ==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air New Zealand]] | [[Auckland Airport|Auckland]]
+<!-- -->
+| [[Fiji Airways]] | [[Daniel K. Inouye International Airport|Honolulu]], [[Nadi International Airport|Nadi]]
+<!-- -->
+| [[Qantas]] | [[Auckland Airport|Auckland]], [[Brisbane Airport|Brisbane]], [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Samoa Airways]] | [[Pago Pago International Airport|Pago Pago]], [[Maota Airport|Savai'i]]
+<!-- -->
+| [[Talofa Airways]] | [[Pago Pago International Airport|Pago Pago]]
+<!-- -->
+| [[Virgin Australia]] | [[Brisbane Airport|Brisbane]] (ends 25 August 2026)
+}}

@@ -1,0 +1,62 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines operate regular scheduled and charter flights to and from Muscat:
+
+{{Airport-dest-list
+<!-- -->
+| [[Air Arabia]] | [[Zayed International Airport|Abu Dhabi]], [[Cairo International Airport|Cairo]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air India Express]] | [[Indira Gandhi International Airport|Delhi]], [[Kannur International Airport|Kannur]], [[Cochin International Airport|Kochi]], [[Kozhikode International Airport|Kozhikode]], [[Mangalore International Airport|Mangaluru]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Tiruchirappalli International Airport|Thiruchirapalli]], [[Thiruvananthapuram International Airport|Thiruvananthapuram]]
+<!-- -->
+| [[Air Tanzania]] | [[Julius Nyerere International Airport|Dar es Salaam]], [[Abeid Amani Karume International Airport|Zanzibar]]
+<!-- -->
+| {{nowrap|[[Biman Bangladesh Airlines]]}} | [[Hazrat Shahjalal International Airport|Dhaka]]
+<!-- -->
+| {{nowrap|[[China Eastern Airlines]]}} | [[Beijing Daxing International Airport|Beijing–Daxing]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+| [[Fly Cham]] | [[Damascus International Airport|Damascus]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[IndiGo]] | [[Rajiv Gandhi International Airport|Hyderabad]], [[Cochin International Airport|Kochi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]]
+<!-- -->
+| [[Iraqi Airways]] | [[Baghdad International Airport|Baghdad]], [[Al Najaf International Airport|Najaf]]
+<!-- -->
+| [[Kish Air]] | [[Chabahar Konarak Airport|Chabahar/Konarak]]
+<!-- -->
+| [[Oman Air]] | [[Zayed International Airport|Abu Dhabi]], [[Queen Alia International Airport|Amman]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Baghdad International Airport|Baghdad]], [[Bahrain International Airport|Bahrain]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Kempegowda International Airport|Bengaluru]], [[Cairo International Airport|Cairo]], [[Chennai International Airport|Chennai]], [[Copenhagen Airport|Copenhagen]],{{efn|group=a|The plane carries out a technical stop in [[Baghdad International Airport|Baghdad]].}} [[King Fahd International Airport|Dammam]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Indira Gandhi International Airport|Delhi]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Frankfurt Airport|Frankfurt]], [[Manohar International Airport|Goa–Mopa]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Istanbul Airport|Istanbul]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[King Abdulaziz International Airport|Jeddah]], [[Jinnah International Airport|Karachi]], [[Khasab Airport|Khasab]], [[Cochin International Airport|Kochi]], [[Kozhikode International Airport|Kozhikode]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuwait International Airport|Kuwait City]], [[Heathrow Airport|London–Heathrow]], [[Chaudhary Charan Singh International Airport|Lucknow]], [[Ninoy Aquino International Airport|Manila]], [[Prince Mohammad Bin Abdulaziz International Airport|Medina]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Munich International Airport|Munich]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Phuket International Airport|Phuket]], [[King Khalid International Airport|Riyadh]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Salalah International Airport|Salalah]], [[Changi Airport|Singapore]], [[Sochi International Airport|Sochi]], [[Taif International Airport|Taif]], [[Tashkent International Airport|Tashkent]], [[Trivandrum International Airport|Thiruvananthapuram]], [[Julius Nyerere International Airport|Zanzibar]], [[Zurich Airport|Zurich]] <br />'''Seasonal:''' [[Velana International Airport|Malé]], [[Trabzon Airport|Trabzon]]
+<!-- -->
+| {{nowrap|[[Pakistan International Airlines]]}} | [[Islamabad International Airport|Islamabad]], [[Jinnah International Airport|Karachi]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]] | [[ Hamad International Airport|Doha]]
+<!-- -->
+| [[Qeshm Air]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Red Wings Airlines]] | '''Seasonal charter:''' [[Adler-Sochi International Airport|Sochi]]
+<!-- -->
+| [[SalamAir]] | [[Abha International Airport|Abha]], [[Baghdad International Airport|Baghdad]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Kempegowda International Airport|Bengaluru]], [[Beirut-Rafic Hariri International Airport|Beirut]], [[Chennai International Airport|Chennai]], [[Shah Amanat International Airport|Chittagong]], [[Bandaranaike International Airport|Colombo]], [[Damascus International Airport|Damascus]], [[King Fahd International Airport|Dammam]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Hamad International Airport|Doha]], [[Duqm Airport|Duqm]], [[Sphinx International Airport|Giza]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Islamabad International Airport|Islamabad]], [[Jaipur International Airport|Jaipur]], [[Kigali International Airport|Kigali]], [[King Abdulaziz International Airport|Jeddah]], [[Jinnah International Airport|Karachi]], [[Calicut International Airport|Kozhikode]], [[Kuwait International Airport|Kuwait City]], [[Allama Iqbal International Airport|Lahore]], [[Chaudhary Charan Singh Airport|Lucknow]], [[Aden Adde International Airport|Mogadishu]] (begins 3 September 2026), [[RAFO Masirah|Masirah Island]], [[Prince Mohammad Bin Abdulaziz International Airport|Medina]], [[Kualanamu International Airport|Medan]], [[Multan International Airport|Multan]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Jomo Kenyatta International Airport|Nairobi]], [[Bacha Khan International Airport|Peshawar]], [[Port Sudan New International Airport|Port Sudan]], [[King Khalid International Airport|Riyadh]], [[Salalah International Airport|Salalah]], [[Sharjah International Airport|Sharjah]], [[Shiraz Shahid Dastgheib International Airport|Shiraz]], [[Imam Khomeini International Airport|Tehran–Imam Khomeini]], [[Vienna International Airport|Vienna]] <br /> '''Seasonal:''' [[Almaty International Airport|Almaty]], [[Phuket International Airport|Phuket]], [[Václav Havel Airport Prague|Prague]], [[Sarajevo International Airport|Sarajevo]], [[Trabzon Airport|Trabzon]]
+<!-- -->
+| [[Sepehran Airlines]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Taban Air]] | [[Shiraz Shahid Dastgheib International Airport|Shiraz]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul International Airport|Istanbul]]
+<!-- -->
+| [[US-Bangla Airlines]] | [[Shah Amanat International Airport|Chittagong]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Osmani International Airport|Sylhet]]
+<!-- -->
+| [[Varesh Airlines]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+}}
+[[File:Muscat Airport destinations map.png|thumb|Red shows regular passenger destinations; blue shows seasonal destinations; green shows future destinations; black indicates Oman, where the airport is located]]

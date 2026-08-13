@@ -1,0 +1,20 @@
+== Airlines and destinations ==
+{{Airport-dest-list
+| [[Air Do]] | [[New Chitose Airport|Sapporo–Chitose]]
+| [[All Nippon Airways]] | [[Naha Airport|Naha]], [[Osaka International Airport|Osaka–Itami]]
+| [[All Nippon Airways|ANA Wings]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Itami Airport|Osaka–Itami]], [[New Chitose Airport|Sapporo–Chitose]]
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+| [[Fuji Dream Airlines]] | [[Fukuoka Airport|Fukuoka]]
+| [[Greater Bay Airlines]] | '''Seasonal''' : [[Hong Kong International Airport|Hong Kong]]
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+| [[Ibex Airlines]] | [[Fukuoka Airport|Fukuoka]], [[Hiroshima Airport|Hiroshima]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Itami Airport|Osaka–Itami]], [[New Chitose Airport|Sapporo–Chitose]]
+| [[J-Air]] | [[Itami Airport|Osaka–Itami]], [[New Chitose Airport|Sapporo–Chitose]]
+| [[Peach Aviation|Peach]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Kansai International Airport|Osaka–Kansai]], [[New Chitose Airport|Sapporo–Chitose]]
+| [[Skymark Airlines]] | [[Kobe Airport|Kobe]]
+| [[StarFlyer]] | [[Fukuoka Airport|Fukuoka]]
+| [[Starlux Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+| [[Thai AirAsia X]] | '''Seasonal''' : [[Don Mueang International Airport|Bangkok–Don Mueang]]
+| [[Tigerair Taiwan]] | [[Kaohsiung International Airport|Kaohsiung]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+}}

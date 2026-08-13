@@ -1,0 +1,11 @@
+== Airlines and destinations ==
+[[Image:Airlines of Tasmania, operated by Par-Avion (VH-WZM) Cessna 404 Titan at Griffith Airport.jpg|thumb|A Par-Avion [[Cessna 404 Titan]] at Griffith Airport]]
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{airport-dest-list
+<!-- -->
+| [[QantasLink]] | [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Rex Airlines]] |[[Narrandera Airport|Narrandera]], [[Sydney Airport|Sydney]]
+}}
+
+[[Sharp Airlines]] formerly ran services to [[Melbourne]], which ceased in March 2022. The route was also previously operated by Rex Airlines, which ceased in July 2012.

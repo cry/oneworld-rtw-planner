@@ -1,0 +1,91 @@
+==Airlines and destinations==
+===Passenger===
+{{More citations needed section|date=December 2025}}
+Auckland connects to 23 domestic and 41 international destinations in North and South America, Asia, Oceania and the Middle East. Air New Zealand operates the most departures from the airport, followed by Jetstar and Qantas. On 17 September 2022, Auckland Airport marked a milestone in ultra-long-haul travel with the launch of services to New York's John F. Kennedy Airport (about 16 hours eastbound), the world's fifth-longest scheduled route, operated by Air New Zealand and Qantas.
+
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Vancouver International Airport|Vancouver]]
+<!-- -->
+| [[Air Chathams]] | [[Chatham Islands / Tuuta Airport|Chatham Islands]], [[Whakatāne Airport|Whākatane]], [[Whanganui Airport|Whanganui]]
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]
+<!-- -->
+| [[Air New Zealand]] | [[Adelaide Airport|Adelaide]],  [[Faleolo International Airport|Apia–Faleolo]],  [[Woodbourne Airport|Blenheim]],  [[Brisbane Airport|Brisbane]],  [[Christchurch Airport|Christchurch]],  [[Ngurah Rai International Airport|Denpasar]], [[Dunedin Airport|Dunedin]],  [[Gisborne Airport|Gisborne]],  [[Gold Coast Airport|Gold Coast]],  [[Hong Kong International Airport|Hong Kong]],  [[Daniel K. Inouye International Airport|Honolulu]],  [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Invercargill Airport|Invercargill]], [[Kerikeri Airport|Kerikeri]],  [[Los Angeles International Airport|Los Angeles]],  [[Melbourne Airport|Melbourne]],  [[Nadi International Airport|Nadi]],  [[Hawke's Bay Airport|Napier]],  [[Nelson Airport (New Zealand)|Nelson]],  [[New Plymouth Airport|New Plymouth]],  [[John F. Kennedy International Airport|New York–JFK]], [[Niue International Airport|Niue]],  [[La Tontouta International Airport|Nouméa]], [[Fuaʻamotu International Airport|Nuku'alofa]],  [[Palmerston North Airport|Palmerston North]],  [[Faaʼa International Airport|Papeete]],  [[Perth Airport|Perth]],  [[Queenstown Airport|Queenstown]],  [[Rarotonga International Airport|Rarotonga]],  [[Rotorua Airport|Rotorua]],  [[San Francisco International Airport|San Francisco]],  [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Changi Airport|Singapore]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Western Sydney Airport|Sydney–Western]] (begins 26 October 2026), [[Taoyuan International Airport|Taipei–Taoyuan]], [[Taupō Airport|Taupō]],  [[Tauranga Airport|Tauranga]],  [[Narita International Airport|Tokyo–Narita]], [[Vancouver International Airport|Vancouver]], [[Wellington Airport|Wellington]], [[Whangarei Airport|Whangārei]]  <br />'''Seasonal:''' [[Cairns Airport|Cairns]],  [[Hobart Airport|Hobart]],  [[Sunshine Coast Airport|Sunshine Coast]]
+<!-- -->
+| [[Air Niugini]] | [[Jacksons International Airport|Port Moresby]] (resumes 17 November 2026) 
+<!-- -->
+| [[Air Tahiti Nui]] | [[Los Angeles International Airport|Los Angeles]], [[Faaʼa International Airport|Papeete]]<!--Air Tahiti Nui flight 101/102 is a direct service between Auckland and Los Angeles with a stop in Papeete. The same plane and flight number are used for the complete duration of the flight in both directions. -->
+<!-- -->
+| [[Aircalin]] | [[La Tontouta International Airport|Nouméa]]
+<!-- -->
+| [[American Airlines]] | '''Seasonal:''' [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[Barrier Air]] | [[Great Barrier Aerodrome|Claris]], [[Kaitaia Airport|Kaitaia]], [[Kerikeri Airport|Kerikeri]], [[Whitianga Aerodrome|Whitianga]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[China Airlines]] | [[Brisbane Airport|Brisbane]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Ezeiza International Airport|Buenos Aires–Ezeiza]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]<br />'''Seasonal:''' [[Hangzhou Xiaoshan International Airport|Hangzhou]],  [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Delta Air Lines]] | '''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]]
+<!-- -->
+| [[Hainan Airlines]] | [[Chongqing Jiangbei International Airport|Chongqing]], [[Haikou Meilan International Airport|Haikou]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Jetstar]] | [[Brisbane Airport|Brisbane]], [[Christchurch Airport|Christchurch]],  [[Dunedin Airport|Dunedin]],  [[Gold Coast Airport|Gold Coast]],  [[Melbourne Airport|Melbourne]],  [[Queenstown Airport|Queenstown]],  [[Rarotonga International Airport|Rarotonga]],  [[Sunshine Coast Airport|Sunshine Coast]] (ends 24 October 2026), [[Sydney Airport|Sydney–Kingsford Smith]], [[Wellington Airport|Wellington]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[LATAM Chile]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Qantas]] | [[Faleolo International Airport|Apia–Faleolo]], [[Brisbane Airport|Brisbane]], [[Gold Coast Airport|Gold Coast]], [[Melbourne Airport|Melbourne]], [[John F. Kennedy International Airport|New York–JFK]], [[Perth Airport|Perth]],  [[Sydney Airport|Sydney–Kingsford Smith]] <br />'''Seasonal:''' [[Adelaide Airport|Adelaide]]
+<!-- -->
+| [[Qatar Airways]] | [[Adelaide Airport|Adelaide]] (ends 9 December 2026), [[Brisbane Airport|Brisbane]] (begins 26 June 2027), [[Hamad International Airport|Doha]], [[Melbourne Airport|Melbourne]] (begins 10 December 2026; ends 25 June 2027)
+<!-- -->
+| [[Sichuan Airlines]] | [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Solomon Airlines]] | [[Brisbane Airport|Brisbane]], [[Honiara International Airport|Honiara]], [[Bauerfield International Airport|Port Vila]]
+<!-- -->
+| [[United Airlines]] | [[San Francisco International Airport|San Francisco]]
+<!-- -->
+}}
+
+[[File:Auckland Airport passenger destinations.png|thumb|center|500px|Auckland Airport passenger destinations]]
+
+===Cargo===
+{{More citations needed section|date=December 2025}}
+{{Airport-dest-list
+<!-- -->
+| [[ASL Airlines Australia]] | [[Christchurch Airport|Christchurch]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Atlas Air]] | [[Daniel K. Inouye International Airport|Honolulu]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[China Southern Airlines|China Southern Cargo]] | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Emirates SkyCargo]] | [[Noi Bai International Airport|Hanoi]], [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[FedEx Express]] | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Daniel K. Inouye International Airport|Honolulu]], [[Los Angeles International Airport|Los Angeles]], [[Oakland San Francisco Bay Airport|Oakland]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Parcelair]] | [[Christchurch Airport|Christchurch]], [[Palmerston North Airport|Palmerston North]]
+<!-- -->
+| [[Qantas Freight]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Christchurch Airport|Christchurch]], [[Daniel K. Inouye International Airport|Honolulu]], [[Los Angeles International Airport|Los Angeles]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| {{nowrap|[[Singapore Airlines Cargo]]}} | [[Melbourne Airport|Melbourne]], [[Changi Airport|Singapore]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Tasman Cargo Airlines]] | [[Christchurch Airport|Christchurch]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Texel Air Australasia]] | [[Christchurch Airport|Christchurch]], [[Palmerston North Airport|Palmerston North]]
+<!-- -->
+}}

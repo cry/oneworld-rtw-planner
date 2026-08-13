@@ -1,0 +1,16 @@
+==Airline and destination==
+Scheduled passenger service:
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]]
+}}
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destination from Waterloo Regional Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | green | Green}} = Seasonal destination <br /> {{font color | blue | Blue}} = Future destination
+|places=
+{{Location map~ |United_States |lat=42.5552|long=-92.3980|position=left|label='''<small>Waterloo</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=41.974186|long=-87.907783|position=left|label='''<small>[[O'Hare International Airport|Chicago–O'Hare]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}

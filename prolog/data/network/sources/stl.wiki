@@ -1,0 +1,123 @@
+== Airlines and destinations ==
+=== Passenger ===
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Air Canada]]}} | [[Toronto–Pearson]] <br/> [[Montréal–Trudeau]] 
+<!-- -->
+| {{nowrap|[[Air Canada Express]]}} | [[Toronto–Pearson]] <br/> '''Seasonal:''' [[Montréal–Trudeau]] 
+<!-- -->
+| [[Alaska Airlines]] | [[Seattle/Tacoma]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]] <br/> '''Seasonal:''' [[Portland International Airport|Portland (OR)]] 
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] <br/> '''Seasonal:''' [[Cancún International Airport|Cancún]],  [[Washington–National]] 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Logan International Airport|Boston]], [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[New York–LaGuardia]],  [[Philadelphia International Airport|Philadelphia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Washington–National]] <br /> [[Miami International Airport|Miami]]
+<!-- -->
+|[[British Airways]] |'''Seasonal:''' [[London–Heathrow]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]],  [[Detroit Metropolitan Airport|Detroit]],  [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+| [[Delta Connection]] | [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[New York–LaGuardia]]  <br />'''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]]
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Cancún International Airport|Cancún]], [[Denver International Airport|Denver]],  [[Harry Reid International Airport|Las Vegas]],  [[Orlando International Airport|Orlando]],  [[Tampa International Airport|Tampa]] <br/> '''Seasonal:''' [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Punta Cana International Airport|Punta Cana]] 
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| {{nowrap|[[Southern Airways Express]]}} | [[Jonesboro Municipal Airport|Jonesboro]]
+<!-- -->
+| [[Southwest Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]],  [[Austin–Bergstrom International Airport|Austin]], [[Baltimore/Washington International Airport|Baltimore]], [[Logan International Airport|Boston]], [[Cancún International Airport|Cancún]], [[Chicago–Midway]], [[Cleveland Hopkins International Airport|Cleveland]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Detroit Metropolitan Airport|Detroit]],  [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Southwest Florida International Airport|Fort Myers]], [[Houston–Hobby]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Kansas City International Airport|Kansas City]], [[Harry Reid International Airport|Las Vegas]],  [[Los Angeles International Airport|Los Angeles]], [[Miami International Airport|Miami]], [[Milwaukee Mitchell International Airport|Milwaukee]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Nashville International Airport|Nashville]], [[New York–LaGuardia]], [[Eppley Airfield|Omaha]], [[Orlando International Airport|Orlando]], [[Philadelphia International Airport|Philadelphia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Pittsburgh International Airport|Pittsburgh]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Sacramento International Airport|Sacramento]], [[San Antonio International Airport|San Antonio]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[Sarasota–Bradenton International Airport|Sarasota]], [[Tampa International Airport|Tampa]],  [[Washington–National]] <br/> '''Seasonal:''' [[Hollywood Burbank Airport|Burbank]], [[Charleston International Airport|Charleston (SC)]], [[Charlotte Douglas International Airport|Charlotte]], [[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]], [[Sangster International Airport|Montego Bay]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Norfolk International Airport|Norfolk]], [[Pensacola International Airport|Pensacola]], [[Portland International Airport|Portland (OR)]], [[Punta Cana International Airport|Punta Cana]], [[Salt Lake City International Airport|Salt Lake City]], [[Los Cabos International Airport|San José del Cabo]], [[Luis Muñoz Marín International Airport|San Juan]], [[Savannah/Hilton Head International Airport|Savannah]], [[Palm Beach International Airport|West Palm Beach (FL)]] 
+<!-- -->
+| [[Sun Country Airlines]] | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] 
+<!-- -->
+| [[United Airlines]] | [[Chicago–O'Hare]],  [[Denver International Airport|Denver]], <br/> '''Seasonal:''' [[Newark Liberty International Airport|Newark]] 
+<!-- -->
+| [[United Express]] | [[Chicago–O'Hare]]
+<!-- -->
+}}
+
+===Destination maps===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Domestic destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Domestic destinations from STL (excludes Alaska, Hawaii, and U.S. territories). {{font color | red | Red}} dots represent year-round destinations; {{font color | green | green}} dots represent seasonal destinations; {{font color | blue | blue}} dots represent future destinations.
+|places=
+<!-- Any destinations within similar comment brackets is merely hidden. This is so that they no longer show up on the destinations map, but can be easily added again should service to those destinations resume from STL. Simply delete the brackets to show those destinations again. Format reference purposes for future destinations: {{Location map~ |United_States |mark=Blue pog.svg|lat=xx.xxxxxx|long=-xx.xxxxxx|position=xxx|label='''<small>[[Destination Page Name|Destination]]</small>'''|label_size=110 |marksize=7 }} -->
+{{Location map~ |United_States |lat=38.747222|long=-90.361389|position=left|label='''<small>St. Louis</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056|position=right|label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=30.221078|long=-97.659881|position=left|label='''<small>[[Austin-Bergstrom International Airport|Austin]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=35.831667|long=-90.646389|position=left|label='''<small>[[Jonesboro Municipal Airport|Jonesboro]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=41.411667|long=-81.849722|position=right|label='''<small>[[Cleveland Hopkins International Airport|Cleveland]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=39.9999|long=-82.8872|position=left|label='''<small>[[John Glenn Columbus International Airport|Columbus]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944|long=-97.038056|position=left|label='''<small>[[Dallas/Fort Worth International Airport|Dallas/<br />Fort Worth]]</small>'''|label_size=100 |marksize=7}}
+{{Location map~ |United_States |lat=32.847222|long=-96.851667|position=right|label='''<small>[[Dallas Love Field|Dallas–Love]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=47.450165|long=-122.309176|position=left|label='''<small>[[Seattle–Tacoma International Airport|Seattle/<br />Tacoma]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark=Green pog.svg |lat=45.588611|long=-122.5975|position=left|label='''<small>[[Portland International Airport|Portland]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=29.993333|long=-90.258056|position=top|label='''<small>[[Louis Armstrong International Airport|New Orleans]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=26.536111|long=-81.755278|position=left|label='''<small>[[Southwest Florida International Airport|Ft. Myers]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=41.974186|long=-87.907783|position=left|label='''<small>[[Chicago–O'Hare]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg|United States|lat=34.200556|long=-118.358611|position=right|label='''<small>[[Hollywood Burbank Airport|Burbank]]</small>'''|label_size=70 |marksize=10 }}{{Location map~ |United_States |lat=33.941381|long=-118.408619|position=left|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=25.795965|long=-80.287326|position=bottom|label='''<small>[[Miami International Airport|Miami]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=29.526667|long=-98.471944|position=bottom|label='''<small>[[San Antonio International Airport|San Antonio]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=27.983366|long=-82.537348|position=left|label='''<small>[[Tampa International Airport|Tampa]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=28.431206|long=-81.308386|position=right|label='''<small>[[Orlando International Airport|Orlando]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=26.073989|long=-80.150725|position=right|label='''<small>{{nowrap|[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]}}</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=29.990140|long=-95.336792|position=top|label='''<small>[[George Bush Intercontinental Airport|Houston–{{nowrap|Intercontinental}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=29.645556|long=-95.278889|position=bottom|label='''<small>[[Houston–Hobby]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=38.952746|long=-77.457226|position=left|label='''<small>[[Washington–Dulles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=38.851047|long=-77.040320|position=right|label='''<small>[[Washington–National]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=39.177333|long=-76.668650|position=top|label='''<small>[[Baltimore–Washington International Airport|Baltimore]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=42.364644|long=-71.010010|position=right|label='''<small>[[Boston Logan International Airport|Boston]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=40.777037|long=-73.874518|position=right|label='''<small>{{nowrap|[[New York–LaGuardia]]}}</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=40.689333|long=-74.174585|position=left|label='''<small>[[Newark Liberty International Airport|Newark]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=39.873918|long=-75.242466|position=right|label='''<small>[[Philadelphia International Airport|Philadelphia]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=40.495728|long=-80.241558|position=left|label='''<small>[[Pittsburgh International Airport|Pittsburgh]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=32.733611|long=-117.189722|position=left|label='''<small>[[San Diego International Airport|San Diego]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=35.877778|long=-78.7875|position=right|label='''<small>[[Raleigh–Durham International Airport|Raleigh/Durham]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=39.2975|long=-94.713889|position=left|label='''<small>[[Kansas City International Airport|Kansas City]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=42.947222|long=-87.896667|position=top|label='''<small>[[General Mitchell International Airport|Milwaukee]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=42.216112|long=-83.355586|position=left|label='''<small>[[Detroit Metropolitan Airport|Detroit]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=41.786589|long=-87.752356|position=right|label='''<small>[[Chicago–Midway]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=44.884690|long=-93.222430|position=top|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis/<br />St. Paul]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=36.126288|long=-86.677471|position=right|label='''<small>[[Nashville International Airport|Nashville]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=left|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United States |lat=40.6413   |long=-73.7781    |position=top |label_size=80 |marksize=6  |label='''[[New York JFK]]'''}}
+{{Location map~ |United_States |lat=40.789836|long=-111.979632|position=left|label='''<small>[[Salt Lake City International Airport|Salt Lake City]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=33.436921|long=-112.011667|position=top|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–<br />Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=36.083697|long=-115.153873|position=top|label='''<small>[[McCarran International Airport|Las Vegas]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=33.6741|long=-117.8690|position=right|label='''<small>[[Long Beach Airport|Long Beach]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=37.620811|long=-122.380049|position=top|label='''<small>[[San Francisco International Airport|San Francisco]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=35.213889|long=-80.943056|position=right|label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=41.3012|long=-95.8954|position=left|label='''<small>[[Eppley Airfield|Omaha]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark=Green pog.svg|lat=32.898611|long=-80.040556|position=right|label='''<small>[[Charleston International Airport|Charleston]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark=Green pog.svg|lat=30.358333|long=-85.795556|position=right|label='''<small>[[Northwest Florida Beaches International Airport|Panama City]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark=Green pog.svg|lat=30.473333|long=-87.186667|position=top|label='''<small>[[Pensacola International Airport|Pensacola]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark=Green pog.svg|lat=26.683056|long=-80.095556|position=right|label='''<small>{{nowrap|[[Palm Beach International Airport|West Palm Beach]]}}</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=27.3876|long=-82.5534|position=left|label='''<small>[[Sarasota/Bradenton Airport|Sarasota]]</small>'''|label size=100 |marksize=7 }}
+<!--{{Location map~ |United_States |lat=37.362778|long=-121.929167|position=left|label='''<small>[[San Jose International Airport|San Jose]]</small>'''|label_size=100 |marksize=7 }}-->
+{{Location map~ |United_States |lat=38.695556|long=-121.590833|position=top|label='''<small>[[Sacramento International Airport|Sacramento]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=30.494167|long=-81.687778|position=right|label='''<small>[[Jacksonville International Airport|Jacksonville]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark=Green pog.svg|lat=30.39353|long=-86.49578|position=bottom|label='''<small>[[Destin–Fort Walton Beach Airport|Destin/<br />Fort Walton Beach]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |mark=Green pog.svg|lat=32.08354|long=-81.09983|position=right |label='''<small>[[Savannah/Hilton Head International Airport|Savannah]]</small>'''|label_size=100 |marksize=7 }}
+ }}
+|}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! International destinations map
+|-
+|{{Location map+ | Earth |width=1000 |float=center
+|caption=International destinations from STL (includes Alaska, Hawaii, and U.S. territories). {{font color | red | Red}} dots represent year-round destinations; {{font color | green | Green}} dots represent seasonal destinations; {{font color | blue | Blue}} dots represent future destinations.
+|places=
+{{Location map~ | Earth |lat=38.747222|long=-90.361389|position=left|label='''<small>St. Louis</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Earth |lat=43.676667|long=-79.630556|position=top|label='''<small>[[Toronto–Pearson]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | Earth |lat=50.033333|long=8.570556|position=right|label='''<small>[[Frankfurt Airport|Frankfurt]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | Earth |lat=21.036667|long=-86.876944|position=top|label='''<small>[[Cancún International Airport|Cancún]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | Earth |mark=Green pog.svg |lat=18.503611|long=-77.913333|position=bottom|label='''<small>[[Sangster International Airport|Montego Bay]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | Earth |mark=Green pog.svg |lat=20.6565|long=-105.2114|position=top|label='''<small>[[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | Earth |lat=45.470556|long=-73.740833|position=right|label='''<small>[[Montréal–Trudeau International Airport|Montréal]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | Earth |mark=Green pog.svg |lat=18.566667|long=-68.351944|position=top|label='''<small>[[Punta Cana International Airport|Punta Cana]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | Earth |mark=Green pog.svg|lat=23.151667|long=-109.720833|position=left|label='''<small>[[Los Cabos International Airport|San José del Cabo]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | Earth |mark=Green pog.svg|lat=18.46633|long=-66.10572|position=right|label='''<small>[[Luis Muñoz Marín International Airport|San Juan]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | Earth |mark=Green pog.svg|lat=51.4775|long=-0.461389|position=top|label='''<small>[[London-Heathrow]]</small>''' |label_size=100 |marksize=7 }}
+ }}
+|}

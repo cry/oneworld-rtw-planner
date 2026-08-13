@@ -1,0 +1,16 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Alliance Airlines]] | [[Perth Airport|Perth]]
+<!-- -->
+| [[Aviair]] | [[Port Hedland Airport|Port Hedland]]
+<!-- -->
+| [[National Jet Express]] | [[Perth Airport|Perth]]
+<!-- -->
+| [[Qantas]] | [[Perth Airport|Perth]]
+<!-- -->
+| [[QantasLink]] | [[Perth Airport|Perth]]
+<!-- -->
+| [[Virgin Australia]]| [[Perth Airport|Perth]]
+}}

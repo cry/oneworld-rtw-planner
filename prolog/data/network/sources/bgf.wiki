@@ -1,0 +1,15 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[AfriJet]] | [[Léon-Mba International Airport|Libreville]], [[Yaoundé Nsimalen International Airport|Yaounde]]
+<!-- -->
+|[[ASKY Airlines]] | [[Douala International Airport|Douala]], [[Lomé-Tokoin Airport|Lomé]]
+<!-- -->
+|[[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+|[[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]] 
+<!-- -->
+|[[RwandAir]] | [[Kigali International Airport|Kigali]]
+<!-- -->
+}}

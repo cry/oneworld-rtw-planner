@@ -1,0 +1,5 @@
+==Airlines and destinations==
+{{airport-dest-list
+| [[Alliance Airlines]] | '''Charter:''' [[Perth Airport|Perth]]
+| [[National Jet Express]] | '''Charter:''' [[Perth Airport|Perth]]{{cn|date=May 2025}}
+| [[Skippers Aviation]] | '''Charter:''' [[Leonora Airport|Leonora]],{{cn|date=May 2025}} [[Perth Airport|Perth]]{{cn|date=May 2025}}}}

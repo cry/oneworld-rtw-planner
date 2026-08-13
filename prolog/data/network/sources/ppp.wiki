@@ -1,0 +1,9 @@
+== Airlines and destinations ==
+{{airport-dest-list
+<!-- -->
+| [[Jetstar]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]] <br> '''Seasonal:''' [[Adelaide Airport|Adelaide]]
+<!-- -->
+|{{nowrap|[[Skytrans Australia]]}} | [[Cairns Airport|Cairns]]
+<!-- -->
+| [[Virgin Australia]] | [[Brisbane Airport|Brisbane]]
+}}

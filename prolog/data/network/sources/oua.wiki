@@ -1,0 +1,31 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[Africa World Airlines]] | [[Accra International Airport|Accra]]
+<!-- -->
+| [[Air Algérie]]| [[Houari Boumediene Airport|Algiers]]
+<!-- -->
+| [[Air Burkina]]| [[Accra International Airport|Accra]], [[Bamako-Sénou International Airport|Bamako]], [[Bobo Dioulasso Airport|Bobo-Dioulasso]], [[Cadjehoun Airport|Cotonou]], [[Blaise Diagne International Airport|Dakar–Diass]], [[Lomé-Tokoin Airport|Lomé]], [[Diori Hamani International Airport|Niamey]]
+<!-- -->
+| [[Air Cairo]]| [[Cairo International Airport|Cairo]], [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+| [[Air Côte d'Ivoire]]| [[Port Bouet Airport|Abidjan]], [[Diori Hamani International Airport|Niamey]]
+<!-- -->
+| [[Air France]]| [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Senegal]]| [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+| [[ASKY Airlines]]| [[Modibo Keita International Airport|Bamako]], [[Conakry International Airport|Conakry]], [[Lomé-Tokoin Airport|Lomé]], [[Diori Hamani International Airport|Niamey]]
+<!-- -->
+|[[Brussels Airlines]]| [[Brussels Airport|Brussels]]
+<!-- -->
+| {{nowrap|[[Ethiopian Airlines]]}}| [[Bole International Airport|Addis Ababa]], [[Ahmed Sékou Touré International Airport|Conakry]], [[Diori Hamani International Airport|Niamey]]
+<!-- -->
+| {{nowrap|[[Kangala Air Express]]}}| [[Bobo Dioulasso Airport|Bobo-Dioulasso]], [[Diori Hamani International Airport|Niamey]]
+<!-- -->
+| [[Royal Air Maroc]]| [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Tunisair]]| [[Port Bouet Airport|Abidjan]], [[Tunis-Carthage International Airport|Tunis]]
+<!-- -->
+| [[Turkish Airlines]]| [[Conakry International Airport|Conakry]], [[Lungi International Airport|Freetown]], [[Istanbul Airport|Istanbul]]
+}}

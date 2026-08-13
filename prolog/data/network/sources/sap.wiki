@@ -1,0 +1,34 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Aerolineas Sosa]] | [[Golosón International Airport|La Ceiba]], [[Juan Manuel Gálvez International Airport|Roatán]]
+<!-- -->
+| {{nowrap|[[Aeroméxico Connect]]}} | [[Mexico City International Airport|Mexico City-Benito Juarez]]
+<!-- -->
+| [[Air Europa]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Avianca El Salvador]] | [[El Salvador International Airport|San Salvador]]
+<!-- -->
+| [[CM Airlines]] | [[La Aurora International Airport|Guatemala City]], [[Juan Manuel Gálvez International Airport|Roatán]], [[Toncontin International Airport|Tegucigalpa]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City-]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City-Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Frontier Airlines]] | [[Orlando International Airport|Orlando]]
+<!-- -->
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]
+<!-- -->
+| [[Transportes Aéreos Guatemaltecos|TAG Airlines]] | [[La Aurora International Airport|Guatemala City]]
+<!-- -->
+| [[Tropic Air]] | [[Philip S. W. Goldson International Airport|Belize City]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston-Intercontinental]], [[Newark Liberty International Airport|Newark]]
+<!-- -->
+}}

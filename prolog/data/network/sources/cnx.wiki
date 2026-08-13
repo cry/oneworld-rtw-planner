@@ -1,0 +1,57 @@
+==Airlines and destinations==
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Air Busan]] | '''Seasonal:''' [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]{{cn|date=December 2025}}
+<!-- -->
+| [[Bangkok Airways]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Samui Airport|Koh Samui]], [[Phuket International Airport|Phuket]]
+<!-- -->
+| {{nowrap|[[AirAsia]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[China Southern Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]{{cn|date=December 2025}}
+<!-- -->
+| [[Eastar Jet]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]{{cn|date=December 2025}}
+<!-- -->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Jeju Air]] |[[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Korean Air]] |[[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Lao Airlines]] | [[Luang Prabang International Airport|Luang Prabang]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+|{{nowrap|[[Myanmar Airways International]]}} | [[Mandalay International Airport|Mandalay]],{{cn|date=December 2025}} [[Yangon International Airport|Yangon]]{{cn|date=December 2025}}
+<!-- -->
+| [[Nok Air]] | [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Udon Thani International Airport|Udon Thani]]
+<!-- -->
+| [[Ruili Airlines]] | [[Xishuangbanna Gasa International Airport|Xishuangbanna]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Spring Airlines]] | [[Xi'an Xianyang International Airport|Xi'an]]
+<!-- -->
+| [[Starlux Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Thai AirAsia]] | [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Noi Bai International Airport|Hanoi]], [[Hat Yai International Airport|Hat Yai]], [[Hua Hin Airport|Hua Hin]], [[Khon Kaen Airport|Khon Kaen]], [[Krabi International Airport|Krabi]], [[Phuket International Airport|Phuket]], [[New Chitose Airport|Sapporo–Chitose]], [[Surat Thani International Airport|Surat Thani]], [[Taoyuan International Airport|Taipei–Taoyuan]], [[Udon Thani International Airport|Udon Thani]]{{cn|date=December 2025}}
+<!-- -->
+| [[Thai Airways International]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai Lion Air]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| [[Thai VietJet Air]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Kansai International Airport|Osaka–Kansai]]{{cn|date=December 2025}}
+<!-- -->
+| [[VietJet Air]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]] (resumes 25 October 2026)
+<!-- -->
+| [[West Air (China)|West Air]] | [[Chongqing Jiangbei International Airport|Chongqing]]
+<!-- -->
+}}

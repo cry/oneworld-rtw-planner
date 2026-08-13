@@ -1,0 +1,47 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!--+-->
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!--+-->
+| [[Airfast Indonesia]] | '''Charter:''' [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Mozes Kilangin Airport|Timika]]
+<!--+-->
+| [[Batik Air]] | [[Pattimura Airport|Ambon]], [[Sultan Aji Muhammad Sulaiman Airport|Balikpapan]], [[Ngurah Rai International Airport|Denpasar]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sentani International Airport|Jayapura]], [[Haluoleo Airport|Kendari]], [[Syukuran Aminuddin Amir Airport|Luwuk]], [[Sam Ratulangi International Airport|Manado]], [[Mutiara SIS Al-Jufrie Airport|Palu]], [[Juanda International Airport|Surabaya]], [[Mozes Kilangin Airport|Timika]]
+<!--+-->
+| [[Citilink]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Ngurah Rai International Airport|Denpasar]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sentani International Airport|Jayapura]], [[Juanda International Airport|Surabaya]], [[Yogyakarta International Airport|Yogyakarta–International]]<br/>'''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!--+-->
+| [[Flyadeal]] | '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]]
+<!--+-->
+| [[FlyJaya]] | [[Arung Palakka Airport|Bone]], [[Andi Jemma Airport|Masamba]], [[Maleo Airport|Morowali]], [[H. Aroeppala Airport|Selayar]]
+<!--+-->
+| {{nowrap|[[Garuda Indonesia]]}} | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Haluoleo Airport|Kendari]], [[Mutiara SIS Al-Jufrie Airport|Palu]] <br/> '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!--+-->
+| [[Lion Air]] | [[Pattimura Airport|Ambon]], [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Frans Kaisiepo Airport|Biak]], [[Ngurah Rai International Airport|Denpasar]], [[Djalaluddin Airport|Gorontalo]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sentani International Airport|Jayapura]], [[Haluoleo Airport|Kendari]], [[El Tari Airport|Kupang]], [[Lombok International Airport|Lombok]], [[Sam Ratulangi International Airport|Manado]], [[Rendani Airport|Manokwari]], [[Mopah Airport|Merauke]], [[Mutiara SIS Al-Jufrie Airport|Palu]], [[Jenderal Ahmad Yani International Airport|Semarang]], [[Domine Eduard Osok Airport|Sorong]], [[Juanda International Airport|Surabaya]], [[Sultan Babullah Airport|Ternate]], [[Mozes Kilangin Airport|Timika]], [[Yogyakarta International Airport|Yogyakarta–International]] <br> '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!--+-->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!--+-->
+| [[NAM Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!--+-->
+| [[Pelita Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]<br>'''Charter:''' [[Sorowako Airport|Sorowako]]
+<!--+-->
+| [[Saudia]] | '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!--+-->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!--+-->
+| [[Sriwijaya Air]] | [[Ngurah Rai International Airport|Denpasar]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sentani International Airport|Jayapura]], [[Maleo Airport|Morowali]], [[Douw Aturure Airport|Nabire]], [[Kasiguncu Airport|Poso]], [[Sugimanuru Airport|Raha]], [[Domine Eduard Osok Airport|Sorong]], [[Juanda International Airport|Surabaya]], [[Kalimarau Airport|Tanjung Redeb]], [[Sultan Babullah Airport|Ternate]], [[Mozes Kilangin Airport|Timika]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!--+-->
+| [[Super Air Jet]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Betoambari Airport|Bau-Bau]], [[Rendani Airport|Manokwari]], [[Juwata Airport|Tarakan]]{{efn|Tarakan is the continuation of Balikpapan flight, operating under the same flight number.}}
+<!--+-->
+| [[Wings Air]] |  [[Batu Licin Airport|Batulicin]], [[Betoambari Airport|Bau-Bau]], [[Sultan Muhammad Salahudin Airport|Bima]], [[Sangia Nibandera Airport|Kolaka]], [[Komodo International Airport|Labuan Bajo]], [[Tampa Padang Airport|Mamuju]], [[Frans Xavier Seda Airport|Maumere]], [[Maleo Airport|Morowali]], [[Bua Airport|Palopo]], [[Toraja Airport|Tana Toraja]]
+}}
+'''Notes:'''{{Reflist|group=Note}}
+{{notelist}}
+
+=== Cargo ===
+{{Airport destination list
+<!-- -->
+| [[Garuda Indonesia|Garuda Cargo]] | [[Changi Airport|Singapore]]
+<!--+-->
+| [[Raindo United Services]] | [[Hong Kong International Airport|Hong Kong]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno–Hatta]], [[Juanda International Airport|Surabaya]]
+}}

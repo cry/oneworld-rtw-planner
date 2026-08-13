@@ -1,0 +1,19 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled flights to and from Inverness:
+
+<!-- DON'T ADD NEW FLIGHTS WITHOUT ADDING INDEPENDENT NEW SOURCES, UNREFERENCED ADDITION WILL BE REVERTED! -->
+{{Airport-dest-list
+<!-- -->
+| [[Aer Lingus Regional]] (operated by [[Emerald Airlines]]) | [[Dublin Airport|Dublin]]
+<!-- -->
+| [[airBaltic]] | '''Seasonal charter:''' [[Gran Canaria Airport|Gran Canaria]], [[Tenerife South Airport|Tenerife–South]] (begins 26 March 2027)
+<!-- -->
+| {{nowrap|[[British Airways]]}} | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[easyJet]] | [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]]
+<!-- -->| [[KLM Cityhopper]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+| [[Loganair]] | [[Belfast City Airport|Belfast–City]], [[Kirkwall Airport|Kirkwall]], [[Manchester Airport|Manchester]], [[Stornoway Airport|Stornoway]],{{citation needed|date=October 2025}} [[Sumburgh Airport|Sumburgh]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+}}

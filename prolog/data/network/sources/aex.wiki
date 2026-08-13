@@ -1,0 +1,62 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+
+===Destinations map===
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Domestic destinations from Alexandria International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue }} = Future destination <br /> {{font color | pink | Pink }} = Destination being terminated
+|places=
+{{Location map~ |United_States |lat=31.3274|long=-92.5452|position=top|label='''<small>Alexandria</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=right |label='''<small>[[Atlanta Airport|Atlanta]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=29.984444|long=-95.341389|position=left |label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=90|marksize=7 }}
+}}
+|}
+Both airlines serving Alexandria operate Canadair Regional Jet -700 and -900 aircraft. In addition to scheduled passenger airline services, the airport has also handled numerous charters performed by large, widebody passenger aircraft (with an example being the [[McDonnell Douglas MD-11]] jetliner) that were supporting military personnel transportation requirements.
+
+===Statistics===
+{{Bar graph
+| title       = '''Carrier shares (August 2024 – July 2025)'''
+| bar_width   = 32
+| width_units = em
+| label_type  = Carrier
+| data_type   = Passengers (arriving and departing)
+| data_max    = 100000
+| label1      = [[Endeavor Air]]
+| data1       = 94,230
+| comment1    = 51.48%
+| label2      = [[SkyWest Airlines]]
+| data2       = 83,020
+| comment2    = 45.36%
+| label3      = [[Envoy Air]]
+| data3       = 5,740
+| comment3    = 3.14%
+}}
+
+{| class="wikitable sortable"
+|+ '''Top domestic destinations (August 2024 – July 2025)'''<!--NOTE: source does not list airlines associated with destinations at the time-->
+! Rank
+! Airport
+! Passengers
+! Airline
+|-
+| 1
+| [[Hartsfield-Jackson Atlanta International Airport|Hartsfield-Jackson Atlanta International (ATL)]]
+| 47,960
+| Delta
+|-
+| 2
+| [[Dallas/Fort Worth International Airport|Dallas/Fort Worth International (DFW)]]
+| 44,330
+| American
+
+|}

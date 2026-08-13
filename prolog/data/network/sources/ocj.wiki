@@ -1,0 +1,8 @@
+==Airlines and destinations==
+{{Airport destination list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[InterCaribbean Airways]] | [[Providenciales International Airport|Providenciales]]{{cn|date=December 2024}}
+<!-- -->
+}}

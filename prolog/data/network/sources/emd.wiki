@@ -1,0 +1,7 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list
+|[[Alliance Airlines]] | [[Brisbane Airport|Brisbane]], [[Sunshine Coast Airport|Sunshine Coast]]
+|[[QantasLink]] | [[Brisbane Airport|Brisbane]]
+|[[Virgin Australia]] | [[Brisbane Airport|Brisbane]]
+}}

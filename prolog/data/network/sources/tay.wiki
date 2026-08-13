@@ -1,0 +1,8 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+After Finnair ended flights from Tartu in October 2022 there were no regular commercial passenger flights to Tartu. In 2024, Finnair won the procurement for subsidized flights and the Helsinki line was reopened in March. In April 2024, the flights were suspended for a month due to Russian [[GPS jamming]]. The airport requires [[Satellite navigation|GNSS]] for initial approach on landings. In the first year after the resumption of flights to Helsinki, Tartu Airport served 37,369 passengers.
+
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+| [[Finnair]] | [[Helsinki Airport|Helsinki]]
+}}

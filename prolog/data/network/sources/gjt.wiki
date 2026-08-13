@@ -1,0 +1,27 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| [[Breeze Airways]] |  [[Harry Reid International Airport|Las Vegas]] <br />'''Seasonal:''' [[John Wayne Airport|Orange County]]
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]] 
+| [[United Airlines]] | [[Denver International Airport|Denver]]
+| [[United Express]] | [[Denver International Airport|Denver]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Grand Junction Regional Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=39.1222 |long=-108.5291 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Grand Junction'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=32.896944|long=-97.038056|position=left|label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United States |lat=33.675556|long=-117.868333|position=right|label='''<small>[[John Wayne Airport|Orange County]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=top|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=33.436921|long=-112.011667|position=right|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=36.083697|long=-115.153873|position=top|label='''<small>[[McCarran International Airport|Las Vegas]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=40.7608|long=-111.8910|position=top|label='''<small>[[Salt Lake City International Airport|Salt Lake City]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

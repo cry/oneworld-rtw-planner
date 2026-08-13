@@ -1,0 +1,28 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Praia Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Senegal]] | [[Blaise Diagne International Airport|Dakar–Diass]]{{cn|date=July 2026}}
+<!-- -->
+| [[ASKY Airlines]] | [[Blaise Diagne International Airport|Dakar–Diass]], [[Tokoin Airport|Lomé]]
+<!-- -->
+| [[Azores Airlines]] | [[João Paulo II Airport|Ponta Delgada]]{{cn|date=July 2026}}
+<!-- -->
+| {{nowrap|[[Cabo Verde Airlines]]}} | [[Lisbon Airport|Lisbon]],{{cn|date=July 2026}} [[Paris–Charles de Gaulle]], [[Rhode Island T. F. Green International Airport|Providence]], [[Recife/Guararapes–Gilberto Freyre International Airport|Recife]]
+<!-- -->
+| [[easyJet]] | [[Lisbon Airport|Lisbon]],{{cn|date=July 2026}} [[Porto Airport|Porto]]{{cn|date=July 2026}}
+<!-- --->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]{{cn|date=July 2026}}
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]],{{cn|date=July 2026}} [[Porto Airport|Porto]]
+<!-- --->
+| [[Transair (Senegal)|Transair]] | [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+|[[Transavia France|Transavia]] | '''Seasonal:'''  [[Lyon–Saint-Exupéry Airport|Lyon]],{{cn|date=July 2026}} [[Marseille Provence Airport|Marseille]],{{cn|date=July 2026}} [[Paris–Orly]]{{cn|date=July 2026}}
+<!-- -->
+}}

@@ -1,0 +1,48 @@
+==Airlines and destinations==
+Killeen Regional Airport currently offers a single [[Non-stop flight|non-stop]] destination.
+
+At the time of the move from Skylark Field in August, 2004, [[American Eagle (airline brand)|American Eagle]] began flights to [[Dallas/Fort Worth International Airport]], and [[Continental Express]] began flights to Houston [[George Bush Intercontinental Airport]]. Continental Express was merged into [[United Express]] in 2012 and the carrier ended service to Killeen in early 2022. [[Delta Connection]] provided service to [[Hartsfield-Jackson Atlanta International Airport]] from 2006 through early 2018.
+
+In 2005, [[Allegiant Air]] offered twice weekly service to [[Las Vegas]]. After nine months of service, Allegient Air stopped all flights to and from Killeen in February 2006.
+
+Occasionally, NCAA football teams have their charter airplanes parked at gates 1 and 6 for away football teams playing the [[University of Mary Hardin–Baylor]], or for the university's own football team. The usual airlines for these charters include [[Sun Country]], [[Xtra Airways]], and [[Southwest Airlines]].
+
+On November 27, 2017, [[Delta Connection|Delta Air Lines]] announced that service would no longer continue to Killeen, and the route ended on 15 January, 2018. American Airlines later added two daily flights because it no longer had competition with Delta, and it also added the [[Embraer 175]], the largest aircraft for regular scheduled passenger flights currently, and the largest the airport has seen since Allegiant left. [[United Airlines]] also added a third daily flight in response to Delta leaving.
+
+Effective 4 January, 2022, United ceased its operations in Killeen after announcing their plans on 4 November, 2021. American Airlines is the only remaining commercial passenger airline, with multiple flights to and from [[Dallas Fort Worth International Airport|Dallas-Fort Worth International Airport]] daily under their [[American Eagle (airline brand)|American Eagle]] regional flight brand.
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Unreferenced section|date=January 2022}}
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:25em; margin:0.2em auto"
+|-
+! Destination Map
+|-
+|{{Location map+ |USA Texas |width=500 |float=center
+|caption=Destination from Killeen-Fort Hood Regional Airport
+|places=
+{{Location map~ |USA Texas |lat=31.0615|long=-97.8209|position=left|label='''<small>Killeen-Fort Hood</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |USA Texas |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}
+
+===Top destinations===
+{| class="wikitable sortable" style="font-size: 95%" width= align=
+|+ '''Busiest domestic routes from GRK<br />(January 2019–December 2019)'''
+|-
+! Rank
+! City
+! Passengers
+|-
+| 1
+| [[Dallas/Fort Worth International Airport|Dallas/Fort Worth, Texas]]
+| 108,000
+|-
+| 2
+| [[George Bush Intercontinental Airport|Houston (Intercontinental), Texas]]
+| 35,000
+|}

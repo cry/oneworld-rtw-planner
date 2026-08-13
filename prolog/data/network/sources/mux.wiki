@@ -1,0 +1,31 @@
+==Airlines and destinations==
+{{Multiple image
+| align             = right
+| direction         = vertical
+| image1            = PIA Boeing 747-300 Asuspine-5.jpg
+| caption1          = PIA Boeing 747-300 taking off from the newly renovated runway.
+| image2            = PIA ATR 42-500 Asuspine-11.jpg
+| caption2          = PIA ATR 42 taxiing to the runway.
+| width             = 
+}}
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+
+{{Airport-dest-list
+|[[Air Arabia]]| [[Abu Dhabi International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Airblue]]| [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[AirSial]]| [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+|[[Flydubai]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Fly Jinnah]]|[[Jinnah International Airport|Karachi]]
+<!-- -->
+|[[Pakistan International Airlines]]| [[King Fahd International Airport|Dammam]], [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[Jinnah International Airport|Karachi]], [[Prince Mohammad Bin Abdulaziz International Airport|Medina]], [[Muscat International Airport|Muscat]], [[Sharjah International Airport|Sharjah]], [[King Khalid International Airport|Riyadh]], [[Prince Naif bin Abdulaziz International Airport|Al Qassim]] 
+<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]
+<!-- -->
+|[[SalamAir]]| [[Muscat International Airport|Muscat]]
+<!-- -->
+|[[Saudia]]| [[King Abdulaziz International Airport|Jeddah]]
+}}

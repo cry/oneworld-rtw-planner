@@ -1,0 +1,11 @@
+==Airlines and destinations==
+[[Image:Lastdc9ERI.jpg|thumb|The last [[McDonnell Douglas DC-9]] to fly for [[USAir]] arriving at Erie International Airport]]
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]],  [[O'Hare International Airport|Chicago–O'Hare]]
+| [[Breeze Airways]] | [[Orlando International Airport|Orlando]] <br />'''Seasonal: '''[[Tampa International Airport|Tampa]]
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]] (resumes October 30, 2027)|
+}}

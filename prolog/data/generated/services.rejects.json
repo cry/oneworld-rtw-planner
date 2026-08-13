@@ -1,0 +1,3154 @@
+{
+  "_comment": "Every row prolog/tools/build_services.mjs refused, grouped by an enumerated reason with a count. A reviewed artifact rather than a log: \"every entry has been read by a human\" does not survive a few thousand rows, but every reason class does, and the run aborts if anything reaches the unclassified bucket. Rebuilt by `npm run services`.",
+  "generated": "2026-08-13",
+  "totals": {
+    "charter_or_cargo": 89,
+    "destination_not_a_link": 2,
+    "destination_not_in_airports": 9,
+    "destination_unresolved": 2,
+    "operator_brand_ambiguous": 254,
+    "operator_not_oneworld": 13905,
+    "operator_unparsed": 1,
+    "service_suspended": 5,
+    "window_date_unparsed": 3
+  },
+  "reasons": {
+    "charter_or_cargo": {
+      "why": "A charter or cargo run. PLANS/06 phase 0 decision 4 excludes both entirely.",
+      "count": 89,
+      "entries": [
+        {
+          "airport": "ace",
+          "article": "Lanzarote Airport",
+          "carrier": "yw",
+          "target": "Porto Airport"
+        },
+        {
+          "airport": "adl",
+          "article": "Adelaide Airport",
+          "carrier": "qq",
+          "target": "Ballera Airport"
+        },
+        {
+          "airport": "adl",
+          "article": "Adelaide Airport",
+          "carrier": "qq",
+          "target": "Moomba Airport"
+        },
+        {
+          "airport": "agp",
+          "article": "Málaga Airport",
+          "carrier": "ba",
+          "target": "Guernsey Airport"
+        },
+        {
+          "airport": "agp",
+          "article": "Málaga Airport",
+          "carrier": "ba",
+          "target": "Isle of Man Airport"
+        },
+        {
+          "airport": "agp",
+          "article": "Málaga Airport",
+          "carrier": "ba",
+          "target": "Jersey Airport"
+        },
+        {
+          "airport": "amm",
+          "article": "Queen Alia International Airport",
+          "carrier": "rj",
+          "target": "Heydar Aliyev International Airport"
+        },
+        {
+          "airport": "aok",
+          "article": "Karpathos Island National Airport",
+          "carrier": "ay",
+          "target": "Helsinki Airport"
+        },
+        {
+          "airport": "bgy",
+          "article": "Milan Bergamo Airport",
+          "carrier": "yw",
+          "target": "Palma de Mallorca Airport"
+        },
+        {
+          "airport": "bhd",
+          "article": "Belfast City Airport",
+          "carrier": "ba",
+          "target": "Bologna Guglielmo Marconi Airport"
+        },
+        {
+          "airport": "bhd",
+          "article": "Belfast City Airport",
+          "carrier": "ba",
+          "target": "Palma de Mallorca Airport"
+        },
+        {
+          "airport": "bio",
+          "article": "Bilbao Airport",
+          "carrier": "ib",
+          "target": "Menorca Airport"
+        },
+        {
+          "airport": "bio",
+          "article": "Bilbao Airport",
+          "carrier": "ib",
+          "target": "Palma de Mallorca Airport"
+        },
+        {
+          "airport": "blq",
+          "article": "Bologna Guglielmo Marconi Airport",
+          "carrier": "yw",
+          "target": "Palma de Mallorca Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qf",
+          "target": "Gove Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qq",
+          "target": "Ballera Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qq",
+          "target": "Cloncurry Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qq",
+          "target": "Emerald Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qq",
+          "target": "Mackay Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qq",
+          "target": "Moomba Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qq",
+          "target": "Mount Isa Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qq",
+          "target": "Rockhampton Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qq",
+          "target": "Roma Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qq",
+          "target": "Sunshine Coast Airport"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qq",
+          "target": "The Granites Airport"
+        },
+        {
+          "airport": "boj",
+          "article": "Burgas Airport",
+          "carrier": "ay",
+          "target": "Helsinki Airport"
+        },
+        {
+          "airport": "bqb",
+          "article": "Busselton Margaret River Airport",
+          "carrier": "qf",
+          "target": "Graeme Rowley Aerodrome"
+        },
+        {
+          "airport": "bqb",
+          "article": "Busselton Margaret River Airport",
+          "carrier": "qf",
+          "target": "Perth Airport"
+        },
+        {
+          "airport": "bqb",
+          "article": "Busselton Margaret River Airport",
+          "carrier": "qf",
+          "target": "Solomon Airport"
+        },
+        {
+          "airport": "bqb",
+          "article": "Busselton Margaret River Airport",
+          "carrier": "qq",
+          "target": "Coondewanna Airport"
+        },
+        {
+          "airport": "bqb",
+          "article": "Busselton Margaret River Airport",
+          "carrier": "qq",
+          "target": "Newman Airport"
+        },
+        {
+          "airport": "bqb",
+          "article": "Busselton Margaret River Airport",
+          "carrier": "qq",
+          "target": "Perth Airport"
+        },
+        {
+          "airport": "cdg",
+          "article": "Charles de Gaulle Airport",
+          "carrier": "yw",
+          "target": "Palma de Mallorca Airport"
+        },
+        {
+          "airport": "cnj",
+          "article": "Cloncurry Airport",
+          "carrier": "qq",
+          "target": "Cairns Airport"
+        },
+        {
+          "airport": "cns",
+          "article": "Cairns Airport",
+          "carrier": "qq",
+          "target": "Century Mine Airport"
+        },
+        {
+          "airport": "cns",
+          "article": "Cairns Airport",
+          "carrier": "qq",
+          "target": "Cloncurry Airport"
+        },
+        {
+          "airport": "cns",
+          "article": "Cairns Airport",
+          "carrier": "qq",
+          "target": "Groote Eylandt Airport"
+        },
+        {
+          "airport": "cns",
+          "article": "Cairns Airport",
+          "carrier": "qq",
+          "target": "Trepell Airport"
+        },
+        {
+          "airport": "erf",
+          "article": "Erfurt–Weimar Airport",
+          "carrier": "yw",
+          "target": "Palma de Mallorca Airport"
+        },
+        {
+          "airport": "fao",
+          "article": "Faro Airport",
+          "carrier": "ba",
+          "target": "Derry"
+        },
+        {
+          "airport": "fao",
+          "article": "Faro Airport",
+          "carrier": "ba",
+          "target": "Guernsey Airport"
+        },
+        {
+          "airport": "fao",
+          "article": "Faro Airport",
+          "carrier": "ba",
+          "target": "Isle of Man Airport"
+        },
+        {
+          "airport": "fue",
+          "article": "Fuerteventura Airport",
+          "carrier": "yw",
+          "target": "Porto Airport"
+        },
+        {
+          "airport": "gci",
+          "article": "Guernsey Airport",
+          "carrier": "ba",
+          "target": "Gago Coutinho Airport"
+        },
+        {
+          "airport": "gci",
+          "article": "Guernsey Airport",
+          "carrier": "ba",
+          "target": "Málaga Airport"
+        },
+        {
+          "airport": "gci",
+          "article": "Guernsey Airport",
+          "carrier": "ba",
+          "target": "Palma de Mallorca Airport"
+        },
+        {
+          "airport": "gov",
+          "article": "Gove Airport",
+          "carrier": "qf",
+          "target": "Brisbane Airport"
+        },
+        {
+          "airport": "gte",
+          "article": "Groote Eylandt Airport",
+          "carrier": "qq",
+          "target": "Cairns Airport"
+        },
+        {
+          "airport": "gyd",
+          "article": "Heydar Aliyev International Airport",
+          "carrier": "rj",
+          "target": "Queen Alia International Airport"
+        },
+        {
+          "airport": "hel",
+          "article": "Helsinki Airport",
+          "carrier": "ay",
+          "target": "Burgas Airport"
+        },
+        {
+          "airport": "hel",
+          "article": "Helsinki Airport",
+          "carrier": "ay",
+          "target": "Karpathos Island National Airport"
+        },
+        {
+          "airport": "hrg",
+          "article": "Hurghada International Airport",
+          "carrier": "ay",
+          "target": "Helsinki Airport"
+        },
+        {
+          "airport": "iom",
+          "article": "Isle of Man Airport",
+          "carrier": "ba",
+          "target": "Faro Airport"
+        },
+        {
+          "airport": "iom",
+          "article": "Isle of Man Airport",
+          "carrier": "ba",
+          "target": "Ibiza Airport"
+        },
+        {
+          "airport": "iom",
+          "article": "Isle of Man Airport",
+          "carrier": "ba",
+          "target": "Málaga Airport"
+        },
+        {
+          "airport": "iom",
+          "article": "Isle of Man Airport",
+          "carrier": "ba",
+          "target": "Palma de Mallorca Airport"
+        },
+        {
+          "airport": "isa",
+          "article": "Mount Isa Airport",
+          "carrier": "qq",
+          "target": "The Monument Airport"
+        },
+        {
+          "airport": "jer",
+          "article": "Jersey Airport",
+          "carrier": "ba",
+          "target": "Gago Coutinho Airport"
+        },
+        {
+          "airport": "jer",
+          "article": "Jersey Airport",
+          "carrier": "ba",
+          "target": "Málaga Airport"
+        },
+        {
+          "airport": "jer",
+          "article": "Jersey Airport",
+          "carrier": "ba",
+          "target": "Palma de Mallorca Airport"
+        },
+        {
+          "airport": "kta",
+          "article": "Karratha Airport",
+          "carrier": "qq",
+          "target": "Perth Airport"
+        },
+        {
+          "airport": "lei",
+          "article": "Almería Airport",
+          "carrier": "yw",
+          "target": "Porto Airport"
+        },
+        {
+          "airport": "ler",
+          "article": "Leinster Airport",
+          "carrier": "qq",
+          "target": "Perth Airport"
+        },
+        {
+          "airport": "lvo",
+          "article": "Laverton Airport",
+          "carrier": "qq",
+          "target": "Perth Airport"
+        },
+        {
+          "airport": "mah",
+          "article": "Menorca Airport",
+          "carrier": "yw",
+          "target": "Porto Airport"
+        },
+        {
+          "airport": "mcy",
+          "article": "Sunshine Coast Airport",
+          "carrier": "qq",
+          "target": "Emerald Airport"
+        },
+        {
+          "airport": "oud",
+          "article": "Oujda-Angad Airport",
+          "carrier": "yw",
+          "target": "Lisbon Airport"
+        },
+        {
+          "airport": "oud",
+          "article": "Oujda-Angad Airport",
+          "carrier": "yw",
+          "target": "Porto Airport"
+        },
+        {
+          "airport": "pad",
+          "article": "Paderborn Lippstadt Airport",
+          "carrier": "yw",
+          "target": "Palma de Mallorca Airport"
+        },
+        {
+          "airport": "per",
+          "article": "Perth Airport",
+          "carrier": "qq",
+          "target": "Port Hedland International Airport"
+        },
+        {
+          "airport": "pmi",
+          "article": "Palma de Mallorca Airport",
+          "carrier": "ba",
+          "target": "Belfast City Airport"
+        },
+        {
+          "airport": "pmi",
+          "article": "Palma de Mallorca Airport",
+          "carrier": "ba",
+          "target": "Guernsey Airport"
+        },
+        {
+          "airport": "pmi",
+          "article": "Palma de Mallorca Airport",
+          "carrier": "ba",
+          "target": "Isle of Man Airport"
+        },
+        {
+          "airport": "pmi",
+          "article": "Palma de Mallorca Airport",
+          "carrier": "ba",
+          "target": "Jersey Airport"
+        },
+        {
+          "airport": "pmi",
+          "article": "Palma de Mallorca Airport",
+          "carrier": "yw",
+          "target": "Erfurt-Weimar Airport"
+        },
+        {
+          "airport": "pmi",
+          "article": "Palma de Mallorca Airport",
+          "carrier": "yw",
+          "target": "Lisbon Airport"
+        },
+        {
+          "airport": "pmi",
+          "article": "Palma de Mallorca Airport",
+          "carrier": "yw",
+          "target": "Paderborn Lippstadt Airport"
+        },
+        {
+          "airport": "pmi",
+          "article": "Palma de Mallorca Airport",
+          "carrier": "yw",
+          "target": "Porto Airport"
+        },
+        {
+          "airport": "pxh",
+          "article": "Prominent Hill Airport",
+          "carrier": "qq",
+          "target": "Adelaide Airport"
+        },
+        {
+          "airport": "reu",
+          "article": "Reus Airport",
+          "carrier": "yw",
+          "target": "Porto Airport"
+        },
+        {
+          "airport": "rma",
+          "article": "Roma Airport",
+          "carrier": "qq",
+          "target": "Brisbane Airport"
+        },
+        {
+          "airport": "sll",
+          "article": "Salalah International Airport",
+          "carrier": "wy",
+          "target": "Koltsovo International Airport"
+        },
+        {
+          "airport": "sll",
+          "article": "Salalah International Airport",
+          "carrier": "wy",
+          "target": "Sheremetyevo International Airport"
+        },
+        {
+          "airport": "svo",
+          "article": "Sheremetyevo International Airport",
+          "carrier": "wy",
+          "target": "Salalah International Airport"
+        },
+        {
+          "airport": "svx",
+          "article": "Koltsovo International Airport",
+          "carrier": "wy",
+          "target": "Salalah International Airport"
+        },
+        {
+          "airport": "trs",
+          "article": "Trieste Airport",
+          "carrier": "ib",
+          "target": "Adolfo Suárez Madrid–Barajas Airport"
+        },
+        {
+          "airport": "tsv",
+          "article": "Townsville Airport",
+          "carrier": "qq",
+          "target": "Cairns Airport"
+        },
+        {
+          "airport": "tsv",
+          "article": "Townsville Airport",
+          "carrier": "qq",
+          "target": "The Monument Airport"
+        },
+        {
+          "airport": "tsv",
+          "article": "Townsville Airport",
+          "carrier": "qq",
+          "target": "Trepell Airport"
+        }
+      ]
+    },
+    "destination_is_the_article": {
+      "why": "A row listing the airport whose article it is as one of its own destinations. A self-loop is never a sector.",
+      "count": 0,
+      "entries": []
+    },
+    "destination_not_a_link": {
+      "why": "A destinations cell with no wikilink in it, or text between the links that names a place without linking it. There is no target to resolve, so there is nothing to look up.",
+      "count": 2,
+      "entries": [
+        {
+          "airport": "mel",
+          "article": "Melbourne Airport",
+          "carrier": "ay",
+          "detail": "both begin 26 October 2026"
+        },
+        {
+          "airport": "tks",
+          "article": "Tokushima Airport",
+          "carrier": "jl",
+          "detail": "Seasonal"
+        }
+      ]
+    },
+    "destination_not_in_airports": {
+      "why": "The target resolved to an IATA code that data/generated/airports.pl does not carry. That file is built from OurAirports and filtered to scheduled service, and it is the authority on what an airport is here.",
+      "count": 9,
+      "entries": [
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "jq",
+          "target": "Western Sydney International Airport",
+          "detail": "wsi"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qf",
+          "target": "Miles Airport",
+          "detail": "wle"
+        },
+        {
+          "airport": "bne",
+          "article": "Brisbane Airport",
+          "carrier": "qf",
+          "target": "Western Sydney International Airport",
+          "detail": "wsi"
+        },
+        {
+          "airport": "mel",
+          "article": "Melbourne Airport",
+          "carrier": "jq",
+          "target": "Western Sydney International Airport",
+          "detail": "wsi"
+        },
+        {
+          "airport": "mel",
+          "article": "Melbourne Airport",
+          "carrier": "qf",
+          "target": "Western Sydney International Airport",
+          "detail": "wsi"
+        },
+        {
+          "airport": "ool",
+          "article": "Gold Coast Airport",
+          "carrier": "jq",
+          "target": "Western Sydney International Airport",
+          "detail": "wsi"
+        },
+        {
+          "airport": "per",
+          "article": "Perth Airport",
+          "carrier": "qf",
+          "target": "Onslow Airport",
+          "detail": "ons"
+        },
+        {
+          "airport": "pmi",
+          "article": "Palma de Mallorca Airport",
+          "carrier": "ib",
+          "target": "Logroño–Agoncillo Airport",
+          "detail": "rjl"
+        },
+        {
+          "airport": "syd",
+          "article": "Sydney Airport",
+          "carrier": "qf",
+          "target": "Orange Airport",
+          "detail": "oag"
+        }
+      ]
+    },
+    "destination_unresolved": {
+      "why": "The wikilink target is not in the Wikidata P238 map even after redirect resolution: a city article, a disambiguation page, a red link, or an airport with no IATA code in Wikidata.",
+      "count": 2,
+      "entries": [
+        {
+          "airport": "asp",
+          "article": "Alice Springs Airport",
+          "carrier": "qf",
+          "target": "Sydney"
+        },
+        {
+          "airport": "pty",
+          "article": "Tocumen International Airport",
+          "carrier": "ib",
+          "target": "Madrid"
+        }
+      ]
+    },
+    "operator_brand_ambiguous": {
+      "why": "The operator is a brand covering several operating certificates -- \"American Eagle\" is flown by Envoy, PSA, Piedmont, Republic and SkyWest -- so the table cannot say which one flew. PLANS/06 phase 2: the operating carrier is unknown, never guessed, and an unknown operating carrier is not a carriers:carrier_code/1, so no fact is emitted.",
+      "count": 254,
+      "entries": [
+        {
+          "airport": "abe",
+          "article": "Lehigh Valley International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "abi",
+          "article": "Abilene Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "abq",
+          "article": "Albuquerque International Sunport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "aca",
+          "article": "Acapulco International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ack",
+          "article": "Nantucket Memorial Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "act",
+          "article": "Waco Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "aex",
+          "article": "Alexandria International Airport (Louisiana)",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ags",
+          "article": "Augusta Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "agu",
+          "article": "Aguascalientes International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "alb",
+          "article": "Albany International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "alo",
+          "article": "Waterloo Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ama",
+          "article": "Rick Husband Amarillo International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "art",
+          "article": "Watertown International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ase",
+          "article": "Aspen/Pitkin County Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "atl",
+          "article": "Hartsfield–Jackson Atlanta International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "atw",
+          "article": "Appleton International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "aus",
+          "article": "Austin–Bergstrom International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "avl",
+          "article": "Asheville Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "avp",
+          "article": "Wilkes-Barre/Scranton International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "axa",
+          "article": "Clayton J. Lloyd International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "azo",
+          "article": "Kalamazoo/Battle Creek International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bdl",
+          "article": "Bradley International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bfl",
+          "article": "Meadows Field Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bgr",
+          "article": "Bangor International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bhm",
+          "article": "Birmingham–Shuttlesworth International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bil",
+          "article": "Billings Logan International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bim",
+          "article": "South Bimini Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bis",
+          "article": "Bismarck Municipal Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bjx",
+          "article": "Bajío International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bmi",
+          "article": "Central Illinois Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bna",
+          "article": "Nashville International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "boi",
+          "article": "Boise Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bos",
+          "article": "Logan International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bpt",
+          "article": "Jack Brooks Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bro",
+          "article": "Brownsville/South Padre Island International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "btr",
+          "article": "Baton Rouge Metropolitan Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "btv",
+          "article": "Patrick Leahy Burlington International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "buf",
+          "article": "Buffalo Niagara International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bur",
+          "article": "Hollywood Burbank Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bwi",
+          "article": "Baltimore/Washington International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "bzn",
+          "article": "Bozeman Yellowstone International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cae",
+          "article": "Columbia Metropolitan Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cak",
+          "article": "Akron–Canton Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ccs",
+          "article": "Simón Bolívar International Airport (Venezuela)",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cha",
+          "article": "Chattanooga Metropolitan Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cho",
+          "article": "Charlottesville–Albemarle Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "chs",
+          "article": "Charleston International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cid",
+          "article": "Eastern Iowa Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cld",
+          "article": "McClellan–Palomar Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cle",
+          "article": "Cleveland Hopkins International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "clt",
+          "article": "Charlotte Douglas International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cmh",
+          "article": "John Glenn Columbus International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cmi",
+          "article": "University of Illinois Willard Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cos",
+          "article": "Colorado Springs Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cou",
+          "article": "Columbia Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "crp",
+          "article": "Corpus Christi International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "crw",
+          "article": "Yeager Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cuu",
+          "article": "Chihuahua International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cvg",
+          "article": "Cincinnati/Northern Kentucky International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "cwa",
+          "article": "Central Wisconsin Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "czm",
+          "article": "Cozumel International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "dab",
+          "article": "Daytona Beach International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "day",
+          "article": "Dayton International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "dca",
+          "article": "Ronald Reagan Washington National Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "den",
+          "article": "Denver International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "dfw",
+          "article": "Dallas Fort Worth International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "dom",
+          "article": "Douglas–Charles Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "dro",
+          "article": "Durango–La Plata County Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "dsm",
+          "article": "Des Moines International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "dtw",
+          "article": "Detroit Metropolitan Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ecp",
+          "article": "Northwest Florida Beaches International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ege",
+          "article": "Eagle County Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "eis",
+          "article": "Terrance B. Lettsome International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "elh",
+          "article": "North Eleuthera Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "elp",
+          "article": "El Paso International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "eri",
+          "article": "Erie International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "eug",
+          "article": "Eugene Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "evv",
+          "article": "Evansville Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ewn",
+          "article": "Coastal Carolina Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ewr",
+          "article": "Newark Liberty International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "eyw",
+          "article": "Key West International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "far",
+          "article": "Hector International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "fat",
+          "article": "Fresno Yosemite International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "fay",
+          "article": "Fayetteville Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "fca",
+          "article": "Glacier Park International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "flg",
+          "article": "Flagstaff Pulliam Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "flo",
+          "article": "Florence Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "fnt",
+          "article": "Bishop International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "fpo",
+          "article": "Grand Bahama International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "fsd",
+          "article": "Sioux Falls Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "fsm",
+          "article": "Fort Smith Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "fwa",
+          "article": "Fort Wayne International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "gck",
+          "article": "Garden City Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "gdl",
+          "article": "Guadalajara International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ggg",
+          "article": "East Texas Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ggt",
+          "article": "Exuma International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ghb",
+          "article": "Governor's Harbour Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "gjt",
+          "article": "Grand Junction Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "gnv",
+          "article": "Gainesville Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "gpt",
+          "article": "Gulfport–Biloxi International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "grb",
+          "article": "Green Bay–Austin Straubel International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "gri",
+          "article": "Central Nebraska Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "grk",
+          "article": "Killeen Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "grr",
+          "article": "Gerald R. Ford International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "gso",
+          "article": "Piedmont Triad International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "gsp",
+          "article": "Greenville–Spartanburg International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "gtr",
+          "article": "Golden Triangle Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "hdn",
+          "article": "Yampa Valley Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "hhh",
+          "article": "Hilton Head Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "hmo",
+          "article": "Hermosillo International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "hou",
+          "article": "William P. Hobby Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "hpn",
+          "article": "Westchester County Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "hrl",
+          "article": "Valley International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "hsv",
+          "article": "Huntsville International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "hts",
+          "article": "Tri-State Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "hux",
+          "article": "Bahías de Huatulco International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "hya",
+          "article": "Cape Cod Gateway Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "iad",
+          "article": "Dulles International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "iah",
+          "article": "George Bush Intercontinental Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ict",
+          "article": "Wichita Dwight D. Eisenhower National Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ida",
+          "article": "Idaho Falls Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ilm",
+          "article": "Wilmington International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ind",
+          "article": "Indianapolis International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "jac",
+          "article": "Jackson Hole Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "jan",
+          "article": "Jackson–Medgar Wiley Evers International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "jax",
+          "article": "Jacksonville International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "jfk",
+          "article": "John F. Kennedy International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lan",
+          "article": "Capital Region International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "law",
+          "article": "Lawton–Fort Sill Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lax",
+          "article": "Los Angeles International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lbb",
+          "article": "Lubbock Preston Smith International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lch",
+          "article": "Lake Charles Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lex",
+          "article": "Blue Grass Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lft",
+          "article": "Lafayette Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lga",
+          "article": "LaGuardia Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lit",
+          "article": "Clinton National Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lnk",
+          "article": "Lincoln Airport (Nebraska)",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lrd",
+          "article": "Laredo International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lse",
+          "article": "La Crosse Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lto",
+          "article": "Loreto International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lwb",
+          "article": "Greenbrier Valley Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "lyh",
+          "article": "Lynchburg Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "maf",
+          "article": "Midland International Air and Space Port",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mar",
+          "article": "La Chinita International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mci",
+          "article": "Kansas City International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mdt",
+          "article": "Harrisburg International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mem",
+          "article": "Memphis International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mfe",
+          "article": "McAllen Miller International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mfr",
+          "article": "Rogue Valley International–Medford Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mgm",
+          "article": "Montgomery Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mhh",
+          "article": "Marsh Harbour Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mhk",
+          "article": "Manhattan Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mht",
+          "article": "Manchester–Boston Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mia",
+          "article": "Miami International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mid",
+          "article": "Mérida International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mke",
+          "article": "Milwaukee Mitchell International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mlb",
+          "article": "Melbourne Orlando International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mli",
+          "article": "Quad Cities International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mlu",
+          "article": "Monroe Regional Airport (Louisiana)",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mqt",
+          "article": "Marquette Sawyer Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mry",
+          "article": "Monterey Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "msn",
+          "article": "Dane County Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mso",
+          "article": "Missoula Montana Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "msp",
+          "article": "Minneapolis–Saint Paul International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "msy",
+          "article": "Louis Armstrong New Orleans International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mty",
+          "article": "Monterrey International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mvy",
+          "article": "Martha's Vineyard Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "mwa",
+          "article": "Veterans Airport of Southern Illinois",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "myr",
+          "article": "Myrtle Beach International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "nas",
+          "article": "Lynden Pindling International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "oaj",
+          "article": "Albert J. Ellis Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ocj",
+          "article": "Ian Fleming International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "okc",
+          "article": "OKC Will Rogers International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "oma",
+          "article": "Eppley Airfield",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ont",
+          "article": "Ontario International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ord",
+          "article": "O'Hare International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "orf",
+          "article": "Norfolk International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "orh",
+          "article": "Worcester Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "pdx",
+          "article": "Portland International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "pgv",
+          "article": "Pitt–Greenville Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "phf",
+          "article": "Newport News/Williamsburg International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "phl",
+          "article": "Philadelphia International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "phx",
+          "article": "Phoenix Sky Harbor International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "pia",
+          "article": "Peoria International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "pit",
+          "article": "Pittsburgh International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "pns",
+          "article": "Pensacola International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "psc",
+          "article": "Tri-Cities Airport (Washington)",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "psp",
+          "article": "Palm Springs International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "pvd",
+          "article": "Rhode Island T. F. Green International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "pvr",
+          "article": "Licenciado Gustavo Díaz Ordaz International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "pvu",
+          "article": "Provo Municipal Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "pwm",
+          "article": "Portland International Jetport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "pxm",
+          "article": "Puerto Escondido International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "rap",
+          "article": "Rapid City Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "rdm",
+          "article": "Roberts Field",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "rdu",
+          "article": "Raleigh–Durham International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ric",
+          "article": "Richmond International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "rno",
+          "article": "Reno–Tahoe International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "roa",
+          "article": "Roanoke–Blacksburg Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "roc",
+          "article": "Greater Rochester International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "row",
+          "article": "Roswell International Air Center",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "rst",
+          "article": "Rochester International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "saf",
+          "article": "Santa Fe Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sat",
+          "article": "San Antonio International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sav",
+          "article": "Savannah/Hilton Head International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sba",
+          "article": "Santa Barbara Municipal Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sbn",
+          "article": "South Bend International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sbp",
+          "article": "San Luis Obispo County Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sby",
+          "article": "Salisbury Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sce",
+          "article": "State College Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sdf",
+          "article": "Louisville Muhammad Ali International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sea",
+          "article": "Seattle–Tacoma International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sfo",
+          "article": "San Francisco International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sgf",
+          "article": "Springfield–Branson National Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sgu",
+          "article": "St. George Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "shd",
+          "article": "Shenandoah Valley Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sjc",
+          "article": "San Jose International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sjt",
+          "article": "San Angelo Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "slc",
+          "article": "Salt Lake City International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "smf",
+          "article": "Sacramento International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "spi",
+          "article": "Abraham Lincoln Capital Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sps",
+          "article": "Wichita Falls Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "srq",
+          "article": "Sarasota–Bradenton International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "stl",
+          "article": "St. Louis Lambert International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sts",
+          "article": "Charles M. Schulz–Sonoma County Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "sun",
+          "article": "Friedman Memorial Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "swo",
+          "article": "Stillwater Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "syr",
+          "article": "Syracuse Hancock International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "tam",
+          "article": "Tampico International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "tlh",
+          "article": "Tallahassee International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "tpa",
+          "article": "Tampa International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "trc",
+          "article": "Torreón International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "tri",
+          "article": "Tri-Cities Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "tul",
+          "article": "Tulsa International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "tus",
+          "article": "Tucson International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "tvc",
+          "article": "Cherry Capital Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "txk",
+          "article": "Texarkana Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "tyr",
+          "article": "Tyler Pounds Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "tys",
+          "article": "McGhee Tyson Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "ver",
+          "article": "Veracruz International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "vps",
+          "article": "Destin–Fort Walton Beach Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "vrb",
+          "article": "Vero Beach Regional Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "xna",
+          "article": "Northwest Arkansas National Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "xsc",
+          "article": "Norman B. Saunders Sr. International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "yhz",
+          "article": "Halifax Stanfield International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "yqb",
+          "article": "Québec City Jean Lesage International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "yul",
+          "article": "Montréal–Trudeau International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "yum",
+          "article": "Yuma International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "yvr",
+          "article": "Vancouver International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "yyc",
+          "article": "Calgary International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "yyz",
+          "article": "Toronto Pearson International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "zcl",
+          "article": "Zacatecas International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "zih",
+          "article": "Ixtapa-Zihuatanejo International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        },
+        {
+          "airport": "zlo",
+          "article": "Playa de Oro International Airport",
+          "operator": "American Eagle",
+          "certificates": "mq/oh/pt/yx/oo"
+        }
+      ]
+    },
+    "operator_not_oneworld": {
+      "why": "The operator string resolves to no carrier in the 4(j) vocabulary. Recorded as distinct operator names with counts rather than one entry per destination: what a reviewer checks here is whether any of these names is really a member or an affiliate under another spelling, and the row-level detail adds nothing to that question.",
+      "count": 13905,
+      "distinctOperators": 866,
+      "operators": {
+        "United Airlines": 246,
+        "Delta Air Lines": 235,
+        "Turkish Airlines": 205,
+        "United Express": 188,
+        "Air France": 169,
+        "Lufthansa": 161,
+        "Delta Connection": 160,
+        "KLM": 143,
+        "Emirates": 141,
+        "Air Canada": 140,
+        "Scandinavian Airlines": 125,
+        "Transavia": 125,
+        "Eurowings": 124,
+        "Ryanair": 118,
+        "Southwest Airlines": 114,
+        "JetBlue": 113,
+        "Aegean Airlines": 110,
+        "easyJet": 110,
+        "Etihad Airways": 108,
+        "Wizz Air": 108,
+        "Austrian Airlines": 105,
+        "Norwegian Air Shuttle": 104,
+        "Air Arabia": 103,
+        "Ethiopian Airlines": 103,
+        "LOT Polish Airlines": 102,
+        "Swiss International Air Lines": 100,
+        "Allegiant Air": 98,
+        "Pegasus Airlines": 97,
+        "Vueling": 97,
+        "Aer Lingus": 89,
+        "Air China": 89,
+        "China Eastern Airlines": 89,
+        "WestJet": 89,
+        "Sun Country Airlines": 88,
+        "China Southern Airlines": 86,
+        "Frontier Airlines": 86,
+        "Saudia": 85,
+        "Jet2.com": 83,
+        "Korean Air": 83,
+        "Brussels Airlines": 82,
+        "3rdcoltitle = Refs": 80,
+        "Air Serbia": 80,
+        "Breeze Airways": 80,
+        "Luxair": 80,
+        "Condor": 78,
+        "Singapore Airlines": 78,
+        "Edelweiss Air": 76,
+        "Volotea": 76,
+        "Egyptair": 75,
+        "TAP Air Portugal": 75,
+        "Aeroméxico": 74,
+        "airBaltic": 74,
+        "ITA Airways": 72,
+        "TUI Airways": 72,
+        "Flydubai": 68,
+        "Smartwings": 67,
+        "All Nippon Airways": 65,
+        "Air Transat": 63,
+        "Flynas": 63,
+        "Copa Airlines": 61,
+        "Gulf Air": 61,
+        "Hainan Airlines": 61,
+        "SunExpress": 61,
+        "Air Cairo": 60,
+        "Neos": 60,
+        "Icelandair": 59,
+        "Thai Airways International": 59,
+        "AJet": 58,
+        "China Airlines": 58,
+        "Scoot": 58,
+        "Air Europa": 56,
+        "Kuwait Airways": 56,
+        "Volaris": 56,
+        "Jazeera Airways": 55,
+        "AirAsia": 54,
+        "EVA Air": 54,
+        "IndiGo": 54,
+        "TUI fly Belgium": 54,
+        "Discover Airlines": 53,
+        "Asiana Airlines": 52,
+        "Air India": 51,
+        "XiamenAir": 51,
+        "Batik Air Malaysia": 50,
+        "FlyOne": 48,
+        "Sichuan Airlines": 48,
+        "Viva": 48,
+        "VietJet Air": 47,
+        "Vietnam Airlines": 45,
+        "Juneyao Air": 44,
+        "SalamAir": 44,
+        "Air Algérie": 43,
+        "Avianca": 43,
+        "TUI fly Netherlands": 43,
+        "Corendon Airlines": 41,
+        "Sky Express": 41,
+        "Spring Airlines": 41,
+        "Shenzhen Airlines": 40,
+        "Azerbaijan Airlines": 39,
+        "El Al": 39,
+        "Philippine Airlines": 39,
+        "Thai AirAsia": 39,
+        "Uzbekistan Airways": 39,
+        "Air Canada Rouge": 38,
+        "Air Canada Express": 36,
+        "Porter Airlines": 36,
+        "Virgin Australia": 36,
+        "Aeroméxico Connect": 35,
+        "Binter Canarias": 35,
+        "Kenya Airways": 35,
+        "Thai Lion Air": 35,
+        "Tunisair": 35,
+        "Shanghai Airlines": 34,
+        "Air New Zealand": 32,
+        "Nouvelair": 32,
+        "Air India Express": 31,
+        "Avelo Airlines": 31,
+        "Aeroflot": 30,
+        "Air Dolomiti": 30,
+        "Animawings": 30,
+        "Beijing Capital Airlines": 30,
+        "Iraqi Airways": 30,
+        "Israir": 30,
+        "Starlux Airlines": 30,
+        "Avianca El Salvador": 29,
+        "Croatia Airlines": 29,
+        "Flyadeal": 29,
+        "flydubai": 29,
+        "Middle East Airlines": 29,
+        "Shandong Airlines": 29,
+        "T'way Air": 29,
+        "Virgin Atlantic": 29,
+        "Air Astana": 28,
+        "Belavia": 28,
+        "ASKY Airlines": 27,
+        "Cebu Pacific": 27,
+        "Hong Kong Airlines": 27,
+        "Jeju Air": 27,
+        "LATAM Brasil": 27,
+        "Tianjin Airlines": 27,
+        "9 Air": 26,
+        "Arkia": 26,
+        "Centrum Air": 26,
+        "HK Express": 26,
+        "Tigerair Taiwan": 26,
+        "Arajet": 25,
+        "Chongqing Airlines": 25,
+        "Sundor": 25,
+        "Thai VietJet Air": 25,
+        "TUI fly Deutschland": 25,
+        "Bulgaria Air": 24,
+        "Loong Air": 24,
+        "Sunclass Airlines": 24,
+        "ANA Wings": 23,
+        "Chengdu Airlines": 23,
+        "Enter Air": 23,
+        "Flair Airlines": 23,
+        "Lufthansa City Airlines": 23,
+        "Qingdao Airlines": 23,
+        "AirAsia X": 22,
+        "Freebird Airlines": 22,
+        "Garuda Indonesia": 22,
+        "Pakistan International Airlines": 22,
+        "Rex Airlines": 22,
+        "Air Côte d'Ivoire": 21,
+        "Air Macau": 21,
+        "Hawaiian Airlines": 21,
+        "KM Malta Airlines": 21,
+        "Nile Air": 21,
+        "Peach": 21,
+        "Biman Bangladesh Airlines": 20,
+        "Caribbean Airlines": 20,
+        "Contour Airlines": 20,
+        "Jin Air": 20,
+        "Lucky Air": 20,
+        "Royal Brunei Airlines": 20,
+        "SCAT Airlines": 20,
+        "Sunrise Airways": 20,
+        "TAROM": 20,
+        "Air Busan": 19,
+        "Eastar Jet": 19,
+        "HiSky": 19,
+        "Jetstar Japan": 19,
+        "LATAM Perú": 19,
+        "Qanot Sharq": 19,
+        "Widerøe": 19,
+        "Air Tanzania": 18,
+        "China United Airlines": 18,
+        "Corendon Dutch Airlines": 18,
+        "InterCaribbean Airways": 18,
+        "Marabu": 18,
+        "Myanmar Airways International": 18,
+        "Nesma Airlines": 18,
+        "RwandAir": 18,
+        "West Air": 18,
+        "Aeroitalia": 17,
+        "Akasa Air": 17,
+        "arkia": 17,
+        "Cyprus Airways": 17,
+        "Mahan Air": 17,
+        "S7 Airlines": 17,
+        "SkyUp Airlines": 17,
+        "Air Montenegro": 16,
+        "Avianca Costa Rica": 16,
+        "BermudAir": 16,
+        "China Express Airlines": 16,
+        "LATAM Chile": 16,
+        "Loganair": 16,
+        "Ruili Airlines": 16,
+        "SpiceJet": 16,
+        "World2Fly": 16,
+        "Air Peace": 15,
+        "Bluebird Airways": 15,
+        "Dan Air": 15,
+        "EasyJet": 15,
+        "Firefly": 15,
+        "FlyArystan": 15,
+        "Georgian Airways": 15,
+        "Hebei Airlines": 15,
+        "Red Wings Airlines": 15,
+        "Sky Alps": 15,
+        "Sky High": 15,
+        "Somon Air": 15,
+        "TAAG Angola Airlines": 15,
+        "Urumqi Air": 15,
+        "Wingo": 15,
+        "Air Senegal": 14,
+        "Azores Airlines": 14,
+        "Colorful Guizhou Airlines": 14,
+        "Donghai Airlines": 14,
+        "Fuji Dream Airlines": 14,
+        "Gol Linhas Aéreas": 14,
+        "Greater Bay Airlines": 14,
+        "Iran Airtour": 14,
+        "Kunming Airlines": 14,
+        "Riyadh Air": 14,
+        "Rossiya Airlines": 14,
+        "Syrian Air": 14,
+        "Uganda Airlines": 14,
+        "Ural Airlines": 14,
+        "Aerolíneas Argentinas": 13,
+        "Air Corsica": 13,
+        "Atlantic Airways": 13,
+        "Cambodia Airways": 13,
+        "Citilink": 13,
+        "Iberojet": 13,
+        "Iran Air": 13,
+        "Jiangxi Air": 13,
+        "Lion Air": 13,
+        "Norse Atlantic Airways": 13,
+        "Okay Airways": 13,
+        "South African Airways": 13,
+        "TransNusa": 13,
+        "US-Bangla Airlines": 13,
+        "Aero K": 12,
+        "Air Niugini": 12,
+        "Aurigny": 12,
+        "Bahamasair": 12,
+        "Batik Air": 12,
+        "Cape Air": 12,
+        "Chair Airlines": 12,
+        "Corsair International": 12,
+        "EgyptAir": 12,
+        "Fuzhou Airlines": 12,
+        "Indonesia AirAsia": 12,
+        "JSX": 12,
+        "Kam Air": 12,
+        "Lao Airlines": 12,
+        "Mexicana de Aviación": 12,
+        "Southwind Airlines": 12,
+        "Sundair": 12,
+        "Winair": 12,
+        "Zipair Tokyo": 12,
+        "Air Cambodia": 11,
+        "Air Mauritius": 11,
+        "Air Premia": 11,
+        "Airlink": 11,
+        "Caspian Airlines": 11,
+        "DAT": 11,
+        "Fly Cham": 11,
+        "Fly Jinnah": 11,
+        "GX Airlines": 11,
+        "LATAM Colombia": 11,
+        "LEAV Aviation": 11,
+        "Link Airways": 11,
+        "Nepal Airlines": 11,
+        "Turkmenistan Airlines": 11,
+        "TUS Airways": 11,
+        "Varesh Airlines": 11,
+        "Aerus": 10,
+        "AirBorneo": 10,
+        "ASL Airlines France": 10,
+        "azimuth": 10,
+        "Azul Brazilian Airlines": 10,
+        "Cayman Airways": 10,
+        "Fly Baghdad": 10,
+        "Himalaya Airlines": 10,
+        "Ibex Airlines": 10,
+        "MIAT Mongolian Airlines": 10,
+        "Qeshm Air": 10,
+        "Red Sea Airlines": 10,
+        "Sepehran Airlines": 10,
+        "SkyAlps": 10,
+        "Tibet Airlines": 10,
+        "TUI fly Nordic": 10,
+        "Twin Jet": 10,
+        "Afriqiyah Airways": 9,
+        "Air Do": 9,
+        "Air Seoul": 9,
+        "Airnorth": 9,
+        "Avianca Ecuador": 9,
+        "Cabo Verde Airlines": 9,
+        "FitsAir": 9,
+        "FlyErbil": 9,
+        "GetJet Airlines": 9,
+        "Maldivian": 9,
+        "Pelita Air": 9,
+        "Philippines AirAsia": 9,
+        "Skymark Airlines": 9,
+        "Solaseed Air": 9,
+        "Sun PhuQuoc Airways": 9,
+        "Super Air Jet": 9,
+        "Air Algerie": 8,
+        "Air Caraïbes": 8,
+        "Air Century": 8,
+        "Air Guilin": 8,
+        "Air Samarkand": 8,
+        "Air Seychelles": 8,
+        "Air Travel": 8,
+        "Aircalin": 8,
+        "AirSial": 8,
+        "Alliance Air": 8,
+        "AlMasria Universal Airlines": 8,
+        "Ariana Afghan Airlines": 8,
+        "ATA Airlines": 8,
+        "Avion Express": 8,
+        "Azur Air": 8,
+        "Bangkok Airways": 8,
+        "Boliviana de Aviación": 8,
+        "Drukair": 8,
+        "French Bee": 8,
+        "GP Aviation": 8,
+        "Iran Aseman Airlines": 8,
+        "JetSmart Chile": 8,
+        "Jordan Aviation": 8,
+        "LATAM Ecuador": 8,
+        "Libyan Airlines": 8,
+        "LJ Air": 8,
+        "Mandarin Airlines": 8,
+        "Mauritania Airlines": 8,
+        "Meraj Airlines": 8,
+        "National Jet Express": 8,
+        "Nordwind Airlines": 8,
+        "Suparna Airlines": 8,
+        "Taban Air": 8,
+        "Thai AirAsia X": 8,
+        "Virgin Australia Regional Airlines": 8,
+        "WestJet Encore": 8,
+        "Xizang Airlines": 8,
+        "Yemenia": 8,
+        "Aero Dili": 7,
+        "Air North": 7,
+        "Airblue": 7,
+        "BeOnd": 7,
+        "Berniq Airways": 7,
+        "Dalian Airlines": 7,
+        "Electra Airways": 7,
+        "FlySafair": 7,
+        "Helvetic Airways": 7,
+        "IrAero": 7,
+        "Jettime": 7,
+        "Kish Air": 7,
+        "Level": 7,
+        "Mavi Gök Airlines": 7,
+        "MedSky Airways": 7,
+        "Nok Air": 7,
+        "Olympic Air": 7,
+        "Pobeda": 7,
+        "Sky Angkor Airlines": 7,
+        "SkyUp": 7,
+        "Solomon Airlines": 7,
+        "Southern Airways Express": 7,
+        "Star Air": 7,
+        "StarFlyer": 7,
+        "Tradewind Aviation": 7,
+        "Volaris El Salvador": 7,
+        "Air Baltic": 6,
+        "Air Burkina": 6,
+        "Air Chang'an": 6,
+        "AirBaltic": 6,
+        "airHaifa": 6,
+        "Badr Airlines": 6,
+        "BH Air": 6,
+        "Bhutan Airlines": 6,
+        "BlueBird Airways": 6,
+        "Conviasa": 6,
+        "Denver Air Connection": 6,
+        "Fly Oya": 6,
+        "JetSmart Colombia": 6,
+        "LASER Airlines": 6,
+        "Malawi Airlines": 6,
+        "Nauru Airlines": 6,
+        "Nexus Airlines": 6,
+        "Parata Air": 6,
+        "Plus Ultra Líneas Aéreas": 6,
+        "Sky Airline": 6,
+        "Sriwijaya Air": 6,
+        "Surinam Airways": 6,
+        "TAG Airlines": 6,
+        "Utair": 6,
+        "Volaris Costa Rica": 6,
+        "Wings Air": 6,
+        "Z Air": 6,
+        "Zagros Airlines": 6,
+        "3rdcoltitle=": 5,
+        "3rdcoltitle=Refs": 5,
+        "Advanced Air": 5,
+        "Aero": 5,
+        "Aero Nomad Airlines": 5,
+        "Air Anka": 5,
+        "Air Congo": 5,
+        "Air Mediterranean": 5,
+        "Air Tahiti Nui": 5,
+        "Alaska Seaplanes": 5,
+        "AlbaStar": 5,
+        "Alexandria Airlines": 5,
+        "Avanti Air": 5,
+        "Avior Airlines": 5,
+        "Buzz": 5,
+        "Camair-Co": 5,
+        "Central Mountain Air": 5,
+        "Chalair Aviation": 5,
+        "flyadeal": 5,
+        "FlyLili": 5,
+        "FlyPelican": 5,
+        "Heston Airlines": 5,
+        "Hunnu Air": 5,
+        "JetSmart Argentina": 5,
+        "JetSmart Perú": 5,
+        "La Compagnie": 5,
+        "LAM Mozambique Airlines": 5,
+        "Liat20": 5,
+        "Marathon Airlines": 5,
+        "Northern Air": 5,
+        "PAL Express": 5,
+        "Pars Air": 5,
+        "Royal Air Philippines": 5,
+        "Shirak Avia": 5,
+        "Sky Airline Peru": 5,
+        "Skyline Express": 5,
+        "Skytrans Australia": 5,
+        "Smartwings Poland": 5,
+        "Sudan Airways": 5,
+        "TAR México": 5,
+        "Tarco Aviation": 5,
+        "UR Airlines": 5,
+        "UVT Aero": 5,
+        "ValueJet": 5,
+        "Western Air": 5,
+        "Zambia Airways": 5,
+        "3rdcoltitle =": 4,
+        "Aeroregional": 4,
+        "Africa World Airlines": 4,
+        "Afrijet": 4,
+        "Air Arabia Abu Dhabi": 4,
+        "Air Austral": 4,
+        "Air Botswana": 4,
+        "Air Sierra Leone": 4,
+        "Air Zimbabwe": 4,
+        "AirAsia Cambodia": 4,
+        "Airfast Indonesia": 4,
+        "AVA Airlines": 4,
+        "Azimuth": 4,
+        "Bamboo Airways": 4,
+        "CanaryFly": 4,
+        "CemAir": 4,
+        "Cubana de Aviación": 4,
+        "Eswatini Air": 4,
+        "Flamingo Air": 4,
+        "Fly Kish": 4,
+        "Fly Lili": 4,
+        "Fly91": 4,
+        "Ikar": 4,
+        "Israir Airlines": 4,
+        "Izhavia": 4,
+        "Karun Airlines": 4,
+        "Liat Air": 4,
+        "Libyan Wings": 4,
+        "NAM Air": 4,
+        "NordStar": 4,
+        "Oriental Air Bridge": 4,
+        "Peach Aviation": 4,
+        "Pouya Air": 4,
+        "RUTACA Airlines": 4,
+        "Ryukyu Air Commuter": 4,
+        "Severstal Avia": 4,
+        "Skippers Aviation": 4,
+        "Smartavia": 4,
+        "Spring Airlines Japan": 4,
+        "Spring Japan": 4,
+        "Sunday Airlines": 4,
+        "Trade Air": 4,
+        "Tropic Air": 4,
+        "Turpial Airlines": 4,
+        "Uni Air": 4,
+        "Venezolana": 4,
+        "Vietravel Airlines": 4,
+        "Yakutia Airlines": 4,
+        "Yamal Airlines": 4,
+        "Aéreo Servicio Guerrero": 3,
+        "Aero Contractors": 3,
+        "Aerolíneas Estelar": 3,
+        "Aerotucán": 3,
+        "Aerovega": 3,
+        "Air Arabia Maroc": 3,
+        "Air Chathams": 3,
+        "Air Greenland": 3,
+        "Air Haifa": 3,
+        "Air Horizont": 3,
+        "Amakusa Airlines": 3,
+        "Amelia International": 3,
+        "Anguilla Air Services": 3,
+        "Arik Air": 3,
+        "Asa Jet": 3,
+        "Buraq Air": 3,
+        "Cabo Flight Center": 3,
+        "Caicos Express Airways": 3,
+        "Cebgo": 3,
+        "Chabahar Airlines": 3,
+        "Clic": 3,
+        "Cronos Airlines": 3,
+        "Divi Divi Air": 3,
+        "Eastern Air Services": 3,
+        "European Air Charter": 3,
+        "Fastjet Zimbabwe": 3,
+        "Fly Kıbrıs Airlines": 3,
+        "Fly The Whale": 3,
+        "FlyOne Armenia": 3,
+        "FlyPersia": 3,
+        "FLYYO": 3,
+        "Ghadames Air Transport": 3,
+        "Grant Aviation": 3,
+        "GullivAir": 3,
+        "Jubba Airways": 3,
+        "LATAM Paraguay": 3,
+        "LIFT": 3,
+        "Mokulele Airlines": 3,
+        "Myanmar National Airlines": 3,
+        "Pacific Coastal Airlines": 3,
+        "Petroleum Air Services": 3,
+        "Pineapple Air": 3,
+        "PopulAir": 3,
+        "Proflight Zambia": 3,
+        "RED Air": 3,
+        "Saha Airlines": 3,
+        "Sansa Airlines": 3,
+        "SATENA": 3,
+        "Sky Mali": 3,
+        "Sky Vision Airlines": 3,
+        "Small Fly Airlines": 3,
+        "Southern Air Charter": 3,
+        "St Barth Commuter": 3,
+        "Susi Air": 3,
+        "Transair": 3,
+        "Travelcoup": 3,
+        "Tunisair Express": 3,
+        "Tus Airways": 3,
+        "United Nigeria Airlines": 3,
+        "Wright Air Service": 3,
+        "Yazd Airways": 3,
+        "Aero Mongolia": 2,
+        "Aerogaviota": 2,
+        "AfriJet": 2,
+        "Air Adelphi": 2,
+        "Air Changan": 2,
+        "Air Charter Scotland": 2,
+        "Air Djibouti": 2,
+        "Air Inuit": 2,
+        "Air Kiribati": 2,
+        "Air Saint-Pierre": 2,
+        "Air1Air": 2,
+        "Armenia Airways": 2,
+        "Asman Airlines": 2,
+        "Auric Air": 2,
+        "Aurora": 2,
+        "Avia Traffic Company": 2,
+        "Aviair": 2,
+        "Avianca Guatemala": 2,
+        "Azman Air": 2,
+        "Basra Airlines": 2,
+        "Bering Air": 2,
+        "Berjaya Air": 2,
+        "Boutique Air": 2,
+        "BrommaFLyg": 2,
+        "Buddha Air": 2,
+        "Canadian North": 2,
+        "CM Airlines": 2,
+        "Crown Airlines": 2,
+        "Daallo Airlines": 2,
+        "euroAtlantic Airways": 2,
+        "Fly All Ways": 2,
+        "FlyGabon": 2,
+        "FlyJaya": 2,
+        "Flykhiva": 2,
+        "Flyyo": 2,
+        "Freebird": 2,
+        "Freebird Airlines Europe": 2,
+        "Global Air": 2,
+        "GoTo Fly": 2,
+        "Grand China Air": 2,
+        "Harbour Air": 2,
+        "Hi Fly": 2,
+        "I-Fly": 2,
+        "Ibom Air": 2,
+        "Jambojet": 2,
+        "Jonair": 2,
+        "LATAM Peru": 2,
+        "Lulutai Airlines": 2,
+        "Luxwing": 2,
+        "Max Air": 2,
+        "Medavia": 2,
+        "Mission Aviation Fellowship": 2,
+        "Nantucket Airlines": 2,
+        "NyxAir": 2,
+        "Originair": 2,
+        "Pacific Airlines": 2,
+        "PAL Airlines": 2,
+        "Paranair": 2,
+        "Pascan Aviation": 2,
+        "People's": 2,
+        "PNG Air": 2,
+        "Precision Air": 2,
+        "Pyramids Airlines": 2,
+        "Raimon Airways": 2,
+        "Reliant Air": 2,
+        "RusLine": 2,
+        "Rutaca Airlines": 2,
+        "Rwandair": 2,
+        "SAS": 2,
+        "Serene Air": 2,
+        "SereneAir": 2,
+        "Sharp Airlines": 2,
+        "Sola Air": 2,
+        "Soroush Air": 2,
+        "South Air": 2,
+        "Sun Express": 2,
+        "Sunlight Air": 2,
+        "SVG Air": 2,
+        "Tailwind Airlines": 2,
+        "TezJet": 2,
+        "Toki Air": 2,
+        "Trans Air Congo": 2,
+        "Trans Anguilla Airways": 2,
+        "VI Airlink": 2,
+        "3rdcoltitle=Ref": 1,
+        "3rdcolunsortable=yes": 1,
+        "748 Air": 1,
+        "Aer Lingus Regional": 1,
+        "AeroCaribe": 1,
+        "AeroItalia": 1,
+        "Aerolineas Sosa": 1,
+        "Aerolíneas Sosa": 1,
+        "Aeromexico": 1,
+        "Air Arabia Egypt": 1,
+        "Air Astra": 1,
+        "Air Calédonie": 1,
+        "Air Calin": 1,
+        "Air Creebec": 1,
+        "Air Excursions": 1,
+        "Air Fiordland": 1,
+        "Air Fraser Island": 1,
+        "Air Kasaï": 1,
+        "Air Libya": 1,
+        "Air Link": 1,
+        "Air Milford": 1,
+        "Air Montreal=Aéroport International Montréal-Trudeau": 1,
+        "Air Mountain": 1,
+        "Air Panama": 1,
+        "Air Rarotonga": 1,
+        "Air Tahiti": 1,
+        "Air Tindi": 1,
+        "Air Uniqon": 1,
+        "Air Vanuatu": 1,
+        "Airidea": 1,
+        "Airseven": 1,
+        "AirSeven": 1,
+        "Albatros Airlines": 1,
+        "Aleutian Airways": 1,
+        "Alrosa": 1,
+        "Alsie Express": 1,
+        "ANA": 1,
+        "AnimaWings": 1,
+        "APG Airlines": 1,
+        "Armenian Airlines": 1,
+        "As Salaam Air": 1,
+        "ASKY": 1,
+        "ATSA Airlines": 1,
+        "Avianca Express": 1,
+        "Azul Conecta": 1,
+        "Azul Linhas Aéreas": 1,
+        "BAR Aviation Uganda": 1,
+        "Barrier Air": 1,
+        "BASe Airlines": 1,
+        "Belau Air": 1,
+        "beOnd": 1,
+        "Blade": 1,
+        "BMN Air": 1,
+        "CalvinAir Helicopters": 1,
+        "Camair-co": 1,
+        "Canadian Airways Congo": 1,
+        "Canaryfly": 1,
+        "Caroline Islands Air": 1,
+        "Cayman Airways Express": 1,
+        "CEIBA Intercontinental": 1,
+        "Ceiba Intercontinental Airlines": 1,
+        "China Flying Dragon Aviation": 1,
+        "class=wikitable style=width:150em": 1,
+        "Coastal Air": 1,
+        "Coastal Aviation": 1,
+        "Compagnie Africaine d'Aviation": 1,
+        "Congo Airways": 1,
+        "Copa Airlines Colombia": 1,
+        "Corendon Airlines Europe": 1,
+        "Corilair": 1,
+        "Costa Rica Green Airways": 1,
+        "Daily Air": 1,
+        "Delta Airlines": 1,
+        "Diamond Sky": 1,
+        "Discover": 1,
+        "Domestic Airlines": 1,
+        "Eastern Air Express": 1,
+        "ECAir": 1,
+        "Elysian Airlines": 1,
+        "Empire Airlines": 1,
+        "Enugu Air": 1,
+        "Etihad": 1,
+        "Everts Air": 1,
+        "Ewa Air": 1,
+        "EZY Airlines": 1,
+        "Finist'air": 1,
+        "Flightlink": 1,
+        "Flightlink Limited": 1,
+        "Fly Khiva": 1,
+        "Fly Tiwi": 1,
+        "Fly540": 1,
+        "FlyAden": 1,
+        "FlyBaghdad": 1,
+        "Flybondi": 1,
+        "FlyJordan": 1,
+        "FlyMontserrat": 1,
+        "FlyNamibia": 1,
+        "flynas": 1,
+        "Freedom Airline": 1,
+        "Freedom Airline Express": 1,
+        "Gianair": 1,
+        "Glacier Southern Lakes Helicopters": 1,
+        "Glenorchy Air": 1,
+        "Global Aviation": 1,
+        "Golden Bay Air": 1,
+        "Green Africa Airways": 1,
+        "Gulf Island Seaplanes": 1,
+        "Hai Au Aviation": 1,
+        "Havana Air": 1,
+        "Helijet": 1,
+        "HelloFly": 1,
+        "HelloJets": 1,
+        "Hibiscus Air": 1,
+        "Hinterland Aviation": 1,
+        "i-Fly Air": 1,
+        "International AirLink": 1,
+        "Iskwew Air": 1,
+        "Island Air Express": 1,
+        "Island Air Service": 1,
+        "Jet Time": 1,
+        "Kangala Air Express": 1,
+        "Katmai Air": 1,
+        "Kenmore Air": 1,
+        "KLM Cityhopper": 1,
+        "Kostroma Air Enterprise": 1,
+        "La Costeña": 1,
+        "LeAir": 1,
+        "LIAT20": 1,
+        "LOT": 1,
+        "Lucas Air": 1,
+        "Lufttransport": 1,
+        "Lygg": 1,
+        "LYGG": 1,
+        "Manta Air": 1,
+        "Maya Island Air": 1,
+        "Milford Flights": 1,
+        "Milford Sound Flightseeing": 1,
+        "Moçambique Expresso": 1,
+        "Monacair": 1,
+        "Mustique Airways": 1,
+        "Nasim Air": 1,
+        "Nationale Regionale Transport": 1,
+        "North Cariboo Air": 1,
+        "Nova Airways": 1,
+        "Novair": 1,
+        "Novoair": 1,
+        "Pacific Island Air": 1,
+        "Pacific Missionary Aviation": 1,
+        "Par Avion": 1,
+        "Passion Air": 1,
+        "Pel-Air": 1,
+        "Privilege Style": 1,
+        "Propair": 1,
+        "Regional Air Services": 1,
+        "Rossiya": 1,
+        "Royal Zambian Airlines": 1,
+        "Ryan Air": 1,
+        "Safarilink": 1,
+        "Salam Air": 1,
+        "Samoa Airways": 1,
+        "San Juan Airlines": 1,
+        "SASCA": 1,
+        "SATA Air Açores": 1,
+        "Saurya Airlines": 1,
+        "Seair Seaplanes": 1,
+        "SeaPort Airlines": 1,
+        "Shree Airlines": 1,
+        "Silk Avia": 1,
+        "Sita Air": 1,
+        "SKY": 1,
+        "SKY Express": 1,
+        "Sky FRU": 1,
+        "Sky Shuttle": 1,
+        "Skytrans": 1,
+        "Skyward Airlines": 1,
+        "SmartLynx Australia": 1,
+        "Smartwings Hungary": 1,
+        "Smartwings Slovakia": 1,
+        "Sounds Air": 1,
+        "Star Marianas Air": 1,
+        "Star Perú": 1,
+        "STP Airways": 1,
+        "SUM Air": 1,
+        "Summit Air": 1,
+        "Sunair": 1,
+        "Sunshine Coast Air": 1,
+        "Talofa Airways": 1,
+        "TAP Portugal": 1,
+        "TAR Aerolíneas": 1,
+        "Tropical Air": 1,
+        "True South Flights": 1,
+        "TUI France": 1,
+        "TUS": 1,
+        "Uep Fly": 1,
+        "United": 1,
+        "United Nations Humanitarian Air Service": 1,
+        "Universal Air": 1,
+        "Ur Airlines": 1,
+        "Västflyg": 1,
+        "Vieques Air Link": 1,
+        "Villa Air": 1,
+        "Vologda Aviation Enterprise": 1,
+        "Warbelow's Air Ventures": 1,
+        "Ward Air": 1,
+        "West Air (China)": 1,
+        "WesternAir": 1,
+        "Westjet": 1,
+        "World Atlantic Airlines": 1,
+        "World2fly": 1,
+        "Yeti Airlines": 1,
+        "Yute Commuter Service": 1,
+        "ZanAir": 1,
+        "ZEESM": 1
+      }
+    },
+    "operator_unparsed": {
+      "why": "The operator cell held no name at all: an empty cell, or nothing left after the refs and templates were stripped.",
+      "count": 1,
+      "entries": [
+        {
+          "airport": "cph",
+          "article": "Copenhagen Airport",
+          "operator": ""
+        }
+      ]
+    },
+    "run_label_unrecognised": {
+      "why": "A bolded label split the cell into a run this parser does not understand. The destinations after it are refused rather than filed under a guessed season.",
+      "count": 0,
+      "entries": []
+    },
+    "service_suspended": {
+      "why": "The article marks the destination suspended. Not currently flyable, and no date to record.",
+      "count": 5,
+      "entries": [
+        {
+          "airport": "dxb",
+          "article": "Dubai International Airport",
+          "carrier": "ay",
+          "to": "hel",
+          "target": "Helsinki Airport"
+        },
+        {
+          "airport": "mia",
+          "article": "Miami International Airport",
+          "carrier": "aa",
+          "to": "pap",
+          "target": "Toussaint Louverture International Airport"
+        },
+        {
+          "airport": "pap",
+          "article": "Toussaint Louverture International Airport",
+          "carrier": "aa",
+          "to": "mia",
+          "target": "Miami International Airport"
+        },
+        {
+          "airport": "tlv",
+          "article": "Ben Gurion Airport",
+          "carrier": "aa",
+          "to": "jfk",
+          "target": "John F. Kennedy International Airport"
+        },
+        {
+          "airport": "tlv",
+          "article": "Ben Gurion Airport",
+          "carrier": "i2",
+          "to": "mad",
+          "target": "Adolfo Suárez Madrid–Barajas Airport"
+        }
+      ]
+    },
+    "window_date_unparsed": {
+      "why": "A \"begins\" or \"ends\" annotation whose date could not be written as ISO 8601 -- usually a month and a year with no day. Both the window and the current-service fact are withheld: the sector is either not flying yet or about to stop.",
+      "count": 3,
+      "entries": [
+        {
+          "airport": "ala",
+          "article": "Almaty International Airport",
+          "carrier": "cx",
+          "to": "hkg",
+          "detail": "(begins Q1 2027)"
+        },
+        {
+          "airport": "tlv",
+          "article": "Ben Gurion Airport",
+          "carrier": "ba",
+          "to": "lhr",
+          "detail": "(resumes )"
+        },
+        {
+          "airport": "tmp",
+          "article": "Tampere–Pirkkala Airport",
+          "carrier": "ay",
+          "to": "hel",
+          "detail": "(resumes October 2026)"
+        }
+      ]
+    }
+  }
+}

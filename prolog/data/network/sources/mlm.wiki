@@ -1,0 +1,53 @@
+==Airlines and destinations==
+[[File:Airbus A320Neo and Airbus A320 of Volaris line up at Morelia Airport tarmac..jpg|alt=|thumb|[[Volaris]] is the largest operator at Morelia International Airport]]
+
+===Passenger===
+{{Airport-dest-list|
+{{nowrap|[[Aeroméxico Connect]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+|[[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+|[[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+|[[Viva (airline)|Viva]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Monterrey International Airport|Monterrey]], [[Tijuana International Airport|Tijuana]]
+|[[Volaris]] | [[Cancún International Airport|Cancún]], [[Midway International Airport|Chicago–Midway]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Fresno Yosemite International Airport|Fresno]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Ixtapa-Zihuatanejo International Airport|Ixtapa/Zihuatanejo]], [[Los Angeles International Airport|Los Angeles]], [[Mexicali International Airport|Mexicali]], [[Monterrey International Airport|Monterrey]], [[Oakland San Francisco Bay Airport|Oakland]], [[Ontario International Airport|Ontario (CA)]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Sacramento International Airport|Sacramento]], [[San Antonio International Airport|San Antonio]], [[San Jose International Airport|San Jose (CA)]],  [[Tijuana International Airport|Tijuana]]
+}}
+[[File:Morelia Airport Check-In.jpg|thumb|Check-in area]]
+[[File:Morelia Airport Departures.jpg|thumb|Departures concourse]]
+[[File:American N833AW A319-132 MLM.jpg|thumb|[[American Airlines]] [[Airbus A320 family|Airbus A319-132]] (N833AW) at MLM]]
+[[File:United Express by Mesa Airlines N86309 ERJ175LR.jpg|thumb|[[United Express]] [[Embraer E-Jet family|ERJ-175LR]] (N86309) at MLM]]
+[[File:A Volaris A319 and an Aeromexico Connect Embraer 170 at Morelia International Airport tarmac..jpg|alt=|thumb|[[Volaris]] [[Airbus A320 Family#Airbus A319|A319-133]] (XA-VOQ) and [[Aeroméxico Connect|Aeromexico Connect]] [[Embraer E-Jet family|ERJ-170STD]] with [[SkyTeam]] [[Aircraft livery|livery]] (XA-ACV) parked at the gates.]]
+[[File:2X A320-271N XA-VRH and XA-VIT at MLM.jpg|thumb|[[Volaris]] [[Airbus A320neo family|A320-271N]] (XA-VRH) and [[Viva (airline)|Viva]] [[Airbus A320neo family|A320-271N]] (XA-VIT)  at MLM]]
+[[File:A320-271N XA-VRH at MLM.jpg|thumb|[[Volaris]] [[Airbus A320neo family|A320-271N]] (XA-VRH) at MLM]]
+[[File:Volaris A319 at Morelia International Airport DSC 0589 AD.JPG|thumb|[[Volaris]] [[Airbus A320 Family#Airbus A319|A319-133]] (XA-VOE) at MLM]]
+[[File:Morelia International Airport DSC 0585 AD.JPG|thumb|Airport before renovations.]]
+
+===Destinations map===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+|{{Location map+ |Mexico |width=650 |float=right
+|caption=Domestic destinations from Morelia International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination
+|places=
+{{Location map~ | Mexico |lat=19.510 |long=-101.0132 |position=top|label=<div style="position:relative; top:10px;"><small>'''Morelia'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.7778 |long=-100.1080|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=21.0417 |long=-86.8740|position=left|label='''[[Cancún International Airport|{{nowrap|Cancún}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=17.6062 |long=-101.4637|position=bottom|label='''[[Ixtapa-Zihuatanejo International Airport|{{nowrap|Ixtapa/Zihuatanejo}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.6306 |long=-115.242|position=right|label='''[[Mexicali International Airport|{{nowrap|Mexicali}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.6805 |long=-105.2524|position=left|label='''[[Licenciado Gustavo Díaz Ordaz International Airport|{{nowrap|Puerto Vallarta}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=bottom|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+ |United States |width=650 |float=center
+|caption=International destinations from Morelia International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination
+|places=
+{{Location map~ |United_States |lat=33.9416|long=-118.4085|position=bottom|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=37.7126|long=-122.2197|position=right|label='''<small>[[Oakland San Francisco Bay Airport|{{nowrap|Oakland}}]]</small>'''|label_size=100|marksize=7 }}
+{{Location map~ |United_States |lat=37.3639|long=-121.9289|position=bottom|label='''<small>[[San Jose International Airport|San Jose]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=36.4636|long=-119.4308|position=bottom|label='''<small>[[Fresno Yosemite International Airport|Fresno]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424|position=left |label='''<small>{{nowrap|[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]}}</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=29.990140|long=-95.336792 |position=under|label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=41.974186|long=-87.907783|position=left|label='''<small>[[O'Hare International Airport|Chicago–O'Hare]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=41.4710|long=-87.4509|position=right|label='''<small>[[Midway International Airport|Chicago–Midway]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United States |lat=34.056111|long=-117.601111|position=right|label='''<small>[[Ontario International Airport|Ontario]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United States |lat=38.695556|long=-121.590833|position=right|label='''<small>[[Sacramento International Airport|Sacramento]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United States |lat=29.526667|long=-98.471944|position=bottom|label='''<small>[[San Antonio International Airport|{{nowrap|San Antonio}}]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

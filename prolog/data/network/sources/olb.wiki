@@ -1,0 +1,75 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. Aeroroutes is not a reliable source and should not be used.-->
+
+The following airlines operate regular scheduled and charter flights to and from Olbia:
+
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal:''' [[Athens International Airport|Athens]]
+<!-- -->
+| [[Aeroitalia]] | [[Linate Airport|Milan–Linate]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]]<br>'''Seasonal:''' [[Cuneo International Airport|Cuneo]] (begins 16 June 2026), [[Genoa Cristoforo Colombo Airport|Genoa]], [[Parma Airport|Parma]], [[Perugia Airport|Perugia]]
+<!-- -->
+| [[Air Corsica]] | '''Seasonal:''' [[Figari–Sud Corse Airport|Figari]]
+<!-- -->
+| [[Air Dolomiti]] | '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| [[Air France]] | '''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[airBaltic]] | '''Seasonal:''' [[Riga International Airport|Riga]]
+<!-- -->
+| [[Animawings]] | '''Seasonal:''' [[Cluj International Airport|Cluj-Napoca]], [[Timișoara Traian Vuia International Airport|Timișoara]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[London City Airport|London–City]], [[Heathrow Airport|London–Heathrow]], [[Stansted Airport|London–Stansted]]
+<!-- -->
+| [[Bulgaria Air]] | '''Seasonal charter:''' [[Sofia Airport|Sofia]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Delta Air Lines]] | '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[easyJet]] | [[Milan Malpensa Airport|Milan–Malpensa]] <br> '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Berlin Brandenburg Airport|Berlin]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Geneva Airport|Geneva]], [[Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Nantes Atlantique Airport|Nantes]], [[Naples International Airport|Naples]], [[Nice Côte d'Azur Airport|Nice]], [[Orly Airport|Paris–Orly]], [[Zürich Airport|Zürich]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zürich Airport|Zürich]]
+<!-- -->
+| [[Enter Air]] | '''Seasonal:''' [[Palermo Airport|Palermo]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]] (begins 28 June 2026), [[Cologne Bonn Airport|Cologne/Bonn]], [[Düsseldorf Airport|Düsseldorf]], [[Graz Airport|Graz]], [[Hamburg Airport|Hamburg]], [[Hannover Airport|Hannover]], [[Salzburg Airport|Salzburg]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[flydubai]]| [[Dubai International Airport|Dubai]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[ITA Airways]] |'''Seasonal:''' [[Genoa Cristoforo Colombo Airport|Genoa]],[[Turin Airport|Turin]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Lufthansa]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Marabu (airline)|Marabu]] | '''Seasonal:''' [[Nuremberg Airport|Nuremberg]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:''' [[Bologna Guglielmo Marconi Airport|Bologna]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| [[Norwegian Air Shuttle]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Ryanair]]| [[Bologna Airport|Bologna]], [[Bergamo Airport|Milan-Bergamo]], [[Trieste Airport|Trieste]] <br>'''Seasonal:'''  [[Charleroi Airport|Brussels-Charleroi]], [[Copenhagen Airport|Copenhagen]], [[Dublin Airport|Dublin]], [[Kraków John Paul II International Airport|Kraków]], [[London Stansted Airport|London–Stansted]], [[Beauvais–Tillé Airport|Paris-Beauvais]], [[Vienna Airport|Vienna]]
+<!-- -->
+| [[Scandinavian Airlines]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[SkyAlps]] | '''Seasonal:''' [[Bolzano Airport|Bolzano]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal:''' [[Václav Havel Airport Prague|Prague]] <br>'''Seasonal charter:''' [[Bratislava Airport|Bratislava]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | '''Seasonal:''' [[Geneva Airport|Geneva]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Eindhoven Airport|Eindhoven]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Volotea]] | [[Bologna Guglielmo Marconi Airport|Bologna]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Turin Airport|Turin]], [[Verona Villafranca Airport|Verona]] <br>'''Seasonal:''' [[Marche Airport|Ancona]], [[Barcelona Airport|Barcelona]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Brest Bretagne Airport|Brest]], [[Deauville – Normandie Airport|Deauville]], [[Florence Airport|Florence]], [[Lille Airport|Lille]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Madrid Airport|Madrid]], [[Marseille Airport|Marseille]], [[Orio al Serio International Airport|Milan-Bergamo]], [[Nantes Atlantique Airport|Nantes]], [[Naples International Airport|Naples]], [[Orly Airport|Paris–Orly]], [[Pisa Airport|Pisa]], [[Seville Airport|Seville]], [[Strasbourg Airport|Strasbourg]], [[Toulouse Airport|Toulouse]], [[Venice Marco Polo Airport|Venice]]
+<!-- -->
+| [[Vueling]] | '''Seasonal:''' [[Barcelona Airport|Barcelona]]
+<!-- -->
+| [[Wizz Air]] | '''Seasonal:''' [[Milan Malpensa Airport|Milan–Malpensa]], [[Rome Ciampino Airport|Rome–Ciampino]], [[Warsaw Chopin Airport|Warsaw-Chopin]]
+}}

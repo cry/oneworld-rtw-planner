@@ -1,0 +1,29 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Paderborn Lippstadt Airport:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO, ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal charter:''' [[Rhodes International Airport|Rhodes]]
+<!-- -->
+| [[Air Cairo]] | '''Seasonal:''' [[Hurghada International Airport|Hurghada]]
+<!-- -->
+| [[Air Nostrum]] | '''Seasonal charter:''' [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| {{nowrap|[[Corendon Airlines]]}} | [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| {{nowrap|[[Freebird Airlines Europe]]}} | '''Seasonal charter:''' [[Antalya Airport|Antalya]], [[Fuerteventura Airport|Fuerteventura]], [[Gran Canaria Airport|Gran Canaria]], [[Hurghada International Airport|Hurghada]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Pegasus Airlines]] | '''Seasonal:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Ryanair]] | '''Seasonal:''' [[Alicante Airport|Alicante]], [[Málaga Airport|Málaga]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[SunExpress]] | [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Trade Air]] | '''Charter:''' [[Pristina International Airport|Pristina]]
+<!-- -->
+}}
+
+The nearest larger international airport is [[Düsseldorf Airport]] approx. {{convert|147|km|mi}} to the south west.

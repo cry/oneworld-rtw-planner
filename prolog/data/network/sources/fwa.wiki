@@ -1,0 +1,38 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list 
+| [[Allegiant Air]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Mesa Gateway Airport|Phoenix/Mesa]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] <br />'''Seasonal:''' [[Harry Reid International Airport|Las Vegas]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Sarasota–Bradenton International Airport|Sarasota]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] 
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]]  
+<!-- -->
+}}
+
+===Destination map===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Fort Wayne International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue}} = Future destination
+|places=
+{{Location map~ |United_States |lat=40.9829|long=-85.1884|position=right|label='''<small>Fort Wayne</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15}}
+{{Location map~ |United_States |lat=28.775502|long=-81.243443|position=right|label='''<small>[[Orlando Sanford International Airport|Orlando/Sanford]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=27.906783|long=-82.691860|position=left|label='''<small>[[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=26.915976|long=-81.997713|position=right |label='''<small>[[Punta Gorda Airport (Florida)|Punta Gorda]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=41.974186|long=-87.907783|position=left|label='''<small>[[O'Hare International Airport|Chicago–O'Hare]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=33.3072|long=-111.6689|position=right |label='''<small>[[Mesa Gateway Airport|Phoenix-Mesa]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |mark = Green pog.svg |United_States |lat=27.3951|long=-82.5538|position=right|label='''<small>[[Sarasota–Bradenton International Airport|Sarasota]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=33.679722 |long= -78.928333 |position=right |label=<small>'''{{nowrap|[[Myrtle Beach International Airport|Myrtle Beach]]}}'''</small>|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=35.213889 |long=-80.943056 |position=left |label=<small>'''{{nowrap|[[Charlotte Douglas International Airport|Charlotte]]}}'''</small>|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=left |label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>''' |label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=44.884690|long=-93.222430|position=left|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |mark = Green pog.svg |United_States |lat=36.083697|long=-115.153873|position=right|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |mark = Red pog.svg |United_States|lat=42.2125|long=-83.353333|position=left|label='''<small>[[Detroit Metropolitan Airport|Detroit]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |mark = Red pog.svg |United_States |lat=26.073989|long=-80.150725|position=right|label='''<small>{{nowrap|[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]}}</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

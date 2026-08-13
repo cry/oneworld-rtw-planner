@@ -1,0 +1,34 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Karpathos Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{airport-dest-list
+<!-- -->
+|[[Air Haifa]]|'''Seasonal:''' [[Uri Michaeli Haifa International Airport|Haifa]]
+<!-- -->
+|[[Arkia]]|[[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+|[[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+|[[Eurowings]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf ]], [[Graz Airport|Graz]], [[Innsbruck Airport|Innsbruck]], [[Salzburg Airport|Salzburg]]
+<!-- -->
+| [[Finnair]] | '''Seasonal charter:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[GoTo Fly]] | '''Seasonal:''' [[Forlì Airport|Forlì]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:'''  [[Bologna Guglielmo Marconi Airport|Bologna]], [[Orio al Serio International Airport|Milan-Bergamo]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| [[Olympic Air]] | [[Athens International Airport|Athens]], [[Kassos Island Public Airport|Kasos]], [[Rhodes International Airport|Rhodes]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | '''Seasonal:''' [[Oslo Gardermoen Airport|Oslo]]
+<!-- -->
+| [[Sky Express (Greece)|Sky Express]] | [[Athens International Airport|Athens]], [[Rhodes International Airport|Rhodes]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal:''' [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[TUI fly Nordic]]|'''Seasonal charter:''' [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Naples Airport|Naples]], [[Venice Marco Polo Airport|Venice]], [[Verona Villafranca Airport|Verona]] (begins 5 August 2026)
+<!-- -->
+}}

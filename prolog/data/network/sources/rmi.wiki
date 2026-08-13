@@ -1,0 +1,21 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights at Fellini Airport:
+
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[British Airways]]}} | '''Seasonal:''' [[London–Heathrow]]{{cn|date=June 2026}}
+<!-- -->
+| [[easyJet]] | '''Seasonal:''' [[Basel Airport|Basel/Mulhouse]],{{cn|date=June 2026}} [[London–Gatwick]]{{cn|date=June 2026}}
+<!-- -->
+| [[GetJet Airlines]] | '''Seasonal charter:''' [[Vilnius Airport|Vilnius]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:''' [[Marsa Matruh International Airport|Marsa Matruh]],{{cn|date=June 2026}} [[Sharm El Sheikh International Airport|Sharm El Sheikh]]{{cn|date=June 2026}}
+<!-- -->
+| [[Ryanair]] | [[Cagliari Elmas Airport|Cagliari]], [[Catania Airport|Catania]],  [[Tirana International Airport Nënë Tereza|Tirana]] (begins 25 October 2026) <br> '''Seasonal:''' [[Budapest Ferenc Liszt International Airport|Budapest]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Kaunas Airport|Kaunas]], [[Kraków John Paul II International Airport|Kraków]], [[London–Stansted]], [[Manchester Airport|Manchester]], [[Palermo International Airport|Palermo]], [[Prague International Airport|Prague]],{{cn|date=June 2026}} [[Vienna International Airport|Vienna]], [[Wrocław Airport|Wrocław]]
+<!-- -->
+|[[Wizz Air]] | [[Tirana International Airport Nënë Tereza|Tirana]] <br/> '''Seasonal:''' [[Budapest Airport|Budapest]], [[Chișinău Eugen Doga International Airport|Chișinău]], [[Katowice Airport|Katowice]], [[Sofia Airport|Sofia]]
+<!-- -->
+}}

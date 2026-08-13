@@ -1,0 +1,23 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Kuusamo Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[airBaltic]] |'''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]] (begins 12 December 2026), [[Hamburg Airport|Hamburg]] (begins 12 December 2026),  [[Gatwick Airport|London–Gatwick]] (begins 13 December 2026), [[Manchester Airport|Manchester]] (begins 13 December 2026), [[Riga Airport|Riga]] (begins 11 December 2026)
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zürich Airport|Zürich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]] (begins 20 December 2026), [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+|[[Finnair]]| [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal charter:''' [[Manchester Airport|Manchester]]
+<!-- -->
+|[[Lufthansa]]| '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+|[[Transavia]] | '''Seasonal:''' [[Rotterdam The Hague Airport|Rotterdam]]
+<!-- -->
+|[[TUI Airways]]| '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]]
+<!-- -->
+|{{nowrap|[[TUI fly Netherlands]]}}| '''Seasonal:''' [[Rotterdam The Hague Airport|Rotterdam]]
+<!-- -->
+}}

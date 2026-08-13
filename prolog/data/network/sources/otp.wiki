@@ -1,0 +1,87 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines operate regular scheduled and charter flights at Bucharest Henri Coandă Airport:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO, ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[airBaltic]] | [[Riga International Airport|Riga]]
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]] (begins 4 September 2026), [[Zagreb Airport|Zagreb]] (begins 4 September 2026)
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]]
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]]
+<!-- -->
+| [[Animawings]] | [[Cluj International Airport|Cluj-Napoca]], [[Geneva Airport|Geneva]], [[Iași International Airport|Iași]], [[Istanbul Airport|Istanbul]], [[Gatwick Airport|London–Gatwick]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Munich Airport|Munich]], [[Oradea International Airport|Oradea]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Václav Havel Airport Prague|Prague]], [[Rotterdam The Hague Airport|Rotterdam]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Strasbourg Airport|Strasbourg]] (begins 17 August 2026), [[Ben Gurion International Airport|Tel Aviv]], [[Timișoara Traian Vuia International Airport|Timișoara]]<br /> '''Seasonal:''' [[Antalya Airport|Antalya]], [[Chania International Airport|Chania]], [[Corfu International Airport|Corfu]], [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Heraklion International Airport "Nikos Kazantzakis"|Heraklion]], [[Ibiza Airport|Ibiza]], [[Kefalonia International Airport|Kefalonia]], [[Larnaca International Airport|Larnaca]], [[Nice Côte d'Azur Airport|Nice]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Rhodes International Airport|Rhodes]], [[Thessaloniki International Airport|Thessaloniki]], [[Zakynthos International Airport|Zakynthos]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | [[London Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Dan Air (Romania)|Dan Air]] | [[Aleppo International Airport|Aleppo]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Damascus International Airport|Damascus]], [[Dublin Airport|Dublin]], [[Larnaca International Airport|Larnaca]], [[Tbilisi International Airport|Tbilisi]], [[Valencia Airport|Valencia]], [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| [[El Al]] | [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]] (begins 21 December 2026)
+<!-- -->
+| [[Eurowings]] | [[Düsseldorf Airport|Düsseldorf]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[FlyOne]] | [[Brussels Airport|Brussels]], [[Luton Airport|London–Luton]], [[Ben Gurion International Airport|Tel Aviv]]
+<!-- -->
+| [[HiSky]] | [[Barcelona-El Prat International Airport|Barcelona]], [[Brussels International Airport|Brussels]], [[Chișinău International Airport|Chișinău]], [[Cluj International Airport|Cluj-Napoca]], [[Dublin Airport|Dublin]], [[Frankfurt Airport|Frankfurt]], [[John F. Kennedy International Airport|New York–JFK]], [[Oradea International Airport|Oradea]], [[Paris-Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Timișoara Traian Vuia International Airport|Timișoara]], [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Madrid Airport|Madrid]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Lufthansa City Airlines]] | [[Munich Airport|Munich]]
+<!-- -->
+| [[Luxair]] | [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Norwegian Air Shuttle]] | [[Helsinki-Vantaa Airport|Helsinki]], [[Oslo Airport, Gardermoen|Oslo]] <br />'''Seasonal:'''  [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Ryanair]] | [[Queen Alia International Airport|Amman–Queen Alia]], [[Beauvais–Tillé Airport|Beauvais]], [[Milan Bergamo Airport|Bergamo]], [[Berlin Brandenburg Airport|Berlin]], [[Birmingham Airport|Birmingham]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Bristol Airport|Bristol]], [[Catania–Fontanarossa Airport|Catania]], [[Brussels South Charleroi Airport|Charleroi]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Lamezia Terme International Airport|Lamezia Terme]], [[Leeds Bradford Airport|Leeds/Bradford]], [[London Stansted Airport|London–Stansted]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Malta International Airport|Malta]], [[Manchester Airport|Manchester]], [[Marseille Provence Airport|Marseille]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Naples International Airport|Naples]], [[Palermo Airport|Palermo]], [[Paphos International Airport|Paphos]], [[Pescara Airport|Pescara]], [[Pisa International Airport|Pisa]], [[Rome Ciampino Airport|Rome–Ciampino]], [[Ben Gurion Airport|Tel Aviv]], [[Thessaloniki International Airport|Thessaloniki]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Treviso Airport|Treviso]], [[Vienna Airport|Vienna]] <br />'''Seasonal:''' [[Chania International Airport|Chania]], [[Corfu International Airport|Corfu]], [[Genoa Cristoforo Colombo Airport|Genoa]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Perugia San Francesco d'Assisi – Umbria International Airport|Perugia]], [[Skiathos International Airport|Skiathos]], [[Zadar Airport|Zadar]]
+<!-- -->
+| [[SkyUp Airlines]] | '''Seasonal:''' [[Larnaca International Airport|Larnaca]]
+<!-- -->
+| [[Smartwings]] | [[Václav Havel Airport Prague|Prague]] (resumes 3 September 2026)
+<!-- -->
+| [[SunExpress]] | [[Antalya Airport|Antalya]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zurich Airport|Zurich]]
+<!-- -->
+| [[TAROM]] | [[Queen Alia International Airport|Amman–Queen Alia]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Athens International Airport|Athens]], [[Baia Mare Airport|Baia Mare]], [[Beirut–Rafic Hariri International Airport|Beirut]], [[Belgrade Nikola Tesla Airport|Belgrade]], [[Brussels Airport|Brussels]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Cairo International Airport|Cairo]], [[Chișinău International Airport|Chișinău]], [[Cluj-Napoca International Airport|Cluj-Napoca]], [[Frankfurt Airport|Frankfurt]], [[Iași International Airport|Iași]], [[Istanbul Airport|Istanbul]], [[Madrid Barajas Airport|Madrid]], [[Nice Côte d'Azur Airport|Nice]], [[Oradea International Airport|Oradea]], [[Paris Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Prague Václav Havel Airport|Prague]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Sofia Airport|Sofia]], [[Suceava International Airport|Suceava]], [[Timișoara Traian Vuia International Airport|Timișoara]], [[Ben Gurion Airport|Tel Aviv]], [[Thessaloniki International Airport|Thessaloniki]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Wizz Air]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Almería Airport|Almeria]] (begins 26 October 2026), [[Athens International Airport|Athens]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bari Karol Wojtyła Airport|Bari]], [[Beauvais–Tillé Airport|Beauvais]], [[Berlin Brandenburg Airport|Berlin]], [[Billund Airport|Billund]], [[Birmingham Airport|Birmingham]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Bordeaux Airport|Bordeaux]], [[Brindisi Airport|Brindisi]], [[Castellón–Costa Azahar Airport|Castellón]], [[Catania–Fontanarossa Airport|Catania]], [[Brussels South Charleroi Airport|Charleroi]], [[Chișinău International Airport|Chișinău]], [[Cologne Bonn Airport|Cologne]], [[Copenhagen Airport|Copenhagen]], [[Dortmund Airport|Dortmund]], [[Dubai International Airport|Dubai–International]], [[Eindhoven Airport|Eindhoven]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Gran Canaria Airport|Gran Canaria]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Humberto Delgado Airport|Lisbon]], [[Liverpool John Lennon Airport|Liverpool]], [[Luton Airport|London–Luton]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Malta International Airport|Malta]], [[Nice Côte d'Azur Airport|Nice]], [[Nuremberg Airport|Nuremberg]], [[Abruzzo Airport|Pescara]] (ends 24 October 2026), [[Pisa International Airport|Pisa]], [[Francisco Sá Carneiro Airport|Porto]], [[Prague Airport|Prague]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Sandefjord Airport, Torp|Sandefjord]], [[Santander Airport|Santander]], [[Seville Airport|Seville]], [[Stuttgart Airport|Stuttgart]], [[Ben Gurion Airport|Tel Aviv]], [[Tenerife–South Airport|Tenerife–South]], [[Treviso Airport|Treviso]], [[Turin Airport|Turin]], [[Turku Airport|Turku]], [[Valencia Airport|Valencia]], [[Zvartnots International Airport|Yerevan]], [[Zaragoza Airport|Zaragoza]] <br /> '''Seasonal:''' [[Alghero–Fertilia Airport|Alghero]], [[Antalya Airport|Antalya]], [[Corfu International Airport|Corfu]], [[Faro Airport|Faro]], [[Dubrovnik Airport|Dubrovnik]], [[Heraklion International Airport|Heraklion]], [[Kefalonia International Airport|Kefalonia]], [[Marrakesh Menara Airport|Marrakesh]], [[Mykonos Airport|Mykonos]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Santorini International Airport|Santorini]], [[Zakynthos International Airport|Zakynthos]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[DHL Aviation]] | [[Leipzig/Halle Airport|Leipzig/Halle]], [[Milan Malpensa Airport|Milan–Malpensa]]
+<!-- -->
+| [[Saudia Cargo]] | [[King Fahd International Airport|Dammam]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Turkish Cargo]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[UPS Airlines]] | [[Cologne Bonn Airport|Cologne/Bonn]]
+<!-- -->
+}}

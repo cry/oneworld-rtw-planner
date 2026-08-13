@@ -1,0 +1,36 @@
+==Airlines and destinations==
+===Passenger===
+{{More citations needed section|date=December 2025}}
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+
+The following airlines offer scheduled passenger service. All international arrivals (excluding flights from destinations with U.S. border preclearance) are processed in Terminal C. JSX operates from space within the [[ACI Jet]] building, an adjacent separate facility from the main passenger terminal.  
+{{Airport destination list
+| 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Air Canada]] | [[Vancouver International Airport|Vancouver]] | 
+<!-- -->
+| [[Alaska Airlines]] | [[Boise Airport|Boise]], [[Paine Field|Everett]], [[Portland International Airport|Portland (OR)]], [[San Francisco International Airport|San Francisco]], [[Charles M. Schulz–Sonoma County Airport|Santa Rosa]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Spokane International Airport|Spokane]] <br /> '''Seasonal:''' [[Tucson International Airport|Tucson]] | 
+<!-- -->
+| [[Allegiant Air]] | [[Appleton International Airport|Appleton]], [[Boise Airport|Boise]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Colorado Springs Airport|Colorado Springs]],{{cn|date=April 2025}} [[Eugene Airport|Eugene]], [[Gerald R. Ford International Airport|Grand Rapids]], [[Idaho Falls Regional Airport|Idaho Falls]], [[Rogue Valley International–Medford Airport|Medford]], [[Missoula International Airport|Missoula]], [[Mesa Gateway Airport|Phoenix/Mesa]], [[Provo Municipal Airport|Provo]], [[Tri-Cities Airport (Washington)|Tri-Cities (WA)]] <br />'''Seasonal:''' [[Des Moines International Airport|Des Moines]]{{cn|date=April 2025}} | 
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[John F. Kennedy International Airport|New York–JFK]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+<!-- -->
+| [[Breeze Airways]] | [[Harry Reid International Airport|Las Vegas]], [[Ogden–Hinckley Airport|Ogden]], [[Provo Municipal Airport|Provo]] <br />'''Seasonal:''' [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Grand Junction Regional Airport|Grand Junction]], [[Montrose Regional Airport|Montrose]], [[Orlando International Airport|Orlando]], [[Raleigh–Durham International Airport|Raleigh/Durham]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Wayne County Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[John F. Kennedy International Airport|New York–JFK]], [[Salt Lake City International Airport|Salt Lake City]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+<!-- -->
+| [[Delta Connection]] | [[Harry Reid International Airport|Las Vegas]],  [[Salt Lake City International Airport|Salt Lake City]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]| 
+<!-- -->
+| [[Frontier Airlines]] | [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Salt Lake City International Airport|Salt Lake City]], [[San Francisco International Airport|San Francisco]] | 
+<!-- -->
+| [[JSX (airline)|JSX]] | [[Harry Reid International Airport|Las Vegas]], [[Reno–Tahoe International Airport|Reno/Tahoe]],  [[Scottsdale Airport|Scottsdale]] <br /> '''Seasonal:''' [[Buchanan Field Airport|Concord (CA)]], [[Monterey Regional Airport|Monterey]],{{cn|date=April 2025}} [[Napa County Airport|Napa]], [[Salt Lake City International Airport|Salt Lake City]], | />
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Austin–Bergstrom International Airport|Austin]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]],  [[Oakland San Francisco Bay Airport|Oakland]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Sacramento International Airport|Sacramento]], [[San Jose International Airport|San Jose (CA)]], [[Los Cabos International Airport|San José del Cabo]]<br />'''Seasonal:''' [[Nashville International Airport|Nashville]]{{cn|date=April 2025}} | 
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[San Francisco International Airport|San Francisco]], [[Dulles International Airport|Washington–Dulles]] (begins August 11, 2026) | 
+<!-- -->
+| [[United Express]] | [[San Francisco International Airport|San Francisco]] | 
+<!-- -->
+| [[WestJet]] | [[Calgary International Airport|Calgary]] | 
+<!-- -->
+}}

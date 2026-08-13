@@ -1,0 +1,97 @@
+==Airlines and destinations==
+[[File:Zanzibar Airport Old Terminal.jpg|thumb|The old terminal building]]
+[[File:Aerial view of Zanzibar airport.jpg|thumb|Aerial view of Abeid Amani Karume International Airport]]
+[[File:Zanzibar International Airport approach.jpg|thumb|On approach to the airport]]
+
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights at Zanzibar Airport:
+{{Airport-dest-list
+<!-- -->
+| [[Air France]] |[[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- --> 
+| [[Airlink]] | [[Cape Town International Airport|Cape Town]] (begins 3 October 2026), [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[Air Tanzania]] |[[Arusha Airport|Arusha]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Dubai International Airport|Dubai–International]], [[Kilimanjaro International Airport|Kilimanjaro]], [[Gatwick Airport|London–Gatwick]] (begins 1 July 2027), [[Vnukovo International Airport|Moscow-Vnukovo]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Pemba Airport (Tanzania)|Pemba Island]]
+<!-- -->
+| [[Arkia]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[As Salaam Air]] | [[Arusha Airport|Arusha]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Pemba Airport (Tanzania)|Pemba Island]], [[Tanga Airport|Tanga]]
+<!-- -->
+| [[Auric Air]] | [[Arusha Airport|Arusha]], [[Julius Nyerere International Airport|Dar es Salaam]],  [[Entebbe International Airport|Entebbe]], [[Iringa Airport|Iringa]], [[Kigali International Airport|Kigali]], [[Kilimanjaro International Airport|Kilimanjaro]], [[Maasai Mara]], [[Mafia Airport|Mafia Island]], [[Mikumi National Park|Mikumi]], [[Pangani Airstrip|Pangani]], [[Pemba Airport (Tanzania)|Pemba Island]], [[Ruaha National Park|Ruaha]], [[Saadani National Park|Saadani]], [[Mtemere Airstrip|Selous]], [[Serengeti National Park|Serengeti]], [[Songea Airport|Songea]], [[Tanga Airport|Tanga]]
+<!-- -->
+| [[Azur Air]] | '''Seasonal charter:''' [[Kazan International Airport|Kazan]],  [[Vnukovo International Airport|Moscow–Vnukovo]], [[Tolmachevo Airport|Novosibirsk]], [[Pulkovo Airport|St. Petersburg]], [[Kurumoch International Airport|Samara]]
+<!-- -->
+| [[Coastal Aviation]] | [[Arusha Airport|Arusha]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Kilwa Masoko Airport|Kilwa Masoko]], [[Mafia Airport|Mafia Island]], [[Lake Manyara Airport|Manyara]], [[Mwanza Airport|Mwanza]], [[Pemba Airport (Tanzania)|Pemba Island]], [[Seronera Airstrip|Seronera]], [[Tanga Airport|Tanga]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]{{cn|date=March 2025}}
+<!-- -->
+|[[Discover Airlines]]| '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]{{cn|date=March 2025}}
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]{{cn|date=March 2025}}
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]] (begins 4 September 2026)
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Etihad Airways]] |  '''Seasonal:''' [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+|[[Flightlink|Flightlink Limited]] | [[Arusha Airport|Arusha]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Pemba Airport (Tanzania)|Pemba Island]], [[Seronera Airstrip|Seronera]]
+<!-- -->
+| [[Fly540]] | [[Moi International Airport|Mombasa]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[FlySafair]] | [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[Global Aviation]] | '''Charter:''' [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[Hi Fly (airline)|Hi Fly]] | '''Seasonal charter:''' [[Lisbon Airport|Lisbon]]
+<!-- -->
+| [[Israir]] | [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Jambojet]] | [[Moi International Airport|Mombasa]]
+<!-- -->
+| [[Kenya Airways]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Schiphol Airport|Amsterdam]]
+<!-- -->
+| {{nowrap|[[LOT Polish Airlines]]}} | '''Seasonal charter:''' [[Václav Havel Airport Prague|Prague]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Malawi Airlines]] | [[Lilongwe International Airport|Lilongwe]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal charter:''' [[Catania-Fontanarossa Airport|Catania]], [[Bologna Guglielmo Marconi Airport|Bologna]],{{cn|date=March 2025}} [[Milan Malpensa Airport|Milan–Malpensa]],{{cn|date=March 2025}} [[Václav Havel Airport Prague|Prague]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| [[Nordwind Airlines]] | '''Seasonal charter:''' [[Sheremetyevo International Airport|Moscow–Sheremetyevo]]{{cn|date=March 2025}}
+<!-- -->
+| [[Oman Air]]| [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Precision Air]] | [[Arusha Airport|Arusha]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Pemba Airport (Tanzania)|Pemba Island]]
+<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]
+<!-- -->
+| {{nowrap|[[Regional Air Services (Tanzania)|Regional Air Services]]}} | [[Arusha Airport|Arusha]]
+<!-- -->
+| [[Rwandair]] | [[Kigali International Airport|Kigali]], [[Moi International Airport|Mombasa]]
+<!-- -->
+| [[Safarilink Aviation|Safarilink]] | [[Moi International Airport|Mombasa]], [[Wilson Airport|Nairobi–Wilson]]
+<!-- -->
+| [[Tropical Air]] | [[Julius Nyerere International Airport|Dar es Salaam]], [[Mbeya Airport|Mbeya]], [[Pemba Airport (Tanzania)|Pemba Island]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Uganda Airlines]] | [[Entebbe International Airport|Entebbe]]
+<!-- -->
+| [[World2Fly]] | '''Seasonal charter:''' [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[ZanAir]] | [[Arusha Airport|Arusha]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Pemba Airport (Tanzania)|Pemba Island]], [[Saadani National Park|Saadani]], [[Mtemere Airstrip|Selous]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Astral Aviation]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Kenya Airways Cargo]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Moi International Airport|Mombasa]]
+<!-- -->
+}}

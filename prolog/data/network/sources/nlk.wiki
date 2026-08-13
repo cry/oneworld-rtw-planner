@@ -1,0 +1,15 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport-dest-list
+| [[Qantas]] | [[Brisbane Airport|Brisbane]], [[Sydney Airport|Sydney]]}}
+
+If passengers would fly internationally from this airport, they would need to transit in either [[Brisbane Airport|Brisbane]] or [[Sydney Airport|Sydney]] to get to other international destinations.
+
+===Notes===
+Air New Zealand's services to Norfolk Island normally consisted of two flights per week from Brisbane and three flights per week from Sydney using [[Airbus A320]] aircraft. However, due to Air New Zealand staffing issues related to COVID-19 border closures in 2021, Qantas temporarily took over both routes from the Australian mainland to Norfolk Island from 19 March 2021. This was initially to be until 30 August 2021. But Qantas' contract to service Norfolk Island was later extended until 30 June 2022 after Air New Zealand was unable to establish a planned crew base in Brisbane that would have enabled the airline to continue serving the island despite New Zealand and Australia's borders being closed to each other.
+
+Air New Zealand previously also flew from Auckland to Norfolk Island. On 16 December 2016, Air New Zealand announced it was ceasing its flight services between Norfolk Island and Auckland citing low passenger numbers. The last flight was on 21 May 2017.
+
+Norfolk Island Airlines previously operated services for a short time with Nauru Airlines [[Boeing 737-300]]s.
+
+[[Norfolk Jet Express]] operated from the airport from 1997 to 2005 and [[Norfolk Air]] from 2006 to 2012. In 1996, [[Ansett Australia]] was operating nonstop [[Boeing 737-300]] jet service between the airport and Sydney four days a week.

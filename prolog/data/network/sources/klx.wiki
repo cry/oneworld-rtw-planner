@@ -1,0 +1,39 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Kalamata Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Thessaloniki Airport|Thessaloniki]] <br>'''Seasonal:''' [[Athens International Airport|Athens]], [[Heraklion International Airport|Heraklion]], [[Munich Airport|Munich]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Air France]] | '''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[arkia]] | '''Seasonal:''' [[David Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Hamburg Airport|Hamburg]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Discover Airlines]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[easyJet]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[London Gatwick Airport|London–Gatwick]] (begins 1 July 2026), [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Marathon Airlines]] | '''Seasonal charter:''' [[Innsbruck Airport|Innsbruck]]
+<!-- -->
+| [[Ryanair]] | '''Seasonal:''' [[Orio al Serio International Airport|Bergamo]], [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Scandinavian Airlines]] | '''Seasonal:''' [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | '''Seasonal:''' [[Geneva Airport|Geneva]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Wizz Air]] | [[Tirana International Airport Nënë Tereza|Tirana]] <br>'''Seasonal:''' [[Budapest Ferenc Liszt International Airport|Budapest]] (begins 8 June 2026)
+}}

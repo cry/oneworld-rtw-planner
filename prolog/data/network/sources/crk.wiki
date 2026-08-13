@@ -1,0 +1,57 @@
+== Airlines and destinations ==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aero K]] |[[Cheongju International Airport|Cheongju]]
+<!-- -->
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Cebgo]] | [[Francisco B. Reyes Airport|Busuanga]], [[El Nido Airport|El Nido]], [[Moises R. Espinosa Airport|Masbate]], [[Naga Airport|Naga]], [[San Jose Airport (Mindoro)|San Jose (Mindoro)]], [[Sayak Airport|Siargao]],
+<!-- -->
+| [[Cebu Pacific]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Godofredo P. Ramos Airport|Caticlan]], [[Mactan–Cebu International Airport|Cebu]], [[Francisco Bangoy International Airport|Davao]], [[Noi Bai International Airport|Hanoi]] (resumes November 19, 2026), [[Hong Kong International Airport|Hong Kong]], [[Iloilo International Airport|Iloilo]], [[Puerto Princesa International Airport|Puerto Princesa]], [[Changi Airport|Singapore]], [[Bohol–Panglao International Airport|Tagbilaran]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Jeju Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Jin Air]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[PAL Express]] | [[Basco Airport|Basco]], [[Francisco B. Reyes Airport|Busuanga]],
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| {{nowrap|[[Starlux Airlines]]}} | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Sunlight Air]] | [[Francisco B. Reyes Airport|Busuanga]], [[Godofredo P. Ramos Airport|Caticlan]], [[Sayak Airport|Siargao]], [[Tugdan Airport|Tablas]]
+<!-- -->
+| [[VietJet Air]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]] (begins November 10, 2026)
+<!-- -->
+}}
+
+===Cargo===
+<!-- INDEPENDENT SOURCES ARE HIGHLY ENCOURAGED WHEN REFERENCING. ALL SOURCES PUBLISHED BY AIRPORTS AND AIRLINES ARE NOT INDEPENDENT. -->
+<!-- ALL FUTURE AND ENDING DESTINATIONS MUST HAVE A REFERENCE. IF THEY DO NOT HAVE A REFERENCE, THEY WILL BE REMOVED. -->
+{{Airport-dest-list
+<!-- -->
+| [[China Postal Airlines]] | [[Fuzhou Changle International Airport|Fuzhou]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Quanzhou Jinjiang International Airport|Quanzhou]], [[Yiwu Airport|Yiwu]]
+<!-- -->
+| [[FedEx Express]] | [[Kansai International Airport|Osaka–Kansai]], [[Incheon International Airport|Seoul–Incheon]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Jiangsu Jingdong Cargo Airlines]] | [[Zhuhai Jinwan Airport|Zhuhai]]
+<!-- -->
+| [[Royal Air Philippines]] | [[Haikou Meilan International Airport|Haikou]], [[Nanning Wuxu International Airport|Nanning]]
+<!-- -->
+| [[Shandong Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| Skyway Airlines | [[Laguindingan Airport|Cagayan de Oro]], [[Francisco Bangoy International Airport|Davao]], [[Hong Kong International Airport|Hong Kong]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Tianjin Air Cargo]] |  [[Zhengzhou Xinzheng International Airport|Zhengzhou]]
+<!-- -->
+}}

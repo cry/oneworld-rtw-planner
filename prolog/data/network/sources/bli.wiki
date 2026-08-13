@@ -1,0 +1,32 @@
+== Airlines and destinations ==
+=== Passenger ===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+|3rdcoltitle={{Abbr|Refs.|References}}|3rdcolunsortable=yes
+| [[Alaska Airlines]] | [[Portland International Airport|Portland (OR)]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+| [[Allegiant Air]] | [[Hollywood Burbank Airport|Burbank]], [[Harry Reid International Airport|Las Vegas]], [[Palm Springs International Airport|Palm Springs]], [[Mesa Gateway Airport|Phoenix/Mesa]] | 
+| [[San Juan Airlines]] | [[Blakely Island Airport|Blakely Island]], [[Orcas Island Airport|Eastsound]], [[Friday Harbor Airport|Friday Harbor]], [[Lopez Island Airport|Lopez Island]], [[Roche Harbor Airport|Roche Harbor]] | 
+}}
+San Juan Airlines merged with Northwest Sky Ferries in 2009. This merged airline offers scheduled and charter flights from Bellingham to the San Juan Islands in Washington, Seattle, Tacoma, Port Angeles, Olympia, and British Columbia. San Juan Airlines also serves Bellingham; offering scheduled and charter flights to the San Juan Islands and British Columbia. Northwest Sky Ferry and San Juan airlines offer prop aircraft service with [[Cessna]] 206, 207 and 182 airplanes.
+
+On April 25, 2024 Southwest Airlines announced it would halt operations at Bellingham International Airport (Denver, Las Vegas, Oakland) after August 4, 2024.
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destination map
+|-
+|{{Location map+ |USA_West |width=750 |float=center
+|caption=Destinations from Bellingham International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |USA_West |lat=48.7956 |long=-122.5331 |position=right |label=<div style="position:relative; top:0px;"><small>'''Bellingham'''</small></div>|caption=|mark=Airplane silhouette.svg|label_size=120|marksize=15 }}
+{{Location map~ |USA_West |lat=48.7084 |long=-122.9106 |position=left |label='''{{nowrap|[[Orcas Island Airport|Orcas Island]]}}'''|label_size=0 |marksize=7}}
+{{Location map~ |USA_West |lat=48.5248 |long=-123.0262 |position=left |label='''{{nowrap|[[Friday Harbor Airport|Friday Harbor]]}}'''|label_size=0 |marksize=7}}
+{{Location map~ |USA_West |lat=48.4853 |long=-122.9373 |position=left |label='''{{nowrap|[[Lopez Island Airport|Lopez Island]]}}'''|label_size=0 |marksize=7}}
+{{Location map~ |USA_West |lat=33.8303 |long=-116.5070 |position=right |label='''{{nowrap|[[Palm Springs International Airport|Palm Springs]]}}'''|label_size=100 |marksize=7}}
+{{Location map~ |USA_West |lat=33.3085 |long=-111.6573 |position=right |label='''{{nowrap|[[Mesa Gateway Airport|Phoenix-Mesa]]}}'''|label_size=100 |marksize=7}}
+{{Location map~ |USA_West |lat=36.083697|long=-115.153873|position=left|label='''[[Harry Reid International Airport|Las Vegas]]'''|label_size=100 |marksize=7 }}
+{{Location map~ |USA_West |lat=47.450165|long=-122.309176 |position=under |label='''[[Seattle–Tacoma International Airport|Seattle/Tacoma]]'''|label_size=100 |marksize=7 }}
+{{Location map~ |USA West |lat=34.1983927|long=-118.3568153 |position=top|label='''[[Hollywood Burbank Airport|Burbank]]'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |USA West |lat=45.588611|long=-122.5975 |position=top|label='''[[Portland International Airport|Portland]]'''|label_size=100 |marksize=7 }}
+}}
+|}

@@ -1,0 +1,48 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]], [[Portland International Airport|Portland (OR)]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]| 
+<!-- -->
+| [[Allegiant Air]] | [[Harry Reid International Airport|Las Vegas]], [[John Wayne Airport|Orange County]], [[Mesa Gateway Airport|Phoenix/Mesa]] | 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Salt Lake City International Airport|Salt Lake City]] | 
+<!-- -->
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+<!-- -->
+| [[United Airlines]] | [[Denver International Airport|Denver]] | 
+<!-- -->
+| [[United Express]] | [[Denver International Airport|Denver]], [[San Francisco International Airport|San Francisco]] | 
+<!-- -->
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Tri Cities Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue}} = Future destination
+|places=
+{{Location map~ |United_States |lat=46.2305 |long=-119.0922|position=left |label=<div style="position:relative; top:-5px;"><small>'''Pasco'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=47.450165|long=-122.309176 |position=under |label='''<small>[[Seattle–Tacoma International Airport|Seattle/Tacoma]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United_States |lat=33.941381|long=-118.408619|position=under |label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=44.884690|long=-93.222430|position=left|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=right|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=33.3085|long=-111.6573|position=right|label='''<small>[[Mesa Gateway Airport|Phoenix/Mesa]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=33.4352|long=-112.0101|position=left|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=36.083697|long=-115.153873|position=right|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=37.620811|long=-122.380049|position=top|label='''<small>[[San Francisco International Airport|San Francisco]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=40.789836|long=-111.979632|position=right|label='''<small>[[Salt Lake City International Airport|Salt Lake City]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United States |lat=33.67 |long=-117.87 |position=left |label='''<small>[[John Wayne Airport|Orange County]]</small>'''|label_size=100 |marksize=7 }} 
+{{Location map~ |mark = Blue pog.svg |United_States |lat=45.588611|long=-122.5975 |position=left |label='''<small>[[Portland International Airport|Portland]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Airport-dest-list
+| [[Ameriflight]] | [[Boeing Field|Seattle–Boeing]], [[Spokane International Airport|Spokane]], [[Walla Walla Regional Airport|Walla Walla]]
+| [[FedEx Feeder]] | [[Spokane International Airport|Spokane]]
+}}

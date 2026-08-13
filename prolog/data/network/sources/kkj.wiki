@@ -1,0 +1,25 @@
+==Airlines and destinations==
+===Passenger===
+{{Unreferenced section|date=September 2024}}
+{{Airport-dest-list
+<!-- -->
+| [[Aero K]] | [[Cheongju International Airport|Cheongju]]
+<!-- -->
+| [[Japan Airlines]] |  [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Jin Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[StarFlyer]] | [[Taoyuan International Airport|Taipei–Taoyuan]] (resumes 2 September 2026), [[Haneda Airport|Tokyo–Haneda]]<br />'''Seasonal:''' [[Naha Airport|Naha]]
+<!-- -->
+}}
+
+===Cargo===
+Cargo flights of [[Yamato Transport]] are operated by [[Spring Japan]].
+
+{{Airport-dest-list
+<!-- -->
+| [[Korean Air|Korean Air Cargo]] | [[Los Angeles International Airport|Los Angeles]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Yamato Transport]]<br />Operated by [[Spring Japan]] | [[Naha Airport|Naha]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+}}

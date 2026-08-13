@@ -1,0 +1,6 @@
+==Airlines and destinations==
+{{Airport-dest-list
+| [[Air Kiribati]] | [[Abaiang Airport|Abaiang]], [[Abemama Airport|Abemama]], [[Butaritari Airport|Butaritari]], [[Kuria (atoll)|Kuria]], [[Maiana]], [[Makin Airport|Makin]], [[Marakei Airport|Marakei]], [[Nonouti]], [[Tabiteuea North Airport|Tabiteuea North]]
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]]
+| {{nowrap|[[Nauru Airlines]]}} | [[Brisbane Airport|Brisbane]], [[Cassidy International Airport|Kiritimati]], [[Roman Tmetuchl International Airport|Koror]], [[Marshall Islands International Airport|Majuro]], [[Nauru International Airport|Nauru]], [[Pohnpei International Airport|Pohnpei]]
+}}

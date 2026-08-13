@@ -1,0 +1,22 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Allegiant Air]] | [[Mesa Gateway Airport|Phoenix/Mesa]],{{cn|date=July 2026}} [[John Wayne Airport|Orange County]],{{cn|date=July 2026}} [[St. Pete-Clearwater International Airport|St. Petersburg/Clearwater]]{{cn|date=July 2026}}
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+|[[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]] <br/> '''Seasonal:''' [[MSP Airport|Minneapolis/St. Paul]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Chicago–Midway]], [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[San Diego International Airport|San Diego]] <br/> '''Seasonal:''' [[Cancún International Airport|Cancún]], [[Houston–Hobby]], [[San Antonio International Airport|San Antonio]]
+<!-- -->
+| [[United Airlines]] |[[Denver International Airport|Denver]]
+<!-- --> 
+| [[United Express]] | [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Houston-Intercontinental Airport]]
+<!-- -->
+}}

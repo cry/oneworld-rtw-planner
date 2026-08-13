@@ -1,0 +1,28 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Air North]] | '''Seasonal charter:''' [[Dawson City Airport|Dawson City]] | 
+<!-- -->
+| [[Alaska Airlines]] | [[Ted Stevens Anchorage International Airport|Anchorage]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]<br />'''Seasonal:''' [[Portland International Airport|Portland (OR)]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Seattle–Tacoma International Airport|Seattle/Tacoma]]<br />'''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] | 
+<!-- -->
+| [[Everts Air]] | [[Anaktuvuk Pass Airport|Anaktuvuk Pass]], [[Arctic Village Airport|Arctic Village]], [[Eagle Airport|Eagle]], [[Fort Yukon Airport|Fort Yukon]], [[Edward G. Pitka Sr. Airport|Galena]], [[Huslia Airport|Huslia]], [[Barter Island LRRS Airport|Kaktovik/Barter Island]], [[Kaltag Airport|Kaltag]], [[Nulato Airport|Nulato]], [[Ruby Airport|Ruby]], [[Venetie Airport|Venetie]] | 
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]] | 
+<!-- -->
+| {{nowrap|[[Warbelow's Air Ventures]]}} | [[Beaver Airport|Beaver]], [[Central Airport|Central]], [[Circle City Airport|Circle]], [[Manley Hot Springs Airport|Manley Hot Springs]], [[Minto Al Wright Airport|Minto]], [[Rampart Airport|Rampart]], [[Stevens Village Airport|Stevens Village]] | 
+<!-- -->
+| [[Wright Air Service]] | [[Allakaket Airport|Allakaket]], [[Anaktuvuk Pass Airport|Anaktuvuk Pass]], [[Arctic Village Airport|Arctic Village]], [[Bettles Airport|Bettles]], [[Birch Creek Airport|Birch Creek]], [[Chalkyitsik Airport|Chalkyitsik]], [[Deadhorse Airport|Deadhorse/Prudhoe Bay]], [[Fort Yukon Airport|Fort Yukon]], [[Edward G. Pitka Sr. Airport|Galena]], [[Healy Lake Airport|Healy Lake]], [[Hughes Airport (Alaska)|Hughes]], [[Huslia Airport|Huslia]], [[Barter Island LRRS Airport|Kaktovik/Barter Island]], [[Kaltag Airport|Kaltag]], [[Koyukuk Airport|Koyukuk]], [[Minchumina Airport|Lake Minchumina]], [[Nulato Airport|Nulato]], [[Ruby Airport|Ruby]], [[Ralph M. Calhoun Memorial Airport|Tanana]], [[Venetie Airport|Venetie]] | 
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[Amazon Air]] | [[Portland International Airport|Portland (OR)]], [[Spokane International Airport|Spokane]]
+<!-- -->
+| [[FedEx Feeder]] operated by [[Empire Airlines]] |[[Ted Stevens Anchorage International Airport|Anchorage]]
+<!-- -->
+}}

@@ -1,0 +1,72 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled direct passenger flights at Faro Airport:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Aer Lingus]] | [[Dublin Airport|Dublin]] <br />'''Seasonal:''' [[Cork Airport|Cork]]
+<!-- -->
+| [[Air France]] | '''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Transat]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[airBaltic]] | [[Riga International Airport|Riga]]
+<!-- -->
+|[[Animawings]] |'''Seasonal:''' [[Henri Coanda International Airport|Bucharest–Otopeni]]
+<!-- -->
+| [[Azores Airlines]] | [[John Paul II Ponta Delgada Airport|Ponta Delgada]]
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]] <br /> '''Seasonal:''' [[London City Airport|London–City]], [[Heathrow Airport|London–Heathrow]] <br /> '''Seasonal charter:''' [[Derry]], [[Guernsey Airport|Guernsey]], [[Isle of Man Airport|Isle of Man]]
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:'''  [[Frankfurt Airport|Frankfurt]], [[Hamburg Airport|Hamburg]], [[Munich Airport|Munich]]
+<!-- -->
+| [[easyJet]] | [[Amsterdam Airport|Amsterdam]], [[EuroAirport Basel–Mulhouse–Freiburg|Basel/Mulhouse]], [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Geneva International Airport|Geneva]], [[Glasgow Airport|Glasgow]], [[Liverpool John Lennon Airport|Liverpool]], [[London Gatwick Airport|London–Gatwick]], [[London Luton Airport|London–Luton]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Manchester Airport|Manchester]], [[Nantes Atlantique Airport|Nantes]], [[Orly Airport|Paris–Orly]] <br /> '''Seasonal:''' [[Bordeaux Airport|Bordeaux]], [[London Southend Airport|London–Southend]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Southampton Airport|Southampton]]
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zürich]]
+<!-- -->
+| [[Eurowings]] | [[Berlin Brandenburg Airport|Berlin]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Düsseldorf Airport|Düsseldorf]], [[Hamburg Airport|Hamburg]], [[Stuttgart Airport|Stuttgart]] <br /> '''Seasonal:''' [[Hannover Airport|Hannover]]
+| [[Finnair]] | [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Icelandair]] | '''Seasonal:''' [[Keflavík International Airport|Reykjavík–Keflavík]]
+<!-- -->
+| [[Jet2.com]] | [[Birmingham Airport|Birmingham]],{{citation needed|date=November 2025}} [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Liverpool John Lennon Airport|Liverpool]], [[London Gatwick Airport|London–Gatwick]], <br/> '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Bournemouth Airport|Bournemouth]],
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]],  [[Munich Airport|Munich]]
+<!-- -->
+| [[Lufthansa City Airlines]] | [[Munich Airport|Munich]]
+<!-- -->
+| [[Luxair]] | [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Marabu (airline)|Marabu]] | '''Seasonal:''' [[Hamburg Airport|Hamburg]]
+<!-- -->
+| [[Norwegian Air Shuttle]] | [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Ryanair]] | [[Beauvais–Tillé Airport|Beauvais]], [[Belfast International Airport|Belfast-International]], [[Bergamo Airport|Bergamo]], [[Berlin Brandenburg Airport|Berlin]], [[Birmingham Airport|Birmingham]], [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[Brussels South Charleroi Airport|Charleroi]], [[Cork Airport|Cork]], [[Dublin Airport|Dublin]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Eindhoven Airport|Eindhoven]], [[Hahn Airport|Hahn]], [[Karlsruhe/Baden-Baden Airport|Karlsruhe/Baden-Baden]], [[Kraków John Paul II International Airport|Kraków]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Marrakesh Airport|Marrakesh]], [[Memmingen Airport|Memmingen]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Nuremberg Airport|Nuremberg]], [[Vienna International Airport|Vienna]], [[Warsaw Modlin Airport|Warsaw–Modlin]], [[Weeze Airport|Weeze]] <br /> '''Seasonal:''' [[Aberdeen Airport|Aberdeen]], [[Barcelona–El Prat Airport|Barcelona]], [[Cardiff Airport|Cardiff]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Copenhagen Airport|Copenhagen]], [[Exeter Airport|Exeter]], [[Glasgow Prestwick Airport|Glasgow–Prestwick]], [[Kerry Airport|Kerry]], [[Ireland West Airport|Knock]], [[Luxembourg Airport|Luxembourg]],  [[Madrid Airport|Madrid]], [[Marseille Airport|Marseille]], [[Newquay Airport|Newquay]], [[Norwich Airport|Norwich]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Shannon Airport|Shannon]], [[Teesside International Airport|Teesside]], [[Toulouse Airport|Toulouse]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]<br>'''Seasonal:''' [[Göteborg Landvetter Airport|Gothenburg]], [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | '''Seasonal:''' [[Geneva Airport|Geneva]]
+<!-- -->
+| [[TAP Air Portugal]] |  [[Madeira Airport|Funchal]], [[Lisbon Airport|Lisbon]]
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport|Amsterdam]], [[Brussels Airport|Brussels]], [[Eindhoven Airport|Eindhoven]], [[Orly Airport|Paris–Orly]], [[Rotterdam Airport|Rotterdam]] <br/> '''Seasonal:''' [[Lyon–Saint-Exupéry Airport|Lyon]], [[Nantes Atlantique Airport|Nantes]], [[Nice Côte d'Azur Airport|Nice]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Cardiff Airport|Cardiff]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[TUI fly Deutschland]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Hannover Airport|Hannover]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Brest Bretagne Airport|Brest]], [[Lille Airport|Lille]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Nantes Atlantique Airport|Nantes]], [[Strasbourg Airport|Strasbourg]]
+<!-- -->
+| [[Vueling]] | '''Seasonal:''' [[Bilbao Airport|Bilbao]]{{better source needed|date=February 2025}}
+<!-- -->
+| [[Wizz Air]] | [[London Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]] <br /> '''Seasonal:''' [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Katowice Airport|Katowice]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+}}

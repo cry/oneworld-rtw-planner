@@ -1,0 +1,27 @@
+== Airlines and destinations ==
+=== Passenger ===
+{{Airport destination list
+| [[Air Canada]] | '''Seasonal:''' [[Vancouver International Airport|Vancouver]]
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]], [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[Seattle-Tacoma International Airport|Seattle/Tacoma]] <br />'''Seasonal:''' [[Ted Stevens Anchorage International Airport|Anchorage]]
+<!-- -->
+| [[American Airlines]] | [[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]<br />'''Seasonal:''' [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+| [[Delta Air Lines]] | [[Los Angeles International Airport|Los Angeles]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] <br />'''Seasonal:''' [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+| [[Hawaiian Airlines]] | [[Daniel K. Inouye International Airport|Honolulu]], [[Kahului Airport|Kahului]], [[Lihue Airport|Lihue]], [[Sacramento International Airport|Sacramento]], [[San Jose International Airport|San Jose (CA)]]
+<!-- -->
+| [[Mokulele Airlines]] | [[Waimea-Kohala Airport|Waimea]]
+<!-- -->
+| [[Southwest Airlines]] | [[Daniel K. Inouye International Airport|Honolulu]], [[Kahului Airport|Kahului]], [[Harry Reid International Airport|Las Vegas]], [[Sacramento International Airport|Sacramento]] <br /> '''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[United Airlines]] | [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]] <br/>'''Seasonal:'''  [[O'Hare International Airport|Chicago–O'Hare]]
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Calgary International Airport|Calgary]], [[Vancouver International Airport|Vancouver]]
+}}
+
+=== Cargo ===
+{{Airport destination list
+| [[Amazon Air]] | [[March Air Reserve Base|Riverside/March Air Base]]
+<!-- -->
+| [[Atlas Air]] |[[Kahului Airport|Kahului]], [[Ontario International Airport|Ontario]]
+}}

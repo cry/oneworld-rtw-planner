@@ -1,0 +1,13 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights at Aqaba Airport:
+
+{{Airport-dest-list
+<!-- -->
+| [[Belavia]] | '''Seasonal charter:''' [[Minsk National Airport|Minsk]]
+<!-- -->
+|{{nowrap|[[Royal Jordanian]]}} | [[Zayed International Airport|Abu Dhabi]] (begins 18 September 2026), [[Queen Alia International Airport|Amman–Queen Alia]],{{cn|date=July 2026}} [[King Khalid International Airport|Riyadh]] (begins 24 September 2026)
+<!-- -->
+|[[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] (suspended)
+<!-- -->
+}}

@@ -1,0 +1,10 @@
+=== Airlines and destinations ===
+Geraldton Airport has daily regular public transport (RPT) services to and from Perth, provided by [[QantasLink]] using [[Airbus A320 family|Airbus A320]] and [[Fokker 100]] aircraft, and [[Nexus Airlines (Australia)|Nexus Airlines]] with [[De Havilland Canada Dash 8|Dash 8 Q400]] aircraft.
+
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+|{{nowrap|[[Nexus Airlines (Australia)|Nexus Airlines]]}} | [[Broome Airport|Broome]], [[Karratha Airport|Karratha]], [[Perth Airport|Perth]], [[Port Hedland Airport|Port Hedland]]{{cn|date=May 2025}}
+<!-- -->
+| [[QantasLink]] | [[Perth Airport|Perth]]
+}}

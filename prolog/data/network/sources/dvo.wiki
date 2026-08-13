@@ -1,0 +1,71 @@
+== Airlines and destinations ==
+=== Passenger ===
+<!-- ALL DESTINATIONS MUST HAVE A REFERENCE. IF THEY DO NOT HAVE A REFERENCE, THEY WILL BE REMOVED. -->
+{{Airport-dest-list
+<!-- -->
+| [[Cebgo]] | [[Laguindingan Airport|Cagayan de Oro]], [[Iloilo International Airport|Iloilo]], [[Sayak Airport|Siargao]], [[Bohol–Panglao International Airport|Tagbilaran]], [[Zamboanga International Airport|Zamboanga]]<br />
+<!-- -->
+| [[Cebu Pacific]] | [[Bacolod–Silay Airport|Bacolod]], [[Don Mueang International Airport|Bangkok–Don Mueang]] (resumes October 26, 2026), [[Godofredo P. Ramos Airport|Caticlan]], [[Mactan–Cebu International Airport|Cebu]], [[Clark International Airport|Clark]], [[Hong Kong International Airport|Hong Kong]], [[Iloilo International Airport|Iloilo]], [[Ninoy Aquino International Airport|Manila]], [[Puerto Princesa International Airport|Puerto Princesa]], [[Daniel Z. Romualdez Airport|Tacloban]]
+<!-- -->
+| [[PAL Express]] | [[Mactan–Cebu International Airport|Cebu]], [[Ninoy Aquino International Airport|Manila]], [[Bohol–Panglao International Airport|Tagbilaran]]
+<!-- -->
+| {{nowrap|[[Philippine Airlines]]}} | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[VietJet Air]] | '''Seasonal charter:''' [[Da Nang International Airport|Da Nang]]
+<!-- -->
+}}
+
+=== Cargo ===
+<!-- ALL DESTINATIONS MUST HAVE A REFERENCE. IF THEY DO NOT HAVE A REFERENCE, THEY WILL BE REMOVED. -->
+{{Airport-dest-list
+<!-- -->
+| [[Jiangsu Jingdong Cargo Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Royal Air Philippines]] | [[Nanning Wuxu International Airport|Nanning]]
+<!-- -->
+| Skyway Airlines | [[Clark International Airport|Clark]]
+<!-- -->
+| [[Tianjin Air Cargo]] | [[Xiamen Gaoqi International Airport|Xiamen]]
+<!-- -->
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destination maps
+|-
+|{{Location map+ |Philippines|width=500 |float=center
+|caption=Domestic destinations from Francisco Bangoy International Airport <br> {{legend|navy|Passenger + cargo}} {{legend|blue|Passenger only}} {{legend|orange|Cargo only}} {{legend|red|Future}} {{legend|green|Seasonal/charter}}
+|places=
+{{Location map~ |Philippines|lat=7.1304|long=125.6451|label=<div style="position:relative; top:-5px;"><small>'''Davao'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=10.7767|long=123.0148|label='''<small>[[Bacolod–Silay Airport|Bacolod]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=8.6085|long=124.4585|position=right|label='''<small>[[Laguindingan Airport|Cagayan de Oro]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=11.9247|long=121.955|label='''<small>[[Godofredo P. Ramos Airport|Caticlan]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=10.3155|long=123.9785|label='''<small>[[Mactan–Cebu International Airport|Cebu]]</small>'''}}
+{{Location map~ |mark = Dark-blue pog.svg|Philippines|lat=15.1858|long=120.5597|label='''<small>[[Clark International Airport|Clark]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=10.8311|long=122.4972|position=left|label='''<small>[[Iloilo International Airport|Iloilo]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=14.5096|long=121.0134|label='''<small>[[Ninoy Aquino International Airport|Manila]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=9.7419|long=118.7589|label='''<small>[[Puerto Princesa International Airport|Puerto Princesa]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=9.8569|long=126.0160|position=right|label='''<small>[[Sayak Airport|Siargao]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=11.2275|long=125.0278|label='''<small>[[Daniel Z. Romualdez Airport|Tacloban]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=9.5691|long=123.7727|label='''<small>[[Bohol–Panglao International Airport|Tagbilaran]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Philippines|lat=6.9198|long=122.0622|position=right|label='''<small>[[Zamboanga International Airport|Zamboanga]]</small>'''}}
+}}
+|-
+|{{Location map+ |Asia|width=500 |float=center
+|caption=International destinations from Francisco Bangoy International Airport <br> {{legend|navy|Passenger + cargo}} {{legend|blue|Passenger only}} {{legend|orange|Cargo only}} {{legend|red|Future}} {{legend|green|Seasonal/charter}}
+|places=
+{{Location map~ |Asia|lat=7.1304|long=125.6451|label=<div style="position:relative; top:-5px;"><small>'''Davao'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |mark = Red pog.svg|Asia|lat=13.9125|long=100.6067|label='''<small>[[Don Mueang International Airport|Bangkok]]</small>'''}}
+{{Location map~ |mark = Green pog.svg|Asia|lat=16.0439|long=108.1994|label='''<small>[[Da Nang International Airport|Da Nang]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Asia|lat=25.2613|long=51.6132|label='''<small>[[Hamad International Airport|Doha]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Asia|lat=22.3135|long=113.9137|position=bottom|label='''<small>[[Hong Kong International Airport|Hong Kong]]</small>'''}}
+{{Location map~ |mark = Orange pog.svg|Asia|lat=22.6083|long=108.1724|position=left|label='''<small>[[Nanning Wuxu International Airport|Nanning]]</small>'''}}
+{{Location map~ |mark = Orange pog.svg|Asia|lat=22.6368|long=113.8146|position=right|label='''<small>[[Shenzhen Bao'an International Airport|Shenzhen]]</small>'''}}
+{{Location map~ |mark = Orange pog.svg|Asia|lat=24.5442|long=118.1278|label='''<small>[[Xiamen Gaoqi International Airport|Xiamen]]</small>'''}}
+{{Location map~ |mark = Bright-blue pog.svg|Asia|lat=1.3563|long=103.9866|label='''<small>[[Changi Airport|Singapore]]</small>'''}}
+}}
+|}

@@ -1,0 +1,42 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY.-->
+
+{{Airport destination list
+<!-- -->
+| [[Air Arabia]] | [[Ras Al Khaimah International Airport|Ras Al Khaimah]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| {{nowrap|[[Air Arabia Abu Dhabi]]}} | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| {{nowrap|[[Air India Express]]}} | [[Abu Dhabi International Airport|Abu Dhabi]], [[Al Ain International Airport|Al Ain]], [[Bahrain International Airport|Bahrain]], [[Kempegowda International Airport|Bengaluru]], [[King Fahd International Airport|Dammam]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Kuwait International Airport|Kuwait City]], [[Muscat International Airport|Muscat]], [[Ras Al Khaimah International Airport|Ras Al Khaimah]], [[King Khalid International Airport|Riyadh]], [[Salalah International Airport|Salalah]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|{{nowrap|[[AirAsia]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+|{{nowrap|[[Akasa Air]]}} |[[Kempegowda International Airport|Bengaluru]], [[King Abdulaziz International Airport|Jeddah]], [[Chhatrapati Shivaji International Airport|Mumbai]]
+<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+| {{nowrap|[[Flydubai]]}} | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| {{nowrap|[[Flynas]]}} | [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| {{nowrap|[[IndiGo]]}}  | [[Zayed International Airport|Abu Dhabi]], [[Agatti Airport|Agatti]], [[Kempegowda International Airport|Bengaluru]], [[Chennai International Airport|Chennai]], [[King Fahd International Airport|Dammam]], [[Indira Gandhi International Airport|Delhi]], [[Dubai International Airport|Dubai–International]], [[Fujairah International Airport|Fujairah]], [[Rajiv Gandhi International Airport|Hyderabad]], [[King Abdulaziz International Airport|Jeddah]], [[Cochin International Airport|Kochi]], [[Chhatrapati Shivaji International Airport|Mumbai]]
+<!-- -->
+| {{nowrap|[[Oman Air]]}} | [[Muscat International Airport|Muscat]]
+<!-- -->
+| {{nowrap|[[Qatar Airways]]}} | [[Hamad International Airport|Doha]]
+<!-- -->
+| {{nowrap|[[SalamAir]]}} | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Saudia]] | [[King Khalid International Airport|Riyadh]] 
+<!-- -->
+| {{nowrap|[[SpiceJet]]}}| [[Dubai International Airport|Dubai–International]], [[Chhatrapati Shivaji International Airport|Mumbai]] <br /> '''Seasonal:''' [[Fujairah International Airport|Fujairah]]
+<!-- -->
+}}
+
+===Cargo===
+The following cargo airline flies to the airport:
+{{div col |colwidth=18em}}
+* [[SpiceJet|SpiceXpress]]
+{{div col end}}

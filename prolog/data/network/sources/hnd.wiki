@@ -1,0 +1,95 @@
+==Airlines and destinations==
+
+<!-- Please use independent sources, not the airport or airline, as they are not independent. -->
+The following airlines operate scheduled passenger flights at Haneda Airport:
+
+{{Airport-dest-list
+<!--+-->
+| [[Air Canada]] | [[Toronto–Pearson]]
+<!--+-->
+| [[Air China]] | [[Beijing–Capital]]
+<!--+-->
+| [[Air Do]] | [[Asahikawa Airport|Asahikawa]], [[Hakodate Airport|Hakodate]], [[Kushiro Airport|Kushiro]], [[Memanbetsu Airport|Memanbetsu]], [[Tokachi–Obihiro Airport|Obihiro]], [[New Chitose Airport|Sapporo–Chitose]]
+<!--+-->
+| [[Air France]] | [[Paris–Charles de Gaulle]]
+<!--+-->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]]
+<!--+-->
+| [[AirAsia X]] | [[Kuala Lumpur–International]]
+<!--+-->
+| [[All Nippon Airways]] | [[Akita Airport|Akita]], [[Bangkok–Suvarnabhumi]], [[Beijing–Capital]], [[Chicago–O'Hare]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Frankfurt Airport|Frankfurt]], [[Fukuoka Airport|Fukuoka]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Hakodate Airport|Hakodate]], [[Hiroshima Airport|Hiroshima]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]], [[Daniel K. Inouye International Airport|Honolulu]], [[Houston–Intercontinental]], [[New Ishigaki Airport|Ishigaki]], [[Istanbul Airport|Istanbul]], [[Marine Corps Air Station Iwakuni|Iwakuni]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Kagoshima Airport|Kagoshima]], [[Komatsu Airport|Komatsu]], [[Kuala Lumpur–International]], [[Kumamoto Airport|Kumamoto]], [[Kushiro Airport|Kushiro]], [[London–Heathrow]], [[Los Angeles International Airport|Los Angeles]], [[Matsuyama Airport|Matsuyama]], [[Ninoy Aquino International Airport|Manila]],  [[Milan–Malpensa]], [[Monbetsu Airport|Monbetsu]], [[Munich Airport|Munich]], [[Nagasaki Airport|Nagasaki]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Naha Airport|Naha]], [[Nemuro Nakashibetsu Airport|Nakashibetsu]], [[New York–JFK]], [[Noto Airport|Noto]], [[London–Heathrow]], [[Odate-Noshiro Airport|Odate-Noshiro]], [[Oita Airport|Oita]], [[Okayama Airport|Okayama]], [[Itami Airport|Osaka–Itami]], [[Kansai International Airport|Osaka–Kansai]], [[Paris–Charles de Gaulle]], [[Qingdao Jiaodong International Airport|Qingdao]], [[Saga Airport|Saga]], [[San Francisco International Airport|San Francisco]], [[New Chitose Airport|Sapporo–Chitose]], [[Seattle/Tacoma]], [[Gimpo International Airport|Seoul–Gimpo]], [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Shonai Airport|Shonai]], [[Changi Airport|Singapore]], [[Stockholm–Arlanda]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Songshan Airport|Taipei–Songshan]], [[Takamatsu Airport|Takamatsu]], [[Tottori Airport|Tottori]], [[Toyama Airport|Toyama]], [[Yamaguchi Ube Airport|Ube]], [[Vancouver International Airport|Vancouver]], [[Vienna International Airport|Vienna]], [[Wakkanai Airport|Wakkanai]], [[Washington–Dulles]], [[Yonago Kitaro Airport|Yonago]]
+<!--+-->
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Los Angeles International Airport|Los Angeles]], [[New York–JFK]]
+<!--+-->
+| [[Asiana Airlines]] | [[Gimpo International Airport|Seoul–Gimpo]], [[Incheon International Airport|Seoul–Incheon]]
+<!--+-->
+| [[British Airways]] | [[London–Heathrow]]
+<!--+-->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!--+-->
+| [[China Airlines]] | [[Songshan Airport|Taipei–Songshan]]
+<!--+-->
+| [[China Eastern Airlines]] | [[Beijing Daxing International Airport|Beijing–Daxing]],{{cn|date=June 2026}} [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!--+-->
+| [[China Southern Airlines]] | [[Beijing Daxing International Airport|Beijing–Daxing]],{{cn|date=June 2026}} [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!--+-->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Airport|Detroit]], [[Daniel K. Inouye International Airport|Honolulu]], [[Los Angeles International Airport|Los Angeles]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Seattle/Tacoma]]
+<!--+-->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!--+-->
+| [[EVA Air]] | [[Songshan Airport|Taipei–Songshan]]
+<!--+-->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]]
+<!--+-->
+| [[Garuda Indonesia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!--+-->
+| [[Hawaiian Airlines]] | [[Daniel K. Inouye International Airport|Honolulu]]
+<!--+-->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!--+-->
+| [[ITA Airways]] | [[Rome–Fiumicino]]
+<!--+-->
+| [[Japan Airlines]] | [[Akita Airport|Akita]], [[Amami Airport|Amami Ōshima]], [[Aomori Airport|Aomori]], [[Asahikawa Airport|Asahikawa]], [[Bangkok–Suvarnabhumi]], [[Beijing–Capital]], [[Chicago–O'Hare]], [[Dalian Zhoushuizi International Airport|Dalian]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Hamad International Airport|Doha]], [[Fukuoka Airport|Fukuoka]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Hakodate Airport|Hakodate]], [[Helsinki Airport|Helsinki]], [[Hiroshima Airport|Hiroshima]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]], [[Daniel K. Inouye International Airport|Honolulu]], [[Izumo Airport|Izumo]], [[Kagoshima Airport|Kagoshima]], [[Kitakyushu Airport|Kitakyushu]], [[Kōchi Airport|Kōchi]], [[Kumamoto Airport|Kumamoto]], [[Kushiro Airport|Kushiro]], [[London–Heathrow]], [[Los Angeles International Airport|Los Angeles]], [[Ninoy Aquino International Airport|Manila]], [[Memanbetsu Airport|Memanbetsu]], [[Misawa Airport|Misawa]], [[Nagasaki Airport|Nagasaki]], [[Naha Airport|Naha]], [[New York–JFK]], [[Tokachi–Obihiro Airport|Obihiro]], [[Oita Airport|Oita]], [[Okayama Airport|Okayama]], [[Itami Airport|Osaka–Itami]], [[Kansai International Airport|Osaka–Kansai]], [[Paris–Charles de Gaulle]], [[San Francisco International Airport|San Francisco]], [[New Chitose Airport|Sapporo–Chitose]], [[Gimpo International Airport|Seoul–Gimpo]], [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Nanki–Shirahama Airport|Shirahama]], [[Changi Airport|Singapore]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Songshan Airport|Taipei–Songshan]], [[Tokushima Airport|Tokushima]], [[Yamaguchi Ube Airport|Ube]], [[Yamagata Airport|Yamagata]]
+<!--+-->
+| [[Korean Air]] | [[Gimpo International Airport|Seoul–Gimpo]], [[Incheon International Airport|Seoul–Incheon]]
+<!--+-->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!--+-->
+| [[Peach Aviation|Peach]] | [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Taipei–Taoyuan]]
+<!--+-->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]]
+<!--+-->
+| [[Qantas]] | [[Sydney Airport|Sydney–Kingsford Smith]]
+<!--+-->
+|[[Qatar Airways]] |[[Hamad International Airport|Doha]]
+<!--+-->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]] 
+<!--+-->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!--+-->
+| [[Shanghai Airlines]] | [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]]
+<!--+-->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!--+-->
+| [[Skymark Airlines]] | [[Fukuoka Airport|Fukuoka]], [[Kagoshima Airport|Kagoshima]], [[Kobe Airport|Kobe]], [[Naha Airport|Naha]], [[New Chitose Airport|Sapporo–Chitose]], [[Shimojishima Airport|Shimojishima]]
+<!--+-->
+| [[Solaseed Air]] | [[Kagoshima Airport|Kagoshima]], [[Kumamoto Airport|Kumamoto]], [[Miyazaki Airport|Miyazaki]], [[Nagasaki Airport|Nagasaki]], [[Naha Airport|Naha]], [[Oita Airport|Oita]]
+<!--+-->
+| [[Spring Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!--+-->
+| [[StarFlyer]] | [[Fukuoka Airport|Fukuoka]], [[Kitakyushu Airport|Kitakyushu]], [[Kansai International Airport|Osaka–Kansai]], [[Yamaguchi Ube Airport|Ube]]
+<!--+-->
+| {{nowrap|[[Thai Airways International]]}} | [[Bangkok–Suvarnabhumi]]
+<!--+-->
+| [[Tianjin Airlines]] | [[Tianjin Binhai International Airport|Tianjin]]
+<!--+-->
+| [[Tigerair Taiwan]] | [[Taipei–Taoyuan]]
+<!--+-->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!--+-->
+|[[United Airlines]] | [[Chicago–O'Hare]], [[Antonio B. Won Pat International Airport|Guam]], [[Los Angeles International Airport|Los Angeles]], [[Newark Liberty International Airport|Newark]], [[San Francisco International Airport|San Francisco]], [[Washington–Dulles]]
+<!--+-->
+| [[VietJet Air]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!--+-->
+| [[Vietnam Airlines]] | [[Noi Bai International Airport|Hanoi]]
+}}

@@ -1,0 +1,46 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable = yes
+<!-- -->
+| [[Allegiant Air]] | '''Seasonal:''' [[Myrtle Beach International Airport|Myrtle Beach]],  [[Orlando Sanford International Airport|Orlando/Sanford]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]  | 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]]  | 
+<!-- -->
+| [[Breeze Airways]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]] (begins October 9, 2026), [[Southwest Florida International Airport|Fort Myers]] (begins October 23, 2026), [[Raleigh–Durham International Airport|Raleigh/Durham]] (begins November 6, 2026)| 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] | 
+<!-- -->
+| {{nowrap|[[Delta Connection]]}} | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] | 
+<!-- -->
+| {{nowrap|[[United Airlines]]}} | '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]] | 
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Dulles International Airport|Washington–Dulles]] | 
+<!-- -->}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Passenger destinations map
+|-
+|{{Location map+ |United_States |width=800 |float=center
+|caption=Domestic destinations from Dayton International Airport<br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=39.9024 |long=-84.2194 |position=left |label=<div style="position:relative; top:-5px;">'''Dayton'''</div>|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.6407 |long=-84.4277 |position=left |label='''[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=35.2139 |long=-80.9431 |position=right |label='''[[Charlotte Douglas International Airport|Charlotte]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=41.9742 |long=-87.9073 |position=left |label='''[[O'Hare International Airport|Chicago–O'Hare]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.8998 |long=-97.0403 |position=left |label='''[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.8561 |long=-104.6737 |position=top |label='''[[Denver International Airport|Denver]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.8719 |long=-75.2411 |position=right |label='''[[Philadelphia International Airport|Philadelphia]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=38.9531 |long=-77.4565 |position=left |label='''[[Washington Dulles International Airport|Washington–Dulles]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=38.8521 |long=-77.0401 |position=right |label='''[[Ronald Reagan Washington National Airport|Washington–National]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=28.7755 |long=-81.2434 |position=right |label='''[[Orlando Sanford International Airport|Orlando/Sanford]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=26.9189 |long=-81.9908 |position=under |label='''[[Punta Gorda Airport (Florida)|{{nowrap|Punta Gorda (FL)}}]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=27.9068 |long=-82.6919 |position=left |label='''[[St. Pete–Clearwater International Airport|{{nowrap|St. Petersburg/Clearwater}}]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=33.6797 |long=-78.9283 |position=right |label='''[[Myrtle Beach International Airport|Myrtle Beach]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Blue pog.svg |United_States |lat=26.0742|long=-80.1506|position=right|label='''<small>{{nowrap|[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]}}</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |mark = Blue pog.svg |United_States |lat=26.536111|long=-81.755278|position=bottom|label='''<small>{{nowrap|[[Southwest Florida International Airport|Fort Myers]]}}</small>'''|label_size=90 |marksize=7}}
+{{Location map~ | mark = Blue pog.svg |United_States |lat=35.877778 |long=-78.7875 |position=right|label='''<small>[[Raleigh–Durham International Airport|Raleigh/Durham]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}
+
+The Dayton International Airport once ranked among the nation's busiest [[air freight]] facilities and was the Midwestern hub for [[Emery Worldwide]], a [[Consolidated Freightways|CF]] company. Emery, which was then operating under the name Menlo Worldwide Forwarding, was acquired by [[United Parcel Service]] (UPS) at the end of 2004. UPS closed the facility on June 30, 2006, moving operations to [[Worldport (UPS air hub)|Worldport]] at [[Louisville International Airport]].

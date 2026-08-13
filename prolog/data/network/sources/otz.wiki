@@ -1,0 +1,6 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| {{nowrap|[[Alaska Airlines]]}} | [[Ted Stevens Anchorage International Airport|Anchorage]]
+| [[Bering Air]] | [[Ambler Airport|Ambler]], [[Buckland Airport|Buckland]], [[Cape Lisburne LRRS Airport|Cape Lisburne]], [[Deering Airport|Deering]], [[Bob Baker Memorial Airport|Kiana]], [[Kivalina Airport|Kivalina]], [[Kobuk Airport|Kobuk]], [[Noatak Airport|Noatak]], [[Nome Airport|Nome]], [[Robert (Bob) Curtis Memorial Airport|Noorvik]], [[Point Hope Airport|Point Hope]], [[Selawik Airport|Selawik]], [[Shungnak Airport|Shungnak]]
+}}

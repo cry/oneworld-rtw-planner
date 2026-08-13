@@ -1,0 +1,116 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use independent sources where possible. -->
+{{Airport destination list
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]
+<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]]
+<!-- -->
+| [[Air New Zealand]] | [[Auckland Airport|Auckland]], [[Christchurch Airport|Christchurch]], [[Queenstown Airport|Queenstown]], [[Wellington Airport|Wellington]]
+<!-- -->
+| [[AirAsia X]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Ngurah Rai International Airport|Denpasar]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Beijing Capital Airlines]] | [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Qingdao Jiaodong International Airport|Qingdao]]
+<!-- -->
+| [[British Airways]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]] (begins 11 January 2027), [[Heathrow Airport|London–Heathrow]] (resumes 11 January 2027)
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Cebu Pacific]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[China Airlines]] | [[Taiwan Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Nanjing Lukou International Airport|Nanjing]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[China Southern Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Delta Air Lines]] | [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]]
+<!-- -->
+| [[Finnair]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Helsinki Airport|Helsinki]] (both begin 26 October 2026)
+<!-- -->
+| [[Garuda Indonesia]] | [[Ngurah Rai International Airport|Denpasar]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Hainan Airlines]] | [[Haikou Meilan International Airport|Haikou]]
+<!-- -->
+| [[Hong Kong Airlines]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Japan Airlines]] | [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Jetstar]] | [[Adelaide Airport|Adelaide]], [[Auckland Airport|Auckland]], [[Ayers Rock Airport|Ayers Rock]], [[Ballina Byron Gateway Airport|Ballina]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Brisbane Airport|Brisbane]], [[Busselton Margaret River Airport|Busselton]], [[Cairns Airport|Cairns]], [[Canberra Airport|Canberra]], [[Christchurch Airport|Christchurch]], [[Bandaranaike International Airport|Colombo–Bandaranaike]] (begins 25 August 2026), [[Darwin International Airport|Darwin]], [[Ngurah Rai International Airport|Denpasar]], [[Gold Coast Airport|Gold Coast]], [[Hervey Bay Airport|Hervey Bay]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hobart Airport|Hobart]], [[Launceston Airport|Launceston]], [[Nadi International Airport|Nadi]], [[Newcastle Airport, New South Wales|Newcastle]], [[Perth Airport|Perth]], [[Phuket International Airport|Phuket]], [[Whitsunday Coast Airport|Proserpine]], [[Queenstown Airport|Queenstown]], [[Singapore Changi Airport|Singapore]], [[Sunshine Coast Airport|Sunshine Coast]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Western Sydney International Airport|Sydney–Western]] (begins 25 October 2026), [[Townsville Airport|Townsville]]
+<!-- -->
+| [[Juneyao Air]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[LATAM Chile]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[Link Airways]] | [[Dubbo Regional Airport|Dubbo]], [[Orange Airport|Orange]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Maldivian (airline)|Maldivian]] | '''Seasonal charter:''' [[Velana International Airport|Malé]]
+<!-- -->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Qantas]] | [[Adelaide Airport|Adelaide]], [[Alice Springs Airport|Alice Springs]] (ends 15 November 2026), [[Auckland Airport|Auckland]], [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]], [[Canberra Airport|Canberra]], [[Christchurch Airport|Christchurch]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Darwin International Airport|Darwin]], [[Ngurah Rai International Airport|Denpasar]], [[Gold Coast Airport|Gold Coast]], [[Hobart Airport|Hobart]], [[Hong Kong International Airport|Hong Kong]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Heathrow Airport|London–Heathrow]] (resumes 25 October 2026), [[Los Angeles International Airport|Los Angeles]], [[Perth Airport|Perth]], [[Queenstown Airport|Queenstown]], [[Singapore Changi Airport|Singapore]], [[Sunshine Coast Airport|Sunshine Coast]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Narita Airport|Tokyo–Narita]], [[Wellington Airport|Wellington]] <br />'''Seasonal:''' [[Broome International Airport|Broome]], [[Indira Gandhi International Airport|Delhi]]
+<!-- -->
+| [[QantasLink]] | [[Adelaide Airport|Adelaide]], [[Brisbane Airport|Brisbane]], [[Burnie Airport|Burnie]], [[Canberra Airport|Canberra]], [[Coffs Harbour Airport|Coffs Harbour]], [[Devonport Airport|Devonport]], [[Hamilton Island Airport|Hamilton Island]], [[Hobart Airport|Hobart]], [[Launceston Airport|Launceston]], [[Mildura Airport|Mildura]], [[Newcastle Airport, New South Wales|Newcastle]], [[Western Sydney International Airport|Sydney–Western]] (begins 28 March 2027), [[Townsville Airport|Townsville]]
+<!-- -->
+| [[Qatar Airways]] | [[Auckland Airport|Auckland]] (begins 10 December 2026; ends 25 June 2027), [[Hamad International Airport|Doha]]{{efn|name=Doah|Some Qatar Airways flights stop at an intermediate domestic stop en route to their destination; however Qatar Airways has [[Freedoms of the air#Eighth freedom (consecutive cabotage)|no traffic rights]] to carry passengers solely between Melbourne and the intermediate domestic stop.}}
+<!-- -->
+| [[Rex Airlines]] | [[Burnie Airport|Burnie]], [[King Island Airport|King Island]], [[Merimbula Airport|Merimbula]], [[Mildura Airport|Mildura]], [[Mount Gambier Airport|Mount Gambier]], [[Wagga Wagga Airport|Wagga Wagga]]
+<!-- -->
+| [[Royal Brunei Airlines]] | [[Brunei International Airport|Bandar Seri Begawan]]
+<!-- -->
+| [[Scoot]] | [[Singapore Changi Airport|Singapore]]
+<!-- -->
+|[[Shenzhen Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Sichuan Airlines]] | [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+ <!-- -->
+| [[Singapore Airlines]] | [[Singapore Changi Airport|Singapore]]
+<!-- -->
+| [[SriLankan Airlines]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]], [[Singapore Changi Airport|Singapore]]
+<!-- -->
+| [[United Airlines]] |[[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]]
+<!-- -->
+| [[VietJet Air]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Vietnam Airlines]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Virgin Australia]] | [[Adelaide Airport|Adelaide]], [[Ayers Rock Airport|Ayers Rock]] (ends 25 October 2026), [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]], [[Canberra Airport|Canberra]], [[Darwin International Airport|Darwin]], [[Ngurah Rai International Airport|Denpasar]], [[Hamad International Airport|Doha]], [[Gold Coast Airport|Gold Coast]], [[Hamilton Island Airport|Hamilton Island]], [[Hobart Airport|Hobart]], [[Launceston Airport|Launceston]], [[Nadi International Airport|Nadi]], [[Newcastle Airport, New South Wales|Newcastle]], [[Perth Airport|Perth]], [[Queenstown Airport|Queenstown]], [[Sunshine Coast Airport|Sunshine Coast]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[XiamenAir]] | [[Xiamen Gaoqi International Airport|Xiamen]]
+}}
+
+[[Qantas]] also operates dedicated "flightseeing" services over [[Antarctica]] from Melbourne. These flights, using a [[Boeing 787 Dreamliner]], depart Melbourne from Terminal 1, and provide a guided aerial tour of Antarctica before returning to Australia. These flights are about thirteen hours in total.
+
+===Cargo===
+
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport destination list
+<!-- -->
+|[[ASL Airlines Australia]] | [[Auckland Airport|Auckland]], [[Christchurch Airport|Christchurch]]
+<!-- -->
+| [[Cathay Cargo]] | [[Hong Kong International Airport|Hong Kong]], [[Toowoomba Wellcamp Airport|Toowoomba]]
+<!-- -->
+| [[DHL Aviation]] | [[Auckland Airport|Auckland]], [[Christchurch Airport|Christchurch]], [[Singapore Changi Airport|Singapore]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Qantas Freight]] | [[Adelaide Airport|Adelaide]], [[Auckland Airport|Auckland]], [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]], [[Christchurch Airport|Christchurch]], [[Gold Coast Airport|Gold Coast]], [[Hobart Airport|Hobart]], [[Launceston Airport|Launceston]], [[Perth Airport|Perth]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Western Sydney Airport|Sydney–Western]] 
+<!-- -->
+| [[Singapore Airlines Cargo]] | [[Auckland Airport|Auckland]], [[Singapore Changi Airport|Singapore]]
+<!-- -->
+| [[Tasman Cargo Airlines]] |[[Auckland Airport|Auckland]], [[Changi Airport|Singapore]]
+<!-- -->
+}}

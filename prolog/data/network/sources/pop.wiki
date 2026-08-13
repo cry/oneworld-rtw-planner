@@ -1,0 +1,47 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Pierre Elliott Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[Air Canada Rouge]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Air Transat]] | [[Montréal–Pierre Elliott Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]] <br /> '''Seasonal:''' [[Halifax Stanfield International Airport|Halifax]],{{citation needed|date=May 2025}} [[Ottawa International Airport|Ottawa]],{{citation needed|date=May 2025}} [[Québec City Jean Lesage International Airport|Québec City]]{{citation needed|date=May 2025}}
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]<br>'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]]
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]]{{ref|1|1}}
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield-Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zurich]]
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]]<br />'''Seasonal:''' [[Logan International Airport|Boston]]{{citation needed|date=May 2025}}
+<!-- -->
+| [[LOT Polish Airlines]] | '''Charter:''' [[Katowice Airport|Katowice]]<br />'''Seasonal charter:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]{{citation needed|date=December 2024}}
+<!-- -->
+<!-- -->
+<!-- -->
+| [[United Airlines]] | [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[WestJet]] | [[Montréal–Pierre Elliott Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]] <br />'''Seasonal:''' [[Calgary International Airport|Calgary]]
+<!-- -->
+}}
+
+===Cargo===
+{{unreferenced section|date=December 2024}}
+{{Airport destination list
+<!-- -->
+| [[Amerijet]] | [[Miami International Airport|Miami]], [[Cibao International Airport|Santiago de los Caballeros]]
+<!-- -->
+| [[DHL Aviation]]{{citation needed|date=December 2024}} | [[Cibao International Airport|Santiago de los Caballeros]], [[Las Americas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+| [[IBC Airways]]{{citation needed|date=December 2024}} | [[Miami International Airport|Miami]]
+<!-- -->
+}}
+
+;Notes
+*{{note|1|1}} Condor's flight from Puerto Plata to Frankfurt operates via Santo Domingo; however, the flight from Frankfurt to Puerto Plata is nonstop.

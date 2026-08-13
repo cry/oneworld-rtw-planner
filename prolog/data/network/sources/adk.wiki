@@ -1,0 +1,35 @@
+== Airlines and destinations ==
+[[File:Alaska Airlines at Adak.jpg|thumb|Alaska Airlines [[Boeing 737-400]] at Adak Airport]]
+Scheduled passenger service is subsidized by the [[Essential Air Service]] (EAS) program. Alaska Airlines operates two flights weekly, on Wednesdays and Saturdays, using [[Boeing 737-700]] or [[Boeing 737-800]] jet aircraft and previously with [[Boeing 737-400]] jet aircraft.
+{{Airport destination list
+| [[Alaska Airlines]] | [[Ted Stevens Anchorage International Airport|Anchorage]]
+}}
+
+===Statistics===
+{{Bar graph
+| title = Carrier shares: October 2024 – September 2025
+
+| bar_width   = 28
+| width_units = em
+| label_type  = Carrier&nbsp;&nbsp;
+| data_type   = Passengers (arriving and departing)
+| data_max    = 5,060
+| label1      = [[Alaska Airlines]]
+| data1       = 5,060
+| comment1    = 100.00%
+}}
+
+{| class="wikitable"
+|+ Top domestic destinations: October 2024 – September 2025 
+
+|-
+! Rank
+! City
+! Airport name & IATA code
+! Passengers
+|-
+| 1
+| [[Anchorage, AK]]
+| [[Ted Stevens Anchorage International Airport|Ted Stevens Anchorage International Airport (ANC)]]
+| align="right" | 5,060
+|}

@@ -1,0 +1,71 @@
+==Airlines and destinations==
+The following airlines have scheduled direct services to and/or from Juan Santamaría International Airport:
+
+===Passenger===
+{{Airport-dest-list
+<!-- -->
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Air Canada]] | [[Montréal–Trudeau]], [[Toronto–Pearson]]
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Transat]] | [[Montréal–Trudeau]] <br/> '''Seasonal:''' [[Québec City Jean Lesage International Airport|Québec City]] (begins 15 December 2026), [[Toronto–Pearson]]
+<!-- -->
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]] <br /> '''Seasonal:''' [[Chicago–O'Hare]]
+<!-- -->
+| [[Arajet]] | [[Santo Domingo–Las Américas]]
+<!-- -->
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+| [[Avianca Costa Rica]] | [[El Dorado International Airport|Bogotá]], [[Buenos Aires-Ezeiza]], [[Rafael Núñez International Airport|Cartagena]], [[La Aurora International Airport|Guatemala City]], [[José Joaquín de Olmedo International Airport|Guayaquil]], [[José María Córdova International Airport|Medellín–JMC]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Miami International Airport|Miami]], [[New York–JFK]], [[Tocumen International Airport|Panama City–Tocumen]], [[Mariscal Sucre International Airport|Quito]], [[El Salvador International Airport|San Salvador]], [[Washington–Dulles]]<br>'''Seasonal:''' [[Chicago–O'Hare]], [[Ramón Villeda Morales International Airport|San Pedro Sula]]
+<!-- -->
+| [[Avianca El Salvador]] | [[El Salvador International Airport|San Salvador]]
+<!-- -->
+| [[Breeze Airways]] | [[Tampa International Airport|Tampa]] (begins 3 October 2026)
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[London–Heathrow]] (begins 25 October 2026)
+<!-- -->
+| [[Copa Airlines]] | [[La Aurora International Airport|Guatemala City]], [[Augusto C. Sandino International Airport|Managua]], [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| {{nowrap|[[Costa Rica Green Airways]]}} | [[Quepos La Managua Airport|Quepos]], [[Tambor Airport|Tambor]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]],  <br/> '''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Frontier Airlines]] | '''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Orlando International Airport|Orlando]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Iberojet (airline)|Iberojet]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[New York–JFK]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[LATAM Perú]] | [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Porter Airlines]] | '''Seasonal:''' [[Toronto–Pearson]] (begins 2 December 2026)
+<!-- -->
+| [[Sansa Airlines]] | [[Bocas del Toro "Isla Colón" International Airport|Bocas del Toro]], [[Drake Bay Airport|Drake Bay]], [[Golfito Airport|Golfito]], [[La Fortuna Arenal Airport|La Fortuna/San Carlos]], [[Guanacaste Airport|Liberia (CR)]], [[Augusto C. Sandino International Airport|Managua]], [[Limón International Airport|Limón]], [[Nosara Airport|Nosara Beach]], [[Puerto Jiménez Airport|Puerto Jiménez]], [[Quepos La Managua Airport|Quepos]], [[Tamarindo Airport|Tamarindo]], [[Tambor Airport|Tambor]], [[Tortuguero Airport|Tortuguero]]
+<!-- -->
+| [[Southwest Airlines]] | [[Austin–Bergstrom International Airport|Austin]] (begins 13 March 2027),  [[Orlando International Airport|Orlando]]<br>'''Seasonal:''' [[Denver International Airport|Denver]], [[Nashville International Airport|Nashville]]
+<!-- -->
+| [[United Airlines]] | [[Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[San Francisco International Airport|San Francisco]] <br /> '''Seasonal:''' [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[Washington–Dulles]]
+<!-- -->
+| [[Viva (airline)|Viva]] | [[Monterrey International Airport|Monterrey]]
+<!-- -->
+| [[Volaris]] | [[Cancún International Airport|Cancún]]
+<!-- -->
+| [[Volaris Costa Rica]] | [[Cancún International Airport|Cancún]], [[Guadalajara International Airport|Guadalajara]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Orlando International Airport|Orlando]],
+<!-- -->
+| [[Wingo (airline)|Wingo]] | [[José María Córdova International Airport|Medellín–JMC]]
+<!-- -->
+}} 
+
+[[File:Juan Santamaria International Airport - Arrives.JPG|thumb|Departures hall]] [[File:AeropuertoJuanSantamaría.jpg|right|thumb|Terminal facade]]

@@ -1,0 +1,4 @@
+==Airlines and destinations==
+{{Airport-dest-list
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+}}

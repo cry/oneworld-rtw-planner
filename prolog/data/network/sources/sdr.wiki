@@ -1,0 +1,18 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Santander Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+|{{nowrap|[[Binter Canarias]]}} | [[Gran Canaria Airport|Gran Canaria]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]] <br> '''Seasonal:''' [[Lanzarote Airport|Lanzarote]] 
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]] <br> '''Seasonal:''' [[Almería Airport|Almería]], [[Jerez Airport|Jerez de la Frontera]], [[Vigo Airport|Vigo]]
+<!-- -->
+|[[Ryanair]] | [[Brussels South Charleroi Airport|Charleroi]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[London Stansted Airport|London–Stansted]], [[Marrakesh Menara Airport|Marrakech]] <br> '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Manchester Airport|Manchester]], [[Treviso Airport|Treviso]]
+<!-- -->
+|[[Volotea]] | [[Federico García Lorca Granada Airport|Granada]], [[Madrid–Barajas Airport|Madrid]] (begins 6 November 2026), [[Málaga Airport|Málaga]], [[Seville Airport|Seville]], [[Valencia Airport|Valencia]] <br> '''Seasonal:''' [[Menorca Airport|Menorca]]
+<!-- -->
+|[[Vueling]] | [[Barcelona–El Prat Josep Tarradellas Airport|Barcelona]], [[Orly Airport|Paris Orly]] <br> '''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Ibiza Airport|Ibiza]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+|[[Wizz Air]] | [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Milan Malpensa Airport|Milan–Malpensa]] (begins 15 September 2026), [[Valencia Airport|Valencia]] (begins 3 November 2026) <br>'''Seasonal:''' [[Sofia International Airport|Sofia]], [[Tirana International Airport Nënë Tereza|Tirana]]
+<!-- -->
+}}

@@ -1,0 +1,19 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[Airnorth]]|[[Darwin International Airport|Darwin]], [[Kununurra Airport|Kununurra]]
+<!-- -->
+|[[Nexus Airlines (Australia)|Nexus Airlines]] |  [[Geraldton Airport|Geraldton]], [[Karratha Airport|Karratha]],  [[Port Hedland Airport|Port Hedland]]
+<!-- -->
+|[[Qantas]]|[[Perth Airport|Perth]]<br/>'''Seasonal:''' [[Melbourne Airport|Melbourne]],{{citation needed|date=May 2025}} [[Sydney Airport|Sydney]]{{citation needed|date=May 2025}}
+<!-- -->
+|[[QantasLink]]|[[Perth Airport|Perth]]
+<!-- -->
+|{{nowrap|[[Skippers Aviation]]}}|[[Fitzroy Crossing Airport|Fitzroy Crossing]], [[Halls Creek Airport|Halls Creek]]
+<!-- -->
+|[[Virgin Australia]]|[[Perth Airport|Perth]]  
+<!-- -->
+|[[Virgin Australia Regional Airlines]]|[[Perth Airport|Perth]]<br />'''Charter:''' [[West Angelas mine|West Angelas]]{{citation needed|date=May 2025}}
+}}
+<!-- -->

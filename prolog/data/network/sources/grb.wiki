@@ -1,0 +1,30 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{More citations needed section|date=January 2022}}
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br>'''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]] | 
+<!-- -->
+| {{nowrap|[[Delta Connection]]}} | [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] | 
+<!-- -->
+| [[United Express]] | [[Chicago–O'Hare]] | 
+<!-- -->
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Green Bay Austin Straubel International Airport<br>{{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination <br /> {{font color | purple | Purple }} = Route ending
+|places=
+{{Location map~ |United_States |lat= 44.4923 |long=-88.1278|position=right |label={{lower|5px|<small>'''Green Bay'''</small>}}|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=41.974186|long=-87.907783|position=bottom|label='''<small>[[Chicago–O'Hare]]</small>'''|label_size=100 |marksize=10 }}
+{{Location map~ |United_States |lat=44.884690|long=-93.222430|position=left|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]</small>'''|label_size=100 |marksize=10 }}
+{{Location map~ |United_States |lat=33.6407|long=-84.4277|position=bottom|label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=100 |marksize=10 }}
+{{Location map~ |United_States |lat=42.2162|long=-83.3554|position=right|label='''<small>[[Detroit Metropolitan Airport|Detroit]]</small>'''|label_size=100 |marksize=10 }}
+}}
+|}

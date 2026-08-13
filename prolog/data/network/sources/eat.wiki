@@ -1,0 +1,30 @@
+==Airline and destinations==
+In the year ending December 31, 2017, the airport had 44,376 aircraft operations, average 121 per day: 89% [[general aviation]], 5% [[air taxi]], 5% airline and 1% military. 108 aircraft were then based at this airport: 82 single-engine, 7 multi-engine, 2 jet, 5 helicopter, 10 glider and 2 [[ultralight]].
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Unreferenced section|date=January 2022}}
+{{Airport destination list
+<!-- -->
+| [[Alaska Airlines]] | [[Portland International Airport|Portland (OR)]] (begins October 3, 2026), [[Seattle–Tacoma International Airport|Seattle/Tacoma]]}}
+<!-- -->
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:25em; margin:0.2em auto"
+|-
+! Destination map
+|-
+|{{Location map+ |USA Washington |width=500 |float=center
+|caption=Destinations from Pangborn Memorial Airport
+|places=
+{{Location map~ |USA Washington |lat=47.3990 |long=-120.2065 |position=right |label=<div style="position:relative; top:-5px;"><small>'''Wenatchee'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |USA Washington |lat=47.450165|long=-122.309176 |position=left|label='''<small>[[Seattle–Tacoma International Airport|Seattle/Tacoma]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[Ameriflight]] | [[Omak Airport|Omak]], [[Boeing Field|Seattle–Boeing]]
+<!-- -->
+| [[FedEx Feeder]] | [[Spokane International Airport|Spokane]]
+<!-- -->
+}}

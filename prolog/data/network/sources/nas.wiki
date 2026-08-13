@@ -1,0 +1,50 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Canada]] | [[Montréal–Trudeau]], [[Toronto–Pearson]] <br/> '''Seasonal:''' [[Halifax Stanfield International Airport|Halifax]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]]
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]] <br/> '''Seasonal:''' [[Chicago–O'Hare]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Washington–National]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Bahamasair]] | [[Hugo Chavez International Airport|Cap-Haitien]], Colonel Hill, [[Deadman's Cay Airport|Deadman's Cay]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Grand Bahama International Airport|Freeport]], [[Exuma International Airport|George Town]], [[Great Harbour Cay Airport|Great Harbour Cay]], [[Governor's Harbour Airport|Governor's Harbour]], [[José Martí International Airport|Havana]], [[Marsh Harbour Airport|Marsh Harbour]], [[Inagua Airport|Matthew Town]], [[Mayaguana Airport|Mayaguana]], [[Miami International Airport|Miami]], [[North Eleuthera Airport|North Eleuthera]], [[Orlando International Airport|Orlando]], [[Providenciales International Airport|Providenciales]], [[Rock Sound International Airport|Rock Sound]], [[Stella Maris Airport|Stella Maris]], [[San Salvador Airport|San Salvador (Bahamas)]], [[Spring Point Airport|Spring Point]] <br/> '''Seasonal:''' [[Sangster International Airport|Montego Bay]]
+<!-- -->
+| [[Breeze Airways]] | [[Tampa International Airport|Tampa]]
+<!-- -->
+| [[British Airways]] | [[Owen Roberts International Airport|Grand Cayman]], [[London–Heathrow]], [[Providenciales International Airport|Providenciales]]
+<!-- -->
+| {{nowrap|[[Caribbean Airlines]]}} | [[Norman Manley International Airport|Kingston–Norman Manley]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[New York–JFK]] <br/> '''Seasonal:''' [[Logan International Airport|Boston]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[New York–LaGuardia]]
+<!-- -->
+| [[Flamingo Air]] | [[Black Point Airport|Black Point]], [[Great Harbour Cay Airport|Great Harbour Cay]], [[Clarence A. Bain Airport|Mangrove Cay]], [[Staniel Cay Airport|Staniel Cay]]
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| {{nowrap|[[InterCaribbean Airways]]}} | [[Providenciales International Airport|Providenciales]]
+<!-- -->
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[New York–JFK]], [[Orlando International Airport|Orlando]]
+<!-- -->
+|[[LeAir]] | [[Andros Town Airport|Andros Town]], [[Great Harbour Cay Airport|Great Harbour Cay]], [[Clarence A. Bain Airport|Mangrove Cay]]
+<!-- -->
+| [[Pineapple Air]] | [[Governor's Harbour Airport|Governors Harbour]], [[North Eleuthera Airport|North Eleuthera]]
+<!-- -->
+|[[Porter Airlines]]| '''Seasonal:''' [[Montréal–Trudeau]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Toronto–Pearson]]
+<!-- -->
+| [[Southern Air Charter]] | [[Duncan Town Airport|Duncan Town]], [[Port Nelson Airport|Port Nelson]]
+<!-- -->
+| [[Southwest Airlines]] | [[Orlando International Airport|Orlando]]<br />'''Seasonal:''' [[Baltimore–Washington International Airport|Baltimore]]
+<!-- -->
+| [[United Airlines]] | [[Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]] <br/> '''Seasonal:''' [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Washington–Dulles]]
+<!-- -->
+| [[United Express]] | '''Seasonal:''' [[Houston–Intercontinental]], [[Washington–Dulles]]
+<!-- -->
+| [[Western Air]] | [[Congo Town Airport|Congo Town]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Grand Bahama International Airport|Freeport]], [[Exuma International Airport|George Town]], [[Marsh Harbour Airport|Marsh Harbour]], [[New Bight Airport|New Bight]], [[San Andros Airport|San Andros]], [[South Bimini Airport|South Bimini]]
+<!-- -->
+| [[WestJet]] | [[Toronto–Pearson]] <br /> '''Seasonal:''' [[Calgary International Airport|Calgary]]
+}}

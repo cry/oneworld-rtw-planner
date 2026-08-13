@@ -1,0 +1,32 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Alaska Airlines]] | [[Boise Airport|Boise]], [[Eugene Airport|Eugene]], [[Portland International Airport|Portland (OR)]], [[Roberts Field|Redmond/Bend]], [[Charles M. Schulz–Sonoma County Airport|Santa Rosa]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] <br /> '''Seasonal:''' [[Daniel K. Inouye International Airport|Honolulu]]
+<!-- -->
+| [[Allegiant Air]] | [[Bellingham International Airport|Bellingham]], [[Des Moines International Airport|Des Moines]], [[Indianapolis International Airport|Indianapolis]], [[Provo Municipal Airport|Provo]]
+<!-- -->
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]<br /> '''Seasonal:''' [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[Breeze Airways]] | [[Arcata–Eureka Airport|Eureka]], [[Provo Municipal Airport|Provo]] 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+| [[Frontier Airlines]] | [[Harry Reid International Airport|Las Vegas]]
+<!-- -->
+| [[JetBlue]] | '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[JSX (airline)|JSX]] | [[Buchanan Field Airport|Concord (CA)]], [[Harry Reid International Airport|Las Vegas]], [[Oakland San Francisco Bay Airport|Oakland]], [[Reno–Tahoe International Airport|Reno/Tahoe]], [[Scottsdale Airport|Scottsdale]]<br />'''Seasonal:'''  [[Monterey Regional Airport|Monterey]], [[Napa County Airport|Napa]], [[Taos Regional Airport|Taos]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Albuquerque International Sunport|Albuquerque]], [[Austin–Bergstrom International Airport|Austin]], [[Midway International Airport|Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Daniel K. Inouye International Airport|Honolulu]], [[Harry Reid International Airport|Las Vegas]], [[Nashville International Airport|Nashville]], [[Oakland San Francisco Bay Airport|Oakland]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Reno–Tahoe International Airport|Reno/Tahoe]], [[Sacramento International Airport|Sacramento]], [[San Francisco International Airport|San Francisco]], [[San Jose International Airport|San Jose (CA)]], [[Charles M. Schulz–Sonoma County Airport|Santa Rosa]] <br /> '''Seasonal:''' [[Boise Airport|Boise]], [[St. Louis Lambert International Airport|St. Louis]], [[Portland International Airport|Portland (OR)]]
+<!-- -->
+| [[United Airlines]] |  [[Denver International Airport|Denver]], [[San Francisco International Airport|San Francisco]]
+<!-- -->
+| [[United Express]] |  [[San Francisco International Airport|San Francisco]]
+<!-- -->
+}}

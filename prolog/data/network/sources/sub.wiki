@@ -1,0 +1,52 @@
+==Airlines and destinations==
+===Passenger===
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY.-->
+{{Airport-dest-list
+<!-- -->
+| [[Airfast Indonesia]] | '''Charter:''' [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Mozes Kilangin Airport|Timika]]
+<!-- -->
+| [[Batik Air]] | [[Ngurah Rai International Airport|Denpasar]], [[Halim Perdanakusuma International Airport|Jakarta–Halim Perdanakusuma]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Hasanuddin International Airport|Makassar]], [[Iskandar Airport|Pangkalan Bun]], [[Kalimarau Airport|Tanjung Redeb]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Shenzhen Bao’an International Airport|Shenzhen]] (begins 15 September 2026)
+<!-- -->
+| [[Citilink]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Husein Sastranegara Airport|Bandung–Husein Sastranegara]] (resumes 17 August 2026), [[Syamsudin Noor International Airport|Banjarmasin]], [[Hang Nadim International Airport|Batam]], [[Ngurah Rai International Airport|Denpasar]], [[Halim Perdanakusuma International Airport|Jakarta–Halim Perdanakusuma]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Lombok International Airport|Lombok]], [[Sultan Hasanuddin International Airport|Makassar]], [[Tjilik Riwut Airport|Palangkaraya]], [[Supadio International Airport|Pontianak]], [[Aji Pangeran Tumenggung Pranoto International Airport|Samarinda]]
+<!-- -->
+| [[Garuda Indonesia]] | [[Ngurah Rai International Airport|Denpasar]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Greater Bay Airlines]] |[[Hong Kong International Airport|Hong Kong]] (begins 25 September 2026)
+<!-- -->
+| [[Indonesia AirAsia]] | [[Senai International Airport|Johor Bahru]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Penang International Airport|Penang]]
+<!-- -->
+| [[Lion Air]] | [[Pattimura Airport|Ambon]], [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Hang Nadim International Airport|Batam]], [[Ngurah Rai International Airport|Denpasar]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Haluoleo Airport|Kendari]], [[El Tari Airport|Kupang]], [[Lombok International Airport|Lombok]], [[Sultan Hasanuddin International Airport|Makassar]], [[Sam Ratulangi International Airport|Manado]], [[Kualanamu International Airport|Medan]],{{efn|Medan is the continuation of Batam flight, operating under the same flight number.}} [[Tjilik Riwut Airport|Palangkaraya]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]], [[Mutiara SIS Al-Jufrie Airport|Palu]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Supadio International Airport|Pontianak]], [[Juwata Airport|Tarakan]], [[Sultan Babullah Airport|Ternate]] <br /> '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[NAM Air]] | [[Iskandar Airport|Pangkalan Bun]], [[H. Asan Airport|Sampit]], [[Lede Kalumbang Airport|Tambolaka]]
+<!-- -->
+| [[Pelita Air]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Royal Brunei Airlines]] | [[Brunei International Airport|Bandar Seri Begawan]]
+<!-- -->
+| [[Saudia]] | '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Sriwijaya Air]] | [[Sultan Hasanuddin International Airport|Makassar]]
+<!-- -->
+| [[Super Air Jet]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Ngurah Rai International Airport|Denpasar]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]] (begins 26 August 2026), [[Komodo International Airport|Labuan Bajo]], [[Lombok International Airport|Lombok]], [[Kualanamu International Airport|Medan]], [[Tjilik Riwut Airport|Palangkaraya]], [[Supadio International Airport|Pontianak]], [[Aji Pangeran Tumenggung Pranoto International Airport|Samarinda]]
+<!-- -->
+| [[Susi Air]] | [[Harun Thohir Airport|Bawean]]
+<!-- -->
+| [[Wings Air]] | [[Banyuwangi Airport|Banyuwangi]], [[H. Asan Airport|Sampit]], [[Jenderal Ahmad Yani International Airport|Semarang]]
+<!-- -->
+| [[XiamenAir]] | [[Fuzhou Changle International Airport|Fuzhou]]
+<!-- -->
+}}
+'''Notes:'''{{Reflist|group=Note}}
+{{notelist}}

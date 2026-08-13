@@ -1,0 +1,26 @@
+==Airlines and destinations==
+===Passenger Destinations===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]]
+<!-- -->
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+}}
+
+===Top destinations===
+{| class="wikitable sortable" style="font-size: 95%" width= align=
+|+ '''Busiest domestic routes from Fayetteville (NC)<br />(April 2025 – March 2026)'''
+|-
+! Rank
+! City
+! Passengers
+|-
+| 1
+| [[Charlotte Douglas International Airport|Charlotte, North Carolina]]
+| 85,380
+|-
+| 2
+| [[Hartsfield–Jackson Atlanta International Airport|Atlanta, Georgia]]
+| 77,580
+|}

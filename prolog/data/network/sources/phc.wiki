@@ -1,0 +1,28 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[Aero Contractors (Nigeria)|Aero Contractors]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+|[[Air Peace]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Mallam Aminu Kano International Airport|Kano]], [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+|[[Arik Air]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+|[[Cronos Airlines]]|[[Malabo International Airport|Malabo]]
+<!-- -->
+|[[Lufthansa]]| [[Frankfurt Airport|Frankfurt]]<!-- Do not add Lagos as a Lufthansa destination; AF does not have local traffic rights on the PHC-LOS leg -->
+<!-- -->
+|[[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+|[[ValueJet (Nigeria)|ValueJet]]| [[Murtala Muhammed International Airport|Lagos]], [[Malabo International Airport|Malabo]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+|[[Air France Cargo]]| [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+|[[Air Atlanta Icelandic]]| [[Liège Airport|Liège]]
+|[[Cargolux Airlines]]| [[Luxembourg Airport|Luxembourg]]
+|[[Western Global Airlines]]| [[Liège Airport|Liège]]
+}}

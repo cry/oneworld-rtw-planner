@@ -1,0 +1,4 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list
+| [[QantasLink]] | '''Seasonal:''' [[Brisbane Airport|Brisbane]], [[Sydney Airport|Sydney]]}}

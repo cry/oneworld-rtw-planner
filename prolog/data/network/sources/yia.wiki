@@ -1,0 +1,32 @@
+==Airlines and destinations==
+[[File:YogyakartaYIATerminal.webp|thumb|Aircraft of [[Garuda Indonesia]], [[Lion Air]], [[Batik Air]], [[Citilink]] and [[Sriwijaya Air]] on the terminal apron at Yogyakarta International Airport]]
+[[File:YIA-MH-B737800.webp|thumb|A [[Malaysian Airlines]] [[Boeing 737-800]] at Yogyakarta International Airport]]
+===Passenger===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+
+{{Airport destination list
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!---->
+| [[Airfast Indonesia]] | '''Charter:''' [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Mozes Kilangin Airport|Timika]]
+<!-- -->
+| [[Batik Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!---->
+| [[Citilink]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Hang Nadim International Airport|Batam]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Hasanuddin International Airport|Makassar]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]] (begins 21 August 2026)
+<!---->
+| {{nowrap|[[Garuda Indonesia]]}} | [[Ngurah Rai International Airport|Denpasar]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]<br/> '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!---->
+| [[Lion Air]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Hasanuddin International Airport|Makassar]], [[Kualanamu International Airport|Medan]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]]
+<!---->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!---->
+| [[Pelita Air]]|[[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!---->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!---->
+| [[Sriwijaya Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Hasanuddin International Airport|Makassar]]
+<!---->
+| [[Super Air Jet]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Hang Nadim International Airport|Batam]], [[Ngurah Rai International Airport|Denpasar]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]] (begins 26 August 2026), [[Sultan Thaha Airport|Jambi]], [[Lombok International Airport|Lombok]], [[Minangkabau International Airport|Padang]], [[Tjilik Riwut Airport|Palangkaraya]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]], [[Depati Amir Airport|Pangkal Pinang]], [[Supadio International Airport|Pontianak]], [[Aji Pangeran Tumenggung Pranoto International Airport|Samarinda]] 
+<!---->
+| [[TransNusa]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!---->
+}}

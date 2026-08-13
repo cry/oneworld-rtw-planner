@@ -1,0 +1,17 @@
+==Airline and destination==
+===Passenger===
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte/Douglas International Airport|Charlotte]]
+}}
+
+===Top destinations===
+{| class="wikitable sortable" style="font-size: 95%" width= align=
+|+ '''Busiest domestic routes from PGV<br />(January &ndash; December 2025)'''
+! Rank
+! City
+! Passengers
+|-
+| 1
+| [[Charlotte Douglas International Airport|Charlotte, North Carolina]]
+| 38,340
+|}

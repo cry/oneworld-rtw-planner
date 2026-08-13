@@ -1,0 +1,20 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[AirAsia]] | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Senai International Airport|Johor Bahru]], [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]] <br/>'''Charter:''' [[Macau International Airport|Macau]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[AirBorneo]] | [[Sandakan Airport|Sandakan]]
+<!-- -->
+| {{nowrap|[[Batik Air Malaysia]]}} | [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]] <br/>'''Seasonal:''' [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Firefly (airline)|Firefly]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Greater Bay Airlines]]| '''Charter:''' [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Juneyao Air]] |[[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+}}

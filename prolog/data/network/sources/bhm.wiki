@@ -1,0 +1,34 @@
+==Airlines and destinations==
+
+As of January 2023, the top five markets served non-stop from Birmingham are [[Atlanta]], [[Dallas/Fort Worth]], [[Charlotte, North Carolina|Charlotte]], [[Houston]], and [[Denver]]. [[American Airlines]], [[Delta Air Lines]], and [[Southwest Airlines]] serve Birmingham with mainline, narrowbody aircraft. [[Regional airline]]s provide a large share of daily air carrier service to Birmingham. The most common aircraft serving the airport are the [[Bombardier CRJ700 |Bombardier CRJ700 / CRJ900]], the [[Embraer E-Jet family|Embraer E-175]], the [[Boeing 717]], the [[Boeing 737 Next Generation|Boeing 737]] family, and the [[Airbus A319]]/[[Airbus A320 family|A320]].{{cn|date=February 2026}}
+
+===Passenger===
+{{Airport destination list
+
+<!-- -->
+| [[American Airlines]] | '''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]] 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]]
+<!-- -->
+| [[Breeze Airways]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Raleigh–Durham International Airport|Raleigh/Durham]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Airport|Detroit]]
+<!-- -->
+| [[Delta Connection]] | [[Detroit Metropolitan Airport|Detroit]], [[LaGuardia Airport|New York–LaGuardia]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Baltimore/Washington International Airport|Baltimore]], [[Midway International Airport|Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[William P. Hobby Airport|Houston–Hobby]], [[Harry Reid International Airport|Las Vegas]], [[Nashville International Airport|Nashville]], [[Orlando International Airport|Orlando]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Tampa International Airport|Tampa]]
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+}}
+
+===Cargo===
+In April 2023, [[Kuehne + Nagel|Kuehne+Nagel]] began twice weekly flights from [[Stuttgart Airport|Stuttgart, Germany]] to Birmingham, primarily to support the central Alabama automotive manufacturing industry.
+
+{{Airport destination list
+<!-- -->
+| [[Atlas Air]] | [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[UPS Airlines]] | [[Louisville International Airport|Louisville]]
+<!-- -->
+}}

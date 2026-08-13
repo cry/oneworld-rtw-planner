@@ -1,0 +1,8 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[QantasLink]] | [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Rex Airlines]] | [[Adelaide Airport|Adelaide]], [[Dubbo Regional Airport|Dubbo]], [[Sydney Airport|Sydney]]
+}}

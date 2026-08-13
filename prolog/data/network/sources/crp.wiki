@@ -1,0 +1,73 @@
+==Airlines and destinations==
+Corpus Christi International Airport has six gates, two of which (Gates 4 and 6) have direct access to the [[U.S. Customs]] office. The airport has five jetways with the sixth gate using stairs to reach the aircraft parking ramp.
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+| [[Frontier Airlines]] | [[Denver International Airport|Denver]] (ends August 17, 2026) 
+<!-- -->
+| [[Southwest Airlines]] | [[William P. Hobby Airport|Houston–Hobby]]
+<!-- -->
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+<!-- -->
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[Ameriflight]] | [[Midland International Air and Space Port|Midland/Odessa]], [[San Antonio International Airport|San Antonio]]
+<!-- -->
+}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:25em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Corpus Christi International Airport
+|places=
+{{Location map~ |United_States |lat=27.770278 |long=-97.501111 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Corpus Christi'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=32.896944|long=-97.038056 |position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=29.990140|long=-95.336792 |position=right|label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=29.654751|long=-95.279002 |position=left|label='''<small>[[William P. Hobby Airport|Houston–Hobby]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=left|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}
+
+===Top destinations===
+{| class="wikitable" style="font-size: 95%" width= align=
+|+ '''Busiest domestic routes from CRP<br />(October 9, 2025- December 7, 2025)'''
+! Rank
+! Airports
+! Passengers
+! Carriers
+|-
+| 1
+| [[Dallas Fort Worth International Airport|Dallas/Ft Worth, Texas]]
+| 151,840
+| American
+|-
+| 2
+| [[George Bush Intercontinental Airport|Houston–Intercontinental, Texas]]
+| 111,400
+| United
+|-
+| 3
+| [[William P. Hobby Airport|Houston–Hobby, Texas]]
+| 94,500
+| Southwest
+|-
+| 4
+| [[Denver International Airport|Denver, Colorado]]
+| 63,000
+| Frontier
+|}
+[[American Airlines]] currently operates all flights to Corpus Christi on [[Envoy Air]] [[Embraer E-175]] regional jets.
+
+All [[Southwest Airlines]] flights at Corpus Christi are flown with various [[Boeing 737]] models; Southwest is the only airline to serve Corpus Christi with year-round mainline jet service.
+
+[[United Express]] flights to [[George Bush Intercontinental Airport|Houston–Intercontinental]] are operated by [[Mesa Airlines]] [[Embraer ERJ-175]]s, [[CommuteAir]] [[Embraer ERJ-145]] or [[SkyWest Airlines]] [[Bombardier CRJ-200]]s.
+
+[[Frontier Airlines]] flights to  [[Denver International Airport|Denver]] are flown with [[Airbus A320]] models.

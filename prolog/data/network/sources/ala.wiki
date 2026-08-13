@@ -1,0 +1,107 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+The following airlines offer year-round and seasonal scheduled flights to and from Almaty:
+
+{{Airport-dest-list
+<!-- -->
+|[[Aeroflot]]| [[Sheremetyevo International Airport|Moscow–Sheremetyevo]]
+<!-- -->
+|[[Air Arabia]]| [[Zayed International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Air Astana]]| [[Zayed International Airport|Abu Dhabi]] (suspended until {{date|2026-8-31}}), [[Antalya Airport|Antalya]], [[Aktau International Airport|Aqtau]], [[Nursultan Nazarbayev International Airport|Astana]], [[Atyrau Airport|Atyrau]], [[Heydar Aliyev International Airport|Baku]], [[Suvarnabhumi International Airport|Bangkok–Suvarnabhumi]], [[Beijing Capital International Airport|Beijing–Capital]], [[Manas International Airport|Bishkek]], [[Frankfurt Airport|Frankfurt]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[King Abdulaziz International Airport|Jeddah]], [[London Heathrow Airport|London–Heathrow]],, [[Dubai International Airport|Dubai–International]] (suspended until {{date|2026-8-31}}), [[Dushanbe International Airport|Dushanbe]], [[Istanbul Airport|Istanbul]], [[Malé International Airport|Malé]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]],, [[Kyzylorda Airport|Kyzylorda]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Indira Gandhi International Airport|New Delhi]], [[Cam Ranh International Airport|Nha Trang]], [[Oral Ak Zhol Airport|Oral]], [[Oskemen Airport|Öskemen]], [[Osh Airport|Osh]], [[Phuket International Airport|Phuket]], [[Phu Quoc International Airport|Phu Quoc]], [[Salalah International Airport|Salalah]], [[Shymkent International Airport|Şymkent]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Tashkent International Airport|Tashkent]], [[Tbilisi International Airport|Tbilisi]], [[Ürümqi Diwopu International Airport|Ürümqi]]<br/> '''Seasonal:''' [[Da Nang International Airport|Da Nang]], [[Larnaca International Airport|Larnaca]]<br/> '''Seasonal charter:''' [[Hamad International Airport|Doha]]
+<!-- -->
+|[[Air Cairo]]| '''Seasonal charter:''' [[El Alamein International Airport|El Alamein]],{{cn|date=December 2025}} [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]
+<!-- -->
+| [[AirAsia X]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]]
+<!-- -->
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Asman Airlines]] | [[Issyk-Kul International|Issyk-Kul]]
+<!-- -->
+|[[Azimuth (airline)|Azimuth]]| [[Adler-Sochi International Airport|Sochi]]
+<!-- -->
+|[[Belavia]]|[[Minsk National Airport|Minsk]]
+<!-- -->
+|[[Cathay Pacific]]|[[Hong Kong International Airport|Hong Kong]] (begins Q1 2027)
+<!-- -->
+| [[Centrum Air]] | [[Nukus Airport|Nukus]], [[Islam Karimov Tashkent International Airport|Tashkent]]{{cn|date=December 2025}}
+<!-- -->
+| {{nowrap|[[China Eastern Airlines]]}} | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Guangzhou Baiyun International Airport|Guangzhou]],{{cn|date=December 2025}} [[Ürümqi Diwopu International Airport|Ürümqi]],{{cn|date=December 2025}} [[Xi'an Xianyang International Airport|Xi'an]]{{cn|date=December 2025}}
+<!-- -->
+|[[Eastar Jet]] | [[Incheon International Airport|Seoul–Incheon]] <br/> '''Seasonal:''' [[Gimhae International Airport|Busan]]{{cn|date=December 2025}}
+<!-- -->
+| [[FlyArystan]] | [[Aqtau Airport|Aqtau]], [[Aktobe Airport|Aqtöbe]], [[Nursultan Nazarbayev Airport|Astana]], [[Atyrau Airport|Atyrau]], [[Chongqing Jiangbei International Airport|Chongqing]] (begins {{date|2026-9-23}}), [[Kutaisi International Airport|Kutaisi]], [[Oral Ak Zhol Airport|Oral]], [[Oskemen Airport|Öskemen]], [[Samarkand International Airport|Samarqand]], [[Shymkent International Airport|Şymkent]], [[Semey Airport|Semey]], [[Pavlodar Airport|Pavlodar]] (resumes {{date|2026-9-1}}), [[Hazret Sultan International Airport|Türkıstan]], [[Sary-Arka Airport|Qarağandy]], [[Kostanay Airport|Qostanai]], [[Urgench International Airport|Urgench]] (begins {{date|2026-9-2}}), [[Xi'an Xianyang International Airport|Xi'an]], [[Ili Yining International Airport|Yining]]<br/> '''Seasonal:''' [[Batumi International Airport|Batumi]], [[Gazipaşa-Alanya Airport|Gazipaşa/Alanya]], [[Issyk-Kul International|Issyk-Kul]]<br/> '''Seasonal charter:''' [[Manohar International Airport|Goa-Manohar]]
+<!-- -->
+|[[Flydubai]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Flynas]]| [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+| [[FlyOne]] | [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+|[[Hunnu Air]]| [[Chinggis Khaan International Airport|Ulaanbaatar]]
+<!-- -->
+|[[IndiGo]]| [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Loong Air]] | [[Hangzhou Xiaoshan International Airport|Hangzhou]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+|[[Neos (airline)|Neos]]| [[Milan Malpensa Airport|Milan–Malpensa]]
+<!-- -->
+|[[Pegasus Airlines]]| [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]
+<!-- -->
+|[[Qeshm Air]]| [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+|[[Red Sea Airlines (charter airline)|Red Sea Airlines]]| '''Seasonal charter:''' [[Sharm El Sheikh International Airport|Sharm El Sheikh]]{{cn|date=December 2025}}
+<!-- -->
+|[[Rossiya Airlines]]| [[Pulkovo Airport|Saint Petersburg]]
+<!-- -->
+|[[S7 Airlines]]| [[Tolmachevo Airport|Novosibirsk]]
+<!-- -->
+|[[SalamAir]]| '''Seasonal:''' [[Muscat International Airport|Muscat]]
+<!-- -->
+|[[SCAT Airlines]]|[[Aktau Airport|Aqtau]], [[Aktobe Airport|Aqtöbe]], [[Nursultan Nazarbayev Airport|Astana]], [[Atyrau Airport|Atyrau]], [[King Abdulaziz International Airport|Jeddah]], [[Zhezkazgan Airport|Jezqazğan]], [[Kokshetau Airport|Kökşetau]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Minsk National Airport|Minsk]], [[Oral Ak Zhol Airport|Oral]], [[Oskemen Airport|Öskemen]], [[Sanya Phoenix International Airport|Sanya]], [[Shymkent International Airport|Şymkent]], [[Semey Airport|Semey]], [[Petropavl Airport (Kazakhstan)|Petropavl]], [[Taraz Airport|Taraz]], [[Hazret Sultan International Airport|Türkıstan]], [[Sary-Arka Airport|Qarağandy]], [[Kostanay Airport|Qostanai]]<br/> '''Seasonal:''' Ürjar{{cn|date=December 2025}} <br/> '''Seasonal charter:''' [[Dabolim Airport|Goa–Dabolim]], [[Cam Ranh International Airport|Nha Trang]],{{cn|date=December 2025}} [[U-Tapao International Airport|Pattaya]], [[Phuket International Airport|Phuket]],{{cn|date=December 2025}} [[Phu Quoc International Airport|Phu Quoc]]{{cn|date=December 2025}}
+<!-- -->
+|[[Somon Air]]| [[Dushanbe Airport|Dushanbe]]
+<!-- -->
+|[[Sunday Airlines]]| '''Seasonal charter:''' [[Phuket International Airport|Phuket]]
+<!-- -->
+|[[SunExpress]] | [[İzmir Adnan Menderes Airport|İzmir]]
+<!-- -->
+|[[Thai AirAsia X]]| [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+|[[Turkish Airlines]]| [[Istanbul Airport|Istanbul]]
+<!-- -->
+|[[Uzbekistan Airways]]| [[Islam Karimov Tashkent International Airport|Tashkent]], [[Nukus Airport|Nukus]]
+<!-- -->
+|[[VietJet Air]]|[[Noi Bai International Airport|Hanoi]], [[Václav Havel Airport Prague|Prague]] (both begin 10 October 2026)<br>'''Seasonal charter:''' [[Da Nang International Airport|Da Nang]]
+<!-- -->
+|[[UVT Aero]]|[[Orenburg Airport|Orenburg]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+|[[Atlas Air]]| [[Amsterdam Airport Schiphol|Amsterdam]], [[Chongqing Jiangbei International Airport|Chongqing]], [[Liège Airport|Liège]], [[Zaragoza Airport|Zaragoza]], [[Zhengzhou Xinzheng International Airport|Zhengzhou]]
+<!-- -->
+| [[My Freighter]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+|[[Qatar Airways|Qatar Airways Cargo]]| [[Hamad International Airport|Doha]], [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+|[[Silk Way West Airlines]]| [[Baku Airport|Baku]], [[Hong Kong Airport|Hong Kong]]
+<!-- -->
+}}

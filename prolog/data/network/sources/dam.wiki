@@ -1,0 +1,55 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights to and from Damascus:
+
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Afriqiyah Airways]] | [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[Air Arabia]] | [[Zayed International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| {{nowrap|[[Air Mediterranean]]}} | [[Athens International Airport|Athens]]
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]], [[Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Dan Air (Romania)|Dan Air]] | [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[Flyadeal]] | [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Fly Cham]] | [[Zayed International Airport|Abu Dhabi]], [[Çukurova International Airport|Adana/Mersin]], [[Baghdad International Airport|Baghdad]], [[Dubai International Airport|Dubai–International]], [[Erbil International Airport|Erbil]], [[Kuwait International Airport|Kuwait City]], [[Muscat International Airport|Muscat]], [[Sharjah International Airport|Sharjah]], [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]] | [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[LEAV Aviation]] | [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Sundair]] | [[Berlin Brandenburg Airport|Berlin]]
+<!-- -->
+| [[SunExpress]] | [[Antalya Airport|Antalya]], [[İzmir Adnan Menderes Airport|İzmir]]
+<!-- -->
+| [[Syrian Air]] | [[Zayed International Airport|Abu Dhabi]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Benina International Airport|Benghazi]], [[King Fahd International Airport|Dammam]], [[Deir ez-Zor Airport|Deir ez-Zor]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[Kuwait International Airport|Kuwait City]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]] (begins {{date|2026-8-16}}), [[King Khalid International Airport|Riyadh]], [[Sharjah International Airport|Sharjah]], [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+}}
+{{Choropleth map
+| countries = SY; LY; AE; GR; DE; TR; RO; SA; IQ; KW; OM; QA; JO; NL; RU
+| color = #CC0000
+| view = World
+| width = 300
+| height = 225
+| align = center
+| caption = Damascus International Airport passenger destinations map (10 June 2026)
+}}

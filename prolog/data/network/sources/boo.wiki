@@ -1,0 +1,21 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The airport is a hub for regional flights between [[Trondheim]] and [[Tromsø]], in addition to being served by more than ten daily return flights to [[Oslo Airport, Gardermoen|Oslo]]. Several international seasonal routes are also served.
+
+{{Airport-dest-list
+<!-- -->
+| [[Discover Airlines]] | '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Lufttransport]] | [[Værøy Heliport|Værøy]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Oslo Airport, Gardermoen|Oslo]] <br /> '''Seasonal charter:''' [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | [[Oslo Airport, Gardermoen|Oslo]], [[Tromsø Airport|Tromsø]], [[Trondheim Airport|Trondheim]] <br /> '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]] <br /> '''Seasonal charter:''' [[Chania International Airport|Chania]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| {{nowrap|[[Sunclass Airlines]]}} | '''Seasonal charter:''' [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+| [[Widerøe]] | [[Andenes Airport|Andenes]], [[Bergen Airport|Bergen]], [[Brønnøysund Airport|Brønnøysund]], [[Harstad/Narvik Airport, Evenes|Harstad/Narvik]], [[Kristiansand Airport, Kjevik|Kristiansand]], [[Leknes Airport|Leknes]], [[Mo i Rana Airport, Røssvoll|Mo i Rana]], [[Mosjøen Airport|Mosjøen]], [[Namsos Airport|Namsos]], [[Oslo Airport, Gardermoen|Oslo]], [[Rørvik Airport|Rørvik]], [[Røst Airport|Røst]], [[Sandefjord Airport, Torp|Sandefjord]], [[Sandnessjøen Airport|Sandnessjøen]], [[Stavanger Airport, Sola|Stavanger]], [[Stokmarknes Airport|Stokmarknes]], [[Svolvær Airport|Svolvær]], [[Tromsø Airport|Tromsø]], [[Trondheim Airport, Vaernes|Trondheim]]
+<!-- -->
+}}

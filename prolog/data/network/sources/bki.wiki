@@ -1,0 +1,63 @@
+==Airlines and destinations==
+
+=== Passenger ===
+{{Airport-dest-list
+<!-- -->
+| [[9 Air]] |'''Charter:''' [[Guiyang Longdongbao International Airport|Guiyang]]
+<!-- -->
+| [[Air Busan]] | [[Gimhae International Airport|Busan]]
+<!-- -->
+| [[AirAsia]] | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Bintulu Airport|Bintulu]], [[Fukuoka Airport|Fukuoka]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]], [[Senai International Airport|Johor Bahru]], [[Sultan Ismail Petra Airport|Kota Bharu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]], [[Miri Airport|Miri]], [[Penang International Airport|Penang]], [[Sandakan Airport|Sandakan]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Sibu Airport|Sibu]], [[Changi Airport|Singapore]], [[Taoyuan International Airport|Taipei–Taoyuan]], [[Tawau Airport|Tawau]]
+<!-- -->
+| [[AirBorneo]] | [[Labuan Airport|Labuan]], [[Lahad Datu Airport|Lahad Datu]], [[Lawas Airport|Lawas]], [[Limbang Airport|Limbang]], [[Mulu Airport|Mulu]]
+<!-- -->
+| [[Asiana Airlines]] | '''Seasonal:''' [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]], [[Changi Airport|Singapore]], [[Tawau Airport|Tawau]] <br/>'''Seasonal:''' [[Zhangjiajie Hehua International Airport|Zhangjiajie]] <br/>'''Seasonal charter:''' [[Kansai International Airport|Osaka–Kansai]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Chongqing Airlines]] | [[Chongqing Jiangbei International Airport|Chongqing]]
+<!-- -->
+| [[Firefly (airline)|Firefly]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Indonesia AirAsia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Jeju Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Jin Air]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Philippines AirAsia]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Qingdao Airlines]] | '''Seasonal charter:''' [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!-- -->
+| [[Royal Brunei Airlines]] |[[Brunei International Airport|Bandar Seri Begawan]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Shanghai Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Spring Airlines]] | '''Seasonal:''' [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[XiamenAir]] | [[Fuzhou Changle International Airport|Fuzhou]], [[Xiamen Gaoqi International Airport|Xiamen]](resumes 23 September 2026)   
+}}
+
+=== Cargo ===
+{{incomplete list|date=January 2026}}
+{{Airport-dest-list
+<!-- -->
+| Kargo Xpress | [[Hong Kong International Airport|Hong Kong]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Malaysia Airlines|MASkargo]] | [[Brunei International Airport|Bandar Seri Begawan]], [[Hong Kong International Airport|Hong Kong]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]]
+<!-- -->
+| [[Raya Airways]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Nanjing Lukou International Airport|Nanjing]]
+<!-- -->
+| Teleport <br> operated by [[AirAsia]] | [[Hong Kong International Airport|Hong Kong]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[World Cargo Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]], [[Miri Airport|Miri]]
+<!-- -->
+}}

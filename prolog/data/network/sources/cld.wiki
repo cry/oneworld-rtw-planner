@@ -1,0 +1,8 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+| [[Advanced Air]] |'''Seasonal:''' [[Mammoth Yosemite Airport|Mammoth Lakes]] | 
+| {{nowrap|[[American Eagle (airline brand)|American Eagle]]}} | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+| [[JSX (airline)|JSX]] | [[Harry Reid International Airport|Las Vegas]], [[Oakland San Francisco Bay Airport|Oakland]], [[Scottsdale Airport|Scottsdale]] <br />'''Seasonal:''' [[Reno–Tahoe International Airport|Reno/Tahoe]], [[Taos Regional Airport|Taos]] | 
+| [[United Express]] | [[Denver International Airport|Denver]], [[San Francisco International Airport|San Francisco]]  |  
+}}

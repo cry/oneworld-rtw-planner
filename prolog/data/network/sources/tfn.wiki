@@ -1,0 +1,25 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights to and from Tenerife North:
+
+{{Airport-dest-list
+<!-- -->
+| [[Air Europa]] | [[Bilbao Airport|Bilbao]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Seville Airport|Seville]] <br />
+<!-- -->
+| [[Binter Canarias]] | [[A Coruña Airport|A Coruña]], [[Asturias Airport|Asturias]], [[Badajoz Airport|Badajoz]], [[El Hierro Airport|El Hierro]], [[Fuerteventura Airport|Fuerteventura]], [[Madeira Airport|Funchal]], [[Federico García Lorca Granada Airport|Granada]], [[Gran Canaria Airport|Gran Canaria]], [[Jerez Airport|Jerez de la Frontera]], [[La Gomera Airport|La Gomera]], [[Lanzarote Airport|Lanzarote]], [[La Palma Airport|La Palma]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Región de Murcia International Airport|Murcia]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Pamplona Airport|Pamplona]], [[João Paulo II Airport|Ponta Delgada]], [[San Sebastián Airport|San Sebastián]], [[Santander Airport|Santander]], [[Seville Airport|Seville]], [[Valencia Airport|Valencia]], [[Valladolid Airport|Valladolid]], [[Vigo–Peinador Airport|Vigo]], [[Zaragoza Airport|Zaragoza]] <br />'''Seasonal:''' [[Marrakesh Menara Airport|Marrakesh]]
+<!-- -->
+| [[CanaryFly]] | [[El Hierro Airport|El Hierro]], [[Fuerteventura Airport|Fuerteventura]], [[Gran Canaria Airport|Gran Canaria]], [[Lanzarote Airport|Lanzarote]], [[La Palma Airport|La Palma]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Asturias Airport|Asturias]], [[Melilla Airport|Melilla]], [[Santiago de Compostela Airport|Santiago de Compostela]], [[Valencia Airport|Valencia]]
+<!-- -->
+| [[Iberia Express]] | [[Adolfo Suárez Madrid-Barajas Airport|Madrid]]
+<!-- -->
+| {{nowrap|[[Plus Ultra Líneas Aéreas]]}} | [[Simón Bolívar International Airport (Venezuela)|Caracas]]
+<!-- -->
+| [[TUI fly Deutschland]] | [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Vueling]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Asturias Airport|Asturias]], [[Barcelona–El Prat Airport|Barcelona]], [[Bilbao Airport|Bilbao]], [[Federico García Lorca Granada Airport|Granada]], [[Málaga Airport|Málaga]], [[Santiago de Compostela Airport|Santiago de Compostela]], [[Seville Airport|Seville]], [[Valencia Airport|Valencia]]
+<!-- -->
+| [[Wizz Air]] | [[Santiago–Rosalía de Castro Airport|Santiago de Compostela]] (begins 1 February 2027)
+<!-- -->
+}}

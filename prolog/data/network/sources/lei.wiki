@@ -1,0 +1,28 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Almería Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Nostrum]] | '''Seasonal charter:''' [[Porto Airport|Porto]]
+<!-- -->
+| {{nowrap|[[Binter Canarias]]}} | [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+| [[easyJet]] |  [[Liverpool John Lennon Airport|Liverpool]],  [[Gatwick Airport|London–Gatwick]] <br /> '''Seasonal:''' [[Bristol Airport|Bristol]], [[London Luton Airport|London–Luton]], [[London Southend Airport|London–Southend]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Melilla Airport|Melilla]], [[Seville Airport|Seville]] <br /> '''Seasonal:''' [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Leeds Bradford Airport|Leeds/Bradford]], [[London Stansted Airport|London–Stansted]] (begins 1 May 2027), [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Ryanair]] | '''Seasonal:''' [[Brussels South Charleroi Airport|Charleroi]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal:''' [[Budapest Ferenc Liszt International Airport|Budapest]], [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Orly Airport|Paris–Orly]],{{citation needed|date=November 2024}} [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+| {{nowrap|[[TUI fly Belgium]]}} | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Vueling]] | [[Barcelona–El Prat Josep Tarradellas Airport|Barcelona]]
+<!-- -->
+}}

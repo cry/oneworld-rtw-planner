@@ -1,0 +1,71 @@
+==Airlines and destinations==
+=== Passenger ===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+|[[Aerolíneas Argentinas]] | [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]]
+<!-- -->
+|[[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+|[[Aeroregional]] | [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+|[[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto-Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+|[[Air Europa]] | [[Adolfo Suárez Madrid-Barajas Airport|Madrid]]
+<!-- -->
+|[[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[Air Transat]]| [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+|[[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Arajet]] | [[Punta Cana International Airport|Punta Cana]], [[Las Américas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+|[[Atsa Airlines|ATSA Airlines]] | [[Andahuaylas Airport|Andahuaylas]],   [[Tnte. Gral. Gerardo Pérez Pinedo Airport|Atalaya]],  [[Chachapoyas Airport|Chachapoyas]], [[Alférez FAP David Figueroa Fernandini Airport|Huánuco]], [[Jaén Airport|Jaén]], [[Mayor Nancy Flores Páucar Airport|Mazamari]], [[Tingo María Airport|Tingo María]]
+<!-- -->
+|[[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+|[[Avianca El Salvador]] | [[Comalapa International Airport|San Salvador]]
+<!-- -->
+|[[Boliviana de Aviación]] | [[El Alto International Airport|La Paz]], [[Viru Viru International Airport|Santa Cruz de la Sierra–Viru Viru]]
+<!-- -->
+|[[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+|[[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br /> '''Seasonal:''' [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid-Barajas Airport|Madrid]]
+<!-- -->
+|[[JetSmart Argentina]] | [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]]
+<!-- -->
+|[[JetSmart|JetSmart Chile]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[JetSmart Perú]] | [[Rodríguez Ballón International Airport|Arequipa]], [[Mayor General FAP Armando Revoredo Iglesias Airport|Cajamarca]], [[Rafael Núñez International Airport|Cartagena]], [[FAP Captain José Abelardo Quiñones González International Airport|Chiclayo]], [[Alejandro Velasco Astete International Airport|Cusco]], [[José María Córdova International Airport|Medellín–JMC]], [[Capitán FAP Guillermo Concha Iberico International Airport|Piura]], [[Mariscal Sucre International Airport|Quito]], [[Arturo Merino Benítez International Airport|Santiago de Chile]], [[Capitán FAP Víctor Montes Arias International Airport|Talara]], [[Cadete FAP Guillermo del Castillo Paredes Airport|Tarapoto]], [[Capitán FAP Carlos Martínez de Pinillos International Airport|Trujillo]]
+<!-- -->
+|[[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+|[[LATAM Brasil]] |[[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+|[[LATAM Chile]]|[[Andrés Sabella Gálvez International Airport|Antofagasta]], [[Los Angeles International Airport|Los Angeles]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[LATAM Colombia]] |[[El Dorado International Airport|Bogotá]]
+<!-- -->
+|[[LATAM Ecuador]] | [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[José Joaquín de Olmedo International Airport|Guayaquil]]
+<!-- -->
+|[[LATAM Paraguay]] | [[Silvio Pettirossi International Airport|Asunción]]
+<!-- -->
+|[[LATAM Perú]] | [[Rodríguez Ballón International Airport|Arequipa]], [[Queen Beatrix International Airport|Aruba]], [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Coronel FAP Alfredo Mendívil Duarte Airport|Ayacucho]], [[El Dorado International Airport|Bogotá]], [[Brasília International Airport|Brasília]], [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Mayor General FAP Armando Revoredo Iglesias Airport|Cajamarca]], [[Cancún International Airport|Cancún]], [[Rafael Núñez International Airport|Cartagena]], [[FAP Captain José Abelardo Quiñones González International Airport|Chiclayo]], [[Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport|Cordoba (AR)]], [[Afonso Pena International Airport|Curitiba]], [[Alejandro Velasco Astete International Airport|Cusco]], [[José Joaquín de Olmedo International Airport|Guayaquil]], [[Huaraz Airport|Huaraz]], [[Crnl. FAP Francisco Secada Vignetta International Airport|Iquitos]], [[Jaén Airport|Jaén]], [[Francisco Carle Airport|Jauja]], [[Inca Manco Cápac International Airport|Juliaca]], [[El Alto International Airport|La Paz]], [[Los Angeles International Airport|Los Angeles]], [[Adolfo Suárez Madrid-Barajas Airport|Madrid]], [[José María Córdova International Airport|Medellín–JMC]],[[Governor Francisco Gabrielli International Airport|Mendoza]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Miami International Airport|Miami]], [[Sangster International Airport|Montego Bay]], [[Carrasco International Airport|Montevideo]], [[John F. Kennedy International Airport|New York–JFK]], [[Salgado Filho Porto Alegre International Airport|Porto Alegre]], [[FAP Captain David Abensur Rengifo International Airport|Pucallpa]], [[Padre Aldamiz International Airport|Puerto Maldonado]], [[Punta Cana International Airport|Punta Cana]], [[Mariscal Sucre International Airport|Quito]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[Rosario – Islas Malvinas International Airport|Rosario]], [[Martín Miguel de Güemes International Airport|Salta]], [[Juan Santamaría International Airport|San José (CR)]], [[Viru Viru International Airport|Santa Cruz de la Sierra–Viru Viru]], [[Arturo Merino Benítez International Airport|Santiago de Chile]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Crnl. FAP Carlos Ciriani Santa Rosa International Airport|Tacna]], [[Cap. FAP Víctor Montes Arias Airport|Talara]], [[Cad. FAP Guillermo del Castillo Paredes Airport|Tarapoto]], [[Cap. FAP Carlos Martínez de Pinillos International Airport|Trujillo]], [[Cap. FAP Pedro Canga Rodríguez Airport|Tumbes]]
+<!-- -->
+|[[Level (airline)|Level]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+|{{nowrap|[[Plus Ultra Líneas Aéreas]]}} |[[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[Sky Airline]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[Sky Airline Peru]] | [[Rodríguez Ballón International Airport|Arequipa]], [[Coronel FAP Alfredo Mendívil Duarte Airport|Ayacucho]], [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ezeiza International Airport|Buenos Aires–Ezeiza]], [[Alejandro Velasco Astete International Airport|Cusco]], [[Crnl. FAP Francisco Secada Vignetta International Airport|Iquitos]],  [[Francisco Carle Airport|Jauja]],  [[Inca Manco Cápac International Airport|Juliaca]],  [[Miami International Airport|Miami]], [[Cap. FAP Guillermo Concha Iberico International Airport|Piura]],  [[FAP Captain David Abensur Rengifo International Airport|Pucallpa]],  [[Punta Cana International Airport|Punta Cana]], [[Arturo Merino Benítez International Airport|Santiago de Chile]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Crnl. FAP Carlos Ciriani Santa Rosa International Airport|Tacna]], [[Cad. FAP Guillermo del Castillo Paredes Airport|Tarapoto]],  [[Cap. FAP Carlos Martínez de Pinillos International Airport|Trujillo]], [[Cap. FAP Pedro Canga Rodríguez Airport|Tumbes]],
+<!-- -->
+|[[Star Perú]] | [[Mayor General FAP Armando Revoredo Iglesias Airport|Cajamarca]], [[FAP Captain José Abelardo Quiñones González International Airport|Chiclayo]], [[Alférez FAP David Figueroa Fernandini Airport|Huánuco]], [[Crnl. FAP Francisco Secada Vignetta International Airport|Iquitos]], [[FAP Captain David Abensur Rengifo International Airport|Pucallpa]], [[Cad. FAP Guillermo del Castillo Paredes Airport|Tarapoto]]
+<!-- -->
+|[[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]]
+<!-- -->
+|[[Volaris]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+}}

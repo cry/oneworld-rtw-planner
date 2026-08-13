@@ -1,0 +1,140 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+| [[9 Air]] | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]], [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi]]
+<!-- -->
+| {{nowrap|[[AirAsia]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[AirAsia Cambodia]] | [[Techo International Airport (Cambodia)|Phnom Penh]]
+<!-- -->
+| [[Akasa Air]] | [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]] (begins 4 September 2026)
+<!-- -->
+| [[All Nippon Airways]] | [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[arkia]] | [[Ben Gurion Airport|Tel Aviv]]
+<!--  -->
+| [[Bamboo Airways]] | [[Lien Khuong Airport|Da Lat]], [[Da Nang International Airport|Da Nang]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Cam Ranh International Airport|Nha Trang]], [[Phu Cat Airport|Quy Nhon]] <br />'''Charter:'''  [[Lijiang Sanyi International Airport|Lijiang]]
+<!--  -->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Cebu Pacific]] | [[Clark International Airport|Clark]] (begins 19 November 2026), [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Chengdu Airlines]] | [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!--  -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!--  -->
+| [[China Eastern Airlines]] | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Kunming Changshui International Airport|Kunming]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Xi'an Xianyang International Airport|Xi'an]], [[Wuhan Tianhe International Airport|Wuhan]]
+<!--  -->
+| [[China Southern Airlines]] | [[Changsha Huanghua International Airport|Changsha]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Shenzhen Bao'an International Airport|Shenzhen]] [[Zhengzhou Xinzheng International Airport|Zhengzhou]],
+<!-- -->
+| [[El Al]] | [[Ben Gurion Airport|Tel Aviv]] (begins {{date|2026-10-26}})
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!--  -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!--  -->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!--  -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!--  -->
+| [[IndiGo]] | [[Indira Gandhi International Airport|Delhi]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]]
+<!--  -->
+| [[IrAero]] | [[Irkutsk International Airport|Irkutsk]]
+<!--  -->
+| [[Juneyao Air]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!--  -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!--  -->
+| [[Lao Airlines]] | [[Luang Prabang International Airport|Luang Prabang]], [[Wattay International Airport|Vientiane]]
+<!--  -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]] (resumes 1 April 2027)
+<!--  -->
+| [[Lucky Air]] | [[Dali Fengyi Airport|Dali]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]] 
+<!-- -->
+| {{nowrap|[[Myanmar Airways International]]}} | [[Yangon International Airport|Yangon]]
+<!--  -->
+| [[Parata Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Philippines AirAsia]] | [[Ninoy Aquino International Airport|Manila]]
+<!--  -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!--  -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!--  -->
+| [[Shandong Airlines]] | [[Jinan Yaoqiang International Airport|Jinan]], [[Qingdao Jiaodong International Airport|Qingdao]]
+<!--  -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Spring Airlines]] | [[Lanzhou Zhongchuan International Airport|Lanzhou]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Starlux Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Sun PhuQuoc Airways]] | [[Da Nang International Airport|Da Nang]], [[Tan Son Nhat International Airport|Ho Chi Minh City]],  [[Hong Kong International Airport|Hong Kong]] (begins 30 September 2026), [[Phu Quoc International Airport|Phu Quoc]], [[Incheon International Airport|Seoul–Incheon]] (begins 25 August 2026)
+<!-- -->
+| [[Thai AirAsia]] | [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Chiang Mai International Airport|Chiang Mai]], [[Luang Prabang International Airport|Luang Prabang]]
+<!--  -->
+| [[Thai Airways International]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!--  -->
+| [[VietJet Air]] | [[Almaty International Airport|Almaty]] (begins 10 October 2026), [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Beijing Daxing International Airport|Beijing–Daxing]], [[Buon Ma Thuot Airport|Buon Ma Thuot]], [[Gimhae International Airport|Busan]], [[Can Tho International Airport|Can Tho]], [[Mactan–Cebu International Airport|Cebu]] (begins 10 November 2026), [[Chengdu Tianfu International Airport|Chengdu–Tianfu]], [[Chu Lai International Airport|Chu Lai]], [[Con Dao Airport|Con Dao]], [[Lien Khuong Airport|Da Lat]], [[Da Nang International Airport|Da Nang]], [[Indira Gandhi International Airport|Delhi]], [[Ngurah Rai International Airport|Denpasar]], [[Dong Hoi Airport|Dong Hoi]], [[Fukuoka Airport|Fukuoka]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Hiroshima Airport|Hiroshima]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]], [[Phu Bai International Airport|Hue]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Kaohsiung International Airport|Kaohsiung]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Cam Ranh International Airport|Nha Trang]], [[Kansai International Airport|Osaka–Kansai]], [[Václav Havel Airport Prague|Prague]] (begins 10 October 2026), [[Phu Quoc International Airport|Phu Quoc]], [[Phuket International Airport|Phuket]], [[Pleiku Airport|Pleiku]], [[Phu Cat Airport|Quy Nhon]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Shizuoka Airport|Shizuoka]], [[Siem Reap–Angkor International Airport|Siem Reap]], [[Changi Airport|Singapore]], [[Taichung International Airport|Taichung]], [[Taoyuan International Airport|Taipei–Taoyuan]], [[Narita International Airport|Tokyo–Narita]], [[Tuy Hoa Airport|Tuy Hoa]], [[Knevichi Airport|Vladivostok]], [[Xi'an Xianyang International Airport|Xi'an]], [[Yangon International Airport|Yangon]], [[Zhangjiajie Hehua International Airport|Zhangjiajie]]<br>'''Seasonal charter:''' [[Vladivostok International Airport|Vladivostok]]
+<!--  -->
+| [[Vietnam Airlines]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Beijing Capital International Airport|Beijing–Capital]], [[Beijing Daxing International Airport|Beijing–Daxing]], [[Kempegowda International Airport|Bengaluru]], [[Buon Ma Thuot Airport|Buon Ma Thuot]], [[Gimhae International Airport|Busan]], [[Can Tho International Airport|Can Tho]], [[Mactan–Cebu International Airport|Cebu]], [[Chengdu Tianfu International Airport|Chengdu–Tianfu]], [[Chu Lai International Airport|Chu Lai]], [[Lien Khuong Airport|Da Lat]], [[Da Nang International Airport|Da Nang]], [[Indira Gandhi International Airport|Delhi]], [[Dien Bien Airport|Dien Bien]], [[Dong Hoi Airport|Dong Hoi]], [[Frankfurt Airport|Frankfurt]], [[Fukuoka Airport|Fukuoka]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Haikou Meilan International Airport|Haikou]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]], [[Phu Bai International Airport|Hue]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Kaohsiung International Airport|Kaohsiung]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Heathrow Airport|London–Heathrow]], [[Luang Prabang International Airport|Luang Prabang]], [[Ninoy Aquino International Airport|Manila]], [[Melbourne Airport|Melbourne]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Munich Airport|Munich]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Cam Ranh International Airport|Nha Trang]], [[Kansai International Airport|Osaka–Kansai]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Techo International Airport (Cambodia)|Phnom Penh]], [[Phu Quoc International Airport|Phu Quoc]], [[Pleiku Airport|Pleiku]], [[Phu Cat Airport|Quy Nhon]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Siem Reap–Angkor International Airport|Siem Reap]], [[Changi Airport|Singapore]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Taoyuan International Airport|Taipei–Taoyuan]], [[Haneda Airport|Tokyo–Haneda]], [[Narita International Airport|Tokyo–Narita]], [[Tuy Hoa Airport|Tuy Hoa]], [[Wattay International Airport|Vientiane]], [[Vinh Airport|Vinh]], [[Yangon International Airport|Yangon]]{{cn|date=March 2026}}
+<!--  -->
+| [[Vietravel Airlines]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!--  -->
+| [[West Air (China)|West Air]] | [[Chongqing Jiangbei International Airport|Chongqing]], [[Enshi Xujiaping Airport|Enshi]]
+<!-- -->
+| [[XiamenAir]] | [[Fuzhou Changle International Airport|Fuzhou]], [[Lukou Airport|Nanjing]] (begins 24 September 2026),  [[Qingdao Jiaodong International Airport|Qingdao]], [[Xiamen Gaoqi International Airport|Xiamen]]}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Aerotranscargo]] | [[Indira Gandhi International Airport|Delhi]], [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Asiana Airlines|Asiana Cargo]] | [[Chongqing Jiangbei International Airport|Chongqing]], [[Incheon International Airport|Seoul–Incheon]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Atlas Air]] | [[Indira Gandhi International Airport|Delhi]], [[Hong Kong International Airport|Hong Kong]], [[Incheon International Airport|Seoul–Incheon]], [[Changi Airport|Singapore]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| Cardig Air | [[Soekarno–Hatta International Airport|Jakarta–Soekarno–Hatta]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Cathay Pacific|Cathay Cargo]] | [[Hazrat Shahjalal International Airport|Dhaka]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]], [[Penang International Airport|Penang]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Emirates SkyCargo]] | [[Auckland Airport|Auckland]], [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+| [[Etihad Airways|Etihad Cargo]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Ted Stevens Anchorage International Airport|Anchorage]], [[Shah Amanat International Airport|Chittagong]]
+<!-- -->
+| [[EVA Air|EVA Air Cargo]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[IndiGo|IndiGo CarGo]]| [[Netaji Subhas Chandra Bose International Airport|Kolkata]]
+<!-- -->
+| [[Jeju Air|Jeju Air Cargo]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[K-Mile Air]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Korean Air|Korean Air Cargo]] | [[Indira Gandhi International Airport|Delhi]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Navoi International Airport|Navoi]], [[Penang International Airport|Penang]], [[Incheon International Airport|Seoul–Incheon]], [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Lufthansa Cargo]] | [[Frankfurt Airport|Frankfurt]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+<!-- -->
+| [[Qatar Airways|Qatar Airways Cargo]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[SF Airlines]] | [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Wuhan Tianhe International Airport|Wuhan]]
+<!-- -->
+| [[Turkmenistan Airlines]] | [[Ashgabat International Airport|Ashgabat]]
+<!-- -->
+}}
+[[File:Noi Bai Airport destinations map.png|thumb|Red shows passenger destinations, blue shows cargo-only destinations]]

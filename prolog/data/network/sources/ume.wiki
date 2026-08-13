@@ -1,0 +1,17 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Umeå Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport-dest-list
+<!-- -->
+| [[Finnair]] | [[Vaasa Airport|Vaasa]]
+<!-- -->
+| [[Jonair]] | [[Åre Östersund Airport|Östersund]]
+<!-- -->
+| [[Norwegian Air Shuttle]] | [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Stockholm Arlanda Airport|Stockholm–Arlanda]]{{cn|date=May 2026}}
+<!-- -->
+| [[TUI fly Nordic]] | '''Seasonal charter:''' [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+}}

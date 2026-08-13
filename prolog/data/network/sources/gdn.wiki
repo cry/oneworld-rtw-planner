@@ -1,0 +1,49 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+|[[Enter Air]] | '''Charter:''' [[Hurghada International Airport|Hurghada]] <br /> '''Seasonal charter:''' [[Antalya Airport|Antalya]], [[Burgas Airport|Burgas]], [[Enfidha–Hammamet International Airport|Enfidha]], [[Girona–Costa Brava Airport|Girona]], [[Kos International Airport|Kos]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Varna Airport|Varna]]
+<!-- -->
+|[[Eurowings]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+|[[Finnair]] | [[Helsinki Airport|Helsinki]]
+<!-- -->
+|[[Icelandair]] | '''Seasonal:''' [[Keflavík International Airport|Reykjavík–Keflavík]] (begins 18 September 2026)
+<!-- -->
+|[[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[East Midlands Airport|East Midlands]] (begins 27 November 2026), [[Gatwick Airport|London–Gatwick]] (begins 27 November 2026), [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+|[[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+|{{nowrap|[[LOT Polish Airlines]]}} | [[Bergen Airport, Flesland|Bergen]],  [[Brussels Airport|Brussels]], [[Istanbul Airport|Istanbul]], [[Oslo Airport, Gardermoen|Oslo]], [[Warsaw Chopin Airport|Warsaw–Chopin]] <br /> '''Seasonal:''' [[Kraków John Paul II International Airport|Kraków]], [[Rzeszów–Jasionka Airport|Rzeszów]]
+<!-- -->
+|[[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+|{{nowrap|[[Norwegian Air Shuttle]]}} | [[Bergen Airport, Flesland|Bergen]], [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+|[[Ryanair]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Aarhus Airport|Aarhus]], [[Barcelona El Prat Airport|Barcelona]], [[Beauvais Airport|Beauvais]], [[Belfast International Airport|Belfast–International]], [[Bergamo Airport|Bergamo]], [[Bratislava Airport|Bratislava]], [[Brindisi Airport|Brindisi]], [[Bristol Airport|Bristol]], [[Bucharest Otopeni Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport
+|Budapest]] (begins 25 October 2026), [[Catania-Fontanarossa Airport|Catania]] (begins 26 October 2026), [[Copenhagen Airport|Copenhagen]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[Göteborg Landvetter Airport|Gothenburg]], [[Hamburg Airport|Hamburg]], [[Kraków John Paul II International Airport|Kraków]], [[Leeds Bradford Airport|Leeds/Bradford]], [[London Stansted Airport|London–Stansted]], [[Lublin Airport|Lublin]], [[Madrid–Barajas Airport
+|Madrid]] (begins 25 October 2026), [[Málaga Airport|Málaga]], [[Malta International Airport|Malta]], [[Manchester Airport|Manchester]], [[Milan-Malpensa Airport|Milan-Malpensa]] (begins 25 October 2026), [[Newcastle International Airport|Newcastle upon Tyne]], [[Paphos International Airport|Paphos]], [[Pisa International Airport|Pisa]], [[Podgorica Airport|Podgorica]], [[Prague Airport|Prague]],  [[Fiumicino Airport|Rome–Fiumicino]], [[Sandefjord Airport, Torp|Sandefjord]], [[Skellefteå Airport|Skellefteå]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Tirana Airport|Tirana]], [[Treviso Airport|Treviso]], [[Wrocław Airport|Wrocław]] <br /> '''Seasonal:''' [[Burgas Airport|Burgas]], [[Chania International Airport|Chania]], [[Corfu International Airport|Corfu]], [[Dubrovnik Airport|Dubrovnik]], [[Naples Airport|Naples]], [[Palermo Airport|Palermo]], [[Santorini (Thira) International Airport|Santorini]], [[Turin Airport|Turin]] (begins 19 December 2026) [[Växjö Småland Airport|Växjö]], [[Zadar Airport|Zadar]]
+<!-- -->
+|[[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+|[[SkyUp]] | '''Charter:''' [[Hurghada International Airport|Hurghada]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+|[[Smartwings Poland]] | '''Seasonal charter:''' [[Milas–Bodrum Airport|Bodrum]], [[Dalaman Airport|Dalaman]], [[Podgorica Airport|Podgorica]]
+<!-- -->
+|{{nowrap|[[Swiss International Air Lines]]}} | '''Seasonal:''' [[Zürich Airport|Zürich]]
+<!-- -->
+|[[Wizz Air]] | [[Aberdeen Airport|Aberdeen]], [[Ålesund Airport, Vigra|Ålesund]], [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Athens International Airport|Athens]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bergen Airport, Flesland|Bergen]], [[Billund Airport|Billund]], [[Bucharest Otopeni Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Catania Airport|Catania]], [[Copenhagen Airport|Copenhagen]], [[Dortmund Airport|Dortmund]], [[Eindhoven Airport|Eindhoven]], [[Funchal Airport|Funchal]], [[Göteborg Landvetter Airport|Gothenburg]], [[Hamburg Airport|Hamburg]], [[Haugesund Airport, Karmøy|Haugesund]], [[Larnaca International Airport|Larnaca]], [[Luton Airport|London–Luton]], [[Madrid Airport|Madrid]], [[Málaga Airport|Málaga]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nice Airport|Nice]], [[Oslo Airport, Gardermoen|Oslo]], [[Podgorica Airport|Podgorica]] (begins 7 June 2026), [[Keflavík International Airport|Reykjavík–Keflavík]], [[Fiumicino Airport|Rome–Fiumicino]], [[Sandefjord Airport, Torp|Sandefjord]], [[Stavanger Airport, Sola|Stavanger]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Tallinn Airport|Tallinn]], [[Tenerife South Airport|Tenerife–South]], [[Tromsø Airport, Langnes|Tromsø]], [[Trondheim Airport, Værnes|Trondheim]], [[Turku Airport|Turku]], [[Vilnius Airport|Vilnius]] <br /> '''Seasonal:''' [[Burgas Airport|Burgas]], [[Dubrovnik Airport|Dubrovnik]] (begins 7 June 2026), [[Poprad–Tatry Airport|Poprad–Tatry]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Rijeka Airport|Rijeka]], [[Split Airport|Split]], [[Tirana International Airport Nënë Tereza|Tirana]] [[Turin Airport|Turin]] (begins 16 January 2027), [[Varna Airport|Varna]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+|[[DHL Aviation]] | [[Leipzig/Halle Airport|Leipzig/Halle]], [[Tallinn Airport|Tallinn]]
+<!-- -->
+|[[FedEx Feeder]] | [[Katowice Airport|Katowice]], [[Paris–Charles de Gaulle]]
+<!-- -->
+|[[UPS Airlines]] | [[Berlin Brandenburg Airport|Berlin]]
+<!-- -->
+}}

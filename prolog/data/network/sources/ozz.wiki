@@ -1,0 +1,12 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Ouarzazate Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[Royal Air Maroc Express]]}} | [[Mohammed V International Airport|Casablanca]], [[Zagora Airport|Zagora]]
+<!-- -->
+| [[Ryanair]] | [[Barcelona–El Prat Airport|Barcelona]], [[Marseille Provence Airport|Marseille]]
+<!-- -->
+| [[Transavia]] | [[Paris Orly Airport|Paris–Orly]]
+<!-- -->
+}}

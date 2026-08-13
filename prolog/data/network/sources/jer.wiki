@@ -1,0 +1,31 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights to and from Jersey:
+
+{{Airport-dest-list
+<!-- -->
+|[[Aer Lingus]] | '''Seasonal:''' [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Air Dolomiti]] | '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| [[Alsie Express]] | [[Sønderborg Airport|Sønderborg]] (begins 25 July 2026)
+<!-- -->
+| [[Aurigny]] | [[Guernsey Airport|Guernsey]] <br/> '''Seasonal Charter:''' [[Teesside Airport|Teesside]]
+<!-- -->
+|{{nowrap|[[British Airways]]}} | [[Gatwick Airport|London–Gatwick]],{{cn|date=April 2026}} [[Heathrow Airport|London–Heathrow]]{{cn|date=April 2026}} <br /> '''Seasonal charter:''' [[Gago Coutinho Airport|Faro]], [[Málaga Airport|Málaga]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+|[[easyJet]] | [[Birmingham Airport|Birmingham]], [[Glasgow Airport|Glasgow]], [[Liverpool John Lennon Airport|Liverpool]], [[Gatwick Airport|London–Gatwick]],{{cn|date=April 2026}} [[Luton Airport|London–Luton]],{{cn|date=April 2026}} [[Manchester Airport|Manchester]]{{cn|date=April 2026}} <br/> '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Edinburgh Airport|Edinburgh]],{{cn|date=April 2026}} [[London Southend Airport|London–Southend]]
+<!-- -->
+|[[Eurowings]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+|[[Finist'air]] | '''Seasonal:''' [[Alderney Airport|Alderney]], [[Brest Bretagne Airport|Brest]]
+<!-- -->
+|[[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]] (begins 2 May 2027), [[Bristol Airport|Bristol]] (begins 14 May 2027), [[East Midlands Airport|East Midlands]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Manchester Airport|Manchester]] (begins 1 May 2027), [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+|[[KLM]] | '''Seasonal:''' [[Amsterdam Airport|Amsterdam]]
+<!-- -->
+|[[Loganair]] | [[Bristol Airport|Bristol]], [[Exeter Airport|Exeter]], [[Southampton Airport|Southampton]]  <br/> '''Seasonal:''' [[Bordeaux Airport|Bordeaux]], [[East Midlands Airport|East Midlands]], [[Norwich Airport|Norwich]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[Lufthansa]] | '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+}}

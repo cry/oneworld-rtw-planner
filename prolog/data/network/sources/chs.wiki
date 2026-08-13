@@ -1,0 +1,44 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Air Canada Express]] | [[Toronto Pearson International Airport|Toronto–Pearson]] | 
+<!-- -->
+| [[Alaska Airlines]] | [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+<!-- -->
+| [[Allegiant Air]] | [[Cincinnati/Northern Kentucky International Airport|Cincinnati]]<br />'''Seasonal:''' [[Rickenbacker International Airport|Columbus–Rickenbacker]],{{cn|date=August 2025}} [[Indianapolis International Airport|Indianapolis]],{{cn|date=August 2025}} [[Louisville Muhammad Ali International Airport|Louisville]]{{cn|date=August 2025}} | 
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]],{{cn|date=August 2025}} [[Ronald Reagan Washington National Airport|Washington–National]]{{cn|date=August 2025}} | 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]]<br />'''Seasonal:''' [[Dallas Fort Worth International Airport|Dallas/Fort Worth]],{{cn|date=August 2025}} [[Miami International Airport|Miami]]| 
+<!-- -->
+| [[Avelo Airlines]] | '''Seasonal:''' [[Tweed New Haven Airport|New Haven]]{{cn|date=August 2025}} | 
+<!-- -->
+| [[Breeze Airways]] | [[Akron-Canton Airport|Akron/Canton]], [[Albany International Airport|Albany]], [[Atlantic City International Airport|Atlantic City]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Southwest Florida International Airport|Fort Myers]], [[Bradley International Airport|Hartford]], [[Long Island MacArthur Airport|Long Island/Islip]], [[Louisville Muhammad Ali International Airport|Louisville]], [[Manchester-Boston Regional Airport|Manchester (NH)]], [[Tweed New Haven Airport|New Haven]],  [[Louis Armstrong New Orleans International Airport|New Orleans]], [[Stewart International Airport|Newburgh]], [[Norfolk International Airport|Norfolk]], [[Orlando International Airport|Orlando]], [[Pittsburgh International Airport|Pittsburgh]], [[Portland International Jetport|Portland (ME)]], [[Rhode Island T. F. Green International Airport|Providence]], [[Richmond International Airport|Richmond]], [[Greater Rochester International Airport|Rochester (NY)]], [[Syracuse Hancock International Airport|Syracuse]], [[Tampa International Airport|Tampa]], [[Trenton–Mercer Airport|Trenton]] (begins September 20, 2026), [[Westchester County Airport|White Plains]] <br/>'''Seasonal:''' [[Patrick Leahy Burlington International Airport|Burlington (VT)]], [[Cancún International Airport|Cancún]], [[Los Angeles International Airport|Los Angeles]], [[Palm Beach International Airport|West Palm Beach]]{{cn|date=August 2025}} | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Logan International Airport|Boston]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[LaGuardia Airport|New York–LaGuardia]] <br />'''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]]{{cn|date=August 2025}} | 
+<!-- -->
+| [[Delta Connection]] | [[Logan International Airport|Boston]], [[Detroit Metropolitan Airport|Detroit]], [[John F. Kennedy International Airport|New York–JFK]], [[LaGuardia Airport|New York–LaGuardia]] | 
+<!-- -->
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[John F. Kennedy International Airport|New York–JFK]]| 
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Baltimore/Washington International Airport|Baltimore]], [[Midway International Airport|Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Nashville International Airport|Nashville]]<br />'''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]],{{cn|date=August 2025}} [[William P. Hobby Airport|Houston–Hobby]], [[Kansas City International Airport|Kansas City]], [[St. Louis Lambert International Airport|St. Louis]]{{cn|date=August 2025}} | 
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]{{cn|date=August 2025}} | 
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]]<br />'''Seasonal:''' [[George Bush Intercontinental Airport|Houston–Intercontinental]]{{cn|date=August 2025}} | 
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]] | 
+}}
+
+===Cargo===
+{{Airport destination list
+| [[Atlas Air]] | [[Ted Stevens Anchorage International Airport|Anchorage]], [[Miami International Airport|Miami]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Taranto-Grottaglie Airport|Taranto]], [[McConnell Air Force Base|Wichita–McConnell]]
+<!-- -->
+| [[FedEx Express]] | [[Piedmont Triad International Airport|Greensboro]], [[Memphis International Airport|Memphis]], [[Nashville International Airport|Nashville]]
+<!-- -->
+| [[FedEx Feeder]]| [[Piedmont Triad International Airport|Greensboro]], [[Memphis International Airport|Memphis]]
+<!-- -->
+| [[Western Global Airlines]] | [[Southwest Florida International Airport|Fort Myers]]
+}}

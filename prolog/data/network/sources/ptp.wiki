@@ -1,0 +1,26 @@
+==Airlines and destinations==
+{{Airport-dest-list
+<!-- -->
+| [[Air Canada]] | [[Montréal–Trudeau]] <br /> '''Seasonal:''' [[Toronto–Pearson]]
+<!-- -->
+| [[Air Caraïbes]] | [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[Paris–Orly]],  [[Gustaf III Airport|Saint Barthélemy]], [[Grand Case-Espérance Airport|St. Martin]]
+<!-- -->
+| [[Air France]] | [[Cayenne – Rochambeau Airport|Cayenne]], [[Martinique Aimé Césaire International Airport|Fort-de-France]],  [[Miami International Airport|Miami]], [[Paris–Charles de Gaulle]] <br/> '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal]], [[Princess Juliana International Airport|St. Maarten]]
+<!-- -->
+| [[Air Transat]] | [[Montréal–Trudeau]] <br/> '''Seasonal:''' [[Québec City Jean Lesage International Airport|Québec City]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Caribbean Airlines]] | [[Grantley Adams International Airport|Barbados]], [[George F. L. Charles Airport|Castries]], [[Douglas–Charles Airport|Dominica–Douglas-Charles]], [[Piarco International Airport|Port of Spain]]
+<!-- -->
+| {{nowrap|[[Corsair International]]}} | [[Paris–Orly]] <br/> '''Seasonal:''' [[Nantes Atlantique Airport|Nantes]]
+<!-- -->
+| {{nowrap|[[Neos (airline)|Neos]]}} | '''Seasonal:''' [[Milan–Malpensa]]
+<!-- -->
+| [[Sky High Aviation Services|Sky High]] | [[Santo Domingo–Las Américas]]
+<!-- -->
+| [[St Barth Commuter]] | [[Gustaf III Airport|Saint Barthélemy]]
+<!-- -->
+| [[Sunrise Airways]] | [[V. C. Bird International Airport|Antigua]], [[Douglas–Charles Airport|Dominica–Douglas-Charles]],{{independent source needed|date=January 2026}} [[Toussaint Louverture International Airport|Port-au-Prince]], [[Santo Domingo–Las Américas]]
+<!-- -->
+}}

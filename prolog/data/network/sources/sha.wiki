@@ -1,0 +1,57 @@
+== Airlines and destinations ==
+
+=== Passenger ===
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]], [[Chengdu Shuangliu International Airport|Chengdu–Shuangliu]], [[Chongqing Jiangbei International Airport|Chongqing]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Taipei Songshan Airport|Taipei–Songshan]], [[Tianjin Binhai International Airport|Tianjin]]
+<!-- -->
+| [[Air Macau]] | [[Macau International Airport|Macau]]
+<!-- -->
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Asiana Airlines]] | [[Gimpo International Airport|Seoul–Gimpo]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Chengdu Airlines]] | [[Chengdu Shuangliu International Airport|Chengdu–Shuangliu]]
+<!-- -->
+| [[China Airlines]] | [[Taipei Songshan Airport|Taipei–Songshan]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Beijing Capital International Airport|Beijing–Capital]], [[Beijing Daxing International Airport|Beijing–Daxing]], [[Cangyuan Washan Airport|Cangyuan]], [[Changchun Longjia International Airport|Changchun]], [[Changsha Huanghua International Airport|Changsha]], [[Chengdu Shuangliu International Airport|Chengdu–Shuangliu]], [[Chengdu Tianfu International Airport|Chengdu–Tianfu]], [[Chongqing Jiangbei International Airport|Chongqing]], [[Dali Airport|Dali]], [[Daqing Sartu Airport|Daqing]], [[Diqing Shangri-La Airport|Diqing]], [[Enshi Xujiaping Airport|Enshi]], [[Fuzhou Changle International Airport|Fuzhou]], [[Ganzhou Huangjin Airport|Ganzhou]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Guiyang Longdongbao Airport|Guiyang]], [[Harbin Taiping International Airport|Harbin]], [[Hulunbuir Hailar Airport|Haliar]], [[Hohhot Baita International Airport|Hohhot]], [[Hong Kong International Airport|Hong Kong]], [[Jiayuguan Airport|Jiayuguan]], [[Jieyang Chaoshan International Airport|Jieyang]], [[Jinan Yaoqiang International Airport|Jinan]], [[Kashgar Laining International Airport|Kashgar]], [[Kunming Changshui International Airport|Kunming]], [[Kuqa Qiuci Airport|Kuqa]], [[Lanzhou Zhongchuan International Airport|Lanzhou]], [[Lhasa Gonggar Airport|Lhasa]], [[Lijiang Sanyi International Airport|Lijiang]], [[Linyi Shubuling Airport|Linyi]], [[Liuzhou Bailian Airport|Liuzhou]], [[Luoyang Beijiao Airport|Luoyang]], [[Macau International Airport|Macau]], [[Dehong Mangshi Airport|Mangshi]], [[Mudanjiang Hailang International Airport|Mudanjiang]], [[Nanchang Changbei International Airport|Nanchang]], [[Ordos Ejin Horo Airport|Ordos]], [[Qingdao Jiaodong International Airport|Qingdao]], [[Sanming Shaxian Airport|Sanming]], [[Sanya Phoenix International Airport|Sanya]], [[Gimpo International Airport|Seoul–Gimpo]], [[Shenyang Taoxian International Airport|Shenyang]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Taipei Songshan Airport|Taipei–Songshan]], [[Taiyuan Wusu International Airport|Taiyuan]], [[Tianjin Binhai International Airport|Tianjin]], [[Haneda Airport|Tokyo–Haneda]], [[Ulanhot Airport|Ulanhot]], [[Ürümqi Diwopu International Airport|Ürümqi]], [[Weihai Airport|Weihai]], [[Wenshan Puzhehei Airport|Wenshan]], [[Wuhai Airport|Wuhai]], [[Wuhan Tianhe International Airport|Wuhan]], [[Nanping Wuyishan Airport|Wuyishan]], [[Xiamen Gaoqi International Airport|Xiamen]], [[Xi'an Xianyang International Airport|Xi'an]], [[Xining Caojiabao International Airport|Xining]], [[Xinyang Minggang Airport|Xinyang]], [[Yancheng Nanyang Airport|Yancheng]], [[Yanji Chaoyangchuan International Airport|Yanji]], [[Yantai Penglai International Airport|Yantai]], [[Yinchuan Hedong International Airport|Yinchuan]], [[Yulin Yuyang Airport|Yulin (Shaanxi)]], [[Zhaosu Tianma Airport|Zhaosu]], [[Zhengzhou Xinzheng International Airport|Zhengzhou]], [[Zhuhai Sanzao Airport|Zhuhai]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Guiyang Longdongbao Airport|Guiyang]], [[Kashgar Laining International Airport|Kashgar]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Ürümqi Diwopu International Airport|Ürümqi]], [[Zhengzhou Xinzheng International Airport|Zhengzhou]]
+<!-- -->
+| [[China United Airlines]] | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Foshan Shadi Airport|Foshan]]
+<!-- -->
+| [[EVA Air]] | [[Taipei Songshan Airport|Taipei–Songshan]]
+<!-- -->
+| [[Hainan Airlines]] | [[Beijing Capital International Airport|Beijing–Capital]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Haikou Meilan International Airport|Haikou]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Hebei Airlines]] | [[Shijiazhuang Zhengding International Airport|Shijiazhuang]]
+<!-- -->
+| [[Hong Kong Airlines]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Juneyao Air]] | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Changsha Huanghua International Airport|Changsha]], [[Chengdu Tianfu International Airport|Chengdu–Tianfu]], [[Chizhou Jiuhuashan Airport|Chizhou]], [[Chongqing Jiangbei International Airport|Chongqing]], [[Datong Yungang International Airport|Datong]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Guiyang Longdongbao Airport|Guiyang]], [[Haikou Meilan International Airport|Haikou]], [[Hulunbuir Hailar Airport|Hailar]], [[Kunming Changshui International Airport|Kunming]], [[Lanzhou Zhongchuan Airport|Lanzhou]], [[Nanning Wuxu International Airport|Nanning]], [[Sanya Phoenix International Airport|Sanya]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Taiyuan Wusu International Airport|Taiyuan]], [[Ürümqi Diwopu International Airport|Ürümqi]], [[Wuhan Tianhe International Airport|Wuhan]], [[Xiamen Gaoqi International Airport|Xiamen]], [[Xi'an Xianyang International Airport|Xi'an]], [[Xiangyang Liuji Airport|Xiangyang]], [[Zhuhai Sanzao Airport|Zhuhai]]
+<!-- -->
+| [[Korean Air]] | [[Gimpo International Airport|Seoul–Gimpo]]
+<!-- -->
+| [[Lucky Air]] | [[Kunming Changshui International Airport|Kunming]]
+<!-- -->
+| [[Shandong Airlines]] | [[Chongqing Jiangbei International Airport|Chongqing]], [[Jinan Yaoqiang International Airport|Jinan]], [[Qingdao Jiaodong International Airport|Qingdao]], [[Xiamen Gaoqi International Airport|Xiamen]], [[Yantai Penglai International Airport|Yantai]], [[Zhuhai Jinwan Airport|Zhuhai]]
+<!-- -->
+| [[Shanghai Airlines]] | [[Beihai Fucheng Airport|Beihai]], [[Beijing Daxing International Airport|Beijing–Daxing]], [[Changsha Huanghua International Airport|Changsha]], [[Chengdu Shuangliu International Airport|Chengdu–Shuangliu]], [[Chongqing Jiangbei International Airport|Chongqing]], [[Fuyang Xiguan Airport|Fuyang]], [[Fuzhou Changle International Airport|Fuzhou]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Guiyang Longdongbao Airport|Guiyang]], [[Haikou Meilan International Airport|Haikou]], [[Hulunbuir Hailar Airport|Hailar]], [[Hohhot Baita International Airport|Hohhot]], [[Hong Kong International Airport|Hong Kong]], [[Jiamusi Airport|Jiamusi]], [[Jieyang Chaoshan International Airport|Jieyang]], [[Jinggangshan Airport|Jinggangshan]], [[Jixi Xingkaihu Airport|Jixi]], [[Kunming Changshui International Airport|Kunming]], [[Lanzhou Zhongchuan International Airport|Lanzhou]], [[Macau International Airport|Macau]], [[Nanchang Changbei International Airport|Nanchang]], [[Nanning Wuxu International Airport|Nanning]], [[Qingdao Jiaodong International Airport|Qingdao]], [[Qiqihar Sanjiazi Airport|Qiqihar]], [[Quanzhou Jinjiang International Airport|Quanzhou]], [[Sanya Phoenix International Airport|Sanya]], [[Gimpo International Airport|Seoul–Gimpo]], [[Shenyang Taoxian International Airport|Shenyang]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Taipei Songshan Airport|Taipei–Songshan]], [[Taiyuan Wusu International Airport|Taiyuan]], [[Tianjin Binhai International Airport|Tianjin]], [[Haneda Airport|Tokyo–Haneda]], [[Ürümqi Diwopu International Airport|Ürümqi]], [[Wuhan Tianhe International Airport|Wuhan]], [[Xiamen Gaoqi International Airport|Xiamen]], [[Xi'an Xianyang International Airport|Xi'an]], [[Xishuangbanna Gasa Airport|Xishuangbanna]], [[Yantai Penglai International Airport|Yantai]], [[Yinchuan Hedong International Airport|Yinchuan]], [[Zhengzhou Xinzheng International Airport|Zhengzhou]], [[Zhuhai Jinwan Airport|Zhuhai]]
+<!-- -->
+| [[Shenzhen Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Jingdezhen Luojia Airport|Jingdezhen]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Spring Airlines]] | [[Changde Airport|Changde]], [[Chengdu Tianfu International Airport|Chengdu–Tianfu]], [[Chongqing Jiangbei International Airport|Chongqing]], [[Dongying Shengli Airport|Dongying]], [[Dunhuang Mogao International Airport|Dunhuang]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Guiyang Longdongbao Airport|Guiyang]], [[Hulunbuir Hailar Airport|Hailar]], [[Hengyang Nanyue Airport|Hengyang]], [[Jieyang Chaoshan International Airport|Jieyang]], [[Kunming Changshui International Airport|Kunming]], [[Lanzhou Zhongchuan International Airport|Lanzhou]], [[Qingdao Jiaodong International Airport|Qingdao]], [[Qingyang Airport|Qingyang]], [[Quanzhou Jinjiang International Airport|Quanzhou]], [[Sanya Phoenix International Airport|Sanya]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Shijiazhuang Zhengding International Airport|Shijiazhuang]], [[Ürümqi Diwopu International Airport|Ürümqi]], [[Xiamen Gaoqi International Airport|Xiamen]], [[Xi'an Xianyang International Airport|Xi'an]], [[Xining Caojiabao International Airport|Xining]], [[Zhangjiakou Ningyuan Airport|Zhangjiakou]]
+<!-- -->
+| [[Tianjin Airlines]] | [[Tianjin Binhai International Airport|Tianjin]]
+<!-- -->
+| [[XiamenAir]] | [[Changsha Huanghua International Airport|Changsha]], [[Chongqing Jiangbei International Airport|Chongqing]], [[Fuzhou Changle International Airport|Fuzhou]], [[Hohhot Baita International Airport|Hohhot]], [[Luzhou Yunlong Airport|Luzhou]], [[Quanzhou Jinjiang International Airport|Quanzhou]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Tianjin Binhai International Airport|Tianjin]], [[Xiamen Gaoqi International Airport|Xiamen]]
+<!-- -->
+| [[Xizang Airlines]] | [[Chengdu Shuangliu International Airport|Chengdu–Shuangliu]], [[Lhasa Gonggar Airport|Lhasa]]
+}}
+[[File:Shanghai Hongqiao International Airport Destination Map.png|thumb|center|500px|As of February 2026.]]
+{{notelist}}

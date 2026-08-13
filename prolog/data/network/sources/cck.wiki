@@ -1,0 +1,6 @@
+==Airlines and destinations==
+[[File:VARA Airbus A320 taxiing at Cocos (Keeling) Islands Airport.jpg|thumb|right|[[Virgin Australia Regional Airlines]] [[Airbus A320]] taxiing at Cocos (Keeling) Islands Airport (2017)]]
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list
+| [[QantasLink]] | [[Christmas Island Airport|Christmas Island]], [[Perth Airport|Perth]]
+}}

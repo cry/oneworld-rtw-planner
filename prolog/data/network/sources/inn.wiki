@@ -1,0 +1,41 @@
+==Airlines and destinations==
+The following airlines offer regular scheduled and charter flights at Innsbruck Airport:
+
+<!--PLEASE DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal:''' [[Athens International Airport|Athens]]
+<!-- -->
+| [[Air Baltic]] | '''Seasonal:''' [[Riga International Airport|Riga]]
+<!-- -->
+| [[Air Dolomiti]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna International Airport|Vienna]] <br /> '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Billund Airport|Billund]], [[Brussels Airport|Brussels]], [[Copenhagen Airport|Copenhagen]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Avanti Air]] | '''Seasonal charter:''' [[Calvi–Sainte-Catherine Airport|Calvi]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[London City Airport|London–City]], [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[easyJet]] | [[Gatwick Airport|London–Gatwick]] <br /> '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Luton Airport|London–Luton]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Hamburg Airport|Hamburg]], [[Karpathos Island National Airport|Karpathos]], [[Kos International Airport|Kos]], [[Lamezia Terme International Airport|Lamezia Terme]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]] <br /> '''Seasonal charter:''' [[Copenhagen Airport|Copenhagen]], [[Düsseldorf Airport|Düsseldorf]], [[Heraklion International Airport|Heraklion]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Rhodes International Airport|Rhodes]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Icelandair]] | '''Seasonal:''' [[Keflavík International Airport|Reykjavík–Keflavík]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:'''  [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Marathon Airlines]] | '''Seasonal charter:''' [[Cagliari Elmas Airport|Cagliari]], [[Kalamata International Airport|Kalamata]], [[Aktion National Airport|Preveza/Lefkada]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport Schiphol|Amsterdam]] <br /> '''Seasonal:''' [[Eindhoven Airport|Eindhoven]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[Gatwick Airport|London–Gatwick]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+|[[Universal Air]]| [[Corfu International Airport|Corfu]], [[Kalamata International Airport|Kalamata]], [[Kefalonia International Airport|Kefalonia]], [[Aktion National Airport|Preveza]], [[Rimini Fellini Airport|Rimini]]
+<!-- -->
+}}

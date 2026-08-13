@@ -1,0 +1,17 @@
+==Airlines and destinations==
+=== Passenger ===
+{{Airport destination list
+<!-- -->
+| [[AirAsia]] | [[Sultan Abdul Halim Airport|Alor Setar]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Sultan Azlan Shah Airport|Ipoh]], [[Sultan Ismail Petra Airport|Kota Bharu]], [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur–International]], [[Kuching International Airport|Kuching]], [[Kunming Changshui International Airport|Kunming]], [[Langkawi International Airport|Langkawi]], [[Sibu Airport|Sibu]], [[Tawau Airport|Tawau]]
+<!-- -->
+| {{nowrap|[[Batik Air Malaysia]]}} | [[Bangkok–Don Mueang]], [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]], [[Penang International Airport|Penang]]
+<!-- -->
+| [[Firefly (airline)|Firefly]] | [[Kuala Lumpur–International]], [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]]
+<!-- -->
+| {{nowrap|[[Malaysia Airlines]]}} | [[Kuala Lumpur–International]]
+<!-- -->
+| [[Indonesia AirAsia]] | [[Soekarno-Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Juanda International Airport|Surabaya]]
+<!-- -->
+| [[Thai AirAsia]] | [[Bangkok–Don Mueang]]
+<!-- -->
+}}

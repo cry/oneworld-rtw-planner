@@ -1,0 +1,8 @@
+==Airlines and destinations==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{airport-dest-list
+| [[Alliance Airlines]] | [[Brisbane Airport|Brisbane]]
+| [[National Jet Express]] | '''Charter:''' [[Brisbane Airport|Brisbane]]
+| [[QantasLink]] | [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]]
+| [[Skytrans]] | [[Cairns Airport|Cairns]]
+}}

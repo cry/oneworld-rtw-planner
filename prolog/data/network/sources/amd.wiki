@@ -1,0 +1,62 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY.-->
+
+{{Airport-dest-list
+<!-- -->
+| [[Air Arabia]] | [[Zayed International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air India Express]] | [[Kempegowda International Airport|Bengaluru]], [[Dehradun Airport|Dehradun]], [[Chandigarh Airport|Chandigarh]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+<!-- -->
+| [[AirAsia]] | [[Kuala Lumpur–International]]{{cn|date=August 2026}}
+<!-- -->
+| {{nowrap|[[Akasa Air]]}} | [[Zayed International Airport|Abu Dhabi]],{{cn|date=August 2026}} [[King Abdulaziz International Airport|Jeddah]]{{cn|date=August 2026}}
+<!-- -->
+| {{nowrap|[[Alliance Air (India)|Alliance Air]]}} | [[Keshod Airport|Keshod]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[FitsAir]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[IndiGo]] | [[Zayed International Airport|Abu Dhabi]], [[Ayodhya International Airport|Ayodhya]],{{cn|date=August 2026}} [[Diu Airport|Diu]], [[Manohar International Airport|Goa–Mopa]], [[Lokpriya Gopinath Bordoloi International Airport|Guwahati]], [[Jaisalmer Airport|Jaisalmer]], [[King Abdulaziz International Airport|Jeddah]], [[Jodhpur Airport|Jodhpur]],{{cn|date=August 2026}} [[Navi Mumbai International Airport|Mumbai–Navi]], [[Nashik Airport|Nashik]],{{cn|date=August 2026}} [[Thiruvananthapuram International Airport|Thiruvananthapuram]]
+<!-- -->
+| [[Iran Air]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]]{{cn|date=August 2026}}
+<!-- -->
+| [[Jazeera Airways]]| [[Kuwait International Airport|Kuwait City]]{{cn|date=August 2026}}
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur–International]]{{cn|date=August 2026}}
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]{{cn|date=August 2026}}
+<!-- -->
+| {{nowrap|[[Singapore Airlines]]}} | [[Changi Airport|Singapore]]
+<!-- -->
+| [[SpiceJet]] | [[Jaipur International Airport|Jaipur]], [[Sharjah International Airport|Sharjah]] <br/> '''Charter:''' [[Al Najaf International Airport|Najaf]]{{cn|date=August 2026}}
+<!-- -->
+| [[Star Air (India)|Star Air]] | [[Kolhapur Airport|Kolhapur]], [[Navi Mumbai International Airport|Mumbai–Navi]], [[Mundra Airport|Mundra]] (begins 17 August 2026),  [[Dr. Babasaheb Ambedkar International Airport|Nagpur]], [[Shri Guru Gobind Singh Ji Airport|Nanded]],{{cn|date=August 2026}} [[Purnea Airport|Purnea]]
+<!-- -->
+| [[Thai AirAsia]] | [[Bangkok–Don Mueang]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Bangkok–Suvarnabhumi]]
+<!-- -->
+| {{nowrap|[[Thai Lion Air]]}} | [[Bangkok–Don Mueang]]
+<!-- -->
+| [[Thai VietJet Air]] | [[Bangkok–Suvarnabhumi]]{{cn|date=August 2026}}
+<!-- -->
+| [[VietJet Air]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list|3rdcoltitle={{Abbr|Refs.|References}}|3rdcolunsortable=yes
+| [[Blue Dart Aviation]]| [[Indira Gandhi International Airport|Delhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]] |
+<!-- -->
+| [[Qatar Airways Cargo]] | [[Hamad International Airport|Doha]] |
+<!-- -->
+}}

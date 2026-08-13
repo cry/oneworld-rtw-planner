@@ -1,0 +1,59 @@
+==Airlines and destinations==
+{{incomplete list|date=April 2026}}
+<!--===Passenger===-->
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT  REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY.-->
+{{Airport-dest-list
+<!-- -->
+|[[Air Arabia]]|[[Borg El Arab Airport|Alexandria]], [[Cairo International Airport|Cairo]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Air Cairo]]|[[Assiut Airport|Assiut]]{{cn|date=April 2026}}
+<!-- -->
+|[[Air India]]|[[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]{{cn|date=April 2026}}
+<!-- -->
+|[[Air India Express]]|[[Kempegowda International Airport|Bengaluru]],{{cn|date=April 2026}} [[Chennai International Airport|Chennai]],{{cn|date=April 2026}} [[Indira Gandhi International Airport|Delhi]],{{cn|date=April 2026}} [[Kannur International Airport|Kannur]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Tiruchirappalli International Airport|Tiruchirappalli]]{{cn|date=April 2026}}
+<!-- -->
+| [[Airblue]] | [[Allama Iqbal International Airport|Lahore]]
+<!-- -->
+|[[Azerbaijan Airlines]]|[[Heydar Aliyev International Airport|Baku]]{{cn|date=April 2026}}
+<!-- -->
+|[[Egyptair]]|[[Borg El Arab Airport|Alexandria]], [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Emirates (airline)|Emirates]]|[[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Ethiopian Airlines]]|[[Bole International Airport|Addis Ababa]]
+<!-- -->
+|[[Etihad Airways]]|[[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+|[[Fly Jinnah]]|[[Islamabad International Airport|Islamabad]]{{cn|date=April 2026}}
+<!-- -->
+|[[Flyadeal]]| [[Jinnah International Airport|Karachi]],{{cn|date=April 2026}} [[Tabuk Regional Airport|Tabuk]],{{cn|date=April 2026}} [[Yanbu Airport|Yanbu]]{{cn|date=April 2026}}
+<!-- -->
+|[[Flydubai]]|[[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Flynas]]| [[Heydar Aliyev International Airport|Baku]], [[Damascus International Airport|Damascus]], [[Chaudhary Charan Singh Airport|Lucknow]],{{cn|date=April 2026}} [[Red Sea International Airport|Red Sea]]
+<!-- -->
+|[[Gulf Air]]|[[Bahrain International Airport|Bahrain]] |[[Himalaya Airlines]]|[[Tribhuvan International Airport|Kathmandu]]
+<!-- -->
+|[[IndiGo]]| [[Chaudhary Charan Singh International Airport|Lucknow]]{{cn|date=April 2026}}
+<!-- -->
+|[[Iran Air]]|[[Mashhad Shahid Hasheminejad International Airport|Mashhad]]
+<!-- -->
+|[[Jazeera Airways]]|[[Kuwait International Airport|Kuwait City]],{{cn|date=April 2026}} [[Vijayawada Airport|Vijayawada]]
+<!-- -->
+|[[Kuwait Airways]]|[[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+|[[Lufthansa]]|[[Frankfurt Airport|Frankfurt]]{{cn|date=April 2026}}
+<!-- -->
+|[[Nesma Airlines]]|[[Cairo International Airport|Cairo]]{{cn|date=April 2026}}
+<!-- -->
+|[[Pegasus Airlines]]|[[Istanbul–Sabiha Gökçen]] <br/> '''Seasonal:''' [[Trabzon Airport|Trabzon]]{{cn|date=April 2026}}
+<!-- -->
+|[[Qatar Airways]]|[[Hamad International Airport|Doha]]
+<!-- -->
+|[[Royal Jordanian]]|[[Queen Alia International Airport|Amman–Queen Alia]]{{cn|date=April 2026}}
+<!-- -->
+|[[SalamAir]]|[[Muscat International Airport|Muscat]]{{cn|date=April 2026}} <br/> '''Seasonal:''' [[Salalah International Airport|Salalah]] (begins 22 July 2026)
+<!-- -->
+|[[Saudia]]|[[Beijing Daxing International Airport|Beijing–Daxing]],{{cn|date=April 2026}} [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+}}

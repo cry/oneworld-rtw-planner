@@ -1,0 +1,80 @@
+==Airlines and destinations==
+===Passenger===
+Since November 2016, the check-in and baggage claim areas of Terminal 1 are not in use. All passengers must use Terminal 2 to access the boarding gates of any terminal.
+
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list|
+{{nowrap|[[Aerolíneas Argentinas]]}} | [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport|Córdoba (AR)]]<br>'''Seasonal:''' [[Ezeiza International Airport|Buenos Aires–Ezeiza]], [[Governor Francisco Gabrielli International Airport|Mendoza]], [[Rosario – Islas Malvinas International Airport|Rosario]]
+<!-- -->
+|[[Air Canada]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+|[[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[Air Transat]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+|[[American Airlines]] | [[Miami International Airport|Miami]]<br>'''Seasonal:''' [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+|[[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+|{{nowrap|[[Azul Brazilian Airlines]]}} | [[Belo Horizonte International Airport|Belo Horizonte–Confins]], [[Viracopos International Airport|Campinas]], [[Afonso Pena International Airport|Curitiba]], [[Salgado Filho Porto Alegre International Airport|Porto Alegre]], [[Recife/Guararapes International Airport|Recife]]
+<!-- -->
+|[[Boliviana de Aviación]] | [[Viru Viru International Airport|Santa Cruz de la Sierra–Viru Viru]]
+<!-- -->
+|[[British Airways]] | [[Ezeiza International Airport|Buenos Aires–Ezeiza]], [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+|[[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+|[[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]<br>'''Seasonal:'''  [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+|[[Emirates (airline)|Emirates]] | [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Gol Linhas Aéreas]] | [[Santa Maria Airport (Sergipe)|Aracaju]], [[Silvio Pettirossi International Airport|Asunción]], [[Belém/Val-de-Cans International Airport|Belém]], [[Belo Horizonte International Airport|Belo Horizonte–Confins]], [[Brasília International Airport|Brasília]], [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ezeiza International Airport|Buenos Aires–Ezeiza]], [[Viracopos International Airport|Campinas]], [[Campo Grande International Airport|Campo Grande]], [[Caxias do Sul Airport|Caxias do Sul]], [[Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport|Córdoba (AR)]], [[Marechal Rondon International Airport|Cuiabá]], [[Afonso Pena International Airport|Curitiba]], [[Hercílio Luz International Airport|Florianópolis]], [[Fortaleza Airport|Fortaleza]], [[Foz do Iguaçu International Airport|Foz do Iguaçu]], [[Goiânia International Airport|Goiânia]], [[Ilhéus Jorge Amado Airport|Ilhéus]], [[Presidente Castro Pinto International Airport|João Pessoa]], [[Lisbon Airport|Lisbon]] (begins 16 September 2026), [[Macapá International Airport|Macapá]], [[Zumbi dos Palmares International Airport|Maceió]], [[Eduardo Gomes International Airport|Manaus]], [[Carrasco International Airport|Montevideo]], [[Greater Natal International Airport|Natal]], [[Navegantes Airport|Navegantes]], [[John F. Kennedy International Airport|New York–JFK]], [[Salgado Filho Porto Alegre International Airport|Porto Alegre]], [[Porto Seguro Airport|Porto Seguro]], [[Recife/Guararapes International Airport|Recife]], [[Rosario – Islas Malvinas International Airport|Rosario]], [[Martín Miguel de Güemes International Airport|Salta]] (begins 17 December 2026), [[Salvador Bahia Airport|Salvador da Bahia]], [[São José dos Campos Airport|São José dos Campos]], [[Marechal Cunha Machado International Airport|São Luís]], [[São Paulo–Congonhas Airport|São Paulo–Congonhas]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Teresina Airport|Teresina]], [[Uberlândia Airport|Uberlândia]], [[Eurico de Aguiar Salles Airport|Vitória]]<br>'''Seasonal:''' [[Governor Francisco Gabrielli International Airport|Mendoza]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[ITA Airways]] | [[Rome Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+|[[JetSmart Argentina]] | [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ezeiza International Airport|Buenos Aires–Ezeiza]], [[Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport|Córdoba (AR)]], [[Governor Francisco Gabrielli International Airport|Mendoza]]<br>'''Seasonal:''' [[Silvio Pettirossi International Airport|Asunción]]
+<!-- -->
+|[[JetSmart|JetSmart Chile]] | [[Carrasco International Airport|Montevideo]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+|[[LATAM Airlines Brasil|LATAM Brasil]] | [[Brasília International Airport|Brasília]], [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ezeiza International Airport|Buenos Aires–Ezeiza]], [[Afonso Pena International Airport|Curitiba]], [[Fortaleza Airport|Fortaleza]], [[Foz do Iguaçu International Airport|Foz do Iguaçu]], [[Eduardo Gomes International Airport|Manaus]], [[Salgado Filho Porto Alegre International Airport|Porto Alegre]], [[Porto Seguro Airport|Porto Seguro]], [[Salvador Bahia Airport|Salvador da Bahia]], [[Marechal Cunha Machado International Airport|São Luís]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Eurico de Aguiar Salles Airport|Vitória]]<br>'''Seasonal:''' [[Hercílio Luz International Airport|Florianópolis]], [[Presidente Castro Pinto International Airport|João Pessoa]], [[Recife/Guararapes International Airport|Recife]]
+<!-- -->
+|[[LATAM Airlines Chile|LATAM Chile]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[LATAM Airlines Perú|LATAM Perú]] | [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+|[[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+|[[Paranair]] | '''Seasonal:''' [[Silvio Pettirossi International Airport|Asunción]]
+<!-- -->
+|[[Sky Airline]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]<br>'''Seasonal:''' [[Carrasco International Airport|Montevideo]]
+<!-- -->
+|[[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]], [[Porto Airport|Porto]]
+<!-- -->
+|[[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+
+===Cargo===
+{{unreferenced section|date=October 2020}}
+{{Airport destination list
+|[[Aerotranscargo]] | [[Frankfurt–Hahn Airport|Hahn]]
+<!-- -->
+|[[Atlas Air]] | [[Miami International Airport|Miami]] , [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[Cargolux]] | [[Viracopos International Airport|Campinas]], [[Luxembourg Findel Airport|Luxembourg]]
+<!-- -->
+|[[LATAM Cargo Brasil]] | [[Tancredo Neves International Airport|Belo Horizonte–Confins]], [[Cabo Frio International Airport|Cabo Frio]], [[Viracopos-Campinas International Airport|Campinas]], [[Guaraní International Airport|Ciudad del Este]], [[Afonso Pena International Airport|Curitiba]], [[Eduardo Gomes International Airport|Manaus]], [[Miami International Airport|Miami]], [[Salgado Filho International Airport|Porto Alegre]], [[São Paulo–Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+|[[LATAM Cargo Chile]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Frankfurt Airport|Frankfurt]], [[Miami International Airport|Miami]], [[Carrasco International Airport|Montevideo]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[LATAM Cargo Colombia]] | [[El Dorado International Airport|Bogotá]], [[Jorge Chávez International Airport|Lima]], [[Miami International Airport|Miami]], [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+|[[Modern Logistics]] | [[Viracopos International Airport|Campinas]]
+<!-- -->
+|[[Sky Lease Cargo]] | [[Miami International Airport|Miami]]
+<!-- -->
+|[[Total Linhas Aéreas]] | [[São Paulo–Guarulhos International Airport|São Paulo–Guarulhos]]
+}}

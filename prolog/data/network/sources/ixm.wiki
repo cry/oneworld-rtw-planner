@@ -1,0 +1,17 @@
+== Airlines and destinations ==
+[[File:Flights at Madurai airport.jpg|thumb|Apron area of the airport]]
+
+As of January 2026, four airlines operate commercial services from the airport to eight destinations including three international destinations. While there are demands for additional international flights from Madurai, the airport is allowed to handle only limited international flights and as it is not part of the [[Bilateral aviation safety agreement]], international air carriers have shown reluctance for operating flights from the airport.
+
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+
+|[[Air India]] | [[Chennai International Airport|Chennai]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]]
+
+|[[Air India Express]]|[[Chennai International Airport|Chennai]] (begins 1 September 2026)
+
+|[[IndiGo]] | [[Zayed International Airport|Abu Dhabi]], [[Kempegowda International Airport|Bengaluru]], [[Chennai International Airport|Chennai]], [[Indira Gandhi International Airport|Delhi]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Navi Mumbai International Airport|Navi Mumbai]]
+
+|[[SpiceJet]] | [[Chennai International Airport|Chennai]], [[Dubai International Airport|Dubai–International]]
+|{{nowrap|[[SriLankan Airlines]]}} | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+||}}

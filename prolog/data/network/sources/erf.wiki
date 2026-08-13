@@ -1,0 +1,29 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Erfurt–Weimar Airport:
+
+<!--PLEASE DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO, ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Air Cairo]] |'''Seasonal:''' [[Hurghada International Airport|Hurghada]]{{cn|date=August 2026}}
+<!-- -->
+| [[Air Nostrum]] |'''Seasonal charter:''' [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Corendon Airlines]] | [[Antalya Airport|Antalya]]{{cn|date=August 2026}}
+<!-- -->
+| [[Electra Airways]] |'''Seasonal charter:''' [[Burgas Airport|Burgas]]{{cn|date=August 2026}}
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Freebird Airlines]] | '''Seasonal:''' [[Antalya Airport|Antalya]]{{cn|date=August 2026}}
+<!-- -->
+| [[LEAV Aviation]] | '''Seasonal:''' [[Antalya Airport|Antalya]],{{cn|date=August 2026}} [[Heraklion International Airport|Heraklion]], [[Rhodes International Airport|Rhodos]]
+<!-- -->
+| [[Mavi Gök Airlines]] |  '''Seasonal charter:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Pegasus Airlines]] | '''Seasonal:''' [[Antalya Airport|Antalya]]{{cn|date=August 2026}}
+<!-- -->
+| [[Red Sea Airlines]] |'''Seasonal charter:''' [[Hurghada International Airport|Hurghada]]
+<!-- -->
+| [[SunExpress]] | '''Seasonal:''' [[Antalya Airport|Antalya]]{{cn|date=August 2026}}
+<!-- -->
+}}

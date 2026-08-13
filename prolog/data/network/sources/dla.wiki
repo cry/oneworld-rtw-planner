@@ -1,0 +1,28 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{airport-dest-list
+<!-- -->
+| [[Afrijet Business Service|Afrijet]] | [[Bata Airport|Bata]], [[Libreville International Airport|Libreville]], [[Malabo International Airport|Malabo]]
+<!-- -->
+| [[Air Algérie]] | [[Houari Boumediene Airport|Algiers]]{{cn|date=December 2025}}
+<!-- -->
+|[[Air Congo]]|[[N'djili Airport|Kinshasa-N'djili]]
+<!-- -->
+| [[Air Côte d'Ivoire]] |[[Félix-Houphouët-Boigny International Airport|Abidjan]]| [[ASKY Airlines]] |[[Lomé-Tokoin Airport|Lomé]]
+<!-- -->
+| [[Camair-Co]] | [[Bafoussam Airport|Bafoussam]], [[Bangui M'Poko International Airport|Bangui]], [[Maya-Maya Airport|Brazzaville]], [[Cadjehoun Airport|Cotonou]],  [[Libreville International Airport|Libreville]], [[Ngaoundéré Airport|Ngaoundéré]], [[Pointe Noire Airport|Pointe-Noire]], [[Yaoundé Nsimalen International Airport|Yaoundé]] <br/>'''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+
+| [[Cronos Airlines]] | [[Malabo International Airport|Malabo]]
+<!-- -->| [[Egyptair]] |  [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Ethiopian Airlines]]|  [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Kenya Airways]] |[[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]<!-- Royal Air Maroc do not have traffic rights to Yaounde; do not add it as a destination. -->
+<!-- -->|[[RwandAir]] | [[Kigali International Airport|Kigali]]
+<!-- -->}}
+
+{{clear}}

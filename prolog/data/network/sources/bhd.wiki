@@ -1,0 +1,17 @@
+==Airlines and destinations==
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+The following airlines operate regular scheduled and charter flights to and from Belfast City Airport:
+
+{{Airport-dest-list
+<!-- -->
+| [[Aer Lingus]] | [[Birmingham Airport|Birmingham]], [[Cardiff Airport|Cardiff]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Exeter Airport|Exeter]], [[Glasgow Airport|Glasgow]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Manchester Airport|Manchester]], [[Southampton Airport|Southampton]] <br /> Seasonal: [[Newquay Airport|Newquay]]<br /> Seasonal charter: [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| {{nowrap|[[British Airways]]}} | [[London City Airport|London–City]], [[Heathrow Airport|London–Heathrow]] <br /> Seasonal charter: [[Bologna Guglielmo Marconi Airport|Bologna]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[EasyJet]] | [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]], [[Liverpool John Lennon Airport|Liverpool]], [[Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]], [[Manchester Airport|Manchester]] <br /> Seasonal: [[London Southend Airport|London-Southend]] (begins 25 October 2026), [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Loganair]] | [[Aberdeen Airport|Aberdeen]], [[Inverness Airport|Inverness]], [[Kirkwall Airport|Kirkwall]],{{efn|Kirkwall service is a continuation of the Inverness service as the same flight number}} [[Sumburgh Airport|Sumburgh]]{{efn|Sumburgh service is a continuation of the Inverness service as the same flight number}}
+<!-- -->
+}}

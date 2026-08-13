@@ -1,0 +1,18 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Perugia Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport-dest-list
+<!-- -->
+|[[Aeroitalia]]|'''Seasonal:''' [[Lamezia Terme International Airport|Lamezia Terme]], [[Olbia Costa Smeralda Airport|Olbia]]
+<!-- -->
+|[[British Airways]]|'''Seasonal:''' [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+|[[HelloFly]]|'''Seasonal:''' [[Lampedusa Airport|Lampedusa]], [[Pantelleria Airport|Pantelleria]]
+<!-- -->
+|[[Ryanair]]|[[Cagliari Elmas Airport|Cagliari]], [[Catania–Fontanarossa Airport|Catania]], [[London Stansted Airport|London–Stansted]], [[Falcone Borsellino Airport|Palermo]] <br /> '''Seasonal:''' [[Barcelona Airport|Barcelona]], [[Brindisi Airport|Brindisi]], [[Bucharest Airport|Bucharest–Otopeni]], [[Brussels South Charleroi Airport|Charleroi]], [[Kraków John Paul II International Airport|Kraków]], [[Malta International Airport|Malta]]
+|[[Transavia]]|'''Seasonal:''' [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+|[[Wizz Air]]|[[Tirana International Airport Nënë Tereza|Tirana]]
+<!-- -->
+}}

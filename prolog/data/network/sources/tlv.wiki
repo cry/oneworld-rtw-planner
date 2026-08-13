@@ -1,0 +1,147 @@
+==Airlines and destinations==
+
+===Passenger===
+
+Effective 15 June 2026, [[Etihad Airways]] will offer six daily flights between Ben Gurion and [[Zayed International Airport]] in [[Abu Dhabi]], making it the airlines' most frequently flown route. The AUH-TLV route had 100,000 passengers in the first quarter of 2026, with more than two-thirds using Abu Dhabi as a hub to travel to Etihad destinations elsewhere in Asia.
+
+The following airlines serve regular scheduled and charter destinations at Ben Gurion Airport.
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]], [[Larnaca International Airport|Larnaca]], [[Thessaloniki Airport|Thessaloniki]]<br>'''Seasonal:''' [[Heraklion Airport|Heraklion]], [[Rhodes International Airport|Rhodes]]
+<!-- -->
+| [[Air Canada]] | [[Toronto Pearson International Airport|Toronto–Pearson]]<br>'''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]] (all flights suspended until {{date|2027-1-18}})
+<!-- -->
+| [[Air Europa]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi]] (suspended until {{date|2026-9-30}})
+<!-- -->
+| [[Air Seychelles]] | [[Seychelles International Airport|Mahé]] (resumes {{date|2026-8-20}})
+<!-- -->  
+| [[airBaltic]] | [[Riga International Airport|Riga]]
+<!-- -->
+| [[American Airlines]] | [[John F. Kennedy International Airport|New York–JFK]] (suspended until {{date|2027-3-27}})
+<!-- -->
+| [[Animawings]] | [[Henri Coandă International Airport|Bucharest–Otopeni]]
+<!-- -->
+| [[Arkia]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Athens International Airport|Athens]], [[Heydar Aliyev International Airport|Baku]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Batumi International Airport|Batumi]], [[Belgrade Nikola Tesla Airport|Belgrade]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Dubai International Airport|Dubai–International]], [[Ramon Airport|Eilat]], [[Geneva Airport|Geneva]], [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]] (begins {{date|2026-10-29}}), [[Lisbon Airport|Lisbon]], [[London Stansted Airport|London–Stansted]], [[Málaga Airport|Málaga]], [[Marrakesh Menara Airport|Marrakesh]] (resumes {{date|2026-8-24}}), [[Milan Malpensa Airport|Milan–Malpensa]], [[Munich Airport|Munich]], [[John F. Kennedy International Airport|New York–JFK]], [[Paphos International Airport|Paphos]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Václav Havel Airport Prague|Prague]], [[Leonardo da Vinci-Fiumicino Airport|Rome–Fiumicino]], [[Vasil Levski Sofia Airport|Sofia]], [[Shota Rustaveli Tbilisi International Airport|Tbilisi]], [[Thessaloniki Airport|Thessaloniki]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Narita International Airport|Tokyo–Narita]] (begins {{date|2026-10-25}}), [[Vienna International Airport|Vienna]], [[Vilnius Airport|Vilnius]] <br/> '''Seasonal:''' [[Corfu Airport|Corfu]], [[Heraklion Airport|Heraklion]], [[Ibiza Airport|Ibiza]], [[Kalamata International Airport|Kalamata]], [[Seychelles International Airport|Mahé]], [[Mykonos Airport|Mykonos]], [[Poprad–Tatry Airport|Poprad]], [[Aktion National Airport|Preveza/Lefkada]], [[Phuket International Airport|Phuket]], [[Rhodes International Airport|Rhodes]], [[Tivat Airport|Tivat]],  [[Verona Villafranca Airport|Verona]], [[Abeid Amani Karume International Airport|Zanzibar]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[Azimuth (airline)|Azimuth]] | [[Krasnodar International Airport|Krasnodar]], [[Mineralnye Vody Airport|Mineralnye Vody]], [[Adler-Sochi International Airport|Sochi]]
+<!-- -->
+| [[Belavia]] | [[Minsk National Airport|Minsk]]
+<!-- -->
+| [[Bluebird Airways]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Athens International Airport|Athens]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Orio al Serio International Airport|Bergamo]], [[Berlin Brandenburg Airport|Berlin]], [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Larnaca International Airport|Larnaca]], [[Munich Airport|Munich]], [[Naples International Airport|Naples]], [[Paphos International Airport|Paphos]], [[Václav Havel Airport Prague|Prague]], [[Vienna International Airport|Vienna]]<br/>'''Seasonal:''' [[Burgas Airport|Burgas]], [[Chania International Airport|Chania]], [[Corfu International Airport|Corfu]], [[Düsseldorf Airport|Düsseldorf]], [[Heraklion Airport|Heraklion]], [[Kos International Airport|Kos]], [[Mykonos Airport|Mykonos]], [[Aktion National Airport|Preveza/Lefkada]], [[Rhodes International Airport|Rhodes]]
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]] (resumes {{date|2026-10-24}})
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Bulgaria Air]] | [[Vasil Levski Sofia Airport|Sofia]]
+<!-- -->
+| [[Centrum Air]] | [[Samarqand International Airport|Samarqand]], [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Cyprus Airways]] | [[Larnaca International Airport|Larnaca]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[John F. Kennedy International Airport|New York–JFK]] (both resume 5 September 2026) 
+<!-- -->
+| [[El Al]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Athens International Airport|Athens]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Berlin Brandenburg Airport|Berlin]], [[Logan International Airport|Boston]], [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Ezeiza International Airport|Buenos Aires–Ezeiza]] (begins 29 November 2026), [[Dubai International Airport|Dubai–International]], [[Frankfurt Airport|Frankfurt]], [[Geneva Airport|Geneva]], [[Noi Bai International Airport|Hanoi]] (begins {{date|2026-10-24}}), [[Lisbon Airport|Lisbon]], [[Heathrow Airport|London–Heathrow]], [[Luton Airport|London–Luton]], [[Los Angeles International Airport|Los Angeles]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Miami International Airport|Miami]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Moscow Domodedovo Airport|Moscow–Domodedovo]] (suspended), [[Munich Airport|Munich]], [[John F. Kennedy International Airport|New York–JFK]], [[Newark Liberty International Airport|Newark]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Phuket International Airport|Phuket]], [[Václav Havel Airport Prague|Prague]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[San Francisco International Airport|San Francisco]] (resumes {{date|2026-10-25}}), [[Incheon International Airport|Seoul-Incheon]] (begins {{date|2027-3-27}}), [[Vasil Levski Sofia Airport|Sofia]], [[Narita International Airport|Tokyo–Narita]], [[Venice Marco Polo Airport|Venice]], [[Vienna Airport|Vienna]], [[Zurich Airport|Zürich]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[Eurowings]] | [[Düsseldorf Airport|Düsseldorf]], [[Hamburg Airport|Hamburg]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[FlyOne]] | [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Chișinău Eugen Doga International Airport|Chișinău]], [[Zvartnots International Airport|Yerevan]], [[Islam Karimov Tashkent International Airport|Tashkent]] (suspended)
+<!-- -->
+| [[Georgian Airways]] | [[Tbilisi International Airport|Tbilisi]] (suspended)
+<!-- -->
+| [[Hainan Airlines]] | [[Beijing Capital International Airport|Beijing–Capital]], [[Shenzhen Bao'an International Airport|Shenzhen]] (all suspended)
+<!-- -->
+| [[HiSky]] | [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Chișinău Eugen Doga International Airport|Chișinău]]
+<!-- -->
+| [[Iberia Express]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]] (suspended until {{date|2026-10-24}})
+<!-- -->
+| [[Israir]] | [[Athens International Airport|Athens]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Heydar Aliyev International Airport|Baku]], [[Bari Karol Wojtyła Airport|Bari]], [[Batumi International Airport|Batumi]], [[Berlin Brandenburg Airport|Berlin]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Dubai International Airport|Dubai-International]], [[Düsseldorf Airport|Düsseldorf]], [[Larnaca International Airport|Larnaca]], [[Luton Airport|London–Luton]], [[Madrid-Barajas Airport|Madrid]] (begins {{date|2026-10-25}}), [[Milan Malpensa Airport|Milan–Malpensa]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Tbilisi International Airport|Tbilisi]], [[Thessaloniki Airport|Thessaloniki]], [[Tirana Airport|Tirana]], [[Vilnius International Airport|Vilnius]]<br/> '''Seasonal:''' [[Catania–Fontanarossa Airport|Catania]], [[Corfu International Airport|Corfu]], [[Málaga Airport|Málaga]], [[Sarajevo International Airport|Sarajevo]], [[Stuttgart Airport|Stuttgart]], [[Tivat Airport|Tivat]], [[Verona Villafranca Airport|Verona]]<br>'''Seasonal charter:''' [[Plovdiv Airport|Plovdiv]], [[Rovaniemi Airport|Rovaniemi]], [[Varna Airport|Varna]], [[Abeid Amani Karume International Airport|Zanzibar]]
+<!-- -->
+| [[ITA - Italia Trasporto Aereo|ITA Airways]] | [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]] (resumes {{date|2026-8-25}})
+<!--
+| [[KM Malta Airlines]] | [[Malta International Airport|Malta]] -->
+<!-- --> 
+| [[LOT Polish Airlines]] | [[Kraków John Paul II International Airport|Kraków]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Neos (airline)|Neos]] | [[Milan Malpensa Airport|Milan–Malpensa]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| [[Qanot Sharq]] | [[Islam Karimov Tashkent International Airport|Tashkent]], [[Samarqand International Airport|Samarqand]]
+<!-- -->
+| [[Red Wings Airlines]] | [[Mineralnye Vody Airport|Mineralnye Vody]], [[Zhukovsky International Airport|Moscow–Zhukovsky]], [[Adler-Sochi International Airport|Sochi]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]] (suspended)
+<!-- -->
+| [[Sky Express (Greece)|SKY Express]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[SkyUp Airlines]] | [[Chișinău Eugen Doga International Airport|Chișinău]]
+<!-- -->
+| [[Smartwings]] | [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+| [[Sundor]] | [[Belgrade Nikola Tesla Airport|Belgrade]], [[Chișinău Eugen Doga International Airport|Chișinău]], [[Kraków John Paul II International Airport|Kraków]], [[Larnaca International Airport|Larnaca]], [[Naples Airport|Naples]], [[Paphos International Airport|Paphos]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Porto Airport|Porto]], [[Tbilisi International Airport|Tbilisi]], [[Tirana International Airport|Tirana]], [[Warsaw Chopin Airport|Warsaw–Chopin]]<br/> '''Seasonal:''' [[Basel Airport|Basel]], [[Batumi International Airport|Batumi]], [[Cagliari Elmas Airport|Cagliari]], [[Catania–Fontanarossa Airport|Catania]], [[Copenhagen Airport|Copenhagen]], [[Dubrovnik Airport|Dubrovnik]], [[Heraklion International Airport "Nikos Kazantzakis"|Heraklion]], [[Kefalonia International Airport|Kefalonia]], [[Mykonos Airport|Mykonos]], [[Rhodes Airport|Rhodes]], [[Salzburg Airport|Salzburg]], [[Varna Airport|Varna]], [[Verona Villafranca Airport|Verona]] (begins {{date|2026-10-25}}), [[Zagreb Airport|Zagreb]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zurich Airport|Zürich]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]] (suspended until {{date|2026-9-15}}), [[Porto Airport|Porto]] (begins {{date|2026-10-25}})
+<!-- -->
+| [[TAROM]] | [[Henri Coandă International Airport|Bucharest–Otopeni]]
+<!-- -->
+| [[Transavia]] | [[Lyon–Saint-Exupéry Airport|Lyon]], [[Marseille Provence Airport|Marseille]], [[Orly Airport|Paris–Orly]], [[Toulouse–Blagnac Airport|Toulouse]]  (all suspended)
+<!-- -->
+| [[TUS Airways]] | [[Orio al Serio International Airport|Bergamo]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Larnaca International Airport|Larnaca]], [[Naples Airport|Naples]], [[Paphos International Airport|Paphos]], [[Leonardo da Vinci-Fiumicino Airport|Rome–Fiumicino]]  
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]] (suspended), [[Newark Liberty International Airport|Newark]] (resumes {{date|2026-9-8}}), [[Dulles International Airport|Washington–Dulles]] (suspended)
+<!-- -->
+| [[Uzbekistan Airways]] | [[Samarqand International Airport|Samarqand]], [[Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Wizz Air]] | [[Athens International Airport|Athens]], [[Bratislava Airport|Bratislava]], [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Catania–Fontanarossa Airport|Catania]] (resumes {{date|2026-9-6}}), [[Cluj International Airport|Cluj-Napoca]] (resumes {{date|2026-9-7}}), [[Debrecen International Airport|Debrecen]] (suspended), [[Heraklion International Airport|Heraklion]] (suspended), [[Iași International Airport|Iași]]  (resumes {{date|2026-9-6}}), [[Kraków John Paul II International Airport|Kraków]], [[Larnaca International Airport|Larnaca]], [[Gatwick Airport|London–Gatwick]]  (resumes {{date|2026-9-1}}), [[Luton Airport|London–Luton]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Naples International Airport|Naples]], [[Palermo Airport|Palermo]], [[Rhodes International Airport|Rhodes]] (suspended), [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Vasil Levski Sofia Airport|Sofia]], [[Thessaloniki Airport|Thessaloniki]] (suspended), [[Varna Airport|Varna]], [[Venice Marco Polo Airport|Venice]] (resumes {{date|2026-9-7}}), [[Vilnius Airport|Vilnius]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+}}
+
+===Cargo===
+[[File:My Freighter B767 in TLV.jpg|thumb|[[My Freighter Airlines]] ([[Uzbekistan]]) [[Boeing 767-300F]] on apron stand in Ben Gurion Airport]]
+{{Airport-dest-list
+<!-- -->
+| [[ASL Airlines]] | [[Leipzig/Halle Airport|Leipzig/Halle]]
+<!-- -->
+| [[Astral Aviation]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Cargoair]] | [[Cologne Bonn Airport|Cologne/Bonn]]
+<!-- -->
+| [[Challenge Airlines]] | [[Almaty International Airport|Almaty]], [[Athens International Airport|Athens]], [[Al Maktoum International Airport|Dubai-Al Maktoum]], [[Helsinki Vantaa Airport|Helsinki]], [[Hong Kong International Airport|Hong Kong]], [[Larnaca International Airport|Larnaca]], [[Liège Airport|Liège]], [[Malpensa Airport|Milan-Malpensa]], [[John F. Kennedy International Airport|New York–JFK]], [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[DHL Aviation]] | [[Leipzig/Halle Airport|Leipzig/Halle]]
+<!-- -->
+| [[El Al|El Al Cargo]] | [[Frankfurt Airport|Frankfurt]], [[Liège Airport|Liège]], [[Lublin Airport|Lublin]], [[John F. Kennedy International Airport|New York–JFK]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Kalitta Air]] | [[Almaty International Airport|Almaty]], [[Dubai International Airport|Dubai]], [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Lufthansa Cargo]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[My Freighter]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| {{nowrap|[[Silk Way West Airlines]]}} | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[UPS Airlines]] | [[Cologne Bonn Airport|Cologne/Bonn]], [[Larnaca International Airport|Larnaca]]
+<!-- -->
+}}

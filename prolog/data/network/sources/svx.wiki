@@ -1,0 +1,69 @@
+==Airlines and destinations==
+
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+|[[Aeroflot]]| [[Istanbul Airport|Istanbul]], [[Krasnodar International Airport|Krasnodar]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Tolmachevo Airport|Novosibirsk]], [[Sochi International Airport|Sochi]], [[Zvartnots Airport|Yerevan]]<br>'''Seasonal:''' [[Antalya Airport|Antalya]], [[Manohar International Airport|Goa–Mopa]], [[Cam Ranh International Airport|Nha Trang]], [[Phuket International Airport|Phuket]], [[Sanya Phoenix International Airport|Sanya]]
+<!-- -->
+| [[Air Arabia]] | [[Ras Al Khaimah International Airport|Ras Al Khaimah]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| {{nowrap|[[AlMasria Universal Airlines]]}} | '''Seasonal charter:''' [[Hurghada International Airport|Hurghada]]
+<!--  -->
+| {{Nowrap| [[Avia Traffic Company]] }}| [[Osh Airport|Osh]]
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]
+<!--  -->
+|[[Azur Air]]| '''Seasonal charter:''' [[Antalya Airport|Antalya]], [[Dalaman Airport|Dalaman]], [[Cam Ranh International Airport|Nha Trang]]
+<!-- -->
+| [[Belavia]] | [[Minsk National Airport|Minsk]]
+<!-- -->
+| [[Centrum Air]] | [[Islam Karimov Tashkent International Airport|Tashkent]] (begins {{date|2026-8-17}})
+<!-- -->
+| [[Corendon Airlines]] | '''Seasonal charter:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[FlyOne]] | [[Islam Karimov Tashkent International Airport|Tashkent]], [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| [[Ikar (airline)|Ikar]] | '''Seasonal charter:''' [[Cam Ranh International Airport|Nha Trang]], [[Phuket International Airport|Phuket]]
+<!-- -->
+| [[Izhavia]] | [[Izhevsk Airport|Izhevsk]] (suspended)
+<!--  -->
+| [[NordStar]] | [[Alykel Airport|Norilsk]], [[Gumrak Airport|Volgograd]]
+<!-- -->
+| [[Nordwind Airlines]] | [[Adler-Sochi International Airport|Sochi]]<br>'''Seasonal:''' [[Uytash Airport|Makhachkala]]
+<!-- -->
+| [[Oman Air]] | '''Seasonal charter:''' [[Salalah International Airport|Salalah]]
+<!-- -->
+|[[Pobeda (airline)|Pobeda]]| [[Krasnodar International Airport|Krasnodar]],  [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Vnukovo International Airport|Moscow–Vnukovo]], [[Pulkovo Airport|Saint Petersburg]], [[Sochi International Airport|Sochi]]<br>'''Seasonal:''' [[Antalya Airport|Antalya]], [[Khrabrovo Airport|Kaliningrad]]
+<!-- -->
+| [[Red Sea Airlines (charter airline)|Red Sea Airlines]] | '''Seasonal charter:''' [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Red Wings Airlines]] | [[Abakan Airport|Abakan]], [[Almaty International Airport|Almaty]], [[Aqtau International Airport|Aqtau]], [[Nursultan Nazarbayev International Airport|Astana]], [[Narimanovo Airport|Astrakhan]], [[Heydar Aliyev International Airport|Baku]], [[Barnaul Airport|Barnaul]], [[Batumi International Airport|Batumi]], [[Bukhara International Airport|Bukhara]], [[Elista Airport|Elista]] (suspended until {{date|2026-8-31}}), [[Gorno-Altaysk Airport|Gorno-Altaysk]], [[Kadyrov Grozny International Airport|Grozny]], [[Izhevsk Airport|Izhevsk]], [[Kazan International Airport|Kazan]], [[Kemerovo Airport|Kemerovo]], [[Murmansk Airport|Murmansk]], [[Nizhnevartovsk Airport|Nizhnevartovsk]], [[Strigino Airport|Nizhny Novgorod]], [[Spichenkovo Airport|Novokuznetsk]], [[Novy Urengoy Airport|Novy Urengoy]], [[Omsk Tsentralny Airport|Omsk]], [[Orenburg Tsentralny Airport|Orenburg]], [[Kurumoch Airport|Samara]], [[Saransk Airport|Saransk]], [[Saratov Gagarin Airport|Saratov]], [[Stavropol Shpakovskoye Airport|Stavropol]], [[Surgut Airport|Surgut]], [[Shota Rustaveli Tbilisi International Airport|Tbilisi]], [[Tomsk Kamov Airport|Tomsk]], [[Mustai Karim Ufa International Airport|Ufa]], [[Baikal International Airport|Ulan-Ude]], [[Ulyanovsk Baratayevka Airport|Ulyanovsk–Barartayevka]], [[Ürümqi Tianshan International Airport|Ürümqi]] (begins {{date|2026-7-1}}), [[Beslan Airport|Vladikavkaz]]<br>'''Seasonal charter:''' [[Cam Ranh International Airport|Nha Trang]],
+<!-- -->
+| [[Rossiya Airlines]] | [[Yemelyanovo Airport|Krasnoyarsk–International]], [[Mineralnye Vody Airport|Mineralnye Vody]], [[Pulkovo Airport|Saint Petersburg]]<br>'''Seasonal charter:''' [[Hurghada International Airport|Hurghada]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[RusLine]] | [[Beloyarsk Airport|Beloyarskiy]], [[Pobedilovo Airport|Kirov]], [[Naryan-Mar Airport|Naryan-Mar]], [[Nizhnevartovsk Airport|Nizhnevartovsk]], [[Syktyvkar Airport|Syktyvkar]]
+<!-- -->
+| [[S7 Airlines]] | [[International Airport Irkutsk|Irkutsk]], [[Tolmachevo Airport|Novosibirsk]]
+<!-- -->
+| [[Severstal Avia]] | [[Cherepovets Airport|Cherepovets]], [[Besovets Airport|Petrozavodsk]]
+<!-- +-->
+| [[Smartavia]] | [[Pulkovo Airport|Saint Petersburg]], [[Adler-Sochi International Airport|Sochi]]
+<!-- -->
+| [[Somon Air]] | [[Dushanbe International Airport|Dushanbe]]
+<!--  -->
+| [[Southwind Airlines]] | '''Seasonal charter:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Ural Airlines]] | [[Heydar Aliyev International Airport|Baku]], [[Beijing Daxing International Airport|Beijing–Daxing]], [[Manas International Airport|Bishkek]], [[Ignatyevo Airport|Blagoveshchensk]], [[Kadala Airport|Chita]], [[Indira Gandhi International Airport|Delhi]] (begins {{date|2026-10-27}}), [[Dushanbe International Airport|Dushanbe]], [[Harbin Taiping International Airport|Harbin]], [[International Airport Irkutsk|Irkutsk]], [[Istanbul Airport|Istanbul]], [[Khrabrovo Airport|Kaliningrad]], [[Khabarovsk Novy Airport|Khabarovsk]], [[Khujand Airport|Khujand]], [[Krasnodar International Airport|Krasnodar]], [[Yemelyanovo Airport|Krasnoyarsk–International]], [[Uytash Airport|Makahckala]], [[Mineralnye Vody Airport|Mineralnye Vody]], [[Domodedovo International Airport|Moscow–Domodedovo]], [[Namangan Airport|Namangan]], [[Osh Airport|Osh]], [[Pulkovo Airport|Saint Petersburg]], [[Samarqand International Airport|Samarqand]], [[Sochi International Airport|Sochi]], [[Tashkent International Airport|Tashkent]], [[Vladivostok International Airport|Vladivostok]], [[Zvartnots Airport|Yerevan]]<br>'''Seasonal:''' [[Al-Maktoum International Airport|Dubai–Al Maktoum]], [[Gelendzhik Airport|Gelendzhik]]<br>'''Seasonal charter:''' [[Hamad International Airport|Doha]]
+<!-- -->
+|[[Utair]]| [[Khanty-Mansiysk Airport|Khanty-Mansiysk]], [[Nizhnevartovsk Airport|Nizhnevartovsk]], [[Nyagan Airport|Nyagan]], [[Kurumoch International Airport|Samara]], [[Sovetsky Airport|Sovetsky]], [[Surgut International Airport|Surgut]], [[Roshchino Airport|Tyumen]], [[Ufa International Airport|Ufa]], [[Uray Airport|Uray]]
+<!-- -->
+|[[UVT Aero]] | [[Tolmachevo Airport|Novosibirsk]]
+<!-- -->
+|[[Uzbekistan Airways]]| [[Namangan Airport|Namangan]], [[Tashkent International Airport|Tashkent]]
+<!-- -->
+|[[Yakutia Airlines]]| [[Pulkovo Airport|Saint Petersburg]], [[Yakutsk Airport|Yakutsk]]
+<!-- -->
+|[[Yamal Airlines]]| [[Nadym Airport|Nadym]], [[Novy Urengoy Airport|Novy Urengoy]], [[Noyabrsk Airport|Noyabrsk]], [[Salekhard Airport|Salekhard]]
+}}

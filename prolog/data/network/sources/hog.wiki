@@ -1,0 +1,15 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+The following airlines operate regular scheduled and charter flights at Frank País Airport:
+
+{{Airport-dest-list
+<!--  -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Cubana de Aviación]] | [[José Martí International Airport|Havana]]
+<!-- -->
+| [[Neos (airline)|Neos]] | [[Rome Fiumicino Airport|Rome–Fiumicino]]{{efn|[[Neos (airline)|Neos]]' flight from Rome to Holguín makes a stop in La Romana. However, the airline does not have [[Freedoms of the air#Eighth freedom (consecutive cabotage)|eighth freedom]] traffic rights to transport passengers solely between La Romana and Holguín.}}
+}}
+
+;Notes
+{{notelist}}

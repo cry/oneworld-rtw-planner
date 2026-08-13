@@ -1,0 +1,26 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Stavanger Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]] (temporarily suspended)
+<!-- -->
+| LYGG | '''Charter:''' [[Esbjerg Airport|Esbjerg]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Bergen Airport, Flesland|Bergen]], [[Copenhagen Airport|Copenhagen]], [[Kraków John Paul II International Airport|Kraków]], [[Gatwick Airport|London–Gatwick]], [[Málaga Airport|Málaga]], [[Manchester Airport|Manchester]], [[Oslo Airport, Gardermoen|Oslo]], <br /> '''Seasonal:''' [[Antalya Airport|Antalya]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bergamo Airport|Bergamo]], [[Dubrovnik Airport|Dubrovnik]], [[Gran Canaria Airport|Gran Canaria]], [[Nice Côte d'Azur Airport|Nice]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Paris Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Rhodes International Airport|Rhodes]], [[Split Airport|Split]], [[Tenerife South Airport|Tenerife–South]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | [[Aberdeen Airport|Aberdeen]], [[Bergen Airport, Flesland|Bergen]], [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Trondheim Airport|Trondheim]] <br /> '''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nice Côte d'Azur Airport|Nice]], [[Split Airport|Split]] <br /> '''Seasonal charter:''' [[Aktion National Airport|Preveza/Lefkada]]
+<!-- -->
+| {{nowrap|[[Sunclass Airlines]]}} | '''Seasonal charter:''' [[Palma de Mallorca Airport|Palma de Mallorca]], [[Amílcar Cabral International Airport|Sal]]
+<!-- -->
+| [[Widerøe]] | [[Aberdeen Airport|Aberdeen]], [[Flesland Airport|Bergen]], [[Oslo Airport, Gardermoen|Oslo]], [[Sandefjord Airport, Torp|Sandefjord]], [[Trondheim Airport|Trondheim]]
+<!-- -->
+| [[Wizz Air]] | [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Kraków John Paul II International Airport|Kraków]]
+<!-- -->
+}}

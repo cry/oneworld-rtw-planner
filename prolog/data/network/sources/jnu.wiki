@@ -1,0 +1,13 @@
+==Airlines and destinations==
+Aside from providing passenger service, [[Alaska Airlines]] operates [[Boeing 737 Next Generation|Boeing 737-700]] jet freighter cargo flight service into Juneau.
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[Alaska Airlines]] | [[Ted Stevens Anchorage International Airport|Anchorage]], [[Ketchikan International Airport|Ketchikan]], [[Petersburg James A. Johnson Airport|Petersburg]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Sitka Rocky Gutierrez Airport|Sitka]], [[Yakutat Airport|Yakutat]]<br />'''Seasonal:''' [[Gustavus Airport|Gustavus]]{{cn|date=March 2025}}
+|{{nowrap|Alaska Seaplanes}} | [[Angoon Seaplane Base|Angoon]], [[Elfin Cove Seaplane Base|Elfin Cove]], [[Excursion Inlet Seaplane Base|Excursion Inlet]], [[Gustavus Airport|Gustavus]], [[Haines Airport|Haines]], [[Hoonah Airport|Hoonah]], [[Kake Seaplane Base|Kake]], [[Klawock Airport|Klawock]], [[Pelican Seaplane Base|Pelican]], [[Petersburg James A. Johnson Airport|Petersburg]], [[Sitka Rocky Gutierrez Airport|Sitka]], [[Skagway Airport|Skagway]], [[Tenakee Seaplane Base|Tenakee Springs]]
+| [[Delta Air Lines]] |'''Seasonal:''' [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+| Ward Air| [[Excursion Inlet Seaplane Base|Excursion Inlet]] <br /> '''Charter:''' [[Chatham Seaplane Base|Chatham]],{{cn|date=March 2025}} [[Funter Bay Seaplane Base|Funter Bay]]{{cn|date=March 2025}}
+}}
+
+[[File:JNU1.jpg|thumb|An [[Alaska Airlines]] [[Boeing 737-400]]C being loaded with cargo at Juneau International Airport]]

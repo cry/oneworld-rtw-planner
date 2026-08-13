@@ -1,0 +1,64 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list
+| [[Air Arabia]] | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[ATA Airlines (Iran)|ATA Airlines]] | [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tabriz Shahid Madani International Airport|Tabriz]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]], [[Shahid Sadooghi Airport|Yazd]]
+<!-- -->
+| [[AVA Airlines]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]]
+<!-- -->
+| [[Caspian Airlines]] | [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]] | [[King Fahd International Airport|Dammam]]
+<!-- -->
+|[[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[Iran Air]] | [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tabriz Shahid Madani International Airport|Tabriz]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Iran Airtour]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tabriz Shahid Madani International Airport|Tabriz]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| {{nowrap|[[Iran Aseman Airlines]]}} | [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Shiraz Shahid Dastgheib International Airport|Shiraz]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Iraqi Airways]] | [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Baghdad International Airport|Baghdad]], [[Bahrain International Airport|Bahrain]], [[Beirut–Rafic Hariri International Airport|Beirut]], [[Copenhagen Airport|Copenhagen]], [[Erbil International Airport|Erbil]], [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Islamabad International Airport|Islamabad]], [[Istanbul Airport|Istanbul]], [[Jinnah International Airport|Karachi]], [[Kuwait International Airport|Kuwait City]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Muscat International Airport|Muscat]], [[Chhatrapati Shivaji International Airport|Mumbai]], [[Sulaimaniyah International Airport|Sulaimaniyah]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Kam Air]] | [[Kabul International Airport|Kabul]]
+<!-- -->
+| [[Kish Air]] | '''Seasonal:''' [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Kish International Airport|Kish]], [[Shiraz Shahid Dastgheib International Airport|Shiraz]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Mahan Air]] | [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Meraj Airlines]] | [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Middle East Airlines]] | [[Beirut–Rafic Hariri International Airport|Beirut]]
+<!-- -->
+| [[Pars Air]] | [[Ayatollah Hashemi Rafsanjani Airport|Kerman]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Shiraz Shahid Dastgheib International Airport|Shiraz]]
+<!-- -->
+| [[Pouya Air]] | '''Seasonal:''' [[Rasht Airport|Rasht]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Qeshm Air]] | [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[Sepehran Airlines]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]]
+<!-- -->
+|[[SpiceJet]]|'''Charter:''' [[Ahmedabad Airport|Ahmedabad]], [[Mumbai Airport|Mumbai]]
+<!-- -->
+| [[Taban Air]] | [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] (suspended)
+<!-- -->
+| [[UR Airlines]] | [[Beirut Rafic Hariri International Airport|Beirut]]
+<!-- -->
+| [[Varesh Airlines]] | [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Dasht-e Naz Airport|Sari]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Zagros Airlines]] |  [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]<br>'''Seasonal:''' [[Ardabil Airport|Ardabil]]
+<!-- -->
+}}

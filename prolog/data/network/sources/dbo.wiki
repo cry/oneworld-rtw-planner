@@ -1,0 +1,12 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{airport-dest-list
+<!-- -->
+| [[Air Link]] | [[Bourke Airport|Bourke]], [[Walgett Airport|Walgett]]
+<!-- -->
+| {{nowrap|[[Link Airways]]}} | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]]
+<!-- -->
+| [[QantasLink]] | [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Rex Airlines]] | [[Broken Hill Airport|Broken Hill]], [[Sydney Airport|Sydney]]
+}}

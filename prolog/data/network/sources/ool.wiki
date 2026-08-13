@@ -1,0 +1,30 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines operate scheduled and in some cases chartered passenger flights from Gold Coast Airport. All passenger airlines operate flights from the main terminal (T1) with the exception of [[Eastern Air Services]] which operates from the General Aviation apron.
+
+{{Airport-dest-list
+|[[Air New Zealand]] | [[Auckland Airport|Auckland]] <br/> '''Seasonal:''' [[Christchurch Airport|Christchurch]]
+<!-- -->
+|{{nowrap|[[Eastern Air Services]]}} | [[Lord Howe Island Airport|Lord Howe Island]]
+<!-- -->
+|[[Fiji Airways]] | [[Nadi Airport|Nadi]]
+<!-- -->
+|[[FlyPelican]] | [[Newcastle Airport (New South Wales)|Newcastle]]
+<!-- -->
+|[[Jetstar]] | [[Adelaide Airport|Adelaide]], [[Auckland Airport|Auckland]], [[Avalon Airport|Avalon]], [[Cairns Airport|Cairns]], [[Canberra Airport|Canberra]], [[Christchurch Airport|Christchurch]], [[Ngurah Rai International Airport|Denpasar]], [[Dunedin Airport|Dunedin]], [[Hamilton Airport (New Zealand)|Hamilton]], [[Hobart Airport|Hobart]], [[Melbourne Airport|Melbourne]], [[Newcastle Airport, New South Wales|Newcastle]],{{citation needed|date=June 2026}} [[Queenstown Airport|Queenstown]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Western Sydney International Airport|Sydney–Western]] (begins 25 October 2026), [[Wellington Airport|Wellington]] <br/> '''Seasonal:''' [[Darwin Airport|Darwin]], [[Perth Airport|Perth]]
+<!-- -->
+|[[Qantas]] | [[Auckland Airport|Auckland]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+|[[Virgin Australia]] | [[Adelaide Airport|Adelaide]], [[Canberra Airport|Canberra]], [[Ngurah Rai International Airport|Denpasar]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- --> 
+}}
+
+===Cargo===
+[[File:National Jet Express BAe 146-300QT Parked at Gold Coast Airport.jpg|thumb|NJE BAe 146-300QT Parked at Gold Coast Airport after a Qantas Freight flight]]
+The following airlines operate scheduled cargo flights from Gold Coast Airport.
+
+{{airport-dest-list
+|[[Qantas Freight]] | [[Sydney Airport|Sydney–Kingsford Smith]], [[Western Sydney Airport|Sydney–Western]] 
+}}
+
+[[Qantas Freight]] uses the cargo space of Jetstar aircraft to transport cargo domestically. It is also contracted for Jetstar international flights and Air New Zealand flights from the airport. It offers same day/overnight and standby services domestically airport to airport and airport to door from Gold Coast Airport. All cargo services operate from the Freight Terminal. Coast Cargo is a registered Cargo Terminal Operator (CTO) and currently handles [[Virgin Australia]]. It is also the agent for Toll Air Express.

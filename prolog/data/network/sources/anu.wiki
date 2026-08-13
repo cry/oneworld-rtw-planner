@@ -1,0 +1,31 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Canada Rouge]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+| [[Air Peace]] | '''Charter:''' [[Accra International Airport|Accra]], [[Grantley Adams International Airport|Barbados]], [[Murtala Muhammed International Airport|Lagos]]
+| [[American Airlines]] | [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]]<br />'''Seasonal:''' [[Charlotte/Douglas International Airport|Charlotte]]{{citation needed|date=February 2025}}
+| [[Anguilla Air Services]] | [[Clayton J. Lloyd International Airport|Anguilla]]
+| [[ABM Air|BMN Air]] | [[Burton–Nibbs International Airport|Barbuda]], [[John A. Osborne Airport|Montserrat]]
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]], [[Robert L. Bradshaw International Airport|Saint Kitts]]
+| [[CalvinAir Helicopters]] | [[Burton–Nibbs International Airport|Barbuda]], [[Canefield Airport|Dominica–Canefield]], [[John A. Osborne Airport|Montserrat]], [[Vance W. Amory International Airport|Nevis]], [[Robert L. Bradshaw International Airport|Saint Kitts]]
+| [[Caribbean Airlines]] | [[Grantley Adams International Airport|Barbados]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Piarco International Airport|Port of Spain]]
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]<br /> '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+| [[FlyMontserrat]] | [[Burton–Nibbs International Airport|Barbuda]], [[John A. Osborne Airport|Montserrat]], [[Vance W. Amory International Airport|Nevis]]
+| {{nowrap|[[InterCaribbean Airways]]}} | [[Grantley Adams International Airport|Barbados]], [[Providenciales International Airport|Providenciales]], [[Terrance B. Lettsome International Airport|Tortola]]
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]] (ends 31 October 2026)
+| [[Liat Air]] | [[Burton-Nibbs International Airport|Barbuda]], [[Grantley Adams International Airport|Barbados]], [[Rafael Núñez International Airport|Cartagena de Indias]], [[George F.L. Charles Airport|Castries]], [[Douglas-Charles Airport|Dominica–Douglas-Charles]], [[Cheddi Jagan International Airport|Georgetown–Cheddi Jagan]], [[Maurice Bishop International Airport|Grenada]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Montego Bay Airport|Montego Bay]], [[Piarco International Airport|Port of Spain]], [[Punta Cana International Airport|Punta Cana]], [[Robert L. Bradshaw International Airport|Saint Kitts]], [[Argyle International Airport|Saint Vincent–Argyle]], [[Princess Juliana International Airport|Sint Maarten]], [[Terrance B. Lettsome International Airport|Tortola]]
+| {{nowrap|[[Norse Atlantic Airways]]}} | ''' Seasonal charter:''' [[Gatwick Airport|London–Gatwick]],{{citation needed|date=February 2025}} [[Manchester Airport|Manchester (UK)]]{{citation needed|date=February 2025}}
+| {{nowrap|[[Sky High Aviation Services|Sky High]]}} | [[Las Americas International Airport|Santo Domingo–Las Americas]]
+| [[St Barth Commuter]] | [[Gustaf III Airport|Saint Barthelemy]]{{citation needed|date=September 2024}}
+| [[Sunrise Airways]] | [[Grantley Adams International Airport|Barbados]], [[George F. L. Charles Airport|Castries]], [[Douglas-Charles Airport|Dominica–Douglas-Charles]], [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[Maurice Bishop International Airport|Grenada]], [[Pointe-à-Pitre International Airport|Pointe-à-Pitre]], [[Toussaint Louverture International Airport|Port-au-Prince]], [[Robert L. Bradshaw International Airport|Saint Kitts]], [[Argyle International Airport|Saint Vincent–Argyle]], [[Las Americas International Airport|Santo Domingo–Las Americas]], [[Princess Juliana International Airport|Sint Maarten]], [[Terrance B. Lettsome International Airport|Tortola]]
+| [[SVG Air]] | [[Canefield Airport|Dominica–Canefield]]
+| [[Tradewind Aviation]] | [[Clayton J. Lloyd International Airport|Anguilla]], [[Gustaf III Airport|Saint Barthelemy]]
+| [[United Airlines]] | [[Newark Liberty International Airport|Newark]]
+| [[VI Airlink]] | [[Terrance B. Lettsome International Airport|Tortola]]
+| [[Virgin Atlantic]] | [[London Heathrow Airport|London–Heathrow]]
+| [[WestJet]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+| [[Winair]] | [[Douglas-Charles Airport|Dominica–Douglas-Charles]], [[John A. Osborne Airport|Montserrat]], [[Gustaf III Airport|Saint Barthelemy]], [[Robert L. Bradshaw International Airport|Saint Kitts]], [[Princess Juliana International Airport|Sint Maarten]], [[Terrance B. Lettsome International Airport|Tortola]]
+}}

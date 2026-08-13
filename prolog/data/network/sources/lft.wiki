@@ -1,0 +1,40 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+
+[[File:KLFT Airport Diagram (Updated 12-14).pdf|thumb|KLFT airport diagram as of September 2013]]
+
+===Top destinations===
+{| class="wikitable sortable" style="font-size: 95%" width= align=
+|+ '''Busiest domestic routes from LFT<br />(July 2024 – June 2025)'''
+|-
+! Rank
+! City
+! Passengers
+! Carrier
+|-
+| 1
+| {{flagicon|Texas}} [[Dallas/Fort Worth International Airport|Dallas/Fort Worth, Texas]]
+| 91,780
+| American
+|-
+| 2
+| {{flagicon|Texas}} [[George Bush Intercontinental Airport|Houston–Intercontinental, Texas]]
+| 89,290
+| United
+|-
+| 3
+| {{flagicon|Georgia (US state)}} [[Hartsfield–Jackson Atlanta International Airport|Atlanta, Georgia]]
+| 77,120
+| Delta
+|-
+| 4
+| {{flagicon|North Carolina}} [[Charlotte Douglas International Airport|Charlotte, North Carolina]]
+| 22,210
+| American
+|}

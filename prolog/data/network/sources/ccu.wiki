@@ -1,0 +1,71 @@
+==Airlines and destinations ==
+===Passenger ===
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY.-->
+{{Airport destination list
+<!-- -->
+| [[Air Arabia]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]]
+<!-- -->
+| [[Air India Express]] | [[Maharaja Bir Bikram Airport|Agartala]], [[Kempegowda International Airport|Bengaluru]], [[Chennai International Airport|Chennai]], [[Lokpriya Gopinath Bordoloi International Airport|Guwahati]], [[Imphal Airport|Imphal]], [[Devi Ahilya Bai Holkar Airport|Indore]], [[Jaipur International Airport|Jaipur]], [[Veer Savarkar International Airport|Port Blair]], [[Pune Airport|Pune]], [[Bagdogra Airport|Siliguri]], [[Srinagar Airport|Srinagar]]
+<!-- -->
+| [[Akasa Air]] | [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]],  [[Kempegowda International Airport|Bengaluru]], [[Indira Gandhi International Airport|Delhi]], [[Navi Mumbai International Airport|Mumbai–Navi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Veer Savarkar International Airport|Port Blair]], [[Pune Airport|Pune]]
+<!-- -->
+|{{nowrap|[[AirAsia]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]] 
+<!-- -->
+| [[Alliance Air (India)|Alliance Air]] | [[Maa Mahamaya Airport|Ambikapur]], [[Bilaspur Airport|Bilaspur]], [[Lokpriya Gopinath Bordoloi International Airport|Guwahati]], [[Imphal Airport|Imphal]], [[Jabalpur Airport|Jabalpur]], [[Lilabari Airport|Lilabari]], [[Rewa Airport| Rewa]], [[Rupsi Airport|Rupsi]]
+<!-- --->
+| [[Bhutan Airlines]] | [[Bangkok–Suvarnabhumi]], [[Paro International Airport|Paro]]
+<!-- -->
+| {{nowrap|[[Biman Bangladesh Airlines]]}} | [[Hazrat Shahjalal International Airport|Dhaka]]
+<!-- -->
+| [[Buddha Air]] | [[Tribhuvan International Airport|Kathmandu]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Kunming Changshui International Airport|Kunming]] 
+<!-- -->
+| [[Drukair]] | [[Gelephu Airport|Gelephu]], [[Paro International Airport|Paro]]{{cn|date=July 2026}}
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[flyadeal]] | '''Seasonal Charter:''' [[Prince Mohammad bin Abdulaziz International Airport|Medina]]{{bsn|date=July 2026}}
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[IndiGo]] | [[Maharaja Bir Bikram Airport|Agartala]], [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Lengpui Airport|Aizawl]], [[Sri Guru Ram Das Ji International Airport|Amritsar]], [[Bangkok–Suvarnabhumi]], [[Kempegowda International Airport|Bengaluru]], [[Biju Patnaik Airport|Bhubaneswar]], [[Chandigarh Airport|Chandigarh]], [[Chennai International Airport|Chennai]], [[Darbhanga Airport|Darbhanga]], [[Dehradun Airport|Dehradun]], [[Indira Gandhi International Airport|Delhi]], [[Deoghar Airport|Deoghar]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Dibrugarh Airport|Dibrugarh]], [[Dimapur Airport|Dimapur]], [[Gaya Airport|Gaya]], [[Hindon Airport|Ghaziabad]], [[Dabolim Airport|Goa–Dabolim]], [[Manohar International Airport|Goa–Mopa]], [[Gorakhpur Airport|Gorakhpur]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Lokpriya Gopinath Bordoloi International Airport|Guwahati]],  [[Noi Bai International Airport|Hanoi]],{{bsn|date=July 2026}} [[Tan Son Nhat International Airport|Ho Chi Minh City]],{{bsn|date=July 2026}} [[Rajiv Gandhi International Airport|Hyderabad]], [[Imphal Airport|Imphal]], [[Devi Ahilya Bai Holkar Airport|Indore]], [[Donyi Polo Airport|Itanagar]], [[Jaipur International Airport|Jaipur]], [[Jharsuguda Airport|Jharsuguda]], [[Jorhat Airport|Jorhat]], [[Chaudhary Charan Singh Airport|Lucknow]], [[Navi Mumbai International Airport|Mumbai–Navi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Dr. Babasaheb Ambedkar International Airport|Nagpur]], [[Jay Prakash Narayan Airport|Patna]], [[Phuket International Airport|Phuket]], [[Pune Airport|Pune]], [[Purnea Airport|Purnea]], [[Swami Vivekananda Airport|Raipur]], [[Birsa Munda Airport|Ranchi]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Shillong Airport|Shillong]], [[Siem Reap–Angkor International Airport|Siem Reap]], [[Silchar Airport|Silchar]], [[Bagdogra Airport|Siliguri]], [[Changi Airport|Singapore]], [[Srinagar Airport|Srinagar]], [[Surat Airport|Surat]], [[Lal Bahadur Shastri Airport|Varanasi]], [[Vijayawada Airport|Vijayawada]] (Begins 13 August 2026), [[Visakhapatnam Airport|Visakhapatnam]]
+<!-- -->
+| {{nowrap|[[Malaysia Airlines]]}} | [[Kuala Lumpur–International]]
+<!-- -->
+| {{nowrap|[[Myanmar Airways International]]}} | [[Yangon International Airport|Yangon]]
+<!-- -->
+| {{nowrap|[[Qatar Airways]]}} | [[Hamad International Airport|Doha]]{{cn|date=July 2026}}
+<!-- -->
+| {{nowrap|[[Singapore Airlines]]}} | [[Changi Airport|Singapore]]
+<!-- -->
+| [[SpiceJet]] | [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Kempegowda International Airport|Bengaluru]], [[Indira Gandhi International Airport|Delhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Srinagar Airport|Srinagar]] 
+<!-- -->
+| [[Star Air (India)|Star Air]] | [[Purnea Airport|Purnea]]
+<!-- -->
+| [[Thai AirAsia]] | [[Bangkok–Don Mueang]] 
+<!-- -->
+| [[Thai Airways International]] | [[Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai Lion Air]] | [[Bangkok–Don Mueang]]
+<!-- -->
+| [[Thai VietJet Air]] | [[Bangkok–Suvarnabhumi]]{{cn|date=July 2026}}
+<!-- -->
+| {{nowrap|[[US-Bangla Airlines]]}}| [[Hazrat Shahjalal International Airport|Dhaka]]{{cn|date=July 2026}}
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Blue Dart Aviation]] | [[Indira Gandhi International Airport|Delhi]], [[Guwahati International Airport|Guwahati]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+<!-- -->
+| [[IndiGo|IndiGo CarGo]] | [[Hazrat Shahjalal International Airport|Dhaka]], [[Ezhou Huahu Airport|Ezhou]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Kunming Changshui International Airport|Kunming]]
+<!-- -->
+| [[Qatar Airways|Qatar Airways Cargo]] | [[Hamad International Airport|Doha]]{{cn|date=July 2026}}
+<!-- -->
+| [[YTO Cargo Airlines]] | [[Hangzhou Xiaoshan International Airport|Hangzhou]]
+}}

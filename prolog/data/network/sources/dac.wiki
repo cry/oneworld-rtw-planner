@@ -1,0 +1,128 @@
+== Airlines and destinations ==
+[[File:Biman Bangladesh Airlines - S2-AJV - The Gaangchil - Boeing 787-8 Dreamliner - 40125 - HSIA.jpg|alt=Biman Bangladesh B787-8 Dreamliner in HSIA|thumb|201x201px|[[Biman Bangladesh]] [[Boeing 787-8 Dreamliner]] in Hazrat Shahjalal International Airport]]
+[[File:4R-ALA_-_SriLankan_Airlines_-_Airbus_A330-243_-_VGHS.jpg|thumb|alt=SriLankan Airlines A330-243 in HSIA|[[SriLankan Airlines]] [[Airbus A330-243]] in Hazrat Shahjalal International Airport|200x200px]]
+[[File:US-Bangla_Airlines_ATR_72-600_(S2-AKK)_@_DAC,_June_2021_(02).jpg|thumb|[[US-Bangla Airlines]] [[ATR 72-600]] in Hazrat Shahjalal International Airport|alt=US-Bangla ATR 72–600 in HSIA|200x200px]]
+
+=== Passenger ===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list|3rdcoltitle = Refs | 3rdcolunsortable=yes
+|{{nowrap|[[Air Arabia]]}} | [[Abu Dhabi International Airport|Abu Dhabi]], [[Ras Al Khaimah International Airport|Ras Al Khaimah]], [[Sharjah International Airport|Sharjah]]|
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+|
+| [[Air Astra]] | [[Shah Amanat International Airport|Chattogram]], [[Cox's Bazar International Airport|Cox's Bazar]], [[Osmani International Airport|Sylhet]]|
+
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]|
+
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]|
+
+| [[Air India Express]] | [[Netaji Subhas Chandra Bose International Airport|Kolkata]]|
+
+| [[Air Premia]] | '''Charter:''' [[Incheon International Airport|Seoul–Incheon]]|
+
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+|
+| {{nowrap|[[Biman Bangladesh Airlines]]}} | [[Abu Dhabi International Airport|Abu Dhabi]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Barisal Airport|Barisal]], [[Chennai International Airport|Chennai]], [[Shah Amanat International Airport|Chattogram]], [[Cox's Bazar International Airport|Cox's Bazar]], [[King Fahd International Airport|Dammam]], [[Indira Gandhi International Airport|Delhi]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[King Abdulaziz International Airport|Jeddah]], [[Jessore Airport|Jashore]], [[Jinnah International Airport|Karachi]], [[Tribhuvan International Airport|Kathmandu]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuwait International Airport|Kuwait]], [[Heathrow Airport|London–Heathrow]], [[Manchester Airport|Manchester]],{{efn|Manchester service operates via [[Osmani International Airport|Sylhet]].}} [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Muscat International Airport|Muscat]], [[Shah Makhdum Airport|Rajshahi]], [[King Khalid International Airport|Riyadh]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Saidpur Airport|Saidpur]], [[Sharjah International Airport|Sharjah]], [[Changi Airport|Singapore]], [[Osmani International Airport|Sylhet]], [[Toronto Pearson International Airport|Toronto–Pearson]],{{efn|This flight makes a technical stop at [[Istanbul Airport|Istanbul]] for refueling and crew change. Biman Bangladesh does not carry passengers solely from Dhaka to Istanbul, nor does the airline have fifth freedom rights to fly passengers from Istanbul to Toronto.}} [[Yangon International Airport|Yangon]]|
+
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]|
+
+| [[China Eastern Airlines]] | [[Kunming Changshui International Airport|Kunming]]|
+
+| [[China Southern Airlines]] | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Guangzhou Baiyun International Airport|Guangzhou]]|
+
+| [[Drukair]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Paro International Airport|Paro]]|
+
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]|
+
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+|
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]] |
+
+|[[Etihad Airways]] | '''Seasonal:''' [[Zayed International Airport|Abu Dhabi]]
+|
+| [[FitsAir]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]|
+
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]|
+
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+|
+| [[Himalaya Airlines]] | [[Tribhuvan International Airport|Kathmandu]]|
+
+| [[IndiGo]] | [[Chennai International Airport|Chennai]], [[Indira Gandhi International Airport|Delhi]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]|
+
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]|
+
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+|
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+|
+| [[Maldivian (airline)|Maldivian]] | [[Velana International Airport|Malé]]
+|
+| {{nowrap|[[Myanmar Airways International]]}} | [[Yangon International Airport|Yangon]]|
+
+| [[Novoair]] | [[Shah Amanat International Airport|Chattogram]], [[Cox's Bazar International Airport|Cox's Bazar]], [[Jessore Airport|Jashore]], [[Shah Makhdum Airport|Rajshahi]], [[Saidpur Airport|Saidpur]], [[Osmani International Airport|Sylhet]]|
+
+| [[Oman Air]] | [[Muscat International Airport|Muscat]]|
+
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+|
+| [[Riyadh Air]] | [[King Khalid International Airport|Riyadh]] (begins 7 August 2026)
+|
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+|
+| [[Saudia]] | [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+|
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+|
+| [[SriLankan Airlines]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+|
+| [[Thai AirAsia]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]|
+
+| [[Thai Airways International]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+|
+| [[Thai Lion Air]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]|
+
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+|
+| [[US-Bangla Airlines]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Barisal Airport|Barisal]], [[Chennai International Airport|Chennai]], [[Shah Amanat International Airport|Chattogram]], [[Cox's Bazar International Airport|Cox's Bazar]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[King Abdulaziz International Airport|Jeddah]], [[Jessore Airport|Jashore]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Velana International Airport|Malé]], [[Muscat International Airport|Muscat]], [[Shah Makhdum Airport|Rajshahi]], [[King Khalid International Airport|Riyadh]], [[Saidpur Airport|Saidpur]], [[Sharjah International Airport|Sharjah]], [[Changi Airport|Singapore]], [[Osmani International Airport|Sylhet]]
+}}
+
+=== Cargo ===
+[[File:B-LJA - Boeing 747-867F - Cathay Pacific - 39238 - HSIA.jpg|alt=Cathay Pacific Cargo in HSIA|thumb|[[Cathay Pacific Cargo]] [[Boeing 747]] in Hazrat Shahjalal International Airport]]
+{{Airport-dest-list|3rdcoltitle={{Abbr|Refs.|References}}|3rdcolunsortable=yes
+
+| [[AirBridgeCargo]] | [[Krasnoyarsk International Airport|Krasnoyarsk]], [[Shanghai Pudong International Airport|Shanghai–Pudong]] |{{citation needed|date=June 2019}}
+
+| [[Cathay Pacific|Cathay Cargo]] | [[Noi Bai International Airport|Hanoi]], [[Hong Kong International Airport|Hong Kong]] |{{citation needed|date=June 2019}}
+
+| [[China Cargo Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Zhengzhou Xinzheng International Airport|Zhengzhou]] |{{citation needed|date=June 2019}}
+
+| [[Easy Fly Express]] | [[Indira Gandhi International Airport|Delhi]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Hong Kong International Airport|Hong Kong]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Zhengzhou Xinzheng International Airport|Zhengzhou]] |
+
+| [[Ethiopian Airlines|Ethiopian Airlines Cargo]] | [[Addis Ababa Bole International Airport|Addis Ababa]] |{{citation needed|date=June 2019}}
+
+| [[Etihad Airways|Etihad Cargo]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Noi Bai International Airport|Hanoi]]
+|
+| [[Hong Kong Airlines|Hong Kong Air Cargo]] | [[Hong Kong International Airport|Hong Kong]] |{{citation needed|date=June 2019}}
+
+| [[My Freighter Airlines]] | [[Islam Karimov Tashkent International Airport|Tashkent]] | 
+
+| [[Qatar Airways|Qatar Airways Cargo]] | [[Hamad International Airport|Doha]] |{{citation needed|date=June 2019}}
+
+| [[Saudia|Saudia Cargo]]| [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]] |{{citation needed|date=June 2019}}
+
+| [[SF Airlines]] | [[Changsha Huanghua International Airport|Changsha]], [[Chengdu Shuangliu International Airport|Chengdu–Shuangliu]]
+|
+| [[Silk Way Airlines]] | [[Heydar Aliyev International Airport|Baku]] |{{citation needed|date=June 2019}}
+
+| [[Singapore Airlines|Singapore Airlines Cargo]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Sharjah International Airport|Sharjah]], [[Changi Airport|Singapore]] |{{citation needed|date=June 2019}}
+
+| [[SkyAir]] | [[Shah Amanat International Airport|Chittagong]], [[Cox's Bazar Airport|Cox's Bazar]], [[Jessore Airport|Jessore]], [[Osmani International Airport|Sylhet]] |
+
+| [[Sky Gates Airlines]] | [[Heydar Aliyev International Airport|Baku]] |{{citation needed|date=June 2019}}
+
+| [[Tianjin Airlines|Tianjin Air Cargo]] | [[Nanning Wuxu International Airport|Nanning]]
+|
+| [[Turkish Airlines|Turkish Cargo]] | [[Almaty International Airport|Almaty]], [[Ashgabat International Airport|Ashgabat]], [[Istanbul Airport|Istanbul]] |{{citation needed|date=June 2019}}
+
+| [[YTO Cargo Airlines]] | [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Nanning Wuxu International Airport|Nanning]]
+}}

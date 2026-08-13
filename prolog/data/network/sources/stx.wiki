@@ -1,0 +1,61 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]<br />'''Seasonal:''' [[Charlotte/Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]]
+<!-- -->
+| [[Cape Air]] | [[Vance W. Amory International Airport|Nevis]], [[Cyril E. King International Airport|Saint Thomas]], [[Luis Muñoz Marín International Airport|San Juan]], [[Antonio Rivera Rodríguez Airport|Vieques]]
+<!-- -->
+| [[Delta Air Lines]] | '''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Fly The Whale]] | [[Cyril E. King Airport|Saint Thomas]], [[Luis Muñoz Marín International Airport|San Juan]] 
+<!-- -->
+| [[JetBlue]] | [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| [[Sky High Aviation Services|Sky High]] | '''Seasonal:''' [[Las Americas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[Newark Liberty International Airport|Newark]] (resumes October 31, 2026)
+<!-- -->
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destination map
+|-
+|{{Location map+ |North America |width=1000 |float=center
+|caption=Destinations from Henry E. Rohlsen Airport (STX) <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination 
+|places=
+{{Location map~ |North America |lat=17.704444 |long=-64.801667 |position=left |label=<small>'''{{nowrap|St. Croix}}'''</small>|caption=|mark=Airplane_silhouette.svg |marksize=21}}
+{{Location map~ |mark = Red pog.svg |North America |lat=25.793333|long=-80.290556|position=left|label=<small>'''[[Miami International Airport|Miami]]'''</small>|label_size=100 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |North America |lat=35.213889 |long=-80.943056 |position=right |label=<small>'''{{nowrap|[[Charlotte Douglas International Airport|Charlotte]]}}'''</small>|label_size=100 |marksize=7}}
+{{Location map~ |mark = Green pog.svg |North America |lat=33.636667 |long=-84.428056 |position=right |label=<small>'''{{nowrap|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]}}'''</small>|label_size=100|marksize=7}}
+{{Location map~ |mark = Green pog.svg |North America |lat=41.978611 |long=-87.904722 |position=right |label=<small>'''{{nowrap|[[O'Hare International Airport|Chicago–O'Hare]]}}'''</small>|label_size=100|marksize=7}}
+{{Location map~ |mark = Blue pog.svg |North America |lat=40.6925 |long=-74.168611 |position=right |label=<small>'''{{nowrap|[[Newark Liberty International Airport|Newark]]}}'''</small>|label_size=100|marksize=7}}
+}}
+|}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+!Destination map - regional
+|-
+|{{Location map+ |Caribbean |width=1000 |float=center
+|caption=Destinations from Henry E. Rohlsen Airport (STX) <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination 
+|places=
+{{Location map~ |Caribbean |lat=17.704444 |long=-64.801667 |position=right |label=<small>'''{{nowrap|St. Croix}}'''</small>|caption=|mark=Airplane_silhouette.svg |marksize=21}}
+{{Location map~ |mark = Red pog.svg |Caribbean |lat=18.337222 |long=-64.973333 |position=right |label=<small>'''{{nowrap|[[Cyril E. King Airport|Saint Thomas]]}}'''</small>|label_size=100 |marksize=7}}
+{{Location map~ |mark = Red pog.svg |Caribbean |lat=18.439167 |long=-66.001944 |position=top|label=<small>'''{{nowrap|[[Luis Muñoz Marín International Airport|San Juan]]}}'''</small>|label_size=100 |marksize=7}}
+{{Location map~ |Caribbean |lat= 18.432144 |long=-69.673142 |position=bottom |label='''<small> [[Las Américas International Airport|Santo Domingo]] </small>'''|label_size=100 |marksize=7|mark=Green pog.svg}}
+{{Location map~ |Caribbean |lat=17.205556 |long=-62.59 |position=right |label='''<small> [[Vance W. Amory International Airport|Nevis]]</small>'''|label_size=100 |marksize=7|mark=Red pog.svg}}
+{{Location map~ |Caribbean |lat= 18.134722 |long= -65.493889 |position=bottom_left|label='''<small> [[Antonio Rivera Rodríguez Airport|Vieques]]</small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+}}
+|}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[DHL Aviation]] | [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| [[FedEx Feeder]] | [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+}}

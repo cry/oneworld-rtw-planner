@@ -1,0 +1,30 @@
+==Airlines and destinations==
+{{Airport-dest-list
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]
+<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi]]
+<!-- -->
+| [[Cambodia Airways]] | [[Techo International Airport (Cambodia)|Phnom Penh]]
+<!-- -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Kunming Changshui International Airport|Kunming]]
+<!-- -->
+| [[China Southern Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| {{nowrap|[[Myanmar Airways International]]}} | [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Changsha Huanghua International Airport|Changsha]], [[Chennai International Airport|Chennai]], [[Chiang Mai International Airport|Chiang Mai]], [[Da Nang International Airport|Da Nang]], [[Indira Gandhi International Airport|Delhi]], [[Shahjalal International Airport|Dhaka]], [[Dubai International Airport|Dubai–International]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Netaji Subhash Chandra Bose International Airport|Kolkata]],, [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Nanning Wuxu International Airport|Nanning]], [[Penang International Airport|Penang]], [[Techo International Airport (Cambodia)|Phnom Penh]], [[Phuket International Airport|Phuket]], [[Incheon International Airport|Seoul–Incheon]], [[Changi Airport|Singapore]], [[Wattay International Airport|Vientiane]] <br/> '''Seasonal:''' [[Gaya Airport|Gaya]]
+<!-- -->
+| [[Myanmar National Airlines]] | [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Chiang Mai International Airport|Chiang Mai]], [[Kunming Changshui International Airport|Kunming]], [[Changi Airport|Singapore]], [[Nay Pyi Taw International Airport|Naypyidaw]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Thai AirAsia]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| [[Thai Airways International]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[West Air (China)]] | [[Chongqing Jiangbei International Airport|Chongqing]]
+}}

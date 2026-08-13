@@ -1,0 +1,47 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{unsourced section|date=June 2024}}
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:25em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Yuma International Airport
+|places=
+{{Location map~ |United_States |lat=32.656667 |long=-114.606111 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Yuma'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=right |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=33.434167 |long=-112.011667 |position=right |label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Airport destination list
+| [[Ameriflight]] |[[Nogales International Airport (United States)|Nogales]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+|[[FedEx Feeder]] |[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+|}}
+
+===Top destinations===
+{| class="wikitable"
+|+ '''Top domestic destinations from YUM <br />(June 2024 – May 2025)'''
+! Rank
+! Airport
+! Passengers
+! Airline
+|-
+| 1
+| [[Phoenix Sky Harbor International Airport|Phoenix, Arizona]]
+| 61,930
+| American Eagle
+|-
+| 2
+| [[Dallas/Fort Worth International Airport|Dallas/Fort Worth, Texas]]
+| 19,100
+| American Eagle
+|}

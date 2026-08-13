@@ -1,0 +1,94 @@
+==Airlines and destinations==
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT  REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY.-->
+
+===Passenger===
+{{Airport-dest-list
+<!--AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED. -->
+<!-- -->
+| [[Air Arabia]] | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air Astana]] | '''Seasonal:''' [[Almaty International Airport|Almaty]] <br/> '''Seasonal charter:''' [[Nursultan Nazarbayev International Airport|Astana]]
+<!-- -->
+| [[Air France]] | '''Seasonal:''' [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[AirAsia]] | [[Kuala Lumpur–International]]
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur–International|Kuala]]
+<!-- -->
+| {{nowrap|[[Beijing Capital Airlines]]}} | [[Beijing Daxing International Airport|Beijing–Daxing]]
+<!-- -->
+|[[BeOnd]] |  [[Al Maktoum International Airport|Dubai-Al Maktoum]], [[Milan Malpensa Airport|Milan Malpensa]], [[Munich Airport|Munich]], [[Red Sea International Airport|Red Sea]], [[Zurich Airport|Zürich]]
+<!-- -->
+| [[British Airways]]| [[London–Heathrow]]
+<!-- -->
+| [[Centrum Air]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Kunming Changshui International Airport|Kunming]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Chongqing Airlines]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+| [[Discover Airlines]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zurich]]
+<!-- -->
+|[[Emirates (airline)|Emirates]]| [[Dubai International Airport|Dubai]]
+<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+|[[FitsAir]]| [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+| [[Flydubai]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]] | [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[French Bee]] | '''Seasonal:''' [[Paris–Orly]] (begins 19 December 2026)
+<!-- -->
+|[[Greater Bay Airlines]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]], [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+| [[Hong Kong Airlines]] | '''Seasonal:''' [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[IndiGo]] | [[Kempegowda International Airport|Bengaluru]], [[Cochin International Airport|Cochin]], [[Indira Gandhi International Airport|Delhi]], [[Cochin International Airport|Kochi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai-Shivaji]], [[Thiruvananthapuram International Airport|Thiruvananthapuram]] <br/> '''Seasonal:''' [[Rajiv Gandhi International Airport|Hyderabad]]
+<!-- -->
+| [[ITA Airways]] | '''Seasonal:''' [[Rome–Fiumicino]]
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal charter:''' [[Warsaw Chopin Airport|Warsaw]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur–International]]
+<!-- -->
+| [[Maldivian (airline)|Maldivian]] | [[Cochin International Airport|Cochin]], [[Dharavandhoo Airport|Dharavandhoo]], [[Faresmaathodaa Airport|Faresmaathodaa]], [[Funadhoo Airport|Funadhoo]], [[Fuvahmulah Airport|Fuvahmulah]], [[Gan International Airport|Gan]], [[Hanimaadhoo International Airport|Hanimaadhoo]], [[Hoarafushi Airport|Hoarafushi]], [[Ifuru Airport|Ifuru]], [[Kaadedhdhoo Airport|Kaadehdhoo]], [[Kadhdhoo Airport|Kadhdhoo]], [[Kooddoo Airport|Kooddoo]], [[Kulhudhuffushi Airport|Kulhudhuffushi]] [[Madivaru Airport|Madivaru]] [[Maafaru International Airport|Maafaru]], [[Maavarulu Airport|Maavarula]], [[Muli Airport|Muli]], [[Thimarafushi Airport|Thimarafushi]], [[Thiruvananthapuram International Airport|Thiruvananthapuram]] <br/> '''Seasonal:''' [[Bangkok–Suvarnabhumi]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Xi'an Xianyang International Airport|Xi'an]] <br/> '''Seasonal charter:''' [[Melbourne Airport|Melbourne]]
+<!-- -->
+| [[Manta Air]]| [[Dhaalu Airport|Dhaalu]], [[Dharavandhoo Airport|Dharavandhoo]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:''' [[Rome–Fiumicino]], [[Verona Villafranca Airport|Verona]] <br /> '''Seasonal charter:''' [[Václav Havel Airport Prague|Prague]], [[Warsaw–Chopin]]
+<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]
+<!-- -->
+| [[S7 Airlines]] | [[Tolmachevo Airport|Novosibirsk]] (begins {{date|2026-10-30}})
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Sichuan Airlines]]| [[Chengdu Tianfu International Airport|Chengdu]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[SriLankan Airlines]]| [[Bandaranaike International Airport|Colombo]]
+<!-- -->
+| [[Thai AirAsia]] | [[Bangkok–Don Mueang]]
+<!-- -->
+| [[Turkish Airlines]]| [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[US-Bangla Airlines]] | [[Shahjalal International Airport|Dhaka]]
+<!-- -->
+| [[Villa Air]] | [[Villa International Airport Maamigili|Maamigili]]
+<!-- -->
+| [[Virgin Atlantic]] | '''Seasonal:''' [[London–Heathrow]]
+<!-- -->
+| [[XiamenAir]] | [[Xiamen Gaoqi International Airport|Xiamen]]
+}}
+
+; Notes
+{{notelist}}

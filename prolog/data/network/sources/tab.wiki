@@ -1,0 +1,13 @@
+== Airlines and destinations ==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights to and from Tobago:
+
+{{Airport-dest-list
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]]<br /> '''Seasonal:''' [[Grantley Adams International Airport|Barbados]] (begins 27 October 2026), [[Hewanorra International Airport|St. Lucia–Hewanorra]]
+<!-- -->
+| [[Caribbean Airlines]] | [[Grantley Adams International Airport|Barbados]], [[John F. Kennedy International Airport|New York–JFK]], [[Piarco International Airport|Port of Spain]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+}}

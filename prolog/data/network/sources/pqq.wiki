@@ -1,0 +1,18 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+|[[Eastern Air Services]] | [[Lord Howe Island Airport|Lord Howe Island]]
+|[[QantasLink]] | [[Brisbane Airport|Brisbane]], [[Sydney Airport|Sydney]]
+|[[Rex Airlines]] | [[Sydney Airport|Sydney]]
+}}
+
+Historically a number of airlines have flown to the airfield. These include:
+*[[Virgin Australia]]
+*[[JetGo]]
+*[[Bonza]]
+*[[Ansett Australia]]
+*[[Hazelton Airlines]]
+*[[Kendell Airlines]]
+*[[East-West Airlines (Australia)|East-West Airlines]]
+*[[FlyPelican]]
+*[[Brindabella Airlines]]

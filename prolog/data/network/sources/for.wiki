@@ -1,0 +1,23 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list
+|[[Air France]] | [[Cayenne – Félix Eboué Airport|Cayenne]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|{{nowrap|[[Azul Brazilian Airlines]]}} | [[Belém/Val-de-Cans International Airport|Belém]], [[Belo Horizonte International Airport|Belo Horizonte–Confins]], [[Campina Grande Airport|Campina Grande]], [[Viracopos International Airport|Campinas]], [[Recife/Guararapes–Gilberto Freyre International Airport|Recife]], [[São Paulo–Congonhas Airport|São Paulo–Congonhas]]<br>'''Seasonal:''' [[Leite Lopes Airport|Ribeirão Preto]], [[São José do Rio Preto Airport|São José do Rio Preto]], [[Uberlândia Airport|Uberlândia]]
+<!-- -->
+|[[Gol Linhas Aéreas]] | [[Brasília International Airport|Brasília]], [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Foz do Iguaçu International Airport|Foz do Iguaçu]], [[Eduardo Gomes International Airport|Manaus]], [[Carrasco International Airport|Montevideo]], [[Orlando International Airport|Orlando]], [[Recife/Guararapes–Gilberto Freyre International Airport|Recife]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[Salvador Bahia Airport|Salvador da Bahia]], [[São Paulo–Congonhas Airport|São Paulo–Congonhas]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]<br>'''Seasonal:''' [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Miami International Airport|Miami]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[LATAM Brasil]] | [[Belém/Val-de-Cans International Airport|Belém]], [[Belo Horizonte International Airport|Belo Horizonte–Confins]], [[Brasília International Airport|Brasília]], [[Juazeiro do Norte Airport|Juazeiro do Norte]], [[Eduardo Gomes International Airport|Manaus]], [[Greater Natal International Airport|Natal]], [[Parnaíba-Prefeito Dr. João Silva Filho International Airport|Parnaíba]], [[Recife/Guararapes–Gilberto Freyre International Airport|Recife]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[Salvador Bahia Airport|Salvador da Bahia]], [[Arturo Merino Benítez International Airport|Santiago de Chile]] (ends 18 October 2026), [[Marechal Cunha Machado International Airport|São Luís]], [[São Paulo–Congonhas Airport|São Paulo–Congonhas]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Teresina Airport|Teresina]]<br>'''Seasonal:'''  [[Lisbon Airport|Lisbon]], [[Miami International Airport|Miami]], [[Eurico de Aguiar Salles Airport|Vitória]]
+<!-- -->
+|[[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]]
+}}
+
+===Cargo===
+{{Airport destination list
+|[[Gol Transportes Aéreos]] | [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+|[[Sideral Linhas Aéreas]] | [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]
+}}

@@ -1,0 +1,16 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Al Hoceima Cherif Al Idrissi Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+|[[Corendon Dutch Airlines]] | '''Seasonal:''' [[Rotterdam The Hague Airport|Rotterdam/The Hague]]<br>'''Seasonal charter:''' [[Maastricht Aachen Airport|Maastricht/Aachen]]
+<!-- -->
+|[[Royal Air Maroc]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Brussels Airport|Brussels]]
+<!-- -->
+|[[Royal Air Maroc Express]] | [[Mohammed V International Airport|Casablanca]], [[Tangier Ibn Battouta Airport|Tangier]], [[Sania Ramel Airport|Tetouan]]
+<!-- -->
+|[[Transavia]] | [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+| [[TUI fly Belgium]] | [[Brussels Airport|Brussels]]
+<!-- -->
+}}

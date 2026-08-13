@@ -1,0 +1,78 @@
+==Airlines and destinations==
+===Passenger===
+[[File:Airbus A319-100 at BIL.jpg|thumb|A [[Delta Airlines|Delta Air Lines]] [[Airbus A319]] decelerating on the runway]]
+{{More citations needed section|date=January 2022}}
+{{Airport destination list
+<!-- -->
+| [[Alaska Airlines]] | [[Portland International Airport|Portland (OR)]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+<!-- -->
+| [[Allegiant Air]] | [[Harry Reid International Airport|Las Vegas]], [[Mesa Gateway Airport|Phoenix/Mesa]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[Cape Air]] | [[Glasgow Valley County Airport|Glasgow (MT)]], [[Dawson Community Airport|Glendive]], [[Havre City–County Airport|Havre]], [[Sidney–Richland Municipal Airport|Sidney (MT)]], [[L. M. Clayton Airport|Wolf Point]]
+<!-- -->
+| [[Delta Air Lines]] | [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+| [[United Airlines]] | [[Denver International Airport|Denver]]
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]]
+<!-- -->
+}}
+[[File:Dassault Falcon 50 at BIL (2).jpg|thumb|A [[Dassault Falcon 50]]]]
+[[File:Airbus A320-200 at BIL.jpg|thumb|A [[United Airlines]] [[Airbus A320 family|A320 - 200]]]]
+[[File:Embraer ERJ-145 at BIL (3).jpg|thumb|A [[United Express]] [[ERJ 145]]]]
+[[File:Bombardier CRJ-900 at BIL (1).jpg|thumb|A [[Delta Connection]] [[CRJ 900]] at BIL]]
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Billings Logan International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=45.8035|long=-108.5379|position=top|label='''<small>Billings</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.3088|long=-111.6570|position=right|label='''<small>[[Mesa Gateway Airport|Phoenix/Mesa]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=41.974186|long=-87.907783|position=left|label='''<small>[[O'Hare International Airport|Chicago–O'Hare]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=48.2127|long=-106.6163|position=left|label='''<small>[[Glasgow Valley County Airport|Glasgow]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=47.1389|long=-104.8069|position=right|label='''<small>[[Dawson Community Airport|Glendive]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=48.5438|long=-109.7591|position=left|label='''<small>[[Havre City–County Airport|Havre]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=47.7062|long=-104.1903|position=left|label='''<small>[[Sidney–Richland Municipal Airport|Sidney]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=48.0943|long=-105.5749|position=right|label='''<small>[[L. M. Clayton Airport|Wolf Point]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=44.884690|long=-93.222430|position=left|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=right|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=36.083697|long=-115.153873|position=right|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=40.758701|long=-111.876183|position=left|label='''<small>[[Salt Lake City International Airport|Salt Lake City]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=47.450165|long=-122.309176 |position=right |label='''<small>[[Seattle–Tacoma International Airport|Seattle/Tacoma]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United_States |lat=45.5898|long=-122.5951|position=left|label='''<small>[[Portland International Airport|Portland]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=33.436921|long=-112.011667|position=left |label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}
+
+<!--===Cargo===
+{{Airport destination list
+| [[FedEx Express]] | [[Great Falls International Airport|Great Falls]],
+[[Memphis International Airport|Memphis]]| [[Freight Runners Express]] | [[Hector International Airport|Fargo]]
+| [[UPS Airlines]] | [[Denver International Airport|Denver]], [[Louisville International Airport|Louisville]], [[Eppley Airfield|Omaha]], [[Ontario International Airport|Ontario]], [[Portland International Airport|Portland (OR)]]
+| [[Alpine Air Express]] | [[Bozeman Yellowstone International Airport|Bozeman]], [[Bert Mooney Airport|Butte]], [[Helena Regional Airport|Helena]], [[Glacier Park International Airport|Kalispell]], [[Great Falls International Airport|Great Falls]], [[Cut Bank Municipal Airport|Cut Bank]], [[L. M. Clayton Airport|Wolf Point]], [[Sidney Airport|Sidney]], [[Dawson Community Airport|Glendive]], [[Miles City Airport|Miles City]], [[Salt Lake City International Airport|Salt Lake City]], [[Denver International Airport|Denver]], [[Northeast Wyoming Regional Airport|Gillette]]
+}}-->
+
+=== Cargo ===
+{| class="wikitable"
+| valign="top" |'''Airlines'''
+| valign="top" |'''Destinations'''
+|-
+| valign="top" |[[UPS Airlines]]
+| valign="top" |[[Louisville International Airport|Louisville]], [[Ontario International Airport|Ontario]]
+|-
+| valign="top" |[[Alpine Air Express]]
+| valign="top" |[[Bozeman Yellowstone International Airport|Bozeman]], [[Bert Mooney Airport|Butte]], [[Helena Regional Airport|Helena]], [[Glacier Park International Airport|Kalispell]], [[Great Falls International Airport|Great Falls]], [[Cut Bank Municipal Airport|Cut Bank]], [[L. M. Clayton Airport|Wolf Point]], [[Sidney Airport|Sidney]], [[Dawson Community Airport|Glendive]], [[Miles City Airport|Miles City]], [[Northeast Wyoming Regional Airport|Gillette]]
+|-
+| valign="top" |[[Empire Airlines]]
+| valign="top" |[[Great Falls International Airport|Great Falls]]
+|-
+| valign="top" |Richland Aviation
+| valign="top" |[[Sidney–Richland Municipal Airport|Sidney]], [[Lewistown Municipal Airport|Lewistown]], [[Sheridan Airport|Sheridan]]
+|}

@@ -1,0 +1,92 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Advanced Air]] | [[Del Norte County Airport|Crescent City]] | 
+<!-- -->
+| [[Alaska Airlines]] | [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+<!-- -->
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]] | 
+<!-- -->
+| [[Frontier Airlines]] | [[Harry Reid International Airport|Las Vegas]] (resumes August 20, 2026) | 
+<!-- -->
+| [[Hawaiian Airlines]] | [[Daniel K. Inouye International Airport|Honolulu]], [[Kahului Airport|Kahului]], [[Lihue Airport|Lihue]] |
+<!-- -->
+| [[JSX (airline)|JSX]] | [[Hollywood Burbank Airport|Burbank]], [[Harry Reid International Airport|Las Vegas]], [[McClellan–Palomar Airport|San Diego/Carlsbad]], [[Santa Monica Airport|Santa Monica]] (begins September 14, 2026) | 
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Albuquerque International Sunport|Albuquerque]], [[Austin–Bergstrom International Airport|Austin]], [[Boise Airport|Boise]], [[Hollywood Burbank Airport|Burbank]], [[Midway International Airport|Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Daniel K. Inouye International Airport|Honolulu]], [[William P. Hobby Airport|Houston–Hobby]], [[Kahului Airport|Kahului]], [[Harry Reid International Airport|Las Vegas]], [[Lihue Airport|Lihue]], [[Long Beach Airport|Long Beach]], [[Los Angeles International Airport|Los Angeles]], [[Ontario International Airport|Ontario]], [[John Wayne Airport|Orange County]], [[Palm Springs International Airport|Palm Springs]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Portland International Airport|Portland (OR)]], [[Salt Lake City International Airport|Salt Lake City]], [[San Diego International Airport|San Diego]], [[Santa Barbara Municipal Airport|Santa Barbara]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Spokane International Airport|Spokane]]  | 
+<!-- -->
+| [[Viva (airline)|Viva]] |'''Seasonal:''' [[Guadalajara International Airport|Guadalajara]] | 
+<!-- -->
+| [[Volaris]] | [[Guadalajara International Airport|Guadalajara]], [[Bajío International Airport|León/Del Bajío]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[General Francisco Mujica International Airport|Morelia]] | 
+<!-- -->
+| {{nowrap|[[Volaris El Salvador]]}} | [[El Salvador International Airport|San Salvador]] | 
+<!-- -->
+}}
+
+===Destinations map===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=900 |float=center
+|caption=Continental U.S. destinations from Oakland San Francisco Bay Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination <br /> {{font color | pink | Pink }} = Destination being terminated
+|places=
+{{Location map~ |United_States |lat=37.8044|long=-122.2712|position=bottom|label=<div style="position:relative; top:-5px;">'''Oakland'''</div>|caption=|mark=Airplane_silhouette.svg|marksize=12 }}
+{{Location map~ |United_States|  mark = Red pog.svg|lat=30.1975 |long=-97.6664 |position=top |label='''[[Austin–Bergstrom International Airport|Austin]]''' |label_size=70 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=47.6217|long=-117.5348|position=bottom|label='''[[Spokane International Airport|Spokane]]'''|label_size=70 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=39.855193|long=-104.673849|position=left|label='''[[Denver International Airport|Denver]]'''|label_size=70 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=40.789836|long=-111.979632|position=bottom|label='''[[Salt Lake City International Airport|{{nowrap|Salt Lake City}}]]'''|label_size=70 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=33.436921|long=-112.011667|position=bottom|label='''[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]'''|label_size=70 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=36.083697|long=-115.153873|position=top|label='''[[McCarran International Airport|Las Vegas]]'''|label_size=70 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=45.5898|long=-122.5951|position=left|label='''[[Portland International Airport|Portland]]'''|label_size=70 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=47.450165|long=-122.309176 |position=left |label='''[[Seattle–Tacoma International Airport|Seattle/Tacoma]]'''|label_size=70 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=33.941381|long=-118.408619|position=left|label='''[[Los Angeles International Airport|{{nowrap|Los Angeles}}]]'''|label_size=50 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=32.733611 |long=-117.1897226 |position=bottom |label='''[[San Diego International Airport|San Diego]]'''|label_size=50 |marksize=7}}
+{{Location map~ | mark = Red pog.svg |United_States |lat=33.8303 |long=-116.5070 |position=right|label='''[[Palm Springs International Airport|Palm<br>Springs]]'''|label_size=50 |marksize=6 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=33.675556|long=-117.868333 |position=left|label='''[[John Wayne Airport|{{nowrap|Long Beach}}]]'''|label_size=50 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United States |lat=41.7868|long=-87.7522|position=right|label='''[[Midway International Airport|Chicago–Midway]] '''|label_size=70|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United States |lat=32.8481|long=-96.8512|position=right|label='''[[Dallas Love Field|Dallas–Love]] '''|label_size=70|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United States |lat=41.7748|long=-124.2371|position=bottom|label='''[[Del Norte County Airport|Crescent City]] '''|label_size=70|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United States |lat=35.0433|long=-106.6129|position=top|label='''[[Albuquerque International Sunport|{{nowrap|Albuquerque}}]] '''|label_size=70|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United States |lat=34.1983|long=-118.3574|position=top|label='''[[Hollywood Burbank Airport|Burbank]] '''|label_size=50|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United States |lat=29.6459|long=-95.2769|position=right|label='''[[William P. Hobby Airport|Houston–Hobby]] '''|label_size=70|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United States |lat=34.0560|long=-117.5981|position=right|label='''[[Ontario International Airport|Ontario]] '''|label_size=50|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United States |lat=34.4272|long=-119.8399|position=top|label='''[[Santa Barbara Municipal Airport|Santa Barbara]] '''|label_size=50|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United_States |lat=33.8168|long=-118.1514 |position=bottom|label='''{{nowrap|[[Long Beach Airport|{{nowrap|Orange County}}]]}}'''|label_size=50 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United States  |lat=43.5658|long=-116.2223|position=bottom|label='''[[Boise Airport|Boise]]'''|label_size=70 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United States |lat=33.128333|long=-117.28|position=left|label='''[[McClellan–Palomar Airport|{{nowrap|Carlsbad}}]]'''|label_size=50 |marksize=7 }}}}
+|-
+|{{Location map+ |Hawaii |width=800 |float=center
+|caption=Hawaii destinations from Oakland San Francisco Bay Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination 
+|places=
+{{Location map~ |Hawaii |lat=21.3069|long=-157.8583|position=right|label='''[[Daniel K. Inouye International Airport|Honolulu]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |Hawaii |lat=20.8946|long=-156.4361|position=right|label='''[[Kahului Airport|Kahului]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |Hawaii |lat=21.9788|long=-159.3438|position=right|label='''[[Lihue Airport|Lihue]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+ |Mexico |width=800 |float=center
+|caption=Mexico destinations from Oakland San Francisco Bay Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | pink | Pink }} = Destination being terminated
+|places=
+{{Location map~ | Mexico|lat=20.5260|long=-103.3076|position=bottom|label='''[[Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.9935|long=-101.4806|position=right|label='''[[Bajío International Airport|{{nowrap|León/<br>Guanajuato}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.4361|long=-99.0719|position=right|label='''[[Mexico City International Airport|{{nowrap|Mexico City–Benito Juárez}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.8465|long=-101.0281|position=bottom|label='''[[General Francisco Mujica International Airport|{{nowrap|Morelia}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+! Central America destinations
+|-
+|{{Location map+ |Caribbean|width=800 |float=center
+|caption=Central American and Caribbean destinations from Oakland San Francisco Bay Airport <br /> {{font color | red | Red}} = Year-round destination 
+|places=
+{{Location map~ | Caribbean|lat=13.448|long=-89.0575|position=bottom|label='''[[El Salvador International Airport|{{nowrap|San Salvador}}]]'''|label_size=90 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Incomplete list|date=January 2026}}{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+|4={{nowrap|[[FedEx Express]]}}|5=[[Ted Stevens Anchorage International Airport|Anchorage]], [[Auckland Airport|Auckland]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Fresno Yosemite International Airport|Fresno]], [[Guadalajara International Airport|Guadalajara]], [[Daniel K. Inouye International Airport|Honolulu]], [[Indianapolis International Airport|Indianapolis]], [[Harry Reid International Airport|Las Vegas]], [[Liège Airport|Liège]], [[Los Angeles International Airport|Los Angeles]], [[Memphis International Airport|Memphis]], [[Newark Liberty International Airport|Newark]], [[Ontario International Airport|Ontario]], [[Kansai International Airport|Osaka–Kansai]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Portland International Airport|Portland (OR)]], [[Reno–Tahoe International Airport|Reno/Tahoe]], [[Salt Lake City International Airport|Salt Lake City]], [[San Diego International Airport|San Diego]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Sydney Airport|Sydney]], [[Narita International Airport|Tokyo–Narita]]<br />'''Seasonal:''' [[Lehigh Valley International Airport|Allentown]], [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Chicago O'Hare International Airport|Chicago–O'Hare]]|6= 
+<!-- -->|7={{nowrap|[[UPS Airlines]]}}|8=[[Chicago Rockford International Airport|Chicago–Rockford]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Fresno Yosemite International Airport|Fresno]], [[Louisville Muhammad Ali International Airport|Louisville]], [[Ontario International Airport|Ontario]], [[Philadelphia International Airport|Philadelphia]]|9=
+<!-- -->}}

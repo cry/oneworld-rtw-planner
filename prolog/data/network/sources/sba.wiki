@@ -1,0 +1,12 @@
+==Airlines and destinations==
+
+===Passenger===
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+| [[Alaska Airlines]] | [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] |  
+| [[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]] <br /> '''Seasonal:''' [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]] | 
+| [[Southwest Airlines]] |[[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[Oakland San Francisco Bay Airport|Oakland]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Sacramento International Airport|Sacramento]], [[San Diego International Airport|San Diego]] (begins August 4, 2026) | 
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[San Francisco International Airport|San Francisco]]|
+| [[United Express]] | [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]] | 
+}}

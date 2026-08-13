@@ -1,0 +1,30 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+The following airlines operate regular scheduled and charter flights:
+{{Airport destination list
+<!-- -->
+| [[Air Arabia]] | [[Cairo International Airport|Cairo]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air Cairo]] | [[Assiut Airport|Assiut]],{{cn|date=January 2026}} [[Cairo International Airport|Cairo]],{{cn|date=January 2026}} [[Sohag International Airport|Sohag]]{{cn|date=January 2026}}
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]{{cn|date=January 2026}}
+<!-- -->
+| [[Flyadeal]] | [[King Fahd International Airport|Dammam]],{{cn|date=January 2026}} [[King Abdulaziz International Airport|Jeddah]],{{cn|date=January 2026}} [[King Khalid International Airport|Riyadh]]{{cn|date=January 2026}} <br/> '''Seasonal:''' [[Cairo International Airport|Cairo]]{{cn|date=January 2026}}
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]] | [[Addis Ababa Bole International Airport|Addis Ababa]], [[Al-Baha Domestic Airport|Al Baha]],{{cn|date=January 2026}} [[Bisha Domestic Airport|Bisha]],{{cn|date=January 2026}} [[Cairo International Airport|Cairo]], [[King Fahd International Airport|Dammam]],{{cn|date=January 2026}} [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Dubai International Airport|Dubai–International]], [[Prince Nayef bin Abdulaziz Regional Airport|Gassim]],{{cn|date=January 2026}} [[Sphinx International Airport|Giza]], [[Istanbul Airport|Istanbul]], [[King Abdul Aziz International Airport|Jeddah]],{{cn|date=January 2026}} [[Jizan Regional Airport|Jizan]],{{cn|date=January 2026}} [[Kuwait International Airport|Kuwait City]], [[Prince Mohammad Bin Abdulaziz Airport|Medina]],{{cn|date=January 2026}} [[King Khalid International Airport|Riyadh]],{{cn|date=January 2026}} [[Sharurah Domestic Airport|Sharurah]], [[Trabzon Airport|Trabzon]], [[Wadi al-Dawasir Domestic Airport|Wadi al-Dawasir]]
+<!-- -->
+| {{nowrap|[[Jazeera Airways]]}} | [[Kuwait International Airport|Kuwait City]]{{cn|date=January 2026}}
+<!-- -->
+| [[Nesma Airlines]] | [[Cairo International Airport|Cairo]]{{cn|date=January 2026}}
+<!-- -->
+| [[Nile Air]] | [[Cairo International Airport|Cairo]]{{cn|date=January 2026}}
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]{{cn|date=January 2026}}
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]{{cn|date=January 2026}}
+<!-- -->
+| [[Saudia]] | [[Cairo International Airport|Cairo]],{{cn|date=January 2026}} [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad Bin Abdulaziz Airport|Medina]],{{cn|date=January 2026}} [[King Khalid International Airport|Riyadh]], [[Tabuk Regional Airport|Tabuk]],{{cn|date=January 2026}} [[Ta’if Regional Airport|Ta’if]]{{cn|date=January 2026}}
+<!-- -->
+}}

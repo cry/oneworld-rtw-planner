@@ -1,0 +1,58 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+===Passenger===
+The following airlines operate regular scheduled and charter flights to and from Billund:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport-dest-list
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Greenland]] | '''Seasonal:''' [[Nuuk Airport|Nuuk]]
+<!-- -->
+| [[airBaltic]] | [[Riga International Airport|Riga]] <br/> '''Seasonal:''' [[Gran Canaria Airport|Gran Canaria]], [[Tallinn Airport|Tallinn]]
+<!-- -->
+| [[Atlantic Airways]] | [[Vágar Airport|Vágar]] <br /> '''Seasonal charter:''' [[Ioannina National Airport|Ioannina]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Innsbruck Airport|Innsbruck]]
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[DAT (airline)|DAT]] | '''Seasonal:''' [[Bornholm Airport|Bornholm]]
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Icelandair]] | '''Seasonal:''' [[Keflavík International Airport|Reykjavik–Keflavík]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Gatwick Airport|London–Gatwick]], [[Málaga Airport|Málaga]], [[Oslo Airport, Gardermoen|Oslo]] <br/> '''Seasonal:''' [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Milan Bergamo Airport|Bergamo]], [[Chania International Airport|Chania]], [[Edinburgh Airport|Edinburgh]], [[Malta International Airport|Malta]], [[Naples International Airport|Naples]], [[Nice Côte d'Azur Airport|Nice]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Porto Airport|Porto]], [[Rome Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Sky Alps|SkyAlps]] | '''Seasonal:''' [[Bolzano Airport|Bolzano]]
+<!-- -->
+| [[SunExpress]] | '''Seasonal:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Widerøe]] |  '''Seasonal:''' [[Bergen Airport, Flesland|Bergen]]
+<!-- -->
+| [[Wizz Air]] | [[Bucharest Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Cluj International Airport|Cluj-Napoca]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Iași International Airport|Iași]], [[Katowice Airport|Katowice]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Vilnius Airport|Vilnius]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[DHL Aviation]] | [[Leipzig Halle Airport|Leipzig/Halle]]
+<!-- -->
+| [[Maersk Air Cargo]] | [[Ezhou Huahu Airport|Ezhou]], [[Hangzhou Xiaoshan International Airport|Hangzhou]]
+<!-- -->
+| [[Turkish Cargo]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

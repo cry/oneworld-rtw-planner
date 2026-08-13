@@ -1,0 +1,24 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport-dest-list
+<!-- -->
+| [[Aeroméxico Connect]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Avianca El Salvador]] | [[Miami International Airport|Miami]], [[El Salvador International Airport|San Salvador]]
+<!-- -->
+| [[Conviasa]] | [[José Martí International Airport|Havana]]
+<!-- -->
+| [[Copa Airlines]] | [[La Aurora International Airport|Guatemala City]], [[Tocumen International Airport|Panama City–Tocumen]], [[Juan Santamaría International Airport|San Jose (CR)]]
+<!-- -->
+| [[La Costeña (airline)|La Costeña]] | [[Bluefields Airport|Bluefields]], [[Corn Island Airport|Corn Island]], [[Puerto Cabezas Airport|Puerto Cabezas]]
+<!-- -->
+| [[SANSA (airline)|Sansa Airlines]] | [[Juan Santamaría International Airport|San 
+Jose (CR)]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+}}

@@ -1,0 +1,51 @@
+== Airlines and destinations ==
+
+=== Passenger ===
+{{Airport destination list
+|[[Air Arabia]] | [[Sharjah International Airport|Sharjah]]
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]
+|[[AirAsia X]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+|[[Airblue]] | [[Dubai International Airport|Dubai–International]], [[Islamabad International Airport|Islamabad]], [[Allama Iqbal International Airport|Lahore]], [[Bacha Khan International Airport|Peshawar]], [[Quetta International Airport|Quetta]]
+|[[AirSial]] | [[Islamabad International Airport|Islamabad]], [[King Abdulaziz International Airport|Jeddah]], [[Allama Iqbal International Airport|Lahore]], [[Bacha Khan International Airport|Peshawar]], [[Quetta International Airport|Quetta]], [[Sialkot International Airport|Sialkot]]
+|[[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+|[[Biman Bangladesh Airlines]] | [[Hazrat Shahjalal International Airport|Dhaka]]
+| [[Centrum Air]] | [[Islam Karimov Tashkent International Airport|Tashkent]] (begins {{date|2026-9-3}})
+|[[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+|[[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+|[[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+|[[Fly Baghdad]] | [[Baghdad International Airport|Baghdad]]
+|[[Fly Jinnah]] | [[Faisalabad International Airport|Faisalabad]], [[Islamabad International Airport|Islamabad]], [[King Abdulaziz International Airport|Jeddah]], [[Allama Iqbal International Airport|Lahore]], [[Multan International Airport|Multan]], [[Bacha Khan International Airport|Peshawar]], [[Quetta International Airport|Quetta]], [[Sialkot International Airport|Sialkot]]
+|[[Flyadeal]] | [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+|[[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+|[[Flynas]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+|[[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+|[[Iran Air]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]]
+|[[Iraqi Airways]] | [[Baghdad International Airport|Baghdad]], [[Al Najaf International Airport|Najaf]]
+|[[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+|[[Kish Air]] | [[Chabahar Konarak Airport|Chabahar/Konarak]]
+|[[Oman Air]] | [[Muscat International Airport|Muscat]]
+|{{nowrap|[[Pakistan International Airlines]]}} | [[Heydar Aliyev International Airport|Baku]], [[King Fahd International Airport|Dammam]], [[Dubai International Airport|Dubai–International]], [[Faisalabad International Airport|Faisalabad]], [[Islamabad International Airport|Islamabad]], [[King Abdulaziz International Airport|Jeddah]], [[Allama Iqbal International Airport|Lahore]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Multan International Airport|Multan]], [[Muscat International Airport|Muscat]], [[Bacha Khan International Airport|Peshawar]], [[Quetta International Airport|Quetta]], [[King Khalid International Airport|Riyadh]], [[Skardu Airport|Skardu]], [[Begum Nusrat Bhutto International Airport|Sukkur]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Turbat International Airport|Turbat]]
+|[[Pegasus Airlines]] | [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+|[[Qatar Airways]] | [[Hamad International Airport|Doha]]
+|[[SalamAir]] | [[Muscat International Airport|Muscat]]
+|[[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+|[[Serene Air]] | [[Islamabad International Airport|Islamabad]], [[King Abdulaziz International Airport|Jeddah]], [[Lahore International Airport|Lahore]], [[Peshawar International Airport|Peshawar]], [[Quetta International Airport|Quetta]] (all suspended)
+|[[South Air]] | [[Bahawalpur Airport|Bahawalpur]], [[Jinnah International Airport|Karachi]], [[Quetta International Airport|Quetta]], [[Turbat Airport|Turbat]]
+|[[SriLankan Airlines]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+|[[Taban Air]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+|[[Thai Airways International]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+|[[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+}}
+
+=== Cargo ===
+{{more citations needed section|date=May 2024}}
+{{Airport-dest-list
+| [[DHL Aviation]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Bagram Airfield|Bagram]], [[Bahrain International Airport|Bahrain]]
+| [[MNG Airlines]] | [[Kabul International Airport|Kabul]]
+| [[Qatar Airways|Qatar Airways Cargo]] | [[Hamad International Airport|Doha]]
+| [[Royal Jordanian Cargo]] | [[Queen Alia International Airport|Amman–Queen Alia]], [[Dubai International Airport|Dubai–International]]
+| [[SF Airlines]] | [[Guiyang Longdongbao International Airport|Guiyang]]
+| [[TCS Courier]] | [[Dubai International Airport|Dubai–International]], [[Islamabad International Airport|Islamabad]], [[Allama Iqbal International Airport|Lahore]]
+| [[Turkish Airlines|Turkish Cargo]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Istanbul Airport|Istanbul]], [[Changi Airport|Singapore]]
+| [[YTO Cargo Airlines]] | [[Kashgar Airport|Kashgar]], [[Kunming Changshui International Airport|Kunming]], [[Nanning Wuxu International Airport|Nanning]]
+|[[Emirates SkyCargo]]|[[Al Maktoum International Airport|Dubai-World Central]]}}

@@ -1,0 +1,31 @@
+==Airlines and destinations==
+===Passenger===
+{{incomplete list|date=July 2026}}
+{{Airport-dest-list
+<!-- -->
+|[[Egyptair]]| [[Cairo International Airport|Cairo]]
+<!-- -->
+|{{nowrap|[[Ethiopian Airlines]]}}| [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+|[[Kenya Airways]]| [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]{{cn|date=July 2026}}
+<!-- -->
+|[[RwandAir]]| [[Hamad International Airport|Doha]], [[Moi International Airport|Mombasa]],{{cn|date=July 2026}} [[Paris–Charles de Gaulle]],{{cn|date=July 2026}} [[Abeid Amani Karume International Airport|Zanzibar]]{{cn|date=July 2026}}
+<!-- -->
+|[[SalamAir]]|[[Muscat International Airport|Muscat]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+| [[Astral Aviation]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Ethiopian Airlines Cargo]] | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Qatar Airways Cargo]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Qatar Airways Cargo]] <br> operated by [[ULS Airlines Cargo]]| [[Johannesburg–O.R. Tambo]], [[Mallam Aminu Kano International Airport|Kano]], [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+| [[RwandAir|RwandAir Cargo]]| [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Sharjah International Airport|Sharjah]]
+}}

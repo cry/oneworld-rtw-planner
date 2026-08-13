@@ -1,0 +1,55 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| {{nowrap|[[Aer Lingus]]}} | [[Dublin International Airport|Dublin]] | 
+<!-- -->
+| {{nowrap|[[Air Canada Express]]}} | [[Toronto Pearson International Airport|Toronto–Pearson]] <br /> '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]] |
+<!-- -->
+| [[Alaska Airlines]] | [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+<!-- -->
+| [[Allegiant Air]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]] (begins October 2, 2026), [[Jacksonville International Airport|Jacksonville (FL)]], [[Key West International Airport|Key West]], [[Melbourne Orlando International Airport|Melbourne/Orlando]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]], [[Sarasota–Bradenton International Airport|Sarasota]], [[Savannah/Hilton Head International Airport|Savannah]], [[Palm Beach International Airport|West Palm Beach]]<br />'''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]], [[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Nashville International Airport|Nashville]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] |
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Los Angeles International Airport|Los Angeles]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]<br />'''Seasonal:''' [[Cancún International Airport|Cancún]], [[O'Hare International Airport|Chicago–O'Hare]], [[Punta Cana International Airport|Punta Cana]], [[Ronald Reagan Washington National Airport|Washington–National]]{{cn|date=April 2025}} |
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[O'Hare International Airport|Chicago–O'Hare]], [[John F. Kennedy International Airport|New York–JFK]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Ronald Reagan Washington National Airport|Washington–National]] |
+<!-- -->
+| [[Breeze Airways]] | [[Charleston International Airport|Charleston (SC)]], [[Bradley International Airport|Hartford]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Rhode Island T. F. Green International Airport|Providence]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Vero Beach Regional Airport|Vero Beach]] (begins October 1, 2026) <br />'''Seasonal:''' [[Cancún International Airport|Cancún]] (begins January 7, 2027), [[Southwest Florida International Airport|Fort Myers]], [[Greenville–Spartanburg International Airport|Greenville/Spartanburg]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Los Angeles International Airport|Los Angeles]], [[Louisville Muhammad Ali International Airport|Louisville]], [[Louis Armstrong New Orleans International Airport|New Orleans]], [[Norfolk International Airport|Norfolk]], [[Portland International Jetport|Portland (ME)]], [[Punta Cana International Airport|Punta Cana]] (begins January 7, 2027), [[San Diego International Airport|San Diego]], [[Tampa International Airport|Tampa]] |
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]] |
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Salt Lake City International Airport|Salt Lake City]] <br>'''Seasonal:''' [[Detroit Metropolitan Wayne County Airport|Detroit]]{{cn|date=April 2025}}|
+<!-- -->
+| [[Delta Connection]] | [[Logan International Airport|Boston]], [[Detroit Metropolitan Wayne County Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[John F. Kennedy International Airport|New York–JFK]], [[LaGuardia Airport|New York–LaGuardia]]<br>'''Seasonal:''' [[Orlando International Airport|Orlando]]  |
+<!-- -->
+| [[Frontier Airlines]] |  '''Seasonal:''' [[Denver International Airport|Denver]], [[Orlando International Airport|Orlando]]|
+<!-- -->
+| [[Icelandair]] | '''Seasonal:''' [[Keflavík International Airport|Reykjavík–Keflavík]] |  
+<!-- -->
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[John F. Kennedy International Airport|New York–JFK]] |
+<!-- -->
+| {{nowrap|[[Southern Airways Express]]}} | [[Bradford Regional Airport|Bradford]], [[DuBois Regional Airport|DuBois (PA)]]|
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Austin–Bergstrom International Airport|Austin]], [[Baltimore/Washington International Airport|Baltimore]], [[Midway International Airport|Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Southwest Florida International Airport|Fort Myers]], [[William P. Hobby Airport|Houston–Hobby]], [[Harry Reid International Airport|Las Vegas]], [[Nashville International Airport|Nashville]], [[Orlando International Airport|Orlando]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[St. Louis Lambert International Airport|St. Louis]], [[San Diego International Airport|San Diego]], [[Tampa International Airport|Tampa]]<br />'''Seasonal:''' [[Cancún International Airport|Cancún]], [[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]], [[Miami International Airport|Miami]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Sarasota–Bradenton International Airport|Sarasota]], [[Palm Beach International Airport|West Palm Beach]] (begins February 11, 2027) |
+<!-- -->
+| [[Sun Country Airlines]] | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] | 
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]]<br />'''Seasonal:''' [[Dulles International Airport|Washington–Dulles]] |
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]] |
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable = yes 
+<!-- -->
+| [[Amazon Air]] | [[Perot Field Fort Worth Alliance Airport|Fort Worth/Alliance]], [[Lakeland Linder International Airport|Lakeland]] | 
+<!-- -->
+| [[FedEx Express]] | [[Indianapolis International Airport|Indianapolis]], [[Memphis International Airport|Memphis]] | 
+<!-- -->
+| [[UPS Airlines]] | [[Louisville Muhammad Ali International Airport|Louisville]], [[Philadelphia International Airport|Philadelphia]], [[Richmond International Airport|Richmond]] |  
+<!-- -->
+}}
+
+In 2021, FedEx accounted for 50% of all cargo traffic at the airport, followed by UPS at 33% and Amazon Air at 5%. In 2024, FedEx's share dropped to 45% while UPS's increased to 33% and Amazon Air's increased to 15%. British Airways accounted for 3% of total freight in 2024 by hauling cargo on its passenger planes.

@@ -1,0 +1,15 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights to and from Vaasa:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport-dest-list
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]], [[Umeå Airport|Umeå]]
+<!-- -->
+|[[Scandinavian Airlines]]| [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Sunclass Airlines]] | '''Seasonal charter:''' [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+}}
+[[File:Interior of Vaasa airport 20190603.jpg|thumb|Vaasa Airport [[Airport check-in|check-in area]]]]
+[[File:Vaasa airport tower 20190603.jpg|thumb|Vaasa Airport traffic [[Air traffic control#Airport traffic control tower|control tower]]]]

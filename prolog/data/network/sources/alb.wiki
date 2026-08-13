@@ -1,0 +1,28 @@
+== Airlines and destinations ==
+[[File:Albany International Airport aerial.jpg|thumb|Aerial view of Troy, New York, with [[Hudson River|Hudson]] and [[Mohawk River|Mohawk]] rivers and Albany International Airport]]
+
+=== Passenger ===
+{{Airport destination list
+| [[Allegiant Air]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Orlando Sanford International Airport|Orlando/Sanford]],  [[Sarasota–Bradenton International Airport|Sarasota]]<br />'''Seasonal:''' [[Nashville International Airport|Nashville]], [[Punta Gorda Airport (Florida)|Punta Gorda]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Ronald Reagan Washington National Airport|Washington–National]]
+|[[American Eagle (airline brand)|American Eagle]] | [[O'Hare International Airport|Chicago–O'Hare]],  [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]] <br /> '''Seasonal:''' [[Miami International Airport|Miami]]
+| [[Avelo Airlines]] | [[Concord–Padgett Regional Airport|Charlotte/Concord]]
+| [[Breeze Airways]] | [[Charleston International Airport|Charleston (SC)]], [[Raleigh–Durham International Airport|Raleigh/Durham]] <br />'''Seasonal:''' [[Southwest Florida International Airport|Fort Myers]]
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br />'''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]]
+|[[Delta Connection]]| [[Detroit Metropolitan Airport|Detroit]], [[LaGuardia Airport|New York–LaGuardia]]
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Orlando International Airport|Orlando]]
+| [[Southwest Airlines]] | [[Baltimore/Washington International Airport|Baltimore]], [[Midway International Airport|Chicago–Midway]],  [[Nashville International Airport|Nashville]], [[Orlando International Airport|Orlando]] <br />'''Seasonal:''' [[Denver International Airport|Denver]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Harry Reid International Airport|Las Vegas]], [[Sarasota–Bradenton International Airport|Sarasota]], [[Tampa International Airport|Tampa]]
+| [[United Airlines]]
+| [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]]
+|[[United Express]]| [[O'Hare International Airport|Chicago–O'Hare]], [[Dulles International Airport|Washington–Dulles]]
+}}
+
+=== Cargo ===
+{{Unreferenced section|date=December 2025}}
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+|[[DHL Aviation]]|[[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Wilkes-Barre/Scranton International Airport|Wilkes-Barre/Scranton]]|
+| {{nowrap|[[FedEx Express]]}} | [[Memphis International Airport|Memphis]]<br />'''Seasonal:''' [[Newark Liberty International Airport|Newark]] |
+<!-- -->
+| [[UPS Airlines]] | [[Louisville International Airport|Louisville]], [[Philadelphia International Airport|Philadelphia]], [[Syracuse Hancock International Airport|Syracuse]]<br />'''Seasonal:''' [[Buffalo Niagara International Airport|Buffalo]], [[Chicago Rockford International Airport|Chicago/Rockford]], [[T. F. Green Airport|Providence]] |
+}}

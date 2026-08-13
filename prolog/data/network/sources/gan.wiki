@@ -1,0 +1,7 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{As of|2024|06|df=y}}, the following airlines offer regularly scheduled services:
+{{Airport destination list
+|[[Maldivian (airline)|Maldivian]]|Fuvahmulah, [[Kaadedhdhoo Airport|Kaadedhdhoo]], [[Kooddoo Airport|Kooddoo]], [[Kulhudhuffushi Airport|Kulhudhuffushi]], [[Velana International Airport|Malé]]
+|[[SriLankan Airlines]]|[[Bandaranaike International Airport|Colombo–Bandaranaike]]
+}}

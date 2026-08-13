@@ -1,0 +1,150 @@
+==Airlines and destinations==
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. -->
+
+===Passenger===
+<!-- Please use only independent sources, the airport and the airline itself are not independent sources -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Air Algerie]] | [[Houari Boumediene Airport|Algiers]] | 
+<!-- -->
+| [[Air Austral]] | [[Roland Garros Airport|Saint-Denis de la Réunion]]{{citation needed|date=January 2025}} | 
+<!-- -->
+| [[Air Botswana]] | [[Francistown Airport|Francistown]]{{citation needed|date=January 2025}}, [[Sir Seretse Khama International Airport|Gaborone]]{{citation needed|date=January 2025}}, [[Kasane Airport|Kasane]]{{citation needed|date=January 2025}}, [[Maun Airport|Maun]]{{citation needed|date=January 2025}} | 
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]], [[Shenzhen Bao'an International Airport|Shenzhen]] | 
+<!-- -->
+| [[Air Congo]] | [[N'djili Airport|Kinshasa–N'djli]] | 
+| [[Air Côte d'Ivoire]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Murtala Muhammed International Airport|Lagos]] | 
+<!-- -->
+| [[Air Europa]] | [[Madrid–Barajas Airport|Madrid]] | 
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]] | 
+<!-- -->
+| [[Air Mauritius]] | [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]]{{citation needed|date=January 2025}} | 
+<!-- -->
+| [[Air Seychelles]] | [[Seychelles International Airport|Mahé]]{{citation needed|date=January 2025}} | 
+<!-- -->
+| [[Air Tanzania]] | [[Julius Nyerere International Airport|Dar es Salaam]] | 
+<!-- -->
+| [[Air Zimbabwe]] | [[Joshua Mqabuko Nkomo International Airport|Bulawayo]],{{citation needed|date=January 2025}} [[Robert Gabriel Mugabe International Airport|Harare]]{{citation needed|date=January 2025}} | 
+<!-- -->
+| [[Airlink]] | [[Ivato International Airport|Antananarivo]], [[Beira Airport|Beira]], [[Chileka International Airport|Blantyre]], [[Bloemfontein Airport|Bloemfontein]], [[Joshua Mqabuko Nkomo International Airport|Bulawayo]], [[Cape Town International Airport|Cape Town]], [[Julius Nyerere International Airport|Dar es Salaam]], [[King Shaka International Airport|Durban]], [[King Phalo Airport|East London]], [[Sir Seretse Khama International Airport|Gaborone]], [[George Airport|George]], [[Robert Gabriel Mugabe International Airport|Harare]], [[Air Force Base Hoedspruit|Hoedspruit]], [[Kasane Airport|Kasane]], [[Kimberley Airport|Kimberley]], [[N'djili Airport|Kinshasa–N'djili]], [[Lilongwe International Airport|Lilongwe]], [[Harry Mwanga Nkumbula International Airport|Livingstone]], [[Dr. Antonio Agostinho Neto International Airport|Luanda–Agostinho Neto]], [[Lubumbashi International Airport|Lubumbashi]], [[Lusaka International Airport|Lusaka]], [[King Mswati III International Airport|Manzini]], [[Maputo International Airport|Maputo]], [[Moshoeshoe I International Airport|Maseru]], [[Maun Airport|Maun]], [[Kruger Mpumalanga International Airport|Mbombela]], [[Mthatha Airport|Mthatha]], [[Nacala Airport|Nacala]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Nampula Airport|Nampula]], [[Simon Mwansa Kapwepwe International Airport|Ndola]], [[Fascene Airport|Nosy Be]], [[Pemba Airport (Mozambique)|Pemba]], [[Hendrik Van Eck Airport|Phalaborwa]], [[Pietermaritzburg Airport|Pietermaritzburg]], [[Polokwane International Airport|Polokwane]], [[Port Elizabeth Airport|Port Elizabeth]], [[Richards Bay Airport|Richards Bay]], [[Saint Helena Airport|Saint Helena]],{{ref|A|A}} [[Sishen Airport|Sishen]], [[Skukuza Airport|Skukuza]], [[Chingozi Airport|Tete]], [[Upington Airport|Upington]], [[Victoria Falls Airport|Victoria Falls]], [[Vilankulo Airport|Vilanculos]], [[Walvis Bay Airport|Walvis Bay]], [[Hosea Kutako International Airport|Windhoek–Hosea Kutako]] | {{citation needed|date=September 2024}}
+<!-- -->
+| [[ASKY Airlines]] | [[Maya-Maya Airport|Brazzaville]], [[Douala International Airport|Douala]], [[N'Djili Airport|Kinshasa–N'djili]], [[Murtala Muhammed International Airport|Lagos]], [[Libreville International Airport|Libreville]], [[Lomé–Tokoin International Airport|Lomé]] | 
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]] |
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]] | 
+<!-- -->
+| [[CemAir]] | [[Bram Fischer International Airport|Bloemfontein]], [[Cape Town International Airport|Cape Town]], [[King Shaka International Airport|Durban]], [[King Phalo Airport|East London]], [[George Airport|George]], [[Robert Gabriel Mugabe International Airport|Harare]], [[Eastgate Airport|Hoedspruit]], [[Kasane Airport|Kasane]], [[Kimberley Airport|Kimberley]], [[Lusaka International Airport|Lusaka]], [[Maputo International Airport|Maputo]], [[Margate Airport|Margate]], [[Maun Airport|Maun]], [[Plettenberg Bay Aerodrome|Plettenberg Bay]], [[Port Elizabeth Airport|Port Elizabeth]], [[Victoria Falls Airport|Victoria Falls]] | 
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]{{ref|B|B}} | 
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]] | 
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]] | 
+<!-- -->
+| [[Eswatini Air]] | [[King Mswati III International Airport|Manzini]] | 
+<!-- -->
+| [[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]] | 
+<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]] | 
+<!-- -->
+| [[Fastjet Zimbabwe]] | [[Joshua Mqabuko Nkomo International Airport|Bulawayo]], [[Robert Gabriel Mugabe International Airport|Harare]], [[Victoria Falls International Airport|Victoria Falls]] | 
+<!-- -->
+| [[FlyGabon]] | [[Léon-Mba International Airport|Libreville]] | 
+<!-- -->
+| [[FlySafair]] | [[Bloemfontein Airport|Bloemfontein]], [[Cape Town International Airport|Cape Town]], [[King Shaka International Airport|Durban]], [[King Phalo Airport|East London]], [[George Airport|George]], [[Robert Gabriel Mugabe International Airport|Harare]], [[Harry Mwanga Nkumbula International Airport|Livingstone]], [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]], [[Kruger Mpumalanga International Airport|Mbombela]], [[Port Elizabeth Airport|Port Elizabeth]], [[Victoria Falls Airport|Victoria Falls]], [[Abeid Amani Karume International Airport|Zanzibar]] | 
+<!-- -->
+| [[Kenya Airways]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]] | 
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]] | 
+<!-- -->
+| [[LAM Mozambique Airlines]] | [[Beira Airport|Beira]], [[Maputo International Airport|Maputo]], [[Nampula Airport|Nampula]], [[Pemba Airport (Mozambique)|Pemba]], [[Chingozi Airport|Tete]], [[Vilankulo Airport|Vilanculos]] | 
+<!-- -->
+| [[LATAM Brasil]] | [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]] | 
+<!-- -->
+| [[LIFT (airline)|LIFT]] | [[Cape Town International Airport|Cape Town]], [[King Shaka International Airport|Durban]] | 
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]] | 
+<!-- -->
+| [[Malawi Airlines]] | [[Chileka International Airport|Blantyre]], [[Lilongwe International Airport|Lilongwe]]{{ref|C|C}} | 
+<!-- -->
+| [[Proflight Zambia]] | [[Simon Mwansa Kapwepwe International Airport|Ndola]] | 
+<!-- -->
+| [[Qantas]] | [[Perth Airport|Perth]], [[Sydney Airport|Sydney]] | 
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]] | 
+<!-- -->
+| [[Royal Zambian Airlines]] | [[Lusaka International Airport|Lusaka]] | 
+<!-- -->
+| [[RwandAir]] | [[Kigali International Airport|Kigali]],{{ref|D|D}} [[Kenneth Kaunda International Airport|Lusaka]] | 
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]{{ref|E|E}} | 
+<!-- -->
+| [[South African Airways]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]],{{ref|F|F}} [[Accra International Airport|Accra]], [[Cape Town International Airport|Cape Town]], [[Julius Nyerere International Airport|Dar es Salaam]], [[King Shaka International Airport|Durban]], [[Sir Seretse Khama International Airport|Gaborone]], [[Robert Gabriel Mugabe International Airport|Harare]], [[N'djili Airport|Kinshasa–N'djili]], [[Murtala Muhammed International Airport|Lagos]], [[Lubumbashi International Airport|Lubumbashi]], [[Lusaka International Airport|Lusaka]], [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]], [[Perth Airport|Perth]], [[Chief Dawid Stuurman International Airport|Port Elizabeth]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Victoria Falls Airport|Victoria Falls]], [[Hosea Kutako International Airport|Windhoek–Hosea Kutako]] | 
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zurich Airport|Zürich]] | 
+<!-- -->
+| [[TAAG Angola Airlines]] | [[Dr. Antonio Agostinho Neto International Airport|Luanda–Agostinho Neto]]  | 
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]{{ref|G|G}} | 
+<!-- -->
+| [[Uganda Airlines]] | [[Entebbe International Airport|Entebbe]] | 
+<!-- -->
+| [[United Airlines]] | [[Newark Liberty International Airport|Newark]] | 
+<!-- -->
+| [[Virgin Atlantic]] | [[Heathrow Airport|London–Heathrow]] | 
+<!-- -->
+| [[Zambia Airways]] | [[Harry Mwanga Nkumbula International Airport|Livingstone]], [[Kenneth Kaunda International Airport|Lusaka]] | 
+}}
+
+;Notes
+* <small>{{note|A|A}}: This flight operates via [[Walvis Bay Airport|Walvis Bay]]. However, this carrier does not have [[Fifth freedom traffic rights|rights]] to transport passengers solely between Walvis Bay and Saint Helena.</small>
+* <small>{{note|B|B}}: One of two of these flights from [[Hartsfield-Jackson Atlanta International Airport|Atlanta]] continues on to [[Cape Town International Airport|Cape Town]]. However, this carrier does not have [[Fifth freedom traffic rights|rights]] to transport passengers solely between Johannesburg and Cape Town.</small>
+* <small>{{note|C|C}}: This flight operates via [[Chileka International Airport|Blantyre]].</small>
+* <small>{{note|D|D}}: This flight operates via [[Kenneth Kaunda International Airport|Lusaka]].</small>
+* <small>{{note|E|E}}: This flight operates between [[Singapore Changi Airport|Singapore]] and [[Cape Town International Airport|Cape Town]] with a stopover at Johannesburg. However, this carrier does not have [[Fifth freedom traffic rights|rights]] to transport passengers solely between Johannesburg and Cape Town.</small>
+* <small>{{note|F|F}}: This flight operates via [[Accra International Airport|Accra]].</small>
+* <small>{{note|G|G}}: Two flights originate from [[Maputo International Airport|Maputo]] and [[King Shaka International Airport|Durban]] respectively. However, this carrier does not have [[Fifth freedom traffic rights|rights]] to transport passengers solely between Johannesburg and Maputo/Durban.</small>
+
+===Cargo===
+{{Airport-dest-list|3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[ASL Airlines Belgium]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]] | 
+<!-- -->
+| [[Astral Aviation]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Lusaka International Airport|Lusaka]], [[Maputo International Airport|Maputo]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]] | 
+<!-- -->
+| [[BidAir Cargo]] | [[Cape Town International Airport|Cape Town]], [[Julius Nyerere International Airport|Dar es Salaam]], [[King Shaka International Airport|Durban]], [[East London Airport|East London]], [[George Airport|George]], [[Harare International Airport|Harare]], [[Kigali International Airport|Kigali]], [[Livingstone Airport|Livingstone]], [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Port Elizabeth Airport|Port Elizabeth]], [[Victoria Falls Airport|Victoria Falls]], [[Hosea Kutako International Airport|Windhoek–Hosea Kutako]] | 
+<!-- -->
+| [[Cargolux]] | [[Luxembourg Airport|Luxembourg]] | 
+<!-- -->
+| [[EgyptAir Cargo]] | [[Cairo International Airport|Cairo]] | 
+<!-- -->
+| [[Emirates SkyCargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]] | 
+<!-- -->
+| {{nowrap|[[Ethiopian Airlines|Ethiopian Airlines Cargo]]}} | [[Bole International Airport|Addis Ababa]] | 
+<!-- -->
+| [[Etihad Airways|Etihad Cargo]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]] | 
+<!-- -->
+| [[FedEx Express]] | [[Dubai International Airport|Dubai–International]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]] | 
+<!-- -->
+| [[Lufthansa Cargo]] | [[Frankfurt Airport|Frankfurt]], [[Murtala Muhammed International Airport|Lagos]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]] | 
+<!-- -->
+| [[Magma Aviation]] | [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]] | 
+<!-- -->
+| [[Martinair]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Harare International Airport|Harare]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]] | 
+<!-- -->
+| [[Qatar Airways Cargo]] | [[Hamad International Airport|Doha]] | 
+<!-- -->
+| [[Saudia Cargo]] | [[King Abdulaziz International Airport|Jeddah]] | 
+<!-- -->
+| {{nowrap|[[Singapore Airlines Cargo]]}} | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Changi Airport|Singapore]] | 
+<!-- -->
+| [[Turkish Cargo]] | [[Istanbul Airport|Istanbul]] | 
+<!-- -->
+| [[Uganda Air Cargo]] | [[Entebbe International Airport|Entebbe]] | 
+<!-- -->
+}}

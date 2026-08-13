@@ -1,0 +1,14 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[BeOnd]] | [[Heathrow Airport|London-Heathrow]] (begins {{date|2026-12-15}}), [[Velana International Airport|Malé]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Sheremetyevo International Airport|Moscow-Sheremetyevo]] (begins {{date|2026-12-18}}), [[Charles de Gaulle Airport|Paris-Charles de Gaulle]] (begins {{date|2026-12-17}})
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| {{nowrap|[[Qatar Airways]]}} | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+}}

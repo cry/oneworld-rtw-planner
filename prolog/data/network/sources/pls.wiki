@@ -1,0 +1,35 @@
+== Airlines and destinations ==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list
+<!-- -->
+| [[Air Canada]] |  [[Montréal–Trudeau]], [[Toronto–Pearson]]
+<!-- -->
+| [[American Airlines]] | [[Charlotte/Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]] <br />'''Seasonal:''' [[Logan International Airport|Boston]], [[O'Hare International Airport|Chicago–O'Hare]],  [[Dallas/Fort Worth Airport|Dallas/Fort Worth]], [[John F. Kennedy International Airport|New York–JFK]], [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[Bahamasair]] | [[Lynden Pindling International Airport|Nassau]]
+<!-- -->
+| [[BermudAir]] | '''Seasonal:''' [[Clayton J. Lloyd International Airport|Anguilla]] (begins 19 December 2026), [[Baltimore/Washington International Airport|Baltimore]] (begins 24 December 2026), [[L.F. Wade International Airport|Bermuda]] (begins 18 December 2026), [[Logan International Airport|Boston]] (begins 19 December 2026), [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]] (begins 26 October 2026), [[Owen Roberts International Airport|Grand Cayman]] (begins 18 December 2026), [[Newark Liberty International Airport|Newark]] (begins 19 December 2026), [[Raleigh–Durham International Airport|Raleigh/Durham]] (begins 20 December 2026), [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] (begins 21 December 2026), [[Toronto–Pearson]] (begins 19 December 2026)
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]], [[Lynden Pindling International Airport|Nassau]]
+<!-- -->
+| {{nowrap|[[Caicos Express Airways]]}} | [[Hugo Chávez International Airport|Cap-Haïtien]], [[JAGS McCartney International Airport|Grand Turk]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Toussaint Louverture International Airport|Port-au-Prince]], [[Cibao International Airport|Santiago de los Caballeros]], [[Las Americas International Airport|Santo Domingo–Las Américas]], [[South Caicos Airport|South Caicos]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[John F. Kennedy International Airport|New York–JFK]] <br /> '''Seasonal:''' [[Logan International Airport|Boston]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis-Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[InterCaribbean Airways]] | [[V.C. Bird International Airport|Antigua]], [[Grantley Adams International Airport|Barbados]], [[Cap-Haïtien International Airport|Cap-Haïtien]], [[JAGS McCartney International Airport|Grand Turk]], [[José Martí International Airport|Havana]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Lynden Pindling International Airport|Nassau]], [[Cibao International Airport|Santiago de los Caballeros]], [[Las Americas International Airport|Santo Domingo–Las Américas]], [[South Caicos Airport|South Caicos]]
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]] <br />'''Seasonal:''' [[Logan International Airport|Boston]]
+<!-- -->
+| [[Porter Airlines]] | '''Seasonal:''' [[Ottawa Macdonald-Cartier International Airport|Ottawa]] (begins 17 December 2026), [[Toronto–Pearson]] (begins 6 November 2026)
+<!-- -->
+| [[Sunrise Airways]] | [[Cap-Haïtien International Airport|Cap-Haïtien]]
+<!-- -->
+| [[Southwest Airlines]] | [[Orlando International Airport|Orlando]]<br />'''Seasonal:''' [[Baltimore/Washington International Airport|Baltimore]]
+<!-- -->
+| [[Sun Country Airlines]] | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+}}

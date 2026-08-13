@@ -1,0 +1,8 @@
+==Airlines and destinations==
+[[File:Dsg Gainesville Regional Airport Interior West Lobby 20050507.jpg|thumb|Airport Interior, West Lobby]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->=== Passenger ===
+{{Airport destination list
+|[[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] 
+<!-- -->}}

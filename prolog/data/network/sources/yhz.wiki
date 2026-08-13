@@ -1,0 +1,126 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport or the airline itself is not an independent source. -->
+{{Airport-dest-list
+| [[Air Canada]] | [[London–Heathrow]] (resumes 1 December 2026), [[Montréal–Trudeau]], [[Toronto–Pearson]] <br />'''Seasonal:''' [[Brussels Airport|Brussels]], [[Sangster International Airport|Montego Bay]] (resumes 3 December 2026), [[Lynden Pindling International Airport|Nassau]], [[Vancouver International Airport|Vancouver]]
+<!--  -->
+| {{nowrap|[[Air Canada Express]]}} | [[Logan International Airport|Boston]], [[Deer Lake Regional Airport|Deer Lake]], [[Gander International Airport|Gander]], [[CFB Goose Bay|Goose Bay]], [[Newark Liberty International Airport|Newark]], [[Ottawa International Airport|Ottawa]], [[St. John's International Airport|St. John's (NL)]]
+<!-- -->
+| [[Air Canada Rouge]] | '''Seasonal:'''  [[Grantley Adams International Airport|Barbados]] (begins 17 December 2026), [[Cancún International Airport|Cancún]], [[London–Heathrow]] (ends 30 November 2026), [[Montréal–Trudeau]]
+<!--  -->
+| [[American Airlines]] | '''Seasonal:''' [[Washington–National]]{{cn|date=June 2026}}
+<!--  -->
+| [[American Eagle (airline brand)|American Eagle]] | '''Seasonal:''' [[Chicago–O'Hare]], [[New York–LaGuardia]]
+<!--  -->
+| [[BermudAir]] | [[L.F. Wade International Airport|Bermuda]]
+<!-- -->
+| [[Delta Connection]] | '''Seasonal:''' [[Logan International Airport|Boston]], [[New York–LaGuardia]]
+<!--  -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!--  -->
+|[[Flair Airlines]] | [[Kitchener/Waterloo]], [[Toronto–Pearson]]
+<!--  -->
+| [[Icelandair]] | '''Seasonal:''' [[Keflavík International Airport|Reykjavík–Keflavík]]
+<!--  -->
+| {{nowrap|[[Pascan Aviation]]}} | [[Saint John Airport|Saint John (NB)]]{{cn|date=June 2026}}
+<!--  -->
+| [[Porter Airlines]] | [[John C. Munro Hamilton International Airport|Hamilton (ON)]], [[Montreal Metropolitan Airport|Montréal–MET]], [[Montréal–Trudeau]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[St. John's International Airport|St. John's (NL)]], [[Billy Bishop Toronto City Airport|Toronto–Billy Bishop]], [[Toronto–Pearson]] <br/> '''Seasonal:''' [[Cancún International Airport|Cancún]] (begins 18 December 2026), [[Deer Lake Regional Airport|Deer Lake]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]] (begins 17 December 2026), [[Orlando International Airport|Orlando]]
+<!--  -->
+| [[United Express]] | [[Newark Liberty International Airport|Newark]] <br/> '''Seasonal:''' [[Chicago–O'Hare]], [[Washington–Dulles]]
+<!-- -->
+| [[WestJet]] | [[Calgary International Airport|Calgary]], [[Edmonton International Airport|Edmonton]], [[Toronto–Pearson]] <br/> '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Copenhagen Airport|Copenhagen]], [[Detroit Metropolitan Airport|Detroit]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[Lisbon Airport|Lisbon]], [[London–Gatwick]], [[Madrid–Barajas Airport|Madrid]], [[Paris–Charles de Gaulle]], [[Regina International Airport|Regina]], [[Saskatoon John G. Diefenbaker International Airport|Saskatoon]], [[Vancouver International Airport|Vancouver]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Map of North American passenger destinations
+|-
+|{{Location map+|Canada|width=930|float=center|caption= Canadian destinations from Halifax Stanfield International Airport <br /> {{font color | red | Red}}=Year-round destination <br /> {{font color | green | Green}}=Seasonal destination <br /> {{font color | blue | Blue}}=Future destination
+|places={{Location map~ | Canada |lat=44.879722| long=-63.510278| position=right|label=<div style="position:relative; top:0px;"><small>'''Halifax'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=51.1308|long=-114.0138|position=bottom|label=[[Calgary International Airport|Calgary]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=49.209167|long=-57.394444|position=left|label=[[Deer Lake Regional Airport|Deer Lake]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=53.31|long=-113.579444|position=left|label=[[Edmonton International Airport|Edmonton]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=48.9475|long=-54.56|position=top|label=[[Gander International Airport|Gander]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=53.319167|long=-60.425833|position=top|label=[[CFB Goose Bay|Goose Bay]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=43.173611|long=-79.935|position=bottom|label=[[John C. Munro International Airport|Hamilton]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=43.4516|long=-80.4925|position=left|label={{nowrap|[[Region of Waterloo Airport|Kitchener-Waterloo]]}}|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=45.518056|long=-73.416944|position=right|label=[[Montreal Metropolitan Airport|Montréal-MET]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=45.4651|long=-73.7487|position=left|label={{nowrap|[[Montréal-Trudeau]]}}|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=45.3193|long=-75.6653|position=left|label=[[Ottawa International Airport|Ottawa]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=45.315833|long=-65.89|position=left|label=[[Saint John Airport|Saint John]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=47.6167|long=-52.7487|position=bottom|label=[[St. John's International Airport|St. John's]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=43.628333|long=-79.396111|position=right|label={{nowrap|[[Billy Bishop Toronto City Airport|Toronto–Billy Bishop]]}}|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | Canada |lat=43.6735|long=-79.6133|position=top|label=[[Toronto-Pearson]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Canada |lat=50.432222|long=-104.666111|position=bottom|label=[[Regina International Airport|Regina]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Canada |lat=52.170883|long=-106.7|position=top|label=[[Saskatoon John G. Diefenbaker International Airport|Saskatoon]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Canada |lat=49.1941|long=-123.1871|position=top|label=[[Vancouver International Airport|Vancouver]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Canada |lat=49.91|long=-97.24|position=top|label=[[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]|label_size=80 |marksize=7}}
+}}
+
+{{Location map+ |North_America |width=930|float=center
+|caption=North American destinations from Halifax Stanfield International Airport <br /> {{font color | red | Red}}=Year-round destination <br />{{font color | green | Green}}=Seasonal destination <br />{{font color | blue | Blue}}= Future destination
+|places=
+{{Location map~ |North_America |lat=44.879722| long=-63.510278 |position=right |label={{lower|5px|Halifax}}|caption=|mark=Airplane_silhouette.svg|marksize=15}}
+{{Location map~ |mark=Red pog.svg | North_America |lat=32.364167|long=-64.678611|position=bottom|label=[[L.F. Wade International Airport|Bermuda]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | North_America |lat=42.363056|long=-71.006389|position=right|label=[[Logan International Airport|Boston]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | North_America |lat=40.6925|long=-74.168611|position=left|label=[[Newark Liberty International Airport|Newark]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | North_America |lat=28.4338|long=-81.3102|position=top|label=[[Orlando International Airport|Orlando]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Red pog.svg | North_America |lat=46.763056|long=-56.174167|position=right|label=[[Saint-Pierre Pointe-Blanche Airport|Saint-Pierre]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=21.0433|long=-86.8715|position=left|label=[[Cancún International Airport|Cancún]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=41.978611|long=-87.904722|position=left|label=[[Chicago-O'Hare]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Blue pog.svg | North_America |lat=26.0725|long=-80.152778|position=left|label=[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=18.499|long=-77.9205|position=left|label=[[Montego Bay International Airport|Montego Bay]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America|lat=25.038889|long=-77.466111|position=top|label=[[Lynden Pindling International Airport|Nassau]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=40.775|long=-73.875|position=right|label=[[New York-LaGuardia]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=39.871944|long=-75.241111|position=left|label=[[Philadelphia International Airport|Philadelphia]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=19.757778|long=-70.57|position=top|label=[[Gregorio Luperón International Airport|Puerto Plata]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=18.5647|long=-68.3728|position=right|label=[[Punta Cana International Airport|Punta Cana]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=27.979722|long=-82.534722|position=left|label=[[Tampa International Airport|Tampa]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=38.852222|long=-77.037778|position=right|label=[[Washington-National]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Blue pog.svg | North_America |lat=13.074722|long=-59.4925|position=left|label=[[Grantley Adams International Airport|Barbados]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=42.2125|long=-83.353333|position=left|label=[[Detroit Metropolitan Airport|Detroit]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | North_America |lat=38.944444|long=-77.455833|position=left|label=[[Washington-Dulles]]|label_size=80 |marksize=7}}
+}}
+|}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Map of European passenger destinations
+|-
+|{{Location map+ |Europe |width=930|float=center
+|caption=Destinations from Halifax Stanfield International Airport <br /> {{font color | red | Red}}=Year-round destination <br />{{font color | green | Green}}=Seasonal destination <br />{{font color | blue | Blue}}= Future destination
+|places=
+{{Location map~ |mark=Red pog.svg | Europe |lat=51.4775|long=-0.461389|position=top|label=[[London-Heathrow]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=52.3|long=4.4765|position=bottom|label=[[Amsterdam Airport Schiphol|Amsterdam]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=41.174959|long=2.044501|position=bottom|label=[[Barcelona El-Prat Airport|Barcelona]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=50.901389|long=4.4844|position=bottom|label=[[Brussels Airport|Brussels]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=55.618056|long=12.656111|position=right|label=[[Copenhagen Airport|Copenhagen]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=53.421389|long=-6.27|position=bottom|label=[[Dublin Airport|Dublin]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=55.95|long=-3.3725|position=bottom|label=[[Edinburgh Airport|Edinburgh]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=50.033333|long=8.570556|position=bottom|label=[[Frankfurt Airport|Frankfurt]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=38.774167|long=-9.134167|position=bottom|label=[[Lisbon Airport|Lisbon]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=51.148056|long=-0.190278|position=bottom|label=[[London–Gatwick]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=40.472222|long=-3.560833|position=bottom|label=[[Madrid-Barajas Airport|Madrid]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=49.009722|long=2.547778|position=bottom|label=[[Paris–Charles de Gaulle]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=63.985|long=-22.605556|position=bottom|label=[[Keflavík International Airport|Reykjavík–Keflavík]]|label_size=80 |marksize=7}}
+{{Location map~ |mark=Green pog.svg | Europe |lat=47.464722|long=8.549167|position=bottom|label=[[Zurich Airport|Zurich]]|label_size=80 |marksize=7}}
+}}
+|}
+
+===Cargo===
+{{Expand section|small=no|date=December 2025}}
+{{Airport-dest-list
+<!-- -->
+| [[Cargojet]] | [[Montréal–Mirabel International Airport|Montréal–Mirabel]]
+<!-- -->
+| [[FedEx Express]] | [[Toronto–Pearson]]
+<!-- -->
+| [[Korean Air Cargo]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Maersk Air Cargo]] | [[Liège Airport|Liège]]
+<!-- -->
+| [[SF Airlines]] | [[Ezhou Huahu International Airport|Ezhou]]
+<!-- -->
+| [[Sky Lease Cargo]] | [[Changsha Huanghua International Airport|Changsha]]
+<!-- -->
+}}

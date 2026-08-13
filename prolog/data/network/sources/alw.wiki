@@ -1,0 +1,47 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Unreferenced section|date=January 2022}}
+{{Airport destination list
+| [[Alaska Airlines]] | [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+}}
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:25em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |USA_Washington |width=500 |float=center
+|caption=Destinations from Walla Walla Regional Airport
+|places=
+{{Location map~ |USA_Washington |lat=46.09 |long=-118.29 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Walla Walla'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |USA_Washington |lat=47.450165|long=-122.309176 |position=under |label='''<small>[[Seattle–Tacoma International Airport|Seattle/Tacoma]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Airport destination list
+| [[Ameriflight]] | [[Tri-Cities Airport (Washington)|Tri-Cities (WA)]], [[Boeing Field|Seattle–Boeing]], [[Spokane International Airport|Spokane]], [[Yakima Air Terminal|Yakima]]
+}}
+
+===Top destinations===
+{| class="wikitable" style="font-size: 95%" width= align=
+|+ '''Busiest domestic routes out of ALW'''<br />'''(January 2024 - December 2024)'''
+! Rank
+! City
+! Passengers
+! Carriers
+|-
+| 1
+| [[Seattle–Tacoma International Airport|Seattle/Tacoma, WA]]
+| 36,740
+| Alaska
+|-
+|}
+
+=== Historical airline service ===
+
+Walla Walla had scheduled passenger jet service in the past provided by [[West Coast Airlines]], which operated [[Douglas DC-9-14]] jetliners, and also by [[Cascade Airways]], which flew [[British Aircraft Corporation]] [[BAC One-Eleven]] twinjets. Both airlines also operated turboprop aircraft into the airport as well.  West Coast flew [[Fairchild F-27]] propjets while Cascade operated [[Hawker Siddeley HS 748]], [[Beechcraft 1900C]] and [[Fairchild Swearingen Metroliner]] turboprops.  In addition, Cascade had its major maintenance base located at the airport for all of the aircraft types it operated including the BAC One-Eleven jets.
+
+West Coast then merged with [[Bonanza Air Lines]] and [[Pacific Air Lines]] to form [[Air West]], which was subsequently renamed [[Hughes Airwest]].  Both Air West and Hughes Airwest continued to serve Walla Walla with [[Fairchild F-27]] propjet flights, although by 1975 Hughes Airwest had turned over all of its service to Cascade Airways.
+
+[[Horizon Air]] and [[Skywest Airlines]] operate{{when|date=April 2025}} Embraer E175 regional jets into Walla Walla on behalf of [[Alaska Airlines]].

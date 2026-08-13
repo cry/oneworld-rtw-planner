@@ -1,0 +1,25 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[American Airlines]] |[[Charlotte Douglas International Airport|Charlotte]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+|<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Logan International Airport|Boston]], [[Charlotte Douglas International Airport|Charlotte]],  [[Chicago–O'Hare]], [[New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]],
+[[Washington–National]]<br />'''Seasonal:''' [[Miami International Airport|Miami]] |
+<!-- -->
+| [[Breeze Airways]] | [[Southwest Florida International Airport|Fort Myers]] (begins October 21, 2026), [[Tampa International Airport|Tampa]] <br />'''Seasonal:''' [[Los Angeles International Airport|Los Angeles]], [[Orlando International Airport|Orlando]], [[Raleigh–Durham International Airport|Raleigh/Durham]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Wayne County Airport|Detroit]], [[Minneapolis−Saint Paul International Airport|Minneapolis/St. Paul]]
+|<!-- -->
+|{{nowrap|[[Delta Connection]]}} | [[Logan International Airport|Boston]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis−Saint Paul International Airport|Minneapolis/St. Paul]],  [[New York–LaGuardia]], [[Washington–National]]
+|<!-- -->
+| [[Frontier Airlines]] | [[Denver International Airport|Denver]] |
+<!-- -->
+|{{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Southwest Florida International Airport|Fort Myers]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+|<!-- -->
+| [[United Airlines]] | [[Chicago–O'Hare]], [[Denver International Airport|Denver]]
+|<!-- -->
+|{{nowrap|[[United Express]]}} | [[Chicago–O'Hare]], [[Newark Liberty International Airport|Newark]]<br /> '''Seasonal:''' [[Denver International Airport|Denver]]
+|}}
+<!-- -->

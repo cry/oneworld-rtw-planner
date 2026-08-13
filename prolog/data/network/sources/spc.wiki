@@ -1,0 +1,40 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at La Palma Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID  INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]], [[Lanzarote Airport|Lanzarote]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]], [[Tenerife South Airport|Tenerife–South]]<br>'''Seasonal:''' [[Fuerteventura Airport|Fuerteventura]]{{citation needed|date=January 2025}}
+<!-- -->
+| [[CanaryFly]] | [[Gran Canaria Airport|Gran Canaria]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]
+<!-- -->
+| [[Condor (airline)|Condor]]| [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Hamburg Airport|Hamburg]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Discover Airlines]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[easyJet]] | '''Seasonal:''' [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Berlin Brandenburg Airport|Berlin]]
+<!-- -->
+|[[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]{{citation needed|date=January 2025}}
+<!-- -->
+|[[Eurowings]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Hamburg Airport|Hamburg]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]] <br> '''Seasonal:''' [[Málaga Airport|Málaga]], [[Santiago de Compostela Airport|Santiago de Compostela]]
+<!-- -->
+| [[Jet2.com]] | [[London Stansted Airport|London–Stansted]] (begins 26 October 2026), [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]{{citation needed|date=January 2025}}
+<!-- -->
+| [[Marabu (airline)|Marabu]] |[[Hamburg Airport|Hamburg]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal:''' [[Prague Václav Havel Airport|Prague]]
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[TUI Airways]] | [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[TUI fly Netherlands]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]{{citation needed|date=January 2025}}
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Nantes Atlantique Airport|Nantes]] (begins 8 November 2026)
+<!-- -->
+| [[Vueling]] | [[Barcelona–El Prat Josep Tarradellas Airport|Barcelona]]
+<!-- -->
+}}

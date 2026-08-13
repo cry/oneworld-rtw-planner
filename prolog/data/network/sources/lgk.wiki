@@ -1,0 +1,26 @@
+==Airlines and destinations==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport destination list
+<!-- -->
+| [[AirAsia]] | [[Senai International Airport|Johor Bahru]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Penang International Airport|Penang]], [[Changi Airport|Singapore]]
+<!-- -->
+| {{nowrap|[[Batik Air Malaysia]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]], [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Berjaya Air]] | '''Charter:''' [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]]{{cn|date=August 2025}}
+<!-- -->
+| [[Firefly (airline)|Firefly]] | [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]], [[Penang International Airport|Penang]]
+<!-- -->
+| [[Flydubai]]|[[Dubai International Airport|Dubai–International]]{{ref|1|1}}
+<!-- -->
+| [[IndiGo]] | [[Kempegowda International Airport|Bengaluru]]
+<!-- -->
+| {{nowrap|[[LOT Polish Airlines]]}} | '''Seasonal charter:''' [[Warsaw Chopin Airport|Warsaw-Chopin]]
+<!-- -->
+| {{nowrap|[[Malaysia Airlines]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+|[[Scoot]] | [[Changi Airport|Singapore]]
+}}
+
+<small>{{ref|1|1}}: This flight operates with a stop in [[Penang International Airport|Penang]]. However, the airline has no [[Freedoms of the air#Eighth freedom|eighth-freedom rights]] to transport passengers solely between Langkawi and Penang.</small>
+
+[[File:Royal Malaysian Air Force Airbus A400M Atlas M54-03.jpg|thumb|[[Royal Malaysian Air Force]] [[Airbus A400M Atlas]] taking off from Langkawi International Airport during LIMA 17]]

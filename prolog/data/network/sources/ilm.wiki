@@ -1,0 +1,52 @@
+==Airlines and destinations==
+===Passenger===
+[[File:Wilmington International Airport (18 October 2023) 43 (cropped).jpg|alt=American Eagle plane approaching gate|thumb|An [[American Eagle (airline brand)|American Eagle]] [[Embraer E-Jet family#E175|Embraer E175LR]] approaching Gate 7]]
+{{Airport destination list
+| {{nowrap|[[American Airlines]]}} | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte/Douglas International Airport|Charlotte]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]]<br />'''Seasonal:''' [[Boston Logan International Airport|Boston]],  [[O'Hare International Airport|Chicago–O'Hare]]
+| [[Avelo Airlines]] | [[Nashville International Airport|Nashville]],  [[Tweed New Haven Airport|New Haven]], [[Greater Rochester International Airport|Rochester (NY)]], [[Tampa International Airport|Tampa]] <br />'''Seasonal:''' [[Baltimore/Washington International Airport|Baltimore]], [[Wilmington Airport (Delaware)|Wilmington (DE)]]
+| [[Breeze Airways]] | [[Akron–Canton Airport|Akron/Canton]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Southwest Florida International Airport|Fort Myers]], [[Bradley International Airport|Hartford]], [[Long Island MacArthur Airport|Long Island/Islip]],  [[Orlando International Airport|Orlando]], [[Rhode Island T. F. Green International Airport|Providence]], [[Tampa International Airport|Tampa]] 
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]<br />'''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[LaGuardia Airport|New York–LaGuardia]]<br />'''Seasonal:''' [[Boston Logan International Airport|Boston]]
+| [[JetBlue]] | '''Seasonal:''' [[Logan International Airport|Boston]]
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+| [[United Express]] | [[Newark Liberty International Airport|Newark]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]]
+}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Wilmington International Airport <br /> {{font color | red | Red }} = Year-round destination <br /> {{font color | green | Green }} = Seasonal destination <br />
+|places=
+{{Location map~ |United_States |lat=34.2669 |long=-77.9105 |position=right |label={{lower|5px|<small>'''Wilmington'''</small>}}|caption=|mark=Airplane_silhouette.svg|marksize=15}}
+{{Location map~ |United_States |lat=40.5490 |long=-81.2662|position=left|label='''<small>[[Akron–Canton Airport|Akron/Canton]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=right |label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>''' |label_size=80 |marksize=7}}
+{{Location map~ |mark= Green pog.svg |United_States |lat=39.175278|long=-76.668333 |position=right |label='''<small>[[Baltimore/Washington International Airport|Baltimore]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |mark= Green pog.svg |United_States |lat=42.364644|long=-71.010010 |position=right|label='''<small>[[Boston Logan International Airport|Boston]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=35.213889 |long=-80.943056 |position=left |label=<small>'''{{nowrap|[[Charlotte Douglas International Airport|Charlotte]]}}'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |mark= Green pog.svg |United_States |lat=41.978611 |long=-87.904722 |position=left |label=<small>'''{{nowrap|[[O'Hare International Airport|Chicago–O'Hare]]}}'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/<br />Fort Worth]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |mark= Green pog.svg |United_States |lat= 39.86167|long=-104.67306|position=right|label='''<small>{{nowrap|[[Denver International Airport|Denver]]}}</small>''' |label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=26.0421 |long=-80.0810 |position=right |label=<small>'''[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=26.536111 |long=-81.755278 |position=left |label=<small>'''[[Southwest Florida International Airport|Fort Myers]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=41.939167 |long=-72.683333 |position=left |label=<small>'''[[Bradley International Airport|Hartford]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=40.795278|long=-73.100278 |position=right|label='''<small>[[Long Island MacArthur Airport|{{nowrap|Long Island}}]]</small>''' |label_size=80 |marksize=7}}
+{{Location map~ |mark= Green pog.svg |United_States |lat=42.9325 |long=-71.435556 |position=right |label=<small>'''[[Manchester–Boston Regional Airport|Manchester]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=25.793333 |long=-80.290556 |position=left |label=<small>'''[[Miami International Airport|Miami]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |mark= Green pog.svg |United_States |lat=44.5255 |long=-93.1318 |position=left |label=<small>'''[[Minneapolis–Saint Paul International Airport|Minneapolis/<br />St. Paul]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=36.126667 |long=-86.681944 |position=right |label=<small>'''[[Nashville International Airport|Nashville]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=41.2634 |long=-72.8864 |position=right |label=<small>'''[[Tweed New Haven Airport|New Haven]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=40.639722 |long=-73.872611 |position=right |label='''<small>[[LaGuardia Airport|LaGuardia]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=40.6925 |long=-74.168611 |position=eft |label=<small>'''{{nowrap|[[Newark Liberty International Airport|Newark]]}}'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=28.4179 |long=-81.3041 |position=left |label=<small>'''[[Orlando International Airport|Orlando]]'''</small>|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.873918|long=-75.242466|position=right |label='''<small>[[Philadelphia International Airport|Philadelphia]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=41.723889 |long=-71.428333 |position=right |label=<small>'''[[Rhode Island T. F. Green International Airport|Providence]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |mark= Red pog.svg |United_States |lat=43.118889 |long=-77.6725 |position=right |label=<small>'''[[Greater Rochester International Airport|Rochester]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=27.979722 |long=-82.534722 |position=left |label=<small>'''[[Tampa International Airport|Tampa]]'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=38.851047|long=-77.040320 |position=left |label='''<small>[[Ronald Reagan Washington National Airport|Washington–National]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |mark= Green pog.svg |United_States |lat=39.678611|long=-75.606667 |position=left |label='''<small>{{nowrap|[[Wilmington Airport (Delaware)|Wilmington]]}}</small>''' |label_size=80 |marksize=7}}
+
+}}
+|}
+[[File:Wilmington International Airport Main Terminal.jpg|alt=Passenger terminal seen from the main parking area|thumb|The passenger terminal seen from the main parking area]]

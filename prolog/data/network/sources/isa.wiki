@@ -1,0 +1,16 @@
+== Airlines and destinations ==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{airport-dest-list
+<!-- -->
+| {{nowrap|[[Alliance Airlines]]}} | '''Mining Charter:''' [[The Monument Airport|Phosphate Hill]]
+<!-- -->
+| [[Qantas]] | [[Brisbane Airport|Brisbane]]
+<!-- -->
+| [[QantasLink]] | [[Brisbane Airport|Brisbane]], [[Cloncurry Airport|Cloncurry]], [[Townsville Airport|Townsville]]
+<!-- -->
+| [[Rex Airlines]]{{efn-la|name=QLD|Rex services operated under subsidy from the Queensland Government on defined routes with multiple intermediate stops}} | [[Bedourie Airport|Bedourie]], [[Birdsville Airport|Birdsville]], [[Brisbane Airport|Brisbane]],{{efn-la|name=W2|Western 2 route - Brisbane-Toowoomba-Charleville-Quilpie-Windorah-Birdsville-Bedourie-Boulia-Mount Isa}} [[Burketown Airport|Burketown]], [[Boulia Airport|Boulia]], [[Cairns Airport|Cairns]], [[Charleville Airport|Charleville]], [[Doomadgee Airport|Doomadgee]],  [[Mornington Island Airport|Gununa]], [[Hughenden Airport|Hughenden]],
+[[Julia Creek Airport|Julia Creek]], [[Karumba Airport|Karumba]], [[Normanton Airport|Normanton]], [[Quilpie Airport|Quilpie]], [[Richmond Airport (Queensland)|Richmond]], [[Toowoomba Wellcamp Airport|Toowoomba]], [[Townsville Airport|Townsville]],{{efn-la|name=N2|Northern 2 route - Townsville-Hughenden-Richmond-Julia Creek-Mount Isa}}{{efn-la|name=G|Gulf route - Cairns-Normanton-Mornington Island-Burketown-Doomadgee-Mount Isa}} [[Windorah Airport|Windorah]]
+<!-- -->
+|[[Virgin Australia]] | [[Brisbane Airport|Brisbane]]}}
+
+{{notelist}}

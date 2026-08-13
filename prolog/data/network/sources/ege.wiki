@@ -1,0 +1,18 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines themselves are not independent sources. -->
+{{Airport destination list | 3rdcoltitle=Ref
+| [[Alaska Airlines]] | '''Seasonal:''' [[San Diego International Airport|San Diego]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]<br />'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]],  [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]] | 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | '''Seasonal:''' [[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+<!-- -->
+| [[Delta Air Lines]] | '''Seasonal:''' [[Hartsfield-Jackson Atlanta International Airport|Atlanta]], [[John F. Kennedy International Airport|New York–JFK]] | 
+<!-- -->
+| [[Delta Connection]] | '''Seasonal:''' [[Los Angeles International Airport|Los Angeles]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] | 
+<!-- -->
+| [[United Airlines]] | [[Denver International Airport|Denver]] <br /> '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]] | 
+<!-- -->
+| [[United Express]] | [[Denver International Airport|Denver]]<br />'''Seasonal:''' [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]] | 
+<!-- -->
+}}

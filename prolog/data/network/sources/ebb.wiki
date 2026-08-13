@@ -1,0 +1,66 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Air Arabia]] | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air Congo]] | [[N'djili Airport|Kinshasa–N'djili]]
+<!-- -->
+| [[Air Tanzania]] | [[Julius Nyerere International Airport|Dar es Salaam]] [[Kilimanjaro International Airport|Kilimanjaro]]
+<!-- -->
+| [[Badr Airlines]] | [[Juba International Airport|Juba]]
+<!-- -->
+| {{nowrap|[[BAR Aviation Uganda]]}} | [[Pakuba Airfield|Pakuba]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| {{nowrap|[[Ethiopian Airlines]]}} | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]] | [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+| [[Jambojet]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Kenya Airways]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Malawi Airlines]] | [[Kamuzu International Airport|Lilongwe]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]] <!--QR does not have traffic rights to Kigali. Do not add it as a destination.-->
+<!-- -->
+| [[RwandAir]] | [[Juba International Airport|Juba]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Tarco Aviation]] | [[Port Sudan New International Airport|Port Sudan]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Uganda Airlines]] | [[Nnamdi Azikiwe International Airport|Abuja]], [[Bujumbura International Airport|Bujumbura]], [[Julius Nyerere International Airport|Dar es Salaam]],  [[Dubai International Airport|Dubai–International]], [[Robert Gabriel Mugabe International Airport|Harare]], [[O. R. Tambo International Airport|Johannesburg–O.R. Tambo]], [[Kilimanjaro International Airport|Kilimanjaro]], [[N'djili Airport|Kinshasa–N'djili]], [[Murtala Muhammed International Airport|Lagos]], [[Gatwick Airport|London–Gatwick]], [[Kenneth Kaunda International Airport|Lusaka]], [[Mogadishu International Airport|Mogadishu]], [[Mumbai International Airport| Mumbai]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Zanzibar International Airport|Zanzibar]]
+}}
+
+;Airlines offering specialized passenger service to non-stop destinations:
+{{Airport destination list
+| [[United Nations Humanitarian Air Service]] | [[Juba Airport|Juba]], [[Bangoka International Airport|Kisangani]]
+}}
+
+===Cargo===
+
+{{Airport destination list|
+{{nowrap|African Airline}} | [[O. R. Tambo International Airport|Johannesburg–O.R. Tambo]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Ostend-Bruges International Airport|Ostend/Bruges]]
+<!-- -->
+| [[EgyptAir Cargo]] | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Emirates SkyCargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+| [[Ethiopian Airlines|Ethiopian Airlines Cargo]] | [[Addis Ababa International Airport|Addis Ababa]]
+<!-- -->
+|[[Etihad Cargo]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+| [[Flynas|Flynas Cargo]] |[[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Qatar Airways Cargo]] | [[Brussels International Airport|Brussels]], [[Hamad International Airport|Doha]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Stabo Air]] | [[Liège Airport|Liège]]
+}}

@@ -1,0 +1,6539 @@
+{
+  "_comment": "The pin. Every article whose \"Airlines and destinations\" section is committed under sources/, with the revision it was read at. --pinned parses only these files and opens no socket, so a fresh clone rebuilds services.pl with the network unplugged. Route data (c) its Wikipedia contributors, CC BY-SA 4.0.",
+  "api": "https://en.wikipedia.org/w/api.php",
+  "snapshot": "2026-08-13",
+  "licence": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)",
+  "articles": [
+    {
+      "code": "abe",
+      "title": "Lehigh Valley International Airport",
+      "pageid": 480621,
+      "revid": 1368890114,
+      "file": "abe.wiki"
+    },
+    {
+      "code": "abi",
+      "title": "Abilene Regional Airport",
+      "pageid": 2696220,
+      "revid": 1364132282,
+      "file": "abi.wiki"
+    },
+    {
+      "code": "abj",
+      "title": "Félix-Houphouët-Boigny International Airport",
+      "pageid": 21371788,
+      "revid": 1367814956,
+      "file": "abj.wiki"
+    },
+    {
+      "code": "abq",
+      "title": "Albuquerque International Sunport",
+      "pageid": 269651,
+      "revid": 1366783012,
+      "file": "abq.wiki"
+    },
+    {
+      "code": "abv",
+      "title": "Nnamdi Azikiwe International Airport",
+      "pageid": 1264263,
+      "revid": 1369045266,
+      "file": "abv.wiki"
+    },
+    {
+      "code": "abx",
+      "title": "Albury Airport",
+      "pageid": 6568764,
+      "revid": 1362979377,
+      "file": "abx.wiki"
+    },
+    {
+      "code": "abz",
+      "title": "Aberdeen Airport",
+      "pageid": 293264,
+      "revid": 1368195054,
+      "file": "abz.wiki"
+    },
+    {
+      "code": "aca",
+      "title": "Acapulco International Airport",
+      "pageid": 317155,
+      "revid": 1368330703,
+      "file": "aca.wiki"
+    },
+    {
+      "code": "acc",
+      "title": "Accra International Airport",
+      "pageid": 161756,
+      "revid": 1365413232,
+      "file": "acc.wiki"
+    },
+    {
+      "code": "ace",
+      "title": "Lanzarote Airport",
+      "pageid": 1466475,
+      "revid": 1368757434,
+      "file": "ace.wiki"
+    },
+    {
+      "code": "ack",
+      "title": "Nantucket Memorial Airport",
+      "pageid": 2479513,
+      "revid": 1365562914,
+      "file": "ack.wiki"
+    },
+    {
+      "code": "act",
+      "title": "Waco Regional Airport",
+      "pageid": 2144575,
+      "revid": 1367701487,
+      "file": "act.wiki"
+    },
+    {
+      "code": "acv",
+      "title": "Arcata–Eureka Airport",
+      "pageid": 2045871,
+      "revid": 1365100662,
+      "file": "acv.wiki"
+    },
+    {
+      "code": "adb",
+      "title": "İzmir Adnan Menderes Airport",
+      "pageid": 1655565,
+      "revid": 1367084795,
+      "file": "adb.wiki"
+    },
+    {
+      "code": "add",
+      "title": "Addis Ababa Bole International Airport",
+      "pageid": 1115036,
+      "revid": 1368834925,
+      "file": "add.wiki"
+    },
+    {
+      "code": "adj",
+      "title": "Amman Civil Airport",
+      "pageid": 7851893,
+      "revid": 1368290570,
+      "file": "adj.wiki"
+    },
+    {
+      "code": "adk",
+      "title": "Adak Airport",
+      "pageid": 2579301,
+      "revid": 1366707026,
+      "file": "adk.wiki"
+    },
+    {
+      "code": "adl",
+      "title": "Adelaide Airport",
+      "pageid": 140465,
+      "revid": 1368867393,
+      "file": "adl.wiki"
+    },
+    {
+      "code": "adq",
+      "title": "Kodiak Airport",
+      "pageid": 3002468,
+      "revid": 1366693100,
+      "file": "adq.wiki"
+    },
+    {
+      "code": "aer",
+      "title": "Sochi International Airport",
+      "pageid": 3049336,
+      "revid": 1367632435,
+      "file": "aer.wiki"
+    },
+    {
+      "code": "aex",
+      "title": "Alexandria International Airport (Louisiana)",
+      "pageid": 2338759,
+      "revid": 1365243077,
+      "file": "aex.wiki"
+    },
+    {
+      "code": "aga",
+      "title": "Agadir–Al Massira Airport",
+      "pageid": 439492,
+      "revid": 1367514200,
+      "file": "aga.wiki"
+    },
+    {
+      "code": "agp",
+      "title": "Málaga Airport",
+      "pageid": 3565735,
+      "revid": 1369106701,
+      "file": "agp.wiki"
+    },
+    {
+      "code": "ags",
+      "title": "Augusta Regional Airport",
+      "pageid": 295360,
+      "revid": 1365320588,
+      "file": "ags.wiki"
+    },
+    {
+      "code": "agu",
+      "title": "Aguascalientes International Airport",
+      "pageid": 2157356,
+      "revid": 1362957897,
+      "file": "agu.wiki"
+    },
+    {
+      "code": "ahb",
+      "title": "Abha International Airport",
+      "pageid": 9419420,
+      "revid": 1366700273,
+      "file": "ahb.wiki"
+    },
+    {
+      "code": "ahu",
+      "title": "Cherif Al Idrissi Airport",
+      "pageid": 9240997,
+      "revid": 1363026670,
+      "file": "ahu.wiki"
+    },
+    {
+      "code": "akj",
+      "title": "Asahikawa Airport",
+      "pageid": 385083,
+      "revid": 1363014431,
+      "file": "akj.wiki"
+    },
+    {
+      "code": "akl",
+      "title": "Auckland Airport",
+      "pageid": 265702,
+      "revid": 1367592936,
+      "file": "akl.wiki"
+    },
+    {
+      "code": "akn",
+      "title": "King Salmon Airport",
+      "pageid": 3049062,
+      "revid": 1366692853,
+      "file": "akn.wiki"
+    },
+    {
+      "code": "ala",
+      "title": "Almaty International Airport",
+      "pageid": 4532485,
+      "revid": 1368842164,
+      "file": "ala.wiki"
+    },
+    {
+      "code": "alb",
+      "title": "Albany International Airport",
+      "pageid": 170609,
+      "revid": 1367202325,
+      "file": "alb.wiki"
+    },
+    {
+      "code": "alc",
+      "title": "Alicante–Elche Miguel Hernández Airport",
+      "pageid": 3316930,
+      "revid": 1368784737,
+      "file": "alc.wiki"
+    },
+    {
+      "code": "alf",
+      "title": "Alta Airport",
+      "pageid": 3895569,
+      "revid": 1362959177,
+      "file": "alf.wiki"
+    },
+    {
+      "code": "alg",
+      "title": "Houari Boumediene Airport",
+      "pageid": 727058,
+      "revid": 1365136735,
+      "file": "alg.wiki"
+    },
+    {
+      "code": "alo",
+      "title": "Waterloo Regional Airport",
+      "pageid": 1403729,
+      "revid": 1368407171,
+      "file": "alo.wiki"
+    },
+    {
+      "code": "alp",
+      "title": "Aleppo International Airport",
+      "pageid": 7559247,
+      "revid": 1369095496,
+      "file": "alp.wiki"
+    },
+    {
+      "code": "alw",
+      "title": "Walla Walla Regional Airport",
+      "pageid": 2542316,
+      "revid": 1363086944,
+      "file": "alw.wiki"
+    },
+    {
+      "code": "ama",
+      "title": "Rick Husband Amarillo International Airport",
+      "pageid": 301134,
+      "revid": 1365342405,
+      "file": "ama.wiki"
+    },
+    {
+      "code": "amd",
+      "title": "Ahmedabad Airport",
+      "pageid": 1030338,
+      "revid": 1369076081,
+      "file": "amd.wiki"
+    },
+    {
+      "code": "amm",
+      "title": "Queen Alia International Airport",
+      "pageid": 737338,
+      "revid": 1366865774,
+      "file": "amm.wiki"
+    },
+    {
+      "code": "ams",
+      "title": "Amsterdam Airport Schiphol",
+      "pageid": 28721,
+      "revid": 1368329319,
+      "file": "ams.wiki"
+    },
+    {
+      "code": "anu",
+      "title": "V. C. Bird International Airport",
+      "pageid": 736434,
+      "revid": 1364714620,
+      "file": "anu.wiki"
+    },
+    {
+      "code": "aoj",
+      "title": "Aomori Airport",
+      "pageid": 9582759,
+      "revid": 1363013754,
+      "file": "aoj.wiki"
+    },
+    {
+      "code": "aok",
+      "title": "Karpathos Island National Airport",
+      "pageid": 9304271,
+      "revid": 1367338725,
+      "file": "aok.wiki"
+    },
+    {
+      "code": "aor",
+      "title": "Sultan Abdul Halim Airport",
+      "pageid": 6534091,
+      "revid": 1366500907,
+      "file": "aor.wiki"
+    },
+    {
+      "code": "apw",
+      "title": "Faleolo International Airport",
+      "pageid": 7102034,
+      "revid": 1364369429,
+      "file": "apw.wiki"
+    },
+    {
+      "code": "aqj",
+      "title": "King Hussein International Airport",
+      "pageid": 3794576,
+      "revid": 1365116457,
+      "file": "aqj.wiki"
+    },
+    {
+      "code": "arm",
+      "title": "Armidale Airport",
+      "pageid": 9727217,
+      "revid": 1363014189,
+      "file": "arm.wiki"
+    },
+    {
+      "code": "arn",
+      "title": "Stockholm Arlanda Airport",
+      "pageid": 164050,
+      "revid": 1368157637,
+      "file": "arn.wiki"
+    },
+    {
+      "code": "art",
+      "title": "Watertown International Airport",
+      "pageid": 2468720,
+      "revid": 1362842986,
+      "file": "art.wiki"
+    },
+    {
+      "code": "ase",
+      "title": "Aspen/Pitkin County Airport",
+      "pageid": 2282267,
+      "revid": 1365278136,
+      "file": "ase.wiki"
+    },
+    {
+      "code": "asj",
+      "title": "Amami Airport",
+      "pageid": 9582683,
+      "revid": 1362959357,
+      "file": "asj.wiki"
+    },
+    {
+      "code": "asp",
+      "title": "Alice Springs Airport",
+      "pageid": 5231986,
+      "revid": 1366113779,
+      "file": "asp.wiki"
+    },
+    {
+      "code": "ath",
+      "title": "Athens International Airport",
+      "pageid": 48962,
+      "revid": 1368201614,
+      "file": "ath.wiki"
+    },
+    {
+      "code": "atl",
+      "title": "Hartsfield–Jackson Atlanta International Airport",
+      "pageid": 248446,
+      "revid": 1368768563,
+      "file": "atl.wiki"
+    },
+    {
+      "code": "atq",
+      "title": "Sri Guru Ram Das Ji International Airport",
+      "pageid": 1196342,
+      "revid": 1366798229,
+      "file": "atq.wiki"
+    },
+    {
+      "code": "atw",
+      "title": "Appleton International Airport",
+      "pageid": 2644407,
+      "revid": 1365450709,
+      "file": "atw.wiki"
+    },
+    {
+      "code": "aua",
+      "title": "Queen Beatrix International Airport",
+      "pageid": 156767,
+      "revid": 1368785543,
+      "file": "aua.wiki"
+    },
+    {
+      "code": "auh",
+      "title": "Zayed International Airport",
+      "pageid": 487794,
+      "revid": 1369093533,
+      "file": "auh.wiki"
+    },
+    {
+      "code": "aus",
+      "title": "Austin–Bergstrom International Airport",
+      "pageid": 262542,
+      "revid": 1366783646,
+      "file": "aus.wiki"
+    },
+    {
+      "code": "avl",
+      "title": "Asheville Regional Airport",
+      "pageid": 294550,
+      "revid": 1367149411,
+      "file": "avl.wiki"
+    },
+    {
+      "code": "avp",
+      "title": "Wilkes-Barre/Scranton International Airport",
+      "pageid": 1909800,
+      "revid": 1365437517,
+      "file": "avp.wiki"
+    },
+    {
+      "code": "avv",
+      "title": "Avalon Airport",
+      "pageid": 719121,
+      "revid": 1362856157,
+      "file": "avv.wiki"
+    },
+    {
+      "code": "axa",
+      "title": "Clayton J. Lloyd International Airport",
+      "pageid": 3371273,
+      "revid": 1366025744,
+      "file": "axa.wiki"
+    },
+    {
+      "code": "axt",
+      "title": "Akita Airport",
+      "pageid": 3550802,
+      "revid": 1362958303,
+      "file": "axt.wiki"
+    },
+    {
+      "code": "ayq",
+      "title": "Ayers Rock Airport",
+      "pageid": 2413548,
+      "revid": 1368978747,
+      "file": "ayq.wiki"
+    },
+    {
+      "code": "ayt",
+      "title": "Antalya Airport",
+      "pageid": 3520009,
+      "revid": 1369100050,
+      "file": "ayt.wiki"
+    },
+    {
+      "code": "azo",
+      "title": "Kalamazoo/Battle Creek International Airport",
+      "pageid": 299424,
+      "revid": 1366692069,
+      "file": "azo.wiki"
+    },
+    {
+      "code": "bah",
+      "title": "Bahrain International Airport",
+      "pageid": 464443,
+      "revid": 1367947397,
+      "file": "bah.wiki"
+    },
+    {
+      "code": "baq",
+      "title": "Ernesto Cortissoz International Airport",
+      "pageid": 163575,
+      "revid": 1366141172,
+      "file": "baq.wiki"
+    },
+    {
+      "code": "bci",
+      "title": "Barcaldine Airport",
+      "pageid": 9727744,
+      "revid": 1363016395,
+      "file": "bci.wiki"
+    },
+    {
+      "code": "bcn",
+      "title": "Josep Tarradellas Barcelona–El Prat Airport",
+      "pageid": 151518,
+      "revid": 1368897981,
+      "file": "bcn.wiki"
+    },
+    {
+      "code": "bda",
+      "title": "L.F. Wade International Airport",
+      "pageid": 293765,
+      "revid": 1368954891,
+      "file": "bda.wiki"
+    },
+    {
+      "code": "bdb",
+      "title": "Bundaberg Airport",
+      "pageid": 9728304,
+      "revid": 1366824571,
+      "file": "bdb.wiki"
+    },
+    {
+      "code": "bdl",
+      "title": "Bradley International Airport",
+      "pageid": 263642,
+      "revid": 1368951627,
+      "file": "bdl.wiki"
+    },
+    {
+      "code": "bds",
+      "title": "Brindisi Airport",
+      "pageid": 5420919,
+      "revid": 1367247165,
+      "file": "bds.wiki"
+    },
+    {
+      "code": "beg",
+      "title": "Belgrade Nikola Tesla Airport",
+      "pageid": 1467219,
+      "revid": 1368665633,
+      "file": "beg.wiki"
+    },
+    {
+      "code": "ben",
+      "title": "Benina International Airport",
+      "pageid": 5549726,
+      "revid": 1365141658,
+      "file": "ben.wiki"
+    },
+    {
+      "code": "ber",
+      "title": "Berlin Brandenburg Airport",
+      "pageid": 271709,
+      "revid": 1369091538,
+      "file": "ber.wiki"
+    },
+    {
+      "code": "bet",
+      "title": "Bethel Airport",
+      "pageid": 2579841,
+      "revid": 1365464362,
+      "file": "bet.wiki"
+    },
+    {
+      "code": "bey",
+      "title": "Beirut–Rafic Hariri International Airport",
+      "pageid": 12869180,
+      "revid": 1367645966,
+      "file": "bey.wiki"
+    },
+    {
+      "code": "bfl",
+      "title": "Meadows Field Airport",
+      "pageid": 262478,
+      "revid": 1368940051,
+      "file": "bfl.wiki"
+    },
+    {
+      "code": "bgf",
+      "title": "Bangui M'Poko International Airport",
+      "pageid": 4330967,
+      "revid": 1362759360,
+      "file": "bgf.wiki"
+    },
+    {
+      "code": "bgi",
+      "title": "Grantley Adams International Airport",
+      "pageid": 1406612,
+      "revid": 1364826033,
+      "file": "bgi.wiki"
+    },
+    {
+      "code": "bgo",
+      "title": "Bergen Airport, Flesland",
+      "pageid": 1187218,
+      "revid": 1363018819,
+      "file": "bgo.wiki"
+    },
+    {
+      "code": "bgr",
+      "title": "Bangor International Airport",
+      "pageid": 1682920,
+      "revid": 1368414305,
+      "file": "bgr.wiki"
+    },
+    {
+      "code": "bgw",
+      "title": "Baghdad International Airport",
+      "pageid": 162172,
+      "revid": 1368502548,
+      "file": "bgw.wiki"
+    },
+    {
+      "code": "bgy",
+      "title": "Milan Bergamo Airport",
+      "pageid": 267710,
+      "revid": 1365784180,
+      "file": "bgy.wiki"
+    },
+    {
+      "code": "bhd",
+      "title": "Belfast City Airport",
+      "pageid": 294524,
+      "revid": 1365446348,
+      "file": "bhd.wiki"
+    },
+    {
+      "code": "bhm",
+      "title": "Birmingham–Shuttlesworth International Airport",
+      "pageid": 291386,
+      "revid": 1366395926,
+      "file": "bhm.wiki"
+    },
+    {
+      "code": "bhq",
+      "title": "Broken Hill Airport",
+      "pageid": 9728360,
+      "revid": 1363022617,
+      "file": "bhq.wiki"
+    },
+    {
+      "code": "bhx",
+      "title": "Birmingham Airport",
+      "pageid": 291384,
+      "revid": 1365998804,
+      "file": "bhx.wiki"
+    },
+    {
+      "code": "bil",
+      "title": "Billings Logan International Airport",
+      "pageid": 1376380,
+      "revid": 1368988885,
+      "file": "bil.wiki"
+    },
+    {
+      "code": "bim",
+      "title": "South Bimini Airport",
+      "pageid": 10081586,
+      "revid": 1368219001,
+      "file": "bim.wiki"
+    },
+    {
+      "code": "bio",
+      "title": "Bilbao Airport",
+      "pageid": 3307725,
+      "revid": 1368738885,
+      "file": "bio.wiki"
+    },
+    {
+      "code": "bis",
+      "title": "Bismarck Municipal Airport",
+      "pageid": 728233,
+      "revid": 1364143980,
+      "file": "bis.wiki"
+    },
+    {
+      "code": "bjl",
+      "title": "Banjul International Airport",
+      "pageid": 2515697,
+      "revid": 1363016298,
+      "file": "bjl.wiki"
+    },
+    {
+      "code": "bjv",
+      "title": "Milas–Bodrum Airport",
+      "pageid": 5895749,
+      "revid": 1367409171,
+      "file": "bjv.wiki"
+    },
+    {
+      "code": "bjx",
+      "title": "Bajío International Airport",
+      "pageid": 2157261,
+      "revid": 1368894393,
+      "file": "bjx.wiki"
+    },
+    {
+      "code": "bjz",
+      "title": "Badajoz Airport",
+      "pageid": 4453029,
+      "revid": 1364662479,
+      "file": "bjz.wiki"
+    },
+    {
+      "code": "bki",
+      "title": "Kota Kinabalu International Airport",
+      "pageid": 3479387,
+      "revid": 1368722537,
+      "file": "bki.wiki"
+    },
+    {
+      "code": "bkk",
+      "title": "Suvarnabhumi Airport",
+      "pageid": 360700,
+      "revid": 1368068379,
+      "file": "bkk.wiki"
+    },
+    {
+      "code": "bko",
+      "title": "Modibo Keita International Airport",
+      "pageid": 4587990,
+      "revid": 1366992109,
+      "file": "bko.wiki"
+    },
+    {
+      "code": "bkq",
+      "title": "Blackall Airport",
+      "pageid": 9728200,
+      "revid": 1363021057,
+      "file": "bkq.wiki"
+    },
+    {
+      "code": "bli",
+      "title": "Bellingham International Airport",
+      "pageid": 2541093,
+      "revid": 1365041473,
+      "file": "bli.wiki"
+    },
+    {
+      "code": "bll",
+      "title": "Billund Airport",
+      "pageid": 1904249,
+      "revid": 1363184172,
+      "file": "bll.wiki"
+    },
+    {
+      "code": "blq",
+      "title": "Bologna Guglielmo Marconi Airport",
+      "pageid": 3565861,
+      "revid": 1363676449,
+      "file": "blq.wiki"
+    },
+    {
+      "code": "blr",
+      "title": "Kempegowda International Airport",
+      "pageid": 4044762,
+      "revid": 1369029161,
+      "file": "blr.wiki"
+    },
+    {
+      "code": "bme",
+      "title": "Broome International Airport",
+      "pageid": 8450104,
+      "revid": 1362939274,
+      "file": "bme.wiki"
+    },
+    {
+      "code": "bmi",
+      "title": "Central Illinois Regional Airport",
+      "pageid": 3008824,
+      "revid": 1364272941,
+      "file": "bmi.wiki"
+    },
+    {
+      "code": "bna",
+      "title": "Nashville International Airport",
+      "pageid": 291228,
+      "revid": 1367299759,
+      "file": "bna.wiki"
+    },
+    {
+      "code": "bne",
+      "title": "Brisbane Airport",
+      "pageid": 358971,
+      "revid": 1369147720,
+      "file": "bne.wiki"
+    },
+    {
+      "code": "bnk",
+      "title": "Ballina Byron Gateway Airport",
+      "pageid": 5367800,
+      "revid": 1363016026,
+      "file": "bnk.wiki"
+    },
+    {
+      "code": "bod",
+      "title": "Bordeaux–Mérignac Airport",
+      "pageid": 5313481,
+      "revid": 1363188639,
+      "file": "bod.wiki"
+    },
+    {
+      "code": "bog",
+      "title": "El Dorado International Airport",
+      "pageid": 299434,
+      "revid": 1368781641,
+      "file": "bog.wiki"
+    },
+    {
+      "code": "boi",
+      "title": "Boise Airport",
+      "pageid": 294976,
+      "revid": 1368939690,
+      "file": "boi.wiki"
+    },
+    {
+      "code": "boj",
+      "title": "Burgas Airport",
+      "pageid": 963591,
+      "revid": 1368920627,
+      "file": "boj.wiki"
+    },
+    {
+      "code": "bom",
+      "title": "Chhatrapati Shivaji Maharaj International Airport",
+      "pageid": 287183,
+      "revid": 1369147646,
+      "file": "bom.wiki"
+    },
+    {
+      "code": "bon",
+      "title": "Flamingo International Airport",
+      "pageid": 2453571,
+      "revid": 1363700547,
+      "file": "bon.wiki"
+    },
+    {
+      "code": "boo",
+      "title": "Bodø Airport",
+      "pageid": 3905730,
+      "revid": 1363021297,
+      "file": "boo.wiki"
+    },
+    {
+      "code": "bos",
+      "title": "Logan International Airport",
+      "pageid": 211579,
+      "revid": 1368362486,
+      "file": "bos.wiki"
+    },
+    {
+      "code": "bpn",
+      "title": "Sultan Aji Muhammad Sulaiman Sepinggan Airport",
+      "pageid": 2341487,
+      "revid": 1367330581,
+      "file": "bpn.wiki"
+    },
+    {
+      "code": "bpt",
+      "title": "Jack Brooks Regional Airport",
+      "pageid": 317336,
+      "revid": 1365151238,
+      "file": "bpt.wiki"
+    },
+    {
+      "code": "bqb",
+      "title": "Busselton Margaret River Airport",
+      "pageid": 3009162,
+      "revid": 1363023419,
+      "file": "bqb.wiki"
+    },
+    {
+      "code": "bri",
+      "title": "Bari Karol Wojtyła Airport",
+      "pageid": 5212466,
+      "revid": 1367016213,
+      "file": "bri.wiki"
+    },
+    {
+      "code": "bro",
+      "title": "Brownsville/South Padre Island International Airport",
+      "pageid": 2742031,
+      "revid": 1369139712,
+      "file": "bro.wiki"
+    },
+    {
+      "code": "bru",
+      "title": "Brussels Airport",
+      "pageid": 269753,
+      "revid": 1368665652,
+      "file": "bru.wiki"
+    },
+    {
+      "code": "brw",
+      "title": "Wiley Post–Will Rogers Memorial Airport",
+      "pageid": 2496547,
+      "revid": 1363087659,
+      "file": "brw.wiki"
+    },
+    {
+      "code": "bsl",
+      "title": "EuroAirport Basel–Mulhouse–Freiburg",
+      "pageid": 171633,
+      "revid": 1366400877,
+      "file": "bsl.wiki"
+    },
+    {
+      "code": "bsr",
+      "title": "Basra International Airport",
+      "pageid": 2491750,
+      "revid": 1363016760,
+      "file": "bsr.wiki"
+    },
+    {
+      "code": "btr",
+      "title": "Baton Rouge Metropolitan Airport",
+      "pageid": 306336,
+      "revid": 1365173174,
+      "file": "btr.wiki"
+    },
+    {
+      "code": "btu",
+      "title": "Bintulu Airport",
+      "pageid": 9348363,
+      "revid": 1366501131,
+      "file": "btu.wiki"
+    },
+    {
+      "code": "btv",
+      "title": "Patrick Leahy Burlington International Airport",
+      "pageid": 1600783,
+      "revid": 1367078745,
+      "file": "btv.wiki"
+    },
+    {
+      "code": "bud",
+      "title": "Budapest Ferenc Liszt International Airport",
+      "pageid": 1551088,
+      "revid": 1368780597,
+      "file": "bud.wiki"
+    },
+    {
+      "code": "buf",
+      "title": "Buffalo Niagara International Airport",
+      "pageid": 290177,
+      "revid": 1364157116,
+      "file": "buf.wiki"
+    },
+    {
+      "code": "bur",
+      "title": "Hollywood Burbank Airport",
+      "pageid": 250473,
+      "revid": 1368391531,
+      "file": "bur.wiki"
+    },
+    {
+      "code": "bwi",
+      "title": "Baltimore/Washington International Airport",
+      "pageid": 48314,
+      "revid": 1368520962,
+      "file": "bwi.wiki"
+    },
+    {
+      "code": "bwt",
+      "title": "Burnie Airport",
+      "pageid": 5449469,
+      "revid": 1369051907,
+      "file": "bwt.wiki"
+    },
+    {
+      "code": "bxg",
+      "title": "Bendigo Airport (Victoria)",
+      "pageid": 5934020,
+      "revid": 1363018581,
+      "file": "bxg.wiki"
+    },
+    {
+      "code": "bze",
+      "title": "Philip S. W. Goldson International Airport",
+      "pageid": 736515,
+      "revid": 1368955986,
+      "file": "bze.wiki"
+    },
+    {
+      "code": "bzn",
+      "title": "Bozeman Yellowstone International Airport",
+      "pageid": 2371232,
+      "revid": 1364438879,
+      "file": "bzn.wiki"
+    },
+    {
+      "code": "bzv",
+      "title": "Maya-Maya Airport",
+      "pageid": 4330633,
+      "revid": 1363058075,
+      "file": "bzv.wiki"
+    },
+    {
+      "code": "cae",
+      "title": "Columbia Metropolitan Airport",
+      "pageid": 371130,
+      "revid": 1366357291,
+      "file": "cae.wiki"
+    },
+    {
+      "code": "cag",
+      "title": "Cagliari Elmas Airport",
+      "pageid": 5219696,
+      "revid": 1367231957,
+      "file": "cag.wiki"
+    },
+    {
+      "code": "cai",
+      "title": "Cairo International Airport",
+      "pageid": 589227,
+      "revid": 1367536736,
+      "file": "cai.wiki"
+    },
+    {
+      "code": "cak",
+      "title": "Akron–Canton Airport",
+      "pageid": 723213,
+      "revid": 1365153163,
+      "file": "cak.wiki"
+    },
+    {
+      "code": "can",
+      "title": "Guangzhou Baiyun International Airport",
+      "pageid": 810251,
+      "revid": 1369031974,
+      "file": "can.wiki"
+    },
+    {
+      "code": "cap",
+      "title": "Cap-Haïtien International Airport",
+      "pageid": 12117235,
+      "revid": 1363222462,
+      "file": "cap.wiki"
+    },
+    {
+      "code": "cbr",
+      "title": "Canberra Airport",
+      "pageid": 1085682,
+      "revid": 1368974376,
+      "file": "cbr.wiki"
+    },
+    {
+      "code": "ccj",
+      "title": "Calicut International Airport",
+      "pageid": 1724715,
+      "revid": 1368151107,
+      "file": "ccj.wiki"
+    },
+    {
+      "code": "cck",
+      "title": "Cocos (Keeling) Islands Airport",
+      "pageid": 7126886,
+      "revid": 1364600156,
+      "file": "cck.wiki"
+    },
+    {
+      "code": "ccs",
+      "title": "Simón Bolívar International Airport (Venezuela)",
+      "pageid": 8277069,
+      "revid": 1365739060,
+      "file": "ccs.wiki"
+    },
+    {
+      "code": "ccu",
+      "title": "Netaji Subhas Chandra Bose International Airport",
+      "pageid": 850001,
+      "revid": 1368544855,
+      "file": "ccu.wiki"
+    },
+    {
+      "code": "cdg",
+      "title": "Charles de Gaulle Airport",
+      "pageid": 105927,
+      "revid": 1367245089,
+      "file": "cdg.wiki"
+    },
+    {
+      "code": "cdt",
+      "title": "Castellón–Costa Azahar Airport",
+      "pageid": 31445017,
+      "revid": 1366111860,
+      "file": "cdt.wiki"
+    },
+    {
+      "code": "cdv",
+      "title": "Merle K. (Mudhole) Smith Airport",
+      "pageid": 2501234,
+      "revid": 1363058633,
+      "file": "cdv.wiki"
+    },
+    {
+      "code": "ceb",
+      "title": "Mactan–Cebu International Airport",
+      "pageid": 54082290,
+      "revid": 1368968245,
+      "file": "ceb.wiki"
+    },
+    {
+      "code": "cfs",
+      "title": "Coffs Harbour Airport",
+      "pageid": 7898565,
+      "revid": 1368677731,
+      "file": "cfs.wiki"
+    },
+    {
+      "code": "cgk",
+      "title": "Soekarno–Hatta International Airport",
+      "pageid": 1203751,
+      "revid": 1369058612,
+      "file": "cgk.wiki"
+    },
+    {
+      "code": "cgo",
+      "title": "Zhengzhou Xinzheng International Airport",
+      "pageid": 2068277,
+      "revid": 1367720645,
+      "file": "cgo.wiki"
+    },
+    {
+      "code": "cha",
+      "title": "Chattanooga Metropolitan Airport",
+      "pageid": 2122696,
+      "revid": 1366163776,
+      "file": "cha.wiki"
+    },
+    {
+      "code": "chc",
+      "title": "Christchurch Airport",
+      "pageid": 629022,
+      "revid": 1368615237,
+      "file": "chc.wiki"
+    },
+    {
+      "code": "cho",
+      "title": "Charlottesville–Albemarle Airport",
+      "pageid": 2448366,
+      "revid": 1365156100,
+      "file": "cho.wiki"
+    },
+    {
+      "code": "chq",
+      "title": "Chania International Airport",
+      "pageid": 6807942,
+      "revid": 1367335298,
+      "file": "chq.wiki"
+    },
+    {
+      "code": "chs",
+      "title": "Charleston International Airport",
+      "pageid": 294579,
+      "revid": 1366637531,
+      "file": "chs.wiki"
+    },
+    {
+      "code": "cid",
+      "title": "Eastern Iowa Airport",
+      "pageid": 1384597,
+      "revid": 1364483737,
+      "file": "cid.wiki"
+    },
+    {
+      "code": "ckg",
+      "title": "Chongqing Jiangbei International Airport",
+      "pageid": 5318329,
+      "revid": 1367113433,
+      "file": "ckg.wiki"
+    },
+    {
+      "code": "cky",
+      "title": "Ahmed Sékou Touré International Airport",
+      "pageid": 4590205,
+      "revid": 1366992083,
+      "file": "cky.wiki"
+    },
+    {
+      "code": "cld",
+      "title": "McClellan–Palomar Airport",
+      "pageid": 2046028,
+      "revid": 1364485451,
+      "file": "cld.wiki"
+    },
+    {
+      "code": "cle",
+      "title": "Cleveland Hopkins International Airport",
+      "pageid": 262484,
+      "revid": 1364644261,
+      "file": "cle.wiki"
+    },
+    {
+      "code": "cll",
+      "title": "Easterwood Airport",
+      "pageid": 1364102,
+      "revid": 1364483782,
+      "file": "cll.wiki"
+    },
+    {
+      "code": "clo",
+      "title": "Alfonso Bonilla Aragón International Airport",
+      "pageid": 715453,
+      "revid": 1362958856,
+      "file": "clo.wiki"
+    },
+    {
+      "code": "clt",
+      "title": "Charlotte Douglas International Airport",
+      "pageid": 264293,
+      "revid": 1368366307,
+      "file": "clt.wiki"
+    },
+    {
+      "code": "cmb",
+      "title": "Bandaranaike International Airport",
+      "pageid": 2870845,
+      "revid": 1368202205,
+      "file": "cmb.wiki"
+    },
+    {
+      "code": "cmf",
+      "title": "Chambéry Airport",
+      "pageid": 4891238,
+      "revid": 1363026182,
+      "file": "cmf.wiki"
+    },
+    {
+      "code": "cmh",
+      "title": "John Glenn Columbus International Airport",
+      "pageid": 269883,
+      "revid": 1369074155,
+      "file": "cmh.wiki"
+    },
+    {
+      "code": "cmi",
+      "title": "University of Illinois Willard Airport",
+      "pageid": 1484725,
+      "revid": 1362825615,
+      "file": "cmi.wiki"
+    },
+    {
+      "code": "cmn",
+      "title": "Mohammed V International Airport",
+      "pageid": 288417,
+      "revid": 1363966561,
+      "file": "cmn.wiki"
+    },
+    {
+      "code": "cmw",
+      "title": "Ignacio Agramonte International Airport",
+      "pageid": 7719193,
+      "revid": 1363106067,
+      "file": "cmw.wiki"
+    },
+    {
+      "code": "cnj",
+      "title": "Cloncurry Airport",
+      "pageid": 9728702,
+      "revid": 1363028371,
+      "file": "cnj.wiki"
+    },
+    {
+      "code": "cns",
+      "title": "Cairns Airport",
+      "pageid": 296379,
+      "revid": 1368974556,
+      "file": "cns.wiki"
+    },
+    {
+      "code": "cnx",
+      "title": "Chiang Mai International Airport",
+      "pageid": 266300,
+      "revid": 1368973848,
+      "file": "cnx.wiki"
+    },
+    {
+      "code": "cok",
+      "title": "Cochin International Airport",
+      "pageid": 667462,
+      "revid": 1368925344,
+      "file": "cok.wiki"
+    },
+    {
+      "code": "coo",
+      "title": "Cadjehoun Airport",
+      "pageid": 4271830,
+      "revid": 1363219970,
+      "file": "coo.wiki"
+    },
+    {
+      "code": "cos",
+      "title": "Colorado Springs Airport",
+      "pageid": 301145,
+      "revid": 1364780183,
+      "file": "cos.wiki"
+    },
+    {
+      "code": "cou",
+      "title": "Columbia Regional Airport",
+      "pageid": 2302598,
+      "revid": 1364480491,
+      "file": "cou.wiki"
+    },
+    {
+      "code": "cph",
+      "title": "Copenhagen Airport",
+      "pageid": 194884,
+      "revid": 1368971482,
+      "file": "cph.wiki"
+    },
+    {
+      "code": "cpt",
+      "title": "Cape Town International Airport",
+      "pageid": 266326,
+      "revid": 1364401129,
+      "file": "cpt.wiki"
+    },
+    {
+      "code": "crk",
+      "title": "Clark International Airport",
+      "pageid": 2055880,
+      "revid": 1369120457,
+      "file": "crk.wiki"
+    },
+    {
+      "code": "crp",
+      "title": "Corpus Christi International Airport",
+      "pageid": 301140,
+      "revid": 1368026987,
+      "file": "crp.wiki"
+    },
+    {
+      "code": "crw",
+      "title": "Yeager Airport",
+      "pageid": 294568,
+      "revid": 1362866139,
+      "file": "crw.wiki"
+    },
+    {
+      "code": "csx",
+      "title": "Changsha Huanghua International Airport",
+      "pageid": 1905424,
+      "revid": 1367722169,
+      "file": "csx.wiki"
+    },
+    {
+      "code": "cta",
+      "title": "Catania–Fontanarossa Airport",
+      "pageid": 2399305,
+      "revid": 1365689578,
+      "file": "cta.wiki"
+    },
+    {
+      "code": "ctg",
+      "title": "Rafael Núñez International Airport",
+      "pageid": 2461611,
+      "revid": 1367761983,
+      "file": "ctg.wiki"
+    },
+    {
+      "code": "cts",
+      "title": "New Chitose Airport",
+      "pageid": 30876901,
+      "revid": 1369120238,
+      "file": "cts.wiki"
+    },
+    {
+      "code": "ctu",
+      "title": "Chengdu Shuangliu International Airport",
+      "pageid": 2303161,
+      "revid": 1368781262,
+      "file": "ctu.wiki"
+    },
+    {
+      "code": "cun",
+      "title": "Cancún International Airport",
+      "pageid": 1599031,
+      "revid": 1368761629,
+      "file": "cun.wiki"
+    },
+    {
+      "code": "cur",
+      "title": "Curaçao International Airport",
+      "pageid": 2453515,
+      "revid": 1368786987,
+      "file": "cur.wiki"
+    },
+    {
+      "code": "cuu",
+      "title": "Chihuahua International Airport",
+      "pageid": 2015538,
+      "revid": 1364135512,
+      "file": "cuu.wiki"
+    },
+    {
+      "code": "cvg",
+      "title": "Cincinnati/Northern Kentucky International Airport",
+      "pageid": 264379,
+      "revid": 1368789904,
+      "file": "cvg.wiki"
+    },
+    {
+      "code": "cwa",
+      "title": "Central Wisconsin Airport",
+      "pageid": 2644967,
+      "revid": 1364272981,
+      "file": "cwa.wiki"
+    },
+    {
+      "code": "cxi",
+      "title": "Cassidy International Airport",
+      "pageid": 11471024,
+      "revid": 1363025527,
+      "file": "cxi.wiki"
+    },
+    {
+      "code": "czm",
+      "title": "Cozumel International Airport",
+      "pageid": 2164655,
+      "revid": 1369055920,
+      "file": "czm.wiki"
+    },
+    {
+      "code": "dab",
+      "title": "Daytona Beach International Airport",
+      "pageid": 2509585,
+      "revid": 1364493619,
+      "file": "dab.wiki"
+    },
+    {
+      "code": "dac",
+      "title": "Hazrat Shahjalal International Airport",
+      "pageid": 1576433,
+      "revid": 1368781594,
+      "file": "dac.wiki"
+    },
+    {
+      "code": "dad",
+      "title": "Da Nang International Airport",
+      "pageid": 2920410,
+      "revid": 1369120508,
+      "file": "dad.wiki"
+    },
+    {
+      "code": "dam",
+      "title": "Damascus International Airport",
+      "pageid": 4202280,
+      "revid": 1369094643,
+      "file": "dam.wiki"
+    },
+    {
+      "code": "dar",
+      "title": "Julius Nyerere International Airport",
+      "pageid": 9862753,
+      "revid": 1367778407,
+      "file": "dar.wiki"
+    },
+    {
+      "code": "day",
+      "title": "Dayton International Airport",
+      "pageid": 725509,
+      "revid": 1366469624,
+      "file": "day.wiki"
+    },
+    {
+      "code": "dbo",
+      "title": "Dubbo Regional Airport",
+      "pageid": 9747901,
+      "revid": 1363507405,
+      "file": "dbo.wiki"
+    },
+    {
+      "code": "dbv",
+      "title": "Dubrovnik Airport",
+      "pageid": 4004139,
+      "revid": 1367979913,
+      "file": "dbv.wiki"
+    },
+    {
+      "code": "dca",
+      "title": "Ronald Reagan Washington National Airport",
+      "pageid": 181392,
+      "revid": 1367408145,
+      "file": "dca.wiki"
+    },
+    {
+      "code": "del",
+      "title": "Indira Gandhi International Airport",
+      "pageid": 143494,
+      "revid": 1368819709,
+      "file": "del.wiki"
+    },
+    {
+      "code": "den",
+      "title": "Denver International Airport",
+      "pageid": 263648,
+      "revid": 1368366275,
+      "file": "den.wiki"
+    },
+    {
+      "code": "dfw",
+      "title": "Dallas Fort Worth International Airport",
+      "pageid": 248480,
+      "revid": 1367293058,
+      "file": "dfw.wiki"
+    },
+    {
+      "code": "dgo",
+      "title": "Durango International Airport",
+      "pageid": 2163428,
+      "revid": 1363509702,
+      "file": "dgo.wiki"
+    },
+    {
+      "code": "dil",
+      "title": "Presidente Nicolau Lobato International Airport",
+      "pageid": 4580347,
+      "revid": 1366852727,
+      "file": "dil.wiki"
+    },
+    {
+      "code": "dla",
+      "title": "Douala International Airport",
+      "pageid": 5393086,
+      "revid": 1366992064,
+      "file": "dla.wiki"
+    },
+    {
+      "code": "dlc",
+      "title": "Dalian Zhoushuizi International Airport",
+      "pageid": 1648191,
+      "revid": 1365142630,
+      "file": "dlc.wiki"
+    },
+    {
+      "code": "dlg",
+      "title": "Dillingham Airport",
+      "pageid": 3049185,
+      "revid": 1364482487,
+      "file": "dlg.wiki"
+    },
+    {
+      "code": "dlm",
+      "title": "Dalaman Airport",
+      "pageid": 7948646,
+      "revid": 1365885497,
+      "file": "dlm.wiki"
+    },
+    {
+      "code": "dme",
+      "title": "Moscow Domodedovo Airport",
+      "pageid": 291012,
+      "revid": 1368780858,
+      "file": "dme.wiki"
+    },
+    {
+      "code": "dmm",
+      "title": "King Fahd International Airport",
+      "pageid": 2212468,
+      "revid": 1368751525,
+      "file": "dmm.wiki"
+    },
+    {
+      "code": "doh",
+      "title": "Hamad International Airport",
+      "pageid": 6689819,
+      "revid": 1367745503,
+      "file": "doh.wiki"
+    },
+    {
+      "code": "dom",
+      "title": "Douglas–Charles Airport",
+      "pageid": 4889778,
+      "revid": 1368920568,
+      "file": "dom.wiki"
+    },
+    {
+      "code": "dpo",
+      "title": "Devonport Airport",
+      "pageid": 5544228,
+      "revid": 1364065610,
+      "file": "dpo.wiki"
+    },
+    {
+      "code": "dps",
+      "title": "Ngurah Rai International Airport",
+      "pageid": 47784998,
+      "revid": 1366698795,
+      "file": "dps.wiki"
+    },
+    {
+      "code": "dro",
+      "title": "Durango–La Plata County Airport",
+      "pageid": 2282054,
+      "revid": 1364483515,
+      "file": "dro.wiki"
+    },
+    {
+      "code": "drw",
+      "title": "Darwin International Airport",
+      "pageid": 1889695,
+      "revid": 1368936265,
+      "file": "drw.wiki"
+    },
+    {
+      "code": "dsm",
+      "title": "Des Moines International Airport",
+      "pageid": 1371941,
+      "revid": 1366301480,
+      "file": "dsm.wiki"
+    },
+    {
+      "code": "dss",
+      "title": "Blaise Diagne International Airport",
+      "pageid": 29869471,
+      "revid": 1367440826,
+      "file": "dss.wiki"
+    },
+    {
+      "code": "dtw",
+      "title": "Detroit Metropolitan Airport",
+      "pageid": 294538,
+      "revid": 1368899769,
+      "file": "dtw.wiki"
+    },
+    {
+      "code": "dub",
+      "title": "Dublin Airport",
+      "pageid": 293794,
+      "revid": 1368429198,
+      "file": "dub.wiki"
+    },
+    {
+      "code": "dud",
+      "title": "Dunedin Airport",
+      "pageid": 3499230,
+      "revid": 1363034298,
+      "file": "dud.wiki"
+    },
+    {
+      "code": "dur",
+      "title": "King Shaka International Airport",
+      "pageid": 8646304,
+      "revid": 1363958128,
+      "file": "dur.wiki"
+    },
+    {
+      "code": "dus",
+      "title": "Düsseldorf Airport",
+      "pageid": 292633,
+      "revid": 1368394002,
+      "file": "dus.wiki"
+    },
+    {
+      "code": "dvo",
+      "title": "Francisco Bangoy International Airport",
+      "pageid": 1078115,
+      "revid": 1366458104,
+      "file": "dvo.wiki"
+    },
+    {
+      "code": "dxb",
+      "title": "Dubai International Airport",
+      "pageid": 154742,
+      "revid": 1368678877,
+      "file": "dxb.wiki"
+    },
+    {
+      "code": "eas",
+      "title": "San Sebastián Airport",
+      "pageid": 5777477,
+      "revid": 1368076131,
+      "file": "eas.wiki"
+    },
+    {
+      "code": "eat",
+      "title": "Pangborn Memorial Airport",
+      "pageid": 2542336,
+      "revid": 1365338742,
+      "file": "eat.wiki"
+    },
+    {
+      "code": "ebb",
+      "title": "Entebbe International Airport",
+      "pageid": 1456323,
+      "revid": 1368172440,
+      "file": "ebb.wiki"
+    },
+    {
+      "code": "ebl",
+      "title": "Erbil International Airport",
+      "pageid": 5412970,
+      "revid": 1365874670,
+      "file": "ebl.wiki"
+    },
+    {
+      "code": "ecp",
+      "title": "Northwest Florida Beaches International Airport",
+      "pageid": 24776941,
+      "revid": 1365326782,
+      "file": "ecp.wiki"
+    },
+    {
+      "code": "edi",
+      "title": "Edinburgh Airport",
+      "pageid": 280548,
+      "revid": 1363510831,
+      "file": "edi.wiki"
+    },
+    {
+      "code": "efl",
+      "title": "Kefalonia International Airport",
+      "pageid": 9304522,
+      "revid": 1367336991,
+      "file": "efl.wiki"
+    },
+    {
+      "code": "egc",
+      "title": "Bergerac Dordogne Périgord Airport",
+      "pageid": 5390583,
+      "revid": 1363018867,
+      "file": "egc.wiki"
+    },
+    {
+      "code": "ege",
+      "title": "Eagle County Regional Airport",
+      "pageid": 307641,
+      "revid": 1364483662,
+      "file": "ege.wiki"
+    },
+    {
+      "code": "eis",
+      "title": "Terrance B. Lettsome International Airport",
+      "pageid": 4270638,
+      "revid": 1368977382,
+      "file": "eis.wiki"
+    },
+    {
+      "code": "elh",
+      "title": "North Eleuthera Airport",
+      "pageid": 10082978,
+      "revid": 1365186813,
+      "file": "elh.wiki"
+    },
+    {
+      "code": "elp",
+      "title": "El Paso International Airport",
+      "pageid": 269621,
+      "revid": 1364483963,
+      "file": "elp.wiki"
+    },
+    {
+      "code": "elq",
+      "title": "Prince Naif bin Abdulaziz International Airport",
+      "pageid": 9419672,
+      "revid": 1363072876,
+      "file": "elq.wiki"
+    },
+    {
+      "code": "emd",
+      "title": "Emerald Airport",
+      "pageid": 9748204,
+      "revid": 1363035779,
+      "file": "emd.wiki"
+    },
+    {
+      "code": "erf",
+      "title": "Erfurt–Weimar Airport",
+      "pageid": 1701635,
+      "revid": 1367187654,
+      "file": "erf.wiki"
+    },
+    {
+      "code": "erh",
+      "title": "Moulay Ali Cherif Airport",
+      "pageid": 9240835,
+      "revid": 1363061065,
+      "file": "erh.wiki"
+    },
+    {
+      "code": "eri",
+      "title": "Erie International Airport",
+      "pageid": 2441415,
+      "revid": 1368070018,
+      "file": "eri.wiki"
+    },
+    {
+      "code": "esb",
+      "title": "Ankara Esenboğa Airport",
+      "pageid": 2065265,
+      "revid": 1365947609,
+      "file": "esb.wiki"
+    },
+    {
+      "code": "eug",
+      "title": "Eugene Airport",
+      "pageid": 264772,
+      "revid": 1364904952,
+      "file": "eug.wiki"
+    },
+    {
+      "code": "eun",
+      "title": "Hassan I Airport",
+      "pageid": 9241384,
+      "revid": 1363803167,
+      "file": "eun.wiki"
+    },
+    {
+      "code": "evn",
+      "title": "Zvartnots International Airport",
+      "pageid": 736493,
+      "revid": 1366497626,
+      "file": "evn.wiki"
+    },
+    {
+      "code": "evv",
+      "title": "Evansville Regional Airport",
+      "pageid": 2054769,
+      "revid": 1365654984,
+      "file": "evv.wiki"
+    },
+    {
+      "code": "ewn",
+      "title": "Coastal Carolina Regional Airport",
+      "pageid": 5369118,
+      "revid": 1364480113,
+      "file": "ewn.wiki"
+    },
+    {
+      "code": "ewr",
+      "title": "Newark Liberty International Airport",
+      "pageid": 248492,
+      "revid": 1368812140,
+      "file": "ewr.wiki"
+    },
+    {
+      "code": "eyw",
+      "title": "Key West International Airport",
+      "pageid": 287201,
+      "revid": 1366692703,
+      "file": "eyw.wiki"
+    },
+    {
+      "code": "eze",
+      "title": "Ezeiza International Airport",
+      "pageid": 248418,
+      "revid": 1368074839,
+      "file": "eze.wiki"
+    },
+    {
+      "code": "fai",
+      "title": "Fairbanks International Airport",
+      "pageid": 295107,
+      "revid": 1364484438,
+      "file": "fai.wiki"
+    },
+    {
+      "code": "fao",
+      "title": "Faro Airport",
+      "pageid": 2526726,
+      "revid": 1367509789,
+      "file": "fao.wiki"
+    },
+    {
+      "code": "far",
+      "title": "Hector International Airport",
+      "pageid": 152897,
+      "revid": 1365149736,
+      "file": "far.wiki"
+    },
+    {
+      "code": "fat",
+      "title": "Fresno Yosemite International Airport",
+      "pageid": 262470,
+      "revid": 1365146287,
+      "file": "fat.wiki"
+    },
+    {
+      "code": "fay",
+      "title": "Fayetteville Regional Airport",
+      "pageid": 2454374,
+      "revid": 1367779396,
+      "file": "fay.wiki"
+    },
+    {
+      "code": "fca",
+      "title": "Glacier Park International Airport",
+      "pageid": 2392917,
+      "revid": 1365147543,
+      "file": "fca.wiki"
+    },
+    {
+      "code": "fco",
+      "title": "Rome Fiumicino Airport",
+      "pageid": 248428,
+      "revid": 1368766440,
+      "file": "fco.wiki"
+    },
+    {
+      "code": "fdf",
+      "title": "Martinique Aimé Césaire International Airport",
+      "pageid": 14286949,
+      "revid": 1364481595,
+      "file": "fdf.wiki"
+    },
+    {
+      "code": "fez",
+      "title": "Fès–Saïss Airport",
+      "pageid": 6045839,
+      "revid": 1363705196,
+      "file": "fez.wiki"
+    },
+    {
+      "code": "fih",
+      "title": "N'djili Airport",
+      "pageid": 2190079,
+      "revid": 1366156424,
+      "file": "fih.wiki"
+    },
+    {
+      "code": "flg",
+      "title": "Flagstaff Pulliam Airport",
+      "pageid": 2183071,
+      "revid": 1365145697,
+      "file": "flg.wiki"
+    },
+    {
+      "code": "fll",
+      "title": "Fort Lauderdale–Hollywood International Airport",
+      "pageid": 267832,
+      "revid": 1365483855,
+      "file": "fll.wiki"
+    },
+    {
+      "code": "flo",
+      "title": "Florence Regional Airport",
+      "pageid": 2448810,
+      "revid": 1366508645,
+      "file": "flo.wiki"
+    },
+    {
+      "code": "flr",
+      "title": "Florence Airport",
+      "pageid": 4892622,
+      "revid": 1363700824,
+      "file": "flr.wiki"
+    },
+    {
+      "code": "fna",
+      "title": "Freetown International Airport",
+      "pageid": 4588535,
+      "revid": 1363704142,
+      "file": "fna.wiki"
+    },
+    {
+      "code": "fnc",
+      "title": "Madeira Airport",
+      "pageid": 5762092,
+      "revid": 1367645191,
+      "file": "fnc.wiki"
+    },
+    {
+      "code": "fnt",
+      "title": "Bishop International Airport",
+      "pageid": 1617432,
+      "revid": 1367447427,
+      "file": "fnt.wiki"
+    },
+    {
+      "code": "foc",
+      "title": "Fuzhou Changle International Airport",
+      "pageid": 9455579,
+      "revid": 1369031699,
+      "file": "foc.wiki"
+    },
+    {
+      "code": "for",
+      "title": "Fortaleza Airport",
+      "pageid": 2669510,
+      "revid": 1368030416,
+      "file": "for.wiki"
+    },
+    {
+      "code": "fpo",
+      "title": "Grand Bahama International Airport",
+      "pageid": 2509549,
+      "revid": 1368218754,
+      "file": "fpo.wiki"
+    },
+    {
+      "code": "fra",
+      "title": "Frankfurt Airport",
+      "pageid": 248285,
+      "revid": 1368867876,
+      "file": "fra.wiki"
+    },
+    {
+      "code": "fsc",
+      "title": "Figari–Sud Corse Airport",
+      "pageid": 9283303,
+      "revid": 1363700466,
+      "file": "fsc.wiki"
+    },
+    {
+      "code": "fsd",
+      "title": "Sioux Falls Regional Airport",
+      "pageid": 1377174,
+      "revid": 1364653125,
+      "file": "fsd.wiki"
+    },
+    {
+      "code": "fsm",
+      "title": "Fort Smith Regional Airport",
+      "pageid": 2317771,
+      "revid": 1367633869,
+      "file": "fsm.wiki"
+    },
+    {
+      "code": "fue",
+      "title": "Fuerteventura Airport",
+      "pageid": 4995752,
+      "revid": 1369099206,
+      "file": "fue.wiki"
+    },
+    {
+      "code": "fuk",
+      "title": "Fukuoka Airport",
+      "pageid": 328225,
+      "revid": 1369120500,
+      "file": "fuk.wiki"
+    },
+    {
+      "code": "fun",
+      "title": "Funafuti International Airport",
+      "pageid": 4499753,
+      "revid": 1363704752,
+      "file": "fun.wiki"
+    },
+    {
+      "code": "fwa",
+      "title": "Fort Wayne International Airport",
+      "pageid": 269817,
+      "revid": 1365761248,
+      "file": "fwa.wiki"
+    },
+    {
+      "code": "gaj",
+      "title": "Yamagata Airport",
+      "pageid": 9619176,
+      "revid": 1363088255,
+      "file": "gaj.wiki"
+    },
+    {
+      "code": "gan",
+      "title": "Gan International Airport",
+      "pageid": 4466000,
+      "revid": 1363051755,
+      "file": "gan.wiki"
+    },
+    {
+      "code": "gci",
+      "title": "Guernsey Airport",
+      "pageid": 1146332,
+      "revid": 1365774692,
+      "file": "gci.wiki"
+    },
+    {
+      "code": "gck",
+      "title": "Garden City Regional Airport",
+      "pageid": 2297143,
+      "revid": 1365146767,
+      "file": "gck.wiki"
+    },
+    {
+      "code": "gcm",
+      "title": "Owen Roberts International Airport",
+      "pageid": 267700,
+      "revid": 1365624033,
+      "file": "gcm.wiki"
+    },
+    {
+      "code": "gdl",
+      "title": "Guadalajara International Airport",
+      "pageid": 323279,
+      "revid": 1368336992,
+      "file": "gdl.wiki"
+    },
+    {
+      "code": "gdn",
+      "title": "Gdańsk Lech Wałęsa Airport",
+      "pageid": 1306522,
+      "revid": 1367514138,
+      "file": "gdn.wiki"
+    },
+    {
+      "code": "geg",
+      "title": "Spokane International Airport",
+      "pageid": 301851,
+      "revid": 1364154652,
+      "file": "geg.wiki"
+    },
+    {
+      "code": "geo",
+      "title": "Cheddi Jagan International Airport",
+      "pageid": 4063431,
+      "revid": 1369050368,
+      "file": "geo.wiki"
+    },
+    {
+      "code": "get",
+      "title": "Geraldton Airport",
+      "pageid": 9748343,
+      "revid": 1363039240,
+      "file": "get.wiki"
+    },
+    {
+      "code": "gff",
+      "title": "Griffith Airport",
+      "pageid": 9748468,
+      "revid": 1366231401,
+      "file": "gff.wiki"
+    },
+    {
+      "code": "ggg",
+      "title": "East Texas Regional Airport",
+      "pageid": 2742350,
+      "revid": 1364483719,
+      "file": "ggg.wiki"
+    },
+    {
+      "code": "ggt",
+      "title": "Exuma International Airport",
+      "pageid": 2555957,
+      "revid": 1363036458,
+      "file": "ggt.wiki"
+    },
+    {
+      "code": "ghb",
+      "title": "Governor's Harbour Airport",
+      "pageid": 10082696,
+      "revid": 1363039839,
+      "file": "ghb.wiki"
+    },
+    {
+      "code": "gib",
+      "title": "Gibraltar International Airport",
+      "pageid": 2120898,
+      "revid": 1368971317,
+      "file": "gib.wiki"
+    },
+    {
+      "code": "gig",
+      "title": "Rio de Janeiro/Galeão International Airport",
+      "pageid": 1317775,
+      "revid": 1369031290,
+      "file": "gig.wiki"
+    },
+    {
+      "code": "gjt",
+      "title": "Grand Junction Regional Airport",
+      "pageid": 2281910,
+      "revid": 1365147918,
+      "file": "gjt.wiki"
+    },
+    {
+      "code": "gla",
+      "title": "Glasgow Airport",
+      "pageid": 280312,
+      "revid": 1368780120,
+      "file": "gla.wiki"
+    },
+    {
+      "code": "glt",
+      "title": "Gladstone Airport",
+      "pageid": 9067761,
+      "revid": 1368849160,
+      "file": "glt.wiki"
+    },
+    {
+      "code": "gmp",
+      "title": "Gimpo International Airport",
+      "pageid": 286912,
+      "revid": 1368756095,
+      "file": "gmp.wiki"
+    },
+    {
+      "code": "gnb",
+      "title": "Alpes–Isère Airport",
+      "pageid": 5390603,
+      "revid": 1362959116,
+      "file": "gnb.wiki"
+    },
+    {
+      "code": "gnd",
+      "title": "Maurice Bishop International Airport",
+      "pageid": 4879539,
+      "revid": 1364484662,
+      "file": "gnd.wiki"
+    },
+    {
+      "code": "gnv",
+      "title": "Gainesville Regional Airport",
+      "pageid": 272116,
+      "revid": 1365146415,
+      "file": "gnv.wiki"
+    },
+    {
+      "code": "got",
+      "title": "Göteborg Landvetter Airport",
+      "pageid": 367664,
+      "revid": 1369093258,
+      "file": "got.wiki"
+    },
+    {
+      "code": "gov",
+      "title": "Gove Airport",
+      "pageid": 4754970,
+      "revid": 1363791356,
+      "file": "gov.wiki"
+    },
+    {
+      "code": "gox",
+      "title": "Manohar International Airport",
+      "pageid": 51436623,
+      "revid": 1365251382,
+      "file": "gox.wiki"
+    },
+    {
+      "code": "gpt",
+      "title": "Gulfport–Biloxi International Airport",
+      "pageid": 294930,
+      "revid": 1365149011,
+      "file": "gpt.wiki"
+    },
+    {
+      "code": "grb",
+      "title": "Green Bay–Austin Straubel International Airport",
+      "pageid": 1755634,
+      "revid": 1366836055,
+      "file": "grb.wiki"
+    },
+    {
+      "code": "gri",
+      "title": "Central Nebraska Regional Airport",
+      "pageid": 2153280,
+      "revid": 1364272971,
+      "file": "gri.wiki"
+    },
+    {
+      "code": "grk",
+      "title": "Killeen Regional Airport",
+      "pageid": 2650975,
+      "revid": 1366692840,
+      "file": "grk.wiki"
+    },
+    {
+      "code": "grr",
+      "title": "Gerald R. Ford International Airport",
+      "pageid": 262473,
+      "revid": 1367573688,
+      "file": "grr.wiki"
+    },
+    {
+      "code": "gru",
+      "title": "São Paulo/Guarulhos International Airport",
+      "pageid": 719074,
+      "revid": 1369107978,
+      "file": "gru.wiki"
+    },
+    {
+      "code": "grx",
+      "title": "Federico García Lorca Granada Airport",
+      "pageid": 4682270,
+      "revid": 1369030062,
+      "file": "grx.wiki"
+    },
+    {
+      "code": "grz",
+      "title": "Graz Airport",
+      "pageid": 1733376,
+      "revid": 1367916748,
+      "file": "grz.wiki"
+    },
+    {
+      "code": "gso",
+      "title": "Piedmont Triad International Airport",
+      "pageid": 294534,
+      "revid": 1366844966,
+      "file": "gso.wiki"
+    },
+    {
+      "code": "gsp",
+      "title": "Greenville–Spartanburg International Airport",
+      "pageid": 294532,
+      "revid": 1365148761,
+      "file": "gsp.wiki"
+    },
+    {
+      "code": "gst",
+      "title": "Gustavus Airport",
+      "pageid": 6530288,
+      "revid": 1365149041,
+      "file": "gst.wiki"
+    },
+    {
+      "code": "gte",
+      "title": "Groote Eylandt Airport",
+      "pageid": 9748554,
+      "revid": 1364526938,
+      "file": "gte.wiki"
+    },
+    {
+      "code": "gtf",
+      "title": "Great Falls International Airport",
+      "pageid": 1730518,
+      "revid": 1368988950,
+      "file": "gtf.wiki"
+    },
+    {
+      "code": "gtr",
+      "title": "Golden Triangle Regional Airport",
+      "pageid": 1944415,
+      "revid": 1365147673,
+      "file": "gtr.wiki"
+    },
+    {
+      "code": "gua",
+      "title": "La Aurora International Airport",
+      "pageid": 716665,
+      "revid": 1368888352,
+      "file": "gua.wiki"
+    },
+    {
+      "code": "guc",
+      "title": "Gunnison–Crested Butte Regional Airport",
+      "pageid": 2296336,
+      "revid": 1365149030,
+      "file": "guc.wiki"
+    },
+    {
+      "code": "gum",
+      "title": "Antonio B. Won Pat International Airport",
+      "pageid": 291340,
+      "revid": 1364139179,
+      "file": "gum.wiki"
+    },
+    {
+      "code": "gva",
+      "title": "Geneva Airport",
+      "pageid": 292616,
+      "revid": 1367475298,
+      "file": "gva.wiki"
+    },
+    {
+      "code": "gyd",
+      "title": "Heydar Aliyev International Airport",
+      "pageid": 736545,
+      "revid": 1367409943,
+      "file": "gyd.wiki"
+    },
+    {
+      "code": "gye",
+      "title": "José Joaquín de Olmedo International Airport",
+      "pageid": 715410,
+      "revid": 1363843078,
+      "file": "gye.wiki"
+    },
+    {
+      "code": "gzp",
+      "title": "Gazipaşa–Alanya Airport",
+      "pageid": 16678891,
+      "revid": 1365882958,
+      "file": "gzp.wiki"
+    },
+    {
+      "code": "haj",
+      "title": "Hannover Airport",
+      "pageid": 536448,
+      "revid": 1369039352,
+      "file": "haj.wiki"
+    },
+    {
+      "code": "hak",
+      "title": "Haikou Meilan International Airport",
+      "pageid": 4398666,
+      "revid": 1368511250,
+      "file": "hak.wiki"
+    },
+    {
+      "code": "ham",
+      "title": "Hamburg Airport",
+      "pageid": 900545,
+      "revid": 1366680892,
+      "file": "ham.wiki"
+    },
+    {
+      "code": "han",
+      "title": "Noi Bai International Airport",
+      "pageid": 2920550,
+      "revid": 1369025286,
+      "file": "han.wiki"
+    },
+    {
+      "code": "has",
+      "title": "Hail International Airport",
+      "pageid": 9419750,
+      "revid": 1363797344,
+      "file": "has.wiki"
+    },
+    {
+      "code": "hav",
+      "title": "José Martí International Airport",
+      "pageid": 102421,
+      "revid": 1367700544,
+      "file": "hav.wiki"
+    },
+    {
+      "code": "hba",
+      "title": "Hobart Airport",
+      "pageid": 860952,
+      "revid": 1367761786,
+      "file": "hba.wiki"
+    },
+    {
+      "code": "hbe",
+      "title": "Alexandria International Airport (Egypt)",
+      "pageid": 7898090,
+      "revid": 1368450728,
+      "file": "hbe.wiki"
+    },
+    {
+      "code": "hdn",
+      "title": "Yampa Valley Airport",
+      "pageid": 2295922,
+      "revid": 1365667152,
+      "file": "hdn.wiki"
+    },
+    {
+      "code": "hel",
+      "title": "Helsinki Airport",
+      "pageid": 141541,
+      "revid": 1369030309,
+      "file": "hel.wiki"
+    },
+    {
+      "code": "her",
+      "title": "Heraklion International Airport \"Nikos Kazantzakis\"",
+      "pageid": 2448512,
+      "revid": 1367528390,
+      "file": "her.wiki"
+    },
+    {
+      "code": "hgh",
+      "title": "Hangzhou Xiaoshan International Airport",
+      "pageid": 3284060,
+      "revid": 1369029290,
+      "file": "hgh.wiki"
+    },
+    {
+      "code": "hhh",
+      "title": "Hilton Head Airport",
+      "pageid": 2448937,
+      "revid": 1367865169,
+      "file": "hhh.wiki"
+    },
+    {
+      "code": "hij",
+      "title": "Hiroshima Airport",
+      "pageid": 1075344,
+      "revid": 1369120492,
+      "file": "hij.wiki"
+    },
+    {
+      "code": "hir",
+      "title": "Honiara International Airport",
+      "pageid": 3783162,
+      "revid": 1363302340,
+      "file": "hir.wiki"
+    },
+    {
+      "code": "hkd",
+      "title": "Hakodate Airport",
+      "pageid": 424131,
+      "revid": 1363085826,
+      "file": "hkd.wiki"
+    },
+    {
+      "code": "hkg",
+      "title": "Hong Kong International Airport",
+      "pageid": 248457,
+      "revid": 1369120519,
+      "file": "hkg.wiki"
+    },
+    {
+      "code": "hkt",
+      "title": "Phuket International Airport",
+      "pageid": 266302,
+      "revid": 1368812033,
+      "file": "hkt.wiki"
+    },
+    {
+      "code": "hln",
+      "title": "Helena Regional Airport",
+      "pageid": 2502537,
+      "revid": 1365149744,
+      "file": "hln.wiki"
+    },
+    {
+      "code": "hlz",
+      "title": "Hamilton Airport (New Zealand)",
+      "pageid": 1899589,
+      "revid": 1368961654,
+      "file": "hlz.wiki"
+    },
+    {
+      "code": "hmo",
+      "title": "Hermosillo International Airport",
+      "pageid": 382348,
+      "revid": 1365188741,
+      "file": "hmo.wiki"
+    },
+    {
+      "code": "hna",
+      "title": "Hanamaki Airport",
+      "pageid": 9583254,
+      "revid": 1363087183,
+      "file": "hna.wiki"
+    },
+    {
+      "code": "hnd",
+      "title": "Haneda Airport",
+      "pageid": 24071884,
+      "revid": 1368514456,
+      "file": "hnd.wiki"
+    },
+    {
+      "code": "hnl",
+      "title": "Daniel K. Inouye International Airport",
+      "pageid": 264285,
+      "revid": 1368627540,
+      "file": "hnl.wiki"
+    },
+    {
+      "code": "hog",
+      "title": "Frank País Airport",
+      "pageid": 6006857,
+      "revid": 1365484556,
+      "file": "hog.wiki"
+    },
+    {
+      "code": "hou",
+      "title": "William P. Hobby Airport",
+      "pageid": 248473,
+      "revid": 1367242713,
+      "file": "hou.wiki"
+    },
+    {
+      "code": "hpn",
+      "title": "Westchester County Airport",
+      "pageid": 249690,
+      "revid": 1362849845,
+      "file": "hpn.wiki"
+    },
+    {
+      "code": "hre",
+      "title": "Robert Gabriel Mugabe International Airport",
+      "pageid": 2984967,
+      "revid": 1363965813,
+      "file": "hre.wiki"
+    },
+    {
+      "code": "hrg",
+      "title": "Hurghada International Airport",
+      "pageid": 6846998,
+      "revid": 1368830756,
+      "file": "hrg.wiki"
+    },
+    {
+      "code": "hrl",
+      "title": "Valley International Airport",
+      "pageid": 301828,
+      "revid": 1366906690,
+      "file": "hrl.wiki"
+    },
+    {
+      "code": "hsv",
+      "title": "Huntsville International Airport",
+      "pageid": 295341,
+      "revid": 1365367635,
+      "file": "hsv.wiki"
+    },
+    {
+      "code": "hti",
+      "title": "Hamilton Island Airport",
+      "pageid": 6407239,
+      "revid": 1365764923,
+      "file": "hti.wiki"
+    },
+    {
+      "code": "hts",
+      "title": "Tri-State Airport",
+      "pageid": 2447822,
+      "revid": 1363100973,
+      "file": "hts.wiki"
+    },
+    {
+      "code": "hux",
+      "title": "Bahías de Huatulco International Airport",
+      "pageid": 2168597,
+      "revid": 1363015739,
+      "file": "hux.wiki"
+    },
+    {
+      "code": "hvb",
+      "title": "Hervey Bay Airport",
+      "pageid": 6412197,
+      "revid": 1362109911,
+      "file": "hvb.wiki"
+    },
+    {
+      "code": "hya",
+      "title": "Cape Cod Gateway Airport",
+      "pageid": 1847110,
+      "revid": 1364270975,
+      "file": "hya.wiki"
+    },
+    {
+      "code": "hyd",
+      "title": "Rajiv Gandhi International Airport",
+      "pageid": 5819521,
+      "revid": 1368719044,
+      "file": "hyd.wiki"
+    },
+    {
+      "code": "iad",
+      "title": "Dulles International Airport",
+      "pageid": 33591,
+      "revid": 1368333124,
+      "file": "iad.wiki"
+    },
+    {
+      "code": "iah",
+      "title": "George Bush Intercontinental Airport",
+      "pageid": 149577,
+      "revid": 1367292504,
+      "file": "iah.wiki"
+    },
+    {
+      "code": "ibz",
+      "title": "Ibiza Airport",
+      "pageid": 4682698,
+      "revid": 1363968661,
+      "file": "ibz.wiki"
+    },
+    {
+      "code": "ici",
+      "title": "Cicia Airport",
+      "pageid": 9871269,
+      "revid": 1363028008,
+      "file": "ici.wiki"
+    },
+    {
+      "code": "icn",
+      "title": "Incheon International Airport",
+      "pageid": 165522,
+      "revid": 1369120504,
+      "file": "icn.wiki"
+    },
+    {
+      "code": "ict",
+      "title": "Wichita Dwight D. Eisenhower National Airport",
+      "pageid": 1380237,
+      "revid": 1366744875,
+      "file": "ict.wiki"
+    },
+    {
+      "code": "ida",
+      "title": "Idaho Falls Regional Airport",
+      "pageid": 2164109,
+      "revid": 1365668107,
+      "file": "ida.wiki"
+    },
+    {
+      "code": "ifn",
+      "title": "Isfahan Shahid Beheshti International Airport",
+      "pageid": 2259284,
+      "revid": 1363821930,
+      "file": "ifn.wiki"
+    },
+    {
+      "code": "ika",
+      "title": "Imam Khomeini International Airport",
+      "pageid": 716542,
+      "revid": 1366117817,
+      "file": "ika.wiki"
+    },
+    {
+      "code": "ild",
+      "title": "Lleida–Alguaire Airport",
+      "pageid": 22686639,
+      "revid": 1363054246,
+      "file": "ild.wiki"
+    },
+    {
+      "code": "ilm",
+      "title": "Wilmington International Airport",
+      "pageid": 2445902,
+      "revid": 1366561858,
+      "file": "ilm.wiki"
+    },
+    {
+      "code": "ind",
+      "title": "Indianapolis International Airport",
+      "pageid": 269813,
+      "revid": 1368791110,
+      "file": "ind.wiki"
+    },
+    {
+      "code": "inn",
+      "title": "Innsbruck Airport",
+      "pageid": 3811269,
+      "revid": 1366487296,
+      "file": "inn.wiki"
+    },
+    {
+      "code": "inv",
+      "title": "Inverness Airport",
+      "pageid": 1995868,
+      "revid": 1364865983,
+      "file": "inv.wiki"
+    },
+    {
+      "code": "iom",
+      "title": "Isle of Man Airport",
+      "pageid": 2769938,
+      "revid": 1369095780,
+      "file": "iom.wiki"
+    },
+    {
+      "code": "isa",
+      "title": "Mount Isa Airport",
+      "pageid": 6407079,
+      "revid": 1365153469,
+      "file": "isa.wiki"
+    },
+    {
+      "code": "isb",
+      "title": "Islamabad International Airport",
+      "pageid": 14433562,
+      "revid": 1367150148,
+      "file": "isb.wiki"
+    },
+    {
+      "code": "isg",
+      "title": "New Ishigaki Airport",
+      "pageid": 2488304,
+      "revid": 1368340205,
+      "file": "isg.wiki"
+    },
+    {
+      "code": "ist",
+      "title": "Istanbul Airport",
+      "pageid": 38317336,
+      "revid": 1369100018,
+      "file": "ist.wiki"
+    },
+    {
+      "code": "itm",
+      "title": "Itami Airport",
+      "pageid": 24086495,
+      "revid": 1368102171,
+      "file": "itm.wiki"
+    },
+    {
+      "code": "ivl",
+      "title": "Ivalo Airport",
+      "pageid": 9278534,
+      "revid": 1363825593,
+      "file": "ivl.wiki"
+    },
+    {
+      "code": "ixm",
+      "title": "Madurai International Airport",
+      "pageid": 8628287,
+      "revid": 1368129685,
+      "file": "ixm.wiki"
+    },
+    {
+      "code": "izo",
+      "title": "Izumo Airport",
+      "pageid": 5913548,
+      "revid": 1363045239,
+      "file": "izo.wiki"
+    },
+    {
+      "code": "jac",
+      "title": "Jackson Hole Airport",
+      "pageid": 1756579,
+      "revid": 1365151282,
+      "file": "jac.wiki"
+    },
+    {
+      "code": "jan",
+      "title": "Jackson–Medgar Wiley Evers International Airport",
+      "pageid": 294944,
+      "revid": 1365151340,
+      "file": "jan.wiki"
+    },
+    {
+      "code": "jax",
+      "title": "Jacksonville International Airport",
+      "pageid": 287193,
+      "revid": 1367083977,
+      "file": "jax.wiki"
+    },
+    {
+      "code": "jed",
+      "title": "King Abdulaziz International Airport",
+      "pageid": 1612808,
+      "revid": 1368480903,
+      "file": "jed.wiki"
+    },
+    {
+      "code": "jer",
+      "title": "Jersey Airport",
+      "pageid": 3240000,
+      "revid": 1367505381,
+      "file": "jer.wiki"
+    },
+    {
+      "code": "jfk",
+      "title": "John F. Kennedy International Airport",
+      "pageid": 97218,
+      "revid": 1369045261,
+      "file": "jfk.wiki"
+    },
+    {
+      "code": "jhb",
+      "title": "Senai International Airport",
+      "pageid": 2122450,
+      "revid": 1363097246,
+      "file": "jhb.wiki"
+    },
+    {
+      "code": "jib",
+      "title": "Djibouti–Ambouli International Airport",
+      "pageid": 2955839,
+      "revid": 1363033393,
+      "file": "jib.wiki"
+    },
+    {
+      "code": "jmk",
+      "title": "Mykonos Airport",
+      "pageid": 9304873,
+      "revid": 1367335766,
+      "file": "jmk.wiki"
+    },
+    {
+      "code": "jnb",
+      "title": "O. R. Tambo International Airport",
+      "pageid": 106491,
+      "revid": 1368760740,
+      "file": "jnb.wiki"
+    },
+    {
+      "code": "jnu",
+      "title": "Juneau International Airport",
+      "pageid": 2328325,
+      "revid": 1366692030,
+      "file": "jnu.wiki"
+    },
+    {
+      "code": "joe",
+      "title": "Joensuu Airport",
+      "pageid": 9278591,
+      "revid": 1363046074,
+      "file": "joe.wiki"
+    },
+    {
+      "code": "jro",
+      "title": "Kilimanjaro International Airport",
+      "pageid": 150114,
+      "revid": 1364747984,
+      "file": "jro.wiki"
+    },
+    {
+      "code": "jsi",
+      "title": "Skiathos International Airport",
+      "pageid": 9305200,
+      "revid": 1367336393,
+      "file": "jsi.wiki"
+    },
+    {
+      "code": "jtr",
+      "title": "Santorini International Airport",
+      "pageid": 9305336,
+      "revid": 1367335574,
+      "file": "jtr.wiki"
+    },
+    {
+      "code": "jyv",
+      "title": "Jyväskylä Airport",
+      "pageid": 9278672,
+      "revid": 1363046647,
+      "file": "jyv.wiki"
+    },
+    {
+      "code": "kaj",
+      "title": "Kajaani Airport",
+      "pageid": 9280401,
+      "revid": 1363046903,
+      "file": "kaj.wiki"
+    },
+    {
+      "code": "kan",
+      "title": "Mallam Aminu Kano International Airport",
+      "pageid": 9917721,
+      "revid": 1363056468,
+      "file": "kan.wiki"
+    },
+    {
+      "code": "kao",
+      "title": "Kuusamo Airport",
+      "pageid": 9280546,
+      "revid": 1363050843,
+      "file": "kao.wiki"
+    },
+    {
+      "code": "kbr",
+      "title": "Sultan Ismail Petra Airport",
+      "pageid": 6534177,
+      "revid": 1365930473,
+      "file": "kbr.wiki"
+    },
+    {
+      "code": "kbv",
+      "title": "Krabi International Airport",
+      "pageid": 8937512,
+      "revid": 1364154337,
+      "file": "kbv.wiki"
+    },
+    {
+      "code": "kch",
+      "title": "Kuching International Airport",
+      "pageid": 3307418,
+      "revid": 1365585662,
+      "file": "kch.wiki"
+    },
+    {
+      "code": "kcz",
+      "title": "Kōchi Airport",
+      "pageid": 9586243,
+      "revid": 1363051016,
+      "file": "kcz.wiki"
+    },
+    {
+      "code": "kdv",
+      "title": "Vunisea Airport",
+      "pageid": 9871293,
+      "revid": 1363086706,
+      "file": "kdv.wiki"
+    },
+    {
+      "code": "kef",
+      "title": "Keflavík International Airport",
+      "pageid": 1168845,
+      "revid": 1367176270,
+      "file": "kef.wiki"
+    },
+    {
+      "code": "kem",
+      "title": "Kemi-Tornio Airport",
+      "pageid": 8916229,
+      "revid": 1363048353,
+      "file": "kem.wiki"
+    },
+    {
+      "code": "kgc",
+      "title": "Kingscote Airport",
+      "pageid": 8717527,
+      "revid": 1363049219,
+      "file": "kgc.wiki"
+    },
+    {
+      "code": "kgi",
+      "title": "Kalgoorlie–Boulder Airport",
+      "pageid": 9784627,
+      "revid": 1363047071,
+      "file": "kgi.wiki"
+    },
+    {
+      "code": "kgl",
+      "title": "Kigali International Airport",
+      "pageid": 4239626,
+      "revid": 1365351109,
+      "file": "kgl.wiki"
+    },
+    {
+      "code": "kgs",
+      "title": "Kos International Airport",
+      "pageid": 9304644,
+      "revid": 1367335452,
+      "file": "kgs.wiki"
+    },
+    {
+      "code": "khh",
+      "title": "Kaohsiung International Airport",
+      "pageid": 680596,
+      "revid": 1367531753,
+      "file": "khh.wiki"
+    },
+    {
+      "code": "khi",
+      "title": "Jinnah International Airport",
+      "pageid": 26636227,
+      "revid": 1365426185,
+      "file": "khi.wiki"
+    },
+    {
+      "code": "khs",
+      "title": "Khasab Airport",
+      "pageid": 9417706,
+      "revid": 1363954825,
+      "file": "khs.wiki"
+    },
+    {
+      "code": "kij",
+      "title": "Niigata Airport",
+      "pageid": 3550740,
+      "revid": 1364230283,
+      "file": "kij.wiki"
+    },
+    {
+      "code": "kin",
+      "title": "Norman Manley International Airport",
+      "pageid": 267703,
+      "revid": 1365585091,
+      "file": "kin.wiki"
+    },
+    {
+      "code": "kix",
+      "title": "Kansai International Airport",
+      "pageid": 190972,
+      "revid": 1369120472,
+      "file": "kix.wiki"
+    },
+    {
+      "code": "kkj",
+      "title": "Kitakyushu Airport",
+      "pageid": 1416004,
+      "revid": 1369120491,
+      "file": "kkj.wiki"
+    },
+    {
+      "code": "kkn",
+      "title": "Kirkenes Airport",
+      "pageid": 5959934,
+      "revid": 1363049320,
+      "file": "kkn.wiki"
+    },
+    {
+      "code": "kkx",
+      "title": "Kikai Airport",
+      "pageid": 15732864,
+      "revid": 1363048990,
+      "file": "kkx.wiki"
+    },
+    {
+      "code": "klx",
+      "title": "Kalamata International Airport",
+      "pageid": 1651077,
+      "revid": 1367336766,
+      "file": "klx.wiki"
+    },
+    {
+      "code": "kmi",
+      "title": "Miyazaki Airport",
+      "pageid": 9587489,
+      "revid": 1363059391,
+      "file": "kmi.wiki"
+    },
+    {
+      "code": "kmj",
+      "title": "Kumamoto Airport",
+      "pageid": 9586575,
+      "revid": 1366686597,
+      "file": "kmj.wiki"
+    },
+    {
+      "code": "kmq",
+      "title": "Komatsu Airport",
+      "pageid": 7657891,
+      "revid": 1364659639,
+      "file": "kmq.wiki"
+    },
+    {
+      "code": "kno",
+      "title": "Kualanamu International Airport",
+      "pageid": 5770707,
+      "revid": 1367332287,
+      "file": "kno.wiki"
+    },
+    {
+      "code": "koa",
+      "title": "Kona International Airport",
+      "pageid": 512376,
+      "revid": 1366693120,
+      "file": "koa.wiki"
+    },
+    {
+      "code": "koj",
+      "title": "Kagoshima Airport",
+      "pageid": 1179675,
+      "revid": 1365064289,
+      "file": "koj.wiki"
+    },
+    {
+      "code": "kok",
+      "title": "Kokkola-Pietarsaari Airport",
+      "pageid": 9017204,
+      "revid": 1363049805,
+      "file": "kok.wiki"
+    },
+    {
+      "code": "krk",
+      "title": "Kraków John Paul II International Airport",
+      "pageid": 320407,
+      "revid": 1364478343,
+      "file": "krk.wiki"
+    },
+    {
+      "code": "krt",
+      "title": "Khartoum International Airport",
+      "pageid": 4306874,
+      "revid": 1363954804,
+      "file": "krt.wiki"
+    },
+    {
+      "code": "kta",
+      "title": "Karratha Airport",
+      "pageid": 9784800,
+      "revid": 1362729771,
+      "file": "kta.wiki"
+    },
+    {
+      "code": "kti",
+      "title": "Techo International Airport",
+      "pageid": 67357029,
+      "revid": 1368018026,
+      "file": "kti.wiki"
+    },
+    {
+      "code": "ktm",
+      "title": "Tribhuvan International Airport",
+      "pageid": 2517858,
+      "revid": 1369114201,
+      "file": "ktm.wiki"
+    },
+    {
+      "code": "ktn",
+      "title": "Ketchikan International Airport",
+      "pageid": 2500931,
+      "revid": 1366692694,
+      "file": "ktn.wiki"
+    },
+    {
+      "code": "ktt",
+      "title": "Kittilä Airport",
+      "pageid": 6151685,
+      "revid": 1365644286,
+      "file": "ktt.wiki"
+    },
+    {
+      "code": "kua",
+      "title": "Sultan Haji Ahmad Shah Airport",
+      "pageid": 6534221,
+      "revid": 1363080952,
+      "file": "kua.wiki"
+    },
+    {
+      "code": "kuh",
+      "title": "Kushiro Airport",
+      "pageid": 3559303,
+      "revid": 1363050780,
+      "file": "kuh.wiki"
+    },
+    {
+      "code": "kul",
+      "title": "Kuala Lumpur International Airport",
+      "pageid": 105963,
+      "revid": 1369120520,
+      "file": "kul.wiki"
+    },
+    {
+      "code": "kum",
+      "title": "Yakushima Airport",
+      "pageid": 15745333,
+      "revid": 1363088232,
+      "file": "kum.wiki"
+    },
+    {
+      "code": "kuo",
+      "title": "Kuopio Airport",
+      "pageid": 9280515,
+      "revid": 1363050696,
+      "file": "kuo.wiki"
+    },
+    {
+      "code": "kwi",
+      "title": "Kuwait International Airport",
+      "pageid": 464414,
+      "revid": 1367987058,
+      "file": "kwi.wiki"
+    },
+    {
+      "code": "kxf",
+      "title": "Koro Airport",
+      "pageid": 9871362,
+      "revid": 1363050104,
+      "file": "kxf.wiki"
+    },
+    {
+      "code": "lan",
+      "title": "Capital Region International Airport",
+      "pageid": 1637981,
+      "revid": 1366041377,
+      "file": "lan.wiki"
+    },
+    {
+      "code": "lap",
+      "title": "La Paz International Airport",
+      "pageid": 2169492,
+      "revid": 1364220979,
+      "file": "lap.wiki"
+    },
+    {
+      "code": "las",
+      "title": "Harry Reid International Airport",
+      "pageid": 262540,
+      "revid": 1368336363,
+      "file": "las.wiki"
+    },
+    {
+      "code": "law",
+      "title": "Lawton–Fort Sill Regional Airport",
+      "pageid": 2297028,
+      "revid": 1362851770,
+      "file": "law.wiki"
+    },
+    {
+      "code": "lax",
+      "title": "Los Angeles International Airport",
+      "pageid": 18131,
+      "revid": 1368983137,
+      "file": "lax.wiki"
+    },
+    {
+      "code": "lbb",
+      "title": "Lubbock Preston Smith International Airport",
+      "pageid": 301834,
+      "revid": 1364309183,
+      "file": "lbb.wiki"
+    },
+    {
+      "code": "lbs",
+      "title": "Labasa Airport",
+      "pageid": 9871465,
+      "revid": 1363051611,
+      "file": "lbs.wiki"
+    },
+    {
+      "code": "lbu",
+      "title": "Labuan Airport",
+      "pageid": 6534236,
+      "revid": 1366501624,
+      "file": "lbu.wiki"
+    },
+    {
+      "code": "lbv",
+      "title": "Léon-Mba International Airport",
+      "pageid": 7176404,
+      "revid": 1366992044,
+      "file": "lbv.wiki"
+    },
+    {
+      "code": "lca",
+      "title": "Larnaca International Airport",
+      "pageid": 2922491,
+      "revid": 1364274797,
+      "file": "lca.wiki"
+    },
+    {
+      "code": "lcg",
+      "title": "A Coruña Airport",
+      "pageid": 4682198,
+      "revid": 1366893569,
+      "file": "lcg.wiki"
+    },
+    {
+      "code": "lch",
+      "title": "Lake Charles Regional Airport",
+      "pageid": 2338836,
+      "revid": 1364367264,
+      "file": "lch.wiki"
+    },
+    {
+      "code": "lcy",
+      "title": "London City Airport",
+      "pageid": 239680,
+      "revid": 1367792320,
+      "file": "lcy.wiki"
+    },
+    {
+      "code": "lea",
+      "title": "Learmonth Airport",
+      "pageid": 19647368,
+      "revid": 1363053043,
+      "file": "lea.wiki"
+    },
+    {
+      "code": "led",
+      "title": "Pulkovo Airport",
+      "pageid": 729860,
+      "revid": 1368781121,
+      "file": "led.wiki"
+    },
+    {
+      "code": "lei",
+      "title": "Almería Airport",
+      "pageid": 3239712,
+      "revid": 1362959068,
+      "file": "lei.wiki"
+    },
+    {
+      "code": "len",
+      "title": "León Airport",
+      "pageid": 7612297,
+      "revid": 1367839360,
+      "file": "len.wiki"
+    },
+    {
+      "code": "ler",
+      "title": "Leinster Airport",
+      "pageid": 9785739,
+      "revid": 1363053270,
+      "file": "ler.wiki"
+    },
+    {
+      "code": "leu",
+      "title": "Andorra–La Seu d'Urgell Airport",
+      "pageid": 22288678,
+      "revid": 1362959798,
+      "file": "leu.wiki"
+    },
+    {
+      "code": "lex",
+      "title": "Blue Grass Airport",
+      "pageid": 1745478,
+      "revid": 1369108962,
+      "file": "lex.wiki"
+    },
+    {
+      "code": "lft",
+      "title": "Lafayette Regional Airport",
+      "pageid": 306339,
+      "revid": 1364264909,
+      "file": "lft.wiki"
+    },
+    {
+      "code": "lfw",
+      "title": "Lomé–Tokoin International Airport",
+      "pageid": 4272086,
+      "revid": 1364303582,
+      "file": "lfw.wiki"
+    },
+    {
+      "code": "lga",
+      "title": "LaGuardia Airport",
+      "pageid": 248547,
+      "revid": 1368692481,
+      "file": "lga.wiki"
+    },
+    {
+      "code": "lgb",
+      "title": "Long Beach Airport",
+      "pageid": 250476,
+      "revid": 1368785250,
+      "file": "lgb.wiki"
+    },
+    {
+      "code": "lgk",
+      "title": "Langkawi International Airport",
+      "pageid": 5408759,
+      "revid": 1368556010,
+      "file": "lgk.wiki"
+    },
+    {
+      "code": "lgw",
+      "title": "Gatwick Airport",
+      "pageid": 101359,
+      "revid": 1367813352,
+      "file": "lgw.wiki"
+    },
+    {
+      "code": "lhe",
+      "title": "Allama Iqbal International Airport",
+      "pageid": 377377,
+      "revid": 1368784972,
+      "file": "lhe.wiki"
+    },
+    {
+      "code": "lhr",
+      "title": "Heathrow Airport",
+      "pageid": 13595,
+      "revid": 1368880683,
+      "file": "lhr.wiki"
+    },
+    {
+      "code": "lih",
+      "title": "Lihue Airport",
+      "pageid": 134972,
+      "revid": 1364765733,
+      "file": "lih.wiki"
+    },
+    {
+      "code": "lim",
+      "title": "Jorge Chávez International Airport",
+      "pageid": 102000,
+      "revid": 1368319254,
+      "file": "lim.wiki"
+    },
+    {
+      "code": "lin",
+      "title": "Milan Linate Airport",
+      "pageid": 267709,
+      "revid": 1367358042,
+      "file": "lin.wiki"
+    },
+    {
+      "code": "lir",
+      "title": "Guanacaste Airport",
+      "pageid": 2565320,
+      "revid": 1368066807,
+      "file": "lir.wiki"
+    },
+    {
+      "code": "lis",
+      "title": "Lisbon Airport",
+      "pageid": 737934,
+      "revid": 1367306770,
+      "file": "lis.wiki"
+    },
+    {
+      "code": "lit",
+      "title": "Clinton National Airport",
+      "pageid": 241584,
+      "revid": 1364480035,
+      "file": "lit.wiki"
+    },
+    {
+      "code": "lju",
+      "title": "Ljubljana Airport",
+      "pageid": 1139255,
+      "revid": 1368828940,
+      "file": "lju.wiki"
+    },
+    {
+      "code": "lkb",
+      "title": "Lakeba Airport",
+      "pageid": 9871482,
+      "revid": 1363052070,
+      "file": "lkb.wiki"
+    },
+    {
+      "code": "lnk",
+      "title": "Lincoln Airport (Nebraska)",
+      "pageid": 2461844,
+      "revid": 1367843563,
+      "file": "lnk.wiki"
+    },
+    {
+      "code": "los",
+      "title": "Murtala Muhammed International Airport",
+      "pageid": 1164602,
+      "revid": 1368784328,
+      "file": "los.wiki"
+    },
+    {
+      "code": "lpa",
+      "title": "Gran Canaria Airport",
+      "pageid": 2055821,
+      "revid": 1368782464,
+      "file": "lpa.wiki"
+    },
+    {
+      "code": "lrd",
+      "title": "Laredo International Airport",
+      "pageid": 317334,
+      "revid": 1368279027,
+      "file": "lrd.wiki"
+    },
+    {
+      "code": "lre",
+      "title": "Longreach Airport",
+      "pageid": 681210,
+      "revid": 1366989454,
+      "file": "lre.wiki"
+    },
+    {
+      "code": "lrm",
+      "title": "La Romana International Airport",
+      "pageid": 4155598,
+      "revid": 1365468939,
+      "file": "lrm.wiki"
+    },
+    {
+      "code": "lse",
+      "title": "La Crosse Regional Airport",
+      "pageid": 2644659,
+      "revid": 1364263975,
+      "file": "lse.wiki"
+    },
+    {
+      "code": "lst",
+      "title": "Launceston Airport",
+      "pageid": 864396,
+      "revid": 1364275600,
+      "file": "lst.wiki"
+    },
+    {
+      "code": "lto",
+      "title": "Loreto International Airport",
+      "pageid": 2169415,
+      "revid": 1364307739,
+      "file": "lto.wiki"
+    },
+    {
+      "code": "lun",
+      "title": "Kenneth Kaunda International Airport",
+      "pageid": 5212444,
+      "revid": 1367134528,
+      "file": "lun.wiki"
+    },
+    {
+      "code": "lux",
+      "title": "Luxembourg Airport",
+      "pageid": 400254,
+      "revid": 1364852131,
+      "file": "lux.wiki"
+    },
+    {
+      "code": "lvo",
+      "title": "Laverton Airport",
+      "pageid": 9785596,
+      "revid": 1363052843,
+      "file": "lvo.wiki"
+    },
+    {
+      "code": "lwb",
+      "title": "Greenbrier Valley Airport",
+      "pageid": 2448214,
+      "revid": 1369049619,
+      "file": "lwb.wiki"
+    },
+    {
+      "code": "lxs",
+      "title": "Lemnos International Airport",
+      "pageid": 9304843,
+      "revid": 1367337189,
+      "file": "lxs.wiki"
+    },
+    {
+      "code": "lyh",
+      "title": "Lynchburg Regional Airport",
+      "pageid": 2486169,
+      "revid": 1364648491,
+      "file": "lyh.wiki"
+    },
+    {
+      "code": "lys",
+      "title": "Lyon–Saint-Exupéry Airport",
+      "pageid": 38945443,
+      "revid": 1364310999,
+      "file": "lys.wiki"
+    },
+    {
+      "code": "maa",
+      "title": "Chennai International Airport",
+      "pageid": 296106,
+      "revid": 1369148346,
+      "file": "maa.wiki"
+    },
+    {
+      "code": "mad",
+      "title": "Madrid–Barajas Airport",
+      "pageid": 100383,
+      "revid": 1368898251,
+      "file": "mad.wiki"
+    },
+    {
+      "code": "maf",
+      "title": "Midland International Air and Space Port",
+      "pageid": 307579,
+      "revid": 1365146863,
+      "file": "maf.wiki"
+    },
+    {
+      "code": "mah",
+      "title": "Menorca Airport",
+      "pageid": 4682943,
+      "revid": 1363058577,
+      "file": "mah.wiki"
+    },
+    {
+      "code": "man",
+      "title": "Manchester Airport",
+      "pageid": 266959,
+      "revid": 1368988367,
+      "file": "man.wiki"
+    },
+    {
+      "code": "mar",
+      "title": "La Chinita International Airport",
+      "pageid": 3226482,
+      "revid": 1368792005,
+      "file": "mar.wiki"
+    },
+    {
+      "code": "mbj",
+      "title": "Sangster International Airport",
+      "pageid": 1351660,
+      "revid": 1363076983,
+      "file": "mbj.wiki"
+    },
+    {
+      "code": "mci",
+      "title": "Kansas City International Airport",
+      "pageid": 290172,
+      "revid": 1366692111,
+      "file": "mci.wiki"
+    },
+    {
+      "code": "mco",
+      "title": "Orlando International Airport",
+      "pageid": 263637,
+      "revid": 1368960628,
+      "file": "mco.wiki"
+    },
+    {
+      "code": "mct",
+      "title": "Muscat International Airport",
+      "pageid": 34300972,
+      "revid": 1368707776,
+      "file": "mct.wiki"
+    },
+    {
+      "code": "mcy",
+      "title": "Sunshine Coast Airport",
+      "pageid": 2827137,
+      "revid": 1364455408,
+      "file": "mcy.wiki"
+    },
+    {
+      "code": "mde",
+      "title": "José María Córdova International Airport",
+      "pageid": 907089,
+      "revid": 1368325388,
+      "file": "mde.wiki"
+    },
+    {
+      "code": "mdt",
+      "title": "Harrisburg International Airport",
+      "pageid": 309542,
+      "revid": 1367644593,
+      "file": "mdt.wiki"
+    },
+    {
+      "code": "med",
+      "title": "Prince Mohammad bin Abdulaziz International Airport",
+      "pageid": 2655033,
+      "revid": 1368481062,
+      "file": "med.wiki"
+    },
+    {
+      "code": "mel",
+      "title": "Melbourne Airport",
+      "pageid": 266317,
+      "revid": 1368372380,
+      "file": "mel.wiki"
+    },
+    {
+      "code": "mem",
+      "title": "Memphis International Airport",
+      "pageid": 263638,
+      "revid": 1369072912,
+      "file": "mem.wiki"
+    },
+    {
+      "code": "mex",
+      "title": "Mexico City International Airport",
+      "pageid": 99808,
+      "revid": 1365146061,
+      "file": "mex.wiki"
+    },
+    {
+      "code": "mfe",
+      "title": "McAllen Miller International Airport",
+      "pageid": 301149,
+      "revid": 1369053435,
+      "file": "mfe.wiki"
+    },
+    {
+      "code": "mfr",
+      "title": "Rogue Valley International–Medford Airport",
+      "pageid": 1946878,
+      "revid": 1363058598,
+      "file": "mfr.wiki"
+    },
+    {
+      "code": "mga",
+      "title": "Augusto C. Sandino International Airport",
+      "pageid": 714348,
+      "revid": 1362748232,
+      "file": "mga.wiki"
+    },
+    {
+      "code": "mgm",
+      "title": "Montgomery Regional Airport",
+      "pageid": 2426185,
+      "revid": 1366014832,
+      "file": "mgm.wiki"
+    },
+    {
+      "code": "mgq",
+      "title": "Aden Adde International Airport",
+      "pageid": 5613319,
+      "revid": 1362957535,
+      "file": "mgq.wiki"
+    },
+    {
+      "code": "mhd",
+      "title": "Mashhad Shahid Hasheminejad International Airport",
+      "pageid": 4532538,
+      "revid": 1364482283,
+      "file": "mhd.wiki"
+    },
+    {
+      "code": "mhh",
+      "title": "Marsh Harbour Airport",
+      "pageid": 7111736,
+      "revid": 1363057499,
+      "file": "mhh.wiki"
+    },
+    {
+      "code": "mhk",
+      "title": "Manhattan Regional Airport",
+      "pageid": 1337254,
+      "revid": 1368139172,
+      "file": "mhk.wiki"
+    },
+    {
+      "code": "mhq",
+      "title": "Mariehamn Airport",
+      "pageid": 7976687,
+      "revid": 1368316445,
+      "file": "mhq.wiki"
+    },
+    {
+      "code": "mht",
+      "title": "Manchester–Boston Regional Airport",
+      "pageid": 5095294,
+      "revid": 1364478215,
+      "file": "mht.wiki"
+    },
+    {
+      "code": "mia",
+      "title": "Miami International Airport",
+      "pageid": 128968,
+      "revid": 1367569565,
+      "file": "mia.wiki"
+    },
+    {
+      "code": "mid",
+      "title": "Mérida International Airport",
+      "pageid": 2163333,
+      "revid": 1365427854,
+      "file": "mid.wiki"
+    },
+    {
+      "code": "mim",
+      "title": "Merimbula Airport",
+      "pageid": 9801988,
+      "revid": 1363058628,
+      "file": "mim.wiki"
+    },
+    {
+      "code": "mji",
+      "title": "Mitiga International Airport",
+      "pageid": 2750785,
+      "revid": 1365149825,
+      "file": "mji.wiki"
+    },
+    {
+      "code": "mke",
+      "title": "Milwaukee Mitchell International Airport",
+      "pageid": 271105,
+      "revid": 1367068406,
+      "file": "mke.wiki"
+    },
+    {
+      "code": "mky",
+      "title": "Mackay Airport",
+      "pageid": 2987027,
+      "revid": 1369147734,
+      "file": "mky.wiki"
+    },
+    {
+      "code": "mla",
+      "title": "Malta International Airport",
+      "pageid": 1863102,
+      "revid": 1368889855,
+      "file": "mla.wiki"
+    },
+    {
+      "code": "mlb",
+      "title": "Melbourne Orlando International Airport",
+      "pageid": 287492,
+      "revid": 1365157975,
+      "file": "mlb.wiki"
+    },
+    {
+      "code": "mle",
+      "title": "Velana International Airport",
+      "pageid": 2577088,
+      "revid": 1368532901,
+      "file": "mle.wiki"
+    },
+    {
+      "code": "mli",
+      "title": "Quad Cities International Airport",
+      "pageid": 622257,
+      "revid": 1366864941,
+      "file": "mli.wiki"
+    },
+    {
+      "code": "mlm",
+      "title": "General Francisco Mujica International Airport",
+      "pageid": 2025974,
+      "revid": 1366307921,
+      "file": "mlm.wiki"
+    },
+    {
+      "code": "mln",
+      "title": "Melilla Airport",
+      "pageid": 9359234,
+      "revid": 1367466457,
+      "file": "mln.wiki"
+    },
+    {
+      "code": "mlu",
+      "title": "Monroe Regional Airport (Louisiana)",
+      "pageid": 2338851,
+      "revid": 1367884726,
+      "file": "mlu.wiki"
+    },
+    {
+      "code": "mmb",
+      "title": "Memanbetsu Airport",
+      "pageid": 9587231,
+      "revid": 1363058484,
+      "file": "mmb.wiki"
+    },
+    {
+      "code": "mmj",
+      "title": "Matsumoto Airport",
+      "pageid": 9586737,
+      "revid": 1363057951,
+      "file": "mmj.wiki"
+    },
+    {
+      "code": "mmy",
+      "title": "Miyako Airport",
+      "pageid": 9587398,
+      "revid": 1364296285,
+      "file": "mmy.wiki"
+    },
+    {
+      "code": "mnl",
+      "title": "Ninoy Aquino International Airport",
+      "pageid": 307091,
+      "revid": 1368524011,
+      "file": "mnl.wiki"
+    },
+    {
+      "code": "mov",
+      "title": "Moranbah Airport",
+      "pageid": 9803611,
+      "revid": 1363060597,
+      "file": "mov.wiki"
+    },
+    {
+      "code": "mpl",
+      "title": "Montpellier–Méditerranée Airport",
+      "pageid": 5311056,
+      "revid": 1365151131,
+      "file": "mpl.wiki"
+    },
+    {
+      "code": "mpm",
+      "title": "Maputo International Airport",
+      "pageid": 7122797,
+      "revid": 1363056925,
+      "file": "mpm.wiki"
+    },
+    {
+      "code": "mql",
+      "title": "Mildura Airport",
+      "pageid": 5934279,
+      "revid": 1363059048,
+      "file": "mql.wiki"
+    },
+    {
+      "code": "mqt",
+      "title": "Marquette Sawyer Regional Airport",
+      "pageid": 2924696,
+      "revid": 1364480181,
+      "file": "mqt.wiki"
+    },
+    {
+      "code": "mra",
+      "title": "Misrata Airport",
+      "pageid": 9223997,
+      "revid": 1365149703,
+      "file": "mra.wiki"
+    },
+    {
+      "code": "mrs",
+      "title": "Marseille Provence Airport",
+      "pageid": 3412498,
+      "revid": 1364481253,
+      "file": "mrs.wiki"
+    },
+    {
+      "code": "mru",
+      "title": "Sir Seewoosagur Ramgoolam International Airport",
+      "pageid": 4333013,
+      "revid": 1363866080,
+      "file": "mru.wiki"
+    },
+    {
+      "code": "mry",
+      "title": "Monterey Regional Airport",
+      "pageid": 1071248,
+      "revid": 1367573891,
+      "file": "mry.wiki"
+    },
+    {
+      "code": "mrz",
+      "title": "Moree Airport",
+      "pageid": 9803687,
+      "revid": 1363060628,
+      "file": "mrz.wiki"
+    },
+    {
+      "code": "msj",
+      "title": "Misawa Airport",
+      "pageid": 9587280,
+      "revid": 1363059281,
+      "file": "msj.wiki"
+    },
+    {
+      "code": "msn",
+      "title": "Dane County Regional Airport",
+      "pageid": 1379886,
+      "revid": 1367081111,
+      "file": "msn.wiki"
+    },
+    {
+      "code": "mso",
+      "title": "Missoula Montana Airport",
+      "pageid": 2502996,
+      "revid": 1368789170,
+      "file": "mso.wiki"
+    },
+    {
+      "code": "msp",
+      "title": "Minneapolis–Saint Paul International Airport",
+      "pageid": 263616,
+      "revid": 1368084237,
+      "file": "msp.wiki"
+    },
+    {
+      "code": "msy",
+      "title": "Louis Armstrong New Orleans International Airport",
+      "pageid": 263651,
+      "revid": 1368748906,
+      "file": "msy.wiki"
+    },
+    {
+      "code": "mtj",
+      "title": "Montrose Regional Airport",
+      "pageid": 1223281,
+      "revid": 1365151168,
+      "file": "mtj.wiki"
+    },
+    {
+      "code": "mty",
+      "title": "Monterrey International Airport",
+      "pageid": 1588843,
+      "revid": 1365150916,
+      "file": "mty.wiki"
+    },
+    {
+      "code": "muc",
+      "title": "Munich Airport",
+      "pageid": 266998,
+      "revid": 1368779010,
+      "file": "muc.wiki"
+    },
+    {
+      "code": "mux",
+      "title": "Multan International Airport",
+      "pageid": 4113784,
+      "revid": 1362957029,
+      "file": "mux.wiki"
+    },
+    {
+      "code": "mvd",
+      "title": "Carrasco International Airport",
+      "pageid": 2512426,
+      "revid": 1369060130,
+      "file": "mvd.wiki"
+    },
+    {
+      "code": "mvy",
+      "title": "Martha's Vineyard Airport",
+      "pageid": 2479599,
+      "revid": 1362813873,
+      "file": "mvy.wiki"
+    },
+    {
+      "code": "mwa",
+      "title": "Veterans Airport of Southern Illinois",
+      "pageid": 2523010,
+      "revid": 1367726746,
+      "file": "mwa.wiki"
+    },
+    {
+      "code": "mxp",
+      "title": "Milan Malpensa Airport",
+      "pageid": 33743261,
+      "revid": 1368830450,
+      "file": "mxp.wiki"
+    },
+    {
+      "code": "myj",
+      "title": "Matsuyama Airport",
+      "pageid": 9586812,
+      "revid": 1363057963,
+      "file": "myj.wiki"
+    },
+    {
+      "code": "myr",
+      "title": "Myrtle Beach International Airport",
+      "pageid": 294604,
+      "revid": 1365679419,
+      "file": "myr.wiki"
+    },
+    {
+      "code": "myy",
+      "title": "Miri Airport",
+      "pageid": 8804193,
+      "revid": 1368844329,
+      "file": "myy.wiki"
+    },
+    {
+      "code": "mzt",
+      "title": "Mazatlán International Airport",
+      "pageid": 2003751,
+      "revid": 1363283482,
+      "file": "mzt.wiki"
+    },
+    {
+      "code": "nag",
+      "title": "Dr. Babasaheb Ambedkar International Airport",
+      "pageid": 8592005,
+      "revid": 1365520251,
+      "file": "nag.wiki"
+    },
+    {
+      "code": "nan",
+      "title": "Nadi International Airport",
+      "pageid": 4387557,
+      "revid": 1365157317,
+      "file": "nan.wiki"
+    },
+    {
+      "code": "nap",
+      "title": "Naples International Airport",
+      "pageid": 3565811,
+      "revid": 1368881303,
+      "file": "nap.wiki"
+    },
+    {
+      "code": "nas",
+      "title": "Lynden Pindling International Airport",
+      "pageid": 1419421,
+      "revid": 1363055558,
+      "file": "nas.wiki"
+    },
+    {
+      "code": "nbj",
+      "title": "Dr. António Agostinho Neto International Airport",
+      "pageid": 29189188,
+      "revid": 1369014105,
+      "file": "nbj.wiki"
+    },
+    {
+      "code": "nbo",
+      "title": "Jomo Kenyatta International Airport",
+      "pageid": 142547,
+      "revid": 1363842501,
+      "file": "nbo.wiki"
+    },
+    {
+      "code": "nce",
+      "title": "Nice Côte d'Azur Airport",
+      "pageid": 291627,
+      "revid": 1365170513,
+      "file": "nce.wiki"
+    },
+    {
+      "code": "ncl",
+      "title": "Newcastle International Airport",
+      "pageid": 294980,
+      "revid": 1363066209,
+      "file": "ncl.wiki"
+    },
+    {
+      "code": "ndj",
+      "title": "N'Djamena International Airport",
+      "pageid": 5513949,
+      "revid": 1365157021,
+      "file": "ndj.wiki"
+    },
+    {
+      "code": "ndr",
+      "title": "Nador International Airport",
+      "pageid": 9241567,
+      "revid": 1365157329,
+      "file": "ndr.wiki"
+    },
+    {
+      "code": "ngb",
+      "title": "Ningbo Lishe International Airport",
+      "pageid": 3339978,
+      "revid": 1368794732,
+      "file": "ngb.wiki"
+    },
+    {
+      "code": "ngo",
+      "title": "Chubu Centrair International Airport",
+      "pageid": 1527493,
+      "revid": 1369120490,
+      "file": "ngo.wiki"
+    },
+    {
+      "code": "ngs",
+      "title": "Nagasaki Airport",
+      "pageid": 1076586,
+      "revid": 1365157498,
+      "file": "ngs.wiki"
+    },
+    {
+      "code": "nim",
+      "title": "Diori Hamani International Airport",
+      "pageid": 4271962,
+      "revid": 1363033251,
+      "file": "nim.wiki"
+    },
+    {
+      "code": "njf",
+      "title": "Al Najaf International Airport",
+      "pageid": 18522860,
+      "revid": 1362958518,
+      "file": "njf.wiki"
+    },
+    {
+      "code": "nkc",
+      "title": "Nouakchott–Oumtounsy International Airport",
+      "pageid": 50990475,
+      "revid": 1365327499,
+      "file": "nkc.wiki"
+    },
+    {
+      "code": "nkg",
+      "title": "Nanjing Lukou International Airport",
+      "pageid": 1280168,
+      "revid": 1367695408,
+      "file": "nkg.wiki"
+    },
+    {
+      "code": "nlk",
+      "title": "Norfolk Island Airport",
+      "pageid": 3309584,
+      "revid": 1363066857,
+      "file": "nlk.wiki"
+    },
+    {
+      "code": "nou",
+      "title": "La Tontouta International Airport",
+      "pageid": 6126064,
+      "revid": 1364264515,
+      "file": "nou.wiki"
+    },
+    {
+      "code": "nrt",
+      "title": "Narita International Airport",
+      "pageid": 24086463,
+      "revid": 1369120474,
+      "file": "nrt.wiki"
+    },
+    {
+      "code": "nsi",
+      "title": "Yaoundé Nsimalen International Airport",
+      "pageid": 4333332,
+      "revid": 1363088340,
+      "file": "nsi.wiki"
+    },
+    {
+      "code": "nte",
+      "title": "Nantes Atlantique Airport",
+      "pageid": 2320394,
+      "revid": 1368022642,
+      "file": "nte.wiki"
+    },
+    {
+      "code": "ntl",
+      "title": "Newcastle Airport (New South Wales)",
+      "pageid": 3930177,
+      "revid": 1368627465,
+      "file": "ntl.wiki"
+    },
+    {
+      "code": "nue",
+      "title": "Nuremberg Airport",
+      "pageid": 1789618,
+      "revid": 1369134927,
+      "file": "nue.wiki"
+    },
+    {
+      "code": "num",
+      "title": "Neom Bay Airport",
+      "pageid": 61104765,
+      "revid": 1363065895,
+      "file": "num.wiki"
+    },
+    {
+      "code": "oaj",
+      "title": "Albert J. Ellis Airport",
+      "pageid": 2454772,
+      "revid": 1364135176,
+      "file": "oaj.wiki"
+    },
+    {
+      "code": "oak",
+      "title": "Oakland San Francisco Bay Airport",
+      "pageid": 250472,
+      "revid": 1368365417,
+      "file": "oak.wiki"
+    },
+    {
+      "code": "oax",
+      "title": "Oaxaca International Airport",
+      "pageid": 2164245,
+      "revid": 1363067929,
+      "file": "oax.wiki"
+    },
+    {
+      "code": "obo",
+      "title": "Tokachi–Obihiro Airport",
+      "pageid": 9605808,
+      "revid": 1369120471,
+      "file": "obo.wiki"
+    },
+    {
+      "code": "ocj",
+      "title": "Ian Fleming International Airport",
+      "pageid": 16149547,
+      "revid": 1363043860,
+      "file": "ocj.wiki"
+    },
+    {
+      "code": "odb",
+      "title": "Córdoba Airport",
+      "pageid": 16983452,
+      "revid": 1363030212,
+      "file": "odb.wiki"
+    },
+    {
+      "code": "ogg",
+      "title": "Kahului Airport",
+      "pageid": 295093,
+      "revid": 1366715943,
+      "file": "ogg.wiki"
+    },
+    {
+      "code": "oir",
+      "title": "Okushiri Airport",
+      "pageid": 16759472,
+      "revid": 1363068272,
+      "file": "oir.wiki"
+    },
+    {
+      "code": "oit",
+      "title": "Oita Airport",
+      "pageid": 9605916,
+      "revid": 1365331581,
+      "file": "oit.wiki"
+    },
+    {
+      "code": "oka",
+      "title": "Naha Airport",
+      "pageid": 778923,
+      "revid": 1369120477,
+      "file": "oka.wiki"
+    },
+    {
+      "code": "okc",
+      "title": "OKC Will Rogers International Airport",
+      "pageid": 290147,
+      "revid": 1366958512,
+      "file": "okc.wiki"
+    },
+    {
+      "code": "okd",
+      "title": "Okadama Airport",
+      "pageid": 423967,
+      "revid": 1363068189,
+      "file": "okd.wiki"
+    },
+    {
+      "code": "oke",
+      "title": "Okinoerabu Airport",
+      "pageid": 15745505,
+      "revid": 1363068234,
+      "file": "oke.wiki"
+    },
+    {
+      "code": "oki",
+      "title": "Oki Airport",
+      "pageid": 15740238,
+      "revid": 1363068222,
+      "file": "oki.wiki"
+    },
+    {
+      "code": "okj",
+      "title": "Okayama Airport",
+      "pageid": 2097727,
+      "revid": 1363068203,
+      "file": "okj.wiki"
+    },
+    {
+      "code": "olb",
+      "title": "Olbia Costa Smeralda Airport",
+      "pageid": 9320699,
+      "revid": 1365331759,
+      "file": "olb.wiki"
+    },
+    {
+      "code": "olp",
+      "title": "Olympic Dam Airport",
+      "pageid": 9805919,
+      "revid": 1365421001,
+      "file": "olp.wiki"
+    },
+    {
+      "code": "oma",
+      "title": "Eppley Airfield",
+      "pageid": 1375038,
+      "revid": 1365077486,
+      "file": "oma.wiki"
+    },
+    {
+      "code": "ome",
+      "title": "Nome Airport",
+      "pageid": 3049350,
+      "revid": 1365186373,
+      "file": "ome.wiki"
+    },
+    {
+      "code": "ont",
+      "title": "Ontario International Airport",
+      "pageid": 250477,
+      "revid": 1368399208,
+      "file": "ont.wiki"
+    },
+    {
+      "code": "ool",
+      "title": "Gold Coast Airport",
+      "pageid": 630117,
+      "revid": 1368930489,
+      "file": "ool.wiki"
+    },
+    {
+      "code": "oom",
+      "title": "Cooma–Snowy Mountains Airport",
+      "pageid": 9746610,
+      "revid": 1363029164,
+      "file": "oom.wiki"
+    },
+    {
+      "code": "opo",
+      "title": "Porto Airport",
+      "pageid": 3613682,
+      "revid": 1368665689,
+      "file": "opo.wiki"
+    },
+    {
+      "code": "ord",
+      "title": "O'Hare International Airport",
+      "pageid": 248449,
+      "revid": 1368968824,
+      "file": "ord.wiki"
+    },
+    {
+      "code": "orf",
+      "title": "Norfolk International Airport",
+      "pageid": 266328,
+      "revid": 1367653770,
+      "file": "orf.wiki"
+    },
+    {
+      "code": "orh",
+      "title": "Worcester Regional Airport",
+      "pageid": 2165551,
+      "revid": 1365394393,
+      "file": "orh.wiki"
+    },
+    {
+      "code": "ory",
+      "title": "Orly Airport",
+      "pageid": 250493,
+      "revid": 1365333422,
+      "file": "ory.wiki"
+    },
+    {
+      "code": "osl",
+      "title": "Oslo Airport, Gardermoen",
+      "pageid": 179081,
+      "revid": 1368344336,
+      "file": "osl.wiki"
+    },
+    {
+      "code": "otp",
+      "title": "Bucharest Henri Coandă International Airport",
+      "pageid": 286401,
+      "revid": 1368903686,
+      "file": "otp.wiki"
+    },
+    {
+      "code": "otz",
+      "title": "Ralph Wien Memorial Airport",
+      "pageid": 4706510,
+      "revid": 1362770209,
+      "file": "otz.wiki"
+    },
+    {
+      "code": "oua",
+      "title": "Thomas Sankara International Airport Ouagadougou",
+      "pageid": 716503,
+      "revid": 1363082826,
+      "file": "oua.wiki"
+    },
+    {
+      "code": "oud",
+      "title": "Oujda-Angad Airport",
+      "pageid": 5461726,
+      "revid": 1365335074,
+      "file": "oud.wiki"
+    },
+    {
+      "code": "oul",
+      "title": "Oulu Airport",
+      "pageid": 731094,
+      "revid": 1363069189,
+      "file": "oul.wiki"
+    },
+    {
+      "code": "ovd",
+      "title": "Asturias Airport",
+      "pageid": 4452984,
+      "revid": 1367370378,
+      "file": "ovd.wiki"
+    },
+    {
+      "code": "oxb",
+      "title": "Osvaldo Vieira International Airport",
+      "pageid": 737294,
+      "revid": 1365334512,
+      "file": "oxb.wiki"
+    },
+    {
+      "code": "ozg",
+      "title": "Zagora Airport",
+      "pageid": 42993978,
+      "revid": 1363088880,
+      "file": "ozg.wiki"
+    },
+    {
+      "code": "ozz",
+      "title": "Ouarzazate Airport",
+      "pageid": 9241683,
+      "revid": 1363069145,
+      "file": "ozz.wiki"
+    },
+    {
+      "code": "pad",
+      "title": "Paderborn Lippstadt Airport",
+      "pageid": 3499293,
+      "revid": 1365335488,
+      "file": "pad.wiki"
+    },
+    {
+      "code": "pae",
+      "title": "Paine Field",
+      "pageid": 1752433,
+      "revid": 1367041385,
+      "file": "pae.wiki"
+    },
+    {
+      "code": "pap",
+      "title": "Toussaint Louverture International Airport",
+      "pageid": 5759786,
+      "revid": 1366117668,
+      "file": "pap.wiki"
+    },
+    {
+      "code": "pbi",
+      "title": "Palm Beach International Airport",
+      "pageid": 287471,
+      "revid": 1368940200,
+      "file": "pbi.wiki"
+    },
+    {
+      "code": "pdl",
+      "title": "John Paul II Ponta Delgada Airport",
+      "pageid": 5465450,
+      "revid": 1363841622,
+      "file": "pdl.wiki"
+    },
+    {
+      "code": "pdx",
+      "title": "Portland International Airport",
+      "pageid": 152498,
+      "revid": 1369108403,
+      "file": "pdx.wiki"
+    },
+    {
+      "code": "peg",
+      "title": "Perugia San Francesco d'Assisi – Umbria International Airport",
+      "pageid": 6912303,
+      "revid": 1365882675,
+      "file": "peg.wiki"
+    },
+    {
+      "code": "pek",
+      "title": "Beijing Capital International Airport",
+      "pageid": 291328,
+      "revid": 1369147088,
+      "file": "pek.wiki"
+    },
+    {
+      "code": "pen",
+      "title": "Penang International Airport",
+      "pageid": 1703938,
+      "revid": 1368856597,
+      "file": "pen.wiki"
+    },
+    {
+      "code": "per",
+      "title": "Perth Airport",
+      "pageid": 296393,
+      "revid": 1368873325,
+      "file": "per.wiki"
+    },
+    {
+      "code": "pew",
+      "title": "Bacha Khan International Airport",
+      "pageid": 3795188,
+      "revid": 1364755788,
+      "file": "pew.wiki"
+    },
+    {
+      "code": "pfo",
+      "title": "Paphos International Airport",
+      "pageid": 2957750,
+      "revid": 1367037725,
+      "file": "pfo.wiki"
+    },
+    {
+      "code": "pgv",
+      "title": "Pitt–Greenville Airport",
+      "pageid": 2455902,
+      "revid": 1363006154,
+      "file": "pgv.wiki"
+    },
+    {
+      "code": "phc",
+      "title": "Port Harcourt International Airport",
+      "pageid": 1264287,
+      "revid": 1368596765,
+      "file": "phc.wiki"
+    },
+    {
+      "code": "phe",
+      "title": "Port Hedland International Airport",
+      "pageid": 9827072,
+      "revid": 1363072417,
+      "file": "phe.wiki"
+    },
+    {
+      "code": "phf",
+      "title": "Newport News/Williamsburg International Airport",
+      "pageid": 1643731,
+      "revid": 1362970562,
+      "file": "phf.wiki"
+    },
+    {
+      "code": "phl",
+      "title": "Philadelphia International Airport",
+      "pageid": 262559,
+      "revid": 1367959476,
+      "file": "phl.wiki"
+    },
+    {
+      "code": "phx",
+      "title": "Phoenix Sky Harbor International Airport",
+      "pageid": 113691,
+      "revid": 1368952905,
+      "file": "phx.wiki"
+    },
+    {
+      "code": "pia",
+      "title": "Peoria International Airport",
+      "pageid": 47025025,
+      "revid": 1366696514,
+      "file": "pia.wiki"
+    },
+    {
+      "code": "pit",
+      "title": "Pittsburgh International Airport",
+      "pageid": 262525,
+      "revid": 1369067814,
+      "file": "pit.wiki"
+    },
+    {
+      "code": "pku",
+      "title": "Sultan Syarif Kasim II International Airport",
+      "pageid": 7363897,
+      "revid": 1363361716,
+      "file": "pku.wiki"
+    },
+    {
+      "code": "pkx",
+      "title": "Beijing Daxing International Airport",
+      "pageid": 33078443,
+      "revid": 1369008431,
+      "file": "pkx.wiki"
+    },
+    {
+      "code": "plo",
+      "title": "Port Lincoln Airport",
+      "pageid": 9827125,
+      "revid": 1363072446,
+      "file": "plo.wiki"
+    },
+    {
+      "code": "pls",
+      "title": "Providenciales International Airport",
+      "pageid": 3565749,
+      "revid": 1366853714,
+      "file": "pls.wiki"
+    },
+    {
+      "code": "pmi",
+      "title": "Palma de Mallorca Airport",
+      "pageid": 30860703,
+      "revid": 1369110390,
+      "file": "pmi.wiki"
+    },
+    {
+      "code": "pmo",
+      "title": "Palermo Airport",
+      "pageid": 333233,
+      "revid": 1367346233,
+      "file": "pmo.wiki"
+    },
+    {
+      "code": "pna",
+      "title": "Pamplona Airport",
+      "pageid": 9359533,
+      "revid": 1364662046,
+      "file": "pna.wiki"
+    },
+    {
+      "code": "pns",
+      "title": "Pensacola International Airport",
+      "pageid": 287520,
+      "revid": 1367079052,
+      "file": "pns.wiki"
+    },
+    {
+      "code": "pom",
+      "title": "Port Moresby International Airport",
+      "pageid": 3074451,
+      "revid": 1366850231,
+      "file": "pom.wiki"
+    },
+    {
+      "code": "pop",
+      "title": "Gregorio Luperón International Airport",
+      "pageid": 161265,
+      "revid": 1363792735,
+      "file": "pop.wiki"
+    },
+    {
+      "code": "pos",
+      "title": "Piarco International Airport",
+      "pageid": 3473790,
+      "revid": 1368957850,
+      "file": "pos.wiki"
+    },
+    {
+      "code": "ppp",
+      "title": "Whitsunday Coast Airport",
+      "pageid": 6836185,
+      "revid": 1363087604,
+      "file": "ppp.wiki"
+    },
+    {
+      "code": "pqq",
+      "title": "Port Macquarie Airport",
+      "pageid": 9827227,
+      "revid": 1363072454,
+      "file": "pqq.wiki"
+    },
+    {
+      "code": "prg",
+      "title": "Václav Havel Airport Prague",
+      "pageid": 296099,
+      "revid": 1368721478,
+      "file": "prg.wiki"
+    },
+    {
+      "code": "psa",
+      "title": "Pisa International Airport",
+      "pageid": 4324335,
+      "revid": 1368021485,
+      "file": "psa.wiki"
+    },
+    {
+      "code": "psc",
+      "title": "Tri-Cities Airport (Washington)",
+      "pageid": 1752779,
+      "revid": 1367390017,
+      "file": "psc.wiki"
+    },
+    {
+      "code": "psg",
+      "title": "Petersburg James A. Johnson Airport",
+      "pageid": 2501067,
+      "revid": 1363071018,
+      "file": "psg.wiki"
+    },
+    {
+      "code": "psp",
+      "title": "Palm Springs International Airport",
+      "pageid": 2041699,
+      "revid": 1365337002,
+      "file": "psp.wiki"
+    },
+    {
+      "code": "ptp",
+      "title": "Pointe-à-Pitre International Airport",
+      "pageid": 363370,
+      "revid": 1366344480,
+      "file": "ptp.wiki"
+    },
+    {
+      "code": "pty",
+      "title": "Tocumen International Airport",
+      "pageid": 101615,
+      "revid": 1365585153,
+      "file": "pty.wiki"
+    },
+    {
+      "code": "puj",
+      "title": "Punta Cana International Airport",
+      "pageid": 2590573,
+      "revid": 1368729400,
+      "file": "puj.wiki"
+    },
+    {
+      "code": "puw",
+      "title": "Pullman–Moscow Regional Airport",
+      "pageid": 2541683,
+      "revid": 1363073151,
+      "file": "puw.wiki"
+    },
+    {
+      "code": "pvd",
+      "title": "Rhode Island T. F. Green International Airport",
+      "pageid": 267865,
+      "revid": 1368420547,
+      "file": "pvd.wiki"
+    },
+    {
+      "code": "pvg",
+      "title": "Shanghai Pudong International Airport",
+      "pageid": 354666,
+      "revid": 1369030692,
+      "file": "pvg.wiki"
+    },
+    {
+      "code": "pvk",
+      "title": "Aktion National Airport",
+      "pageid": 9305043,
+      "revid": 1367336672,
+      "file": "pvk.wiki"
+    },
+    {
+      "code": "pvr",
+      "title": "Licenciado Gustavo Díaz Ordaz International Airport",
+      "pageid": 2154303,
+      "revid": 1369077216,
+      "file": "pvr.wiki"
+    },
+    {
+      "code": "pvu",
+      "title": "Provo Municipal Airport",
+      "pageid": 2558485,
+      "revid": 1366869924,
+      "file": "pvu.wiki"
+    },
+    {
+      "code": "pwm",
+      "title": "Portland International Jetport",
+      "pageid": 44279560,
+      "revid": 1368663723,
+      "file": "pwm.wiki"
+    },
+    {
+      "code": "pxh",
+      "title": "Prominent Hill Airport",
+      "pageid": 30955477,
+      "revid": 1363072949,
+      "file": "pxh.wiki"
+    },
+    {
+      "code": "pxm",
+      "title": "Puerto Escondido International Airport",
+      "pageid": 2174015,
+      "revid": 1368331181,
+      "file": "pxm.wiki"
+    },
+    {
+      "code": "pzu",
+      "title": "Port Sudan New International Airport",
+      "pageid": 9265195,
+      "revid": 1366850351,
+      "file": "pzu.wiki"
+    },
+    {
+      "code": "qro",
+      "title": "Querétaro Intercontinental Airport",
+      "pageid": 9067930,
+      "revid": 1368336002,
+      "file": "qro.wiki"
+    },
+    {
+      "code": "rai",
+      "title": "Nelson Mandela International Airport",
+      "pageid": 3373964,
+      "revid": 1365167331,
+      "file": "rai.wiki"
+    },
+    {
+      "code": "rak",
+      "title": "Marrakesh Menara Airport",
+      "pageid": 146241,
+      "revid": 1365254073,
+      "file": "rak.wiki"
+    },
+    {
+      "code": "rap",
+      "title": "Rapid City Regional Airport",
+      "pageid": 2153627,
+      "revid": 1362818671,
+      "file": "rap.wiki"
+    },
+    {
+      "code": "rar",
+      "title": "Rarotonga International Airport",
+      "pageid": 2294625,
+      "revid": 1363074260,
+      "file": "rar.wiki"
+    },
+    {
+      "code": "rba",
+      "title": "Rabat–Salé Airport",
+      "pageid": 9242054,
+      "revid": 1366868612,
+      "file": "rba.wiki"
+    },
+    {
+      "code": "rdd",
+      "title": "Redding Regional Airport",
+      "pageid": 2046138,
+      "revid": 1364158761,
+      "file": "rdd.wiki"
+    },
+    {
+      "code": "rdm",
+      "title": "Roberts Field",
+      "pageid": 8046183,
+      "revid": 1362802798,
+      "file": "rdm.wiki"
+    },
+    {
+      "code": "rdu",
+      "title": "Raleigh–Durham International Airport",
+      "pageid": 266955,
+      "revid": 1368702323,
+      "file": "rdu.wiki"
+    },
+    {
+      "code": "rec",
+      "title": "Recife/Guararapes International Airport",
+      "pageid": 2637509,
+      "revid": 1368728831,
+      "file": "rec.wiki"
+    },
+    {
+      "code": "reu",
+      "title": "Reus Airport",
+      "pageid": 3557559,
+      "revid": 1368488324,
+      "file": "reu.wiki"
+    },
+    {
+      "code": "rgn",
+      "title": "Yangon International Airport",
+      "pageid": 2580213,
+      "revid": 1363088301,
+      "file": "rgn.wiki"
+    },
+    {
+      "code": "rho",
+      "title": "Rhodes International Airport",
+      "pageid": 1209604,
+      "revid": 1368100717,
+      "file": "rho.wiki"
+    },
+    {
+      "code": "ric",
+      "title": "Richmond International Airport",
+      "pageid": 266946,
+      "revid": 1365932731,
+      "file": "ric.wiki"
+    },
+    {
+      "code": "ris",
+      "title": "Rishiri Airport",
+      "pageid": 9606190,
+      "revid": 1363074945,
+      "file": "ris.wiki"
+    },
+    {
+      "code": "rix",
+      "title": "Riga International Airport",
+      "pageid": 806442,
+      "revid": 1369014355,
+      "file": "rix.wiki"
+    },
+    {
+      "code": "rma",
+      "title": "Roma Airport",
+      "pageid": 9828385,
+      "revid": 1363075221,
+      "file": "rma.wiki"
+    },
+    {
+      "code": "rmi",
+      "title": "Rimini Fellini Airport",
+      "pageid": 2246321,
+      "revid": 1366647880,
+      "file": "rmi.wiki"
+    },
+    {
+      "code": "rnj",
+      "title": "Yoron Airport",
+      "pageid": 15018192,
+      "revid": 1363088595,
+      "file": "rnj.wiki"
+    },
+    {
+      "code": "rno",
+      "title": "Reno–Tahoe International Airport",
+      "pageid": 294563,
+      "revid": 1367133980,
+      "file": "rno.wiki"
+    },
+    {
+      "code": "roa",
+      "title": "Roanoke–Blacksburg Regional Airport",
+      "pageid": 2486365,
+      "revid": 1363056753,
+      "file": "roa.wiki"
+    },
+    {
+      "code": "rob",
+      "title": "Roberts International Airport",
+      "pageid": 4588698,
+      "revid": 1363075065,
+      "file": "rob.wiki"
+    },
+    {
+      "code": "roc",
+      "title": "Greater Rochester International Airport",
+      "pageid": 309356,
+      "revid": 1367387459,
+      "file": "roc.wiki"
+    },
+    {
+      "code": "rok",
+      "title": "Rockhampton Airport",
+      "pageid": 5930787,
+      "revid": 1366798538,
+      "file": "rok.wiki"
+    },
+    {
+      "code": "ror",
+      "title": "Roman Tmetuchl International Airport",
+      "pageid": 7103778,
+      "revid": 1362802844,
+      "file": "ror.wiki"
+    },
+    {
+      "code": "row",
+      "title": "Roswell International Air Center",
+      "pageid": 2175560,
+      "revid": 1368425646,
+      "file": "row.wiki"
+    },
+    {
+      "code": "rsi",
+      "title": "Red Sea International Airport",
+      "pageid": 66933386,
+      "revid": 1366477488,
+      "file": "rsi.wiki"
+    },
+    {
+      "code": "rst",
+      "title": "Rochester International Airport",
+      "pageid": 309348,
+      "revid": 1363057630,
+      "file": "rst.wiki"
+    },
+    {
+      "code": "rsw",
+      "title": "Southwest Florida International Airport",
+      "pageid": 287529,
+      "revid": 1368748763,
+      "file": "rsw.wiki"
+    },
+    {
+      "code": "rta",
+      "title": "Rotuma Airport",
+      "pageid": 9871717,
+      "revid": 1363075378,
+      "file": "rta.wiki"
+    },
+    {
+      "code": "rtb",
+      "title": "Juan Manuel Gálvez International Airport",
+      "pageid": 2680864,
+      "revid": 1365673537,
+      "file": "rtb.wiki"
+    },
+    {
+      "code": "rtm",
+      "title": "Rotterdam The Hague Airport",
+      "pageid": 2256053,
+      "revid": 1368329671,
+      "file": "rtm.wiki"
+    },
+    {
+      "code": "ruh",
+      "title": "King Khalid International Airport",
+      "pageid": 471186,
+      "revid": 1368988242,
+      "file": "ruh.wiki"
+    },
+    {
+      "code": "rvn",
+      "title": "Rovaniemi Airport",
+      "pageid": 5575583,
+      "revid": 1365184284,
+      "file": "rvn.wiki"
+    },
+    {
+      "code": "saf",
+      "title": "Santa Fe Regional Airport",
+      "pageid": 2175625,
+      "revid": 1363086859,
+      "file": "saf.wiki"
+    },
+    {
+      "code": "sal",
+      "title": "El Salvador International Airport",
+      "pageid": 11705288,
+      "revid": 1363693688,
+      "file": "sal.wiki"
+    },
+    {
+      "code": "san",
+      "title": "San Diego International Airport",
+      "pageid": 263650,
+      "revid": 1368366286,
+      "file": "san.wiki"
+    },
+    {
+      "code": "sap",
+      "title": "Ramón Villeda Morales International Airport",
+      "pageid": 2607084,
+      "revid": 1366630213,
+      "file": "sap.wiki"
+    },
+    {
+      "code": "sat",
+      "title": "San Antonio International Airport",
+      "pageid": 269635,
+      "revid": 1367609217,
+      "file": "sat.wiki"
+    },
+    {
+      "code": "sav",
+      "title": "Savannah/Hilton Head International Airport",
+      "pageid": 288614,
+      "revid": 1363092223,
+      "file": "sav.wiki"
+    },
+    {
+      "code": "saw",
+      "title": "Sabiha Gökçen International Airport",
+      "pageid": 30873429,
+      "revid": 1369100091,
+      "file": "saw.wiki"
+    },
+    {
+      "code": "sba",
+      "title": "Santa Barbara Municipal Airport",
+      "pageid": 377339,
+      "revid": 1364462340,
+      "file": "sba.wiki"
+    },
+    {
+      "code": "sbn",
+      "title": "South Bend International Airport",
+      "pageid": 7736447,
+      "revid": 1367682972,
+      "file": "sbn.wiki"
+    },
+    {
+      "code": "sbp",
+      "title": "San Luis Obispo County Regional Airport",
+      "pageid": 2046224,
+      "revid": 1363082302,
+      "file": "sbp.wiki"
+    },
+    {
+      "code": "sbw",
+      "title": "Sibu Airport",
+      "pageid": 9625484,
+      "revid": 1366521306,
+      "file": "sbw.wiki"
+    },
+    {
+      "code": "sby",
+      "title": "Salisbury Regional Airport",
+      "pageid": 2462762,
+      "revid": 1367055650,
+      "file": "sby.wiki"
+    },
+    {
+      "code": "scc",
+      "title": "Deadhorse Airport",
+      "pageid": 1619946,
+      "revid": 1364482152,
+      "file": "scc.wiki"
+    },
+    {
+      "code": "sce",
+      "title": "State College Regional Airport",
+      "pageid": 2468206,
+      "revid": 1364539871,
+      "file": "sce.wiki"
+    },
+    {
+      "code": "scl",
+      "title": "Arturo Merino Benítez International Airport",
+      "pageid": 105002,
+      "revid": 1367504247,
+      "file": "scl.wiki"
+    },
+    {
+      "code": "scq",
+      "title": "Santiago–Rosalía de Castro Airport",
+      "pageid": 5461752,
+      "revid": 1369045714,
+      "file": "scq.wiki"
+    },
+    {
+      "code": "scu",
+      "title": "Antonio Maceo Airport",
+      "pageid": 628453,
+      "revid": 1365503354,
+      "file": "scu.wiki"
+    },
+    {
+      "code": "sdf",
+      "title": "Louisville Muhammad Ali International Airport",
+      "pageid": 264229,
+      "revid": 1367728328,
+      "file": "sdf.wiki"
+    },
+    {
+      "code": "sdj",
+      "title": "Sendai Airport",
+      "pageid": 2100707,
+      "revid": 1363078006,
+      "file": "sdj.wiki"
+    },
+    {
+      "code": "sdk",
+      "title": "Sandakan Airport",
+      "pageid": 7391670,
+      "revid": 1366521117,
+      "file": "sdk.wiki"
+    },
+    {
+      "code": "sdq",
+      "title": "Las Américas International Airport",
+      "pageid": 599919,
+      "revid": 1365152110,
+      "file": "sdq.wiki"
+    },
+    {
+      "code": "sdr",
+      "title": "Santander Airport",
+      "pageid": 5461740,
+      "revid": 1367480278,
+      "file": "sdr.wiki"
+    },
+    {
+      "code": "sea",
+      "title": "Seattle–Tacoma International Airport",
+      "pageid": 264272,
+      "revid": 1369131568,
+      "file": "sea.wiki"
+    },
+    {
+      "code": "sez",
+      "title": "Seychelles International Airport",
+      "pageid": 716442,
+      "revid": 1368844183,
+      "file": "sez.wiki"
+    },
+    {
+      "code": "sfo",
+      "title": "San Francisco International Airport",
+      "pageid": 250462,
+      "revid": 1369107816,
+      "file": "sfo.wiki"
+    },
+    {
+      "code": "sgf",
+      "title": "Springfield–Branson National Airport",
+      "pageid": 2302738,
+      "revid": 1363121353,
+      "file": "sgf.wiki"
+    },
+    {
+      "code": "sgn",
+      "title": "Tan Son Nhat International Airport",
+      "pageid": 1217319,
+      "revid": 1369025879,
+      "file": "sgn.wiki"
+    },
+    {
+      "code": "sgu",
+      "title": "St. George Regional Airport",
+      "pageid": 30445513,
+      "revid": 1363100925,
+      "file": "sgu.wiki"
+    },
+    {
+      "code": "sha",
+      "title": "Shanghai Hongqiao International Airport",
+      "pageid": 295731,
+      "revid": 1368688627,
+      "file": "sha.wiki"
+    },
+    {
+      "code": "shb",
+      "title": "Nemuro Nakashibetsu Airport",
+      "pageid": 9605682,
+      "revid": 1363065873,
+      "file": "shb.wiki"
+    },
+    {
+      "code": "shd",
+      "title": "Shenandoah Valley Regional Airport",
+      "pageid": 2486450,
+      "revid": 1362803521,
+      "file": "shd.wiki"
+    },
+    {
+      "code": "shj",
+      "title": "Sharjah International Airport",
+      "pageid": 464461,
+      "revid": 1369070606,
+      "file": "shj.wiki"
+    },
+    {
+      "code": "shm",
+      "title": "Nanki–Shirahama Airport",
+      "pageid": 4408148,
+      "revid": 1363063874,
+      "file": "shm.wiki"
+    },
+    {
+      "code": "sid",
+      "title": "Amílcar Cabral International Airport",
+      "pageid": 3305524,
+      "revid": 1363176419,
+      "file": "sid.wiki"
+    },
+    {
+      "code": "sin",
+      "title": "Changi Airport",
+      "pageid": 18952243,
+      "revid": 1368872720,
+      "file": "sin.wiki"
+    },
+    {
+      "code": "sit",
+      "title": "Sitka Rocky Gutierrez Airport",
+      "pageid": 2501131,
+      "revid": 1363079265,
+      "file": "sit.wiki"
+    },
+    {
+      "code": "sjc",
+      "title": "San Jose International Airport",
+      "pageid": 148561,
+      "revid": 1367982185,
+      "file": "sjc.wiki"
+    },
+    {
+      "code": "sjd",
+      "title": "Los Cabos International Airport",
+      "pageid": 1847765,
+      "revid": 1366308974,
+      "file": "sjd.wiki"
+    },
+    {
+      "code": "sjo",
+      "title": "Juan Santamaría International Airport",
+      "pageid": 1626458,
+      "revid": 1367343849,
+      "file": "sjo.wiki"
+    },
+    {
+      "code": "sjt",
+      "title": "San Angelo Regional Airport",
+      "pageid": 2387792,
+      "revid": 1363076425,
+      "file": "sjt.wiki"
+    },
+    {
+      "code": "sju",
+      "title": "Luis Muñoz Marín International Airport",
+      "pageid": 83027,
+      "revid": 1368958017,
+      "file": "sju.wiki"
+    },
+    {
+      "code": "skb",
+      "title": "Robert L. Bradshaw International Airport",
+      "pageid": 2445345,
+      "revid": 1363749127,
+      "file": "skb.wiki"
+    },
+    {
+      "code": "skg",
+      "title": "Thessaloniki Airport",
+      "pageid": 467461,
+      "revid": 1367356063,
+      "file": "skg.wiki"
+    },
+    {
+      "code": "skt",
+      "title": "Sialkot International Airport",
+      "pageid": 4113736,
+      "revid": 1362751884,
+      "file": "skt.wiki"
+    },
+    {
+      "code": "slc",
+      "title": "Salt Lake City International Airport",
+      "pageid": 264241,
+      "revid": 1368980530,
+      "file": "slc.wiki"
+    },
+    {
+      "code": "sll",
+      "title": "Salalah International Airport",
+      "pageid": 50073248,
+      "revid": 1368683424,
+      "file": "sll.wiki"
+    },
+    {
+      "code": "slm",
+      "title": "Salamanca Airport",
+      "pageid": 5777814,
+      "revid": 1363076104,
+      "file": "slm.wiki"
+    },
+    {
+      "code": "slp",
+      "title": "San Luis Potosí International Airport",
+      "pageid": 2150733,
+      "revid": 1368893724,
+      "file": "slp.wiki"
+    },
+    {
+      "code": "smf",
+      "title": "Sacramento International Airport",
+      "pageid": 301842,
+      "revid": 1367062886,
+      "file": "smf.wiki"
+    },
+    {
+      "code": "sna",
+      "title": "John Wayne Airport",
+      "pageid": 250456,
+      "revid": 1368453907,
+      "file": "sna.wiki"
+    },
+    {
+      "code": "snu",
+      "title": "Abel Santamaría Airport",
+      "pageid": 8043477,
+      "revid": 1365484617,
+      "file": "snu.wiki"
+    },
+    {
+      "code": "sof",
+      "title": "Sofia Airport",
+      "pageid": 963400,
+      "revid": 1369134782,
+      "file": "sof.wiki"
+    },
+    {
+      "code": "spc",
+      "title": "La Palma Airport",
+      "pageid": 3490859,
+      "revid": 1363051412,
+      "file": "spc.wiki"
+    },
+    {
+      "code": "spi",
+      "title": "Abraham Lincoln Capital Airport",
+      "pageid": 3210741,
+      "revid": 1364132295,
+      "file": "spi.wiki"
+    },
+    {
+      "code": "sps",
+      "title": "Wichita Falls Regional Airport",
+      "pageid": 2742715,
+      "revid": 1363087620,
+      "file": "sps.wiki"
+    },
+    {
+      "code": "spu",
+      "title": "Split Airport",
+      "pageid": 4444898,
+      "revid": 1367100822,
+      "file": "spu.wiki"
+    },
+    {
+      "code": "srq",
+      "title": "Sarasota–Bradenton International Airport",
+      "pageid": 287478,
+      "revid": 1362809178,
+      "file": "srq.wiki"
+    },
+    {
+      "code": "ssg",
+      "title": "Malabo International Airport",
+      "pageid": 3479797,
+      "revid": 1364314228,
+      "file": "ssg.wiki"
+    },
+    {
+      "code": "ssh",
+      "title": "Sharm El Sheikh International Airport",
+      "pageid": 9104398,
+      "revid": 1368831061,
+      "file": "ssh.wiki"
+    },
+    {
+      "code": "sti",
+      "title": "Cibao International Airport",
+      "pageid": 4165553,
+      "revid": 1366468508,
+      "file": "sti.wiki"
+    },
+    {
+      "code": "stl",
+      "title": "St. Louis Lambert International Airport",
+      "pageid": 264236,
+      "revid": 1367425901,
+      "file": "stl.wiki"
+    },
+    {
+      "code": "stn",
+      "title": "London Stansted Airport",
+      "pageid": 65456,
+      "revid": 1367862034,
+      "file": "stn.wiki"
+    },
+    {
+      "code": "sts",
+      "title": "Charles M. Schulz–Sonoma County Airport",
+      "pageid": 5136287,
+      "revid": 1369085780,
+      "file": "sts.wiki"
+    },
+    {
+      "code": "stt",
+      "title": "Cyril E. King Airport",
+      "pageid": 1662748,
+      "revid": 1368224251,
+      "file": "stt.wiki"
+    },
+    {
+      "code": "stx",
+      "title": "Henry E. Rohlsen Airport",
+      "pageid": 154053,
+      "revid": 1365149813,
+      "file": "stx.wiki"
+    },
+    {
+      "code": "sub",
+      "title": "Juanda International Airport",
+      "pageid": 6696638,
+      "revid": 1368855444,
+      "file": "sub.wiki"
+    },
+    {
+      "code": "sun",
+      "title": "Friedman Memorial Airport",
+      "pageid": 2164210,
+      "revid": 1366906663,
+      "file": "sun.wiki"
+    },
+    {
+      "code": "suv",
+      "title": "Nausori International Airport",
+      "pageid": 6753755,
+      "revid": 1363500513,
+      "file": "suv.wiki"
+    },
+    {
+      "code": "svd",
+      "title": "Argyle International Airport",
+      "pageid": 25871330,
+      "revid": 1369134302,
+      "file": "svd.wiki"
+    },
+    {
+      "code": "svg",
+      "title": "Stavanger Airport",
+      "pageid": 202448,
+      "revid": 1367848756,
+      "file": "svg.wiki"
+    },
+    {
+      "code": "svo",
+      "title": "Sheremetyevo International Airport",
+      "pageid": 264213,
+      "revid": 1369045666,
+      "file": "svo.wiki"
+    },
+    {
+      "code": "svq",
+      "title": "Seville Airport",
+      "pageid": 3624887,
+      "revid": 1367356054,
+      "file": "svq.wiki"
+    },
+    {
+      "code": "svu",
+      "title": "Savusavu Airport",
+      "pageid": 9871741,
+      "revid": 1363092609,
+      "file": "svu.wiki"
+    },
+    {
+      "code": "svx",
+      "title": "Koltsovo International Airport",
+      "pageid": 1794033,
+      "revid": 1368466804,
+      "file": "svx.wiki"
+    },
+    {
+      "code": "swo",
+      "title": "Stillwater Regional Airport",
+      "pageid": 5636975,
+      "revid": 1363080527,
+      "file": "swo.wiki"
+    },
+    {
+      "code": "sxb",
+      "title": "Strasbourg Airport",
+      "pageid": 9284387,
+      "revid": 1368067234,
+      "file": "sxb.wiki"
+    },
+    {
+      "code": "sxm",
+      "title": "Princess Juliana International Airport",
+      "pageid": 1839335,
+      "revid": 1368751590,
+      "file": "sxm.wiki"
+    },
+    {
+      "code": "syd",
+      "title": "Sydney Airport",
+      "pageid": 266313,
+      "revid": 1368937355,
+      "file": "syd.wiki"
+    },
+    {
+      "code": "syr",
+      "title": "Syracuse Hancock International Airport",
+      "pageid": 40071026,
+      "revid": 1363768796,
+      "file": "syr.wiki"
+    },
+    {
+      "code": "syz",
+      "title": "Shiraz Shahid Dastgheib International Airport",
+      "pageid": 2661918,
+      "revid": 1363078645,
+      "file": "syz.wiki"
+    },
+    {
+      "code": "szg",
+      "title": "Salzburg Airport",
+      "pageid": 4434028,
+      "revid": 1363615902,
+      "file": "szg.wiki"
+    },
+    {
+      "code": "szx",
+      "title": "Shenzhen Bao'an International Airport",
+      "pageid": 1650413,
+      "revid": 1368702207,
+      "file": "szx.wiki"
+    },
+    {
+      "code": "tab",
+      "title": "A. N. R. Robinson International Airport",
+      "pageid": 2671003,
+      "revid": 1362956888,
+      "file": "tab.wiki"
+    },
+    {
+      "code": "tak",
+      "title": "Takamatsu Airport",
+      "pageid": 2314033,
+      "revid": 1363081728,
+      "file": "tak.wiki"
+    },
+    {
+      "code": "tam",
+      "title": "Tampico International Airport",
+      "pageid": 1585125,
+      "revid": 1363081891,
+      "file": "tam.wiki"
+    },
+    {
+      "code": "tao",
+      "title": "Qingdao Jiaodong International Airport",
+      "pageid": 41776991,
+      "revid": 1368034113,
+      "file": "tao.wiki"
+    },
+    {
+      "code": "tas",
+      "title": "Tashkent International Airport",
+      "pageid": 2932789,
+      "revid": 1369135485,
+      "file": "tas.wiki"
+    },
+    {
+      "code": "tay",
+      "title": "Tartu Airport",
+      "pageid": 3786759,
+      "revid": 1367146470,
+      "file": "tay.wiki"
+    },
+    {
+      "code": "tbs",
+      "title": "Tbilisi International Airport",
+      "pageid": 3074564,
+      "revid": 1368781688,
+      "file": "tbs.wiki"
+    },
+    {
+      "code": "tbu",
+      "title": "Fuaʻamotu International Airport",
+      "pageid": 2156210,
+      "revid": 1363704538,
+      "file": "tbu.wiki"
+    },
+    {
+      "code": "tfn",
+      "title": "Tenerife North–Ciudad de La Laguna Airport",
+      "pageid": 1765243,
+      "revid": 1368084427,
+      "file": "tfn.wiki"
+    },
+    {
+      "code": "tfs",
+      "title": "Tenerife South Airport",
+      "pageid": 2834143,
+      "revid": 1366557614,
+      "file": "tfs.wiki"
+    },
+    {
+      "code": "tfu",
+      "title": "Chengdu Tianfu International Airport",
+      "pageid": 41776622,
+      "revid": 1369120511,
+      "file": "tfu.wiki"
+    },
+    {
+      "code": "tgg",
+      "title": "Sultan Mahmud Airport",
+      "pageid": 6534198,
+      "revid": 1368555829,
+      "file": "tgg.wiki"
+    },
+    {
+      "code": "tia",
+      "title": "Tirana International Airport Nënë Tereza",
+      "pageid": 322361,
+      "revid": 1368990795,
+      "file": "tia.wiki"
+    },
+    {
+      "code": "tif",
+      "title": "Taif International Airport",
+      "pageid": 9420406,
+      "revid": 1363081660,
+      "file": "tif.wiki"
+    },
+    {
+      "code": "tiv",
+      "title": "Tivat Airport",
+      "pageid": 4395687,
+      "revid": 1367898798,
+      "file": "tiv.wiki"
+    },
+    {
+      "code": "tjh",
+      "title": "Tajima Airport",
+      "pageid": 15732660,
+      "revid": 1363081713,
+      "file": "tjh.wiki"
+    },
+    {
+      "code": "tkn",
+      "title": "Tokunoshima Airport",
+      "pageid": 9618720,
+      "revid": 1363149690,
+      "file": "tkn.wiki"
+    },
+    {
+      "code": "tks",
+      "title": "Tokushima Airport",
+      "pageid": 4506310,
+      "revid": 1363083280,
+      "file": "tks.wiki"
+    },
+    {
+      "code": "tku",
+      "title": "Turku Airport",
+      "pageid": 1754531,
+      "revid": 1366374672,
+      "file": "tku.wiki"
+    },
+    {
+      "code": "tlh",
+      "title": "Tallahassee International Airport",
+      "pageid": 287975,
+      "revid": 1367451063,
+      "file": "tlh.wiki"
+    },
+    {
+      "code": "tll",
+      "title": "Tallinn Airport",
+      "pageid": 31611,
+      "revid": 1368045898,
+      "file": "tll.wiki"
+    },
+    {
+      "code": "tln",
+      "title": "Toulon–Hyères Airport",
+      "pageid": 5390631,
+      "revid": 1363083559,
+      "file": "tln.wiki"
+    },
+    {
+      "code": "tls",
+      "title": "Toulouse–Blagnac Airport",
+      "pageid": 2834021,
+      "revid": 1363213989,
+      "file": "tls.wiki"
+    },
+    {
+      "code": "tlv",
+      "title": "Ben Gurion Airport",
+      "pageid": 113149,
+      "revid": 1369018086,
+      "file": "tlv.wiki"
+    },
+    {
+      "code": "tmp",
+      "title": "Tampere–Pirkkala Airport",
+      "pageid": 873234,
+      "revid": 1365959565,
+      "file": "tmp.wiki"
+    },
+    {
+      "code": "tmw",
+      "title": "Tamworth Regional Airport",
+      "pageid": 9828886,
+      "revid": 1368916696,
+      "file": "tmw.wiki"
+    },
+    {
+      "code": "tne",
+      "title": "New Tanegashima Airport",
+      "pageid": 15740089,
+      "revid": 1363066143,
+      "file": "tne.wiki"
+    },
+    {
+      "code": "tng",
+      "title": "Tangier Ibn Battouta Airport",
+      "pageid": 5894399,
+      "revid": 1367880756,
+      "file": "tng.wiki"
+    },
+    {
+      "code": "tos",
+      "title": "Tromsø Airport",
+      "pageid": 3460691,
+      "revid": 1367227605,
+      "file": "tos.wiki"
+    },
+    {
+      "code": "tpa",
+      "title": "Tampa International Airport",
+      "pageid": 262567,
+      "revid": 1367074297,
+      "file": "tpa.wiki"
+    },
+    {
+      "code": "tpe",
+      "title": "Taoyuan International Airport",
+      "pageid": 266327,
+      "revid": 1368370120,
+      "file": "tpe.wiki"
+    },
+    {
+      "code": "tqo",
+      "title": "Tulum International Airport",
+      "pageid": 66031024,
+      "revid": 1363084104,
+      "file": "tqo.wiki"
+    },
+    {
+      "code": "trc",
+      "title": "Torreón International Airport",
+      "pageid": 1997918,
+      "revid": 1368421518,
+      "file": "trc.wiki"
+    },
+    {
+      "code": "trd",
+      "title": "Trondheim Airport",
+      "pageid": 303381,
+      "revid": 1363083879,
+      "file": "trd.wiki"
+    },
+    {
+      "code": "tri",
+      "title": "Tri-Cities Regional Airport",
+      "pageid": 2494267,
+      "revid": 1363083751,
+      "file": "tri.wiki"
+    },
+    {
+      "code": "trn",
+      "title": "Turin Airport",
+      "pageid": 5212488,
+      "revid": 1366006950,
+      "file": "trn.wiki"
+    },
+    {
+      "code": "trs",
+      "title": "Trieste Airport",
+      "pageid": 2446553,
+      "revid": 1368789963,
+      "file": "trs.wiki"
+    },
+    {
+      "code": "trv",
+      "title": "Thiruvananthapuram International Airport",
+      "pageid": 398113,
+      "revid": 1367051161,
+      "file": "trv.wiki"
+    },
+    {
+      "code": "trw",
+      "title": "Bonriki International Airport",
+      "pageid": 4499535,
+      "revid": 1363021613,
+      "file": "trw.wiki"
+    },
+    {
+      "code": "trz",
+      "title": "Tiruchirappalli International Airport",
+      "pageid": 8628134,
+      "revid": 1366871864,
+      "file": "trz.wiki"
+    },
+    {
+      "code": "tsa",
+      "title": "Songshan Airport",
+      "pageid": 322418,
+      "revid": 1363079684,
+      "file": "tsa.wiki"
+    },
+    {
+      "code": "tsn",
+      "title": "Tianjin Binhai International Airport",
+      "pageid": 1535845,
+      "revid": 1367718936,
+      "file": "tsn.wiki"
+    },
+    {
+      "code": "tsv",
+      "title": "Townsville Airport",
+      "pageid": 2696121,
+      "revid": 1364703953,
+      "file": "tsv.wiki"
+    },
+    {
+      "code": "tta",
+      "title": "Tan Tan Airport",
+      "pageid": 18571934,
+      "revid": 1363081920,
+      "file": "tta.wiki"
+    },
+    {
+      "code": "ttu",
+      "title": "Sania Ramel Airport",
+      "pageid": 16749260,
+      "revid": 1363076987,
+      "file": "ttu.wiki"
+    },
+    {
+      "code": "tul",
+      "title": "Tulsa International Airport",
+      "pageid": 290155,
+      "revid": 1365863557,
+      "file": "tul.wiki"
+    },
+    {
+      "code": "tun",
+      "title": "Tunis–Carthage International Airport",
+      "pageid": 144160,
+      "revid": 1365358910,
+      "file": "tun.wiki"
+    },
+    {
+      "code": "tus",
+      "title": "Tucson International Airport",
+      "pageid": 144803,
+      "revid": 1363517806,
+      "file": "tus.wiki"
+    },
+    {
+      "code": "tuu",
+      "title": "Prince Sultan bin Abdulaziz Airport",
+      "pageid": 9420391,
+      "revid": 1366853175,
+      "file": "tuu.wiki"
+    },
+    {
+      "code": "tvc",
+      "title": "Cherry Capital Airport",
+      "pageid": 291221,
+      "revid": 1364478915,
+      "file": "tvc.wiki"
+    },
+    {
+      "code": "tvu",
+      "title": "Matei Airport",
+      "pageid": 9871815,
+      "revid": 1363057901,
+      "file": "tvu.wiki"
+    },
+    {
+      "code": "twu",
+      "title": "Tawau Airport",
+      "pageid": 3796653,
+      "revid": 1363082248,
+      "file": "twu.wiki"
+    },
+    {
+      "code": "txk",
+      "title": "Texarkana Regional Airport",
+      "pageid": 2318008,
+      "revid": 1363082623,
+      "file": "txk.wiki"
+    },
+    {
+      "code": "tyr",
+      "title": "Tyler Pounds Regional Airport",
+      "pageid": 1753590,
+      "revid": 1363084377,
+      "file": "tyr.wiki"
+    },
+    {
+      "code": "tys",
+      "title": "McGhee Tyson Airport",
+      "pageid": 291223,
+      "revid": 1367542538,
+      "file": "tys.wiki"
+    },
+    {
+      "code": "tzx",
+      "title": "Trabzon Airport",
+      "pageid": 7950139,
+      "revid": 1365885661,
+      "file": "tzx.wiki"
+    },
+    {
+      "code": "ubj",
+      "title": "Yamaguchi Ube Airport",
+      "pageid": 9619096,
+      "revid": 1363088260,
+      "file": "ubj.wiki"
+    },
+    {
+      "code": "ueo",
+      "title": "Kumejima Airport",
+      "pageid": 9586627,
+      "revid": 1363050645,
+      "file": "ueo.wiki"
+    },
+    {
+      "code": "uio",
+      "title": "Mariscal Sucre International Airport",
+      "pageid": 38519638,
+      "revid": 1364480080,
+      "file": "uio.wiki"
+    },
+    {
+      "code": "ulh",
+      "title": "Al-Ula International Airport",
+      "pageid": 35033556,
+      "revid": 1366327824,
+      "file": "ulh.wiki"
+    },
+    {
+      "code": "ume",
+      "title": "Umeå Airport",
+      "pageid": 5271653,
+      "revid": 1363084680,
+      "file": "ume.wiki"
+    },
+    {
+      "code": "upg",
+      "title": "Sultan Hasanuddin International Airport",
+      "pageid": 9571671,
+      "revid": 1368335200,
+      "file": "upg.wiki"
+    },
+    {
+      "code": "urc",
+      "title": "Ürümqi Tianshan International Airport",
+      "pageid": 2791675,
+      "revid": 1367723242,
+      "file": "urc.wiki"
+    },
+    {
+      "code": "ure",
+      "title": "Kuressaare Airport",
+      "pageid": 3722283,
+      "revid": 1368787280,
+      "file": "ure.wiki"
+    },
+    {
+      "code": "uvf",
+      "title": "Hewanorra International Airport",
+      "pageid": 162918,
+      "revid": 1363063743,
+      "file": "uvf.wiki"
+    },
+    {
+      "code": "vaa",
+      "title": "Vaasa Airport",
+      "pageid": 9017251,
+      "revid": 1363085052,
+      "file": "vaa.wiki"
+    },
+    {
+      "code": "vav",
+      "title": "Vavaʻu International Airport",
+      "pageid": 10027327,
+      "revid": 1363085281,
+      "file": "vav.wiki"
+    },
+    {
+      "code": "vbv",
+      "title": "Vanuabalavu Airport",
+      "pageid": 9871822,
+      "revid": 1363085224,
+      "file": "vbv.wiki"
+    },
+    {
+      "code": "vby",
+      "title": "Visby Airport",
+      "pageid": 5272119,
+      "revid": 1368793026,
+      "file": "vby.wiki"
+    },
+    {
+      "code": "vce",
+      "title": "Venice Marco Polo Airport",
+      "pageid": 267789,
+      "revid": 1368129552,
+      "file": "vce.wiki"
+    },
+    {
+      "code": "ver",
+      "title": "Veracruz International Airport",
+      "pageid": 2168213,
+      "revid": 1363085372,
+      "file": "ver.wiki"
+    },
+    {
+      "code": "vgo",
+      "title": "Vigo–Peinador Airport",
+      "pageid": 3539488,
+      "revid": 1364744908,
+      "file": "vgo.wiki"
+    },
+    {
+      "code": "vie",
+      "title": "Vienna International Airport",
+      "pageid": 159864,
+      "revid": 1368664189,
+      "file": "vie.wiki"
+    },
+    {
+      "code": "vil",
+      "title": "Dakhla Airport",
+      "pageid": 9241129,
+      "revid": 1363030307,
+      "file": "vil.wiki"
+    },
+    {
+      "code": "vlc",
+      "title": "Valencia Airport",
+      "pageid": 3617832,
+      "revid": 1368787318,
+      "file": "vlc.wiki"
+    },
+    {
+      "code": "vli",
+      "title": "Bauerfield International Airport",
+      "pageid": 155502,
+      "revid": 1362487674,
+      "file": "vli.wiki"
+    },
+    {
+      "code": "vll",
+      "title": "Valladolid Airport",
+      "pageid": 5461759,
+      "revid": 1363507985,
+      "file": "vll.wiki"
+    },
+    {
+      "code": "vno",
+      "title": "Vilnius Airport",
+      "pageid": 166489,
+      "revid": 1368751829,
+      "file": "vno.wiki"
+    },
+    {
+      "code": "vps",
+      "title": "Destin–Fort Walton Beach Airport",
+      "pageid": 287462,
+      "revid": 1364614651,
+      "file": "vps.wiki"
+    },
+    {
+      "code": "vra",
+      "title": "Juan Gualberto Gómez Airport",
+      "pageid": 4562285,
+      "revid": 1365484408,
+      "file": "vra.wiki"
+    },
+    {
+      "code": "vrb",
+      "title": "Vero Beach Regional Airport",
+      "pageid": 15650342,
+      "revid": 1367079520,
+      "file": "vrb.wiki"
+    },
+    {
+      "code": "vrn",
+      "title": "Verona Villafranca Airport",
+      "pageid": 2460741,
+      "revid": 1368656646,
+      "file": "vrn.wiki"
+    },
+    {
+      "code": "waw",
+      "title": "Warsaw Chopin Airport",
+      "pageid": 636093,
+      "revid": 1369014288,
+      "file": "waw.wiki"
+    },
+    {
+      "code": "wei",
+      "title": "Weipa Airport",
+      "pageid": 9829387,
+      "revid": 1364620749,
+      "file": "wei.wiki"
+    },
+    {
+      "code": "wga",
+      "title": "Wagga Wagga Airport",
+      "pageid": 3930748,
+      "revid": 1367622142,
+      "file": "wga.wiki"
+    },
+    {
+      "code": "wlg",
+      "title": "Wellington Airport",
+      "pageid": 1436521,
+      "revid": 1368170464,
+      "file": "wlg.wiki"
+    },
+    {
+      "code": "wnz",
+      "title": "Wenzhou Longwan International Airport",
+      "pageid": 3340288,
+      "revid": 1368785395,
+      "file": "wnz.wiki"
+    },
+    {
+      "code": "wrg",
+      "title": "Wrangell Airport",
+      "pageid": 2501029,
+      "revid": 1363087987,
+      "file": "wrg.wiki"
+    },
+    {
+      "code": "wtb",
+      "title": "Toowoomba Wellcamp Airport",
+      "pageid": 40323803,
+      "revid": 1368322446,
+      "file": "wtb.wiki"
+    },
+    {
+      "code": "wuh",
+      "title": "Wuhan Tianhe International Airport",
+      "pageid": 7545477,
+      "revid": 1367079276,
+      "file": "wuh.wiki"
+    },
+    {
+      "code": "wya",
+      "title": "Whyalla Airport",
+      "pageid": 9829501,
+      "revid": 1363087614,
+      "file": "wya.wiki"
+    },
+    {
+      "code": "xch",
+      "title": "Christmas Island Airport",
+      "pageid": 6569282,
+      "revid": 1362778212,
+      "file": "xch.wiki"
+    },
+    {
+      "code": "xiy",
+      "title": "Xi'an Xianyang International Airport",
+      "pageid": 4113761,
+      "revid": 1369029071,
+      "file": "xiy.wiki"
+    },
+    {
+      "code": "xmn",
+      "title": "Xiamen Gaoqi International Airport",
+      "pageid": 2963867,
+      "revid": 1368250422,
+      "file": "xmn.wiki"
+    },
+    {
+      "code": "xna",
+      "title": "Northwest Arkansas National Airport",
+      "pageid": 268332,
+      "revid": 1367493429,
+      "file": "xna.wiki"
+    },
+    {
+      "code": "xpl",
+      "title": "Palmerola International Airport",
+      "pageid": 69207405,
+      "revid": 1365676858,
+      "file": "xpl.wiki"
+    },
+    {
+      "code": "xry",
+      "title": "Jerez Airport",
+      "pageid": 1571929,
+      "revid": 1363835192,
+      "file": "xry.wiki"
+    },
+    {
+      "code": "xsc",
+      "title": "Norman B. Saunders Sr. International Airport",
+      "pageid": 25879589,
+      "revid": 1365477780,
+      "file": "xsc.wiki"
+    },
+    {
+      "code": "yeg",
+      "title": "Edmonton International Airport",
+      "pageid": 294590,
+      "revid": 1367244788,
+      "file": "yeg.wiki"
+    },
+    {
+      "code": "yhz",
+      "title": "Halifax Stanfield International Airport",
+      "pageid": 269784,
+      "revid": 1368257935,
+      "file": "yhz.wiki"
+    },
+    {
+      "code": "yia",
+      "title": "Yogyakarta International Airport",
+      "pageid": 17206372,
+      "revid": 1368855733,
+      "file": "yia.wiki"
+    },
+    {
+      "code": "ykm",
+      "title": "Yakima Air Terminal",
+      "pageid": 2542347,
+      "revid": 1363088223,
+      "file": "ykm.wiki"
+    },
+    {
+      "code": "ylw",
+      "title": "Kelowna International Airport",
+      "pageid": 1838270,
+      "revid": 1368233974,
+      "file": "ylw.wiki"
+    },
+    {
+      "code": "ynb",
+      "title": "Prince Abdulmohsen Bin Abdulaziz International Airport",
+      "pageid": 6494709,
+      "revid": 1363072861,
+      "file": "ynb.wiki"
+    },
+    {
+      "code": "yqb",
+      "title": "Québec City Jean Lesage International Airport",
+      "pageid": 269780,
+      "revid": 1368059627,
+      "file": "yqb.wiki"
+    },
+    {
+      "code": "yul",
+      "title": "Montréal–Trudeau International Airport",
+      "pageid": 263611,
+      "revid": 1368728863,
+      "file": "yul.wiki"
+    },
+    {
+      "code": "yum",
+      "title": "Yuma International Airport",
+      "pageid": 2183053,
+      "revid": 1363088709,
+      "file": "yum.wiki"
+    },
+    {
+      "code": "yvr",
+      "title": "Vancouver International Airport",
+      "pageid": 177015,
+      "revid": 1368210875,
+      "file": "yvr.wiki"
+    },
+    {
+      "code": "yyc",
+      "title": "Calgary International Airport",
+      "pageid": 293781,
+      "revid": 1368631193,
+      "file": "yyc.wiki"
+    },
+    {
+      "code": "yyj",
+      "title": "Victoria International Airport",
+      "pageid": 708609,
+      "revid": 1368695219,
+      "file": "yyj.wiki"
+    },
+    {
+      "code": "yyz",
+      "title": "Toronto Pearson International Airport",
+      "pageid": 2073580,
+      "revid": 1368483593,
+      "file": "yyz.wiki"
+    },
+    {
+      "code": "zag",
+      "title": "Zagreb Airport",
+      "pageid": 3811530,
+      "revid": 1368324087,
+      "file": "zag.wiki"
+    },
+    {
+      "code": "zcl",
+      "title": "Zacatecas International Airport",
+      "pageid": 2021066,
+      "revid": 1363088849,
+      "file": "zcl.wiki"
+    },
+    {
+      "code": "zih",
+      "title": "Ixtapa-Zihuatanejo International Airport",
+      "pageid": 2168406,
+      "revid": 1368894534,
+      "file": "zih.wiki"
+    },
+    {
+      "code": "zlo",
+      "title": "Playa de Oro International Airport",
+      "pageid": 1847699,
+      "revid": 1366844678,
+      "file": "zlo.wiki"
+    },
+    {
+      "code": "zne",
+      "title": "Newman Airport",
+      "pageid": 6312366,
+      "revid": 1366878618,
+      "file": "zne.wiki"
+    },
+    {
+      "code": "znz",
+      "title": "Abeid Amani Karume International Airport",
+      "pageid": 6810083,
+      "revid": 1365688923,
+      "file": "znz.wiki"
+    },
+    {
+      "code": "zqn",
+      "title": "Queenstown Airport",
+      "pageid": 5367556,
+      "revid": 1366866404,
+      "file": "zqn.wiki"
+    },
+    {
+      "code": "zrh",
+      "title": "Zurich Airport",
+      "pageid": 253102,
+      "revid": 1367693733,
+      "file": "zrh.wiki"
+    },
+    {
+      "code": "zth",
+      "title": "Zakynthos International Airport",
+      "pageid": 6374396,
+      "revid": 1369099884,
+      "file": "zth.wiki"
+    }
+  ]
+}

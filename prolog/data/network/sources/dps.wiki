@@ -1,0 +1,118 @@
+==Airlines and destinations==
+
+=== Passenger ===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Aero Dili]] | [[Presidente Nicolau Lobato International Airport|Dili]]
+<!-- -->
+| [[Aeroflot]] | [[Sheremetyevo International Airport|Moscow–Sheremetyevo]]
+<!-- -->
+| [[Air Busan]] | [[Gimhae International Airport|Busan]]
+<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]]
+<!-- -->
+| [[Air New Zealand]] | [[Auckland Airport|Auckland]]
+<!-- -->
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Airfast Indonesia]] | '''Charter:''' [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Mozes Kilangin Airport|Timika]]
+<!-- -->
+| [[Batik Air]] | [[Halim Perdanakusuma International Airport|Jakarta–Halim Perdanakusuma]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[El Tari Airport|Kupang]], [[Komodo International Airport|Labuan Bajo]], [[Sultan Hasanuddin International Airport|Makassar]], [[Perth Airport|Perth]], [[Juanda International Airport|Surabaya]], [[Lede Kalumbang Airport|Tambolaka]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Brisbane Airport|Brisbane]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Melbourne Airport|Melbourne]], [[Perth Airport|Perth]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Cebu Pacific]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[China Southern Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Citilink]] | [[Husein Sastranegara Airport|Bandung–Husein Sastranegara]] (resumes 17 August 2026), [[Presidente Nicolau Lobato International Airport|Dili]], [[Halim Perdanakusuma International Airport|Jakarta–Halim Perdanakusuma]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Hasanuddin International Airport|Makassar]], [[Juanda International Airport|Surabaya]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal charter:''' [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Garuda Indonesia]] | [[Husein Sastranegara Airport|Bandung–Husein Sastranegara]] (resumes 14 August 2026), [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Melbourne Airport|Melbourne]], [[Changi Airport|Singapore]], [[Domine Eduard Osok Airport|Sorong]], [[Juanda International Airport|Surabaya]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Mozes Kilangin Airport|Timika]], [[Narita International Airport|Tokyo–Narita]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!-- -->
+| [[Hong Kong Airlines]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[IndiGo]] | [[Kempegowda International Airport|Bengaluru]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]] (resumes 1 October 2026), [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]] (resumes 1 October 2026)
+<!-- -->
+| [[Indonesia AirAsia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Komodo International Airport|Labuan Bajo]], [[Perth Airport|Perth]], [[Phuket International Airport|Phuket]]
+<!-- -->
+| [[Jeju Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Jetstar]] |  [[Adelaide Airport|Adelaide]], [[Avalon Airport|Avalon]], [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]], [[Darwin International Airport|Darwin]], [[Gold Coast Airport|Gold Coast]], [[Melbourne Airport|Melbourne]], [[Newcastle Airport, New South Wales|Newcastle]], [[Perth Airport|Perth]], [[Changi Airport|Singapore]], [[Sunshine Coast Airport|Sunshine Coast]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Juneyao Air]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[KLM]] | [[Schiphol Airport|Amsterdam]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Lion Air]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Hasanuddin International Airport|Makassar]], [[Sam Ratulangi International Airport|Manado]], [[Juanda International Airport|Surabaya]] <br/> '''Seasonal:''' [[Lombok International Airport|Lombok]]
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal charter:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[NAM Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Lede Kalumbang Airport|Tambolaka]]
+<!-- -->
+| [[Pelita Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Qanot Sharq]] | '''Seasonal charter:''' [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Qantas]] | [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Shirak Avia]] | [[Zvartnots International Airport|Yerevan]] (begins 1 November 2026)
+<!-- -->
+| [[Sichuan Airlines]] | [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Sriwijaya Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Hasanuddin International Airport|Makassar]]
+<!-- -->
+| [[Starlux Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]] (begins 1 October 2026)
+<!-- -->
+| [[Super Air Jet]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[El Tari Airport|Kupang]], [[Supadio International Airport|Pontianak]],  [[Jenderal Ahmad Yani International Airport|Semarang]], [[Adisoemarmo International Airport|Solo]], [[Juanda International Airport|Surabaya]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!-- -->
+| [[T'way Air]] | [[Cheongju International Airport|Cheongju]]
+<!-- -->
+| [[Thai AirAsia]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai Lion Air]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| [[TransNusa]] | [[Sultan Muhammad Salahudin Airport|Bima]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Lombok International Airport|Lombok]], [[Sam Ratulangi International Airport|Manado]], [[Perth Airport|Perth]], [[Phuket International Airport|Phuket]] (begins 9 September 2026), [[Changi Airport|Singapore]], [[Umbu Mehang Kunda Airport|Waingapu]], [[Matahora Airport|Wakatobi]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+|[[VietJet Air]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Vietnam Airlines]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Virgin Australia]] | [[Brisbane Airport|Brisbane]], [[Gold Coast Airport|Gold Coast]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]] <br />'''Seasonal:''' [[Canberra Airport|Canberra]]
+<!-- -->
+| [[Wings Air]] | [[Sultan Muhammad Salahudin Airport|Bima]], [[Lombok International Airport|Lombok]], [[Sultan Muhammad Kaharuddin III Airport|Sumbawa Besar]]
+<!-- -->
+| [[XiamenAir]] | [[Xiamen Gaoqi International Airport|Xiamen]]
+}}

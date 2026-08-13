@@ -1,0 +1,17 @@
+==Airlines and destinations==
+[[File:Tuvalu Inaba-1.jpg|thumb|upright|[[Fiji Link]] aircraft at Funafuti.]]
+
+[[Fiji Airways]] operates services 3 times a week (Tuesday, Thursday and Saturday) between [[Suva]] and Funafuti and twice a week (Monday and Friday) between [[Nadi]] and Funafuti with [[ATR 72|ATR 72-600]] aircraft, which has a capacity of up to 72 passengers.
+
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]], [[Nausori International Airport|Suva]]
+}}
+
+===Historical services===
+Up to 1999 [[Air Marshall Islands]] operated a [[Hawker Siddeley HS 748]] with a passenger load of 55.
+
+In 2001 the government of Tuvalu purchased a share of [[Air Fiji]], which provided Tuvalu with greater control of its airline access; however, Air Fiji ceased operations in 2009.
+
+From 21 March 2018 to 21 September 2021, [[Air Kiribati]] operated one flight a week to Funafuti, using a [[Bombardier Dash 8]] 100 series aircraft, which carried up to 35 passengers.

@@ -1,0 +1,52 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources per [[WP:V]]. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Canada]] | [[Toronto Pearson International Airport|Toronto–Pearson]] <br />'''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[Air Canada Rouge]] | '''Seasonal:''' [[Halifax Stanfield International Airport|Halifax]] (begins 17 December 2026)
+<!-- -->
+| [[Air Peace]] |'''Charter:''' [[Murtala Muhammed International Airport |Lagos]]
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal-Trudeau International Airport|Montréal–Trudeau]] (begins 13 December 2026)
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]] <br /> '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]] (ends 7 September 2026)
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]]<br /> '''Seasonal:''' [[Cheddi Jagan International Airport|Georgetown–Cheddi Jagan]] (begins 26 October 2026), [[Maurice Bishop International Airport|Grenada]] (begins 25 October 2026), [[Gatwick Airport|London–Gatwick]] (begins 25 October 2026), [[Arthur Napoleon Raymond Robinson International Airport|Tobago]] (begins 27 October 2026)
+<!-- -->
+| [[Caribbean Airlines]] | [[V. C. Bird International Airport|Antigua]] [[George F L Charles Airport|Castries]], [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[Eugene F. Correia International Airport|Georgetown–Ogle]], [[Maurice Bishop International Airport|Grenada]], [[Pointe-à-Pitre International Airport|Pointe-à-Pitre]], [[Piarco International Airport|Port of Spain]], [[Princess Juliana International Airport|St. Maarten]], [[Argyle International Airport|St. Vincent–Argyle]], [[A. N. R. Robinson International Airport|Tobago]]
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]] <br /> '''Seasonal charter:''' [[Düsseldorf Airport|Düsseldorf]]{{cn|date=January 2026}}
+<!-- -->
+| [[Conviasa]] | [[Simón Bolívar International Airport (Venezuela)|Caracas]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br /> '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| {{nowrap|[[InterCaribbean Airways]]}} | [[V. C. Bird International Airport|Antigua]], [[George F. L. Charles Airport|Castries]], [[Cheddi Jagan International Airport|Georgetown-Cheddi]], [[Eugene F. Correia International Airport|Georgetown–Ogle]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Piarco International Airport|Port of Spain]], [[Providenciales International Airport|Providenciales]], [[Princess Juliana International Airport|St. Maarten]], [[Argyle International Airport|St. Vincent–Argyle]], [[Terrance B. Lettsome International Airport|Tortola]]
+<!-- -->
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[KLM]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Liat Air]] | [[V. C. Bird International Airport|Antigua]], [[George F. L. Charles Airport|Castries]] [[Cheddi Jagan International Airport|Georgetown-Cheddi Jagan]], [[Maurice Bishop International Airport|Grenada]]
+<!-- -->
+| {{nowrap|[[Norse Atlantic Airways]]}} | '''Seasonal:''' [[Cardiff Airport|Cardiff]]<br /> '''Seasonal charter:''' [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Sunrise Airways]] | [[V. C. Bird International Airport|Antigua]],{{cn|date=January 2026}} [[George F. L. Charles Airport|Castries]],{{cn|date=January 2026}} [[Douglas–Charles Airport|Dominica–Douglas-Charles]],{{cn|date=January 2026}} [[Martinique Aimé Césaire International Airport|Fort-de-France]]{{cn|date=January 2026}}
+<!-- -->
+| [[Surinam Airways]] | [[Johan Adolf Pengel International Airport|Paramaribo]]{{efn| [[KLM]]' flights to Amsterdam will make a stop in Guyana.}}
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Glasgow Airport|Glasgow]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[United Airlines]] | [[Newark Liberty International Airport|Newark]], [[Washington Dulles International Airport|Washington-Dulles]]
+<!-- -->
+| [[Virgin Atlantic]] | [[Maurice Bishop International Airport|Grenada]], [[Heathrow Airport|London–Heathrow]], [[Argyle International Airport|St. Vincent–Argyle]]<br /> '''Seasonal:''' [[Manchester Airport|Manchester]]
+<!-- -->
+| [[WestJet]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Winair]] | [[George F. L. Charles Airport|Castries]], [[Douglas–Charles Airport|Dominica–Douglas-Charles]], [[Martinique Aimé Césaire International Airport|Fort-de-France]] [[Robert L. Bradshaw International Airport|St. Kitts]], [[Princess Juliana International Airport|St. Maarten]],  [[Terrence B. Lettsome International Airport|Tortola]]
+}}
+{{notelist}}

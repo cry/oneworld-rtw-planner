@@ -1,0 +1,35 @@
+{
+  "_comment": "Sectors verified by hand against published timetables, one for every carrier in carriers:eligible_carriers/1 plus a few long-haul pairs. This is the honest version of the check that was almost written against test/fixtures/: those are rule-exercising constructions and several of their sectors are fabricated or use a deliberately unknown airport, so asserting they are flyable would fail on day one and acquire an exclusion list. See PLANS/06-flown-network.md, Phase 4.",
+
+  "_why_not_in_fixtures": "It sits beside the suites rather than in test/fixtures/ because that directory means 'an itinerary': test_rules.pl's every_rule_that_can_fire_is_measured and test_wasm.mjs both sweep it with readdir and load every file as one. A file with no segments would break both.",
+
+  "_direction": "Each entry names a carrier and a city pair, and the test asserts the sector is present in AT LEAST ONE direction. The table is directed and built from the articles at both ends, so a real sector normally yields two facts -- but a single malformed article should surface as an asymmetry count, which is a separate test, rather than as a failure here.",
+
+  "_maintenance": "A failure here means either the extractor lost a section or the airline dropped the route. Check the route before changing the file: deleting an entry because it stopped passing is how this test would stop being worth running.",
+
+  "sectors": [
+    {"carrier": "AA", "from": "JFK", "to": "LAX", "note": "transcontinental, multiple daily"},
+    {"carrier": "AS", "from": "SEA", "to": "ANC", "note": "Alaska's core mainline sector"},
+    {"carrier": "AT", "from": "CMN", "to": "CDG", "note": "Royal Air Maroc's densest European route"},
+    {"carrier": "AY", "from": "HEL", "to": "LHR", "note": "Finnair, multiple daily"},
+    {"carrier": "BA", "from": "LHR", "to": "JFK", "note": "the most-served longhaul pair in the alliance"},
+    {"carrier": "CX", "from": "HKG", "to": "LHR", "note": "Cathay's flagship"},
+    {"carrier": "FJ", "from": "NAN", "to": "SYD", "note": "Fiji Airways' densest international route"},
+    {"carrier": "IB", "from": "MAD", "to": "LHR", "note": "Iberia, multiple daily"},
+    {"carrier": "JL", "from": "HND", "to": "LHR", "note": "Japan Airlines"},
+    {"carrier": "MH", "from": "KUL", "to": "SIN", "note": "Malaysia Airlines, very high frequency"},
+    {"carrier": "NU", "from": "OKA", "to": "ISG", "note": "Japan Transocean Air -- the Okinawa island network is the whole reason NU is in 4(j)"},
+    {"carrier": "QF", "from": "SYD", "to": "MEL", "note": "Qantas, the densest route in Australia"},
+    {"carrier": "QR", "from": "DOH", "to": "LHR", "note": "Qatar Airways, multiple daily"},
+    {"carrier": "RJ", "from": "AMM", "to": "LHR", "note": "Royal Jordanian"},
+    {"carrier": "UL", "from": "CMB", "to": "SIN", "note": "SriLankan Airlines, long-standing"},
+    {"carrier": "WY", "from": "MCT", "to": "LHR", "note": "Oman Air"},
+
+    {"carrier": "BA", "from": "LHR", "to": "SIN", "note": "depth: a second BA longhaul"},
+    {"carrier": "AA", "from": "DFW", "to": "LHR", "note": "depth: AA out of its largest hub"},
+    {"carrier": "CX", "from": "HKG", "to": "SYD", "note": "depth: Cathay southbound"},
+    {"carrier": "QF", "from": "SYD", "to": "LAX", "note": "depth: Qantas transpacific"},
+    {"carrier": "JL", "from": "NRT", "to": "LAX", "note": "depth: JAL transpacific"},
+    {"carrier": "QR", "from": "DOH", "to": "BKK", "note": "depth: Qatar eastbound"}
+  ]
+}

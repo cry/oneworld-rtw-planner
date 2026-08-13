@@ -1,0 +1,41 @@
+== Airlines and destinations ==
+=== Passenger ===
+{{Airport-dest-list|
+{{nowrap|[[Aeroméxico Connect]]}}|[[Mexico City International Airport|Mexico City–Benito Juárez]]
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montreal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]]
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]] <br> '''Seasonal:''' [[San Francisco International Airport|San Francisco]]
+| [[American Airlines]] | ''' Seasonal: ''' [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| {{nowrap|[[Mexicana de Aviación (2023–present)|Mexicana de Aviación]]}} |[[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]| [[Sun Country Airlines]] | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+| [[United Airlines]] | '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]]
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+| [[Viva (airline)|Viva]] |[[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]] <br> '''Seasonal:''' [[Monterrey International Airport|Monterrey]]
+| [[Volaris]] | [[Guadalajara International Airport|Guadalajara]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[General Francisco Mujica International Airport|Morelia]], [[Puebla International Airport|Puebla]] (ends August 29, 2026), [[Querétaro Intercontinental Airport|Querétaro]], [[Tijuana International Airport|Tijuana]]
+| [[WestJet]] | '''Seasonal:''' [[Calgary International Airport|Calgary]], [[Vancouver International Airport|Vancouver]]
+}}
+
+=== Destination maps ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=left|caption=Domestic destinations from Ixtapa-Zihuatanejo International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Mexico|lat=17.601389 |long=-101.460278| position=left|label=<div style="position:relative; top:-5px;"><small>'''Ixtapa-Zihuatanejo'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=left|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.7566 |long=-99.0152|position=right|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City/AIFA}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Mexico|lat=25.778333 |long=-100.106389|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.6225 |long=-100.1873|position=right|label='''[[Querétaro Intercontinental Airport|{{nowrap|Querétaro}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg | Mexico|lat=20.5260 |long=-103.3076|position=top|label='''[[Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.8465 |long=-101.0281|position=top|label='''[[General Francisco Mujica International Airport|{{nowrap|Morelia}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Blue pog.svg | Mexico|lat=19.158056|long=-98.371389|position=bottom|label='''[[Puebla International Airport|Puebla]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|North_America|width=650|float=center|caption=International destinations from Ixtapa-Zihuatanejo International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | North_America|lat=17.601389 |long=-101.460278| position=left|label=<div style="position:relative; top:-5px;"><small>'''Ixtapa-Zihuatanejo'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | mark = Green pog.svg | North_America |lat=43.4036|long=-79.3750|position=top|label='''<small>[[Toronto Pearson International Airport|{{nowrap|Toronto-Pearson}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | North_America |lat=51.1225|long=-114.013333|position=right|label='''<small>[[Calgary International Airport|Calgary]]</small>'''|label_size=100 |marksize=7 }}{{Location map~ | mark = Green pog.svg | North_America |lat=49.194722|long=-123.183889|position=top|label='''<small>[[Vancouver International Airport|Vancouver]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | North_America |lat=45.470556|long=-73.740833|position=top|label='''<small>[[Montréal–Trudeau International Airport|{{nowrap|Montréal–Trudeau}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | North_America |lat=41.978611|long=-87.904722|position=left|label='''<small>[[O'Hare International Airport|{{nowrap|Chicago-O'Hare}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | North_America |lat=32.896944|long=-97.038056|position=top|label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=29.984444|long=-95.341389|position=right|label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=33.9425|long=-118.408056|position=left|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | North_America |lat=37.618889|long=-122.375|position=left|label='''<small>[[San Francisco International Airport|{{nowrap|San Francisco}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=33.434167|long=-112.011667|position=top|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | North_America |lat=44.881944|long=-93.221667|position=top|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis–St. Paul]]</small>'''|label_size=100 |marksize=7 }}}}
+|}

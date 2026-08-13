@@ -1,0 +1,154 @@
+== Airlines and destinations ==
+
+=== Passenger ===
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!--+-->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]], [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!--+-->
+| [[Air Macau]] | [[Macau International Airport|Macau]]
+<!--+-->
+| [[AirAsia]] | [[Sultan Ismail Petra Airport|Kota Bharu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Penang International Airport|Penang]]
+<!--+-->
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo–Haneda]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]
+<!--+-->
+| [[Batik Air]] | [[Pattimura Airport|Ambon]], [[Sultan Aji Muhammad Sulaiman Sepinggan International Airport|Balikpapan]], [[Sultan Iskandar Muda International Airport|Banda Aceh]], [[Radin Inten II Airport|Bandar Lampung]], [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Hang Nadim International Airport|Batam]], [[Fatmawati Soekarno Airport|Bengkulu]], [[Ngurah Rai International Airport|Denpasar]], [[Djalaluddin Airport|Gorontalo]], [[Sultan Thaha Airport|Jambi]], [[Sentani International Airport|Jayapura]], [[Haluoleo Airport|Kendari]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[El Tari Airport|Kupang]], [[Komodo International Airport|Labuan Bajo]], [[Lombok International Airport|Lombok]], [[Silampari Airport|Lubuklinggau]], [[Sultan Hasanuddin International Airport|Makassar]], [[Abdul Rachman Saleh Airport|Malang]], [[Sam Ratulangi International Airport|Manado]], [[Kualanamu International Airport|Medan]], [[Muara Bungo Airport|Muara Bungo]], [[Minangkabau International Airport|Padang]], [[Tjilik Riwut Airport|Palangkaraya]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]], [[Mutiara SIS Al-Jufrie Airport|Palu]], [[Iskandar Airport|Pangkalan Bun]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Perth Airport|Perth]], [[Supadio International Airport|Pontianak]], [[Aji Pangeran Tumenggung Pranoto International Airport|Samarinda]], [[Jenderal Ahmad Yani International Airport|Semarang]], [[Changi Airport|Singapore]], [[Adisoemarmo International Airport|Solo]], [[Domine Eduard Osok Airport|Sorong]], [[Juanda International Airport|Surabaya]], [[Raja Haji Fisabilillah Airport|Tanjung Pinang]], [[Kalimarau Airport|Tanjung Redeb]], [[Juwata Airport|Tarakan]], [[Sultan Babullah Airport|Ternate]], [[Yogyakarta International Airport|Yogyakarta–International]]<br />'''Charter:''' [[Haikou Meilan International Airport|Haikou]], [[Nanning Wuxu International Airport|Nanning]]
+<!--+-->
+| [[Batik Air Malaysia]] | [[Senai International Airport|Johor Bahru]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]], [[Penang International Airport|Penang]]
+<!--+-->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!--+-->
+| [[Cebu Pacific]] | [[Ninoy Aquino International Airport|Manila]]
+<!--+-->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!--+-->
+| [[China Eastern Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!--+-->
+| {{nowrap|[[China Southern Airlines]]}} | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!--+-->
+| [[Citilink]] | [[Pattimura Airport|Ambon]], [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Sultan Iskandar Muda International Airport|Banda Aceh]], [[Radin Inten II Airport|Bandar Lampung]], [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Hang Nadim International Airport|Batam]], [[Fatmawati Soekarno Airport|Bengkulu]], [[Ngurah Rai International Airport|Denpasar]], [[Sultan Thaha Airport|Jambi]], [[Sentani International Airport|Jayapura]], [[Haluoleo Airport|Kendari]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[El Tari International Airport|Kupang]], [[Lombok International Airport|Lombok]], [[Sultan Hasanuddin International Airport|Makassar]], [[Abdul Rachman Saleh Airport|Malang]], [[Sam Ratulangi International Airport|Manado]], [[Kualanamu International Airport|Medan]], [[Minangkabau International Airport|Padang]], [[Tjilik Riwut Airport|Palangkaraya]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]], [[Depati Amir Airport|Pangkal Pinang]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Supadio International Airport|Pontianak]], [[Aji Pangeran Tumenggung Pranoto International Airport|Samarinda]], [[Jenderal Ahmad Yani International Airport|Semarang]], [[Raja Sisingamangaraja XII Airport|Siborong-Borong]], [[Changi Airport|Singapore]], [[Adisoemarmo International Airport|Solo]], [[Juanda International Airport|Surabaya]], [[H.A.S. Hanandjoeddin International Airport|Tanjung Pandan]], [[Raja Haji Fisabilillah Airport|Tanjung Pinang]], [[Yogyakarta International Airport|Yogyakarta–International]] <br />'''Charter:''' [[Chongqing Jiangbei International Airport|Chongqing]], [[Da Nang International Airport|Da Nang]], [[Noi Bai International Airport|Hanoi]], [[Kunming Changshui International Airport|Kunming]], [[Wenzhou Longwan International Airport|Wenzhou]], [[Zhangjiajie Hehua International Airport|Zhangjiajie]]
+<!--+-->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!--+-->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!--+-->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!--+-->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!--+-->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!--+-->
+| [[Garuda Indonesia]] | [[Pattimura Airport|Ambon]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Sultan Iskandar Muda International Airport|Banda Aceh]], [[Radin Inten II Airport|Bandar Lampung]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Hang Nadim International Airport|Batam]], [[Ngurah Rai International Airport|Denpasar]], [[Djalaluddin Airport|Gorontalo]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Hong Kong International Airport|Hong Kong]], [[Sultan Thaha Airport|Jambi]], [[Dortheys Hiyo Eluay International Airport|Jayapura]], [[King Abdulaziz International Airport|Jeddah]], [[Haluoleo Airport|Kendari]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[El Tari Airport|Kupang]], [[Komodo International Airport|Labuan Bajo]], [[Lombok International Airport|Lombok]], [[Sultan Hasanuddin International Airport|Makassar]], [[Sam Ratulangi International Airport|Manado]], [[Kualanamu International Airport|Medan]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Melbourne Airport|Melbourne]], [[Mopah Airport|Merauke]], [[Minangkabau International Airport|Padang]], [[Tjilik Riwut Airport|Palangkaraya]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]], [[Mutiara SIS Al-Jufrie Airport|Palu]], [[Depati Amir Airport|Pangkal Pinang]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Supadio International Airport|Pontianak]], [[Aji Pangeran Tumenggung Pranoto International Airport|Samarinda]], [[Jenderal Ahmad Yani International Airport|Semarang]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Changi Airport|Singapore]], [[Adisoemarmo International Airport|Solo]], [[Domine Eduard Osok Airport|Sorong]], [[Juanda International Airport|Surabaya]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Sultan Babullah Airport|Ternate]], [[Mozes Kilangin Airport|Timika]], [[Haneda Airport|Tokyo–Haneda]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!--+-->
+| [[Hainan Airlines]] | [[Haikou Meilan International Airport|Haikou]]
+<!--+-->
+| [[IndiGo]] | [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]]
+<!--+-->
+| [[Indonesia AirAsia]] | [[Radin Inten II Airport|Bandar Lampung]], [[Brunei International Airport|Bandar Seri Begawan]], [[Ngurah Rai International Airport|Denpasar]], [[Senai International Airport|Johor Bahru]], [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]], [[Komodo International Airport|Labuan Bajo]], [[Penang International Airport|Penang]], [[Techo International Airport|Phnom Penh]], [[Raja Sisingamangaraja XII Airport|Siborong-Borong]]
+<!--+-->
+| [[Japan Airlines]] | [[Narita International Airport|Tokyo–Narita]]
+<!--+-->
+| [[Juneyao Air]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]] (begins 20 October 2026)
+<!--+-->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!--+-->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!--+-->
+| [[Lion Air]] | [[Pattimura Airport|Ambon]], [[Radin Inten II Airport|Bandar Lampung]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Hang Nadim International Airport|Batam]],  [[Ngurah Rai International Airport|Denpasar]], [[El Tari Airport|Kupang]], [[Lombok International Airport|Lombok]], [[Sultan Hasanuddin International Airport|Makassar]], [[Sam Ratulangi International Airport|Manado]], [[Kualanamu International Airport|Medan]], [[Mopah Airport|Merauke]], [[Minangkabau International Airport|Padang]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]], [[Depati Amir Airport|Pangkal Pinang]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Supadio International Airport|Pontianak]], [[Juanda International Airport|Surabaya]], [[H.A.S. Hanandjoeddin International Airport|Tanjung Pandan]], [[Yogyakarta International Airport|Yogyakarta–International]] <br />'''Charter:''' [[Haikou Meilan International Airport|Haikou]], [[Sanya Phoenix International Airport|Sanya]] <br/>'''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| [[Loong Air]] | '''Charter:''' [[Haikou Meilan International Airport|Haikou]], [[Hangzhou Xiaoshan International Airport|Hangzhou]]
+<!--+-->
+| [[Lucky Air]] | [[Kunming Changshui International Airport|Kunming]]
+<!--+-->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!--+-->
+| [[NAM Air]] | [[Hang Nadim International Airport|Batam]], [[Ngurah Rai International Airport|Denpasar]], [[Muara Bungo Airport|Muara Bungo]], [[Depati Amir Airport|Pangkal Pinang]], [[Iskandar Airport|Pangkalan Bun]], [[H. Asan Airport|Sampit]]
+<!--+-->
+| [[Oman Air]] | [[Muscat International Airport|Muscat]]
+<!--+-->
+| [[Pelita Air]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Sultan Iskandar Muda International Airport|Banda Aceh]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Ngurah Rai International Airport|Denpasar]], [[Haluoleo Airport|Kendari]], [[Lombok International Airport|Lombok]], [[Sultan Hasanuddin International Airport|Makassar]], [[Kualanamu International Airport|Medan]], [[Minangkabau International Airport|Padang]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Supadio International Airport|Pontianak]], [[Changi Airport|Singapore]], [[Juanda International Airport|Surabaya]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!--+-->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]]
+<!--+-->
+| [[Qantas]] | [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!--+-->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!--+-->
+| [[Royal Brunei Airlines]] | [[Brunei International Airport|Bandar Seri Begawan]]
+<!--+-->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]] <br/>'''Seasonal:''' [[King Khalid International Airport|Riyadh]]
+<!--+-->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!--+-->
+| [[Shandong Airlines]] | [[Xiamen Gaoqi International Airport|Xiamen]]
+<!--+-->
+| [[Shenzhen Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]] (resumes 20 October 2026)
+<!--+-->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!--+-->
+| [[Spring Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!--+-->
+| [[SriLankan Airlines]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!--+-->
+| [[Sriwijaya Air]] | [[Ngurah Rai International Airport|Denpasar]], [[Sultan Thaha Airport|Jambi]], [[Sultan Hasanuddin International Airport|Makassar]], [[Depati Amir Airport|Pangkal Pinang]], [[Supadio International Airport|Pontianak]], [[H.A.S. Hanandjoeddin International Airport|Tanjung Pandan]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!--+-->
+| [[Starlux Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!--+-->
+| [[Super Air Jet]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Sultan Iskandar Muda International Airport|Banda Aceh]], [[Radin Inten II Airport|Bandar Lampung]], [[Syamsudin Noor International Airport|Banjarmasin]], [[Banyuwangi Airport|Banyuwangi]], [[Hang Nadim International Airport|Batam]], [[Fatmawati Soekarno Airport|Bengkulu]], [[Ngurah Rai International Airport|Denpasar]], [[Sultan Thaha Airport|Jambi]], [[Dhoho Airport|Kediri]], [[Haluoleo Airport|Kendari]], [[Komodo International Airport|Labuan Bajo]], [[Lombok International Airport|Lombok]], [[Sultan Hasanuddin International Airport|Makassar]], [[Kualanamu International Airport|Medan]], [[Minangkabau International Airport|Padang]], [[Tjilik Riwut Airport|Palangkaraya]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]], [[Mutiara SIS Al-Jufrie Airport|Palu]], [[Depati Amir Airport|Pangkal Pinang]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Supadio International Airport|Pontianak]], [[H. Asan Airport|Sampit]], [[Jenderal Ahmad Yani International Airport|Semarang]] (resumes 26 August 2026), [[Raja Sisingamangaraja XII Airport|Siborong-Borong]], [[Singkawang Airport|Singkawang]], [[Domine Eduard Osok Airport|Sorong]], [[Juanda International Airport|Surabaya]] (begins 25 August 2026), [[Sultan Babullah Airport|Ternate]], [[Yogyakarta International Airport|Yogyakarta–International]] (begins 26 August 2026)
+<!--+-->
+| [[T'way Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!--+-->
+| {{nowrap|[[Thai Airways International]]}} | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!--+-->
+| [[Thai Lion Air]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!--+-->
+| [[TransNusa]] | [[Radin Inten II Airport|Bandar Lampung]] (begins 24 August 2026), [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Ngurah Rai International Airport|Denpasar]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]], [[Lombok International Airport|Lombok]],  [[Penang International Airport|Penang]], [[Changi Airport|Singapore]], [[Singkawang Airport|Singkawang]], [[Yogyakarta International Airport|Yogyakarta–International]]<br />'''Charter: ''' [[Guiyang Longdongbao International Airport|Guiyang]]
+<!--+-->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!--+-->
+| [[VietJet Air]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!--+-->
+| [[Vietnam Airlines]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!--+-->
+| [[XiamenAir]] | [[Chongqing Jiangbei International Airport|Chongqing]], [[Fuzhou Changle International Airport|Fuzhou]], [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Nanjing Lukou International Airport|Nanjing]], [[Wuhan Tianhe International Airport|Wuhan]], [[Xiamen Gaoqi International Airport|Xiamen]]
+<!--+-->
+}}
+
+=== Cargo ===
+{{Airport-dest-list
+<!-- -->
+| [[All Nippon Airways|ANA Cargo]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| Cardig Air | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Sultan Hasanuddin International Airport|Makassar]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]]
+<!-- -->
+| [[Cargolux]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Hong Kong International Airport|Hong Kong]], [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Cathay Pacific|Cathay Cargo]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Central Airlines (China)|Central Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[China Airlines|China Airlines Cargo]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[China Cargo Airlines]] | [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Ningbo Lishe International Airport|Ningbo]]
+<!-- -->
+| [[DHL Aviation]] | [[Hong Kong International Airport|Hong Kong]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Emirates (airline)|Emirates SkyCargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+| [[Korean Air|Korean Air Cargo]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Penang International Airport|Penang]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Malaysian Airlines|MASkargo]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Qatar Airways|Qatar Airways Cargo]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Raya Airways]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+}}
+
+=== Busiest routes ===
+Jakarta–Singapore is one of the world's busiest international air routes; passenger numbers on this route are growing fast. It was the second busiest international route in Asia after Hong Kong–Taipei in 2015. [[Singapore Airlines]] alone operates more than 70 weekly flights between Jakarta and Singapore. The Jakarta Soekarno-Hatta–Surabaya route is ranked ninth busiest in the world by [[IATA]] in 2016. Jakarta–Singapore, and Jakarta–Kuala Lumpur routes are ranked in the top ten of world's busiest international air routes in 2018.
+
+=== New traffic procedure ===
+To ease congestion, the airport authority implemented a new traffic procedure, the 72 Improved Runway Capacity (IRC 72), to handle 72 planes per hour. This limited a plane to 30–45 minutes only for arrival and unloading of passengers, to allow other planes to use the parking space. Gradually it has been implemented and on 26 June 2014, IRC 72 has been implemented fully for the period of 00:00 am to 01:30 am, 02:00 am to 10:00 am and 11:30 pm to 00:00 am with occupancy periods for aircraft are reduced from 110 seconds to 90 seconds of takeoff and from 65 seconds to 50 seconds for landing. The low time is from 04:00&nbsp;pm to 10:00&nbsp;pm with only maximum 32 flights/hour. By 2015, IRC 72 will become IRC 86 with the opening of the new terminal. As a comparison, [[Heathrow Airport|London Heathrow Airport]], which has 2 runways like SHIA, can handle 100 flights per hour, so the target for SHIA has been revised to 92 flights per hour by 2015. As of July 2017, maximum flight frequency at Soekarno–Hatta International Airport had been increased to 81 take-offs and landings per hour to accommodate increasing demand from aviation companies.

@@ -1,0 +1,18 @@
+==Airlines and destinations==
+Passenger service is currently provided by four scheduled airlines, with commercial cargo service being handled by three scheduled airlines and numerous air freight operators. Two fixed-base operators also serve the Metro facility with various charter flights. The airport maintains a newly dedicated air cargo terminal, the Columbia Airport Enterprise Park (CAE Park) and [[Foreign trade zones of the United States|Foreign Trade Zone]] #127. Columbia Metropolitan Airport recently completed a $45 million terminal expansion and renovation. Annually, the airport serves about 1 million passengers, though prior to the Great Recession, nearly 1.5 million passengers were served.
+
+===Passenger=== 
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{incomplete list|date=November 2025}}
+{{Airport destination list
+| [[American Airlines]] |'''Seasonal:''' [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+| [[American Eagle (airline)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]]<br /> '''Seasonal:''' [[Miami International Airport|Miami]]
+| [[Delta Air Lines]]  | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| [[Delta Connection]] | [[Hartsfield-Jackson Atlanta International Airport|Atlanta]], [[LaGuardia Airport|New York–LaGuardia]]
+
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]]
+
+}}
+
+=== Cargo ===
+{{Incomplete list|date=December 2025}}{{Airport destination list|[[Air Cargo Carriers]]|[[Myrtle Beach International Airport|Myrtle Beach]]}}

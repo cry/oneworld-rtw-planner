@@ -1,0 +1,62 @@
+== Airlines and destinations ==
+=== Passenger ===
+The following airlines operate regular scheduled and charter flights at Dakar Blaise Diagne Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Côte d'Ivoire]] | [[Osvaldo Vieira International Airport|Bissau]]{{cn|date=June 2026}}
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris-Charles de Gaulle]]
+<!-- -->
+| [[Air Senegal]] |[[Diori Hamani International Airport|Niamey]],{{cn|date=June 2026}} [[Amílcar Cabral International Airport|Sal]]{{cn|date=June 2026}}
+<!-- -->
+| [[Air Transat]] | [[Montréal–Trudeau]]
+<!-- -->
+| [[ASKY Airlines]] | [[Lomé-Tokoin Airport|Lomé]]
+<!-- -->
+| [[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Delta Airlines]] | [[ John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[ITA Airways]] | [[Rome–Fiumicino]]
+<!-- -->
+| [[Kenya Airways]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]{{cn|date=June 2026}}
+<!-- -->
+| [[Neos (airline)|Neos]] | [[Milan–Malpensa]]{{cn|date=June 2026}}
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]{{cn|date=June 2026}}
+<!-- -->
+| [[Smartwings]] | '''Seasonal charter:''' [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]]{{cn|date=June 2026}}
+<!-- -->
+| [[Transavia]] | [[Marseille Provence Airport|Marseille]],{{cn|date=June 2026}} [[Nantes Atlantique Airport|Nantes]] <br/> '''Seasonal:''' [[Bordeaux–Mérignac Airport|Bordeaux]],{{cn|date=June 2026}} [[Lille Airport|Lille]],{{cn|date=June 2026}} [[Lyon–Saint-Exupéry Airport|Lyon]],{{cn|date=June 2026}} [[Nice Côte d'Azur Airport|Nice]],{{cn|date=June 2026}} [[Toulouse–Blagnac Airport|Toulouse]]{{cn|date=June 2026}}
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[London–Gatwick]]{{cn|date=June 2026}}
+<!-- -->
+| {{nowrap|[[TUI fly Deutschland]]}} | [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[TUI fly Netherlands]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Turkish Airlines]] | [[Osvaldo Vieira International Airport|Bissau]] (begin 8 June 2026), [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Vueling]] | [[Barcelona–El Prat Josep Tarradellas Airport|Barcelona]]{{cn|date=June 2026}}
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Air France Cargo]] | [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Charter Service]] | [[Clermont-Ferrand Auvergne Airport|Clermont–Ferrand]]
+<!-- -->
+}}

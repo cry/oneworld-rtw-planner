@@ -1,0 +1,29 @@
+==Airlines and destinations==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport destination list
+<!-- -->
+|[[Air New Zealand]] | [[Auckland Airport|Auckland]]
+<!-- -->
+|[[Air Niugini]] | [[Honiara International Airport|Honiara]], [[Port Moresby International Airport|Port Moresby]]
+<!-- -->
+|[[Aircalin]] | [[La Tontouta International Airport|Nouméa]], [[Hihifo Airport|Wallis Island]]
+<!-- -->
+|[[Fiji Airways]] | [[Adelaide Airport|Adelaide]], [[Faleolo International Airport|Apia–Faleolo]], [[Auckland Airport|Auckland]], [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]],  [[Canberra Airport|Canberra]], [[Christchurch Airport|Christchurch]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] (ends 7 September 2026), [[Funafuti International Airport|Funafuti]], [[Gold Coast Airport|Gold Coast]],  [[Hong Kong International Airport|Hong Kong]], [[Honiara International Airport|Honiara]], [[Daniel K. Inouye International Airport|Honolulu]], [[Cassidy International Airport|Kiritimati]], [[Los Angeles International Airport|Los Angeles]], [[Melbourne Airport|Melbourne]], [[La Tontouta International Airport|Nouméa]] (resumes 22 September 2026), [[Fuaʻamotu International Airport|Nuku'alofa]], [[Bauerfield International Airport|Port Vila]], [[San Francisco International Airport|San Francisco]], [[Changi Airport|Singapore]], [[Sydney Airport|Sydney]], [[Bonriki International Airport|Tarawa]], [[Narita International Airport|Tokyo–Narita]], [[Vancouver International Airport|Vancouver]], [[Wellington Airport|Wellington]]
+<!-- -->
+| [[Fiji Link]]| [[Vunisea Airport|Kadavu]], [[Labasa Airport|Labasa]], [[Rotuma Airport|Rotuma]], [[Savusavu Airport|Savusavu]], [[Nausori International Airport|Suva]], [[Matei Airport|Taveuni]]<br />'''Seasonal:''' [[Vavaʻu International Airport|Vavaʻu]]
+<!-- -->
+|Hibiscus Air | [[Pacific Harbour]]
+<!-- -->
+|[[Jetstar]] | [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+<!-- -->
+|[[Nauru Airlines]] | [[Nauru International Airport|Nauru]]
+<!-- -->
+|[[Pacific Island Air]] |[[Malolo Lailai Airport|Malolo Lailai]], [[Mana Island Airport|Mana Island]]
+<!-- -->
+|[[Qantas]] | [[Sydney Airport|Sydney]]
+<!-- -->
+|{{nowrap|[[Solomon Airlines]]}} | [[Honiara International Airport|Honiara]]
+<!-- -->
+|[[Virgin Australia]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]}}
+
+[[File:Nadi International Airport passenger destinations as of January 2026.png|thumb|center|500px|Nadi International Airport passenger destinations]]

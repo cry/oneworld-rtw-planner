@@ -1,0 +1,42 @@
+==Airlines and destinations==
+
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+<!--DO NOT ADD TERMINAL/CONCOURSE INFORMATION TO THIS TABLE AS IT VIOLATES [[WP:NOTTRAVEL]], SOURCES ADDED PER DISCUSSION AT [[Wikipedia talk:WikiProject Airports#Proposal to Change Template Discussion]], PLEASE EXPRESS CONCERNS YOU MAY HAVE AT THIS DISCUSSION, NOT BY CHANGING THIS TABLE!!!-->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Air Canada Rouge]] | [[Toronto–Pearson]] | 
+<!-- -->
+| [[Alaska Airlines]] | '''Seasonal:''' [[Seattle/Tacoma]] | 
+<!-- -->
+| [[Allegiant Air]] | [[Lehigh Valley International Airport|Allentown]], [[Appleton International Airport|Appleton]], [[Des Moines International Airport|Des Moines]] | 
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Philadelphia International Airport|Philadelphia]], [[Washington–National]] <br/> '''Seasonal:''' [[New York–LaGuardia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+<!-- -->
+| [[Avelo Airlines]] | [[Concord–Padgett Regional Airport|Charlotte/Concord]] (begins November 19, 2026), [[McKinney National Airport|Dallas/McKinney]] (begins November 11, 2026), [[Tweed New Haven Airport|New Haven]], [[Wilmington Airport (Delaware)|Wilmington (DE)]] | 
+<!-- -->
+| [[Breeze Airways]] | [[Atlantic City International Airport|Atlantic City]] (begins October 22, 2026), [[Charleston International Airport|Charleston (SC)]], [[Dayton International Airport|Dayton]] (begins October 23, 2026), [[Bradley International Airport|Hartford]], [[Harry Reid International Airport|Las Vegas]], [[Long Island MacArthur Airport|Long Island/Islip]], [[Dane County Regional Airport|Madison]] (begins October 21, 2026), [[Manchester–Boston Regional Airport|Manchester (NH)]], [[Tweed New Haven Airport|New Haven]], [[Norfolk International Airport|Norfolk]], [[Portsmouth International Airport at Pease|Portsmouth]], [[Rhode Island T. F. Green International Airport|Providence]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Richmond International Airport|Richmond]], [[South Bend International Airport|South Bend]], [[Trenton–Mercer Airport|Trenton]] (begins January 8, 2027), [[Wilmington International Airport|Wilmington (NC)]] <br/> '''Seasonal:''' [[Akron–Canton Airport|Akron/Canton]], [[Albany International Airport|Albany]], [[Bangor International Airport|Bangor]], [[Patrick Leahy Burlington International Airport|Burlington (VT)]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Greenville–Spartanburg International Airport|Greenville/Spartanburg]], [[Capital Region International Airport|Lansing]], [[Louisville International Airport|Louisville]], [[Stewart International Airport|Newburgh]], [[Louis Armstrong New Orleans International Airport|New Orleans]], [[Pittsburgh International Airport|Pittsburgh]], [[Portland International Jetport|Portland (ME)]], [[Greater Rochester International Airport|Rochester (NY)]], [[Syracuse Hancock International Airport|Syracuse]], [[Wilkes-Barre/Scranton International Airport|Wilkes-Barre/Scranton]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Logan International Airport|Boston]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[New York–JFK]], [[New York–LaGuardia]] <br> '''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]] (begins November 21, 2026), [[Salt Lake City International Airport|Salt Lake City]] | 
+<!-- -->
+| [[Delta Connection]]|[[Raleigh–Durham International Airport|Raleigh/Durham]] (resumes November 21, 2026)|
+<!-- -->
+| [[Discover Airlines]] | [[Frankfurt Airport|Frankfurt]] | 
+<!-- -->
+| [[Eastern Air Express]] | '''Seasonal charter:''' [[José Martí International Airport|Havana]] | 
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Chicago–O'Hare]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Cleveland Hopkins International Airport|Cleveland]], [[Denver International Airport|Denver]], [[Philadelphia International Airport|Philadelphia]] <br> '''Seasonal:''' [[Buffalo Niagara International Airport|Buffalo]], [[Detroit Metropolitan Airport|Detroit]], [[Gerald R. Ford International Airport|Grand Rapids]], [[Indianapolis International Airport|Indianapolis]], [[Long Island MacArthur Airport|Long Island/Islip]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Trenton–Mercer Airport|Trenton]] | 
+<!-- -->
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[Buffalo Niagara International Airport|Buffalo]], [[New York–JFK]], [[Westchester County Airport|White Plains]]<br> '''Seasonal:''' [[Bradley International Airport|Hartford]], [[Long Island MacArthur Airport|Long Island/Islip]], [[Rhode Island T. F. Green International Airport|Providence]] (ends September 9, 2026), [[Worcester Regional Airport|Worcester]] | 
+<!-- -->
+| [[Porter Airlines]] | [[Toronto–Pearson]] <br/>'''Seasonal:''' [[Montréal–Trudeau]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]] | 
+<!-- --> 
+| [[Southwest Airlines]] | [[Baltimore/Washington International Airport|Baltimore]], [[Chicago–Midway]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Indianapolis International Airport|Indianapolis]], [[Kansas City International Airport|Kansas City]], [[Milwaukee Mitchell International Airport|Milwaukee]], [[Nashville International Airport|Nashville]], [[Orlando International Airport|Orlando]], [[Pittsburgh International Airport|Pittsburgh]], [[St. Louis Lambert International Airport|St. Louis]] <br> '''Seasonal:''' [[Albany International Airport|Albany]], [[Austin–Bergstrom International Airport|Austin]], [[Buffalo Niagara International Airport|Buffalo]], [[Bradley International Airport|Hartford]], [[Houston–Hobby]], [[Louisville International Airport|Louisville]], [[Eppley Airfield|Omaha]] (begins March 13, 2027), [[Rhode Island T. F. Green International Airport|Providence]], [[Greater Rochester International Airport|Rochester (NY)]] |  
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] <br> '''Seasonal:''' [[Appleton International Airport|Appleton]], [[Chippewa Valley Regional Airport|Eau Claire]], [[Dane County Regional Airport|Madison]], [[Milwaukee Mitchell International Airport|Milwaukee]] | 
+<!-- -->
+| [[United Airlines]] | [[Chicago–O'Hare]], [[Cleveland Hopkins International Airport|Cleveland]], [[Denver International Airport|Denver]], [[Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[Washington–Dulles]]<br />'''Seasonal:''' [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]] | 
+<!-- -->
+| [[WestJet]] | [[Toronto–Pearson]] | 
+<!-- -->
+}}

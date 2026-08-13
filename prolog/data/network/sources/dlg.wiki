@@ -1,0 +1,110 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{More citations needed section|date=January 2022}}
+{{Airport destination list|
+{{nowrap|[[Alaska Airlines]]}} | [[Ted Stevens Anchorage International Airport|Anchorage]]
+| [[Grant Aviation]] | [[Bethel Airport|Bethel]], [[Clarks Point Airport|Clarks Point]], [[Ekwok Airport|Ekwok]], [[Emmonak Airport|Emmonak]], [[Igiugig Airport|Igiugig]], [[King Salmon Airport|King Salmon]], [[Koliganek Airport|Koliganek]], [[Levelock Airport|Levelock]], [[Manokotak Airport|Manokotak]], [[New Stuyahok Airport|New Stuyahok]], [[South Naknek Airport|South Naknek]], [[Togiak Airport|Togiak]], [[Twin Hills Airport|Twin Hills]]
+}}
+===Statistics===
+{| class="wikitable"
+|+ Top airlines at DLG (July 2024 – June 2025)
+
+! Rank
+! Airline
+! Passengers
+! Percent of market share
+
+|-
+| align=right | 1
+| [[Horizon Air]] (Alaska Airlines)
+| align=right | 32,210
+| align=right | 48.68%
+|-
+| align=right | 2
+| [[Grant Aviation]]
+| align=right | 19,480
+| align=right | 29.44%
+|-
+| align=right | 3
+| [[Alaska Airlines]]
+| align=right | 14,380
+| align=right | 21.73%
+|-
+| align=right | 4
+| [[Aleutian Airways]] <!-- DOT lists airline as Via -->
+| align=right | 100
+| align=right | 0.15%
+|-
+|}
+
+{| class="wikitable"
+|+ Top domestic destinations: (July 2024 – June 2025)
+
+! Rank
+! City
+! Airport
+! Passengers
+! Carriers
+
+|-
+| align=right | 1
+| {{flagicon|Alaska}} [[Anchorage, AK]]
+| [[Ted Stevens Anchorage International Airport]]
+| align=right | 23,440
+| Alaska
+|-
+| align=right | 2
+| {{flagicon|Alaska}} [[Togiak, AK]]
+| [[Togiak Airport]]
+| align=right | 2,630
+| Grant
+|-
+| align=right | 3
+| {{flagicon|Alaska}} [[New Stuyahok, AK]]
+| [[New Stuyahok Airport]]
+| align=right | 1,810
+| Grant
+|-
+| align=right | 4
+| {{flagicon|Alaska}} [[Manokotak, AK]]
+| [[Manokotak Airport]]
+| align=right | 1,610
+| Grant
+|-
+| align=right | 5
+|{{flagicon|Alaska}} [[King Salmon, AK]]
+| [[King Salmon Airport]]
+| align=right | 1,020
+| Grant
+|-
+| align=right | 6
+| {{flagicon|Alaska}} [[Koliganek, AK]]
+| [[Koliganek Airport]]
+| align=right | 770
+| Grant
+|-
+| align=right | 7
+| {{flagicon|Alaska}} [[Twin Hills, AK]]
+| [[Twin Hills Airport]]
+| align=right | 670
+| Grant
+|-
+| align=right | 8
+| {{flagicon|Alaska}} [[Clark's Point, AK]]
+| [[Clarks Point Airport]]
+| align=right | 600
+| Grant
+|-
+| align=right | 9
+| {{flagicon|Alaska}} [[Ekwok, AK]]
+| [[Ekwok Airport]]
+| align=right | 410
+| Grant
+|-
+| align=right | 10
+| {{flagicon|Alaska}} [[Levelock, AK]]
+| [[Levelock Airport]]
+| align=right | 130
+| Grant
+|-
+|}

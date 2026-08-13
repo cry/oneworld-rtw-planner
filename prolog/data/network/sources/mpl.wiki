@@ -1,0 +1,36 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Montpellier–Méditerranée Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{Airport destination list
+<!-- -->
+| [[Aer Lingus]] | '''Seasonal:''' [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Air Algérie]] | [[Houari Boumediene Airport|Algiers]], [[Oran Es Sénia Airport|Oran]]
+<!-- -->
+| [[Air Arabia]] | [[Mohammed V International Airport|Casablanca]], [[Fes–Saïss Airport|Fès]], [[Nador International Airport|Nador]], [[Tangier Ibn Battouta Airport|Tangier]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Discover Airlines]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[easyJet]] | [[EuroAirport Basel–Mulhouse–Freiburg|Basel/Mulhouse]], [[Gatwick Airport|London–Gatwick]] <br /> '''Seasonal:''' [[Manchester Airport|Manchester]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Luxair]] | [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm Arlanda Airport|Stockholm]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Transavia France|Transavia]]| [[Agadir–Al Massira Airport|Agadir]], [[Houari Boumediene Airport|Algiers]],  [[Lisbon Airport|Lisbon]], [[Marrakesh Menara Airport|Marrakesh]], [[Oran Es Sénia Airport|Oran]], [[Orly Airport|Paris–Orly]], [[Rabat–Salé Airport|Rabat]], [[Seville Airport|Seville]], [[Tunis–Carthage International Airport|Tunis]] <br /> '''Seasonal:''' [[Athens International Airport|Athens]], [[Bastia–Poretta Airport|Bastia]], [[Djerba–Zarzis International Airport|Djerba]], [[Heraklion International Airport|Heraklion]], [[Istanbul Airport|Istanbul]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Málaga Airport|Malaga]] (begins 19 July 2026), [[Tangier Ibn Battouta Airport|Tangier]] (begins 15 July 2026)
+<!-- -->
+| [[Volotea]] | [[Brest Bretagne Airport|Brest]], [[Bordeaux–Mérignac Airport|Bordeaux]] (begins 6 November 2026), [[Caen – Carpiquet Airport|Caen]], [[Lille Airport|Lille]], [[Nantes Atlantique Airport|Nantes]], [[Rennes–Saint-Jacques Airport|Rennes]] <br /> '''Seasonal:''' [[Ajaccio Napoleon Bonaparte Airport|Ajaccio]], [[Menorca Airport|Menorca]], [[Strasbourg Airport|Strasbourg]], [[Madrid–Barajas Airport|Madrid]] (begins 6 November 2026), [[Lanzarote Airport|Lanzarote]] (begins 7 November 2026), [[Tenerife South Airport|Tenerife]] (begins 8 November 2026)
+<!-- -->
+}}

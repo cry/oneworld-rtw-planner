@@ -1,0 +1,14 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+|[[Air Arabia]]| [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Air India]]| [[Indira Gandhi International Airport|Delhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]] 
+<!-- -->
+|{{nowrap|[[Air India Express]]}}| [[Kempegowda International Airport|Bengaluru]]
+<!-- -->
+|[[IndiGo]]| [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Kempegowda International Airport|Bengaluru]], [[Indira Gandhi International Airport|Delhi]], [[Manohar International Airport|Goa–Mopa]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Devi Ahilya Bai Holkar Airport|Indore]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Navi Mumbai International Airport|Mumbai–Navi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Pune Airport|Pune]]
+<!-- -->
+|{{nowrap|[[Qatar Airways]]}}| [[Hamad International Airport|Doha]]
+<!-- -->
+|[[Star Air (India)|Star Air]]| [[Kishangarh Airport|Kishangarh]], [[Nanded Airport|Nanded]]}}

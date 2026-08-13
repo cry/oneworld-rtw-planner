@@ -1,0 +1,54 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+These are the airlines and destinations served from Erbil Airport:
+
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Air Arabia]] | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Eurowings]] | [[Berlin Brandenburg Airport|Berlin]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Düsseldorf Airport|Düsseldorf]], [[Hamburg Airport|Hamburg]], [[Hannover Airport|Hannover]], [[Nuremberg Airport|Nuremberg]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Fly Baghdad]] | [[Aleppo International Airport|Aleppo]] (suspended), [[Baghdad International Airport|Baghdad]], [[Damascus International Airport|Damascus]] (suspended), [[Medina Airport|Medina]]
+<!-- -->
+| {{nowrap|[[Fly Cham]]}} | [[Damascus International Airport|Damascus]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[FlyErbil]] | [[Schiphol Airport|Amsterdam]], [[Athens International Airport|Athens]], [[Heydar Aliyev International Airport|Baku]], [[Beirut Airport|Beirut]], [[Berlin Brandenburg Airport|Berlin]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Copenhagen Airport|Copenhagen]], [[Damascus International Airport|Damascus]] (suspended), [[Dubai International Airport|Dubai–International]], [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Hannover Airport|Hannover]], [[Istanbul Airport|Istanbul]], [[Latakia International Airport|Latakia]], [[Gatwick Airport|London–Gatwick]], [[Munich Airport|Munich]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Iraqi Airways]] | [[Queen Alia International Airport|Amman–Queen Alia]], [[Esenboğa International Airport|Ankara]], [[Baghdad International Airport|Baghdad]], [[Baku International Airport|Baku]], [[Basra International Airport|Basra]], [[Berlin Brandenburg Airport|Berlin]], [[Cairo International Airport|Cairo]], [[Copenhagen Airport|Copenhagen]], [[Dubai International Airport|Dubai–International]], [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Istanbul Airport|Istanbul]], [[Munich Airport|Munich]], [[Al Najaf International Airport|Najaf]], [[Sulaymaniyah Airport|Sulaymaniyah]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Mahan Air]] | [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| {{nowrap|[[Middle East Airlines]]}} | [[Beirut–Rafic Hariri International Airport|Beirut]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Çukurova International Airport|Adana/Mersin]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[SunExpress]] | '''Seasonal:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Royal Jordanian Cargo]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[Turkish Cargo]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

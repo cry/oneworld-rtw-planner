@@ -1,0 +1,113 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Antalya Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO, ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aeroflot]] | [[Sheremetyevo International Airport|Moscow-Sheremetyevo]], [[Krasnodar International Airport|Krasnodar]]<br>'''Seasonal:''' [[Perm International Airport|Perm]]
+<!-- -->
+| [[Air Anka]] | '''Seasonal charter:''' [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Krasnodar International Airport|Krasnodar]] (begins {{date|2026-8-8}}), [[Sochi International Airport|Sochi]]
+<!-- -->
+| [[Air Astana]] | [[Almaty International Airport|Almaty]],{{cn|date=February 2026}} [[Nursultan Nazarbayev International Airport|Astana]]{{cn|date=February 2026}}
+<!-- -->
+| [[Air Baltic]] | '''Seasonal:''' [[Riga International Airport|Riga]]{{cn|date=February 2026}}
+<!-- -->
+| [[Air Cairo]] | '''Seasonal:''' [[Cairo International Airport|Cairo]]{{cn|date=February 2026}}
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]],{{cn|date=February 2026}} [[Düsseldorf Airport|Düsseldorf]],{{cn|date=February 2026}} [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]{{cn|date=February 2026}} <br/> '''Seasonal:''' [[Hannover Airport|Hannover]], [[Sarajevo Airport|Sarajevo]]
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]{{cn|date=February 2026}}
+<!-- -->
+| [[Azimuth (airline)|azimuth]] | [[Krasnodar International Airport|Krasnodar]]
+<!-- -->
+| [[Azur Air]] | '''Seasonal charter:''' [[Talagi Airport|Arkhangelsk-Talagi]], [[Kazan International Airport|Kazan]], [[Krasnodar International Airport|Krasnodar]], [[Vnukovo International Airport|Moscow-Vnukovo]], [[Strigino Airport|Nishny Novgorod]], [[Tolmachevo Airport|Novosibirsk]], [[Orenburg Airport|Orenburg]], [[Perm International Airport|Perm]], [[Kurumoch Airport|Samara]], [[Farman Salmanov Surgut Airport|Surgut]], [[Syktyvkar Airport|Syktyvkar]], [[Roshchino Airport|Tyumen]], [[Koltsovo Airport|Yekaterinburg]]
+<!-- -->
+| [[Belavia]] | '''Seasonal charter:''' [[Brest Airport|Brest]], [[Homiel Airport|Homiel]], [[Minsk National Airport|Minsk]], [[Mahilyow Airport|Mahilyow]], [[Vitebsk Vostochny Airport|Vitsyebsk]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[London Gatwick Airport|London–Gatwick]]{{cn|date=February 2026}}
+<!-- -->
+| [[Brussels Airlines]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Buzz (Polish airline)|Buzz]] | '''Seasonal charter:''' [[Kraków John Paul II International Airport|Kraków]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]{{cn|date=February 2026}}
+<!-- -->
+| [[Corendon Airlines]] | [[Cologne Bonn Airport|Cologne/Bonn]],{{cn|date=February 2026}} [[Dresden Airport|Dresden]],{{cn|date=February 2026}} [[Düsseldorf Airport|Düsseldorf]],{{cn|date=February 2026}} [[Erfurt–Weimar Airport|Erfurt-Weimar]],{{cn|date=February 2026}} [[Hamburg Airport|Hamburg]],{{cn|date=February 2026}} [[Hannover Airport|Hannover]],{{cn|date=February 2026}} [[Leipzig/Halle Airport|Leipzig/Halle]],{{cn|date=February 2026}} [[Munich Airport|Munich]],{{cn|date=February 2026}} [[Paderborn Lippstadt Airport|Paderborn/Lippstadt]],{{cn|date=February 2026}} [[Rostock–Laage Airport|Rostock]],{{cn|date=February 2026}} [[Warsaw Chopin Airport|Warsaw–Chopin]]{{cn|date=February 2026}} <br/> '''Seasonal:''' [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]],{{cn|date=February 2026}} [[Berlin Brandenburg Airport|Berlin]],{{cn|date=February 2026}} [[Birmingham Airport|Birmingham]],{{cn|date=February 2026}} [[Bremen Airport|Bremen]],{{cn|date=February 2026}} [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Frankfurt Airport|Frankfurt]],{{cn|date=February 2026}} [[Friedrichshafen Airport|Friedrichshafen]],{{cn|date=February 2026}} [[Glasgow Airport|Glasgow]], [[Gatwick Airport|London–Gatwick]],{{cn|date=February 2026}} [[London Stansted Airport|London–Stansted]],{{cn|date=February 2026}} [[Manchester Airport|Manchester]], [[Münster Osnabrück Airport|Münster/Osnabrück]],{{cn|date=February 2026}} [[Newcastle International Airport|Newcastle upon Tyne]],{{cn|date=February 2026}} [[Salzburg Airport|Salzburg]],{{cn|date=February 2026}} [[Stuttgart Airport|Stuttgart]],{{cn|date=February 2026}} [[Vienna International Airport|Vienna]], [[Zurich Airport|Zürich]]{{cn|date=February 2026}} <br/> '''Seasonal charter:''' [[Orenburg Airport|Orenburg]], [[Piešťany Airport|Piešťany]]{{cn|date=February 2026}}
+<!-- -->
+| {{nowrap|[[Corendon Dutch Airlines]]}} | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]],{{cn|date=February 2026}} [[Maastricht-Aachen Airport|Maastricht/Aachen]],{{cn|date=February 2026}} [[Rotterdam The Hague Airport|Rotterdam/The Hague]]{{cn|date=February 2026}}
+<!-- -->
+| [[Discover Airlines]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[EasyJet]] | [[Birmingham Airport|Birmingham]],{{cn|date=February 2026}} [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]],{{cn|date=February 2026}} [[Glasgow Airport|Glasgow]], [[Liverpool John Lennon Airport|Liverpool]],{{cn|date=February 2026}} [[London Gatwick Airport|London–Gatwick]],{{cn|date=February 2026}} [[Luton Airport|London–Luton]],{{cn|date=February 2026}} [[Southend Airport|London–Southend]], [[Manchester Airport|Manchester]],{{cn|date=February 2026}} [[Newcastle International Airport|Newcastle upon Tyne]] <br/> '''Seasonal:''' [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Belfast International Airport|Belfast–International]],{{cn|date=February 2026}} [[Berlin Brandenburg Airport|Berlin]], [[Geneva Airport|Geneva]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zürich Airport|Zürich]]{{cn|date=February 2026}}
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Cologne Bonn Airport|Cologne/Bonn]],{{cn|date=February 2026}} [[Düsseldorf Airport|Düsseldorf]],{{cn|date=February 2026}} [[Stuttgart Airport|Stuttgart]]{{cn|date=February 2026}}
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]{{cn|date=February 2026}}
+<!-- -->
+| [[Fly Lili]] | '''Seasonal charter:''' [[Aurel Vlaicu International Airport|Bucharest–Băneasa]]
+<!-- -->
+| [[Flyadeal]] | '''Seasonal:''' [[King Khalid International Airport|Riyadh]]{{cn|date=February 2026}}
+<!-- -->
+| [[FlyArystan]] | '''Seasonal:''' [[Sary-Arka Airport|Qarağandy]],{{cn|date=February 2026}} [[Qyzylorda Airport|Qyzylorda]]{{cn|date=February 2026}}
+<!-- -->
+| [[Flydubai]] | '''Seasonal:''' [[Dubai International Airport|Dubai–International]]{{cn|date=February 2026}}
+<!-- -->
+| [[Freebird Airlines]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]], [[Chișinău International Airport|Chișinău]],{{cn|date=February 2026}} [[Cologne Bonn Airport|Cologne/Bonn]], [[Düsseldorf Airport|Düsseldorf]], [[Erfurt–Weimar Airport|Erfurt-Weimar]],{{cn|date=February 2026}} [[Hamburg Airport|Hamburg]], [[Hannover Airport|Hannover]], [[Leipzig/Halle Airport|Leipzig/Halle]], [[Memmingen Airport|Memmingen]], [[Munich Airport|Munich]], [[Paderborn Lippstadt Airport|Paderborn/Lippstadt]],{{cn|date=February 2026}} [[Stuttgart Airport|Stuttgart]], [[Weeze Airport|Weeze]]{{cn|date=February 2026}}
+<!-- -->
+| [[IrAero]] | '''Seasonal charter:''' [[Krasnodar International Airport|Krasnodar]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Jet2.com]] | [[Birmingham Airport|Birmingham]],{{cn|date=February 2026}} [[Bristol Airport|Bristol]],{{cn|date=February 2026}} [[East Midlands Airport|East Midlands]],{{cn|date=February 2026}} [[Edinburgh Airport|Edinburgh]],{{cn|date=February 2026}} [[Glasgow Airport|Glasgow]],{{cn|date=February 2026}} [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[London Gatwick Airport|London–Gatwick]], [[London Luton Airport|London–Luton]],{{cn|date=February 2026}} [[London Stansted Airport|London–Stansted]],{{cn|date=February 2026}} [[Manchester Airport|Manchester]],{{cn|date=February 2026}} [[Newcastle International Airport|Newcastle upon Tyne]] <br/> '''Seasonal:''' [[Belfast International Airport|Belfast–International]],{{cn|date=February 2026}} [[Bournemouth Airport|Bournemouth]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]{{cn|date=February 2026}}
+<!-- -->
+| [[Mavi Gök Airlines]] | '''Seasonal:''' [[London Gatwick Airport|London–Gatwick]]{{cn|date=February 2026}} <br/> '''Seasonal charter:''' [[Erfurt-Weimar Airport|Erfurt-Weimar]], [[Palanga International Airport|Palanga]], [[Saarbrücken Airport|Saarbrücken]]
+<!-- -->
+| [[Norwegian Air Shuttle]] | [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]] <br/> '''Seasonal:''' [[Bergen Airport, Flesland|Bergen]], [[Stavanger Airport, Sola|Stavanger]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Çukurova International Airport|Adana/Mersin]], [[Almaty International Airport|Almaty]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Ankara Esenboğa Airport|Ankara]], [[Heydar Aliyev International Airport|Baku]],{{cn|date=February 2026}} [[Brussels South Charleroi Airport|Charleroi]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Dubai International Airport|Dubai–International]],{{cn|date=February 2026}} [[Düsseldorf Airport|Düsseldorf]], [[Elazığ Airport|Elazığ]], [[Ercan International Airport|Ercan]], [[Frankfurt Airport|Frankfurt]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[Erkilet International Airport|Kayseri]], [[London Stansted Airport|London–Stansted]], [[Sofia Airport|Sofia]],{{cn|date=February 2026}} [[Stockholm Arlanda Airport|Stockholm–Arlanda]],{{cn|date=February 2026}} [[Tirana International Airport|Tirana]],{{cn|date=February 2026}} [[Trabzon Airport|Trabzon]] <br/> '''Seasonal:''' [[Aalborg Airport|Aalborg]],{{cn|date=February 2026}} [[Aarhus Airport|Aarhus]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]],{{cn|date=February 2026}} [[Billund Airport|Billund]], [[Bremen Airport|Bremen]], [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]],{{cn|date=February 2026}} [[Copenhagen Airport|Copenhagen]], [[Dortmund Airport|Dortmund]],{{cn|date=February 2026}} [[Dresden Airport|Dresden]],{{cn|date=February 2026}} [[Erfurt–Weimar Airport|Erfurt-Weimar]],{{cn|date=February 2026}} [[Geneva Airport|Geneva]], [[Sphinx International Airport|Giza]],{{cn|date=February 2026}} [[Graz Airport|Graz]],{{cn|date=February 2026}} [[Göteborg Landvetter Airport|Gothenburg]],{{cn|date=February 2026}} [[Hamburg Airport|Hamburg]], [[Hannover Airport|Hannover]], [[Helsinki Airport|Helsinki]], [[Maastricht Aachen Airport|Maastricht]], [[Munich Airport|Munich]], [[Münster Osnabrück Airport|Münster/Osnabrück]],{{cn|date=February 2026}} [[Norrköping Airport|Norrköping]],{{cn|date=February 2026}} [[Paderborn Lippstadt Airport|Paderborn/Lippstadt]], [[Václav Havel Airport Prague|Prague]],{{cn|date=February 2026}} [[Pristina International Airport|Pristina]],{{cn|date=February 2026}} [[Salzburg Airport|Salzburg]],{{cn|date=February 2026}} [[Sarajevo International Airport|Sarajevo]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]],{{cn|date=February 2026}} [[Skopje International Airport|Skopje]],{{cn|date=February 2026}} [[Shymkent International Airport|Şymkent]],{{cn|date=February 2026}} [[Tbilisi International Airport|Tbilisi]],{{cn|date=February 2026}} [[Vienna International Airport|Vienna]] <br/> '''Seasonal charter:''' [[Bydgoszcz Ignacy Jan Paderewski Airport|Bydgoszcz]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Poznań–Ławica Airport|Poznań]]
+<!-- -->
+| [[Red Wings Airlines]] | '''Seasonal:''' [[Balandino Airport|Chelyabinsk]],{{cn|date=February 2026}} [[Elista Airport|Elista]], [[Saransk Airport|Saransk]]
+<!-- -->
+| [[Rossiya (airline)|Rossiya]] | [[Sochi International Airport|Sochi]] <br/> '''Seasonal:''' [[Pulkovo Airport|Saint Petersburg]]{{cn|date=February 2026}}
+<!-- -->
+| [[Royal Jordanian]] | '''Seasonal:''' [[Amman Civil Airport|Amman–City]], [[Queen Alia International Airport|Amman–Queen Alia]]{{cn|date=February 2026}}
+<!-- -->
+| [[S7 Airlines]] | [[Moscow Domodedovo Airport|Moscow–Domodedovo]], [[Tolmachevo Airport|Novosibirsk]]
+<!-- -->
+| [[Saudia]] | '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]],{{cn|date=February 2026}} [[Oslo Airport, Gardermoen|Oslo]],{{cn|date=February 2026}} [[Stockholm–Arlanda Airport|Stockholm–Arlanda]]{{cn|date=February 2026}}
+<!-- -->
+| [[SCAT Airlines]] | '''Seasonal:''' [[Almaty International Airport|Almaty]],{{cn|date=February 2026}} [[Nursultan Nazarbayev International Airport|Astana]]{{cn|date=February 2026}}
+<!-- -->
+| [[Smartwings]] | [[Václav Havel Airport Prague|Prague]]{{cn|date=February 2026}} <br/> '''Seasonal charter:''' [[České Budějovice Airport|České Budějovice]], [[Karlovy Vary Airport|Karlovy Vary]]
+<!-- -->
+| [[Smartwings Poland]] | '''Seasonal charter:''' [[Kraków John Paul II International Airport|Krakow]],{{cn|date=February 2026}} [[Łódź Władysław Reymont Airport|Lodz]],{{cn|date=February 2026}} [[Lublin Airport|Lublin]],{{cn|date=February 2026}} [[Olsztyn-Mazury Airport|Olsztyn]],{{cn|date=February 2026}} [[Rzeszów–Jasionka Airport|Rzeszow]],{{cn|date=February 2026}} [[Solidarity Szczecin–Goleniów Airport|Szczecin]],{{cn|date=February 2026}} [[Wrocław Airport|Wroclaw]]{{cn|date=February 2026}}
+<!-- -->
+| [[Southwind Airlines]] | '''Seasonal:''' [[Talagi Airport|Arkhangelsk–Talagi]], [[Nursultan Nazarbayev International Airport|Astana]],{{cn|date=February 2026}} [[Beirut–Rafic Hariri International Airport|Beirut]],{{cn|date=February 2026}}, [[Berlin Brandenburg Airport|Berlin]], [[El Alamein International Airport|El Alamein]],{{cn|date=February 2026}} [[International Airport Irkutsk|Irkutsk]],{{cn|date=February 2026}} [[Khrabrovo Airport|Kaliningrad]], [[Krasnodar International Airport|Krasnodar]] [[Kazan International Airport|Kazan]],{{cn|date=February 2026}} [[Krasnoyarsk International Airport|Krasnoyarsk-International]],{{cn|date=February 2026}} [[London Stansted Airport|London–Stansted]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]],{{cn|date=February 2026}} [[Zhukovsky International Airport|Moscow-Zhukovsky]],{{cn|date=February 2026}} [[Strigino International Airport|Nizhny Novgorod]],{{cn|date=February 2026}} [[Orenburg Tsentralny Airport|Orenburg]],{{cn|date=February 2026}} [[Bolshoye Savino Airport|Perm]], [[Pulkovo Airport|Saint Petersburg]],{{cn|date=February 2026}} [[Kurumoch International Airport|Samara]],{{cn|date=February 2026}} [[Saratov Gagarin Airport|Saratov]], [[Sochi International Airport|Sochi]]
+<!-- -->
+| [[SunExpress]] | [[Zayed International Airport|Abu Dhabi]],{{cn|date=February 2026}} [[Çukurova International Airport|Adana/Mersin]], [[Aleppo International Airport|Aleppo]], [[Queen Alia International Airport|Amman–Queen Alia]],{{cn|date=February 2026}} [[EuroAirport Basel–Mulhouse–Freiburg|Basel/Mulhouse]],{{cn|date=February 2026}} [[Berlin Brandenburg Airport|Berlin]],{{cn|date=February 2026}} [[Birmingham Airport|Birmingham]],{{cn|date=February 2026}} [[Bremen Airport|Bremen]], [[Bristol Airport|Bristol]],{{cn|date=February 2026}} [[Budapest Ferenc Liszt International Airport|Budapest]],{{cn|date=February 2026}} [[Yenişehir Airport|Bursa]], [[Cologne Bonn Airport|Cologne/Bonn]],{{cn|date=February 2026}} [[Copenhagen Airport|Copenhagen]],{{cn|date=February 2026}} [[Damascus International Airport|Damascus]], [[Diyarbakır Airport|Diyarbakır]],{{cn|date=February 2026}} [[Dubai International Airport|Dubai–International]],{{cn|date=February 2026}} [[Dublin Airport|Dublin]],{{cn|date=February 2026}} [[Düsseldorf Airport|Düsseldorf]],{{cn|date=February 2026}} [[Edinburgh Airport|Edinburgh]], [[Erzurum Airport|Erzurum]],{{cn|date=February 2026}} [[Frankfurt Airport|Frankfurt]],{{cn|date=February 2026}} [[Oğuzeli Airport|Gaziantep]], [[Glasgow Airport|Glasgow]], [[Graz Airport|Graz]], [[Hamburg Airport|Hamburg]],{{cn|date=February 2026}} [[Hannover Airport|Hannover]],{{cn|date=February 2026}} [[İzmir Adnan Menderes Airport|İzmir]], [[Erkilet Airport|Kayseri]], [[Krakow Airport|Krakow]],{{cn|date=February 2026}} [[Leeds Bradford Airport|Leeds/Bradford]], [[Leipzig/Halle Airport|Leipzig/Halle]],{{cn|date=February 2026}} [[Gatwick Airport|London–Gatwick]],{{cn|date=February 2026}} [[Stansted Airport|London–Stansted]],{{cn|date=February 2026}} [[Manchester Airport|Manchester]],{{cn|date=February 2026}} [[Munich Airport|Munich]],{{cn|date=February 2026}} [[Münster Osnabrück Airport|Münster/Osnabrück]],{{cn|date=February 2026}} [[Newcastle International Airport|Newcastle upon Tyne]],{{cn|date=February 2026}} [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Václav Havel Airport Prague|Prague]],{{cn|date=February 2026}} [[Saarbrücken Airport|Saarbrücken]],{{cn|date=February 2026}} [[Samsun-Çarşamba Airport|Samsun]], [[Şanlıurfa GAP Airport|Sanliurfa]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]],{{cn|date=February 2026}} [[Stockholm Arlanda Airport|Stockholm–Arlanda]],{{cn|date=February 2026}} [[Stuttgart Airport|Stuttgart]],{{cn|date=February 2026}} [[Trabzon Airport|Trabzon]], [[Van Ferit Melen Airport|Van]], [[Vienna Airport|Vienna]],{{cn|date=February 2026}} [[Zurich Airport|Zürich]]{{cn|date=February 2026}} <br/> '''Seasonal:''' [[Billund Airport|Billund]],{{cn|date=February 2026}} [[Brussels Airport|Brussels]],{{cn|date=February 2026}} [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Cairo International Airport|Cairo]],{{cn|date=February 2026}} [[Dortmund Airport|Dortmund]],{{cn|date=February 2026}} [[Dresden Airport|Dresden]],{{cn|date=February 2026}} [[Eindhoven Airport|Eindhoven]],{{cn|date=February 2026}} [[Erfurt–Weimar Airport|Erfurt-Weimar]],{{cn|date=February 2026}} [[Geneva Airport|Geneva]],{{cn|date=February 2026}} [[Helsinki Airport|Helsinki]],{{cn|date=February 2026}} [[Luton Airport|London–Luton]],{{cn|date=February 2026}} [[Memmingen Airport|Memmingen]], [[Milan Malpensa Airport|Milan–Malpensa]],{{cn|date=February 2026}} [[Leoš Janáček Airport Ostrava|Ostrava]], [[Paderborn Lippstadt Airport|Paderborn/Lippstadt]], [[Podgorica Airport|Podgorica]], [[Pristina International Airport|Pristina]], [[Riga International Airport|Riga]], [[Sarajevo International Airport|Sarajevo]],{{cn|date=February 2026}} [[Skopje International Airport|Skopje]],{{cn|date=February 2026}} [[Tallinn Airport|Tallinn]],{{cn|date=February 2026}} [[Tbilisi International Airport|Tbilisi]],{{cn|date=February 2026}} [[Tirana International Airport|Tirana]],{{cn|date=February 2026}} [[Vilnius Airport|Vilnius]], [[Warsaw Chopin Airport|Warsaw–Chopin]]{{cn|date=February 2026}}
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | '''Seasonal:''' [[Geneva Airport|Geneva]]
+<!-- -->
+| [[Tailwind Airlines]] | '''Seasonal charter:''' [[Narimanovo Airport|Astrakhan]], [[Grozny Airport|Grozny]], [[Krasnodar International Airport|Krasnodar]], [[Saratov Gagarin Airport|Saratov]], [[Weeze Airport|Weeze]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]],{{cn|date=February 2026}} [[Lyon–Saint-Exupéry Airport|Lyon]],{{cn|date=February 2026}} [[Marseille Provence Airport|Marseille]],{{cn|date=February 2026}} [[Nantes Atlantique Airport|Nantes]], [[Paris Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]],{{cn|date=February 2026}} [[Bournemouth Airport|Bournemouth]],{{cn|date=February 2026}} [[Bristol Airport|Bristol]], [[Cardiff Airport|Cardiff]], [[East Midlands Airport|East Midlands]],{{cn|date=February 2026}} [[Glasgow Airport|Glasgow]],{{cn|date=February 2026}} [[Gatwick Airport|London–Gatwick]],{{cn|date=February 2026}} [[Manchester Airport|Manchester]],{{cn|date=February 2026}} [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[TUI fly Belgium]] | [[Brussels Airport|Brussels]] <br/> '''Seasonal:''' [[Antwerp International Airport|Antwerp]],{{cn|date=February 2026}} [[Ostend-Bruges International Airport|Ostend/Bruges]]{{cn|date=February 2026}}
+<!-- -->
+| [[TUI fly Netherlands]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Eindhoven Airport|Eindhoven]], [[Groningen Airport Eelde|Groningen]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]{{cn|date=February 2026}} <br/> '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]],{{cn|date=February 2026}} [[Frankfurt Airport|Frankfurt]],{{cn|date=February 2026}} [[Omsk Central Airport|Omsk]], [[Stuttgart Airport|Stuttgart]],{{cn|date=February 2026}} [[Warsaw Chopin Airport|Warsaw–Chopin]]{{cn|date=February 2026}} <br/> '''Seasonal charter:''' [[Vnukovo International Airport|Moscow-Vnukovo]],{{cn|date=February 2026}} [[Pulkovo Airport|Saint Petersburg]]{{cn|date=February 2026}}
+<!-- -->
+| [[Ural Airlines]] | '''Seasonal charter:''' [[Uytash Airport|Makahckala]], [[Mineralnye Vody Airport|Mineralnye Vody]]{{cn|date=February 2026}}
+<!-- -->
+| [[Utair]] | '''Seasonal:''' [[Kadyrov Grozny International Airport|Grozny]], [[Surgut International Airport|Surgut]], [[Roshchino Airport|Tyumen]]{{cn|date=February 2026}}
+<!-- -->
+| [[Wizz Air]] | '''Seasonal:''' [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Cluj International Airport|Cluj-Napoca]], [[London Gatwick Airport|London–Gatwick]], [[London Luton Airport|London–Luton]]
+<!-- -->}}

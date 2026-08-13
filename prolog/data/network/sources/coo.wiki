@@ -1,0 +1,26 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{airport-dest-list
+<!-- -->
+| [[Air Côte d'Ivoire]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]]
+<!-- -->
+| [[Air Peace]] | [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+| [[ASKY Airlines]] | [[Lomé–Tokoin International Airport|Lomé]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Camair-Co]] | [[Léon-Mba International Airport|Libreville]]{{cn|date=February 2026}}
+<!-- -->
+| {{nowrap|[[Corsair International]]}} | [[Orly Airport|Paris–Orly]]{{cn|date=February 2026}}
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[RwandAir]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]],{{cn|date=February 2026}} [[Bamako–Sénou International Airport|Bamako]],{{cn|date=February 2026}} [[Conakry International Airport|Conakry]],{{cn|date=February 2026}} [[Blaise Diagne International Airport|Dakar–Diass]],{{cn|date=February 2026}} [[Douala International Airport|Douala]]{{cn|date=February 2026}}
+<!-- -->
+}}

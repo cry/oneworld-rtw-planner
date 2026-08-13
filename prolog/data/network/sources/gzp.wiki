@@ -1,0 +1,36 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Gazipaşa Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Serbia]] | '''Seasonal charter:''' [[Belgrade Nikola Tesla Airport|Belgrade]], [[Niš Constantine the Great Airport|Niš]]
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]]
+<!-- -->
+| [[Avion Express]] | '''Seasonal charter:''' [[Vilnius Airport|Vilnius]]
+<!-- -->
+| [[Corendon Airlines]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]], [[Bucharest Henri Coandă International Airport|Bucharest-Otopeni]], [[Cluj International Airport|Cluj-Napoca]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Leipzig/Halle Airport|Leipzig/Halle]] [[Aalborg Airport|Aalborg]]
+<!-- -->
+| {{nowrap|[[Corendon Dutch Airlines]]}} | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Groningen Airport Eelde|Groningen]]
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[FlyArystan]] | [[Almaty International Airport|Almaty]]<br />'''Seasonal:''' [[Nursultan Nazarbayev International Airport|Astana]]
+<!-- -->
+| [[IrAero]] | '''Seasonal:''' [[Sochi International Airport|Sochi]]
+<!-- -->
+| [[Norwegian Air Shuttle]] | '''Seasonal:''' [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Sabiha Gökçen Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Pobeda (airline)|Pobeda]] | [[Vnukovo International Airport|Moscow-Vnukovo]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm-Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Sunclass Airlines]] |'''Seasonal charter:''' [[Helsinki Airport|Helsinki]],  [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm-Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[TUI fly Netherlands]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

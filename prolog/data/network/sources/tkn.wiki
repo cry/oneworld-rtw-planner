@@ -1,0 +1,9 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[J-Air]] | [[Kagoshima Airport|Kagoshima]]
+<!-- -->
+| [[Japan Air Commuter]] | [[Amami Airport|Amami Ōshima]], [[Kagoshima Airport|Kagoshima]], [[Okinoerabu Airport|Okinoerabu]]
+<!-- -->
+}}

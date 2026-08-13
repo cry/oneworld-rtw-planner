@@ -1,0 +1,53 @@
+==Airlines and destinations==
+===Passenger===
+{{More citations needed section|date=December 2025}}
+<!-- Please use only independent sources. The airport and airlines are not independent sources. -->
+{{Airport destination list | 3rdcoltitle=Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Air Canada]] | [[Vancouver International Airport|Vancouver]] <br />'''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]|
+<!-- -->
+| [[Air New Zealand]] | [[Auckland Airport|Auckland]] | {{better source needed|date=December 2025}}
+<!-- -->
+| [[Air Premia]] | [[Incheon International Airport|Seoul–Incheon]] | {{better source needed|date=December 2025}}
+<!-- -->
+| [[Alaska Airlines]] | [[Ted Stevens Anchorage International Airport|Anchorage]], [[Kahului Airport|Kahului]] (begins October 1, 2026), [[Ontario International Airport|Ontario]], [[Salt Lake City International Airport|Salt Lake City]], [[San Diego International Airport|San Diego]], [[San Jose International Airport|San Jose (CA)]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] <br />'''Seasonal:''' [[Boise Airport|Boise]] (begins December 17, 2026), [[Hollywood Burbank Airport|Burbank]], [[Paine Field|Everett]], [[Los Angeles International Airport|Los Angeles]], [[Spokane International Airport|Spokane]] (begins December 19, 2026)| {{better source needed|date=December 2025}}
+<!-- -->
+| {{nowrap|[[All Nippon Airways]]}} | [[Haneda Airport|Tokyo–Haneda]], [[Narita International Airport|Tokyo–Narita]] | {{better source needed|date=December 2025}}
+<!-- -->
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]],{{citation needed|date=December 2025}} [[Los Angeles International Airport|Los Angeles]],{{citation needed|date=December 2025}} [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] <br/> '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]]
+| {{better source needed|date=December 2025}}
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Airport|Detroit]], [[Los Angeles International Airport|Los Angeles]],{{citation needed|date=December 2025}} [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[John F. Kennedy International Airport|New York–JFK]], [[Salt Lake City International Airport|Salt Lake City]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Haneda Airport|Tokyo–Haneda]] <br /> '''Seasonal:''' [[Logan International Airport|Boston]] (resumes December 19, 2026)| {{better source needed|date=December 2025}}
+<!-- -->
+| [[Fiji Airways]] | [[Faleolo International Airport|Apia–Faleolo]], [[Cassidy International Airport|Kiritimati]], [[Nadi International Airport|Nadi]] | {{better source needed|date=December 2025}}
+<!-- -->
+| [[Hawaiian Airlines]] | [[Hilo International Airport|Hilo]], [[Kahului Airport|Kahului]], [[Kona International Airport|Kailua-Kona]], [[Harry Reid International Airport|Las Vegas]], [[Lihue Airport|Lihue]], [[Long Beach Airport|Long Beach]], [[Los Angeles International Airport|Los Angeles]], [[John F. Kennedy International Airport|New York–JFK]], [[Oakland San Francisco Bay Airport|Oakland]], [[Kansai International Airport|Osaka–Kansai]], [[Pago Pago International Airport|Pago Pago]], [[Faa'a International Airport|Papeete]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Portland International Airport|Portland (OR)]], [[Rarotonga International Airport|Rarotonga]], [[Sacramento International Airport|Sacramento]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[San Jose International Airport|San Jose (CA)]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]],  [[Sydney Airport|Sydney]], [[Haneda Airport|Tokyo–Haneda]] |  {{better source needed|date=December 2025}}
+<!-- -->
+| [[Japan Airlines]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Kansai International Airport|Osaka–Kansai]], [[Haneda Airport|Tokyo–Haneda]], [[Narita International Airport|Tokyo–Narita]] | {{better source needed|date=December 2025}} {{better source needed|date=December 2025}} {{better source needed|date=December 2025}}
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]] | 
+<!-- -->
+| [[Mokulele Airlines]] | [[Kalaupapa Airport|Kalaupapa]], [[Kapalua Airport|Kapalua]], [[Lanai Airport|Lanai]], [[Molokai Airport|Molokai]] | 
+<!-- -->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]] | 
+<!-- -->
+| [[Qantas]] | [[Sydney Airport|Sydney]] |  
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Hollywood Burbank Airport|Burbank]], [[Hilo International Airport|Hilo]], [[Kahului Airport|Kahului]], [[Kona International Airport|Kailua-Kona]],{{citation needed|date=December 2025}} [[Harry Reid International Airport|Las Vegas]], [[Lihue Airport|Lihue]],{{citation needed|date=December 2025}} [[Long Beach Airport|Long Beach]], [[Los Angeles International Airport|Los Angeles]], [[Oakland San Francisco Bay Airport|Oakland]], [[Ontario International Airport|Ontario]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Sacramento International Airport|Sacramento]], [[San Diego International Airport|San Diego]], [[San Jose International Airport|San Jose (CA)]] | {{citation needed|date=December 2025}} 
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Chuuk International Airport|Chuuk]], [[Denver International Airport|Denver]], [[Antonio B. Won Pat International Airport|Guam]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Kosrae International Airport|Kosrae]], [[Bucholz Army Airfield|Kwajalein]], [[Los Angeles International Airport|Los Angeles]], [[Marshall Islands International Airport|Majuro]], [[Pohnpei International Airport|Pohnpei]], [[San Francisco International Airport|San Francisco]], [[Dulles International Airport|Washington–Dulles]] <br />'''Seasonal:'''  [[Newark Liberty International Airport|Newark]] |{{better source needed|date=December 2025}}
+<!-- -->
+| [[WestJet]] | [[Calgary International Airport|Calgary]], [[Vancouver International Airport|Vancouver]] <br />'''Seasonal:''' [[Edmonton International Airport|Edmonton]] |{{better source needed|date=December 2025}}
+<!-- -->
+| [[Zipair Tokyo]] |[[Narita International Airport|Tokyo–Narita]] |{{better source needed|date=December 2025}}
+<!-- -->
+}}
+
+=== Cargo ===
+{{Missing information|section|Missing a significant amount of cargo routes|date=February 2026}}{{Airport destination list|[[UPS Airlines]]|[[Louisville International Airport|Louisville]]}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|- |mar
+|}
+
+===Fixed-base operators===
+A number of [[fixed-base operator (aviation)|fixed-base operator]]s are located along Lagoon Drive on the airport's southeastern perimeter. While these focus on general aviation services, there are a few small passenger airline operations that operate from these facilities, rather than from the main terminal complex. Air tour flights typically depart from this area as well.

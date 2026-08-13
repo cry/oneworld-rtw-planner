@@ -1,0 +1,55 @@
+== Airlines and destinations==
+===Passenger===
+{{More citations needed section|date=January 2026}}
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Canada Rouge]] | [[Toronto Pearson International Airport|Toronto–Pearson]] <br />'''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[Air Century]] | [[La Isabela International Airport|Santo Domingo–La Isabela]]
+<!-- -->
+|[[Albatros Airlines (Venezuela)|Albatros Airlines]] | '''Charter:''' [[Josefa Camejo International Airport|Las Piedras]]
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]]
+<!-- -->
+| [[Arajet]] | [[Las Américas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+| [[Avior Airlines]] | [[Simón Bolívar International Airport (Venezuela)|Caracas]]
+<!-- -->
+| [[Azul Brazilian Airlines]] | '''Seasonal:''' [[Belo Horizonte International Airport|Belo Horizonte–Confins]]
+<!-- -->
+| [[Caribbean Airlines]] | [[Piarco International Airport|Port of Spain]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Corendon Dutch Airlines]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Divi Divi Air]] | [[Queen Beatrix International Airport|Aruba]], [[Flamingo International Airport|Bonaire]]
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[LASER Airlines]] | [[Simón Bolívar International Airport (Venezuela)|Caracas]]
+<!-- -->
+| [[RED Air]] | [[Las Américas International Airport|Santo Domingo–Las Americas]]
+<!-- -->
+| [[Surinam Airways]] | [[Johan Adolf Pengel International Airport|Paramaribo]]
+<!-- -->
+| [[TUI fly Netherlands]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[United Airlines]] | [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Winair]] | [[Queen Beatrix International Airport|Aruba]], [[Flamingo International Airport|Bonaire]], [[Princess Juliana International Airport|Sint Maarten]]
+<!-- -->
+| [[Wingo (airline)|Wingo]] | '''Seasonal:''' [[El Dorado International Airport|Bogotá]], [[Jose Maria Cordova International Airport|Medellín–JMC]]
+<!-- -->
+| [[Z Air]] | [[Queen Beatrix International Airport|Aruba]], [[Ernesto Cortissoz International Airport|Barranquilla]], [[Flamingo International Airport|Bonaire]], [[Jose Maria Cordova International Airport|Medellín–JMC]], [[Princess Juliana International Airport|Sint Maarten]]
+}}

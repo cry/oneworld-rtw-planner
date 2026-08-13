@@ -1,0 +1,55 @@
+==Airline and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Manhattan Regional Airport
+|places=
+{{Location map~ |United_States |lat=39.141111 |long=-96.671667 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Manhattan'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=41.974186 |long=-87.907783 |position=bottom |label='''<small>[[O'Hare International Airport|Chicago–O'Hare]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7}}
+}}
+|}
+
+===Statistics===
+{{Bar graph
+| title =  Carrier shares (April 2021 - March 2022)
+| bar_width   = 26
+| width_units = em
+| label_type  = Carrier&nbsp;&nbsp;
+| data_type   = Passengers (arriving and departing)
+| data_max    = 75,000
+| label1   = [[Envoy Air]]
+| data1    = 71,340
+| comment1 = 54.07%
+| label2   = [[SkyWest Airlines|SkyWest]]
+| data2    = 60,610
+| comment2 = 45.93%
+| label3   = 
+| data3    = 
+| comment3 = 
+}}
+
+{| class="wikitable"
+|+ Top domestic destinations ('''April 2021 - March 2022''')
+! Rank
+! Airport name
+! Passengers
+! Airline
+|-
+| 1
+| [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+| 44,000
+| American
+|-
+| 2
+| [[O'Hare International Airport|Chicago–O'Hare]]
+| 21,000
+| American
+|}

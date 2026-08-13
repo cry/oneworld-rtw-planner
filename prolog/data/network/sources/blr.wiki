@@ -1,0 +1,128 @@
+== Airlines and destinations ==
+
+=== Passenger ===
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT REFERENCE. ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORT'S ARTICLE AND THE AIRLINE'S ARTICLE IF IT IS A NEW DESTINATION. ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY.-->
+
+[[File:Kempegowda International Airport3.png|thumb|center|800px|Kempegowda International Airport passenger destinations]]
+
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Air Arabia]]}} | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| {{nowrap|[[Air France]]}} | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| {{nowrap|[[Air India]]}} | [[Indira Gandhi International Airport|Delhi]], [[Heathrow Airport|London–Heathrow]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]] 
+<!-- -->
+| {{nowrap|[[Air India Express]]}} | [[Zayed International Airport|Abu Dhabi]], [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Biju Patnaik Airport|Bhubaneswar]], [[Shaheed Bhagat Singh International Airport|Chandigarh]], [[Chennai International Airport|Chennai]], [[King Fahd International Airport|Dammam]], [[Jolly Grant Airport|Dehradun]], [[Indira Gandhi International Airport|Delhi]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Dabolim Airport|Goa–Dabolim]], [[Lokpriya Gopinath Bordoloi International Airport|Guwahati]], [[Gwalior Airport|Gwalior]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Devi Ahilya Bai Holkar Airport|Indore]], [[Jaipur International Airport|Jaipur]], [[King Abdulaziz International Airport|Jeddah]], [[Kannur International Airport|Kannur]], [[Cochin International Airport|Kochi]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Calicut International Airport|Kozhikode]], [[Kuwait International Airport|Kuwait City]], [[Chaudhary Charan Singh International Airport|Lucknow]], [[Mangalore International Airport|Mangaluru]], [[Nagpur Airport|Nagpur]], [[Navi Mumbai International Airport|Navi Mumbai]], [[Jay Prakash Narayan Airport|Patna]], [[Phuket International Airport|Phuket]] [[Veer Savarkar International Airport|Port Blair]], [[Pune Airport|Pune]], [[Birsa Munda Airport|Ranchi]], [[King Khalid International Airport|Riyadh]], [[Bagdogra Airport|Siliguri]], [[Srinagar Airport|Srinagar]], [[Surat Airport|Surat]], [[Thiruvananthapuram International Airport|Thiruvananthapuram]], [[Tiruchirappalli International Airport|Tiruchirappalli]], [[Lal Bahadur Shastri Airport|Varanasi]], [[Vijayawada Airport|Vijayawada]], [[Visakhapatnam Airport|Visakhapatnam]]
+<!-- -->
+| {{nowrap|[[AirAsia]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| {{nowrap|[[Akasa Air]]}} | [[Zayed International Airport|Abu Dhabi]], [[Maharaja Bir Bikram Airport|Agartala]], [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Biju Patnaik Airport|Bhubaneswar]], [[Chennai International Airport|Chennai]], [[Darbhanga Airport|Darbhanga]], [[Indira Gandhi International Airport|Delhi]], [[Gorakhpur Airport|Gorakhpur]], [[Lokpriya Gopinath Bordoloi International Airport|Guwahati]], [[Jaipur International Airport|Jaipur]] (begins 11 October 2026), [[King Abdulaziz International Airport|Jeddah]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Calicut International Airport|Kozhikode]], [[Chaudhary Charan Singh International Airport|Lucknow]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Phuket International Airport|Phuket]], [[Pune Airport|Pune]], [[Bagdogra Airport|Siliguri]], [[Udaipur Airport|Udaipur]] (begins 15 October 2026), [[Lal Bahadur Shastri Airport|Varanasi]]
+<!-- -->
+| {{nowrap|[[Alliance Air (India)|Alliance Air]]}} | [[Rajiv Gandhi International Airport|Hyderabad]], [[Kochi International Airport|Kochi]], [[Salem Airport (India)|Salem]], [[Jindal Vijaynagar Airport|Vidyanagar]]
+<!-- -->
+| {{nowrap|[[Batik Air Malaysia]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| {{nowrap|[[British Airways]]}} | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| {{nowrap|[[Cathay Pacific]]}} | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| {{nowrap|[[Emirates (airline)|Emirates]]}} | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| {{nowrap|[[Ethiopian Airlines]]}} | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| {{nowrap|[[Etihad Airways]]}} | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| {{nowrap|Fly91}} | [[Hubli Airport|Hubli]], [[Sindhudurg Airport|Sindhudurg]]
+<!-- -->
+| {{nowrap|[[Gulf Air]]}} | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| {{nowrap|[[IndiGo]]}} | [[Zayed International Airport|Abu Dhabi]], [[Maharaja Bir Bikram Airport|Agartala]], [[Agatti Airport|Agatti]],  [[Agra Airport|Agra]], [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Sri Guru Ram Dass Jee International Airport|Amritsar]], [[Aurangabad Airport|Aurangabad]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Bareilly Airport|Bareilly]], [[Belgaum Airport|Belgaum]], [[Raja Bhoj Airport|Bhopal]], [[Biju Patnaik Airport|Bhubaneswar]], [[Chandigarh Airport|Chandigarh]], [[Chennai International Airport|Chennai]], [[Coimbatore International Airport|Coimbatore]], [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Dehradun Airport|Dehradun]], [[Indira Gandhi International Airport|Delhi]], [[Ngurah Rai International Airport|Denpasar]], [[Deoghar Airport|Deoghar]], [[Dibrugarh Airport|Dibrugarh]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Kazi Nazrul Islam Airport|Durgapur]], [[Hindon Airport|Ghaziabad]], [[Dabolim Airport|Goa–Dabolim]], [[Manohar International Airport|Goa–Mopa]], [[Gorakhpur Airport|Gorakhpur]], [[Lokpriya Gopinath Bordoloi International Airport|Guwahati]], [[Hubli Airport|Hubli]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Devi Ahilya Bai Holkar Airport|Indore]], [[Jabalpur Airport|Jabalpur]], [[Jaipur International Airport|Jaipur]], [[Jammu Airport|Jammu]], [[King Abdulaziz International Airport|Jeddah]], [[Jharsuguda Airport|Jharsuguda]], [[Jodhpur Airport|Jodhpur]], [[Kannur International Airport|Kannur]], [[Kanpur Airport|Kanpur]], [[Cochin International Airport|Kochi]], [[Kolhapur Airport|Kolhapur]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Calicut International Airport|Kozhikode]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kurnool Airport|Kurnool]], [[Langkawi International Airport|Langkawi]], [[Chaudhary Charan Singh Airport|Lucknow]], [[Madurai Airport|Madurai]], [[Velana International Airport|Malé]], [[Mangalore International Airport|Mangaluru]], [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Dr. Babasaheb Ambedkar International Airport|Nagpur]], [[Nashik Airport|Nashik]], [[Navi Mumbai International Airport|Navi Mumbai]], [[Noida International Airport|Noida]], [[Jay Prakash Narayan Airport|Patna]], [[Phuket International Airport|Phuket]], [[Pondicherry Airport|Pondicherry]], [[Veer Savarkar International Airport|Port Blair]], [[Prayagraj Airport|Prayagraj]], [[Pune Airport|Pune]], [[Swami Vivekananda Airport|Raipur]], [[Rajahmundry Airport|Rajahmundry]], [[Rajkot International Airport|Rajkot]], [[Birsa Munda Airport|Ranchi]], [[King Khalid International Airport|Riyadh]], [[Salem Airport (India)|Salem]], [[Shirdi Airport|Shirdi]], [[Shimoga Airport|Shimoga]], [[Bagdogra Airport|Siliguri]], [[Changi Airport|Singapore]], [[Sheikh ul-Alam International Airport|Srinagar]], [[Surat Airport|Surat]], [[Thiruvananthapuram International Airport|Thiruvananthapuram]], [[Tiruchirappalli International Airport|Tiruchirappalli]], [[Tirupati Airport|Tirupati]], [[Tuticorin Airport|Tuticorin]], [[Maharana Pratap Airport|Udaipur]], [[Vadodara Airport|Vadodara]], [[Lal Bahadur Shastri Airport|Varanasi]], [[Vijayawada Airport|Vijayawada]], [[Visakhapatnam Airport|Visakhapatnam]]<br/>'''Seasonal:''' [[Jaisalmer Airport|Jaisalmer]]
+<!-- -->
+| {{nowrap|[[Japan Airlines]]}} | [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| {{nowrap|[[Jazeera Airways]]}} | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| {{nowrap|[[Kuwait Airways]]}} | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| {{nowrap|[[Lufthansa]]}} | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| {{nowrap|[[Malaysia Airlines]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| {{nowrap|[[Nepal Airlines]]}} | [[Tribhuvan International Airport|Kathmandu]]
+<!-- -->
+| {{nowrap|[[Oman Air]]}} | [[Muscat International Airport|Muscat]]
+<!-- -->
+| {{nowrap|[[Qatar Airways]]}} | [[Hamad International Airport|Doha]]
+<!-- -->
+| {{nowrap|[[SalamAir]]}} | [[Muscat International Airport|Muscat]]
+<!-- -->
+| {{nowrap|[[Saudia]]}} | [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+| {{nowrap|[[Singapore Airlines]]}} | [[Changi Airport|Singapore]]
+<!-- -->
+| {{nowrap|[[SpiceJet]]}} | [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Chennai International Airport|Chennai]], [[Darbhanga Airport|Darbhanga]], [[Jolly Grant Airport|Dehradun]], [[Indira Gandhi International Airport|Delhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Pune Airport|Pune]], [[Shirdi Airport|Shirdi]], [[Tuticorin Airport|Tuticorin]]
+<!-- -->
+| {{nowrap|[[SriLankan Airlines]]}} | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+| {{nowrap|[[Star Air (India)|Star Air]]}} | [[Bidar Airport|Bidar]], [[Manohar International Airport|Goa–Mopa]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Kalaburagi Airport|Kalaburagi]], [[Shri Guru Gobind Singh Ji Airport|Nanded]], [[Jindal Vidyanagar Airport|Vidyanagar]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zurich Airport|Zürich]] (begins 25 October 2026)
+<!-- -->
+| {{nowrap|[[Thai AirAsia]]}} | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| {{nowrap|[[Thai Lion Air]]}} | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| {{nowrap|[[VietJet Air]]}} | [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| {{nowrap|[[Vietnam Airlines]]}} | [[Noi Bai International Airport|Hanoi]]
+<!-- -->
+| {{nowrap|[[Virgin Atlantic]]}} | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+}}
+
+=== Cargo ===
+
+{{Airport destination list
+<!-- -->
+| [[AeroLogic]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]],  [[Frankfurt Airport|Frankfurt]],
+<!-- -->
+| [[Amazon Air]] | [[Coimbatore International Airport|Coimbatore]], [[Indira Gandhi International Airport|Delhi]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+<!-- -->
+| [[Blue Dart Aviation]] | [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Netaji Subhash Chandra Bose International Airport|Kolkata]]
+<!-- -->
+| [[Cathay Cargo]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Challenge Group]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Ben Gurion International Airport|Tel Aviv]]
+<!-- -->
+| [[Emirates SkyCargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+| [[Ethiopian Airlines Cargo]] | [[Addis Ababa Bole International Airport|Addis Ababa]],
+<!-- -->
+| [[Etihad Cargo]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[FedEx Express]] | [[Cologne Bonn Airport|Cologne/Bonn]], [[Dubai International Airport|Dubai–International]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Liège Airport|Liège]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[MASkargo]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Oman Air|Oman Air Cargo]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Qatar Airways Cargo]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Quikjet Cargo]] | [[Indira Gandhi International Airport|Delhi]], [[Rajiv Gandhi International Airport|Hyderabad]]
+<!-- -->
+| [[Sichuan Airlines|Sichuan Airlines Cargo]] | [[Chengdu Shuangliu International Airport|Chengdu–Shuangliu]], [[Chongqing Jiangbei International Airport|Chongqing]]
+<!-- -->
+| {{nowrap|[[Singapore Airlines Cargo]]}} | [[Amsterdam Airport Schiphol|Amsterdam]], [[Sharjah International Airport|Sharjah]], [[Changi Airport|Singapore]]
+<!-- -->
+| {{nowrap|[[SF Airlines]]}} | [[Ezhou Huahu International Airport|Ezhou]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Turkish Airlines|Turkish Airlines Cargo]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[King Fahd International Airport|Dammam]], [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[UPS Airlines]] | [[Cologne Bonn Airport|Cologne/Bonn]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+}}

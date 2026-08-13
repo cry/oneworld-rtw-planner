@@ -1,0 +1,12 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Salamanca Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+}}
+
+The nearest international airport is [[Madrid–Barajas Airport]], located {{convert|228|km|0|abbr=on}} south east of Salamanca Airport.

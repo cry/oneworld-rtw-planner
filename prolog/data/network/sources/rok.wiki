@@ -1,0 +1,11 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list
+<!-- -->
+|[[Alliance Airlines]] | [[Brisbane Airport|Brisbane]]
+<!-- -->
+|[[QantasLink]] | [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]], [[Mackay Airport|Mackay]], [[Townsville Airport|Townsville]]
+<!-- -->
+|[[Virgin Australia]] | [[Brisbane Airport|Brisbane]]
+<!-- -->
+}}

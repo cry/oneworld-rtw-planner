@@ -1,0 +1,32 @@
+==Airlines and destinations==
+The following airlines operate regular passenger flights at Songshan:
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air China]] | [[Chongqing Jiangbei International Airport|Chongqing]], [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]]
+<!-- -->
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[China Airlines]] | [[Gimpo International Airport|Seoul–Gimpo]], [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| {{nowrap|[[China Eastern Airlines]]}} | [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]]
+<!-- -->
+| [[Eastar Jet]] | [[Gimpo International Airport|Seoul–Gimpo]]
+<!-- -->
+| [[EVA Air]] | [[Gimpo International Airport|Seoul–Gimpo]], [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Mandarin Airlines]] | [[Fuzhou Changle International Airport|Fuzhou]], [[Kinmen Airport|Kinmen]], [[Nangan Airport|Matsu–Nangan]], [[Penghu Airport|Penghu]], [[Taitung Airport|Taitung]], [[Wuhan Tianhe International Airport|Wuhan]]
+<!-- -->
+| [[Shanghai Airlines]] | [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Sichuan Airlines]] | [[Chengdu Tianfu International Airport|Chengdu–Tianfu]], [[Chongqing Jiangbei International Airport|Chongqing]]
+<!-- -->
+| [[T'way Air]] | [[Gimpo International Airport|Seoul–Gimpo]]
+<!-- -->
+| [[Uni Air]] |[[Hualien Airport|Hualien]], [[Kinmen Airport|Kinmen]], [[Beigan Airport|Matsu–Beigan]], [[Nangan Airport|Matsu–Nangan]], [[Penghu Airport|Penghu]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Taitung Airport|Taitung]], [[Xiamen Gaoqi International Airport|Xiamen]]
+<!-- -->
+| [[XiamenAir]] | [[Fuzhou Changle International Airport|Fuzhou]], [[Xiamen Gaoqi International Airport|Xiamen]]
+<!-- -->
+}}

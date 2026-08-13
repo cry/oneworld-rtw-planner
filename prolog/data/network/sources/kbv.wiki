@@ -1,0 +1,41 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Air Arabia]] | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Bangkok Airways]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Samui Airport|Koh Samui]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]{{cn|date=April 2026}}
+<!-- -->
+| [[Finnair]] |'''Seasonal:''' [[Helsinki-Vantaa Airport|Helsinki]] (resumes 26 November 2026),
+<!-- -->
+| [[Firefly (airline)|Firefly]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[IndiGo]] | [[Kempegowda International Airport|Bengaluru]],{{cn|date=April 2026}} [[Indira Gandhi International Airport|Delhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]{{cn|date=April 2026}}
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal charter:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Charter:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]{{cn|date=April 2026}} <br/> '''Seasonal charter:'''  [[Václav Havel Airport Prague|Prague]]{{cn|date=April 2026}}
+<!-- -->
+| [[Nok Air]] |[[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| [[Scandinavian Airlines]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]] (begins 9 December 2026)
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Thai AirAsia]] | [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Chiang Mai International Airport|Chiang Mai]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai Lion Air]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| [[Thai VietJet Air]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[TUI fly Nordic]] | '''Seasonal charter:''' [[Göteborg Landvetter Airport|Gothenburg]],{{citation needed|date=January 2025}} [[Oslo Airport, Gardermoen|Oslo]]{{citation needed|date=January 2025}}
+<!-- -->
+}}

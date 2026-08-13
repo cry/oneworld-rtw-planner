@@ -326,6 +326,7 @@ nothing in the Docker build, needs node.
 | `web/rtw.build.json` | a digest of the above two inputs | `prolog/tools/build_image.mjs` |
 | `prolog/data/earn/qff/*.pl` | the captures in `prolog/data/earn/sources/` | `prolog/tools/build_qff_tables.mjs` |
 | `prolog/data/earn/cx/*.pl` | the same | `prolog/tools/build_cx_tables.mjs` |
+| `prolog/data/generated/services.pl` | the captures in `prolog/data/network/sources/` | `prolog/tools/build_services.mjs` |
 
 ```sh
 npm install                # once
@@ -335,6 +336,8 @@ npm run map                # or just the map bundle
 npm run wasm               # or just the WebAssembly pair
 npm run earn:qff           # or just the Qantas earning tables
 npm run earn:cx            # or just the Asia Miles earning tables
+npm run services           # or just the flown-network table, from the committed capture
+npm run services -- --refresh   # re-crawl Wikipedia first — by hand, never in CI
 npm run css:watch          # leave running while working on styles
 npm run check:contrast     # WCAG check over the palette, no browser needed
 npm run test:wasm          # the browser build answers what the native one answers
@@ -519,6 +522,7 @@ afterwards.
 | `POST` | `/api/validate` | itinerary JSON in, report JSON out |
 | `POST` | `/api/routing` | itinerary JSON in, `{"route": …}` out — the same journey written as a routing, no rules run |
 | `POST` | `/api/earn` | itinerary plus `programs` in, points and status currency out, no rules run |
+| `POST` | `/api/network` | itinerary in, per-sector `flown`/`absent`/`windowed` out against the committed snapshot, no rules run |
 | `GET` | `/api/programs` | the registered loyalty programmes, their currencies, and where each table was read |
 | `GET` | `/api/ruleset` | version, limits, free-segment caps, carriers, city codes, routing grammar, continents, fare-basis and surcharge tables |
 | `GET` | `/api/airports?q=&limit=` | typeahead over the airport table, accent-folded, with coordinates |
@@ -683,6 +687,29 @@ one programme against another, since a mile and a Status Point are not commensur
 valuation and a valuation is an opinion. Nine of Asia Miles' partners are outside oneworld and so
 cannot appear on an Explorer fare at all; they are priced anyway, because the table publishes them
 and leaving rows out of a transcription is how a transcription stops being one.
+
+### Whether it can actually be flown
+
+Also not part of Rule 3015, and a separate operation for the same reason. The tariff says which
+itineraries may be *sold*; it says nothing about which flights *exist*, and an itinerary can be
+perfectly valid and simply not flyable. `POST /api/network` answers that second question against
+[`prolog/data/generated/services.pl`](prolog/data/generated/services.pl) — 5,618 nonstop sectors
+flown by the sixteen eligible carriers and their 4(j) affiliates, read out of 933 English Wikipedia
+airport articles pinned at a stated revision. Each segment comes back `flown`, `absent`, `windowed`
+(recorded, but starting or ending outside the current period), `carrier_unknown`, or
+`not_applicable` for a surface sector.
+
+**A missing sector is never a violation.** It has no clause to cite, the evidence is a snapshot with
+a stated age, and absence of an edge is much weaker evidence than presence: a missing sector costs a
+trip nobody plans, an invented one costs an itinerary that validates and then will not ticket. So it
+answers from its own operation, carries the snapshot's date in every reply, and enters nothing in
+the register. See [`PLANS/06-flown-network.md`](PLANS/06-flown-network.md).
+
+Known gaps, stated rather than discovered later: American Eagle's 254 rows yield no facts, because
+the brand covers five operating certificates and the articles cannot say which one flew — so AA's US
+regional network is largely absent; seasonal marking is incomplete upstream, which is why `unknown`
+is a distinct value from `year_round`; and the table describes the pinned revisions, not today.
+[`prolog/data/network/README.md`](prolog/data/network/README.md) has the rest.
 
 [`DESIGN.md`](DESIGN.md) has the rest: how the rules are structured, the four geography taxonomies,
 the earning kernel and its plugin protocol, the WebAssembly target, and the test suites.

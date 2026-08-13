@@ -1,0 +1,32 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Allegiant Air]] | [[Asheville Regional Airport|Asheville]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Indianapolis International Airport|Indianapolis]], [[McGhee Tyson Airport|Knoxville]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Pittsburgh International Airport|Pittsburgh]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] <br />'''Seasonal:''' [[Rickenbacker International Airport|Columbus–Rickenbacker]]
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | [[Charlotte Douglas International Airport|Charlotte]],  [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]], [[Ronald Reagan Washington National Airport|Washington–National]] <br />'''Seasonal:''' [[Logan International Airport|Boston]], [[O'Hare International Airport|Chicago–O'Hare]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[Avelo Airlines]] | [[Tweed New Haven Airport|New Haven]]
+<!-- -->
+| [[Breeze Airways]] | [[Orlando International Airport|Orlando]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Tampa International Airport|Tampa]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield-Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Delta Connection]] | [[Hartsfield-Jackson Atlanta International Airport|Atlanta]]<br />'''Seasonal:''' [[LaGuardia Airport|New York–LaGuardia]]
+<!-- -->
+| [[JetBlue]] | '''Seasonal:''' [[Logan International Airport|Boston]]
+<!-- -->
+| [[United Airlines]] |  [[Newark International Airport|Newark]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]]
+<!-- -->
+| [[United Express]] |  [[Newark International Airport|Newark]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Dulles International Airport|Washington–Dulles]]
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[FedEx Feeder]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]
+<!-- -->
+}}

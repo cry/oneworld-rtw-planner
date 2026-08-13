@@ -1,0 +1,41 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Strasbourg Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{Airport-dest-list
+<!-- -->
+|[[Aegean Airlines]]|[[Athens International Airport|Athens]]
+
+| [[Air Algérie]] | [[Houari Boumediene Airport|Algiers]]
+<!-- -->
+| [[AnimaWings]] | [[Bucharest Henri Coandă International Airport|Bucharest]]
+<!-- -->
+| {{nowrap|[[ASL Airlines France]]}} | '''Seasonal:''' [[Angads Airport|Oujda]]
+<!-- -->
+| [[easyJet]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[London Gatwick Airport|London–Gatwick]], [[Marrakesh Menara Airport|Marrakesh]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Naples International Airport|Naples]], [[Nice Côte d'Azur Airport|Nice]], <br> '''Seasonal:''' [[Luton Airport|London-Luton]] (begins 29 November 2026), [[Manchester Airport|Manchester]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Rome Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]<br>'''Seasonal''': [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bilbao Airport|Bilbao]] (begins 1 December 2026)
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Edinburgh Airport|Edinburgh]] (begins 27 November 2026), [[London Stansted Airport|London–Stansted]] (begins 26 November 2026), [[Manchester Airport|Manchester]] (begins 26 November 2026)
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Nouvelair]] | [[Tunis–Carthage International Airport|Tunis]]<br />  '''Seasonal:''' [[Djerba–Zarzis International Airport|Djerba]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+|[[TAROM]]|[[Bucharest Henri Coandă International Airport|Bucharest]]
+<!-- -->
+| [[Transavia France|Transavia]] | [[Houari Boumediene Airport| Algiers]] <br /> '''Seasonal:''' [[Mohamed Boudiaf International Airport| Constantine]]
+<!-- -->
+| [[Tunisair]] | [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+| [[Twin Jet]] | [[Lyon–Saint-Exupéry Airport|Lyon]]
+<!-- -->
+| [[Volotea]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Copenhagen Airport|Copenhagen]], [[Marseille Provence Airport|Marseille]], [[Montpellier – Méditerranée Airport|Montpellier]], [[Munich International Airport|Munich]], [[Nantes Atlantique Airport|Nantes]], [[Nice Côte d'Azur Airport|Nice]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Toulouse–Blagnac Airport|Toulouse]] <br>'''Seasonal:''' [[Agadir–Al Massira Airport|Agadir]], [[Ajaccio Airport|Ajaccio]], [[Athens International Airport|Athens]], [[Bastia Airport|Bastia]], [[Brest Bretagne Airport|Brest]], [[Calvi – Sainte-Catherine Airport|Calvi]], [[Faro Airport|Faro]], [[Figari Sud-Corse Airport|Figari]], [[Florence Airport|Florence]] (begins 23 September 2026), [[Gran Canaria Airport|Gran Canaria]], [[Heraklion International Airport|Heraklion]], [[Lanzarote Airport|Lanzarote]], [[Málaga Airport|Málaga]], [[Marrakesh Menara Airport|Marrakesh]], [[Olbia Costa Smeralda Airport|Olbia]], [[Palermo Airport|Palermo]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Porto Airport|Porto]], [[Rodez–Aveyron Airport|Rodez]]
+<!-- -->
+| [[Vueling]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+}}
+The nearest larger international airports are [[EuroAirport Basel Mulhouse Freiburg]], located {{convert|154|km|abbr=on}} south and [[Stuttgart Airport]], located {{convert|168|km|abbr=on}} north east of Strasbourg Airport.

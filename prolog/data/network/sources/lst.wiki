@@ -1,0 +1,24 @@
+==Airlines and destinations==
+The Qantas Group is the dominant operator at Launceston airport, with [[Jetstar]] operating up to six daily flights to/from [[Melbourne Airport|Melbourne]], up to two daily flights to/from [[Sydney Airport|Sydney]] and up to one daily flight to/from [[Brisbane Airport|Brisbane]] throughout the year. [[QantasLink]] operates up to four flights daily to/from Melbourne, up to two daily flights to/from Sydney and seasonal services to/from Brisbane.{{cn|date=May 2026}}
+
+[[Virgin Australia]] operates up to four daily flights to/from Melbourne, one daily flight to/from Sydney, between four and seven flights per week to/from [[Brisbane Airport|Brisbane]] as well as a number of seasonal flights to/from [[Adelaide Airport|Adelaide]] and [[Perth Airport|Perth]].
+
+[[Sharp Airlines]] offer daily direct flights to [[Flinders Island Airport|Flinders Island]] and [[King Island]].
+
+[[Par Avion (airline)|Par Avion]] provide a twice weekly service to Cape Barren Island under the Remote Air Services Subsidy (RASS) scheme. in addition to light aircraft charter.
+
+===Passenger===
+{{airport destination list
+<!-- -->
+| [[Jetstar]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Link Airways]] | [[Canberra Airport|Canberra]]
+<!-- -->
+| [[Par Avion (airline)|Par Avion]] | [[Cape Barren Island]]
+<!-- -->
+| [[Sharp Airlines]] | [[Flinders Island Airport|Flinders Island]], [[King Island Airport|King Island]]
+<!-- -->
+| [[QantasLink]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]] [[Sydney Airport|Sydney]] <br/> '''Seasonal:''' [[Brisbane Airport|Brisbane]]
+<!-- -->
+| [[Virgin Australia]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]], '''Seasonal:''' [[Adelaide Airport|Adelaide]]
+}}

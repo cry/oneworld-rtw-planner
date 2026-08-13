@@ -1,0 +1,21 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Allegiant Air]] | [[MidAmerica St. Louis Airport|Belleville/St. Louis]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Columbia Regional Airport|Columbia (MO)]], [[Denver International Airport|Denver]], [[Northwest Arkansas National Airport|Fayetteville/Bentonville]], [[Bishop International Airport|Flint]], [[Harry Reid International Airport|Las Vegas]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]] <br/> '''Seasonal:''' [[Akron–Canton Airport|Akron/Canton]], [[Logan International Airport|Boston]], [[Midway International Airport|Chicago–Midway]], [[North Central West Virginia Airport|Clarksburg]], [[Rickenbacker International Airport|Columbus–Rickenbacker]], [[Des Moines International Airport|Des Moines]], [[Evansville Regional Airport|Evansville]], [[Gerald R. Ford International Airport|Grand Rapids]], [[Tri-State Airport|Huntington]], [[Indianapolis International Airport|Indianapolis]], [[Kansas City International Airport|Kansas City]], [[McGhee Tyson Airport|Knoxville]], [[Clinton National Airport|Little Rock]], [[Louisville Muhammad Ali International Airport|Louisville]], [[Will Rogers World Airport|Oklahoma City]], [[Eppley Airfield|Omaha]], [[General Wayne A. Downing Peoria International Airport|Peoria]], [[Pittsburgh International Airport|Pittsburgh]], [[Springfield–Branson National Airport|Springfield/Branson]], [[Tulsa International Airport|Tulsa]], [[Wichita Dwight D. Eisenhower National Airport|Wichita]]| 
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Ronald Reagan Washington National Airport|Washington–National]]| 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Miami International Airport|Miami]], [[Ronald Reagan Washington National Airport|Washington–National]]<br />'''Seasonal:''' [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Philadelphia International Airport|Philadelphia]]   | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] | 
+<!-- -->
+| [[Delta Connection]] | '''Seasonal:''' [[LaGuardia Airport|New York–LaGuardia]] |
+<!-- -->
+| [[JetBlue]] | '''Seasonal:''' [[Logan International Airport|Boston]], [[John F. Kennedy International Airport|New York–JFK]] | 
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Dallas Love Field|Dallas–Love]], [[William P. Hobby Airport|Houston–Hobby]], [[Nashville International Airport|Nashville]] <br />'''Seasonal:''' [[Baltimore/Washington International Airport|Baltimore]], [[Midway International Airport|Chicago–Midway]], [[Indianapolis International Airport|Indianapolis]] (begins March 11, 2027), [[Kansas City International Airport|Kansas City]], [[Pittsburgh International Airport|Pittsburgh]], [[St. Louis Lambert International Airport|St. Louis]]| 
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]|
+<!-- -->
+}}

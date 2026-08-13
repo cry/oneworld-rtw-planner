@@ -18,7 +18,11 @@
 // came along for free the moment it became one: its tables, its distances and
 // its reasons for not being able to price a sector are all compared the same
 // way, and a floating-point difference between the two engines would show up
-// here as a changed mileage band rather than as a wrong number on a page.
+// here as a changed mileage band rather than as a wrong number on a page. The
+// same is true of `network`: the flown-sector table is included into the saved
+// image alongside the airports, and comparing every sector's status over the
+// whole corpus is what would catch a table that reached one engine and not the
+// other -- which is exactly the failure a hand-picked case would miss.
 //
 // The comparison is *structural*, not textual, and that distinction is the whole
 // reason this file has a diff routine in it. SWI moved JSON out of the HTTP
@@ -49,7 +53,7 @@ const IMAGE = path.join(REPO, 'web', 'rtw.pvm');
 // and the reply. width(0) in rtw_call/4 keeps a reply on one line, which is what
 // makes a line-oriented comparison safe -- some of these messages are long
 // enough that atom_json_dict would otherwise wrap them.
-const OPS = ['validate', 'earn'];
+const OPS = ['validate', 'earn', 'network'];
 
 const BASELINE_GOAL = `
     forall(( member(D, ['${FIXTURES}/']), atom_concat(D, '*.json', P),

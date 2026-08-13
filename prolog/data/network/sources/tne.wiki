@@ -1,0 +1,6 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport-dest-list
+| [[J-Air]] | [[Itami Airport|Osaka–Itami]]
+| [[Japan Air Commuter]] | [[Fukuoka Airport|Fukuoka]], [[Kagoshima Airport|Kagoshima]]
+}}

@@ -1,0 +1,25 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+The following destinations are served from Niigata:
+
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[All Nippon Airways]]}} | [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| [[ANA Wings]] | [[Itami Airport|Osaka–Itami]], [[New Chitose Airport|Sapporo–Chitose]]
+<!-- -->
+| [[Fuji Dream Airlines]] | [[Fukuoka Airport|Fukuoka]], [[Nagoya Airfield|Nagoya–Komaki]], [[New Chitose Airport|Sapporo–Chitose]]
+<!-- -->
+| [[Ibex Airlines]] | [[Fukuoka Airport|Fukuoka]], [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| [[J-Air]] | [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Peach Aviation|Peach]] | [[Kansai International Airport|Osaka–Kansai]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Toki Air]] | [[Kobe Airport|Kobe]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Okadama Airport|Sapporo–Okadama]], [[Sendai Airport|Sendai]]
+<!-- -->
+}}

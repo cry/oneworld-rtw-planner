@@ -1,0 +1,29 @@
+==Airline and destination==
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte/Douglas International Airport|Charlotte]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destination map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destination from Florence Regional Airport
+|places=
+{{Location map~ |United_States |lat=34.185278 |long=-79.723889 |position=left |label=<small>'''Florence'''</small>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=35.213889 |long=-80.943056 |position=left |label=<small>'''{{nowrap|[[Charlotte Douglas International Airport|Charlotte]]}}'''</small>|label_size=80 |marksize=7}}
+}}
+|}
+
+===Destination statistics===
+{| class="wikitable sortable" style="font-size: 95%" width= align=
+|+ '''Busiest domestic routes from Florence<br />(May 2023 &ndash; April 2024)'''
+|-
+! Rank
+! City
+! Passengers
+|-
+| 1
+| [[Charlotte Douglas International Airport|Charlotte, North Carolina]]
+| 23,290
+|}

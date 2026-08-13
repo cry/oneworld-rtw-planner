@@ -1,0 +1,108 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Aer Lingus]] | [[Dublin Airport|Dublin]]{{cn|date=June 2026}}
+|<!-- -->
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]{{cn|date=June 2026}}
+|<!-- -->
+| [[Air Canada]] | [[Calgary International Airport|Calgary]], [[Toronto–Pearson]], [[Vancouver International Airport|Vancouver]]
+|<!-- -->
+| [[Air Canada Express]] | [[Halifax Stanfield International Airport|Halifax]], [[Montréal–Trudeau]], [[Toronto–Pearson]]
+|<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]{{cn|date=June 2026}}
+|<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]]<!-- Air India's flight to Mumbai continues on to Delhi. -->, [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]] | {{bsn|reason=Needs update as link is dead, so cannot verify route is still operating|date=June 2026}}
+<!-- -->
+| [[Air Premia]] | [[Incheon International Airport|Seoul–Incheon]]
+|<!-- -->
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]], [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[Seattle/Tacoma]] | {{cn|date=June 2026}}
+<!-- -->
+| [[Allegiant Air]] | [[Appleton International Airport|Appleton]], [[Asheville Regional Airport|Asheville]],{{cn|date=June 2026}} [[Cincinnati/Northern Kentucky International Airport|Cincinnati]],{{cn|date=June 2026}} [[Des Moines International Airport|Des Moines]],{{cn|date=June 2026}} [[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]],{{cn|date=June 2026}} [[McGhee Tyson Airport|Knoxville]]{{cn|date=June 2026}} <br/> '''Seasonal:''' [[Gerald R. Ford International Airport|Grand Rapids]]
+|<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | {{cn|date=June 2026}}
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]]{{cn|date=June 2026}} | 
+<!-- -->
+| [[Arajet]] | [[Punta Cana International Airport|Punta Cana]], [[Santo Domingo–Las Américas]]
+|<!-- -->
+| [[Austrian Airlines]] | [[Vienna International Airport|Vienna]]{{cn|date=June 2026}}
+|<!-- -->
+| [[BermudAir]]  |  [[L.F. Wade International Airport|Bermuda]] <br /> '''Seasonal:''' [[Clayton J. Lloyd International Airport|Anguilla]], [[Providenciales International Airport|Providenciales]] (begins December 19, 2026)
+|<!-- -->
+| [[Breeze Airways]] | [[Yeager Airport|Charleston (WV)]]
+|<!-- -->
+| [[British Airways]] | [[London–Heathrow]]{{cn|date=June 2026}}
+|<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Wayne County Airport|Detroit]], [[Los Angeles International Airport|Los Angeles]] (begins April 12, 2027), [[Minneapolis–Saint Paul International Airport|Minneapolis/Saint Paul]], [[Salt Lake City International Airport|Salt Lake City]] | {{cn|date=June 2026}}
+<!-- -->
+| [[Delta Connection]] | [[Logan International Airport|Boston]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Raleigh–Durham International Airport|Raleigh/Durham]] | {{cn|date=June 2026}}
+<!-- -->
+| [[EgyptAir]] | [[Cairo International Airport|Cairo]]{{cn|date=June 2026}}
+|<!-- -->
+| [[El Al]] | [[Ben Gurion Airport|Tel Aviv]]
+|<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Athens International Airport|Athens]],{{cn|date=June 2026}} [[Dubai International Airport|Dubai–International]]
+|<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]], [[Lomé–Tokoin International Airport|Lomé]]
+|<!-- -->
+| [[French Bee]] | [[Paris–Orly]]{{cn|date=June 2026}}
+|<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Chicago–Midway]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Orlando International Airport|Orlando]], [[Luis Muñoz Marín International Airport|San Juan]]
+|<!-- -->
+| [[Iberia (airline)|Iberia]]| [[Madrid–Barajas Airport|Madrid]]
+|<!-- -->
+| [[Icelandair]] | [[Keflavík International Airport|Reykjavík–Keflavík]]{{cn|date=June 2026}}
+|<!-- -->
+| [[JetBlue]]| [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Orlando International Airport|Orlando]], [[Luis Muñoz Marín International Airport|San Juan]], [[Cibao International Airport|Santiago de los Caballeros]], [[Palm Beach International Airport|West Palm Beach]] <br /> '''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]
+| <!-- -->
+| [[La Compagnie]] | [[Milan–Malpensa]],{{cn|date=June 2026}} [[Paris–Orly]]{{cn|date=June 2026}} <br /> '''Seasonal:''' [[Nice Côte d'Azur Airport|Nice]] <br /> '''Seasonal charter:''' [[Princess Juliana International Airport|Sint Maarten]]
+|<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw–Chopin]]{{cn|date=June 2026}} <br /> '''Seasonal:''' [[Kraków John Paul II International Airport|Kraków]], [[Rzeszów–Jasionka Airport|Rzeszów]]
+|<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]] | {{cn|date=June 2026}}
+<!-- -->
+| [[Porter Airlines]] | [[Montréal–Trudeau]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Billy Bishop Toronto City Airport|Toronto–Billy Bishop]]
+|<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm–Arlanda]] | 
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+|<!-- -->
+| [[Sun Country Airlines]] | [[Minneapolis–Saint Paul International Airport|Minneapolis/Saint Paul]]{{cn|date=June 2026}}
+|<!-- -->
+| [[Sunrise Airways]] | [[Cap-Haïtien International Airport|Cap-Haïtien]]
+|<!-- -->
+|{{nowrap|[[Swiss International Air Lines]]}} | [[Zurich Airport|Zurich]]{{cn|date=June 2026}}
+|<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]], [[Porto Airport|Porto]] | {{cn|date=June 2026}}
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]{{cn|date=June 2026}}
+|<!-- -->
+| [[United Airlines]] | [[Rafael Hernández Airport|Aguadilla]], [[Amsterdam Airport Schiphol|Amsterdam]], [[V. C. Bird International Airport|Antigua]], [[Queen Beatrix International Airport|Aruba]], [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Austin–Bergstrom International Airport|Austin]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Grantley Adams International Airport|Barbados]], [[Berlin Brandenburg Airport|Berlin]], [[L.F. Wade International Airport|Bermuda]], [[El Dorado International Airport|Bogotá]], [[Flamingo International Airport|Bonaire]], [[Logan International Airport|Boston]], [[Bozeman Yellowstone International Airport|Bozeman]], [[Brussels Airport|Brussels]], [[Cancún International Airport|Cancún]], [[Cape Town International Airport|Cape Town]], [[Charleston International Airport|Charleston (SC)]], [[Charlotte Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Cleveland Hopkins International Airport|Cleveland]], [[Curaçao International Airport|Curaçao]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Denver International Airport|Denver]], [[Douglas–Charles Airport|Dominica–Douglas-Charles]], [[Dubai International Airport|Dubai–International]] (suspended), [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Southwest Florida International Airport|Fort Myers]], [[Frankfurt Airport|Frankfurt]], [[Geneva Airport|Geneva]], [[La Aurora International Airport|Guatemala City]], [[Houston–Intercontinental]], [[Jacksonville International Airport|Jacksonville (FL)]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Key West International Airport|Key West]], [[Harry Reid International Airport|Las Vegas]], [[Jorge Chávez International Airport|Lima]], [[Lisbon Airport|Lisbon]], [[London–Heathrow]], [[Los Angeles International Airport|Los Angeles]], [[Madrid–Barajas Airport|Madrid]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Miami International Airport|Miami]], [[Milan–Malpensa]], [[Sangster International Airport|Montego Bay]], [[Munich Airport|Munich]], [[Nashville International Airport|Nashville]], [[Lynden Pindling International Airport|Nassau]], [[Louis Armstrong New Orleans International Airport|New Orleans]],  [[John Wayne Airport|Orange County]], [[Orlando International Airport|Orlando]], [[Tocumen International Airport|Panama City–Tocumen]], [[Paris–Charles de Gaulle]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Portland International Airport|Portland (OR)]], [[Providenciales International Airport|Providenciales]], [[Gregorio Luperón International Airport|Puerto Plata]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Punta Cana International Airport|Punta Cana]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Rome–Fiumicino]], [[Sacramento International Airport|Sacramento]], [[Salt Lake City International Airport|Salt Lake City]], [[San Antonio International Airport|San Antonio]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[Juan Santamaría International Airport|San José (CR)]], [[Los Cabos International Airport|San José del Cabo]], [[Luis Muñoz Marín International Airport|San Juan]], [[Ramón Villeda Morales International Airport|San Pedro Sula]], [[El Salvador International Airport|San Salvador]], [[Cibao International Airport|Santiago de los Caballeros]], [[Santo Domingo–Las Américas]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Sarasota–Bradenton International Airport|Sarasota]], [[Savannah/Hilton Head International Airport|Savannah]], [[Seattle/Tacoma]], [[Incheon International Airport|Seoul–Incheon]] (begins September 4, 2026), [[Princess Juliana International Airport|Sint Maarten]], [[Cyril E. King Airport|St. Thomas]], [[Tampa International Airport|Tampa]], [[Ben Gurion Airport|Tel Aviv]] (resumes September 8, 2026), [[Tokyo–Haneda]], [[Tokyo–Narita]], [[Washington–Dulles]], [[Palm Beach International Airport|West Palm Beach]], [[Zurich Airport|Zurich]] <br/> '''Seasonal:'''  [[Ted Stevens Anchorage International Airport|Anchorage]], [[Athens International Airport|Athens]], [[Philip S. W. Goldson International Airport|Belize City]], [[Bari Karol Wojtyła Airport|Bari]], [[Bilbao Airport|Bilbao]], [[Buffalo Niagara International Airport|Buffalo]], [[Burlington International Airport|Burlington (VT)]], [[Detroit Metropolitan Wayne County Airport|Detroit]], [[Dubrovnik Airport|Dubrovnik]], [[Eagle County Regional Airport|Eagle/Vail]], [[Faro Airport|Faro]], [[Madeira Airport|Funchal]], [[Glacier Park International Airport|Glacier Park/Kalispell]], [[Glasgow Airport|Glasgow]], [[Owen Roberts International Airport|Grand Cayman]], [[Yampa Valley Airport|Hayden/Steamboat Springs]], [[Daniel K. Inouye International Airport|Honolulu]], [[Jackson Hole Airport|Jackson Hole]], [[Kansas City International Airport|Kansas City]], [[Guanacaste Airport|Liberia (CR)]], [[Málaga Airport|Málaga]], [[Marrakesh Menara Airport|Marrakesh]], [[Minneapolis–Saint Paul International Airport|Minneapolis/Saint Paul]], [[Montrose Regional Airport|Montrose]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Naples International Airport|Naples]], [[Nice Côte d'Azur Airport|Nice]], [[Nuuk Airport|Nuuk]], [[Palermo Airport|Palermo]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Palm Springs International Airport|Palm Springs]], [[John Paul II Ponta Delgada Airport|Ponta Delgada]], [[Portland International Jetport|Portland (ME)]], [[Porto Airport|Porto]], [[Piarco International Airport|Port of Spain]], [[Keflavík International Airport|Reykjavík–Keflavík]], [[Santiago–Rosalía de Castro Airport|Santiago de Compostela]], [[Shannon Airport|Shannon]], [[Split Airport|Split]], [[Henry E. Rohlsen Airport|St. Croix]] (resumes October 31, 2026), [[Robert L. Bradshaw International Airport|St. Kitts]], [[St. Louis Lambert International Airport|St. Louis]], [[Hewanorra International Airport|St. Lucia–Hewanorra]], [[Tulum International Airport|Tulum]], [[Vancouver International Airport|Vancouver]], [[Venice Marco Polo Airport|Venice]] | {{bsn|date=June 2026}}
+<!-- -->
+| [[United Express]] | [[Asheville Regional Airport|Asheville]], [[Bangor International Airport|Bangor]], [[Buffalo Niagara International Airport|Buffalo]], [[Burlington International Airport|Burlington (VT)]], [[Charlotte Douglas International Airport|Charlotte]], [[Charlottesville–Albemarle Airport|Charlottesville (VA)]] (begins September 24, 2026) [[Chattanooga Metropolitan Airport|Chattanooga]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Cleveland Hopkins International Airport|Cleveland]], [[Columbia Metropolitan Airport|Columbia (SC)]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Detroit Metropolitan Wayne County Airport|Detroit]], [[Northwest Arkansas National Airport| Fayetteville/Bentonville]] (begins September 24, 2026), [[Gerald R. Ford International Airport|Grand Rapids]], [[Piedmont Triad International Airport|Greensboro]], [[Greenville–Spartanburg International Airport|Greenville/Spartanburg]], [[Indianapolis International Airport|Indianapolis]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Key West International Airport|Key West]], [[McGhee Tyson Airport|Knoxville]] (begins September 24, 2026), [[Louisville Muhammad Ali International Airport|Louisville]], [[Dane County Regional Airport|Madison]], [[Memphis International Airport|Memphis]], [[Milwaukee Mitchell International Airport|Milwaukee]], [[Minneapolis–Saint Paul International Airport|Minneapolis/Saint Paul]], [[Montréal–Trudeau]], [[Myrtle Beach International Airport|Myrtle Beach]],  [[Norfolk International Airport|Norfolk]], [[Eppley Airfield|Omaha]] (begins September 24, 2026), [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Pittsburgh International Airport|Pittsburgh]], [[Portland International Jetport|Portland (ME)]], [[Québec City Jean Lesage International Airport|Québec City]], [[Richmond International Airport|Richmond]], [[Greater Rochester International Airport|Rochester (NY)]], [[Savannah/Hilton Head International Airport|Savannah]], [[St. Louis Lambert International Airport|St. Louis]], [[Toronto–Pearson]], [[Washington–Dulles]], [[Washington–National]], [[Wilmington International Airport|Wilmington (NC)]] <br /> '''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Logan International Airport|Boston]], [[Charleston International Airport|Charleston (SC)]], [[Halifax Stanfield International Airport|Halifax]], [[Hilton Head Airport|Hilton Head]], [[Kansas City International Airport|Kansas City]], [[Nantucket Memorial Airport|Nantucket]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Cherry Capital Airport|Traverse City]]| {{bsn|date=June 2026}}
+<!-- -->
+| [[Volaris]] | [[Guadalajara International Airport|Guadalajara]], [[Puebla International Airport|Puebla]] | 
+<!-- -->
+| [[Volaris El Salvador]] | [[El Salvador International Airport|San Salvador]] | 
+<!-- -->
+}}
+
+===Cargo===
+{{Unreliable sources section|date=December 2025}}
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| {{nowrap|[[Amerijet International]]}} | [[Orlando International Airport|Orlando]], [[Luis Muñoz Marín International Airport|San Juan]] |
+<!-- -->
+| [[DHL Aviation]] | [[Cincinnati/Northern Kentucky International Airport|Cincinnati]]| 
+<!-- -->
+| {{nowrap|[[FedEx Express]]}} | [[Ted Stevens Anchorage International Airport|Anchorage]], [[Logan International Airport|Boston]], [[Indianapolis International Airport|Indianapolis]], [[Los Angeles International Airport|Los Angeles]] | 
+<!-- -->
+| [[FedEx Feeder]] operated by [[Mountain Air Cargo]] | [[Baltimore/Washington International Airport|Baltimore]], [[Logan International Airport|Boston]], [[Washington–Dulles]] |
+<!-- -->
+| [[UPS Airlines]] | [[Chicago Rockford International Airport|Chicago/Rockford]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]],  [[Louisville Muhammad Ali International Airport|Louisville]], [[Ontario International Airport|Ontario]], [[Philadelphia International Airport|Philadelphia]] | 
+<!-- -->
+| [[WestJet Cargo]] | [[L.F. Wade International Airport|Bermuda]] | 
+<!-- -->
+}}

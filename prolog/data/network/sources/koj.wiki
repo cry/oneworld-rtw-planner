@@ -1,0 +1,37 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[All Nippon Airways]] | [[Itami Airport|Osaka–Itami]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[ANA Wings]] | [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Eastar Jet]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Fuji Dream Airlines]] | [[Shizuoka Airport|Shizuoka]]
+<!-- -->
+| [[Ibex Airlines]] | [[Chubu Centrair International Airport|Nagoya–Centrair]]
+<!-- -->
+| [[J-Air]] | [[Amami Airport|Amami Ōshima]], [[Itami Airport|Osaka–Itami]], [[Tokunoshima Airport|Tokunoshima]]
+<!-- -->
+| {{nowrap|[[Japan Air Commuter]]}} | [[Amami Airport|Amami Ōshima]], [[Fukuoka Airport|Fukuoka]], [[Kikai Airport|Kikai]], [[Matsuyama Airport|Matsuyama]], [[Okinoerabu Airport|Okinoerabu]], [[New Tanegashima Airport|Tanegashima]], [[Yakushima Airport|Yakushima]], [[Yoron Airport|Yoron]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Jeju Air]] | [[Incheon International Airport|Seoul–Incheon]]<br/>'''Charter:''' [[Gimhae International Airport|Busan]]
+<!-- -->
+| [[Jetstar Japan]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Peach Aviation|Peach]] | [[Kansai International Airport|Osaka–Kansai]]
+<!-- -->
+| [[Skymark Airlines]] | [[Amami Airport|Amami Ōshima]], [[Kobe Airport|Kobe]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Solaseed Air]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Naha Airport|Naha]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[T'way Air]] | '''Seasonal:''' [[Incheon International Airport|Seoul–Incheon]]{{cn|date=March 2025}}
+<!-- -->
+}}

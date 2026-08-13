@@ -1,0 +1,38 @@
+== Airlines and destinations ==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list
+
+| [[Air Canada Rouge]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[American Airlines]]| [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]]<br /> '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[BermudAir]] | '''Seasonal:''' [[L.F. Wade International Airport|Bermuda]], [[Providenciales International Airport|Providenciales]] (both begin 18 December 2026)
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]], [[Lynden Pindling International Airport|Nassau]]
+<!-- -->
+| [[Cayman Airways]] | [[Charles Kirkconnell International Airport|Cayman Brac]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Golosón International Airport|La Ceiba]], [[Los Angeles International Airport|Los Angeles]], [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]] (ends 19 October 2026), [[Tocumen International Airport|Panama City–Tocumen]],  [[Tampa International Airport|Tampa]] <br /> '''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]], [[Denver International Airport|Denver]], [[Sangster International Airport|Montego Bay]]
+<!-- -->
+| {{nowrap|[[Cayman Airways Express]]}} | [[Charles Kirkconnell International Airport|Cayman Brac]], [[Edward Bodden Airfield|Little Cayman]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]<br /> '''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis-Saint Paul International Airport|Minneapolis/St. Paul]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[JetBlue]]| [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[John F. Kennedy International Airport|New York–JFK]] <br /> '''Seasonal:''' [[Logan International Airport|Boston]]
+<!-- -->
+|[[Porter Airlines]]| '''Seasonal:''' [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Southwest Airlines]] | [[Orlando International Airport|Orlando]] <br /> '''Seasonal:''' [[Baltimore/Washington International Airport|Baltimore]]
+<!-- -->
+| [[Sun Country Airlines]] | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]] <br /> '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+| [[WestJet]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+| <!-- -->
+}}
+
+===Cargo===
+{{airport-dest-list
+| [[IBC Airways]]| [[Miami International Airport|Miami]]
+| [[Cayman Airways]]| [[Miami International Airport|Miami]]
+}}

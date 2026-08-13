@@ -1,0 +1,25 @@
+== Airlines and destinations ==
+[[File:Scoot 787 Dreamliner at Amritsar Airport.jpg|thumb|Apron area of the airport]]
+[[File:Amritsar Airport Departure.jpg|thumb|Departures area of the airport]]
+[[File:Amritsar Airport Baggage.jpg|thumb|Arrivals area of the airport]]
+
+=== Passenger ===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport destination list
+<!-- -->
+| [[Air India]] | [[Birmingham Airport|Birmingham]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Gatwick Airport|London–Gatwick]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]]
+<!-- -->
+| {{nowrap|[[Air India Express]]}} | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Dubai International Airport|Dubai–International]], [[Pune Airport|Pune]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[IndiGo]] | [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Kempegowda International Airport|Bengaluru]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Noida International Airport|Delhi–Noida]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Pune Airport|Pune]], [[Sharjah Airport|Sharjah]], [[Srinagar Airport|Srinagar]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| {{nowrap|[[Thai Lion Air]]}} | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->}}

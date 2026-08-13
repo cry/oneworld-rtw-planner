@@ -1,0 +1,25 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[All Nippon Airways]] | [[New Chitose Airport|Sapporo–Chitose]], [[Haneda Airport|Tokyo–Haneda]]
+<!---->
+| [[All Nippon Airways|ANA Wings]] | [[Fukuoka Airport|Fukuoka]]
+<!---->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!---->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!---->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!---->
+| [[Japan Transocean Air]] | [[Naha Airport|Naha]]
+<!---->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!---->
+| [[Tigerair Taiwan]] | [[Kaohsiung International Airport|Kaohsiung]] (begins 3 September 2026), [[Taoyuan International Airport|Taipei–Taoyuan]]}}
+
+===Cargo===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[Cargolux]]{{cn|date=February 2024}} | [[O'Hare International Airport|Chicago–O'Hare]], [[Hong Kong International Airport|Hong Kong]], [[Luxembourg Airport|Luxembourg]], [[Incheon International Airport|Seoul–Incheon]]
+}}

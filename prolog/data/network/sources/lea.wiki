@@ -1,0 +1,4 @@
+==Airlines and destinations==
+{{Airport-dest-list
+<!-- -->
+|[[QantasLink]] | [[Perth Airport|Perth]]}}

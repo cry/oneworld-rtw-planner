@@ -1,0 +1,77 @@
+==Airlines and destinations==
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED.  -->
+[[File:9GAETatDGAA.jpg|thumb|right|An [[Africa World Airlines]] ERJ-145LR at Accra International Airport]]
+[[File:DGAA_T3_DEP_INT.jpg|thumb|right|Terminal 3 Departure Hall at Accra International Airport]]
+
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Africa World Airlines]] | [[Nnamdi Azikiwe International Airport|Abuja]], [[Ahmed Sékou Touré International Airport|Conakry]] (begins 4 August 2026), [[Kumasi Airport|Kumasi]],[[Murtala Muhammed International Airport|Lagos]], [[Thomas Sankara International Airport Ouagadougou|Ouagadougou]],[[Takoradi Airport|Takoradi]],[[Tamale Airport|Tamale]],
+<!-- -->
+| [[Air Burkina]] | [[Thomas Sankara International Airport Ouagadougou|Ouagadougou]]
+| [[Air Côte d'Ivoire]] | [[Port Bouet Airport|Abidjan]]
+<!-- -->
+| [[Air Peace]] | [[Murtala Muhammed International Airport|Lagos]], [[Roberts International Airport|Monrovia–Roberts]], [[Freetown International Airport|Freetown]]
+<!-- -->
+| [[Air Tanzania]] | [[Julius Nyerere International Airport|Dar es Salaam]]
+<!-- -->
+| [[ASKY]] | [[Lomé–Tokoin International Airport|Lomé]], [[Roberts International Airport|Monrovia–Roberts]], [[Freetown International Airport|Freetown]], [[Banjul International Airport|Banjul]]
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]],
+<!-- -->
+| [[Delta Air Lines]] | [[John F. Kennedy International Airport|New York–JFK]] <br/> '''Seasonal:''' [[Hartsfield-Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]] (begins 17 March 2027)
+<!-- -->
+| [[EgyptAir]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Port Bouet Airport|Abidjan]], [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Gianair]] | [[Obuasi Airport|Obuasi]]
+<!-- -->
+| [[Ibom Air]] | [[Murtala Muhammed International Airport|Lagos]], [[Nnamdi Azikiwe International Airport|Abuja]], [[Victor Attah International Airport|Uyo]]
+<!-- -->
+| [[ITA Airways]] | [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[Kenya Airways]] | [[Lungi International Airport|Freetown]], [[Roberts International Airport|Monrovia–Roberts]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Middle East Airlines]] | [[Rafik Hariri International Airport|Beirut]]
+<!-- -->
+| [[Passion Air]] | [[Sunyani Airport|Sunyani]], [[Kumasi Airport|Kumasi]], [[Tamale Airport|Tamale]], [[Wa Airport|Wa]] [[Takoradi Airport|Takoradi]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[RwandAir]] | [[Kigali International Airport|Kigali]]
+<!-- -->
+| [[South African Airways]] | [[Port Bouet Airport|Abidjan]], [[O. R. Tambo International Airport|Johannesburg]]
+<!-- -->
+| [[TAP Portugal]] | [[Lisbon Airport|Lisbon]], [[Sao Tome International Airport|Sao Tome]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[United Airlines]] | [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+| [[United Nigeria Airlines]] | [[Nnamdi Azikiwe International Airport|Abuja]], [[Lagos Airport|Lagos]]}}
+
+===Cargo===
+[[File:DHLATRinDGAA.jpg|thumb|An [[ATR 72]] freighter of [[DHL Aviation]] at Accra International Airport]]
+Accra International Airport is served by numerous cargo airlines on a regularly scheduled basis, in addition to ad-hoc cargo flights.
+
+* [[Air Ghana]]
+* [[Cargolux]]
+* [[DHL Aviation]]
+* [[Emirates SkyCargo]]
+* [[Ethiopian Airlines Cargo]]
+* [[Qatar Airways Cargo]]
+* [[Turkish Cargo]]
+
+In 2016, [[Air Ghana]] opened the Ghana Airport Cargo Center, a 10,000 sq.m dedicated cargo warehouse facility supplemented by 9,000 sq.m of office space, in partnership with [[Ghana Airports Company Limited]] and [[Swissport]].

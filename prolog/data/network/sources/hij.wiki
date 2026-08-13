@@ -1,0 +1,26 @@
+==Airlines and destinations==
+{{Airport-dest-list
+<!-- -->
+| [[Aero K]] | [[Cheongju International Airport|Cheongju]]
+<!-- -->
+| [[All Nippon Airways]] | [[Naha Airport|Naha]], [[New Chitose Airport|Sapporo–Chitose]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| {{nowrap|[[China Eastern Airlines]]}} | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Ibex Airlines]] | [[Sendai Airport|Sendai]]
+<!-- -->
+| [[J-Air]] | [[New Chitose Airport|Sapporo–Chitose]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Jeju Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Spring Japan]] | [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[VietJet Air]] | [[Noi Bai International Airport|Hanoi]]
+<!-- -->
+}}

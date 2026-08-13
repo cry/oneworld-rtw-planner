@@ -1,0 +1,67 @@
+==Airlines and destinations==
+<!--
+The Tallinn Airport serves as a secondary hub for [[AirBaltic]] and the cargo airline [[Airest]]. It was also the home base of the now defunct national airline [[Estonian Air]].-->
+
+===Passenger===
+The following airlines operate scheduled year-round or seasonal routes at Tallinn Airport:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Montenegro]] | '''Seasonal charter:''' [[Tivat Airport|Tivat]]
+<!-- -->
+| [[airBaltic]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Athens International Airport|Athens]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Berlin Brandenburg Airport|Berlin]], [[Brussels Airport|Brussels]], [[Copenhagen Airport|Copenhagen]], [[Hamburg Airport|Hamburg]], [[Gatwick Airport|London–Gatwick]], [[Málaga Airport|Málaga]], [[Munich Airport|Munich]], [[Nice Côte d'Azur Airport|Nice]], [[Oslo Airport, Gardermoen|Oslo]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Keflavík International Airport|Reykjavik–Keflavík]], [[Riga International Airport|Riga]], [[Tenerife South Airport|Tenerife–South]], [[Vienna International Airport|Vienna]], [[Vilnius Airport|Vilnius]] <br />'''Seasonal:''' [[Billund Airport|Billund]], [[Burgas Airport|Burgas]], [[Funchal Airport|Funchal]], [[Geneva Airport|Geneva]], [[Gran Canaria Airport|Gran Canaria]], [[Heraklion International Airport "Nikos Kazantzakis"|Heraklion]], [[Kittilä Airport|Kittilä]], [[Malta International Airport|Malta]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Rhodes International Airport|Rhodes]], [[Salzburg Airport|Salzburg]], [[Split Airport|Split]], [[Tirana International Airport Nënë Tereza|Tirana]] <br />'''Seasonal charter:''' [[Hurghada International Airport|Hurghada]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| {{nowrap|[[Corendon Airlines]]}} | '''Seasonal charter:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Freebird Airlines]] | '''Seasonal charter:''' [[Antalya Airport|Antalya]], [[Milas–Bodrum Airport|Bodrum]]
+<!-- -->
+| [[Heston Airlines]] | '''Seasonal charter:''' [[Antalya Airport|Antalya]], [[Burgas Airport|Burgas]], [[Catania International Airport|Catania]], [[Corfu International Airport|Corfu]], [[Enfidha–Hammamet International Airport|Enfidha]], [[Faro Airport|Faro]], [[Cristiano Ronaldo International Airport|Funchal]], [[Heraklion International Airport "Nikos Kazantzakis"|Heraklion]], [[Hurghada International Airport|Hurghada]], [[Lamezia Terme International Airport|Lamezia Terme]], [[Larnaca International Airport|Larnaca]], [[Rhodes International Airport|Rhodes]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Tivat Airport|Tivat]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Edinburgh Airport|Edinburgh]], [[Leeds Bradford Airport|Leeds/Bradford]] (begins 27 November 2026), [[Gatwick Airport|London–Gatwick]] (begins 19 November 2026), [[Manchester Airport|Manchester]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Mavi Gök Airlines]] | '''Seasonal charter:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[NyxAir]] | [[Kärdla Airport|Kärdla]], [[Kuressaare Airport|Kuressaare]]
+<!-- -->
+| [[Pegasus Airlines]] | '''Seasonal:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Ryanair]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Berlin Brandenburg Airport|Berlin]], [[Dublin Airport|Dublin]], [[London Stansted Airport|London–Stansted]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| {{nowrap|[[Skyline Express]]}} | '''Seasonal charter:''' [[Hurghada International Airport|Hurghada]]
+<!-- -->
+| [[SkyUp Airlines]] | '''Seasonal charter:''' [[Mattala Rajapaksa International Airport|Hambantota–Mattala]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[SunExpress]] | '''Seasonal:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Turkish Airlines]]|[[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Wizz Air]]|[[Budapest Airport|Budapest]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Kraków John Paul II International Airport|Kraków]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Venice Marco Polo Airport|Venice]], [[Vilnius Airport|Vilnius]]<br /> '''Seasonal:''' [[Luton Airport|London–Luton]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->}}
+
+===Cargo===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[ASL Airlines Belgium]] | [[Berlin Brandenburg Airport|Berlin]], [[Katowice International Airport|Katowice]]
+<!-- -->
+| [[Diamond Sky]] | [[Kuressaare Airport|Kuressaare]], [[Pärnu Airport|Pärnu]], [[Riga International Airport|Riga]], [[Ruhnu Airfield|Ruhnu]]
+<!-- -->
+| [[UPS Airlines]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+}}
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->

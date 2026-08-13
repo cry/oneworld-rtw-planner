@@ -1,0 +1,70 @@
+==Airlines and destinations==
+===Passenger===
+[[File:Central-wausau2.jpg|right|thumb|Gate area before renovation]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]]
+<!-- -->
+| [[Delta Connection]] | [[Minneapolis−Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Express]] | [[Chicago–O'Hare]] (begins October 25, 2026) 
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto;"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=All passenger destinations from Central Wisconsin Airport (CWA)<br>{{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination <br /> {{font color | purple | Purple }} = Route ending
+|places=
+{{Location map~ |United_States |lat=44.7775 |long=-89.666667 |position=bottom |label=<small>'''{{nowrap|Mosinee}}'''</small>|caption=|mark=Airplane_silhouette.svg |marksize=20}}
+{{Location map~ |United_States |lat=41.978611 |long=-87.904722 |position=bottom |label=<small>'''{{nowrap|[[Chicago–O'Hare]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=44.881944 |long=-93.221667 |position=left |label=<small>'''{{nowrap|[[Minneapolis–Saint Paul International Airport|Minneapolis/Saint Paul]]}}'''</small>|label_size=100 |marksize=10}}
+}}
+|}
+
+===Statistics===
+{{Bar graph
+| title       = Carrier shares (May 2025 – April 2026)
+| bar_width   = 32
+| width_units = em
+| label_type  = Carrier
+| data_type   = Passengers (arriving and departing)
+| data_max    = 180,000
+| label1      = [[Endeavor Air]]
+| data1       = 86,620
+| comment1    = 49.03%
+| label2      = [[Envoy Air|Envoy]]
+| data2       = 86,550
+| comment2    = 48.99%
+| label3      = [[Piedmont Airlines]]
+| data3       = 3,340
+| comment3    = 1.89%
+| }}
+
+{| class="wikitable sortable" style="font-size:95%;"
+|+ '''Busiest domestic routes from CWA (May 2025 – April 2026)'''
+|-
+! Rank
+! Airport
+! Passengers
+! Carriers
+|-
+| 1
+| [[O'Hare International Airport|Chicago (O'Hare), Illinois]]
+| 45,960
+| American
+|-
+| 2
+| [[Minneapolis−Saint Paul International Airport|Minneapolis/St. Paul, Minnesota]]
+| 43,510
+| Delta
+|}
+
+===Cargo operations===
+{{Airport destination list
+| [[FedEx Feeder]] | [[Dane County Regional Airport|Madison]], [[Milwaukee Mitchell International Airport|Milwaukee]]
+| [[Freight Runners Express]] | [[Milwaukee Mitchell International Airport|Milwaukee]], [[Wittman Regional Airport|Oshkosh]], [[Rhinelander-Oneida County Airport|Rhinelander]]
+| PACC Air | [[Rhinelander-Oneida County Airport|Rhinelander]]
+}}

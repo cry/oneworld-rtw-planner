@@ -1,0 +1,67 @@
+==Airlines and destinations==
+
+===Passenger===
+[[File:N633AE (4430759009).jpg|thumb|[[Embraer ERJ family|Embraer ERJ 145LR]] at Pensacola (2006)]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]<br>'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[Ronald Reagan Washington National Airport|Washington–National]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[Breeze Airways]] | [[Northwest Arkansas National Airport|Fayetteville/Bentonville]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Memphis International Airport|Memphis]], [[Orlando International Airport|Orlando]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Tampa International Airport|Tampa]] <br />'''Seasonal:''' [[San Antonio International Airport|San Antonio]]
+<!-- -->
+| [[Contour Airlines]] | '''Seasonal:''' [[Cape Girardeau Regional Airport|Cape Girardeau]], [[Northwest Alabama Regional Airport|Muscle Shoals]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br />'''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]]
+<!-- -->
+| [[Delta Connection]] | [[Logan International Airport|Boston]], [[LaGuardia Airport|New York–LaGuardia]]
+<!-- -->
+| [[Frontier Airlines]] | [[Denver International Airport|Denver]], [[Orlando International Airport|Orlando]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Dallas Love Field|Dallas–Love]], [[William P. Hobby Airport|Houston–Hobby]], [[Nashville International Airport|Nashville]], [[Orlando International Airport|Orlando]] (begins March 11, 2027) <br />'''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]], [[Baltimore/Washington International Airport|Baltimore]], [[Midway International Airport|Chicago–Midway]], [[Denver International Airport|Denver]], [[Kansas City International Airport|Kansas City]], [[St. Louis Lambert International Airport|St. Louis]]
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Northwest Florida Beaches International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination <br />{{font color | pink | Pink }} = Destination being terminated
+|places=
+{{Location map~ |United_States |lat=30.473333 |long=-87.186667 |position=bottom |label=<small>'''PNS'''</small>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=35.213889|long=-80.943056|position=left|label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944|long=-97.038056|position=left|label='''<small>[[Dallas Fort Worth International Airport|Dallas/<br>Ft. Worth]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=38.852222|long=-77.037778|position=left|label='''<small>[[Washington Reagan National Airport|Washington–Reagan]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=33.636667|long=-84.428056|position=right|label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.847222|long=-96.851667|position=right|label='''<small>[[Dallas Love Field|Dallas–Love]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=29.645556|long=-95.278889|position=bottom|label='''<small>[[William P. Hobby Airport|Houston–Hobby]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=36.126667|long=-86.681944|position=left|label='''<small>[[Nashville International Airport|Nashville]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=29.984444|long=-95.341389|position=top|label='''<small>[[George Bush Intercontinental Airport|Houston–{{nowrap|Intercontinental}}]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=41.978611|long=-87.904722|position=left|label='''<small>[[O'Hare International Airport|Chicago–O'Hare]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=25.793333|long=-80.290556|position=left|label='''<small>[[Miami International Airport|Miami]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=26.0725|long=-80.152778|position=right|label='''<small>[[Fort Lauderdale–Hollywood International Airport|Ft. Lauderdale]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=28.429444|long=-81.308889|position=right|label='''<small>[[Orlando International Airport|Orlando]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=27.979722|long=-82.534722|position=left|label='''<small>[[Tampa International Airport|Tampa]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=36.28166|long=-94.3077788|position=right|label='''<small>[[Northwest Arkansas National Airport|Northwest Arkansas]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=35.0425|long=-89.9766678|position=right|label='''<small>[[Memphis International Airport|Memphis]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.871944|long=-75.241111|position=right|mark = Green pog.svg |label='''<small>[[Philadelphia International Airport|Philadelphia]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=40.775|long=-73.875|position=right|label='''<small>[[LaGuardia Airport|New York–LaGuardia]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=30.194444|long=-97.67|position=left|mark = Green pog.svg |label='''<small>[[Austin–Bergstrom International Airport|Austin]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.175278|long=-76.668333|position=right|mark = Green pog.svg |label='''<small>[[Baltimore/Washington International Airport|Baltimore]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=41.786111|long=-87.7525|position=right|mark = Green pog.svg |label='''<small>[[Midway International Airport|Chicago–Midway]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.861667|long=-104.673056|position=right|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=35.877778|long= -78.7875|position=right|mark = Red pog.svg |label='''<small>[[Raleigh–Durham International Airport|Raleigh/Durham]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=42.363056|long=-71.006389|position=right|label='''<small>[[Logan International Airport|Boston]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.2975|long=-94.713889|position=left|mark = Green pog.svg |label='''<small>[[Kansas City International Airport|Kansas City]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=38.747222|long=-90.361389|position=right|mark = Green pog.svg |label='''<small>[[St. Louis Lambert International Airport|St. Louis]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=29.526667|long=-98.471944|position=left|mark = Green pog.svg |label='''<small>[[San Antonio International Airport|San Antonio]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=37.225278|long=-89.570833|position=left|mark = Green pog.svg |label='''<small>[[Cape Girardeau Regional Airport|Cape Girardeau]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=42.2125|long=-83.353333|position=right|mark = Green pog.svg |label='''<small>[[Detroit Metropolitan Airport|Detroit]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=34.745278|long=-87.610278|position=right|mark = Green pog.svg |label='''<small>[[Northwest Alabama Regional Airport|Muscle Shoals]]</small>'''|label_size=80 |marksize=7 }}
+}}
+|}

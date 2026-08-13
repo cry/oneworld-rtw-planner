@@ -1,0 +1,33 @@
+==Airlines and destinations==
+[[File:Abuja Airport 3.jpg|thumb|Interior of the new Airport terminal]]
+[[File:Abuja Airport 2.jpg|thumb|Check-in area of the new Airport terminal]]
+[[File:Abuja - Nnamdi Azikiwe International (ABV - DNAA) AN0845038.jpg|thumb|Private Jet wing of the Airport]]
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+
+{{incomplete list|date=December 2025}}
+{{Airport-dest-list
+<!-- -->
+| [[Air Algérie]] | [[Houari Boumediene Airport|Algiers]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Peace]] | [[Ibadan Airport|Ibadan]],{{citation needed|date=May 2026}} [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]], [[Diori Hamani International Airport|Niamey]]
+<!-- -->
+| [[ASKY Airlines]] | [[Lomé-Tokoin Airport|Lomé]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]] (suspended)<!--Nigeria’s Minister of Aviation and Aerospace Development, Festus Keyamo, has stated that Emirates will resume flights to Nigeria soon, however an exact date has not yet been finalized. Stay on lookout for when date is released, then delete this note. -->
+<!-- -->
+| [[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]<!--(Via [[Murtala Muhammed International Airport|Lagos]]) do not list Lagos as no traffic rights-->
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Uganda Airlines]] | [[Entebbe International Airport|Entebbe]]
+<!-- -->
+| {{nowrap|[[United Nigeria Airlines]]}} | [[Accra International Airport|Accra]]
+}}

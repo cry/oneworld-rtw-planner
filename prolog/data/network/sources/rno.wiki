@@ -1,0 +1,85 @@
+==Airlines and destinations==
+===Passenger===
+[[File:Reno airport (6693728259).jpg|thumb|A [[Southwest Airlines]] [[Boeing 737-700]] being pushed back]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Alaska Airlines]] | [[Portland International Airport|Portland (OR)]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[San Diego International Airport|San Diego]]
+<!-- -->
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] <br />'''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Salt Lake City International Airport|Salt Lake City]]<br />'''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[Delta Connection]] | [[Los Angeles International Airport|Los Angeles]], [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+| [[Frontier Airlines]] | [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[JetBlue]] | '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[JSX (airline)|JSX]] | [[Hollywood Burbank Airport|Burbank]], [[John Wayne Airport|Orange County]], [[McClellan–Palomar Airport|San Diego/Carlsbad]] <br />'''Seasonal:''' [[Harry Reid International Airport|Las Vegas]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Hollywood Burbank Airport|Burbank]], [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[Long Beach Airport|Long Beach]], [[Los Angeles International Airport|Los Angeles]], [[Nashville International Airport|Nashville]] (begins October 1, 2026), [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[San Diego International Airport|San Diego]], [[San Jose International Airport|San Jose (CA)]]<br />'''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]], [[Midway International Airport|Chicago–Midway]], [[Dallas Love Field|Dallas–Love]]
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[San Francisco International Airport|San Francisco]]<br />'''Seasonal:''' [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[United Express]] | [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]]
+<!-- -->
+| [[Volaris]] | [[Guadalajara International Airport|Guadalajara]]
+<!-- -->}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destination maps
+|-
+|{{Location map+ |United_States |width=1000 |float=center |alt=United States destinations (excluding California) from Reno–Tahoe International Airport
+|caption=Domestic destinations (except California) from Reno–Tahoe International Airport<br>{{font color|red|Red}} = Year-round destination<br>{{font color|green|Green}} = Seasonal destination<br>{{font color|blue|Blue}} = Future destination
+|places=
+{{Location map~ |United_States |lat=39.499167 |long=-119.768056 |position=right |label_size=80 |marksize=15 |label='''Reno''' |mark=Airplane_silhouette.svg}}
+{{Location map~ |United_States |lat=41.978611 |long=-87.904722  |position=left  |label_size=80 |marksize=6  |label='''[[O'Hare International Airport|Chicago–O'Hare]]''' |mark=Red pog.svg}}
+{{Location map~ |United_States |lat=41.786488 |long=-87.752188  |position=right  |label_size=80 |marksize=6  |mark=Green pog.svg|label='''[[Midway International Airport|Chicago–Midway]]'''}}
+{{Location map~ |United_States |lat=32.847978 |long=-96.851250  |position=right |label_size=80 |marksize=6  |mark=Green pog.svg|label='''[[Dallas Love Field|Dallas–Love]]'''}}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056  |position=left  |label_size=80 |marksize=6  |label='''[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]'''}}
+{{Location map~ |United_States |lat=39.855193 |long=-104.673849 |position=right |label_size=80 |marksize=6  |label='''[[Denver International Airport|Denver]]''' }}
+{{Location map~ |United_States |lat=29.990140 |long=-95.336792  |position=top   |label_size=80 |marksize=6  |label='''[[George Bush Intercontinental Airport|Houston–{{nowrap|Intercontinental}}]]''' |mark=Green pog.svg}}
+{{Location map~ |United_States |lat=36.083697 |long=-115.153873 |position=right |label_size=80 |marksize=6  |label='''[[Harry Reid International Airport|Las Vegas]]'''}}
+{{Location map~ |United_States |lat=44.884690 |long=-93.222430  |position=right |label_size=80 |marksize=6  |label='''{{Nowrap|[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]}}''' |mark=Green pog.svg}}
+{{Location map~ |United_States |lat=40.6413   |long=-73.7781    |position=right |label_size=80 |marksize=6  |label='''[[John F. Kennedy International Airport|New York–JFK]]''' |mark=Green pog.svg}}
+{{Location map~ |United_States |lat=33.436921 |long=-112.011667 |position=right |label_size=80 |marksize=6  |label='''[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]'''}}
+{{Location map~ |United_States |lat=45.588611 |long=-122.5975   |position=right |label_size=80 |marksize=6  |label='''[[Portland International Airport|Portland]]'''}}
+{{Location map~ |United_States |lat=40.789836 |long=-111.979632 |position=right |label_size=80 |marksize=6  |label='''[[Salt Lake City International Airport|Salt Lake City]]'''}}
+{{Location map~ |United_States |lat=47.450165 |long=-122.309176 |position=right |label_size=80 |marksize=6  |label='''[[Seattle–Tacoma International Airport|Seattle/Tacoma]]'''}}
+{{Location map~ |United_States |lat=33.636060 |long=-84.429333 |position=right |label_size=80 |marksize=6  |label='''[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]''' |mark=Red pog.svg}}
+{{Location map~ |United_States |lat=30.1974711|long=-97.6663529 |position=left  |label_size=80 |marksize=6  |label='''[[Austin-Bergstrom International Airport|Austin]]''' |mark=Green pog.svg}}
+{{Location map~ |United_States |lat=36.124871|long=-86.676219 |position=right |label_size=80 |marksize=6  |label='''[[Nashville International Airport|Nashville]]''' |mark=Blue pog.svg}}
+}}
+|-
+|{{Location map+|California    |width=600|float=center |alt=California destinations from Reno–Tahoe International Airport
+|caption=California destinations from Reno–Tahoe International Airport<br>{{font color|red|Red}} = Year-round destination<br>{{font color|green|Green}} = Seasonal destination<br>{{font color|blue|Blue}} = Future destination
+|places=
+{{Location map~ |California    |lat=39.499167 |long=-119.768056 |position=right |label_size=80 |marksize=15 |label='''Reno''' |mark=Airplane_silhouette.svg}}
+{{Location map~ |California    |lat=34.1983   |long=-118.3574   |position=right  |label_size=80 |marksize=6  |label='''[[Hollywood Burbank Airport|Burbank]]'''}}
+{{Location map~ |California    |lat=33.8168   |long=-118.1514   |position=left |label_size=80 |marksize=6  |label='''[[Long Beach Airport|Long Beach]]'''}}
+{{Location map~ |California    |lat=33.941381 |long=-118.408619 |position=left  |label_size=80 |marksize=6  |label='''{{Nowrap|[[Los Angeles International Airport|Los Angeles]]}}'''}}
+{{Location map~ |California    |lat=33.675556 |long=-117.868333 |position=bottom|label_size=80 |marksize=6  |label='''[[John Wayne Airport|{{nowrap|Orange County}}]]'''}}
+{{Location map~ |California    |lat=32.733611 |long=-117.189722 |position=left |label_size=80 |marksize=6  |label='''[[San Diego International Airport|San Diego]]'''}}
+{{Location map~ |California    |lat=37.620811 |long=-122.380049 |position=left  |label_size=80 |marksize=6  |label='''{{Nowrap|[[San Francisco International Airport|San Francisco]]}}'''}}
+{{Location map~ |California    |lat=37.362778 |long=-121.929167 |position=right |label_size=80 |marksize=6  |label='''[[San Jose International Airport|San Jose]]'''}}
+{{Location map~ |California    |lat=33.128333 |long=-117.28 |position=left |label_size=80 |marksize=6  |label='''[[McClellan–Palomar Airport|Carlsbad]]''' |mark=Green pog.svg}}
+}}
+|-
+|{{Location map+ |Mexico |width=600 |float=center |alt=International destinations from Reno–Tahoe International Airport
+|caption=International destinations from Reno–Tahoe International Airport
+|places=
+{{Location map~ |Mexico        |lat=20.521667 |long=-103.311111 |position=right |label_size=80 |marksize=6  |label='''[[Guadalajara International Airport|Guadalajara]]'''}}
+}}
+|}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[DHL Aviation]] |[[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+}}

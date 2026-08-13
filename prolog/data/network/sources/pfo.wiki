@@ -1,0 +1,48 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights to and from Paphos:
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[airHaifa]] | [[Uri Michaeli Haifa International Airport|Haifa]]
+<!-- -->
+| {{nowrap|[[Copenhagen AirTaxi|AirSeven]]}} | '''Seasonal charter:''' [[Aarhus Airport|Aarhus]]
+<!-- -->
+| [[arkia]] | [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Buzz (Ryanair)|Buzz]] | '''Seasonal charter:''' [[Katowice Airport|Katowice]], [[Poznań–Ławica Airport|Poznań]], [[Wrocław Airport|Wrocław]]
+<!-- -->
+| [[EasyJet]] | [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Fly Lili|FlyLili]] | '''Seasonal charter:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[FlyOne]] | '''Seasonal:''' [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| [[Israir]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Jet2.com]] | [[Birmingham Airport|Birmingham]], [[East Midlands Airport|East Midlands]], [[Leeds Bradford Airport|Leeds/Bradford]], [[London Gatwick Airport|London–Gatwick]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]] <br />'''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]], [[Liverpool John Lennon Airport|Liverpool]]
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal charter:''' [[Katowice Airport|Katowice]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| [[Ryanair]] | [[Queen Alia International Airport|Amman–Queen Alia]], [[Athens International Airport|Athens]], [[Beauvais–Tillé Airport|Beauvais]], [[Berlin Brandenburg Airport|Berlin]], [[Birmingham Airport|Birmingham]], [[Bratislava Airport|Bratislava]], [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Chania International Airport|Chania]] (ends 23 October 2026),  [[Cologne Bonn Airport|Cologne/Bonn]], [[Dublin Airport|Dublin]], [[Eindhoven Airport|Eindhoven]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Katowice Airport|Katowice]], [[Kaunas Airport|Kaunas]], [[Kraków John Paul II International Airport|Kraków]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Memmingen Airport|Memmingen]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Poznań–Ławica Airport|Poznań]], [[Riga International Airport|Riga]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Sofia Airport|Sofia]], [[Thessaloniki Airport|Thessaloniki]], [[Vienna International Airport|Vienna]], [[Warsaw Chopin Airport|Warsaw–Chopin]], [[Warsaw Modlin Airport|Warsaw–Modlin]], [[Weeze Airport|Weeze]], [[Wrocław Airport|Wrocław]], [[Zagreb Airport|Zagreb]] <br /> '''Seasonal:''' [[Milan Bergamo Airport|Bergamo]], [[Brussels South Charleroi Airport|Charleroi]], [[Liverpool John Lennon Airport|Liverpool]], [[Malta International Airport|Malta]], [[Mykonos Airport|Mykonos]], [[Naples International Airport|Naples]],  [[Rhodes International Airport|Rhodes]], [[Toulouse–Blagnac Airport|Toulouse]]
+<!-- -->
+| [[Sundor]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[Cardiff Airport|Cardiff]], [[East Midlands Airport|East Midlands]], [[Exeter Airport|Exeter]], [[Glasgow Airport|Glasgow]], [[Gatwick Airport|London–Gatwick]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Norwich Airport|Norwich]]
+<!-- -->
+| {{nowrap|[[TUI fly Belgium]]}}|'''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| {{nowrap|[[TUI fly Netherlands]]}} | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Tus Airways]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Wizz Air]] | [[Warsaw Modlin Airport|Warsaw–Modlin]]
+<!-- -->
+}}

@@ -1,0 +1,78 @@
+==Airlines and destinations==
+
+[[File:Iberia airbus 340 600 madrid - quito route.jpg|thumb|[[Iberia Airlines|Iberia]] [[Airbus A340|Airbus A340-600]] aircraft on its inaugural flight to Quito - Mariscal Sucre International Airport from Barajas on the 28th of October, 2013. This picture was taken after the first transatlantic flight of the airport linking it to Europe non stop had landed,and it was celebrated with the traditional water cannon salute.]]
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+|[[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+|[[Aeroregional]] | [[Francisco de Orellana Airport|Coca]], [[José Joaquín de Olmedo International Airport|Guayaquil]], [[Jorge Chávez International Airport|Lima]], [[Mariscal Lamar Airport|Cuenca]], [[Ciudad de Catamayo Airport|Loja]], [[Santa Rosa International Airport|Machala]], [[Eloy Alfaro International Airport|Manta]], [[Panamá Pacífico International Airport|Panama City–Balboa]] <br>'''Charter:''' [[La Chinita International Airport|Maracaibo]], [[Punta Cana International Airport|Punta Cana]]
+<!-- -->
+|[[Air Canada]]| '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]] (begins December 5, 2026), [[Toronto Pearson International Airport|Toronto–Pearson]] (begins December 6, 2026)
+<!-- -->
+|[[Air Europa]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+|[[Arajet]] | [[Punta Cana International Airport|Punta Cana]]
+<!-- -->
+|[[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+|{{nowrap|[[Avianca Costa Rica]]}} | [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Juan Santamaría International Airport|San José (CR)]]
+<!-- -->
+|[[Avianca Ecuador]] | [[Seymour Airport|Baltra]], [[El Dorado International Airport|Bogotá]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Mariscal Lamar Airport|Cuenca]], [[José Joaquín de Olmedo International Airport|Guayaquil]], [[Eloy Alfaro International Airport|Manta]], [[José María Córdova International Airport|Medellín–JMC]], [[John F. Kennedy International Airport|New York–JFK]], [[Punta Cana International Airport|Punta Cana]], [[San Cristóbal Airport|San Cristóbal]]
+<!-- -->
+|{{nowrap|[[Avianca El Salvador]]}} | [[Comalapa International Airport|San Salvador]]
+<!-- -->
+|[[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+|[[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Barajas International Airport|Madrid]]
+<!-- -->
+|[[JetSmart Perú]] | [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+|[[KLM]] | [[Amsterdam Schiphol Airport|Amsterdam]]{{Ref|1|1}}
+<!-- -->
+|[[LATAM Chile]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]] (resumes December 1, 2026)
+<!-- -->
+|[[LATAM Ecuador]] | [[El Dorado International Airport|Bogotá]], [[Francisco de Orellana Airport|Coca]], [[Mariscal Lamar Airport|Cuenca]], [[José Joaquín de Olmedo International Airport|Guayaquil]], [[Eloy Alfaro International Airport|Manta]], [[Miami International Airport|Miami]], [[San Cristóbal Airport|San Cristóbal]]
+<!-- -->
+|[[LATAM Perú]] | [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+|[[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+
+'''Notes:'''
+*<small>{{Ref|1|1}}: [[KLM]]'s flight from Quito to Amsterdam makes a stop in Guayaquil.</small>
+
+===Cargo===
+{{unreferenced section|date=August 2021}}
+{{Airport-dest-list
+|[[Aerosucre]] | [[Bogota International Airport|Bogota]]
+<!-- -->
+|[[Air Canada Cargo]] | [[Miami International Airport|Miami]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+|[[Atlas Air]] | [[Viracopos International Airport|Campinas]], [[Eduardo Gomes International Airport|Manaus]], [[Felipe Ángeles International Airport|Mexico City–AIFA]], [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+|[[Avianca Cargo]] | [[El Dorado International Airport|Bogotá]], [[José María Córdova International Airport|Medellín–JMC]], [[Miami International Airport|Miami]]
+<!-- -->
+|[[Cargolux]] | [[El Dorado International Airport|Bogotá]], [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+|[[Emirates SkyCargo]] | [[Rafael Hernández Airport|Aguadilla]], [[Miami International Airport|Miami]]
+<!-- -->
+|{{nowrap|[[Ethiopian Airlines Cargo]]}} | [[Addis Ababa Bole International Airport|Addis Ababa]], [[El Dorado International Airport|Bogotá]], [[Chongqing Jiangbei International Airport|Chongqing]],  [[Miami International Airport|Miami]]
+<!-- -->
+|[[FedEx Express]] | [[Memphis International Airport|Memphis]], [[Miami International Airport|Miami]]
+<!-- -->
+|[[LATAM Cargo Chile]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[Martinair]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+|[[Qatar Airways Cargo]] | [[Hamad International Airport|Doha]], [[Liège Airport|Liège]], [[Miami International Airport|Miami]]
+<!-- -->
+|[[UPS Airlines]] | [[Miami International Airport|Miami]]
+}}
+According to Corporación Quiport's 2024 Sustainability Report, Mariscal Sucre International Airport handled approximately 364,674 metric tons of cargo during 2024, ranking fifth in air cargo in Latin America and the Caribbean. Approximately 300,943 metric tons of export cargo departed Quito during the year, and approximately 92 percent of export air cargo consisted of flowers, reinforcing the airport's importance within Ecuador's agricultural export economy.

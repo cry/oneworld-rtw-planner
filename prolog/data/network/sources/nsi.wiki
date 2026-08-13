@@ -1,0 +1,27 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Afrijet Business Service|Afrijet]] | [[Libreville International Airport|Libreville]]
+<!-- -->
+| [[Air Côte d'Ivoire]] | [[Port Bouet Airport|Abidjan]]
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]<!-- Air France do not have traffic rights to Douala; do not add it as a destination -->
+<!-- -->
+| [[ASKY Airlines]] | [[Lomé-Tokoin Airport|Lomé]], [[Malabo International Airport|Malabo]], [[N'Djamena International Airport|N'Djamena]]
+<!-- -->
+| [[Brussels Airlines]]{{ref|1|1}} | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Camair-Co]] | [[Douala International Airport|Douala]], [[Garoua International Airport|Garoua]], [[Léon-Mba International Airport|Libreville]], [[Salak Airport|Maroua]], [[N'Djamena International Airport|N'Djamena]], [[Ngaoundéré Airport|Ngaoundéré]] <br/>'''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| [[ECAir]] | [[Maya-Maya Airport|Brazzaville]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]], [[Léon-Mba International Airport|Libreville]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]<!-- Royal Air Maroc do not have traffic rights to Douala; do not add it as a destination. -->
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}
+;Notes
+<small>{{note|1|1}}: Brussels Airlines' flight to Brussels from Yaoundé stops in Douala, but the airline does not have [[Freedoms of the air#Eighth freedom (consecutive cabotage)|eighth freedom rights]] on the Yaoundé and Douala sector.</small>

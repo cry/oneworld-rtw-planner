@@ -1,0 +1,11 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[AirAsia]] | [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]]
+
+| [[AirBorneo]] |  [[Miri Airport|Miri]], [[Mukah Airport|Mukah]], [[Sibu Airport|Sibu]]
+
+|  [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+}}

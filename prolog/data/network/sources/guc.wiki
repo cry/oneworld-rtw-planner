@@ -1,0 +1,10 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Airlines]] | '''Seasonal:''' [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+| [[JSX (airline)|JSX]] | '''Seasonal:''' [[Dallas Love Field|Dallas–Love]]
+<!-- -->
+| [[United Express]] | [[Denver International Airport|Denver]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}

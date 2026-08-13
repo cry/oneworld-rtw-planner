@@ -1,0 +1,22 @@
+==Airlines and destinations==
+===Passenger ===
+{{Airport destination list
+| [[Allegiant Air]] | [[Harry Reid International Airport|Las Vegas]], [[Mesa Gateway Airport|Phoenix/Mesa]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Central Nebraska Regional Airport <br /> {{font color | red | Red}} = Year-round destination 
+|places=
+{{Location map~ |United_States |lat=40.9694 |long=-98.3129 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Grand Island'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.3085|long=-111.6573|position=right|label='''<small>[[Mesa Gateway Airport|Phoenix-Mesa]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=36.083697|long=-115.153873|position=right|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=80 |marksize=7}}
+}}
+|}
+
+The airport has scheduled passenger jet service on two airlines. [[Allegiant Air]] began flights to Las Vegas on September 4, 2008, with [[McDonnell Douglas MD-80]] jetliners and now flies [[Airbus A319]] jets several days a week nonstop to Las Vegas and Phoenix, the latter being served via [[Phoenix–Mesa Gateway Airport]]. During summer 2016 nonstop flights were also operated to [[Orlando Sanford International Airport]]. On June 9, 2011, [[American Eagle (airline brand)|American Eagle]] operated by [[Envoy Air]] commenced flying between GRI and Dallas/Ft. Worth utilizing [[Embraer ERJ family]] jets. Occasionally American Eagle service will operate by [[SkyWest Airlines]] using [[Canadair CRJ-700]] aircraft and by [[Mesa Airlines]] with [[Canadair CRJ-900]] regional jets.

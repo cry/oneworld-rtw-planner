@@ -1,0 +1,43 @@
+==Airlines and destinations==
+[[File:AUA control tower.JPG|thumb|The air traffic control tower]]
+[[File:AUA baggage claim.JPG|thumb|The baggage claim area]]
+[[File:Sign at Aruba Airport (Aeropuerto Internacional Reina Beatrix).jpg|thumb|Welcome sign]]
+[[File:Non-US departures building at AUA.JPG|thumb|The non-USA departures building]]
+[[File:AUA walkway to security.JPG|thumb|Walkway to security and US pre-clearance facilities]]
+
+===Passenger===<!-- Please use only independent sources. The airport and the airlines themselves are not independent sources. -->
+{{airport-dest-list|
+{{nowrap|[[Aerolíneas Argentinas]]}} | [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]] <br />'''Seasonal:''' [[Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport|Córdoba (AR)]], [[Governor Francisco Gabrielli International Airport|Mendoza]]
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]] (begins 6 December 2026)
+| [[Air Canada Rouge]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+| [[Air Century]] | [[Punta Cana International Airport|Punta Cana]], [[La Isabela International Airport|Santo Domingo–La Isabela]]
+| [[Air Transat]] | '''Seasonal:''' [[Montréal-Trudeau International Airport|Montréal–Trudeau]] (begins 12 December 2026)
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]],  [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[LaGuardia Airport|New York–LaGuardia]]
+| [[Arajet]] | [[Las Américas International Airport|Santo Domingo–Las Américas]]
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]]
+| [[Avianca Ecuador]] | [[El Dorado International Airport|Bogotá]]
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+| [[Delta Air Lines]] | [[Hartsfield-Jackson Atlanta International Airport|Atlanta]], [[John F. Kennedy International Airport|New York–JFK]]<br /> '''Seasonal:''' [[Logan International Airport|Boston]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+| [[Divi Divi Air]] | [[Hato International Airport|Curaçao]]
+| [[Gol Linhas Aéreas]] | [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]] (ends 24 October 2026) 
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[John F. Kennedy International Airport|New York–JFK]]
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]{{ref|1|1}}
+| [[LATAM Colombia]] | '''Seasonal:''' [[El Dorado International Airport|Bogotá]]
+| [[LATAM Perú]] | [[Jorge Chávez International Airport|Lima]]
+| [[Porter Airlines]] | '''Seasonal:''' [[Ottawa Macdonald-Cartier International Airport|Ottawa]] (begins 7 November 2026), [[Toronto Pearson International Airport|Toronto–Pearson]] (begins 30 October 2026)
+| [[Sky High Aviation Services|Sky High]] | [[Las Américas International Airport|Santo Domingo–Las Américas]]
+| [[Southwest Airlines]] | [[Baltimore–Washington International Airport|Baltimore]], [[Orlando International Airport|Orlando]] <br /> '''Seasonal:''' [[Nashville International Airport|Nashville]] (begins 13 March 2027)
+| [[Sun Country Airlines]] | '''Seasonal:''' [[Minneapolis-Saint Paul International Airport|Minneapolis/St. Paul]]
+| [[Surinam Airways]] | [[Johan Adolf Pengel International Airport|Paramaribo]]
+| [[TUI fly Netherlands]] | [[Amsterdam Airport Schiphol|Amsterdam]]{{ref|1|2}}
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]]
+| [[WestJet]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+| [[Winair]]| [[Hato International Airport|Curaçao]], [[Princess Juliana International Airport|Sint Maarten]]{{ref|1|3}}
+| [[Wingo (airline)|Wingo]] | [[Ernesto Cortissoz International Airport|Barranquilla]], [[El Dorado International Airport|Bogotá]], [[José María Córdova International Airport|Medellín–JMC]]<br>'''Seasonal:''' [[Palonegro International Airport|Bucaramanga]], [[Alfonso Bonilla Aragón International Airport|Cali]]
+| [[Z Air]] | [[Flamingo International Airport|Bonaire]], [[Hato International Airport|Curaçao]]
+}}
+
+;Notes
+*<small>{{note|1|1}} [[KLM]]'s flights operate to and from Bonaire on selected days.</small>
+*<small>{{note|1|2}} [[TUI Airlines Netherlands]]' flights operate between Aruba, Bonaire and Curaçao on selected days. However, the airline does not have [[Freedoms of the air|fifth freedom rights]] to transport passengers solely between Aruba, Bonaire and Curaçao.</small>
+*<small>{{note|1|3}} [[Winair]]'s flights operate between Aruba and Sint Maarten via Curaçao on selected days.</small>

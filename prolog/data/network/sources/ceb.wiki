@@ -1,0 +1,78 @@
+== Airlines and destinations ==
+=== Passenger ===
+<!-- WHEN REFERENCING, USE INDEPENDENT SOURCES. ALL SOURCES PUBLISHED BY AIRPORTS AND AIRLINES ARE NOT INDEPENDENT. NON-INDEPENDENT SOURCES AND THE DESTINATION THEY SUPPORT WILL BE REMOVED. -->
+<!-- ALL FUTURE AND ENDING DESTINATIONS MUST HAVE A REFERENCE. IF THEY DO NOT HAVE A REFERENCE, THEY WILL BE REMOVED. -->
+{{Airport-dest-list
+<!-- -->
+| [[Aero K]] | [[Cheongju International Airport|Cheongju]]
+<!-- -->
+| [[Air Busan]] | [[Gimhae International Airport|Busan]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Cebgo]] | [[Bacolod–Silay Airport|Bacolod]], [[Francisco B. Reyes Airport|Busuanga]], [[Bancasi Airport|Butuan]], [[Calbayog Airport|Calbayog]], [[Camiguin Airport|Camiguin]], [[Dipolog Airport|Dipolog]], [[Sibulan Airport|Dumaguete]], [[El Nido Airport|El Nido]], [[Bicol International Airport|Legazpi]], [[Moises R. Espinosa Airport|Masbate]], [[Labo Airport|Ozamiz]], [[Pagadian Airport|Pagadian]], [[Sayak Airport|Siargao]], [[Surigao Airport|Surigao]], [[Daniel Z. Romualdez Airport|Tacloban]]
+<!-- -->
+| [[Cebu Pacific]] | [[Bangkok–Don Mueang]], [[Laguindingan Airport|Cagayan de Oro]], [[Godofredo P. Ramos Airport|Caticlan]], [[Clark International Airport|Clark]], [[Davao International Airport|Davao]], [[General Santos International Airport|General Santos]], [[Tan Son Nhat International Airport|Ho Chi Minh City]] (resumes October 26, 2026), [[Hong Kong International Airport|Hong Kong]], [[Iloilo International Airport|Iloilo]], [[Ninoy Aquino International Airport|Manila]], [[Chubu Centrair International Airport|Nagoya–Centrair]] (begins November 19, 2026), [[Osaka–Kansai]], [[Puerto Princesa International Airport|Puerto Princesa]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]] (resumes November 17, 2026), [[Changi Airport|Singapore]], [[Tokyo–Narita]], [[Zamboanga International Airport|Zamboanga]]
+<!-- -->
+| [[China Airlines]] | [[Taipei–Taoyuan]]
+<!-- -->
+| {{nowrap|[[China Eastern Airlines]]}} | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]{{efn|Emirates flights make an intermediate stop in Clark en route to the listed destination. However, the airline has no [[Freedoms of the air|cabotage rights]] to carry passengers solely between Cebu and Clark.}}
+<!-- -->
+| [[EVA Air]] | [[Taipei–Taoyuan]]
+<!-- -->
+| [[Firefly (airline)|Firefly]] | [[Kuala Lumpur–International]]
+<!-- -->
+| [[Jeju Air]] | [[Gimhae International Airport|Busan]], [[Daegu International Airport|Daegu]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Jetstar]] | '''Seasonal:''' [[Brisbane Airport|Brisbane]]
+<!-- -->
+| [[Jin Air]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[PAL Express]] | [[Bacolod–Silay Airport|Bacolod]], [[Borongan Airport|Borongan]], [[Francisco B. Reyes Airport|Busuanga]], [[Bancasi Airport|Butuan]], [[Laguindingan Airport|Cagayan de Oro]], [[Catarman National Airport|Catarman]], [[Godofredo P. Ramos Airport|Caticlan]], [[Cotabato Airport|Cotabato]], [[Francisco Bangoy International Airport|Davao]], [[General Santos International Airport|General Santos]], [[Iloilo International Airport|Iloilo]], [[Ninoy Aquino International Airport|Manila]], [[Puerto Princesa International Airport|Puerto Princesa]], [[Sayak Airport|Siargao]], [[Daniel Z. Romualdez Airport|Tacloban]], [[Zamboanga International Airport|Zamboanga]]
+<!-- -->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]], [[Osaka–Kansai]], [[Tokyo–Narita]]
+<!-- -->
+| [[Philippines AirAsia]] | [[Kuala Lumpur–International]], [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Starlux Airlines]] | [[Taipei–Taoyuan]]
+<!-- -->
+| [[Sunlight Air]] | [[Francisco B. Reyes Airport|Busuanga]], [[Sayak Airport|Siargao]], [[Siquijor Airport|Siquijor]]
+<!-- -->
+| [[United Airlines]] | [[Tokyo–Narita]]
+<!-- -->
+| [[VietJet Air]] | [[Noi Bai International Airport|Hanoi]] (begins November 10, 2026), [[Tan Son Nhat International Airport|Ho Chi Minh City]] (begins November 11, 2026)<br>'''Charter:''' [[Da Nang International Airport|Da Nang]]
+<!-- -->
+| [[Vietnam Airlines]] | [[Noi Bai International Airport|Hanoi]]
+<!-- -->
+| [[XiamenAir]] | [[Quanzhou Jinjiang International Airport|Quanzhou]]
+<!-- -->
+}}
+
+;Notes
+{{notelist}}
+
+=== Cargo ===
+<!-- ALL FUTURE AND ENDING DESTINATIONS MUST HAVE A REFERENCE. IF THEY DO NOT HAVE A REFERENCE, THEY WILL BE REMOVED. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Hong Kong]] | [[Hong Kong International Airport|Hong Kong]], [[Manila International Airport|Manila]]{{cn|date=June 2026}}
+<!-- -->
+| [[Central Airlines (China)|Central Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]],{{cn|date=June 2026}} [[Wuhu Xuanzhou Airport|Wuhu]]{{cn|date=June 2026}}
+<!-- -->
+| [[Jiangsu Jingdong Cargo Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]{{cn|date=June 2026}}
+<!-- -->
+| [[Royal Air Philippines]] | [[Davao International Airport|Davao]]{{cn|date=June 2026}}
+<!-- -->
+| [[Shandong Airlines|SDA Cargo]] | [[Xiamen Gaoqi International Airport|Xiamen]]
+<!-- -->
+| [[SEAir International]] | [[Clark International Airport|Clark]]
+<!-- -->
+}}

@@ -1,0 +1,18 @@
+== Airlines and destinations ==
+The following airlines operate regular scheduled and charter flights at A Coruña Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Europa]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]],[[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]
+<!-- -->
+| [[easyJet]] | [[Geneva Airport|Geneva]], [[Milan Malpensa Airport|Milan–Malpensa]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+<!-- DO NOT CREATE AN ENTRY FOR IBERIA REGIONAL. IBERIA AND IBERIA REGIONAL OPERATE UNDER ONE ENTITY ONLY AND ARE JUST ONE BRAND.-->
+<!-- -->
+| [[Vueling]] | [[Barcelona–El Prat Airport|Barcelona]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]
+<!-- -->
+}}

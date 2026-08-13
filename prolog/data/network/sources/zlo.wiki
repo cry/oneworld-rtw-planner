@@ -1,0 +1,36 @@
+== Airlines and destinations ==
+[[Image: Manz-airport1.jpg|thumb|Passenger terminal airside]]
+[[File:Aeropuerto de Manzanillo 7.jpg|thumb|Terminal main entrance]]
+[[File:Aeropuerto de Manzanillo 6.jpg|thumb|Passenger terminal airside]]
+
+=== Passenger ===
+{{Airport destination list
+| [[Aeroméxico]]| [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| {{nowrap|[[Aeroméxico Connect]]}}| [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| {{nowrap|[[Alaska Airlines]]}}| [[Los Angeles International Airport|Los Angeles]]
+| [[American Eagle (airline brand)|American Eagle]] | '''Seasonal:'''  [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| [[United Express]] | '''Seasonal:'''  [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+|[[Viva (airline)|Viva]] | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+| [[WestJet]] | '''Seasonal:'''  [[Calgary International Airport|Calgary]]
+}}
+[[File:Aeropuerto de Manzanillo 3.jpg|thumb|Terminal main hall]]
+[[File:Aeropuerto de Manzanillo 1.jpg|thumb|Terminal main hall]]
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:40em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |North_America |width=600 |float=center
+|caption=International destinations from Manzanillo International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination
+|places=
+{{Location map~ |North_America |lat=19.144722 |long=-104.558611 |position=left |label=<div style="position:relative; top:0px;"><small>'''Manzanillo'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |North_America|lat=19.4361 |long=-99.0719|position=right|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |North_America |lat=33.9425|long=-118.408056|position=left|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |mark=Green pog.svg |North_America |lat=51.1225 |long=-114.013333 |position=right |label='''<small>[[Calgary International Airport|Calgary]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |mark=Green pog.svg |North_America |lat=29.984444 |long=-95.341389 |position=right |label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |mark=Green pog.svg |North_America |lat=32.896944 |long=-97.038056 |position=top |label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |mark=Green pog.svg |North_America |lat=33.434167 |long=-112.011667 |position=top |label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |North_America |lat=19.7566 |long=-99.0152|position=top|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City/AIFA}}]]'''|label_size=90 |marksize=7 }}
+
+}}
+|}

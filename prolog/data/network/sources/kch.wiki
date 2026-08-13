@@ -1,0 +1,30 @@
+== Airlines and destinations ==
+[[File:KIA arrival hall.JPG|thumb|KIA arrival hall]]
+[[File:Flight Information Display System outside Gate 8 of Kuching International Airport.jpg|thumb|Flight Information Display System calling for an AirAsia flight]]
+{{incomplete list|date=May 2026}}
+<!-- Reliable sources are mandatory for content on Wikipedia. Please use independent sources where possible. -->
+
+=== Passenger ===
+{{airport destination list
+<!--Do not add terminal column as KCH have one terminal only-->
+| [[9 Air]] |'''Charter:''' [[Haikou Meilan International Airport|Haikou]]
+<!-- -->
+| {{nowrap|[[AirAsia]]}} | [[Bintulu Airport|Bintulu]], [[Senai International Airport|Johor Bahru]], [[Sultan Ismail Petra Airport|Kota Bharu]], [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Miri Airport|Miri]], [[Penang International Airport|Penang]], [[Supadio International Airport|Pontianak]], [[Sibu Airport|Sibu]], [[Singapore Airport|Singapore]]
+<!-- -->
+| {{nowrap|[[AirBorneo]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Limbang Airport|Limbang]], [[Mukah Airport|Mukah]], [[Mulu Airport|Mulu]], [[Changi Airport|Singapore]], [[Tanjung Manis Airport|Tanjung Manis]]
+<!-- -->
+| {{nowrap|[[Batik Air Malaysia]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]],<br />'''Charter:''' [[Guangzhou Baiyun International Airport|Guangzhou]] (resumes 29 August 2026), [[Zhangjiajie Hehua International Airport|Zhangjiajie]] (begins 18 September 2026)
+<!-- -->
+| [[Indonesia AirAsia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| {{nowrap|[[Royal Brunei Airlines]]}} | [[Brunei International Airport|Bandar Seri Begawan]]
+<!-- -->
+| {{nowrap|[[Scoot]]}} | [[Changi Airport|Singapore]]
+}}
+
+=== Cargo ===
+{{Airport destination list
+| [[MASkargo]]|[[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+}}

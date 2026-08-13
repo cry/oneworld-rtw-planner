@@ -1,0 +1,34 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+<!-- -->
+|[[Allegiant Air]]|[[Austin–Bergstrom International Airport|Austin]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Harry Reid International Airport|Las Vegas]], [[John Wayne Airport|Orange County]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Nashville International Airport|Nashville]], [[Philadelphia International Airport|Philadelphia]], [[Mesa Gateway Airport|Phoenix/Mesa]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[Sarasota–Bradenton International Airport|Sarasota]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]], [[Palm Beach International Airport|West Palm Beach]] <br/>'''Seasonal:''' [[Logan International Airport|Boston]], [[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Newark Liberty International Airport|Newark]], [[Portland International Airport|Portland (OR)]], [[Savannah/Hilton Head International Airport|Savannah]]
+<!-- -->
+|[[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]<br/>'''Seasonal:''' [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Miami International Airport|Miami]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]], [[Philadelphia International Airport|Philadelphia]], [[Washington–National]]<br />'''Seasonal:''' [[Miami International Airport|Miami]], [[New York–LaGuardia]]
+<!-- -->
+|[[Avelo Airlines]]|[[Lakeland Linder International Airport|Lakeland]]
+
+<!-- -->
+|[[Delta Air Lines]]|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+|[[Delta Connection]] | [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[New York–LaGuardia]]<br>'''Seasonal:''' [[Orlando International Airport|Orlando]]
+
+<!-- -->
+| [[Frontier Airlines]] | [[Orlando International Airport|Orlando]]<br />'''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Denver International Airport|Denver]], [[Southwest Florida International Airport|Fort Myers]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Baltimore/Washington International Airport|Baltimore]], [[Chicago–Midway]], [[Denver International Airport|Denver]]  <br/> '''Seasonal:''' [[Southwest Florida International Airport|Fort Myers]], [[Harry Reid International Airport|Las Vegas]], [[Nashville International Airport|Nashville]], [[Orlando International Airport|Orlando]][[Tampa International Airport|Tampa]]
+<!-- -->
+|{{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+|[[United Airlines]] | [[Chicago–O'Hare]], [[Denver International Airport|Denver]]
+<!-- -->
+| [[United Express]] | [[Chicago–O'Hare]], [[Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]]
+}}
+
+===Cargo===
+{{Airport destination list
+|[[FedEx Express]]|[[Memphis International Airport|Memphis]]
+|[[FedEx Feeder]] operated by [[CSA Air]]|[[Pellston Regional Airport|Pellston]], [[Chippewa County International Airport|Sault Ste. Marie (MI)]], [[Cherry Capital Airport|Traverse City]]
+}}

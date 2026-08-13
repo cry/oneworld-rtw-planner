@@ -1,0 +1,6 @@
+==Airlines and destinations==
+{{airport-dest-list
+|[[Alliance Airlines]]|[[Adelaide Airport|Adelaide]]
+<!-- -->
+|[[Virgin Australia]]|'''Charter:''' [[Adelaide Airport|Adelaide]]
+}}

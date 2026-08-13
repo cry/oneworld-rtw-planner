@@ -1,0 +1,85 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Canada Rouge]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Alaska Airlines]]| [[Los Angeles International Airport|Los Angeles]]<br /> '''Seasonal:'''  [[Seattle-Tacoma International Airport|Seattle/Tacoma]]
+<!-- -->
+| [[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]]<br />'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]]
+<!-- -->
+| [[BermudAir]] | '''Seasonal:''' [[Logan International Airport|Boston]] (begins 19 December 2026), [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]] (begins 20 December 2026), [[La Aurora International Airport|Guatemala City]] (begins 19 December 2026), [[Orlando Sanford International Airport|Orlando/Sanford]] (begins 21 December 2026), [[Raleigh–Durham International Airport|Raleigh/Durham]] (begins 20 December 2026), [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] (begins 20 December 2026)
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]<br />'''Seasonal:''' [[Minneapolis-Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[Maya Island Air]] | [[Caye Caulker Airport|Caye Caulker]], [[Caye Chapel Airport| Caye Chapel]], [[Dangriga Airport|Dangriga]], [[Placencia Airport|Placencia]], [[John Greif II Airport|San Pedro]]
+<!-- -->
+| [[Southwest Airlines]] | [[William P. Hobby Airport|Houston–Hobby]] <br /> '''Seasonal:''' [[Baltimore/Washington International Airport|Baltimore]], [[Denver International Airport|Denver]]
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} |  '''Seasonal:''' [[Minneapolis-Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| {{nowrap|[[Transportes Aéreos Guatemaltecos|TAG Airlines]]}} | [[La Aurora International Airport|Guatemala City]]
+<!-- -->
+| [[Tropic Air]] | [[Cancún International Airport|Cancún]], [[Caye Caulker Airport|Caye Caulker]], [[Corozal Airport|Corozal]], [[Dangriga Airport|Dangriga]], [[Placencia Airport|Placencia]], [[Punta Gorda Airport (Belize)|Punta Gorda]], [[Juan Manuel Gálvez International Airport|Roatán]], [[John Greif II Airport|San Pedro]], [[Ramón Villeda Morales International Airport|San Pedro Sula]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[Newark Liberty International Airport|Newark]], [[San Francisco International Airport|San Francisco]]
+<!-- -->
+|[[WestJet]] | '''Seasonal:''' [[Calgary International Airport|Calgary]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Winnipeg Richardson International Airport|Winnipeg]] (begins 14 December 2026)
+<!-- -->}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+! Domestic destinations map
+|-
+|{{Location map+ |Belize |width= 500 |float=center
+|caption=Domestic destinations <br /> {{font color | blue | Blue}} = Philip S. W. Goldson International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination
+|places=
+{{Location map~ |Belize |lat=17.539167 |long=-88.308333 |position=left |label=<small>'''{{nowrap|Belize City Intl}}'''</small>|caption=|mark= Blue pog.svg }}
+{{Location map~ |Belize |lat=17.734722 |long=-88.033333 |position=right |label=<small>'''{{nowrap|Caye Caulker}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |Belize |lat=17.683333 |long=-88.044444 |position=right |label=<small>'''{{nowrap|Caye Chapel}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |Belize |lat=18.381944 |long=-88.411111 |position=left |label=<small>'''{{nowrap|Corozal}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |Belize |lat=16.9825 |long=-88.230556|position=right |label=<small>'''{{nowrap|Dangringa}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |Belize |lat=16.537222 |long=-88.361111|position=right|label=<small>'''{{nowrap|Placencia}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |Belize |lat=17.913889 |long=-87.971111 |position=right |label=<small>'''{{nowrap|San Pedro}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |Belize |lat=17.5175 |long=-88.195833 |position=right |label=<small>'''{{nowrap|Belize City Municipal}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |Belize |lat=17.185833 |long=-89.009722 |position=right |label=<small>'''{{nowrap|San Ignacio}}'''</small>|caption=|mark= Red pog.svg }}}}
+|}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+! Central America destinations map
+|-
+|{{Location map+ |Central America |width= 500 |float=center
+|caption=Central America destinations <br /> {{font color | blue | Blue}} = Philip S. W. Goldson International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination
+|places=
+{{Location map~ |Central America |lat=17.539167 |long=-88.308333 |position=right |label=<small>'''{{nowrap|Belize City Intl}}'''</small>|caption=|mark= Blue pog.svg }}
+{{Location map~ |Central America |lat=13.440833 |long=-89.055556 |position=left |label=<small>'''{{nowrap|San Salvador}}'''</small>|caption=|mark= Green pog.svg }}
+{{Location map~ |Central America |lat=9.071389 |long=-79.383611 |position=right |label=<small>'''{{nowrap|Panama City–PTY}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |Central America |lat=16.913889 |long=-89.866389 |position=right |label=<small>'''{{nowrap|Flores}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |Central America |lat=14.581667 |long=-90.526667 |position=left |label=<small>'''{{nowrap|Guatemala City}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |Central America |lat=16.317222 |long=-86.522222 |position=right |label=<small>'''{{nowrap|Roatán}}'''</small>|caption=|mark= Red pog.svg }}}}
+|}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+! Canada, United States, and Mexico destinations map
+|-
+|{{Location map+ |North America |width= 500 |float=center
+|caption=Canada, United States, and Mexico destinations <br /> {{font color | blue | Blue}} = Philip S. W. Goldson International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination
+|places=
+{{Location map~ |North America |lat=17.539167 |long=-88.308333 |position=right |label=<small>'''{{nowrap|Belize City Intl}}'''</small>|caption=|mark= Blue pog.svg }}
+{{Location map~ |North America |lat=43.676667 |long=-79.630556 |position=right |label=<small>'''{{nowrap|Toronto–YYZ}}'''</small>|caption=|mark= Green pog.svg }}
+{{Location map~ |North America |lat=32.896944 |long=-97.038056 |position=left |label=<small>'''{{nowrap|Dallas/Fort Worth–DFW}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |North America |lat=33.9425 |long=-118.408056 |position=left |label=<small>'''{{nowrap|Los Angeles–LAX}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |North America |lat=37.620811 |long=-122.380049 |position=left |label=<small>'''{{nowrap|San Francisco–SFO}}'''</small>|caption=|mark= Green pog.svg }}
+{{Location map~ |North America |lat=25.793333 |long=-80.290556 |position=left |label=<small>'''{{nowrap|Miami}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |North America |lat=35.213889 |long=-80.943056 |position=right|label=<small>'''{{nowrap|Charlotte}}'''</small>|caption=|mark= Green pog.svg }}
+{{Location map~ |North America |lat=33.636667 |long=-84.428056 |position=right |label=<small>'''{{nowrap|Atlanta}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |North America |lat=29.984444 |long=-95.341389 |position=right |label=<small>'''{{nowrap|Houston–IAH}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |North America |lat=44.881944 |long=-93.221667 |position=left |label=<small>'''{{nowrap|Minneapolis/St Paul}}'''</small>|caption=|mark= Green pog.svg }}
+{{Location map~ |North America |lat=18.504667 |long=-88.326847 |position=left |label=<small>'''{{nowrap|Chetumal}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |North America |lat=21.036667 |long=-86.876944 |position=right |label=<small>'''{{nowrap|Cancún}}'''</small>|caption=|mark= Red pog.svg }}
+{{Location map~ |North America |lat=41.978611 |long=-87.904722 |position=left |label=<small>'''{{nowrap|Chicago–ORD}}'''</small>|caption=|mark= Green pog.svg }}
+{{Location map~ |North America |lat=40.6925 |long=-74.168611 |position=right |label=<small>'''{{nowrap|Newark}}'''</small>|caption=|mark= Green pog.svg }}
+{{location map~ |North America |lat=47.4488 |long=-122.309444 |position=right |label=
+<small>'''{{nowrap|Seattle/Tacoma}}'''</small>|caption=|mark= Green pog.svg }}
+{{Location map~ |North America |lat=51.1225 |long=-114.013333 |position=right |label=<small>'''{{nowrap|Calgary}}'''</small>|caption=|mark= Green pog.svg }}
+{{Location map~ |North America |lat=39.855193|long=-104.673849|position=right|label='''<small>{{nowrap|Denver}}</small>'''|label_size=90 |marksize=7|caption=|mark= Green pog.svg }}}}
+|}

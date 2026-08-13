@@ -1,0 +1,118 @@
+==Airlines and destinations==
+[[File:Aeroporto di Venezia-Tessera (4).jpg|thumb|View of the apron]]
+[[File:Aeroporto di Venezia-Tessera (2).jpg|thumb|Air traffic control]]
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A REIABLE SOURCE AND SHOULD NOT BE USED.-->
+The following airlines operate regular scheduled and charter flights to and from Venice:
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Aer Lingus]] | '''Seasonal:''' [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Air Arabia]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Air Cairo]] | [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau]], [[Toronto–Pearson]]
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]
+<!-- -->
+| [[Air Dolomiti]] | [[Munich Airport|Munich]]
+<!-- -->
+| [[Air Europa]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]]
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Toronto–Pearson]]
+<!-- -->
+| [[airBaltic]] | '''Seasonal:''' [[Riga International Airport|Riga]]
+<!-- -->
+| [[American Airlines]] | '''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | [[London–Heathrow]]
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Cyprus Airways]] | '''Seasonal:''' [[Larnaca International Airport|Larnaca]]
+<!-- -->
+| [[Delta Air Lines]] |  [[New York–JFK]] <br/> '''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[easyJet]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Berlin Brandenburg Airport|Berlin]], [[Bristol Airport|Bristol]], [[Geneva Airport|Geneva]], [[London–Gatwick]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Manchester Airport|Manchester]], [[Nice Côte d'Azur Airport|Nice]], [[Paris–Charles de Gaulle]], [[Paris–Orly]] <br/> '''Seasonal:'''  [[Edinburgh Airport|Edinburgh]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[El Al]]| [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Eurowings]] | [[Düsseldorf Airport|Düsseldorf]] <br/> '''Seasonal:''' [[Cologne Bonn Airport|Cologne/Bonn]], [[Hamburg Airport|Hamburg]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[HiSky]] | [[Chișinău International Airport|Chișinău]]
+<!-- -->
+| [[Icelandair]] | '''Seasonal:''' [[Keflavík International Airport|Reykjavík-Keflavík]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[ITA Airways]] | [[Rome–Fiumicino]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Manchester Airport|Manchester]]
+<!-- -->
+|[[Jettime]]| [[Helsinki Airport|Helsinki]]
+
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Luxair]] | [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Norwegian Air Shuttle]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm–Arlanda]]
+<!-- -->
+|[[Pegasus Airlines]]| [[Sabiha Gökçen International Airport|Istabul]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Ryanair]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]] (begins 1 September 2026), [[Athens International Airport|Athens]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bari Karol Wojtyła Airport|Bari]], [[Berlin Brandenburg Airport|Berlin]], [[Brindisi Airport|Brindisi]], [[Bristol Airport|Bristol]], [[Budapest Airport|Budapest]] (resumes 1 September 2026), [[Catania–Fontanarossa Airport|Catania]], [[Cork Airport|Cork]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[John Paul II International Airport Kraków-Balice|Kraków]] (begins 27 October 2026), [[London–Luton]] (begins 25 October 2026), [[London–Stansted]], [[Málaga Airport|Málaga]] (begins 25 October 2026), [[Manchester Airport|Manchester]], [[Naples International Airport|Naples]], [[Falcone Borsellino Airport|Palermo]], [[Reggio Calabria Airport|Reggio Calabria]], [[Seville Airport|Seville]] (resumes 1 September 2026), [[Trapani–Birgi Airport|Trapani]] <br/> '''Seasonal:''' [[Alghero–Fertilia Airport|Alghero]], [[Helsinki Airport|Helsinki]], [[Lamezia Terme Airport|Lamezia Terme]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Vienna Airport|Vienna]]
+<!-- -->
+| [[Saudia]] | '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]] <br/> '''Seasonal:''' [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[Smartwings]] | [[Václav Havel Airport Prague|Prague]] (begins 22 October 2026)
+<!-- -->
+| [[SunExpress]] | '''Seasonal:''' [[İzmir Adnan Menderes Airport|Izmir]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zurich Airport|Zürich]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Humberto Delgado Airport|Lisbon]]
+<!-- -->
+| [[Transavia]] | [[Paris-Orly]]
+<!-- -->
+|[[Tunisair]]| [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Twin Jet]] | '''Seasonal:''' [[Nice Côte d'Azur Airport|Nice]]
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[Newark Liberty International Airport|Newark]], [[Washington–Dulles]]
+<!-- -->
+| [[Volotea]] | [[Athens International Airport|Athens]], [[Bilbao Airport|Bilbao]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Corfu International Airport|Corfu]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Marseille Provence Airport|Marseille]], [[Nantes Atlantique Airport|Nantes]], [[Naples International Airport|Naples]], [[Toulouse–Blagnac Airport|Toulouse]] [[Zakynthos International Airport|Zakynthos]] <br/> '''Seasonal:''' [[Asturias Airport|Asturias]], [[Cagliari Elmas Airport|Cagliari]], [[Karpathos Island National Airport|Karpathos]], [[Lampedusa Airport|Lampedusa]], [[Región de Murcia International Airport|Murcia]], [[Olbia Costa Smeralda Airport|Olbia]], [[Pantelleria Airport|Pantelleria]], [[Rhodes International Airport|Rhodes]], [[Santorini International Airport|Santorini]], [[Skiathos International Airport|Skiathos]]
+<!-- -->
+| [[Vueling]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bilbao Airport|Bilbao]] (begins 25 October 2026)
+<!-- -->
+| [[Wizz Air]] |  [[Alicante–Elche Miguel Hernández Airport|Alicante]] (begins 15 September 2026), [[Athens International Airport|Athens]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bilbao Airport|Bilbao]] (begins 14 September 2026), [[Bordeaux Airport|Bordeaux]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Cagliari Airport|Cagliari]] (begins 14 December 2026), [[Catania–Fontanarossa Airport|Catania]], [[Chișinău International Airport|Chișinău]], [[Kraków John Paul II International Airport|Kraków]], [[Kutaisi International Airport|Kutaisi]], [[Larnaca International Airport|Larnaca]], [[London–Luton]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]] (begins 14 September 2026), [[Naples International Airport|Naples]], [[Falcone Borsellino Airport|Palermo]], [[Seville Airport|Seville]] (begins 16 September 2026), [[Sharm El Sheikh International Airport|Sharm El Sheikh]], [[Skopje International Airport|Skopje]], [[Tallinn Airport|Tallinn]], [[Ben Gurion Airport|Tel Aviv]], [[Tenerife South Airport|Tenerife–South]], [[Valencia Airport|Valencia]], [[Warsaw–Chopin]], [[Zvartnots International Airport|Yerevan]] <br/> '''Seasonal:''' [[Alghero–Fertilia Airport|Alghero]]
+<!-- -->
+}}

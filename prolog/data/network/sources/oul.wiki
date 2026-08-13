@@ -1,0 +1,14 @@
+== Airlines and destinations ==
+The following airlines operate regular scheduled and charter flights at Oulu Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal charter:''' [[Chania Airport|Chania]], [[Rhodes International Airport|Rhodes]]
+<!-- -->
+| [[airBaltic]] | [[Riga Airport|Riga]]
+<!-- -->
+| [[Discover Airlines]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]]
+<!-- -->
+}}

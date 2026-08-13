@@ -1,0 +1,61 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Asa Jet]] | [[Abadan Ayatollah Jami International Airport|Abadan]], [[Chabahar Konarak Airport|Chabahar/Konarak]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Qeshm International Airport|Qeshm]], [[Rasht Airport|Rasht]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[ATA Airlines (Iran)|ATA Airlines]] | [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Al Najaf International Airport|Najaf]], [[Qeshm International Airport|Qeshm]], [[Tabriz Shahid Madani International Airport|Tabriz]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[AVA Airlines]] | [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]]
+<!-- -->
+| [[Caspian Airlines]] | [[Persian Gulf Airport|Asaluyeh]], [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Al Najaf International Airport|Najaf]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Chabahar Airlines]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Fly Kish]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]]
+<!-- -->
+| [[FlyPersia]] | [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Qeshm International Airport|Qeshm]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Iran Air]] | [[Bandar Abbas International Airport|Bandar Abbas]], [[Dubai International Airport|Dubai–International]], [[Kuwait International Airport|Kuwait City]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Al Najaf International Airport|Najaf]], [[Mehrabad International Airport|Tehran–Mehrabad]] <br />'''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| [[Iran Airtour]] | [[Istanbul Airport|Istanbul]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| {{nowrap|[[Iran Aseman Airlines]]}} | [[Abadan Ayatollah Jami International Airport|Abadan]], [[Qasem Soleimani International Airport|Ahvaz]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Al Najaf International Airport|Najaf]], [[Rasht Airport|Rasht]], [[Dasht-e Naz Airport|Sari]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Iraqi Airways]] | [[Baghdad International Airport|Baghdad]], [[Al Najaf International Airport|Najaf]]
+<!-- -->
+| [[Karun Airlines]] | [[Qasem Soleimani International Airport|Ahvaz]], [[Persian Gulf Airport|Asaluyeh]], [[Bahregan Airport|Bahregan]], [[Bandar Abbas International Airport|Bandar Abbas]], [[Kharg Airport|Kharg]], [[Lavan Airport|Lavan]], [[Mahshahr Airport|Mahshahr]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Sirri Island Airport|Sirri Island]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Kish Air]] | [[Persian Gulf Airport|Asaluyeh]], [[Bandar Abbas International Airport|Bandar Abbas]], [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Mehrabad International Airport|Tehran–Mehrabad]] <br />'''Seasonal:''' [[Al Najaf International Airport|Najaf]]
+<!-- -->
+| [[Mahan Air]] | [[Persian Gulf Airport|Asaluyeh]], [[Ayatollah Hashemi Rafsanjani Airport|Kerman]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tabriz Airport|Tabriz]], [[Mehrabad International Airport|Tehran–Mehrabad]], [[Zahedan Airport|Zahedan]]
+<!-- -->
+| [[Meraj Airlines]] | [[Persian Gulf Airport|Asaluyeh]], [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Al Najaf International Airport|Najaf]], [[Qeshm International Airport|Qeshm]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Pars Air]] | [[Aghajari Airport|Aghajari]], [[Persian Gulf Airport|Asaluyeh]], [[Chabahar Konarak Airport|Chabahar/Konarak]], [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Al Najaf International Airport|Najaf]], [[Qeshm International Airport|Qeshm]], [[Shiraz Shahid Dastgheib International Airport|Shiraz]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Pouya Air]] | [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Qeshm Air]] | [[Dubai International Airport|Dubai–International]], [[Kharg Airport|Kharg]], [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Al Najaf International Airport|Najaf]], [[Qeshm International Airport|Qeshm]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Saha Airlines]] | [[Persian Gulf Airport|Asaluyeh]], [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Sepehran Airlines]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]]
+<!-- -->
+| [[Taban Air]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] (temporarily suspended)
+<!-- -->
+| [[Varesh Airlines]] | [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Muscat International Airport|Muscat]], [[Al Najaf International Airport|Najaf]], [[Qeshm International Airport|Qeshm]], [[Dasht-e Naz Airport|Sari]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Yazd Airways]] | [[Qeshm International Airport|Qeshm]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+| [[Zagros Airlines]] | [[Qasem Soleimani International Airport|Ahvaz]], [[Kish International Airport|Kish]], [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Al Najaf International Airport|Najaf]], [[Mehrabad International Airport|Tehran–Mehrabad]]
+<!-- -->
+||}}

@@ -1,0 +1,70 @@
+==Airlines and destinations==
+===Passenger===
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights to and from Göteborg:
+
+{{Airport-dest-list
+<!-- -->
+|[[Aegean Airlines]]| '''Seasonal:''' [[Chania International Airport|Chania]], [[Rhodes International Airport|Rhodes]]
+<!-- -->
+|[[airBaltic]]| [[Riga Airport|Riga]] (resumes {{date|2026-4-13}})
+<!-- -->
+|[[Air France]]| [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[Air Serbia]]| [[Belgrade Nikola Tesla Airport|Belgrade]]
+<!-- -->
+|[[Austrian Airlines]]| '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+|[[British Airways]]| [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| {{nowrap|[[NyxAir|BrommaFLyg]]}} | [[Visby Airport|Visby]]
+<!-- -->
+|[[Brussels Airlines]]| [[Brussels Airport|Brussels]]
+<!-- -->
+|[[Etihad Airways]]| '''Seasonal:''' [[Zayed International Airport|Abu Dhabi]] (begins 17 December 2026)
+<!-- -->
+|[[Eurowings]]| [[Berlin Brandenburg Airport|Berlin]], [[Düsseldorf Airport|Düsseldorf]]<br/>'''Seasonal:''' [[Innsbruck Airport|Innsbruck]]
+<!-- -->
+|[[Finnair]]| [[Helsinki Airport|Helsinki]]
+<!-- -->
+|[[Icelandair]]| '''Seasonal:''' [[Keflavík International Airport|Reykjavík]]
+<!-- -->
+|[[Jet Time|Jettime]]| '''Seasonal charter:''' [[Tenerife South Airport|Tenerife]], [[Zakynthos International Airport|Zakynthos]]
+<!-- -->
+|[[KLM]]| [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+|[[LOT Polish Airlines]]| [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+|[[Lufthansa]]| [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+|[[Norwegian Air Shuttle]]| [[Alicante–Elche Airport|Alicante]], [[Barcelona–El Prat Airport|Barcelona]], [[London Gatwick Airport|London Gatwick]],   [[Málaga Airport|Málaga]], [[Nice Côte d'Azur Airport|Nice]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Pristina International Airport|Pristina]], [[Riga Airport|Riga]]<br/>'''Seasonal:''' [[Hurghada International Airport|Hurghada]], [[Marrakesh Menara Airport|Marrakesh]], [[Tirana International Airport|Tirana]] (begins 19 June 2026)<!-- REVIEW: later schedule reporting (Travel And Tour World, 9 Feb 2026) describes this as a seasonal service operating 19 June to 14 August 2026; if confirmed it should stay on this Seasonal line with the end date noted. -->
+<!-- -->
+|[[Pegasus Airlines]]| [[Antalya Airport|Antalya]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+|[[Ryanair]]| [[Banja Luka International Airport|Banja Luka]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Cagliari Elmas Airport|Cagliari]], [[Edinburgh Airport|Edinburgh]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Kaunas Airport|Kaunas]], [[Kraków John Paul II International Airport|Kraków]], [[London Stansted Airport|London–Stansted]], [[Málaga Airport|Málaga]], [[Manchester Airport|Manchester]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Zadar Airport|Zadar]], [[Zagreb Airport|Zagreb]]<br/>'''Seasonal:''' [[Corfu International Airport|Corfu]], [[Dubrovnik Airport|Dubrovnik]], [[Malta International Airport|Malta]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Galileo Galilei International Airport|Pisa]], [[Porto Airport|Porto]], [[Václav Havel Airport Prague|Prague]], [[Pula Airport|Pula]], [[Sarajevo International Airport|Sarajevo]], [[Thessaloniki Airport|Thessaloniki]]<!-- REVIEW: Corfu and Pula are NOT on the current Swedavia destinations list; existing independent refs retained, kept pending an independent source confirming continuation/discontinuation. Cagliari moved from Seasonal to year-round per  (passengers in all four 2025 quarters); original Cagliari ref kept. Zadar source frames a 1 May 2026 start; editor may move to Seasonal if it does not operate year-round. -->
+<!-- -->
+|[[Scandinavian Airlines]]| [[Alicante–Elche Airport|Alicante]], [[Copenhagen Airport|Copenhagen]], [[Faro Airport|Faro]], [[Gran Canaria Airport|Gran Canaria]], [[Larnaca International Airport|Larnaca]], [[Luleå Airport|Luleå]], [[Málaga Airport|Málaga]], [[Nice Côte d'Azur Airport|Nice]], [[Oslo Airport, Gardermoen|Oslo]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Salzburg Airport|Salzburg]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]<br/>'''Seasonal:''' [[Athens International Airport|Athens]], [[Chania International Airport|Chania]], [[Fuerteventura Airport|Fuerteventura]], [[Ioannina National Airport|Ioannina]], [[Innsbruck Airport|Innsbruck]], [[Karpathos Island National Airport|Karpathos]], [[Samos International Airport|Samos]], [[Split Airport|Split]], [[Turin Airport|Turin]], [[Visby Airport|Visby]], [[Zakynthos International Airport|Zakynthos]]<br/>'''Seasonal charter:''' [[Hurghada International Airport|Hurghada]], [[Preveza Airport|Preveza]], [[Rhodes International Airport|Rhodes]], [[Skiathos International Airport|Skiathos]]<!-- REVIEW: Athens not on current Swedavia list (only Q3 2025 traffic); existing ref kept, retained pending independent confirmation. Gran Canaria moved from Seasonal to year-round per ; original OAG ref kept. -->
+<!-- -->
+|[[Sunclass Airlines]]| '''Seasonal charter:''' [[Antalya Airport|Antalya]], [[Amílcar Cabral International Airport|Cape Verde]], [[Chania International Airport|Chania]], [[Gran Canaria Airport|Gran Canaria]], [[Hurghada International Airport|Hurghada]], [[Heraklion International Airport|Irakleion]], [[Kos International Airport|Kos]], [[Larnaca International Airport|Larnaca]], [[Oslo Airport, Gardermoen|Oslo]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Phuket International Airport|Phuket]], [[Rhodes International Airport|Rhodes]], [[Tenerife South Airport|Tenerife]]
+<!-- -->
+|[[Swiss International Air Lines]]| [[Zürich Airport|Zürich]]
+<!-- -->
+|[[Turkish Airlines]]| [[Istanbul Airport|Istanbul]]
+<!-- -->
+|[[Vueling]]| [[Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+|[[Widerøe]]| [[Bergen Airport, Flesland|Bergen]]
+<!-- -->
+|[[Wizz Air]]| [[Belgrade Nikola Tesla Airport|Belgrade]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Skopje International Airport|Skopje]]<br/>'''Seasonal:''' [[Tuzla International Airport|Tuzla]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+|[[DHL Aviation]]| [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+|[[FedEx Express]]| [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+}}

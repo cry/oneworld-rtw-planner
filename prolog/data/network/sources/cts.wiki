@@ -1,0 +1,99 @@
+==Airlines and destinations==
+=== Passenger ===
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Aero K]] | [[Cheongju International Airport|Cheongju]]
+<!-- -->
+| [[Air Busan]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Vancouver International Airport|Vancouver]] (begins 18 December 2026)
+<!-- -->
+| [[Air Do]] | [[Fukuoka Airport|Fukuoka]], [[Kobe Airport|Kobe]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Sendai Airport|Sendai]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Air Seoul]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[AirAsia X]] | '''Seasonal:''' [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[All Nippon Airways]] | [[Fukuoka Airport|Fukuoka]], [[Kobe Airport|Kobe]], [[Komatsu Airport|Komatsu]], [[Itami Airport|Osaka–Itami]], [[Haneda Airport|Tokyo–Haneda]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[ANA Wings]] | [[Akita Airport|Akita]], [[Aomori Airport|Aomori]], [[Fukuoka Airport|Fukuoka]], [[Fukushima Airport|Fukushima]], [[Hakodate Airport|Hakodate]], [[Hiroshima Airport|Hiroshima]], [[Kushiro Airport|Kushiro]], [[Memanbetsu Airport|Memanbetsu]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Nakashibetsu Airport|Nakashibetsu]], [[Niigata Airport|Niigata]], [[Itami Airport|Osaka–Itami]], [[Sendai Airport|Sendai]], [[Shizuoka Airport|Shizuoka]] (ends 30 September 2026), [[Toyama Airport|Toyama]], [[Wakkanai Airport|Wakkanai]]<br />'''Seasonal:''' [[Okayama Airport|Okayama]], [[Rishiri Airport|Rishiri]]
+<!-- -->
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Cebu Pacific]] | [[Ninoy Aquino International Airport|Manila]] (resumes 27 October 2026)
+<!-- -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Eastar Jet]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Fuji Dream Airlines]] | [[Fukuoka Airport|Fukuoka]], [[Matsumoto Airport|Matsumoto]], [[Niigata Airport|Niigata]], [[Shizuoka Airport|Shizuoka]], [[Yamagata Airport|Yamagata]]
+<!-- -->
+| [[Greater Bay Airlines]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| {{nowrap|[[Hong Kong Airlines]]}} | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Ibex Airlines]] | [[Sendai Airport|Sendai]]
+<!-- -->
+| [[J-Air]] | [[Aomori Airport|Aomori]], [[Hanamaki Airport|Hanamaki]], [[Hiroshima Airport|Hiroshima]], [[Memanbetsu Airport|Memanbetsu]], [[Itami Airport|Osaka–Itami]], [[Sendai Airport|Sendai]]
+<!-- -->
+| [[Japan Airlines]] | [[Fukuoka Airport|Fukuoka]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Itami Airport|Osaka–Itami]], [[Kansai International Airport|Osaka–Kansai]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Jeju Air]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Jetstar Japan]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Kansai International Airport|Osaka–Kansai]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Jin Air]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Juneyao Air]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Parata Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Peach Aviation]] | [[Fukuoka Airport|Fukuoka]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Naha Airport|Naha]], [[Kansai International Airport|Osaka–Kansai]], [[Sendai Airport|Sendai]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Philippine Airlines]] | '''Seasonal:''' [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Qantas]] | '''Seasonal:''' [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Singapore Airlines]] | '''Seasonal:''' [[Changi Airport|Singapore]]
+<!-- -->
+| [[Skymark Airlines]] | [[Fukuoka Airport|Fukuoka]], [[Ibaraki Airport|Ibaraki]], [[Kobe Airport|Kobe]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Spring Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Spring Airlines Japan]] | [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Starlux Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[T'way Air]] | [[Gimhae International Airport|Busan]], [[Daegu International Airport|Daegu]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Thai AirAsia]] | [[Chiang Mai International Airport|Chiang Mai]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Thai AirAsia X]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai Lion Air]] | [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Kaohsiung International Airport|Kaohsiung]]
+<!-- -->
+| [[Thai VietJet Air]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Kaohsiung International Airport|Kaohsiung]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[San Francisco International Airport|San Francisco]] (begins 11 December 2026)
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[AirZeta]] | [[Incheon International Airport|Seoul–Incheon]]
+}}

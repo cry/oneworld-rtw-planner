@@ -1,0 +1,12 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Er-Rachidia Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]], [[Rabat–Salé Airport|Rabat]]
+<!-- -->
+| [[Ryanair]] | [[Marrakesh Menara Airport|Marrakesh]]
+<!-- -->
+| [[Transavia France|Transavia]] | '''Seasonal:''' [[Orly Airport|Paris–Orly]]
+<!-- -->
+}}

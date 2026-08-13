@@ -1,0 +1,50 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Ankara Esenboğa Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[AJet]] | [[Çukurova International Airport|Adana/Mersin]], [[Adıyaman Airport|Adıyaman]], [[Ağrı Airport|Ağrı]], [[Almaty International Airport|Almaty]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Antalya Airport|Antalya]], [[Nursultan Nazarbayev International Airport|Astana]], [[Baghdad International Airport|Baghdad]], [[Heydar Aliyev International Airport|Baku]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Batman Airport|Batman]], [[Beirut Rafic Hariri International Airport|Beirut]], [[Nikola Tesla Airport|Belgrade]], [[Berlin Brandenburg Airport|Berlin]], [[Bingöl Airport|Bingöl]], [[Manas International Airport|Bishkek]], [[Milas–Bodrum Airport|Bodrum]], [[Yenişehir Airport|Bursa]], [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Cairo International Airport|Cairo]], [[Çanakkale Airport|Çanakkale]], [[Dalaman Airport|Dalaman]], [[Damascus International Airport|Damascus]], [[Diyarbakır Airport|Diyarbakır]], [[Dubai International Airport|Dubai–International]], [[Düsseldorf Airport|Düsseldorf]], [[Edremit Korfez Airport|Edremit]], [[Elazığ Airport|Elazığ]], [[Erbil International Airport|Erbil]], [[Ercan International Airport|Ercan]], [[Erzincan Airport|Erzincan]], [[Erzurum Airport|Erzurum]], [[Frankfurt Airport|Frankfurt]], [[Gaziantep Airport|Gaziantep]], [[Gazipaşa-Alanya Airport|Gazipaşa/Alanya]], [[Hakkari–Yüksekova Airport|Hakkari]], [[Hatay Airport|Hatay]], [[Iğdır Airport|Iğdır]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[İzmir Adnan Menderes Airport|İzmir]], [[King Abdulaziz International Airport|Jeddah]], [[Kahramanmaraş Airport|Kahramanmaraş]], [[Kars Airport|Kars]], [[London Stansted Airport|London–Stansted]], [[Madrid–Barajas Airport|Madrid]], [[Malatya Airport|Malatya]], [[Mardin Airport|Mardin]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Vnukovo International Airport|Moscow–Vnukovo]], [[Muş Airport|Muş]], [[Ordu–Giresun Airport|Ordu/Giresun]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Rize–Artvin Airport|Rize/Artvin]], [[Pulkovo Airport|Saint Petersburg]], [[Sarajevo Airport|Sarajevo]], [[Samsun-Çarşamba Airport|Samsun]], [[Siirt Airport|Siirt]], [[Skopje International Airport|Skopje]], [[Şanlıurfa GAP Airport|Şanlıurfa]], [[Şırnak Airport|Şırnak]], [[Islam Karimov Tashkent International Airport|Tashkent]], [[Tbilisi International Airport|Tbilisi]], [[Imam Khomeini International Airport|Tehran–Imam Khomeini]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Tokat Airport|Tokat]], [[Trabzon Airport|Trabzon]], [[Van Airport|Van]], [[Vienna International Airport|Vienna]] <br /> '''Seasonal:''' [[Brussels Airport|Brussels]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Geneva Airport|Geneva]], [[Hamburg Airport|Hamburg]], [[Munich Airport|Munich]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| {{nowrap|[[Ariana Afghan Airlines]]}} | [[Kabul International Airport|Kabul]]
+<!-- -->
+| {{nowrap|[[Azerbaijan Airlines]]}} | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[Caspian Airlines]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| {{nowrap|[[Corendon Airlines]]}} | '''Seasonal:''' [[Cologne Bonn Airport|Cologne/Bonn]], [[Düsseldorf Airport|Düsseldorf]], [[Nuremberg Airport|Nuremberg]]
+<!-- -->
+| [[FlyArystan]] | [[Nursultan Nazarbayev International Airport|Astana]]
+<!-- -->
+| [[Fly Baghdad]] | [[Baghdad International Airport|Baghdad]], [[Erbil International Airport|Erbil]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Fly Kıbrıs Airlines]] | [[Ercan International Airport|Ercan]]{{citation needed|date=November 2024}}<!-- IS THE ROUTE BETWEEN ERCAN AND ANKARA A REGULAR ROUTE FLOWN OVER A SUSTAINED PERIOD OR IS IT JUST ON OCCASIONAL DATES AROUND MAJOR PUBLIC HOLIDAYS ? -->
+<!-- -->
+| [[Iraqi Airways]] | [[Baghdad International Airport|Baghdad]], [[Erbil International Airport|Erbil]], [[Kirkuk Airport|Kirkuk]]
+<!-- -->
+| [[Kam Air]] | [[Kabul International Airport|Kabul]]
+<!-- -->
+| [[Mahan Air]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Almaty International Airport|Almaty]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Antalya Airport|Antalya]], [[Heydar Aliyev International Airport|Baku]], [[Milas–Bodrum Airport|Bodrum]], [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Tekirdağ Çorlu Airport|Çorlu]], [[Dalaman Airport|Dalaman]], [[Dubai International Airport|Dubai–International]], [[Düsseldorf Airport|Düsseldorf]], [[Erbil International Airport|Erbil]], [[Ercan International Airport|Ercan]], [[Frankfurt Airport|Frankfurt]], [[Hamburg Airport|Hamburg]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[İzmir Adnan Menderes Airport|İzmir]], [[King Abdulaziz International Airport|Jeddah]], [[Kraków John Paul II International Airport|Kraków]], [[London Stansted Airport|London–Stansted]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Sharjah International Airport|Sharjah]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Stuttgart Airport|Stuttgart]], [[Tbilisi International Airport|Tbilisi]], [[Imam Khomeini International Airport|Tehran–Imam Khomeini]], [[Vienna International Airport|Vienna]], [[Warsaw Chopin Airport|Warsaw–Chopin]] <br /> '''Seasonal:''' [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Berlin Brandenburg Airport|Berlin]], [[Copenhagen Airport|Copenhagen]], [[Lisbon Airport|Lisbon]], [[Moscow Domodedovo Airport|Moscow–Domodedovo]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz Airport|Medina]]
+<!-- -->
+| [[Sepehran Airlines]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[SunExpress]] | [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Hannover Airport|Hannover]], [[Munich Airport|Munich]] <br /> '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Berlin Brandenburg Airport|Berlin]], [[Brussels Airport|Brussels]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Copenhagen Airport|Copenhagen]], [[Hamburg Airport|Hamburg]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Stuttgart Airport|Stuttgart]], [[Tbilisi International Airport|Tbilisi]], [[Vienna International Airport|Vienna]], [[Zurich Airport|Zürich]]
+<!-- -->
+| [[Transavia]] | [[Paris Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[UR Airlines]] | [[Baghdad International Airport|Baghdad]]
+<!-- -->
+| {{nowrap|[[Uzbekistan Airways]]}} | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Wizz Air]] | [[Budapest Airport|Budapest]]
+<!-- -->
+}}

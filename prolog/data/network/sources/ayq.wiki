@@ -1,0 +1,11 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Jetstar]] | [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Qantas]] | [[Sydney Airport|Sydney]]
+<!-- -->
+| [[QantasLink]]| [[Cairns Airport|Cairns]]
+<!-- -->
+| [[Virgin Australia]]| [[Melbourne Airport|Melbourne]] (ends October 25 2026)<br />'''Seasonal:''' [[Brisbane Airport|Brisbane]] (ends October 24 2026)}}

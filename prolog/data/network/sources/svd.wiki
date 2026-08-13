@@ -1,0 +1,43 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+|[[Air Adelphi]] | '''Seasonal charter:''' [[Grantley Adams International Airport|Barbados]], [[Mustique Airport|Mustique]], [[Hewanorra International Airport|St. Lucia–Hewanorra]]
+| [[Air Canada]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]<br /> '''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[Caribbean Airlines]] | [[Grantley Adams International Airport|Barbados]], [[George F. L. Charles Airport|Castries]], [[Maurice Bishop International Airport|Grenada]], [[John F Kennedy International Airport|New York–JFK]], [[Piarco International Airport|Port of Spain]]
+<!-- -->
+| [[Delta Air Lines]] |[[Hartsfield–Jackson Atlanta International Airport|Atlanta]] (ends September 5, 2026) 
+<!-- -->
+| {{nowrap|[[InterCaribbean Airways]]}} | [[Grantley Adams International Airport|Barbados]], [[George F. L. Charles Airport|Castries]], [[Maurice Bishop International Airport|Grenada]]
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[Liat20]] | [[V. C. Bird International Airport|Antigua]]
+<!-- -->
+| [[Mustique Airways]] | [[Grantley Adams International Airport|Barbados]], [[J. F. Mitchell Airport|Bequia]], [[Canouan Airport|Canouan]], [[Mustique Airport|Mustique]]
+<!-- -->
+| [[Sunrise Airways]] | [[V. C. Bird International Airport|Antigua]], [[George F. L. Charles Airport|Castries]], [[Douglas–Charles Airport|Dominica–Douglas-Charles]]
+<!-- -->
+| [[SVG Air]] | [[V. C. Bird International Airport|Antigua]], [[Grantley Adams International Airport|Barbados]], [[J. F. Mitchell Airport|Bequia]], [[Canouan Airport|Canouan]], [[Lauriston Airport|Carriacou]], [[George F. L. Charles Airport|Castries]], [[Canefield Airport|Dominica–Canefield]], [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[Maurice Bishop International Airport|Grenada]], [[Mustique Airport|Mustique]], [[Union Island Airport|Union Island]]
+<!-- -->
+| [[Virgin Atlantic]] | [[Grantley Adams International Airport|Barbados]], [[London Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Winair]] | [[George F. L. Charles Airport|Castries]], [[Princess Juliana International Airport|St. Maarten]]
+<!-- -->
+}}
+
+===Cargo===
+{{airport-dest-list
+<!-- -->
+|[[Air Cargo Carriers]] | [[George F. L. Charles Airport|Castries]], [[Douglas–Charles Airport|Dominica–Douglas-Charles]], [[Luis Muñoz Marín International Airport|San Juan]], [[Robert L. Bradshaw International Airport|St. Kitts]]
+<!-- -->
+|[[Amerijet International]] | [[Grantley Adams International Airport|Barbados]], [[Miami International Airport|Miami]], [[Piarco International|Port of Spain]], [[Hewanorra International Airport|St. Lucia–Hewanorra]]
+<!-- -->
+|[[DHL Aviation]] | [[George F. L. Charles Airport|Castries]], [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[Maurice Bishop International Airport|Grenada]], [[Piarco International|Port of Spain]]
+<!-- -->
+|[[FedEx Express]] | [[Rafael Hernández Airport|Aguadilla]],  [[George F. L. Charles Airport|Castries]], [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[Maurice Bishop International Airport|Grenada]]
+<!-- -->
+}}

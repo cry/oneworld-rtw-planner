@@ -1,0 +1,17 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Do]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[ANA Wings]] | [[New Chitose Airport|Sapporo–Chitose]]
+<!-- -->
+| [[Hokkaido Air System]] | [[Okadama Airport|Sapporo–Okadama]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Peach Aviation]] | '''Seasonal:''' [[Kansai International Airport|Osaka–Kansai]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+}}
+
+International charter flights to Kushiro began in 2000 and have operated from [[South Korea]], [[Taiwan]] and [[Hong Kong]].

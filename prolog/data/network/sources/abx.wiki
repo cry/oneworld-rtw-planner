@@ -1,0 +1,10 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list
+<!-- -->
+|[[QantasLink]]| [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+<!-- -->
+|[[Rex Airlines]]| [[Sydney Airport|Sydney]]
+}}
+
+The airport is serviced by QantasLink, using the [[Embraer E-Jet family|Embraer E190AR]], operated by [[Alliance Airlines]], for Brisbane Flights. QantasLink also operates Q400s to Sydney; Rex Airlines, who uses 36-seat [[Saab 340]]s on services to Sydney and formerly Melbourne.

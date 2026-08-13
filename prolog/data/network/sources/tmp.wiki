@@ -1,0 +1,15 @@
+== Airlines and destinations ==
+The following airlines operate regular scheduled and charter flights at Tampere–Pirkkala Airport:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE/ AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[Aegean Airlines]]}} | '''Seasonal:''' [[Rhodes International Airport|Rhodes]]
+<!-- -->
+| [[airBaltic]] | [[Málaga Airport|Málaga]], [[Riga International Airport|Riga]] <br/> '''Seasonal:''' [[Gran Canaria Airport|Gran Canaria]], 
+<!-- -->
+| {{nowrap|[[Finnair]]}} |  [[Oulu Airport|Oulu]] [[Helsinki Airport|Helsinki]] (resumes October 2026) 
+<!-- -->
+|[[Jettime]]| '''Seasonal:''' [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+}}

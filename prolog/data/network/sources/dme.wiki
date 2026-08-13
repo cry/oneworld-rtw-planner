@@ -1,0 +1,49 @@
+==Airlines and destinations==
+===Passenger===
+In response to the [[Russian invasion of Ukraine]] in February 2022, many countries have moved to ban Russian airlines from their air space and many countries ban airlines from flying in and out of Russian airspace. Other airlines from the [[European Union]], [[North America]], the [[United Kingdom]], [[Switzerland]], [[Norway]], [[Iceland]], [[South Korea]], [[Japan]], [[Taiwan]] and [[Singapore]] have indefinitely suspended their services to Domodedovo.{{citation needed|date=July 2026}}
+
+The following airlines operate regular scheduled and charter services to and from Domodedovo:
+{{Airport destination list
+<!-- -->
+| [[Air Arabia]] | [[Ras Al Khaimah International Airport|Ras Al Khaimah]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| {{nowrap|[[Azerbaijan Airlines]]}} | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[Belavia]] | [[Minsk National Airport|Minsk]]
+<!-- -->
+| [[Centrum Air]] | [[Namangan Airport|Namangan]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]],{{citation needed|date=July 2026}} [[Hurghada International Airport|Hurghada]],{{citation needed|date=July 2026}} [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[El Al]] | [[David Ben Gurion International Airport|Tel Aviv]] (suspended)
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai-International]]
+<!-- -->
+| {{nowrap|[[Somon Air]]}} | [[Dushanbe International Airport|Dushanbe]]
+<!-- -->
+| {{nowrap|[[Ethiopian Airlines]]}} | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Izhavia]] | [[Izhevsk Airport|Izhevsk]] (suspended)
+<!-- -->
+| [[NordStar]] | [[Kurumoch Airport|Samara]], [[Ufa International Airport|Ufa]], [[Beslan Airport|Vladikavkaz]]
+<!-- -->
+| [[Qanot Sharq]] | [[Bukhara International Airport|Bukhara]],{{citation needed|date=July 2026}} [[Fergana International Airport|Fergana]],{{citation needed|date=July 2026}} [[Namangan Airport|Namangan]],{{citation needed|date=July 2026}} [[Islam Karimov Tashkent International Airport|Tashkent]]{{citation needed|date=July 2026}}
+<!-- -->
+| {{nowrap|[[Royal Jordanian]]}} | [[Queen Alia International Airport|Amman–Queen Alia]]{{citation needed|date=July 2026}}
+<!-- -->
+| [[Sky FRU]] | [[Manas International Airport|Bishkek]]
+<!-- -->
+| [[Severstal Avia]] | [[Cherepovets Airport|Cherepovets]]
+<!-- -->
+| [[S7 Airlines]] | [[Ashgabat Airport|Ashgabat]], [[Antalya Airport|Antalya]], [[Kadala Airport|Chita]], [[Gorno-Altaysk Airport|Gorno-Altaysk]], [[International Airport Irkutsk|Irkutsk]], [[Izhevsk Airport|Izhevsk]], [[Khrabrovo Airport|Kaliningrad]], [[Kyzyl Airport|Kyzyl]], [[Uytash Airport|Makhachkala]], [[Alykel Airport|Norilsk]], [[Spichenkovo Airport|Novokuznetsk]], [[Tolmachevo Airport|Novosibirsk]], [[Öskemen Airport|Öskemen]], [[Penza Vissarion Belinsky Airport|Penza]] (ends {{date|2026-9-7}}), [[Pulkovo Airport|Saint Petersburg]], [[Ufa International Airport|Ufa]], [[Baikal International Airport|Ulan-Ude]], [[Beslan Airport|Vladikavkaz]] <br/> '''Seasonal:''' [[Al Maktoum International Airport|Dubai–Al Maktoum]] (suspended)
+<!-- -->
+| [[Ural Airlines]] | [[Ignatyevo Airport|Blagoveshchensk]],{{citation needed|date=July 2026}} [[Istanbul International Airport|Istanbul]],{{citation needed|date=July 2026}} [[Khrabrovo Airport|Kaliningrad]],{{citation needed|date=July 2026}} [[Krasnodar International Airport|Krasnodar]], [[Namangan Airport|Namangan]], [[Noyabrsk Airport|Noyabrsk]], [[Qarshi Airport|Qarshi]], [[Samarqand International Airport|Samarqand]], [[Zvartnots International Airport|Yerevan]]{{citation needed|date=July 2026}} <br/> '''Seasonal:''' [[Gelendzhik Airport|Gelendzhik]]{{citation needed|date=July 2026}} <br/> '''Seasonal charter:''' [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Suparna Airlines]]}} | [[Nanjing Lukou International Airport|Nanjing]], [[Zhengzhou Xinzheng International Airport|Zhengzhou]]
+<!-- -->
+}}

@@ -1,0 +1,30 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte/Douglas International Airport|Charlotte]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+| [[Breeze Airways]] | [[Harry Reid International Airport|Las Vegas]], [[Orlando International Airport|Orlando]], [[Tampa International Airport|Tampa]]
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis-Saint Paul International Airport|Minneapolis/St. Paul]]
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Gulfport–Biloxi International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | green | Green}} = Seasonal destination <br /> {{font color | blue | Blue}} = Future destination
+|places=
+{{Location map~ |United_States |lat=30.4131|long=-89.0728 |position=top |label='''<small>Gulfport–Biloxi</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.63666|long=-84.428056 |position=right |label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424 |position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=29.990140|long=-95.336792 |position=under |label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=28.4230|long=-81.3115 |position=under |label='''<small>[[Orlando International Airport|Orlando]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=35.213889|long=-80.943056 |position=under |label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=44.884690|long=-93.222430|position=left|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United_States
+|lat=36.08|long=-115.152222|position=left|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=90|marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United_States
+|lat=27.979722|long=-82.534722|position=left|label='''<small>[[Tampa International Airport|Tampa]]</small>'''|label_size=90|marksize=7 }}
+}}
+|}

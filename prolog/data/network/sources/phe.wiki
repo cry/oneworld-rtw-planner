@@ -1,0 +1,18 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Alliance Airlines]] | [[Perth Airport|Perth]]
+<!-- -->
+| [[Aviair]] | [[Newman Airport|Newman]]
+<!-- -->
+|[[Nexus Airlines (Australia)|Nexus Airlines]] | [[Broome Airport|Broome]], [[Geraldton Airport|Geraldton]], [[Karratha Airport|Karratha]]{{cn|date=May 2025}}
+<!-- -->
+| [[Qantas]] | [[Perth Airport|Perth]]
+<!-- -->
+| [[QantasLink]] | [[Perth Airport|Perth]]
+<!-- -->
+| [[Virgin Australia]] | [[Perth Airport|Perth]]
+<!-- -->
+| [[Virgin Australia Regional Airlines]] | [[Perth Airport|Perth]]
+}}

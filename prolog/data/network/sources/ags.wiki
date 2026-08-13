@@ -1,0 +1,67 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Reagan National Airport|Washington–National]]
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Augusta Regional Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=33.3689 |long=-81.9658 |position=right |label=<div style="position:relative; top:-5px;"><small>'''Augusta'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=left |label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>''' |label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=35.213889 |long=-80.943056 |position=right |label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=38.851047 |long=-77.040320 |position=right |label='''<small>[[Reagan National Airport|Washington–National]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas–Fort Worth]]</small>'''|label_size=80 |marksize=7}}
+}}
+|}
+
+===Top destinations===
+{| class="wikitable sortable" style="font-size: 95%" width= align=
+|+ '''Busiest domestic routes from Augusta Regional at Bush Field<br />(December 2023 – November 2024)'''
+|-
+! Rank
+! City
+! Passengers
+|-
+| 1
+| [[Hartsfield–Jackson Atlanta International Airport|Atlanta, Georgia]]
+| 144,940
+|-
+| 2
+| [[Charlotte Douglas International Airport|Charlotte, North Carolina]]
+| 101,160
+|-
+| 3
+| [[Dallas/Fort Worth International Airport|Dallas/Fort Worth, Texas]]
+| 23,850
+|-
+| 4
+| [[Ronald Reagan Washington National Airport|Washington (Reagan), DC]]
+| 16,520
+|-
+| 5
+| [[LaGuardia Airport|New York (LaGuardia), New York]]
+| 1,980
+|-
+| 6
+| [[Philadelphia International Airport|Philadelphia, Pennsylvania]]
+| 840
+|-
+| 7
+| [[Logan International Airport|Boston, Massachusetts]]
+| 800
+|-
+| 8
+| [[Detroit Metropolitan Airport|Detroit, Michigan]]
+| 630
+|-
+| 7
+| [[Miami International Airport|Miami, Florida]]
+| 580
+|}

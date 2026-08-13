@@ -1,0 +1,12 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+| [[Air Canada]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+| [[American Airlines]] | '''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]]{{cn|date=June 2025}}
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]]
+| [[Bahamasair]] |[[Lynden Pindling International Airport|Nassau]], [[Rock Sound International Airport|Rock Sound]]<br/> '''Seasonal:''' [[Fort Lauderdale-Hollywood International Airport|Fort Lauderdale]]
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| [[Western Air]] | [[Lynden Pindling International Airport|Nassau]]
+}}

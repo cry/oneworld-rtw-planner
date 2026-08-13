@@ -1,0 +1,35 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[Air Canada Rouge]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]<br />'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[British Airways]] | [[V. C. Bird International Airport|Antigua]], [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Cape Air]] | [[Vance W. Amory International Airport|Nevis]], [[Cyril E. King Airport|St. Thomas]]
+<!-- -->
+| [[Delta Air Lines]] | '''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| {{nowrap|[[InterCaribbean Airways]]}} | [[Grantley Adams International Airport|Barbados]], [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[Sky High Aviation Services|Sky High]] | [[Las Americas International Airport|Santo Domingo–Las Americas]]
+<!-- -->
+| [[Sunrise Airways]] | [[V. C. Bird International Airport|Antigua]], [[Princess Juliana International Airport|Sint Maarten]]
+<!-- -->
+| [[Trans Anguilla Airways]] | [[Clayton J. Lloyd International Airport|Anguilla]], [[V. C. Bird International Airport|Antigua]], [[F.D. Roosevelt Airport|St. Eustatius]]
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[Winair]] | [[V. C. Bird International Airport|Antigua]], [[Grantley Adams International Airport|Barbados]], [[Douglas–Charles Airport|Dominica–Douglas-Charles]], [[Princess Juliana International Airport|Sint Maarten]], [[Terrance B. Lettsome International Airport|Tortola]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+| [[Air Cargo Carriers]] | [[Douglas–Charles Airport|Dominica–Douglas-Charles]]
+| [[Amerijet International]] | [[Miami International Airport|Miami]]
+| [[FedEx Express]] | [[Luis Muñoz Marín International Airport|San Juan]]
+}}

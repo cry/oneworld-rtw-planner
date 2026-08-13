@@ -1,0 +1,31 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines operate regular scheduled and charter flights at Dr. António Agostinho Neto International Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Airlink]] | [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[ASKY Airlines]] | [[Lomé–Tokoin International Airport|Lomé]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]{{cn|date=November 2025}}
+<!-- -->
+| [[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| {{nowrap|[[TAAG Angola Airlines]]}} | [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Maya-Maya Airport|Brazzaville]],{{cn|date=November 2025}} [[Cabinda Airport|Cabinda]], [[Cape Town International Airport|Cape Town]],{{cn|date=November 2025}} [[Guangzhou Baiyun International Airport|Guangzhou]], [[José Martí International Airport|Havana]],{{cn|date=November 2025}} [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]],{{cn|date=November 2025}} [[N'djili Airport|Kinshasa–N'djili]],{{cn|date=November 2025}} [[Murtala Muhammed International Airport|Lagos]],{{cn|date=November 2025}} [[Lisbon Airport|Lisbon]],{{cn|date=November 2025}} [[Maputo International Airport|Maputo]],{{cn|date=November 2025}} [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]],{{cn|date=November 2025}} [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[São Tomé International Airport|São Tomé]],{{cn|date=November 2025}} [[Hosea Kutako International Airport|Windhoek–Hosea Kutako]]{{cn|date=November 2025}} <br/>'''Seasonal:''' [[Porto Airport|Porto]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Portela Airport|Lisbon]], [[Porto Airport|Porto]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] (suspended)
+<!-- -->
+| [[Air Algerie]] | [[Houari Boumediene Airport|Algiers]] | 
+<!-- -->
+}}

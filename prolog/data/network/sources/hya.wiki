@@ -1,0 +1,29 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]]
+| [[Cape Air]] | [[Logan International Airport|Boston]], [[Martha's Vineyard Airport|Martha's Vineyard]], [[Nantucket Memorial Airport|Nantucket]]<br />'''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+| [[JetBlue]] | '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+| {{nowrap|[[Nantucket Airlines]]}} | [[Martha's Vineyard Airport|Martha's Vineyard]], [[Nantucket Memorial Airport|Nantucket]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+! Destinations map
+|-
+|{{Location map+ |USA Northeast |width=1000 |float=center
+|caption=All destinations from Cape Cod Gateway Airport
+{{font color | red |• Red}} represents year-round destinations. <br />
+{{font color | green |• Green}} represents seasonal destinations. <br />
+{{font color | blue |• Blue}} represents future destinations. 
+|places=
+{{Location map~ |USA Northeast |lat=41.6673379|long=-70.2880129791294|position=top|label='''''Hyannis'''''|caption=|mark=Airplane_silhouette.svg |label_size=90|marksize=20}}
+{{Location map~ |USA Northeast |lat=42.3656132|long=-71.0127929946005|position=left|label='''{{nowrap|[[Logan International Airport|Boston]]}}'''|label_size=90|marksize=7|mark=Red pog.svg}}
+{{Location map~ |USA Northeast |lat=38.851242|long=-77.0436389448177|position=right|label='''{{nowrap|[[Ronald Reagan Washington National Airport|Washington–National]]}}'''|label_size=90|marksize=7|mark=Green pog.svg}}
+{{Location map~ |USA Northeast |lat=40.6413111975452|long=-73.7781391|position=bottom|label='''{{nowrap|[[John F. Kennedy International Airport|New York–JFK]]}}'''|label_size=90|marksize=7|mark=Green pog.svg}}
+{{Location map~ |USA Northeast |lat=40.7734851975452|long=-73.8855943|position=right|label='''{{nowrap|[[LaGuardia Airport|New York–LaGuardia]]}}'''|label_size=90|marksize=7|mark=Green pog.svg}}
+{{Location map~ |USA Northeast |lat=41.2569516|long=-70.0670398274787|position=bottom|label='''{{nowrap|[[Nantucket Memorial Airport|Nantucket]]}}'''|label_size=90|marksize=7|mark=Red pog.svg}}
+{{Location map~ |USA Northeast |lat=41.388145|long=-70.6171506147648|position=left|label='''{{nowrap|[[Martha's Vineyard Airport|Martha's Vineyard]]}}'''|label_size=90|marksize=7|mark=Red pog.svg}} 
+{{Location map~ |USA Northeast |lat=41.978611|long=-87.904722|position=left|label='''{{nowrap|[[O'Hare International Airport|Chicago-O'Hare]]}}'''|label_size=90|marksize=7|mark=Green pog.svg}} 
+{{Location map~ |USA Northeast |lat=39.871944|long=-75.241111|position=left|label='''{{nowrap|[[Philadelphia International Airport|Philadelphia]]}}'''|label_size=90|marksize=7|mark=Green pog.svg}}
+}}
+|}

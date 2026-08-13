@@ -1,0 +1,38 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+| [[Aerus (airline)|Aerus]] | [[Monterrey International Airport|Monterrey]]
+| [[Allegiant Air]] | [[Harry Reid International Airport|Las Vegas]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+}}
+
+===Destinations map===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Laredo International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=27.543889 |long=-99.461667 |position=right |label={{lower|5px|<small>'''Laredo'''</small>}}|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=29.990140|long=-95.336792 |position=left |label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=36.083697|long=-115.153873|position=top |label='''<small>[[McCarran International Airport|Las Vegas]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=top |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |USA |lat=25.6866|long=-100.3161 |position=right|label='''<small>[[Monterrey International Airport|Monterrey]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Airport-dest-list
+| [[ABX Air]] | [[Cincinnati/Northern Kentucky International Airport|Cincinnati]]
+<!-- -->
+| [[Aeronaves TSM]] | [[Ciudad Juárez International Airport|Ciudad Juárez]], [[El Paso International Airport|El Paso]], [[Gary/Chicago International Airport|Gary]], [[Piedmont Triad International Airport|Greensboro]], [[Donaldson Center Airport|Greenville]], [[Kansas City International Airport|Kansas City]], [[Oakland San Francisco Bay Airport|Oakland]], [[Puebla International Airport|Puebla]], [[Querétaro Intercontinental Airport|Querétaro]], [[Saltillo Airport|Saltillo]], [[Toledo Express Airport|Toledo]]
+<!-- -->
+| [[Ameristar Jet Charter|Ameristar Air Cargo]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+| [[FedEx Express]] | [[Memphis International Airport|Memphis]], [[San Antonio International Airport|San Antonio]]
+<!-- -->
+| [[UPS Airlines]] | [[Louisville Muhammad Ali International Airport|Louisville]], [[San Antonio International Airport|San Antonio]]
+}}

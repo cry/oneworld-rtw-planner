@@ -1,0 +1,6 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines themselves are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]]
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+|}}

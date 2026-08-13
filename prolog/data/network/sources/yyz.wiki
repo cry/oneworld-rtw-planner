@@ -1,0 +1,152 @@
+== Airlines and destinations ==
+=== Passenger ===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Aer Lingus]] | [[Dublin Airport|Dublin]] | 
+<!-- -->
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]] | 
+<!-- -->
+| [[Air Canada]] | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT -->[[Amsterdam Airport Schiphol|Amsterdam]], [[Austin–Bergstrom International Airport|Austin]], [[Grantley Adams International Airport|Barbados]], [[El Dorado International Airport|Bogotá]], [[Logan International Airport|Boston]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Calgary International Airport|Calgary]], [[Cancún International Airport|Cancún]], [[O'Hare International Airport|Chicago–O'Hare]], [[Copenhagen Airport|Copenhagen]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Denver International Airport|Denver]], [[Dubai International Airport|Dubai–International]] (suspended until January 18, 2027), [[Dublin Airport|Dublin]], [[Edmonton International Airport|Edmonton]], [[Frankfurt Airport|Frankfurt]], [[Maurice Bishop International Airport|Grenada]], [[Halifax Stanfield International Airport|Halifax]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Guanacaste Airport|Liberia (CR)]], [[Lisbon Airport|Lisbon]], [[Heathrow Airport|London–Heathrow]], [[Los Angeles International Airport|Los Angeles]], [[Manchester Airport|Manchester (UK)]],  [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Miami International Airport|Miami]], [[Sangster International Airport|Montego Bay]], [[Monterrey International Airport|Monterrey]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Munich Airport|Munich]], [[Nashville International Airport|Nashville]], [[Lynden Pindling International Airport|Nassau]], [[LaGuardia Airport|New York–LaGuardia]], [[Newark Liberty International Airport|Newark]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Piarco International Airport|Port of Spain]], [[Providenciales International Airport|Providenciales]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Québec City Jean Lesage International Airport|Québec City]], [[Regina International Airport|Regina]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[St. John's International Airport|St. John's (NL)]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[Juan Santamaría International Airport|San José (CR)]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Saskatoon John G. Diefenbaker International Airport|Saskatoon]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Ben Gurion Airport|Tel Aviv]] (suspended until January 18, 2027), [[Thunder Bay International Airport|Thunder Bay]], [[Haneda Airport|Tokyo–Haneda]], [[Narita International Airport|Tokyo–Narita]], [[Vancouver International Airport|Vancouver]], [[Victoria International Airport|Victoria]], [[Vienna International Airport|Vienna]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]], [[Yellowknife Airport|Yellowknife]] (ends September 1, 2026), [[Zurich Airport|Zurich]]<br /> '''Seasonal:''' [[Athens International Airport|Athens]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Brussels Airport|Brussels]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Rafael Núñez International Airport|Cartagena]], [[Edinburgh Airport|Edinburgh]], [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Exuma International Airport|George Town]], [[Guadalajara International Airport|Guadalajara]], [[Daniel K. Inouye International Airport|Honolulu]], [[Harry Reid International Airport|Las Vegas]], [[Jorge Chávez International Airport|Lima]], [[Madrid–Barajas Airport|Madrid]], [[Mérida International Airport|Mérida]] (begins November 21, 2026), [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Greater Moncton Roméo LeBlanc International Airport|Moncton]], [[Orlando International Airport|Orlando]], [[Kansai International Airport|Osaka–Kansai]], [[Palm Springs International Airport|Palm Springs]], [[Philadelphia International Airport|Philadelphia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Pointe-à-Pitre International Airport|Pointe-à-Pitre]], [[John Paul II Ponta Delgada Airport|Ponta Delgada]], [[Václav Havel Airport Prague|Prague]], [[Gregorio Luperón International Airport|Puerto Plata]], [[Punta Cana International Airport|Punta Cana]], [[Mariscal Sucre International Airport|Quito]] (begins December 5, 2026), [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Keflavík International Airport|Reykjavík–Keflavík]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[Juan Manuel Gálvez International Airport|Roatán]] (begins December 13, 2026), [[Sacramento International Airport|Sacramento]], [[San Antonio International Airport|San Antonio]], [[Los Cabos International Airport|San José del Cabo]], [[Saint John Airport|Saint John (NB)]], [[St. Louis Lambert International Airport|St. Louis]], [[Princess Juliana International Airport|St. Maarten]], [[Arturo Merino Benítez International Airport|Santiago de Chile]], [[Sarasota–Bradenton International Airport|Sarasota]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Tenerife South Airport|Tenerife–South]] (begins October 25, 2026), [[Tulum International Airport|Tulum]], [[Venice Marco Polo Airport|Venice]], [[Palm Beach International Airport|West Palm Beach]] | 
+<!-- -->
+| [[Air Canada Express]] | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT -->[[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Logan International Airport|Boston]], [[Charleston International Airport|Charleston (SC)]], [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Cleveland Hopkins International Airport|Cleveland]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Detroit Metropolitan Airport|Detroit]], [[London International Airport|London (ON)]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Nashville International Airport|Nashville]], [[LaGuardia Airport|New York–LaGuardia]], [[Newark Liberty International Airport|Newark]], [[Philadelphia International Airport|Philadelphia]], [[Pittsburgh International Airport|Pittsburgh]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[St. Louis Lambert International Airport|St. Louis]], [[Saint John Airport|Saint John (NB)]], [[Sault Ste. Marie Airport|Sault Ste. Marie (ON)]], [[Sudbury Airport|Sudbury]], [[JA Douglas McCurdy Sydney Airport|Sydney (NS)]], [[Timmins Victor M. Power Airport|Timmins]], [[Dulles International Airport|Washington–Dulles]], [[Ronald Reagan Washington National Airport|Washington–National]], [[Windsor International Airport|Windsor]]<br /> '''Seasonal:''' [[Deer Lake Regional Airport|Deer Lake]], [[Fredericton International Airport|Fredericton]], [[Gander International Airport|Gander]], [[Indianapolis International Airport|Indianapolis]], [[Jacksonville International Airport|Jacksonville (FL)]] | 
+<!-- -->
+| [[Air Canada Rouge]] | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT -->[[V. C. Bird International Airport|Antigua]], [[Queen Beatrix International Airport|Aruba]], [[L.F. Wade International Airport|Bermuda]], [[Cancún International Airport|Cancún]], [[Charlottetown Airport|Charlottetown]], [[Curaçao International Airport|Curaçao]], [[Deer Lake Regional Airport|Deer Lake]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Fort McMurray International Airport|Fort McMurray]], [[Southwest Florida International Airport|Fort Myers]], [[Fredericton International Airport|Fredericton]], [[Owen Roberts International Airport|Grand Cayman]], [[Kelowna International Airport|Kelowna]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Harry Reid International Airport|Las Vegas]], [[Miami International Airport|Miami]], [[Greater Moncton Roméo LeBlanc International Airport|Moncton]], [[Louis Armstrong New Orleans International Airport|New Orleans]], [[Orlando International Airport|Orlando]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Punta Cana International Airport|Punta Cana]], [[Québec City Jean Lesage International Airport|Québec City]],  [[St. John's International Airport|St. John's (NL)]], [[Hewanorra International Airport|St. Lucia–Hewanorra]], [[Argyle International Airport|St. Vincent–Argyle]], [[Tampa International Airport|Tampa]], [[Thunder Bay International Airport|Thunder Bay]], [[Victoria International Airport|Victoria]] <br /> '''Seasonal:''' [[Philip S. W. Goldson International Airport|Belize City]], [[Cozumel International Airport|Cozumel]], [[Bahías de Huatulco International Airport|Huatulco]], [[Ixtapa-Zihuatanejo International Airport|Ixtapa/Zihuatanejo]], [[Nanaimo Airport|Nanaimo]],  [[Puerto Escondido International Airport|Puerto Escondido]], [[Robert L. Bradshaw International Airport|St. Kitts]], [[Saint John Airport|Saint John (NB)]], [[Salt Lake City International Airport|Salt Lake City]], [[Samaná El Catey International Airport|Samaná]], [[Luis Muñoz Marín International Airport|San Juan]], [[Yellowknife Airport|Yellowknife]] | 
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]] | 
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]] | 
+<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]]<br /> '''Seasonal:''' [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]] (begins October 25, 2026)| 
+<!-- -->
+| [[Air North]] | [[Erik Nielsen Whitehorse International Airport|Whitehorse]], [[Yellowknife Airport|Yellowknife]] | 
+<!-- -->
+| [[Air Serbia]] | '''Seasonal:''' [[Belgrade Nikola Tesla Airport|Belgrade]] |
+<!-- -->
+| [[Air Transat]] | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT -->[[Cancún International Airport|Cancún]], [[Rafael Núñez International Airport|Cartagena]], [[Faro Airport|Faro]], [[Glasgow Airport|Glasgow]], [[Istanbul Airport|Istanbul]],  [[Jorge Chávez International Airport|Lima]], [[Lisbon Airport|Lisbon]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester (UK)]], [[José María Córdova International Airport|Medellín–JMC]], [[Sangster International Airport|Montego Bay]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Porto Airport|Porto]], [[Gregorio Luperón International Airport|Puerto Plata]], [[Punta Cana International Airport|Punta Cana]], [[Samaná El Catey International Airport|Samaná]] <br /> '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Athens International Airport|Athens]], [[Berlin Brandenburg Airport|Berlin]], [[Dublin Airport|Dublin]], [[Martinique Aimé Césaire International Airport|Fort-de-France]] (begins December 19, 2026), [[Cheddi Jagan International Airport|Georgetown–Cheddi Jagan]], [[Gran Canaria Airport|Gran Canaria]] (begins December 13, 2026), [[Lamezia Terme International Airport|Lamezia Terme]], [[La Romana International Airport|La Romana]], [[Guanacaste Airport|Liberia (CR)]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[Scarlett Martínez International Airport|Río Hato]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Princess Juliana International Airport|St. Maarten]], [[Juan Santamaría International Airport|San José (CR)]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Venice Marco Polo Airport|Venice]], [[Zagreb Airport|Zagreb]] | 
+<!-- -->
+| [[Alaska Airlines]] | [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+<!-- -->
+| [[American Airlines]] |  [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]] | 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]]  | 
+<!-- -->
+| [[Arajet]] | [[Punta Cana International Airport|Punta Cana]] | 
+<!-- --> 
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]] | 
+<!-- -->
+| [[Avianca El Salvador]] | [[El Salvador International Airport|San Salvador]] | 
+<!-- -->
+| [[Azores Airlines]] | [[John Paul II Ponta Delgada Airport|Ponta Delgada]]<br /> '''Seasonal:''' [[Madeira Airport|Funchal]], [[Lajes Airport|Terceira]] | 
+<!-- -->
+| [[BermudAir]] | [[L.F. Wade International Airport|Bermuda]] <br /> '''Seasonal:''' [[Clayton J. Lloyd International Airport|Anguilla]], [[Providenciales International Airport|Providenciales]] (both begin December 19, 2026) | 
+<!-- -->
+| [[Biman Bangladesh Airlines]] | [[Hazrat Shahjalal International Airport|Dhaka]] | 
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]] | 
+<!-- -->
+| [[Caribbean Airlines]] | [[Cheddi Jagan International Airport|Georgetown–Cheddi Jagan]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Piarco International Airport|Port of Spain]] | 
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]] | 
+<!-- -->
+| [[China Eastern Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]] | 
+<!-- -->
+| [[China Southern Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]] | 
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]] | 
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]<br>'''Seasonal:''' [[Salt Lake City International Airport|Salt Lake City]] | 
+<!-- -->
+| [[Delta Connection]] | [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[John F. Kennedy International Airport|New York–JFK]], [[LaGuardia Airport|New York–LaGuardia]] | 
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]] | 
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]] | 
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]] | 
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]] | 
+<!-- -->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]] | 
+<!-- -->
+| [[Finnair]]  | '''Seasonal:''' [[Helsinki Airport|Helsinki]] |  
+<!-- -->
+| [[Flair Airlines]] | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT -->[[Abbotsford International Airport|Abbotsford]], [[Calgary International Airport|Calgary]], [[Cancún International Airport|Cancún]], [[Edmonton International Airport|Edmonton]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Guadalajara International Airport|Guadalajara]], [[Halifax Stanfield International Airport|Halifax]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Greater Moncton Roméo LeBlanc International Airport|Moncton]], [[St. John's International Airport|St. John's (NL)]], [[Vancouver International Airport|Vancouver]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]<br /> '''Seasonal:''' [[Sangster International Airport|Montego Bay]], [[Orlando International Airport|Orlando]], [[Palm Springs International Airport|Palm Springs]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Punta Cana International Airport|Punta Cana]], [[Saint John Airport|Saint John (NB)]], [[Thunder Bay International Airport|Thunder Bay]] | 
+<!-- -->
+| [[Hainan Airlines]] | [[Beijing Capital International Airport|Beijing–Capital]] | 
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Madrid-Barajas Airport|Madrid]] |
+<!-- -->
+| [[Icelandair]] | [[Keflavík International Airport|Reykjavík–Keflavík]] | 
+<!-- -->
+| [[ITA Airways]] | '''Seasonal:''' [[Rome Fiumicino Airport|Rome–Fiumicino]] | 
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]] | 
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]] | 
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]] | 
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]] <br /> '''Seasonal:''' [[Munich Airport|Munich]] | 
+<!-- -->
+| {{nowrap|[[Pakistan International Airlines]]}} | [[Islamabad International Airport|Islamabad]], [[Jinnah International Airport|Karachi]], [[Allama Iqbal International Airport|Lahore]] | 
+<!-- -->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]] | 
+<!-- -->
+| [[Porter Airlines]] | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT --> [[Austin–Bergstrom International Airport|Austin]], [[Logan International Airport|Boston]], [[Calgary International Airport|Calgary]], [[Cancún International Airport|Cancún]], [[Edmonton International Airport|Edmonton]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Halifax Stanfield International Airport|Halifax]], [[Kelowna International Airport|Kelowna]], [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]], [[Montreal Metropolitan Airport|Montréal–MET]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[LaGuardia Airport|New York–LaGuardia]], [[Orlando International Airport|Orlando]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Québec City Jean Lesage International Airport|Québec City]], [[St. John's International Airport|St. John's (NL)]], [[San Francisco International Airport|San Francisco]], [[Saskatoon John G. Diefenbaker International Airport|Saskatoon]], [[Thunder Bay International Airport|Thunder Bay]], [[Vancouver International Airport|Vancouver]], [[Victoria International Airport|Victoria]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]] <br /> '''Seasonal:''' [[Queen Beatrix International Airport|Aruba]] (begins October 30, 2026), [[Charlottetown Airport|Charlottetown]], [[Deer Lake Regional Airport|Deer Lake]], [[Southwest Florida International Airport|Fort Myers]], [[Owen Roberts International Airport|Grand Cayman]], [[Guanacaste Airport|Liberia (CR)]], [[Miami International Airport|Miami]], [[Greater Moncton Roméo LeBlanc International Airport|Moncton]], [[Sangster International Airport|Montego Bay]] (begins November 23, 2026), [[Lynden Pindling International Airport|Nassau]], [[Palm Springs International Airport|Palm Springs]], [[Providenciales International Airport|Providenciales]] (begins November 6, 2026), [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Los Cabos International Airport|San José del Cabo]] (begins November 16, 2026), [[Juan Santamaría International Airport|San José (CR)]] (begins December 2, 2026), [[Tampa International Airport|Tampa]], [[Palm Beach International Airport|West Palm Beach]] | 
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]] | 
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]] | 
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]] | 
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]] | 
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]] | 
+<!-- -->
+| [[Sun Country Airlines]] | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] | 
+<!-- -->
+| [[Swiss International Air Lines]] | '''Seasonal:''' [[Zurich Airport|Zurich]] | 
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]] | 
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] | 
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[San Francisco International Airport|San Francisco]] | 
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]] | 
+<!-- -->
+| [[Virgin Atlantic]] | [[Heathrow Airport|London–Heathrow]] | 
+<!-- -->
+| [[WestJet]] | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT -->[[V. C. Bird International Airport|Antigua]], [[Queen Beatrix International Airport|Aruba]], [[Grantley Adams International Airport|Barbados]], [[Calgary International Airport|Calgary]], [[Cancún International Airport|Cancún]], [[Edmonton International Airport|Edmonton]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Southwest Florida International Airport|Fort Myers]], [[Owen Roberts International Airport|Grand Cayman]], [[Halifax Stanfield International Airport|Halifax]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Guanacaste Airport|Liberia (CR)]], [[Sangster International Airport|Montego Bay]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Lynden Pindling International Airport|Nassau]], [[Orlando International Airport|Orlando]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Gregorio Luperón International Airport|Puerto Plata]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Punta Cana International Airport|Punta Cana]], [[Regina International Airport|Regina]], [[Hewanorra International Airport|St. Lucia–Hewanorra]], [[Princess Juliana International Airport|St. Maarten]], [[Los Cabos International Airport|San José del Cabo]], [[Saskatoon John G. Diefenbaker International Airport|Saskatoon]], [[Tampa International Airport|Tampa]], [[Vancouver International Airport|Vancouver]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]<br /> '''Seasonal:''' [[Philip S. W. Goldson International Airport|Belize City]], [[Flamingo International Airport|Bonaire]], [[Cardiff Airport|Cardiff]], [[CFB Comox|Comox]], [[Cozumel International Airport|Cozumel]], [[Curaçao International Airport|Curaçao]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[Grand Bahama International Airport|Freeport]], [[Glasgow Airport|Glasgow]], [[Maurice Bishop International Airport|Grenada]], [[Bahías de Huatulco International Airport|Huatulco]], [[Mérida International Airport|Mérida]], [[Nashville International Airport|Nashville]], [[John Paul II Ponta Delgada Airport|Ponta Delgada]], [[Providenciales International Airport|Providenciales]], [[Juan Manuel Gálvez International Airport|Roatán]], [[St. John's International Airport|St. John's (NL)]], [[Samaná El Catey International Airport|Samaná]], [[Luis Muñoz Marín International Airport|San Juan]], [[Tulum International Airport|Tulum]] | 
+<!-- -->
+}}
+
+===Cargo===
+{{Expand section|with=airlines and airline routes with reliable sources|small=no|date=December 2025}}
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Air Canada Cargo]]}} | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[El Dorado International Airport|Bogotá]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Guadalajara International Airport|Guadalajara]], [[Jorge Chávez International Airport|Lima]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Miami International Airport|Miami]], [[Mariscal Sucre International Airport|Quito]], [[Juan Santamaría International Airport|San José (CR)]], [[Luis Muñoz Marín International Airport|San Juan]],
+<!-- -->
+| {{nowrap|[[Cathay Pacific Cargo]]}} | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| {{nowrap|[[China Airlines Cargo]]}} | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+|[[Emirates SkyCargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+| {{nowrap|[[EVA Air Cargo]]}} | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[FedEx Express]] | [[Edmonton International Airport|Edmonton]] 
+<!-- -->
+| [[FedEx Express]] <br /> operated by [[Morningstar Air Express]] | [[Edmonton International Airport|Edmonton]]
+<!-- -->
+| [[Korean Air Cargo]] | [[Ted Stevens Anchorage International Airport|Anchorage]], [[John F. Kennedy International Airport|New York–JFK]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Lufthansa Cargo]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+}}

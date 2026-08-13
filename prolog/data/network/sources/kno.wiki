@@ -1,0 +1,38 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Batik Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Thaha Airport|Jambi]], [[Changi Airport|Singapore]]
+<!-- -->
+| {{nowrap|[[Batik Air Malaysia]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Penang International Airport|Penang]]
+<!-- -->
+| [[Citilink]] | [[Husein Sastranegara Airport|Bandung–Husein Sastranegara]] (resumes 17 August 2026), [[Hang Nadim International Airport|Batam]], [[Halim Perdanakusuma International Airport|Jakarta–Halim Perdanakusuma]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| {{nowrap|[[Garuda Indonesia]]}} | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]] <br/> '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| {{nowrap|[[Indonesia AirAsia]]}} | [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Penang International Airport|Penang]]
+<!-- -->
+| [[Lion Air]] | [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]],{{efn|Balikpapan is the continuation of Batam flight, operating under the same flight number.}} [[Hang Nadim International Airport|Batam]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Penang International Airport|Penang]], [[Supadio International Airport|Pontianak]],{{efn|Pontianak is the continuation of Batam flight, operating under the same flight number.}} [[Juanda International Airport|Surabaya]],{{efn|Surabaya is the continuation of Batam flight, operating under the same flight number.}} [[Yogyakarta International Airport|Yogyakarta–International]] <br />'''Seasonal: ''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| {{nowrap|[[Malaysia Airlines]]}} | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Pelita Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| {{nowrap|[[Singapore Airlines]]}} | [[Changi Airport|Singapore]]
+<!-- -->
+| {{nowrap|[[Super Air Jet]]}} | [[Sultan Iskandar Muda International Airport|Banda Aceh]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Minangkabau International Airport|Padang]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Juanda International Airport|Surabaya]]
+<!-- -->
+| [[Susi Air]] | Blangkejeren, [[Jenderal Besar Abdul Haris Nasution Airport|Panyabungan]], [[Lasikin Airport|Sinabang]], [[Syekh Hamzah Fansyuri Airport|Singkil]], [[Rembele Airport|Takengon]]
+<!-- -->
+| [[Wings Air]] | [[Sultan Iskandar Muda International Airport|Banda Aceh]], [[Binaka Airport|Gunungsitoli]], [[Malikus Saleh Airport|Lhokseumawe]], [[Jenderal Besar Abdul Haris Nasution Airport|Panyabungan]], [[Ferdinand Lumban Tobing Airport|Sibolga]], [[Lasikin Airport|Sinabang]], [[Rembele Airport|Takengon]]
+<!-- -->
+
+}}<nowiki> </nowiki>'''Notes:'''{{Reflist|group=Note}}
+{{notelist}}

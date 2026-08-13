@@ -1,0 +1,32 @@
+==Airlines and destinations==
+{{Update-section|date=July 2025}}
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+|[[Aeroflot]] | '''Seasonal:''' [[Tolmachevo Airport|Novosibirsk]], [[Koltsovo International Airport|Yekaterinburg]]
+<!-- -->
+|[[Air Arabia]] | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Air India]] | [[Indira Gandhi International Airport|Delhi]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]]
+<!-- -->
+|{{nowrap|[[Air India Express]]}} | [[Kempegowda International Airport|Bengaluru]], [[Chennai International Airport|Chennai]], [[Indira Gandhi International Airport|Delhi]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Devi Ahilya Bai Holkar Airport|Indore]], [[Jay Prakash Narayan Airport|Patna]]
+<!-- -->
+|[[Akasa Air]] | [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Indira Gandhi International Airport|Delhi]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Navi Mumbai International Airport|Navi Mumbai]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Pune Airport|Pune]]<!--Do not remove or change this citation unless the airline adds a new destination.-->
+<!-- -->
+|{{nowrap|Fly91}} | [[Agatti Airport|Agatti]], [[Kempegowda International Airport|Bengaluru]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Jalgaon Airport|Jalgaon]], [[Pune Airport|Pune]], [[Solapur Airport|Solapur]]
+<!-- -->
+| [[FlyArystan]] | '''Seasonal charter:''' [[Almaty International Airport|Almaty]], [[Nursultan Nazarbayev International Airport|Astana]]
+<!-- -->
+|[[IndiGo]] | [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Aurangabad Airport|Aurangabad]], [[Kempegowda International Airport|Bengaluru]], [[Chennai International Airport|Chennai]], [[Indira Gandhi International Airport|Delhi]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Jaipur International Airport|Jaipur]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Dr. Babasaheb Ambedkar International Airport|Nagpur]], [[Navi Mumbai International Airport|Navi Mumbai]], [[Pune Airport|Pune]], [[Rajkot International Airport|Rajkot]], [[Vadodara Airport|Vadodara]]
+<!-- -->
+|[[Oman Air]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+|{{nowrap|[[Qatar Airways]]}}| [[Hamad International Airport|Doha]]
+<!-- -->
+|[[Star Air (India)|Star Air]]| [[Diu Airport|Diu]], [[Mundra Airport|Mundra]], [[Nanded Airport|Nanded]], [[Navi Mumbai International Airport|Navi Mumbai]], [[Shimoga Airport|Shivamogga]]
+<!-- -->
+|{{nowrap|[[TUI Airways]]}}|'''Seasonal:''' [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]]
+<!-- -->
+|{{nowrap|[[Uzbekistan Airways]]}} | [[Tashkent International Airport|Tashkent]]
+
+}}

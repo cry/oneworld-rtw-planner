@@ -1,0 +1,106 @@
+==Airlines and destinations==
+
+===Passenger===
+{{Airport destination list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[Washington–National]]
+<!-- -->
+| [[Breeze Airways]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Raleigh–Durham International Airport|Raleigh/Durham]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Delta Connection]] | [[Hartsfield-Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[FedEx Feeder]] | [[Orlando International Airport|Orlando]]
+}}
+
+===Top destinations===
+{| class="wikitable sortable" style="font-size: 95%"
+|+ '''Busiest domestic routes from TLH (February 2024 – January 2025)'''
+|-
+! Rank
+! Airport
+! Passengers
+! Carriers
+|-
+| 1
+| [[Hartsfield–Jackson Atlanta International Airport|Atlanta, Georgia]]
+| 178,110
+| Delta
+|-
+| 2
+| [[Charlotte Douglas International Airport|Charlotte, North Carolina]]
+| 76,990
+| American
+|-
+| 3
+| [[Miami International Airport|Miami, Florida]]
+| 69,160
+| American
+|-
+| 4
+| [[Dallas/Fort Worth International Airport|Dallas/Fort Worth, Texas]]
+| 58,210
+| American
+|-
+| 5
+| [[Fort Lauderdale-Hollywood International Airport|Fort Lauderdale, Florida]]
+| 47,530
+| Silver
+|-
+| 6
+| [[Ronald Reagan Washington National Airport|Washington–National, D.C.]]
+| 19,700
+| American
+|-
+| 7
+| [[Tampa International Airport|Tampa, Florida]]
+| 11,960
+| Silver
+|}
+
+===Airline market share===
+{| class="wikitable" style="font-size: 95%;" 
+|+ Top airlines at TLH<br/>(February 2024 – January 2025)
+|-
+
+! Rank
+! Airline
+! Passengers
+! Percent of market share
+|-
+| 1
+|[[Envoy Air|Envoy]]
+| 285,000
+| 30.93%
+|-
+| 2
+|[[Delta Air Lines|Delta]]
+| 276,000
+| 29.92%
+|-
+| 3
+|[[PSA Airlines|PSA]]
+| 103,000
+| 11.20%
+|-
+| 4
+| [[Endeavor Air|Endeavor]]
+| 77,610
+| 8.42%
+|-
+| 5
+| [[Silver Airways|Silver]]
+| 64,780
+| 7.03%
+|-
+| 
+| Other
+| 115,000
+| 12.50%
+|}

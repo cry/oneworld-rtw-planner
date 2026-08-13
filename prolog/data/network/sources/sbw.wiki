@@ -1,0 +1,21 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[AirAsia]] | [[Senai International Airport|Johor Bahru]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]]
+<!-- -->
+| [[AirBorneo]] | [[Bintulu Airport|Bintulu]], [[Miri Airport|Miri]], [[Mukah Airport|Mukah]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Firefly]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+|[[Scoot]] | [[Changi Airport|Singapore]]
+|}}
+
+===Cargo===
+{{Airport-dest-list
+| [[AsiaCargo Express|World Cargo Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]]
+}}

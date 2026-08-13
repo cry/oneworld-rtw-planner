@@ -1,0 +1,33 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Toronto–Pearson]]
+<!-- -->
+| {{nowrap|[[Air Canada Express]]}} | [[Toronto–Pearson]] <br/> '''Seasonal:''' [[Montréal–Trudeau]]
+<!-- -->
+| [[Alaska Airlines]] | [[Seattle/Tacoma]]{{cn|date=July 2026}}
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]],{{cn|date=July 2026}} [[Dallas Fort Worth International Airport|Dallas/Fort Worth]],{{cn|date=July 2026}} [[Los Angeles International Airport|Los Angeles]],{{cn|date=July 2026}} [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]{{cn|date=July 2026}} <br/> '''Seasonal:''' [[Cancún International Airport|Cancún]],
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Logan International Airport|Boston]],{{cn|date=July 2026}} [[Charlotte Douglas International Airport|Charlotte]],{{cn|date=July 2026}} [[Chicago–O'Hare]],{{cn|date=July 2026}} [[Dallas Fort Worth International Airport|Dallas/Fort Worth]],{{cn|date=July 2026}} [[Miami International Airport|Miami]],{{cn|date=July 2026}} [[New York–JFK]],{{cn|date=July 2026}} [[New York–LaGuardia]],{{cn|date=July 2026}} [[Philadelphia International Airport|Philadelphia]],{{cn|date=July 2026}} [[Washington–National]]
+<!-- -->
+| [[Breeze Airways]] | [[Charleston International Airport|Charleston (SC)]],{{cn|date=July 2026}} [[Greenville–Spartanburg International Airport|Greenville/Spartanburg]], [[Bradley International Airport|Hartford]],{{cn|date=July 2026}} [[Raleigh-Durham International Airport|Raleigh/Durham]],{{cn|date=July 2026}} [[Savannah/Hilton Head International Airport|Savannah]], [[Tampa International Airport|Tampa]] <br/> '''Seasonal:''' [[Southwest Florida International Airport|Fort Myers]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Norfolk International Airport|Norfolk]],{{cn|date=July 2026}} [[John Wayne Airport|Orange County]], [[Portland International Jetport|Portland (ME)]], [[Punta Cana International Airport|Punta Cana]] (begins January 8, 2027)
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]],{{cn|date=July 2026}} [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]],{{cn|date=July 2026}} [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+| [[Delta Connection]] | [[Austin–Bergstrom International Airport|Austin]], [[Logan International Airport|Boston]],{{cn|date=July 2026}} [[Detroit Metropolitan Airport|Detroit]],{{cn|date=July 2026}} [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]],{{cn|date=July 2026}} [[New York–JFK]],{{cn|date=July 2026}} [[New York–LaGuardia]]{{cn|date=July 2026}} <br/> '''Seasonal:''' [[Orlando International Airport|Orlando]]
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br/> '''Seasonal:''' [[Denver International Airport|Denver]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Orlando International Airport|Orlando]]
+<!-- -->
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]] (begins November 2, 2026)
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]],{{cn|date=July 2026}} [[Austin–Bergstrom International Airport|Austin]],{{cn|date=July 2026}} [[Baltimore/Washington International Airport|Baltimore]],{{cn|date=July 2026}} [[Chicago–Midway]],{{cn|date=July 2026}} [[Dallas Love Field|Dallas–Love]],{{cn|date=July 2026}} [[Denver International Airport|Denver]],{{cn|date=July 2026}} [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]],{{cn|date=July 2026}} [[Southwest Florida International Airport|Fort Myers]],{{cn|date=July 2026}} [[Houston–Hobby]],{{cn|date=July 2026}} [[Harry Reid International Airport|Las Vegas]],{{cn|date=July 2026}} [[Nashville International Airport|Nashville]],{{cn|date=July 2026}} [[Orlando International Airport|Orlando]],{{cn|date=July 2026}} [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]],{{cn|date=July 2026}} [[San Diego International Airport|San Diego]], [[Luis Muñoz Marín International Airport|San Juan]] (begins February 13, 2027), [[Sarasota-Bradenton International Airport|Sarasota]],{{cn|date=July 2026}} [[St. Louis Lambert International Airport|St. Louis]],{{cn|date=July 2026}} [[Tampa International Airport|Tampa]],{{cn|date=July 2026}} [[Washington–National]]{{cn|date=July 2026}} <br/> '''Seasonal:''' [[Cancún International Airport|Cancún]], [[Kansas City International Airport|Kansas City]], [[Miami International Airport|Miami]],{{cn|date=July 2026}} [[Northwest Florida Beaches International Airport|Panama City (FL)]]{{cn|date=July 2026}} 
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[Viva (airline)|Viva]] | '''Seasonal:''' [[Cancún International Airport|Cancún]]{{cn|date=July 2026}}
+}}

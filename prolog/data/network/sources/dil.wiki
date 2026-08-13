@@ -1,0 +1,19 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Aero Dili]]|[[Darwin International Airport|Darwin]], [[Ngurah Rai International Airport|Denpasar]], [[Fuzhou Changle International Airport|Fuzhou]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Oecusse Airport|Oecusse]], [[Changi Airport|Singapore]], [[Xiamen Gaoqi International Airport|Xiamen]]
+<!-- -->
+| [[Airnorth]]| [[Darwin International Airport|Darwin]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Citilink]] | [[Ngurah Rai International Airport|Denpasar]]
+<!-- -->
+| {{nowrap|[[Mission Aviation Fellowship]]}} | Atauro, [[Baucau Airport|Baucau]], Lospalos, Maliana, Same, [[Suai Airport|Suai]], [[Viqueque Airport|Viqueque]]
+<!-- -->
+| [[QantasLink]] | [[Darwin Airport|Darwin]]
+<!-- -->
+| ZEESM | [[Oecusse Airport|Oecusse]]
+}}

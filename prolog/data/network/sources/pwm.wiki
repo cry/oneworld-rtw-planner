@@ -1,0 +1,28 @@
+==Airlines and destinations==
+===Passenger===
+[[File:Port jetport sunset.jpg|thumb|Terminal at PWM]]
+[[File:Northeast air new term.jpg|thumb|FBO terminal at PWM]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Ronald Reagan Washington National Airport|Washington–National]] <br />'''Seasonal:''' [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Philadelphia International Airport|Philadelphia]] | 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]] | 
+<!-- -->
+| [[Breeze Airways]] |[[Charleston International Airport|Charleston (SC)]], [[Orlando International Airport|Orlando]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Tampa International Airport|Tampa]] <br/>'''Seasonal:''' [[Akron–Canton Airport|Akron/Canton]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Southwest Florida International Airport|Fort Myers]], [[Norfolk International Airport|Norfolk]], [[Pittsburgh International Airport|Pittsburgh]], [[Sarasota–Bradenton International Airport|Sarasota]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br />'''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]| 
+<!-- -->
+| [[Delta Connection]] | [[Detroit Metropolitan Airport|Detroit]], [[John F. Kennedy International Airport|New York–JFK]], [[LaGuardia Airport|New York–LaGuardia]]  | 
+<!-- -->
+| [[JetBlue]] | '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]], [[Orlando International Airport|Orlando]] | 
+<!-- --> 
+| {{nowrap|[[Southwest Airlines]]}} | [[Baltimore/Washington International Airport|Baltimore]] <br />'''Seasonal:''' [[Midway International Airport|Chicago–Midway]], [[Nashville International Airport|Nashville]]  | 
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]  | 
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]] <br /> '''Seasonal:'''  [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]],  [[Dulles International Airport|Washington–Dulles]] | 
+<!-- -->
+| [[United Express]] |[[O'Hare International Airport|Chicago–O'Hare]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]] <br /> '''Seasonal:''' [[Houston–Intercontinental]]| 
+<!-- -->
+|}}

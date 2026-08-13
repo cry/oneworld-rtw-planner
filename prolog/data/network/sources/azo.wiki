@@ -1,0 +1,9 @@
+==Airlines and destinations==
+{{Airport destination list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]]
+<!-- -->
+| [[Delta Connection]] | [[Detroit Metropolitan Wayne County Airport|Detroit]]
+<!-- -->
+|[[United Express]] | [[Chicago–O'Hare]] (begins 25 October 2026)
+}}

@@ -1,0 +1,19 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[ANA Wings]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Itami Airport|Osaka–Itami]], [[New Chitose Airport|Sapporo–Chitose]]
+<!-- -->
+| [[Hokkaido Air System]] | [[Okadama Airport|Sapporo–Okadama]]
+<!-- -->
+| [[J-Air]] | [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Oriental Air Bridge]] | [[Chubu Centrair International Airport|Nagoya–Centrair]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+}}

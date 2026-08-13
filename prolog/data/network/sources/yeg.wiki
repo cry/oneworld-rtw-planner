@@ -1,0 +1,146 @@
+==Airlines and destinations==
+===Passenger===
+Edmonton International Airport provides scheduled non-stop flights to over 50 destinations. It serves as the hub for [[Flair Airlines]]. Edmonton is one of [[WestJet]]'s main hubs; the airline flies to 30 destinations with an average of 62 daily departures, nonstop, from Edmonton. WestJet (and its subsidiaries) are the largest carriers at Edmonton International Airport, holding more than 70% of the market share.
+
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport destination list
+| 3rdcoltitle=Refs
+<!-- -->
+| [[Air Canada]] | [[Montréal–Pierre Elliott Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]]<br/>|
+<!-- -->
+| {{nowrap|[[Air Canada Express]]}} | [[Calgary International Airport|Calgary]], [[Vancouver International Airport|Vancouver]], [[Yellowknife Airport|Yellowknife]]<br/>'''Seasonal:''' [[San Francisco International Airport|San Francisco]] |
+<!-- -->
+| [[Air Canada Rouge]] |[[Vancouver International Airport|Vancouver]]<br/>'''Seasonal:''' [[Cancún International Airport|Cancún]], [[Sangster International Airport|Montego Bay]] (begins December 7, 2026)
+| <!--  -->
+| [[Air North]] | [[Calgary International Airport|Calgary]], [[Erik Nielsen Whitehorse International Airport|Whitehorse]],  [[Yellowknife Airport|Yellowknife]] (begins December 3, 2026) |
+<!--  -->
+| [[Air Tindi]]|[[Fort Chipewyan Airport|Fort Chipewyan]], [[Fort Smith Airport|Fort Smith]], [[Hay River/Merlyn Carter Airport|Hay River]], [[Yellowknife Airport|Yellowknife]] |
+<!--  -->
+| [[Alaska Airlines]] | [[Seattle–Tacoma International Airport|Seattle/Tacoma]] |
+<!--  -->
+| [[Canadian North]] | [[Yellowknife Airport|Yellowknife]] |
+<!--  -->
+| {{nowrap|[[Central Mountain Air]]}} | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT -->[[High Level Airport|High Level]], [[Prince George Airport|Prince George]] |
+<!--  -->
+| [[Flair Airlines]] | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT -->[[Abbotsford International Airport|Abbotsford]], [[Kelowna International Airport|Kelowna]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]] <br /> '''Seasonal:''' [[Cancún International Airport|Cancún]], [[Region of Waterloo International Airport|Kitchener/Waterloo]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Victoria International Airport|Victoria]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]] |
+<!--  -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]] |
+<!--  -->
+| [[Porter Airlines]] | [[John C. Munro Hamilton International Airport|Hamilton (ON)]], [[Montreal Metropolitan Airport|Montréal–MET]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Toronto Pearson International Airport|Toronto–Pearson]]<br />'''Seasonal:''' [[Harry Reid International Airport|Las Vegas]] (begins November 16, 2026), [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] (begins November 6, 2026), [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]] (begins November 3, 2026), [[Los Cabos International Airport|San José del Cabo]] (begins November 16, 2026)  |
+<!--  -->
+| [[United Airlines]] | [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]] |
+<!--  -->
+| [[WestJet]] | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT --> [[Calgary International Airport|Calgary]], [[Cancún International Airport|Cancún]], [[Halifax Stanfield International Airport|Halifax]], [[Kelowna International Airport|Kelowna]], [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]], [[Victoria International Airport|Victoria]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]<br />'''Seasonal:'''  [[Charlottetown Airport|Charlottetown]], [[CFB Comox|Comox]], [[Daniel K. Inouye International Airport|Honolulu]], [[Bahías de Huatulco International Airport|Huatulco]], [[Kahului Airport|Kahului]], [[Mazatlán International Airport|Mazatlán]], [[Greater Moncton Roméo LeBlanc International Airport|Moncton]], [[Sangster International Airport|Montego Bay]], [[Orlando International Airport|Orlando]], [[Palm Springs International Airport|Palm Springs]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Keflavík International Airport|Reykjavík–Keflavík]], [[Salt Lake City International Airport|Salt Lake City]], [[Los Cabos International Airport|San José del Cabo]], [[St. John's International Airport|St. John’s (NL)]] |
+<!--  -->
+| [[WestJet Encore]] | <!-- SEE THE REFS / REFERENCES COLUMN BEFORE YOU DECIDE THAT NOTHING HERE HAS A REFERENCE AND YOU WANT TO ADD CITATION-NEEDED TAGS OR USE WP:BURDEN TO DELETE LARGE CHUNKS OF CONTENT -->[[Calgary International Airport|Calgary]], [[CFB Comox|Comox]], [[Fort McMurray International Airport|Fort McMurray]], [[Grande Prairie Airport|Grande Prairie]], [[Kelowna International Airport|Kelowna]], [[Regina International Airport|Regina]], [[Saskatoon John G. Diefenbaker International Airport|Saskatoon]], [[Yellowknife Airport|Yellowknife]]<br />'''Seasonal:''' [[Kamloops Airport|Kamloops]], [[Nanaimo Airport|Nanaimo]], [[Northwest Regional Airport Terrace-Kitimat|Terrace/Kitimat]]
+
+| 
+}}
+
+{| style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Map of North American passenger destinations
+|-
+|{{Location map+|Canada|width=930|float=center|caption= Canadian destinations from Edmonton International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | green | Green}} = Seasonal destination <br /> {{font color | blue | Blue}} = Future destination
+|places={{Location map~ | Canada |lat=53.5461| long=-113.4937 |position=right |label=<div style="position:relative; top:-5px;">Edmonton</div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=49.025278|long=-122.36|position=bottom|label=[[Abbotsford International Airport|Abbotsford]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=51.1308|long=-114.0138|position=right|label=[[Calgary International Airport|Calgary]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=49.7073|long=-124.9047|position=top|label=[[CFB Comox|Comox]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=58.7683|long=-111.1148|position=right|label=[[Fort Chipewyan Airport|Fort Chipewyan]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=56.6532|long=-111.2303|position=right|label=[[Fort McMurray International Airport|Fort McMurray]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=60.0192|long=-111.9589|position=right|label=[[Fort Smith Airport|Fort Smith]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=55.1761|long=-118.8782|position=right|label=[[Grande Prairie Airport|Grande Prairie]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=44.8862|long=-63.5125|position=bottom|label=[[Halifax Stanfield International Airport|Halifax]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=43.173611|long=-79.935|position=right|label=[[John C. Munro International Airport|Hamilton]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=60.8397|long=-115.7827|position=left|label=[[Hay River/Merlyn Carter Airport|Hay River]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=58.6186|long=-117.1623|position=left|label=[[High Level Airport|High Level]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=49.9579|long=-119.3787|position=right|label=[[Kelowna International Airport|Kelowna]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=45.518056|long=-73.416944|position=right|label={{nowrap|[[Montreal Metropolitan Airport|Montréal-MET]]}}|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=45.4651|long=-73.7487|position=left|label={{nowrap|[[Montréal-Trudeau International Airport|Montréal-Trudeau]]}}|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=45.3193|long=-75.6653|position=left|label=[[Ottawa International Airport|Ottawa]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=53.8862|long=-122.6713|position=left|label=[[Prince George Airport|Prince George]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=50.4319|long=-104.6564|position=left|label=[[Regina International Airport|Regina]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=52.1693|long=-106.6945|position=top|label=[[Saskatoon International Airport|Saskatoon]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=43.6735|long=-79.6133|position=top|label=[[Toronto-Pearson International Airport|Toronto-Pearson]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=49.1941|long=-123.1871|position=top|label=[[Vancouver International Airport|Vancouver]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=48.6415|long=-123.4303|position=left|label=[[Victoria International Airport|Victoria]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=49.9043|long=-97.2306|position=left|label=[[Winnipeg International Airport|Winnipeg]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=62.4688|long=-114.4434|position=left|label=[[Yellowknife Airport|Yellowknife]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | Canada |lat=60.7197|long=-135.0523|position=left|label=[[Whitehorse Airport|Whitehorse]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | Canada |lat=46.2865|long=-63.1279|position=right|label=[[Charlottetown Airport|Charlottetown]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | Canada |lat=50.7052|long=-120.448611|position=right|label=[[Kamloops Airport|Kamloops]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | Canada |lat=43.4516|long=-80.4925|position=left|label=[[Region of Waterloo Airport|Kitchener-Waterloo]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | Canada |lat=46.1101|long=-64.6848|position=left|label=[[Moncton International Airport|Moncton]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | Canada |lat=49.054444|long=-123.87|position=left|label=[[Nanaimo Airport|Nanaimo]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | Canada |lat=47.6167|long=-52.7487|position=left|label=[[St. John's International Airport|St. John's]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | Canada |lat=54.468611|long=-128.578333|position=right|label=[[Northwest Regional Airport Terrace-Kitimat|Terrace/Kitimat]]|label_size=80 |marksize=7 }}
+}}
+{{Location map+ |North_America |width=930|float=center
+|caption=North American destinations from Edmonton International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }}= Future destination
+|places=
+{{Location map~ |North_America |lat=53.5461| long=-113.4937 |position=right |label=<div style="position:relative; top:-5px;">Edmonton</div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=21.0433|long=-86.8715|position=left|label=[[Cancún International Airport|Cancún]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=39.8594|long=-104.6826|position=left|label=[[Denver International Airport|Denver]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=29.9931|long=-95.3416|position=left|label=[[George Bush Intercontinental Airport|Houston–Intercontinental]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=36.0818|long=-115.1612|position=left|label=[[Harry Reid International Airport|Las Vegas]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=33.9427|long=-118.408|position=left|label=[[Los Angeles International Airport|Los Angeles]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=44.8869|long=-93.2176|position=left|label=[[Minneapolis/St. Paul International Airport|Minneapolis/St. Paul]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=33.4329|long=-112.0077|position=right|label=[[Phoenix Sky Harbor International Airport|Phoenix-Sky Harbor]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=20.6796|long=-105.2493|position=left|label=[[Puerto Vallarta International Airport|Puerto Vallarta]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=37.6212|long=-122.3813|position=left|label=[[San Francisco International Airport|San Francisco]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=23.1566|long=-109.7195|position=left|label=[[Los Cabos International Airport|San José del Cabo]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=47.4466|long=-122.3058|position=bottom|label=[[Seattle-Tacoma International Airport|Seattle-Tacoma]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=41.978611|long=-87.904722|position=right|label=[[O'Hare International Airport|Chicago-O'Hare]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=15.775278|long=-96.2625|position=left|label=[[Bahías de Huatulco International Airport|Huatulco]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=23.1637|long=-106.2702|position=right|label=[[Mazatlán International Airport|Mazatlán]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=18.499|long=-77.9205|position=left|label=[[Montego Bay International Airport|Montego Bay]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=28.4338|long=-81.3102|position=left|label=[[Orlando International Airport|Orlando]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=33.8237|long=-116.5054|position=right|label={{nowrap|[[Palm Springs International Airport|Palm Springs]]}}|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=18.5647|long=-68.3728|position=left|label=[[Punta Cana International Airport|Punta Cana]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=40.788333|long=-111.977778|position=left|label=[[Salt Lake City International Airport|Salt Lake City]]|label_size=80 |marksize=7 }}
+
+}}
+{{Location map+ |Hawaii |width=930 |float=center
+|caption=Hawaii destinations from Edmonton International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }}= Future destination
+|places=
+{{Location map~ |mark = Green pog.svg |Hawaii |lat=21.3069|long=-157.8583|position=bottom|label='''[[Daniel K. Inouye International Airport|Honolulu]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |Hawaii |lat=20.8946|long=-156.4361|position=top|label='''[[Kahului Airport|Kahului]]'''|label_size=90 |marksize=7 }}
+}}
+|}
+
+{| style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Map of European passenger destinations
+|-
+|{{Location map+ |Europe |width=930|float=center
+|caption=Destinations from Edmonton International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }}= Future destination
+|places=
+{{Location map~ |mark = Red pog.svg | Europe |lat=52.3676|long=4.9041|position=bottom|label=[[Amsterdam International Airport|Amsterdam]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | Europe |lat=63.985|long=-22.605556|position=bottom|label=[[Keflavík International Airport|Reykjavík–Keflavík]]|label_size=80 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Airport destination list
+|3rdcoltitle=Refs
+| [[Amazon Air]] | [[Calgary International Airport|Calgary]], [[John C. Munro Hamilton International Airport|Hamilton (ON)]], [[Vancouver International Airport|Vancouver]]
+|<!-- -->
+| [[Buffalo Airways]] | [[Yellowknife Airport|Yellowknife]] |
+<!-- -->
+| [[Cargojet]] | [[Calgary International Airport|Calgary]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[John C. Munro Hamilton International Airport|Hamilton (ON)]], [[Montréal–Mirabel International Airport|Montréal–Mirabel]], [[Vancouver International Airport|Vancouver]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]] |
+<!--  -->
+|[[DHL Aviation]] | [[Calgary International Airport|Calgary]] | 
+<!-- -->
+| [[FedEx Express]] | [[Memphis International Airport|Memphis]], [[Toronto Pearson International Airport|Toronto–Pearson]] |
+<!-- -->
+| [[FedEx Express]] <br /> operated by [[Morningstar Air Express]] | [[Toronto Pearson International Airport|Toronto–Pearson]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]] |
+<!-- -->
+| [[FedEx Feeder]] | [[Calgary International Airport|Calgary]] |
+<!-- -->
+|[[Korean Air Cargo]] | [[Ted Stevens Anchorage International Airport|Anchorage]], [[Los Angeles International Airport|Los Angeles]], [[Incheon International Airport|Seoul–Incheon]] |
+}}
+
+===Air ambulance services===
+The airport is home to a purpose-built facility on its southern edge that is shared by [[Alberta Health Services]] fixed-wing air ambulance operations, as well as one of three bases in the province for [[Shock Trauma Air Rescue Society|STARS]] helicopter air ambulance. [[Nor-Alta Aviation]] also provides Air Ambulance services at Edmonton Airport under contract from Alberta Health Services. Nor-Alta Aviation purchased Can-West Corporate Air Charters Ltd. and became [[Nor-Alta Aviation|Can-West]] Corporate Air Charters a Nor-Alta Aviation Company in late 2015.
+
+Edmonton Airport is also the base airport for Jet Companion, a Canadian aeromedical transport company that is active in medical repatriation missions and patient transfers in general, by commercial flights or stretcher charter. Jet Companion aeromedical crews travel in and out of Edmonton Airport on a daily basis as part of their medical missions elsewhere in Canada, or anywhere in the world.

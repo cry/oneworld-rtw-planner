@@ -1,0 +1,52 @@
+==Airlines and destinations==
+{{Airport-dest-list
+<!-- -->
+| [[Air Arabia]] | [[Alexandria International Airport (Egypt)|Alexandria]]{{cn|date=June 2026}}
+<!-- -->
+| [[Air Astana]] | [[Almaty International Airport|Almaty]]
+<!-- -->
+| [[AJet]] | [[Istanbul–Sabiha Gökçen]]{{cn|date=June 2026}}
+<!-- -->
+| [[Biman Bangladesh Airlines]] | [[Hazrat Shahjalal International Airport|Dhaka]]{{cn|date=June 2026}}
+<!--  -->
+| [[Citilink]] | '''Seasonal:''' [[Sultan Hasanuddin International Airport|Makassar]]
+<!--  -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[Flynas]] | [[Abha International Airport|Abha]],{{cn|date=June 2026}} [[Amman Civil Airport|Amman–City]], [[Bahrain International Airport|Bahrain]],{{cn|date=June 2026}} [[Brussels Airport|Brussels]] (begins 5 October 2026), [[Cairo International Airport|Cairo]], [[Dubai International Airport|Dubai–International]],{{cn|date=June 2026}} [[Sphinx International Airport|Giza]],{{cn|date=June 2026}} [[Al-Ahsa International Airport|Hofuf]],{{cn|date=June 2026}} [[Jinnah International Airport|Karachi]],{{cn|date=June 2026}} [[King Khalid International Airport|Riyadh]]{{cn|date=June 2026}}
+<!-- -->
+| [[Garuda Indonesia]] | '''Seasonal:''' [[Yogyakarta International Airport|Yogyakarta–International]]
+<!-- -->
+| [[IndiGo]] | [[Rajiv Gandhi International Airport|Hyderabad]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+<!-- -->
+| [[Jazeera Airways]] | '''Seasonal charter:''' [[Kadyrov Grozny International Airport|Grozny]]
+<!-- -->
+| [[Lion Air]] | '''Seasonal:''' [[Kualanamu International Airport|Medan]]{{cn|date=June 2026}}
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur–International]]
+<!-- -->
+| [[Nesma Airlines]] | [[Hail International Airport|Hail]]{{cn|date=June 2026}}
+<!-- -->
+| {{nowrap|[[Pakistan International Airlines]]}} | [[Multan International Airport|Multan]], [[Sialkot International Airport|Sialkot]]{{cn|date=June 2026}}
+<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul–Sabiha Gökçen]]{{cn|date=June 2026}} <br/> '''Seasonal''' [[Trabzon Airport|Trabzon]]
+<!-- -->
+| [[Philippine Airlines]] | '''Seasonal charter:''' [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Saudia]] | [[Istanbul Airport|Istanbul]]{{cn|date=June 2026}}
+<!-- -->
+| [[SCAT Airlines]] | '''Seasonal:''' [[Almaty International Airport|Almaty]]{{cn|date=June 2026}}
+<!-- -->
+| [[Syrian Air]] | [[Damascus International Airport|Damascus]] (begins {{date|2026-8-11}})
+<!-- -->
+| [[Transavia]] | [[Lyon–Saint-Exupéry Airport|Lyon]],{{cn|date=June 2026}} [[Marseille Provence Airport|Marseille]],{{cn|date=June 2026}} [[Paris–Orly]],{{cn|date=June 2026}} [[Toulouse–Blagnac Airport|Toulouse]]{{cn|date=June 2026}}
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Uzbekistan Airways]] | '''Seasonal:''' [[Samarkand International Airport|Samarqand]]
+<!-- -->
+}}

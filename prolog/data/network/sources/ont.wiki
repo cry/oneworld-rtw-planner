@@ -1,0 +1,57 @@
+== Airlines and destinations ==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list|3rdcoltitle=Refs|3rdcolunsortable=yes
+| [[Alaska Airlines]] | [[Boise Airport|Boise]], [[Daniel K. Inouye International Airport|Honolulu]], [[Portland International Airport|Portland (OR)]], [[Charles M. Schulz–Sonoma County Airport|Santa Rosa]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]] (resumes December 17, 2026), [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+<!-- -->
+| {{nowrap|[[Avianca El Salvador]]}} | [[El Salvador International Airport|San Salvador]] | 
+<!-- -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Salt Lake City International Airport|Salt Lake City]] | 
+<!-- -->
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+<!-- -->
+| [[Frontier Airlines]] | [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Harry Reid International Airport|Las Vegas]], [[San Francisco International Airport|San Francisco]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]<br /> '''Seasonal:''' [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]{{Citation needed|date=May 2025}} | 
+<!-- -->
+| [[JetBlue]] | '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]] |
+<!-- -->
+| [[Southwest Airlines]] | [[Austin–Bergstrom International Airport|Austin]], [[Midway International Airport|Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Daniel K. Inouye International Airport|Honolulu]], [[William P. Hobby Airport|Houston–Hobby]],  [[Harry Reid International Airport|Las Vegas]], [[Nashville International Airport|Nashville]], [[Oakland San Francisco Bay Airport|Oakland]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Sacramento International Airport|Sacramento]], [[San Jose Mineta International Airport|San Jose (CA)]] | 
+<!-- -->
+| [[Starlux Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]] | 
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[San Francisco International Airport|San Francisco]] | 
+<!-- -->
+| [[United Express]] | [[San Francisco International Airport|San Francisco]] | 
+<!-- -->
+| [[Volaris]] | [[Guadalajara International Airport|Guadalajara]], [[Bajío International Airport|León/Del Bajío]], [[General Francisco Mujica International Airport|Morelia]]
+<!-- -->
+| 
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+|[[Alpine Air Express]]  |[[Oxnard Airport|Oxnard]]
+<!-- -->
+| [[Amazon Air]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Austin–Bergstrom International Airport|Austin]], [[Baltimore/Washington International Airport|Baltimore]], [[Charlotte Douglas International Airport|Charlotte]], [[Chicago Rockford International Airport|Chicago/Rockford]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Denver International Airport|Denver]], [[Perot Field Fort Worth Alliance Airport|Fort Worth/Alliance]], [[Bradley International Airport|Hartford]], [[Daniel K. Inouye International Airport|Honolulu]], [[Kona International Airport|Kailua-Kona]], [[Lakeland Linder International Airport|Lakeland]], [[Lihue Airport|Lihue]], [[Miami International Airport|Miami]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Portland International Airport|Portland (OR)]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[St. Louis Lambert International Airport|St. Louis]], [[Wilmington Air Park|Wilmington (OH)]]
+<!-- -->
+| [[Ameriflight]] | [[Meadows Field Airport|Bakersfield]], [[Blythe Airport|Blythe]], [[Hollywood Burbank Airport|Burbank]], [[Fresno Yosemite International Airport|Fresno]], [[Imperial County Airport|Imperial/El Centro]], [[General William J. Fox Airfield|Lancaster]], [[Mojave Air and Space Port|Mojave]], [[Oxnard Airport|Oxnard]], [[Palm Springs International Airport|Palm Springs]], [[San Luis Obispo County Regional Airport|San Luis Obispo]], [[Visalia Municipal Airport|Visalia]]
+<!-- -->
+| {{nowrap|[[Amerijet International]]}} | [[Miami International Airport|Miami]], [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| {{nowrap|[[Atlas Air]]}} |[[Baltimore/Washington International Airport|Baltimore]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Perot Field Fort Worth Alliance Airport|Fort Worth/Alliance]], [[Kahului Airport|Kahului]], [[Kona International Airport|Kailua-Kona]]
+<!-- --> 
+| {{nowrap|[[FedEx Express]]}} |[[Perot Field Fort Worth Alliance Airport|Fort Worth/Alliance]], [[Indianapolis International Airport|Indianapolis]], [[Memphis International Airport|Memphis]], [[Newark Liberty International Airport|Newark]], [[Oakland San Francisco Bay Airport|Oakland]]
+<!-- -->
+| [[FedEx Feeder]] | [[Meadows Field Airport|Bakersfield]], [[Eastern Sierra Regional Airport|Bishop]], [[Inyokern Airport|Inyokern]], [[San Luis Obispo County Regional Airport|San Luis Obispo]], [[Santa Barbara Municipal Airport|Santa Barbara]], [[Santa Maria Public Airport|Santa Maria]]
+<!-- -->
+| [[Kalitta Air]] | '''Seasonal:''' [[Daniel K. Inouye International Airport|Honolulu]], [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[UPS Airlines]] |[[Albuquerque International Sunport|Albuquerque]], [[Ted Stevens Anchorage International Airport|Anchorage]], [[Billings Logan International Airport|Billings]], [[Boise Airport|Boise]], [[Logan International Airport|Boston]], [[O'Hare International Airport|Chicago–O'Hare]], [[Chicago Rockford International Airport|Chicago/Rockford]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Denver International Airport|Denver]], [[El Paso International Airport|El Paso]], [[Fresno Yosemite International Airport|Fresno]],  [[Piedmont Triad International Airport|Greensboro]], [[Bradley International Airport|Hartford]], [[Daniel K. Inouye International Airport|Honolulu]], [[Kahului Airport|Kahului]], [[Kona International Airport|Kailua-Kona]], [[Los Angeles International Airport|Los Angeles]], [[Louisville Muhammad Ali International Airport|Louisville]], [[Miami International Airport|Miami]], [[Newark Liberty International Airport|Newark]], [[Oakland San Francisco Bay Airport|Oakland]], [[Orlando International Airport|Orlando]], [[Philadelphia International Airport|Philadelphia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Portland International Airport|Portland (OR)]], [[Reno–Tahoe International Airport|Reno/Tahoe]], [[Sacramento Mather Airport|Sacramento–Mather]], [[Salt Lake City International Airport|Salt Lake City]], [[San Bernardino International Airport|San Bernardino]], [[San Diego International Airport|San Diego]], [[Boeing Field|Seattle–Boeing]], [[Spokane International Airport|Spokane]]<br />'''Seasonal:''' [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Capital Region International Airport|Lansing]], [[Manchester–Boston Regional Airport|Manchester (NH)]], [[John F. Kennedy International Airport|New York–JFK]], [[Rhode Island T. F. Green International Airport|Providence]], [[San Antonio International Airport|San Antonio]], [[Sioux Falls Regional Airport|Sioux Falls]], [[Tampa International Airport|Tampa]] 
+<!-- -->
+}}

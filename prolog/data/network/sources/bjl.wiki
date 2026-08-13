@@ -1,0 +1,37 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+<!-- Please check that services to BJL are not technical / refueling stops only, and also that operators with multistop routes have fifth freedom rights between BJL and other destinations, before listing them all. -->
+{{Airport-dest-list
+| [[Air Peace]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Blaise Diagne International Airport|Dakar–Diass]], [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+| [[Air Sierra Leone]] | [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Air Senegal]] | [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+| [[ASKY Airlines]] | [[Accra International Airport|Accra]], [[Lungi International Airport|Freetown]]
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]], [[Ahmed Sékou Touré International Airport|Conakry]], [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+| {{nowrap|[[Corendon Dutch Airlines]]}} | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]{{citation needed|date=January 2025}}
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Smartwings Slovakia]] | '''Seasonal charter:''' [[Bratislava Airport|Bratislava]]
+<!-- -->
+| [[Sunclass Airlines]] | '''Seasonal charter:''' [[Copenhagen Airport|Copenhagen]], [[Helsinki Airport|Helsinki]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]]
+<!-- -->
+| [[Transair (Senegal)|Transair]] | [[Blaise Diagne International Airport|Dakar–Diass]], [[Lungi International Airport|Freetown]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]] (begins 2 November 2026), [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[TUI fly Netherlands]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]], [[Nouakchott–Oumtounsy International Airport|Nouakchott]]
+<!-- -->
+| [[ValueJet (Nigeria)|ValueJet]] | [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+}}

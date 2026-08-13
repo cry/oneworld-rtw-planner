@@ -1,0 +1,18 @@
+== Airlines and destinations ==
+
+=== Passenger ===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+
+{{Airport destination list
+| [[Air Europa]] | [[Madrid–Barajas Airport|Madrid]] (begins December 18, 2026)
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]], [[Alfonso Bonilla Aragon International Airport|Cali]], [[Fort Lauderdale-Hollywood International Airport|Fort Lauderdale]], [[José María Córdova International Airport|Medellín–JMC]], [[Miami International Airport|Miami]]
+| [[Clic (airline)|Clic]] | [[Enrique Olaya Herrera Airport|Medellín–Olaya Herrera]], [[Los Garzones Airport|Montería]], [[Alfonso López Pumarejo Airport|Valledupar]]
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]] (begins 1 October 2026)
+| [[JetSmart|JetSmart Colombia]] | [[El Dorado International Airport|Bogotá]], [[José María Córdova International Airport|Medellín–JMC]]
+| [[LATAM Colombia]] | [[El Dorado International Airport|Bogotá]], [[José María Córdova International Airport|Medellín–JMC]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]]
+| [[SATENA]] | [[Hacaritama Airport|Aguachica]], [[Camilo Daza International Airport|Cúcuta]], [[Enrique Olaya Herrera Airport|Medellín–Olaya Herrera]], [[Almirante Padilla Airport|Riohacha]]
+| [[Wingo (Airline)|Wingo]] | [[Queen Beatrix International Airport|Aruba]], [[El Dorado International Airport|Bogotá]], [[Palonegro International Airport|Bucaramanga]], [[José María Córdova International Airport|Medellín–JMC]], [[Panamá Pacífico International Airport|Panama City–Balboa]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]]
+| [[Z Air]] | [[Curaçao International Airport|Curaçao]]
+}}

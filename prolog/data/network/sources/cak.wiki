@@ -1,0 +1,15 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!--DO NOT ADD TERMINAL/CONCOURSE INFORMATION TO THIS TABLE AS IT VIOLATES [[WP:NOTTRAVEL]], SOURCES ADDED PER DISCUSSION AT [[Wikipedia_talk:WikiProject_Airports#Proposal_to_Change_Template_Discussion]], PLEASE EXPRESS CONCERNS YOU MAY HAVE AT THIS DISCUSSION, NOT BY CHANGING THIS TABLE!!!-->
+<!-- -->
+| [[Allegiant Air]] | [[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[Sarasota–Bradenton International Airport|Sarasota]], [[Savannah/Hilton Head International Airport|Savannah]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]<br />'''Seasonal:''' [[Myrtle Beach International Airport|Myrtle Beach]], [[Nashville International Airport|Nashville]]
+|<!-- -->
+|{{nowrap|[[American Eagle (airline brand)|American Eagle]]}} | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Ronald Reagan Washington National Airport|Washington–National]]
+|<!-- -->
+| [[Breeze Airways]] | [[Charleston International Airport|Charleston (SC)]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Harry Reid International Airport|Las Vegas]], [[Orlando International Airport|Orlando]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Savannah/Hilton Head International Airport|Savannah]], [[Tampa International Airport|Tampa]], [[Wilmington International Airport|Wilmington (NC)]] <br />'''Seasonal:''' [[Daytona Beach International Airport|Daytona Beach]], [[Southwest Florida International Airport|Fort Myers]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Norfolk International Airport|Norfolk]], [[Portland International Jetport|Portland (ME)]], [[Sarasota–Bradenton International Airport|Sarasota]], [[Palm Beach International Airport|West Palm Beach]]
+|<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]] |
+<!-- -->
+}}

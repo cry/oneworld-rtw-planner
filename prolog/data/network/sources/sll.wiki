@@ -1,0 +1,34 @@
+==Airlines and destinations==
+
+{{Airport-dest-list
+<!-- -->
+| [[Air Arabia]]| [[Abu Dhabi International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air Astana]] | [[Nursultan Nazarbayev International Airport|Astana]]
+<!-- -->
+| {{nowrap|[[Air India Express]]}}| [[Cochin International Airport|Kochi]]
+<!-- -->
+| [[Belavia]] | '''Seasonal charter:''' [[Minsk National Airport|Minsk]]
+<!-- -->
+| [[Centrum Air]] | [[Islam Karimov Tashkent International Airport|Tashkent]]{{cn|date=May 2026}}
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]{{cn|date=May 2026}}
+<!-- -->
+| [[Etihad Airways]] | '''Seasonal:''' [[Zayed International Airport|Abu Dhabi]]{{cn|date=May 2026}}
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]]| '''Seasonal:''' [[King Khalid International Airport|Riyadh]]{{cn|date=May 2026}}
+<!-- -->
+|[[Jazeera Airways]]|'''Seasonal:''' [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+|[[Kuwait Airways]]| '''Seasonal:''' [[Kuwait International Airport|Kuwait City]]{{cn|date=May 2026}}
+<!-- -->
+|[[Oman Air]]| '''Seasonal charter:''' [[Sheremetyevo International Airport|Moscow-Sheremetyevo]], [[Koltsovo International Airport|Yekaterinburg]]
+<!-- -->
+|[[Saudia]]|'''Seasonal:''' [[King Khalid International Airport|Riyadh]]{{cn|date=May 2026}}
+<!-- -->
+|[[SalamAir]]| '''Seasonal:''' [[King Fahd International Airport|Dammam]], [[Hamad International Airport|Doha]], [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+|[[Smartwings]]| '''Seasonal charter:''' [[Bratislava Airport|Bratislava]]
+<!-- -->}}

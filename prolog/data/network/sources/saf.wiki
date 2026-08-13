@@ -1,0 +1,142 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{More citations needed section|date=June 2024}}
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]]
+| [[United Express]]| [[Denver International Airport|Denver]]<br>'''Seasonal:''' [[George Bush Intercontinental Airport|Houston–Intercontinental]]}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Santa Fe Regional Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=35.6183|long=-106.0845|position=top|label='''<small>Santa Fe</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=right|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=33.2606|long=-112.0069|position=left|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix-Sky Harbor]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark=green pog.svg |United_States |lat=29.984444|long=-95.341389|position=left|label='''<small>[[George Bush Intercontinental Airport|Houston Intercontinental]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |mark = Green pog.svg |lat=41.974186|long=-87.907783|position=left|label='''<small>[[O'Hare International Airport|Chicago–O'Hare]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=33.941381|long=-118.408619|position=left|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=80 |marksize=7 |mark = Red pog.svg}}
+}}
+|}
+
+===Statistics===
+{{Bar graph
+| title = Carrier shares (August 2024 – July 2025)
+| bar_width   = 20
+| width_units = em
+| label_type  = Carrier
+| data_type   = Passengers (arriving and departing)
+| data_max    = 400,000
+| label1   = [[SkyWest Airlines|SkyWest]]
+| data1    = 388,000
+| comment1 = 99.64%
+| label3   = [[CommuteAir]]
+| data3    = 660
+| comment3 = 0.17%
+| label2   = [[PSA Airlines|PSA]]
+| data2    = 760
+| comment2 = 0.20%
+}}
+
+{| class="wikitable"
+|+ '''Top domestic destinations from SAF<br />(August 2024 – July 2025)'''<!--NOTE: source does not list airlines associated with destinations at the time-->
+! Rank
+! Airport
+! Passengers
+! Airlines
+|-
+| 1
+| [[Dallas/Fort Worth International Airport|Dallas/Fort Worth International (DFW)]]
+| 97,080
+| American
+|-
+| 2
+| [[Denver International Airport|Denver International (DEN)]]
+| 78,250
+| United
+|-
+|3
+| [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor, Arizona (PHX)]]
+| 19,780
+| American
+|-
+|4
+| [[George Bush Intercontinental Airport|Houston–Bush Intercontinental, Texas (IAH)]]
+| 950
+| United
+|}
+
+=== Annual passenger traffic ===
+{{Airport-Statistics|iata=SAF}}
+
+
+==== Annual passenger traffic (enplaned + deplaned) at SAF, 2011 through present ====
+{| class="wikitable"
+|+
+!Year
+!Passengers
+!Change
+|-
+|2011
+|86,766
+|
+|-
+|2012
+|94,243
+|
+|-
+|2013
+|137,127
+|
+|-
+|2014
+|151,177
+|
+|-
+|2015
+|146,333
+|
+|-
+|2016
+|146,000 (est.)
+|
+|-
+|2017
+|205,794
+|
+|-
+|2018
+|230,114
+|
+|-
+|2019
+|283,238
+|
+|-
+|2020
+|98,479
+|
+|-
+|2021
+|192,000
+|
+|-
+|2022
+|247,000
+|
+|-
+|2023
+|282,000
+|
+|-
+|2024
+|360,000
+|
+|-
+|2025
+|402,000
+|
+|}

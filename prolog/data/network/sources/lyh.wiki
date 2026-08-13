@@ -1,0 +1,5 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]]| [[Charlotte Douglas International Airport|Charlotte]]
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Dulles International Airport|Washington–Dulles]]}}

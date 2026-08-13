@@ -1,0 +1,29 @@
+== Airlines and destinations ==
+[[File:MMTM001.JPG|thumb|Monument sculpture commemorating 50 years of Mexicana de Aviación at Tampico Airport]]
+=== Passenger ===
+{{Airport destination list
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| [[Aeroméxico Connect]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| [[Aerus (airline)|Aerus]] |[[Monterrey International Airport|Monterrey]], [[Veracruz International Airport|Veracruz]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+| [[United Airlines|United]] | [[George Bush Intercontinental Airport|Houston-Intercontinental]]
+| [[Viva (airline)|Viva]] | [[Cancún International Airport|Cancún]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]], [[Villahermosa International Airport|Villahermosa]]
+}}
+[[File:MMTM003.JPG|thumb|Departures concourse]]
+
+=== Destination maps ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=right|caption=Domestic destinations from Tampico International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Mexico |lat=22.2918 |long=-97.8646|position=right|label=<div style="position:relative; top:-5px;"><small>'''Tampico'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.2610 |long=-099.0419|position=bottom|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.7778 |long=-100.1080|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=21.0417 |long=-86.8740|position=left|label='''[[Cancún International Airport|{{nowrap|Cancún}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.7566 |long=-99.0152|position=left|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City-AIFA}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=17.9955 |long=-92.8173|position=bottom|label='''[[Villahermosa International Airport|{{nowrap|Villahermosa}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.1448 |long=-96.1864|position=right|label='''[[Veracruz International Airport|{{nowrap|Veracruz}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|United States|width=650|float=center|caption=International destinations from Tampico International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places=
+{{Location map~ |United_States |lat=29.990140|long=-95.336792 |position=under|label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944|long=-97.038056|position=under|label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth ]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

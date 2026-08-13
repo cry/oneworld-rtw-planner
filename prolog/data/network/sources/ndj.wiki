@@ -1,0 +1,34 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Air Côte d'Ivoire]]| [[Douala International Airport|Douala]]
+<!-- -->
+| [[Air France]] |[[Nnamdi Azikiwe International Airport|Abuja]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[ASKY Airlines]] | [[Nnamdi Azikiwe International Airport|Abuja]], [[Douala International Airport|Douala]], [[Lomé–Tokoin Airport|Lomé]], [[Yaoundé Nsimalen International Airport|Yaoundé]]
+<!-- -->
+| [[Camair-Co]] | [[Douala International Airport|Douala]], [[Yaoundé Nsimalen International Airport|Yaoundé]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Turkish Airlines]] |[[Istanbul Airport|Istanbul]], [[Diori Hamani International Airport|Niamey]]
+<!-- -->
+}}
+
+===Cargo===
+{{Unreliable sources section|date=November 2025}}
+{{Airport destination list
+<!-- -->
+| [[Cargolux]] | [[Luxembourg Findel Airport|Luxembourg]]
+<!-- -->
+| [[EgyptAir Cargo]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| {{nowrap|[[Saudia Cargo]]}} | [[Al Maktoum International Airport|Dubai-Al Maktoum]], [[King Abdulaziz International Airport|Jeddah]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+}}

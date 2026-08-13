@@ -1,0 +1,40 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+=== Passenger ===
+{{Airport destination list
+| [[Allegiant Air]] | [[Harry Reid International Airport|Las Vegas]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Mesa Gateway Airport|Phoenix/Mesa]]
+| [[American Airlines]] | '''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]<br />'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| [[Delta Air Lines]] | '''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| [[Delta Connection]] | [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+| [[United Airlines]] | [[Denver International Airport|Denver]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]]
+| [[United Express]] | [[Denver International Airport|Denver]]<br />'''Seasonal:'''  [[O'Hare International Airport|Chicago–O'Hare]]
+}}
+
+=== Cargo ===
+{{Airport-dest-list
+<!-- -->|[[Alpine Air Express]]|[[Sioux Falls Regional Airport|Sioux Falls]]|[[FedEx Feeder]] <br/> operated by [[Empire Airlines]]|[[Sioux Falls Regional Airport|Sioux Falls]]}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1200 |float=center
+|caption=All passenger destinations from Rapid City Regional Airport (RAP)<br />{{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination 
+|places=
+{{Location map~ |United_States |lat=44.0805|long=-103.2310 |position=left|label=<small>'''{{nowrap|Rapid City}}'''</small>|caption=|mark=Airplane_silhouette.svg |marksize=20}}
+{{Location map~ |United_States |lat=33.307778 |long=-111.655556 |position=bottom|label=<small>'''{{nowrap|[[Mesa Gateway Airport|Phoenix/Mesa]]}}'''</small>|label_size=90 |marksize=10}}
+{{Location map~ |United_States |lat=36.08 |long=-115.152222 |position=right|label=<small>'''{{nowrap|[[Harry Reid International Airport|Las Vegas]]}}'''</small>|label_size=90 |marksize=10}}
+{{Location map~ |United_States |mark = Green pog.svg|lat=41.978611 |long=-87.904722 |position=bottom |label=<small>'''{{nowrap|[[O'Hare International Airport|Chicago–O'Hare]]}}'''</small>|label_size=90 |marksize=10}}
+{{Location map~ |United_States |lat=32.7767 |long=-96.7970|position=bottom|label=<small>'''{{nowrap|[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]}}'''</small>|label_size=90 |marksize=10}}
+{{Location map~ |United_States |lat=44.881944 |long=-93.221667 |position=top|label=<small>'''{{nowrap|[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]}}'''</small>|label_size=90 |marksize=10}} 
+{{Location map~ |United_States |lat=39.861667 |long=-104.673056 |position=bottom |label=<small>'''{{nowrap|[[Denver International Airport|Denver]]}}'''</small>|label_size=90 |marksize=10}}
+{{Location map~ |United_States |mark = Green pog.svg |lat=35.2271|long=-80.8431 |position=right|label=<small>'''{{nowrap|[[Charlotte Douglas International Airport|Charlotte]]}}'''</small>|label_size=90 |marksize=10}}
+{{Location map~ |United_States |mark = Red pog.svg |lat=28.777778 |long=-81.2375|position=right|label=<small>'''{{nowrap|[[Orlando Sanford International Airport|Orlando/Sanford]]}}'''</small>|label_size=90 |marksize=10}}
+{{Location map~ |United_States |mark = Green pog.svg |lat=33.6324 |long=-84.4333|position=right|label=<small>'''{{nowrap|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]}}'''</small>|label_size=90 |marksize=10}}
+{{Location map~ |United_States|  mark = Blue pog.svg |lat=33.436921|long=-112.011667|position=top|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–<br>Sky Harbor]]</small>'''|label_size=90 |marksize=10 }}
+}}
+|}
+
+=== Historical airline service ===
+Since 2020, several destinations have been cut from the airport's schedule and have not returned. Most of these routes were seasonal flights offered during the summer, with Allegiant Air offering flights from select cities for the [[Sturgis Motorcycle Rally]] in August 2021.  The terminated destinations included Appleton, Grand Rapids, Indianapolis, Knoxville, Nashville, Peoria, Pittsburgh, and Punta Gorda (operated by Allegiant), New York-LaGuardia and Phoenix-Sky Harbor (operated by American Eagle), Atlanta and Detroit (operated by Delta Air Lines), Salt Lake City (operated by Delta Connection), and Houston, Newark, Los Angeles, and San Francisco (operated by United Express). United returned seasonal service from San Francisco for the 2024 Sturgis Rally, using the [[Embraer E175]]. Delta announced the return of the Atlanta route in December 2024, which began on May 24, 2025.

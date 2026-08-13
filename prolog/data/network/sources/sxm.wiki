@@ -1,0 +1,67 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+The following airlines provide daily or weekly service to the following destinations:
+{{Airport-dest-list
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| {{nowrap|[[Air Caraïbes]]}} | [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Air Century]] | [[La Isabela International Airport|Santo Domingo–La Isabela]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]] <br/>'''Seasonal:''' [[Pointe-à-Pitre International Airport|Pointe-à-Pitre]]
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| {{nowrap|[[Anguilla Air Services]]}} | [[Clayton J. Lloyd International Airport|Anguilla]]
+<!-- -->
+| [[Arajet]] | [[Las Américas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+| {{nowrap|[[Caribbean Airlines]]}} | [[Grantley Adams International Airport|Barbados]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Piarco International Airport|Port of Spain]]
+<!-- -->
+| {{nowrap|[[Contour Airlines]]}} | [[Cyril E. King Airport|Saint Thomas]] (begins October 5, 2026), [[Luis Muñoz Marín International Airport|San Juan]]{{cn|date=June 2026}}
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| {{nowrap|[[Delta Air Lines]]}} | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[John F. Kennedy International Airport|New York–JFK]] <br/> '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| {{nowrap|[[Frontier Airlines]]}} | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| {{nowrap|[[InterCaribbean Airways]]}} | [[Grantley Adams International Airport|Barbados]]
+<!-- -->
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[John F. Kennedy International Airport|New York–JFK]] <br/> '''Seasonal:''' [[Logan International Airport|Boston]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[La Compagnie]] | '''Seasonal charter:''' [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Baltimore/Washington International Airport|Baltimore]], [[Orlando International Airport|Orlando]]
+<!-- -->
+| {{nowrap|[[St Barth Commuter]]}} | [[Gustaf III Airport|St. Barthélemy]]
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| {{nowrap|[[Sunrise Airways]]}} | [[V. C. Bird International Airport|Antigua]], [[Cap-Haïtien International Airport|Cap-Haïtien]], [[Robert L. Bradshaw International Airport|St. Kitts]]
+<!-- -->
+| {{nowrap|[[United Airlines]]}} | [[Newark Liberty International Airport|Newark]] <br/> '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+| [[WestJet]] | [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Winair]] | [[V. C. Bird International Airport|Antigua]], [[Queen Beatrix International Airport|Aruba]], [[George F. L. Charles Airport|Castries]],{{cn|date=June 2026}} [[Curaçao International Airport|Curaçao]], [[Douglas-Charles Airport|Dominica–Douglas-Charles]], [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[John A. Osborne Airport|Montserrat]], [[Vance W. Amory International Airport|Nevis]], [[Piarco International Airport|Port of Spain]], [[Juancho E. Yrausquin Airport|Saba]], [[Cibao International Airport|Santiago de los Caballeros]], [[Gustaf III Airport|St. Barthélemy]], [[F.D. Roosevelt Airport|St. Eustatius]], [[Robert L. Bradshaw International Airport|St. Kitts]], [[Argyle International Airport|St. Vincent–Argyle]],{{cn|date=June 2026}} [[Terrance B. Lettsome International Airport|Tortola]]
+<!-- -->
+| [[Z Air]] | [[Curaçao International Airport|Curaçao]]
+<!-- -->
+}}
+[[File:06-SXM-airport1s.jpg|thumb|Terminal interior]]
+
+===Cargo===
+{{airport-dest-list
+<!-- -->
+| [[Air Cargo Carriers]] | [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| [[Amerijet International]] | [[Miami International Airport|Miami]]
+<!-- -->
+}}

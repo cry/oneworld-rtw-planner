@@ -1,0 +1,16 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Tétouan Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport-dest-list
+| [[Air Arabia]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| {{nowrap|[[Royal Air Maroc]]}} | [[El Prat Airport|Barcelona]], [[Zaventem Airport|Brussels]], [[Mohammed V Airport|Casablanca]], [[Gatwick Airport|London–Gatwick]], [[Charles de Gaulle Airport| Paris–Charles de Gaulle]], [[Barajas Airport|Madrid]], [[Málaga Airport|Málaga]]
+<!-- -->
+| {{nowrap|[[Royal Air Maroc Express]]}} | [[Cherif Al Idrissi Airport|Al Hoceima]], [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Ryanair]] | [[Alicante Airport|Alicante]], [[Charleroi Airport|Charleroi]], [[Madrid Airport|Madrid]], [[Málaga Airport|Málaga]], [[Marrakesh Menara Airport|Marrakesh]] <br> '''Seasonal:''' [[Marseille Provence Airport|Marseille]], [[Seville Airport|Seville]]
+<!-- -->
+| [[TUI fly Belgium]] | [[Brussels Airport|Brussels]]
+<!-- -->
+}}

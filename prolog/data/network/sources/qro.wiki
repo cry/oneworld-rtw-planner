@@ -1,0 +1,66 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| {{nowrap|[[Aeroméxico Connect]]}} |[[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Airport|Detroit]], [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| [[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]<br> '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]]
+| [[Iberojet (airline)|Iberojet]] | [[Madrid–Barajas Airport|Madrid]]
+| [[TAR Aerolíneas|TAR México]] | [[Acapulco International Airport|Acapulco]], [[Chihuahua International Airport|Chihuahua]], [[Ciudad Juárez International Airport|Ciudad Juárez]], [[Hermosillo International Airport|Hermosillo]], [[La Paz International Airport|La Paz]], [[Mazatlán International Airport|Mazatlán]], [[Torreón International Airport|Torreón/Gómez Palacio]]
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+| [[Viva (airline)|Viva]] | [[Cancún International Airport|Cancún]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Mérida International Airport|Mérida]], [[Monterrey International Airport|Monterrey]], [[San Antonio International Airport|San Antonio]], [[Los Cabos International Airport|San José del Cabo]], [[Tijuana International Airport|Tijuana]]
+| [[Volaris]] | [[Acapulco International Airport|Acapulco]], [[Cancún International Airport|Cancún]], [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Durango International Airport|Durango]], [[Guadalajara International Airport|Guadalajara]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Ixtapa-Zihuatanejo International Airport|Ixtapa/Zihuatanejo]], [[Harry Reid International Airport|Las Vegas]] (begins December 4, 2026), [[Los Angeles International Airport|Los Angeles]], [[Mazatlán International Airport|Mazatlán]], [[Monterrey International Airport|Monterrey]], [[Oaxaca International Airport|Oaxaca]], [[Orlando International Airport|Orlando]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[San Antonio International Airport|San Antonio]], [[Tijuana International Airport|Tijuana]], [[Veracruz International Airport|Veracruz]]
+}}
+
+===Cargo===
+{{Airport destination list
+| [[Aeronaves TSM]] | [[Laredo International Airport|Laredo]]
+| [[AeroUnion]] | [[Los Angeles International Airport|Los Angeles]]
+| [[Air Atlanta Icelandic]] | [[Frankfurt–Hahn Airport|Frankfurt–Hahn]], [[Greenville–Spartanburg International Airport|Greenville]]
+| [[Cargojet]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[John C. Munro Hamilton International Airport|Hamilton]]
+| [[DHL Aviation]] | [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Guadalajara International Airport|Guadalajara]]
+| [[FedEx Express]] | [[Memphis International Airport|Memphis]]
+| [[TUM AeroCarga]] | [[Toluca International Airport|Toluca/Mexico City]]
+| [[UPS Airlines]] | [[Louisville International Airport|Louisville]]
+}}
+
+=== Destinations map ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+|{{Location map+ |Mexico |width=650 |float=left
+|caption=Domestic destinations from Querétaro Intercontinental Airport  <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination
+|places=
+{{Location map~ | Mexico|lat=20.6225 |long=-100.1873 |position=right|label=<div style="position:relative; top:-0.1px;">'''<small>Querétaro</small>'''</div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=16.756028 |long=-99.751611|position=bottom|label='''[[Acapulco International Airport|{{nowrap|Acapulco}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=bottom|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.7778 |long=-100.1080|position=top|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=28.7040 |long=-105.9690|position=bottom|label='''[[Chihuahua International Airport|{{nowrap|Chihuahua}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=21.0417 |long=-86.8740|position=left|label='''[[Cancún International Airport|{{nowrap|Cancún}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=31.6363 |long=-106.4286|position=right|label='''[[Ciudad Juárez International Airport|{{nowrap|Ciudad Juárez}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=29.0900 |long=-111.0520|position=right|label='''[[Hermosillo International Airport|{{nowrap|Hermosillo}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |  Mexico|lat=24.1260 |long=-104.5339|position=right|label='''[[Durango International Airport|{{nowrap|Durango}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.5260 |long=-103.3076|position=top|label='''[[Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=24.0761 |long=-110.3671|position=top|label='''[[La Paz International Airport|{{nowrap|La Paz}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=23.1671 |long=-106.2701|position=right|label='''[[Mazatlán International Airport|{{nowrap|Mazatlán}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.6805 |long=-105.2524|position=left|label='''[[Licenciado Gustavo Díaz Ordaz International Airport|{{nowrap|Puerto Vallarta}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.5633 |long=-103.3988|position=bottom|label='''[[Torreón International Airport|{{nowrap|Torreón/Gómez Palacio}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.936944|long=-89.657778|position=bottom|label='''[[Mérida International Airport|{{nowrap|Mérida}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=23.1455 |long=-109.7183|position=left|label='''[[Los Cabos International Airport|{{nowrap|San José del Cabo}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=17.601389 |long=-101.460278|position=right|label='''[[Ixtapa-Zihuatanejo International Airport|{{nowrap|Ixtapa/Zihuatanejo}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=17.0008 |long=-96.7221|position=bottom|label='''[[Oaxaca International Airport|{{nowrap|Oaxaca}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.1448 |long=-96.1864|position=right|label='''[[Veracruz International Airport|{{nowrap|Veracruz}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|United_States|width=650|float=center|caption=International destinations from Queretaro Intercontinental Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal/charter destination|places={{Location map~ |United_States |lat=32.8998|long=-97.0403|position=top|label='''[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=41.9803|long=-87.9090|position=bottom|label='''[[O'Hare International Airport|Chicago–O'Hare]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=29.9902|long=-95.3368|position=right|label='''[[George Bush Intercontinental Airport|Houston–Intercontinental]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=29.5266|long=-98.4719|position=top|label='''[[San Antonio International Airport|San Antonio]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=42.2125|long=-83.353333|position=left|label='''[[Detroit Metropolitan Airport|Detroit]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=33.9425|long=-118.408056|position=top|label='''[[Los Angeles International Airport|Los Angeles]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=33.636667|long=-84.428056|position=left|label='''[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | United_States |lat=39.861667|long=-104.673056|position=top|label='''[[Denver International Airport|Denver]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | United_States |lat=28.429444|long=-81.308889|position=right|label='''[[Orlando International Airport|Orlando]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Blue pog.svg | United States |lat=36.08|long=-115.152222|position=right|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

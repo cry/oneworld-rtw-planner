@@ -1,0 +1,14 @@
+==Airlines and destinations==
+[[File:Nausori Airport Check-in.jpg|thumb|Check-in area at the airport]]
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+
+| [[Fiji Link]] | [[Cicia Airport|Cicia]], [[Funafuti International Airport|Funafuti]], [[Vunisea Airport|Kadavu]], [[Koro Airport|Koro]], [[Labasa Airport|Labasa]], [[Lakeba Airport|Lakeba]], [[Nadi International Airport|Nadi]], [[Rotuma Airport|Rotuma]], [[Savusavu Airport|Savusavu]], [[Matei Airport|Taveuni]], [[Vanuabalavu Airport|Vanua Balavu]], [[Vunisea Airport|Vunisea]]
+
+| {{nowrap|[[Nauru Airlines]]}} | [[Nauru International Airport|Nauru]]
+
+| {{nowrap|[[Northern Air (Fiji)|Northern Air]]}} | [[Gau Airport|Gau]], [[Koro Airport|Koro]], [[Labasa Airport|Labasa]], [[Levuka Airfield|Levuka]], [[Moala Airport|Moala]], [[Rotuma Airport|Rotuma]], [[Savusavu Airport|Savusavu]], [[Matei Airport|Taveuni]]
+
+}}
+
+If passengers would fly internationally from this airport, they will need to transit in [[Nadi International Airport|Nadi]] to get to other international destinations.

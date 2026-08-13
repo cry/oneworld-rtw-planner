@@ -1,0 +1,29 @@
+==Airlines and destinations==
+The following airlines offer regular scheduled, seasonal, and charter flights at Graz Airport:
+
+<!--PLEASE DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Dolomiti]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna Airport|Vienna]] (ends 23 October 2026)
+<!-- -->
+|[[Avanti Air]]| [[Calvi–Sainte-Catherine Airport|Calvi]], [[Friedrichshafen Airport|Friedrichshafen]], [[Linz Airport|Linz]], [[New Paros Airport|Paros]], [[Skiathos International Airport|Skiathos]]
+<!-- -->
+| [[BA Euroflyer]] | [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Corendon Airlines]]| '''Seasonal:''' [[Heraklion International Airport|Heraklion]], [[Hurghada International Airport|Hurghada]]
+<!-- -->
+|[[Croatia Airlines]]| [[Brač Airport|Brač ]]
+<!-- -->
+| [[Eurowings]] | [[Berlin Brandenburg Airport|Berlin]], [[Düsseldorf Airport|Düsseldorf]], [[Hamburg Airport|Hamburg]] <br /> '''Seasonal:''' [[Chania International Airport|Chania]], [[Corfu International Airport|Corfu]], [[Gran Canaria Airport|Gran Canaria]], [[Heraklion International Airport|Heraklion]],  [[Hurghada International Airport|Hurghada]], [[Karpathos Island National Airport|Karpathos]], [[Kos International Airport|Kos]], [[Larnaca International Airport|Larnaca]], [[Olbia Costa Smeralda Airport|Olbia]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Rhodes International Airport|Rhodes]], [[Salzburg Airport|Salzburg]], [[Tenerife South Airport|Tenerife–South]]
+<!-- -->
+| [[Lufthansa]] | [[Munich Airport|Munich]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]] <br>'''Seasonal:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[SunExpress]] | [[Antalya Airport|Antalya]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zurich Airport|Zürich]]
+<!-- -->
+}}

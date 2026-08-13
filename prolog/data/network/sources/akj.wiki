@@ -1,0 +1,13 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Air Do]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Jetstar Japan]] | [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+}}

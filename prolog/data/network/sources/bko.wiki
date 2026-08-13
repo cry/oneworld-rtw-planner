@@ -1,0 +1,38 @@
+==Airlines and destinations==
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED.  -->
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+|[[Air Algérie]]| [[Houari Boumediene Airport|Algiers]]
+<!-- -->
+|[[Air Burkina]]| [[Blaise Diagne International Airport|Dakar–Diass]], [[Ouagadougou Airport|Ouagadougou]]
+<!-- -->
+|[[Air Côte d'Ivoire]]| [[Port Bouet Airport|Abidjan]], [[Bouaké Airport|Bouaké]], [[Ahmed Sékou Touré International Airport|Conakry]], [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+| [[Air Senegal]]| [[Blaise Diagne International Airport|Dakar–Diass]], [[Diori Hamani International Airport|Niamey]]
+<!-- -->
+|[[ASKY Airlines]]| [[Conakry International Airport|Conakry]], [[Blaise Diagne International Airport|Dakar–Diass]], [[Lomé–Tokoin Airport|Lomé]], [[Diori Hamani International Airport|Niamey]], [[Thomas Sankara International Airport Ouagadougou|Ouagadougou]]
+<!-- -->
+|[[Corsair International]]| [[Orly Airport|Paris–Orly]]
+<!-- -->
+|[[Ethiopian Airlines]]| [[Bole International Airport|Addis Ababa]], [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+|[[Kenya Airways]]| [[Blaise Diagne International Airport|Dakar–Diass]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+|{{nowrap|[[Mauritania Airlines]]}}| [[Port Bouet Airport|Abidjan]], [[Cadjehoun Airport|Cotonou]], [[Blaise Diagne International Airport|Dakar–Diass]], [[Nouakchott–Oumtounsy International Airport|Nouakchott]]
+<!-- -->
+|[[Royal Air Maroc]]| [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+|[[Sky Mali]]| [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Gao International Airport|Gao]], Kayes, [[Diori Hamani International Airport|Niamey]], [[Timbuktu Airport|Timbuktu]]
+<!-- -->
+|[[Tunisair]]| [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+|[[Turkish Airlines]]| [[Istanbul Airport|Istanbul]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+|[[DHL Aviation]]| [[Murtala Muhammed International Airport|Lagos]]
+|[[Cargolux]]| [[Luxembourg Airport|Luxembourg]]
+}}

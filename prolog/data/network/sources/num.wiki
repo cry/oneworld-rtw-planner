@@ -1,0 +1,12 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+
+{{Airport-dest-list
+<!-- -->
+| [[flyadeal]] | [[King Fahd International Airport|Dammam]]
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+| [[Nile Air]] | [[Cairo International Airport|Cairo]]
+| {{nowrap|[[Qatar Airways]]}} | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Saudia]] | [[Cairo International Airport|Cairo]], [[King Fahd International Airport|Dammam]], [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+}}

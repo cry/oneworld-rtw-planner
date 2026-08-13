@@ -1,0 +1,107 @@
+==Airlines and destinations==
+
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter services to and from the airport:
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]]| [[Athens International Airport|Athens]] <br /> ''' Seasonal charter:''' [[Larnaca International Airport|Larnaca]]
+<!-- -->
+| [[Aeroflot]]| [[Krasnodar International Airport|Krasnodar]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Pulkovo Airport|Saint Petersburg]], [[Koltsovo International Airport|Yekaterinburg]]
+<!-- -->
+| [[Air Arabia]]| [[Zayed International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[airBaltic]]| [[Riga International Airport|Riga]]
+<!-- -->
+| [[Air Cairo]]| [[Cairo International Airport|Cairo]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Air France]]| [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Armenia Airways]] |  [[Vnukovo International Airport|Moscow–Vnukovo]], [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Austrian Airlines]]| [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Azimuth (airline)|azimuth]] | [[Krasnodar International Airport|Krasnodar]], [[Mineralnye Vody Airport|Mineralnye Vody]], [[Vnukovo International Airport|Moscow–Vnukovo]], [[Adler-Sochi International Airport|Sochi]], [[Ufa International Airport|Ufa]]
+<!-- -->
+| [[Belavia]]| [[Minsk National Airport|Minsk]]
+<!-- -->
+| [[Brussels Airlines]]| [[Brussels Airport|Brussels]]
+<!-- -->
+| {{nowrap|[[Caspian Airlines]]}}| [[Imam Khomeini Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}}| [[Ürümqi Diwopu International Airport|Ürümqi]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Eurowings]]| [[Berlin Brandenburg Airport|Berlin]], [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[flydubai]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[FlyOne]] |[[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Almaty International Airport|Almaty]], [[Barcelona El Prat Airport|Barcelona]], [[Orio al Serio International Airport|Bergamo]],  [[Brussels Airport|Brussels]], [[Chișinău International Airport|Chișinău]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Dushanbe International Airport|Dushanbe]] (begins {{date|2026-8-22}}), [[Heraklion International Airport|Heraklion]], [[Kazan International Airport|Kazan]], [[Krasnodar International Airport|Krasnodar]], [[Larnaca International Airport|Larnaca]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Domodedovo International Airport|Moscow–Domodedovo]], [[Vnukovo International Airport|Moscow–Vnukovo]], [[Nice Côte d'Azur Airport|Nice]], [[Paphos International Airport|Paphos]], [[Paris Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Pulkovo International Airport|Saint Petersburg]], [[Sochi International Airport|Sochi]], [[Islam Karimov Tashkent International Airport|Tashkent]], [[Tbilisi International Airport|Tbilisi]], [[Ben Gurion Airport|Tel Aviv]], [[Thessaloniki Airport|Thessaloniki]], [[Tivat Airport|Tivat]], [[Vienna Airport|Vienna]], [[Koltsovo Airport|Yekaterinburg]]<br /> '''Seasonal:''' [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Fly Cham]] | [[Aleppo International Airport|Aleppo]]
+<!-- -->
+| [[Georgian Airways]] | [[Tbilisi International Airport|Tbilisi]]
+<!-- -->
+| [[Iran Airtour]]| [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Iraqi Airways]]| [[Baghdad International Airport|Baghdad]]
+<!-- -->
+| [[Jazeera Airways]] | '''Seasonal:''' [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[LOT Polish Airlines]]| [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]]| [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| {{nowrap|[[Middle East Airlines]]}}| [[Beirut–Rafic Hariri International Airport|Beirut]]
+<!-- -->
+| [[Novair (Armenia)|Novair]]| [[Syunik Airport|Kapan]]
+<!-- -->
+| [[Pegasus Airlines]]| [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]]| [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Qeshm Air]]| [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Red Sea Airlines (charter airline)|Red Sea Airlines]] | '''Seasonal charter:''' [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| {{nowrap|[[Red Wings Airlines]]}}| [[Chelyabinsk Airport|Chelyabinsk]], [[Kazan International Airport|Kazan]], [[Mineralnye Vody Airport|Mineralnye Vody]], [[Zhukovsky International Airport|Moscow–Zhukovsky]], [[Nizhny Novgorod Airport|Nizhny Novgorod]], [[Kurumoch International Airport|Samara]], [[Sochi International Airport|Sochi]], [[Ufa International Airport|Ufa]]
+<!-- -->
+| [[Rossiya Airlines]]| [[Mineralnye Vody Airport|Mineralnye Vody]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Pulkovo International Airport|Saint Petersburg]], [[Kurumoch Airport|Samara]], [[Sochi International Airport|Sochi]], [[Volgograd International Airport|Volgograd]]
+<!-- -->
+| [[S7 Airlines]]| [[Tolmachevo Airport|Novosibirsk]]
+<!-- -->
+| [[SCAT Airlines]] | [[Aqtau International Airport|Aqtau]]
+<!-- -->
+| [[Sepehran Airlines]]| [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Shirak Avia]]| [[ Tashkent International Airport|Tashkent ]], [[Nursultan Nazarbayev International Airport|Astana]], [[Ngurah Rai International Airport|Denpasar]] (begins 1 November 2026), [[Krasnoyarsk International Airport|Krasnoyarsk]], [[Velana International Airport|Malé]] (begins 14 November 2026), [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Vnukovo International Airport|Moscow–Vnukovo]], [[Strigino International Airport|Nizhny Novgorod]], [[Tolmachevo Airport|Novosibirsk]], [[Bolshoye Savino Airport|Perm]], [[Phuket International Airport|Phuket]] (begins 5 November 2026), [[Saratov Gagarin Airport|Saratov]], [[Ufa International Airport|Ufa]] <br /> '''Seasonal:''' [[Khrabrovo Airport|Kaliningrad]]
+<!-- -->
+| [[Sky Express (Greece)|Sky Express]]| [[Athens International Airport|Athens]]
+<!-- -->
+|[[SkyUp]] | '''Seasonal charter:''' [[Hurghada International Airport|Hurghada]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Transavia France|Transavia]]| [[Paris Orly Airport|Paris–Orly]] <br /> ''' Seasonal:''' [[Lyon–Saint-Exupéry Airport|Lyon]], [[Marseille Provence Airport|Marseille]]
+<!-- -->
+| [[Turkish Airlines]]| [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Ural Airlines]]| [[Moscow Domodedovo Airport|Moscow–Domodedovo]], [[Adler-Sochi International Airport|Sochi]], [[Koltsovo International Airport|Yekaterinburg]]
+<!-- -->
+| [[Utair]]| [[Vnukovo International Airport|Moscow–Vnukovo]], [[Pulkovo International Airport|Saint Petersburg]], [[Surgut International Airport|Surgut]], [[Roshchino International Airport|Tyumen]]
+<!-- -->
+|[[Wizz Air]]| [[Bari Karol Wojtyła Airport|Bari]], [[Beauvais–Tillé Airport|Beauvais]], [[Bratislava Airport|Bratislava]], [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Brussels South Charleroi Airport|Charleroi]] (begins 1 February 2027), [[Dortmund Airport|Dortmund]], [[Eindhoven Airport|Eindhoven]] (begins 26 October 2026), [[Hamburg Airport|Hamburg]], [[Larnaca International Airport|Larnaca]], [[Luton Airport|London–Luton]], [[Memmingen Airport|Memmingen]],  [[Milan Malpensa Airport|Milan–Malpensa]], [[Naples International Airport|Naples]], [[Paphos International Airport|Paphos]], [[Václav Havel Airport Prague|Prague]], [[Rhodes International Airport|Rhodes]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Venice Marco Polo Airport|Venice]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[ASL Airlines Belgium]]| [[Liège Airport|Liège]]
+<!-- -->
+| [[Hayways (airline)|Hayways]]| [[Vnukovo International Airport|Moscow-Vnukovo]]
+<!-- -->
+| [[Lufthansa Cargo]]| [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Swiftair]]| [[Cologne Bonn Airport|Cologne/Bonn]],{{citation needed|date=September 2022}} [[Tbilisi International Airport|Tbilisi]]{{citation needed|date=September 2022}}
+<!-- -->
+}}

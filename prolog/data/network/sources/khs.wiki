@@ -1,0 +1,4 @@
+==Airlines and destinations==
+{{airport-dest-list
+|[[Oman Air]] | [[Dubai International Airport|Dubai–International]], [[Muscat International Airport|Muscat]]
+}}

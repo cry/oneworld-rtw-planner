@@ -1,0 +1,83 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines operate regular scheduled and charter flights to and from Abu Dhabi:
+
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY.-->
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal:''' [[Athens International Airport|Athens]]{{cn|date=July 2026}}
+<!-- -->
+| [[Aeroflot]] | [[Sheremetyevo International Airport|Moscow–Sheremetyevo]] (resumes {{date|2026-10-1}})
+<!-- -->
+| [[Air Arabia]] | [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Borg El Arab Airport|Alexandria]], [[Almaty International Airport|Almaty]],{{cn|date=July 2026}} [[Queen Alia International Airport|Amman–Queen Alia]], [[Amman Civil Airport|Amman–Civil]], [[Baghdad International Airport|Baghdad]], [[Bahrain International Airport|Bahrain]], [[Heydar Aliyev International Airport|Baku]], [[Beirut–Rafic Hariri International Airport|Beirut]],{{cn|date=July 2026}} [[Cairo International Airport|Cairo]], [[Chennai International Airport|Chennai]], [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Tribhuvan International Airport|Kathmandu]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Calicut International Airport|Kozhikode]], [[Kuwait International Airport|Kuwait City]],{{cn|date=July 2026}} [[Moscow–Domodedovo]],{{cn|date=July 2026}} [[Muscat International Airport|Muscat]], [[Salalah International Airport|Salalah]], [[Sohag International Airport|Sohag]],   [[Sialkot International Airport|Sialkot]],{{cn|date=July 2026}} [[Islam Karimov Tashkent International Airport|Tashkent]],{{cn|date=July 2026}} [[Tbilisi International Airport|Tbilisi]], [[Thiruvananthapuram International Airport|Thiruvananthapuram]], [[Koltsovo Airport|Yekaterinburg]]{{bsn|date=June 2025}} [[Zvartnots International Airport|Yerevan]]{{cn|date=July 2026}} <br/> '''Seasonal:''' [[Assiut Airport|Assiut]],{{cn|date=July 2026}} [[Sphinx International Airport|Giza]]
+<!-- -->
+| [[Air Astana]] | [[Almaty International Airport|Almaty]], [[Nursultan Nazarbayev International Airport|Astana]] (all flights suspended until {{date|2026-8-31}}) 
+<!-- -->
+| [[Air China]] | [[Beijing–Capital]]{{cn|date=July 2026}}
+<!-- -->
+| [[Air India Express]] | [[Kempegowda International Airport|Bengaluru]],{{cn|date=July 2026}} [[Manohar International Airport|Goa–Mopa]],{{cn|date=July 2026}} [[Guwahati Airport|Guwahati]] (begins 7 August 2026), [[Rajiv Gandhi International Airport|Hyderabad]], [[Indore Airport|Indore]], [[Kannur International Airport|Kannur]], [[Lucknow Airport|Lucknow]], [[Navi Mumbai International Airport|Mumbai–Navi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Pune International Airport|Pune]]{{cn|date=July 2026}}
+<!-- -->
+| [[Air Samarkand]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Air Seychelles]] | [[Seychelles International Airport|Mahé]]
+<!-- -->
+| [[Akasa Air]] | [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Kempegowda International Airport|Bengaluru]],{{bsn|date=July 2026}} [[Chennai International Airport|Chennai]]{{bsn|date=July 2026}}
+<!-- -->
+| [[Animawings]] |'''Seasonal:'''  [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]]{{cn|date=July 2026}}
+<!-- -->
+| [[Badr Airlines]] | [[Port Sudan New International Airport|Port Sudan]]{{cn|date=July 2026}}
+<!-- -->
+| [[British Airways]] | [[London–Heathrow]]
+<!-- -->
+| {{nowrap|[[China Eastern Airlines]]}} | [[Shanghai Pudong International Airport|Shanghai–Pudong]]{{cn|date=July 2026}}
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Berlin Brandenburg Airport|Berlin]] [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]{{cn|date=July 2026}}
+<!-- -->
+| [[Etihad Airways]] | [[Accra International Airport|Accra]] (begins 17 March 2027), [[Addis Ababa Bole International Airport|Addis Ababa]],{{cn|date=July 2026}} [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Asmara International Airport|Asmara]] (begins 7 November 2026), [[Athens International Airport|Athens]], [[Atlanta International Airport|Atlanta]], [[Bahrain International Airport|Bahrain]], [[Bangkok–Suvarnabhumi]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Beijing Daxing International Airport|Beijing–Daxing]], [[Kempegowda International Airport|Bengaluru]], [[Logan International Airport|Boston]], [[Brussels Airport|Brussels]], [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]] (begins 21 December 2026), [[Cairo International Airport|Cairo]], [[Calgary International Airport|Calgary]] (begins 3 November 2026), [[Mohammed V International Airport|Casablanca]], [[Charlotte Douglas International Airport|Charlotte]], [[Chengdu–Tianfu]] (begins 6 March 2027), [[Chennai International Airport|Chennai]], [[Chiang Mai International Airport|Chiang Mai]],{{cn|date=July 2026}} [[Chicago–O'Hare]], [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Copenhagen Airport|Copenhagen]], [[Damascus International Airport|Damascus]], [[King Fahd International Airport|Dammam]], [[Indira Gandhi International Airport|Delhi]], [[Ngurah Rai International Airport|Denpasar]], [[Shahjalal International Airport|Dhaka]], [[Hamad International Airport|Doha]], [[Dublin Airport|Dublin]], [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Prince Naif bin Abdulaziz International Airport|Gassim]], [[Geneva Airport|Geneva]], [[Guangzhou Baiyun International Airport|Guangzhou]] (resumes 4 March 2027), [[Hangzhou Xiaoshan International Airport|Hangzhou]] (begins 4 March 2027), [[Noi Bai International Airport|Hanoi]],{{cn|date=July 2026}} [[Robert Gabriel Mugabe International Airport|Harare]] (begins 24 March 2027), [[Hong Kong International Airport|Hong Kong]],{{cn|date=July 2026}} [[Rajiv Gandhi International Airport|Hyderabad]], [[Islamabad International Airport|Islamabad]], [[Istanbul Airport|Istanbul]], [[Jaipur International Airport|Jaipur]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[King Abdulaziz International Airport|Jeddah]], [[Johannesburg–O.R. Tambo]], [[Kabul International Airport|Kabul]], [[Jinnah International Airport|Karachi]], [[N'djili Airport|Kinshasa–N'djili]] (begins 18 March 2027), [[Cochin International Airport|Kochi]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Calicut International Airport|Kozhikode]], [[Krabi International Airport|Krabi]],{{cn|date=July 2026}} [[Kuala Lumpur–International]], [[Kuwait International Airport|Kuwait City]], [[Murtala Muhammed International Airport|Lagos]] (resumes 18 March 2027), [[Allama Iqbal International Airport|Lahore]], [[Lisbon Airport|Lisbon]], [[London–Heathrow]], [[Lubumbashi International Airport|Lubumbashi]] (begins 24 March 2027), [[Luxembourg Airport|Luxembourg]] (begins 29 October 2026), [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Velana International Airport|Malé]], [[Manchester Airport|Manchester]], [[Ninoy Aquino International Airport|Manila]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Melbourne Airport|Melbourne]], [[Milan–Malpensa]], [[Moscow–Sheremetyevo]],{{cn|date=July 2026}} [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Munich Airport|Munich]], [[Muscat International Airport|Muscat]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[New York–JFK]], [[Paris–Charles de Gaulle]], [[Bacha Khan International Airport|Peshawar]],{{cn|date=July 2026}} [[Techo International Airport (Cambodia)|Phnom Penh]],{{cn|date=July 2026}} [[Phuket International Airport|Phuket]], [[Václav Havel Airport Prague|Prague]], [[King Khalid International Airport|Riyadh]], [[Rome–Fiumicino]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]] (resumes 1 October 2026), [[Shenzhen Bao'an International Airport|Shenzhen]] (begins 7 March 2027), [[Changi Airport|Singapore]], [[Adler-Sochi International Airport|Sochi]],{{cn|date=July 2026}} [[Sydney Airport|Sydney–Kingsford Smith]], [[Taipei–Taoyuan]],{{cn|date=July 2026}} [[Tashkent International Airport|Tashkent]], [[Ben Gurion Airport|Tel Aviv]], [[Thiruvananthapuram International Airport|Thiruvananthapuram]], [[Tokyo–Narita]], [[Toronto–Pearson]], [[Carthage Airport|Tunis]],{{cn|date=July 2026}} [[Vienna International Airport|Vienna]], [[Warsaw–Chopin]], [[Washington–Dulles]], [[Zürich Airport|Zürich]] <br/> '''Seasonal:''' [[El Alamein International Airport|El Alamein]], [[Göteborg Landvetter Airport|Göteborg]], [[Kazan International Airport|Kazan]],{{cn|date=July 2026}} [[Kraków John Paul II International Airport|Kraków]],{{cn|date=July 2026}} [[Málaga Airport|Málaga]], [[Mykonos Airport|Mykonos]], [[Nice Côte d'Azur Airport|Nice]], [[Kansai International Airport|Osaka−Kansai]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Salalah International Airport|Salalah]],{{cn|date=July 2026}} [[Santorini (Thira) International Airport|Santorini]], [[Pulkovo Airport|Saint Petersburg]], [[Abeid Amani Karume International Airport|Zanzibar]]{{cn|date=July 2026}}
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]]
+<!-- -->
+| [[Fly Cham]] | [[Damascus International Airport|Damascus]]
+<!-- -->
+| [[Flynas]] | [[King Khalid International Airport|Riyadh]]{{cn|date=July 2026}}
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[Hainan Airlines]] | [[Haikou Meilan International Airport|Haikou]]{{cn|date=July 2026}}
+<!-- -->
+| [[IndiGo]] | [[Ahmedabad Airport|Ahmedabad]], [[Kempegowda International Airport|Bengaluru]], [[Biju Patnaik Airport|Bhubaneswar]],{{cn|date=July 2026}} [[Chandigarh Airport|Chandigarh]], [[Chennai International Airport|Chennai]],{{cn|date=July 2026}} [[Coimbatore International Airport|Coimbatore]],{{cn|date=July 2026}} [[Rajiv Gandhi International Airport|Hyderabad]],{{cn|date=July 2026}} [[Kannur International Airport|Kannur]], [[Calicut International Airport|Kozhikode]],{{cn|date=July 2026}} [[Chaudhary Charan Singh International Airport|Lucknow]], [[Madurai Airport|Madurai]],{{cn|date=July 2026}} [[Mangalore International Airport|Mangaluru]],{{cn|date=July 2026}} [[Tiruchirappalli International Airport|Tiruchirappalli]],{{cn|date=July 2026}} [[Visakhapatnam Airport|Visakhapatnam]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]] (begins 26 October 2026)
+<!-- -->
+| [[Pobeda (airline)|Pobeda]] | [[Uytash Airport|Makhachkala]],{{cn|date=July 2026}} [[Moscow–Vnukovo]]{{cn|date=July 2026}}
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]],{{cn|date=July 2026}} [[King Hussein International Airport|Aqaba]] (begins 18 September 2026)
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]{{cn|date=July 2026}}
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal charter:''' [[Cologne Bonn Airport|Cologne/Bonn]],{{cn|date=July 2026}} [[Leipzig/Halle Airport|Leipzig/Halle]],{{cn|date=July 2026}} [[Nuremberg Airport|Nuremberg]]{{cn|date=July 2026}}
+ <!-- -->
+| [[Syrian Air]] | [[Damascus International Airport|Damascus]]
+<!-- -->
+| [[US-Bangla Airlines]] | [[Shahjalal International Airport|Dhaka]]
+<!-- -->
+| [[Wizz Air]] | [[Budapest Ferenc Liszt International Airport|Budapest]], [[Katowice Airport|Katowice]], [[Kraków John Paul II International Airport|Kraków]], [[Larnaca International Airport|Larnaca]], [[Sofia Airport|Sofia]] <br/> '''Seasonal:''' [[Cluj International Airport|Cluj-Napoca]] (resumes 27 October 2026)
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list|3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| {{nowrap|[[CMA CGM Air Cargo]]}} | [[Paris–Charles de Gaulle]] | 
+<!-- -->
+| [[Etihad Cargo]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Logan International Airport|Boston]], [[Shah Amanat International Airport|Chittagong]], [[Rickenbacker International Airport|Columbus–Rickenbacker]], [[King Fahd International Airport|Dammam]], [[Indira Gandhi International Airport|Delhi]], [[Shahjalal International Airport|Dhaka]], [[Ezhou Huahu Airport|Ezhou]], [[Frankfurt Airport|Frankfurt]], [[Noi Bai International Airport|Hanoi]], [[Hong Kong International Airport|Hong Kong]], [[Miami International Airport|Miami]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Paris–Charles de Gaulle]], [[Shanghai Pudong International Airport|Shanghai–Pudong]] | 
+<!-- -->
+| {{nowrap|[[Turkmenistan Airlines|Turkmenistan Airlines Cargo]]}} | [[Ashgabat International Airport|Ashgabat]] | 
+<!-- -->
+}}

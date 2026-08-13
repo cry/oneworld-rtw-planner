@@ -1,0 +1,47 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate scheduled services to and from Linate Airport:
+
+{{Airport-dest-list
+<!-- -->
+| [[Aer Lingus]] | [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Aeroitalia]] |  [[Cagliari Elmas Airport|Cagliari]], [[Comiso Airport|Comiso]], [[Foggia Gino Lisa Airport|Foggia]], [[Olbia Costa Smeralda Airport|Olbia]], [[Trieste Airport|Trieste]]
+<!-- -->
+| [[Air Dolomiti]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]] <br />'''Seasonal:''' [[London City Airport|London–City]]
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[DAT (airline)|DAT]] | [[Marche Airport|Ancona]]
+<!-- -->
+| [[easyJet]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Berlin Brandenburg Airport|Berlin]], [[Birmingham Airport|Birmingham]],  [[Brussels Airport|Brussels]], [[Copenhagen Airport|Copenhagen]], [[Edinburgh Airport|Edinburgh]], [[Frankfurt Airport|Frankfurt]], [[Humberto Delgado Airport|Lisbon]], [[Gatwick Airport|London–Gatwick]], [[Luxembourg Airport|Luxembourg]],  [[Manchester Airport|Manchester]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Orly Airport|Paris–Orly]], [[Porto Airport|Porto]], [[Tenerife South Airport|Tenerife–South]] [[Vienna Airport|Vienna]] <br> '''Seasonal:''' [[Brindisi Airport|Brindisi]], [[Figari–Sud Corse Airport|Figari]], [[Geneva Airport|Geneva]] (begins 25 October 2026),  [[Gran Canaria Airport|Gran Canaria]], [[Ibiza Airport|Ibiza]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Split Airport|Split]]
+<!-- -->
+| [[Eurowings]] |[[Düsseldorf Airport|Düsseldorf]],  [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[ITA Airways]] | [[Alghero–Fertilia Airport|Alghero]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Bari Karol Wojtyła Airport|Bari]], [[Brindisi Airport|Brindisi]], [[Brussels Airport|Brussels]], [[Catania–Fontanarossa Airport|Catania]], [[Düsseldorf Airport|Düsseldorf]], [[Lamezia Terme International Airport|Lamezia Terme]], [[London City Airport|London–City]], [[Munich Airport|Munich]], [[Naples International Airport|Naples]], [[Falcone Borsellino Airport|Palermo]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Orly Airport|Paris–Orly]], [[Reggio Calabria Airport|Reggio Calabria]], [[Rome Fiumicino Airport|Rome–Fiumicino]] <br /> '''Seasonal:''' [[Ibiza Airport|Ibiza]], [[Lampedusa Airport|Lampedusa]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Rhodes International Airport|Rhodes]] [[Rostock–Laage Airport|Rostock]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[KM Malta Airlines]] | [[Malta International Airport|Malta]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Luxair]] | [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | [[Copenhagen Airport|Copenhagen]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Small Fly Airlines]] |  '''Seasonal:''' [[Marina di Campo Airport|Elba]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Lampedusa Airport|Lampedusa]], [[Pantelleria Airport|Pantelleria]]
+<!-- -->
+}}

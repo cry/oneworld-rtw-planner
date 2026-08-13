@@ -1,0 +1,54 @@
+== Airlines and destinations ==
+=== Passenger ===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Aeroméxico]]}} | '''Seasonal:''' [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| {{nowrap|[[Aeroméxico Connect]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Air Canada]] | [[Montréal–Trudeau]], [[Toronto–Pearson]] <br/> '''Seasonal:''' [[Vancouver International Airport|Vancouver]]
+<!-- -->
+| [[Air Canada Rouge]] | '''Seasonal:''' [[Toronto–Pearson]]
+<!-- -->
+| [[Alaska Airlines]] | [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[Seattle/Tacoma]]
+<!-- -->
+| [[Allegiant Air]] | [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Des Moines International Airport|Des Moines]], [[Gerald R. Ford International Airport|Grand Rapids]], [[Provo Municipal Airport|Provo]] <br/> '''Seasonal:''' [[Asheville Regional Airport|Asheville]], [[Indianapolis International Airport|Indianapolis]], [[McGhee Tyson Airport|Knoxville]], [[Harry Reid International Airport|Las Vegas]], [[Orlando-Sanford]], [[Pittsburgh International Airport|Pittsburgh]], [[Sarasota–Bradenton International Airport|Sarasota]], [[Washington–Dulles]]
+<!-- -->
+| [[American Airlines]] | [[Cancún International Airport|Cancún]], [[Charlotte Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Los Angeles International Airport|Los Angeles]], [[Miami International Airport|Miami]], [[New York–JFK]], [[Philadelphia International Airport|Philadelphia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Los Cabos International Airport|San José del Cabo]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Los Angeles International Airport|Los Angeles]] <br/> '''Seasonal:''' [[Aspen/Pitkin County Airport|Aspen]]
+<!-- -->
+| [[British Airways]] | [[London–Heathrow]]
+<!-- -->
+| [[Cayman Airways]] | '''Seasonal:''' [[Owen Roberts International Airport|Grand Cayman]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Logan International Airport|Boston]], [[Detroit Metropolitan Airport|Detroit]], [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]], [[Miami International Airport|Miami]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[New York–JFK]], [[Orlando International Airport|Orlando]], [[Salt Lake City International Airport|Salt Lake City]], [[San Francisco International Airport|San Francisco]], [[San Jose International Airport|San Jose (CA)]] (begins October 6, 2026), [[Seattle/Tacoma]], [[Tampa International Airport|Tampa]] <br/> '''Seasonal:''' [[Cancún International Airport|Cancún]], [[Southwest Florida International Airport|Fort Myers]] (begins November 21, 2026), [[Los Cabos International Airport|San José del Cabo]]
+<!-- -->
+| [[Delta Connection]] | [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Denver International Airport|Denver]], [[Indianapolis International Airport|Indianapolis]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Kansas City International Airport|Kansas City]], [[McAllen Miller International Airport|McAllen]], [[Memphis International Airport|Memphis]] (ends October 5, 2026), [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Nashville International Airport|Nashville]], [[Louis Armstrong New Orleans International Airport|New Orleans]] (ends October 5, 2026), [[Northwest Florida Beaches International Airport|Panama City (FL)]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Salt Lake City International Airport|Salt Lake City]] <br/> '''Seasonal:''' [[Asheville Regional Airport|Asheville]], [[Bozeman Yellowstone International Airport|Bozeman]], [[Glacier Park International Airport|Glacier Park/Kalispell]], [[Palm Springs International Airport|Palm Springs]] 
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[Orlando International Airport|Orlando]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[San Diego International Airport|San Diego]] 
+<!-- -->
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Porter Airlines]] | [[Toronto–Pearson]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Albuquerque International Sunport|Albuquerque]], [[Rick Husband Amarillo International Airport|Amarillo]], [[Hartsfield–Jackson Atlanta International Airport|Atlanta]],  [[Baltimore/Washington International Airport|Baltimore]], [[Logan International Airport|Boston]], [[Hollywood Burbank Airport|Burbank]], [[Cancún International Airport|Cancún]], [[Chicago–Midway]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Detroit Metropolitan Airport|Detroit]] (begins March 11, 2027), [[El Paso International Airport|El Paso]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Valley International Airport|Harlingen]], [[Houston–Hobby]], [[Indianapolis International Airport|Indianapolis]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Kansas City International Airport|Kansas City]], [[Harry Reid International Airport|Las Vegas]], [[Long Beach Airport|Long Beach]], [[Los Angeles International Airport|Los Angeles]], [[Lubbock Preston Smith International Airport|Lubbock]], [[Memphis International Airport|Memphis]] (begins October 1, 2026), [[Miami International Airport|Miami]], [[Midland International Air and Space Port|Midland/Odessa]], [[Milwaukee Mitchell International Airport|Milwaukee]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Nashville International Airport|Nashville]], [[Louis Armstrong New Orleans International Airport|New Orleans]], [[Oakland International Airport|Oakland]], [[OKC Will Rogers International Airport|Oklahoma City]], [[Ontario Airport|Ontario]], [[Orlando International Airport|Orlando]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Pittsburgh International Airport|Pittsburgh]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Sacramento International Airport|Sacramento]], [[Salt Lake City International Airport|Salt Lake City]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[San Jose International Airport|San Jose (CA)]],  [[Seattle/Tacoma]], [[St. Louis Lambert International Airport|St. Louis]], [[Tampa International Airport|Tampa]], [[Tulsa International Airport|Tulsa]], [[Washington–National]] <br/> '''Seasonal:''' [[Charleston International Airport|Charleston (SC)]], [[Southwest Florida International Airport|Fort Myers]],  [[Yampa Valley Airport|Hayden/Steamboat Springs]], [[McGhee Tyson Airport|Knoxville]] (begins October 3, 2026), [[Montrose Regional Airport|Montrose]], [[Eppley Airfield|Omaha]], [[Palm Springs International Airport|Palm Springs]],  [[Northwest Florida Beaches International Airport|Panama City (FL)]], [[Pensacola International Airport|Pensacola]], [[Reno–Tahoe International Airport|Reno/Tahoe]], [[Los Cabos International Airport|San José del Cabo]], [[Luis Muñoz Marín International Airport|San Juan]], [[Charles M. Schulz–Sonoma County Airport|Santa Rosa]] (begins October 3, 2026)
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Houston–Intercontinental]], [[Los Angeles International Airport|Los Angeles]], [[Newark Liberty International Airport|Newark]], [[San Francisco International Airport|San Francisco]], [[Washington–Dulles]]
+<!-- -->
+| [[United Express]] | [[Houston–Intercontinental]], [[Los Angeles International Airport|Los Angeles]] <br/> '''Seasonal:''' [[Chicago–O'Hare]]
+<!-- -->
+| [[Viva (airline)|Viva]] | [[Monterrey International Airport|Monterrey]]
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Calgary International Airport|Calgary]]
+<!-- -->
+}}

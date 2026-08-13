@@ -1,0 +1,35 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Jerez de la Frontera Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]
+<!-- -->
+| [[Chair Airlines]] | '''Seasonal charter:''' [[Bern Airport|Bern]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Hamburg Airport|Hamburg]]
+<!-- -->
+| [[Discover Airlines]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zürich Airport|Zürich]]
+<!-- -->
+| [[Eurowings]] | [[Düsseldorf Airport|Düsseldorf]] <br /> '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]], [[Hamburg Airport|Hamburg]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]] <br /> '''Seasonal:''' [[Santander Airport|Santander]]{{citation needed|date=January 2025}}
+<!-- -->
+| [[Icelandair]] | '''Seasonal Charter:''' [[Keflavík International Airport|Reykjavik]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Leeds Bradford Airport|Leeds/Bradford]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Marabu (airline)|Marabu]] | '''Seasonal:''' [[Hamburg Airport|Hamburg]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| {{nowrap|[[TUI fly Deutschland]]}} | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Hannover Airport|Hannover]], [[Munich Airport|Munich]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Volotea]] | [[Asturias Airport|Asturias]]
+<!-- -->
+| [[Vueling]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Palma de Mallorca Airport|Palma de Mallorca]] <br /> '''Seasonal:''' [[Bilbao Airport|Bilbao]], [[Santiago–Rosalía de Castro Airport|Santiago de Compostela]]
+}}

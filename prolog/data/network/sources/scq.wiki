@@ -1,0 +1,25 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Santiago–Rosalía de Castro Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Aer Lingus]] | '''Seasonal:''' [[Cork Airport|Cork]], [[Dublin Airport|Dublin]]
+<!-- -->
+| [[easyJet]] | [[EuroAirport Basel-Mulhouse-Freiburg|Basel/Mulhouse]], [[Geneva Airport|Geneva]]
+<!-- -->
+| {{nowrap|[[Edelweiss Air]]}} | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Bilbao Airport|Bilbao]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]<br />'''Seasonal:''' [[Melilla Airport|Melilla]]
+<!-- -->
+| [[KLM]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Lufthansa]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Ryanair]] | [[Lanzarote Airport|Lanzarote]], [[London–Stansted]], [[Tenerife South Airport|Tenerife–South]]<br />'''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Barcelona–El Prat Airport|Barcelona]], [[Charleroi Airport|Charleroi]], [[Dublin Airport|Dublin]], [[Ibiza Airport|Ibiza]] <!-- -->
+| {{nowrap|[[United Airlines]]}} | '''Seasonal:''' [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[Vueling]] | [[Barcelona–El Prat Airport|Barcelona]], [[Fuerteventura Airport|Fuerteventura]], [[Gran Canaria Airport|Gran Canaria]], [[Lanzarote Airport|Lanzarote]], [[London–Gatwick]], [[London–Heathrow]] (ends 24 October 2026), [[Málaga Airport|Málaga]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Paris–Orly]], [[San Pablo Airport|Seville]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]], [[Valencia Airport|Valencia]] (resumes 15 September 2026), [[Zurich Airport|Zurich]]<br />'''Seasonal:'''  [[Amsterdam Airport Schiphol|Amsterdam]], [[Bilbao Airport|Bilbao]], [[Ibiza Airport|Ibiza]], [[Jerez Airport|Jerez de la Frontera]], [[Marrakesh Menara Airport|Marrakesh]]
+<!-- -->
+| [[Wizz Air]] | [[Bilbao Airport|Bilbao]] (begins 2 November 2026), [[Fuerteventura Airport|Fuerteventura]] (begins 2 February 2027), [[Gran Canaria Airport|Gran Canaria]] (begins 1 February 2027), [[Adolfo Suárez Madrid–Barajas Airport|Madrid]] (begins 3 November 2026), [[Málaga Airport|Málaga]] (begins 1 February 2027), [[Rome Fiumicino Airport|Rome–Fiumicino]] (begins 14 December 2026), [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]] (begins 1 February 2027), [[Valencia Airport|Valencia]] (begins 2 November 2026), [[Warsaw Modlin Airport|Warsaw–Modlin]] (begins 1 December 2026), [[Zaragoza Airport|Zaragoza]] (begins 2 February 2027)
+<!-- -->
+}}

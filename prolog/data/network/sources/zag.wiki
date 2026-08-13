@@ -1,0 +1,57 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Air China]] | [[Beijing–Capital]] (begins 4 September 2026), [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]] (begins 4 September 2026)
+<!-- -->
+| [[Air Dolomiti]] | [[Munich Airport|Munich]] (begins 25 October 2026)
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]{{cn|date=July 2026}}
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]]{{cn|date=July 2026}}
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Toronto–Pearson]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[London–Heathrow]] 
+<!-- -->
+| [[Croatia Airlines]] | [[Amsterdam Airport Schiphol|Amsterdam]],{{cn|date=July 2026}} [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Berlin Brandenburg Airport|Berlin]], [[Brussels Airport|Brussels]],{{cn|date=July 2026}} [[Copenhagen Airport|Copenhagen]],{{cn|date=July 2026}} [[Dubrovnik Airport|Dubrovnik]],{{cn|date=July 2026}} [[Frankfurt Airport|Frankfurt]],{{cn|date=July 2026}} [[London–Heathrow]],{{cn|date=July 2026}} [[Barajas Airport|Madrid]], [[Mostar International Airport|Mostar]],{{cn|date=July 2026}} [[Munich Airport|Munich]],{{cn|date=July 2026}} [[Paris–Charles de Gaulle]],{{cn|date=July 2026}} [[Pula Airport|Pula]], [[Rome–Fiumicino]], [[Sarajevo International Airport|Sarajevo]],{{cn|date=July 2026}} [[Skopje International Airport|Skopje]],{{cn|date=July 2026}} [[Split Airport|Split]],{{cn|date=July 2026}} [[Stockholm–Arlanda]], [[Vienna International Airport|Vienna]],{{cn|date=July 2026}} [[Zadar Airport|Zadar]] <br/> '''Seasonal:''' [[Athens International Airport|Athens]], [[Hamburg Airport|Hamburg]], [[Vaclav Havel Airport|Prague]] <br/> '''Seasonal charter:''' [[Monastir Habib Bourguiba International Airport|Monastir]], [[Ben Gurion Airport|Tel Aviv]] 
+<!-- -->
+| [[Eurowings]] | [[Cologne Bonn Airport|Cologne/Bonn]], [[Stuttgart Airport|Stuttgart]]{{cn|date=July 2026}}
+<!-- -->
+|[[flydubai]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]{{cn|date=July 2026}}
+<!-- -->
+| {{nowrap|[[LOT Polish Airlines]]}} | [[Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]] (ends 31 December 2026)
+<!-- --> 
+| [[Pegasus Airlines]] | [[Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Ryanair]] | [[Alicante Airport|Alicante]],{{cn|date=July 2026}} [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Beauvais Airport|Beauvais]], [[Orio al Serio International Airport|Bergamo]], [[Charleroi Airport|Charleroi]],{{cn|date=July 2026}} [[Dublin Airport|Dublin]], [[Eindhoven Airport|Eindhoven]], [[Göteborg Landvetter Airport|Gothenburg]], [[Karlsruhe Airport|Karlsruhe/Baden-Baden]], [[Lanzarote Airport|Lanzarote]], [[London–Stansted]],{{cn|date=July 2026}} [[Málaga Airport|Málaga]], [[Malta Airport|Malta]], [[Memmingen Airport|Memmingen]], [[Paphos International Airport|Paphos]], [[Rome–Fiumicino]], [[Thessaloniki International Airport|Thessaloniki]] (ends 26 October 2026), [[Warsaw Modlin Airport|Warsaw–Modlin]] (begins 26 October 2026), [[Weeze Airport|Weeze]] <br/> '''Seasonal:''' [[Corfu International Airport|Corfu]], [[Girona Airport|Girona]],{{cn|date=July 2026}} [[Kos International Airport|Kos]], [[Malmö Airport|Malmö]],{{cn|date=July 2026}} [[Manchester Airport|Manchester]], [[Naples Airport|Naples]], [[Palermo Airport|Palermo]],{{cn|date=July 2026}} [[Palma de Mallorca Airport|Palma de Mallorca]],{{cn|date=July 2026}} [[Sandefjord Airport, Torp|Sandefjord]]
+<!-- -->
+| [[Sundor]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[T'way Air]] | '''Seasonal:''' [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Trade Air]] | [[Osijek Airport|Osijek]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[DHL Aviation]] | [[Leipzig/Halle Airport|Leipzig/Halle]]
+<!-- -->
+}}

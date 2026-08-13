@@ -1,0 +1,61 @@
+==Airlines and destinations==
+[[File:AC Rouge 767 at YYJ.jpg|thumb|Air Canada Rouge Boeing 767-300 at Victoria (CYYJ), July 2017]]
+
+Most commercial flights at Victoria fly either to airports in nearby [[British Columbia]] and [[Alberta]] or to western [[Washington (state)|Washington]]. Seasonal scheduled flights by [[WestJet]] connect Victoria to tourist destinations in Mexico. For the Summer 2017 season, [[Air Canada Rouge]] operated wide-body [[Boeing 767]]s on its daily flights to [[Toronto Pearson International Airport|Toronto]].
+
+===Passenger===
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY.-->
+{{Airport-dest-list
+
+|[[Air Canada]] | [[Toronto Pearson International Airport|Toronto–Pearson]] <br /> '''Seasonal:''' [[Montréal-Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+|[[Air Canada Express]] | [[Vancouver International Airport|Vancouver]]
+<!-- -->
+| [[Air North]] | [[Vancouver International Airport|Vancouver]], [[Erik Nielsen Whitehorse International Airport|Whitehorse]]
+<!--  -->
+| [[Alaska Airlines]] | [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+<!-- -->
+| [[Flair Airlines]] | '''Seasonal: ''' [[Calgary International Airport|Calgary]], [[Edmonton International Airport|Edmonton]]
+<!-- -->
+| [[Harbour Air]] | '''Seasonal: ''' [[Vancouver International Airport|Vancouver]]
+<!-- -->
+| [[Kenmore Air]] | [[Friday Harbor Airport|Friday Harbor]]
+<!-- -->
+| {{nowrap|[[Pacific Coastal Airlines]]}} | [[Kamloops Airport|Kamloops]], [[Kelowna International Airport|Kelowna]], [[Prince George Airport|Prince George]], [[Vancouver International Airport|Vancouver]]
+<!-- -->
+| [[Porter Airlines]] | [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[WestJet]] | [[Calgary International Airport|Calgary]], [[Edmonton International Airport|Edmonton]] <br>'''Seasonal:''' [[Cancún International Airport|Cancún]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Los Cabos International Airport|San José del Cabo]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]
+<!-- -->
+| [[WestJet Encore]] | [[Calgary International Airport|Calgary]], [[Edmonton International Airport|Edmonton]], [[Kelowna International Airport|Kelowna]], [[Vancouver International Airport|Vancouver]]
+<!-- -->
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Map of North American passenger destinations
+|-
+|{{Location map+ |North_America |width=1000|float=center
+|caption=Destinations from Victoria International Airport <br> {{font color | red | Red}} = Year-round destination <br>{{font color | green | Green }} = Seasonal destination <br>{{font color | blue | Blue }}= Future destination <br>
+|places=
+
+{{Location map~ |North_America |lat=48.4284| long=-123.3656 |position=right |label=<div style="position:relative; top:-5px;">Victoria</div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=51.1308|long=-114.0138|position=right|label=[[Calgary International Airport|Calgary]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=53.5461|long=-113.4937|position=right|label=[[Edmonton International Airport|Edmonton]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=43.6735|long=-79.6133|position=right|label=[[Toronto-Pearson International Airport|Toronto-Pearson]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=49.1941|long=-123.1871|position=top|label=[[Vancouver International Airport|Vancouver]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg
+|North_America  |lat=60.7197|long=-135.0523|position=left|label=[[Whitehorse Airport|Whitehorse]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=47.4466|long=-122.3058|position=bottom|label=[[Seattle-Tacoma International Airport|Seattle-Tacoma]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=49.9579|long=-119.3787|position=right|label=[[Kelowna International Airport|Kelowna]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=50.6745|long=-120.3273|position=right|label=[[Kamloops Airport|Kamloops]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=53.8862|long=-122.6713|position=left|label=[[Prince George Airport|Prince George]]|label_size=80 |marksize=7 }}
+
+{{Location map~ |mark = Green pog.svg | North_America |lat=45.4651|long=-73.7487|position=right|label=[[Montréal-Trudeau International Airport|Montréal-Trudeau]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg | North_America |lat=45.1921|long=-75.4002|position=left|label=[[Ottawa Macdonald-Cartier International Airport|Ottawa]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=49.9043|long=-97.2306|position=left|label=[[Winnipeg International Airport|Winnipeg]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=21.0433|long=-86.8715|position=left|label=[[Cancún International Airport|Cancún]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=20.6796|long=-105.2493|position=left|label=[[Puerto Vallarta International Airport|Puerto Vallarta]]|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | North_America |lat=23.1566|long=-109.7195|position=left|label=[[Los Cabos International Airport|San José del Cabo]]|label_size=80 |marksize=7 }}
+}}
+|}

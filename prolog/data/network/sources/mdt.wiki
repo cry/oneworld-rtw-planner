@@ -1,0 +1,23 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+<!--DO NOT ADD TERMINAL/CONCOURSE INFORMATION TO THIS TABLE AS IT VIOLATES [[WP:NOTTRAVEL]]-->
+| [[Allegiant Air]] | [[Jacksonville International Airport|Jacksonville (FL)]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[Sarasota-Bradenton International Airport|Sarasota]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] <br/> '''Seasonal:''' [[Fort Lauderdale Hollywood International Airport|Fort Lauderdale]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Nashville International Airport|Nashville]]
+<!-- -->
+| {{nowrap|[[American Airlines]]}} |[[Charlotte/Douglas International Airport|Charlotte]],  [[Chicago–O'Hare]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]] 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Logan International Airport|Boston]], [[Charlotte/Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Philadelphia International Airport|Philadelphia]] <br/> '''Seasonal:''' [[Miami International Airport|Miami]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield-Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Delta Connection]] | [[Detroit Metropolitan Airport|Detroit]] <br/> '''Seasonal:''' [[Hartsfield-Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[United Airlines]] | [[Chicago–O'Hare]]
+<!-- -->
+| [[United Express]] | [[Chicago–O'Hare]], [[Washington–Dulles]]
+}}
+
+[[File:Boeing 707-131B, Trans World Airlines (TWA) JP5958132.jpg|thumb|right|A [[Trans World Airlines]] (TWA) [[Boeing 707]] in October 1981]]
+
+===Cargo===
+Harrisburg International Airport has freight-forwarding capability. The airport is next to [[Interstate 76 (east)|I-76]] ([[Pennsylvania Turnpike]]), [[I-83]], and [[I-81]], allowing fast transfer of goods. Three major air cargo shippers maintain air service at the east end of the airport in an apron area next to the runway.

@@ -1,0 +1,17 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights to and from Trieste:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport destination list
+<!-- -->
+| [[Aeroitalia]] | [[Milan Linate Airport|Milan–Linate]], [[Salerno Airport|Salerno]] <br/> '''Seasonal:''' [[Alghero–Fertilia Airport|Alghero]],  [[Olbia Costa Smeralda Airport|Olbia]]| [[Air Dolomiti]] | [[Frankfurt Airport|Frankfurt]]{{citation needed|date=May 2026}}
+<!-- -->| [[Airidea]] |[[Genoa Cristoforo Colombo Airport|Genoa]]| [[Iberia (airline)|Iberia]] | '''Seasonal charter:''' [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->| {{nowrap|[[ITA Airways]]}} |[[Rome Fiumicino Airport|Rome–Fiumicino]]{{citation needed|date=May 2026}}
+<!-- -->
+| [[Ryanair]]| [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]],{{citation needed|date=May 2026}} [[Bari Karol Wojtyła Airport|Bari]], [[Beauvais–Tillé Airport|Beauvais]],{{citation needed|date=May 2026}} [[Berlin Brandenburg Airport|Berlin]] (ends 29 October 2026), [[Brindisi Airport|Brindisi]],{{citation needed|date=May 2026}} [[Catania–Fontanarossa Airport|Catania]], [[Charleroi Airport|Charleroi]], [[Dublin Airport|Dublin]],{{citation needed|date=May 2026}} [[Kraków John Paul II International Airport|Kraków]],{{citation needed|date=May 2026}} [[Lamezia Terme Airport|Lamezia Terme]], [[London Stansted Airport|London–Stansted]],{{citation needed|date=May 2026}} [[Malta International Airport|Malta]], [[Naples International Airport|Naples]], [[Palermo Airport|Palermo]], [[Sevilla Airport|Seville]],{{citation needed|date=May 2026}} [[Tirana International Airport Nënë Tereza|Tirana]], [[Valencia Airport|Valencia]] <br/> '''Seasonal:''' [[Cagliari Elmas Airport|Cagliari]],{{citation needed|date=May 2026}}  [[Málaga–Costa del Sol Airport|Málaga]] (begins 26 October 2026), [[Olbia Costa Smeralda Airport|Olbia]], [[Prague Airport|Prague]], [[Stockholm-Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Rotterdam Airport|Rotterdam/The Hague]]
+<!-- -->
+| [[Wizz Air]] |[[Naples International Airport|Naples]] (begins 14 December 2026), [[Tirana International Airport Nënë Tereza|Tirana]]
+<!-- -->
+}}

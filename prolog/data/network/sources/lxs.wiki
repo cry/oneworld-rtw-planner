@@ -1,0 +1,18 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Lemnos Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Olympic Air]] | [[Ikaria Island National Airport|Ikaria]], [[Thessaloniki Airport|Thessaloniki]]
+<!-- -->
+| [[Ryanair]] | '''Seasonal:''' [[Athens International Airport|Athens]]
+<!-- -->
+| [[Sky Express (Greece)|Sky Express]] | [[Athens International Airport|Athens]], [[Chios Island National Airport|Chios]], [[Mytilene International Airport|Mytilene]], [[Rhodes International Airport|Rhodes]], [[Samos International Airport|Samos]]
+<!-- -->
+}}

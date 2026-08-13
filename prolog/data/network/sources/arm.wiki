@@ -1,0 +1,12 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Link Airways]] | [[Brisbane Airport|Brisbane]],
+| [[QantasLink]] | [[Sydney Airport|Sydney]]
+}}
+
+===Previous airlines===
+A [[Tamworth Airport|Tamworth]]–Armidale–Brisbane route was served by QantasLink until 2002, when the service was taken over by [[MacAir Airlines]] until January 2003, after which time it was operated by [[Sunshine Express Airlines]] before the company ceased scheduled flying in 2006. Brindabella Airlines commenced Armidale-[[Brisbane Airport|Brisbane]] flights in August 2011 using [[Fairchild Swearingen Metroliner|Metro III]] turboprop aircraft; however, this service was discontinued in June 2012. The decision to withdraw from Armidale and [[Albury Airport|Albury]] made national headlines as it was widely reported the airline's reasons included an expected increase in operating costs due to the implementation of the controversial [[Carbon pricing in Australia|Carbon pricing scheme]] by the [[Gillard government]] set to become effective the following month.
+
+[[Rex Airlines]] flew from Sydney to Armidale between 2014 and 2023, when services were terminated, giving Qantas a monopoly on the route again.

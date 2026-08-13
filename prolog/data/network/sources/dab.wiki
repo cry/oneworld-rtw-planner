@@ -1,0 +1,19 @@
+==Airlines and destinations==
+[[File:Daytona Beach Terminal.jpg|thumb|Daytona Beach International Airport terminal as seen from a Cessna 172]]
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[American Airlines]]}} |  '''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]]
+<!-- -->
+| [[Avelo Airlines]] | [[Tweed New Haven Airport|New Haven]] <br />'''Seasonal:'''  [[Wilmington Airport (Delaware)|Wilmington (DE)]]
+<!-- -->
+| [[Breeze Airways]] | [[Bradley International Airport|Hartford]], [[Rhode Island T. F. Green International Airport|Providence]], [[Raleigh–Durham International Airport|Raleigh/Durham]]  <br/> '''Seasonal:''' [[Akron–Canton Airport|Akron/Canton]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[New York–JFK]] (both end September 9, 2026)
+}}

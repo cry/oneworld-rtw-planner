@@ -1,0 +1,42 @@
+==Airlines and destinations ==
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+|[[Alaska Airlines]]|[[Portland International Airport|Portland (OR)]], [[Seattle/Tacoma International Airport|Seattle/Tacoma]]
+|
+<!-- -->
+|[[Allegiant Air]]| [[Harry Reid International Airport|Las Vegas]], [[John Wayne Airport|Orange County]], [[Mesa Gateway Airport|Phoenix/Mesa]]<br>'''Seasonal:''' [[Portland International Airport|Portland (OR)]]
+|
+<!-- -->
+|[[American Eagle (airline brand)|American Eagle]]| [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]<br>'''Seasonal:''' [[Chicago–O'Hare]], [[PHX|Phoenix–Sky Harbor]]
+|
+<!-- -->
+|[[Delta Air Lines]]| [[Slcia|Salt Lake City]]
+|
+<!-- -->
+|[[Delta Connection]]| [[Slcia|Salt Lake City]]|
+<!-- -->
+|[[United Express]]| [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]]|
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Idaho Falls Regional Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination<br />{{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=43.5152|long=-112.0679|position=top|label='''<small>Idaho Falls</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=33.3088|long=-111.6570|position=right|label='''<small>[[Mesa Gateway Airport|Phoenix-Mesa]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=right|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=40.758701|long=-111.876183|position=left|label='''<small>[[Salt Lake City International Airport|Salt Lake City]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=36.083697|long=-115.153873|position=right|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=33.436921|long=-112.011667|position=left|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=45.5898|long=-122.5951|position=right|label='''<small>[[Portland International Airport|Portland (OR)]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United_States |lat=47.2656|long=-122.1834|position=right|label='''<small>[[Seattle–Tacoma International Airport|Seattle/Tacoma]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=37.719154|long=-122.219582|position=left|label='''<small>[[Oakland San Francisco Bay Airport|Oakland]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark= Red pog.svg|United States |lat=33.4032|long=-117.5206|position=right|label='''<small>[[John Wayne Airport|Orange County]]
+</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |mark = Red pog.svg |lat=41.974186|long=-87.907783|position=left|label='''<small>[[O'Hare International Airport|Chicago–O'Hare]]</small>'''|label_size=80 |marksize=7 }}
+}}
+|}

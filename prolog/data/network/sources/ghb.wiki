@@ -1,0 +1,8 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+|[[American Eagle (airline brand)|American Eagle]] | [[Miami International Airport|Miami]]<br/>'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]]
+|[[Bahamasair]] | [[Lynden Pindling International Airport|Nassau]]
+|[[Pineapple Air]] | [[Lynden Pindling International Airport|Nassau]], [[North Eleuthera Airport|North Eleuthera]]
+|[[Southern Air Charter]] | [[Lynden Pindling International Airport|Nassau]]
+}}

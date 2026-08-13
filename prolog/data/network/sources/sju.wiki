@@ -1,0 +1,184 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Air Canada Rouge]] | '''Seasonal:''' [[Montréal–Trudeau]],{{cn|date=June 2026}} [[Toronto–Pearson]]{{cn|date=June 2026}} | 
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal–Trudeau]]{{cn|date=June 2026}} | 
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]] | {{cn|date=June 2026}}
+<!-- -->
+| [[Arajet]] | [[Punta Cana International Airport|Punta Cana]], [[Santo Domingo–Las Américas]] | 
+<!-- -->
+| [[Avelo Airlines]] | [[Concord–Padgett Regional Airport|Charlotte/Concord]], [[Lakeland Linder International Airport|Lakeland]], [[Tweed New Haven Airport|New Haven]], [[Wilmington Airport (Delaware)|Wilmington (DE)]] | 
+<!-- -->
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]], [[José María Córdova International Airport|Medellín–JMC]] | {{cn|date=June 2026}}
+<!-- -->
+| [[Cape Air]] | [[Benjamín Rivera Noriega Airport|Culebra]], [[Eugenio María de Hostos Airport|Mayagüez]], [[Henry E. Rohlsen Airport|St. Croix]], [[Cyril E. King Airport|St. Thomas]], [[Terrance B. Lettsome International Airport|Tortola]], [[Antonio Rivera Rodríguez Airport|Vieques]], [[Virgin Gorda Airport|Virgin Gorda]] | {{cn|date=June 2026}}
+<!-- -->
+| [[Contour Airlines]] | [[Douglas-Charles Airport|Dominica–Douglas-Charles]], [[Princess Juliana International Airport|St. Maarten]]{{cn|date=June 2026}} |
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]] | {{cn|date=June 2026}}
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Logan International Airport|Boston]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[New York–JFK]] <br/> '''Seasonal:''' [[Raleigh–Durham International Airport|Raleigh/Durham]] | {{cn|date=June 2026}}
+<!-- -->
+| Fly The Whale | [[Henry E. Rohlsen Airport|St. Croix]] | 
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Baltimore/Washington International Airport|Baltimore]], [[Logan International Airport|Boston]], [[Charlotte Douglas International Airport|Charlotte]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Bradley International Airport|Hartford]], [[Houston–Intercontinental]] (begins December 17, 2026), [[Jacksonville International Airport|Jacksonville (FL)]],{{cn|date=June 2026}} [[Miami International Airport|Miami]], [[Newark Liberty International Airport|Newark]],{{cn|date=February 2026}} [[Orlando International Airport|Orlando]], [[Philadelphia International Airport|Philadelphia]], [[Punta Cana International Airport|Punta Cana]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Santo Domingo–Las Américas]], [[Tampa International Airport|Tampa]], [[Washington–Dulles]] <br/> '''Seasonal:''' [[Cleveland Hopkins International Airport|Cleveland]] (resumes December 17, 2026), [[New York–LaGuardia]]{{cn|date=June 2026}}| {{cn|date=June 2026}}
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]] | {{cn|date=June 2026}}
+<!-- -->
+| {{nowrap|[[InterCaribbean Airways]]}} | [[Robert L. Bradshaw International Airport|St. Kitts]], [[Terrance B. Lettsome International Airport|Tortola]]{{cn|date=June 2026}} | 
+<!-- -->
+| [[JetBlue]] | [[Baltimore/Washington International Airport|Baltimore]] (begins November 2, 2026), [[Logan International Airport|Boston]],{{cn|date=June 2026}} [[Buffalo Niagara International Airport|Buffalo]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]],{{cn|date=June 2026}} [[Bradley International Airport|Hartford]],{{cn|date=June 2026}} [[Jacksonville International Airport|Jacksonville (FL)]], [[José María Córdova International Airport|Medellín–JMC]], [[New York–JFK]],{{cn|date=June 2026}} [[Newark Liberty International Airport|Newark]],{{cn|date=June 2026}} [[Norfolk International Airport|Norfolk]], [[Orlando International Airport|Orlando]],{{cn|date=June 2026}} [[Philadelphia International Airport|Philadelphia]], [[Punta Cana International Airport|Punta Cana]],{{cn|date=June 2026}} [[Raleigh–Durham International Airport|Raleigh/Durham]],{{cn|date=June 2026}} [[Richmond International Airport|Richmond]], [[Henry E. Rohlsen Airport|St. Croix]], [[Cyril E. King Airport|St. Thomas]],{{cn|date=June 2026}} [[Cibao International Airport|Santiago de los Caballeros]], [[Santo Domingo–Las Américas]],{{cn|date=June 2026}} [[Tampa International Airport|Tampa]],{{cn|date=June 2026}} [[Washington–National]],{{cn|date=June 2026}} [[Westchester County Airport|White Plains]] <br/> '''Seasonal:''' [[Rhode Island T. F. Green International Airport|Providence]] | 
+<!-- -->
+| [[Southwest Airlines]] | [[Baltimore/Washington International Airport|Baltimore]],{{cn|date=June 2026}} [[Chicago–Midway]],{{cn|date=June 2026}} [[John Glenn Columbus International Airport|Columbus–Glenn]] (begins February 13, 2027), [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]],{{cn|date=June 2026}} [[Houston–Hobby]],{{cn|date=June 2026}} [[Nashville International Airport|Nashville]],{{cn|date=June 2026}} [[Orlando International Airport|Orlando]],{{cn|date=June 2026}} [[St. Louis Lambert International Airport|St. Louis]],{{cn|date=June 2026}} [[Tampa International Airport|Tampa]]{{cn|date=June 2026}} <br/> '''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]],{{cn|date=June 2026}} [[Indianapolis International Airport|Indianapolis]] | 
+<!-- -->
+| [[Sun Country Airlines]] | [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] | 
+<!-- -->
+| [[Tradewind Aviation]] | [[Gustaf III Airport|St. Barthélemy]]<br/> '''Seasonal:''' [[Clayton J. Lloyd International Airport|Anguilla]], [[Terrance B. Lettsome International Airport|Tortola]],{{cn|date=June 2026}} [[Virgin Gorda Airport|Virgin Gorda]]{{cn|date=June 2026}} | 
+<!-- -->
+| [[United Airlines]] | [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[Washington–Dulles]] | {{cn|date=June 2026}}
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Toronto–Pearson]]{{cn|date=June 2026}} | 
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[Amazon Air]] | [[Richmond International Airport|Richmond]],{{cn|date=June 2026}} [[Tampa International Airport|Tampa]]
+<!-- -->
+| [[Amerijet International]] | [[Brussels Airport|Brussels]],{{cn|date=June 2026}} [[Newark Liberty International Airport|Newark]], [[Orlando International Airport|Orlando]]
+<!-- --> 
+| [[Atlas Air]] | [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[José María Córdova International Airport|Medellín–JMC]], [[Miami International Airport|Miami]]
+<!-- -->
+| [[DHL Aero Expreso]] | [[Tocumen International Airport|Panama City–Tocumen]]{{cn|date=June 2026}}
+<!-- -->
+| [[FedEx Express]] | [[Miami International Airport|Miami]]{{cn|date=June 2026}}
+<!-- -->
+| [[UPS Airlines]] | [[Louisville International Airport|Louisville]]
+<!-- -->
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Intra-Puerto Rico destinations map
+|-
+|{{Location map+ |Puerto Rico |width=1000 |float=center
+|caption=Intra-Puerto Rico destinations from Luis Muñoz Marín International Airport.
+{{font color | red |• Red}} represents year-round destinations.<br />
+{{font color | green |• Green}} represents seasonal destinations.<br />
+{{font color | orange |• Orange}} represents direct destinations with stops.<br />
+{{font color | blue |• Blue}} represents future destinations.<br />
+{{font color | pink |• Pink}} represents destinations being terminated.
+|places=
+{{Location map~ |Puerto Rico |lat= 18.4373 |long=-66.0041 |position=top |label='''San Juan'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |Puerto Rico |lat= 18.255612 |long=-67.148301 |position=left |label='''<small> [[Eugenio Maria de Hostos Airport|Mayagüez]] </small>'''|label_size=110 |marksize=11|mark=Red pog.svg}}
+{{Location map~ |Puerto Rico |lat= 18.1336 |long=-65.4885 |position=top |label='''<small> [[Antonio Rivera Rodriguez Airport|Vieques]] </small>'''|label_size=110 |marksize=11|mark=Red pog.svg}}
+{{Location map~ |Puerto Rico |lat= 18.3127 |long=-65.3034 |position=top |label='''<small> [[Benjamin Rivera Noriega Airport|Culebra]] </small>'''|label_size=110 |marksize=11|mark=Red pog.svg}}
+}}
+|}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Caribbean and Central American destinations map
+|-
+|{{Location map+ |Caribbean |width=1000 |float=center
+|caption=Caribbean and Central American destinations from Luis Muñoz Marín International Airport.
+{{font color | red |• Red}} represents year-round destinations.<br />
+{{font color | green |• Green}} represents seasonal destinations.<br />
+{{font color | orange |• Orange}} represents direct destinations with stops.<br />
+{{font color | blue |• Blue}} represents future destinations.<br />
+{{font color | pink |• Pink}} represents destinations being terminated.
+|places=
+{{Location map~ |Caribbean |lat= 18.4373 |long=-66.0041 |position=left |label=<div style="position:relative; top:-5px;"><small>'''SJU'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |Caribbean |lat= 18.432144 |long=-69.673142 |position=bottom |label='''<small> [[Las Américas International Airport|SDQ]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ |Caribbean |lat= 18.560864 |long=-68.363493 |position=right |label='''<small> [[Punta Cana International Airport|PUJ]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ |Caribbean |lat= 19.4021 |long=-70.6019 |position=left |label='''<small> [[Cibao International Airport|STI]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ |Caribbean |lat= 18.3381 |long=-64.8941 |position=left |label='''<small> [[Cyril E. King Airport|STT]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ |Caribbean |lat= 17.6995 |long=-64.7975 |position=bottom |label='''<small> [[Henry E. Rohlsen Airport|STX]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ |Caribbean |lat= 18.4442 |long=-64.5372 |position=top |label='''<small> [[Terrance B. Lettsome International Airport|EIS]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ |Caribbean |lat= 18.4472 |long=-64.4277 |position=right |label='''<small> [[Virgin Gorda Airport|VIJ]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ |Caribbean |lat= 18.2066 |long=-63.0526 |position=top |label='''<small> [[Clayton J. Lloyd International Airport|AXA]] </small>'''|label_size=80 |marksize=7|mark=Green pog.svg}}
+{{Location map~ |Caribbean |lat= 18.0708 |long=-63.0501 |position=left |label='''<small> [[Princess Juliana International Airport|SXM]] </small>'''|label_size=80 |marksize=7|mark=Blue pog.svg}}
+{{Location map~ |Caribbean |lat= 17.9042 |long=-62.8451 |position=right |label='''<small> [[Gustaf III Airport|SBH]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ |Caribbean |lat= 17.136667 |long=-61.792777 |position=right |label='''<small> [[V.C. Bird International Airport|ANU]] </small>'''|label_size=80 |marksize=7|mark=Pink pog.svg}}
+{{Location map~ |Caribbean |lat= 15.5415 |long=-61.3000 |position=right |label='''<small> [[Douglas-Charles Airport|DOM]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ |Caribbean |lat= 13.075418 |long=-59.49376799999999 |position=right |label='''<small> [[Grantley Adams International Airport|BGI]] </small>'''|label_size=80 |marksize=7|mark=Orange pog.svg}}
+{{Location map~ |Caribbean |lat= 10.6021 |long=-61.3394 |position=left |label='''<small> [[Piarco International Airport|POS]] </small>'''|label_size=80 |marksize=7|mark=Orange pog.svg}}
+{{Location map~ |Caribbean |lat= 9.0669 |long=-79.3872 |position=right |label='''<small> [[Tocumen International Airport|PTY]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+}}
+|}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! North American destinations map
+|-
+|{{Location map+ | North America |width=1000 |float=center
+|caption=North American destinations from Luis Muñoz Marín International Airport.
+{{font color | red |• Red}} represents year-round destinations.<br />
+{{font color | green |• Green}} represents seasonal destinations.<br />
+{{font color | orange |• Orange}} represents direct destinations with stops.<br />
+{{font color | blue |• Blue}} represents future destinations.<br />
+{{font color | pink |• Pink}} represents destinations being terminated.
+|places=
+{{Location map~ | North America |lat= 18.4373 |long=-66.0041 |position=right |label=<div style="position:relative; top:-5px;"><small>'''SJU'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | North America |lat= 25.7959 |long=-80.2871 |position=bottom |label='''<small> [[Miami International Airport|MIA]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 26.0742 |long=-80.1506 |position=right |label='''<small> [[FLL]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 27.9772 |long=-82.5311 |position=left |label='''<small> [[Tampa International Airport|TPA]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 27.98764 |long=-82.01900 |position=right |label='''<small> [[Lakeland Linder International Airport|LAL]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 28.4179 |long=-81.3041 |position=right |label='''<small> [[Orlando International Airport|MCO]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 30.4941 |long=-81.6879 |position=right |label='''<small> [[Jacksonville International Airport|JAX]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 33.6407 |long=-84.4277 |position=top |label='''<small> [[Atlanta International Airport|ATL]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 36.1263 |long=-86.6774 |position=top |label='''<small> [[Nashville International Airport|BNA]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 35.2144 |long=-80.9473 |position=left |label='''<small> [[Charlotte Douglas International Airport|CLT]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 35.213890 |long=-80.943054 |position=right |label='''<small> [[Concord–Padgett Regional Airport|USA]] </small>'''|label_size=80 |marksize=7|mark=Blue pog.svg}}
+{{Location map~ | North America |lat= 35.8801 |long=-78.7880 |position=right |label='''<small> [[Raleigh-Durham International Airport|RDU]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 38.9531 |long=-77.4565 |position=left |label='''<small> [[Dulles International Airport|IAD]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 38.8512 |long=-77.0402 |position=right |label='''<small> [[Ronald Reagan Washington National Airport|DCA]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 39.1774 |long=-76.6684 |position=right |label='''<small> [[Baltimore/Washington International Thurgood Marshall Airport|BWI]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 39.4043 |long=-75.3634 |position=right |label='''<small> [[Wilmington Airport (Delaware)|ILG]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 39.8729 |long=-75.2437 |position=left |label='''<small> [[Philadelphia International Airport|PHL]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 40.6895 |long=-74.1745 |position=left |label='''<small> [[EWR]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 40.6413 |long=-73.7781 |position=right |label='''<small> [[John F. Kennedy International Airport|JFK]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 41.0689 |long=-73.7081 |position=left |label='''<small> [[Westchester County Airport|HPN]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 41.263725 |long=-72.887728 |position=right |label='''<small> [[Tweed New Haven Airport|HVN]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 41.9389 |long=-72.6860 |position=left |label='''<small> [[BDL]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 41.7258 |long=-71.4368 |position=right |label='''<small> [[Rhode Island T. F. Green International Airport|PVD]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 42.3656 |long=-71.0096 |position=right |label='''<small> [[Logan International Airport|BOS]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 45.4657 |long=-73.7455 |position=top |label='''<small> [[YUL]] </small>'''|label_size=80 |marksize=7|mark=Green pog.svg}}
+{{Location map~ | North America |lat= 43.6777 |long=-79.6248 |position=top |label='''<small> [[YYZ]] </small>'''|label_size=80 |marksize=7|mark=Green pog.svg}}
+{{Location map~ | North America |lat= 41.409407 |long=-81.854690 |position=bottom |label='''<small> [[Cleveland Hopkins International Airport|CLE]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 42.226282 |long=-83.347057 |position=top |label='''<small> [[DTW]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 39.7172 |long=-86.2816 |position=top |label='''<small> [[Indianapolis International Airport|IND]] </small>'''|label_size=80 |marksize=7|mark=Green pog.svg}}
+{{Location map~ | North America |lat= 41.9803 |long=-87.9090 |position=left |label='''<small> [[ORD]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 41.7868 |long=-87.7522 |position=right |label='''<small> [[MDW]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 38.7499 |long=-90.3748 |position=top |label='''<small> [[St. Louis Lambert International Airport|STL]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 44.8848 |long=-93.2223 |position=top |label='''<small> [[Minneapolis-St. Paul International Airport|MSP]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 29.9902 |long=-95.3368 |position=top |label='''<small> [[IAH]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 29.6459 |long=-95.2769 |position=bottom |label='''<small> [[William P. Hobby Airport|HOU]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 32.8998 |long=-97.0403 |position=top |label='''<small> [[Dallas/Fort Worth International Airport|DFW]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 30.202633 |long=-97.400888 |position=left |label='''<small> [[Austin–Bergstrom International Airport|AUS]] </small>'''|label_size=80 |marksize=7|mark=Green pog.svg}}
+{{Location map~ | North America |lat= 29.54429 |long=-98.48395 |position=left |label='''<small> [[San Antonio International Airport|SAT]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | North America |lat= 39.8564 |long=-104.6764 |position=top |label='''<small> [[Denver International Airport|DEN]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+}}
+|}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Other International destinations map
+|-
+|{{Location map+ | World |width=1000 |float=center
+|caption=Other International destinations from Luis Muñoz Marín International Airport.
+{{font color | red |• Red}} represents year-round destinations.<br />
+{{font color | green |• Green}} represents seasonal destinations.<br />
+{{font color | orange |• Orange}} represents direct destinations with stops.<br />
+{{font color | blue |• Blue}} represents future destinations.<br />
+{{font color | pink |• Pink}} represents destinations being terminated.
+|places=
+{{Location map~ | World |lat= 18.4373 |long=-66.0041 |position=right |label=<div style="position:relative; top:-5px;"><small>'''SJU'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | World |lat= 6.164444000000 |long=-75.423056000000 |position=left |label='''<small> [[José María Córdova International Airport|MDE]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | World |lat= 4.7010 |long=-74.1461 |position=right |label='''<small> [[El Dorado International Airport|BOG]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+{{Location map~ | World |lat= 40.4983 |long=-3.5676 |position=top |label='''<small> [[Adolfo Suárez Madrid–Barajas Airport|MAD]] </small>'''|label_size=80 |marksize=7|mark=Red pog.svg}}
+}}
+|}

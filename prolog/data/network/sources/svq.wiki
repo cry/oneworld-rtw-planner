@@ -1,0 +1,53 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Seville Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal:''' [[Athens International Airport|Athens]]
+<!-- -->
+| [[Aer Lingus]] | '''Seasonal:''' [[Dublin Airport|Dublin]]
+<!-- -->
+|[[Air Europa]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]] (begins 30 September 2026)
+<!-- -->
+| [[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]], [[Tenerife North Airport|Tenerife–North]]
+<!-- -->
+| [[British Airways]] | [[London Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[easyJet]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Berlin Brandenburg Airport|Berlin]], [[Bristol Airport|Bristol]], [[Geneva Airport|Geneva]], [[Hamburg Airport|Hamburg]] (begins 26 October 2026), [[Liverpool Airport|Liverpool]], [[Gatwick Airport|London–Gatwick]],{{cn|date=July 2026}} [[Lyon–Saint-Exupéry Airport|Lyon]], [[Milan Malpensa Airport|Milan–Malpensa]]<br>
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zürich]]
+<!-- -->
+| [[Eurowings]] | [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Almeria Airport|Almería]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Melilla Airport|Melilla]], [[Valencia Airport|Valencia]] <br /> '''Seasonal:''' [[Lanzarote Airport|Lanzarote]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Lufthansa City Airlines]] | [[Munich Airport|Munich]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Ryanair]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Birmingham Airport|Birmingham]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Budapest Airport|Budapest]], [[Cagliari Elmas Airport|Cagliari]], [[Catania Airport|Catania]], [[Brussels South Charleroi Airport|Brussels-Charleroi]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Cork Airport|Cork]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[Eindhoven Airport|Eindhoven]], [[Fuerteventura Airport|Fuerteventura]], [[Ibiza Airport|Ibiza]], [[Karlsruhe/Baden-Baden Airport|Karlsruhe/Baden-Baden]], [[John Paul II International Airport Kraków–Balice|Krakow]], [[Lanzarote Airport|Lanzarote]], [[Lisbon Airport|Lisbon]], [[London Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]], [[Malta Airport|Malta]], [[Manchester Airport|Manchester]], [[Marrakesh Menara Airport|Marrakesh]], [[Marseille Provence Airport|Marseille]], [[Il Caravaggio International Airport|Milan-Bergamo]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nantes Airport|Nantes]], [[Naples International Airport|Naples]], [[Nuremberg Airport|Nuremberg]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Beauvais–Tillé Airport|Paris-Beauvais]], [[Pisa Airport|Pisa]], [[Porto Airport|Porto]], [[Václav Havel Airport Prague|Prague]], [[Rabat Airport|Rabat]], [[Leonardo da Vinci-Fiumicino Airport|Rome–Fiumicino]], [[Santiago de Compostela Airport|Santiago de Compostela]], [[Tangier Airport|Tangier]], [[Tenerife South Airport|Tenerife–South]], [[Toulouse Airport|Toulouse]], [[Treviso Airport|Venice-Treviso]], [[Turin Airport|Turin]], [[Valencia Airport|Valencia]], [[Venice Marco Polo Airport|Venice]] (resumes 1 September 2026), [[Vienna International Airport|Vienna]], [[Vitoria Airport|Vitoria]], [[Warsaw Chopin Airport|Warsaw–Chopin]], [[Weeze Airport|Weeze]], [[Wrocław Airport|Wrocław]]<br /> '''Seasonal:''' [[Bari Karol Wojtyła Airport|Bari]], [[Luxembourg Airport|Luxembourg]], [[Menorca Airport|Menorca]], [[Trapani-Birgi Airport|Trapani]], [[Trieste Airport|Trieste]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Portela Airport|Lisbon]]
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Bordeaux Airport|Bordeaux]], [[Brest Bretagne Airport|Brest]] (begins 25 October 2026), [[Brussels Airport|Brussels]], [[Eindhoven Airport|Eindhoven]], [[Lyon-Saint Exupéry Airport|Lyon]], [[Marseille Provence Airport|Marseille]], [[Montpellier–Méditerranée Airport|Montpellier]], [[Nantes Atlantique Airport|Nantes]], [[Orly Airport|Paris–Orly]], [[Rennes–Saint-Jacques Airport|Rennes]] (begins 26 October 2026), [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Volotea]] | [[Asturias Airport|Asturias]], [[Bilbao Airport|Bilbao]], [[Bordeaux Airport|Bordeaux]], [[Florence Airport|Florence]] (begins 21 September 2026), [[Lille Airport|Lille]], [[Olbia – Costa Smeralda Airport|Olbia]], [[San Sebastián Airport|San Sebastián]], [[Santander Airport|Santander]], [[Verona Airport|Verona]]
+<!-- -->
+| [[Vueling]] | [[Barcelona–El Prat Airport|Barcelona]], [[Bilbao Airport|Bilbao]], [[Fuerteventura Airport|Fuerteventura]], [[Gran Canaria Airport|Gran Canaria]], [[Ibiza Airport|Ibiza]], [[Lanzarote Airport|Lanzarote]], [[Gatwick Airport|London–Gatwick]], [[London Heathrow Airport|London–Heathrow]], [[Menorca Airport|Menorca]], [[Nice Airport|Nice]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Santiago de Compostela Airport|Santiago de Compostela]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]], [[Valencia Airport|Valencia]] <br /> '''Seasonal:''' [[Essaouira-Mogador Airport|Essaouira]]
+<!-- -->
+| [[Wizz Air]] | [[Henri Coandă International Airport|Bucharest–Otopeni]], [[London Luton Airport|London–Luton]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Venice Marco Polo Airport|Venice]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+}}

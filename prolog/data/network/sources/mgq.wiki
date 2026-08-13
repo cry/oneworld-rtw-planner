@@ -1,0 +1,46 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport-dest-list
+<!-- -->
+| [[Air Djibouti]] | [[Djibouti-Ambouli International Airport|Djibouti]], [[Hargeisa Airport|Hargeisa]]
+<!-- -->
+| [[Daallo Airlines]] | [[Bosaso Airport|Bosaso]], [[Garowe Airport|Garowe]], [[Hargeisa Airport|Hargeisa]], [[King Abdul Aziz International Airport|Jeddah]], [[Kismayo Airport|Kismayo]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Egyptair]] |[[Cairo International Airport|Cairo]], [[Djibouti–Ambouli International Airport|Djibouti]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]] (suspended)
+<!-- -->
+| [[Freedom Airline Express]] | [[Garowe Airport|Garowe]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+|i-Fly Air | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Jubba Airways]] | [[Adado Airport|Adado]], [[Baidoa Airport|Baidoa]], [[Bosaso Airport|Bosaso]], [[Djibouti-Ambouli International Airport|Djibouti]], [[Abdullahi Yusuf International Airport|Galkayo]], [[Garowe Airport|Garowe]], [[Guriel Airport|Guriel]], [[Hargeisa International Airport|Hargeisa]], [[King Abdulaziz International Airport|Jeddah]], [[Kismayo Airport|Kismayo]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Kenya Airways]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Qatar Airways]] | [[Djibouti-Ambouli International Airport|Djibouti]]
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]] (begins 3 September 2026)
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Uganda Airlines]] | [[Entebbe International Airport|Entebbe]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Astral Aviation]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Ethiopian Airlines|Ethiopian Airlines Cargo]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Kenya Airways Cargo]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[MNG Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Turkish Airlines|Turkish Cargo]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

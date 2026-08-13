@@ -1,0 +1,44 @@
+==Airlines and destinations==
+{{more sources section|date=December 2025}}
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{incomplete list|date=December 2025}}
+The following airlines operate regular scheduled and charter flights to and from Trinidad:
+
+{{airport-dest-list
+| [[Air Canada]] |[[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[American Airlines]] |[[Miami International Airport|Miami]]
+<!-- -->
+| [[British Airways]] |[[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| {{nowrap|[[Caribbean Airlines]]}} | [[V.C. Bird International Airport|Antigua]], [[Grantley Adams International Airport|Barbados]], [[Simón Bolívar International Airport (Venezuela)|Caracas]], [[George F.L. Charles Airport|Castries]], [[Hato International Airport|Curaçao]], [[Fort Lauderdale-Hollywood International Airport|Fort Lauderdale]], [[Cheddi Jagan International Airport|Georgetown–Cheddi Jagan]], [[Ogle International Airport|Georgetown–Ogle]], [[Maurice Bishop International Airport|Grenada]], [[Norman Manley International Airport|Kingston–Norman Manley]], [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[Miami International Airport|Miami]], [[Lynden Pindling International Airport|Nassau]], [[John F. Kennedy International Airport|New York–JFK]], [[Orlando International Airport|Orlando]], [[Johan Adolf Pengel International Airport|Paramaribo]], [[Pointe-à-Pitre International Airport|Pointe-à-Pitre]], [[Princess Juliana International Airport|St. Maarten]], [[Argyle International Airport|St. Vincent–Argyle]], [[A.N.R. Robinson International Airport|Tobago]], [[Lester B. Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Contour Airlines]] | [[Douglas–Charles Airport|Dominica–Douglas-Charles]] (begins 5 October 2026)
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| {{nowrap|[[InterCaribbean Airways]]}} | [[Grantley Adams International Airport|Barbados]]
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[LIAT20]] |[[V.C. Bird International Airport|Antigua]]
+<!-- -->
+| [[Rutaca Airlines]] | [[Santiago Mariño Caribbean International Airport|Porlamar]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental  Airport|Houston–Intercontinental]]<br > '''Seasonal:''' [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[Winair]] | [[Princess Juliana International Airport|St. Maarten]]
+}}
+
+'''Notes'''
+{{notelist}}
+
+===Cargo===
+{{airport-dest-list
+<!-- -->
+| [[Amerijet International]] | [[Miami International Airport|Miami]]{{citation needed|date=April 2026}}
+<!-- -->
+}}

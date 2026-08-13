@@ -1,0 +1,9 @@
+==Airlines and destinations==
+{{Airport-dest-list
+| [[Alliance Airlines]] | '''Charter:''' [[Perth Airport|Perth]]{{cn|date=May 2025}}
+|[[Nexus Airlines (Australia)|Nexus Airlines]] 
+|[[Broome Airport|Broome]], [[Geraldton Airport|Geraldton]], [[Port Hedland Airport|Port Hedland]]{{cn|date=May 2025}}
+| [[Qantas]] | [[Perth Airport|Perth]]
+| [[QantasLink]] | [[Perth Airport|Perth]]
+| [[Virgin Australia]] | [[Perth Airport|Perth]]
+| [[Virgin Australia Regional Airlines]] | [[Perth Airport|Perth]]}}

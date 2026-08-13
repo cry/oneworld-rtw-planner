@@ -1,0 +1,133 @@
+==Airlines and destinations==
+
+{{Airport-dest-list
+<!-- -->
+| [[Alaska Airlines]] | '''Seasonal:''' [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] <br />'''Seasonal: '''  [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | '''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[Delta Air Lines]] | [[Salt Lake City International Airport|Salt Lake City]]<br /> '''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]]<br /> '''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[United Airlines]] | [[Denver International Airport|Denver]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Los Angeles International Airport|Los Angeles]], [[Newark Liberty International Airport|Newark]], [[San Francisco International Airport|San Francisco]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+| [[United Express]] | [[Denver International Airport|Denver]] <br />'''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Jackson Hole Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=43.6084 |long=-110.7367 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Jackson'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=41.978611 |long=-87.904722 |position=left |label='''[[O'Hare International Airport|Chicago–O'Hare]]'''|label_size=80 |marksize=7}}
+{{Location map~ |mark = Green pog.svg |United_States |lat=33.941381|long=-118.408619|position=bottom |label='''{{nowrap|[[Los Angeles International Airport|Los Angeles]]}}'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]'''|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=47.450165|long=-122.309176 |position=right |label='''[[Seattle–Tacoma International Airport|Seattle/Tacoma]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=33.63666 |long=-84.428056 |position=right |label='''[[Atlanta Airport|Atlanta]]''' |label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=29.990140|long=-95.336792 |position=right|label='''[[George Bush Intercontinental Airport|Houston–Intercontinental]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=right|label='''[[Denver International Airport|Denver]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=40.789836|long=-111.979632|position=bottom|label='''{{nowrap|[[Salt Lake City International Airport|Salt Lake City]]}}'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=32.733611|long=-117.189722 |position=bottom|label='''[[San Diego International Airport|San Diego]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg|United_States |lat=44.884690|long=-93.222430|position=left|label='''[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=40.6925|long=-74.168611|position=left|label='''[[Newark Liberty Airport|Newark]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=37.618889|long=-122.375|position=right|label='''[[San Francisco International Airport|San Francisco]]'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=40.639722 |long=-73.778889 |position=right |label='''[[John F. Kennedy International Airport|New York-JFK]]''' |label_size=80 |marksize=7 }}
+{{Location map~ |mark = Blue pog.svg |United_States |lat=45.588611 |long=-122.5975 |position=bottom |label='''[[Portland International Airport|Portland]]''' |label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=38.944444 |long=-77.455833 |position=right |label='''[[Dulles International Airport|Washington-Dulles]]''' |label_size=80 |marksize=7 }}
+}}
+|}
+
+===Top destinations===
+{| class="wikitable sortable" style="font-size: 95%"
+|+ '''Busiest domestic routes from KJAC<br />(February 2025 – January 2026)'''
+|-
+! Rank
+! City
+! Passengers 
+! Carriers
+|-
+|1
+| [[Denver International Airport|Denver, Colorado]]
+| 157,520
+| United
+|-
+|2
+| [[Salt Lake City International Airport|Salt Lake City, Utah]]
+| 101,870
+| Delta
+|-
+|3
+| [[Dallas/Fort Worth International Airport|Dallas/Fort Worth, Texas]]
+| 80,610
+| American
+|-
+|4
+| [[O'Hare International Airport|Chicago–O'Hare, Illinois]]
+| 80,130
+| American, United
+|-
+|5
+| [[Los Angeles International Airport|Los Angeles, California]] 
+| 33,040
+| American, Delta, United
+|-
+|6
+| [[Hartsfield-Jackson Atlanta International Airport|Atlanta, Georgia]]
+| 28,000
+| Delta
+|-
+|7
+| [[San Francisco International Airport|San Francisco, California]]
+| 27,350
+| Alaska, United
+|-
+|8
+| [[Newark Liberty International Airport|Newark, New Jersey]]
+| 22,440
+| United
+|-
+|9
+| [[Charlotte Douglas International Airport|Charlotte, North Carolina]]
+| 13,510
+| American
+|-
+|10
+| [[Seattle Tacoma International Airport|Seattle/Tacoma, Washington]]
+| 9,870
+| Alaska
+|}
+
+===Airline market share===
+{| class="wikitable sortable" style="font-size: 95%"
+|+ Largest airlines at JAC<br />(February 2025 – January 2026)
+|-
+! Rank
+! Airline
+! Passengers
+! Share
+|-
+| 1
+| [[United Airlines]]
+| 463,000
+| 40.61%
+|-
+| 2
+| [[American Airlines]]
+| 265,000
+| 23.23%
+|-
+| 3
+| [[Delta Air Lines]]
+| 218,000
+| 19.17%
+|-
+| 4
+| [[SkyWest Airlines]]
+| 194,000
+| 16.99%
+|}

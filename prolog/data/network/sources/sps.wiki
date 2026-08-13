@@ -1,0 +1,17 @@
+==Airline and destination==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Unreferenced section|date=January 2022}}
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth Airport|Dallas/Fort Worth]]
+}}
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:25em; margin:0.2em auto"
+|-
+! Destination map
+|-
+|{{Location map+ |USA Texas |width=500 |float=center
+|caption=Destination from Wichita Falls Regional Airport
+|places=
+{{Location map~ |USA Texas |lat=33.988889|long=-98.491944|position=left|label='''<small>Wichita Falls</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |USA Texas |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

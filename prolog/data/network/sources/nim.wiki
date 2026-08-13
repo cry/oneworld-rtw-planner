@@ -1,0 +1,29 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{airport-dest-list
+|[[Air Algérie]]| [[Houari Boumediene Airport|Algiers]]
+<!-- -->
+|[[Air Burkina]]| [[Ouagadougou Airport|Ouagadougou]]
+<!-- -->
+|[[Air Côte d'Ivoire]]| [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Thomas Sankara International Airport Ouagadougou|Ouagadougou]]
+<!-- -->
+|[[Air France]]| [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[Air Senegal]]| [[Modibo Keita International Airport|Bamako]], [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+|[[ASKY Airlines]]| [[Cadjehoun Airport|Cotonou]], [[Lomé Airport|Lomé]], [[Ouagadougou Airport|Ouagadougou]]
+<!-- -->
+|[[Ethiopian Airlines]]| [[Addis Ababa Airport|Addis Ababa]], [[Thomas Sankara International Airport Ouagadougou|Ouagadougou]]
+<!-- -->
+|[[Fly Oya]]| [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+|[[Libyan Airlines]]| [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+|[[Royal Air Maroc]]| [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+|[[Sky Mali]]| [[Modibo Keita International Airport|Bamako]], [[Gao International Airport|Gao]]
+<!-- -->
+|[[Tunisair]]| [[Port Bouet Airport|Abidjan]], [[Tunis-Carthage International Airport|Tunis]]
+<!-- -->
+|[[Turkish Airlines]]| [[Istanbul Airport|Istanbul]], [[N'Djamena International Airport|N'Djamena]]
+}}

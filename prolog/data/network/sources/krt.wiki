@@ -1,0 +1,59 @@
+==Airlines and destinations ==
+[[File:Farewell bidders at Khartoum International Airport (6540044281).jpg|thumb|Departure Hall in 2010]]
+===Passenger===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+| [[Afriqiyah Airways]] | [[Benina International Airport|Benghazi]], [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[Badr Airlines]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Addis Ababa Bole International Airport|Addis Ababa]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Cairo International Airport|Cairo]], [[Damazin Airport|Damazin]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[El Fasher Airport|El Fasher]], [[El Obeid Airport|El Obeid]], [[Geneina Airport|Geneina]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[Juba International Airport|Juba]], [[Mallam Aminu Kano International Airport|Kano]], [[Kassala Airport|Kassala]], [[N'Djamena International Airport|N'Djamena]], [[Nyala Airport|Nyala]], [[Port Sudan New International Airport|Port Sudan]], [[King Khalid International Airport|Riyadh]], [[Wau Airport|Wau]]
+<!-- -->
+|[[Berniq Airways]] | [[Benina International Airport|Benghazi]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|{{nowrap| [[Ethiopian Airlines]]}} | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Flyadeal]] | [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]] | [[Abha International Airport|Abha]], [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[Kenya Airways]] | [[Juba International Airport|Juba]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Nova Airways]] | [[Dongola Airport|Dongola]], [[El Fasher Airport|El Fasher]], [[Juba International Airport|Juba]], [[Merowe Airport|Merowe]], [[Nyala Airport|Nyala]], [[Port Sudan New International Airport|Port Sudan]], [[Wau Airport|Wau]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Sudan Airways]] | [[Addis Ababa Bole International Airport|Addis Ababa]], [[Asmara International Airport|Asmara]], [[Cairo International Airport|Cairo]], [[El Fasher Airport|El Fasher]], [[Geneina Airport|Geneina]], [[King Abdulaziz International Airport|Jeddah]], [[Juba International Airport|Juba]], [[Mallam Aminu Kano International Airport|Kano]], [[N'Djamena International Airport|N'Djamena]], [[Nyala Airport|Nyala]], [[Port Sudan New International Airport|Port Sudan]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Syrian Air]] | [[Damascus International Airport|Damascus]]
+<!-- -->
+| [[Tarco Aviation]] | [[Queen Alia International Airport|Amman–Queen Alia]], [[Asmara International Airport|Asmara]], [[Cairo International Airport|Cairo]], [[King Fahd International Airport|Dammam]], [[Hamad International Airport|Doha]], [[Entebbe International Airport|Entebbe]], [[King Abdulaziz International Airport|Jeddah]], [[Juba International Airport|Juba]], [[Mallam Aminu Kano International Airport|Kano]], [[N'Djamena International Airport|N'Djamena]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Yemenia]] | [[Aden International Airport|Aden]]}}
+<!-- -->
+
+===Cargo===
+{{Airport-dest-list
+| [[EgyptAir Cargo]]{{cn|date=February 2023}} | [[Cairo International Airport|Cairo]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+| [[Emirates Sky Cargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+| [[Ethiopian Airlines|Ethiopian Airlines Cargo]]{{cn|date=February 2023}}| [[Bole International Airport|Addis Ababa]], [[Liège Airport|Liège]]
+| [[Qatar Airways Cargo]]{{cn|date=February 2023}} | [[Hamad International Airport|Doha]]
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+| [[Saudia Cargo]]{{cn|date=February 2023}} | [[King Abdulaziz International Airport|Jeddah]]
+| [[Turkish Cargo]]{{cn|date=February 2023}} | [[Istanbul Airport|Istanbul]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+}}

@@ -1,0 +1,17 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Washington–National]]
+<!-- -->
+| [[Breeze Airways]] | [[Newark Liberty International Airport|Newark]], [[Orlando International Airport|Orlando]], [[Tampa International Airport|Tampa]] <br/> '''Seasonal:''' [[Myrtle Beach International Airport|Myrtle Beach]]
+<!-- -->
+| [[Delta Connection]] | [[Hartsfield Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[United Express]] | [[Chicago–O'Hare]] 
+<!-- -->
+}}
+
+=== Cargo ===
+{{Airport destination list|[[Air Cargo Carriers]]|[[Louisville International Airport|Louisville]]}}

@@ -1,0 +1,47 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Brindisi Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aer Lingus]] | '''Seasonal:''' [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Air Dolomiti]] | '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Brussels Airlines]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[DAT (airline)|DAT]] | '''Seasonal:''' [[Catania-Fontanarossa Airport|Catania]]
+<!-- -->
+| [[Discover Airlines]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]] 
+<!-- -->
+| [[easyJet]] | [[EuroAirport Basel–Mulhouse–Freiburg|Basel/Mulhouse]], [[Geneva Airport|Geneva]], [[Milan Malpensa Airport|Milan–Malpensa]] <br />'''Seasonal:''' [[London–Gatwick]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Milan Linate Airport|Milan–Linate]], [[Paris–Orly]]
+<!-- -->
+| [[Eurowings]] | [[Stuttgart Airport|Stuttgart]] <br />'''Seasonal:''' [[Cologne Bonn Airport|Cologne/Bonn]], [[Düsseldorf Airport|Düsseldorf]], [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+|[[FlyOne]]| [[Tivat Airport|Tivat]]
+<!-- -->
+| [[ITA Airways]] | [[Linate Airport|Milan–Linate]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg International Airport|Luxembourg]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:''' [[Milan Malpensa Airport|Milan–Malpensa]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| [[Ryanair]] | [[Bologna Guglielmo Marconi Airport|Bologna]], [[Brussels South Charleroi Airport|Brussels Charleroi]], [[Eindhoven Airport|Eindhoven]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[London–Stansted]], [[Manchester Airport|Manchester]],  [[Orio al Serio International Airport|Milan Bergamo]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Beauvais–Tillé Airport| Paris-Beauvais]], [[Perugia San Francesco d'Assisi – Umbria International Airport|Perugia]], [[Pisa International Airport|Pisa]], [[Rome–Fiumicino]], [[Trieste Airport|Trieste]], [[Turin Airport|Turin]], [[Verona Villafranca Airport|Verona]] <br />'''Seasonal:''' [[Dublin Airport|Dublin]], [[Genoa Airport|Genoa]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Memmingen Airport|Memmingen]], [[Falcone Borsellino Airport|Palermo]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Venice Marco Polo Airport|Venice]], [[Wrocław Airport|Wrocław]]
+<!-- -->
+| [[SkyAlps]] | '''Seasonal:''' [[Bolzano Airport|Bolzano]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal:''' [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+|{{nowrap|[[Swiss International Air Lines]]}} | [[Zürich Airport|Zürich]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Paris–Orly]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Brussels Airport|Brussels]], [[Lamezia Terme International Airport|Lamezia Terme]]
+<!-- -->
+| [[TUI fly Netherlands]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Nantes Atlantique Airport|Nantes]]
+<!-- -->
+| [[Wizz Air]] | [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Warsaw Modlin Airport|Warsaw–Modlin]]<br> '''Seasonal:''' [[Katowice Airport|Katowice]]
+}}

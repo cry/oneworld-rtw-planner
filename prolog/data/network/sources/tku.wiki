@@ -1,0 +1,21 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Turku Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal charter:''' [[Rhodes International Airport|Rhodes]]
+<!-- -->
+| [[airBaltic]] | [[Riga International Airport|Riga]]
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]], [[Stockholm-Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[PopulAir]] | [[Mariehamn Airport|Mariehamn]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]], [[Stockholm-Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| {{nowrap|[[Sunclass Airlines]]}} | '''Seasonal charter:''' [[Gran Canaria Airport|Gran Canaria]], [[Tenerife South Airport|Tenerife–South]]
+<!-- -->
+| [[Wizz Air]] | [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Vilnius Airport|Vilnius]]
+<!-- -->
+}}

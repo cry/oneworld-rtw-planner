@@ -1,0 +1,10 @@
+==Airlines and destinations==
+{{Airport-dest-list
+<!-- -->
+| [[Aero K]] | '''Seasonal:''' [[Cheongju International Airport|Cheongju]]
+<!-- -->
+| [[Air Do]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+}}

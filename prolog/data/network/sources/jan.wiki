@@ -1,0 +1,15 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable = yes
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Ronald Reagan Washington National Airport|Washington–National]] <br /> '''Seasonal:''' [[Miami International Airport|Miami]]|
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] |
+<!-- -->
+| [[Delta Connection]]| [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] |
+<!-- -->
+| [[Southwest Airlines]] | [[William P. Hobby Airport|Houston–Hobby]],  [[Nashville International Airport|Nashville]] <br /> '''Seasonal:''' [[Orlando International Airport|Orlando]]|
+<!-- -->
+| [[United Express]] | [[Houston–Intercontinental]]| 
+<!-- -->|
+}}

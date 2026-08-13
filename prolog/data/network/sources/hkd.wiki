@@ -1,0 +1,24 @@
+==Airlines and destinations==
+[[File:Hakodate Airport Hokkaido Japan28s3.jpg|thumb|The terminal interior]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Do]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[All Nippon Airways]] | [[Itami Airport|Osaka–Itami]], [[Haneda Airport|Tokyo–Haneda]], [[Chubu Centrair International Airport|Nagoya–Centrair]]{{cn|date=June 2025}}
+<!-- -->
+| [[ANA Wings]] | [[New Chitose Airport|Sapporo–Chitose]]
+<!-- -->
+| [[Hokkaido Air System]] | [[Okushiri Airport|Okushiri]], [[Okadama Airport|Sapporo–Okadama]]
+<!-- -->
+| [[J-Air]] | [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Starlux Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Jeju Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+}}

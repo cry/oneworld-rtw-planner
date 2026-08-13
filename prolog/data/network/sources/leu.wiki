@@ -1,0 +1,13 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Andorra–La Seu d'Urgell Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport-dest-list
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+}}
+
+The nearest international airports are, Girona–Costa Brava Airport
+(Aeroport de Girona - Costa Brava), Lleida–Alguaire Airport
+(Aeroport de Lleida | Alguaire) ,[[Josep Tarradellas Barcelona–El Prat Airport]], located {{convert|186|km|abbr=on}} south east and [[Toulouse–Blagnac Airport]], located {{convert|237|km|abbr=on}} north of the airport. If passengers do fly internationally from this airport, they would need to transit in either Madrid or Palma de Mallorca to get to other international destinations.

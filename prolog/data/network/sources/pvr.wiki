@@ -1,0 +1,122 @@
+== Airlines and destinations ==
+[[File:Puerto vallarta aeropuerto 5.jpg|thumb|Alaska Airlines Boeing B737 at PVR]]
+Intense seasonal tourism to Puerto Vallarta means that passenger traffic at the airport is notably focused on flights to the United States and Canada. Among the busiest routes at the airport are those to [[Los Angeles International Airport|Los Angeles]], [[Dallas Fort Worth International Airport|Dallas]], and [[Phoenix Sky Harbor International Airport|Phoenix]]. [[WestJet]] stands out as the airline serving the largest number of destinations, connecting Puerto Vallarta with 12 Canadian airports during the high season.
+
+===Passenger===
+{{Airport-dest-list
+<!-- -->
+|[[Aeroméxico]]|[[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| {{nowrap|[[Aeroméxico Connect]]}}|[[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+| [[Air Canada]] |  [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]] <br>'''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| {{nowrap|[[Air Canada Rouge]]}}| '''Seasonal:''' [[Calgary International Airport|Calgary]] (begins December 10, 2026)
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Québec City Jean Lesage International Airport|Quebec City]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]],  [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] <br>'''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]], [[Portland International Airport|Portland (OR)]], [[Sacramento International Airport|Sacramento]], [[St. Louis Lambert International Airport|St. Louis]]
+<!-- -->
+| [[American Airlines]] |  [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] <br>'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]]| '''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[Cabo Flight Center]] | [[Cabo San Lucas International Airport|Cabo San Lucas]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]],  [[Los Angeles International Airport|Los Angeles]], [[Salt Lake City International Airport|Salt Lake City]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] <br>'''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[Flair Airlines]] | '''Seasonal:''' [[Calgary International Airport|Calgary]], [[Edmonton International Airport|Edmonton]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]]
+<!-- -->
+| {{nowrap|[[Frontier Airlines]]}}|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br>'''Seasonal:''' [[Denver International Airport|Denver]]
+<!-- -->
+| {{nowrap|[[Mexicana de Aviación (2023–present)|Mexicana de Aviación]]}}|[[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+|[[Porter Airlines]]| '''Seasonal:''' [[Edmonton International Airport|Edmonton]] (begins November 3, 2026), [[John C. Munro Hamilton International Airport|Hamilton (ON)]], [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} |  [[Denver International Airport|Denver]], [[William P. Hobby Airport|Houston–Hobby]], [[Harry Reid International Airport|Las Vegas]], [[John Wayne Airport|Orange County]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[St. Louis Lambert International Airport|St. Louis]], [[San Diego International Airport|San Diego]] <br>'''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]], [[Sacramento International Airport|Sacramento]]
+<!-- -->
+| [[Sun Country Airlines]] | [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]]| [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]],  [[Newark Liberty International Airport|Newark]], [[San Francisco International Airport|San Francisco]]  <br>'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+|[[United Express]] |'''Seasonal:''' [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+| [[Viva (airline)|Viva]]| [[Ciudad Juárez International Airport|Chihuahua]], [[Guadalajara International Airport|Guadalajara]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]], [[Tijuana International Airport|Tijuana]], [[Toluca International Airport|Toluca/Mexico City]]
+<!-- -->
+| [[Volaris]] |  [[Aguascalientes International Airport|Aguascalientes]], [[Guadalajara International Airport|Guadalajara]], [[Bajío International Airport|León/Bajío]], [[Mexicali International Airport|Mexicali]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]], [[General Francisco Mujica International Airport|Morelia]],  [[Puebla International Airport|Puebla]], [[Querétaro Intercontinental Airport|Queretaro]], [[San Luis Potosí International Airport|San Luis Potosí]], [[Tijuana International Airport|Tijuana]], [[Toluca International Airport|Toluca/Mexico City]]
+<!-- -->
+| [[WestJet]] |  [[Calgary International Airport|Calgary]],  [[Edmonton International Airport|Edmonton]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]]  <br>'''Seasonal:''' [[Abbotsford International Airport|Abbotsford]], [[CFB Comox|Comox]], [[Kelowna International Airport|Kelowna]], [[Prince George Airport|Prince George]], [[Regina International Airport|Regina]], [[Saskatoon John G. Diefenbaker International Airport|Saskatoon]], [[Victoria International Airport|Victoria]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]
+<!-- -->
+| [[World2Fly]] |'''Seasonal charter:''' [[Václav Havel Airport Prague|Prague]]
+}}
+
+=== Destinations map ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=right|caption=Domestic destinations from Puerto Vallarta International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Mexico|lat=20.6805 |long=-105.2524|position=left |label=<div style="position:relative; top:0px;"><small>'''Puerto Vallarta'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=bottom|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.7566 |long=-99.015278|position=right|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City/AIFA}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=21.7013 |long=-102.3162|position=left|label='''[[Aguascalientes International Airport|{{nowrap|Aguascalientes}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=28.7040 |long=-105.9690|position=bottom|label='''[[Chihuahua International Airport|{{nowrap|Chihuahua}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=31.6358 |long=-106.4359|position=right|label='''[[Ciudad Juárez International Airport|{{nowrap|Ciudad Juárez}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.5260 |long=-103.3076|position=top|label='''[[Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.9935 |long=-101.4806|position=right|label='''[[Bajío International Airport|{{nowrap|León/Del Bajío}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.6306 |long=-115.242|position=right|label='''[[Mexicali International Airport|{{nowrap|Mexicali}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.7783 |long=-100.106389|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.8465 |long=-101.0281|position=left|label='''[[General Francisco Mujica International Airport|{{nowrap|Morelia}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.6225 |long=-100.1873|position=right|label='''[[Querétaro Intercontinental Airport|{{nowrap|Querétaro}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.3389 |long=-99.5698|position=left|label='''[[Toluca International Airport|{{nowrap|Toluca}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=22.9475 |long=-109.936944|position=bottom|label='''[[Cabo San Lucas International Airport|{{nowrap|Cabo San Lucas}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.158056|long=-98.371389|position=right|label='''[[Puebla International Airport|Puebla]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=22.2569 |long=-100.9342|position=top|label='''[[San Luis Potosí International Airport|{{nowrap|San Luis Potosí}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|Canada|width=650|float=right|caption=Canada destinations from Puerto Vallarta International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|
+|places={{Location map~ | Canada |lat=43.4036|long=-79.3750|position=top|label='''<small>[[Toronto Pearson International Airport|{{nowrap|Toronto-Pearson}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | Canada |lat=49.194722|long=-123.183889|position=top|label=<div style="position:relative; right:-30px;top:15px;"><small>'''[[Vancouver International Airport|Vancouver]]'''</small></div>|caption=|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=46.791111|long=-71.393333|position=top|label='''<small>[[Québec City Jean Lesage International Airport|Québec City]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | Canada |lat=51.1225|long=-114.013333|position=right|label='''<small>[[Calgary International Airport|Calgary]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | Canada |lat=53.31|long=-113.579444|position=right|label='''<small>[[Edmonton International Airport|Edmonton]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=45.470556|long=-73.740833|position=top|label='''<small>[[Montréal–Trudeau International Airport|{{nowrap|Montréal–Trudeau}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=49.91|long=-97.24|position=right|label='''<small>[[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=45.3225|long=-75.667222|position=left|label='''<small>[[Ottawa Macdonald–Cartier International Airport|Ottawa]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=49.957222|long=-119.378056|position=bottom|label='''<small>[[Kelowna International Airport|Kelowna]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=50.432222|long=-104.666111|position=left|label='''<small>[[Regina International Airport|Regina]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=52.170833|long=-106.7|position=right|label='''<small>[[Saskatoon John G. Diefenbaker International Airport|Saskatoon]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=48.647222|long=-123.425833|position=left|label='''<small>[[Victoria International Airport|Victoria]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=49.025278|long=-122.36|position=bottom|label=<div style="position:relative; right:30px; top:-15px"><small>'''[[Abbotsford International Airport|Abbotsford]]'''</small></div>|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=49.710833|long=-124.886667|position=top|label='''<small>[[CFB Comox|Comox]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | Canada |lat=53.884167|long=-122.6775|position=left|label='''<small>[[Prince George Airport|Prince George]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Blue pog.svg | Canada |lat=43.173611|long=-79.935|position=right|label='''<small>[[John C. Munro Hamilton International Airport|Hamilton]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|-
+|{{Location map+|United_States|width=650|float=right|caption=United States destinations from Puerto Vallarta International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|
+|places={{Location map~ | mark = Green pog.svg | United_States |lat=30.194444|long=-97.67|position=top|label='''<small>[[Austin–Bergstrom International Airport|Austin]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | United_States |lat=41.978611|long=-87.904722|position=bottom|label='''<small>[[O'Hare International Airport|{{nowrap|Chicago–O'Hare}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=32.896944|long=-97.038056|position=top|label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=33.9425|long=-118.408056|position=top|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | United_States |lat=40.639722|long=-73.778889|position=right|label='''<small>[[John F. Kennedy International Airport|{{nowrap|New York–JFK}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=33.434167|long=-112.011667|position=right|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | United_States |lat=45.588611|long=-122.5975|position=bottom|label='''<small>[[Portland International Airport|{{nowrap|Portland (OR)}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=32.733611|long=-117.189722|position=bottom|label='''<small>[[San Diego International Airport|{{nowrap|San Diego}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=37.618889|long=-122.375|position=right|label='''<small>[[San Francisco International Airport|{{nowrap|San Francisco}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=47.448889|long=-122.309444|position=bottom|label='''<small>[[Seattle–Tacoma International Airport|{{nowrap|Seattle/Tacoma}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=33.636667|long=-84.428056|position=left|label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | United_States |lat=42.2125|long=-83.353333|position=left|label='''<small>[[Detroit Metropolitan Airport|Detroit]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | United_States |lat=44.881944|long=-93.221667|position=top|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis–St. Paul]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=40.788333|long=-111.977778|position=top|label='''<small>[[Salt Lake City International Airport|{{nowrap|Salt Lake City}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=39.861667|long=-104.673056|position=bottom|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=29.984444|long=-95.341389|position=right|label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=40.6925|long=-74.168611|position=left|label='''<small>[[Newark Liberty International Airport|Newark]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=36.08|long=-115.152222|position=right|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=29.645556|long=-95.278889|position=left|label='''<small>[[William P. Hobby Airport|{{nowrap|Houston–Hobby}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=33.675556|long=-117.868333|position=right|label='''<small>[[John Wayne Airport|{{nowrap|Orange County}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | United_States |lat=39.2975|long=-94.713889|position=bottom|label='''<small>[[Kansas City International Airport|{{nowrap|Kansas City}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | United_States |lat=38.695556|long=-121.590833|position=top|label='''<small>[[Sacramento International Airport|{{nowrap|Sacramento}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | United_States |lat=38.747222|long=-90.361389|position=right|label='''<small>[[St. Louis Lambert International Airport|{{nowrap|St. Louis}}]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|-
+|{{Location map+|Europe|width=650|float=right|caption=Europe destinations from Puerto Vallarta International Airport <br />{{font color | green | Green}} = Seasonal destination|
+|places={{Location map~ | mark = Green pog.svg | Europe |lat=50.0755|long=14.4378|position=right|label='''<small>[[Václav Havel Airport Prague|Prague]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

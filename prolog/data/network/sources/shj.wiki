@@ -1,0 +1,65 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines operate regular scheduled and charter flights to and from Sharjah:
+
+{{Airport destination list
+<!-- -->
+| [[Air Arabia]] | [[Abha International Airport|Abha]], [[Addis Ababa Bole International Airport|Addis Ababa]], [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Borg El Arab International Airport|Alexandria]], [[Almaty International Airport|Almaty]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Athens International Airport|Athens]], [[Bahrain International Airport|Bahrain]], [[Heydar Aliyev International Airport|Baku]], [[Bangkok–Suvarnabhumi]], [[Kempegowda International Airport|Bengaluru]], [[Manas International Airport|Bishkek]], [[Bosaso Airport|Bosaso]],{{cn|date=July 2026}} [[Cairo International Airport|Cairo]], [[Chennai International Airport|Chennai]], [[Coimbatore International Airport|Coimbatore]], [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Damascus International Airport|Damascus]],{{cn|date=July 2026}} [[King Fahd International Airport|Dammam]], [[Indira Gandhi International Airport|Delhi]], [[Hamad International Airport|Doha]], [[Entebbe International Airport|Entebbe]], [[Prince Naif bin Abdulaziz International Airport|Gassim]], [[Sphinx International Airport|Giza]], [[Manohar International Airport|Goa–Mopa]], [[Ḥa'il Regional Airport|Ha'il]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Istanbul Airport|Istanbul]], [[Istanbul–Sabiha Gökçen]], [[Jaipur International Airport|Jaipur]], [[King Abdulaziz International Airport|Jeddah]], [[Jizan Regional Airport|Jizan]], [[Tribhuvan International Airport|Kathmandu]], [[Calicut International Airport|Kozhikode]], [[Krabi International Airport|Krabi]],{{cn|date=July 2026}} [[Kraków John Paul II International Airport|Kraków]], [[London–Gatwick]], [[Velana International Airport|Malé]], [[Chhatrapati Shivaji International Airport|Mumbai]], [[Munich Airport|Munich]], [[Muscat International Airport|Muscat]], [[Dr. Babasaheb Ambedkar International Airport|Nagpur]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Václav Havel Airport Prague|Prague]], [[Rome–Fiumicino]],[[King Khalid International Airport|Riyadh]], [[Salalah International Airport|Salalah]], [[Sohag International Airport|Sohag]], [[Sohar Airport|Sohar]], [[Tabuk Regional Airport|Tabuk]], [[Ta’if Regional Airport|Ta'if]], [[Tashkent International Airport|Tashkent]], [[Tbilisi International Airport|Tbilisi]], [[Trivandrum International Airport|Thiruvananthapuram]], [[Trabzon Airport|Trabzon]], [[Mustai Karim Ufa International Airport|Ufa]],{{cn|date=July 2026}} [[Vienna International Airport|Vienna]], [[Warsaw–Chopin]], [[Warsaw Modlin Airport|Warsaw–Modlin]],{{cn|date=July 2026}} [[Zvartnots International Airport|Yerevan]] <br/> '''Seasonal:''' [[Namangan Airport|Namangan]], [[Phuket International Airport|Phuket]], [[Sarajevo International Airport|Sarajevo]],{{cn|date=July 2026}} [[Adler-Sochi International Airport|Sochi]]{{cn|date=July 2026}}
+<!-- -->
+| [[Air Cairo]] | '''Seasonal:''' [[Assiut Airport|Assiut]]{{cn|date=July 2026}}
+<!-- -->
+| {{nowrap|[[Air India Express]]}} | [[Devi Ahilya Bai Holkar Airport|Indore]], [[Jaipur Airport|Jaipur]], [[Vijayawada Airport|Vijayawada]]
+<!-- -->
+| [[Air Peace]] | [[Murtala Muhammed International Airport|Lagos]]{{cn|date=July 2026}}
+<!-- -->
+| [[AJet]] | [[Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Belavia]] | '''Seasonal charter:''' [[Minsk National Airport|Minsk]]
+<!-- -->
+| [[Biman Bangladesh Airlines]] | [[Osmani International Airport|Sylhet]]
+<!-- -->
+| {{nowrap|[[Caspian Airlines]]}} | [[Qasem Soleimani International Airport|Ahvaz]], [[Bandar Abbas International Airport|Bandar Abbas]], [[Larestan Ayatollah Ayatollahi International Airport|Lar]], [[Qeshm International Airport|Qeshm]], [[Tehran–Imam Khomeini]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]{{cn|date=July 2026}}
+<!-- -->
+| [[FitsAir]] | '''Seasonal charter:''' [[Velana International Airport|Malé]],{{cn|date=July 2026}} [[Zvartnots International Airport|Yerevan]]{{cn|date=July 2026}}
+<!-- -->
+| [[Fly Cham]] | [[Damascus International Airport|Damascus]]{{cn|date=July 2026}}
+<!-- -->
+| [[Fly Jinnah]] | [[Allama Iqbal International Airport|Lahore]]
+<!-- -->
+| [[Iraqi Airways]] | [[Baghdad International Airport|Baghdad]]{{cn|date=July 2026}}
+<!-- -->
+| [[Jordan Aviation]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| {{nowrap|[[Pakistan International Airlines]]}} | [[Bacha Khan International Airport|Peshawar]],{{cn|date=July 2026}} [[Sialkot International Airport|Sialkot]]{{cn|date=July 2026}}
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+|[[SpiceJet]]| [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]]
+<!-- -->
+| [[Ural Airlines]] | '''Seasonal:''' [[Moscow–Domodedovo]],{{cn|date=July 2026}} [[Koltsovo Airport|Yekaterinburg]]{{cn|date=July 2026}}
+<!-- -->
+| [[US-Bangla Airlines]] | [[Shahjalal International Airport|Dhaka]]
+<!-- -->
+| [[Varesh Airlines]] | [[Chabahar Konarak Airport|Chabahar/Konarak]]
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[Astral Aviation]] | [[Eldoret International Airport|Eldoret]]
+<!-- -->
+| [[EgyptAir Cargo]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Ethiopian Cargo]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Singapore Airlines Cargo]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Brussels Airport|Brussels]], [[London–Heathrow]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[UPS Airlines]] | [[Cologne Bonn Airport|Cologne]], [[Hong Kong International Airport|Hong Kong]], [[Incheon International Airport|Seoul–Incheon]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+}}

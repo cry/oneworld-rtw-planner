@@ -331,6 +331,43 @@ top — ø, æ, ð, þ, dotless ı, ł — need a table either way. A test asser
 in the generated airport table, so regenerating that table with a new letter fails the suite rather
 than quietly dropping a city out of reach of the search.
 
+## Which sectors are actually flown
+
+A fifth operation, `network`, beside `validate`, `routing`, `earn` and `ruleset`. It reads
+`prolog/data/generated/services.pl` — 5,618 directed nonstop sectors and 82 dated windows, extracted
+from 933 Wikipedia airport articles pinned at a revision each — and reports, per segment, whether the
+snapshot holds that sector.
+
+**It produces no violation, and that is the whole design.** Rule 3015 says nothing about whether a
+flight exists, so there would be no clause to put beside the finding in a register whose entire
+premise is that every entry cites one. The evidence is a different kind, too: a wiki snapshot of
+stated age, in which absence is far weaker than presence. Mixing it into the register would make
+`verdict` mean two incommensurable things at once — exactly the reason earning is a separate
+operation, and the same boundary drawn twice.
+
+Five statuses, and the last two are what keep the panel honest. `flown(Season)`, `windowed(When)`
+and `absent` are the table speaking. `carrier_unknown` and `not_applicable` are not: a routing leg
+written `//` is a surface sector the traveller covers themselves, and a segment naming no airline
+has nothing to look up. Without those two, every surface leg and every carrier-less segment would
+read as an unflyable sector — reporting a gap in the *input* as a gap in the *network*.
+
+The lookup uses the **operating** carrier where there is one, because the source's rows are
+operating-carrier rows: Wikipedia excludes codeshares for the secondary carrier by convention.
+Looking up the marketing carrier on a codeshare would ask about a row that was never there and
+report `absent` for a sector flown daily. Where only a marketing carrier is known — which is every
+routing string, since the notation carries one carrier per leg — the lookup uses that and the reply
+says which it used, so a reader can weigh the answer.
+
+Three values for `Season`, not two. Seasonal marking is incomplete upstream, so collapsing `unknown`
+into `year_round` would silently promote unmarked seasonal service into year-round service — the
+data-layer form of letting `indeterminate` read as a pass. Edges are directed and asymmetry is
+*reported*, never repaired: symmetrising would manufacture edges nothing sourced.
+
+The table costs 37 KB in `web/rtw.pvm` (479 KB → 517 KB) for 202 KB of source, which is why it ships
+in the image rather than being fetched separately. Acquisition is
+[`PLANS/07-wikipedia-extraction.md`](PLANS/07-wikipedia-extraction.md); the schema, the query surface
+and the reasoning above are [`PLANS/06-flown-network.md`](PLANS/06-flown-network.md).
+
 ## The web UI
 
 The user-facing description is in [`README.md`](README.md#web-ui); this is what the page does *not*

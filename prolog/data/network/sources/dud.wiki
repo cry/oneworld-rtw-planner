@@ -1,0 +1,11 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air New Zealand]] | [[Auckland Airport|Auckland]], [[Christchurch Airport|Christchurch]], [[Wellington Airport|Wellington]]
+<!-- -->
+| [[Jetstar]] | [[Auckland Airport|Auckland]],  [[Gold Coast Airport|Gold Coast]]
+
+}}
+
+[[Mainland Air]] is based at the airport, and operates scenic, charter and ambulance flights. Mainland Aviation College, a division of Mainland Air, operates a flight training school.

@@ -1,0 +1,48 @@
+== Airlines and destinations ==
+
+=== Passengers ===
+{{Airport destination list
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| [[Aerus (airline)|Aerus]]| [[Monterrey International Airport|Monterrey]]
+| {{nowrap|[[American Eagle (airline brand)|American Eagle]]}} | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+| [[Viva (airline)|Viva]] | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+| [[Volaris]] | [[Cancún International Airport|Cancún]], [[Midway International Airport|Chicago–Midway]], [[Los Angeles International Airport|Los Angeles]], [[Puebla International Airport|Puebla]], [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Tijuana International Airport|Tijuana]] <br> '''Seasonal:''' [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+}}
+
+[[File:AGU-terminal.png|thumb|Passenger terminal diagram]]
+[[File:Aeropuerto Internacional de Aguascalientes 07.JPG|thumb|Passenger terminal]]
+[[File:Aeropuerto Internacional de Aguascalientes 06.JPG|thumb|Passenger terminal main hall]]
+[[File:Sala de espera del Aeropuerto de Aguascalientes 2.jpg|thumb|Departures concourse]]
+[[File:Exterior del Aeropuerto de Aguascalientes por la noche.jpg|thumb|Main entrance]]
+[[File:Aeropuerto Internacional Licenciado Jesús Terán Peredo desde la pista.jpg|thumb|Gates area]]
+[[File:Aeropuerto Internacional de Aguascalientes 03.JPG|thumb|Control tower]]
+[[File:4 Aeropuerto de Aguascalientes.jpg|thumb|General aviation apron]]
+
+===Destinations map===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+|{{Location map+ |Mexico |width=650 |float=left
+|caption=Domestic destinations from Aguascalientes International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination
+|places=
+{{Location map~ | Mexico|lat=21.7013 |long=-102.3162 |position=top|label=<div style="position:relative; top:5px;"><small>'''Aguascalientes'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=25.7778 |long=-100.1080|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.2610 |long=-099.0419|position=left|label='''[[Mexico City International Airport|{{nowrap|Mexico City–Benito Juárez}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=24.0725 |long=-110.362222|position=bottom|label='''[[La Paz International Airport|{{nowrap|La Paz}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=21.0417 |long=-86.8740|position=left|label='''[[Cancún International Airport|{{nowrap|Cancún}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=23.161389|long=-106.266111|position=top|label='''[[Mazatlán International Airport|Mazatlán]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.6805 |long=-105.2524|position=bottom|label='''[[Licenciado Gustavo Díaz Ordaz International Airport|{{nowrap|Puerto Vallarta}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.158056|long=-98.371389|position=bottom|label='''[[Puebla International Airport|Puebla]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.7566 |long=-99.0152|position=top|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City–Felipe Ángeles}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+ |United_States |width=650 |float=left
+|caption=International destinations from Aguascalientes International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal/charter destination
+|places=
+{{Location map~ |United_States |lat=32.8998|long=-97.0403|position=top|label='''[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=29.9902|long=-95.3368|position=right|label='''[[George Bush Intercontinental Airport|Houston–Intercontinental]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=33.9416|long=-118.4085|position=top|label='''[[Los Angeles International Airport|Los Angeles]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=41.4710|long=-87.4509|position=bottom|label='''[[Midway International Airport|Chicago–Midway]]'''|label_size=90 |marksize=7 }}
+}}
+|}

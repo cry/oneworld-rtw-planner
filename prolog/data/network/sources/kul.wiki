@@ -1,0 +1,190 @@
+==Airlines and destinations==
+=== Passenger ===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport destination list
+<!-- -->
+| [[9 Air]] | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Guiyang Longdongbao International Airport|Guiyang]] (resumes 4 September 2026)
+<!-- -->
+| [[Aero Dili]] | [[Presidente Nicolau Lobato International Airport|Dili]]
+<!-- -->
+| [[Air Algérie]] |[[Houari Boumediene Airport|Algiers]]
+<!-- -->
+| [[Air Arabia]] | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air China]] | [[Beijing–Capital]], [[Chengdu–Tianfu]]
+<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]]
+<!-- -->
+| [[Air Macau]] | [[Macau International Airport|Macau]] (resumes 5 September 2026)
+<!-- -->
+| [[Air Mauritius]] | [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]]
+<!-- -->
+| [[AirAsia]] | [[Ahmedabad Airport|Ahmedabad]], [[Sultan Abdul Halim Airport|Alor Setar]], [[Sri Guru Ram Dass Jee International Airport|Amritsar]], [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Sultan Iskandar Muda International Airport|Banda Aceh]], [[Brunei International Airport|Bandar Seri Begawan]], [[Bangkok–Don Mueang]], [[Syamsudin Noor Airport|Banjarmasin]], [[Hang Nadim International Airport|Batam]], [[Kempegowda International Airport|Bengaluru]], [[Bintulu Airport|Bintulu]], [[Chennai International Airport|Chennai]], [[Chiang Mai International Airport|Chiang Mai]], [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Lien Khuong Airport|Da Lat]], [[Da Nang International Airport|Da Nang]], [[Ngurah Rai International Airport|Denpasar]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Guilin Liangjiang International Airport|Guilin]], [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Jieyang Chaoshan International Airport|Jieyang]], [[Senai International Airport|Johor Bahru]], [[Kaohsiung International Airport|Kaohsiung]], [[Cochin International Airport|Kochi]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Sultan Ismail Petra Airport|Kota Bharu]], [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Krabi International Airport|Krabi]], [[Sultan Mahmud Airport|Kuala Terengganu]], [[Kuching International Airport|Kuching]], [[Kunming Changshui International Airport|Kunming]], [[Labuan Airport|Labuan]], [[Komodo International Airport|Labuan Bajo]], [[Langkawi International Airport|Langkawi]], [[Lombok International Airport|Lombok]], [[Macau International Airport|Macau]], [[Sultan Hasanuddin International Airport|Makassar]], [[Velana International Airport|Malé]], [[Ninoy Aquino International Airport|Manila]], [[Kualanamu International Airport|Medan]], [[Miri Airport|Miri]], [[Nanning Wuxu International Airport|Nanning]], [[Cam Ranh International Airport|Nha Trang]], [[Kansai International Airport|Osaka–Kansai]] (begins 27 October 2026), [[Minangkabau International Airport|Padang]], [[Sultan Mahmud Badaruddin II International Airport|Palembang]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Penang International Airport|Penang]], [[Perth Airport|Perth]], [[Phu Quoc International Airport|Phu Quoc]], [[Phuket International Airport|Phuket]], [[Supadio International Airport|Pontianak]], [[Sandakan Airport|Sandakan]], [[Jenderal Ahmad Yani International Airport|Semarang]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Sibu Airport|Sibu]], [[Sihanouk International Airport|Sihanoukville]], [[Changi Airport|Singapore]], [[Tawau Airport|Tawau]], [[Thiruvananthapuram International Airport|Thiruvananthapuram]], [[Tiruchirappalli International Airport|Tiruchirappali]], [[Wattay International Airport|Vientiane]], [[Wuhan Tianhe International Airport|Wuhan]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!-- -->
+| [[AirAsia Cambodia]] | [[Techo International Airport (Cambodia)|Phnom Penh]], [[Siem Reap–Angkor International Airport|Siem Reap]]
+<!-- -->
+| [[AirAsia X]] | [[Almaty International Airport|Almaty]], [[Beijing Daxing International Airport|Beijing–Daxing]], [[Gimhae International Airport|Busan]] (resumes 23 October 2026), [[Changsha Huanghua International Airport|Changsha]], [[Chengdu–Tianfu]], [[Chongqing Jiangbei International Airport|Chongqing]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]],{{citation needed|date=June 2026}} [[Ngurah Rai International Airport|Denpasar]], [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Istanbul–Sabiha Gökçen]], [[Jinnah International Airport|Karachi]], [[Melbourne Airport|Melbourne]], [[Osaka–Kansai]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]],{{citation needed|date=June 2026}} [[Sydney Airport|Sydney]], [[Taipei–Taoyuan]], [[Tashkent International Airport|Tashkent]], [[Xi'an Xianyang International Airport|Xi'an]] <br /> '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[New Chitose Airport|Sapporo–Chitose]]
+<!-- -->
+| [[AirBorneo]] | [[Kuching International Airport|Kuching]]
+<!-- -->
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo–Haneda]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Batik Air]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Kualanamu International Airport|Medan]], [[Juanda International Airport|Surabaya]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Bangkok–Don Mueang]], [[Hang Nadim International Airport|Batam]], [[Kempegowda International Airport|Bengaluru]], [[Bintulu Airport|Bintulu]], [[Brisbane Airport|Brisbane]], [[Changsha Huanghua International Airport|Changsha]], [[Chengdu–Tianfu]], [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Da Nang International Airport|Da Nang]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Ngurah Rai International Airport|Denpasar]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Presidente Nicolau Lobato International Airport|Dili]], [[Dubai International Airport|Dubai–International]] (resumes 25 October 2026), [[Guangzhou Baiyun International Airport|Guangzhou]], [[Haikou Meilan International Airport|Haikou]] (resumes 12 September 2026), [[Noi Bai International Airport|Hanoi]], [[Hong Kong International Airport|Hong Kong]],  [[King Abdulaziz International Airport|Jeddah]], [[Senai International Airport|Johor Bahru]], [[Jinnah International Airport|Karachi]], [[Tribhuvan International Airport|Kathmandu]], [[Cochin International Airport|Kochi]], [[Sultan Ismail Petra Airport|Kota Bharu]], [[Kuching International Airport|Kuching]], [[Kunming Changshui International Airport|Kunming]], [[Allama Iqbal International Airport|Lahore]], [[Lombok International Airport|Lombok]], [[Velana International Airport|Malé]], [[Kualanamu International Airport|Medan]], [[Melbourne Airport|Melbourne]], [[Miri Airport|Miri]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Kansai International Airport|Osaka–Kansai]], [[Minangkabau International Airport|Padang]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Phuket International Airport|Phuket]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Sibu Airport|Sibu]], [[Changi Airport|Singapore]], [[Juanda International Airport|Surabaya]], [[Sydney Airport|Sydney]], [[Taipei–Taoyuan]], [[Tashkent International Airport|Tashkent]], [[Tawau Airport|Tawau]], [[Tiruchirappalli International Airport|Tiruchirappali]], [[Tokyo–Narita]], [[Xiamen Gaoqi International Airport|Xiamen]], [[Zhengzhou Xinzheng International Airport|Zhengzhou]] <br /> '''Seasonal Charter:''' [[Dunhuang Mogao International Airport|Dunhuang]] (resumes 28 August 2026), [[Guilin Liangjiang International Airport|Guilin]] (resumes 13 October 2026), [[Guiyang Longdongbao International Airport|Guiyang]] (resumes 13 October 2026), [[Huangshan Tunxi International Airport|Huangshan]] (resumes 29 August 2026), [[Ordos Ejin Horo International Airport|Ordos]] (resumes 3 September 2026),
+<!-- -->
+| [[Biman Bangladesh Airlines]] | [[Hazrat Shahjalal International Airport|Dhaka]]
+<!-- -->
+| [[British Airways]] | [[London–Heathrow]], [[Melbourne Airport|Melbourne]] (begins 10 January 2027)
+<!-- -->
+| [[Cambodia Airways]] | [[Techo International Airport (Cambodia)|Phnom Penh]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Cebu Pacific]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[China Airlines]] | [[Taipei–Taoyuan]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Dalian Zhoushuizi International Airport|Dalian]], [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Kunming Changshui International Airport|Kunming]], [[Lanzhou Zhongchuan International Airport|Lanzhou]], [[Nanjing Lukou International Airport|Nanjing]], [[Wuhan Tianhe International Airport|Wuhan]], [[Taiyuan Wusu International Airport|Taiyuan]], [[Xi'an Xianyang International Airport|Xi'an]] <br /> '''Seasonal:''' [[Hefei Xinqiao International Airport|Hefei]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Changsha Huanghua International Airport|Changsha]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Zhengzhou Xinzheng International Airport|Zhengzhou]]
+<!-- -->
+| [[Citilink]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Drukair]] | '''Seasonal:''' [[Paro International Airport|Paro]]{{cn|date=July 2026}}
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[EVA Air]] | [[Taipei–Taoyuan]]
+<!-- -->
+| [[Firefly (airline)|Firefly]] | [[Mactan–Cebu International Airport|Cebu]], [[Senai International Airport|Johor Bahru]], [[Sultan Ismail Petra Airport|Kota Bharu]], [[Kota Kinabalu International Airport|Kota Kinabalu]],{{citation needed|date=June 2026}} [[Krabi International Airport|Krabi]], [[Sultan Mahmud Airport|Kuala Terengganu]],{{citation needed|date=June 2026}} [[Kuching International Airport|Kuching]],{{citation needed|date=June 2026}} [[Penang International Airport|Penang]], [[Changi Airport|Singapore]], [[Tawau Airport|Tawau]]{{citation needed|date=June 2026}}
+<!-- -->
+| [[FitsAir]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+| [[Garuda Indonesia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Greater Bay Airlines]] | '''Seasonal:''' [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]] (resumes 29 September 2026), [[Changi Airport|Singapore]] (begins 25 October 2026) 
+<!-- -->
+| [[Hainan Airlines]] | [[Chongqing Jiangbei International Airport|Chongqing]], [[Haikou International Airport|Haikou]], [[Qionghai Bo'ao International Airport|Qionghai]]
+<!-- -->
+| [[Himalaya Airlines]] | [[Tribhuvan International Airport|Kathmandu]]
+<!-- -->
+| [[IndiGo]] | [[Kempegowda International Airport|Bengaluru]], [[Chennai International Airport|Chennai]]
+<!-- -->
+| [[Indonesia AirAsia]] | [[Ngurah Rai International Airport|Denpasar]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Lombok International Airport|Lombok]], [[Kualanamu International Airport|Medan]], [[Juanda International Airport|Surabaya]]
+<!-- -->
+| [[Iran Airtour]] | [[Tehran–Imam Khomeini]]
+<!-- -->
+| [[Iraqi Airways]] | [[Baghdad International Airport|Baghdad]]
+<!-- -->
+| [[Japan Airlines]] | [[Tokyo–Narita]]
+<!-- -->
+| [[Jiangxi Air]] | [[Nanchang Changbei International Airport|Nanchang]]
+<!-- -->
+| [[Juneyao Air]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Wuxi Shuofang Airport|Wuxi]]
+<!-- -->
+| [[KLM]] | [[Schiphol Airport|Amsterdam]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Lion Air]] | [[Syamsudin Noor International Airport|Banjarmasin]], [[Lombok International Airport|Lombok]], [[Minangkabau International Airport|Padang]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]] (resumes 25 October 2026)
+<!-- -->
+| [[Malaysia Airlines]] | [[Adelaide Airport|Adelaide]], [[Ahmedabad Airport|Ahmedabad]], [[Sultan Abdul Halim Airport|Alor Setar]], [[Sri Guru Ram Dass Jee International Airport|Amritsar]], [[Auckland Airport|Auckland]], [[Sultan Aji Muhammad Sulaiman Sepinggan Airport|Balikpapan]], [[Bangkok–Suvarnabhumi]], [[Beijing Daxing International Airport|Beijing–Daxing]], [[Kempegowda International Airport|Bengaluru]], [[Bintulu Airport|Bintulu]], [[Brisbane Airport|Brisbane]], [[Changsha Huanghua International Airport|Changsha]], [[Chengdu–Tianfu]], [[Chennai International Airport|Chennai]], [[Chiang Mai International Airport|Chiang Mai]], [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Da Nang International Airport|Da Nang]], [[Indira Gandhi International Airport|Delhi]], [[Ngurah Rai International Airport|Denpasar]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Hamad International Airport|Doha]], [[Fukuoka Airport|Fukuoka]] (resumes 2 September 2026), [[Guangzhou Baiyun International Airport|Guangzhou]], [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[King Abdulaziz International Airport|Jeddah]], [[Senai International Airport|Johor Bahru]], [[Tribhuvan International Airport|Kathmandu]], [[Cochin International Airport|Kochi]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]], [[Sultan Ismail Petra Airport|Kota Bharu]], [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Sultan Mahmud Airport|Kuala Terengganu]], [[Sultan Ahmad Shah Airport|Kuantan]], [[Kuching International Airport|Kuching]], [[Labuan Airport|Labuan]], [[Langkawi International Airport|Langkawi]], [[Heathrow Airport|London–Heathrow]], [[Sultan Hasanuddin International Airport|Makassar]], [[Velana International Airport|Malé]], [[Ninoy Aquino International Airport|Manila]] [[Kualanamu International Airport|Medan]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Melbourne Airport|Melbourne]], [[Miri Airport|Miri]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Kansai International Airport|Osaka–Kansai]], [[Paris–Charles de Gaulle]], [[Sultan Syarif Kasim II International Airport|Pekanbaru]], [[Penang International Airport|Penang]], [[Perth Airport|Perth]], [[Techo International Airport (Cambodia)|Phnom Penh]], [[Phuket International Airport|Phuket]], [[Sandakan Airport|Sandakan]], [[Incheon International Airport|Seoul–Incheon]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Sibu Airport|Sibu]], [[Changi Airport|Singapore]], [[Juanda International Airport|Surabaya]], [[Sydney Airport|Sydney]], [[Taipei–Taoyuan]], [[Tawau Airport|Tawau]], [[Thiruvananthapuram International Airport|Thiruvananthapuram]], [[Narita International Airport|Tokyo–Narita]], [[Xiamen Gaoqi International Airport|Xiamen]], [[Yangon International Airport|Yangon]], [[Yogyakarta International Airport|Yogyakarta–International]]
+<!-- -->
+| [[Maldivian (airline)|Maldivian]] | '''Seasonal:''' [[Velana International Airport|Malé]]
+<!-- -->
+| {{nowrap|[[Myanmar Airways International]]}} | [[Yangon International Airport|Yangon]]
+<!-- -->
+| [[Nepal Airlines]] | [[Tribhuvan International Airport|Kathmandu]]
+<!-- -->
+| [[Oman Air]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| {{nowrap|[[Pakistan International Airlines]]}} | [[Islamabad International Airport|Islamabad]]
+<!-- -->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Philippines AirAsia]] | [[Mactan–Cebu International Airport|Cebu]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Qingdao Airlines]] | [[Qingdao Jiaodong International Airport|Qingdao]]
+<!-- -->
+| [[Riyadh Air]] | [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Royal Brunei Airlines]] | [[Brunei International Airport|Bandar Seri Begawan]]
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Shandong Airlines]] | [[Jinan Yaoqiang International Airport|Jinan]]
+<!-- -->
+| [[Shanghai Airlines]] | [[Changchun Longjia International Airport|Changchun]], [[Fuzhou Changle International Airport|Fuzhou]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Shenzhen Airlines]] | [[Shenzhen Baoan International Airport|Shenzhen]]
+<!-- -->
+| [[Sichuan Airlines]] | [[Chengdu–Tianfu]],  [[Chongqing Jiangbei International Airport|Chongqing]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Sky Angkor Airlines]] | [[Sihanouk International Airport|Sihanoukville]]
+<!-- -->
+| [[Spring Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[SriLankan Airlines]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+| [[Starlux Airlines]] | [[Taipei–Taoyuan]]
+<!-- -->
+| [[Sun PhuQuoc Airways]] | [[Phu Quoc International Airport|Phu Quoc]] (begins 1 September 2026)
+<!-- -->
+| [[Super Air Jet]] | [[Sultan Iskandar Muda International Airport|Banda Aceh]]
+<!-- -->
+| [[Thai AirAsia]] | [[Bangkok–Don Mueang]] (resumes 25 October 2026), [[Hat Yai International Airport|Hat Yai]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai VietJet Air]] | [[Bangkok–Suvarnabhumi]] (begins 9 October 2026)
+<!-- -->
+| [[TransNusa]] | [[Radin Inten II Airport|Bandar Lampung]] (begins 24 August 2026), [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Turkmenistan Airlines]] | [[Ashgabat International Airport|Ashgabat]]
+<!-- -->
+| [[US-Bangla Airlines]] | [[Hazrat Shahjalal International Airport|Dhaka]]
+<!-- -->
+| [[Uzbekistan Airways]] | [[Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[VietJet Air]] | [[Da Nang International Airport|Da Nang]], [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Vietnam Airlines]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[XiamenAir]] | [[Chongqing Jiangbei International Airport|Chongqing]] (resumes 27 August 2026),  [[Fuzhou Changle International Airport|Fuzhou]], [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Nanjing Lukou International Airport|Nanjing]], [[Quanzhou Jinjiang International Airport|Quanzhou]], [[Xiamen Gaoqi International Airport|Xiamen]] <br /> '''Seasonal:''' [[Changsha Huanghua International Airport|Changsha]] (resumes 24 September 2026)  
+<!-- -->
+| [[Zipair Tokyo]] | [[Narita International Airport|Tokyo–Narita]] (begins {{date|2026-10-20}}) 
+}}
+
+=== Cargo ===
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[Cargolux]]}} | [[Zhengzhou Xinzheng International Airport|Zhengzhou]]{{citation needed|date=June 2026}}
+<!-- -->
+| {{nowrap|[[JD Logistics|Jingdong Airlines]]}} | [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| {{nowrap|[[MASkargo]]}} | [[Adelaide Airport|Adelaide]],{{citation needed|date=June 2026}} [[Amsterdam Airport Schiphol|Amsterdam]], [[Bangkok–Suvarnabhumi]],{{citation needed|date=June 2026}} [[Chongqing Jiangbei International Airport|Chongqing]],{{citation needed|date=June 2026}} [[Indira Gandhi International Airport|Delhi]],{{citation needed|date=June 2026}} [[Guangzhou Baiyun International Airport|Guangzhou]],{{citation needed|date=June 2026}} [[Labuan Airport|Labuan]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Raya Airways]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| Teleport <br /> operated by [[AirAsia]] | [[Kuching International Airport|Kuching]]{{citation needed|date=June 2026}}
+<!-- -->
+| {{nowrap|[[UPS Airlines]]}} | [[Penang International Airport|Penang]]{{citation needed|date=June 2026}}
+<!-- -->
+}}

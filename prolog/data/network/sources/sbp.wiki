@@ -1,0 +1,54 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+| [[Alaska Airlines]] | [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] | 
+<!-- -->
+| [[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]] <br>'''Seasonal:''' [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] |
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] |
+<!-- -->
+| [[United Airlines]] | [[Denver International Airport|Denver]], [[San Francisco International Airport|San Francisco]]|
+<!-- -->
+| [[United Express]] | [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]] |
+}}
+
+===Cargo===
+{{Airport destination list 
+| [[Ameriflight]] | [[Hollywood Burbank Airport|Burbank]], [[Santa Barbara Municipal Airport|Santa Barbara]]
+| [[FedEx Feeder]]<br> operated by [[West Air (United States)|West Air]] | [[Ontario International Airport|Ontario]]
+}}
+
+* [[Ameriflight]] for [[United Parcel Service|UPS]]
+* [[West Air (United States)|West Air Inc.]] for [[FedEx Express]]
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from San Luis Obispo County Regional Airport  <br /> {{font color | red | Red}} = Year-round destination<br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=35.2375|long=-120.6409|position=top|label='''<small>San Luis Obispo</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=47.450165|long=-122.309176 |position=under |label='''<small>[[Seattle–Tacoma International Airport|Seattle/Tacoma]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=33.941381|long=-118.408619|position=left|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=33.434167|long=-112.011667|position=right|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=right|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=37.620811|long=-122.380049|position=top|label='''<small>[[San Francisco International Airport|San Francisco]]
+</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=45.588611|long=-122.5975|position=right|label='''<small>[[Portland International Airport|Portland (OR)]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=32.733611|long=-117.189722|position=right|label='''<small>[[San Diego International Airport|San Diego]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=36.086010 |long=-115.153969 |position=right |label='''<small>[[Las Vegas International Airport|Las Vegas]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}
+
+On July 17, 2013, [[US Airways Express]] operated by [[Mesa Airlines]] resumed Bombardier Canadair Regional Jet 900 ([[CRJ-900]]) nonstop service to San Luis Obispo from Phoenix. [[US Airways]] was then merged into [[American Airlines]] and these nonstop flights are now operated by American Airlines mainline jets in addition to [[American Eagle (airline brand)|American Eagle]] regional jets flown by both [[Envoy Air]] and [[SkyWest Airlines]].
+
+On April 7, 2015, [[SkyWest Airlines]] operating as [[United Express]] began flying [[Canadair CRJ-200]]s on all flights to Los Angeles and San Francisco, replacing [[Embraer EMB-120 Brasilia]]s as they moved the type into retirement, so all scheduled passenger airline flights at San Luis Obispo are now operated with regional jets for the first time.{{full citation needed|date=April 2016}} The daily flights to Denver, as well as two of the flights to Los Angeles and one flight to San Francisco, are operated with the [[Embraer 175]] regional jet.
+
+[[Alaska Airlines]] announced new nonstop service between Seattle and San Luis Obispo which began on April 13, 2017, and was originally flown by [[SkyWest Airlines]] with [[Embraer 175]]s. Alaska Airlines subsidiary [[Horizon Air]] took over this [[code share]] service on June 9, 2017. On June 17, 2021, the airline launched nonstop flights to [[San Diego]] and [[Portland, Oregon]].  Alaska Airlines currently operates mainline [[Boeing 737-800]] jetliners nonstop between San Luis Obispo and Seattle.
+
+Delta briefly operated a CRJ-200 between San Luis Obispo and [[Salt Lake City International Airport]] between 2007 and 2008, until shelving the flights due to the national recession.
+
+[[American Airlines]] is currently operating mainline [[Boeing 737-800]] jetliners on nonstop service between San Luis Obispo and its hub in [[Dallas]]/[[Fort Worth]] while both American and its affiliate [[American Eagle (airline brand)|American Eagle]] operate nonstop services between the airport and [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] with mainline service being flown with [[Airbus A319]] jets and American Eagle flights being operated by both [[Envoy Air]] with [[Embraer 175]] regional jets and [[SkyWest Airlines]] with [[Canadair CRJ-700]] regional jets.

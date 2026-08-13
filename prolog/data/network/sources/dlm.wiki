@@ -1,0 +1,71 @@
+==Airlines and destinations==
+{{Airport-dest-list
+<!-- WHEN ADDING NEW DESTINATIONS OR END DATES FOR DESTINATIONS, PLEASE PROVIDE AN INDEPENDENT REFERENCE. ANY UNREFERENCED CONTENT WILL BE REMOVED, THANK YOU. -->
+| [[Aeroflot]] | '''Seasonal:''' [[Sheremetyevo International Airport|Moscow–Sheremetyevo]]
+<!-- -->
+| [[Aer Lingus]] | '''Seasonal:''' [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Air Serbia]] | '''Seasonal charter:''' [[Belgrade Nikola Tesla Airport|Belgrade]]
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]], [[Sabiha Gokcen International Airport|Istanbul–Sabiha Gökçen]] <br />'''Seasonal:''' [[Amman Airport|Amman]],{{cn|date=March 2025}} [[Beirut–Rafic Hariri International Airport|Beirut]], [[Vienna International Airport|Vienna]]{{Better source needed|date=December 2025}}
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal charter:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Azerbaijan Airlines]] | '''Seasonal:''' [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[Belavia]] | '''Seasonal charter:''' [[Minsk National Airport|Minsk]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Corendon Airlines]] | '''Seasonal:''' [[Cologne Bonn Airport|Cologne/Bonn]]
+<!-- -->
+| {{nowrap|[[Corendon Dutch Airlines]]}} | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]],{{cn|date=March 2025}} [[Groningen Airport Eelde|Groningen]]
+<!-- -->
+| [[easyJet]] | [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]] <br /> '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]], [[Liverpool John Lennon Airport|Liverpool]], [[Luton Airport|London–Luton]], [[London Southend Airport|London–Southend]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Enter Air]] | '''Seasonal charter:''' [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Katowice Airport|Katowice]], [[Poznań–Ławica Airport|Poznań]], [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| {{nowrap|[[European Air Charter (Bulgarian airline)|European Air Charter]]}} | '''Seasonal charter:''' [[Vasil Levski Sofia Airport|Sofia]]
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]{{cn|date=March 2025}}
+<!-- -->
+| [[GetJet Airlines]] | '''Seasonal charter:''' [[Vilnius Airport|Vilnius]]
+<!-- -->
+| [[Pegas Fly|Ikar]] | '''Seasonal charter:''' [[Syktyvkar Airport|Syktyvkar]]
+<!-- -->
+| [[IrAero]] | '''Seasonal:''' [[Sochi International Airport|Sochi]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal charter:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]{{cn|date=March 2025}}
+<!-- -->
+| [[Pegasus Airlines]] | [[Çukurova International Airport|Adana/Mersin]], [[Ankara Esenboğa Airport|Ankara]], [[Sabiha Gokcen International Airport|Istanbul–Sabiha Gökçen]] <br />'''Seasonal:''' [[Beirut Airport|Beirut]]
+<!-- -->
+| [[Ryanair]] | [[Bratislava Airport|Bratislava]], [[London Stansted Airport|London–Stansted]] <br /> '''Seasonal:''' [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Rossiya Airlines]] | [[Sochi International Airport|Sochi]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal charter:''' [[Bratislava Airport|Bratislava]],{{cn|date=March 2025}}, [[Budapest Ferenc Liszt International Airport|Budapest]], [[Gdańsk Lech Wałęsa Airport|Gdansk]], [[Katowice Airport|Katowice]], [[Václav Havel Airport Prague|Prague]],{{cn|date=March 2025}} [[Warsaw Chopin Airport|Warsaw–Chopin]], [[Copernicus Airport Wrocław|Wrocław]]
+<!-- -->
+| [[Southwind Airlines]] | '''Seasonal charter:''' [[Sheremetyevo International Airport|Moscow–Sheremetyevo]]
+<!-- -->
+| [[SunExpress]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]], [[Birmingham Airport|Birmingham]], [[Brussels Airport|Brussels]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Düsseldorf Airport|Düsseldorf]], [[Edinburgh Airport|Edinburgh]], [[Frankfurt Airport|Frankfurt]], [[Glasgow Airport|Glasgow]], [[Hamburg Airport|Hamburg]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]], [[Munich Airport|Munich]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Nuremberg Airport|Nuremberg]]{{cn|date=March 2025}} [[Stuttgart Airport|Stuttgart]], [[Vienna International Airport|Vienna]], [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]{{cn|date=March 2025}}
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Aberdeen Airport|Aberdeen]], [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[Cardiff Airport|Cardiff]], [[East Midlands Airport|East Midlands]], [[Exeter Airport|Exeter]], [[Glasgow Airport|Glasgow]],{{cn|date=March 2025}} [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Norwich Airport|Norwich]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[TUI fly Deutschland]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]], [[Hannover Airport|Hannover]], [[Munich Airport|Munich]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| {{nowrap|[[TUI fly Netherlands]]}} | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] <br /> '''Seasonal charter:''' [[Vnukovo International Airport|Moscow-Vnukovo]], [[Pulkovo Airport|Saint Petersburg]]
+<!-- -->
+| [[Wizz Air]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]]<!-- -->
+}}

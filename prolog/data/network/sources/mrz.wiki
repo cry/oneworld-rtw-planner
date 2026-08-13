@@ -1,0 +1,73 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list
+| [[QantasLink]] | [[Sydney Airport|Sydney]]
+}}
+
+The Moree-Sydney route is one of 14 within New South Wales regulated by the [[New South Wales Government|state government]]. Prior to 30 March 2013, the route had been served by up to 20 weekly [[QantasLink]] flights, using [[Bombardier Dash 8]] turboprop airliners. Controversially, this ended with the awarding of the licence to [[Brindabella Airlines]] on behalf of [[Transport New South Wales]] following a [[Request for tender|tender]] process. The move was met by considerable opposition within the Moree community, with concerns being raised about a lack of consultation, reduced baggage allowance, loss of frequent flyer program benefits as well as smaller aircraft operating the route and less operational flexibility in the event of delays or cancellations. Prior to 27 January 2012, Brindabella Airlines operated weekday services to Brisbane, but these flights ceased after the company reviewed services to the region following a merger with [[Aeropelican]], a move which damaged the airline's reputation in the local community. In December 2013, concerns relating to overdue maintenance on some of its aircraft led to the [[Civil Aviation Safety Authority]] grounding Brindabella Airlines. The airline was subsequently put into receivership and ceased operations, with the Sydney-Moree route licence returning to QantasLink.
+
+In July 2016, [[Fly Corporate]] announced that it would begin services between Moree and Brisbane from August 2016 using [[Fairchild Swearingen Metroliner|Fairchild Metro]] aircraft. The airline withdrew from the route in March 2019.
+
+{{Col-begin|width=100% style="display: inline;"}}
+{{Col-1-of-2}}
+{|class="wikitable sortable" style="font-size: 100%;" width= align=
+|+ Annual passenger statistics between Sydney and Moree
+! Year || Passenger numbers
+|-
+! 2007–08
+| 25,641
+|-
+! 2008–09
+| 25,625
+|-
+! 2009–10
+| 26,976
+|-
+! 2010–11
+| 28,047
+|}
+{{Col-2-of-2}}
+{{Bar graph
+| title = Annual passenger and aircraft statistics for Moree Airport
+| bar_width = 19
+| width_units = em
+| label_type = Year
+| label1 = 2001–02
+| label2 = 2002–03
+| label3 = 2003–04
+| label4 = 2004–05
+| label5 = 2005–06
+| label6 = 2006–07
+| label7 = 2007–08
+| label8 = 2008–09
+| label9 = 2009–10
+| label10 = 2010–11
+| label11 = 2011–12
+| data_type = Revenue passengers
+| data_max = 34,000
+| data1 = 19,507
+| data2 = 18,594
+| data3 = 20,413
+| data4 = 21,983
+| data5 = 20,959
+| data6 = 21,774
+| data7 = 29,686
+| data8 = 26,728
+| data9 = 26,978
+| data10 = 32,233
+| data11 = 28,243
+| col2_data_type = Aircraft movements (Regular Public Transport operations only)
+| col2_data_max = 1,700
+| col2_data1 = 1,556
+| col2_data2 = 1,383
+| col2_data3 = 1,382
+| col2_data4 = 1,388
+| col2_data5 = 1,336
+| col2_data6 = 1,312
+| col2_data7 = 1,354
+| col2_data8 = 1,278
+| col2_data9 = 1,035
+| col2_data10 = 1,548
+| col2_data11 = 1,219
+}}
+{{Col-end}}

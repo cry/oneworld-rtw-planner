@@ -1,0 +1,56 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] '''Seasonal:'''  [[O’Hare International Airport|Chicago–O'Hare]] (begins December 19, 2026) 
+<!-- -->
+| [[Delta Air Lines]] | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] 
+<!-- -->
+| [[Southwest Airlines]] | [[Austin–Bergstrom International Airport|Austin]], [[Dallas Love Field|Dallas–Love]], [[William P. Hobby Airport|Houston–Hobby]]
+<!-- -->
+| [[Sun Country Airlines]] | '''Seasonal:''' [[Cancún International Airport|Cancún]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] 
+<!-- -->
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Domestic destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Domestic destinations from Valley International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=26.227222 |long=-97.655 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Harlingen'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=30.221078|long=-97.659881|position=left |label='''<small>[[Austin–Bergstrom International Airport|Austin]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States | mark = Blue pog.svg |lat=41.881832 |long=-87.623177 |position=left |label='''<small>[[O’Hare International Airport|Chicago O'Hare]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.847978|long=-96.851250 |position=right|label='''<small>[[Dallas Love Airport|Dallas–Love]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=29.654751|long=-95.279002|position=left|label='''<small>[[William P. Hobby Airport|Houston–Hobby]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=29.990140|long=-95.336792 |position=right|label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |mark = Green pog.svg |lat=44.884690|long=-93.222430|position=left|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]</small>'''|label_size=80 |marksize=7 }}
+
+}}
+|}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+! International destinations map
+|-
+|{{Location map+ |Mexico |width=1000 |float=center
+|caption=International destinations from Valley International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |Mexico |lat=26.227222 |long=-97.655 |position=right |label=<div style="position:relative; top:-5px;"><small>'''Harlingen'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |Mexico | mark = Green pog.svg |lat=21.036667|long=-86.876944|position=left|label='''<small>[[Cancún International Airport|Cancún]]</small>''' |label_size=80 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Airport destination list 
+<!-- -->
+| [[DHL Aviation]] 
+| [[Cincinnati/Northern Kentucky International Airport|Cincinnati]]
+<!-- -->
+| [[FedEx Express]] 
+| [[Memphis International Airport|Memphis]] 
+<!-- -->
+}}
+*

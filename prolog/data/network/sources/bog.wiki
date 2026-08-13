@@ -1,0 +1,155 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+The following airlines operate regular scheduled and charter flights at the airport.
+
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Aerolíneas Argentinas]]}} | [[Aeroparque Jorge Newbery|Buenos Aires-Aeroparque]]
+<!-- -->
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Air Canada]] | [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Air Europa]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]]
+<!-- -->
+| [[Arajet]] | [[Punta Cana International Airport|Punta Cana]], [[Las Américas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+| [[Avianca]] | [[Santiago Pérez Quiroz Airport|Arauca]], [[El Edén International Airport|Armenia]], [[Queen Beatrix International Airport|Aruba]], [[Silvio Pettirossi International Airport|Asunción]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Yariguíes Airport|Barrancabermeja]], [[Ernesto Cortissoz International Airport|Barranquilla]], [[Belém/Val-de-Cans International Airport|Belém]], [[Logan International Airport|Boston]], [[Palonegro International Airport|Bucaramanga]], [[Aeroparque Jorge Newbery|Buenos Aires-Aeroparque]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Cancún International Airport|Cancún]], [[Simón Bolívar International Airport (Venezuela)|Caracas]], [[Rafael Núñez International Airport|Cartagena]], [[O'Hare International Airport|Chicago–O'Hare]], [[Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport|Córdoba (AR)]], [[Camilo Daza International Airport|Cúcuta]],  [[Alejandro Velasco Astete International Airport|Cusco]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Gustavo Artunduaga Paredes Airport|Florencia]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Cheddi Jagan International Airport|Georgetown–Cheddi Jagan]], [[La Aurora International Airport|Guatemala City]], [[José Joaquín de Olmedo International Airport|Guayaquil]], [[San Luis Airport (Colombia)|Ipiales]], [[El Alto International Airport|La Paz]], [[Alfredo Vásquez Cobo International Airport|Leticia]], [[Jorge Chávez International Airport|Lima]], [[Heathrow Airport|London–Heathrow]], [[Madrid–Barajas Airport|Madrid]], [[Eduardo Gomes International Airport|Manaus]], [[La Chinita International Airport|Maracaibo]] (begins August 28, 2026), [[José María Córdova International Airport|Medellín–JMC]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Miami International Airport|Miami]], [[Los Garzones Airport|Montería]], [[Monterrey International Airport|Monterrey]], [[Carrasco International Airport|Montevideo]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Benito Salas Airport|Neiva]], [[John F. Kennedy International Airport|New York–JFK]], [[Orlando International Airport|Orlando]], [[Tocumen International Airport|Panama City–Tocumen]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Antonio Nariño Airport|Pasto]], [[Matecaña International Airport|Pereira]], [[Guillermo León Valencia Airport|Popayán]], [[Punta Cana International Airport|Punta Cana]], [[El Caraño Airport|Quibdó]], [[Mariscal Sucre International Airport|Quito]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[Almirante Padilla Airport|Riohacha]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]], [[Juan Santamaría International Airport|San José (CR)]], [[Luis Muñoz Marín International Airport|San Juan]], [[El Salvador International Airport|San Salvador]], [[Viru Viru International Airport|Santa Cruz de la Sierra–Viru Viru]], [[Simón Bolívar International Airport (Colombia)|Santa Marta]], [[Arturo Merino Benítez International Airport|Santiago de Chile]], [[Las Américas International Airport|Santo Domingo–Las Américas]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Las Brujas Airport (Colombia)|Sincelejo]], [[Tampa International Airport|Tampa]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Arturo Michelena International Airport|Valencia (VE)]], [[Alfonso López Pumarejo Airport|Valledupar]], [[La Vanguardia Airport|Villavicencio]], [[Dulles International Airport|Washington–Dulles]], [[Hato International Airport|Willemstad]], [[El Alcaraván Airport|Yopal]]
+<!-- -->
+| [[Avianca Costa Rica]] | [[Juan Santamaría International Airport|San José (CR)]]
+<!-- -->
+| [[Avianca Ecuador]] | [[Queen Beatrix International Airport|Aruba]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[José Joaquín de Olmedo International Airport|Guayaquil]], [[Tocumen International Airport|Panama City–Tocumen]], [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+| [[Avianca El Salvador]] | [[El Salvador International Airport|San Salvador]]
+<!-- -->
+| [[Avianca Express]] | [[El Edén International Airport|Armenia]], [[Yariguíes Airport|Barrancabermeja]],  [[Gustavo Artunduaga Paredes Airport|Florencia]], [[Perales Airport|Ibagué]], [[Benito Salas Airport|Neiva]], [[Guillermo León Valencia Airport|Popayán]], [[La Vanguardia Airport|Villavicencio]], [[El Alcaraván Airport|Yopal]]
+<!-- -->
+| [[Avianca Guatemala]] | [[La Aurora International Airport|Guatemala City]]
+<!-- -->
+| [[Avior Airlines]] | [[General José Antonio Anzoátegui International Airport|Barcelona (VE)]], [[Simón Bolívar International Airport (Venezuela)|Caracas]]
+<!-- -->
+| [[Clic (airline)|Clic]] | [[Santiago Pérez Quiroz Airport|Arauca]], [[El Edén International Airport|Armenia]], [[Yariguíes Airport|Barrancabermeja]], [[Palonegro International Airport|Bucaramanga]], [[Gerardo Tobar López Airport|Buenaventura]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Rafael Núñez International Airport|Cartagena]], [[Camilo Daza International Airport|Cúcuta]], [[Gustavo Artunduaga Paredes Airport|Florencia]], [[La Macarena Airport|La Macarena]], [[La Nubia Airport|Manizales]], [[Enrique Olaya Herrera Airport|Medellín–Olaya Herrera]], [[Benito Salas Airport|Neiva]], [[Matecaña International Airport|Pereira]] (begins 16 September 2026), [[Contador Airport|Pitalito]], [[Guillermo León Valencia Airport|Popayán]], [[Tres de Mayo Airport|Puerto Asís]], [[César Gaviria Trujillo Airport|Puerto Inírida]], [[El Caraño Airport|Quibdó]], [[Jorge Enrique González Torres Airport|San José del Guaviare]], [[La Florida Airport (Colombia)|Tumaco]], [[El Alcaraván Airport|Yopal]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]{{ref|1|1}}
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]], [[Miami International Airport|Miami]]
+<!-- -->
+| [[Gol Linhas Aéreas Inteligentes|Gol Linhas Aéreas]] | [[Brasília International Airport|Brasília]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[JetSmart|JetSmart Chile]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[JetSmart|JetSmart Colombia]] | [[Ernesto Cortissoz International Airport|Barranquilla]], [[Palonegro International Airport|Bucaramanga]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Rafael Núñez International Airport|Cartagena]], [[Camilo Daza International Airport|Cúcuta]],  [[José María Córdova International Airport|Medellín–JMC]], [[Los Garzones Airport|Montería]], [[Matecaña International Airport|Pereira]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]], [[Simón Bolívar International Airport (Colombia)|Santa Marta]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]{{ref|2|2}} <!-- Do not add Cartagena as KLM does not have local traffic rights from Bogota to Cartagena. -->
+<!-- -->
+| [[LASER Airlines]] | [[General José Antonio Anzoátegui International Airport|Barcelona (VE)]], [[Simón Bolívar International Airport (Venezuela)|Caracas]]
+<!-- -->
+| [[LATAM Brasil]] | [[Guarulhos International Airport|São Paulo–Guarulhos]] (resumes October 25, 2026)
+<!-- -->
+| [[LATAM Chile]] | [[Miami International Airport|Miami]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[LATAM Colombia]] | [[El Edén International Airport|Armenia]], [[Ernesto Cortissoz International Airport|Barranquilla]], [[Palonegro International Airport|Bucaramanga]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Simón Bolívar International Airport (Venezuela)|Caracas]], [[Rafael Núñez International Airport|Cartagena]], [[Camilo Daza International Airport|Cúcuta]], [[Perales Airport|Ibagué]], [[Alfredo Vásquez Cobo International Airport|Leticia]], [[Jorge Chávez International Airport|Lima]], [[José María Córdova International Airport|Medellín–JMC]], [[Miami International Airport|Miami]], [[Los Garzones Airport|Montería]], [[Benito Salas Airport|Neiva]], [[Orlando International Airport|Orlando]],  [[Antonio Nariño Airport|Pasto]], [[Matecaña International Airport|Pereira]], [[Mariscal Sucre International Airport|Quito]], [[Almirante Padilla Airport|Riohacha]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]], [[Simón Bolívar International Airport (Colombia)|Santa Marta]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[El Alcaraván Airport|Yopal]] <br>'''Seasonal:''' [[Queen Beatrix International Airport|Aruba]], [[General José Antonio Anzoátegui International Airport|Barcelona (VE)]], [[Curaçao International Airport|Willemstad]]
+<!-- -->
+| [[LATAM Ecuador]] | [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+| [[LATAM Perú]] | [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+|[[Qatar Airways]] | [[Hamad International Airport|Doha]] (begins 2 September 2026){{ref|4|4}} <!-- It does have a flight BOG-CCS one way only.  -->
+<!-- -->
+| [[RUTACA Airlines]] | [[Simón Bolívar International Airport (Venezuela)|Caracas]]
+<!-- -->
+| [[SATENA]] | [[Hacaritama Airport|Aguachica]], [[Antonio Roldán Betancourt Airport|Apartadó]], [[Santiago Pérez Quiroz Airport|Arauca]], [[Gerardo Tobar López Airport|Buenaventura]], [[Gustavo Artunduaga Paredes Airport|Florencia]], [[Santiago Vila Airport|Girardot]], [[San Luis Airport (Colombia)|Ipiales]], [[La Macarena Airport|La Macarena]], [[Enrique Olaya Herrera Airport|Medellín–Olaya Herrera]], [[Fabio Alberto León Bentley Airport|Mitú]], [[Juan José Rondón Airport|Paipa]], [[Contador Airport|Pitalito]], [[Tres de Mayo Airport|Puerto Asís]], [[Germán Olano Airport|Puerto Carreño]], [[César Gaviria Trujillo Airport|Puerto Inírida]], [[Caucayá Airport|Puerto Leguízamo]],[[El Caraño Airport|Quibdó]], [[Jorge Enrique González Torres Airport|San José del Guaviare]], [[Eduardo Falla Solano Airport|San Vicente del Caguan]], [[Los Colonizadores Airport|Saravena]], [[Las Brujas Airport (Colombia)|Sincelejo]], [[Gabriel Vargas Santos Airport|Tame]], [[Golfo de Morrosquillo Airport|Tolú]], [[La Florida Airport (Colombia)|Tumaco]], [[Arturo Michelena International Airport|Valencia (VE)]], [[Villa Garzon Airport|Villagarzon]], [[La Vanguardia Airport|Villavicencio]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]{{ref|3|3}} <!-- It does have a flight BOG-PTY one way only.  -->
+<!-- -->
+| {{nowrap|[[Turpial Airlines]]}} | [[Simón Bolívar International Airport (Venezuela)|Caracas]], [[Arturo Michelena International Airport|Valencia (VE)]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[Viva (airline)|Viva]] | [[Cancún International Airport|Cancún]], [[Guadalajara International Airport|Guadalajara]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]]
+<!-- -->
+| [[Volaris]] | [[Guadalajara International Airport|Guadalajara]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+| [[Wingo (airline)|Wingo]] | [[El Edén International Airport|Armenia]], [[Queen Beatrix International Airport|Aruba]], [[Ernesto Cortissoz International Airport|Barranquilla]], [[Palonegro International Airport|Bucaramanga]],  [[Alfonso Bonilla Aragón International Airport|Cali]], [[Cancún International Airport|Cancún]], [[Simón Bolívar International Airport (Venezuela)|Caracas]], [[Rafael Núñez International Airport|Cartagena]], [[La Aurora International Airport|Guatemala City]], [[José Martí International Airport|Havana]], [[José María Córdova International Airport|Medellín–JMC]], [[Panamá Pacífico International Airport|Panama City–Balboa]], [[Tocumen International Airport|Panama City–Tocumen]], [[Matecaña International Airport|Pereira]], [[Punta Cana International Airport|Punta Cana]], [[Scarlett Martínez International Airport|Río Hato]] (begins October 5, 2026), [[Simón Bolívar International Airport (Colombia)|Santa Marta]], [[Las Américas International Airport|Santo Domingo–Las Américas]], [[Arturo Michelena International Airport|Valencia (VE)]]<br>'''Seasonal:''' [[Curaçao International Airport|Curaçao]], [[Sangster International Airport|Montego Bay]], [[Santiago Mariño Caribbean International Airport|Porlamar]]
+<!-- -->
+}}
+
+'''Notes''':
+* <small>{{note|1|1}} [[Edelweiss Air]]'s flight from Bogotá to Zurich makes a stop in Cartagena. However, the airline does not have [[Freedoms of the air#Eighth freedom (consecutive cabotage)|eighth freedom]] traffic rights to transport passengers solely between Bogotá and Cartagena.</small>{{independent source needed|date=February 2026}}
+* <small>{{note|2|2}} [[KLM]]'s flight from Bogotá to Amsterdam makes a stop in Cartagena. However, the airline does not have eighth freedom traffic rights to transport passengers solely between Bogotá and Cartagena.</small>{{independent source needed|date=February 2026}}
+* <small>{{note|3|3}} [[Turkish Airlines]]' flight from Bogotá to Istanbul makes a stop in Panama City. However, the airline does not have traffic rights to transport passengers solely between Bogotá and Panama City.</small>{{independent source needed|date=February 2026}}
+* <small>{{note|4|4}} [[Qatar Airways]]' flight from Bogotá to Doha will make a stop in Caracas. However, the airline will not have traffic rights to transport passengers solely between Bogotá and Caracas.</small>{{independent source needed|date=May 2026}}
+
+[[File:MapChart Map.png|thumb|center|500px|Bogotá El Dorado International Airport international passenger destinations]]
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[21 Air]]}} | [[Miami International Airport|Miami]]
+<!-- -->
+| [[ABX Air]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[AerCaribe]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Aerosucre]] | [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+| [[AeroUnion]] | [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Miami International Airport|Miami]]
+<!-- -->
+| [[Air Canada Cargo]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Miami International Airport|Miami]], [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| [[Amerijet International]] | [[Miami International Airport|Miami]], [[Piarco International Airport|Port of Spain]]
+<!-- -->
+| [[Atlas Air]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Avianca Cargo]] | [[Silvio Pettirossi International Airport|Asunción]], [[Simón Bolívar International Airport (Venezuela)|Caracas]], [[Viracopos International Airport|Campinas]], [[Afonso Pena International Airport|Curitiba]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Jorge Chávez International Airport|Lima]], [[José María Córdova International Airport|Medellín–JMC]], [[Miami International Airport|Miami]], [[Carrasco International Airport|Montevideo]], [[Mariscal Sucre International Airport|Quito]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[Cargojet]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Cargolux]] | [[Rafael Hernández International Airport|Aguadilla]], [[Cotopaxi International Airport|Latacunga]], [[Luxembourg Airport|Luxembourg]], [[Mariscal Sucre International Airport|Quito]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[Copa Airlines|Copa Airlines Cargo]] | [[Simón Bolívar International Airport (Venezuela)|Caracas]], [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[DHL Aero Expreso]] | [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Miami International Airport|Miami]], [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Emirates SkyCargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+| [[Ethiopian Airlines Cargo]] | [[Addis Ababa Bole International Airport|Addis Ababa]], [[Liège Airport|Liège]], [[Mexico City International Airport|Mexico City]], [[Miami International Airport|Miami]], [[Mariscal Sucre International Airport|Quito]], [[Zaragoza Airport|Zaragoza]]
+<!-- -->
+| [[FedEx Express]] | [[Memphis International Airport|Memphis]], [[Miami International Airport|Miami]]
+<!-- -->
+| [[Korean Air Cargo]] | [[Incheon International Airport|Seoul–Incheon]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[LATAM Cargo Brasil]] | [[Fortaleza Airport|Fortaleza]], [[José Joaquín de Olmedo International Airport|Guayaquil]], [[Eduardo Gomes International Airport|Manaus]], [[Miami International Airport|Miami]], [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+| [[LATAM Cargo Chile]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[LATAM Cargo Colombia]] | [[Schiphol International Airport|Amsterdam]], [[Huntsville International Airport|Huntsville]], [[Miami International Airport|Miami]], [[Mariscal Sucre International Airport|Quito]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]]
+<!-- -->
+| [[Lufthansa Cargo]] | [[Frankfurt International Airport|Frankfurt]]
+<!-- -->
+| [[Martinair]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Miami International Airport|Miami]], [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+| [[Mas Air]] | [[Guadalajara International Airport|Guadalajara]], [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Qatar Airways Cargo]] | [[Hamad International Airport|Doha]], [[Luxembourg Airport|Luxembourg]], [[Mexico City International Airport|Mexico City]]
+<!-- -->
+| [[Turkish Cargo]] | [[Istanbul Airport|Istanbul]], [[Maastricht Aachen Airport|Maastricht/Aachen]], [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]], [[Zaragoza Airport|Zaragoza]]
+<!-- -->
+| [[UPS Airlines]] | [[Louisville Muhammad Ali International Airport|Louisville]], [[Miami International Airport|Miami]], [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+| [[Western Global Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+}}

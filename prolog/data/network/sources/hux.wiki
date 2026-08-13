@@ -1,0 +1,46 @@
+== Airlines and destinations ==
+[[File:HUX (15).jpg|thumb|Airside of the airport]]
+
+===Passenger===
+{{Airport-dest-list
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| {{nowrap|[[Aeroméxico Connect]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| [[Aerotucán]] | [[Oaxaca International Airport|Oaxaca]]
+| [[Aerovega]] | [[Oaxaca International Airport|Oaxaca]]
+| [[Air Canada]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]]
+| [[American Eagle (airline brand)|American Eagle]]|'''Seasonal:''' [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+| [[Transportes Aéreos Guatemaltecos|TAG Airlines]] | '''Seasonal''': [[La Aurora International Airport|Guatemala City]]
+| [[Viva (airline)|Viva]] | [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]]
+| [[Volaris]] | [[Guadalajara International Airport|Guadalajara]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Puebla International Airport|Puebla]]
+| [[WestJet]] | '''Seasonal:''' [[Calgary International Airport|Calgary]], [[Edmonton International Airport|Edmonton]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]
+}}[[File:HUX (6).jpg|thumb|Departures concourse]]
+[[File:HUX (7).jpg|thumb|Departures concourse]]
+[[File:HUX (8).jpg|thumb|Check-in area]]
+[[File:HUX (9).jpg|thumb|Check-in area]]
+[[File:HUX (5).jpg|thumb|Duty-free shops]][[File:HUX (14).jpg|thumb|Baggage claim area]]
+[[File:HUX (3).jpg|thumb|VIP lounge]][[File:HUX (4).jpg|thumb|VIP lounge]]
+[[File:HUX (10).jpg|thumb|Terminal entrance]]
+[[File:HUX (2).jpg|thumb|Control tower]]
+[[File:HUX (11).jpg|thumb|Preserved aircraft at HUX entrance]]
+
+=== Destinations maps ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=left|caption=Domestic destinations from Huatulco International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination |places={{Location map~ | Mexico|lat=15.7023 |long=-96.2584 |position=bottom|label=<div style="position:relative; top:-15px;"><small>'''Huatulco'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=25.7778 |long=-100.1080|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=left|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.756667 |long=-99.015278|position=top|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City-AIFA}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.5260 |long=-103.3076|position=bottom|label='''[[Miguel Hidalgo y Costilla Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=17.0008 |long=-96.7221|position=top|label='''[[Oaxaca International Airport|{{nowrap|Oaxaca}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Blue pog.svg | Mexico|lat=19.158056|long=-98.371389|position=bottom|label='''[[Puebla International Airport|Puebla]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|North_America|width=650|float=center|caption=International destinations from Huatulco International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | North_America |lat=15.7023 |long=-96.2584 |position=top|label=<div style="position:relative; top:12px;"><small>'''Huatulco'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | North_America | mark = green pog.svg |lat=43.4036|long=-79.3750|position=top|label='''<small>[[Toronto Pearson International Airport|{{nowrap|Toronto-Pearson}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = green pog.svg |lat=49.194722|long=-123.183889|position=left|label='''<small>[[Vancouver International Airport|Vancouver]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = green pog.svg |lat=32.896944|long=-97.038056|position=top|label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = green pog.svg |lat=51.1225|long=-114.013333|position=right|label='''<small>[[Calgary International Airport|Calgary]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = green pog.svg |lat=53.31|long=-113.579444|position=top|label='''<small>[[Edmonton International Airport|Edmonton]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = green pog.svg |lat=49.91|long=-97.24|position=right|label='''<small>[[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=14.581667|long=-90.526667|position=right|label='''<small>[[La Aurora International Airport|{{nowrap|Guatemala City}}]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

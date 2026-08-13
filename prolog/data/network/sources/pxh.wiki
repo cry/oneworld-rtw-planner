@@ -1,0 +1,8 @@
+==Airlines and destinations==
+{{airport-dest-list
+|[[Alliance Airlines]] | '''Charter:'''{{Ref|1|1}} [[Adelaide Airport|Adelaide]]
+|[[National Jet Express]] | '''Charter:'''{{Ref|1|1}} [[Adelaide Airport|Adelaide]], [[Port Augusta Airport|Port Augusta]]
+|[[Sharp Airlines]] | '''Charter:'''{{Ref|1|1}} [[Adelaide Airport|Adelaide]]
+}}
+'''Notes'''<br>
+{{note|1|1}} [[Fly-in fly-out]] (FIFO) private charter operations only.

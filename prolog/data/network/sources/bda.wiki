@@ -1,0 +1,81 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[Air Canada Rouge]]}} | [[Toronto Pearson International Airport|Toronto–Pearson]]
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]] <br/> '''Seasonal:''' [[Philadelphia International Airport|Philadelphia]]
+| [[BermudAir]] | [[Baltimore/Washington International Airport|Baltimore]], [[Logan International Airport|Boston]], [[Halifax Stanfield International Airport|Halifax]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Newark Liberty International Airport|Newark]], [[Orlando International Airport|Orlando]] (ends 30 October 2026), [[Toronto Pearson International Airport|Toronto–Pearson]], [[Westchester County Airport|White Plains]] <br/> '''Seasonal:''' [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]] (resumes 20 December 2026), [[Owen Roberts International Airport|Grand Cayman]] (begins 18 December 2026), [[Orlando Sanford International Airport|Orlando/Sanford]] (begins 31 October 2026), [[Providenciales International Airport|Providenciales]] (begins 18 December 2026)
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]]
+| [[Delta Air Lines]] | [[Hartsfield-Jackson Atlanta International Airport|Atlanta]],  [[John F. Kennedy International Airport|New York–JFK]]
+| [[JetBlue]] | [[Logan International Airport|Boston]] <br/>  '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+| [[United Airlines]] | [[Newark Liberty International Airport|Newark]]
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Canadian and European destinations map
+|-
+|{{Location map+ | North Atlantic |width=750 |float=center
+|caption=Canadian and European destinations from L.F. Wade International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination
+|places=
+
+{{Location map~ | North Atlantic |lat=32.3598 |long=-64.7020 |position=right|label=<small>'''Bermuda'''</small>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+
+{{Location map~ | North Atlantic |lat=51.1537|long=-0.1821 |position=top|label='''<small>[[Heathrow Airport|London–Heathrow]]</small>''' |label_size=100 |marksize=7 }}
+
+{{Location map~ | North Atlantic | mark = Red pog.svg  |lat=44.8875|long=-63.5075|position=right|label='''<small>[[Halifax Stanfield International Airport|Halifax]]</small>''' |label_size=100 |marksize=7 }}
+
+{{Location map~ | North Atlantic |lat=43.676667 |long=-79.630556 |position=left|label='''<small>[[Toronto Pearson International Airport|Toronto–Pearson]]</small>''' |label_size=100 |marksize=7 }}
+
+{{Location map~ | North Atlantic | mark = Red pog.svg |lat=45.470556|long=-73.740833|position=top|label='''<small>[[Montréal–Trudeau International Airport|Montréal–Trudeau]]</small>''' |label size=100 |marksize=7 }}
+
+}}
+|}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! United States destinations map
+|-
+|{{Location map+ |United_States |width=750 |float=center
+|caption=United States destinations from L.F. Wade International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=right |label='''<small>[[Atlanta Airport|Atlanta]]</small>''' |marksize=7 }}
+
+{{Location map~ |United_States |lat=25.795965|long=-80.287326 |position=bottom|label='''<small>[[Miami International Airport|Miami]]</small>'''|marksize=7 }}
+
+{{Location map~ |United_States |lat=40.641173|long=-73.780532|position=right|label='''<small>{{nowrap|[[John F. Kennedy International Airport|New York–JFK]]}}</small>'''|marksize=7 }}
+
+{{Location map~ |United_States |lat=40.689333|long=-74.174585|position=left|label='''<small>[[Newark Liberty International Airport|Newark]]</small>'''|marksize=7 }}
+
+{{Location map~ |United_States |lat=39.873918|long=-75.242466|position=right|mark = Green pog.svg|label='''<small>[[Philadelphia International Airport|Philadelphia]]</small>'''|marksize=7 }}
+
+{{Location map~ |United_States |lat=42.364644|long=-71.010010 |position=right|label='''<small>[[Boston Logan International Airport|Boston]]</small>'''|marksize=7 }}
+
+{{Location map~ |United_States |lat=35.2163|long=-80.9539|position=right|label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|marksize=7
+}}
+
+{{Location map~ |United_States |lat=41.0683|long=-73.7087|position=right|label='''<small>[[Westchester County Airport|White Plains]]</small>'''|marksize=7
+}}
+
+{{Location map~ |United_States |lat=28.4246|long=-81.3105|position=right|mark = Green pog.svg|label='''<small>[[Orlando International Airport|Orlando]]</small>'''|marksize=7
+}}
+{{Location map~ |United_States |lat=39.1776|long=-76.6684|position=right|mark = Red pog.svg|label='''<small>[[Baltimore/Washington International Airport|Baltimore]]</small>'''|marksize=7
+}}
+
+{{Location map~ |United_States |lat=35.877778|long=-78.7875|position=right|mark = Red pog.svg|label='''<small>{{nowrap|[[Raleigh–Durham International Airport|Raleigh/Durham]]}}</small>'''|marksize=7
+}}
+
+
+{{Location map~ |United_States |lat=37.505|long=-77.319444	|position=right|mark = Red pog.svg|label='''<small>[[Richmond International Airport|Richmond]]</small>'''|marksize=7
+}}
+
+}}
+|}
+
+===Cargo===
+{{Airport-dest-list
+|[[Cargojet]] | [[Newark Liberty International Airport|Newark]]
+}}

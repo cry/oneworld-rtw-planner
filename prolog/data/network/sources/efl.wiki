@@ -1,0 +1,52 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Kefalonia Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO, ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Air Serbia]] | '''Seasonal charter:''' [[Belgrade Nikola Tesla Airport|Belgrade]]
+<!-- -->
+| [[Animawings]] | '''Seasonal:''' [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Timișoara Traian Vuia International Airport|Timișoara]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| [[Discover Airlines]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[easyJet]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nice Côte d'Azur Airport|Nice]]
+<!-- -->
+| [[Edelweiss Air]] |  '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[ITA Airways]] | '''Seasonal:''' [[Milan Linate Airport|Milan-Linate]], [[Rome Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]], [[Leeds Bradford Airport|Leeds/Bradford]], [[London Gatwick Airport|London–Gatwick]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | '''Seasonal:''' [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[People's Viennaline|People's]] | '''Seasonal:''' [[St. Gallen–Altenrhein Airport|St. Gallen/Altenrhein]]
+<!-- -->
+| [[Ryanair]] | '''Seasonal:''' [[London Stansted Airport|London–Stansted]], [[Milan Bergamo Airport|Milan-Bergamo]], [[Pisa International Airport|Pisa]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[SkyAlps]] | '''Seasonal:''' [[Bolzano Airport|Bolzano]] <br /> '''Seasonal charter:''' [[Innsbruck Airport|Innsbruck]]
+<!-- -->
+| [[Sky Express (Greece)|Sky Express]] | [[Athens International Airport|Athens]], [[Corfu International Airport|Corfu]], [[Aktion National Airport|Preveza/Lefkada]], [[Zakynthos International Airport|Zakynthos]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal:''' [[Václav Havel Airport Prague|Prague]] <br> '''Seasonal charter:''' [[Budapest Ferenc Liszt International Airport|Budapest]]
+<!-- -->
+| [[Sundor]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[Cardiff Airport|Cardiff]], [[East Midlands Airport|East Midlands]], [[Gatwick Airport|London–Gatwick]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[TUI fly Netherlands]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Bari Karol Wojtyła Airport|Bari]], [[Naples International Airport|Naples]]
+<!-- -->
+| [[Wizz Air]] | '''Seasonal:''' [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Rome Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+}}

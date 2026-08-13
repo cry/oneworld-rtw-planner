@@ -1,0 +1,45 @@
+== Airlines and destinations ==
+=== Passenger ===
+{{Airport destination list
+<!-- -->
+| [[Aero (American airline)|Aero]] | '''Charter:''' [[Van Nuys Airport|Los Angeles–Van Nuys]]
+<!-- -->
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| {{nowrap|[[Aeroméxico Connect]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montreal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]]
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal-Trudeau International Airport|Montréal–Trudeau]] (begins 10 December 2026)
+<!-- -->
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]], [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] <br>'''Seasonal:''' [[Sacramento International Airport|Sacramento]]
+<!-- -->
+| [[American Airlines]] | [[Austin–Bergstrom International Airport|Austin]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]<br>'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Los Angeles International Airport|Los Angeles]], [[Salt Lake City International Airport|Salt Lake City]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]<br>'''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[Flair Airlines]] | '''Seasonal:''' [[Vancouver International Airport|Vancouver]]
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]<br>'''Seasonal:''' [[Harry Reid International Airport|Las Vegas]]
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| {{nowrap|[[Mexicana de Aviación (2023–present)|Mexicana de Aviación]]}} | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+|[[Porter Airlines]] | '''Seasonal:''' [[Edmonton International Airport|Edmonton]] (begins 16 November 2026), [[Ottawa Macdonald–Cartier International Airport|Ottawa]] (begins 18 December 2026), [[Toronto Pearson International Airport|Toronto–Pearson]] (begins 16 November 2026)
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Denver International Airport|Denver]], [[William P. Hobby Airport|Houston–Hobby]], [[Harry Reid International Airport|Las Vegas]], [[John Wayne Airport|Orange County]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Sacramento International Airport|Sacramento]], [[San Diego International Airport|San Diego]]<br>'''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]], [[Baltimore/Washington International Airport|Baltimore]], [[Midway International Airport|Chicago–Midway]], [[Indianapolis International Airport|Indianapolis]], [[Kansas City International Airport|Kansas City]], [[Nashville International Airport|Nashville]], [[Oakland San Francisco Bay Airport|Oakland]], [[St. Louis Lambert International Airport|St. Louis]]
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Los Angeles International Airport|Los Angeles]], [[Newark Liberty International Airport|Newark]], [[San Francisco International Airport|San Francisco]] <br>'''Seasonal:''' [[Dulles International Airport|Washington-Dulles]] (resumes October 25, 2026)
+<!-- -->
+| [[Viva (airline)|Viva]] | [[Culiacán International Airport|Culiacán]], [[Guadalajara International Airport|Guadalajara]], [[Hermosillo International Airport|Hermosillo]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]], [[Querétaro Intercontinental Airport|Querétaro]], [[Tijuana International Airport|Tijuana]], [[Toluca International Airport|Toluca/Mexico City]], [[Torreón International Airport|Torreón/Gómez Palacio]]
+<!-- -->
+| [[Volaris]] | [[Culiacán International Airport|Culiacán]], [[Guadalajara International Airport|Guadalajara]], [[Bajío International Airport|León/El Bajío]], [[Mexicali International Airport|Mexicali]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Puebla International Airport|Puebla]], [[Tijuana International Airport|Tijuana]], [[Toluca International Airport|Toluca/Mexico City]]
+<!-- -->
+| [[WestJet]] | [[Calgary International Airport|Calgary]], [[Montréal–Trudeau International Airport|Montreal–Trudeau]],  [[Toronto Pearson International Airport|Toronto–Pearson]], [[Vancouver International Airport|Vancouver]] <br>'''Seasonal:''' [[Edmonton International Airport|Edmonton]], [[Kelowna International Airport|Kelowna]], [[Regina International Airport|Regina]] (begins 14 December 2026), [[Victoria International Airport|Victoria]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]
+}}

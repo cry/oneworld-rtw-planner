@@ -1,0 +1,60 @@
+==Airlines and destinations==
+[[Southwest Airlines]] began service in May 2010 with eight daily [[Boeing 737]] flights: two each to [[Baltimore/Washington International Airport|Baltimore-Washington]] (BWI), [[William P. Hobby Airport|Houston–Hobby]] (HOU), [[Nashville International Airport|Nashville]] (BNA), and [[Orlando International Airport|Orlando]] (MCO).
+[[Southwest Airlines|Southwest]]  then started daily seasonal nonstop service to [[St. Louis Lambert International Airport|St. Louis]] (STL) on June 3, 2012.
+
+In March 2016, [[Delta Air Lines]] was operating up to six nonstop flights a day to [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] (ATL) operated with [[Boeing 717]], [[McDonnell Douglas MD-88]], and [[McDonnell Douglas MD-90]] jetliners. Delta has also operated [[Boeing 737]] jets into the airport in the past. [[Delta Connection]] had operated regional jet aircraft on their flights to Atlanta but currently does not serve the Atlanta route from the airport. According to [[FlightAware]], Delta currently operates [[Airbus A320]] and [[Boeing 717]] and according to delta.com; [[Boeing 737-900]]ER jetliners on its mainline service between the airport and Atlanta.
+
+United utilizes [[United Express]] [[Mesa Airlines]] and [[CommuteAir]] regional jets on their nonstop flights to [[George Bush Intercontinental Airport]] (IAH). Seasonally, mainline United are operated  to [[O'Hare International Airport]] and [[Denver International Airport]].
+
+On January 18, 2018, Northwest Florida Beaches International Airport announced the beginning of [[American Airlines]] nonstop flights to [[Charlotte Douglas International Airport|Charlotte Douglas]] (CLT) and [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]] (DFW), which commenced on June 7, 2018. There are two flights per day to both destinations operated by American Eagle regional carriers [[PSA Airlines]] and [[Mesa Airlines]], respectively with regional jets.
+
+The airport had its two busiest years on record in 2021 and 2022, respectively. Airport officials peg the increases on the uptick in traffic caused by the 2020 COVID-19 pandemic. The airport processed nearly 1.6 million passengers in 2021, up from 1.35 million in 2019, and just over 1.5 million in 2021.
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines themselves are not independent sources. -->
+Scheduled nonstop passenger flights include:
+{{Airport destination list
+| [[American Airlines]] | '''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Ronald Reagan Washington National Airport|Washington–National]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Philadelphia International Airport|Philadelphia]]
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br /> '''Seasonal:''' [[Detroit Airport|Detroit]]
+| [[Delta Connection]] | [[Austin–Bergstrom International Airport|Austin]], [[LaGuardia Airport|New York–LaGuardia]] 
+| {{nowrap|[[Southwest Airlines]]}} | [[Austin–Bergstrom International Airport|Austin]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]],  [[William P. Hobby Airport|Houston–Hobby]], [[Nashville International Airport|Nashville]], [[St. Louis Lambert International Airport|St. Louis]] <br />'''Seasonal:''' [[Baltimore/Washington International Airport|Baltimore]], [[Midway International Airport|Chicago–Midway]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Indianapolis International Airport|Indianapolis]], [[Kansas City International Airport|Kansas City]], [[Milwaukee International Airport|Milwaukee]] (begins March 11, 2027)
+| [[United Airlines]] | '''Seasonal:''' [[O'Hare International Airport|Chicago-O'Hare]], [[Denver International Airport|Denver]]
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]] <br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]] }}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Northwest Florida Beaches International Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination <br />{{font color | pink | Pink }} = Destination being terminated
+|places=
+{{Location map~ |United_States |lat=30.358333 |long=-85.795556 |position=bottom |label=<small>'''ECP'''</small>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=35.213889|long=-80.943056|position=left|label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944|long=-97.038056|position=left|label='''<small>[[Dallas Fort Worth International Airport|Dallas/<br>Ft. Worth]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=38.852222|long=-77.037778|position=left|mark = Green pog.svg |label='''<small>[[Washington Reagan National Airport|Washington–Reagan]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=33.636667|long=-84.428056|position=left|label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.847222|long=-96.851667|position=right|label='''<small>[[Dallas Love Field|Dallas–Love]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=29.645556|long=-95.278889|position=bottom|label='''<small>[[William P. Hobby Airport|Houston–Hobby]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=36.126667|long=-86.681944|position=left|label='''<small>[[Nashville International Airport|Nashville]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=29.984444|long=-95.341389|position=top|label='''<small>[[George Bush Intercontinental Airport|Houston–{{nowrap|Intercontinental}}]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=41.978611|long=-87.904722|position=left|mark = Green pog.svg |label='''<small>[[O'Hare International Airport|Chicago–O'Hare]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.871944|long=-75.241111|position=right|mark = Green pog.svg |label='''<small>[[Philadelphia International Airport|Philadelphia]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=40.775|long=-73.875|position=right|mark = Green pog.svg |label='''<small>[[LaGuardia Airport|New York–LaGuardia]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=30.194444|long=-97.67|position=left|mark = Red pog.svg |label='''<small>[[Austin–Bergstrom International Airport|Austin]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.175278|long=-76.668333|position=right|mark = Green pog.svg |label='''<small>[[Baltimore/Washington International Airport|Baltimore]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=41.786111|long=-87.7525|position=right|mark = Green pog.svg |label='''<small>[[Midway International Airport|Chicago–Midway]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.861667|long=-104.673056|position=right|mark = Green pog.svg |label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.717222|long=-86.294444|position=right|mark = Green pog.svg |label='''<small>[[Indianapolis International Airport|Indianapolis]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.2975|long=-94.713889|position=left|mark = Green pog.svg |label='''<small>[[Kansas City International Airport|Kansas City]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=38.747222|long=-90.361389|position=right|mark = Green pog.svg |label='''<small>[[St. Louis Lambert International Airport|St. Louis]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=39.998056|long=-82.891944|position=right|mark = Green pog.svg |label='''<small>[[John Glenn Columbus International Airport|Columbus]]</small>'''|label_size=80 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Airport destination list
+| [[Flight Express, Inc.|Flight Express]] | [[Birmingham–Shuttlesworth International Airport|Birmingham (AL)]]
+| [[Key Lime Air]] | [[Southwest Georgia Regional Airport|Albany (GA)]]
+| [[Martinaire]] | [[Southwest Georgia Regional Airport|Albany (GA)]]
+}}

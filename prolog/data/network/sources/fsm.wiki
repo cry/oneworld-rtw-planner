@@ -1,0 +1,17 @@
+==Airline and destination==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+The following [[airline]] offers scheduled passenger service:
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+}}
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Fort Smith Regional Airport
+|places=
+{{Location map~ |United_States |lat=35.3381|long=-94.3635|position=right|label='''<small>Fort Smith</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}

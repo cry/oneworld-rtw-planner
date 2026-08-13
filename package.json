@@ -3,13 +3,14 @@
   "private": true,
   "description": "Build step for the generated files: web/app.css, web/map.js, the WebAssembly pair (web/rtw.pvm and web/vendor/swipl-bundle-no-data.js) that runs the Prolog validator in the browser, and the loyalty earning tables under prolog/data/earn/. All are committed; nothing needs npm at runtime.",
   "scripts": {
-    "build": "npm run css && npm run map && npm run earn:qff && npm run earn:cx && npm run wasm",
+    "build": "npm run css && npm run map && npm run earn:qff && npm run earn:cx && npm run services && npm run wasm",
     "css": "tailwindcss -i web/app.src.css -o web/app.css --minify",
     "css:watch": "tailwindcss -i web/app.src.css -o web/app.css --watch",
     "map": "esbuild web/map.src.js --bundle --minify --format=iife --global-name=RTWMap --legal-comments=eof --banner:js=\"/*! Bundles d3-geo and topojson-client (ISC, Copyright Mike Bostock) and Natural Earth land data via world-atlas (ISC). Source and rationale: web/map.src.js */\" --outfile=web/map.js --log-level=warning",
     "wasm": "node prolog/tools/build_image.mjs",
     "earn:qff": "node prolog/tools/build_qff_tables.mjs",
     "earn:cx": "node prolog/tools/build_cx_tables.mjs",
+    "services": "node prolog/tools/build_services.mjs",
     "check:contrast": "node web/check-contrast.mjs",
     "test:wasm": "node prolog/test/test_wasm.mjs"
   },

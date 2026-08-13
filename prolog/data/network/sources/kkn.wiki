@@ -1,0 +1,13 @@
+==Airlines and destinations==
+Three airlines serve the airport with scheduled flights. Scandinavian Airlines (SAS) and Norwegian Air Shuttle both operate a daily flights to Oslo, Norwegian use Boeing 737and SAS use Airbus A320-200neo. [[Widerøe]] flies to various regional airports in Finnmark and Troms, and uses Kirkenes as a [[airline hub|hub]] to feed regional passengers to Oslo flights. Widerøe operates its eight daily services with [[de Havilland Canada Dash 8]] aircraft. [[Hamburg International]] operates charter services from Germany from May to September on behalf of [[Hurtigruten (company)|Hurtigruten]] with tourist transferring to the Hurtigruten coastal village{{citation needed|date=May 2021}}. There are sporadic charters of fishermen operated by [[Atlantic Airways]].
+
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+|[[Finnair]] | [[Helsinki Airport|Helsinki]], [[Ivalo Airport|Ivalo]]
+<!-- -->
+|[[Norwegian Air Shuttle]]|[[Oslo Airport, Gardermoen|Oslo]], [[Tromsø Airport, Langnes|Tromsø]]
+<!-- -->
+|[[Scandinavian Airlines]]|[[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+|[[Widerøe]]|[[Alta Airport|Alta]], [[Båtsfjord Airport|Båtsfjord]], [[Berlevåg Airport|Berlevåg]], [[Hammerfest Airport|Hammerfest]], [[Honningsvåg Airport|Honningsvåg]], [[Mehamn Airport|Mehamn]], [[Sørkjosen Airport|Sørkjosen]], [[Tromsø Airport|Tromsø]], [[Vadsø Airport|Vadsø]], [[Vardø Airport|Vardø]]
+}}

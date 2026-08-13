@@ -1,0 +1,6 @@
+==Airlines and destinations==
+{{airport-dest-list
+|[[Link Airways]] | [[Brisbane Airport|Brisbane]]<br />'''Seasonal:''' [[Canberra Airport|Canberra]]
+|[[QantasLink]] | [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+|[[Rex Airlines]] | [[Sydney Airport|Sydney]]
+}}

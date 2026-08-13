@@ -1,0 +1,6 @@
+==Airlines and destinations==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{airport-dest-list
+| [[Alliance Airlines]]|'''Charter:''' [[Brisbane Airport|Brisbane]]
+| [[Rex Airlines]] | [[Brisbane Airport|Brisbane]], [[Charleville Airport|Charleville]]
+}}

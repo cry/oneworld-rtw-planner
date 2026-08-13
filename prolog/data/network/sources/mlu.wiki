@@ -1,0 +1,22 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+
+[[Delta Air Lines]] and [[American Airlines]] provide scheduled commercial service at Monroe Regional Airport, with flights to [[Atlanta]] and [[Dallas]], and the airport has experienced three consecutive years of passenger growth, handling 191,874 passengers in 2023, 204,294 in 2024, and 216,481 through November 2025.
+
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Monroe Regional Airport <br /> {{font color | red | Red}} = Year-round destination
+|places=
+{{Location map~ |United_States |lat=32.5102 |long=-92.0436 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Monroe'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=right |label='''<small>[[Hartsfield-Jackson Atlanta International Airport|Atlanta]]</small>''' |label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=80 |marksize=7}}
+}}
+|}

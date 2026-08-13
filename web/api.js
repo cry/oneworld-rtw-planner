@@ -106,6 +106,11 @@ const RTWApi = (() => {
     validate: (itinerary) => call('validate', itinerary),
     routing: (itinerary) => call('routing', itinerary),
     earn: (itinerary) => call('earn', itinerary),
+    // Which sectors the committed snapshot says are actually flown. Separate
+    // from validate() because it is not a fare question: a sector missing from
+    // the table is not a broken rule, and the reply carries the snapshot's own
+    // date so the page can say how old the claim is.
+    network: (itinerary) => call('network', itinerary),
     airports: (q, limit) => call('airports', { q, limit }),
   };
 })();

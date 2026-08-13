@@ -1,0 +1,33 @@
+==Airlines and destinations==
+[[File:Seychellesintlarptnasa.jpg|thumb|Aerial view in 2005|alt=]]
+<!-- Please use only independent sources, the airport and the airline itself are not independent sources -->
+{{Airport-dest-list
+<!-- -->
+| [[Aeroflot]] | '''Seasonal:''' [[Sheremetyevo International Airport|Moscow–Sheremetyevo]]
+<!-- -->
+| {{nowrap|[[Air Seychelles]]}} | [[Zayed International Airport|Abu Dhabi]], [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[Istanbul Airport|Istanbul]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Praslin Island Airport|Praslin Island]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Ben Gurion Airport|Tel Aviv]] (resumes {{date|2026-8-20}})
+<!-- -->
+| [[Air Tanzania]] | [[Julius Nyerere International Airport|Dar es Salaam]]
+<!-- -->
+| [[arkia]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]{{cn|date=April 2025}}
+<!-- -->
+| [[Discover Airlines]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zürich Airport|Zürich]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Ivato International Airport|Antananarivo]], [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[IndiGo]] | [[Chhatrapati Shivaji International Airport|Mumbai]]
+<!-- -->
+| [[Kenya Airways]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Qatar Airways]] |  [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Sichuan Airlines]] | '''Seasonal:''' [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!-- -->
+| [[Turkish Airlines]] | '''Seasonal:''' [[Istanbul Airport|Istanbul]]
+}}

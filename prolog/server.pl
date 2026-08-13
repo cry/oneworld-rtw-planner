@@ -30,7 +30,9 @@
 :- use_module('src/io/json_in').
 :- use_module('src/io/json_out').
 :- use_module('src/io/earn_out').
+:- use_module('src/io/network_out').
 :- use_module('src/io/route_out').
+:- use_module('src/network').
 :- use_module('src/earn/kernel').
 :- use_module('src/earn/registry').
 :- use_module('data/limits').
@@ -166,6 +168,11 @@ thread_pool:create_pool(rtw_validate) :-
 % which is linear in a segment count the reader already caps.
 :- http_handler(root(api/routing), routing_endpoint,
                 [method(post), methods([post, options])]).
+% Nor is this one: a sector lookup is one first-argument-indexed probe per
+% segment, so the handler is linear in a segment count the reader already caps
+% and cheaper than composing the routing above it.
+:- http_handler(root(api/network), network_endpoint,
+                [method(post), methods([post, options])]).
 % Earning runs no rules either, but it is linear in segments times programmes
 % times currencies and reaches a table on every step, so it shares the bounded
 % pool rather than the server's default workers.
@@ -299,6 +306,29 @@ earn_request(Request) :-
     http_read_json_dict(Request, Dict, [value_string_as(string)]),
     limit(request_time_limit_seconds, Seconds),
     call_with_time_limit(Seconds, build_earn(Dict, Json)),
+    reply_json_dict(Json).
+
+% Whether each sector is actually flown, which runs no fare rules and enters
+% nothing in the violation register. Rule 3015 says nothing about whether a
+% flight exists, so a sector the snapshot does not hold has no clause to cite
+% against it -- and absence in a wiki snapshot is much weaker evidence than
+% presence. That is why it answers here rather than as a field on the report:
+% see PLANS/06-flown-network.md.
+network_endpoint(Request) :-
+    cors_enable,
+    (   memberchk(method(options), Request)
+    ->  reply_json_dict(_{}, [status(200)])
+    ;   catch_with_backtrace(network_request(Request), Error,
+                             reply_error(Error, Request))
+    ).
+
+network_request(Request) :-
+    check_body_size(Request),
+    http_read_json_dict(Request, Dict, [value_string_as(string)]),
+    itinerary_from_json(Dict, Itin),
+    annotate(Itin, A),
+    network_report(A, Report),
+    network_json(Report, Json),
     reply_json_dict(Json).
 
 build_earn(Dict, Json) :-

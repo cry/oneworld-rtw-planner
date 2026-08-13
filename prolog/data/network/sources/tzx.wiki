@@ -1,0 +1,44 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Trabzon Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Arabia]] | [[Sharjah International Airport|Sharjah]]<br />'''Seasonal:''' [[Zayed International Airport|Abu Dhabi]]{{cn|date=May 2025}}
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]], [[Yenişehir Airport|Bursa]], [[Diyarbakır Airport|Diyarbakır]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]] <br /> '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| {{nowrap|[[Azerbaijan Airlines]]}} | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[Centrum Air]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Flyadeal]] | '''Seasonal:''' [[Prince Naif bin Abdulaziz International Airport|Gassim]], [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Flydubai]] | '''Seasonal:''' [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]] | [[Abha International Airport|Abha]]<br />'''Seasonal:''' [[King Fahd International Airport|Dammam]],{{cn|date=May 2025}} [[King Abdulaziz International Airport|Jeddah]],{{cn|date=May 2025}} [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Gulf Air]] | '''Seasonal:''' [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[Jazeera Airways]] | '''Seasonal:''' [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Kuwait Airways]] | '''Seasonal:''' [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Oman Air]] | '''Seasonal:''' [[Muscat International Airport|Muscat]]
+<!-- -->{{cn|date=May 2025}}
+| [[Pegasus Airlines]] | [[Çukurova International Airport|Adana/Mersin]], [[Antalya Airport|Antalya]], [[Ercan International Airport|Ercan]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[İzmir Adnan Menderes Airport|Izmir]] <br /> '''Seasonal:''' [[Amman Airport|Amman–Queen Alia]],{{cn|date=May 2025}} [[Bahrain International Airport|Bahrain]],{{cn|date=May 2025}} [[King Fahd International Airport|Dammam]], [[Hamad International Airport|Doha]],{{cn|date=May 2025}} [[Düsseldorf Airport|Düsseldorf]], [[Gaziantep Oğuzeli Airport|Gaziantep]], [[King Abdulaziz International Airport|Jeddah]], [[Cengiz Topel Naval Air Station|Kocaeli]], [[Kuwait International Airport|Kuwait City]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Qanot Sharq]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Qatar Airways]] | '''Seasonal:''' [[Hamad International Airport|Doha]]
+<!-- -->
+| [[SalamAir]] | '''Seasonal:''' [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Somon Air]] | [[Dushanbe International Airport|Dushanbe]]
+<!-- -->
+| [[Southwind Airlines]] | '''Seasonal charter:''' [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[SunExpress]] | [[Antalya Airport|Antalya]], [[Düsseldorf Airport|Düsseldorf]], [[İzmir Adnan Menderes Airport|Izmir]], [[Muscat International Airport|Muscat]] <br /> '''Seasonal:''' [[Çukurova International Airport|Adana/Mersin]], [[Cologne Bonn Airport|Cologne/Bonn]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] <br /> '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+}}

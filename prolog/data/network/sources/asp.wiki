@@ -1,0 +1,10 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Airnorth]] | [[Cairns Airport|Cairns]], [[Darwin Airport|Darwin]], [[Perth Airport|Perth]], [[Tennant Creek Airport|Tennant Creek]]
+<!-- -->
+| [[Qantas]] | [[Adelaide Airport|Adelaide]], [[Melbourne Airport|Melbourne]] (ends 15 November 2026), [[Sydney]]
+<!-- -->
+| [[Virgin Australia]] | [[Adelaide Airport|Adelaide]], <br> '''Seasonal:''' [[Brisbane Airport|Brisbane]] (ends 14 July 2026)
+}}

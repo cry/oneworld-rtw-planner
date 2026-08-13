@@ -1,0 +1,57 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines operate regular scheduled passenger flights at Madeira Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[airBaltic]] | [[Riga International Airport|Riga]], [[Lennart Meri Tallinn Airport|Tallinn]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna Airport|Vienna]]
+<!-- -->
+| [[Azores Airlines]] | [[João Paulo II Airport|Ponta Delgada]], [[Lajes Airport|Terceira]]
+<!-- -->
+| [[Binter Canarias]] |  [[Porto Santo Airport|Porto Santo]],
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Munich Airport|Munich]],
+<!-- -->
+| [[easyJet]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Berlin Brandenburg Airport|Berlin]], [[Bristol Airport|Bristol]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Porto Airport|Porto]] <br/> '''Seasonal:''' [[Manchester Airport|Manchester]], [[Nantes Atlantique Airport|Nantes]], [[Nice Airport|Nice]]
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zürich]]
+<!-- -->
+| [[Eurowings]] | [[Düsseldorf Airport|Düsseldorf]] <br/> '''Seasonal:''' [[Hamburg Airport|Hamburg]], [[Václav Havel Airport Prague|Prague]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]] <br/> '''Seasonal:''' [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]],
+<!-- -->
+| [[Jet2.com]] | [[Belfast International Airport|Belfast–International]],  [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Glasgow Airport|Glasgow]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[London Stansted Airport|London–Stansted]], [[Newcastle International Airport|Newcastle upon Tyne]] <br/> '''Seasonal:''' [[London Gatwick Airport|London–Gatwick]] (begins 26 October 2026)
+<!-- -->
+| [[Ryanair]] | [[Brussels South Charleroi Airport|Charleroi]], [[Dublin Airport|Dublin]], [[Humberto Delgado Airport|Lisbon]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Shannon Airport|Shannon]] <br/> '''Seasonal:''' [[Beauvais–Tillé Airport|Beauvais]],  [[Malpensa Airport|Milan–Malpensa]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal:''' [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Faro Airport|Faro]]
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Nantes Atlantique Airport|Nantes]], [[Porto Airport|Porto]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]]
+<!-- -->
+| [[TUI fly Deutschland]] | [[Düsseldorf Airport|Düsseldorf]], [[Hannover Airport|Hannover]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| {{nowrap|[[TUI fly Netherlands]]}} | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[Wizz Air]] | [[Budapest Ferenc Liszt International Airport|Budapest]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]]
+<!-- -->
+}}
+
+===Cargo===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Swiftair]] | [[Lisbon Humberto Delgado Airport|Lisbon]]
+<!-- -->
+}}

@@ -1,0 +1,15 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+| [[All Nippon Airways]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Haneda Airport|Tokyo–Haneda]]
+| [[ANA Wings]] | [[Miyako Airport|Miyako]], [[Naha Airport|Naha]]
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+| [[Japan Transocean Air]] | [[Naha Airport|Naha]], [[Kansai International Airport|Osaka–Kansai]]
+| [[Jin Air]] | [[Incheon International Airport|Seoul–Incheon]]
+| [[Peach Aviation|Peach]] | [[Fukuoka Airport|Fukuoka]], [[Kansai International Airport|Osaka–Kansai]], [[Narita International Airport|Tokyo–Narita]]
+| [[Ryukyu Air Commuter]] | [[Miyako Airport|Miyako]], [[Naha Airport|Naha]], [[Yonaguni Airport|Yonaguni]]
+| [[Solaseed Air]] | [[Naha Airport|Naha]]
+| [[Tigerair Taiwan]] | [[Kaohsiung International Airport|Kaohsiung]] (begins 2 September 2026), [[Taoyuan International Airport|Taipei–Taoyuan]]
+}}

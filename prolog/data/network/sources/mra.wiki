@@ -1,0 +1,33 @@
+==Airlines and destinations==
+===Passengers===
+{{Airport-dest-list
+<!-- -->
+|[[Afriqiyah Airways]]|[[Benina International Airport|Benghazi]], [[Cairo International Airport|Cairo]], [[Istanbul Airport|Istanbul]], [[Sfax–Thyna International Airport|Sfax]], [[Tunis-Carthage International Airport|Tunis]] <br />'''Hajj & Umrah:''' [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+|[[Berniq Airways]]|[[Borg El Arab International Airport|Alexandria]], [[Benina International Airport|Benghazi]], [[Cairo International Airport|Cairo]], [[Istanbul Airport|Istanbul]], [[Tunis-Carthage International Airport|Tunis]]
+<!-- -->
+|[[Egyptair]]|[[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Fly Oya]]|'''Hajj & Umrah:''' [[King Abdulaziz International Airport|Jeddah]]{{cn|date=November 2024}}
+<!-- -->
+|[[Global Aviation and Services Group|Global Air]]|[[Benina International Airport|Benghazi]]
+<!-- -->
+|[[Libyan Airlines]]| [[Sfax Thyna International Airport|Sfax]], [[Tunis-Carthage International Airport|Tunis]]
+<!-- -->
+|[[Medavia]]| [[Malta International Airport|Malta]]
+|[[MedSky Airways]]| [[Istanbul Airport|Istanbul]], [[Malta International Airport|Malta]] <br />'''Hajj & Umrah:''' [[King Abdulaziz International Airport|Jeddah]]{{cn|date=November 2024}}
+<!-- -->
+| [[Royal Jordanian]]
+| [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+|[[Turkish Airlines]]| [[Istanbul Airport|Istanbul]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+|[[Egyptair Cargo]]|[[Cairo International Airport|Cairo]], [[Frankfurt–Hahn Airport|Frankfurt]]
+<!-- -->
+|[[MNG Airlines]]|[[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

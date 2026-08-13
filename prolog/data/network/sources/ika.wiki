@@ -1,0 +1,83 @@
+==Airlines and destinations==
+As of March 2026, all flights have been suspended due to the [[2026 Iran war|Iran War]].
+
+Most of the airlines that fly into Imam Khomeini Airport are based in Turkey and the Middle East. The airport is served by two Western airlines, [[Lufthansa]] and [[Austrian Airlines]]. It is a hub for [[Iran Air]], [[Iran Aseman Airlines]], [[Mahan Air]] and [[Meraj Airlines]]. Imam Khomeini Airport receives all international flights to Tehran, while [[Mehrabad Airport]] caters to domestic traffic. There are flights to several cities in the [[Middle East]] and the rest of [[Asia]] such as [[Damascus]], [[Guangzhou]] and [[Mumbai]]. Tehran is also linked to destinations in [[Europe]] like [[Frankfurt]] and [[Moscow]]. In the fiscal year ending on 20 March 2019, the airport handled 7.27 million passengers, making it the third busiest in Iran. It received 142,000 tonnes of cargo, and the number of aircraft movements was 47,000.
+
+===Passenger===
+{{Airport-dest-list
+<!-- -->
+| [[Aeroflot]] | [[Sheremetyevo International Airport|Moscow–Sheremetyevo]]
+<!-- -->
+| [[Air Arabia]] | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Armenia Airways]] | [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| [[ATA Airlines (Iran)|ATA Airlines]] | [[Istanbul Airport|Istanbul]], [[Kuwait International Airport|Kuwait City]], [[Al Najaf International Airport|Najaf]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna International Airport|Vienna]] (temporarily suspended)
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]] (temporarily suspended)
+<!-- -->
+| {{nowrap|[[Caspian Airlines]]}} | [[Ankara Esenboğa Airport|Ankara]], [[Baghdad International Airport|Baghdad]], [[Istanbul Airport|Istanbul]], [[İzmir Adnan Menderes Airport|Izmir]], [[Al Najaf International Airport|Najaf]], [[Sharjah International Airport|Sharjah]], [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Ürümqi Tianshan International Airport|Ürümqi]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]] (temporarily suspended)
+<!-- -->
+| [[Fly Kish]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]] (temporarily suspended)
+<!-- -->
+| [[Iran Air]] | [[Heydar Aliyev International Airport|Baku]], [[Dubai International Airport|Dubai–International]], [[Istanbul Airport|Istanbul]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Al Najaf International Airport|Najaf]] <br/> '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]]
+<!-- -->
+| [[Iran Airtour]] | [[Heydar Aliyev International Airport|Baku]], [[Dubai International Airport|Dubai–International]], [[Islamabad International Airport|Islamabad]], [[Istanbul Airport|Istanbul]], [[İzmir Adnan Menderes Airport|Izmir]], [[Kabul International Airport|Kabul]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| {{nowrap|[[Iran Aseman Airlines]]}} | [[Baghdad International Airport|Baghdad]], [[Istanbul Airport|Istanbul]], [[Al Najaf International Airport|Najaf]], [[Tbilisi International Airport|Tbilisi]]
+<!-- -->
+| [[Iraqi Airways]] | [[Baghdad International Airport|Baghdad]], [[Al Najaf International Airport|Najaf]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Mahan Air]] | [[Ankara Esenboğa Airport|Ankara]], [[Baghdad International Airport|Baghdad]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Beijing Capital International Airport|Beijing–Capital]], [[Indira Gandhi International Airport|Delhi]], [[Dubai International Airport|Dubai–International]], [[Erbil International Airport|Erbil]], [[Kadyrov Grozny International Airport|Grozny]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Islamabad International Airport|Islamabad]], [[Istanbul Airport|Istanbul]], [[Kabul International Airport|Kabul]], [[Allama Iqbal International Airport|Lahore]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Phuket International Airport|Phuket]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Sulaimaniyah International Airport|Sulaimaniyah]] <br/>
+<!-- -->
+| [[Meraj Airlines]] | [[Baghdad International Airport|Baghdad]], [[Istanbul Airport|Istanbul]], [[İzmir Adnan Menderes Airport|Izmir]], [[Kabul International Airport|Kabul]], [[Mazar-i-Sharif International Airport|Mazar-i-Sharif]], [[Al Najaf International Airport|Najaf]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Ankara Esenboğa Airport|Ankara]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Qeshm Air]] | [[Almaty International Airport|Almaty]], [[Baghdad International Airport|Baghdad]], [[Dubai International Airport|Dubai–International]], [[Istanbul Airport|Istanbul]], [[Muscat International Airport|Muscat]], [[Al Najaf International Airport|Najaf]], [[Islam Karimov Tashkent International Airport|Tashkent]], [[Tbilisi International Airport|Tbilisi]], [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Sepehran Airlines]] | [[Ankara Esenboğa Airport|Ankara]], [[Baghdad International Airport|Baghdad]], [[Dubai International Airport|Dubai–International]], [[Istanbul Airport|Istanbul]], [[Muscat International Airport|Muscat]], [[Tbilisi International Airport|Tbilisi]], [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| [[Somon Air]] | [[Dushanbe International Airport|Dushanbe]]
+<!-- -->
+| [[Soroush Air]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Taban Air]] | [[Baghdad International Airport|Baghdad]], [[Istanbul Airport|Istanbul]], [[Jinnah International Airport|Karachi]], [[Muscat International Airport|Muscat]], [[Al Najaf International Airport|Najaf]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] (temporarily suspended)
+<!-- -->
+| [[Varesh Airlines]] | [[Batumi International Airport|Batumi]], [[Dushanbe International Airport|Dushanbe]], [[Istanbul Airport|Istanbul]] [[Kabul International Airport|Kabul]], [[Muscat International Airport|Muscat]], [[Al Najaf International Airport|Najaf]], [[Tbilisi International Airport|Tbilisi]]
+<!-- -->
+| [[Zagros Airlines]] | [[Al Najaf International Airport|Najaf]], [[Islam Karimov Tashkent International Airport|Tashkent]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Lufthansa Cargo]] | [[Frankfurt International Airport|Frankfurt]]
+<!-- -->
+| [[Qatar Airways Cargo]] | [[Hamad International Airport|Doha]], [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| {{nowrap|[[Turkish Cargo]]}} | [[Noi Bai International Airport|Hanoi]], [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

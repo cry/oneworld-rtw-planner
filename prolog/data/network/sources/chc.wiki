@@ -1,0 +1,51 @@
+==Airlines and destinations==
+As of December 2023, Christchurch airport is served by 11 airlines with scheduled services. The airport has direct flights to 18 domestic and 10 international destinations. A total of 900 scheduled domestic and 157 international flights arrive and depart each week.
+
+===Passenger===
+{{Airport-dest-list
+<!-- DO NOT ADD OR REMOVE FLIGHTS WITHOUT GIVING AN INDEPENDENT RELIABLE SOURCE! -->
+<!-- -->
+| [[Air Chathams]] | [[Chatham Islands / Tuuta Airport|Chatham Islands]]
+<!-- -->
+| [[Air New Zealand]] | [[Auckland Airport|Auckland]], [[Brisbane Airport|Brisbane]], [[Dunedin Airport|Dunedin]], [[Hamilton Airport (New Zealand)|Hamilton]], [[Hokitika Airport|Hokitika]], [[Invercargill Airport|Invercargill]], [[Melbourne Airport|Melbourne]], [[Hawke's Bay Airport|Napier]], [[Nelson Airport (New Zealand)|Nelson]], [[New Plymouth Airport|New Plymouth]], [[Palmerston North Airport|Palmerston North]], [[Queenstown Airport|Queenstown]], [[Rotorua Airport|Rotorua]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Tauranga Airport|Tauranga]], [[Wellington International Airport|Wellington]] <br />'''Seasonal:''' [[Adelaide Airport|Adelaide]], [[Gold Coast Airport|Gold Coast]],  [[Perth Airport|Perth]] (resumes 30 November 2026), [[Rarotonga International Airport|Rarotonga]] [[Changi Airport|Singapore]] (resumes 28 October 2026), [[Narita International Airport|Tokyo–Narita]] (resumes 28 November 2026)
+<!-- -->
+| [[Cathay Pacific]] | '''Seasonal:''' [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | '''Seasonal:''' [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]]
+<!-- -->
+| [[Jetstar]] | [[Auckland Airport|Auckland]], [[Cairns Airport|Cairns]] (ends 24 October 2026), [[Gold Coast Airport|Gold Coast]], [[Hamilton Airport (New Zealand)|Hamilton]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]] (resumes 26 October 2026), [[Wellington Airport|Wellington]] <br />'''Seasonal:''' [[Perth Airport|Perth]] (begins 27 October 2026) 
+<!-- -->
+| [[Originair]] | [[Woodbourne Airport|Blenheim]], [[Nelson Airport (New Zealand)|Nelson]], [[Palmerston North Airport|Palmerston North]]
+<!-- -->
+| [[Qantas]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| {{nowrap|[[Singapore Airlines]]}} | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Solomon Airlines]] | [[Bauerfield International Airport|Port Vila]]
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[San Francisco International Airport|San Francisco]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Airwork]] | [[Auckland Airport|Auckland]]
+<!-- -->
+| [[ASL Airlines Australia]] | [[Auckland Airport|Auckland]], [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[DHL Aviation]] | [[Auckland Airport|Auckland]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[FedEx Express]] | [[Auckland Airport|Auckland]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Parcelair]] | [[Auckland Airport|Auckland]], [[Palmerston North Airport|Palmerston North]]
+<!-- -->
+| [[Qantas Freight]] | [[Auckland Airport|Auckland]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[Texel Air Australasia]] | [[Auckland Airport|Auckland]], [[Palmerston North Airport|Palmerston North]]
+<!-- -->
+}}

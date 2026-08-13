@@ -1,0 +1,9 @@
+==Airlines and destinations==
+[[File:Breeze Airways N206BZ at Vero Beach Airport.jpg|thumb|A [[Breeze Airways]] [[Airbus A220|Airbus A220-300]] at the terminal ramp]]
+[[File:JetBlue at Vero Beach Airport.jpg|thumb|JetBlue Airbus A320 parked at the gate at Vero Beach Regional Airport in December 2025]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list 
+| {{nowrap|[[American Eagle (airline brand)|American Eagle]]}} | [[Charlotte Douglas International Airport|Charlotte]] <br />'''Seasonal:''' [[Philadelphia International Airport|Philadelphia]] (begins November 7, 2026)
+| {{nowrap|[[Breeze Airways]]}} | [[Atlantic City International Airport|Atlantic City]] (begins October 2, 2026), [[Baltimore/Washington International Airport|Baltimore]] (begins October 4, 2026), [[Bradley International Airport|Hartford]], [[Long Island MacArthur Airport|Long Island/Islip]], [[Tweed New Haven Airport|New Haven]], [[Pittsburgh International Airport|Pittsburgh]] (begins October 1, 2026), [[Rhode Island T. F. Green International Airport|Providence]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Trenton–Mercer Airport|Trenton]] (begins September 30, 2026), [[Dulles International Airport|Washington–Dulles]], [[Westchester County Airport|White Plains]] 
+| {{nowrap|[[JetBlue]]}} | [[Logan International Airport|Boston]], [[John F. Kennedy International Airport|New York–JFK]] (ends September 9, 2026)  
+}}

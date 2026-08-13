@@ -1,0 +1,56 @@
+== Airlines and destinations ==
+Since 2012, the commercial airlines serving the airport have remained unchanged. However, several of the airlines have added new destinations or modified existing service on established routes. Allegiant introduced service to five new cities. American added service to Phoenix and Charlotte, while also introducing mainline service to Dallas in February 2023 (supplementing its long-standing regional service to the city). Since 2012, the only known destinations to be cut from the airport's schedule that have not returned were five direct flights - Detroit (operated by Delta Connection) ended on November 25, 2012, [[Orlando International Airport|Orlando]] (operated by Frontier) ended in 2022, Charlotte (operated by American Eagle) ended on October 6, 2022, Orange County (operated by Allegiant) ended in 2023, and Austin (operated by Allegiant) ended in August 2024. Frontier previously offered service to Las Vegas in 2018 for six months and again, beginning in September 2021 until early 2023.
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+| [[Allegiant Air]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Harry Reid International Airport|Las Vegas]], [[Nashville International Airport|Nashville]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Mesa Gateway Airport|Phoenix/Mesa]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] <br />'''Seasonal:''' [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]]| 
+<!-- -->
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]|  
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] | 
+<!-- --> 
+| [[Delta Connection]] | [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] | 
+<!-- -->
+| [[Frontier Airlines]] |[[Denver International Airport|Denver]] |
+<!-- -->
+| [[United Airlines]] |[[Denver International Airport|Denver]], [[O'Hare International Airport|Chicago–O'Hare]]| 
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]] | 
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Sioux Falls Regional Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=43.5473 |long=-96.7283 |position=bottom|label=<small>'''{{nowrap|Sioux Falls}}'''</small>|caption=|mark=Airplane_silhouette.svg |marksize=20}}{{Location map~ |United_States |lat=41.978611 |long=-87.904722 |position=bottom |label=<small>'''{{nowrap|[[O'Hare International Airport|Chicago–O'Hare]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=44.881944 |long=-93.221667 |position=right|label=<small>'''{{nowrap|[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=36.08 |long=-115.152222 |position=right|label=<small>'''{{nowrap|[[Harry Reid International Airport|Las Vegas]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=28.777778 |long=-81.2375 |position=right |label=<small>'''{{nowrap|[[Orlando Sanford International Airport|Orlando/Sanford]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=33.307778 |long=-111.655556 |position=right|label=<small>'''{{nowrap|[[Mesa Gateway Airport|Phoenix/Mesa]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=33.4373 |long=-112.0078 |position=top|label=<small>'''{{nowrap|[[Phoenix Sky Harbor International Airport|Phoenix-Sky Harbor]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=27.91 |long=-82.6875 |position=left |label=<small>'''{{nowrap|[[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=39.861667 |long=-104.673056 |position=left |label=<small>'''{{nowrap|[[Denver International Airport|Denver]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=32.7767 |long=-96.7970|position=bottom|label=<small>'''{{nowrap|[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |mark = Green pog.svg |lat=26.918889 |long=-81.990833 |position=left |label=<small>'''{{nowrap|[[Punta Gorda Airport (Florida)|Punta Gorda]]}}'''</small> |label_size=100 |marksize=10}}
+{{Location map~ |United_States |mark = Green pog.svg |lat=36.126288 |long= -86.677471|position=left|label='''<small>[[Nashville International Airport|Nashville]]</small>'''|label_size=100 |marksize=10 }}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=right |label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>''' |label_size=100 |marksize=10 }}
+{{Location map~ |mark = Red pog.svg |United_States |lat=26.073989 |long=-80.150725 |position=right |label='''<small>[[Fort Lauderdale–Hollywood International Airport|{{nowrap|Fort Lauderdale}}]]</small>'''|label_size=100 |marksize=10 }}
+}}
+|}
+
+=== Cargo ===
+{{Airport destination list
+| [[Alpine Air Express]]| [[Aberdeen Regional Airport|Aberdeen]], [[Hector International Airport|Fargo]], [[Mobridge Municipal Airport|Mobridge]], [[Rapid City Regional Airport|Rapid City]], [[Watertown Regional Airport|Watertown]]
+| [[FedEx Express]]|[[Memphis International Airport|Memphis]], [[Hector International Airport|Fargo]]
+| [[FedEx Feeder]] <br> operated by [[CSA Air]]| [[Aberdeen Regional Airport|Aberdeen]], [[Pierre Regional Airport|Pierre]]
+| [[FedEx Feeder]] <br> operated by [[Empire Airlines]]| [[Rapid City Regional Airport|Rapid City]]
+| [[UPS Airlines]]|[[Louisville Muhammad Ali International Airport|Louisville]], [[Calgary International Airport|Calgary]] 
+| |
+||
+| |}}

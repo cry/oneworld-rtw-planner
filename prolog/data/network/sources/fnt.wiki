@@ -1,0 +1,40 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+<!-- -->
+| [[Allegiant Air]] |[[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]], [[Harry Reid International Airport|Las Vegas]], [[Nashville International Airport|Nashville]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Mesa Gateway Airport|Phoenix/Mesa]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] <br>'''Seasonal:''' [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Portland International Airport|Portland (OR)]], [[Sarasota–Bradenton International Airport|Sarasota]]
+| {{nowrap|[[American Eagle (airline brand)|American Eagle]]}} | [[O'Hare International Airport|Chicago–O'Hare]]
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]]
+<!-- -->
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=800 |float=center
+|caption=Destinations from Bishop International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination <br /> {{font color | pink | Pink}} = Destination being terminated
+|places={{Location map~ |United_States |lat=42.9734 |long=-83.7389 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Flint'''</small></div>|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=41.9742|long=-87.9073|position=left|label='''<small>{{nowrap|[[O'Hare International Airport|Chicago-O'Hare]]}}</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=27.9099|long=-82.6889|position=right|label='''<small>{{nowrap|[[St. Pete–Clearwater International Airport|St. Pete/Clearwater]]}}</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=28.7794|long=-81.2357|position=top|label='''<small>{{nowrap|[[Orlando Sanford International Airport|Orlando/Sanford]]}}</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=33.307778 |long=-111.655556 |position=bottom|label=<small>'''{{nowrap|[[Mesa Gateway Airport|Phoenix/Mesa]]}}'''</small>|label_size=90 |marksize=7}}
+{{Location map~ |mark = Green pog.svg |United_States |lat=26.0742|long=-80.1506|position=bottom|label='''<small>{{nowrap|[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]}}</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=26.9182|long=-81.9966|position=right|label='''<small>{{nowrap|[[Punta Gorda Airport (Florida)|Punta Gorda]]}}</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |mark = Green pog.svg |United_States |lat=27.3951|long=-82.5538|position=left|label='''<small>{{nowrap|[[Sarasota–Bradenton International Airport|Sarasota]]}}</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=36.131687|long=-86.668823|position=right|label='''<small>{{nowrap|[[Nashville International Airport|Nashville]]}}</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=36.08 |long=-115.152222 |position=left |label=<small>'''{{nowrap|[[Harry Reid International Airport|Las Vegas]]}}'''</small>|label_size=90 |marksize=7}}
+{{Location map~ |mark = Green pog.svg |United_States |lat=30.4941|long=-81.6879 |position=left|label='''<small>[[Jacksonville International Airport|Jacksonville]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United_States |lat=30.483333|long=-86.525278 |position=left|label='''<small>[[Destin–Fort Walton Beach Airport|Destin/Ft. Walton Beach]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=45.588611|long=-122.5975 |position=left|label='''<small>[[Portland International Airport|Portland]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[FedEx Express]]| [[Memphis International Airport|Memphis]], [[Indianapolis International Airport|Indianapolis]] 
+| [[FedEx Feeder]] | [[Alpena County Regional Airport|Alpena]]
+<br>'''Seasonal:''' [[Gaylord Regional Airport|Gaylord]]
+<!-- -->
+}}

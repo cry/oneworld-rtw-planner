@@ -1,0 +1,155 @@
+==Airlines and destinations==
+
+During its peak [[Tourism|tourist]] season, between November and March, Cape Town International maintains direct flights to 30 destinations across 35 routes, facilitated by 24 airlines and 228 flights per week.
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED.  -->
+===Passenger===
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED.  -->
+{{Airport destination list
+<!-- -->
+| [[Air Botswana]] | [[Sir Seretse Khama International Airport|Gaborone]], [[Kasane Airport|Kasane]], [[Maun Airport|Maun]]
+<!-- -->
+| [[Air France]] | '''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Mauritius]] | [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]]
+<!-- -->
+| [[Airlink]] | [[Bram Fischer International Airport|Bloemfontein]], [[Sir Seretse Khama International Airport|Gaborone]], [[George Airport|George]], [[Robert Gabriel Mugabe International Airport|Harare]], [[Air Force Base Hoedspruit|Hoedspruit]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kimberley Airport|Kimberley]], [[Maputo International Airport|Maputo]], [[Maun Airport|Maun]], [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]] (begins 02 October 2026), [[Kruger Mpumalanga International Airport|Mbombela]], [[Port Elizabeth Airport|Port Elizabeth]], [[Skukuza Airport|Skukuza]], [[Upington Airport|Upington]], [[Victoria Falls International Airport|Victoria Falls]], [[Walvis Bay Airport|Walvis Bay]], [[Hosea Kutako International Airport|Windhoek–Hosea Kutako]], [[Abeid Amani Karume International Airport|Zanzibar]] (begins 03 October 2026)<br>'''Seasonal:''' [[Saint Helena Airport|Saint Helena]]
+<!-- -->
+| [[Air Tanzania]] | [[Julius Nyerere International Airport|Dar es Salaam]]
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[CemAir]] | [[King Shaka International Airport|Durban]], [[East London Airport|East London]], [[Air Force Base Hoedspruit|Hoedspruit]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kimberley Airport|Kimberley]], [[Plettenberg Bay Aerodrome|Plettenberg Bay]] <br>'''Seasonal:''' [[George Airport|George]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]{{citation needed|date=January 2025}}
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]{{ref|a|a}}
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zürich]]{{citation needed|date=January 2025}}
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Eswatini Air]] | [[King Mswati III International Airport|Manzini]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Westair Aviation (Namibia)|FlyNamibia]] | [[Walvis Bay Airport|Walvis Bay]], [[Hosea Kutako International Airport|Windhoek–Hosea Kutako]]
+<!-- -->
+| [[FlySafair]] | [[Bram Fischer International Airport|Bloemfontein]], [[King Shaka International Airport|Durban]], [[East London Airport|East London]], [[George Airport|George]], [[Air Force Base Hoedspruit|Hoedspruit]], [[Lanseria International Airport|Johannesburg–Lanseria]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kruger Mpumalanga International Airport|Mbombela]], [[Port Elizabeth Airport|Port Elizabeth]], [[Hosea Kutako International Airport|Windhoek–Hosea Kutako]]
+<!-- -->
+| [[Kenya Airways]] | [[Harry Mwanga Nkumbula International Airport|Livingstone]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]{{ref|b|b}}, [[Victoria Falls Airport|Victoria Falls]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| {{nowrap|[[LAM Mozambique Airlines]]}} | [[Maputo International Airport|Maputo]]
+<!-- -->
+|[[LATAM Brasil]] | [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+| [[LIFT (airline)|LIFT]] | [[King Shaka International Airport|Durban]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]<br />'''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| [[Norse Atlantic Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Proflight Zambia]] | [[Harry Mwanga Nkumbula International Airport|Livingstone]], [[Lusaka International Airport|Lusaka]]{{ref|c|c}}
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]{{ref|d|d}}
+<!-- -->
+| {{nowrap|[[South African Airways]]}} | [[OR Tambo International Airport|Johannesburg–O. R. Tambo]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]]
+<!-- -->
+| [[TAAG Angola Airlines]] | [[Dr. Antonio Agostinho Neto International Airport|Luanda-Agostinho Neto]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[United Airlines]] | [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+| [[Virgin Atlantic]] | '''Seasonal:''' [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+}}
+;Notes
+*<small>{{note|a|a}} Some Delta Air Lines flights from Atlanta to Cape Town operate via Johannesburg. However, all flights from Cape Town to Atlanta are nonstop.</small>
+* <small>{{note|b|b}} Kenya Airways flights to Nairobi operate via Victoria Falls OR Livingstone.</small>
+*<small>{{note|c|c}} Lusaka flights operate via Livingstone on the same flight number.</small>
+* <small>{{note|d|d}} This flight operates via Johannesburg. However, this carrier does not have rights to transport passengers solely between Cape Town and Johannesburg.</small>
+
+===Cargo===
+{{Airport-dest-list
+|[[BidAir Cargo]] | [[Lanseria International Airport|Johannesburg–Lanseria]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Port Elizabeth International Airport|Port Elizabeth]]
+}}
+
+=== Destination Maps ===
+====South Africa====
+{{Location map+ |South Africa|width=620|float=center|relief=yes
+|caption=Destinations in South Africa from CPT.
+|places=
+{{Location map~ |South Africa |long=18.597222|lat=-33.969444 |position=left |label='''<small>Cape Town</small>''' |caption=|mark=Airplane_silhouette.svg|marksize=10 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-29.093889| long=26.303889|position=left|label='''<small>[[Bram Fischer International Airport|Bloemfontein]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-34.006667|long= 22.380833|position=left|label='''<small>[[George Airport|George]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-24.354722|long= 31.050278|position=left|label='''<small>[[Air Force Base Hoedspruit|Hoedspruit]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-26.133333|long= 28.25|position=right|label='''<small>[[O. R. Tambo International Airport
+|Johannesburg–O.R. Tambo]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-28.801667|long= 24.763611|position=left|label='''<small>[[Kimberley Airport|Kimberley]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-25.383333|long= 31.105556|position=left|label='''<small>[[Kruger Mpumalanga International Airport
+|Mbombela]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-33.984722|long= 25.610278|position=right|label='''<small>[[Chief Dawid Stuurman International Airport|Gqeberha]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-24.960833|long= 31.588611|position=left|label='''<small>[[Skukuza Airport|Skukuza]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-28.401111|long= 21.259722|position=left|label='''<small>[[Upington Airport|Upington]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-29.616667|long= 31.108333|position=left|label='''<small>[[King Shaka International Airport
+|Durban]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-33.035|long= 27.821389|position=left|label='''<small>[[King Phalo Airport|East London]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-34.08825|long= 23.329278|position=right|label='''<small>[[Plettenberg Bay Aerodrome|Plettenberg Bay]]</small>'''|marksize=7 }}
+{{Location map~ |South Africa |mark = Red pog.svg |lat=-25.938611|long= 27.926111|position=left|label='''<small>[[Lanseria International Airport|Johannesburg–Lanseria]]</small>'''|marksize=7 }}
+}}
+
+====International====
+{{CSS crop
+|Location=center
+|Description=International destinations from CPT.
+{{legend|red|Year-round}}
+{{legend|green|Seasonal}}
+{{legend|blue|Future}}
+|bSize=1150
+|cWidth=620
+|cHeight=350
+|oLeft=295
+|oTop=70
+|Content=
+{{Location map+ |Earth|width=1150|float=center|relief=yes
+|places=
+{{Location map~|Earth |long=18.597222|lat=-33.969444 |position=left |label='''<small>CPT</small>''' |caption=|mark=Airplane_silhouette.svg|label_size=70|marksize=10 }}
+{{Location map~ |Earth|mark = Red pog.svg |lat=-24.555278|long= 25.918333|position=bottom|label='''<small>[[Sir Seretse Khama International Airport|GBE]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = Red pog.svg |lat=-17.831944|long= 25.163889|position=left|label='''<small>[[Kasane Airport|BBK]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = Red pog.svg |lat=-19.9725|long=23.430556|position=left|label='''<small>[[Maun Airport|MUB]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = green pog.svg |lat=49.009722|long= 2.547778|position=left|label='''<small>[[Charles de Gaulle Airport|CDG]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = Red pog.svg |lat=-20.430028|long=57.683022|position=right|label='''<small>[[Sir Seewoosagur Ramgoolam International Airport|MRU]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~  |Earth|mark = Red pog.svg |lat=-17.931806|long= 31.092847|position=bottom|label='''<small>[[Robert Gabriel Mugabe International Airport|HRE]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~  |Earth|mark = Red pog.svg |lat=-25.920833|long= 32.5725|position=right|label='''<small>[[Maputo International Airport|MPM]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth |mark = Red pog.svg |lat=-18.095833|long=25.838889|position=right|label='''<small>[[Victoria Falls Airport|VFA]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = Red pog.svg |lat=-22.979722|long=14.645278|position=left|label='''<small>[[Walvis Bay Airport|WVB]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = Red pog.svg |lat=-22.486667|long= 17.4625| position=bottom|label='''<small>[[Hosea Kutako International Airport|WDH]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = green pog.svg |lat=-15.959167|long= -5.645833|position=left|label='''<small>[[Saint Helena Airport|HLE]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |mark = red pog.svg |lat=-6.878056|long= 39.202778|position=right|label='''<small>[[Julius Nyerere International Airport|DAR]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = red pog.svg |lat=51.4775|long= -0.461389|position=left|label='''<small>[[Heathrow Airport|LHR]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = red pog.svg |lat=50.033333|long= 8.570556 |position=right |label='''<small>[[Frankfurt Airport|FRA]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = red pog.svg |lat=33.636667|long= -84.428056| position=right| label='''<small>[[Hartsfield–Jackson Atlanta International Airport|ATL]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = green pog.svg |lat=47.464722| long= 8.549167|position=bottom|label='''<small>[[Zurich Airport|ZRH]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = red pog.svg |lat=25.252778| long= 55.364444|position=right|label='''<small>[[Dubai International Airport|DXB]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = red pog.svg |lat=-26.356667| long= 31.716944|position=bottom|label='''<small>[[King Mswati III International Airport|SHO]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth |mark = red pog.svg |lat=8.977778| long= 38.799444|position=left|label='''<small>[[Addis Ababa Bole International Airport|ADD]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~  |mark = red pog.svg |lat=-17.821667| long=25.822222|position=top|label='''<small>[[Harry Mwaanga Nkumbula International Airport|LVI]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = red pog.svg |lat=-1.318611| long= 36.925833|position=right|label='''<small>[[Jomo Kenyatta International Airport|NBO]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth |mark = red pog.svg |lat=52.3|long= 4.765|position=right|label='''<small>[[Amsterdam Airport Schiphol|AMS]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = blue pog.svg |lat=-23.435556| long= -46.473056|position=left|label='''<small>[[São Paulo/Guarulhos International Airport|GRU]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth|mark = green pog.svg |lat=48.353889|long=11.786111|position=right|label='''<small>[[Munich Airport|MUC]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth |mark = red pog.svg |lat=25.273056| long= 51.608056|position=left|label='''<small>[[Hamad International Airport|DOH]]</small>''' |label_size=70 |marksize=7 }}
+{{Location map~ |Earth |mark = red pog.svg |lat=-15.331667| long= 28.434167|position=right|label='''<small>[[Kenneth Kaunda International Airport|LUN]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~  |Earth|mark = red pog.svg |lat=1.359167| long= 103.989444|position=left|label='''<small>[[Changi Airport|SIN]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark = red pog.svg |lat=-9.046778| long=13.507194|position=left|label='''<small>[[Dr. António Agostinho Neto International Airport|NBJ]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark = red pog.svg |lat=41.262222| long= 28.727778|position=right|label='''<small>[[Istanbul Airport
+|IST]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth|mark = red pog.svg |lat=40.6925| long= -74.168611|position=right|label='''<small>[[Newark Liberty International Airport|EWR]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth|mark = red pog.svg |lat=38.944444|long= -77.455833|position=left|label='''<small>[[Dulles International Airport|IAD]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth|mark = blue pog.svg |lat=-6.222222| long=39.225|position=left|label='''<small>[[Abeid Amani Karume International Airport|ZNZ]]</small>''' |label_size=70 |marksize=7}}
+|}}
+}}

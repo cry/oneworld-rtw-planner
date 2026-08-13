@@ -1,0 +1,15 @@
+==Airlines and destinations==
+
+=== Passenger ===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+| [[AirBorneo]] |  [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Miri Airport|Miri]]
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+}}
+
+=== Cargo ===
+{{Airport-dest-list
+| [[MASkargo]] | [[Hong Kong International Airport|Hong Kong]], [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+| [[Raya Airways]] | [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]]
+}}

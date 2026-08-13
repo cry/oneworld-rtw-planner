@@ -1,0 +1,28 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+| [[Aeroméxico Connect]] | [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+|[[Aerus (airline)|Aerus]]|[[Monterrey International Airport|Monterrey]]
+<!-- -->
+|[[American Airlines]]|[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+| [[Viva (airline)|Viva]] | [[Monterrey International Airport|Monterrey]]
+<!-- -->
+| [[Volaris]] | [[Midway International Airport|Chicago–Midway]], [[Guadalajara International Airport|Guadalajara]], [[Querétaro Intercontinental Airport|Querétaro]], [[Tijuana International Airport|Tijuana]]
+}}
+
+=== Destination maps ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=right|caption=Domestic destinations from Durango International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Mexico |lat=24.1260 |long=-104.5339|position=left|label=<div style="position:relative; top:-5px;"><small>'''Durango'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.2610 |long=-099.0419|position=right|label='''[[Mexico City International Airport|{{nowrap|Mexico City–Benito Juárez}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = red pog.svg| Mexico|lat=25.7778 |long=-100.1080|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.7566 |long=-99.0152|position=top|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City–Felipe Ángeles}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = red pog.svg | Mexico|lat=20.5260 |long=-103.3076|position=top|label='''[[Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Blue pog.svg| Mexico|lat=20.6225 |long=-100.1873|position=top|label='''[[Querétaro Intercontinental Airport|{{nowrap|Querétaro}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|United States|width=650|float=center|caption=International destinations from Durango International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ |United_States |lat=32.899741|long=-97.040424|position=left |label='''<small>{{nowrap|[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]}}</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=41.4710|long=-87.4509|position=right|label='''<small>[[Midway International Airport|Chicago–Midway]]</small>'''|label_size=100 |marksize=7 }}}}
+|}

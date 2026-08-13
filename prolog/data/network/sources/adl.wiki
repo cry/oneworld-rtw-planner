@@ -1,0 +1,54 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+<!-- -->
+| [[Air New Zealand]] | [[Auckland Airport|Auckland]] <br/> '''Seasonal:''' [[Christchurch Airport|Christchurch]]
+<!-- -->
+| [[Alliance Airlines]] | [[Olympic Dam Airport|Olympic Dam]] <br /> '''Charter:''' [[Ballera Airport|Ballera]], [[Moomba Airport|Moomba]]
+<!-- -->
+| [[Cathay Pacific]] |''' Seasonal:''' [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[China Eastern Airlines]] |''' Seasonal:''' [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[China Southern Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]]  
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]]
+<!-- -->
+| [[Jetstar]] | [[Avalon Airport|Avalon]], [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]], [[Darwin International Airport|Darwin]], [[Ngurah Rai International Airport|Denpasar]], [[Gold Coast Airport|Gold Coast]], [[Hobart Airport|Hobart]], [[Melbourne Airport|Melbourne]], [[Perth Airport|Perth]], [[Sunshine Coast Airport|Sunshine Coast]], [[Sydney Airport|Sydney–Kingsford Smith]] <br/> '''Seasonal:''' [[Whitsunday Coast Airport|Proserpine]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| {{nowrap|[[National Jet Express]]}} | '''Charter:''' [[Carrapateena Airport|Carrapateena]], [[Port Augusta Airport|Port Augusta]], [[Prominent Hill Airport|Prominent Hill]]
+<!-- -->
+| [[Pel-Air]] | '''Charter:''' [[Jacinth Ambrosia Airport|Jacinth-Ambrosia Mine]]
+<!-- -->
+| [[Qantas]] |[[Melbourne Airport|Melbourne]], [[Perth Airport|Perth]], [[Sydney Airport|Sydney–Kingsford Smith]] <br/> '''Seasonal: '''[[Auckland Airport|Auckland]]
+<!-- -->
+| [[QantasLink]] | [[Alice Springs Airport|Alice Springs]], [[Brisbane Airport|Brisbane]], [[Canberra Airport|Canberra]], [[Darwin International Airport|Darwin]], [[Kingscote Airport|Kingscote/Kangaroo Island]], [[Melbourne Airport|Melbourne]], [[Newcastle Airport, New South Wales|Newcastle]], [[Port Lincoln Airport|Port Lincoln]], [[Whyalla Airport|Whyalla]]
+<!-- -->
+| [[Qatar Airways]] | [[Auckland Airport|Auckland]] (ends 8 December 2026), [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Rex Airlines]] | [[Broken Hill Airport|Broken Hill]], [[Ceduna Airport|Ceduna]], [[Coober Pedy Airport|Coober Pedy]], [[Mount Gambier Airport|Mount Gambier]], [[Port Lincoln Airport|Port Lincoln]]
+<!-- -->
+| [[Singapore Airlines]] | [[Singapore Changi Airport|Singapore]]
+<!-- -->
+| [[United Airlines]] | ''' Seasonal:''' [[San Francisco Airport|San Francisco]]
+<!-- -->
+| [[Virgin Australia]] | [[Alice Springs Airport|Alice Springs]], [[Brisbane Airport|Brisbane]], [[Canberra Airport|Canberra]], [[Gold Coast Airport|Gold Coast]], [[Hobart Airport|Hobart]], [[Melbourne Airport|Melbourne]], [[Perth Airport|Perth]], [[Sydney Airport|Sydney–Kingsford Smith]] <br/> '''Seasonal:''' [[Launceston Airport|Launceston]] <br/>'''Charter:''' [[Olympic Dam Airport|Olympic Dam]]
+<!-- -->
+| {{nowrap|[[Virgin Australia Regional Airlines]]}} | [[Perth Airport|Perth]]
+}}
+
+Qantas formerly operated dedicated "flightseeing" services over Antarctica from Adelaide with the [[Boeing 787-9 Dreamliner]]. These 13-hour flights departed Adelaide from the domestic terminal and provided a guided aerial tour of Antarctica before returning to Australia, having previously been flown with the [[Boeing 747-400]].
+
+===Cargo===
+Airlines with scheduled freighter aircraft, excluding freight services provided by passenger aircraft or connecting truck services to other airports.
+{{Airport-dest-list
+<!-- -->
+| [[Qantas Freight]] | [[Melbourne Airport|Melbourne]], [[Perth Airport|Perth]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Western Sydney Airport|Sydney–Western]]
+<!-- -->
+| [[Toll Group]] | [[Canberra Airport|Canberra]], [[Melbourne Airport|Melbourne]], [[Perth Airport|Perth]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+}}

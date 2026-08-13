@@ -1,0 +1,5 @@
+==Airlines and destinations== 
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[QantasLink]] | [[Sydney Airport|Sydney]]
+}}

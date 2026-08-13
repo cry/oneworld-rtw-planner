@@ -1,0 +1,29 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[ANA Wings]] | [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| [[Ibex Airlines]] | [[Chubu Centrair International Airport|Nagoya–Centrair]]
+<!-- -->
+| [[J-Air]] | [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Jeju Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Jetstar Japan]] |[[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Peach Aviation|Peach]] | [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Solaseed Air]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[T'way Air]] | '''Seasonal:''' [[Incheon International Airport|Seoul–Incheon]]{{cn|date=August 2025}}
+<!-- -->
+}}

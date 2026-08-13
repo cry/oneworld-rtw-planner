@@ -1,0 +1,10 @@
+== Airlines and destinations ==
+The following airlines operate regular scheduled and charter flights at Laayoune Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+| {{nowrap|[[Royal Air Maroc]]}}| [[Agadir-Al Massira Airport|Agadir]], [[Mohammed V International Airport|Casablanca]], [[Dakhla Airport|Dakhla]], [[Gran Canaria Airport|Gran Canaria]], [[Marrakesh Menara Airport|Marrakesh]], [[Rabat–Salé Airport|Rabat]]
+<!-- -->
+}}

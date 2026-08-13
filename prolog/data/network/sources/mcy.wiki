@@ -1,0 +1,15 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{airport-dest-list|
+{{nowrap|[[Air Fraser Island]]}}|'''Charter:''' [[K'gari|K'gari (Fraser Island)]]{{cn|date=May 2025}}
+<!-- -->
+|{{nowrap|[[Air New Zealand]]}}| '''Seasonal:''' [[Auckland Airport|Auckland]]
+<!-- -->
+|[[Alliance Airlines]]|'''Charter:''' [[Emerald Airport|Emerald]]
+<!-- -->
+|[[Jetstar]]|[[Adelaide Airport|Adelaide]], [[Auckland Airport|Auckland]] (ends 24 October 2026), [[Cairns Airport|Cairns]], [[Ngurah Rai International Airport|Denpasar]], [[Melbourne Airport|Melbourne]], [[Changi Airport|Singapore]], [[Sydney Airport|Sydney]]
+<!-- -->
+|[[Qantas]]|[[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+<!-- -->
+|[[Virgin Australia]]| [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+}}

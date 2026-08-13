@@ -1,0 +1,9 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[Alaska Airlines]] | [[Ted Stevens Anchorage International Airport|Anchorage]]
+| [[Bering Air]] | [[Brevig Mission Airport|Brevig Mission]], [[Deering Airport|Deering]], [[Elim Airport|Elim]], [[Gambell Airport|Gambell]], [[Ralph Wien Memorial Airport|Kotzebue]], [[Koyuk Alfred Adams Airport|Koyuk]], [[Savoonga Airport|Savoonga]], [[Shishmaref Airport|Shishmaref]], [[St. Michael Airport|St. Michael]], [[Stebbins Airport|Stebbins]], [[Teller Airport|Teller]], [[Tin City LRRS Airport|Tin City]], [[Unalakleet Airport|Unalakleet]], [[Wales Airport (Alaska)|Wales]], [[White Mountain Airport|White Mountain]]
+}}
+
+[[File:Nome Airport.jpg|thumb|Nome Airport]]

@@ -1,0 +1,8 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Update section|date=January 2022}}
+{{Airport destination list
+| [[Alaska Airlines]] | [[Ted Stevens Anchorage International Airport|Anchorage]]
+| [[Wright Air Service]] | [[Atqasuk Edward Burnell Sr. Memorial Airport|Atqasuk]], [[Deadhorse Airport|Deadhorse/Prudhoe Bay]], [[Nuiqsut Airport|Nuiqsut]], [[Point Lay LRRS Airport|Point Lay]], [[Wainwright Airport (Alaska)|Wainwright]]
+}}

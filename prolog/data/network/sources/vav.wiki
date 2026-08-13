@@ -1,0 +1,7 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[Fiji Link]] |'''Seasonal:''' [[Nadi International Airport|Nadi]]
+| [[Lulutai Airlines]] | [[Fuaʻamotu International Airport|Nuku'alofa]]
+}}

@@ -1,0 +1,22 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Chathams]] | [[Chatham Islands / Tuuta Airport|Chatham Islands]]
+<!-- -->
+| {{nowrap|[[Air New Zealand]]}}| [[Auckland Airport|Auckland]], [[Woodbourne Airport|Blenheim]], [[Brisbane Airport|Brisbane]], [[Christchurch Airport|Christchurch]], [[Dunedin Airport|Dunedin]], [[Gisborne Airport|Gisborne]], [[Hamilton Airport (New Zealand)|Hamilton]], [[Melbourne Airport|Melbourne]], [[Napier Airport|Napier]], [[Nelson Airport (New Zealand)|Nelson]], [[New Plymouth Airport|New Plymouth]], [[Queenstown Airport|Queenstown]], [[Rotorua Airport|Rotorua]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Tauranga Airport|Tauranga]], [[Timaru Airport|Timaru]]
+<!-- -->
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]]
+| {{nowrap|[[Golden Bay Air]]}} | [[Tākaka Aerodrome|Tākaka]]
+<!-- -->
+| [[Jetstar]] | [[Auckland Airport|Auckland]], [[Christchurch Airport|Christchurch]], [[Gold Coast Airport|Gold Coast]], [[Queenstown Airport|Queenstown]]
+<!-- -->
+| [[Originair]] | [[Woodbourne Airport|Blenheim]], [[Nelson Airport (New Zealand)|Nelson]], [[Westport Airport (New Zealand)|Westport]]
+<!-- -->
+| [[Qantas]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[QantasLink]] | [[Brisbane Airport|Brisbane]]
+<!-- -->
+| [[Sounds Air]] | [[Woodbourne Airport|Blenheim]], [[Nelson Airport (New Zealand)|Nelson]], [[Picton Aerodrome|Picton]]
+<!-- -->
+}}

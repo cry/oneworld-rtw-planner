@@ -1,0 +1,20 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Allegiant Air]] | [[Orlando Sanford International Airport|Orlando/Sanford]], [[St. Pete-Clearwater International Airport|St. Petersburg/Clearwater]] <br />'''Seasonal:''' [[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]]|
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Chicago O'Hare International Airport|Chicago–O'Hare]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]|
+<!-- -->
+| [[Breeze Airways]] | [[Orlando International Airport|Orlando]]|
+<!-- -->
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]|
+<!-- -->
+}}
+
+===Cargo===
+The following [[airline]]s offer scheduled cargo service:{{Airport destination list
+<!-- -->
+}}

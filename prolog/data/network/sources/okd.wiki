@@ -1,0 +1,7 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+| [[Fuji Dream Airlines]] | [[Nagoya Airfield|Nagoya–Komaki]]
+| {{nowrap|[[Hokkaido Air System]]}} | [[Akita Airport|Akita]], [[Hakodate Airport|Hakodate]], [[Kushiro Airport|Kushiro]], [[Memanbetsu Airport|Memanbetsu]], [[Misawa Airport|Misawa]], [[Nemuro_Nakashibetsu_Airport|Nakashibetsu]], [[Okushiri Airport|Okushiri]], [[Rishiri Airport|Rishiri]]
+| [[Toki Air]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Niigata Airport|Niigata]]
+}}

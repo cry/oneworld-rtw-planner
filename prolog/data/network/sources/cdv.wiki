@@ -1,0 +1,62 @@
+==Airline and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[Alaska Airlines]] | [[Ted Stevens Anchorage International Airport|Anchorage]], [[Yakutat Airport|Yakutat]]
+}}
+
+===Cargo===
+{{Airport destination list
+| [[Alaska Central Express]] | [[Ted Stevens Anchorage International Airport|Anchorage]], [[Yakutat Airport|Yakutat]]
+}}
+
+===Statistics===
+{| class="wikitable"
+|+ Top airlines at CDV (July 2023 - June 2024)
+
+! Rank
+! Airline
+! Passengers
+! Percent of market share
+|-
+| align=right | 1
+| [[Alaska Airlines]]
+| align=right | 35,950
+| align=right | 100.00%
+|-
+|}
+
+{| class="wikitable"
+|+ Top domestic destinations: July 2023 – June 2024
+
+! Rank
+! City
+! Airport
+! Passengers
+! Carriers
+
+|-
+| align=right | 1
+| [[Anchorage, Alaska|Anchorage]]
+| [[Ted Stevens Anchorage International Airport]]
+| align=right | 14,680
+| Alaska
+|-
+| align=right  | 2
+| [[Seattle metropolitan area|Seattle/Tacoma, WA]]
+| [[Seattle–Tacoma International Airport]]
+| align=right | 2,370
+|
+|-
+| align=right | 3
+| [[Juneau, Alaska]]
+| [[Juneau International Airport]]
+| align=right | 1,080
+|
+|-
+| align=right | 4
+| [[Yakutat, Alaska]]
+| [[Yakutat Airport]]
+| align=right | 150
+| Alaska
+|}

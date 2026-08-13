@@ -1,0 +1,6 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[Alliance Airlines]] | [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]]
+| [[QantasLink]] | [[Cairns Airport|Cairns]]
+| [[Skytrans Australia]] | [[Aurukun Airport|Aurukun]], [[Cairns Airport|Cairns]], [[Lockhart River Airport|Lockhart River]]}}

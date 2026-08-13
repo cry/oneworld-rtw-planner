@@ -1,0 +1,67 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+The following passenger airlines operate at the airport:
+
+{{Airport-dest-list
+| [[Air Tanzania]] | [[Accra International Airport|Accra]], [[Arusha Airport|Arusha]], [[Melchior Ndadaye International Airport|Bujumbura]], [[Bukoba Airport|Bukoba]], [[Cape Town International Airport|Cape Town]], [[Dodoma Airport|Dodoma–City]], [[Msalato International Airport|Dodoma–Msalato]] (begins 1 October 2026), [[Dubai International Airport|Dubai]], [[Entebbe International Airport|Entebbe]], [[Geita Airport|Geita–Chato]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Robert Gabriel Mugabe International Airport|Harare]], [[Iringa Airport|Iringa]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kigoma Airport|Kigoma]], [[Kilimanjaro International Airport|Kilimanjaro]], [[Gatwick Airport|London–Gatwick]] (begins 1 July 2027), [[N'djili Airport|Kinshasa–N'djili]], [[Murtala Muhammed International Airport|Lagos]], [[Lubumbashi International Airport|Lubumbashi]], [[Kenneth Kaunda International Airport|Lusaka]], [[Songwe Airport|Mbeya]], [[Seychelles International Airport|Mahé]], [[Prince Said Ibrahim International Airport|Moroni]], [[Vnukovo International Airport|Moscow–Vnukov]], [[Mpanda Airport|Mpanda]], [[Mtwara Airport|Mtwara]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Muscat International Airport|Muscat]], [[Mwanza Airport|Mwanza]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Simon Mwansa Kapwepwe International Airport|Ndola]], [[Pemba Airport (Tanzania)|Pemba Island]], [[Songea Airport|Songea]], [[Sumbawanga Airport|Sumbawanga]], [[Tabora Airport|Tabora]], [[Victoria Falls Airport|Victoria Falls]], [[Abeid Amani Karume International Airport|Zanzibar]]
+
+| [[Air Zimbabwe]] | [[Robert Gabriel Mugabe International Airport|Harare]]
+
+| [[Airlink]] | [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+
+| [[Auric Air]] | [[Iringa Airport|Iringa]],{{cn|date=April 2026}} [[Mafia Airport|Mafia Island]],{{cn|date=April 2026}} [[Mwanza Airport|Mwanza]],{{cn|date=April 2026}} [[Pemba Airport (Tanzania)|Pemba Island]],{{cn|date=April 2026}} [[Tanga Airport|Tanga]], [[Abeid Amani Karume International Airport|Zanzibar]]{{cn|date=April 2026}}
+
+| [[Coastal Air (Tanzania)|Coastal Air]] | [[Mafia Airport|Mafia Island]],{{cn|date=April 2026}} [[Pemba Airport (Tanzania)|Pemba Island]],{{cn|date=April 2026}} [[Tanga Airport|Tanga]] [[Abeid Amani Karume International Airport|Zanzibar]]{{cn|date=April 2026}}
+
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Ewa Air]] | [[Dzaoudzi–Pamandzi International Airport|Mayotte]]
+
+| [[Flightlink]] | [[Arusha Airport|Arusha]],{{cn|date=April 2026}} [[Mwanza Airport|Mwanza]], [[Abeid Amani Karume International Airport|Zanzibar]]{{cn|date=April 2026}}
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Kenya Airways]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+
+| {{nowrap|[[LAM Mozambique Airlines]]}} | [[Maputo International Airport|Maputo]], [[Pemba Airport (Mozambique)|Pemba]]{{cn|date=April 2026}}
+
+| [[Malawi Airlines]] | [[Chileka International Airport|Blantyre]], [[Kamuzu International Airport|Lilongwe]]
+
+| [[Oman Air]] | [[Muscat International Airport|Muscat]]
+
+|[[Precision Air]] | [[Arusha Airport|Arusha]], [[Kahama Airstrip|Kahama]], [[Kilimanjaro International Airport|Kilimanjaro]], [[Mtwara Airport|Mtwara]],{{Citation needed|date=April 2026}} [[Mwanza Airport|Mwanza]],{{Citation needed|date=April 2026}} [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Abeid Amani Karume International Airport|Zanzibar]]
+
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+
+| [[RwandAir]] | [[Kigali International Airport|Kigali]]
+
+| [[Skyward Airlines]] | [[Moi International Airport|Mombasa]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+
+<!-- -->
+| {{nowrap|[[South African Airways]]}} | [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Uganda Airlines]] | [[Entebbe International Airport|Entebbe]]
+
+| [[Zambia Airways]] | [[Kenneth Kaunda International Airport|Lusaka]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Air Tanzania]] | [[Dubai International Airport|Dubai–International]], [[N'djili Airport|Kinshasa–N'djili]], [[Lubumbashi International Airport|Lubumbashi]], [[Chhatrapati Shivaji International Airport|Mumbai]]
+<!-- -->
+| [[Astral Aviation]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[Kenya Airways Cargo]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+}}

@@ -1,0 +1,91 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights at Islamabad International Airport:
+{{Airport destination list
+<!-- -->
+|[[Aero Nomad Airlines]] | [[Manas International Airport|Bishkek]]
+<!-- -->
+|[[Air Arabia]] | [[Ras Al Khaimah International Airport|Ras Al Khaimah]]
+<!-- -->
+|[[Ariana Afghan Airlines]] | [[Kabul International Airport|Kabul]]
+<!-- -->
+|[[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]{{ref|1|1}}
+<!-- -->
+| [[Airblue]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[King Fahd International Airport|Dammam]], [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[Jinnah International Airport|Karachi]], [[King Khalid International Airport|Riyadh]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[AirSial]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[King Fahd International Airport|Dammam]], [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[Jinnah International Airport|Karachi]], [[Muscat International Airport|Muscat]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+|[[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+|[[British Airways]] | [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+|[[China Southern Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Kashgar Laining International Airport|Kashgar]], [[Ürümqi Diwopu International Airport|Ürümqi]]
+<!-- -->
+|[[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+|[[Fly Jinnah]] | [[Bahrain International Airport|Bahrain]], [[King Fahd International Airport|Dammam]], [[Allama Iqbal International Airport|Lahore]], [[King Abdulaziz International Airport|Jeddah]], [[Jinnah International Airport|Karachi]], [[Quetta International Airport|Quetta]], [[King Khalid International Airport|Riyadh]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Flyadeal]] | [[King Khalid International Airport|Riyadh]]
+<!-- -->
+|[[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Flynas]] | [[King Khalid International Airport|Riyadh]]
+<!-- -->
+|[[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[Iran Airtour]] | [[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+|[[Iraqi Airways]] | [[Baghdad International Airport|Baghdad]], [[Al Najaf International Airport|Najaf]]
+<!-- -->
+|[[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+|[[Kam Air]] | [[Kabul International Airport|Kabul]]
+<!-- -->
+|[[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+|[[Mahan Air]]|[[Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+|{{nowrap|[[Pakistan International Airlines]]}} | [[Abu Dhabi International Airport|Abu Dhabi]], [[Al Ain International Airport|Al Ain]], [[Baku International Airport|Baku]], [[Beijing Capital International Airport|Beijing–Capital]], [[Chitral Airport|Chitral]], [[King Fahd International Airport|Dammam]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Qassim Regional Airport|Gassim]], [[Gilgit Airport|Gilgit]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[Jinnah International Airport|Karachi]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Heathrow Airport|London–Heathrow]],  [[Manchester Airport|Manchester]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Muscat International Airport|Muscat]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Quetta International Airport|Quetta]], [[King Khalid International Airport|Riyadh]], [[Skardu International Airport|Skardu]], [[Sukkur Airport|Sukkur]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+|[[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Riyadh Air]] | [[King Khalid International Airport|Riyadh]] (Begins 14 August)
+<!-- -->
+|[[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+|[[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+|[[Somon Air]] | [[Dushanbe International Airport|Dushanbe]]
+<!-- -->
+|[[South Air]] | [[Bahawalpur Airport|Bahawalpur]], [[Jinnah International Airport|Karachi]]
+<!-- -->
+|[[Thai Airways International]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+|[[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+|[[Uzbekistan Airways]] | [[Tashkent International Airport|Tashkent]]
+}}
+{{ref|1|1}}: [[Air China]]'s flight from Islamabad to Beijing makes a stopover in Karachi. However, the airline has no traffic rights to transport passengers solely between Islamabad and Karachi.
+
+===Cargo===
+{| class="wikitable"
+|+
+!Airline
+!Destinations
+!Notes
+|-
+|[[SF Airlines]]
+|[[Ürümqi Tianshan International Airport|Urumqi]]
+|2x weekly on Boeing 757-200PCF
+|-
+|[[TCS Courier]]
+|[[Jinnah International Airport|Karachi]], [[Allama Iqbal International Airport|Lahore]]
+|
+|-
+|[[K2 Airways]]
+|[[Navoi International Airport|Navoiy]], [[Jinnah International Airport|Karachi]]
+|
+|}

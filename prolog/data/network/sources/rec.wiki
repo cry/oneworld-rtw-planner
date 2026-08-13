@@ -1,0 +1,29 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+|{{nowrap|[[Azul Brazilian Airlines]]}} | [[Aracaju Airport|Aracaju]], [[Belém/Val-de-Cans International Airport|Belém]], [[Belo Horizonte International Airport|Belo Horizonte–Confins]], [[Brasília International Airport|Brasília]], [[Campina Grande Airport|Campina Grande]], [[Viracopos International Airport|Campinas]],  [[Fernando de Noronha Airport|Fernando de Noronha]], [[Fortaleza Airport|Fortaleza]], [[Santa Genoveva Airport|Goiânia]], [[João Pessoa Airport|João Pessoa]], [[Zumbi dos Palmares International Airport|Maceió]], [[Madrid–Barajas Airport|Madrid]], [[Eduardo Gomes International Airport|Manaus]], [[Carrasco International Airport|Montevideo]], [[Mossoró Airport|Mossoró]] (resumes 3 September 2026), [[Greater Natal International Airport|Natal]], [[Orlando International Airport|Orlando]], [[Petrolina Airport|Petrolina]], [[Porto Airport|Porto]], [[Salgado Filho International Airport|Porto Alegre]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[Salvador Bahia Airport|Salvador da Bahia]], [[Marechal Cunha Machado International Airport|São Luís]], [[São Paulo–Congonhas Airport|São Paulo–Congonhas]], [[São Paulo–Guarulhos International Airport|São Paulo–Guarulhos]], [[Teresina Airport|Teresina]], [[Eurico de Aguiar Salles Airport|Vitória]]<br>'''Seasonal:''' [[Silvio Pettirossi International Airport|Asunción]], [[Bauru-Arealva Airport|Bauru/Arealva]], [[Afonso Pena International Airport|Curitiba]], [[Hercílio Luz International Airport|Florianópolis]], [[Foz do Iguaçu International Airport|Foz do Iguaçu]], [[Juazeiro do Norte Airport|Juazeiro do Norte]], [[Leite Lopes Airport|Ribeirão Preto]], [[São José do Rio Preto Airport|São José do Rio Preto]] 
+<!-- -->
+|[[Azul Conecta]] | [[Araripina Airport|Araripina]], [[Cajazeiras Airport|Cajazeiras]], [[Caruaru Airport|Caruaru]], [[Garanhuns Airport|Garanhuns]], [[Patos Airport|Patos]]
+<!-- -->
+|[[Cabo Verde Airlines]] | [[Nelson Mandela International Airport|Praia]], [[Amílcar Cabral International Airport|Sal]] (resumes 31 October 2026) 
+<!-- -->
+|[[Gol Linhas Aéreas]] | [[Brasília International Airport|Brasília]], [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport|Cordoba (AR)]], [[Fernando de Noronha Airport|Fernando de Noronha]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[Salvador Bahia Airport|Salvador da Bahia]], [[São Paulo–Congonhas Airport|São Paulo–Congonhas]], [[São Paulo–Guarulhos International Airport|São Paulo–Guarulhos]]<br>'''Seasonal:'''  [[Eurico de Aguiar Salles Airport|Vitória]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[JetSmart Argentina]] | [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]]
+<!-- -->
+|[[LATAM Airlines Brasil|LATAM Brasil]] | [[Brasília International Airport|Brasília]], [[Fortaleza Airport|Fortaleza]], [[Petrolina Airport|Petrolina]] (begins 2 September 2026), [[Arturo Merino Benítez International Airport|Santiago de Chile]], [[São Paulo–Congonhas Airport|São Paulo–Congonhas]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]<br>'''Seasonal:''' [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Rio de Janeiro–Galeão International Airport|Rio de Janeiro–Galeão]]
+<!-- -->
+|[[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+|[[LATAM Cargo Brasil]] | [[Miami International Airport|Miami]]
+<!-- -->
+|[[Lufthansa Cargo]] | [[Viracopos International Airport|Campinas]], [[Afonso Pena International Airport|Curitiba]], [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+|[[Modern Logistics]] | [[Brasília International Airport|Brasília]], [[Viracopos International Airport|Campinas]], [[Eduardo Gomes International Airport|Manaus]]
+}}

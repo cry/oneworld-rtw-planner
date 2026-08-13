@@ -1,0 +1,33 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Ponta Delgada Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna Airport|Vienna]] (begins 30 June 2026)
+| [[Azores Airlines]] |[[Barcelona Airport|Barcelona]],  [[Logan International Airport|Boston]], [[Gago Coutinho Airport|Faro]], [[Madeira Airport|Funchal]], [[Lisbon Airport|Lisbon]], [[Montréal–Pierre Elliott Trudeau International Airport|Montréal–Trudeau]], [[John F. Kennedy International Airport|New York–JFK]],  [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Francisco de Sá Carneiro Airport|Porto]], [[Nelson Mandela International Airport|Praia]], [[Toronto Pearson International Airport|Toronto–Pearson]] <br /> '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Binter Canarias]] | '''Seasonal:''' [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[London Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Düsseldorf International Airport|Düsseldorf]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Lufthansa]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[SATA Air Açores]] | [[Flores Airport|Flores]], [[Horta Airport|Horta]], [[Pico Airport|Pico]], [[Santa Maria Airport (Azores)|Santa Maria]], [[São Jorge Airport|São Jorge]], [[Lajes Airport|Terceira]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal:''' [[Václav Havel Airport Prague|Prague]]
+<!-- -->
+| {{nowrap|[[TAP Air Portugal]]}} | [[Lisbon Airport|Lisbon]]{{citation needed|date=May 2026}}
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+| [[United Airlines]] | '''Seasonal:''' [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+}}

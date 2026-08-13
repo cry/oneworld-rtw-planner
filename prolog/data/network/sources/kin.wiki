@@ -1,0 +1,22 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Air Canada Rouge]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+| [[Arajet]] | [[Punta Cana International Airport|Punta Cana]], [[Las Américas International Airport|Santo Domingo–Las Américas]]
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]]
+| {{nowrap|[[Caicos Express Airways]]}} | [[Providenciales International Airport|Providenciales]]
+| [[Caribbean Airlines]] | [[V. C. Bird International Airport|Antigua]], [[Grantley Adams Airport|Barbados]], [[Lynden Pindling International Airport|Nassau]], [[John F. Kennedy International Airport|New York–JFK]], [[Piarco International Airport|Port of Spain]], [[Princess Juliana International Airport|St. Maarten]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+| [[Cayman Airways]] | [[Owen Roberts International Airport|Grand Cayman]]
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br />'''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+| [[Flair Airlines]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+| {{nowrap|[[InterCaribbean Airways]]}} | [[Grantley Adams International Airport|Barbados]], [[José Martí International Airport|Havana]], [[Sangster International Airport|Montego Bay]], [[Providenciales International Airport|Providenciales]], [[Antonio Maceo Airport|Santiago de Cuba]]
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[John F. Kennedy International Airport|New York–JFK]]
+| [[Liat20]] | [[Sangster International Airport|Montego Bay]]
+| [[Sky High Aviation Services|Sky High]] | '''Charter:''' [[Las Américas International Airport|Santo Domingo–Las Américas]]{{cn|date=December 2024}}
+| [[WestJet]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+}}

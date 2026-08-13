@@ -1,0 +1,10 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Ignacio Agramonte International Airport:
+
+{{Airport-dest-list
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Viva (airline)|Viva]] | '''Seasonal:''' [[Cancún International Airport|Cancún]]
+<!-- -->
+}}

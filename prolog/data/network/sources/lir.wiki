@@ -1,0 +1,33 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Canada]] | [[Toronto Pearson International Airport|Toronto–Pearson]] <br /> '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+|[[Air Canada Rouge]] | '''Seasonal:''' [[Vancouver International Airport|Vancouver]] (begins 14 December 2026)
+<!-- -->
+| [[Air Transat]] | [[Montréal–Trudeau International Airport|Montréal–Trudeau]] <br /> [[Toronto Pearson International Airport|Toronto–Pearson]]{{cn|date=May 2025}}
+<!-- -->
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]]<br /> '''Seasonal:''' [[San Francisco International Airport|San Francisco]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]],{{cn|date=May 2025}} [[John F. Kennedy International Airport|New York–JFK]],{{cn|date=May 2025}} [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Los Angeles International Airport|Los Angeles]]<br />'''Seasonal:''' [[Logan International Airport|Boston]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[John F. Kennedy International Airport|New York–JFK]] (resumes 19 December 2026) 
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[John F. Kennedy International Airport|New York–JFK]]<br />'''Seasonal:''' [[Logan International Airport|Boston]]
+<!-- -->
+|[[Porter Airlines]]| '''Seasonal:''' [[Ottawa Macdonald–Cartier International Airport|Ottawa]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Sansa Airlines]] | [[Nosara Airport|Nosara]], [[Quepos La Managua Airport|Quepos]], [[Juan Santamaría International Airport|San José–Juan Santamaría]], [[Tamarindo Airport|Tamarindo]], [[Tambor Airport|Tambor]]
+<!-- -->
+| [[Southwest Airlines]] | [[William P. Hobby Airport|Houston–Hobby]]<br /> '''Seasonal:''' [[Baltimore/Washington International Airport|Baltimore]],{{cn|date=May 2025}} [[Denver International Airport|Denver]], [[Nashville International Airport|Nashville]] (begins 13 February 2026)
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]],{{cn|date=May 2025}} [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]{{cn|date=May 2025}}
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]],{{cn|date=May 2025}} [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]],{{cn|date=May 2025}} [[Newark Liberty International Airport|Newark]],{{cn|date=May 2025}} [[San Francisco International Airport|San Francisco]]{{cn|date=May 2025}}
+<!-- -->
+| [[WestJet]] | [[Calgary International Airport|Calgary]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]] <br/>'''Seasonal:''' [[Ottawa Macdonald–Cartier International Airport|Ottawa]] (begins 20 December 2026), [[Vancouver International Airport|Vancouver]], [[Winnipeg James Armstrong Richardson International Airport|Winnipeg]]
+<!-- -->
+}}

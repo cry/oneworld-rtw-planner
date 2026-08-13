@@ -1,0 +1,18 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Côte d'Ivoire]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]],{{cn|date=June 2026}} [[Blaise Diagne International Airport|Dakar–Diass]]{{cn|date=June 2026}}
+<!-- -->
+| [[Air Senegal]] | [[Blaise Diagne International Airport|Dakar–Diass]]{{cn|date=June 2026}}
+<!-- -->
+| [[ASKY Airlines]] | [[Lomé-Tokoin Airport|Lomé]]
+<!-- -->
+| [[euroAtlantic Airways]] | [[Portela Airport|Lisbon]]{{cn|date=June 2026}}
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Portela Airport|Lisbon]]
+<!-- -->
+| [[Turkish Airlines]] | [[Blaise Diagne International Airport|Dakar–Diass]], [[Istanbul Airport|Istanbul]]
+}}

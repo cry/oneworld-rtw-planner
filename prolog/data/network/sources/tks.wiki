@@ -1,0 +1,13 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo-Haneda]]
+<!-- -->
+| [[Eastar Jet]] | [[Incheon International Airport|Seoul-Incheon]]
+<!-- -->
+| [[J-Air]] | [[Fukuoka Airport|Fukuoka]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo-Haneda]], [[New Chitose Airport|Sapporo-Chitose]] (Seasonal)
+<!-- -->
+}}

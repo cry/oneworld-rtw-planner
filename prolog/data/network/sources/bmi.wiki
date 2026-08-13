@@ -1,0 +1,68 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[Allegiant Air]] | [[Orlando Sanford International Airport|Orlando/Sanford]], [[Mesa Gateway Airport|Phoenix/Mesa]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]| 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] | 
+<!-- -->
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] | 
+|[[United Express]]|[[O'Hare International Airport|Chicago–O'Hare]]| }}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Central Illinois Regional Airport <br /> {{font color | red |Red}} = Year-round destination <br /> {{font color | green | Green }} = Seasonal destination <br /> {{font color| blue |Blue}} = Future destination
+|places=
+{{Location map~ |United_States |lat=40.477222|long=-88.915833|position=bottom|label='''<small>Bloomington</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.636667|long=-84.428056|position=right |label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=41.978611|long=-87.904722|position=left |label='''<small>[[O'Hare International Airport|Chicago–O'Hare]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=28.775502|long=-81.243443|position=left|label='''<small>[[Orlando Sanford International Airport|Orlando/Sanford]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=27.906783|long=-82.691860|position=left|label='''<small>[[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark=Blue pog.svg |United_States |lat=33.307778|long=-111.655556|position=right|label='''<small>[[Mesa Gateway Airport|Phoenix/Mesa]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}
+
+===Cargo===
+{{Airport destination list
+| [[FedEx Express]] | [[Memphis International Airport|Memphis]]
+}}
+
+===Top destinations===
+{| class="wikitable sortable" style="font-size: 95%" width= align=
+|+ '''Busiest domestic routes from BMI<br />(March 2025 – February 2026)'''
+|-
+! Rank
+! City
+! Passengers
+! Airline
+|-
+| 1
+| [[Hartsfield–Jackson Atlanta International Airport|Atlanta, Georgia]]
+| 44,700
+| Delta
+|-
+| 2
+| [[Dallas Fort Worth International Airport|Dallas/Fort Worth, Texas]]
+| 43,190
+| American
+|-
+| 3
+| [[O'Hare International Airport|Chicago–O'Hare, Illinois]]
+| 32,350
+| American
+|-
+| 4
+| [[Orlando Sanford International Airport|Orlando (Sanford), Florida]]
+| 19,490
+| Allegiant
+|-
+| 5
+| [[St. Pete-Clearwater International Airport|St. Petersburg/Clearwater, Florida]]
+| 17,400
+| Allegiant
+|}

@@ -1,0 +1,24 @@
+==Airlines and destinations==
+{{Airport destination list
+<!-- -->
+|[[American Eagle (airline brand)|American Eagle]]| [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]],  [[Ronald Reagan Washington National Airport|Washington–National]]<br />'''Seasonal:''' [[Miami International Airport|Miami]]
+<!-- -->
+|[[BermudAir]]|[[L.F. Wade International Airport|Bermuda]] 
+<!-- -->
+|[[Breeze Airways]]|[[Charleston International Airport|Charleston (SC)]], [[Myrtle Beach International Airport|Myrtle Beach]], [[Raleigh–Durham International Airport|Raleigh/Durham]], [[Savannah/Hilton Head International Airport|Savannah]], [[Vero Beach Regional Airport|Vero Beach]] <br />'''Seasonal:''' [[Sarasota–Bradenton International Airport|Sarasota]]
+<!-- -->
+|[[Cape Air]]|[[Lebanon Municipal Airport (New Hampshire)|Lebanon (NH)]] <br />'''Seasonal:''' [[Martha's Vineyard Airport|Martha’s Vineyard]]
+<!-- -->
+|[[Delta Air Lines]]|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+|{{nowrap|[[Delta Connection]]}}|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+|[[JetBlue]]|[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Southwest Florida International Airport|Fort Myers]], [[Orlando International Airport|Orlando]], [[Luis Muñoz Marín International Airport|San Juan]], [[Tampa International Airport|Tampa]], [[Palm Beach International Airport|West Palm Beach]] <br />'''Seasonal:''' [[Nantucket Memorial Airport|Nantucket]]
+<!-- -->
+|[[JSX (airline)|JSX]]|[[Fort Lauderdale Executive Airport|Fort Lauderdale–Executive]], [[Miami-Opa Locka Executive Airport|Miami–Opa Locka]], [[Palm Beach International Airport|West Palm Beach]] <br />'''Seasonal:''' [[Naples Airport (Florida)|Naples (FL)]]
+}}
+
+=== Helicopter ===
+{{Airport destination list
+| [[Blade (company)|Blade]] | [[West 30th Street Heliport|Manhattan–W 30th St]], [[John F. Kennedy International Airport|New York–JFK]], [[Newark Liberty International Airport|Newark]] 
+}}

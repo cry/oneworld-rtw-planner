@@ -1,0 +1,53 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->The following airlines operate regular scheduled flights to and from Glasgow:
+{{Airport destination list
+<!-- -->
+| [[Aer Lingus]] | [[Belfast City Airport|Belfast–City]], [[Cork Airport|Cork]], [[Dublin Airport|Dublin]]
+<!-- -->
+|[[Air Charter Scotland]]|[[Wick Airport|Wick]] (begins 15 August 2026)
+<!-- -->
+| [[Air Transat]] | [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[British Airways]] | [[London City Airport|London–City]], [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]] <br/> '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]], [[San Sebastián Airport|San Sebastián]]
+<!-- -->
+| {{nowrap|[[Corendon Airlines]]}} | '''Seasonal:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[easyJet]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Antalya Airport|Antalya]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Belfast City Airport|Belfast–City]], [[Belfast International Airport|Belfast–International]],  [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Enfidha–Hammamet International Airport|Enfidha]], [[Faro Airport|Faro]], [[Hurghada International Airport|Hurghada]], [[Jersey Airport|Jersey]], [[Lisbon Airport|Lisbon]], [[Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]], [[Málaga Airport|Málaga]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Václav Havel Airport Prague|Prague]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]] (begins 1 August 2026), [[Southampton Airport|Southampton]] <br/> '''Seasonal:''' [[Agadir–Al Massira Airport|Agadir]], [[Berlin Brandenburg Airport|Berlin]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Chania International Airport|Chania]], [[Dalaman Airport|Dalaman]], [[Fuerteventura Airport|Fuerteventura]], [[Geneva Airport|Geneva]], [[Gran Canaria Airport|Gran Canaria]], [[Kos International Airport|Kos]], [[Lanzarote Airport|Lanzarote]], [[Larnaca International Airport|Larnaca]], [[Malta International Airport|Malta]] (begins 4 August 2026), [[Marrakesh Menara Airport|Marrakesh]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Pisa International Airport|Pisa]] (begins 1 August 2026), [[Porto Airport|Porto]], [[Pula Airport|Pula]], [[Reus Airport|Reus]], [[Split Airport|Split]], [[Tenerife South Airport|Tenerife–South]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Hannover Airport|Hannover]]
+<!-- -->
+| [[Icelandair]] | [[Keflavík International Airport|Reykjavík–Keflavík]]
+<!-- -->
+| [[Jet2.com]] | [[Agadir–Al Massira Airport|Agadir]], [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Antalya Airport|Antalya]], [[Faro Airport|Faro]], [[Fuerteventura Airport|Fuerteventura]], [[Madeira Airport|Funchal]], [[Gran Canaria Airport|Gran Canaria]], [[Hurghada International Airport|Hurghada]] (begins 11 February 2027), [[Lanzarote Airport|Lanzarote]], [[Málaga Airport|Málaga]], [[Marrakesh Menara Airport|Marrakesh]], [[Rome Fiumicino Airport|Rome–Fiumicino]] [[Tenerife South Airport|Tenerife–South]] <br/> '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]], [[Milas–Bodrum Airport|Bodrum]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Burgas Airport|Burgas]], [[Corfu International Airport|Corfu]], [[Dalaman Airport|Dalaman]], [[Dubrovnik Airport|Dubrovnik]], [[Geneva Airport|Geneva]], [[Girona–Costa Brava Airport|Girona]], [[Heraklion International Airport "Nikos Kazantzakis"|Heraklion]], [[Ibiza Airport|Ibiza]], [[İzmir Adnan Menderes Airport|İzmir]], [[Kefalonia International Airport|Kefalonia]], [[Kos International Airport|Kos]], [[Kraków John Paul II International Airport|Kraków]], [[Larnaca International Airport|Larnaca]], [[Malta International Airport|Malta]], [[Menorca Airport|Menorca]], [[Naples International Airport|Naples]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Paphos International Airport|Paphos]], [[Václav Havel Airport Prague|Prague]], [[Reus Airport|Reus]], [[Keflavík International Airport|Reykjavík–Keflavík]], [[Rhodes International Airport|Rhodes]], [[Verona Villafranca Airport|Verona]], [[Vienna International Airport|Vienna]], [[Zakynthos International Airport|Zakynthos]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Loganair]] | [[Barra Airport|Barra]], [[Benbecula Airport|Benbecula]], [[Campbeltown Airport|Campbeltown]], [[City of Derry Airport|Derry]], [[Donegal Airport|Donegal]], [[Islay Airport|Islay]], [[Kirkwall Airport|Kirkwall]], [[Stornoway Airport|Stornoway]], [[Sumburgh Airport|Sumburgh]], [[Tiree Airport|Tiree]] <br> '''Seasonal:''' [[Newquay Airport|Newquay]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | '''Seasonal:''' [[Tromsø Airport|Tromsø]] (begins 11 December 2026)
+<!-- -->
+<!--RYANAIR HAVE AXED FLIGHTS FROM GLASGOW TO CHARLEROI, DO NOT ADD IT BACK! -->
+| [[Ryanair]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Dublin Airport|Dublin]], [[Kraków John Paul II International Airport|Kraków]], [[London Stansted Airport|London–Stansted]], [[Málaga Airport|Málaga]], [[Malta International Airport|Malta]], [[Warsaw Modlin Airport|Warsaw–Modlin]], [[Wrocław Airport|Wrocław]]
+<!-- -->
+| [[SunExpress]] | [[Antalya Airport|Antalya]] <br /> '''Seasonal:''' [[Dalaman Airport|Dalaman]]
+<!-- -->
+| [[TUI Airways]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Gran Canaria Airport|Gran Canaria]], [[Lanzarote Airport|Lanzarote]], [[Amílcar Cabral International Airport|Sal]],  [[Sharm El Sheikh International Airport|Sharm El Sheikh]], [[Tenerife South Airport|Tenerife–South]] <br /> '''Seasonal:''' [[Antalya Airport|Antalya]], [[Grantley Adams International Airport|Barbados]], [[Cancún International Airport|Cancún]], [[Chambéry Airport|Chambéry]], [[Corfu International Airport|Corfu]], [[Dalaman Airport|Dalaman]], [[Dubrovnik Airport|Dubrovnik]], [[Enfidha–Hammamet International Airport|Enfidha]], [[Ibiza Airport|Ibiza]], [[Kittilä Airport|Kittilä]], [[La Romana International Airport|La Romana]], [[Málaga Airport|Málaga]], [[Melbourne Orlando International Airport|Melbourne/Orlando]], [[Menorca Airport|Menorca]], [[Naples International Airport|Naples]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Paphos International Airport|Paphos]], [[Reus Airport|Reus]], [[Rhodes International Airport|Rhodes]], [[Salzburg Airport|Salzburg]], [[Turin Airport|Turin]], [[Verona Villafranca Airport|Verona]], [[Zakynthos International Airport|Zakynthos]]
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Wizz Air]] | [[Milan Malpensa Airport|Milan–Malpensa]] (ends 4 September 2026), [[Rome Fiumicino Airport|Rome–Fiumicino]] (ends 24 October 2026)
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[Loganair]] | [[kirkwall Airport|Kirkwall]], [[Stornoway Airport|Stornoway]], [[Sumburgh Airport|Sumburgh]]
+}}

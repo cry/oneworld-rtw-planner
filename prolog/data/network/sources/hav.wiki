@@ -1,0 +1,23 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Havana Airport:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO, ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+|[[Aerogaviota]] | [[Gustavo Rizo Airport|Baracoa]], [[Jardines del Rey Airport|Cayo Coco]], [[Rafael Cabrera Mustelier Airport|Nueva Gerona]], [[Antonio Maceo Airport|Santiago de Cuba]]
+|[[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+|[[Air Century]] | [[La Isabela International Airport|Santo Domingo–La Isabela]]
+|[[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]], [[Madrid–Barajas Airport|Madrid]]
+|[[Air Europa]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+|[[American Airlines]] | [[Miami International Airport|Miami]]
+|[[Caribbean Airlines]] | [[Piarco International Airport|Port of Spain]]
+|[[Conviasa]] | [[Simón Bolívar International Airport (Venezuela)|Caracas]]{{cn|date=April 2026}}
+|[[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+|{{nowrap|[[Cubana de Aviación]]}} | [[Frank País Airport|Holguín]], [[Rafael Cabrera Mustelier Airport|Nueva Gerona]], [[Antonio Maceo Airport|Santiago de Cuba]]
+|[[Delta Air Lines]] | [[Miami International Airport|Miami]]
+|[[RUTACA Airlines|Rutaca Airlines]] | [[Arturo Michelena International Airport|Valencia (VE)]]
+|[[Sky High Aviation Services|Sky High]] | [[Cheddi Jagan International Airport|Georgetown–Cheddi Jagan]]
+|[[Southwest Airlines]] | [[Tampa International Airport|Tampa]]
+|[[TAAG Angola Airlines]] | [[Dr. Antonio Agostinho Neto International Airport|Luanda]]
+|[[Viva (airline)|Viva]] | [[Cancún International Airport|Cancún]], [[Mérida International Airport|Mérida]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]]
+|[[Wingo (airline)|Wingo]] | [[El Dorado International Airport|Bogotá]]
+}}

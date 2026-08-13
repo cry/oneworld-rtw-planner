@@ -1,0 +1,37 @@
+==Airlines and destinations==
+[[File:N793SA Southwest Airlines Boeing 737-7H4 Serial Number 27888 (29958348588).jpg|thumb|A [[Southwest Airlines]] [[Boeing 737-700]] parked at a gate in the airport's Concourse A|330x330px]]
+
+===Passenger===
+{{Airport destination list
+<!--DO NOT ADD TERMINAL/CONCOURSE INFORMATION TO THIS TABLE AS IT VIOLATES [[WP:NOTTRAVEL]], SOURCES ADDED PER DISCUSSION AT [[Wikipedia_talk:WikiProject_Airports#Proposal_to_Change_Template_Discussion]], PLEASE EXPRESS CONCERNS YOU MAY HAVE AT THIS DISCUSSION, NOT BY CHANGING THIS TABLE!!!-->
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[John F. Kennedy International Airport|New York–JFK]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]]<br />'''Seasonal:''' [[Miami International Airport|Miami]]{{citation needed|date=May 2026}}
+<!-- -->
+| [[Breeze Airways]] | [[Charleston International Airport|Charleston (SC)]], [[Bradley International Airport|Hartford]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Harry Reid International Airport|Las Vegas]], [[Long Island MacArthur Airport|Long Island/Islip]], [[Tweed New Haven Airport|New Haven]], [[Louis Armstrong New Orleans International Airport|New Orleans]], [[Orlando International Airport|Orlando]], [[Rhode Island T. F. Green International Airport|Providence]], [[Tampa International Airport|Tampa]], [[Palm Beach International Airport|West Palm Beach]] <br />'''Seasonal:''' [[Akron–Canton Airport|Akron/Canton]], [[Cancún International Airport|Cancún]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Southwest Florida International|Fort Myers]], [[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Pittsburgh International Airport|Pittsburgh]], [[Portland International Jetport|Portland (ME)]], [[San Diego International Airport|San Diego]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]<br />'''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]]
+<!-- -->
+| [[Delta Connection]] | [[Logan International Airport|Boston]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis-St Paul International Airport|Minneapolis/St. Paul]], [[John F. Kennedy International Airport|New York–JFK]], [[LaGuardia Airport|New York–LaGuardia]]
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Orlando International Airport|Orlando]] <br/> '''Seasonal:''' [[Tampa International Airport|Tampa]]
+<!-- -->
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Luis Muñoz Marín International Airport|San Juan]] <br/> '''Seasonal:''' [[Logan International Airport|Boston]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Baltimore/Washington International Airport|Baltimore]], [[Midway International Airport|Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Nashville International Airport|Nashville]], [[Orlando International Airport|Orlando]] <br/> '''Seasonal:''' [[Denver International Airport|Denver]], [[Kansas City International Airport|Kansas City]], [[St. Louis Lambert International Airport|St. Louis]]
+<!-- -->
+| [[United Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Newark Liberty International Airport|Newark]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->}}
+
+===Cargo===
+{{Incomplete list|date=February 2026}}
+{{Airport destination list
+<!-- -->
+|[[FedEx Express]] |[[Memphis International Airport|Memphis]]
+<!-- -->
+|[[FedEx Feeder]] operated by [[Mountain Air Cargo]]|[[Dare County Regional Airport|Manteo]]
+<!-- -->
+}}

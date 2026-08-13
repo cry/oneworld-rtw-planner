@@ -1,0 +1,24 @@
+==Airlines and destinations== 
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+<!-- only include destinations where airlines have local traffic rights -->
+[[File:9GAFQatGFLL.jpg|thumb|An [[Africa World Airlines]] aircraft at Lungi Airport]]
+{{Airport-dest-list
+<!-- -->
+|[[Air Peace]]|[[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+|[[Air Senegal]]|[[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+|[[Air Sierra Leone]]|[[Murtala Muhammed International Airport|Lagos]], [[London Gatwick Airport|London–Gatwick]]
+<!-- -->
+|[[ASKY Airlines]]|[[Accra International Airport|Accra]], [[Banjul International Airport|Banjul]], [[Conakry International Airport|Conakry]], [[Lomé–Tokoin International Airport|Lomé]]
+<!-- -->
+|[[Brussels Airlines]]|[[Brussels Airport|Brussels]], [[Roberts International Airport|Monrovia–Roberts]]
+<!-- -->
+|{{nowrap|[[Ethiopian Airlines]]}}|[[Addis Ababa Bole International Airport|Addis Ababa]], [[Roberts International Airport|Monrovia–Roberts]]
+<!-- -->
+|[[Kenya Airways]]|[[Accra International Airport|Accra]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+|[[Royal Air Maroc]]|[[Mohammed V International Airport|Casablanca]]<!-- RAM only has traffic rights to Morocco; do not add any other destinations here -->
+<!-- -->
+|[[Turkish Airlines]]|[[Istanbul Airport|Istanbul]], [[Ouagadougou Airport|Ouagadougou]] (all flights suspended)
+}}

@@ -1,0 +1,10 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines themselves are not independent sources. -->
+{{Update section|date=January 2022}}
+{{Airport destination list|
+{{nowrap|[[Alaska Airlines]]}} | [[Ted Stevens Anchorage International Airport|Anchorage]]
+| {{nowrap|[[Aleutian Airways]]}} | [[Ted Stevens Anchorage International Airport|Anchorage]]
+| [[Grant Aviation]] | [[Chignik Airport|Chignik]], [[Chignik Lagoon Airport|Chignik Lagoon]], [[Chignik Lake Airport|Chignik Lake]], [[Clarks Point Airport|Clarks Point]], [[Dillingham Airport|Dillingham]], [[Egegik Airport|Egegik]], [[Igiugig Airport|Igiugig]], [[Levelock Airport|Levelock]], [[Perryville Airport|Perryville]], [[Pilot Point Airport|Pilot Point]], [[Port Heiden Airport|Port Heiden]], [[South Naknek Airport|South Naknek]], [[Ugashik Bay Airport|Ugashik Bay<!--do not use Ugashik Airport-->]]
+| [[Katmai Air]]  | [[Ted Stevens Anchorage International Airport|Anchorage]], [[Brooks Camp]]
+}}

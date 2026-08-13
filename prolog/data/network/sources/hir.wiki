@@ -1,0 +1,14 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Niugini]] | [[Jacksons International Airport|Port Moresby]], [[Bauerfield International Airport|Port Vila]]{{cn|date=June 2026}}
+<!-- -->
+| [[QantasLink]] | [[Brisbane Airport|Brisbane]]
+<!-- -->
+| [[Solomon Airlines]] | [[Jacksons International Airport|Port Moresby]]
+<!-- -->
+}}
+
+[[Image:Henderson Airfield runway.jpg|thumb|Aerial view of Honiara International Airport looking to east]]

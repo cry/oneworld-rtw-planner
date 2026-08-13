@@ -1,0 +1,37 @@
+==Airlines and destinations==
+<!--DO NOT ALTER THIS LIST WITHOUT UNDERSTANDING WHAT A DIRECT FLIGHT IS AND CITING YOUR INDEPENDENT SOURCE. IF IN DOUBT, CHECK THE TALK PAGE.-->
+[[File:Prince Naif bin Abdulaziz International Airport.jpg|thumb|right|alt=Airport]]
+{{Airport-dest-list
+<!-- -->
+|[[Air Arabia]]| [[Cairo International Airport|Cairo]], [[Sharjah International Airport|Sharjah]], [[Sohag International Airport|Sohag]]
+<!-- -->
+|[[Air Cairo]]| [[Assiut Airport|Assiut]], [[Cairo International Airport|Cairo]], [[Sohag International Airport|Sohag]]
+<!-- -->
+|[[AlMasria Universal Airlines]]|[[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Egyptair]]|[[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Etihad Airways]]|[[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+|[[Flyadeal]]|[[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]] <br /> '''Seasonal:''' [[Sarajevo International Airport|Sarajevo]], [[Trabzon Airport|Trabzon]]
+<!-- -->
+|[[Flydubai]]|[[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Flynas]]|[[Abha Regional Airport|Abha]], [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+|[[Gulf Air]]|[[Bahrain International Airport|Bahrain]]
+<!-- -->
+|[[Jazeera Airways]]|[[Kuwait International Airport|Kuwait City]]
+<!-- -->
+|[[Nesma Airlines]]|[[Cairo International Airport|Cairo]], [[Ha'il Regional Airport|Ha'il]]
+<!-- -->
+|[[Nile Air]]|[[Cairo International Airport|Cairo]], [[Sohag International Airport|Sohag]]
+<!-- -->
+|{{nowrap|[[Pakistan International Airlines]]}}|[[Islamabad International Airport|Islamabad]], [[Multan International Airport|Multan]]
+<!-- -->
+|[[Qatar Airways]]|[[Hamad International Airport|Doha]]
+<!-- -->
+|[[Saudia]]|[[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+|[[Turkish Airlines]]|[[Istanbul Airport|Istanbul]] <br /> '''Seasonal:''' [[Rize–Artvin Airport|Rize]]
+}}

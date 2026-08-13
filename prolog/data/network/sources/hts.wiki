@@ -1,0 +1,84 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable = yes
+<!-- -->
+| [[Allegiant Air]] | [[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]],{{citation needed|date=June 2025}} [[Orlando Sanford International Airport|Orlando/Sanford]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]<br />'''Seasonal:''' [[Myrtle Beach International Airport|Myrtle Beach]]{{citation needed|date=June 2025}} | 
+<!-- -->
+| {{nowrap|[[American Eagle (airline brand)|American Eagle]]}} | [[Charlotte Douglas International Airport|Charlotte]]| 
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable = yes
+| [[FedEx Express]] | [[Memphis, Tennessee|Memphis]]
+|}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Tri-State Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=38.3684|long=-82.5578|position=top|label='''<small>Huntington</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=28.775502|long=-81.243443|position=left|label='''<small>[[Orlando Sanford International Airport|Orlando/Sanford]]</small>'''|label_size=90
+|marksize=7 }}
+{{Location map~ |United_States |lat=27.906783|long=-82.691860|position=left|label='''<small>[[St. Pete–Clearwater International Airport|St. Pete-Clearwater]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=26.915976|long=-81.997713|position=right|label='''<small>[[Punta Gorda Airport (Florida)|Punta Gorda]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=35.213889|long=-80.943056 |position=under |label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=30.483333|long=-86.525278 |position=top|label='''<small>[[Destin–Fort Walton Beach Airport|Destin-Fort Walton Beach]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=33.679722 |long= -78.928333 |position=right |label=<small>'''{{nowrap|[[Myrtle Beach International Airport|Myrtle Beach]]}}'''</small>|label_size=90 |marksize=7}}
+{{Location map~ |mark = Red pog.svg |United_States |lat=26.0725 |long=-80.152778 |position=right |label=<small>'''{{nowrap|[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]}}'''</small>|label_size=90 |marksize=7}}
+}}
+|}
+
+===Top destinations===
+{| class="wikitable sortable" style="font-size:90%"
+|+ '''Top domestic destinations out of HTS'''<br /> (August 2024 – July 2025)
+! Rank
+! City
+! Airport
+! Passengers
+! Carriers
+|-
+| 1
+| [[Charlotte, North Carolina]]
+| [[Charlotte Douglas International Airport|CLT]]
+| 35,310
+| American
+|-
+| 2
+| [[Tampa-St. Petersburg-Clearwater, FL MSA|St. Petersburg-Clearwater, Florida]]
+| [[St. Pete–Clearwater International Airport|PIE]]
+| 24,830
+| Allegiant
+|-
+| 3
+| [[Greater Orlando|Orlando, Florida]]
+| [[Orlando Sanford International Airport|SFB]]
+| 21,270
+| Allegiant
+|-
+| 4
+| [[Myrtle Beach, South Carolina]]
+| [[Myrtle Beach International Airport|MYR]]
+| 7,960
+| Allegiant
+|-
+| 5
+| [[Fort Walton Beach, Florida]]
+| [[Destin–Fort Walton Beach Airport|VPS]]
+| 5,360
+| Allegiant
+|-
+| 6
+| [[Punta Gorda, Florida]]
+| [[Punta Gorda Airport (Florida)|PGD]]
+| 2,940
+| Allegiant
+|-
+| 7
+| [[Fort Lauderdale, Florida]]
+| [[Fort Lauderdale–Hollywood International Airport|FLL]]
+| 2,500
+| Allegiant
+|}

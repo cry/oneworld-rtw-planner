@@ -1,0 +1,70 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Aero K]] | [[Cheongju International Airport|Cheongju]]
+<!-- -->
+| [[All Nippon Airways]] | [[Fukuoka Airport|Fukuoka]], [[Hiroshima Airport|Hiroshima]], [[Iwakuni Airport|Iwakuni]], [[Matsuyama Airport|Matsuyama]], [[Miyako Airport|Miyako]], [[Itami Airport|Osaka–Itami]], [[Sendai Airport|Sendai]], [[Haneda Airport|Tokyo–Haneda]]<br />'''Seasonal:''' [[Shizuoka Airport|Shizuoka]] (ends 30 September 2026)
+<!-- -->
+| [[ANA Wings]] | [[Fukuoka Airport|Fukuoka]], [[New Ishigaki Airport|Ishigaki]], [[Marine Corps Air Station Iwakuni|Iwakuni]], [[Kumamoto Airport|Kumamoto]], [[Matsuyama Airport|Matsuyama]], [[Miyako Airport|Miyako]], [[Chubu Centrair International Airport|Nagoya–Centrair]]
+<!-- -->
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[China Airlines]] | [[Kaohsiung International Airport|Kaohsiung]], [[Taichung International Airport|Taichung]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| {{nowrap|[[China Eastern Airlines]]}} | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Eastar Jet]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Hong Kong Airlines]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Japan Airlines|Japan Air Commuter]] | [[Amami Airport|Amami Ōshima]],  [[Okinoerabu Airport|Okinoerabu]]
+<!-- -->
+| [[Japan Airlines]] | [[Itami Airport|Osaka–Itami]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Japan Transocean Air]] | [[Fukuoka Airport|Fukuoka]], [[New Ishigaki Airport|Ishigaki]], [[Komatsu Airport|Komatsu]], [[Kumejima Airport|Kumejima]], [[Miyako Airport|Miyako]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Okayama Airport|Okayama]], [[Kansai International Airport|Osaka–Kansai]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Jeju Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Jetstar Japan]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Kansai International Airport|Osaka–Kansai]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Jin Air]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Peach Aviation|Peach]] | [[Fukuoka Airport|Fukuoka]], [[Kansai International Airport|Osaka–Kansai]], [[New Chitose Airport|Sapporo–Chitose]], [[Sendai Airport|Sendai]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| {{nowrap|[[Ryukyu Air Commuter]]}} | [[New Ishigaki Airport|Ishigaki]], [[Kitadaito Airport|Kitadaito]], [[Kumejima Airport|Kumejima]], [[Minami-Daito Airport|Minamidaito]], [[Yonaguni Airport|Yonaguni]], [[Yoron Airport|Yoron]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Skymark Airlines]] | [[Fukuoka Airport|Fukuoka]], [[Ibaraki Airport|Ibaraki]], [[Kobe Airport|Kobe]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Shimojishima Airport|Shimojishima]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Solaseed Air]] | [[Fukuoka Airport|Fukuoka]], [[New Ishigaki Airport|Ishigaki]], [[Kagoshima Airport|Kagoshima]], [[Kobe Airport|Kobe]], [[Miyazaki Airport|Miyazaki]], [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Spring Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Starlux Airlines]] | [[Taichung International Airport|Taichung]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Thai AirAsia]] | [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Thai Lion Air]] | [[Don Mueang International Airport|Bangkok–Don Mueang]], [[Kaohsiung International Airport|Kaohsiung]]
+<!-- -->
+| [[Thai VietJet Air]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Kaohsiung International Airport|Kaohsiung]],, [[Taichung International Airport|Taichung]] [[Tainan Airport|Tainan]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[T'way Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+}}
+
+===Cargo service===
+[[All Nippon Airways]] operates an overnight cargo hub at Naha Airport, which receives inbound [[Boeing 767]] freighter flights from key destinations in Japan, China and Southeast Asia between 1 and 4 a.m., followed by return flights between 4 and 6 a.m., allowing overnight service between these regional hubs as well as onward connections to other ANA and partner carrier flights.{{needs update|date=February 2024}}
+
+The hub began operations in 2009; by 2013 it served eight cities, and ANA had chartered a [[Nippon Cargo Airlines]] [[Boeing 747]] freighter to handle demand on the trunk route from [[Narita International Airport]].

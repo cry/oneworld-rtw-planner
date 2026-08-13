@@ -1,0 +1,6 @@
+==Airlines and destinations==
+[[File:JetGo Australia (VH-ZJE) Embraer ERJ-140LR taxiing at Wagga Wagga Airport.jpg|thumb|right|[[JetGo]] [[Embraer ERJ family|Embraer ERJ 140LR]]]]
+{{airport-dest-list
+|[[QantasLink]]| [[Brisbane Airport|Brisbane]], [[Sydney Airport|Sydney–Kingsford Smith]]
+|[[Rex Airlines]]|[[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+}}

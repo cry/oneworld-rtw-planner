@@ -1,0 +1,10 @@
+==Airlines and destinations==
+{{Airport-dest-list
+| [[Qantas]] | [[Sydney Airport|Sydney]]
+<!-- -->
+| [[QantasLink]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]]
+<!-- -->
+| [[Virgin Australia]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]
+}}
+
+If passengers want to fly internationally from this airport, they need to transit in either [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], and [[Sydney Airport|Sydney]] to get to international destinations.

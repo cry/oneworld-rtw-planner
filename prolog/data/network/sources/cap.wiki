@@ -1,0 +1,13 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines themselves are not independent sources. -->
+
+The following airlines operate regular scheduled and charter services at the airport:
+
+{{Airport-dest-list
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]] (begins 1 November 2026)
+<!-- -->
+| [[Sunrise Airways]] | [[Boston Logan International Airport| Boston]],  [[Fort Lauderdale-Hollywood International Airport|Fort Lauderdale]], [[Antoine-Simon Airport|Les Cayes]], [[Miami International Airport|Miami]], [[Newark Liberty International Airport|Newark]], [[Providenciales International Airport|Providenciales]]
+<!-- -->
+}}
+{{-}}

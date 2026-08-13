@@ -1,0 +1,6 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+| [[Fuji Dream Airlines]] |  [[Fukuoka Airport|Fukuoka]], [[Kobe Airport|Kobe]], [[New Chitose Airport|Sapporo–Chitose]]
+| [[Japan Airlines]] | '''Seasonal:''' [[Osaka Itami Airport|Osaka–Itami]]
+}}

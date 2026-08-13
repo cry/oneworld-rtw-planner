@@ -1,0 +1,17 @@
+==Airlines and destinations==
+[[File:VH-VQW, Airbus A320 of Jetstar Airways at Newcastle Airport (Williamtown).jpg|thumb|right|[[Jetstar]] [[Airbus A320]]-200]]
+[[File:Jetstar Airbus A320-200 Powderfinger logojet Gilbert.jpg|thumb|[[Jetstar]] [[Airbus A320]]-200 in [[Powderfinger]] livery at Newcastle Airport]]
+{{airport-dest-list
+<!-- -->
+| [[Eastern Air Services]] |[[Lord Howe Island Airport|Lord Howe Island]]
+<!-- -->
+| [[FlyPelican]] |[[Canberra Airport|Canberra]],  [[Gold Coast Airport|Gold Coast]], [[Narrabri Airport|Narrabri]], [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Jetstar]] | [[Brisbane Airport|Brisbane]], [[Ngurah Rai International Airport|Denpasar]], [[Gold Coast Airport|Gold Coast]], [[Melbourne Airport|Melbourne]], [[Changi Airport|Singapore]] <br /> '''Seasonal:''' [[Hobart Airport|Hobart]]
+<!-- -->
+| [[Link Airways]] | [[Canberra Airport|Canberra]]
+<!-- -->
+| [[QantasLink]] | [[Adelaide Airport|Adelaide]], [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Perth Airport|Perth]]
+<!-- -->
+| [[Virgin Australia]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]]
+}}

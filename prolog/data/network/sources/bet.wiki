@@ -1,0 +1,15 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{More citations needed|section|date=January 2022}}
+
+The following airlines offer scheduled passenger service:
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Alaska Airlines]]}} | [[Ted Stevens Anchorage International Airport|Anchorage]]
+<!-- -->
+| [[Grant Aviation]] | [[Alakanuk Airport|Alakanuk]], [[Atmautluak Airport|Atmautluak]], [[Chefornak Airport|Chefornak]], [[Chevak Airport|Chevak]], [[Dillingham Airport|Dillingham]], [[Eek Airport|Eek]], [[Emmonak Airport|Emmonak]], [[Hooper Bay Airport|Hooper Bay]], [[Kasigluk Airport|Kasigluk]], [[Kipnuk Airport|Kipnuk]], [[Kongiganak Airport|Kongiganak]], [[Kotlik Airport|Kotlik]], [[Kwigillingok Airport|Kwigillingok]], [[Marshall Don Hunter Sr. Airport|Marshall]], [[Mekoryuk Airport|Mekoryuk]], [[Mountain Village Airport|Mountain Village]], [[Newtok Airport|Newtok]], [[Nightmute Airport|Nightmute]], [[Sheldon Point Airport|Nunam Iqua]], [[Nunapitchuk Airport|Nunapitchuk]], [[Pilot Station Airport|Pilot Station]], [[Quinhagak Airport|Quinhagak]], [[Scammon Bay Airport|Scammon Bay]], [[St. Mary's Airport (Alaska)|St. Mary's]], [[Toksook Bay Airport|Toksook Bay]], [[Tuntutuliak Airport|Tuntutuliak]], [[Tununak Airport|Tununak]]
+<!-- -->
+| [[Ryan Air Services|Ryan Air]] | [[Aniak Airport|Aniak]], [[Atmautluak Airport|Atmautluak]], [[Chevak Airport|Chevak]], [[Hooper Bay Airport|Hooper Bay]], [[Marshall Don Hunter Sr. Airport|Marshall]], [[Mekoryuk Airport|Mekoryuk]], [[Scammon Bay Airport|Scammon Bay]], [[St. Mary's Airport (Alaska)|St. Mary's]], [[Toksook Bay Airport|Toksook Bay]], [[Tununak Airport|Tununak]]
+<!-- -->
+| {{nowrap|[[Yute Commuter Service]]}} | [[Akiachak Airport|Akiachak]], [[Akiak Airport|Akiak]], [[Atmautluak Airport|Atmautluak]], [[Chefornak Airport|Chefornak]], [[Eek Airport|Eek]], [[Goodnews Airport|Goodnews Bay]], [[Kasigluk Airport|Kasigluk]], [[Kipnuk Airport|Kipnuk]], [[Kongiganak Airport|Kongiganak]], [[Kwethluk Airport|Kwethluk]], [[Kwigillingok Airport|Kwigillingok]], [[Marshall Don Hunter Sr. Airport|Marshall]], [[Mountain Village Airport|Mountain Village]], [[Napakiak Airport|Napakiak]], [[Napaskiak Airport|Napaskiak]], [[Newtok Airport|Newtok]], [[Nightmute Airport|Nightmute]], [[Nunapitchuk Airport|Nunapitchuk]], [[Pilot Station Airport|Pilot Station]], [[Platinum Airport|Platinum]], [[Quinhagak Airport|Quinhagak]], [[Russian Mission Airport|Russian Mission]], [[St. Mary's Airport (Alaska)|St. Mary's]], [[Toksook Bay Airport|Toksook Bay]], [[Tuluksak Airport|Tuluksak]], [[Tuntutuliak Airport|Tuntutuliak]], [[Tununak Airport|Tununak]]
+}}

@@ -1,0 +1,76 @@
+==Airlines and destinations==
+=== Passenger ===
+The following airlines operate regular scheduled and seasonal flights to and from Ljubljana Jože Pučnik Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Montenegro]] | [[Podgorica Airport|Podgorica]]
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]], [[Niš Airport|Niš]]
+<!-- -->
+|[[airBaltic]]| '''Seasonal:''' [[Gran Canaria Airport|Gran Canaria]], [[Riga International Airport|Riga]], [[Tenerife South Airport|Tenerife-South]] (begins 30 October 2026)
+<!-- -->
+| [[British Airways]] |'''Seasonal:''' [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]
+<!-- -->
+| [[easyJet]]| [[Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]] (begins 26 October 2026), [[Manchester Airport|Manchester]]<br />'''Seasonal:''' [[Edinburgh Airport|Edinburgh]]
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[GP Aviation]] |  [[Pristina International Airport Adem Jashari|Pristina]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] |'''Seasonal:''' [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Israir]] |'''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]] <br /> '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| {{nowrap|[[Luxair]]}} |'''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| {{nowrap|[[Nesma Airlines]]}} |'''Seasonal charter:''' [[Hurghada International Airport|Hurghada]]
+<!-- -->
+| [[Norwegian Air Shuttle]] |'''Seasonal:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[Nouvelair]] | '''Seasonal charter:''' [[Monastir Habib Bourguiba International Airport|Monastir]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zurich Airport|Zürich]]
+<!-- -->
+| [[Transavia]]| '''Seasonal:''' [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Vueling]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+| [[Wizz Air]] | [[Podgorica Airport|Podgorica]], [[Skopje Airport|Skopje]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[ASL Airlines]] | [[Venice Marco Polo Airport|Venice]]
+<!-- -->
+| [[ASL Airlines France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[DHL Aviation]] | [[Leipzig/Halle Airport|Leipzig/Halle]]
+<!-- -->
+| [[Lipican Aer]] | [[Sarajevo International Airport|Sarajevo]]
+<!-- -->
+| [[SprintAir]] | [[Cologne Bonn Airport|Cologne]]
+<!-- -->
+| [[SwiftAir Hellas]] | [[Belgrade Nikola Tesla Airport|Belgrade]]
+<!-- -->
+}}

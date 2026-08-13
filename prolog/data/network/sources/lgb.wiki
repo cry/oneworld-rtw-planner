@@ -1,0 +1,48 @@
+==Airlines and destinations==
+===Passenger===
+{{incomplete list|date=July 2026}}
+{{Airport-dest-list
+<!-- -->
+| [[Alaska Airlines]] | [[Seattle/Tacoma]] (resumes September 8, 2026)
+<!-- -->
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+| [[Hawaiian Airlines]] | [[Daniel K. Inouye International Airport|Honolulu]], [[Kahului Airport|Kahului]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Austin–Bergstrom International Airport|Austin]], [[Midway International Airport|Chicago-Midway]], [[Dallas Love Field|Dallas-Love]], [[Daniel K. Inouye International Airport|Honolulu]], [[William P. Hobby Airport|Houston-Hobby]], [[Harry Reid International Airport|Las Vegas]], [[Nashville International Airport|Nashville]], [[Oakland San Francisco Bay Airport|Oakland]], [[Phoenix Sky Harbor International Airport|Phoenix]], [[Portland International Airport|Portland (OR)]], [[Reno/Tahoe International Airport|Reno]], [[Sacramento International Airport|Sacramento]], [[Salt Lake City International Airport|Salt Lake City]], [[San Jose International Airport|San Jose (CA)]], [[Seattle/Tacoma]]
+<br />'''Seasonal:''' [[Bozeman Yellowstone International Airport|Bozeman]]}}
+
+===Destinations map===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Continental U.S. destinations from Long Beach Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination  
+|places=
+{{Location map~ |United_States |lat=33.8161|long=-118.1513|position=bottom|label={{lower|5px|<small>'''Long Beach'''</small>}}|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=39.855193|long=-104.673849|position=right|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States|  mark = Darkgreen pog.svg |lat=40.789836|long=-111.979632|position=left|label='''<small>[[Salt Lake City International Airport|Salt Lake City]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=33.436921|long=-112.011667|position=right|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=36.083697|long=-115.153873|position=right|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=37.7126|long=-122.2197|position=left|label='''<small>[[Oakland San Francisco Bay Airport|Oakland]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=38.6951|long=-121.5901|position=right|label='''<small>[[Sacramento International Airport|Sacramento]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=37.3639|long=-121.9289|position=bottom|label='''<small>[[San Jose International Airport|San Jose (CA)]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States|  mark = Red pog.svg|lat=30.1975 |long=-97.6664 |position=left |label='''<small>[[Austin–Bergstrom International Airport|Austin]]</small>''' |label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United States |lat=41.7868|long=-87.7522|position=left|label='''<small>[[Chicago–Midway]] </small>'''|label_size=80|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United States |lat=32.8481|long=-96.8512|position=right|label='''<small>[[Dallas Love Field|Dallas–Love]] </small>'''|label_size=80|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United_States |lat=36.13|long=-86.681946 |position=left|label='''<small>[[Nashville International Airport|Nashville]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg |United States |lat=39.4996|long=-119.7681|position=top|label='''<small>[[Reno-Tahoe International Airport|Reno]] </small>'''|label_size=80|marksize=7}}
+{{Location map~ |United_States|  mark = Blue pog.svg |lat=45.5898|long=-122.5951|position=left|label='''<small>[[Portland International Airport|Portland (OR)]]</small>'''|label_size=80 |marksize=8 }}
+{{Location map~ |United_States|  mark = Blue pog.svg |lat=47.450165|long=-122.309176 |position=under |label='''<small>[[Seattle/Tacoma]]</small>'''|label_size=80 |marksize=8 }}
+{{Location map~ |mark = Green pog.svg |United States |lat=45.7799|long=-111.1446|position=right|label='''<small>[[Bozeman Yellowstone International Airport|Bozeman]] </small>'''|label_size=80|marksize=7}}
+{{Location map~ |mark = Red pog.svg |United States |lat=29.6459|long=-95.2769|position=right|label='''<small>[[Houston-Hobby]] </small>'''|label_size=80|marksize=7}}
+}}
+|-
+|{{Location map+ |Hawaii |width=800 |float=center
+|caption=Hawaii destinations from Long Beach Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br />{{font color | Darkgreen | Dark Green }} = Destination shared by more than one airline
+|places=
+{{Location map~ |Hawaii |  mark = Darkgreen pog.svg |lat=21.3069|long=-157.8583|position=right|label='''[[Daniel K. Inouye International Airport|Honolulu]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |Hawaii |  mark = Red pog.svg |lat=20.8946|long=-156.4361|position=right|label='''[[Kahului Airport|Kahului]]'''|label_size=90 |marksize=7 }}
+}}
+|}

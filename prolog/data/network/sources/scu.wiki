@@ -1,0 +1,18 @@
+==Airlines and destinations==
+{{Airport-dest-list
+<!-- -->
+| [[Aerogaviota]] | [[José Martí International Airport|Havana]]
+<!-- -->
+| [[Air Century]] | [[Curaçao International Airport|Curaçao]], [[La Isabela International Airport|Santo Domingo–La Isabela]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Cubana de Aviación]] | [[José Martí International Airport|Havana]]
+<!-- -->
+| [[Fly All Ways]] | [[Johan Adolf Pengel International Airport|Paramaribo]]
+<!-- -->
+| [[InterCaribbean Airways]] | [[Norman Manley International Airport|Kingston–Norman Manley]]
+<!-- -->
+| [[Sunrise Airways]] | [[Toussaint Louverture International Airport|Port-au-Prince]]
+<!-- -->
+}}

@@ -1,0 +1,36 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list|3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+|[[Airlink]]| [[Cape Town International Airport|Cape Town]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+|<!-- -->
+|[[Ethiopian Airlines]]| [[Bole International Airport|Addis Ababa]]
+|<!-- -->
+|[[FlySafair]]| [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]|
+<!-- -->
+|[[Kenya Airways]]| [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+|<!-- -->
+|{{nowrap|[[LAM Mozambique Airlines]]}}| [[Beira Airport|Beira]], [[Cape Town International Airport|Cape Town]], [[Chimoio Airport|Chimoio]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Inhambane Airport|Inhambane]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Lichinga Airport|Lichinga]], [[Nacala Airport|Nacala]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Nampula Airport|Nampula]], [[Pemba Airport (Mozambique)|Pemba]], [[Quelimane Airport|Quelimane]], [[Chingozi Airport|Tete]], [[Vilankulo Airport|Vilanculos]], [[Xai-Xai Airport|Xai-Xai]]|
+<!-- -->
+|[[Moçambique Expresso]]| [[Beira Airport|Beira]], [[Chingozi Airport|Tete]]
+|<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]
+|<!-- -->
+|[[TAAG Angola Airlines]]| [[Dr. Antonio Agostinho Neto International Airport|Luanda–Agostinho Neto]]|
+<!-- -->
+|[[TAP Air Portugal]]| [[Lisbon Portela Airport|Lisbon]]
+|<!-- -->
+|[[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]{{ref|a|a}}
+|<!-- -->
+}}
+;Notes:
+* <small>{{ref|a|a}}: This flight operates via Johannesburg. However, this carrier does not have rights to transport passengers solely between Johannesburg and Maputo.</small>
+
+===Cargo===
+{{airport-dest-list
+|[[Astral Aviation]] | [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+|[[Westair Aviation]]| [[Eros Airport|Windhoek–Eros]]{{citation needed|date=February 2021}}
+}}

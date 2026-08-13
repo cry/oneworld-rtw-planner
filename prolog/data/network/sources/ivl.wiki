@@ -1,0 +1,26 @@
+==Airlines and destinations==
+[[File:Ivalo Airport Departure hall 20170205.jpg|thumb|right|Check-in hall at Ivalo Airport.]]
+The following airlines operate regular scheduled and charter flights at Ivalo  Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport destination list
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]], [[Kirkenes Airport, Høybuktmoen|Kirkenes]]
+<!-- -->
+| [[Lufthansa]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI fly Netherlands]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Vueling]] | '''Seasonal:''' [[Orly Airport|Paris–Orly]]
+<!-- -->
+}}

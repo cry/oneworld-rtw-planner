@@ -1,0 +1,11 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+
+| [[Firefly (airline)|Firefly]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]]
+
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+
+}}

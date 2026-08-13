@@ -1,0 +1,19 @@
+==Airlines and destinations==
+[[File:Lihue Airport, Lihue (503252) (17022613987).jpg|thumb|A [[Hawaiian Airlines]] [[Boeing 717]] at the gate]]
+[[File:Lihue Airport overview.jpg|thumb|Terminal]]
+[[File:Lihue Airport, Kauai, Hawaii - IMG 2572.JPG|thumb|Inside the airport terminal]]
+[[File:ATC tower at LIH, November 2005.jpg|thumb|[[Air traffic control|ATC tower]]]]
+
+{{Airport destination list
+
+| [[Alaska Airlines]]| [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+| [[American Airlines]]| [[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[Delta Air Lines]]| [[Los Angeles International Airport|Los Angeles]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+<!-- -->
+| [[Hawaiian Airlines]]| [[Daniel K. Inouye International Airport|Honolulu]], [[Kahului Airport|Kahului]], [[Kona International Airport|Kailua-Kona]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco Bay Oakland Airport|Oakland]], [[Sacramento International Airport|Sacramento]], [[San Jose International Airport|San Jose (CA)]]
+<!-- -->
+|[[Southwest Airlines]]| [[Daniel K. Inouye International Airport|Honolulu]], [[Kahului Airport|Kahului]], [[Harry Reid International Airport|Las Vegas]], [[San Francisco Bay Oakland Airport|Oakland]]<br />'''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[United Airlines]]| [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]]
+<!-- -->}}

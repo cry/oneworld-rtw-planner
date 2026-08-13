@@ -1,0 +1,90 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]] | '''Seasonal:''' [[Athens International Airport|Athens]]
+<!-- -->
+| [[Aeroitalia]] | '''Seasonal:''' [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Salerno Airport|Salerno]]
+<!-- -->
+| [[Air Europa]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Air France]] | '''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Animawings]] | '''Seasonal:''' [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]]
+<!-- -->
+| [[arkia]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | [[London City Airport|London–City]] <br /> '''Seasonal:''' [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]], [[London Stansted Airport|London–Stansted]]
+<!-- -->
+| [[Brussels Airlines]] | '''Seasonal:''' [[Brussels airport|Brussels]]
+<!-- -->
+| [[Condor (airline)|Condor]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Discover Airlines]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[easyJet]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Belfast International Airport|Belfast–International]], [[Berlin Brandenburg Airport|Berlin]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Bristol Airport|Bristol]], [[Geneva Airport|Geneva]], [[Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]], [[London Southend Airport|London–Southend]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Manchester Airport|Manchester]], [[Milan Linate Airport|Milan–Linate]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nantes Atlantique Airport|Nantes]], [[Naples International Airport|Naples]], [[Nice Côte d'Azur Airport|Nice]], [[Porto Airport|Porto]], [[Toulouse–Blagnac Airport|Toulouse]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]], [[Cologne Bonn Airport|Cologne/Bonn]], [[Düsseldorf Airport|Düsseldorf]], [[Hamburg Airport|Hamburg]], [[Salzburg Airport|Salzburg]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Valencia Airport|Valencia]] <br /> '''Seasonal:''' [[León Airport|León]]
+<!-- -->
+| [[Iberia Express]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[ITA Airways]] | '''Seasonal:''' [[Milan Linate Airport|Milan–Linate]], [[Rome Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[London Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[KLM]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:''' [[Milan Bergamo Airport|Bergamo]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Rome Fiumicino Airport|Rome-Fiumicino]], [[Verona Villafranca Airport|Verona]]
+<!-- -->
+| [[Norwegian Air Shuttle]] | '''Seasonal:''' [[Oslo Airport, Gardermoen|Oslo]]
+<!-- -->
+| [[Ryanair]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Seville Airport|Seville]], [[Valencia Airport|Valencia]] <br /> '''Seasonal:''' [[Bari Karol Wojtyła Airport|Bari]], [[Beauvais–Tillé Airport|Beauvais]], [[Milan Bergamo Airport|Bergamo]], [[Berlin Brandenburg Airport|Berlin]], [[Birmingham Airport|Birmingham]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Bristol Airport|Bristol]], [[Brussels South Charleroi Airport|Charleroi]], [[Dublin Airport|Dublin]], [[Edinburgh Airport|Edinburgh]], [[Eindhoven Airport|Eindhoven]], [[Hahn Airport|Hahn]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Marseille Provence Airport|Marseille]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Pisa International Airport|Pisa]], [[Porto Airport|Porto]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Santiago–Rosalía de Castro Airport|Santiago de Compostela]], [[Treviso Airport|Treviso]], [[Toulouse–Blagnac Airport|Toulouse]], [[Turin Airport|Turin]], [[Vienna International Airport|Vienna]], [[Weeze Airport|Weeze]]
+<!-- -->
+| [[Scandinavian Airlines]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[SkyAlps]] | '''Seasonal:''' [[Bolzano Airport|Bolzano]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal charter:''' [[Bratislava Airport|Bratislava]], [[Vienna International Airport|Vienna]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | '''Seasonal:''' [[Geneva Airport|Geneva]]
+<!-- -->
+| [[TAP Air Portugal]] | '''Seasonal:''' [[Lisbon Airport|Lisbon]]
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Eindhoven Airport|Eindhoven]] <br /> '''Seasonal:''' [[Brussels Airport|Brussels]], [[Orly Airport|Paris–Orly]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[Cardiff Airport|Cardiff]], [[East Midlands Airport|East Midlands]], [[Exeter Airport|Exeter]], [[Glasgow Airport|Glasgow]], [[Gatwick Airport|London–Gatwick]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Norwich Airport|Norwich]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Antwerp Airport|Antwerp]], [[Brussels Airport|Brussels]], [[Ostend–Bruges International Airport|Ostend/Bruges]]
+<!-- -->
+| [[TUI fly Deutschland]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]], [[Hannover Airport|Hannover]]
+<!-- -->
+| {{nowrap|[[TUI fly Netherlands]]}} | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Uep Fly]] | [[Menorca Airport|Menorca]],{{better source needed|date=December 2024}}<!-- DO UEP STILL FLY BETWEEN MENORCA/MAHON AND IBIZA ? --> [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Asturias Airport|Asturias]]
+<!-- -->
+| [[Vueling]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bilbao Airport|Bilbao]], [[Málaga Airport|Málaga]], [[Orly Airport|Paris–Orly]], [[Seville Airport|Seville]], [[Valencia Airport|Valencia]] <br /> '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Porto Airport|Porto]], [[Santander Airport|Santander]]
+<!-- -->
+| [[Wizz Air]] | '''Seasonal:''' [[Rome Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+}}
+
+===Cargo===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Swiftair]] | [[Madrid–Barajas Airport|Madrid]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Valencia Airport|Valencia]]
+<!-- -->
+}}

@@ -1,0 +1,9 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Unreferenced section|date=January 2022}}
+{{Airport destination list
+| [[Alaska Airlines]] | '''Seasonal:''' [[Juneau International Airport|Juneau]]{{cn|date=May 2025}}
+| [[Alaska Seaplanes]] | [[Juneau International Airport|Juneau]]
+}}
+
+Jet service is operated on a seasonal basis by Alaska Airlines with [[Boeing 737]] aircraft.

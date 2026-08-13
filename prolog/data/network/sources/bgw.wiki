@@ -1,0 +1,91 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Air Arabia]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[AJet]] | [[Esenboga International Airport|Ankara]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[ATA Airlines (Iran)|ATA Airlines]] | [[Mashhad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[Basra Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Caspian Airlines]] | [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| {{nowrap|[[Fly Cham]]}} | [[Damascus International Airport|Damascus]]
+<!-- -->
+| [[Fly Baghdad]] | [[Jinnah International Airport|Karachi]], [[Allama Iqbal International Airport|Lahore]]
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[Iran Airtour]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| {{nowrap|[[Iran Aseman Airlines]]}} | [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Iraqi Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Sardar Vallabhbhai Patel International Airport|Ahmedabad]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Esenboğa International Airport|Ankara]], [[Antalya Airport|Antalya]], [[Heydar Aliyev International Airport|Baku]], [[Basra International Airport|Basra]], [[Beijing Capital International Airport|Beijing–Capital]], [[Beirut–Rafic Hariri International Airport|Beirut]], [[Berlin Brandenburg Airport|Berlin]], [[Cairo International Airport|Cairo]], [[Indira Gandhi International Airport|Delhi]], [[Dubai International Airport|Dubai–International]], [[Düsseldorf Airport|Düsseldorf]], [[Erbil International Airport|Erbil]], [[Frankfurt Airport|Frankfurt]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Isfahan Shahid Beheshti International Airport|Isfahan]], [[Islamabad International Airport|Islamabad]], [[Istanbul Airport|Istanbul]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[Jinnah International Airport|Karachi]], [[Kirkuk Airport|Kirkuk]], [[Kish International Airport|Kish]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuwait International Airport|Kuwait City]], [[Mashhad International Airport|Mashhad]], [[Vnukovo International Airport|Moscow–Vnukovo]], [[Mosul International Airport|Mosul]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Munich Airport|Munich]], [[Muscat International Airport|Muscat]], [[Al Najaf International Airport|Najaf]], [[Ali Air Base|Nasiriyah]], [[Samsun-Çarşamba Airport|Samsun]], [[Sharjah International Airport|Sharjah]], [[Sulaimaniyah International Airport|Sulaimaniyah]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]], [[Tunis-Carthage International Airport|Tunis]]<br />'''Seasonal:''' [[Hurghada International Airport|Hurghada]], [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz Airport|Medina]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]], [[Trabzon Airport|Trabzon]]
+<!-- -->
+| [[Jordan Aviation]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[Mahan Air]] | [[Mashhad Shahid Hasheminejad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Meraj Airlines]] | [[Mashhad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| {{nowrap|[[Middle East Airlines]]}} | [[Beirut–Rafic Hariri International Airport|Beirut]]
+<!-- -->
+| [[Nile Air]] | [[Cairo International Airport|Cairo]] <br /> '''Seasonal:''' [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Oman Air]] | [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[Pars Air]] | [[Mashhad International Airport|Mashhad]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Qeshm Air]] | [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Sepehran Airlines]] | [[Mashhad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Syrian Air]] | [[Damascus International Airport|Damascus]]
+<!-- -->
+| [[Taban Air]] | [[Kish International Airport|Kish]], [[Mashhad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] <br />'''Seasonal:''' [[Antalya Airport|Antalya]]{{citation needed|date=February 2026}}
+<!-- -->
+| [[UR Airlines]] | [[Ankara Esenboğa Airport|Ankara]], [[Antalya Airport|Antalya]], [[Beirut–Rafic Hariri International Airport|Beirut]], [[Damascus International Airport|Damascus]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[Samsun-Çarşamba Airport|Samsun]]
+<!-- -->
+| [[Varesh Airlines]] | [[Mashhad International Airport|Mashhad]], [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Zagros Airlines]] | [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+}}
+
+===Cargo===
+[[File:Baghdadinternationalairportaerial.JPG|thumb|right|Aerial view of Baghdad International Airport]]
+{{Airport-dest-list
+<!-- -->
+| [[Coyne Airways]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[EgyptAir Cargo]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Silk Way Airlines]] | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[DHL International Aviation ME|DHL Aviation]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+}}

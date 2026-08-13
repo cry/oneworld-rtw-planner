@@ -1,0 +1,12 @@
+== Airlines and destinations ==
+{{Unreferenced section|date=June 2020}}
+
+=== Passenger ===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+|[[American Eagle (airline brand)|American Eagle]]|[[Miami International Airport|Miami]] <br /> '''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]]{{cn|date=July 2025}}
+|[[Bahamasair]]|[[Lynden Pindling International Airport|Nassau]], [[Palm Beach International Airport|West Palm Beach]]
+|[[Delta Connection]]|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+|[[Flamingo Air]]|[[Grand Bahama International Airport|Freeport]]
+|[[WesternAir]]|[[Lynden Pindling International Airport|Nassau]]
+}}

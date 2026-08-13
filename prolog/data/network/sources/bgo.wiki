@@ -1,0 +1,43 @@
+==Airlines and destinations==
+As of June 2023, Bergen Airport serves 63 destinations in regular services and 28 seasonal or charter destinations primarily during the summer. In addition, offshore oil platforms are served from the helicopter terminal. Twenty-three airlines operate regular flights out of Flesland. They are served by two ground handling agents, [[SAS Ground Services]] and Norport Handling.
+
+The largest airlines at Flesland are [[Scandinavian Airlines]], [[Norwegian Air Shuttle]] and [[Widerøe]].{{rp|14, 22}} SAS and Norwegian exclusively operate [[jet airliner|jetliners]] on main-haul international and domestic routes. Widerøe operates the routes to [[Florø Airport|Florø]], [[Sogndal Airport|Sogndal]] and [[Ørsta–Volda Airport, Hovden|Ørsta–Volda]] on [[public service obligation]] contract with the [[Ministry of Transport and Communications (Norway)|Ministry of Transport and Communications]]. The airline's remaining routes are commercial. The airline uses various sizes of the [[Bombardier Dash 8]]. [[Bergen Air Transport]] is based at Flesland, and offers [[general aviation]] and [[executive jet]] operations. [[Bristow Norway]] and [[CHC Helikopter Service]] operate to offshore oil platforms from the helicopter terminal. [[Lufttransport]] transport [[maritime pilot]]s to ships on behalf of the [[Norwegian Coastal Administration]].{{rp|205}}
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[airBaltic]] | '''Seasonal:''' [[Riga International Airport|Riga]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+|[[Edelweiss Air]] | '''Seasonal:''' [[Zürich Airport|Zürich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[Finnair]] | [[Stockholm Arlanda Airport|Stockholm–Arlanda]]<br /> '''Seasonal:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Icelandair]] | [[Keflavik International Airport|Reykjavik–Keflavik]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Edinburgh Airport|Edinburgh]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Gdańsk Lech Wałęsa Airport|Gdańsk]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]] <br /> '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Berlin Brandenburg Airport|Berlin]], [[Copenhagen Airport|Copenhagen]],  [[Gran Canaria Airport|Gran Canaria]], [[Kraków John Paul II International Airport|Kraków]], [[Gatwick Airport|London–Gatwick]], [[Málaga Airport|Málaga]], [[Manchester Airport|Manchester]], [[Oslo Airport, Gardermoen|Oslo]], [[Palanga International Airport|Palanga]], [[Riga International Airport|Riga]], [[Stavanger Airport, Sola|Stavanger]], [[Trondheim Airport, Værnes|Trondheim]] <br /> '''Seasonal:''' [[Antalya Airport|Antalya]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Orio al Serio International Airport|Bergamo]], [[Chania International Airport|Chania]], [[Dubrovnik Airport|Dubrovnik]], [[Edinburgh Airport|Edinburgh]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Harstad/Narvik Airport, Evenes|Harstad/Narvik]], [[Nice Côte d'Azur Airport|Nice]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Split Airport|Split]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Tenerife South Airport|Tenerife–South]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Stavanger Airport, Sola|Stavanger]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Trondheim Airport, Værnes|Trondheim]] <br /> '''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Málaga Airport|Málaga]], [[Malpensa Airport|Milan–Malpensa]]
+<!-- -->
+| [[Smartwings]] | [[Václav Havel Airport Prague|Prague]] (begins 26 October 2026)
+<!-- -->
+| [[Sunclass Airlines]]| '''Seasonal charter:''' [[Amílcar Cabral International Airport|Sal]], [[Varna Airport|Varna]]
+<!-- -->
+| [[Widerøe]] | [[Aberdeen Airport|Aberdeen]], [[Ålesund Airport, Vigra|Ålesund]], [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Bodø Airport|Bodø]], [[Brussels Airport|Brussels]], [[Dublin Airport|Dublin]], [[Florø Airport|Florø]], [[Göteborg Landvetter Airport|Gothenburg]], [[Hamburg Airport|Hamburg]], [[Haugesund Airport, Karmøy|Haugesund]], [[Kristiansand Airport, Kjevik|Kristiansand]], [[Kristiansund Airport, Kvernberget|Kristiansund]], [[Molde Airport, Årø|Molde]], [[Munich Airport|Munich]], [[Sandefjord Airport, Torp|Sandefjord]], [[Sogndal Airport, Haukåsen|Sogndal]], [[Stavanger Airport, Sola|Stavanger]], [[Tromsø Airport|Tromsø]], [[Trondheim Airport, Værnes|Trondheim]], [[Ørsta–Volda Airport, Hovden|Ørsta–Volda]] <br /> '''Seasonal:''' [[Billund Airport|Billund]], [[Florence Airport|Florence]], [[Oslo Airport, Gardermoen|Oslo]],   [[Vagar Airport|Vagar]],
+<!-- -->
+| [[Wizz Air]] | [[Budapest Airport|Budapest]], [[Gdańsk Lech Wałęsa Airport|Gdańsk]], [[Kraków John Paul II International Airport|Kraków]], [[Solidarity Szczecin–Goleniów Airport|Szczecin]], [[Vilnius Airport|Vilnius]], [[Warsaw Modlin Airport|Warsaw–Modlin]]
+<!-- -->
+}}

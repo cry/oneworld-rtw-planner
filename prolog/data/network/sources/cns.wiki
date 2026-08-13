@@ -1,0 +1,42 @@
+==Airlines and destinations==
+===Passenger===
+[[File:Hb-ci-cairnsairportt2redevelopment-17-lowres-jpg.jpg|thumb|Domestic Terminal, 2022]]
+[[File:CNS Airport 27022025.jpg|thumb|Cairns Airport on departure in 2025 with the new air-freight complex under construction]]
+{{Airport-dest-list
+<!-- -->
+| [[Air New Zealand]] | '''Seasonal:''' [[Auckland Airport|Auckland]]
+<!-- -->
+| [[Air Niugini]] | [[Jacksons International Airport|Port Moresby]]
+<!-- -->
+| [[Airnorth]] | [[Alice Springs Airport|Alice Springs]], [[Darwin International Airport|Darwin]], [[Gove Airport|Gove]] 
+<!-- -->
+| {{nowrap|[[Alliance Airlines]]}} | [[Townsville Airport|Townsville]], [[Weipa Airport|Weipa]]<br/> '''Charter:''' [[Century Mine Airport|Century Mine]], [[Trepell Airport|Cannington]], [[Cloncurry Airport|Cloncurry]], [[Groote Eylandt Airport|Groote Eylandt]]
+<!-- -->
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]]
+<!-- -->
+| {{nowrap|[[Hinterland Aviation]]}} | [[Coen Airport|Coen]], [[Cooktown Airport|Cooktown]], [[Kowanyama Airport|Kowanyama]], [[Lockhart River Airport|Lockhart River]], [[Edward River Airport|Pormpuraaw]]
+<!-- -->
+| [[Jetstar]] | [[Adelaide Airport|Adelaide]], [[Brisbane Airport|Brisbane]], [[Christchurch Airport|Christchurch]] (ends 24 October 2026), [[Ngurah Rai International Airport|Denpasar]], [[Gold Coast Airport|Gold Coast]], [[Melbourne Airport|Melbourne]], [[Osaka–Kansai]], [[Perth Airport|Perth]], [[Sunshine Coast Airport|Sunshine Coast]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Tokyo–Narita]]
+<!-- -->
+| [[PNG Air]] | '''Charter:''' [[Lihir Island Airport|Lihir Island]], [[Jacksons International Airport|Port Moresby]]
+<!-- -->
+| [[Qantas]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| [[QantasLink]] | [[Ayers Rock Airport|Ayers Rock]], [[Brisbane Airport|Brisbane]], [[Darwin International Airport|Darwin]],  [[Horn Island Airport|Horn Island]], [[Mackay Airport|Mackay]], [[Townsville Airport|Townsville]], [[Weipa Airport|Weipa]]
+<!-- -->
+| [[Rex Airlines]] | [[Burketown Airport|Burketown]], [[Doomadgee Airport|Doomadgee]],  [[Mornington Island Airport|Mornington Island]], [[Mount Isa Airport|Mount Isa]],{{efn|name=G|Gulf route - Cairns-Normanton-Mornington Island-Burketown-Doomadgee-Mount Isa}} [[Normanton Airport|Normanton]], [[Townsville Airport|Townsville]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Skytrans Australia]] | [[Aurukun Airport|Aurukun]], [[Northern Peninsula Airport|Bamaga]], [[Kowanyama Airport|Kowanyama]], [[Lockhart River Airport|Lockhart River]], [[Moranbah Airport|Moranbah]], [[Edward River Airport|Pormpuraaw]], [[Proserpine Airport|Proserpine]].<!--Guardian says cape york and torres strait destinations for predecessor SkyTrans-->
+<!-- -->
+| [[Virgin Australia]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]]
+}}
+
+{{notelist}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Qantas Freight]] | [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Western Sydney Airport|Sydney–Western]], [[Townsville Airport|Townsville]]
+}}

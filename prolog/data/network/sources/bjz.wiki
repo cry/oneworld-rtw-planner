@@ -1,0 +1,11 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Badajoz Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Barcelona–El Prat Airport|Barcelona]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]] <br> '''Seasonal:''' [[Gran Canaria Airport|Gran Canaria]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+}}
+If passengers do fly internationally from this airport, they would need to transit in either Madrid or Barcelona to get to other international destinations.

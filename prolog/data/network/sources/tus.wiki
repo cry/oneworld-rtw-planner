@@ -1,0 +1,26 @@
+==Airlines and destinations==
+
+===Passenger===
+{{Airport destination list
+<!--  -->
+| [[Alaska Airlines]] | [[Portland International Airport|Portland (OR)]], [[Seattle/Tacoma]] <br/> '''Seasonal:''' [[John Wayne Airport|Orange County]]
+<!-- -->
+| [[American Airlines]] | [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] <br/> '''Seasonal:'''  [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br/> '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Seattle/Tacoma]]
+<!-- -->
+| [[Delta Connection]] | [[Los Angeles International Airport|Los Angeles]], [[Salt Lake City International Airport|Salt Lake City]]  <br/> '''Seasonal:''' [[Seattle/Tacoma]]
+<!-- -->
+| [[Frontier Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+| [[Southwest Airlines]] |[[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]],  [[San Diego International Airport|San Diego]] <br/> '''Seasonal:''' [[Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Houston–Hobby]]
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] |[[Denver International Airport|Denver]] <br/> '''Seasonal:''' [[Chicago–O'Hare]], [[Houston–Intercontinental]]
+<!-- -->
+| [[United Express]] | [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Houston–Intercontinental]], [[San Francisco International Airport|San Francisco]]
+<!-- -->
+}}

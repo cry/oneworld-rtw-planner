@@ -1,0 +1,47 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Kittilä Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport destination list
+<!-- -->
+| [[Aer Lingus]] | '''Seasonal charter:''' [[Dublin Airport|Dublin]]
+<!-- -->
+| [[airBaltic]] | '''Seasonal:''' [[Riga International Airport|Riga]], [[Tallinn Airport|Tallinn]], [[Tampere Airport|Tampere]]
+<!-- -->
+| [[Air France]] | '''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[Animawings]] | '''Seasonal:''' [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| {{nowrap|[[Corendon Dutch Airlines]]}} | '''Seasonal charter:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+	<!-- -->
+| [[Centrum Air]] | '''Seasonal:''' [[Tashkent International Airport|Tashkent-Islam Karimov]] (begins 26 December 2026) 
+
+<!-- -->
+| [[Discover Airlines]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[EasyJet]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]], [[Düsseldorf Airport|Düsseldorf]], [[Hamburg Airport|Hamburg]]
+<!-- -->
+| [[Finnair]] | [[Alta Airport|Alta]], [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Helvetic Airways]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[KLM]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Lufthansa]] | '''Seasonal:''' [[Munich Airport|Munich]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Dublin Airport|Dublin]], [[East Midlands Airport|East Midlands]], [[Glasgow Airport|Glasgow]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Brussels Airport|Brussels]]{{citation needed|date=May 2025}}
+<!-- -->
+| {{nowrap|[[TUI fly Netherlands]]}} | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+}}

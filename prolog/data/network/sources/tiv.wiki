@@ -1,0 +1,65 @@
+== Airlines and destinations ==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+Below is a list of scheduled services throughout all seasons from Tivat Airport according to the Montenegrin Airports Authority:
+
+{{Airport-dest-list
+<!-- -->
+| [[Air Montenegro]] | [[Belgrade Nikola Tesla Airport|Belgrade]], [[Istanbul Airport|Istanbul]] <br /> '''Seasonal:''' [[Banja Luka International Airport|Banja Luka]], [[Brno–Tuřany Airport|Brno]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Václav Havel Airport Prague|Prague]]<br />
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]] <br /> '''Seasonal:''' [[Morava Airport|Kraljevo]], [[Niš Constantine the Great Airport|Niš]]
+<!-- -->
+| [[AirBaltic]] | '''Seasonal:''' [[Riga Airport|Riga]]
+<!-- -->
+| [[Arkia]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Avion Express]] | '''Seasonal charter:''' [[Vilnius Airport|Vilnius]]
+<!-- -->
+| [[Azerbaijan Airlines]] | '''Seasonal:''' [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[EasyJet]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]], [[Bristol Airport|Bristol]], [[Geneva Airport|Geneva]], [[Gatwick Airport|London–Gatwick]], [[London Luton Airport|London–Luton]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]], [[Düsseldorf Airport|Düsseldorf]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Flydubai]] | '''Seasonal:''' [[Dubai International Airport|Dubai–International]]{{cn|date=April 2025}}
+<!-- -->
+| [[FlyOne]] | [[Zvartnots International Airport|Yerevan]]<br /> '''Seasonal:''' [[Chișinău International Airport|Chișinău]]
+<!-- -->
+| [[Heston Airlines]] | '''Seasonal charter:''' [[Riga Airport|Riga]], [[Tallinn Airport|Tallinn]], [[Vilnius Airport|Vilnius]]
+<!-- -->
+| [[Iberia]] | '''Seasonal:''' [[Madrid Airport|Madrid]]
+<!-- -->
+| [[Israir]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Leeds Bradford Airport|Leeds/Bradford]] (begins 10 May 2027), [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]]
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal charter:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] |  '''Seasonal:''' [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]]
+<!-- -->
+| [[Luxair]] |  '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Helsinki Airport|Helsinki]], [[Oslo Airport, Gardermoen|Oslo]], [[Riga Airport|Riga]]
+<!-- -->
+|[[Scandinavian Airlines]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[SkyUp]] | '''Seasonal:''' [[Chișinău International Airport|Chișinău]]<br />
+<!-- -->
+|[[Sundor]] | '''Seasonal:''' [[David Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI fly Belgium]] | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[TUI fly Netherlands]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Turkish Airlines]] | '''Seasonal:''' [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Vueling]] | '''Seasonal:''' [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+}}

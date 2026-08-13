@@ -1,0 +1,113 @@
+==Airlines and destinations==
+Tbilisi Airport mainly serves destinations in [[Europe]] and the [[Middle East]]. Below are destinations served according to press releases and the schedules authorised by the Georgian Civil Aviation Agency on a seasonal basis.
+
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Air Arabia]] | [[Sharjah International Airport|Sharjah]], [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[Air Astana]] | [[Almaty International Airport|Almaty]]
+<!-- -->
+| [[Air China]] | [[Ürümqi Diwopu International Airport|Ürümqi]]
+<!-- -->
+| [[Air Serbia]] | [[Belgrade Nikola Tesla Airport|Belgrade]]
+<!-- -->
+|[[Air Samarkand]] | '''Seasonal charter:''' [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[airBaltic]] | [[Riga International Airport|Riga]]
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[arkia]] | [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+|[[Austrian Airlines]] | [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+| [[Azimuth (airline)|azimuth]] | [[Krasnodar International Airport|Krasnodar]], [[Mineralnye Vody Airport|Mineralnye Vody]], [[Vnukovo International Airport|Moscow–Vnukovo]], [[Pulkovo Airport|Saint Petersburg]], [[Adler-Sochi International Airport|Sochi]], [[Mustai Karim Ufa International Airport|Ufa]]
+<!-- -->
+| [[Belavia]] | [[Minsk National Airport|Minsk]]
+<!-- -->
+| [[British Airways]] | [[London Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Centrum Air]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| {{nowrap|[[China Eastern Airlines]]}} | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Ürümqi Diwopu International Airport|Ürümqi]]
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Dan Air (Romania)|Dan Air]] | [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]]
+<!-- -->
+| [[easyJet]] | [[Geneva Airport|Geneva]], [[Luton Airport|London–Luton]], [[Milan Malpensa Airport|Milan–Malpensa]]
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zürich]]
+<!-- -->
+| [[Eurowings]] | [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+|[[Fly Baghdad]] | [[Baghdad International Airport|Baghdad]] (suspended)
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Fly Khiva]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Flynas]] | [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[FlyOne]] | [[Chișinău International Airport|Chișinău]], [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| [[Georgian Airways]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Batumi International Airport|Batumi]], [[Orio al Serio International Airport|Bergamo]], [[Berlin Brandenburg Airport|Berlin]], [[Hamad International Airport|Doha]], [[Larnaca International Airport|Larnaca]], [[Vnukovo International Airport|Moscow–Vnukovo]], [[Nice Côte d'Azur Airport|Nice]], [[Tolmachevo Airport|Novosibirsk]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Pulkovo Airport|Saint Petersburg]], [[Ben Gurion Airport|Tel Aviv]] (suspended), [[Vienna International Airport|Vienna]], [[Zvartnots International Airport|Yerevan]] <br/> '''Seasonal:''' [[Forlì Airport|Forlì]] (suspended)
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| {{nowrap|[[Iran Aseman Airlines]]}} | [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Israir]] | [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Jordan Aviation]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw]]
+<!-- -->
+| [[Lufthansa]] | [[Munich Airport|Munich]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Qeshm Air]] | [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+| [[Red Wings Airlines]] | [[Kazan International Airport|Kazan]], [[Krasnodar International Airport|Krasnodar]], [[Zhukovsky International Airport|Moscow–Zhukovsky]], [[Strigino Airport|Nizhny Novgorod]], [[Pulkovo Airport|Saint Petersburg]], [[Kurumoch International Airport|Samara]], [[Sochi International Airport|Sochi]], [[Roshchino International Airport|Tyumen]], [[Koltsovo Airport|Yekaterinburg]]
+<!-- -->
+| [[SCAT Airlines]] | [[Aktau International Airport|Aktau]], [[Şymkent International Airport|Şymkent]]
+<!-- -->
+| [[Sky Express (Greece)|Sky Express]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Somon Air]] | [[Dushanbe International Airport|Dushanbe]]
+<!-- -->
+| [[SkyUp Airlines]] | [[Chișinău Eugen Doga International Airport|Chișinău]]
+<!-- -->
+| [[Sundor]] | [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Paris Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Uzbekistan Airways]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Varesh Airlines]] | [[Tehran Imam Khomeini International Airport|Tehran–Imam Khomeini]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+| [[SF Airlines]] | [[Ürümqi Diwopu International Airport|Ürümqi]]
+}}

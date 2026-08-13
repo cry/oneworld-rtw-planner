@@ -1,0 +1,19 @@
+==Airlines and destinations==
+{{incomplete list|date=April 2026}}
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[Badr Airlines]] | [[Juba International Airport|Juba]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| {{nowrap|[[Ethiopian Airlines]]}} | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Sudan Airways]] | [[Cairo International Airport|Cairo]], [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Tarco Aviation]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+}}

@@ -1,0 +1,633 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+<!-- -->
+| [[Air Canada]] |'''Seasonal:''' [[Toronto–Pearson]]
+<!-- -->
+| [[Allegiant Air]] | [[Akron–Canton Airport|Akron/Canton]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Des Moines International Airport|Des Moines]], [[Gerald R. Ford International Airport|Grand Rapids]], [[Harrisburg International Airport|Harrisburg]], [[Indianapolis International Airport|Indianapolis]], [[McGhee Tyson Airport|Knoxville]], [[Pittsburgh International Airport|Pittsburgh]], [[Washington–Dulles]] <br />'''Seasonal:''' [[MidAmerica St. Louis Airport|Belleville/St. Louis]], [[Rickenbacker International Airport|Columbus–Rickenbacker]], [[Bishop International Airport|Flint]], [[Nashville International Airport|Nashville]],
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Washington–National]] <br/> '''Seasonal:''' [[Chicago–O'Hare]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]], [[Miami International Airport|Miami]], [[New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Washington–National]]
+<!-- -->
+| [[Avelo Airlines]] | [[Tweed New Haven Airport|New Haven]]
+<!-- -->
+| [[Breeze Airways]] | [[Akron–Canton Airport|Akron/Canton]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Bradley International Airport|Hartford]], [[Harry Reid International Airport|Las Vegas]], [[Tweed New Haven Airport|New Haven]],  [[Norfolk International Airport|Norfolk]], [[Rhode Island T. F. Green International Airport|Providence]], [[Pittsburgh International Airport|Pittsburgh]], [[Raleigh–Durham International Airport|Raleigh/Durham]]  <br/> '''Seasonal:''' [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Los Angeles International Airport|Los Angeles]], [[Louis Armstrong New Orleans International Airport|New Orleans]],  [[Richmond International Airport|Richmond]], [[San Diego International Airport|San Diego]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[New York–JFK]]
+<!-- -->
+| [[Delta Connection]] | [[Austin–Bergstrom International Airport|Austin]], [[Logan International Airport|Boston]], [[New York–JFK]], [[New York–LaGuardia]]
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Philadelphia International Airport|Philadelphia]], [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[New York–JFK]], [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Austin–Bergstrom International Airport|Austin]], [[Baltimore/Washington International Airport|Baltimore]], [[Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Houston–Hobby]], [[Nashville International Airport|Nashville]], [[St. Louis Lambert International Airport|St. Louis]]
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[Washington–Dulles]]
+<!-- -->
+| [[United Express]] |  [[Houston–Intercontinental]] <br/> '''Seasonal:''' [[Chicago–O'Hare]], [[Newark Liberty International Airport|Newark]], [[Washington–Dulles]]
+<!-- -->
+}}
+
+<mapframe latitude="38.099983" longitude="-95.668945" zoom="4" width="750" height="550" align="center">
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "city",
+        "text": "JAX",
+        "marker-color": "0050d0",
+        "marker-size": "large"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6826629638672,
+          30.49010107130931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "CVG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.65841293334962,
+          39.055750887618004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "IND",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2981653213501,
+          39.71454874459715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "PIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2553415298462,
+          40.496227552921354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "CLE",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.83810234069826,
+          41.41103109073135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "LCK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.93446063995363,
+          39.817008053493815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "PHL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2402973175049,
+          39.87644756906335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "EWR",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.17784214019777,
+          40.690693687419774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "JFK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.78276348114015,
+          40.64629415394347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "LGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87001037597658,
+          40.7720918760227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "BOS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.01832866668703,
+          42.36542504355094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "BWI",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6683053970337,
+          39.17914601122213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "DCA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04349279403688,
+          38.8534614587088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "TTN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.81805324554445,
+          40.276742703829406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "IAD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.44756221771242,
+          38.95313483975009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "ORF",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.20434761047365,
+          36.89980274562748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "PHX",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0740,
+          33.4484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "MIA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.27855873107912,
+          25.794172690379042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "ATL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.43194866180421,
+          33.64074057128525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "SDF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7585,
+          38.2527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "CLT",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.94391822814943,
+          35.21981940793435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "GSP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.21412658691408,
+          34.89346406486655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "MSY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2579426765442,
+          29.98342166752144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "BNA",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.66818141937257,
+          36.13018016711117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "MDW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74116158485413,
+          41.78835297129666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "ORD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.90487289428712,
+          41.97684819454686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "DTW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3576488494873,
+          42.20734997191741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "MSP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.21096897125246,
+          44.883272480039786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "BLV",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.81653690338136,
+          38.54809829615845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "STL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.36469459533691,
+          38.74015960587783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "AUS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.66716957092287,
+          30.202076589235993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "HOU",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.27669906616212,
+          29.655164600486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "DFW",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.04026222229005,
+          32.89738957850473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "PVD",
+        "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4128,
+          41.8240
+        ]
+      }
+    },    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "DAL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.85025453567505,
+          32.843773329495235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "MCI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7105,
+          39.3014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "DEN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67361450195314,
+          39.8517752151841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"text": "LAX",
+          "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.40841293334962,
+          33.94346675292802
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {"text": "MDT",
+          "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.76333300000000,
+          40.19305600000000
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {"text": "TYS",
+          "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.99388900000000,
+          35.81111100000000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "airport",
+        "text": "SJU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.001944,
+          18.439167
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {"text": "SAN",
+          "marker-symbol": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.18972200000000,
+          32.73361100000000
+        ]
+      }
+    }
+  ]
+}
+</mapframe>
+{{clear}}
+
+===Cargo===
+{{Airport destination list
+| [[FedEx Express]] |[[Memphis International Airport|Memphis]], [[Indianapolis International Airport|Indianapolis]]
+| [[UPS Airlines]]  |[[Louisville Muhammad Ali International Airport|Louisville]], [[Luis Muñoz Marín International Airport|San Juan]], [[Philadelphia International Airport|Philadelphia]]
+}}

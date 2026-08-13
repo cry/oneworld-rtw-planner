@@ -1,0 +1,16 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[J-Air]] | [[Fukuoka Airport|Fukuoka]], [[Kagoshima Airport|Kagoshima]]
+<!-- -->
+| [[Japan Air Commuter]] | [[Kagoshima Airport|Kagoshima]], [[Kikai Airport|Kikai]], [[Naha Airport|Naha]], [[Okinoerabu Airport|Okinoerabu]], [[Tokunoshima Airport|Tokunoshima]], [[Yoron Airport|Yoron]]
+<!-- -->
+| [[Japan Airlines]] | [[Itami Airport|Osaka–Itami]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Peach Aviation|Peach]] | [[Kansai International Airport|Osaka–Kansai]], [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Skymark Airlines]] | [[Kagoshima Airport|Kagoshima]]
+<!-- -->
+}}

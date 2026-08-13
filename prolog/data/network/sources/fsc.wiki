@@ -1,0 +1,26 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Figari–Sud Corse Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Corsica]] | [[Marseille Provence Airport|Marseille]], [[Nice Côte d'Azur Airport|Nice]], [[Orly Airport|Paris–Orly]] <br> '''Seasonal:''' [[Brussels South Charleroi Airport|Charleroi]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Olbia Costa Smeralda Airport|Olbia]], [[Toulon–Hyères Airport|Toulon]], [[Toulouse-Blagnac Airport|Toulouse]]
+<!-- -->
+| [[Air Dolomiti]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Air France]] | [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[EasyJet]] | '''Seasonal:''' [[EuroAirport Basel Mulhouse Freiburg|Basel/Mulhouse]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Geneva Airport|Geneva]], [[Gatwick Airport|London–Gatwick]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Linate Airport|Milan–Linate]], [[Nantes Atlantique Airport|Nantes]], [[Charles de Gaulle Airport|Paris-Charles de Gaulle]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zürich]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Ryanair]] | '''Seasonal:''' [[Beauvais–Tillé Airport|Beauvais]], [[Brussels South Charleroi Airport|Charleroi]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Nantes Atlantique Airport|Nantes]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Bordeaux–Mérignac Airport|Bordeaux]], [[Lille Airport|Lille]], [[Lyon–Saint-Exupéry Airport|Lyon]], [[Nantes Atlantique Airport|Nantes]], [[Rodez–Aveyron Airport|Rodez]], [[Strasbourg International Airport|Strasbourg]]
+<!-- -->
+}}

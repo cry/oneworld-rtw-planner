@@ -1,0 +1,7 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+The following airlines operate regular scheduled and charter flights at Juan Gualberto Gómez Airport:
+
+{{Airport-dest-list
+| {{nowrap|[[American Airlines]]}} | [[Miami International Airport|Miami]]
+}}

@@ -1,0 +1,19 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[AirAsia]]|[[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]]
+<!-- -->
+| [[AirBorneo]] |[[Ba'kelalan Airport|Ba'kelalan]], [[Bario Airport|Bario]], [[Bintulu Airport|Bintulu]], [[Labuan Airport|Labuan]], [[Lawas Airport|Lawas]], [[Limbang Airport|Limbang]], [[Long Akah Airport|Long Akah]], [[Long Banga Airport|Long Banga]], [[Long Lellang Airport|Long Lellang]], [[Long Seridan Airport|Long Seridan]], [[Marudi Airport|Marudi]], [[Mukah Airport|Mukah]], [[Mulu Airport|Mulu]], [[Sibu Airport|Sibu]]
+<!-- -->
+|{{nowrap|[[Malaysia Airlines]]}}|[[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+|[[Scoot]]|[[Changi Airport|Singapore]]
+|}}
+[[File:MAS WINGS ATR72 9M-MWE AT MIRI AIRPORT SARAWAK ISLAND OF BORNEO JUNE 2011.jpg|thumb|A MASwings ATR 72 parked next to a Malaysia Airlines Boeing 737]]
+
+===Cargo===
+{{airport-dest-list
+|[[World Cargo Airlines]]|[[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]]}}

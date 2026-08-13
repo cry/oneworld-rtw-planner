@@ -1,0 +1,15 @@
+== Airlines and destinations ==
+{{Airport-dest-list
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| {{Nowrap|[[Air India Express]]}} | [[Zayed International Airport|Abu Dhabi]], [[Kempegowda International Airport|Bengaluru]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Muscat International Airport|Muscat]], [[Sharjah International Airport|Sharjah]], [[Changi Airport|Singapore]], [[Thiruvananthapuram International Airport|Thiruvananthapuram]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| {{Nowrap|[[IndiGo]]}} | [[Zayed International Airport|Abu Dhabi]], [[Kempegowda International Airport|Bengaluru]], [[Chennai International Airport|Chennai]], [[Indira Gandhi International Airport|Delhi]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Jaffna International Airport|Jaffna]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+|{{Nowrap|[[SriLankan Airlines]]}} | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+}}

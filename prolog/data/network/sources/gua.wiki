@@ -1,0 +1,38 @@
+==Airlines and destinations==
+===Passenger===
+[[File:MGGT1.jpg|thumb|Check-in counters]]
+[[File:MGGT5.jpg|thumb|Main corridor]]
+[[File:MGGT11.jpg|thumb|Waiting room]]
+[[File:MGGT8.jpg|thumb|Main corridor]]
+
+{{Airport destination list
+<!-- -->
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Air Canada]] | [[Montréal–Trudeau]]
+<!-- -->
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]]{{citation needed|date=February 2026}}
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]] <br />'''Seasonal:''' [[Chicago–O'Hare]]
+<!-- -->
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+| [[Avianca Costa Rica]] | [[Miami International Airport|Miami]]{{citation needed|date=February 2026}} <br /> '''Seasonal:''' [[Chicago–O'Hare]]{{citation needed|date=February 2026}}
+<!-- -->
+| [[Avianca El Salvador]] | [[Los Angeles International Airport|Los Angeles]], [[New York–JFK]], <br /> '''Seasonal:''' [[San Francisco International Airport|San Francisco]]
+<!-- -->
+| [[BermudAir]] | '''Seasonal:''' [[Philip S. W. Goldson International Airport|Belize City]], [[Logan International Airport|Boston]] (both begin December 19, 2026)
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Frontier Airlines]]| '''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Houston–Intercontinental]], [[Orlando International Airport|Orlando]]
+<!-- -->
+| [[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]
+<!-- -->
+| [[United Airlines]] | [[Chicago–O'Hare]], [[Houston–Intercontinental]], [[Los Angeles International Airport|Los Angeles]], [[Newark Liberty International Airport|Newark]], [[Washington–Dulles]]
+<!-- -->
+|[[Volaris]] | [[Cancún International Airport|Cancún]], [[Guadalajara International Airport|Guadalajara]] (begins December 4, 2026), [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Wingo (airline)|Wingo]] | [[El Dorado International Airport|Bogotá]], [[José María Córdova International Airport|Medellín–JMC]]
+<!-- -->
+}}

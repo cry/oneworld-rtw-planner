@@ -1,0 +1,53 @@
+==Airlines and destinations==
+
+=== Passenger ===
+{{incomplete list|date=June 2026}}
+{{Airport destination list
+<!-- -->
+| [[Alaska Airlines]] | [[Portland International Airport|Portland]], [[Seattle/Tacoma]] <br /> '''Seasonal:''' [[San Diego International Airport|San Diego]]
+<!-- -->
+| [[Allegiant Air]] |[[Harry Reid International Airport|Las Vegas]], [[Mesa Gateway Airport|Phoenix/Mesa]] <br />'''Seasonal:''' [[John Wayne Airport|Orange County]]
+<!--  -->
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+<!--  -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Chicago–O'Hare]] <br />'''Seasonal:''' [[Los Angeles International Airport|Los Angeles]]
+<!--  -->
+| [[Delta Air Lines]] | [[Salt Lake City International Airport|Salt Lake City]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] 
+<!--  -->
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]]
+<!--  -->
+| [[Sun Country Airlines]] | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | [[Denver International Airport|Denver]]<br /> '''Seasonal:''' [[Chicago–O'Hare]]
+<!-- -->
+| [[United Express]] | [[Denver International Airport|Denver]] <br /> '''Seasonal:''' [[San Francisco International Airport|San Francisco]]
+}}
+
+[[Neptune Aviation]], an [[aerial firefighting]] company, is based at the airport.{{citation needed|date=June 2026}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Missoula Montana Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=46.916389|long=-114.090556|position=top|label='''<small>Missoula</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=45.58861|long=-122.59750|position=left|label='''<small>[[Portland International Airport|Portland]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=47.44889|long=-122.30944|position=left|label='''<small>[[Seattle–Tacoma International Airport
+|Seattle/Tacoma]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=36.08000|long=-115.15222|position=left|label='''<small>[[Harry Reid International Airport
+|Las Vegas]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=33.30778|long=-111.65556|position=left|label='''<small>[[Mesa Gateway Airport
+|Phoenix/Mesa]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=41.974186|long=-87.907783|position=left|label='''<small>[[Chicago–O'Hare]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=32.89694|long=-97.03806|position=left|label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=40.78833|long=-111.97778|position=left|label='''<small>[[Salt Lake City International Airport|Salt Lake City]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg |United_States |lat=39.86167|long=-104.67306|position=left|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg |United_States |lat=37.6188|long=-122.3754|position=left|label='''<small>[[San Francisco International Airport|San Francisco]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg |United_States |lat=33.9416|long=-118.4085|position=left|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg |United_States |lat=33.6757|long=-117.8682|position=left|label='''<small>[[John Wayne Airport|Orange County]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg |United_States |lat=32.7336|long=-117.1897|position=left|label='''<small>[[San Diego International Airport|San Diego]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=44.884690|long=-93.222430|position=left|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}

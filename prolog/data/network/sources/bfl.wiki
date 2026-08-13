@@ -1,0 +1,17 @@
+== Airlines and destinations ==
+
+=== Passenger ===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Unreferenced section|date=January 2022}}
+{{Airport destination list
+| [[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| [[United Airlines]] | '''Seasonal:''' [[Denver International Airport|Denver]]
+| [[United Express]] | [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]]
+}}
+
+=== Cargo ===
+{{Airport destination list
+| [[Ameriflight]] | [[Hollywood Burbank Airport|Burbank]], [[Ontario International Airport|Ontario]], [[San Luis Obispo County Regional Airport|San Luis Obispo]]
+| [[FedEx Feeder]]<br />{{nowrap|operated by [[West Air (United States)|West Air]]}} | [[Ontario International Airport|Ontario]]
+}}

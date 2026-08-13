@@ -1,0 +1,22 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!--  -->
+| [[Air Busan]] | [[Gimhae International Airport|Busan]]
+| [[Air Seoul]] | [[Incheon International Airport|Seoul–Incheon]]
+<!--  -->
+| [[All Nippon Airways]] | [[Naha Airport|Naha]], [[Haneda Airport|Tokyo–Haneda]]
+<!--  -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!--  -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!--  -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!--  -->
+| [[Jetstar Japan]] |[[Narita International Airport|Tokyo–Narita]]
+<!--  -->
+| [[Jin Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!--  -->
+| [[Starlux Airlines]] | [[Taichung International Airport|Taichung]]
+<!-- -->
+}}

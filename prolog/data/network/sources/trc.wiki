@@ -1,0 +1,41 @@
+==Airlines and destinations==
+=== Passengers ===
+{{Airport destination list
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| {{nowrap|[[Aeroméxico Connect]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+| [[TAR Aerolíneas|TAR México]] | [[Chihuahua International Airport|Chihuahua]], [[Ciudad Juárez International Airport|Ciudad Juárez]], [[Mazatlán International Airport|Mazatlán]], [[Monterrey International Airport|Monterrey]], [[Querétaro Intercontinental Airport|Querétaro]]
+| [[Viva (airline)|Viva]] | [[Cancún International Airport|Cancún]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Los Cabos International Airport|San José del Cabo]] <br> '''Seasonal:''' [[San Antonio International Airport|San Antonio]]
+| [[Volaris]] | [[Guadalajara International Airport|Guadalajara]], [[Tijuana International Airport|Tijuana]]
+}}
+
+=== Cargo ===
+{{Airport-dest-list
+|[[Aeronaves TSM]]| [[Culiacán International Airport|Culiacán]], [[Querétaro Intercontinental Airport|Querétaro]]
+<!-- -->
+| [[TUM AeroCarga]] | [[Chihuahua International Airport|Chihuahua]], [[Ciudad Juárez International Airport|Ciudad Juárez]], [[Toluca International Airport|Toluca/Mexico City]]
+}}
+[[File:Aeropuerto-torreon-terminal.jpg|thumb|Passenger terminal and control tower]]
+[[File:Interior del Aeropuerto Internacional de Torreón.jpg|thumb|Arrivals hall]]
+[[File:Embaer 190 de Aeromexico Connect en posicion para despegar en la pista 13 de Torreon.jpg|thumb|Aeromexico Connect Embraer E190 at TRC]]
+[[File:Aeropuerto Internacional Francisco Sarabia Torren.jpg|thumb|Aeromexico Embraer ERJ-145 at TRC]]
+
+=== Destination maps ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=left|caption=Domestic destinations from Torreón International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Mexico|lat=25.568056 |long=-103.410556 |position=right|label=<div style="position:relative; top:-0px;"><small>'''Torreón'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=bottom|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=21.0417 |long=-86.8740|position=left|label='''[[Cancún International Airport|{{nowrap|Cancún}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.521667 |long=-103.311111|position=bottom|label='''[[Miguel Hidalgo y Costilla Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=31.636389 |long=-106.428611|position=bottom|label='''[[Ciudad Juárez International Airport|{{nowrap|Ciudad Juárez}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.617361 |long=-100.185667|position=right|label='''[[Querétaro Intercontinental Airport|{{nowrap|Querétaro}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=23.151667 |long=-109.720833|position=bottom|label='''[[Los Cabos International Airport|{{nowrap|Los Cabos}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.7566 |long=-99.0152|position=right|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City/AIFA}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg| Mexico|lat=23.161389|long=-106.266111|position=top|label='''[[Mazatlán International Airport|Mazatlán]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg| Mexico|lat=25.7778 |long=-100.1080|position=top|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Red pog.svg|  Mexico|lat=28.7040 |long=-105.9690|position=right|label='''[[Chihuahua International Airport|{{nowrap|Chihuahua}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|United_States|width=650|float=left|caption=International destinations from Torreón International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal/charter destination|places={{Location map~ |United_States |lat=32.8998|long=-97.0403|position=top|label='''[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States  | mark = green pog.svg |lat=29.526667|long=-98.471944|position=top|label='''[[San Antonio International Airport|San Antonio]]'''|label_size=90 |marksize=7 }}}}
+|}

@@ -1,0 +1,64 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Ronald Reagan Washington National Airport|Washington–National]]
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| [[United Express]]| [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+
+{| class="wikitable"
+|+ Annual passenger traffic (enplaned and deplaned) at BTR 2005–present
+! Year
+! Passengers
+! Year
+! Passengers
+! Year
+! Passengers
+! Year
+! Passengers
+|-
+|2005||1,014,000||2010||766,000||2015||726,000||2020||352,000
+|-
+|2006||'''1,054,000'''||2011||782,000||2016||719,000||2021||546,000
+|-
+|2007||952,000||2012||802,000||2017||749,000||2022||649,000
+|-
+|2008||820,000||2013||788,000||2018||774,000||2023||742,000
+|-
+|2009||685,000||2014||754,000||2019||790,000||2024||821,000
+|}
+*12 months ending December of each year.
+
+Historically, the Baton Rouge Metropolitan Airport (BTR) was served by [[American Airlines]], [[Continental Airlines]] (now [[United Airlines]]), [[Eastern Airlines]], [[Northwest Airlines]] (now [[Delta Air Lines]]), [[Southern Airways]], which merged with [[North Central Airlines]] to form [[Republic Airlines]] which in turn then continued to serve the airport, and [[Trans-Texas Airways]] (TTa) which subsequently changed its name to [[Texas International Airlines]]. All of these airlines operated mainline jet service from the airport with the exception of Eastern which flew [[Martin 4-0-4]] and [[Convair 440]] twin prop "Silver Falcon" airliners from Baton Rouge in the 1950s. Mainline jet aircraft types operated in passenger service from Baton Rouge in the past included [[Boeing 727-100]], [[727-200]], [[737-200]], [[737-300]] and [[737-500]] jetliners as well as [[Douglas DC-9-10]] and [[DC-9-30]] jets and also [[McDonnell Douglas MD-80]] jetliners.
+
+Currently, commercial airline service at the airport is primarily operated with [[Canadair CRJ]] or [[Embraer ERJ]] regional jets flown by the regional affiliates of the major airlines that serve Baton Rouge. Most Delta and American flights are operated with larger, multi-class regional jets including CRJ-700, CRJ-900, and E175 aircraft that offer coach, premium coach, and first class seating options. Delta also uses mainline [[Boeing 717]] jets for some flights. United Express flights are operated with a mix of E175, CRJ-700, and ERJ-145 aircraft.
+
+===Top destinations===
+{| class="wikitable sortable" style="font-size: 95%" width= align=
+|+ '''Busiest domestic routes from Baton Rouge Regional<br />(August 2024 – July 2025)'''
+|-
+! Rank
+! City
+! Passengers
+|-
+| 1
+| {{Flagicon|Georgia (U.S. state)}} [[Hartsfield–Jackson Atlanta International Airport|Atlanta, Georgia]]
+| 130,710
+|-
+| 2
+| {{Flagicon|Texas}} [[Dallas Fort Worth International Airport|Dallas/Fort Worth, Texas]]
+| 117,860
+|-
+| 3 
+| {{Flagicon|Texas}} [[George Bush Intercontinental Airport|Houston-Intercontinental, Texas]]
+| 97,510
+|-
+| 4
+| {{Flagicon|North Carolina}} [[Charlotte Douglas International Airport|Charlotte, North Carolina]]
+| 53,150
+|-
+| 5
+| {{Flagicon|Virginia}} [[Ronald Reagan Washington National Airport|Washington–National, DC]]
+| 15,000
+|}

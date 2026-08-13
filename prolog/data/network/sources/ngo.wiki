@@ -1,0 +1,41 @@
+==Airlines and destinations==
+<!--===Passenger===-->
+{{incomplete list|date=July 2026}}
+{{Airport-dest-list
+<!-- -->
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]], [[Taipei–Taoyuan]]
+<!-- -->
+| [[Cebu Pacific]] | [[Mactan–Cebu International Airport|Cebu]] (resumes 26 October 2026), [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[China Airlines]] | [[Taipei–Taoyuan]]
+<!-- -->
+| [[Fuji Dream Airlines]] | [[Izumo Airport|Izumo]]
+<!-- -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Japan Airlines]] | [[Taipei–Taoyuan]], [[Tianjin Binhai International Airport|Tianjin]]
+<!-- -->
+| [[Jin Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Korean Air]] | [[Gimhae International Airport|Busan]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Peach Aviation|Peach]] | [[Naha Airport|Naha]]{{cn|date=July 2026}}
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Starlux Airlines]] | [[Taipei–Taoyuan]]
+<!-- -->
+| {{nowrap|[[Thai AirAsia X]]}} | [[Bangkok–Don Mueang]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai Lion Air]] | [[Bangkok–Don Mueang]], [[Taipei–Taoyuan]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Taipei–Taoyuan]]
+<!-- -->
+| [[VietJet Air]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Vietnam Airlines]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+}}

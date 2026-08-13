@@ -1,0 +1,7 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Palma de Mallorca Airport|Palma de Mallorca]] <br> '''Seasonal:''' [[Ibiza Airport|Ibiza]],{{cn|date=June 2025}} [[Menorca Airport|Menorca]]{{cn|date=June 2025}}
+<!-- -->
+}}

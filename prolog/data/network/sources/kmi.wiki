@@ -1,0 +1,25 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!--  -->
+| [[All Nippon Airways]] | [[Itami Airport|Osaka–Itami]]{{cn|date=June 2026}}, [[Haneda Airport|Tokyo–Haneda]]{{cn|date=June 2026}}
+<!--  -->
+| [[ANA Wings]] | [[Chubu Centrair International Airport|Nagoya–Centrair]]{{cn|date=June 2026}}, [[Itami Airport|Osaka–Itami]]{{cn|date=June 2026}}
+<!-- -->
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[J-Air]] | [[Fukuoka Airport|Fukuoka]]{{cn|date=June 2026}}, [[Itami Airport|Osaka–Itami]]{{cn|date=June 2026}}
+<!--  -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]{{cn|date=June 2026}}
+<!--  -->
+| [[Jetstar Japan]] | [[Narita International Airport|Tokyo–Narita]]{{cn|date=June 2026}}
+<!--  -->
+| [[Oriental Air Bridge]] | [[Fukuoka Airport|Fukuoka]]{{cn|date=June 2026}}
+<!--  -->
+| [[Peach Aviation]] | [[Kansai International Airport|Osaka–Kansai]],{{cn|date=June 2026}} [[Narita International Airport|Tokyo–Narita]]
+<!--  -->
+| [[Solaseed Air]] | [[Chubu Centrair International Airport|Nagoya–Centrair]],{{cn|date=June 2026}} [[Naha Airport|Naha]], [[Haneda Airport|Tokyo–Haneda]]{{cn|date=June 2026}}
+<!-- -->
+| [[Tigerair Taiwan]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+}}

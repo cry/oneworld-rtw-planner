@@ -1,0 +1,23 @@
+== Airlines and destinations ==
+=== Passenger ===
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+|[[Air Djibouti]] | [[Addis Ababa Bole International Airport|Addis Ababa]], [[Aden International Airport|Aden]], [[Aba Tenna Dejazmach Yilma International Airport|Dire Dawa]], [[Hargeisa Airport|Hargeisa]], [[Aden Adde International Airport|Mogadishu]]
+|[[Air France]] | [[Paris–Charles de Gaulle]]
+|[[Egyptair]] | [[Cairo International Airport|Cairo]], [[Aden Adde International Airport|Mogadishu]]
+|[[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]], [[Aba Tenna Dejazmach Yilma International Airport|Dire Dawa]]
+|[[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+|[[Flynas]] | [[King Abdulaziz International Airport|Jeddah]]
+|[[Jubba Airways]] | [[Bosaso Airport|Bosaso]], [[Hargeisa International Airport|Hargeisa]], [[King Abdulaziz International Airport|Jeddah]]
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]], [[Aden Adde International Airport|Mogadishu]]
+|[[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+|[[Yemenia]] | [[Aden Airport|Aden]]
+}}
+
+=== Cargo ===
+{{Airport-dest-list|
+{{nowrap|[[Air Djibouti]]}} | [[Bole International Airport|Addis Ababa]], [[Dubai World Central International Airport|Dubai–Al Maktoum]], [[Hargeisa International Airport|Hargeisa]], [[Aden Adde International Airport|Mogadishu]]
+|{{nowrap|[[Coyne Airways]]{{cn|date=September 2024}}}} | [[Dubai International Airport|Dubai–International]]
+|{{nowrap|[[Emirates Airlines|Emirates SkyCargo]]{{cn|date=September 2024}}}} | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+|{{nowrap|[[Ethiopian Airlines Cargo]]{{cn|date=September 2024}}}} | [[Addis Ababa International Airport|Addis Ababa]], [[Nanjing Lukou International Airport|Nanjing]]
+}}

@@ -1,0 +1,18 @@
+== Airlines and destinations ==
+The following airlines operate regular scheduled and charter flights at Toulon–Hyères Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Air Corsica]] | '''Seasonal:''' [[Ajaccio Napoleon Bonaparte Airport|Ajaccio]],{{cn|date=April 2025}} [[Bastia-Poretta Airport|Bastia]], [[Figari–Sud Corse Airport|Figari]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[London City Airport|London–City]]
+<!-- -->
+| {{nowrap|[[ASL Airlines France]]}} | '''Seasonal:''' [[Houari Boumediene Airport|Algiers]],{{cn|date=April 2025}} [[Lille Airport|Lille]]
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Volotea]] | '''Seasonal:''' [[Lille Lesquin Airport|Lille]] (begins 29 June 2026)
+<!-- -->
+| [[Transavia]] | [[Houari Boumedienne Airport|Algiers]], [[Brest Bretagne Airport|Brest]], [[Nantes Airport|Nantes]], [[Paris Orly Airport|Paris–Orly]]{{better|independent source needed|date=October 2024}} <br> '''Seasonal:''' [[Bordeaux–Mérignac Airport|Bordeaux]], [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+}}

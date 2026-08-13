@@ -1,0 +1,24 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Nouakchott–Oumtounsy Airport:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->{{airport-dest-list
+<!-- -->
+|[[Air Algérie]] |[[Houari Boumediene Airport|Algiers]], [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+|[[Air France]]| [[Ahmed Sékou Touré International Airport|Conakry]], [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Senegal]] | [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+|[[ASKY Airlines]]| [[Conakry International Airport|Conakry]], [[Lomé–Tokoin International Airport|Lomé]]
+<!-- -->
+|[[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+|{{nowrap|[[Mauritania Airlines]]}}| [[Bamako-Sénou International Airport|Bamako]], [[Mohammed V International Airport|Casablanca]], [[Conakry International Airport|Conakry]], [[Blaise Diagne International Airport|Dakar–Diass]], [[Gran Canaria Airport|Gran Canaria]], [[Néma Airport|Néma]], [[Nouadhibou International Airport|Nouadhibou]], [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+|[[Royal Air Maroc]]| [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+|[[Tunisair]]| [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+|[[Turkish Airlines]]| [[Banjul International Airport|Banjul]], [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

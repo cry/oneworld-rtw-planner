@@ -1,0 +1,13 @@
+==Airlines and destinations==
+[[File:American Eagle E170.jpg|thumb|American Eagle E-170 in October 2021]]
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable = yes
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Chicago O'Hare International Airport|Chicago–O'Hare]] (Begins Nov. 2, 2026), [[LaGuardia Airport|New York–LaGuardia]], |
+<!-- -->
+| [[Delta Air Lines]] | '''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] | 
+<!-- -->
+| {{nowrap|[[Delta Connection]]}} | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[LaGuardia Airport|New York–LaGuardia]] | 
+<!-- -->
+| [[United Express]] | [[Chicago O'Hare International Airport|Chicago–O'Hare]], [[Newark Liberty International Airport|Newark]] (begins September 24, 2026) [[Dulles International Airport|Washington–Dulles]] |}}

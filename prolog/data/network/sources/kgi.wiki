@@ -1,0 +1,8 @@
+==Airlines and destinations==
+{{Airport-dest-list
+|[[Alliance Airlines]]| [[Perth Airport|Perth]]
+|[[Nexus Airlines (Australia)|Nexus Airlines]]| [[Perth Airport|Perth]]
+|[[Qantas]] | [[Perth Airport|Perth]]
+|[[QantasLink]] | [[Perth Airport|Perth]]
+|[[Virgin Australia]]| [[Perth Airport|Perth]]
+|[[Virgin Australia Regional Airlines]]| [[Perth Airport|Perth]]}}

@@ -1,0 +1,18 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled flights to and from the Isle of Man:
+
+{{Airport-dest-list
+
+<!-- -->
+|[[airBaltic]] | '''Seasonal charter:''' [[Tenerife South Airport|Tenerife–South]]
+<!-- -->
+|{{nowrap|[[Aer Lingus]]}} | [[Dublin Airport|Dublin]]{{cn|date=June 2026}}
+<!-- -->
+|{{nowrap|[[British Airways]]}}  | '''Seasonal charter:''' [[Faro Airport|Faro]], [[Ibiza Airport|Ibiza]], [[Málaga Airport|Málaga]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[easyJet]] | [[Liverpool John Lennon Airport|Liverpool]],{{cn|date=June 2026}} [[London–Gatwick]],{{cn|date=June 2026}} [[Manchester Airport|Manchester]]{{cn|date=June 2026}} <br/> ''' Seasonal:''' [[Bristol Airport|Bristol]]{{citation needed|date=June 2026}}
+<!-- -->
+| [[Loganair]] | [[Birmingham Airport|Birmingham]],{{cn|date=June 2026}} [[Edinburgh Airport|Edinburgh]], [[Liverpool John Lennon Airport|Liverpool]],{{cn|date=June 2026}} [[London City Airport|London–City]],{{cn|date=June 2026}} [[London–Heathrow]],{{cn|date=June 2026}} [[Manchester Airport|Manchester]],{{cn|date=June 2026}} [[Newquay Airport|Newquay]]
+<!-- -->
+}}

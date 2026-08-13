@@ -1,0 +1,25 @@
+== Airlines and destinations ==
+===Passenger===
+The following airlines operate regular scheduled and charter flights at Visby Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[NyxAir|BrommaFLyg]]}} | [[Gothenburg Landvetter Airport|Gothenburg]] [[Stockholm Bromma Airport|Stockholm Bromma]]
+<!-- -->
+| [[Finnair]] | '''Seasonal:''' [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Norwegian Air Shuttle]] | '''Seasonal:''' [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Stockholm Arlanda Airport|Stockholm–Arlanda]] <br>'''Seasonal:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[NyxAir|Västflyg]] | '''Seasonal:''' [[Trollhättan–Vänersborg Airport|Trollhätten]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+|[[PopulAir]] | [[Stockholm–Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+}}

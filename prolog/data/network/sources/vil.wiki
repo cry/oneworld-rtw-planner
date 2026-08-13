@@ -1,0 +1,14 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Dakhla Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+| {{nowrap|[[Royal Air Maroc]]}} | [[Agadir–Al Massira Airport|Agadir]], [[Mohammed V International Airport|Casablanca]], [[Hassan I Airport|Laayoune]], [[Marrakesh Menara Airport|Marrakesh]], [[Paris–Orly]], [[Rabat–Salé Airport|Rabat]]
+<!-- -->
+| [[Ryanair]] | [[Madrid-Barajas Airport|Madrid]]
+<!-- -->
+| [[Transavia]] | [[Paris–Orly]]
+<!-- -->
+}}

@@ -1,0 +1,34 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| {{nowrap|[[Afriqiyah Airways]]}} | [[Benina International Airport|Benghazi]], [[Misrata Airport|Misrata]], [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[Air Arabia]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Amman Civil Airport|Amman–City]], [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]], [[Sharjah International Airport|Sharjah]], [[Taif International Airport|Ta'if]]{{bsn|date=June 2025}} <br> '''Seasonal:''' [[Orio al Serio International Airport|Bergamo]]
+<!-- -->
+| [[Air Cairo]] | [[Queen Alia International Airport|Amman–Queen Alia]], [[Athens International Airport|Athens]], [[King Abdulaziz International Airport|Jeddah]], [[Kuwait International Airport|Kuwait City]] <br /> '''Seasonal:''' [[Mohammed V International Airport|Casablanca]], [[Sharjah International Airport|Sharjah]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Egyptair]] | [[Benina International Airport|Benghazi]], [[Cairo International Airport|Cairo]],{{cn|date=June 2025}} [[King Fahd International Airport|Dammam]], [[Dubai International Airport|Dubai–International]], [[King Abdulaziz International Airport|Jeddah]], [[Kuwait International Airport|Kuwait City]], [[Prince Mohammad Bin Abdulaziz Airport|Medina]], [[King Khalid International Airport|Riyadh]] <br /> '''Seasonal:''' [[Hurghada International Airport|Hurghada]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Flyadeal]] | [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Libyan Airlines]] | [[Benina International Airport|Benghazi]], [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| {{nowrap|[[Petroleum Air Services]]}} | '''Charter:''' [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad Bin Abdulaziz Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+}}

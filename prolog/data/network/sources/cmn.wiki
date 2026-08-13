@@ -1,0 +1,84 @@
+==Airlines and destinations==
+===Passenger===
+The following airlines operate regular scheduled and charter flights at Casablanca Mohammed V International Airport:
+
+{{Airport destination list
+<!-- -->
+|[[Aegean Airlines]]| [[Athens International Airport|Athens]] (resumes 2 October 2026)
+<!-- -->
+| [[Air Arabia Maroc|Air Arabia]] | [[Barcelona–El Prat Josep Tarradellas Airport|Barcelona]], [[EuroAirport Basel-Mulhouse-Freiburg|Basel/Mulhouse]], [[Orio al Serio International Airport|Bergamo]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Brussels Airport|Brussels]], [[Catania–Fontanarossa Airport|Catania]], [[Cuneo International Airport|Cuneo]], [[Geneva Airport|Geneva]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[Lyon-Saint Exupéry Airport|Lyon]], [[Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Montpellier – Méditerranée Airport|Montpellier]], [[Naples International Airport|Naples]], [[Pisa International Airport|Pisa]], [[Venice Marco Polo Airport|Venice]]
+<!-- -->
+| [[Air Cairo]] | '''Seasonal:''' [[Borg El Arab International Airport|Alexandria]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Air Canada]] | [[Montréal–Pierre Elliott Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Air Senegal]] | [[Blaise Diagne International Airport|Dakar–Diass]]
+<!-- -->
+|[[Alexandria Airlines]] | '''Seasonal charter:''' [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Binter Canarias]] | [[Gran Canaria Airport|Gran Canaria]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Düsseldorf International Airport|Düsseldorf]]
+<!-- -->
+| [[Flynas]] | [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Mauritania Airlines]] | [[Nouakchott–Oumtounsy International Airport|Nouakchott]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Nnamdi Azikiwe International Airport|Abuja]], [[Accra International Airport|Accra]], [[Agadir–Al Massira Airport|Agadir]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Bamako-Sénou International Airport|Bamako]], [[Bangui M'Poko International Airport|Bangui]], [[Banjul International Airport|Banjul]], [[Barcelona–El Prat Josep Tarradellas Airport|Barcelona]], [[Beijing Daxing International Airport|Beijing–Daxing]], [[Osvaldo Vieira International Airport|Bissau]], [[Bologna Guglielmo Marconi Airport|Bologna]], [[Bordeaux–Mérignac Airport|Bordeaux]], [[Maya-Maya Airport|Brazzaville]], [[Brussels Airport|Brussels]], [[Cairo International Airport|Cairo]], [[Catania–Fontanarossa Airport|Catania]], [[Conakry International Airport|Conakry]], [[Cadjehoun Airport|Cotonou]], [[Blaise Diagne International Airport|Dakar–Diass]], [[Dakhla Airport|Dakhla]], [[Hamad International Airport|Doha]], [[Douala International Airport|Douala]], [[Dubai International Airport|Dubai–International]], [[Moulay Ali Cherif Airport|Errachidia]], [[Frankfurt Airport|Frankfurt]], [[Lungi International Airport|Freetown]], [[Geneva Airport|Geneva]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[N'djili Airport|Kinshasa–N'djili]], [[Hassan I Airport|Laayoune]], [[Murtala Muhammed International Airport|Lagos]], [[Libreville International Airport|Libreville]], [[Lisbon Airport|Lisbon]], [[Lomé-Tokoin Airport|Lomé]], [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]], [[London Stansted Airport|London–Stansted]], [[Los Angeles International Airport|Los Angeles]], [[Quatro de Fevereiro Airport|Luanda]], [[Lyon-Saint Exupéry Airport|Lyon]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Malabo International Airport|Malabo]], [[Manchester Airport|Manchester]], [[Marrakesh Menara Airport|Marrakesh]], [[Marseille Provence Airport|Marseille]], [[Prince Mohammad Bin Abdulaziz Airport|Medina]], [[Miami International Airport|Miami]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Roberts International Airport|Monrovia–Roberts]], [[Montpellier–Méditerranée Airport|Montpellier]], [[Montréal-Pierre Elliott Trudeau International Airport|Montréal–Trudeau]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Munich Airport|Munich]], [[Nantes Atlantique Airport|Nantes]], [[Naples International Airport|Naples]], [[N'Djamena International Airport|N'Djamena]], [[John F. Kennedy International Airport|New York–JFK]], [[Diori Hamani International Airport|Niamey]], [[Nice Côte d'Azur Airport|Nice]], [[Nouakchott–Oumtounsy International Airport|Nouakchott]], [[Ouagadougou Airport|Ouagadougou]], [[Angads Airport|Oujda]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Orly Airport|Paris–Orly]], [[Porto Airport|Porto]], [[Nelson Mandela International Airport|Praia]], [[King Khalid International Airport|Riyadh]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Pulkovo Airport|Saint Petersburg]], [[Amílcar Cabral International Airport|Sal]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Seville Airport|Seville]], [[Strasbourg Airport|Strasbourg]], [[Tenerife South Airport|Tenerife-South]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Toulouse-Blagnac Airport|Toulouse]], [[Tunis–Carthage International Airport|Tunis]], [[Turin Airport|Turin]], [[Venice Marco Polo Airport|Venice]], [[Dulles International Airport|Washington–Dulles]], [[Yaoundé Nsimalen International Airport|Yaoundé]], [[Zurich Airport|Zurich]]
+<!-- -->
+| {{nowrap|[[Royal Air Maroc Express]]}} | [[Agadir–Al Massira Airport|Agadir]], [[Cherif Al Idrissi Airport|Al Hoceima]], [[Fes-Saïss Airport|Fez]], [[Gran Canaria Airport|Gran Canaria]], [[Málaga Airport|Málaga]], [[Marrakesh Menara Airport|Marrakesh]], [[Nador International Airport|Nador]], [[Ouarzazate Airport|Ouarzazate]], [[Angads Airport|Oujda]], [[Tangier Ibn Battouta Airport|Tangier]], [[Tan Tan Airport|Tan Tan]], [[Sania Ramel Airport|Tétouan]], [[Valencia Airport|Valencia]], [[Zagora Airport|Zagora]]<!-- FLIGHT MAKES 40 MIN STOP AT OUARZAZATE BUT CONTINUES WITH SAME FLIGHT NUMBER AND SAME AIRCRAFT -->
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad Bin Abdulaziz Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Shanghai Airlines]] | [[Marseille Provence Airport|Marseille]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[TAP Air Portugal]] | [[Lisbon Airport|Lisbon]]
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Lyon Airport|Lyon]], [[Nantes Atlantique Airport|Nantes]], [[Orly Airport|Paris–Orly]] <br /> '''Seasonal:''' [[Marseille Provence Airport|Marseille]]
+<!-- -->
+| [[TUI fly Belgium]] | [[Bologna Guglielmo Marconi Airport|Bologna]], [[Brussels Airport|Brussels]], [[Lille Airport|Lille]], [[Orly Airport|Paris–Orly]], [[Rotterdam The Hague Airport|Rotterdam]]
+<!-- -->
+| [[Tunisair]] | [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] <br /> '''Seasonal:''' [[Antalya Airport|Antalya]]{{citation needed|date=January 2025}}
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[Air France Cargo]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Lufthansa Cargo]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Med Airlines]] | [[Bamako-Sénou International Airport|Bamako]], [[Léopold Sédar Senghor International Airport|Dakar–Senghor]], [[Lisbon Portela Airport|Lisbon]], [[Paris-Orly Airport|Paris–Orly]], [[Tangier Ibn Battouta Airport|Tangier]]
+<!-- -->
+| {{nowrap|[[Qatar Airways Cargo]]}} | [[Hamad International Airport|Doha]]
+<!-- -->
+| {{nowrap|[[RAM Cargo|Royal Air Maroc Cargo]]}} | [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Accra International Airport|Accra]], [[Modibo Keita International Airport|Bamako]], [[Brussels Airport|Brussels]], [[Douala International Airport|Douala]], [[Frankfurt Airport|Frankfurt]], [[Murtala Muhammed International Airport|Lagos]], [[Libreville International Airport|Libreville]], [[Gatwick Airport|London–Gatwick]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Turkish Cargo]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

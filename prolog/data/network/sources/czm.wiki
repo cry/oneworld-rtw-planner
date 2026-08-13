@@ -1,0 +1,55 @@
+==Airlines and destinations ==
+
+=== Passenger ===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Aeroméxico Connect]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Air Canada]] |'''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]] <br>'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Delta Air Lines]] | '''Seasonal:'''  [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:''' [[Milan Malpensa Airport|Milan–Malpensa]] (begins December 24, 2026)
+<!-- -->
+| {{nowrap| [[Sun Country Airlines]]}} |'''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]] <br> '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]]
+<!-- -->
+| [[Viva (airline)|Viva]] |  [[Monterrey International Airport|Monterrey]]
+<!-- -->
+| [[Volaris]] |[[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[WestJet]] | [[Montréal–Trudeau International Airport|Montréal–Trudeau]] <Br/>'''Seasonal:''' [[Calgary International Airport|Calgary]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+}}
+
+=== Destination maps ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=right|caption=Domestic destinations from Cozumel International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=bottom|label=
+'''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.515 |long=-86.928889|position=left|label=<div style="position:relative; top:5px;"><small>'''Cozumel'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=12 }}
+{{Location map~ | Mexico|lat=25.778333 |long=-100.106389|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|North_America|width=650|float=center|caption=International destinations from Cozumel International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | North_America|lat=20.515 |long=-86.928889|position=left|label=<div style="position:relative; top:-5px;"><small>'''Cozumel'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | North_America | mark = Green pog.svg  |lat=43.4036|long=-79.3750|position=top|label='''<small>[[Toronto Pearson International Airport|{{nowrap|Toronto-Pearson}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = Green pog.svg  |lat=51.1225|long=-114.013333|position=top|label='''<small>[[Calgary International Airport|Calgary]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = Green pog.svg  |lat=45.470556|long=-73.740833|position=top|label='''<small>[[Montréal–Trudeau International Airport|{{nowrap|Montréal-Trudeau}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = Green pog.svg  |lat=33.636667|long=-84.428056|position=right|label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = Green pog.svg  |lat=35.213889|long=-80.943056|position=top|label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = Green pog.svg  |lat=41.978611|long=-87.904722|position=left|label='''<small>[[O'Hare International Airport|{{nowrap|Chicago-O'Hare}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=32.896944|long=-97.038056|position=top|label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = Green pog.svg  |lat=39.861667|long=-104.673056|position=left|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=29.984444|long=-95.341389|position=right|label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=25.793333|long=-80.290556|position=bottom|label='''<small>[[Miami International Airport|Miami]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = Green pog.svg  |lat=44.881944|long=-93.221667|position=top|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis–St. Paul]]</small>'''|label_size=100 |marksize=7 }}}}
+|}

@@ -1,0 +1,50 @@
+== Airlines and destinations ==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter services at Turin Airport:
+
+<!--IT IS NOT ALLOWED TO SEPARATE BETWEEN SCHEDULED AND CHARTER FLIGHTS; RULE 11: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Airports/page_content-->
+{{Airport destination list
+<!-- -->
+| [[Aer Lingus]] | '''Seasonal:''' [[Dublin Airport|Dublin]]
+<!-- -->
+| [[Aeroitalia]] |[[Comiso Airport|Comiso]], [[Foggia Gino Lisa Airport|Foggia]], [[Salerno Airport|Salerno]]
+<!-- -->
+| [[Air Dolomiti]] | [[Frankfurt Airport|Frankfurt]],{{cn|date=December 2025}} [[Munich Airport|Munich]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]{{cn|date=December 2025}}
+<!-- -->
+| [[airBaltic]] | '''Seasonal:''' [[Riga International Airport|Riga]] (begins 30 January 2027), [[Vilnius Airport|Vilnius]]{{cn|date=December 2025}}
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]]{{cn|date=December 2025}}
+<!-- -->
+| [[Dan Air (Romania)|Dan Air]] | [[George Enescu International Airport|Bacău]]
+<!-- -->
+| [[easyJet]] | [[Gatwick Airport|London–Gatwick]]{{cn|date=December 2025}} <br /> '''Seasonal:''' [[Bristol Airport|Bristol]], [[Luton Airport|London–Luton]], [[Manchester Airport|Manchester]]{{cn|date=December 2025}}
+<!-- -->
+| [[Eurowings]] | '''Seasonal charter:''' [[Stockholm Arlanda Airport|Stockholm–Arlanda]]{{cn|date=December 2025}}
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]]{{cn|date=December 2025}}
+<!-- -->
+| [[ITA Airways]] | [[Rome Fiumicino Airport|Rome–Fiumicino]] <br /> '''Seasonal:''' [[Olbia Costa Smeralda Airport|Olbia]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Edinburgh Airport|Edinburgh]], [[London Gatwick Airport|London–Gatwick]] (begins 13 December 2026), [[Manchester Airport|Manchester]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]{{cn|date=December 2025}}
+<!-- -->
+| {{nowrap|[[Royal Air Maroc]]}} | [[Mohammed V International Airport|Casablanca]]{{cn|date=December 2025}}
+<!-- -->
+| [[Ryanair]]| [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bari Karol Wojtyła Airport|Bari]], [[Bratislava Airport|Bratislava]] (begins 26 October 2026), [[Brindisi Airport|Brindisi]], [[Budapest Airport|Budapest]] (resumes 25 October 2026), [[Cagliari Airport|Cagliari]], [[Catania Airport|Catania]], [[Brussels South Charleroi Airport|Charleroi]], [[Copenhagen Airport|Copenhagen]], [[Crotone Airport|Crotone]], [[Dublin Airport|Dublin]], [[Lamezia Terme International Airport|Lamezia Terme]], [[Lanzarote Airport|Lanzarote]], [[London Stansted Airport|London–Stansted]],{{cn|date=December 2025}} [[Madrid Airport|Madrid]], [[Malta International Airport|Malta]], [[Marrakesh Menara Airport|Marrakesh]], [[Naples International Airport|Naples]], [[Falcone–Borsellino Airport|Palermo]],{{cn|date=December 2025}} [[Pescara Airport|Pescara]], [[Porto Airport|Porto]],{{cn|date=December 2025}} [[Reggio Calabria Airport|Reggio Calabria]], [[Seville Airport|Seville]], [[Sofia Airport|Sofia]] (ends 24 October 2026), [[Tirana International Airport Nënë Tereza|Tirana]], [[Trapani–Birgi Airport|Trapani]], [[Valencia Airport|Valencia]], [[Vilnius Airport|Vilnius]]{{cn|date=December 2025}} <br /> '''Seasonal:''' [[Alicante–Elche Miguel Hernández Airport|Alicante]],{{cn|date=December 2025}} [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Corfu International Airport|Corfu]], [[Gdańsk Lech Wałęsa Airport|Gdansk]] (begins 19 December 2026), [[Glasgow Prestwick Airport|Glasgow–Prestwick]] (begins 12 December 2026), [[Ibiza Airport|Ibiza]], [[Katowice Airport|Katowice]] (begins 19 December 2026), [[Kraków John Paul II International Airport|Kraków]],{{cn|date=December 2025}} [[Liverpool John Lennon Airport|Liverpool]], [[Luton Airport|London–Luton]], [[Málaga Airport|Málaga]],{{cn|date=December 2025}} [[Manchester Airport|Manchester]],{{cn|date=December 2025}} [[Prague Airport|Prague]] (begins 19 December 2026), [[Shannon Airport|Shannon]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]],{{cn|date=December 2025}} [[Warsaw Chopin Airport|Warsaw–Chopin]] (begins 31 October 2026), [[Wrocław Airport|Wrocław]] (begins 19 December 2026)
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Cardiff Airport|Cardiff]] (begins 20 December 2026), [[East Midlands Airport|East Midlands]], [[Glasgow Airport|Glasgow]], [[London Gatwick Airport|London–Gatwick]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Volotea]] | [[Naples International Airport|Naples]], [[Olbia Costa Smeralda Airport|Olbia]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Vueling]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bilbao Airport|Bilbao]] (begins 25 October 2026)
+<!-- -->
+| [[Wizz Air]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]] (begins 14 September 2026), [[Bilbao Airport|Bilbao]] (begins 14 September 2026), [[Bucharest Băneasa Aurel Vlaicu International Airport|Bucharest–Băneasa]], [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Airport|Budapest]], [[Catania–Fontanarossa Airport|Catania]], [[Chișinău International Airport|Chișinău]] (ends 23 October 2026), [[Iași International Airport|Iași]], [[Lamezia Terme Airport|Lamezia Terme]] (begins 25 October 2026), [[Luton Airport|London–Luton]], [[Madrid Airport|Madrid]] (begins 25 October 2026), [[Málaga Airport|Málaga]] (begins 26 October 2026), [[Naples International Airport|Naples]] (begins 1 December 2026), [[Palermo Airport|Palermo]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]] (begins 14 September 2026), [[Sharm El Sheikh International Airport|Sharm El Sheikh]] (begins 27 October 2026), [[Vasil Levski Sofia Airport|Sofia]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Valencia Airport|Valencia]] (begins 15 September 2026) <br /> '''Seasonal:''' [[Gdańsk Lech Wałęsa Airport|Gdansk]] (begins 16 January 2027), [[Katowice Airport|Katowice]] (begins 16 January 2027), [[Prague Airport|Prague]] (begins 16 January 2027), [[Warsaw Chopin Airport|Warsaw–Chopin]], [[Wrocław Airport|Wrocław]] (begins 16 January 2027)
+<!-- -->
+}}

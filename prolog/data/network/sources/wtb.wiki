@@ -1,0 +1,9 @@
+==Airlines and destinations==
+
+===Passenger===
+{{airport-dest-list
+<!-- -->
+| [[QantasLink]] | [[Sydney Airport|Sydney]]
+<!-- -->
+| [[Rex Airlines]]| [[Bedourie Airport|Bedourie]], [[Birdsville Airport|Birdsville]], [[Boulia Airport|Boulia]], [[Brisbane Airport|Brisbane]], [[Charleville Airport|Charleville]], [[Cunnamulla Airport|Cunnamulla]], [[Mount Isa Airport|Mount Isa]], [[Quilpie Airport|Quilpie]], [[St George Airport (Queensland)|St George]], [[Thargomindah Airport|Thargomindah]], [[Windorah Airport|Windorah]]
+}}

@@ -1,0 +1,32 @@
+==Airlines and destinations==
+
+=== Passenger ===
+{{Airport destination list|
+{{nowrap|[[Aeroméxico Connect]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+| [[Volaris]] | [[Midway International Airport|Chicago–Midway]], [[Guadalajara International Airport|Guadalajara]], [[Los Angeles International Airport|Los Angeles]], [[San Jose International Airport|San Jose (CA)]], [[Tijuana International Airport|Tijuana]]
+}}
+[[File:MMZC 07.jpg|thumb|Arrivals hall]]
+[[File:MMZC 06.jpg|thumb|Departures concourse]]
+
+=== Destination maps ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=right|caption=Domestic destinations from Zacatecas International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Mexico |lat=22.9003 |long=-102.6804|position=left|label=<div style="position:relative; top:-5px;"><small>'''Zacatecas'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.2610 |long=-099.0419|position=right|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Blue pog.svg| Mexico|lat=20.5260 |long=-103.3076|position=bottom|label='''[[Miguel Hidalgo y Costilla Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|United States|width=650|float=center|caption=International destinations from Zacatecas International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ |United_States |lat=33.9416|long=-118.4085|position=right|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=37.3639|long=-121.9289|position=right|label='''<small>[[San Jose International Airport|San Jose]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=32.899741|long=-97.040424|position=left |label='''<small>{{nowrap|[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]}}</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |United_States |lat=41.4710|long=-87.4509|position=right|label='''<small>[[Midway International Airport|Chicago–Midway]]</small>'''|label_size=100 |marksize=7 }}}}
+|}
+
+=== Airlines previously flying to ZCL ===
+{|class="wikitable sortable" style="font-size: 85%" width= align=
+|- bgcolor=lightgrey
+! width="20%"|Airlines
+|-
+|[[Aeromar]], [[Aviacsa]], [[Avolar]], [[Líneas Aéreas Azteca|Azteca]]͵ [[Continental Express]], [[Delta Air Lines]], [[Interjet]], [[Mexicana de Aviación (1921–2010)|Mexicana]], [[Click Mexicana|MexicanaClick]], [[MexicanaLink]], and [[Transportes Aéreos Ejecutivos|TAESA]]
+|}

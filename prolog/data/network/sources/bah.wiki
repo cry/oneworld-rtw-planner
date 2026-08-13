@@ -1,0 +1,87 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list|3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT  REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY. AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+<!-- -->
+| [[Air Arabia]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+|<!-- -->
+| [[Air India Express]] | [[Indira Gandhi International Airport|Delhi]], [[Kannur International Airport|Kannur]], [[Cochin International Airport|Kochi]], [[Calicut International Airport|Kozhikode]], [[Mangalore International Airport|Mangaluru]], [[Trivandrum International Airport|Thiruvananthapuram]]
+|<!-- -->
+| [[AirAsia X]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[London Gatwick Airport|London–Gatwick]]
+|<!-- -->
+| [[AJet]] | [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+|<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]
+|<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]] | 
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+|<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+|<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+|<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+|<!-- -->
+| [[Fly Jinnah]] | [[Islamabad International Airport|Islamabad]], [[Allama Iqbal International Airport|Lahore]] | 
+<!-- -->
+| [[FlyArystan]] | '''Seasonal:''' [[Almaty International Airport|Almaty]]
+|<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+|<!-- -->
+| [[Flynas]] | [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+|<!-- -->
+| [[Gulf Air]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Athens International Airport|Athens]], [[Heydar Aliyev International Airport|Baku]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Kempegowda International Airport|Bengaluru]], [[Milas–Bodrum Airport|Bodrum]], [[Cairo International Airport|Cairo]], [[Mohammed V International Airport|Casablanca]], [[Chennai International Airport|Chennai]], [[Bandaranaike International Airport|Colombo–Bandaranaike]], [[King Fahd International Airport|Dammam]], [[Indira Gandhi International Airport|Delhi]], [[Shahjalal International Airport|Dhaka]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Frankfurt Airport|Frankfurt]], [[Prince Naif bin Abdulaziz International Airport|Gassim]], [[Dabolim Airport|Goa–Dabolim]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Islamabad International Airport|Islamabad]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[Jinnah International Airport|Karachi]], [[Cochin International Airport|Kochi]], [[Kuwait International Airport|Kuwait City]], [[Allama Iqbal International Airport|Lahore]], [[Larnaca International Airport|Larnaca]], [[Gatwick Airport|London–Gatwick]], [[Heathrow Airport|London–Heathrow]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]] (resumes 29 September 2026), [[Velana International Airport|Malé]], [[Manchester Airport|Manchester]], [[Ninoy Aquino International Airport|Manila]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Sheremetyevo International Airport|Moscow–Sheremetyevo]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Munich Airport|Munich]], [[Muscat International Airport|Muscat]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[Al Najaf International Airport|Najaf]], [[John F. Kennedy International Airport|New York–JFK]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[King Khalid International Airport|Riyadh]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Changi Airport|Singapore]], [[Tbilisi International Airport|Tbilisi]], [[Trivandrum International Airport|Thiruvananthapuram]] <br />''' Seasonal:'''  [[Prince Abdul Majeed bin Abdulaziz International Airport|Al Ula]], [[El Alamein International Airport|El Alamein]], [[Geneva Airport|Geneva]], [[Málaga Airport|Málaga]], [[Nice Côte d'Azur Airport|Nice]], [[Salalah International Airport|Salalah]] <br /> '''Seasonal charter:''' [[Sarajevo International Airport|Sarajevo]], [[Sochi International Airport|Sochi]]
+|<!-- -->
+| [[IndiGo]] | [[Cochin International Airport|Kochi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+|<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+|<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+|<!-- -->
+| [[Oman Air]] | [[Muscat International Airport|Muscat]]
+|<!-- -->
+|{{nowrap|[[Pakistan International Airlines]]}} | [[Allama Iqbal International Airport|Lahore]], [[Sialkot International Airport|Sialkot]]
+|<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]<br />'''Seasonal:''' [[Trabzon Airport|Trabzon]]
+|<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+|<!-- -->
+| [[Red Wings Airlines]] | [[Adler-Sochi International Airport|Sochi]]
+|<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+|<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]], [[Salalah International Airport|Salalah]]
+|<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[King Khaled International Airport|Riyadh]]
+|<!-- -->
+| [[Smartwings]] | '''Seasonal charter:''' [[Bratislava Airport|Bratislava]], [[Václav Havel Airport Prague|Prague]]
+|<!-- -->
+| [[Southwind Airlines]] | '''Seasonal charter:''' [[Antalya International Airport|Antalya]],{{citation needed|date=June 2026}} [[Trabzon Airport|Trabzon]]
+|<!-- -->
+| [[SunExpress]] | '''Charter:''' [[Antalya Airport|Antalya]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[Trabzon Airport|Trabzon]]
+|<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[AeroLogic]] | [[Frankfurt Airport|Frankfurt]], [[Leipzig/Halle Airport|Leipzig/Halle]], [[Changi Airport|Singapore]]
+<!-- -->
+|[[Cargolux]] | [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| {{nowrap|[[DHL Aviation]]{{better source needed|date=September 2022}}}} | [[Abu Dhabi International Airport|Abu Dhabi]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Baghdad International Airport|Baghdad]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Kempegowda International Airport|Bengaluru]], [[Brussels Airport|Brussels]], [[Cairo International Airport|Cairo]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Dubai International Airport|Dubai–International]], [[Hong Kong International Airport|Hong Kong]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[Kandahar International Airport|Kandahar]], [[Jinnah International Airport|Karachi]], [[Kuwait International Airport|Kuwait City]], [[Allama Iqbal International Airport|Lahore]], [[Liège Airport|Liège]], [[John F. Kennedy International Airport|New York–JFK]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]],  [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| {{nowrap|[[Emirates SkyCargo]]}} | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+| [[Lufthansa Cargo]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| {{nowrap|[[Qatar Airways Cargo]]}} | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[SpiceXpress]] | [[Indira Gandhi International Airport|Delhi]]
+<!-- -->
+| [[Turkish Cargo]]{{citation needed|date=June 2024}} | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

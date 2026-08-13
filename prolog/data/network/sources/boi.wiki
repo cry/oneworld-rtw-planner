@@ -1,0 +1,87 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport destination list
+<!-- -->
+| [[Alaska Airlines]] | [[Hollywood Burbank Airport|Burbank]], [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]], [[Ontario International Airport|Ontario]], [[John Wayne Airport|Orange County]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Portland International Airport|Portland (OR)]], [[Pullman–Moscow Regional Airport|Pullman]], [[Sacramento International Airport|Sacramento]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[San Jose International Airport|San Jose (CA)]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]], [[Spokane International Airport|Spokane]] <br /> '''Seasonal:''' [[Ted Stevens Anchorage International Airport|Anchorage]], [[Bozeman Yellowstone International Airport|Bozeman]], [[Daniel K. Inouye International Airport|Honolulu]] (begins December 17, 2026), [[Palm Springs International Airport|Palm Springs]], [[Charles M. Schulz–Sonoma County Airport|Santa Rosa]] (begins November 1, 2026)
+<!-- -->
+| [[Allegiant Air]] | [[John Wayne Airport|Orange County]], [[Mesa Gateway Airport|Phoenix/Mesa]]
+<!-- -->
+| [[American Airlines]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] <br /> '''Seasonal:''' [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[Salt Lake City International Airport|Salt Lake City]]
+<!-- -->
+|[[Delta Connection]]| [[Los Angeles International Airport|Los Angeles]], [[Salt Lake City International Airport|Salt Lake City]], [[Seattle-Tacoma International Airport|Seattle/Tacoma]]
+<!-- -->
+| [[Frontier Airlines]] | [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]] (begins September 10, 2026)
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} | [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]] (begins March 11, 2027), [[Oakland San Francisco Bay Airport|Oakland]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Sacramento International Airport|Sacramento]], [[San Diego International Airport|San Diego]], [[San Jose International Airport|San Jose (CA)]] <br /> '''Seasonal:''' [[Hollywood Burbank Airport|Burbank]], [[Midway International Airport|Chicago–Midway]], [[Dallas Love Field|Dallas–Love]]
+<!-- -->
+| [[Sun Country Airlines]]  | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St.Paul]]
+<!-- -->
+| [[United Airlines]] | [[Denver International Airport|Denver]], [[San Francisco International Airport|San Francisco]]<br /> '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]]
+<!-- -->
+| [[United Express]]| [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]]
+}}
+
+===Destinations map===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=900 |float=center|caption=Destinations from Boise Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=43.5658 |long=-116.2223 |position=left |label=<div style="position:relative;"><small>'''Boise'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.3086|long=-111.6569|position=right|label='''[[Phoenix-Mesa Gateway Airport|Phoenix/ Mesa]]'''|label_size=60 |marksize=6 }}
+{{Location map~ |United_States |lat=41.978611 |long=-87.904722  |position=left  |label_size=60 |marksize=6  |label='''[[O'Hare International Airport|Chicago–O'Hare]]''' |mark=Red pog.svg}}
+{{Location map~ |United_States |lat=41.786488 |long=-87.752188  |position=right  |label_size=60 |marksize=6  |mark=Green pog.svg|label='''[[Midway International Airport|Chicago–Midway]]'''}}
+{{Location map~ |United_States |lat=32.847978 |long=-96.851250  |position=right |label_size=60 |marksize=6  |mark=Green pog.svg|label='''[[Dallas Love Field|Dallas–Love]]'''}}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056  |position=left  |label_size=60 |marksize=6  |label='''[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]'''}}
+{{Location map~ |United_States |lat=39.855193 |long=-104.673849 |position=right |label_size=60 |marksize=6  |label='''[[Denver International Airport|Denver]]''' }}
+{{Location map~ |United_States |lat=36.083697 |long=-115.153873 |position=right |label_size=60 |marksize=6  |label='''[[Harry Reid International Airport|Las Vegas]]'''}}
+{{Location map~ |United_States |lat=44.884690 |long=-93.222430  |position=right |label_size=60 |marksize=6  |label='''{{Nowrap|[[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]}}''' |mark=Red pog.svg}}
+{{Location map~ |United_States |lat=33.436921 |long=-112.011667 |position=top |label_size=60 |marksize=6  |label='''[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]'''}}
+{{Location map~ |United_States |lat=45.588611 |long=-122.5975   |position=right |label_size=60 |marksize=6  |label='''[[Portland International Airport|Portland]]'''}}
+{{Location map~ |United_States |lat=40.789836 |long=-111.979632 |position=right |label_size=60 |marksize=6  |label='''[[Salt Lake City International Airport|Salt Lake City]]'''}}
+{{Location map~ |United_States |lat=47.450165 |long=-122.309176 |position=left |label_size=60 |marksize=6  |label='''[[Seattle–Tacoma International Airport|Seattle/Tacoma]]'''}}
+{{Location map~ |United_States |lat=33.636060 |long=-84.429333 |position=right |label_size=60 |marksize=6  |label='''[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]''' |mark=Red pog.svg}}
+{{Location map~ |United_States |lat=38.6951|long=-121.5901|position=right|label='''[[Sacramento International Airport|Sacramento]]'''|label_size=60 |marksize=7 }}
+{{Location map~ |United_States |lat=33.941381|long=-118.408619|position=left |label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=70 |marksize=6 }}
+ {{Location map~ |United_States |lat=37.362778|long=-121.929167|position=bottom|label='''<small>[[San Jose International Airport|San Jose]]</small>'''|label_size=70 |marksize=6 }}
+{{Location map~ |United_States |lat=32.733611|long=-117.189722|position=left|label='''<small>[[San Diego International Airport|San Diego]]</small>'''|label_size=70 |marksize=6 }}
+{{Location map~ |United_States|  mark = Red pog.svg |lat=33.675556|long=-117.868333 |position=left|label='''<small>[[John Wayne Airport|{{nowrap|Orange County}}]]</small>'''|label_size=70 |marksize=6 }}
+{{Location map~ |United States | mark = Red pog.svg |lat=34.2006|long=-118.3586|position=top|label='''<small>[[Hollywood Burbank Airport|Burbank]]</small>''' |label_size=70|marksize=6 }}
+{{Location map~ | mark = Green pog.svg |United_States |lat=33.8303 |long=-116.5070 |position=righy|label='''[[Palm Springs International Airport|Palm Springs]]'''|label_size=60 |marksize=6 }}
+{{Location map~ |mark = Red pog.svg |United States |lat=34.0560|long=-117.5981|position=right|label='''[[Ontario International Airport|Ontario]]'''|label_size=60|marksize=6}}
+{{Location map~ | mark = Green pog.svg  |United_States |lat=45.78 |long=-111.158867 |position=left|label='''[[Bozeman Yellowstone International Airport|Bozeman]]'''|label_size=60 |marksize=6 }}
+{{Location map~ |United_States |lat=47.621615 |long=-117.533542 |position=left|label='''[[Spokane International Airport|Spokane]]'''|label_size=60 |marksize=6 }} 
+{{Location map~ | mark = Red pog.svg |United_States|lat=46.744 |long=-117.108 |position=right |label='''[[Pullman–Moscow Regional Airport|Pullman]]''' |label_size=60|marksize=6 }}
+{{Location map~ |United_States |lat=37.618889|long=-122.375|position=left|label='''[[San Francisco International Airport|San Francisco]]'''|label_size=60 |marksize=6 }}
+{{Location map~ |United_States |lat=37.7126|long=-122.2197|position=right|label='''[[Oakland San Francisco Bay Airport|Oakland]]'''|label_size=60 |marksize=6 }}
+{{Location map~ |United_States | mark = Blue pog.svg |lat=38.5092 |long=-122.8133|position=top |label='''[[Charles M. Schulz–Sonoma County Airport|Santa Rosa]]'''|caption=|label_size=60|marksize=7 }}
+
+|}}
+|}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Alaska destinations map
+|-
+|{{Location map+ | Alaska |width=700 |float=center
+|caption=Destinations to the US State of Alaska. {{font color | red | Red}} dots represent year-round destinations; {{font color | green | green}} dots represent seasonal destinations; {{font color | blue | blue}} dots represent future destinations.
+|places=
+{{Location map~| mark = Green pog.svg |Alaska |lat=61.174167|long=-149.998333|position=left|label='''<small>[[Ted Stevens Anchorage International Airport|Anchorage]]</small>'''|label_size=80 |marksize=7 }}
+
+|}}
+|}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Hawaii destinations map
+|-
+|{{Location map+ |Hawaii|width=900 |float=center |alt=Hawaii destinations from San Jose International Airport
+|caption=Hawaii destinations from BOI <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |Hawaii| mark = Blue pog.svg  |lat=21.3069|long=-157.8583|position=bottom|label='''[[Daniel K. Inouye International Airport|Honolulu]]'''|label_size=90 |marksize=7 }}
+}}
+|}

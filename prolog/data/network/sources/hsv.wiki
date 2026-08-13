@@ -1,0 +1,26 @@
+==Airlines and destinations==
+Huntsville International Airport is served by five passenger airlines including: [[Allegiant Air]], [[American Airlines]], [[Breeze Airways]], [[United Airlines]], and [[Delta Air Lines]]. Huntsville passenger airlines represent the biggest three international [[airline alliances]] in the world. Some services are flown by regional affiliates via code sharing agreements.
+
+Huntsville International Airport serves eight [[cargo airline]]s including: [[Cargolux]], [[LATAM Cargo (disambiguation)|Latam Cargo]], [[Atlas Air]], DSV, [[FedEx Express|Fedex Express]], [[Qatar Airways|Qatar Airways Cargo]], [[UPS Airlines|UPS]] and [[Kerry Logistics Network]].
+
+===Passenger===
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Allegiant Air]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] '''Seasonal:''' [[Jack Edwards Airport|Gulf Shores]]{{citation needed|date=July 2026}}
+<!-- -->
+| {{nowrap|[[American Airlines]]}} | '''Seasonal:''' [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]{{citation needed|date=June 2025}}
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Ronald Reagan Washington National Airport|Washington–National]] <br /> '''Seasonal:''' [[Miami International Airport|Miami]]{{citation needed|date=June 2025}}
+<!-- -->
+| [[Breeze Airways]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Harry Reid International Airport|Las Vegas]], [[Orlando International Airport|Orlando]], [[Tampa International Airport|Tampa]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Airport|Detroit]], [[LaGuardia Airport|New York–LaGuardia]]
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Dulles International Airport|Washington–Dulles]]}}
+
+=== Cargo ===
+Source:
+{{Airport destination list|[[FedEx Feeder]]<br> operated by [[Baron Aviation Services|Baron Aviation]]|[[Memphis International Airport|Memphis]]}}[[File:Huntsville International Airport - January 2016 (47959255856).jpg|thumb|240x240px|Aerial Photo, HSV Airport]]

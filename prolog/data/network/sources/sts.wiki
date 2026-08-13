@@ -1,0 +1,35 @@
+==Airlines and destinations==
+
+===Passenger===
+{{Airport destination list
+| [[Alaska Airlines]] | [[Hollywood Burbank Airport|Burbank]],  [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]], [[Ontario International Airport|Ontario]], [[John Wayne Airport|Orange County]], [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]] <br /> '''Seasonal:''' [[Boise Airport|Boise]] (begins November 1, 2026), [[Palm Springs International Airport|Palm Springs]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] (begins November 1, 2026), [[Salt Lake City International Airport|Salt Lake City]] (begins November 1, 2026)
+| {{nowrap|[[American Airlines]]}} | '''Seasonal:''' [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| {{nowrap|[[American Eagle (airline brand)|American Eagle]]}} | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]] (begins October 6, 2026)
+| [[Southwest Airlines]] | [[Hollywood Burbank Airport|Burbank]], [[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[San Diego International Airport|San Diego]]<br> '''Seasonal:''' [[Austin–Bergstrom International Airport|Austin]] (begins October 3, 2026)
+}}
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Charles M. Schulz-Sonoma County Airport <br /> ({{font color | red | Red}}) = Year-round destination <br />({{font color | green | Green }}) = Seasonal destination <br /> ({{font color | blue | Blue }}) = Future destination
+|places=
+{{Location map~ |United_States |lat=38.5092 |long=-122.8133|position=top |label=<div style="position:relative; top;"><small>'''Santa Rosa'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=47.450165|long=-122.309176 |position=left|label='''<small>[[Seattle–Tacoma International Airport|Seattle/Tacoma]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=34.1983927|long=-118.3568153 |position=top|label='''<small>[[Hollywood Burbank Airport|Burbank]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.7338|long=-117.1933|position=left|label='''<small>[[San Diego International Airport|San Diego {{font|size=75%|{{nowrap|}}}}]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States|lat=39.861667|long=-104.673056|position=top|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United States |lat=33.675556|long=-117.868333 |position=left|label=<small>'''{{nowrap|[[John Wayne Airport|Orange County]]}}'''</small>|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=33.941381|long=-118.408619|position=left|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ | mark = red pog.svg |United_States |lat=34.0560|long=-117.5981|position=right|label='''<small>[[Ontario International Airport|Ontario]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United States |lat=33.434167|long=-112.011667|position=top|label=<small>'''[[Phoenix Sky Harbor International Airport|Phoenix–<br>Sky Harbor]]'''</small>|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United States|lat=32.896944|long=-97.038056|position=right|label=<small>'''{{nowrap|[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]}}'''</small>|label_size=80 |marksize=7 }}
+{{Location map~ |United States |lat=45.5898|long=-122.5951|position=left|label='''<small>[[Portland International Airport|Portland]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United States |lat=36.0448 |long=-115.0908 |position=top|label='''<small>[[McCarran International Airport|Las Vegas]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ | mark = blue pog.svg |United_States|lat=30.194444|long=-97.67|position=top|label='''<small>[[Austin–Bergstrom International Airport|Austin]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ | mark = blue pog.svg |United_States|lat=40.787671|long=-111.986549|position=top|label='''<small>[[Salt Lake City International Airport|Salt Lake City]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ | mark = blue pog.svg |United_States|lat=43.565469|long=-116.222353|position=top|label='''<small>[[Boise Airport|Boise]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United States |lat=33.8232 |long=-116.5106 |position=right|label='''<small>[[Palm Springs International Airport|Palm<br>Springs]]</small>'''|label_size=80 |marksize=7 }}
+}}
+|}

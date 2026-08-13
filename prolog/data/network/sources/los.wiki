@@ -1,0 +1,105 @@
+==Airlines and destinations==
+===Passenger===
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT  REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED.  -->
+
+[[File: Air France Airbus A330 and Emirates Boeing 777 at Lagos Airport.jpg|thumb|The main apron area of the airport]]
+{{Airport destination list
+<!-- -->
+|[[Aero Contractors (Nigeria)|Aero Contractors]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Asaba International Airport|Asaba]], [[Benin Airport|Benin City]], [[Margaret Ekpo International Airport|Calabar]], [[Akanu Ibiam International Airport|Enugu]], [[Mallam Aminu Kano International Airport|Kano]], [[Sam Mbakwe Airport|Owerri]], [[Port Harcourt International Airport|Port Harcourt]], [[Akwa Ibom Airport|Uyo]]
+<!-- -->
+|[[Africa World Airlines]]| [[Accra International Airport|Accra]]
+<!-- -->
+|[[Air Côte d'Ivoire]]| [[Port Bouet Airport|Abidjan]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Léon-Mba International Airport|Libreville]]
+<!-- -->
+|[[Air France]]| [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]<!-- Do not add Port Harcourt as an Air France destination; AF does not have local traffic rights on the LOS-PHC leg -->
+<!-- -->
+|[[Air Peace]]| [[Port Bouet Airport|Abidjan]], [[Nnamdi Azikiwe International Airport|Abuja]], [[Accra International Airport|Accra]], [[Akure Airport|Akure]], [[Asaba International Airport|Asaba]], [[Benin Airport|Benin City]], [[Margaret Ekpo International Airport|Calabar]], [[Cadjehoun Airport|Cotonou]], [[Blaise Diagne International Airport|Dakar–Diass]], [[Douala International Airport|Douala]], [[Akanu Ibiam International Airport|Enugu]], [[Lungi International Airport|Freetown]], [[Ibadan Airport|Ibadan]], [[Ilorin International Airport|Ilorin]], [[Mallam Aminu Kano International Airport|Kano]], [[Kebbi International Airport|Kebbi]], [[Gatwick Airport|London–Gatwick]], [[Roberts International Airport|Monrovia–Roberts]], [[Chinua Achebe International Airport|Onitsha]], [[Sam Mbakwe Airport|Owerri]], [[Port Harcourt International Airport|Port Harcourt]], [[Akwa Ibom Airport|Uyo]], [[Warri Airport|Warri]]<br />'''Charter:''' [[V. C. Bird International Airport|Antigua]], [[Grantley Adams International Airport|Barbados]]
+<!-- -->
+|[[Air Sierra Leone]]| [[Lungi International Airport|Freetown]]
+<!-- -->
+|[[Air Tanzania]]| [[Julius Nyerere International Airport|Dar es Salaam]]
+<!-- -->
+|[[Arik Air]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Asaba International Airport|Asaba]], [[Benin Airport|Benin City]], [[Margaret Ekpo International Airport|Calabar]], [[Akanu Ibiam International Airport|Enugu]], [[Yakubu Gowon Airport|Jos]], [[Kaduna Airport|Kaduna]], [[Mallam Aminu Kano International Airport|Kano]], [[Sam Mbakwe Airport|Owerri]], [[Port Harcourt International Airport|Port Harcourt]], [[Akwa Ibom Airport|Uyo]], [[Warri Airport|Warri]]
+<!-- -->
+|[[ASKY Airlines]]| [[Douala International Airport|Douala]], [[N'djili Airport|Kinshasa–N'djili]], [[Libreville International Airport|Libreville]], [[Lomé-Tokoin Airport|Lomé]]
+<!-- -->
+|[[Azman Air]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Mallam Aminu Kano International Airport|Kano]]
+<!-- -->
+|[[British Airways]]| [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+|[[Delta Air Lines]]| [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br />'''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+|[[Egyptair]]| [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Emirates (airline)|Emirates]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Enugu Air]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Akanu Ibiam International Airport|Enugu]], [[Sam Mbakwe International Cargo Airport|Owerri]]
+<!-- -->
+|[[Ethiopian Airlines]]| [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+|[[Etihad Airways]]| [[Zayed International Airport|Abu Dhabi]] (resumes 18 March 2027)
+<!-- -->
+|[[Green Africa Airways]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Akure Airport|Akure]], [[Akanu Ibiam International Airport|Enugu]], [[Ilorin International Airport|Ilorin]], [[Sam Mbakwe Airport|Owerri]], [[Port Harcourt International Airport|Port Harcourt]]
+<!-- -->
+|[[Ibom Air]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Accra International Airport|Accra]], [[Margaret Ekpo International Airport|Calabar]], [[Akanu Ibiam International Airport|Enugu]], [[Akwa Ibom Airport|Uyo]]
+<!-- -->
+|[[Kenya Airways]]| [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]<!--KQ does not have traffic rights from Lagos to Cotonou; do not add Cotonou as a Kenya Airways destination here -->
+<!-- -->
+|[[KLM]]| [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+|[[Lufthansa]]| [[Frankfurt Airport|Frankfurt]], [[Malabo International Airport|Malabo]]
+<!-- -->
+|[[Max Air]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Mallam Aminu Kano International Airport|Kano]], [[Port Harcourt International Airport|Port Harcourt]]
+<!-- -->
+|{{nowrap|[[Middle East Airlines]]}}| [[Port Bouet Airport|Abidjan]], [[Beirut Rafic Hariri International Airport|Beirut]]
+<!-- -->
+|[[Neos (airline)|Neos]]| [[Milan Malpensa Airport|Milan–Malpensa]]
+<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]
+<!-- -->
+|[[Royal Air Maroc]]| [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+|[[Rwandair]]| [[Kigali International Airport|Kigali]]
+<!-- -->
+|[[South African Airways]]| [[OR Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+|{{nowrap|[[TAAG Angola Airlines]]}}| [[Dr. Antonio Agostinho Neto International Airport|Luanda–Agostinho Neto]]
+<!-- -->
+|[[Turkish Airlines]]| [[Istanbul Airport|Istanbul]]
+<!-- -->
+|[[Uganda Airlines]]| [[Entebbe International Airport|Entebbe]]
+<!-- -->
+|[[United Airlines]]| [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+|{{nowrap|[[United Nigeria Airlines]]}}| [[Nnamdi Azikiwe International Airport|Abuja]], [[Accra Airport|Accra]], [[Asaba International Airport|Asaba]], [[Akanu Ibiam International Airport|Enugu]], [[Chinua Achebe International Airport|Onitsha]], [[Bayelsa International Airport|Yenagoa]]
+<!-- -->
+|[[ValueJet (Nigeria)|ValueJet]]| [[Nnamdi Azikiwe International Airport|Abuja]], [[Banjul International Airport|Banjul]], [[Benin Airport|Benin City]], [[Yakubu Gowon Airport|Jos]], [[Port Harcourt International Airport|Port Harcourt]]
+<!-- -->
+|[[Virgin Atlantic]]| [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+|[[Air France Cargo]]| [[N'Djamena International Airport|N'Djamena]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[Allied Air]]| [[Ostend-Bruges International Airport|Ostend/Bruges]]
+<!-- -->
+|[[Cargolux]]| [[Luxembourg Findel Airport|Luxembourg]]
+<!-- -->
+|[[DHL Aviation]]| [[Accra International Airport|Accra]], [[Bamako–Sénou International Airport|Bamako]], [[Brussels Airport|Brussels]], [[Cotonou Airport|Cotonou]], [[Malabo International Airport|Malabo]]
+<!-- -->
+|[[Emirates SkyCargo]]| [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+|[[Ethiopian Airlines|Ethiopian Airlines Cargo]]| [[Accra International Airport|Accra]], [[Bole International Airport|Addis Ababa]], [[Chongqing Jiangbei International Airport|Chongqing]], [[Kigali International Airport|Kigali]], [[Liège Airport|Liège]], [[Heathrow Airport|London–Heathrow]], [[Miami International Airport|Miami]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[Lufthansa Cargo]]| [[Frankfurt Airport|Frankfurt]], [[OR Tambo International Airport|Johannesburg–O.R. Tambo]]
+<!-- -->
+|[[Qatar Airways Cargo]]| [[Hamad International Airport|Doha]], [[São Paulo-Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+|[[Saudia Cargo]]| [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[King Abdulaziz International Airport|Jeddah]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[King Khalid International Airport|Riyadh]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Turkish Cargo]]| [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Istanbul Airport|Istanbul]]
+<!-- -->
+|Egyptair Cargo=Cairo International Airport}}

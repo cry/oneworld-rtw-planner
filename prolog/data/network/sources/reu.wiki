@@ -1,0 +1,23 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights to and from Reus:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| [[Air Nostrum]] | '''Seasonal charter:''' [[Porto Airport|Porto]]
+<!-- -->
+| [[easyJet]] | '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Bristol Airport|Bristol]] (begins 25 June 2026), [[Glasgow Airport|Glasgow]], [[London Gatwick Airport|London–Gatwick]], [[London Luton Airport|London–Luton]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]] (begins 1 August 2026)
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bournemouth Airport|Bournemouth]] (begins 2 May 2027), [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Glasgow Airport|Glasgow]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[London Gatwick Airport|London–Gatwick]], [[London Luton Airport|London–Luton]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[Ryanair]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Brussels South Charleroi Airport|Charleroi]], [[Cork Airport|Cork]],{{citation needed|date=March 2025}} [[Dublin Airport|Dublin]], [[East Midlands Airport|East Midlands]], [[Eindhoven Airport|Eindhoven]], [[Leeds Bradford Airport|Leeds/Bradford]], [[Liverpool John Lennon Airport|Liverpool]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Shannon Airport|Shannon]], [[Weeze Airport|Weeze]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Aberdeen Airport|Aberdeen]], [[Belfast International Airport|Belfast–International]], [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Cardiff Airport|Cardiff]], [[Glasgow Airport|Glasgow]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| {{nowrap|[[TUI fly Belgium]]}} | '''Seasonal:''' [[Brussels Airport|Brussels]]
+<!-- -->
+| [[Vueling]] | '''Seasonal:''' [[Orly Airport|Paris–Orly]]
+<!-- -->
+}}

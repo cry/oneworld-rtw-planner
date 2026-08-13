@@ -1,0 +1,34 @@
+==Airlines and destinations==
+{{airport-dest-list
+<!--  -->
+| [[Air Seoul]] | [[Jeju International Airport|Jeju]]
+<!-- -->
+| [[Asiana Airlines]] | [[Beijing–Capital]], [[Gwangju Airport|Gwangju]], [[Jeju International Airport|Jeju]], [[Osaka–Kansai]], [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]], [[Tokyo–Haneda]], [[Yeosu Airport|Yeosu]]
+<!--  -->
+| [[China Airlines]] | [[Songshan Airport|Taipei–Songshan]]
+<!--  -->
+| [[Eastar Jet]] | [[Jeju International Airport|Jeju]],{{cn|date=August 2026}} [[Songshan Airport|Taipei–Songshan]]{{cn|date=August 2026}}
+<!--  -->
+| [[EVA Air]] | [[Songshan Airport|Taipei–Songshan]]
+<!--  -->
+| [[Japan Airlines]] | [[Tokyo–Haneda]]
+<!--  -->
+| [[Jeju Air]] | [[Kaohsiung International Airport|Kaohsiung]]{{cn|date=August 2026}}
+<!-- -->
+| [[Jin Air]] | [[Gimhae International Airport|Busan]],{{cn|date=August 2026}} [[Pohang Gyeongju Airport|Pohang–Gyeongju]], [[Sacheon Airport|Sacheon]], [[Yeosu Airport|Yeosu]]
+<!-- -->
+| [[Korean Air]] | [[Beijing–Capital]], [[Gimhae International Airport|Busan]], [[Jeju International Airport|Jeju]], [[Osaka–Kansai]], [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]], [[Tokyo–Haneda]], [[Ulsan Airport|Ulsan]]
+<!-- -->
+| [[Parata Air]] | [[Jeju International Airport|Jeju]]{{cn|date=August 2026}}
+<!-- -->
+| [[Peach Aviation]] | [[Chubu Centrair International Airport|Nagoya–Centrair]],{{cn|date=August 2026}} [[Osaka–Kansai]]{{cn|date=August 2026}}
+<!-- -->
+| [[Shanghai Airlines]] | [[Shanghai Hongqiao International Airport|Shanghai–Hongqiao]]{{cn|date=August 2026}}
+<!-- -->
+| [[SUM Air]] | [[Sacheon Airport|Sacheon]]
+<!-- -->
+| [[T'way Air]] | [[Kaohsiung International Airport|Kaohsiung]],{{cn|date=August 2026}} [[Songshan Airport|Taipei–Songshan]]{{cn|date=August 2026}}
+<!-- -->
+| [[Tigerair Taiwan]] | [[Kaohsiung International Airport|Kaohsiung]]{{cn|date=August 2026}}
+<!-- -->
+| }}

@@ -1,0 +1,19 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Busan]] | [[Gimhae International Airport|Busan]]
+<!-- -->
+| [[All Nippon Airways]] | [[Naha Airport|Naha]], [[Itami Airport|Osaka–Itami]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[EVA Air]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Ibex Airlines]] | [[Chubu Centrair International Airport|Nagoya–Centrair]]
+<!-- -->
+| [[Japan Airlines]] | [[Fukuoka Airport|Fukuoka]], [[Kagoshima Airport|Kagoshima]], [[Itami Airport|Osaka–Itami]], [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Jeju Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Jetstar Japan]] | [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+}}

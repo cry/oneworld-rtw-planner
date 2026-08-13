@@ -1,0 +1,13 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Fuji Dream Airlines]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Nagoya Airfield|Nagoya–Komaki]], [[Shizuoka Airport|Shizuoka]]
+<!-- -->
+| [[J-Air]] | [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| {{nowrap|[[Japan Air Commuter]]}} | [[Fukuoka Airport|Fukuoka]], [[Oki Airport|Oki]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+}}

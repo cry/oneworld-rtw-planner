@@ -1,0 +1,14 @@
+==Airlines and destinations==
+=== Passenger ===
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+| [[AirAsia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Senai International Airport|Johor Bahru]], [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]]
+<!---->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]]
+<!---->
+| [[Firefly (airline)|Firefly]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]], [[Penang International Airport|Penang]]
+<!---->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!---->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+}}

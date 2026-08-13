@@ -1,0 +1,23 @@
+==Airlines and destinations==
+[[File:Delta Connection CRJ-900 at MGM Airport Gate 1.jpg|thumb|right|Delta Connection CRJ-900]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+Airlines with scheduled nonstop flights to:
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Ronald Reagan Washington National Airport|Washington–National]]
+| [[Delta Connection]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| [[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=All-year destinations from Montgomery Regional Airport
+|places=
+{{Location map~ |United_States |lat=32.300556 |long=-86.393889 |position=left |label=<small>'''Montgomery'''</small>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=right |label='''<small>[[Atlanta Airport|Atlanta]]</small>''' |label_size=110 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=110 |marksize=7}}
+{{Location map~ |United_States |lat=35.213889|long=-80.943056 |position=under |label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=110 |marksize=7 }}
+{{Location map~ |United_States |lat=38.8512|long=-77.0402 | position=under |label='''<small>[[Ronald Reagan Washington National Airport|Washington–National]]</small>'''|label_size=110 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[George Bush Intercontinental Airport|Houston-Bush]]</small>'''|label_size=110 |marksize=7}}
+}}
+|}

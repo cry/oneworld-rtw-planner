@@ -1,0 +1,15 @@
+==Airline and destination==
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+}}
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:25em; margin:0.2em auto"
+|-
+! Destination map
+|-
+|{{Location map+ |USA Texas |width=500 |float=center
+|caption=Destination from Jack Brooks Regional Airport
+|places=
+{{Location map~ |USA Texas |lat=29.9558|long=-94.0221|position=left|label='''<small>Beaumont</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |USA Texas |lat=32.899741|long=-97.040424|position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

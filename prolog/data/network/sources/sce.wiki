@@ -1,0 +1,8 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]] (begins October 5, 2026), [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[United Express]] | [[Chicago–O'Hare]], [[Washington–Dulles]]
+}}

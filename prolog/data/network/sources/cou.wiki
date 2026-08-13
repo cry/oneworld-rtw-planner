@@ -1,0 +1,12 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Allegiant Air]]}} |[[Destin–Fort Walton Beach Airport|Destin/Fort Walton Beach]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] (begins November 19, 2026)
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+| [[United Express]] |[[O'Hare International Airport|Chicago–O'Hare]], [[Denver International Airport|Denver]]
+<!-- -->
+}}

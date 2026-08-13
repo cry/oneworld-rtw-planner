@@ -1,0 +1,26 @@
+==Airlines and destinations==
+
+===Passenger===
+{{Airport destination list
+| [[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+}}
+
+===Top domestic destinations===
+{| class="wikitable"
+|+ '''Top domestic destinations from FLG <br />(August 2024 – July 2025)'''
+! Rank
+! Airport
+! Passengers
+! Airline
+|-
+| 1
+| [[Phoenix Sky Harbor International Airport|Phoenix, Arizona]]
+| 54,930
+| American Eagle
+|-
+| 2
+| [[Dallas/Fort Worth International Airport|Dallas/Fort Worth, Texas]]
+| 25,410
+| American Eagle
+|}

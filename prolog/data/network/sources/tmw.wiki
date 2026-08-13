@@ -1,0 +1,6 @@
+==Airlines and destinations==
+{{airport-dest-list
+|[[Link Airways]]|[[Brisbane Airport|Brisbane]] 
+| [[QantasLink]]|[[Sydney Airport|Sydney]]}}
+
+In May 2015 [[Virgin Australia]] commenced operating services from Sydney to Tamworth. It ceased in September 2020.

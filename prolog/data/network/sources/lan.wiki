@@ -1,0 +1,210 @@
+==Airlines and destinations==
+
+===Passenger===
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- There is a discussion ongoing on how to list certain charter flights. Please discuss at project talk page and wait for consensus before re-adding Apple Vacations. -->
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Ronald Reagan Washington National Airport|Washington–National]]|
+<!-- -->
+| [[Breeze Airways]] | [[Orlando International Airport|Orlando]] <br /> '''Seasonal:''' [[Southwest Florida International Airport|Fort Myers]] |
+<!-- -->
+| [[Delta Connection]] | [[Detroit Metropolitan Airport|Detroit]]|
+<!-- -->
+|[[United Express]] |[[O'Hare International Airport|Chicago–O'Hare]] (resumes October 25, 2026) |
+}}
+
+===Passenger statistics===
+The peak year for passenger activity at Capital Region International Airport was in 1997 with 720,365 total passengers. In 1990 the airport had 149,939 total aircraft operations.
+{{Bar chart
+| title       = Passenger and aircraft operation totals for Capital Region International Airport
+| bar_width   = 25
+| width_units = em
+| label_type  = Year&nbsp;
+| data_type   = Total passengers (% change)
+| data_max    = 750,000
+| col2_data_type = Aircraft operations (% change)
+| col2_data_max  = 125,000
+| label1 = 2000
+| data1  = 656,703 | comment1 = −8.7%  | col2_data1 = 113,420 | col2_comment1 = −7.2%
+| label2 = 2001
+| data2  = 523,152 | comment2 = −20.3  | col2_data2 = 101,061 | col2_comment2 = −10.9%
+| label3 = 2002
+| data3  = 514,299 | comment3 = −1.7%  | col2_data3 = 93,628  | col2_comment3 = −7.4%
+| label4 = 2003
+| data4  = 534,280 | comment4 = +3.9%  | col2_data4  = 92,580 | col2_comment4 = −1.1%
+| label5 = 2004
+| data5  = 650,915 | comment5 = +21.8% | col2_data5  = 95,396 | col2_comment5 = +3.0%
+| label6 = 2005
+| data6  = 609,901 | comment6 = −6.3%  | col2_data6  = 81,607 | col2_comment6 = −14.5%
+| label7 = 2006
+| data7  = 557,417 | comment7 = −8.6%  | col2_data7  = 80,645 | col2_comment7 = −1.2%
+| label8 = 2007
+| data8  = 497,824 | comment8 = −10.7% | col2_data8  = 75,136 | col2_comment8 = −6.8%
+| label9 = 2008
+| data9  = 429,639 | comment9 = −13.7% | col2_data9  = 46,538 | col2_comment9 = −38.1%
+| label10= 2009
+| data10 = 265,967 | comment10= −38.1% | col2_data10 = 42,162 | col2_comment10 = −9.4%
+| label11= 2010
+| data11 = 257,350 | comment11= −3.2%  | col2_data11 = 42,466 | col2_comment11 = +0.7%
+| label12= 2011
+| data12 = 358,307 | comment12= +39.2% | col2_data12 = 38,287 | col2_comment12 = −9.8%
+| label13= 2012
+| data13 = 389,600 | comment13= +8.7%  | col2_data13 = 36,438 | col2_comment13 = −4.8%
+| label14= 2013
+| data14 = 418,850 | comment14= +7.5%  | col2_data14 = 31,788 | col2_comment14 = −12.8%
+| label15= 2014
+| data15 = 376,790 | comment15= −10.0%  | col2_data15 = 34,914 | col2_comment15 = +9.8%
+| label16= 2015
+| data16 = 323,510 | comment16= −14.1%  | col2_data16 = 33,907 | col2_comment16 = −2.9%
+| label17= 2016
+| data17 = 314,659 | comment17= −2.7%  | col2_data17 = 33,846 | col2_comment17 = −0.1%
+| label18= 2017
+| data18 = 373,843 | comment18= +18.8%  | col2_data18 = 33,499 | col2_comment18 = −1.0%
+| label19= 2018
+| data19 = 351,823 | comment19= −5.9%  | col2_data19 = 33,567 | col2_comment19 = +0.0%
+| label20= 2019
+| data20 = 341,085 | comment20= −3.1%  | col2_data20 = 31,206 | col2_comment20 = -7.0%
+| label21= 2020
+| data21 = 128,175 | comment21= −62.4%  | col2_data21 = 24,485 | col2_comment21 = -21.5%
+| label22= 2021
+| data22 = 180,385 | comment22= +40.7%  | col2_data22 = 28,492 | col2_comment22 = +16.3%
+| label23= 2022
+| data23 = 168,248 | comment23= -6.7%  | col2_data23 = 28,464 | col2_comment23 = -0.1%
+| label24= 2023
+| data24 = 218,752 | comment24= +23.1%  | col2_data24 = 30,330 | col2_comment24 = +6.2%
+| label25= 2024
+| data25 = 214,948 | comment25= -1.8%  | col2_data25 = 35,947 | col2_comment25 = +15.6%
+| label26= 2025
+| data26 = 221,272 | comment26= +2.9%  | col2_data26 = 40,304 | col2_comment26 = +10.8%
+}}
+
+{|
+|
+{| class="wikitable"  style="text-align:center; font-size:95%; width:align;"
+|+Top non-stop domestic destinations from<br />Capital Region International Airport<br /><small>(May 2025 – April 2026)</small>
+! Rank
+! Airport
+! Total passengers
+! Carriers
+|-
+| 1
+| [[Detroit Metropolitan Airport|Detroit, MI (DTW)]]
+| 51,200
+| Delta
+|-
+| 2
+| [[O'Hare International Airport|Chicago, IL (ORD)]]
+| 34,770
+| American
+|-
+| 3
+| [[Orlando International Airport|Orlando, FL (MCO)]]
+| 11,590
+| Breeze
+|-
+| 4
+| [[Ronald Reagan Washington National Airport|Washington, D.C. (DCA)]]
+| 8,840
+| American
+|-
+| 5
+| [[Southwest Florida International Airport|Fort Myers, FL (RSW)]]
+| 6,470
+| Breeze
+|}
+|
+{| class="wikitable"  style="text-align:center; font-size:95%; width:align;"
+|+Top passenger carriers at<br />Capital Region International Airport<br /><small>(May 2025 – April 2026)</small>
+! Carrier !! Total passengers !! % share
+|-
+| [[SkyWest Airlines|SkyWest]]|| 93,380 || 42.14%
+|-
+| [[Envoy Air|Envoy]]|| 67,040 || 30.25%
+|-
+| [[Breeze Airways|Breeze]]|| 35,260 || 15.91%
+|-
+| [[PSA Airlines|PSA]]|| 20,590 || 9.29%
+|-
+| [[Endeavor Air|Endeavor]]|| 5,250 || 2.37%
+|-
+| Other || 90 || 0.04%
+|}
+|}
+
+{|
+|+ style="font-weight:bold;" |Largest markets from Capital Region International Airport<br /><small>Number of passengers both ways – Q4 2023</small>
+|
+{| class="wikitable" style="text-align: center; font-size: 90%"
+|-
+! Rank !! style="width:255px;" | Market (airports) !! PDEW
+|-
+| 1 || [[Orlando International Airport|Orlando]]|| 102
+|-
+| 2 || [[Ronald Reagan Washington National Airport|Washington DC]]|| 63
+|-
+| 3 || [[LaGuardia Airport|New York City]]|| 19
+|-
+|4
+|[[Los Angeles International Airport|Los Angeles]]
+|16
+|-
+| 4 || [[O'Hare International Airport|Chicago]]|| 16
+|}
+|
+|}
+
+===Competition===
+Capital Region International Airport competes with nearby [[Detroit Metropolitan Airport]] (DTW), Grand Rapids' [[Gerald R. Ford International Airport]] (GRR), and the recent growth of Flint's [[Bishop International Airport]] (FNT). In addition, the [[Michigan Flyer]] provides motorcoach service roundtrip from nearby East Lansing to Detroit Metro Airport 12 times daily. In 2006, the Capital Region Airport Authority estimated that the airport lost approximately 162,000 passengers that year to nearby competing airports.  The airport lost about $53 million in annual revenue as a result of the passenger losses. According to the Airport Authority, a January 2010 leakage study found that 550,000 of the 873,000 airline tickets sold from [[Central Michigan|mid-Michigan]] in 2009 were to travelers using other Michigan airports: 45% of travelers flew (originated) from Detroit Metro Airport, 37% from Lansing, 8% from Grand Rapids, and 7.6% from Flint. This resulted in an [[pure economic loss|economic loss]] of $108 million to the Mid-Michigan region.  The lost revenue to Lansing's airport was approximately $17 million.
+
+In March 2009, the ''[[Lansing State Journal]]'' cited a 2008 [[Michigan State University]] study finding that passengers out of Capital Region International Airport feel the airport is convenient to use, but more than two-thirds of those surveyed also flew from other Michigan airports during the previous year.  This is despite 84% of passengers being satisfied with the airline service offered at Lansing's airport, a drop from 93% passenger satisfaction in 2002. The 2008 study noted that 49% of travelers thought Lansing's airport was more expensive to fly out of than Detroit Metropolitan Airport; 13% of travelers thought Lansing was less expensive. The same study in 2002 found that 41% of travelers thought that Lansing was more expensive to fly out of than Detroit, and 14% thought Lansing was less expensive.
+
+''[[Forbes|Forbes Magazine]]'' in February 2009 ranked Capital Region International Airport tied for the 18th most expensive airport to fly from in the United States, with an average fare of 35¢ per mile.  The magazine ranked two other Michigan airports as more expensive.  [[Cherry Capital Airport]] (TVC) in [[Traverse City, Michigan|Traverse City]] was ranked second (41¢ per mile), and [[MBS International Airport]] (MBS) northwest of [[Saginaw, Michigan|Saginaw]] was tied for the 11th most expensive airport in the country (36¢ per mile).
+
+An April 2011, a ''[[The New York Times|New York Times]]'' study determined that the average fare from Capital Region International Airport was overpriced by $117. The [[regression analysis]], based on third quarter 2010 data from the [[United States Department of Transportation|USDOT]] [[Bureau of Transportation Statistics]], considered factors such as market size and average distance to destination.  Fares at other Michigan airports were overpriced to a lesser extent: MBS airport by $114, Detroit Metro by $25, and Grand Rapids by $9; Flint airport was underpriced by $42.  Kalamazoo airport fares were overpriced by $187.
+
+{| class="wikitable" style="text-align: center; font-size: 90%"
+|+ Average domestic passenger fares for Capital Region International Airport<br />and other nearby airports (origin cities)
+! Year !! style="width:100px;"| Lansing (LAN) !! style="width:100px;"| Detroit (DTW) !! style="width:100px;"| Grand Rapids (GRR) !! style="width:100px;"| Flint (FNT) !! style="width:100px;"| Kalamazoo (AZO) !! style="width:100px;"| Saginaw (MBS)
+|-
+| 2006 || $370.61 || $322.83 || $413.74 || $298.89 || $472.93 || $441.26
+|-
+| 2007 || $364.39 || $307.29 || $420.68 || $281.37 || $471.01 || $441.08
+|-
+| 2008 || $397.75 || $334.18 || $463.96 || $314.89 || $517.32 || $481.39
+|-
+| 2009 || $434.59 || $313.67 || $409.85 || $275.23 || $500.55 || $434.69
+|-
+| 2010 || $482.76 || $353.75 || $377.29 || $298.40 || $563.92 || $470.47
+|-
+| 2011 || $433.59 || $378.55 || $400.11 || $334.90 || $579.23 || $474.77
+|-
+| 2012 || $417.92 || $404.96 || $445.80 || $372.96 || $599.39 || $465.86
+|-
+| 2013 || $391.67 || $422.25 || $442.34 || $367.80 || $575.49 || $546.03
+|-
+| 2014 || $427.38 || $429.93 || $439.54 || $376.15 || $570.32 || $537.51
+|-
+| 2015 || $473.93 || $416.23 || $421.46 || $387.89 || $576.16 || $550.78
+|-
+| 2016 || $463.97 || $376.53 || $400.10 || $360.74 || $505.91 || $522.24
+|-
+| 2017 || $426.42 || $369.48 || $408.57 || $361.47 || $532.52 || $583.57
+|-
+| 2018 || $465.22 || $373.37 || $387.58 || $347.30 || $530.67 || $542.79
+|-
+| 2019 || $441.67 || $378.03 || $374.78 || $343.22 || $479.81 || $540.30
+|-
+| 2020 || $351.27 || $313.78 || $294.91 || $243.40 || $395.22 || $464.82
+|-
+| 2021 || $349.75 || $326.08	 || $322.06 || $243.08 || $395.08 || $468.59
+|-
+| 2022 || $473.95 || $425.35	 || $404.17 || $257.29 || $502.88 || $579.18
+|-
+| 2023 || $410.36 || $427.05 || $413.12 || $258.99 || $428.03 || $546.76
+|-
+| 2024 || $441.87 || $431.74 || $408.04 || $249.31 || $495.71 || $575.67
+|-
+| 2025 || - || - || -|| - || - || -
+|}
+<small>Airports included are within {{convert|100|mi|km}} or a 100-minute drive of LAN. ''Source:'' ''Airline Origin & Destination Survey'', [[Research and Innovative Technology Administration|Office of the Assistant Secretary for Research and Technology]], [[Bureau of Transportation Statistics]], [[United States Department of Transportation|USDOT]]
+</small>

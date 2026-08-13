@@ -1,0 +1,36 @@
+==Airlines and destinations==
+
+===Passenger===
+{{Expand section|small=no|date=December 2025}}
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Allegiant Air]] | [[Atlantic City International Airport|Atlantic City]], [[Gerald R. Ford International Airport|Grand Rapids]] <br/> '''Seasonal:''' [[Akron-Canton Airport|Akron/Canton]], [[Albany International Airport|Albany]], [[MidAmerica St. Louis Airport|Belleville/St. Louis]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[North Central West Virginia Airport|Clarksburg]], [[Rickenbacker International Airport|Columbus–Rickenbacker]], [[Dayton International Airport|Dayton]], [[Elmira Corning Regional Airport|Elmira]], [[Fort Wayne International Airport|Fort Wayne]], [[Hagerstown Regional Airport|Hagerstown]], [[Harrisburg International Airport|Harrisburg]], [[Tri-State Airport|Huntington]], [[Indianapolis International Airport|Indianapolis]], [[Blue Grass Airport|Lexington]], [[Louisville Muhammad Ali International Airport|Louisville]], [[Niagara Falls International Airport|Niagara Falls]], [[Pittsburgh International Airport|Pittsburgh]], [[Plattsburgh International Airport|Plattsburgh]], [[Syracuse Hancock International Airport|Syracuse]] 
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] <br/> '''Seasonal:''' [[Logan International Airport|Boston]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]]| [[Charlotte Douglas International Airport|Charlotte]], [[Philadelphia International Airport|Philadelphia]], [[Washington–National]]
+<!-- -->
+| [[Avelo Airlines]] | [[Tweed New Haven Airport|New Haven]] <br/> '''Seasonal:''' [[Wilmington Airport (Delaware)|Wilmington (DE)]] 
+<!-- -->
+| [[Breeze Airways]] | [[Atlantic City International Airport|Atlantic City]] (begins October 22, 2026), [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Long Island MacArthur Airport|Long Island/Islip]], [[Manchester–Boston Regional Airport|Manchester (NH)]], [[Louis Armstrong New Orleans International Airport|New Orleans]], [[Orlando International Airport|Orlando]], [[Pittsburgh International Airport|Pittsburgh]], [[Rhode Island T. F. Green International Airport|Providence]], [[Greater Rochester International Airport|Rochester (NY)]], [[Tampa International Airport|Tampa]], [[Westchester County Airport|White Plains]] <br/> '''Seasonal:''' [[Akron-Canton Airport|Akron/Canton]], [[Yeager Airport|Charleston (WV)]], [[Bradley International Airport|Hartford]], [[Wilkes-Barre/Scranton International Airport|Wilkes-Barre/Scranton]]
+<!-- -->
+| [[Contour Airlines]] | '''Seasonal:''' [[Altoona-Blair County Airport|Altoona]], [[Raleigh County Memorial Airport|Beckley]], [[Mid-Ohio Valley Regional Airport|Parkersburg]] 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br/> '''Seasonal:''' [[Logan International Airport|Boston]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[Delta Connection]]| [[New York–LaGuardia]]
+<!-- -->
+| [[Frontier Airlines]] | '''Seasonal:''' [[Cleveland Hopkins International Airport|Cleveland]], [[Long Island MacArthur Airport|Long Island/Islip]], [[Philadelphia International Airport|Philadelphia]], [[Trenton–Mercer Airport|Trenton]]
+<!-- -->
+| [[Southwest Airlines]] | [[Baltimore/Washington International Airport|Baltimore]], [[Chicago–Midway]], [[Nashville International Airport|Nashville]] <br/> '''Seasonal:''' [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Kansas City International Airport|Kansas City]], [[Pittsburgh International Airport|Pittsburgh]], [[St. Louis Lambert International Airport|St. Louis]] 
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | '''Seasonal:''' [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Washington–Dulles]]
+| [[United Express]]| [[Newark Liberty International Airport|Newark]]
+<!-- -->
+}}
+
+===Cargo===
+{{Incomplete list|date=December 2025}}{{Airport destination list|[[Air Cargo Carriers]]|[[Columbia Metropolitan Airport|Columbia (SC)]]}}

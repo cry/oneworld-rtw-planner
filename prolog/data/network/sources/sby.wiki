@@ -1,0 +1,18 @@
+==Airlines and destinations==
+The airport is the operational headquarters for [[American Eagle (airline brand)|American Eagle]] carrier [[Piedmont Airlines]]. In 2012, Piedmont established a passenger record of 150,086 passengers.
+
+[[Breeze Airways]] began flying to Salisbury on October 1, 2025 with service from [[Orlando, Florida]]. On July 1, 2026, Breeze added a second direct destination to Salisbury with flights from [[Fort Lauderdale, Florida]].
+
+===Passenger===
+{{Airport destination list| 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+|[[American Eagle (airline brand)|American Eagle]]|[[Charlotte Douglas International Airport|Charlotte]], [[Philadelphia International Airport|Philadelphia]]|
+<!-- -->
+|[[Breeze Airways]]|[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Orlando International Airport|Orlando]] | 
+<!-- -->
+}}
+
+====Terminated passenger airline services====
+Piedmont previously served Salisbury with flights to Washington, D.C., and [[Baltimore/Washington International Thurgood Marshall Airport|Baltimore]]. The service to Washington was on and off until 2008; the Baltimore service stopped in late 2009.
+
+Allegiant Air began twice a week service to [[Orlando-Sanford International Airport]] in February 2012, using its McDonnell Douglas MD-80 jets, but ended the route less than a year later on January 5, 2013, due to the route's relatively small number of passengers.

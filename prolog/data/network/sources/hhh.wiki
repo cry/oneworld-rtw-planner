@@ -1,0 +1,30 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]] <br/> '''Seasonal:''' [[Logan International Airport|Boston]], [[Chicago–O'Hare]], [[Philadelphia International Airport|Philadelphia]], [[Washington–National]] 
+<!-- -->
+| {{nowrap|[[Delta Connection]]}} | '''Seasonal:''' [[Hartsfield-Jackson Atlanta International Airport|Atlanta]], [[New York–LaGuardia]]
+<!-- -->
+| [[United Express]] | '''Seasonal:''' [[Chicago–O'Hare]], [[Newark Liberty International Airport|Newark]]
+<!-- -->
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Hilton Head Airport <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=32.2248 |long=-80.6972 |position=left |label=<div style="position:relative; top:-5px;"><small>'''Hilton Head Island'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=33.63666 |long=-84.428056 |position=left |label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>''' |label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=35.213889 |long=-80.943056 |position=left |label=<small>'''{{nowrap|[[Charlotte Douglas International Airport|Charlotte]]}}'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |mark = Green pog.svg |United_States |lat=41.978611 |long=-87.904722 |position=right |label=<small>'''{{nowrap|[[Chicago–O'Hare]]}}'''</small>|label_size=80 |marksize=7}}
+{{Location map~ |mark = Green pog.svg |United_States |lat=38.851047|long=-77.040320 |position=right|label='''<small>[[Washington–National]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg | United States |lat=39.874438 |long=-75.242443 |position=right |label='''<small>[[Philadelphia International Airport|Philadelphia]]</small>''' |label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=42.3656|long=-71.0096|position=right |label='''<small>[[Boston Logan International Airport|Boston]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=40.775|long=-73.875|position=right |label='''<small>[[New York-LaGuardia]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |United_States |lat=40.6925|long=-74.168611|position=left |label='''<small>[[Newark Liberty International Airport|Newark]]</small>'''|label_size=80 |marksize=7 }}
+}}
+|}

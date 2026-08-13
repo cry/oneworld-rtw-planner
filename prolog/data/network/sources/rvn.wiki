@@ -1,0 +1,52 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Rovaniemi Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+
+{{Airport-dest-list
+<!-- -->
+| [[Air France]] | '''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Austrian Airlines]] | '''Seasonal:''' [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | '''Seasonal:''' [[Gatwick Airport|London–Gatwick]] (begins 4 December 2026)
+<!-- -->
+| [[easyJet]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]], [[Belfast International Airport|Belfast–International]], [[Berlin Brandenburg Airport|Berlin]], [[Birmingham Airport|Birmingham]], [[Bordeaux Airport|Bordeaux]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Geneva Airport|Geneva]], [[Gatwick Airport|London–Gatwick]], [[Luton Airport|London–Luton]], [[London Southend Airport|London–Southend]], [[Lyon Airport|Lyon]], [[Manchester Airport|Manchester]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Naples International Airport|Naples]], [[Nice Airport|Nice]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Eurowings]] | '''Seasonal:''' [[Berlin Brandenburg Airport|Berlin]], [[Düsseldorf Airport|Düsseldorf]], [[Hamburg Airport|Hamburg]], [[Stuttgart Airport|Stuttgart]]
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]], [[Tromsø Airport, Langnes|Tromsø]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Madrid-Barajas Airport|Madrid]]
+<!-- -->
+| [[Israir Airlines]] | '''Seasonal:'''  [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal charter:''' [[Manchester Airport|Manchester]]
+<!-- -->
+| [[KLM]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]], [[Munich Airport|Munich]] (begins 4 December 2026)
+<!-- -->
+| [[Luxair]] | '''Seasonal:''' [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[Neos (airline)|Neos]]| '''Seasonal:''' [[Milan Malpensa Airport|Milan–Malpensa]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Helsinki Airport|Helsinki]] <br /> '''Seasonal:''' [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Gatwick Airport|London–Gatwick]], [[Munich Airport|Munich]] [[Tromsø Airport|Tromsø]]
+<!-- -->
+| [[Ryanair]] | [[Orio al Serio International Airport|Milan-Bergamo]] <br />  '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Brussels South Charleroi Airport|Brussels-Charleroi]], [[Dublin Airport|Dublin]], [[Liverpool John Lennon Airport|Liverpool]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Beauvais Airport|Paris-Beauvais]], [[Shannon Airport|Shannon]]
+<!-- -->
+| [[Scandinavian Airlines]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| [[SunExpress]] | '''Seasonal:''' [[İzmir Adnan Menderes Airport|İzmir]]
+<!-- -->
+| [[Transavia]] | '''Seasonal:''' [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[Turkish Airlines]] | '''Seasonal:''' [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Vueling]] | '''Seasonal:''' [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]
+<!-- -->}}

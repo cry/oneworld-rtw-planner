@@ -1,0 +1,40 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[Air Arabia]] | [[Zayed International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[AJet]] | [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Dan Air (Romania)|Dan Air]] | [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]]
+<!-- -->
+| [[Fly Cham]] | [[Çukurova International Airport|Adana–Mersin]], [[Sharjah International Airport|Sharjah]], [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]] | [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[LEAV Aviation]] | [[Cologne Bonn Airport|Cologne/Bonn]] (begins 17 August 2026), [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| {{nowrap|[[Pegasus Airlines]]}} | [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[SunExpress]] | [[Antalya Airport|Antalya]], [[İzmir Adnan Menderes Airport|İzmir]]
+<!-- -->
+| [[Syrian Air]] | [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+}}
+{{Choropleth map
+| countries = TR; RO; AE; AM; KW; QA; JO; SA
+| color = #CC0000
+| view = World
+| width = 300
+| height = 225
+| align = center
+| caption = Aleppo International Airport passenger destinations map (10 June 2026)
+}}

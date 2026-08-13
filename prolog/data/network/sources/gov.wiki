@@ -1,0 +1,10 @@
+== Airlines and destinations ==
+{{no sources|section|date=December 2025}}
+The airport is a regional hub for air charter operations with various charter companies based and/or operating out of Gove. These include Air Arnhem, Marthakal Yolngu Airline, Katherine Aviation, Air Frontier, Black Diamond Aviation, and Mission Aviation Fellowship.
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Airnorth]] | [[Cairns Airport|Cairns]], [[Darwin International Airport|Darwin]], [[Groote Eylandt Airport|Groote Eylandt]], [[Wessel Islands]]
+<!-- -->
+| [[Mission Aviation Fellowship]] | [[Elcho Island Airport|Elcho Island]], [[Lake Evella Airport|Lake Evella]], [[Milingimbi Airport|Milingimbi]], [[Ramingining Airport|Ramingining]]
+| [[QantasLink]] |'''Charter:''' [[Brisbane Airport|Brisbane]]}}

@@ -35,11 +35,17 @@
 :- use_module('src/earn/registry').
 :- use_module('src/earn/explain').
 
+% Which sectors are actually flown. Like earning, this runs no fare rules and
+% produces no violation: Rule 3015 says nothing about whether a flight exists,
+% and a wiki-sourced absence has no clause to cite. See PLANS/06-flown-network.md.
+:- use_module('src/network').
+
 :- use_module('src/io/route_in').
 :- use_module('src/io/route_out').
 :- use_module('src/io/json_in').
 :- use_module('src/io/json_out').
 :- use_module('src/io/earn_out').
+:- use_module('src/io/network_out').
 
 % Rule modules export nothing. Loading them is what registers their clauses of
 % validate:violation/2; there is no other registry.
@@ -64,6 +70,7 @@
 :- ensure_loaded('test/test_rules').
 :- ensure_loaded('test/test_route').
 :- ensure_loaded('test/test_json').
+:- ensure_loaded('test/test_network').
 :- ensure_loaded('test/earn/conformance').
 :- ensure_loaded('test/test_earn').
 :- endif.

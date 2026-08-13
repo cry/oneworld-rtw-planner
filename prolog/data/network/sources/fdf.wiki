@@ -1,0 +1,30 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Adelphi]] | [[George F. L. Charles Airport|Castries]], [[Argyle International Airport|Kingstown]]
+<!-- -->
+| [[Air Canada]] | [[Montréal-Trudeau International Airport|Montréal–Trudeau]] <br /> '''Seasonal:''' [[Quebec City Airport|Québec City]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Air Caraïbes]] | [[Orly Airport|Paris–Orly]], [[Pointe-à-Pitre International Airport|Pointe-à-Pitre]], [[Grand Case–Espérance Airport|St. Martin]]
+<!-- -->
+| [[Air France]] | [[Cayenne – Rochambeau Airport|Cayenne]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Pointe-à-Pitre International Airport|Pointe-à-Pitre]]
+<!-- -->
+| [[Air Transat]] | [[Montréal-Trudeau International Airport|Montréal–Trudeau]], [[Québec City Jean Lesage International Airport|Québec City]]
+'''Seasonal:'''[[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Caribbean Airlines]] | [[George F. L. Charles Airport|Castries]], [[Grantley Adams International Airport|Barbados]], [[Piarco International Airport|Port of Spain]]
+<!-- -->
+| {{nowrap|[[Corsair International]]}} | [[Orly Airport|Paris–Orly]]<br />'''Seasonal:''' [[Bordeaux–Mérignac Airport|Bordeaux]]
+<!-- -->
+| [[ITA Airways]] | '''Seasonal charter:''' [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| {{nowrap|[[Sky High Aviation Services|Sky High]]}} | [[José Martí International Airport|Havana]], [[Las Americas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+| [[Sunrise Airways]] | [[V. C. Bird International Airport|Antigua]], [[Grantley Adams International Airport|Barbados]], [[George F. L. Charles Airport|Castries]], [[Toussaint Louverture International Airport|Port-au-Prince]]
+<!-- -->
+| [[Winair]] | [[Grantley Adams International Airport|Barbados]], [[George F. L. Charles Airport|Castries]], [[Douglas–Charles Airport|Dominica–Douglas-Charles]], [[Princess Juliana International Airport|Sint Maarten]]
+<!-- -->
+}}

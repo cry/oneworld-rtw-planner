@@ -1,0 +1,21 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+|[[American Eagle (airline brand)|American Eagle]]|[[Miami International Airport|Miami]]
+|[[Flamingo Air]] | [[Grand Bahama International Airport|Freeport]]{{cn|date=July 2025}}
+| [[Western Air]] | [[Grand Bahama International Airport|Freeport]], [[Lynden Pindling International Airport|Nassau]]{{cn|date=July 2025}}
+}}
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from South Bimini Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | green | Green }} = Seasonal destination
+|places=
+{{Location map~ |United_States |lat=25.7014|long=-79.2726|position=top|label='''<small>South Bimini</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=26.5481|long=-78.6963 |position=right|label='''<small>[[Grand Bahama International Airport|Freeport]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=25.0439|long=-77.4655 |position=bottom|label='''<small>[[Lynden Pindling International Airport|Nassau]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}

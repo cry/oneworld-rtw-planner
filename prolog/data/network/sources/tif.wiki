@@ -1,0 +1,35 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[Air Arabia]]| [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Air Arabia Egypt]]| [[Borg El Arab International Airport|Alexandria]]{{bsn|date=June 2025}}, [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[AlMasria Universal Airlines]]| [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[EgyptAir]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Flyadeal]]| [[King Fahd International Airport|Dammam]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+|[[Flydubai]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Flynas]]| [[King Fahd International Airport|Dammam]], [[Kuwait International Airport|Kuwait City]], [[Muscat International Airport|Muscat]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+|[[Jazeera Airways]]| '''Seasonal:''' [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+|[[Nesma Airlines]]| [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Nile Air]]| [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Oman Air]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]
+<!-- -->
+|[[SalamAir]]| '''Seasonal:''' [[Muscat International Airport|Muscat]]
+<!-- -->
+|[[Saudia]]| [[Abha Regional Airport|Abha]], [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[Jizan Regional Airport|Jizan]], [[Medina Airport|Medina]], [[King Khalid International Airport|Riyadh]], [[Sharurah Domestic Airport|Sharurah]]
+<!-- -->
+|[[Turkish Airlines]]| [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

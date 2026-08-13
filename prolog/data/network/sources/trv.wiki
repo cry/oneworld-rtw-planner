@@ -1,0 +1,39 @@
+==Airlines and destinations==
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED.ALSO WHEN ADDING A NEW ROUTE, A FIRM DATE IS MANDATORY-->
+
+{{Airport destination list
+<!-- -->
+|[[Air Arabia]]| [[Abu Dhabi International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+|[[Air India]]|  [[Indira Gandhi International Airport|Delhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+<!-- -->
+|[[Air India Express]]| [[Abu Dhabi International Airport|Abu Dhabi]], [[Bahrain International Airport|Bahrain]], [[Kempegowda International Airport|Bengaluru]], [[Chennai International Airport|Chennai]], [[King Fahd International Airport|Dammam]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Kannur International Airport|Kannur]], [[Cochin International Airport|Kochi]], [[Mangaluru International Airport|Mangaluru]], [[Muscat International Airport|Muscat]], [[King Khalid International Airport|Riyadh]], [[Sharjah International Airport|Sharjah]], [[Tiruchirapalli International Airport|Tiruchirapalli]]
+<!-- -->
+|{{nowrap|[[AirAsia]]}}| [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+|[[Emirates (airline)|Emirates]]| [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Etihad Airways]]| [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+<!-- -->
+|[[Gulf Air]]| [[Bahrain International Airport|Bahrain]]
+<!-- -->
+|[[IndiGo]]| [[Kempegowda International Airport|Bengaluru]], [[Chennai International Airport|Chennai]], [[Indira Gandhi International Airport|Delhi]], [[Rajiv Gandhi International Airport|Hyderabad]], [[Cochin International Airport|Kochi]], [[Kannur International Airport|Kannur]], [[Male Airport|Malé]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Navi Mumbai International Airport|Mumbai-Navi]], [[Pune Airport|Pune]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Jazeera Airways]]| [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+|[[Kuwait Airways]]| [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+|[[Malaysia Airlines]]| [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+|[[Maldivian (airline)|Maldivian]]| [[Hanimaadhoo International Airport|Hanimaadhoo]], [[Velana International Airport|Malé]]
+<!-- -->
+|[[Oman Air]]| [[Muscat International Airport|Muscat]]
+<!-- -->
+|[[Qatar Airways]]| [[Hamad International Airport|Doha]]
+<!-- -->
+|[[Scoot]]| [[Singapore Changi International Airport|Singapore]]
+<!-- -->
+|{{nowrap|[[SriLankan Airlines]]}}| [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+}}

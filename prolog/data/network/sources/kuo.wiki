@@ -1,0 +1,17 @@
+==Airlines and destinations==
+[[File:EFKU check-in 20081109.jpg|thumb|right|Check-in at Kuopio Airport]]
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+|[[Aegean Airlines]] | '''Seasonal charter:''' [[Rhodes International Airport|Rhodes]]
+<!-- -->
+|[[Avion Express]] | '''Seasonal charter:''' [[Chania International Airport|Chania]]
+<!-- -->
+|[[Finnair]]| [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[Freebird Airlines]] | ''' Seasonal charter:''' [[Antalya Airport|Antalya]]
+<!-- -->
+|[[Pegasus Airlines]] | '''Seasonal charter:''' [[Antalya Airport|Antalya]]
+<!-- -->
+|[[Sunclass Airlines]]| '''Seasonal charter:''' [[Gran Canaria Airport|Gran Canaria]]
+}}

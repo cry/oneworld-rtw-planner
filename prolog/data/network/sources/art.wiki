@@ -1,0 +1,121 @@
+==Airline and destination==
+The following airline offers scheduled passenger service:
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable = yes
+| [[American Eagle (airline brand)|American Eagle]] | [[Philadelphia International Airport|Philadelphia]] | 
+}}
+===Statistics===
+{{Bar graph
+| title = Carrier shares (July 2024 – June 2025)
+| bar_width   = 26
+| width_units = em
+| label_type  = Carrier&nbsp;&nbsp;
+| data_type   = Passengers (arriving and departing)
+| data_max    = 55,000
+| label1   = [[Piedmont Airlines|Piedmont]]
+| data1    = 51,660
+| comment1 = 100%
+}}
+
+{| class="wikitable sortable"
+|+ Busiest domestic routes from ART (November 2024 – October 2025)
+|-
+! Rank
+! City
+! Passengers
+! Carriers
+|-
+| 1
+| {{flagicon|Pennsylvania}} [[Philadelphia International Airport|Philadelphia, Pennsylvania]]
+| 25,650
+| American
+|-
+|}
+
+{| class="wikitable"
+|+Passenger boardings (enplanements) by year, as per the FAA
+|-
+!Year
+!Enplanements
+!Change
+|-
+|2005
+|align=right|4,612
+|align=right|{{Increase}}{{0}}24%{{0}}
+|-
+|2006
+|align=right|3,672
+|align=right|{{Decrease}}{{0}}20%{{0}}
+|-
+|2007
+|align=right|7,471
+|align=right|{{Increase}}{{0}}103%{{0}}
+|-
+|2008
+|align=right|524
+|align=right|{{Decrease}}{{0}}93%{{0}} 
+|-
+|2009
+|align=right|2,145
+|align=right|{{Increase}}{{0}}309%{{0}}
+|-
+|2010
+|align=right|2,203
+|align=right|{{Increase}}{{0}}3%{{0}}
+|-
+|2011
+|align=right|4,449
+|align=right|{{Increase}}{{0}}102%{{0}}
+|-
+|2012
+|align=right|16,988
+|align=right|{{Increase}}{{0}}282%{{0}}
+|-
+|2013
+|align=right|18,818
+|align=right|{{Increase}}{{0}}11%{{0}}
+|-
+|2014
+|align=right|19,307
+|align=right|{{Increase}}{{0}}3%{{0}}
+|-
+|2015
+|align=right|18,650
+|align=right|{{Decrease}}{{0}}3%{{0}}
+|-
+|2016
+|align=right|17,302
+|align=right|{{Decrease}}{{0}}7%{{0}}
+|-
+|2017
+|align=right|22,785
+|align=right|{{Increase}}{{0}}32%{{0}}
+|-
+|2018
+|align=right|23,689
+|align=right|{{Increase}}{{0}}5%{{0}}
+|-
+|2019
+|align=right|22,466
+|align=right|{{decrease}}{{0}}5%{{0}}
+|-
+|2020
+|align=right|11,563
+|align=right|{{decrease}}{{0}}49%{{0}}
+|-
+|2021
+|align=right|19,823
+|align=right|{{Increase}}{{0}}71%{{0}}
+|-
+|2022
+|align=right|20,243
+|align=right|{{Increase}}{{0}}2%{{0}}
+|-
+|2023
+|align=right|21,434
+|align=right|{{Increase}}{{0}}6%{{0}}
+|-
+|2024
+|align=right|23,146
+|align=right|{{Increase}}{{0}}8%{{0}}
+|-
+|}

@@ -1,0 +1,35 @@
+==Airlines and destinations==
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{More citations needed section|date=January 2022}}
+{{Airport destination list
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] 
+| [[Southwest Airlines]] | [[Austin–Bergstrom International Airport|Austin]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[William P. Hobby Airport|Houston–Hobby]], [[McCarran International Airport|Las Vegas]]
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+| [[United Express]] | [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from KMAF in Midland, Texas
+|places=
+{{Location map~ |United_States |lat=31.9425 |long=-102.201944 |position=bottom |label=<div style="position:relative; top:-5px;"><small>'''Midland'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=32.847978|long=-96.851250 |position=right |label='''<small>[[Dallas Love Airport|Dallas–Love]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=29.990140|long=-95.336792 |position=top |label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=29.654751|long=-95.279002|position=bottom |label='''<small>[[William P. Hobby Airport|Houston–Hobby]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=30.194444|long=-97.67|position=left|label='''<small>[[Austin–Bergstrom International Airport|Austin]]</small>'''|label_size=80 |marksize=7}}
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=right |label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=33.436921|long=-112.011667|position=left |label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=36.083697|long=-115.153873|position=top |label='''<small>[[McCarran International Airport|Las Vegas]]</small>'''|label_size=80 |marksize=7 }}
+{{Location map~ |United_States |lat=32.896944 |long=-97.038056 |position=left |label='''<small>[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=80 |marksize=7}}
+}}
+|}
+'''Cargo'''{{Airport destination list
+| [[Empire Airlines]]|[[Lubbock]]
+||
+| |
+||||}}

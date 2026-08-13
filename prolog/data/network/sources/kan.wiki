@@ -1,0 +1,39 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+<!-- -->
+|[[Aero Contractors (Nigeria)|Aero Contractors]] | [[Nnamdi Azikiwe International Airport|Abuja]], [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+|[[Air Peace]] | [[Nnamdi Azikiwe International Airport|Abuja]], [[Asaba International Airport|Asaba]], [[Murtala Muhammed International Airport|Lagos]], [[Diori Hamani International Airport|Niamey]], [[Sam Mbakwe Airport|Owerri]], [[Port Harcourt International Airport|Port Harcourt]]
+<!-- -->
+|[[Arik Air]] | [[Nnamdi Azikiwe International Airport|Abuja]]
+<!-- -->
+|[[Azman Air]] | [[Nnamdi Azikiwe International Airport|Abuja]], [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+|[[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+|[[Flynas]] | [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+|[[Max Air]] | [[Nnamdi Azikiwe International Airport|Abuja]], [[Benin Airport|Benin City]], [[Murtala Muhammed International Airport|Lagos]] <br />'''Seasonal charter:''' [[King Abdulaziz International Airport|Jeddah]]{{cn|date=April 2025}}
+<!-- -->
+|[[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+|[[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz Airport|Medina]]
+<!-- -->
+| [[ValueJet (Nigeria)|ValueJet]] | [[Nnamdi Azikiwe International Airport|Abuja]]
+}}
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+|[[Aerotranscargo]] | [[Munich Airport|Munich]]{{better source needed|date=March 2024}}
+<!-- -->
+|[[EgyptAir]] | [[Cairo International Airport|Cairo]]{{cn|date=March 2024}}
+<!-- -->
+|[[Ethiopian Airlines Cargo]] | [[Liège Airport|Liège]]{{cn|date=March 2024}}
+<!-- -->
+|[[Saudia Cargo]] | [[King Abdulaziz International Airport|Jeddah]]{{cn|date=March 2024}}
+<!-- -->
+}}

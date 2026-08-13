@@ -1,0 +1,7 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list
+<!-- -->
+| [[QantasLink]] | [[Sydney Airport|Sydney]] <br/>'''Seasonal:''' [[Melbourne Airport|Melbourne]]
+<!-- -->
+| [[Rex Airlines]] |[[Melbourne Airport|Melbourne]], [[Moruya Airport|Moruya]], [[Sydney Airport|Sydney]]}}

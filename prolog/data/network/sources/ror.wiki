@@ -1,0 +1,16 @@
+==Airlines and destinations==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+| [[Belau Air]] | [[Angaur Airstrip|Angaur]], [[Peleliu Airfield|Peleliu]]{{cn|date=May 2024}}
+| [[Caroline Islands Air]] | [[Yap International Airport|Yap]]
+<!-- -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[Greater Bay Airlines]] | '''Charter:''' [[Hong Kong International Airport|Hong Kong]]
+| [[Hong Kong Airlines]] | '''Charter:''' [[Hong Kong International Airport|Hong Kong]]
+| [[Nauru Airlines]] | [[Brisbane Airport|Brisbane]], [[Marshall Islands International Airport|Majuro]], [[Nauru International Airport|Nauru]], [[Pohnpei International Airport|Pohnpei]], [[Bonriki International Airport|Tarawa]] <br /> '''Seasonal:''' [[Clark International Airport|Clark]]
+| {{nowrap|[[Pacific Missionary Aviation]]}} | [[Angaur Airstrip|Angaur]], [[Peleliu Airfield|Peleliu]], [[Yap International Airport|Yap]]
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]]
+| [[Qantas]] | [[Brisbane Airport|Brisbane]]
+| [[United Airlines]] | [[Antonio B. Won Pat International Airport|Guam]], [[Ninoy Aquino International Airport|Manila]], [[Narita International Airport|Tokyo–Narita]]
+}}

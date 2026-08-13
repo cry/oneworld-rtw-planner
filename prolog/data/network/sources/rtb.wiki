@@ -1,0 +1,17 @@
+==Airlines and destinations==
+[[File:Avianca ATR-72 at Roatán Airport, 12-2014.JPG|thumb|right|An [[Avianca Honduras]] [[ATR 72]] taxiing for take-off]]
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+| [[Aerolíneas Sosa]] | [[Golosón International Airport|La Ceiba]], [[Ramón Villeda Morales International Airport|San Pedro Sula]], [[Toncontín International Airport|Tegucigalpa]]
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]] (begins 12 December 2026), [[Toronto Pearson International Airport|Toronto–Pearson]] (begins 13 December 2026)
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]]
+| [[CM Airlines]] | [[Guanaja Airport|Guanaja]], [[Ramón Villeda Morales International Airport|San Pedro Sula]], [[Toncontín International Airport|Tegucigalpa]]
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+| {{nowrap|[[Transportes Aéreos Guatemaltecos|TAG Airlines]]}} | [[La Aurora International Airport|Guatemala City]], [[El Salvador International Airport|San Salvador]]
+| [[Tropic Air]] | [[Philip S. W. Goldson International Airport|Belize City]]
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]] <br /> '''Seasonal:''' [[Denver International Airport|Denver]]{{citation needed|date=March 2025}}
+| [[WestJet]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Québec City Jean Lesage International Airport|Quebec City]],  [[Toronto Pearson International Airport|Toronto–Pearson]]
+}}

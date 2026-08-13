@@ -1,0 +1,101 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{more sources section|date=February 2026}}
+{{Airport destination list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+| [[Air Arabia]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air Cairo]]| '''Seasonal charter:''' [[El Alamein International Airport|El Alamein]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Air Côte d'Ivoire]] | '''Seasonal:''' [[Félix-Houphouët-Boigny International Airport|Abidjan]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[AJet]] | [[Çukurova International Airport|Adana/Mersin]], [[Ankara Airport|Ankara]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]<br> '''Seasonal:''' [[Antalya Airport|Antalya]], [[Milas–Bodrum Airport|Bodrum]], [[Dalaman Airport|Dalaman]], [[İzmir Adnan Menderes Airport|Izmir]]
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Düsseldorf Airport|Düsseldorf]]
+<!-- -->
+| [[Corendon Airlines]] | '''Seasonal charter:''' [[Antalya Airport|Antalya]], [[Dalaman Airport|Dalaman]]
+<!-- -->
+| [[Cyprus Airways]] | [[Larnaca International Airport|Larnaca]]
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+| [[Eurowings]] | [[Berlin Brandenburg Airport|Berlin]], [[Düsseldorf Airport|Düsseldorf]], [[Hannover Airport|Hannover]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Georgian Airways]] | '''Seasonal charter:''' [[Tbilisi International Airport|Tbilisi]]
+<!-- -->
+| [[Iraqi Airways]] | [[Baghdad International Airport|Baghdad]], [[Basra International Airport|Basra]], [[Al Najaf International Airport|Najaf]], [[Sulaimaniyah International Airport|Sulaymaniyah]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Middle East Airlines]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Abu Dhabi International Airport|Abu Dhabi]], [[Accra International Airport|Accra]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Athens International Airport|Athens]], [[Baghdad International Airport|Baghdad]], [[Berlin Brandenburg Airport|Berlin]], [[Brussels Airport|Brussels]], [[Cairo International Airport|Cairo]], [[Copenhagen Airport|Copenhagen]], [[King Fahd International Airport|Dammam]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Düsseldorf Airport|Düsseldorf]], [[Erbil International Airport|Erbil]], [[Frankfurt Airport|Frankfurt]], [[Geneva Airport|Geneva]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[Kuwait International Airport|Kuwait City]], [[Murtala Muhammed International Airport|Lagos]], [[Larnaca International Airport|Larnaca]], [[Heathrow Airport|London–Heathrow]], [[Adolfo Suárez Madrid-Barajas Airport|Madrid]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Al Najaf International Airport|Najaf]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[King Khalid International Airport|Riyadh]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Zvartnots International Airport|Yerevan]] <br /> '''Seasonal:''' [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]],{{citation needed|date=February 2026}} [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[Mykonos Airport|Mykonos]], [[Nice Côte d'Azur Airport|Nice]] <br /> '''Seasonal charter:''' [[Tbilisi International Airport|Tbilisi]]
+<!-- -->
+| [[Pegasus Airlines]] | [[Çukurova International Airport|Adana/Mersin]], [[Antalya Airport|Antalya]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]<br /> '''Seasonal:''' [[Milas–Bodrum Airport|Bodrum]]{{citation needed|date=February 2026}} [[Dalaman Airport|Dalaman]]
+<!-- -->
+| [[Petroleum Air Services]] | '''Seasonal charter:''' [[Hurghada International Airport|Hurghada]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+|[[Red Sea Airlines (charter airline)|Red Sea Airlines]] |'''Seasonal charter:''' [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+|[[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]{{citation needed|date=February 2026}}
+<!-- -->
+| {{nowrap|[[Saudia]]}} | [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| {{nowrap|[[Scandinavian Airlines]]}} | [[Copenhagen Airport|Copenhagen]] <br /> '''Seasonal:''' [[Stockholm Arlanda Airport|Stockholm–Arlanda]]
+<!-- -->
+| [[Sundair]] | [[Berlin Brandenburg Airport|Berlin]] <br> '''Seasonal:''' [[Bremen Airport|Bremen]]
+<!-- -->
+| [[SunExpress]] | '''Seasonal:''' [[Antalya Airport|Antalya]],{{citation needed|date=February 2026}} [[İzmir Adnan Menderes Airport|Izmir]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zurich Airport|Zürich]]
+<!-- -->
+| [[TAROM]] | [[Henri Coandă International Airport|Bucharest–Otopeni]]
+<!-- -->
+| [[Transavia]] | [[Lyon-Saint-Exupéry Airport|Lyon]], [[Marseille Provence Airport|Marseille]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]] <br> '''Seasonal:''' [[Çukurova International Airport|Adana/Mersin]], [[Antalya Airport|Antalya]]<br /> '''Seasonal charter:''' [[Milas–Bodrum Airport|Bodrum]]
+<!-- -->
+| [[UR Airlines]] | [[Baghdad International Airport|Baghdad]], [[Erbil International Airport|Erbil]], [[Al Najaf International Airport|Najaf]]
+<!-- -->
+}}
+
+===Cargo===
+{{More citations needed section|date=June 2021}}
+{{Airport-dest-list
+| [[DHL Aviation]] | [[Bahrain International Airport|Bahrain]]
+<!--- -->
+| [[EgyptAir Cargo]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates SkyCargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+| [[Ethiopian Airlines|Ethiopian Airlines Cargo]] | [[Bole International Airport|Addis Ababa]], [[Liège Airport|Liège]], [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Maersk Air Cargo]] | [[Leipzig/Halle Airport|Leipzig]]
+<!-- -->
+| [[My Freighter]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Qatar Airways Cargo]] | [[Accra International Airport|Accra]], [[Hamad International Airport|Doha]], [[Kuwait International Airport|Kuwait City]], [[Zaragoza Airport|Zaragoza]]
+<!-- -->
+| [[Turkish Cargo]] | [[Istanbul Airport|Istanbul]]
+}}

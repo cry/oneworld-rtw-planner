@@ -1,0 +1,26 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Arabia]] | [[Cairo International Airport|Cairo]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air Cairo]] | [[Assiut Airport|Assiut]], [[Cairo International Airport|Cairo]], [[Sohag International Airport|Sohag]]
+<!-- -->
+| [[azimuth (airline)|azimuth]] | [[Sochi International Airport|Sochi]]
+<!-- -->
+| [[EgyptAir]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[flyadeal]] | [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]] | [[Abha International Airport|Abha]], [[King Fahd International Airport|Dammam]], [[King Abdulaziz International Airport|Jeddah]], [[Prince Mohammad bin Abdulaziz International Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Nesma Airlines]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Nile Air]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+}}

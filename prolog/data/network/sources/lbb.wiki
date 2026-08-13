@@ -1,0 +1,21 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+| [[Southwest Airlines]] | [[Austin–Bergstrom International Airport|Austin]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[William P. Hobby Airport|Houston–Hobby]], [[McCarran International Airport|Las Vegas]]
+<!-- -->
+| [[United Express]] | [[Denver International Airport|Denver]], [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+
+===Cargo===
+{{Airport destination list
+| [[Ameriflight]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+| [[FedEx Feeder]] operated by [[Baron Aviation Services]] | [[Abilene Regional Airport|Abilene]]|[[FedEx Feeder]] operated by [[Empire Airlines]] |[[Fort Worth Alliance Airport|Fort Worth/Alliance]], [[Midland International Airport|Midland/Odessa]]
+| [[FedEx Express]] |[[Memphis International Airport|Memphis]]
+| [[UPS Airlines]] |[[Louisville International Airport|Louisville]]
+}}

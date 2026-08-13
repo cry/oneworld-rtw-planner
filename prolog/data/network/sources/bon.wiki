@@ -1,0 +1,36 @@
+== Airlines and destinations ==
+While not connected globally, Bonaire is served year-round service by airlines from the Caribbean, the Netherlands and the United States, as well as seasonal direct services from Canada. Private aircraft also serve the island of Bonaire. The following airlines operate regular scheduled and seasonal services to and from Bonaire:
+
+<!-- Please use independent sources. The airport or airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Air Century]] | '''Seasonal:''' [[La Isabela International Airport|Santo Domingo–La Isabela]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Corendon Dutch Airlines]] | [[Amsterdam Airport Schiphol|Amsterdam]]{{ref|1|1}}
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Divi Divi Air]] | [[Curaçao International Airport|Curaçao]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]{{ref|1|2}}
+<!-- -->
+| [[Sky High Aviation Services|Sky High]] | [[Las Americas International Airport|Santo Domingo–Las Americas]]
+<!-- -->
+| [[TUI fly Netherlands]] | [[Amsterdam Airport Schiphol|Amsterdam]]{{ref|1|3}}
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Winair]] | [[Curaçao International Airport|Curaçao]], [[Princess Juliana International Airport|Sint Maarten]]{{ref|1|4}}
+<!-- -->
+| [[Z Air]] | [[Queen Beatrix International Airport|Aruba]], [[Ernesto Cortissoz International Airport|Baranquilla]], [[Curaçao International Airport|Curaçao]], [[José María Córdova International Airport|Medellín-JMC]]
+}}
+
+;Notes
+*<small>{{note|1|1}} [[Corendon Dutch Airlines]] flights will operate from Amsterdam to Bonaire via Curaçao. However, the airline will not have [[Freedoms of the air|cabotage rights]] to transport passengers solely between Bonaire and Curaçao. The flight will continue from Bonaire to  Amsterdam directly.</small>
+*<small>{{note|1|2}} [[KLM]] flights operate from Amsterdam to Bonaire via Aruba. However, the airline does not have [[Freedoms of the air|cabotage rights]] to transport passengers solely between Aruba and Bonaire. The flight continues from Bonaire to Amsterdam directly.</small>
+*<small>{{note|1|3}} [[TUI fly Netherlands]] flights operate to and from Amsterdam to Bonaire via Curaçao on selected days. However, the airline does not have [[Freedoms of the air|cabotage rights]] to transport passengers solely between Bonaire and Curaçao.</small>
+*<small>{{note|1|4}} [[Winair]] operates flights from and to Sint Maarten but both flights have a stopover Curaçao. Certain flights are operated directly to Sint Maarten on occasion.</small>

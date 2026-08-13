@@ -1,0 +1,5 @@
+==Airlines and destinations==
+{{Airport-dest-list
+| [[Japan Air Commuter]] | [[Fukuoka Airport|Fukuoka]], [[Kagoshima Airport|Kagoshima]], [[Osaka International Airport|Osaka–Itami]]
+| [[All Nippon Airways|ANA]] | [[Fukuoka Airport|Fukuoka]], [[Kagoshima Airport|Kagoshima]]
+}}

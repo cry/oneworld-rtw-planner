@@ -21,6 +21,7 @@
 :- use_module('../carriers').
 :- use_module(route_in).
 :- use_module(route_out).
+:- use_module(network_out).
 :- use_module(library(apply)).
 
 %! report_json(+Report, -Dict) is det.
@@ -214,7 +215,8 @@ ruleset_json(_{ version: Version,
                 stopKinds: StopKinds,
                 modes: Modes,
                 routeSyntax: RouteHelp,
-                surchargeBands: Bands }) :-
+                surchargeBands: Bands,
+                network: Network }) :-
     ruleset_version(Version),
     all_limits(Pairs),
     foldl([K-V, In, Out]>>put_dict(K, In, V, Out), Pairs, _{}, Limits),
@@ -237,7 +239,15 @@ ruleset_json(_{ version: Version,
     findall(M, itinerary_mode(M), Modes),
     route_help(RouteHelp),
     surcharge_bands(Bands0),
-    maplist([band(Desc, Usd), _{ sectors: Desc, usd: Usd }]>>true, Bands0, Bands).
+    maplist([band(Desc, Usd), _{ sectors: Desc, usd: Usd }]>>true, Bands0, Bands),
+    % The flown-sector snapshot's own provenance -- its date and how many facts
+    % it holds -- so the page never writes either into itself. It is here rather
+    % than only on the `network` reply because a page has to be able to say how
+    % old the table is before anyone has asked it a question, and because a
+    % number hardcoded in a template is one that drifts at the first refresh.
+    % Nothing about the snapshot is part of the ruleset; it travels beside it in
+    % its own key for exactly that reason.
+    manifest_json(Network).
 
 %! airport_json(+Iata, -Dict) is det.
 airport_json(A, _{ iata: Upper, city: City, country: Country, region: Region,

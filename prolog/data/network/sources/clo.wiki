@@ -1,0 +1,27 @@
+==Airlines and destinations==
+[[File:Cartafueyu de los vuelos dende Cali.svg|thumb|Map of domestic flights]]
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+The following airlines operate regular scheduled and charter flights at the airport.
+{{Airport-dest-list
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+| [[Aeroregional]] | '''Seasonal:''' [[Mariscal Sucre International Airport|Quito]]
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+| [[Avianca]] |[[Ernesto Cortissoz International Airport|Barranquilla]], [[El Dorado International Airport|Bogotá]], [[Rafael Núñez International Airport|Cartagena]], [[Fort Lauderdale-Hollywood International Airport|Fort Lauderdale]] (begins July 15, 2026), [[Madrid-Barajas Airport|Madrid]], [[José María Córdova International Airport|Medellín–JMC]], [[Antonio Nariño Airport|Pasto]], [[Simón Bolívar International Airport (Colombia)|Santa Marta]] <br />'''Seasonal:''' [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]]
+| [[Clic (airline)|Clic]] | [[El Dorado International Airport|Bogotá]], [[Guapi Airport|Guapi]], [[Enrique Olaya Herrera Airport|Medellín–Olaya Herrera]], [[Benito Salas Airport|Neiva]], [[Antonio Nariño Airport|Pasto]], [[Tres de Mayo Airport|Puerto Asís]], [[El Caraño Airport|Quibdó]], [[La Florida Airport (Colombia)|Tumaco]], [[Vanguardia Airport|Villavicencio]]
+| {{nowrap|[[Copa Airlines]]}} | [[Tocumen International Airport|Panama City–Tocumen]]
+| {{nowrap|[[JetBlue]]}} | [[Fort Lauderdale-Hollywood International Airport|Fort Lauderdale]] (begins October 15, 2026)
+| {{nowrap|[[JetSmart|JetSmart Colombia]]}} | [[El Dorado International Airport|Bogotá]], [[Rafael Núñez International Airport|Cartagena]], [[José María Córdova International Airport|Medellín–JMC]], [[Punta Cana International Airport|Punta Cana]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]], [[Simón Bolívar International Airport (Colombia)|Santa Marta]]
+| [[JetSmart|JetSmart Chile]] | [[Andrés Sabella Gálvez International Airport|Antofagasta]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+| [[LATAM Colombia]] | [[El Dorado International Airport|Bogotá]], [[Rafael Núñez International Airport|Cartagena]], [[José María Córdova International Airport|Medellín–JMC]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]]
+| [[SATENA]] | Bahía Solano, [[Mandinga Airport|Condoto]], [[Gustavo Artunduaga Paredes Airport|Florencia]], [[Guapi Airport|Guapi]], [[San Luis Airport (Colombia)|Ipiales]], [[Benito Salas Airport|Neiva]], [[Reyes Murillo Airport|Nuquí]], [[Contador Airport|Pitalito]], [[Pizarro Airport|Pizarro]], [[Tres de Mayo Airport|Puerto Asís]], [[Timbiqui Airport|Timbiquí]], [[La Florida Airport (Colombia)|Tumaco]]
+| [[Wingo (Airline)|Wingo]] | [[El Dorado International Airport|Bogotá]], [[Panamá Pacífico International Airport|Panama City–Balboa]] <br />'''Seasonal:''' [[Queen Beatrix International Airport|Aruba]]
+| [[Venezolana]] | [[Santiago Mariño Caribbean International Airport|Porlamar]] (begins 19 September 2026)
+| [[World2Fly]]  | [[Madrid–Barajas Airport|Madrid]]}}
+
+===Cargo===
+{{Airport-dest-list
+|[[Aerosucre]] | [[El Dorado International Airport|Bogotá]]
+|[[Avianca Cargo]] | [[José María Córdova International Airport|Medellín-JMC]], [[Miami International Airport|Miami]]
+|[[LATAM Cargo Colombia]] | [[Miami International Airport|Miami]]}}

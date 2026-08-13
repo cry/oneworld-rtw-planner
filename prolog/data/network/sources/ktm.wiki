@@ -1,0 +1,92 @@
+==Airlines and destinations==
+
+=== Passenger ===
+{{Airport destination list
+<!-- -->
+| [[Air Arabia]] | [[Abu Dhabi International Airport|Abu Dhabi]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air China]] | [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]]
+<!-- -->
+| [[Air India Express]] | [[Kempegowda International Airport|Bengaluru]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Bhutan Airlines]] | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Paro Airport|Paro]]
+<!-- -->
+| {{nowrap|[[Biman Bangladesh Airlines]]}} | [[Hazrat Shahjalal International Airport|Dhaka]]
+<!-- -->
+| [[Buddha Air]] | [[Bhadrapur Airport|Bhadrapur]], [[Bharatpur Airport|Bharatpur]], [[Biratnagar Airport|Biratnagar]], [[Dhangadhi Airport|Dhangadhi]], [[Janakpur Airport|Janakpur]], [[Simara Airport|Jitpursimara]], [[Kolkata Airport|Kolkata]], [[Nepalgunj Airport|Nepalgunj]], [[Pokhara International Airport|Pokhara–International]], [[Rajbiraj Airport|Rajbiraj]], [[Gautam Buddha Airport|Siddharthanagar]], [[Surkhet Airport|Surkhet]], [[Tumlingtar Airport|Tumlingtar]], [[Varanasi International Airport|Varanasi]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Kunming Changshui International Airport|Kunming]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Drukair]] | [[Paro Airport|Paro]]
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Himalaya Airlines]] | [[Beijing Daxing International Airport|Beijing–Daxing]], [[Chongqing Jiangbei International Airport|Chongqing]], [[King Fahd International Airport|Dammam]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuwait International Airport|Kuwait City]], [[Lhasa Gonggar Airport|Lhasa]], [[Qingdao Jiaodong International Airport|Qingdao]], [[King Khalid International Airport|Riyadh]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[IndiGo]] | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Nepal Airlines]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Kempegowda International Airport|Bengaluru]], [[Bhojpur Airport|Bhojpur]], [[King Fahd International Airport|Dammam]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Hamad International Airport|Doha]], [[Dubai International Airport|Dubai–International]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Hong Kong International Airport|Hong Kong]], [[Sukilumba Airport|Ilam]], [[Man Maya Airport|Khanidanda]], [[Thamkharka Airport|Khotehang]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Chhatrapati Shivaji International Airport|Mumbai–Shivaji]], [[Phaplu Airport|Phaplu]], [[Taplejung Airport|Phungling]], [[King Khalid International Airport|Riyadh]], [[Rukum Salle Airport|Rukum]], [[Rumjatar Airport|Rumjatar]], [[Gautam Buddha Airport|Siddharthanagar]], [[Narita International Airport|Tokyo–Narita]], [[Dang Airport|Tulsipur]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]
+<!-- -->
+| [[Saurya Airlines]] | [[Bhadrapur Airport|Bhadrapur]],{{citation needed|date=May 2026}} [[Biratnagar Airport|Biratnagar]], [[Dhangadhi Airport|Dhangadhi]], [[Nepalgunj Airport|Nepalgunj]], [[Pokhara International Airport|Pokhara]], [[Gautam Buddha Airport|Siddharthanagar]]
+<!-- -->
+| [[Shree Airlines]] | [[Bhadrapur Airport|Bhadrapur]], [[Biratnagar Airport|Biratnagar]], [[Dhangadhi Airport|Dhangadhi]], [[Janakpur Airport|Janakpur]], [[Nepalgunj Airport|Nepalgunj]], [[Pokhara International Airport|Pokhara–International]], [[Rajbiraj Airport|Rajbiraj]], [[Gautam Buddha Airport|Siddharthanagar]]
+<!-- -->
+| [[Sichuan Airlines]] | [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Sita Air]] | [[Tenzing-Hillary Airport|Lukla]], [[Nepalgunj Airport|Nepalgunj]], [[Taplejung Airport|Phungling]], [[Pokhara International Airport|Pokhara–International]]<br /> '''Charter:''' [[Bhadrapur Airport|Bhadrapur]], [[Phaplu Airport|Phaplu]], [[Ramechhap Airport|Ramechhap]],
+<!-- -->
+| [[SpiceJet]] | [[Indira Gandhi International Airport|Delhi–Indira Gandhi]]
+<!-- -->
+| [[SriLankan Airlines]] | [[Bandaranaike International Airport|Colombo–Bandaranaike]]
+<!-- -->
+| [[Summit Air (Nepal)|Summit Air]] | [[Tenzing-Hillary Airport|Lukla]], [[Nepalgunj Airport|Nepalgunj]], [[Phaplu Airport|Phaplu]], [[Taplejung Airport|Phungling]], [[Tumlingtar Airport|Tumlingtar]]
+<!-- -->
+| [[Thai AirAsia]] | [[Don Mueang International Airport|Bangkok–Don Mueang]] (halted until 31 July 2026)
+<!-- -->
+| [[Thai Airways International]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai Lion Air]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Yeti Airlines]] | [[Bhadrapur Airport|Bhadrapur]], [[Biratnagar Airport|Biratnagar]], [[Janakpur Airport|Janakpur]], [[Simara Airport|Jitpursimara]], [[Tenzing-Hillary Airport|Lukla]],{{citation needed|date=May 2026}} [[Nepalgunj Airport|Nepalgunj]], [[Pokhara International Airport|Pokhara–International]], [[Gautam Buddha Airport|Siddharthanagar]], [[Tumlingtar Airport|Tumlingtar]]
+}}
+
+[[Buddha Air]], [[Yeti Airlines]], [[Shree Airlines]]  and [[Sita Air]] also provide daily mountain sightseeing flights or [[Mount Everest|Mount Everest sightseeing flights]] from Tribhuvan International Airport. They usually depart from the domestic terminal early morning and return to the airport one hour later.
+
+The helicopter operators [[Air Dynasty]], [[Manang Air]], [[Prabhu Helicopter]], [[Simrik Air]], [[Shree Airlines]] and [[Fishtail Air]] offer helicopter operations from their respective hubs at Tribhuvan International Airport.{{citation needed|date=July 2022}}
+
+===Cargo===
+{{unreferenced section|date=January 2023}}
+{{Airport destination list
+<!-- -->
+| [[Himalaya Airlines|Himalaya Airlines Cargo]] | [[Kunming Changshui International Airport|Kunming]], [[Nanning Wuxu International Airport|Nanning]]
+<!-- -->
+| Moalem Aviation | [[Dubai International Airport|Dubai–International]]{{citation needed|date=October 2022}}
+<!-- -->
+| [[SF Airlines]] | [[Chengdu Shuangliu International Airport|Chengdu–Shuangliu]], [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!-- -->
+| [[SpiceJet|SpiceXpress]] | [[Netaji Subhas Chandra Bose International Airport|Kolkata]]
+}}

@@ -1,0 +1,26 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Rabat–Salé Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.AEROROUTES IS NOT A RELIABLE SOURCE AND SHOULD NOT BE USED.-->
+{{Airport-dest-list
+
+| [[Air Arabia Maroc|Air Arabia]] | [[Agadir–Al Massira Airport|Agadir]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[EuroAirport Basel–Mulhouse–Freiburg|Basel/Mulhouse]], [[Brussels Airport|Brussels]], [[Essaouira-Mogador Airport|Essaouira]], [[Istanbul Airport|Istanbul]], [[Nador International Airport|Nador]], [[Angads Airport|Oujda]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[easyJet]] | [[Bordeaux–Mérignac Airport|Bordeaux]], [[Geneva Airport|Geneva]], [[Luton Airport|London-Luton]] (begins 5 November 2026), [[Lyon–Saint-Exupéry Airport|Lyon]], [[Málaga Airport|Málaga]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Nantes Atlantique Airport|Nantes]], [[Nice Côte d'Azur Airport|Nice]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Flynas]] | [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+| [[Nouvelair]] | [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+| {{nowrap|[[Royal Air Maroc]]}} | [[Brussels Airport|Brussels]], [[Dakhla Airport|Dakhla]], [[Moulay Ali Cherif Airport|Errachidia]], [[Hassan I Airport|Laayoune]], [[Orly Airport|Paris–Orly]] <br /> '''Seasonal:''' [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Ryanair]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Brussels South Charleroi Airport|Brussels-Charleroi]], [[Dublin Airport|Dublin]], [[Hahn Airport|Frankfurt-Hahn]], [[Karlsruhe Airport|Karlsruhe/Baden–Baden]], [[London Stansted Airport|London–Stansted]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Manchester Airport|Manchester]], [[Marseille Provence Airport|Marseille]], [[Milan Bergamo Airport|Milan-Bergamo]], [[Nuremberg Airport|Nuremberg]], [[Beauvais–Tillé Airport|Paris-Beauvais]], [[Pisa Airport|Pisa]], [[Porto Airport|Porto]], [[Ciampino–G. B. Pastine International Airport|Rome–Ciampino]], [[Seville Airport|Seville]],  [[Toulouse–Blagnac Airport|Toulouse]], [[Valencia Airport|Valencia]], [[Weeze Airport|Weeze]]
+<!-- -->
+| [[Transavia]] |  [[Amsterdam Airport Schiphol|Amsterdam]], [[Montpellier–Méditerranée Airport|Montpellier]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[TUI fly Belgium]] | [[Brussels Airport|Brussels]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+}}

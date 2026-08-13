@@ -1,0 +1,90 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+|{{nowrap|[[Aerolíneas Argentinas]]}} | [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Governor Francisco Gabrielli International Airport|Mendoza]]
+<!-- -->
+|[[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+|[[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto-Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+|[[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+|[[American Airlines]] | [[Miami International Airport|Miami]]<br />'''Seasonal:''' [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]{{cn|date=February 2025}}
+<!-- -->
+| [[Arajet]] | [[Punta Cana International Airport|Punta Cana]]
+<!-- -->
+|[[Avianca]] | [[El Dorado International Airport|Bogotá]]<br />'''Seasonal:''' [[Rafael Núñez International Airport|Cartagena]]
+<!-- -->
+|[[Boliviana de Aviación]] | [[El Alto International Airport|La Paz]]
+<!-- -->
+|[[British Airways]] | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+|[[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+|[[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] |  [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[JetSmart Argentina]] | [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Governor Francisco Gabrielli International Airport|Mendoza]]
+<!-- -->
+|[[JetSmart|JetSmart Chile]] | [[Cerro Moreno International Airport|Antofagasta]], [[Chacalluta International Airport|Arica]], [[El Dorado International Airport|Bogotá]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[El Loa Airport|Calama]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Mocopulli Airport|Castro]], [[Carriel Sur International Airport|Concepción]], [[Desierto de Atacama Airport|Copiapó]], [[Balmaceda Airport|Coyhaique]], [[Hercílio Luz International Airport|Florianópolis]], [[Diego Aracena International Airport|Iquique]], [[La Florida Airport (Chile)|La Serena]], [[Jorge Chávez International Airport|Lima]], [[Jose Maria Cordova International Airport|Medellín–JMC]], [[Carrasco International Airport|Montevideo]], [[El Tepual Airport|Puerto Montt]], [[Presidente Carlos Ibáñez del Campo International Airport|Punta Arenas]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[La Araucanía Airport|Temuco]], [[FAP Captain Carlos Martínez de Pinillos International Airport|Trujillo]], [[Pichoy Airport|Valdivia]] (suspended)<br />'''Seasonal:''' [[Afonso Pena International Airport|Curitiba]],{{cn|date=February 2025}} [[Foz do Iguaçu International Airport|Foz do Iguaçu]],{{cn|date=February 2025}} [[Teniente Julio Gallardo Airport|Puerto Natales]]{{cn|date=February 2025}}
+<!-- -->
+|[[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]]
+<!-- -->
+|[[LATAM Brasil]] | [[Brasília International Airport|Brasília]], [[Fortaleza Airport|Fortaleza]], [[Carrasco International Airport|Montevideo]], [[Recife/Guararapes–Gilberto Freyre International Airport|Recife]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+|[[LATAM Chile]] | [[Cerro Moreno International Airport|Antofagasta]], [[Chacalluta International Airport|Arica]], [[Auckland Airport|Auckland]], [[Belo Horizonte International Airport|Belo Horizonte–Confins]], [[El Dorado International Airport|Bogotá]], [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[El Loa Airport|Calama]], [[Cancún International Airport|Cancún]], [[Carriel Sur International Airport|Concepción]], [[Desierto de Atacama Airport|Copiapó]], [[Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport|Córdoba (AR)]], [[Balmaceda Airport|Coyhaique]], [[Afonso Pena International Airport|Curitiba]], [[Mataveri International Airport|Easter Island]], [[Hercílio Luz International Airport|Florianópolis]], [[Diego Aracena International Airport|Iquique]], [[El Alto International Airport|La Paz]], [[La Florida Airport (Chile)|La Serena]], [[Jorge Chávez International Airport|Lima]], [[Los Angeles International Airport|Los Angeles]], [[Madrid-Barajas Airport|Madrid]], [[Melbourne Airport|Melbourne]], [[Governor Francisco Gabrielli International Airport|Mendoza]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Miami International Airport|Miami]], [[Carrasco International Airport|Montevideo]], [[Presidente Perón International Airport|Neuquén]], [[John F. Kennedy International Airport|New York–JFK]], [[Cañal Bajo Carlos Hott Siebert Airport|Osorno]], [[Salgado Filho Porto Alegre International Airport|Porto Alegre]], [[El Tepual Airport|Puerto Montt]], [[Presidente Carlos Ibáñez del Campo International Airport|Punta Arenas]], [[Punta Cana International Airport|Punta Cana]], [[Mariscal Sucre International Airport|Quito]] (resumes December 1, 2026), [[Rio de Janeiro–Galeão International Airport|Rio de Janeiro–Galeão]], [[Viru Viru International Airport|Santa Cruz de la Sierra–Viru Viru]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[RAF Mount Pleasant|Stanley–Mount Pleasant]], [[Sydney Airport|Sydney]], [[La Araucanía Airport|Temuco]]<br />'''Seasonal:''' [[Orlando International Airport|Orlando]],{{cn|date=February 2025}} [[Teniente Julio Gallardo Airport|Puerto Natales]],{{cn|date=February 2025}} [[Capitán de Corbeta Carlos A. Curbelo International Airport|Punta del Este]],{{cn|date=February 2025}} [[San Carlos de Bariloche Airport|San Carlos de Bariloche]]
+<!-- -->
+|[[LATAM Ecuador]] | [[José Joaquín de Olmedo International Airport|Guayaquil]]
+<!-- -->
+|[[LATAM Paraguay]] | [[Silvio Pettirossi International Airport|Asunción]]
+<!-- -->
+|[[LATAM Perú]] | [[Alejandro Velasco Astete International Airport|Cusco]], [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+|[[Level (airline)|Level]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]]
+<!-- -->
+|[[Qantas]] | [[Sydney Airport|Sydney]]
+<!-- -->
+|[[Sky Airline]] | [[Cerro Moreno International Airport|Antofagasta]], [[Chacalluta International Airport|Arica]], [[Aeroparque Jorge Newbery|Buenos Aires–Aeroparque]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[El Loa Airport|Calama]], [[Mocopulli Airport|Castro]], [[Carriel Sur International Airport|Concepción]], [[Desierto de Atacama Airport|Copiapó]], [[Balmaceda Airport|Coyhaique]], [[Hercílio Luz International Airport|Florianópolis]], [[Diego Aracena International Airport|Iquique]], [[La Florida Airport (Chile)|La Serena]], [[Jorge Chávez International Airport|Lima]], [[Governor Francisco Gabrielli International Airport|Mendoza]], [[Carrasco International Airport|Montevideo]], [[Cañal Bajo Carlos Hott Siebert Airport|Osorno]], [[El Tepual Airport|Puerto Montt]], [[Presidente Carlos Ibáñez del Campo International Airport|Punta Arenas]], [[Rio de Janeiro–Galeão International Airport|Rio de Janeiro–Galeão]], [[Salvador Bahia Airport|Salvador da Bahia]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[La Araucanía Airport|Temuco]], [[Pichoy Airport|Valdivia]] <br />'''Seasonal: ''' [[Belo Horizonte International Airport|Belo Horizonte–Confins]],{{cn|date=February 2025}} [[Brasília International Airport|Brasília]],{{cn|date=February 2025}} [[Comandante Armando Tola International Airport|El Calafate]], [[Teniente Julio Gallardo Airport|Puerto Natales]],{{cn|date=February 2025}} [[San Carlos de Bariloche Airport|San Carlos de Bariloche]]{{cn|date=February 2025}}
+<!-- -->
+|[[Turkish Airlines]] | [[Istanbul Airport|Istanbul]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+|[[United Airlines]] | '''Seasonal:''' [[George Bush Intercontinental Airport|Houston–Intercontinental]]{{cn|date=February 2025}}
+}}
+[[File:SCL02.jpg|thumb|Baggage claim area at International Terminal]]
+[[File:SCL03.jpg|thumb|Departures area at International Terminal]]
+[[File:SCL05.jpg|thumb|Check-in counters at International Terminal]]
+[[File:SCL06.jpg|thumb|Check-in counters at International Terminal]]
+[[File:SCL09.jpg|thumb|Main corridor at International Terminal]]
+[[File:SCL10.jpg|thumb|Last waiting gates at International Terminal]]
+
+===Cargo===
+{{Airport-dest-list
+<!-- -->
+| [[Atlas Air]] | [[Viracopos International Airport|Campinas]], [[Miami International Airport|Miami]]
+<!-- -->
+| [[Avianca Cargo]] | [[El Dorado International Airport|Bogotá]], [[Guarani International Airport|Ciudad del Este]]
+<!-- -->
+| [[Cargolux]] | [[Rafael Hernández Airport|Aguadilla]], [[Amsterdam Schiphol Airport|Amsterdam]], [[El Dorado International Airport|Bogotá]], [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[China Cargo Airlines]] | [[Los Angeles International Airport|Los Angeles]]
+<!-- -->
+| [[DHL Aero Expreso]] | [[Miami International Airport|Miami]], [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Ethiopian Airlines Cargo]] | [[Addis Ababa Bole International Airport|Addis Ababa]], [[Viracopos International Airport|Campinas]], [[Murtala Muhammed International Airport|Lagos]]
+<!-- -->
+| [[FedEx Express]] | [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Memphis International Airport|Memphis]]
+<!-- -->
+| [[Korean Air Cargo]] | [[Viracopos International Airport|Campinas]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[LATAM Cargo Chile]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Brussels Airport|Brussels]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Viracopos International Airport|Campinas]], [[Miami International Airport|Miami]], [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+| [[Lufthansa Cargo]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[UPS Airlines]] | [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Viracopos International Airport|Campinas]]
+<!-- -->
+| [[Western Global Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+}}

@@ -1,0 +1,44 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights to and from Riga:
+
+{{Airport-dest-list
+<!--  -->
+| [[Aegean Airlines]] | '''Seasonal:''' [[Athens International Airport|Athens]]
+<!--  -->
+| [[Air Montenegro]] | '''Seasonal charter:''' [[Tivat Airport|Tivat]]
+<!-- -->
+| [[airBaltic]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Athens International Airport|Athens]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Belgrade Nikola Tesla Airport|Belgrade]], [[Berlin Brandenburg Airport|Berlin]], [[Billund Airport|Billund]], [[Brussels Airport|Brussels]], [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Chișinău International Airport|Chișinău]], [[Copenhagen Airport|Copenhagen]], [[Dubai International Airport|Dubai–International]], [[Dublin Airport|Dublin]], [[Düsseldorf Airport|Düsseldorf]], [[Faro Airport|Faro]], [[Frankfurt Airport|Frankfurt]], [[Hamburg Airport|Hamburg]], [[Helsinki Airport|Helsinki]], [[Istanbul Airport|Istanbul]], [[Kaunas Airport|Kaunas]], [[Larnaca International Airport|Larnaca]], [[Lisbon Airport|Lisbon]], [[Gatwick Airport|London–Gatwick]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Malta International Airport|Malta]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Munich Airport|Munich]], [[Nice Côte d'Azur Airport|Nice]], [[Oslo Airport, Gardermoen|Oslo]], [[Oulu Airport|Oulu]], [[Palanga International Airport|Palanga]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Václav Havel Airport Prague|Prague]], [[Keflavík International Airport|Reykjavík–Keflavík]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Sofia Airport|Sofia]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Tallinn Airport|Tallinn]], [[Tampere–Pirkkala Airport|Tampere]], [[Tbilisi International Airport|Tbilisi]], [[Ben Gurion Airport|Tel Aviv]], [[Tenerife South Airport|Tenerife]], [[Turku Airport|Turku]], [[Vienna International Airport|Vienna]], [[Vilnius Airport|Vilnius]], [[Zvartnots International Airport|Yerevan]], [[Zurich Airport|Zurich]] <br /> '''Seasonal:''' [[Aberdeen International Airport|Aberdeen]], [[Antalya Airport|Antalya]], [[Batumi International Airport|Batumi]], [[Bergen Airport, Flesland|Bergen]], [[Burgas Airport|Burgas]], [[Catania–Fontanarossa Airport|Catania]], [[Corfu International Airport|Corfu]], [[Dubrovnik Airport|Dubrovnik]], [[Cristiano Ronaldo International Airport|Funchal]], [[Geneva Airport|Geneva]], [[Göteborg Landvetter Airport|Gothenburg]], [[Gran Canaria Airport|Gran Canaria]], [[Heraklion International Airport "Nikos Kazantzakis"|Heraklion]], [[Hurghada International Airport|Hurghada]], [[Innsbruck Airport|Innsbruck]], [[Kittilä Airport|Kittilä]], [[Kuusamo Airport|Kuusamo]] (begins 11 December 2026), [[Ljubljana Jože Pučnik Airport|Ljubljana]], [[Marrakesh Menara Airport|Marrakesh]], [[Naples International Airport|Naples]], [[Olbia Costa Smeralda Airport|Olbia]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Pisa Airport|Pisa]], [[Porto Airport|Porto]], [[Rhodes International Airport|Rhodes]], [[Salzburg Airport|Salzburg]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]], [[Split Airport|Split]], [[Thessaloniki Airport|Thessaloniki]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Turin Airport|Turin]] (begins 30 January 2027), [[Tivat Airport|Tivat]], [[Valencia Airport|Valencia]], [[Venice Marco Polo Airport|Venice]], [[Verona Villafranca Airport|Verona]], [[Warsaw Chopin Airport|Warsaw–Chopin]]  <br />'''Seasonal charter:''' [[Lamezia Terme International Airport|Lamezia Terme]], [[Patras Araxos Airport|Patras]]
+<!-- -->
+| [[Finnair]] | [[Helsinki Airport|Helsinki]]
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[FlyOne]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+| [[Freebird Airlines]] | '''Seasonal charter:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| [[Heston Airlines]] | '''Seasonal charter:''' [[Milan Bergamo Airport|Bergamo]], [[Burgas Airport|Burgas]],{{independent source needed|date=January 2026}} [[Enfidha–Hammamet International Airport|Enfidha]],{{independent source needed|date=January 2026}}  [[Hurghada International Airport|Hurghada]],{{independent source needed|date=January 2026}} [[Sharm El Sheikh Airport|Sharm El Sheikh]],{{independent source needed|date=January 2026}} [[Tivat Airport|Tivat]]{{independent source needed|date=January 2026}}
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Mavi Gök Airlines]] | '''Seasonal charter:''' [[Antalya Airport|Antalya]]
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Bergen Airport, Flesland|Bergen]], [[Copenhagen Airport|Copenhagen]], [[Oslo Airport, Gardermoen|Oslo]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Trondheim Airport, Værnes|Trondheim]] <br /> '''Seasonal:''' [[Burgas Airport|Burgas]], [[Göteborg Landvetter Airport|Gothenburg]], [[Tivat Airport|Tivat]]
+<!-- -->
+| [[Ryanair]] | [[Aarhus Airport|Aarhus]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Milan Bergamo Airport|Bergamo]], [[Brussels South Charleroi Airport|Charleroi]], [[Dublin Airport|Dublin]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Kraków John Paul II International Airport|Kraków]], [[Leeds Bradford Airport|Leeds/Bradford]], [[London Stansted Airport|London–Stansted]], [[Málaga Airport|Málaga]], [[Malta Airport|Malta]], [[Manchester Airport|Manchester]], [[Memmingen Airport|Memmingen]], [[Paphos International Airport|Paphos]], [[Václav Havel Airport Prague|Prague]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Sandefjord Airport, Torp|Sandefjord]], [[Stockholm Arlanda Airport|Stockholm–Arlanda]], [[Treviso Airport|Treviso]], [[Vienna International Airport|Vienna]] <br />'''Seasonal:''' [[Cologne Bonn Airport|Cologne/Bonn]]
+<!-- -->
+| [[Scandinavian Airlines]] | [[Copenhagen Airport|Copenhagen]]
+<!-- -->
+| {{nowrap|[[Skyline Express]]}} | '''Seasonal charter:''' [[Hurghada International Airport|Hurghada]]
+<!-- -->
+| [[SkyUp Airlines]] | '''Seasonal charter:''' [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Uzbekistan Airways]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+}}

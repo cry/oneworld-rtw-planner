@@ -1,0 +1,100 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+| [[9 Air]] | '''Charter:''' [[Haikou Meilan International Airport|Haikou]] 
+<!-- -->
+| [[AirAsia]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Senai International Airport|Johor Bahru]], [[Kota Kinabalu International Airport|Kota Kinabalu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Kuching International Airport|Kuching]], [[Langkawi International Airport|Langkawi]], [[Phuket International Airport|Phuket]], [[Shenzhen Bao'an International Airport|Shenzhen]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Senai International Airport|Johor Bahru]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]], [[Kualanamu International Airport|Medan]], [[Changi Airport|Singapore]] <br />'''Charter:''' [[Kunming Changshui International Airport|Kunming]],  [[Zhangjiajie Hehua International Airport|Zhangjiajie]] (resumes 9 October 2026)
+<!-- -->
+| [[Berjaya Air]] | '''Seasonal:''' [[Redang Airport|Redang]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[China Airlines]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Chongqing Airlines]] | [[Chongqing Jiangbei International Airport|Chongqing]]
+<!-- -->
+| [[Firefly (airline)|Firefly]] | [[Sultan Iskandar Muda International Airport|Banda Aceh]],   [[Sultan Ismail Petra Airport|Kota Bharu]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]],  [[Sultan Abdul Aziz Shah Airport|Kuala Lumpur–Subang]], [[Langkawi International Airport|Langkawi]], [[Phuket International Airport|Phuket]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]{{ref|1|2}}
+<!-- -->
+| [[Hainan Airlines]] | [[Haikou Meilan International Airport|Haikou]] (begins 11 October 2026)
+<!-- -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[IndiGo]] | [[Chennai International Airport|Chennai]]
+<!-- -->
+| [[Indonesia AirAsia]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Kualanamu International Airport|Medan]], [[Juanda International Airport|Surabaya]]
+<!-- -->
+| [[Juneyao Air]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Lion Air]]| [[Kualanamu International Airport|Medan]]
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| {{nowrap|[[Myanmar Airways International]]}} | [[Yangon International Airport|Yangon]]
+<!-- -->
+| [[Qatar Airways]] | '''Seasonal:''' [[Hamad International Airport|Doha]]{{ref|1|1}}
+<!-- -->
+| [[Qingdao Airlines]] | [[Qingdao Jiaodong International Airport|Qingdao]]
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Shanghai Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Shenzhen Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Sichuan Airlines]] | [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]
+<!-- -->
+| {{nowrap|[[Singapore Airlines]]}} | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Spring Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Thai AirAsia]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| {{nowrap|[[Thai Airways International]]}} | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai Lion Air]] | [[Don Mueang International Airport|Bangkok–Don Mueang]]
+<!-- -->
+| [[TransNusa]] | [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[XiamenAir]] | [[Xiamen Gaoqi International Airport|Xiamen]]
+<!-- -->
+}}
+
+<small>{{ref|1|1}}: This flight operates with a stop at [[Phuket International Airport|Phuket]]. However, the airline has no [[Freedoms of the air#Fifth freedom|fifth-freedom rights]] to transport passengers solely between Penang and Phuket.</small>
+
+<small>{{ref|1|2}}: This flight originates and ends at [[Langkawi International Airport|Langkawi]]. However, the airline has no [[Freedoms of the air#Eighth freedom|eighth-freedom rights]] to transport passengers solely between Penang and Langkawi.</small>
+
+[[File:Penang International Airport (1).png|thumb|center|500px|Penang Airport passenger destinations as of April 2026]]
+
+===Cargo===
+{{Airport destination list
+| [[Cargolux]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Cathay Pacific|Cathay Cargo]] | [[Hong Kong International Airport|Hong Kong]], [[Techo International Airport (Cambodia)|Phnom Penh]]
+<!-- -->
+| [[China Airlines|China Airlines Cargo]] | [[Noi Bai International Airport|Hanoi]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[DHL Aviation]]<br />{{nowrap|operated by [[Air Hong Kong]]}} | [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[EVA Air|EVA Air Cargo]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[FedEx Express]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Changi Airport|Singapore]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+| [[K-Mile Air]] | [[Suvarnabhumi Airport|Bangkok]]
+<!-- -->
+| [[Korean Air|Korean Air Cargo]] | [[Noi Bai International Airport|Hanoi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[MASkargo]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| My Jet Xpress Airlines | [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Changi Airport|Singapore]]
+<!-- -->
+| [[Qatar Airways|Qatar Airways Cargo]] | [[Phuket International Airport|Phuket]]
+<!-- -->
+| [[UPS Airlines]] | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Tan Son Nhat International Airport|Ho Chi Minh City]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Shenzhen Bao'an International Airport|Shenzhen]]
+}}

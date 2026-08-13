@@ -1,0 +1,32 @@
+==Airlines and destinations==
+
+===Passenger services===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+| [[American Eagle (airline brand)|American Eagle]] | [[Miami International Airport|Miami]] |
+| [[Contour Airlines]] | [[Piarco International Airport|Port of Spain]] (begins 5 October 2026), [[Cyril E. King Airport|Saint Thomas]], [[Luis Muñoz Marín International Airport|San Juan]] | 
+| {{nowrap|[[InterCaribbean Airways]]}} | [[Grantley Adams International Airport|Barbados]], [[George F. L. Charles Airport|Castries]], [[Terrance B. Lettsome International Airport|Tortola]] |
+| [[Liat20]] | [[V. C. Bird International Airport|Antigua]], [[Grantley Adams International Airport|Barbados]], [[George F. L. Charles Airport|Castries]], [[Punta Cana International Airport|Punta Cana]], [[Robert L. Bradshaw International Airport|Saint Kitts]], [[Princess Juliana International Airport|Sint Maarten]], [[Terrance B. Lettsome International Airport|Tortola]] |
+| [[Sunrise Airways]] | [[V. C. Bird International Airport|Antigua]], [[Grantley Adams International Airport|Barbados]], [[George F. L. Charles Airport|Castries]], [[Pointe-à-Pitre International Airport|Pointe-à-Pitre]], [[Robert L. Bradshaw International Airport|Saint Kitts]], [[Princess Juliana International Airport|Sint Maarten]], [[Terrance B. Lettsome International Airport|Tortola]] |
+| {{nowrap|[[United Airlines]]}} | [[Newark Liberty International Airport|Newark]] |
+| [[Winair]] | [[V. C. Bird International Airport|Antigua]], [[Grantley Adams International Airport|Barbados]], [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[Princess Juliana International Airport|Sint Maarten]] |
+}}
+
+* [[American Eagle (airline brand)|American Eagle]], [[Contour Airlines]] and [[Liat20]] operate regional jets; either [[Embraer E-Jets]] or [[Embraer ERJ Family]] jets. These carriers are currently the only operators serving the airport with commercial regional jetliners. On February 15, 2025, [[United Airlines]] became the first commercial passenger air carrier to serve the airport with mainline jet aircraft on a regularly scheduled basis with [[Boeing 737-700]] service.
+* [[United Airlines]] made history on February 15, 2025, with the inauguration of commercial services from [[Newark Liberty International Airport|Newark]] using [[Boeing 737-700]] aircraft. The airline is the first in the airport's history to operate the [[Boeing 737-700]] into Dominica with nonstop flights to the [[New Jersey]] | [[New York City]] area via [[Newark Airport]].
+* Friday, December 13, 2024, the Prime Minister, the Honorable Roosevelt Skerrit during an End-of-Year Press Conference, stated that the Government is in discussions with an undisclosed airline for a [[non-stop flight]] between [[Dominica]] and the [[John F Kennedy International Airport]], [[New York City|New York]] to commence in 2025. It is rumored that [[JetBlue]] will operate [[Airbus A320]] aircraft.
+* Dominica will become an Eastern Caribbean Regional hub for [[Sunrise Airways]] expansion operations in the coming months.
+* Dominica Secures Additional United Airlines Flight from New Jersey. United Airlines will introduce a second weekly direct flight from Newark Liberty International Airport (EWR) to Douglas–Charles Airport (DOM). The expected dates are October 19, 2025, to April 26, 2026, and October 17, 2026, to April 24, 2027, as stated by the Minister for Finance, Economic Development, Climate Resilience and Social Security, Hon. Dr. Irving McIntyre.
+* Wednesday, August 27, 2025, [[Tennessee]] based carrier [[Contour Airlines]] announced the start of their first-ever expansion into the [[Caribbean]]. Commencing September 24 and 25, 2025, respectively, the airline will connect [[Saint Thomas, U.S. Virgin Islands]] and [[San Juan, Puerto Rico]] to [[Dominica]] with [[Embraer ERJ-135]] regional jet flights.  "This historic milestone marks Contour’s official entry into the Caribbean market, expanding travel opportunities and improving accessibility for residents and visitors across Dominica, San Juan, and St. Thomas". When the Contour service began, it marked the third U.S. based [[airline]] to fly to the island.
+
+=== Cargo services ===
+{{airport-dest-list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+
+| {{nowrap|[[Air Cargo Carriers]]}} | [[V. C. Bird International Airport|Antigua]], [[Grantley Adams International Airport|Barbados]], [[George F. L. Charles Airport|Castries]], [[Maurice Bishop International Airport|Grenada]], [[Robert L. Bradshaw International Airport|Saint Kitts]], [[Hewanorra International Airport|Saint Lucia–Hewanorra]], [[Cyril E. King International Airport|Saint Thomas]], [[Argyle International Airport|Saint Vincent–Argyle]], [[Luis Muñoz Marín International Airport|San Juan]], [[Princess Juliana International Airport|Sint Maarten]], [[Terrance B. Lettsome International Airport|Tortola]] |
+| [[Air Flamenco]] | [[Luis Muñoz Marín International Airport|San Juan]] |
+| [[Ameriflight]] | [[V. C. Bird International Airport|Antigua]], [[Robert L. Bradshaw International Airport|Saint Kitts]], [[Luis Muñoz Marín International Airport|San Juan]] |
+| [[DHL Aviation]] | [[V. C. Bird International Airport|Antigua]], [[George F. L. Charles Airport|Castries]], [[Martinique Aimé Césaire International Airport|Fort-de-France]], [[Pointe-à-Pitre International Airport|Pointe-à-Pitre]], [[Piarco International Airport|Port of Spain]], [[Argyle International Airport|Saint Vincent–Argyle]], [[Luis Muñoz Marín International Airport|San Juan]] |
+| [[FedEx Feeder]] | [[V. C. Bird International Airport|Antigua]], [[Robert L. Bradshaw International Airport|Saint Kitts]], [[Luis Muñoz Marín International Airport|San Juan]] |
+| [[IBC Airways]] | '''Seasonal:''' [[Rafael Hernández Airport|Aguadilla]] |
+
+}}

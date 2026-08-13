@@ -1,0 +1,146 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Aeroflot]] | [[Khabarovsk Novy Airport|Khabarovsk]], [[Krasnoyarsk International Airport|Krasnoyarsk]],{{cn|date=July 2026}} [[Moscow–Sheremetyevo]],{{cn|date=July 2026}} [[Tolmachevo Airport|Novosibirsk]],{{cn|date=July 2026}} [[Pulkovo International Airport|St. Petersburg]],{{cn|date=July 2026}} [[Vladivostok International Airport|Vladivostok]],{{cn|date=July 2026}} [[Koltsovo International Airport|Yekaterinburg]]
+<!-- -->
+| [[Air Arabia]] | '''Seasonal:''' [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air Astana]] | [[Almaty International Airport|Almaty]], [[Nursultan Nazarbayev International Airport|Astana]]
+<!-- -->
+| [[Air Changan]] | [[Xi'an Xianyang International Airport|Xi'an]]
+<!-- -->
+| [[Air China]] | [[Beijing–Capital]], [[Chengdu–Tianfu]], [[Hangzhou Xiaoshan International Airport|Hangzhou]]
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air India]] | [[Indira Gandhi International Airport|Delhi]]
+<!-- -->
+| [[Air India Express]] | [[Rajiv Gandhi International Airport|Hyderabad]]
+<!-- -->
+| [[AirAsia]] | [[Penang International Airport|Penang]]
+<!-- -->
+| [[Akasa Air]] | [[Kempegowda International Airport|Bengaluru]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]{{cn|date=July 2026}}
+<!-- -->
+| [[arkia]] | '''Seasonal:''' [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Asiana Airlines]] | [[Incheon International Airport|Seoul–Incheon]]{{cn|date=July 2026}}
+<!-- -->
+| [[Azur Air]] | '''Seasonal charter:''' [[Barnaul Airport|Barnaul]], [[Kadala Airport|Chita]], [[International Airport Irkutsk|Irkutsk]],{{cn|date=July 2026}} [[Mineralnye Vody Airport|Mineralnye Vody]], [[Spichenkovo Airport|Novokuznetsk]], [[Omsk Tsentralny Airport|Omsk]],{{cn|date=July 2026}} [[Bolshoye Savino Airport|Perm]], [[Adler-Sochi International Airport|Sochi]], [[Surgut International Airport|Surgut]], [[Tomsk Kamov Airport|Tomsk]],{{cn|date=July 2026}} [[Ufa International Airport|Ufa]]
+<!-- -->
+| [[Bangkok Airways]] | [[Bangkok–Suvarnabhumi]], [[Chiang Mai International Airport|Chiang Mai]], [[Hat Yai International Airport|Hat Yai]], [[Samui Airport|Koh Samui]], [[U-Tapao International Airport|Pattaya]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Kuala Lumpur–International]]{{cn|date=July 2026}}
+<!-- -->
+| [[Belavia]] | '''Seasonal charter:''' [[Minsk National Airport|Minsk]] (resumes 2026-10-21)
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Centrum Air]] | [[Islam Karimov Tashkent International Airport|Tashkent]]{{cn|date=July 2026}}
+<!-- -->
+| [[China Eastern Airlines]] | [[Chengdu–Tianfu]],{{cn|date=July 2026}} [[Kunming Changshui International Airport|Kunming]],{{cn|date=July 2026}} [[Nanjing Lukou International Airport|Nanjing]],{{cn|date=July 2026}} [[Xi'an Xianyang International Airport|Xi'an]]{{cn|date=July 2026}}
+<!-- -->
+| [[China Southern Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]]{{cn|date=July 2026}}
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]]{{cn|date=July 2026}}
+<!-- -->
+| [[Edelweiss Air]] | '''Seasonal:''' [[Zurich Airport|Zurich]]
+<!-- -->
+| [[El Al]] | [[Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+| [[EZY Airlines]] | [[Hua Hin Airport|Hua Hin]]
+<!-- -->
+| [[Firefly (airline)|Firefly]] | [[Penang International Airport|Penang]]{{cn|date=July 2026}}
+<!-- -->
+| [[GullivAir]] | '''Seasonal charter:''' [[Sofia International Airport|Sofia]]
+<!-- -->
+| [[HK Express]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[IndiGo]] | [[Kempegowda International Airport|Bengaluru]], [[Indira Gandhi International Airport|Delhi]], [[Netaji Subhas Chandra Bose International Airport|Kolkata]],{{cn|date=July 2026}} [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]{{cn|date=July 2026}}
+<!-- -->
+| [[Indonesia AirAsia]] | [[Ngurah Rai International Airport|Denpasar]]{{cn|date=July 2026}}
+<!-- -->
+| [[Jetstar]] | [[Perth Airport|Perth]]{{cn|date=July 2026}}
+<!-- -->
+| [[Juneyao Air]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]{{cn|date=July 2026}}
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Kunming Airlines]] | [[Kunming Changshui International Airport|Kunming]]{{cn|date=July 2026}}
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal charter:''' [[Warsaw–Chopin]]
+<!-- -->
+| [[Mahan Air]] | [[Tehran–Imam Khomeini]]{{better|independent source needed|date=April 2025}}
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur–International]]
+<!-- -->
+| [[MIAT Mongolian Airlines]] | '''Seasonal:''' [[Chinggis Khaan International Airport|Ulaanbaatar]]{{cn|date=July 2026}}
+<!-- -->
+| {{nowrap|[[Myanmar Airways International]]}} | [[Yangon International Airport|Yangon]]{{cn|date=July 2026}}
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal charter:''' [[Bratislava Airport|Bratislava]], [[Brno-Tuřany Airport|Brno]],{{cn|date=July 2026}} [[Leoš Janáček Airport Ostrava|Ostrava]]{{cn|date=July 2026}}
+<!-- -->
+| [[Nok Air]] | [[Bangkok–Don Mueang]]
+<!-- -->
+| [[Nordwind Airlines]] | [[Chelyabinsk Airport|Chelyabinsk]],{{cn|date=July 2026}} [[International Airport Irkutsk|Irkutsk]],{{cn|date=July 2026}} [[Khabarovsk Novy Airport|Khabarovsk]],{{cn|date=July 2026}} [[Moscow–Sheremetyevo]],{{cn|date=July 2026}} [[Strigino International Airport|Nizhny Novgorod]],{{cn|date=July 2026}} [[Pulkovo Airport|St. Petersburg]],{{cn|date=July 2026}} [[Ufa International Airport|Ufa]]
+<!-- -->
+| [[Norse Atlantic Airways]] | '''Seasonal:''' [[Oslo Airport, Gardermoen|Oslo]],{{cn|date=July 2026}} [[Stockholm–Arlanda]]{{cn|date=July 2026}}
+<!-- -->
+| [[Oman Air]] | [[Muscat International Airport|Muscat]]{{cn|date=July 2026}}
+<!-- -->
+| [[Qanot Sharq]] | '''Seasonal:''' [[Tashkent International Airport|Tashkent]]{{cn|date=July 2026}}
+<!-- -->
+| [[S7 Airlines]] | '''Seasonal:''' [[International Airport Irkutsk|Irkutsk]],{{cn|date=July 2026}} [[Tolmachevo Airport|Novosibirsk]] (resumes 2026-10-26)
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]{{cn|date=July 2026}}
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]],{{cn|date=July 2026}} [[King Khalid International Airport|Riyadh]]{{cn|date=July 2026}}
+<!--+-->
+| [[Scandinavian Airlines]] | '''Seasonal:''' [[Copenhagen Airport|Copenhagen]] (begins 8 December 2026)
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Shanghai Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]{{cn|date=July 2026}}
+<!-- -->
+| [[Shenzhen Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]{{cn|date=July 2026}}
+<!-- -->
+| [[Shirak Avia]] |  [[Zvartnots International Airport|Yerevan]] (begins 14 November 2026)
+<!-- -->
+| [[Sichuan Airlines]] | [[Chengdu–Tianfu]],{{cn|date=July 2026}} [[Chongqing Jiangbei International Airport|Chongqing]]{{cn|date=July 2026}}
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Spring Airlines]] | [[Chengdu–Tianfu]], [[Guangzhou Baiyun International Airport|Guangzhou]],{{cn|date=July 2026}} [[Shanghai Pudong International Airport|Shanghai–Pudong]]{{cn|date=July 2026}}
+<!-- -->
+| [[Sunclass Airlines]] | '''Seasonal charter:''' [[Göteborg Landvetter Airport|Gothenburg]],{{cn|date=July 2026}} [[Stockholm–Arlanda]]{{cn|date=July 2026}}
+<!-- -->
+| [[Sunday Airlines]] | '''Seasonal charter:''' [[Almaty International Airport|Almaty]],{{cn|date=July 2026}} [[Manas International Airport|Bishkek]]{{cn|date=July 2026}}
+<!-- -->
+| [[Thai AirAsia]] | [[Bangkok–Don Mueang]], [[Bangkok–Suvarnabhumi]], [[Chennai International Airport|Chennai]], [[Chiang Mai International Airport|Chiang Mai]], [[Khon Kaen Airport|Khon Kaen]], [[Cochin International Airport|Kochi]], [[Siem Reap–Angkor International Airport|Siem Reap]]{{cn|date=July 2026}}
+<!-- -->
+| [[Thai Airways International]] | [[Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Thai Lion Air]] | [[Bangkok–Don Mueang]], [[Changi Airport|Singapore]] <br/> '''Charter:''' [[Taichung International Airport|Taichung]]{{cn|date=July 2026}}
+<!-- -->
+| [[Thai VietJet Air]] | [[Bangkok–Suvarnabhumi]], [[Chiang Rai International Airport|Chiang Rai]],{{cn|date=July 2026}} [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Taipei–Taoyuan]]
+<!-- -->
+| [[TransNusa]] | [[Ngurah Rai International Airport|Denpasar]] (begins 9 September 2026){{bsn|date=July 2026}}
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[London–Gatwick]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Uzbekistan Airways]] | [[Islam Karimov Tashkent International Airport|Tashkent]]{{cn|date=July 2026}}
+<!-- -->
+| [[VietJet Air]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Vietnam Airlines]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Virgin Atlantic]] | '''Seasonal:''' [[London–Heathrow]] (begins 19 October 2026)
+}}

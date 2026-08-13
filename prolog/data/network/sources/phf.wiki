@@ -1,0 +1,13 @@
+==Airline and destination==
+[[File:Newport News-Williamsburg International Airport - aerial view.jpg|thumb|Aerial view]]
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable = yes
+<!--DO NOT ADD TERMINAL/CONCOURSE INFORMATION TO THIS TABLE AS IT VIOLATES [[WP:NOTTRAVEL]], SOURCES ADDED PER DISCUSSION AT [[Wikipedia_talk:WikiProject_Airports#Proposal_to_Change_Template_Discussion]], PLEASE EXPRESS CONCERNS YOU MAY HAVE AT THIS DISCUSSION, NOT BY CHANGING THIS TABLE!!!-->
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]] | 
+<!-- -->
+}}
+
+[[American Eagle (airline brand)|American Eagle]] service at the airport is currently operated with [[Canadair CRJ-700]] and [[Embraer ERJ-145]] regional jets on behalf of [[American Airlines]] via a [[code sharing]] agreement.

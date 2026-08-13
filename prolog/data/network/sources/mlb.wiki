@@ -1,0 +1,50 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Allegiant Air]]}} |  [[Lehigh Valley International Airport|Allentown]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Pittsburgh International Airport|Pittsburgh]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]]
+<!-- -->
+| {{nowrap|[[Delta Air Lines]]}} | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Delta Connection]] | '''Seasonal:''' [[LaGuardia Airport|New York–LaGuardia]] (begins December 19, 2026)
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis-St.Paul International Airport|Minneapolis/St. Paul]] (resumes January 22, 2027)
+<!-- -->
+| {{nowrap|[[TUI Airways]]}} | '''Seasonal:''' [[Belfast International Airport|Belfast–International]], [[Glasgow Airport|Glasgow]], [[Gatwick Airport|London–Gatwick]], [[Manchester Airport|Manchester (UK)]], [[Newcastle International Airport|Newcastle upon Tyne]]
+}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Domestic destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Destinations from Orlando Melbourne International Airport <br />{{font color | blue | Blue }} = Future destination <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | pink | Pink }} = Destination being terminated
+|places=
+{{Location map~ |United_States |lat=28.1013 |long=-80.6451 |position=right |label=<div style="position:relative; top:-5px;"><small>'''Melbourne/Orlando'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |United_States |lat=33.636667 |long=-84.428056 |position=right |label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=35.1250 |long=-80.5635 |position=left |label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg  |United_States |lat=39.0489 |long=-84.6678 |position=right |label='''<small>[[Cincinnati/Northern Kentucky International Airport|Cincinnati]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ | mark = Red pog.svg  |United_States |lat=40.4921|long=-80.2348 |position=left |label='''<small>[[Pittsburgh International Airport|Pittsburgh]]</small>'''|label_size=90 |marksize=7}}
+{{Location map~ |mark = Red pog.svg|United_States |lat=40.652333|long=-75.440472|position=left|label='''<small>[[Lehigh Valley International Airport|Allentown]]</small>'''|label_size=90 |marksize=7 }}
+{{{Location map~ |mark = Blue pog.svg|United_States |lat=44.881944|long=-93.221667|position=left|label='''<small>[[Minneapolis-St.Paul International Airport|Minneapolis/St.Paul]]</small>'''|label_size=90 |marksize=7 }}
+{{{Location map~ |mark = Blue pog.svg|United_States |lat=40.775|long=-73.875|position=right|label='''<small>[[LaGuardia Airport|New York–LaGuardia]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! International destinations map
+|-
+|{{Location map+ | North Atlantic |width=1000 |float=center
+|caption=Destinations from Orlando Melbourne International Airport <br />{{font color | blue | Blue }} = Future destination <br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | pink | Pink }} = Destination being terminated
+|places=
+{{Location map~ | North Atlantic |lat=28.1013|long=-80.6451|position=left|label='''<small>Melbourne/Orlando</small>'''|caption=|mark=Airplane silhouette.svg|marksize=15 }}
+{{Location map~ | North Atlantic |mark=Green pog.svg|lat=55.8691|long=-4.4351|position=left|label='''<small>[[Glasgow Airport|Glasgow]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | North Atlantic |mark=Green pog.svg|lat=51.1537|long=-0.1821|position=right|label='''<small>{{nowrap|[[Gatwick Airport|London-Gatwick]]}}</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | North Atlantic |mark=Green pog.svg|lat=53.3588|long=-2.2727|position=right|label='''<small>[[Manchester Airport|Manchester]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | North Atlantic |mark=Green pog.svg|lat=55.0373|long=-1.7099|position=right|label='''<small>[[Newcastle International Airport|Newcastle]]</small>''' |label_size=100 |marksize=7 }}
+{{Location map~ | North Atlantic |mark=Green pog.svg|lat=54.6575|long=-6.215833|position=left|label='''<small>{{nowrap|[[Belfast International Airport|Belfast-International]]}}</small>''' |label_size=100 |marksize=7 }}
+}}
+|}

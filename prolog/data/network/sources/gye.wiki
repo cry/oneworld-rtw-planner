@@ -1,0 +1,36 @@
+==Airlines and destinations==
+===Passenger===
+[[File:29. Aeropuerto de Guayaquil (4).JPG|thumb|right|Arrivals area]]
+[[File:KLM Boeing 777-200ER PH-BQO at Guayaquil.jpg|thumb|right|A [[KLM]] Boeing 777-200ER at Guayaquil]]
+[[File:Aeropuerto de Guayaquil Ecuador 1748.jpg|thumb|Terminal entrance and gardens]]
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+|[[Air Europa]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[American Airlines]] | [[Miami International Airport|Miami]]
+<!-- -->
+|[[Arajet]] | [[Punta Cana International Airport|Punta Cana]]
+<!-- -->
+|[[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+|[[Avianca Costa Rica]] | [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Juan Santamaría International Airport|San José (CR)]]
+<!-- -->
+|[[Avianca Ecuador]] | [[Seymour Airport|Baltra]], [[El Dorado International Airport|Bogotá]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[José María Córdova International Airport|Medellín–JMC]], [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]], [[Mariscal Sucre International Airport|Quito]], [[San Cristóbal Airport|San Cristóbal]]
+<!-- -->
+|{{nowrap|[[Avianca El Salvador]]}} | [[El Salvador International Airport|San Salvador]]
+<!-- -->
+|[[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+|[[JetBlue]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+|[[JetSmart Perú]] | [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+|[[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+|[[LATAM Ecuador]] | [[Seymour Airport|Baltra]], [[Ministro Pistarini International Airport|Buenos Aires–Ezeiza]], [[Mariscal Lamar International Airport|Cuenca]], [[Jorge Chavez International Airport|Lima]], [[John F. Kennedy International Airport|New York–JFK]], [[Mariscal Sucre International Airport|Quito]], [[San Cristóbal Airport|San Cristóbal]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|[[LATAM Perú]] | [[Jorge Chavez International Airport|Lima]]
+}}

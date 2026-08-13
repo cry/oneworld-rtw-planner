@@ -1,0 +1,63 @@
+== Airlines and destinations ==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+The following airlines operate regular scheduled and charter flights at the airport.
+
+{{Airport-dest-list
+<!-- -->
+|[[Aeroméxico]]|[[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+|[[Air Canada]]|'''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+|[[Air Transat]]|[[Montréal-Pierre Elliott Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+|[[American Airlines]]|[[Miami International Airport|Miami]]
+<!-- -->
+|[[Arajet]]|[[Punta Cana International Airport|Punta Cana]], [[Las Américas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+|[[Avianca]]|[[El Dorado International Airport|Bogotá]], [[Palonegro International Airport|Bucaramanga]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[José María Córdova International Airport|Medellín–JMC]], [[Matecaña International Airport|Pereira]] <br />'''Seasonal:''' [[Miami International Airport|Miami]],{{cn|date=February 2025}} [[John F. Kennedy International Airport|New York–JFK]],{{cn|date=February 2025}} [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+|{{nowrap|[[Avianca Costa Rica]]}}|[[Juan Santamaría International Airport|San José (CR)]]
+<!-- -->
+|[[Copa Airlines]]|[[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+|[[Delta Air Lines]]|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+|[[Edelweiss Air]]|'''Seasonal:''' [[Zurich Airport|Zurich]]{{Ref|1|1}}
+<!-- -->
+|[[JetBlue]]| [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]] , [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+|[[JetSmart|JetSmart Colombia]] |[[El Dorado International Airport|Bogotá]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Camilo Daza International Airport|Cúcuta]], [[José María Córdova International Airport|Medellín–JMC]], [[Matecaña International Airport|Pereira]]
+|[[JetSmart Perú]]|[[Jorge Chávez International Airport|Lima]]
+<!-- -->
+|[[KLM]]|[[Amsterdam Airport Schiphol|Amsterdam]]{{Ref|2|2}}
+<!-- -->
+|[[LASER Airlines]]|[[Juan Pablo Pérez Alfonzo Airport|El Vigía]], [[La Chinita International Airport|Maracaibo]], [[Santiago Mariño Caribbean International Airport|Porlamar]]
+<!-- -->
+|[[LATAM Colombia]]|[[El Dorado International Airport|Bogotá]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]]
+<!-- -->
+|[[LATAM Perú]]|[[Jorge Chávez International Airport|Lima]]
+<!-- -->
+|[[Neos (airline)|Neos]]|'''Seasonal:''' [[Milan Malpensa Airport|Milan–Malpensa]]
+<!-- -->
+|[[United Airlines]]|[[George Bush Intercontinental Airport|Houston–Intercontinental]] (begins 17 December 2026),{{cn|date=July 2026}} [[Dulles International Airport|Washington–Dulles]] (begins 17 December 2026),{{cn|date=July 2026}}
+|[[Viva (airline)|Viva]] | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+|[[Wingo (airline)|Wingo]]|[[El Dorado International Airport|Bogota]], [[Alfonso Bonilla Aragón International Airport|Cali]], [[Palonegro International Airport|Bucaramanga]],, [[José María Córdova International Airport|Medellín–JMC]], [[Panamá Pacífico International Airport|Panama City–Balboa]], [[Gustavo Rojas Pinilla International Airport|San Andrés Island]]
+<!-- -->
+|[[World2Fly]]|[[Madrid–Barajas Airport|Madrid]] (begins 3 July 2026)
+}}
+
+===Cargo===
+{| class="wikitable"
+|-
+!Airlines
+!Destinations
+|-
+|[[AerCaribe]]
+|[[El Dorado International Airport|Bogotá]] 
+|}
+
+'''Note:'''
+*{{small|{{Ref|1|1}}: [[Edelweiss Air]]'s flight is from Bogotá to Zurich via Cartagena. However, the airline does not have traffic rights to transport passengers solely between Bogotá and Cartagena.}}
+*{{small|{{Ref|2|2}}: [[KLM]]'s flight is from Bogotá to Amsterdam via Cartagena. However, the airline does not have traffic rights to transport passengers solely between Bogotá and Cartagena.}}

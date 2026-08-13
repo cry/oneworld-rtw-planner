@@ -1,0 +1,49 @@
+==Airlines and destinations==
+=== Passenger===
+{{Airport-dest-list
+|[[Aeroméxico]]| [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+|{{nowrap|[[Aeroméxico Connect]]}}| [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+|[[Aerus (airline)|Aerus]]| [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]]
+<!-- -->
+|[[American Airlines]] | [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+|[[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+|[[United Express]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+|[[Viva (airline)|Viva]] | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]]
+<!-- -->
+|[[Volaris]]| [[Cancún International Airport|Cancún]], [[Midway International Airport|Chicago–Midway]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Guadalajara International Airport|Guadalajara]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Monterrey International Airport|Monterrey]], [[Puebla International Airport|Puebla]] (ends August 29, 2026), [[Licenciado Gustavo Díaz Ordaz International Airport|Puerto Vallarta]], [[Querétaro Intercontinental Airport|Queretaro]], [[San Antonio International Airport|San Antonio]], [[Tijuana International Airport|Tijuana]]}}
+
+[[File:Aeropuerto de San Luis Potosí.jpg|thumb|Passenger terminal airside]]
+[[File:Zona de mostradores del Aeropuerto de San Luis Potosí.jpg|thumb|Check-in area]]
+[[File:Sala de última espera..jpg|thumb|Terminal concourse]]
+[[File:JPEG 20190822 210831 4672976039961778425.jpg|thumb|Arrivals hall]]
+[[File:Embraer ERJ-190 de Aeroméxico Connect, aeropuerto de SLP.jpg|thumb|Aeromexico Connect Embraer E190 at SLP]]
+[[File:CRJ-900.jpg|thumb|American Eagle CRJ-900 at SLP]]
+
+=== Destinations map ===
+{| class="wikitable collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=right
+|caption=Domestic destinations from San Luis Potosí International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination
+|places=
+{{Location map~ | Mexico|lat=22.25444|long=-100.930833 |position=top|label=<div style="position:relative; top:8px;">'''<small>San Luis Potosí</small>'''</div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.4361 |long=-99.0719|position=bottom|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=21.0417 |long=-86.8740|position=left|label='''[[Cancún International Airport|{{nowrap|Cancún}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.7778 |long=-100.1080|position=left|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.7566 |long=-99.0152|position=left|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City/AIFA}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.5260 |long=-103.3076|position=top|label='''[[Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=19.1638 |long=-98.3761|position=right|label='''[[Puebla International Airport|{{nowrap|Puebla}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |lat=20.6805 |long=-105.2524|position=left|label='''[[Licenciado Gustavo Díaz Ordaz International Airport|{{nowrap|Puerto Vallarta}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|United_States|width=650|float=center|caption=International destinations from San Luis Potosí International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal/charter destination|places=
+{{Location map~ |United_States |lat=32.8998|long=-97.0403|position=top|label='''[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United_States |lat=29.9902|long=-95.3368|position=right|label='''[[George Bush Intercontinental Airport|Houston–Intercontinental]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |United States |lat=29.526667|long=-98.471944|position=bottom|label='''[[San Antonio International Airport|{{nowrap|San Antonio}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = blue pog.svg|United States |lat=41.786111|long=-87.7525|position=bottom|label='''[[Midway International Airport|{{nowrap|Chicago–Midway}}]]'''|label_size=90 |marksize=7 }}
+}}
+|}

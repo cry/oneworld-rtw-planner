@@ -1,0 +1,59 @@
+== Airlines and destinations ==
+The following airlines operate regular scheduled and charter flights at Mauritius Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+=== Passenger ===
+{{Airport destination list
+<!-- -->
+| [[Aeroflot]] | [[Sheremetyevo International Airport|Moscow–Sheremetyevo]]
+<!-- -->
+| [[Air Austral]] | [[Roland Garros Airport|Saint-Denis de la Réunion]]<br>'''Seasonal:''' [[Pierrefonds Airport|Saint-Pierre de la Réunion]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air India]] | [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]
+<!-- -->
+| [[Air Mauritius]] | [[Antananarivo Airport|Antananarivo]], [[Cape Town International Airport|Cape Town]], [[Chennai International Airport|Chennai]], [[Indira Gandhi International Airport|Delhi]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Gatwick Airport|London–Gatwick]], [[Chhatrapati Shivaji International Airport|Mumbai]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Perth Airport|Perth]], [[Sir Gaëtan Duval Airport|Rodrigues]], [[Roland Garros Airport|Saint-Denis de la Réunion]]<br>'''Seasonal:''' [[Geneva Airport|Geneva]]
+<!-- -->
+| [[Air Seychelles]] | [[Seychelles International Airport|Mahé]]
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna Airport|Vienna]]
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]]
+<!-- -->
+| [[Bulgaria Air]] | '''Seasonal charter:''' [[Sofia Airport|Sofia]]
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]]<!-- CHECK THAT CONDOR AS A GERMAN AIRLINE HAVE TRAFFIC RIGHTS BEFORE ADDING MAURITIUS AS A DESTINATION -->
+<!-- -->
+| [[Corsair International]] | [[Lyon–Saint-Exupéry Airport|Lyon]], [[Marseille Provence Airport|Marseille]], [[Orly Airport|Paris–Orly]]
+<!-- -->
+| [[Discover Airlines]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Edelweiss Air]] | [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | '''Seasonal:''' [[Addis Ababa Bole International Airport|Addis Ababa]]  
+<!-- -->
+| [[FlySafair]] | [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[Iberojet (airline)|Iberojet]] | '''Seasonal:''' [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[IndiGo]] | [[Kempegowda International Airport|Bengaluru]]
+<!-- -->
+| [[ITA Airways]] | '''Seasonal:''' [[Leonardo da Vinci-Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[Kenya Airways]] | [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]]
+<!-- -->
+| [[LOT Polish Airlines]] | '''Seasonal charter:''' [[Warsaw Chopin Airport|Warsaw–Chopin]]
+<!-- -->
+| [[Neos (airline)|Neos]] | '''Seasonal:''' [[Milan Malpensa Airport|Milan–Malpensa]], [[Leonardo da Vinci-Fiumicino Airport|Rome–Fiumicino]]<br>'''Seasonal charter:''' [[Bratislava Airport|Bratislava]], [[Brno-Tuřany Airport|Brno]], [[Leoš Janáček Airport Ostrava|Ostrava]]
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]] <br>'''Seasonal charter:''' [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| {{nowrap|[[South African Airways]]}} | [[Cape Town International Airport|Cape Town]],  [[O. R. Tambo International Airport|Johannesburg—O. R. Tambo]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[World2Fly]] | '''Seasonal:''' [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+}}

@@ -1,0 +1,16 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at San Sebastián Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+|[[Binter Canarias]]| [[Gran Canaria Airport|Gran Canaria]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]{{cn|date=January 2026}}
+<!-- -->
+|[[British Airways]]| '''Seasonal:''' [[Edinburgh Airport|Edinburgh]],{{bsn|date=January 2026}} [[Glasgow Airport|Glasgow]],{{bsn|date=January 2026}} [[London City Airport|London–City]]
+<!-- -->
+|[[Iberia (airline)|Iberia]]| [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]{{cn|date=January 2026}}
+<!-- -->
+|[[Volotea]]| [[Florence Airport | Florence]] (begins 21 September 2026), [[Seville Airport|Seville]] <br/> '''Seasonal:''' [[Málaga Airport|Málaga]], [[Menorca Airport|Menorca]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+|[[Vueling]]| [[Barcelona–El Prat Airport|Barcelona]]{{cn|date=January 2026}}
+<!-- -->
+}}

@@ -1,0 +1,81 @@
+== Airlines and destinations ==
+=== Passenger ===<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport destination list
+| [[Aerolíneas Argentinas]] | [[Cancún International Airport|Cancún]], [[Comandante Armando Tola International Airport|El Calafate]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Governor Francisco Gabrielli International Airport|Mendoza]], [[Miami International Airport|Miami]], [[Cataratas del Iguazú International Airport|Puerto Iguazu]], [[Punta Cana International Airport|Punta Cana]],  [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Gobernador Horacio Guzmán International Airport|San Salvador de Jujuy]], [[Ushuaia – Malvinas Argentinas International Airport|Ushuaia]]<br>'''Seasonal:''' [[Queen Beatrix International Airport|Aruba]], [[Rio de Janeiro-Galeão International Airport|Rio de Janeiro–Galeão]], [[San Carlos de Bariloche Airport|San Carlos de Bariloche]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Teniente General Benjamín Matienzo International Airport|Tucumán]]
+<!-- -->
+| [[Aeroméxico]] | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Air Canada]] | [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Air Europa]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Air France]] | [[Charles de Gaulle Airport|Paris–Charles de Gaulle]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]]<br>'''Seasonal:''' [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]{{citation needed|date=May 2025}}
+<!-- -->
+| [[Arajet]] | [[Punta Cana International Airport|Punta Cana]], [[Las Américas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]], [[José María Córdova International Airport|Medellín–JMC]]
+<!-- -->
+| [[Avianca Costa Rica]] | [[José Joaquín de Olmedo International Airport|Guayaquil]], [[Mariscal Sucre International Airport|Quito]], [[Juan Santamaría International Airport|San José (CR)]]
+<!-- -->
+| [[Avianca Ecuador]] | [[El Dorado International Airport|Bogotá]], [[José Joaquín de Olmedo International Airport|Guayaquil]], [[Mariscal Sucre International Airport|Quito]]
+<!-- -->
+| [[Boliviana de Aviación]] | [[Jorge Wilstermann International Airport|Cochabamba]], [[Viru Viru International Airport|Santa Cruz de la Sierra–Viru Viru]]
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Auckland Airport|Auckland]], [[Shanghai Pudong International Airport|Shanghai–Pudong]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]<br>'''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]]{{citation needed|date=May 2025}}
+<!-- -->
+| [[El Al]] | [[Ben Gurion Airport|Tel Aviv]] (begins 29 November 2026)
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]], [[Rio de Janeiro-Galeão International Airport|Rio de Janeiro–Galeão]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa International Airport|Addis Ababa]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+| [[Flybondi]] | [[General Enrique Mosconi International Airport|Comodoro Rivadavia]], [[Comandante Armando Tola International Airport|El Calafate]], [[Teniente Amin Ayub Gonzalez Airport|Encarnación]], [[Hercílio Luz International Airport|Florianópolis]], [[Rio de Janeiro-Galeão International Airport|Rio de Janeiro–Galeão]], [[Piloto Civil Norberto Fernández International Airport|Rio Gallegos]], [[San Carlos de Bariloche Airport|San Carlos de Bariloche]], [[Gobernador Horacio Guzmán International Airport|San Salvador de Jujuy]], [[Ushuaia – Malvinas Argentinas International Airport|Ushuaia]]<br>'''Seasonal:''' [[Zumbi dos Palmares International Airport|Maceió]], [[Salvador Bahia Airport|Salvador da Bahia]]
+<!-- -->
+| [[Gol Linhas Aéreas]] | [[Brasília International Airport|Brasília]], [[Presidente Castro Pinto International Airport|João Pessoa]], [[Zumbi dos Palmares International Airport|Maceió]], [[Greater Natal International Airport|Natal]], [[Rio de Janeiro-Galeão International Airport|Rio de Janeiro–Galeão]], [[Salvador Bahia Airport|Salvador da Bahia]]<br>'''Seasonal:''' [[Belo Horizonte International Airport|Belo Horizonte–Confins]],{{cn|date=June 2026}} [[Fortaleza Airport|Fortaleza]],{{cn|date=June 2026}} [[Porto Seguro Airport|Porto Seguro]],{{cn|date=June 2026}} [[Recife/Guararapes–Gilberto Freyre International Airport|Recife]]{{cn|date=June 2026}}
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[ITA Airways]] | [[Rome Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[JetSmart Argentina]] | [[Comandante Armando Tola International Airport|El Calafate]], [[Hercílio Luz International Airport|Florianópolis]], [[Jorge Chávez International Airport|Lima]], [[Governor Francisco Gabrielli International Airport|Mendoza]], [[Greater Natal International Airport|Natal]], [[Cataratas del Iguazú International Airport|Puerto Iguazú]], [[Recife/Guararapes–Gilberto Freyre International Airport|Recife]], [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[Martín Miguel de Güemes International Airport|Salta]], [[San Carlos de Bariloche Airport|San Carlos de Bariloche]], [[Arturo Merino Benítez International Airport|Santiago de Chile]], [[Teniente General Benjamín Matienzo International Airport|Tucumán]], [[Ushuaia – Malvinas Argentinas International Airport|Ushuaia]]
+<!-- -->
+| [[JetSmart|JetSmart Chile]] | [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[LATAM Airlines Brasil|LATAM Brasil]] | [[Rio de Janeiro/Galeão International Airport|Rio de Janeiro–Galeão]], [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]]<br> '''Seasonal:''' [[Zumbi dos Palmares International Airport|Maceió]] (begins 15 December 2026), [[Greater Natal International Airport|Natal]] (begins 15 December 2026), [[Recife/Guararapes International Airport|Recife]]
+<!-- -->
+| [[LATAM Chile]] | [[Hercílio Luz International Airport|Florianópolis]], [[Miami International Airport|Miami]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[LATAM Ecuador]] | [[José Joaquín de Olmedo International Airport|Guayaquil]], [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+| [[LATAM Perú]] | [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Plus Ultra Líneas Aéreas]] | [[Madrid–Barajas Airport|Madrid]]
+| [[Sky Airline]] | [[Salvador Bahia Airport|Salvador da Bahia]], [[Arturo Merino Benítez International Airport|Santiago de Chile]]
+<!-- -->
+| [[Sky Airline Peru]] | [[Jorge Chávez International Airport|Lima]]
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]], [[Zurich Airport|Zurich]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]], [[São Paulo–Guarulhos International Airport|São Paulo–Guarulhos]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]]
+}}
+
+===Route development===
+[[Qantas]] withdrew its service to the airport in favour of [[Santiago]] in March 2012; flights to Ezeiza Airport had begun in November 2008. This followed [[Malaysia Airlines]]' termination of its [[Boeing 747]]-served [[Kuala Lumpur]]–[[Cape Town]]–Buenos Aires route in early 2012 to cut costs. [[Aerolíneas Argentinas]] discontinued the [[Auckland]] stopover on the Buenos Aires–Sydney run in July 2012; [[Sydney]] was removed from the airline's network in April 2014. [[South African Airways]] discontinued its [[Johannesburg]]–Buenos Aires service in March 2014.
+
+In {{start date|df=yes|2010|6}}, [[Qatar Airways]] launched direct flights between the airport and [[Doha]], but in August 2020 cancelled the route. After a ten-year gap, KLM resumed operations at the airport in October 2011. [[Emirates (airline)|Emirates]] launched services to the airport in {{start date|df=yes|2012|1}}, but in August 2020 discontinued the route. [[Turkish Airlines]] extended its [[Istanbul]]–[[São Paulo]] service to end at Ezeiza in December 2012. [[Air New Zealand]] started non-stop flights between the airport and [[Auckland]] in December 2015, but discontinued them in 2020. [[United Airlines]] cancelled non-stop flights from [[Newark, New Jersey]], in October 2019.
+
+In January 2018, [[Aerolineas Argentinas]] cancelled the non-stop flight to [[Barcelona]]. Later, [[low-cost carrier]]s [[Level (airline)|LEVEL]] and [[Norwegian Air Shuttle|Norwegian]] started long-haul flights to Ezeiza airport from [[Barcelona–El Prat Airport|Barcelona]] and [[Gatwick Airport|London-Gatwick]], respectively. The Norwegian carrier discontinued the route in April 2020. [[Ethiopian Airlines]] and Swiss carrier [[Edelweiss Air]] launched new flights to Buenos Aires.{{when|date=May 2020}} [[Aerolíneas Argentinas]] started flights to [[Orlando, Florida|Orlando]] in December 2019, but in March 2020 the route was discontinued.{{citation needed|date=May 2020}} [[LATAM Argentina]] ended its operations in June 2020 and discontinued routes to [[Miami]] and [[Brazil]]. In July 2020, [[American Airlines]] discontinued its [[Los Angeles]] route.

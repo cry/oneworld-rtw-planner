@@ -1,0 +1,12 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Chambéry Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID independent SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[British Airways]]}} | '''Seasonal:''' [[London City Airport|London–City]], [[Gatwick Airport|London–Gatwick]], [[London Stansted Airport|London–Stansted]]
+<!-- -->
+| [[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]], [[Bristol Airport|Bristol]], [[Edinburgh Airport|Edinburgh]], [[Leeds Bradford Airport|Leeds/Bradford]], [[London Gatwick Airport|London–Gatwick]] (begins 21 December 2026), [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]], [[Newcastle International Airport|Newcastle upon Tyne]]
+<!-- -->
+| [[TUI Airways]] | '''Seasonal:''' [[Cardiff Airport|Cardiff]], [[Edinburgh Airport|Edinburgh]], [[Exeter Airport|Exeter]], [[London Stansted Airport|London–Stansted]], [[Manchester Airport|Manchester]]
+<!-- -->
+}}

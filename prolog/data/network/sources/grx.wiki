@@ -1,0 +1,18 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Granada Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+|[[Air Europa]] | [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| {{nowrap|[[Binter Canarias]]}} | [[Gran Canaria Airport|Gran Canaria]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Madrid-Barajas Airport|Madrid]], [[Melilla Airport|Melilla]]
+<!-- -->
+|[[Transavia]] | [[Amsterdam Airport|Amsterdam]]
+<!-- -->
+|[[Volotea]] | [[Asturias Airport|Asturias]], [[Porto Airport|Porto]] (begins 3 November 2026) <br> '''Seasonal:''' [[Santander Airport|Santander]]
+<!-- -->
+|[[Vueling]] | [[Barcelona–El Prat Airport|Barcelona]], [[Bilbao Airport|Bilbao]], [[Gran Canaria Airport|Gran Canaria]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Paris Orly Airport|Paris–Orly]],[[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]
+<!-- -->
+}}

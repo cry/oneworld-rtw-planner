@@ -1,0 +1,7 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport destination list 
+| [[Allegiant Air]] | [[Austin–Bergstrom International Airport|Austin]], [[Hollywood Burbank Airport|Burbank]], [[William P. Hobby Airport|Houston–Hobby]], [[Nashville International Airport|Nashville]], [[John Wayne Airport|Orange County]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Mesa Gateway Airport|Phoenix/Mesa]], [[Portland International Airport|Portland (OR)]] <br /> '''Seasonal:''' [[Midway International Airport|Chicago–Midway]]
+|{{nowrap|[[American Eagle (airline brand)|American Eagle]]}} | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| {{nowrap|[[Breeze Airways]]}} | [[Hollywood Burbank Airport|Burbank]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Harry Reid International Airport|Las Vegas]], [[John Wayne Airport|Orange County]], [[Orlando International Airport|Orlando]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Raleigh–Durham International Airport|Raleigh/Durham]] (begins October 2, 2026), [[San Bernardino International Airport|San Bernardino]], [[San Francisco International Airport|San Francisco]], [[Dulles International Airport|Washington–Dulles]]
+}}

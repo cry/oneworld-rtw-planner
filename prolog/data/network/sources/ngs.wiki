@@ -1,0 +1,25 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[ANA Wings]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| [[J-Air]] | [[Itami Airport|Osaka–Itami]]
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Jetstar Japan]] | [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Oriental Air Bridge]] | [[Fukue Airport|Fukue]], [[Iki Airport|Iki]], [[Tsushima Airport|Tsushima]]
+<!-- -->
+| [[Peach Aviation|Peach]] | [[Kansai International Airport|Osaka–Kansai]]
+<!-- -->
+| [[Skymark Airlines]] | [[Kobe Airport|Kobe]]
+<!-- -->
+| [[Solaseed Air]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+}}

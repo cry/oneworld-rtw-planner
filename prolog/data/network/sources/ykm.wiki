@@ -1,0 +1,17 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[Alaska Airlines]] | [[Seattle–Tacoma International Airport|Seattle/Tacoma]]}}
+
+{| class="collapsible collapsed" style="border:1px #aaa solid; width:25em; margin:0.2em auto"
+|-
+! Destinations Map
+|-
+|{{Location map+ |USA Washington |width=500 |float=center
+|caption=Destinations from Yakima Air Terminal
+|places=
+{{Location map~ |USA Washington |lat=46.5703 |long=-120.5398 |position=left |label={{lower|5px|<small>'''Yakima'''</small>}}|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |USA Washington |lat=47.450165|long=-122.309176 |position=left|label='''<small>[[Seattle–Tacoma International Airport|Seattle/Tacoma]]</small>'''|label_size=90 |marksize=7 }}
+}}
+|}

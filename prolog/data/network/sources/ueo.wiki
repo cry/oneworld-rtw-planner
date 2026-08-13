@@ -1,0 +1,7 @@
+== Airlines and destinations ==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+| [[Japan Airlines]] | '''Seasonal:''' [[Haneda Airport|Tokyo–Haneda]]{{cn|date=August 2025}}
+| [[Japan Transocean Air]] | [[Naha Airport|Naha]]
+| [[Ryukyu Air Commuter]] | [[Naha Airport|Naha]]
+}}

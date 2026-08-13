@@ -1,0 +1,19 @@
+==Airlines and destinations==
+===Passenger===
+As of July 2026, the following airlines are known to operate services from the airport, including, but not limited to, the destinations listed:
+{{Airport destination list
+<!-- -->
+| [[Air Calin]] | [[La Tontouta International Airport|Nouméa]]
+<!-- -->
+| [[Air Niugini]] | [[Port Moresby International Airport|Port Moresby]]{{update needed|date=July 2026}}
+<!-- -->
+| [[Air Vanuatu]] |
+<!-- -->
+| [[Jetstar]] | [[Sydney Airport|Sydney]]{{update needed|date=July 2026}}
+<!-- -->
+| [[Qantas]] | [[Brisbane Airport|Brisbane]]{{update needed|date=July 2026}}
+<!-- -->
+| {{nowrap|[[Solomon Airlines]]}} | [[Auckland Airport|Auckland]],{{update needed|date=July 2026}} [[Christchurch Airport|Christchurch]],{{update needed|date=July 2026}}
+<!-- -->
+| [[Virgin Australia]] | [[Brisbane Airport|Brisbane]]{{update needed|date=July 2026}}
+}}

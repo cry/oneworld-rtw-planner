@@ -1,0 +1,12 @@
+== Airlines and destinations ==
+The following airlines operate regular scheduled and charter flights at Valladolid Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[Binter Canarias]]}} | [[Gran Canaria Airport|Gran Canaria]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]], [[Tenerife North Airport|Tenerife–North]]
+<!-- -->
+| [[Vueling]]  | [[Barcelona Airport|Barcelona]]
+<!-- -->
+}}

@@ -1,0 +1,113 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Air Arabia]] | [[Borg El Arab Airport|Alexandria]], [[Cairo International Airport|Cairo]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air Cairo]] | [[Sphinx International Airport|Giza]],{{cn|date=June 2026}} [[Sohag International Airport|Sohag]]{{cn|date=June 2026}} <br/> '''Seasonal:''' [[Sharm El Sheikh International Airport|Sharm El Sheikh]]{{cn|date=June 2026}}
+<!-- -->
+| [[Air China]] | [[Beijing–Capital]]{{cn|date=June 2026}}
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]{{cn|date=June 2026}}
+<!-- -->
+| [[Air India Express]] | [[Kempegowda International Airport|Bengaluru]], [[Kozhikode International Airport|Kozhikode]],{{bsn|date=June 2026}} [[Chaudhary Charan Singh International Airport|Lucknow]],{{cn|date=June 2026}} [[Thiruvananthapuram International Airport|Thiruvananthapuram]]
+<!-- -->
+| [[AirSial]] | [[Islamabad International Airport|Islamabad]],{{cn|date=June 2026}} [[Allama Iqbal International Airport|Lahore]]{{cn|date=June 2026}}
+<!-- -->
+| [[AJet]] | [[Istanbul–Sabiha Gökçen]]{{cn|date=June 2026}}
+<!-- -->
+| [[Akasa Air]] | [[Chhatrapati Shivaji International Airport|Mumbai–Shivaji]]{{cn|date=June 2026}}
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]{{cn|date=June 2026}}
+<!-- -->
+| [[Azimuth (airline)|azimuth]] | [[Sochi International Airport|Sochi]]
+<!-- -->
+| [[BeOnd]] | [[Velana International Airport|Malé]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Cebu Pacific]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]{{cn|date=June 2026}}
+<!-- -->
+| [[China Southern Airlines]] |  [[Guangzhou Baiyun International Airport|Guangzhou]],{{cn|date=June 2026}} [[Shenzhen Bao'an International Airport|Shenzhen]]{{cn|date=June 2026}}
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]] (begins 23 October 2026)
+<!-- -->
+| [[Egyptair]] | [[Borg El Arab International Airport|Alexandria]], [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+| [[Fly Jinnah]] | [[Islamabad International Airport|Islamabad]]{{cn|date=June 2026}}
+<!-- -->
+| [[Flyadeal]] | [[Arar Domestic Airport|Arar]],{{cn|date=June 2026}} [[Cairo International Airport|Cairo]], [[Damascus International Airport|Damascus]],{{cn|date=June 2026}} [[Al Maktoum International Airport|Dubai–Al Maktoum]],{{cn|date=June 2026}} [[Gurayat Domestic Airport|Gurayat]],{{cn|date=June 2026}} [[Rajiv Gandhi International Airport|Hyderabad]], [[Islamabad International Airport|Islamabad]],{{cn|date=June 2026}} [[Jinnah International Airport|Karachi]],{{cn|date=June 2026}} [[Kuwait International Airport|Kuwait City]],{{cn|date=June 2026}} [[Allama Iqbal International Airport|Lahore]],{{cn|date=June 2026}} [[Prince Mohammad Bin Abdulaziz International Airport|Medina]], [[Bacha Khan International Airport|Peshawar]],{{cn|date=June 2026}} [[Sialkot International Airport|Sialkot]],{{cn|date=June 2026}} [[Tabuk Regional Airport|Tabuk]] <br/> '''Seasonal:''' [[Antalya Airport|Antalya]],{{cn|date=June 2026}} [[Milan Bergamo Airport|Bergamo]], [[Milas–Bodrum Airport|Bodrum]],{{cn|date=June 2026}} [[Larnaca International Airport|Larnaca]], [[Václav Havel Airport Prague|Prague]], [[Sarajevo International Airport|Sarajevo]],{{cn|date=June 2026}} [[Trabzon Airport|Trabzon]]{{cn|date=June 2026}}
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Flynas]] | [[Bole International Airport|Addis Ababa]], [[Aleppo International Airport|Aleppo]], [[Arar Domestic Airport|Arar]],{{cn|date=June 2026}} [[Assiut Airport|Assiut]],{{cn|date=June 2026}} [[Beirut Rafic Hariri International Airport|Beirut]],{{cn|date=June 2026}} [[Milas-Bodrum Airport|Bodrum]],{{cn|date=June 2026}} [[Damascus International Airport|Damascus]], [[Indira Gandhi International Airport|Delhi]],{{cn|date=June 2026}} [[Hamad International Airport|Doha]], [[Al Maktoum International Airport|Dubai–Al Maktoum]],{{cn|date=June 2026}} [[Entebbe International Airport|Entebbe]],{{cn|date=June 2026}} [[Sphinx International Airport|Giza]], [[Hatay Airport|Hatay]], [[Rajiv Gandhi International Airport|Hyderabad]],{{cn|date=June 2026}} [[Calicut International Airport|Kozhikode]],{{cn|date=June 2026}} [[Chaudhary Charan Singh Airport|Lucknow]],{{cn|date=June 2026}} [[Moscow–Vnukovo]], [[Sohag International Airport|Sohag]],{{cn|date=June 2026}} [[Tashkent International Airport|Tashkent]]{{cn|date=June 2026}} <br/> '''Seasonal:''' [[Zayed International Airport|Abu Dhabi]],{{cn|date=June 2026}} [[Antalya Airport|Antalya]],{{cn|date=June 2026}} [[El Alamein International Airport|El Alamein]], [[Geneva Airport|Geneva]],{{cn|date=June 2026}} [[Hurghada International Airport|Hurghada]],{{cn|date=June 2026}} [[Istanbul Airport|Istanbul]],{{cn|date=June 2026}} [[Kraków John Paul II International Airport|Kraków]],{{cn|date=June 2026}} [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]],{{cn|date=June 2026}} [[Václav Havel Airport Prague|Prague]], [[Rize–Artvin Airport|Rize–Artvin]],{{cn|date=June 2026}} [[Rome–Fiumicino]], [[Salalah International Airport|Salalah]]{{cn|date=June 2026}}
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[IndiGo]] | [[Kempegowda International Airport|Bengaluru]], [[Rajiv Gandhi International Airport|Hyderabad]],{{cn|date=June 2026}} [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]]{{cn|date=June 2026}}
+<!-- -->
+| [[ITA Airways]] | [[Rome–Fiumicino]]
+<!-- -->
+| [[Kam Air]] | [[Kabul International Airport|Kabul]]{{cn|date=June 2026}}
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw–Chopin]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]],{{cn|date=June 2026}} [[Munich Airport|Munich]]{{cn|date=June 2026}}
+<!-- -->
+| {{nowrap|[[Pakistan International Airlines]]}} | [[Sialkot International Airport|Sialkot]]{{cn|date=June 2026}}
+<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul–Sabiha Gökçen]] <br/> '''Seasonal:''' [[Trabzon Airport|Trabzon]]{{cn|date=June 2026}}
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Riyadh Air]] | [[Cairo International Airport|Cairo]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Dubai International Airport|Dubai–International]], [[Islamabad International Airport|Islamabad]] (begins 14 August 2026), [[King Abdulaziz International Airport|Jeddah]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]], [[Allama Iqbal International Airport|Lahore]] (begins 18 August 2026), [[London–Heathrow]], [[Madrid-Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Manchester Airport|Manchester]], [[Ninoy Aquino International Airport|Manila]] (begins 9 September 2026), [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]],{{cn|date=June 2026}} [[King Hussein International Airport|Aqaba]] (begins 24 September 2026)
+<!-- -->
+| [[SalamAir]] | [[Muscat International Airport|Muscat]]{{cn|date=June 2026}}
+<!-- -->
+| [[Saudia]] | [[Abha Regional Airport|Abha]], [[Abu Dhabi International Airport|Abu Dhabi]], [[Al-Baha Domestic Airport|Al Baha]], [[Borg El Arab Airport|Alexandria]], [[Al-Jawf Domestic Airport|Al Jawf]], [[Prince Abdul Majeed bin Abdul Aziz Domestic Airport|Al Ula]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Arar Domestic Airport|Arar]], [[Athens International Airport|Athens]], [[Bahrain International Airport|Bahrain]], [[Bangkok–Suvarnabhumi]], [[Beijing Daxing International Airport|Beijing–Daxing]],{{cn|date=June 2026}} [[Bisha Domestic Airport|Bisha]], [[Cairo International Airport|Cairo]], [[Mohammed V International Airport|Casablanca]], [[King Fahd International Airport|Dammam]], [[Dawadmi Domestic Airport|Dawadmi]], [[Indira Gandhi International Airport|Delhi]], [[Hamad International Airport|Doha]],{{bsn|date=June 2026}} [[Dubai International Airport|Dubai–International]], [[Frankfurt Airport|Frankfurt]], [[Prince Nayef bin Abdulaziz Regional Airport|Gassim]], [[Geneva Airport|Geneva]], [[Gurayat Domestic Airport|Gurayat]], [[Ha'il Regional Airport|Ha'il]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[Jizan Regional Airport|Jizan]], [[Cochin International Airport|Kochi]], [[Calicut International Airport|Kozhikode]],{{cn|date=June 2026}} [[London–Heathrow]], [[Ibrahim Nasir International Airport|Male]], [[Ninoy Aquino International Airport|Manila]], [[Moscow–Sheremetyevo]],{{cn|date=June 2026}} [[Chhatrapati Shivaji Maharaj International Airport|Mumbai–Shivaji]], [[Munich Airport|Munich]], [[Najran Domestic Airport|Najran]], [[Neom Airport|Neom Bay]], [[New York–JFK]], [[Paris–Charles de Gaulle]], [[Phuket International Airport|Phuket]],{{cn|date=June 2026}} [[Al Qaisumah/Hafr Al Batin Airport|Qaisumah]], [[Rafha Domestic Airport|Rafha]], [[Red Sea International Airport|Red Sea]], [[Rome–Fiumicino]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]], [[Sharurah Domestic Airport|Sharurah]], [[Tabuk Regional Airport|Tabuk]], [[Ta’if Regional Airport|Ta'if]], [[Narita International Airport|Tokyo–Narita]] (begins {{date|2026-11-17}}), [[Turaif Domestic Airport|Turaif]], [[Wadi al-Dawasir Domestic Airport|Wadi al-Dawasir]], [[Washington–Dulles]], [[Yanbu Airport|Yanbu]], [[Zurich Airport|Zürich]] <br/> '''Seasonal:''' [[Antalya Airport|Antalya]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[El Alamein International Airport|El Alamein]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[Larnaca International Airport|Larnaca]], [[Málaga Airport|Málaga]], [[Milan–Malpensa]], [[Mykonos Airport|Mykonos]], [[Nice Côte d'Azur Airport|Nice]], [[Venice Marco Polo Airport|Venice]], [[Vienna International Airport|Vienna]]
+<!-- -->
+| [[Serene Air]] | [[Bacha Khan International Airport|Peshawar]]{{cn|date=June 2026}}
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]] (resumes 1 December 2026)
+<!-- -->
+| [[Sudan Airways]] | [[Port Sudan New International Airport|Port Sudan]]
+<!-- -->
+| [[Thai AirAsia X]] | [[Bangkok–Don Mueang]]{{cn|date=June 2026}}
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[US-Bangla Airlines]] | [[Hazrat Shahjalal International Airport|Dhaka]]{{cn|date=June 2026}}
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[Atlas Air]] | [[Bangkok–Suvarnabhumi]], [[Indira Gandhi International Airport|Delhi]], [[Frankfurt–Hahn Airport|Hahn]], [[Hong Kong International Airport|Hong Kong]], [[Zaragoza Airport|Zaragoza]]
+<!-- -->
+| [[Cathay Pacific|Cathay Cargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Central Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]
+<!-- -->
+| [[Qatar Airways|Qatar Airways Cargo]] | [[Hamad International Airport|Doha]]
+<!-- -->
+|{{nowrap|[[Saudia Cargo]]}} | [[Bole International Airport|Addis Ababa]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Kempegowda International Airport|Bangalore]], [[Brussels Airport|Brussels]], [[King Fahd International Airport|Dammam]], [[Frankfurt Airport|Frankfurt]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Hong Kong International Airport|Hong Kong]], [[Houston–Intercontinental]], [[Rajiv Gandhi International Airport|Hyderabad]], [[King Abdulaziz International Airport|Jeddah]], [[Murtala Muhammed International Airport|Lagos]], [[Milan–Malpensa]], [[Chhatrapati Shivaji International Airport|Mumbai]], [[Jomo Kenyatta International Airport|Nairobi]], [[New York–JFK]], [[Shanghai Pudong International Airport|Shanghai–Pudong]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Turkish Airlines|Turkish Cargo]] |[[Istanbul Airport|Istanbul]], [[Chhatrapati Shivaji International Airport|Mumbai]]
+<!-- -->
+| [[FedEx Express]]|[[Paris–Charles de Gaulle]] }}

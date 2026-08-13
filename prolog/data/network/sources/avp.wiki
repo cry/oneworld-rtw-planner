@@ -1,0 +1,27 @@
+==Airlines and destinations==
+[[Image:De Havilland Canada DHC-8-200 (Continental Connection) KAVP.jpg|thumb|A Continental Connection [[Dash 8]] at the new terminal]]
+
+===Passenger===
+{{Airport destination list
+<!-- -->
+|{{nowrap|[[American Airlines]]}} | '''Seasonal:''' [[Charlotte/Douglas International Airport|Charlotte]]
+|[[American Eagle (airline brand)|American Eagle]] | [[Charlotte/Douglas International Airport|Charlotte]], [[Chicago–O'Hare]]
+|[[Breeze Airways]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Orlando International Airport|Orlando]], [[Tampa International Airport|Tampa]] <br />'''Seasonal:''' [[Southwest Florida International Airport|Fort Myers]], [[Myrtle Beach International Airport|Myrtle Beach]]
+|[[United Express]] | [[Chicago–O'Hare]], [[Washington–Dulles]]
+}}
+
+====Secure Luxury Motorcoach Service====
+In August 2024, [[American Airlines]] began offering connecting luxury motorcoaches to/from [[Philadelphia International Airport]] from/to Wilkes-Barre/Scranton International Airport. The service is ticketed and operated as an airline flight but utilizes luxury motorcoaches, given Philadelphia's close proximity to Wilkes-Barre/Scranton and available connections as a major hub for American Airlines. This airside-to-airside service, which is solely for screened passengers who booked a seat on the route, is operated by American's bus service partner, Landline, on American's behalf.{{cn|date=July 2026}}
+
+{| class="wikitable"
+|+ style="text-align: left;" | '''Airline shuttles'''
+! {{bus icon}} Operators !! Destinations !! Notes !! Refs
+|-
+| [[American Airlines]] (operated by Landline)||[[Philadelphia International Airport|Philadelphia]]||Passengers check bags and clear security at AVP, and go directly to PHL via [[motorcoach]]||
+|}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[FedEx Express]]}} | '''Seasonal:''' [[Lehigh Valley International Airport|Allentown]]{{cn|date=July 2026}}
+}}

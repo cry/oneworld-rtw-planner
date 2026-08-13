@@ -1,0 +1,24 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list
+| [[American Eagle (airline brand)|American Eagle]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Anguilla Air Services]] | [[V. C. Bird International Airport|Antigua]], [[Gustaf III Airport|St. Barthelemy]], [[Princess Juliana International Airport|St. Maarten]]
+<!-- -->
+| [[BermudAir]] | '''Seasonal:''' [[Baltimore/Washington International Airport|Baltimore]], [[Logan International Airport|Boston]], [[Newark Liberty International Airport|Newark]], [[Providenciales International Airport|Providenciales]] (begins 19 December 2026), [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] (begins 24 December 2026), [[Toronto Pearson International Airport|Toronto–Pearson]] (begins 19 December 2026)
+<!-- -->
+| [[Cape Air]] | [[Cyril E. King International Airport|St. Thomas]]{{citation needed|date=June 2025}}
+<!-- -->
+| [[Sky High Aviation Services|Sky High]] | [[Las Americas International Airport|Santo Domingo–Las Americas]]
+<!-- -->
+| [[Tradewind Aviation]] | [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| {{nowrap|[[Trans Anguilla Airways]]}} | [[Vance W. Amory International Airport|Nevis]], [[Gustaf III Airport|St. Barthelemy]], [[F.D. Roosevelt Airport|St. Eustatius]], [[Robert L. Bradshaw International Airport|St. Kitts]], [[Princess Juliana International Airport|St. Maarten]], [[Terrance B. Lettsome International Airport|Tortola]], [[Virgin Gorda Airport|Virgin Gorda]]
+}}
+
+===New jet service===
+
+[[American Airlines]] initiated new, twice-weekly nonstop jet service between its [[Miami]] (MIA) hub and Anguilla on 11 December 2021, operated by [[Envoy Air]], as its [[American Eagle (airline brand)|American Eagle]] affiliate with [[Embraer ERJ-175]] regional jets.
+
+[[BermudAir]] launching a new nonstop seasonal service twice weekly between [[Boston]] (BOS), [[Newark, New Jersey|Newark]] (EWR), and [[Baltimore]] (BWI) on December 17, 18 and, 19, 2025. It will be operated by AnguillAir, using [[Embraer ERJ-190]] regional jets.

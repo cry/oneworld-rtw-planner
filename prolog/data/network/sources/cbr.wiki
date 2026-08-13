@@ -1,0 +1,24 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]]
+<!-- -->
+| [[FlyPelican]] | [[Newcastle Airport, New South Wales|Newcastle]]
+<!-- -->
+| [[Jetstar]] | [[Brisbane Airport|Brisbane]], [[Gold Coast Airport|Gold Coast]], [[Melbourne Airport|Melbourne]]
+<!-- -->
+| [[Link Airways]] | [[Hobart Airport|Hobart]], [[Launceston Airport|Launceston]], [[Newcastle Airport, New South Wales|Newcastle]]  <br />'''Seasonal:''' [[Coffs Harbour Airport|Coffs Harbour]]
+<!-- -->
+| [[Qantas]] | [[Perth Airport|Perth]]
+<!-- -->
+| [[QantasLink]] | [[Adelaide Airport|Adelaide]], [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]] <br />'''Seasonal:''' [[Hobart Airport|Hobart]]
+<!-- -->
+| [[Qatar Airways]] |[[Hamad International Airport|Doha]] (resumes 8 December 2026){{efn|name=Doha|Qatar Airways flights stop in Melbourne en route to their destination; however Qatar Airways has no traffic rights to carry passengers solely between Canberra and Melbourne.}}
+| [[Virgin Australia]] | [[Adelaide Airport|Adelaide]], [[Brisbane Airport|Brisbane]], [[Gold Coast Airport|Gold Coast]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]] <br/>'''Seasonal:''' [[Ngurah Rai International Airport|Denpasar]]
+}}
+
+Qantas formerly operated dedicated 'flightseeing' services over Antarctica from Canberra. These flights, which used a [[Boeing 787 Dreamliner]], departed Canberra from the international/domestic terminal, and provided a guided aerial tour of Antarctica before returning to Australia. These flights were about thirteen hours in total.
+
+'''Notes'''
+{{notelist}}

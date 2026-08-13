@@ -1,0 +1,27 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter services to and from Asturias:
+
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[Aer Lingus]]}} | '''Seasonal:''' [[Dublin Airport|Dublin]]
+<!-- -->
+| {{nowrap|[[Air Europa]]}} | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| {{nowrap|[[Binter Canarias]]}} | [[Gran Canaria Airport|Gran Canaria]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]] <br/> '''Seasonal:''' [[Melilla Airport|Melilla]]
+<!-- -->
+<!-- DO NOT CREATE AN ENTRY FOR IBERIA REGIONAL. IBERIA AND IBERIA REGIONAL OPERATE UNDER ONE ENTITY ONLY AND ARE JUST ONE BRAND.-->
+<!-- -->
+| [[KLM]] | '''Seasonal:''' [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Lufthansa]] | '''Seasonal:''' [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Volotea]] | [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Brussels Airport|Brussels]], [[Florence Airport|Florence]] (begins 21 September 2026), [[Gran Canaria Airport|Gran Canaria]], [[Federico García Lorca Granada Airport|Granada–Jaen]], [[Jerez Airport|Jerez]], [[Lanzarote Airport|Lanzarote]], [[Lisbon Airport|Lisbon]], [[Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]], [[Milan Bergamo Airport|Milan–Bergamo]], [[Paris Orly Airport|Paris–Orly]], [[Porto Airport|Porto]], [[Rome–Fiumicino]], [[Seville Airport|Seville]], [[Tenerife South Airport|Tenerife–South]], [[Valencia Airport|Valencia]] <br/> '''Seasonal:''' [[Castellón–Costa Azahar Airport|Castellón]], [[Fuerteventura Airport|Fuerteventura]], [[Ibiza Airport|Ibiza]], [[Menorca Airport|Menorca]], [[Región de Murcia International Airport|Murcia]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Vueling]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[London–Gatwick]] (ends 22 October 2026), [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]], [[Palma de Mallorca Airport|Palma de Mallorca]]
+<!-- -->
+| [[Wizz Air]] | [[London–Luton]] (begins 27 October 2026), [[Madrid-Barajas Airport|Madrid]] (begins 4 November 2026), [[Valencia Airport|Valencia]] (begins 2 November 2026)
+<!-- -->
+}}

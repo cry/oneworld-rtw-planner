@@ -1,0 +1,25 @@
+==Airlines and destinations==
+===Passenger===
+{{Airport destination list
+| [[Aéreo Servicio Guerrero]] | [[Guaymas International Airport|Guaymas]], [[Los Mochis International Airport|Los Mochis]]
+| [[Alaska Airlines]] | [[Los Angeles International Airport|Los Angeles]]
+| [[American Eagle (airline brand)|American Eagle]] |'''Seasonal:''' [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| [[Volaris]] |[[Tijuana International Airport|Tijuana]]
+| [[WestJet]] | '''Seasonal:''' [[Calgary International Airport|Calgary]]
+}}
+
+=== Destination maps ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=right|caption=Domestic destinations from Loreto International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Mexico|lat=25.9927 |long=-111.3530| position=left|label=<div style="position:relative; top:0px;"><small>'''Loreto'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=27.968889|long=-110.925|position=bottom|label='''[[Guaymas International Airport|{{nowrap|Guaymas}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=25.685 |long=-109.080556|position=bottom|label='''[[Los Mochis International Airport|{{nowrap|Los Mochis}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=32.5423 |long=-116.9717|position=bottom|label='''[[Tijuana International Airport|{{nowrap|Tijuana}}]]'''|label_size=90 |marksize=7 }}
+}}
+|-
+|{{Location map+|North_America|width=650|float=center|caption=International destinations from Loreto International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | North_America |lat=25.9927 |long=-111.3530| position=bottom|label=<div style="position:relative; top:0px;"><small>'''Loreto'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | mark = Green pog.svg | North_America |lat=51.1225|long=-114.013333|position=right|label='''<small>[[Calgary International Airport|Calgary]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | North_America |lat=32.896944|long=-97.038056|position=top|label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America |lat=33.9425|long=-118.408056|position=left|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg |  North_America |lat=37.618889|long=-122.375|position=left|label='''<small>[[San Francisco International Airport|{{nowrap|San Francisco}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg | North_America |lat=33.434167|long=-112.011667|position=top|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}}}
+|}

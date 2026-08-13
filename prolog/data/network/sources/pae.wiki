@@ -1,0 +1,31 @@
+==Airlines and destinations==
+At the time of its full launch in May 2019, Paine Field had 26 daily arrivals and departures on [[Alaska Airlines]] through their regional subsidiaries, as well as [[San Juan Airlines]]. The earliest departure was scheduled at 6&nbsp;a.m. and the latest departure was 9:05&nbsp;p.m. As of June 2022, Paine Field has 18 daily departures to 9 destinations. Most Alaska Airlines flights are operated by Horizon Air, though Alaska Airlines also operates a number of mainline [[Boeing 737]] jets to supplement the regional carrier.
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines are not independent sources. -->
+{{Airport destination list|3rdcoltitle = {{refh}}
+| {{nowrap|[[Alaska Airlines]]}}<!-- Please join the discussion at WT:AIRPORTS#opby before adding back "operated by Horizon Air" note. --> | [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]], [[John Wayne Airport|Orange County]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]]<br />'''Seasonal:''' [[Daniel K. Inouye International Airport|Honolulu]], [[Palm Springs International Airport|Palm Springs]] | 
+| 
+}}
+{{Location map+ |USA_West |width=750 |float=center
+|caption=Destinations from Paine Field<br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |USA_West |lat=47.5422 |long=-122.1653 |position=right |label=<div style="position:relative; top:0px;"><small>'''Everett'''</small></div>|caption=|mark=Airplane silhouette.svg|label_size=120|marksize=15 }}
+{{Location map~ |USA_West |lat=33.4032|long=-117.5206|position=top|label='''<small>[[Orange County Airport|Orange County]]</small>'''|label_size=90 |marksize=7 }}
+{{Location map~ |mark = Green pog.svg |USA_West |lat=33.8303 |long=-116.5070 |position=right |label='''{{nowrap|[[Palm Springs International Airport|Palm Springs]]}}'''|label_size=90 |marksize=7 }}
+{{Location map~ |USA_West |lat=33.434167|long=-112.011667|position=top|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix-Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}{{Location map~ |USA_West |lat=36.083697|long=-115.153873|position=left|label='''[[Harry Reid International Airport|Las Vegas]]'''|label_size=100 |marksize=7 }}
+{{Location map~ |USA_West |lat=33.941381|long=-118.408619|position=left |label='''[[Los Angeles International Airport|Los Angeles]]'''|label_size=100 |marksize=7 }}
+{{Location map~ |USA_West |lat=32.7338|long=-117.1933|position=left|label='''[[San Diego International Airport|San Diego]]'''|label_size=100 |marksize=7 }}
+{{Location map~ |USA_West |lat=37.3708|long=-122.2230 |position=under |label='''[[San Francisco International Airport|San Francisco]]'''|label_size=100 |marksize=7 }}
+{{Location map~ |mark = Blue pog.svg |USA_West |lat=45.588611|long=-122.5975 |position=under |label='''[[Portland International Airport|Portland]]'''|label_size=100 |marksize=7 }}
+}}
+
+{{Location map+ |Hawaii |width=436 |float=right |alt=Hawaii destinations from Paine Field
+|caption=Hawaii Destinations from Paine Field<br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |mark = Green pog.svg |Hawaii |lat=21.3069|long=-157.8583|position=bottom|label='''[[Daniel K. Inouye International Airport|Honolulu (Oahu)]]'''|label_size=90 |marksize=7 }}
+}}
+
+===Cargo===
+<!-- Please use only independent sources. The airport and airlines are not independent sources. -->
+There are no scheduled cargo flights to Paine Field as of December 2024. Starting in 2021, [[FedEx Express]] briefly operated a service to [[Memphis International Airport|Memphis]] operating out of the Dreamlifter Operations Center previously used by Boeing after production of the Boeing 787 was moved to Boeing South Carolina. This service has since ended. The airport does see regular chartered cargo operations.

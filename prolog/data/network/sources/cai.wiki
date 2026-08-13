@@ -1,0 +1,139 @@
+==Airlines and destinations==
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING THAT IS NOT REFERENCED WILL BE REMOVED. -->
+
+===Passenger===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[Aegean Airlines]] | [[Athens International Airport|Athens]], [[Thessaloniki Airport|Thessaloniki]] (begins 23 September 2026)
+<!-- -->
+| [[Aeroflot]] | [[Sheremetyevo International Airport|Moscow–Sheremetyevo]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Air Algérie]] | [[Houari Boumediene Airport|Algiers]]
+<!-- -->
+| [[Air Arabia]] | [[Abha International Airport|Abha]], [[Abu Dhabi International Airport|Abu Dhabi]], [[Orio al Serio International Airport|Bergamo]], [[King Fahd International Airport|Dammam]], [[Prince Naif bin Abdulaziz International Airport|Gassim]], [[Ha'il Regional Airport|Ha'il]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[King Abdulaziz International Airport|Jeddah]], [[King Abdullah bin Abdulaziz Airport|Jizan]], [[Kuwait International Airport|Kuwait City]],{{citation needed|date=December 2025}} [[Muscat International Airport|Muscat]], [[Ras Al Khaimah International Airport|Ras Al Khaimah]], [[King Khalid International Airport|Riyadh]], [[Sharjah International Airport|Sharjah]], [[Prince Sultan bin Abdulaziz Airport|Tabuk]], [[Ta'if Regional Airport|Ta'if]]
+<!-- -->
+| [[Air Cairo]] | [[Abha International Airport|Abha]],{{citation needed|date=December 2025}} [[Abu Simbel Airport|Abu Simbel]],{{citation needed|date=December 2025}} [[Al Jouf Airport|Al Jawf]],{{citation needed|date=December 2025}} [[Queen Alia International Airport|Amman–Queen Alia]],{{citation needed|date=December 2025}} [[Aswan International Airport|Aswan]],{{citation needed|date=December 2025}} [[Athens International Airport|Athens]], [[Bologna Guglielmo Marconi Airport|Bologna]],{{citation needed|date=December 2025}} [[Catania–Fontanarossa Airport|Catania]],{{citation needed|date=December 2025}} [[Cologne Bonn Airport|Cologne/Bonn]],{{citation needed|date=December 2025}} [[Prince Naif bin Abdulaziz International Airport|Gassim]], [[Hurghada International Airport|Hurghada]],{{citation needed|date=December 2025}} [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[King Abdullah bin Abdulaziz Airport|Jizan]],{{citation needed|date=December 2025}} [[Kuwait International Airport|Kuwait City]],{{citation needed|date=December 2025}} [[Luxor International Airport|Luxor]],{{citation needed|date=December 2025}} [[Málaga Airport|Málaga]],{{citation needed|date=December 2025}} [[Marsa Alam International Airport|Marsa Alam]],{{citation needed|date=December 2025}} [[Milan Malpensa Airport|Milan–Malpensa]],{{citation needed|date=December 2025}} [[King Khalid International Airport|Riyadh]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]],{{citation needed|date=December 2025}} [[Sharm El Sheikh International Airport|Sharm El Sheikh]],{{citation needed|date=December 2025}} [[Sohag International Airport|Sohag]],{{citation needed|date=December 2025}} [[Prince Sultan bin Abdulaziz Airport|Tabuk]],{{citation needed|date=December 2025}} [[Tangier Ibn Battouta Airport|Tangier]],{{citation needed|date=December 2025}} [[Mitiga International Airport|Tripoli-Mitiga]], [[Zvartnots International Airport|Yerevan]]{{citation needed|date=December 2025}} <br /> '''Seasonal:''' [[Antalya Airport|Antalya]],{{citation needed|date=December 2025}} [[Verona Villafranca Airport|Verona]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Air China]] | [[Beijing Capital International Airport|Beijing–Capital]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Air Montenegro]] | '''Seasonal charter:''' [[Podgorica Airport|Podgorica]]
+<!-- -->
+| [[AJet]] | [[Ankara Esenboğa Airport|Ankara]], [[Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]]{{citation needed|date=December 2025}}
+<!-- -->
+|[[Alexandria Airlines]] | [[King Abdulaziz International Airport|Jeddah]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Austrian Airlines]] | [[Vienna International Airport|Vienna]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Azerbaijan Airlines]] | '''Seasonal charter:''' [[Heydar Aliyev International Airport|Baku]]
+<!-- -->
+|[[British Airways]]|[[Heathrow Airport|London-Heathrow]]
+<!-- -->
+| [[Condor (airline)|Condor]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Egyptair]] | [[Félix-Houphouët-Boigny International Airport|Abidjan]], [[Abu Dhabi International Airport|Abu Dhabi]], [[Nnamdi Azikiwe International Airport|Abuja]], [[Accra International Airport|Accra]], [[Addis Ababa Bole International Airport|Addis Ababa]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Asmara International Airport|Asmara]], [[Aswan International Airport|Aswan]], [[Athens International Airport|Athens]], [[Bahrain International Airport|Bahrain]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Beijing Capital International Airport|Beijing–Capital]], [[Benina International Airport|Benghazi]],{{citation needed|date=December 2025}} [[Berlin Brandenburg Airport|Berlin]], [[Birmingham Airport|Birmingham]] (begins 27 October 2026), [[Brussels Airport|Brussels]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Mohammed V International Airport|Casablanca]], [[O'Hare International Airport|Chicago–O'Hare]], [[Copenhagen Airport|Copenhagen]], [[King Fahd International Airport|Dammam]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Indira Gandhi International Airport|Delhi]], [[Hazrat Shahjalal International Airport|Dhaka]], [[Djibouti–Ambouli International Airport|Djibouti]], [[Hamad International Airport|Doha]], [[Douala International Airport|Douala]], [[Dubai International Airport|Dubai–International]], [[Dublin Airport|Dublin]], [[Düsseldorf Airport|Düsseldorf]], [[El Kharga Airport|El Kharga]], [[Entebbe International Airport|Entebbe]], [[Frankfurt Airport|Frankfurt]], [[Prince Nayef Bin Abdulaziz Regional Airport|Gassim]], [[Geneva Airport|Geneva]], [[Hangzhou Xiaoshan International Airport|Hangzhou]], [[Hurghada International Airport|Hurghada]], [[Istanbul Airport|Istanbul]], [[Soekarno–Hatta International Airport|Jakarta–Soekarno-Hatta]], [[King Abdulaziz International Airport|Jeddah]], [[OR Tambo International Airport|Johannesburg–O.R. Tambo]], [[Juba International Airport|Juba]], [[Mallam Aminu Kano International Airport|Kano]], [[Kigali International Airport|Kigali]], [[N'djili Airport|Kinshasa–N'djili]], [[Kuwait International Airport|Kuwait City]], [[Murtala Mohammed International Airport|Lagos]], [[Larnaca International Airport|Larnaca]], [[Heathrow Airport|London–Heathrow]], [[Los Angeles International Airport|Los Angeles]], [[Luxor International Airport|Luxor]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Manchester Airport|Manchester]], [[Marsa Alam International Airport|Marsa Alam]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Misrata Airport|Misrata]],{{citation needed|date=December 2025}} [[Aden Adde International Airport|Mogadishu]],{{citation needed|date=December 2025}} [[Moscow Domodedovo Airport|Moscow–Domodedovo]],{{citation needed|date=December 2025}} [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Munich Airport|Munich]], [[Muscat International Airport|Muscat]], [[Jomo Kenyatta International Airport|Nairobi–Jomo Kenyatta]], [[N'Djamena International Airport|N'Djamena]], [[John F. Kennedy International Airport|New York-JFK]], [[Newark Liberty International Airport|Newark]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Port Sudan New International Airport|Port Sudan]], [[Václav Havel Airport Prague|Prague]], [[King Khalid International Airport|Riyadh]], [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]], [[Shanghai Pudong International Airport|Shanghai–Pudong]],{{citation needed|date=December 2025}} [[Sharjah International Airport|Sharjah]], [[Sharm El Sheikh International Airport|Sharm El Sheikh]], [[Narita International Airport|Tokyo–Narita]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Mitiga International Airport|Tripoli–Mitiga]], [[Tunis–Carthage International Airport|Tunis]], [[Venice Marco Polo Airport|Venice]], [[Vienna International Airport|Vienna]], [[Dulles International Airport|Washington–Dulles]],{{citation needed|date=December 2025}} [[Abeid Amani Karume International Airport|Zanzibar]] (begins 4 September 2026), [[Zürich Airport|Zürich]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Addis Ababa Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Etihad Airways]] | [[Abu Dhabi International Airport|Abu Dhabi]]
+<!-- -->
+| [[Eurowings]] | [[Dusseldorf International Airport|Düsseldorf]]
+<!-- -->
+| [[Flyadeal]] | [[King Fahd International Airport|Dammam]],{{citation needed|date=December 2025}} [[King Abdulaziz International Airport|Jeddah]],{{citation needed|date=December 2025}} [[King Khalid International Airport|Riyadh]] <br /> '''Seasonal:''' [[Abha International Airport|Abha]]{{citation needed|date=December 2025}}
+<!-- --> 
+| [[FlyBaghdad]] | [[Al Najaf International Airport|Najaf]]
+<!-- -->
+| [[Flynas]] | [[King Fahd International Airport|Dammam]],{{citation needed|date=December 2025}} [[Prince Mohammad Bin Abdulaziz International Airport|Medina]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[Hainan Airlines]] | [[Shenzhen Bao'an International Airport|Shenzhen]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Iberia Express]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[ITA Airways]] | [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Jordan Aviation]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[Kuwait Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Libyan Airlines]] | [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+| [[LOT Polish Airlines]] | [[Warsaw Chopin Airport|Warsaw–Chopin]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Neos (airline)|Neos]] | [[Milan Malpensa Airport|Milan–Malpensa]]
+<!-- -->
+| [[Nesma Airlines]] | [[Al Jouf Airport|Al Jawf]],{{citation needed|date=December 2025}} [[King Fahd International Airport|Dammam]],{{citation needed|date=December 2025}} [[Kuwait International Airport|Kuwait City]], [[Milan Malpensa Airport|Milan–Malpensa]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Nile Air]] | [[Abha Regional Airport|Abha]], [[Al Ain International Airport|Al Ain]], [[Al Jouf Airport|Al Jawf]], [[Arar Domestic Airport|Arar]],{{citation needed|date=December 2025}} [[Aswan International Airport|Aswan]], [[Milan Bergamo Airport|Bergamo]],{{citation needed|date=December 2025}} [[Cologne Bonn Airport|Cologne/Bonn]], [[Prince Nayef bin Abdulaziz Regional Airport|Gassim]], [[Ha'il Regional Airport|Ha'il]], [[Hurghada International Airport|Hurghada]], [[Istanbul Sabiha Gökçen International Airport|Istanbul–Sabiha Gökçen]], [[King Abdulaziz International Airport|Jeddah]],{{citation needed|date=December 2025}} [[King Abdullah bin Abdulaziz Airport|Jizan]], [[Kuwait International Airport|Kuwait]], [[Luxor International Airport|Luxor]], [[Najran Regional Airport|Najran]],{{citation needed|date=December 2025}} [[Neom Bay Airport|Neom Bay]],{{citation needed|date=December 2025}} [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]],{{citation needed|date=December 2025}} [[Sharjah International Airport|Sharjah]],{{citation needed|date=December 2025}} [[Sharm El Sheikh International Airport|Sharm El Sheikh]], [[Sohag International Airport|Sohag]],{{citation needed|date=December 2025}} [[Stockholm Arlanda Airport|Stockholm–Arlanda]],{{citation needed|date=December 2025}} [[Prince Sultan bin Abdulaziz Airport|Tabuk]], [[Ta’if Regional Airport|Ta'if]], [[Prince Abdul Mohsin Bin Abdulaziz International Airport|Yanbu]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Riyadh Air]] | [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[Rossiya Airlines]]| [[Sochi International Airport|Sochi]]
+<!-- -->
+| [[Royal Air Maroc]] | [[Mohammed V International Airport|Casablanca]]
+<!-- -->
+| [[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]], [[Neom Bay Airport|Neom Bay]],{{citation needed|date=December 2025}} [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[SCAT Airlines]] | [[Şymkent International Airport|Şymkent]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Sichuan Airlines]] | [[Beijing Capital International Airport|Beijing–Capital]],{{citation needed|date=December 2025}} [[Chengdu Tianfu International Airport|Chengdu–Tianfu]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Sky Express (Greece)|Sky Express]] | [[Athens International Airport|Athens]] (begins 2 December 2026)
+<!-- -->
+| [[Sudan Airways]] | [[Port Sudan New International Airport|Port Sudan]]
+<!-- -->
+| [[Smartwings]] | '''Seasonal charter:''' [[Václav Havel Airport Prague|Prague]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[SunExpress]] | '''Seasonal:''' [[Antalya Airport|Antalya]]{{citation needed|date=December 2025}}
+<!-- -->
+| {{nowrap|[[Swiss International Air Lines]]}} | [[Zürich Airport|Zürich]]
+<!-- -->
+| [[TAROM]] | [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Transavia]] | [[Amsterdam Airport Schiphol|Amsterdam]],{{citation needed|date=December 2025}} [[Lyon–Saint-Exupéry Airport|Lyon]],{{citation needed|date=December 2025}} [[Marseille Provence Airport|Marseille]],{{citation needed|date=December 2025}} [[Orly Airport|Paris–Orly]]{{citation needed|date=December 2025}} 
+<!-- -->
+| [[Tunisair]] | [[Tunis–Carthage International Airport|Tunis]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Vueling]] | [[Barcelona El Prat Airport|Barcelona]],{{citation needed|date=December 2025}} [[Orly Airport|Paris–Orly]]{{citation needed|date=December 2025}}
+<!-- -->
+| [[Yemenia]] | [[Riyan International Airport|Mukhalla]]{{citation needed|date=December 2025}}
+<!-- -->
+}}
+
+===Cargo===
+{{Unreliable sources section|date=November 2025}}
+{{Airport-dest-list
+<!-- -->
+| [[Cargolux]] | [[Beirut–Rafic Hariri International Airport|Beirut]], [[Luxembourg Airport|Luxembourg]]
+<!-- -->
+| [[DHL Aviation]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[Egyptair Cargo]] | [[Accra International Airport|Accra]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Brussels Airport|Brussels]],{{citation needed|date=December 2025}} [[Cologne Bonn Airport|Cologne/Bonn]], [[King Fahd International Airport|Dammam]], [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Istanbul Airport|Istanbul]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kano Airport|Kano]], [[Kuwait International Airport|Kuwait]], [[Murtala Muhammed International Airport|Lagos]], [[Allama Iqbal International Airport|Lahore]], [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]], [[Milan Malpensa Airport|Milan–Malpensa]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[N'Djamena International Airport|N'Djamena]], [[Ostend-Bruges International Airport|Ostend/Bruges]], [[King Khalid International Airport|Riyadh]], [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Emirates SkyCargo]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]]
+<!-- -->
+| {{nowrap|[[Ethiopian Airlines|Ethiopian Airlines Cargo]]}} | [[Addis Ababa Bole International Airport|Addis Ababa]], [[Beirut–Rafic Hariri International Airport|Beirut]], [[Liège Airport|Liège]]
+<!-- -->
+| [[Lufthansa Cargo]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[KLM|KLM Cargo]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| [[Royal Jordanian Cargo]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+| [[Turkish Cargo]] | [[Istanbul Airport|Istanbul]]
+}}

@@ -1,0 +1,13 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[Allegiant Air]] | [[Orlando Sanford International Airport|Orlando/Sanford]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] <br />'''Seasonal:''' [[Fort Lauderdale-Hollywood International Airport|Fort Lauderdale]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]]
+| [[American Airlines]] | '''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]]
+| [[American Eagle (airline brand)|American Eagle]] |[[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]]<br />'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[LaGuardia Airport|New York–LaGuardia]]
+| [[Breeze Airways]] | [[Orlando International Airport|Orlando]], [[Tampa International Airport|Tampa]] <br />'''Seasonal:''' [[Southwest Florida International Airport|Fort Myers]], [[Raleigh–Durham International Airport|Raleigh/Durham]]
+| [[Delta Air Lines]] | '''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+| [[Delta Connection]] | [[John F. Kennedy International Airport|New York–JFK]], [[LaGuardia Airport|New York–LaGuardia]] <br />'''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]]
+| [[United Airlines]] | '''Seasonal:''' [[Denver International Airport|Denver]]
+| [[United Express]] | [[Newark Liberty International Airport|Newark]]<br>'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]]
+}}

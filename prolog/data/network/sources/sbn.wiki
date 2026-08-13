@@ -1,0 +1,87 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Allegiant Air]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[McGhee Tyson Airport|Knoxville]], [[Harry Reid International Airport|Las Vegas]], [[Orlando Sanford International Airport|Orlando/Sanford]], [[Mesa Gateway Airport|Phoenix/Mesa]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] <br />'''Seasonal:''' [[Sarasota-Bradenton International Airport|Sarasota]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte/Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]] (resumes October 3, 2026), [[Dallas Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+| [[Breeze Airways]] | [[Southwest Florida International Airport|Fort Myers]], [[Orlando International Airport|Orlando]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+| {{nowrap|[[Delta Connection]]}} | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Express]] | [[O'Hare International Airport|Chicago–O'Hare]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Passenger destinations map
+|-
+|{{Location map+ |United_States |width=800 |float=center
+|caption=Passenger destinations from South Bend International Airport<br /> {{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+
+{{Location map~ |United_States |lat=41.7083 |long=-86.3173 |position=right
+|label=<div style="position:relative; top:-5px;">'''South Bend'''</div>
+|mark=Airplane_silhouette.svg |marksize=15 }}
+
+{{Location map~ |United_States |lat=26.07025 |long=-80.152778 |position=bottom
+|label='''[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=35.8110 |long=-83.9940 |position=left
+|label='''[[McGhee Tyson Airport|Knoxville]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=36.083697 |long=-115.2230 |position=right
+|label='''[[Harry Reid International Airport|Las Vegas]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=28.775502 |long=-81.243443 |position=left
+|label='''[[Orlando Sanford International Airport|Orlando/Sanford]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=33.1828 |long=-111.3920 |position=right
+|label='''[[Phoenix–Mesa Gateway Airport|Phoenix/Mesa]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=26.918889 |long=-81.990833  |position=bottom
+|label='''[[Punta Gorda Airport (Florida)|Punta Gorda]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=27.906783 |long=-82.691860 |position=left
+|label='''[[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |mark=Green pog.svg |lat=27.395556 |long=-82.554444 |position=right
+|label='''[[Sarasota–Bradenton International Airport|Sarasota]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=35.213889 |long=-80.943056 |position=right
+|label='''[[Charlotte Douglas International Airport|Charlotte]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=32.5349 |long=-97.0217 |position=left
+|label='''[[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=26.5362 |long=-81.7552 |position=right
+|label='''[[Southwest Florida International Airport|Fort Myers]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=28.429444 |long=-81.308889 |position=right
+|label='''[[Orlando International Airport|Orlando]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=38.9531 |long=-77.4565 |position=right
+|label='''[[Washington Dulles International Airport|Washington–Dulles]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=left
+|label='''[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=42.216112 |long=-83.355586 |position=top
+|label='''[[Detroit Metropolitan Airport|Detroit]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=44.884690 |long=-93.222430 |position=left
+|label='''[[Minneapolis–Saint Paul International Airport|Minneapolis–St. Paul]]''' |label_size=80 |marksize=7 }}
+
+{{Location map~ |United_States |lat=41.974186 |long=-87.907783 |position=bottom
+|label='''[[O'Hare International Airport|Chicago–O'Hare]]''' |label_size=80 |marksize=7 }}
+
+}}
+|}
+
+===Cargo===
+{{Incomplete list|date=January 2026}}{{Airport destination list
+| [[FedEx Express]]|[[Memphis International Airport|Memphis]]
+|[[FedEx Feeder]] operated by [[CSA Air]]|[[Indianapolis International Airport|Indianapolis]]
+}}

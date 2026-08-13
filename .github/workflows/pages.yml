@@ -61,6 +61,11 @@ jobs:
       # when the digest of the Prolog sources changes. A saved state is a ZIP and
       # records the time it was written, so comparing the bytes of two builds
       # would differ every run -- see prolog/tools/build_image.mjs.
+      # prolog/data/generated/ joins them because `npm run services` re-emits
+      # services.pl from the committed capture and opens no socket doing it, so
+      # a hand-edited route table fails here rather than shipping. Only
+      # `npm run services -- --refresh` talks to Wikimedia, and it is never run
+      # in CI: a green build must not depend on a third party's uptime.
       # prolog/data/earn/ is here for the same reason web/ is: the earning tables
       # are generated from the captures under data/earn/sources/ and committed,
       # and a stale one publishes numbers that are not the ones in the source
@@ -68,9 +73,9 @@ jobs:
       # figure looks exactly like an up-to-date one.
       - name: Committed build outputs are current
         run: |
-          if [ -n "$(git status --porcelain -- web/ prolog/data/earn/)" ]; then
+          if [ -n "$(git status --porcelain -- web/ prolog/data/earn/ prolog/data/generated/)" ]; then
             echo "::error::Generated files are stale. Run 'npm run build' and commit the result."
-            git status --short -- web/ prolog/data/earn/
+            git status --short -- web/ prolog/data/earn/ prolog/data/generated/
             exit 1
           fi
 

@@ -1,0 +1,52 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+
+{{Airport destination list
+<!-- -->
+| [[Allegiant Air]] | [[Denver International Airport|Denver]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Southwest Florida International Airport|Fort Myers]], [[Jack Edwards Airport|Gulf Shores]], [[Harry Reid International Airport|Las Vegas]], [[Nashville International Airport|Nashville]], [[Newark Liberty International Airport|Newark]], [[John Wayne Airport|Orange County]], [[Orlando International Airport|Orlando]],  [[Orlando Sanford International Airport|Orlando/Sanford]], [[Mesa Gateway Airport|Phoenix/Mesa]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[Sarasota–Bradenton International Airport|Sarasota]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]] <br /> '''Seasonal:''' [[Portland International Airport|Portland (OR)]], [[Savannah/Hilton Head International Airport|Savannah]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] |[[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] <br /> '''Seasonal:''' [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+<!-- -->
+|[[Delta Air Lines]]|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]] <br>'''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]]
+<!-- -->
+|[[Delta Connection]]|[[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] <br>'''Seasonal:''' [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}}  |  '''Seasonal:''' [[Southwest Florida International Airport|Fort Myers]]
+<!-- -->
+| [[United Airlines]] |[[Denver International Airport|Denver]]{{better source needed|date=April 2026}}
+<!-- -->
+|[[United Express]]|[[O'Hare International Airport|Chicago–O'Hare]]}}
+
+{| class="collapsible uncollapsed" style="border:2px #aaa solid; width:50em; margin:0.2em auto;"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=All passenger destinations from Appleton International Airport (ATW)<br>{{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br /> {{font color | blue | Blue }} = Future destination
+|places=
+{{Location map~ |United_States |lat=44.258056 |long=-88.519167 |position=bottom |label=<small>'''{{nowrap|Appleton}}'''</small>|caption=|mark=Airplane_silhouette.svg |marksize=20}}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=bottom |label=<small>'''{{nowrap|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=41.978611 |long=-87.904722 |position=bottom |label=<small>'''{{nowrap|[[O'Hare International Airport|Chicago-O'Hare]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=42.2125 |long=-83.353333 |position=right|label=<small>'''{{nowrap|[[Detroit Metropolitan Airport|Detroit]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=44.881944 |long=-93.221667 |position=left |label=<small>'''{{nowrap|[[Minneapolis–Saint Paul International Airport|Minneapolis/Saint Paul]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=36.08 |long=-115.152222 |position=left |label=<small>'''{{nowrap|[[Harry Reid International Airport|Las Vegas]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=28.777778 |long=-81.2375 |position=right |label=<small>'''{{nowrap|[[Orlando Sanford International Airport|Orlando-Sanford]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=33.307778 |long=-111.655556 |position=bottom |label=<small>'''{{nowrap|[[Mesa Gateway Airport|Phoenix-Mesa]]}}'''</small>|label_size=100 |marksize=10}}{{Location map~ |United_States  |mark = Green pog.svg|lat=33.434 |long=-112.011 |position=top |label=<small>'''{{nowrap|[[Phoenix Sky Harbor International Airport|Phoenix-Sky Harbor]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=27.91 |long=-82.6875 |position=left |label=<small>'''{{nowrap|[[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=39.861667 |long=-104.673056 |position=left |label=<small>'''{{nowrap|[[Denver International Airport|Denver]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=26.918889 |long=-81.990833 |position=left |label=<small>'''{{nowrap|[[Punta Gorda Airport (Florida)|Punta Gorda]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=36.126667 |long=-86.681944 |position=bottom |label=<small>'''{{nowrap|[[Nashville International Airport|Nashville]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=35.213889 |long=-80.943056 |position=right |label=<small>'''{{nowrap|[[Charlotte Douglas International Airport|Charlotte]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |mark = Green pog.svg |lat=32.1275 |long=-81.202222 |position=right |label=<small>'''{{nowrap|[[Savannah/Hilton Head International Airport|Savannah]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=26.072 |long=-80.1527 |position=right |label=<small>'''{{nowrap|[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |lat=27.395 |long=-82.5544 |position=right |label=<small>'''{{nowrap|[[Sarasota–Bradenton International Airport|Sarasota]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |mark = Red pog.svg |lat=40.6895|long=-74.1745 |position=bottom  |label='''<small>[[Newark Liberty International Airport|Newark]]</small>'''|label_size=100 |marksize=10 }}
+{{Location map~ |United_States |mark = Green pog.svg |lat=45.588 |long=-122.597 |position=bottom |label=<small>'''{{nowrap|[[Portland International Airport|Portland]]}}'''</small>|label_size=100 |marksize=10}}
+{{Location map~ |United_States |mark = Red pog.svg |lat=32.896|long=-97.038 |position=bottom  |label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=10 }}
+{{Location map~ |United_States |mark = Green pog.svg |lat=26.528578|long=-81.755189|position=bottom|label='''<small>[[Southwest Florida International Airport|Fort Myers]]</small>'''|label_size=100 |marksize=10 }}
+{{Location map~ |United_States |lat=33.675556|long=-117.868333 |position=right|label='''<small>{{nowrap|[[John Wayne Airport|Orange County]]}}</small>'''|label_size=100 |marksize=10 }}
+{{Location map~ |United_States |lat=30.289722|long=-87.671667|position=right |label='''<small>[[Jack Edwards Airport|Gulf Shores]]</small>'''|label_size=100 |marksize=10 }}
+{{Location map~ |United_States |lat=28.429444|long=-81.308889|position=left |label='''<small>[[Orlando International Airport|Orlando]]</small>'''|label_size=100 |marksize=10 }}
+}}
+|}

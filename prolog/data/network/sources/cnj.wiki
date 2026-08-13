@@ -1,0 +1,9 @@
+==Airlines and destinations==
+[[File:StateLibQld 1 121576 Aeroplane fuselage under construction, Cloncurry, ca. 1927.jpg|thumb|Aeroplane fuselage under construction, Cloncurry, ca. 1927 Brims Brothers Plywood Factory made the plywood which was used for construction of the aeroplane bodies by Qantas airways in the 1920s.]]
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+| [[Alliance Airlines]] | [[Brisbane Airport|Brisbane]], [[Townsville Airport|Townsville]] <br> '''Mining charter:''' [[Cairns Airport|Cairns]]
+<!-- -->
+| [[QantasLink]] | [[Mount Isa Airport|Mount Isa]], [[Townsville Airport|Townsville]]
+}}

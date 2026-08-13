@@ -1,0 +1,19 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[All Nippon Airways|ANA Wings]] | [[Haneda Airport|Tokyo–Haneda]] <br>'''Seasonal:''' [[New Chitose Airport|Sapporo–Chitose]]{{cn|date=April 2025}}
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Japan Transocean Air]] | [[Naha Airport|Naha]]
+<!-- -->
+| [[Korean Air]] | [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Tigerair Taiwan]] | [[Kaohsiung International Airport|Kaohsiung]], [[Taoyuan International Airport|Taipei–Taoyuan]]
+<!-- -->
+}}
+
+[[Image:Okayama Airport 2.JPG|thumb|A view of the Okayama Airport terminal and control tower from the parking lot]]

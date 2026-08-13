@@ -1,0 +1,8 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{airport-dest-list
+<!-- -->
+|[[Airnorth]] | [[Darwin International Airport|Darwin]], [[Gove Airport|Gove]]
+<!-- -->
+|[[Alliance Airlines]] | '''Charter:''' [[Cairns Airport|Cairns]]
+}}

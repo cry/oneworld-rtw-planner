@@ -1,0 +1,70 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+| [[American Eagle (airline brand)|American Eagle]] | '''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[LaGuardia Airport|New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Ronald Reagan Washington National Airport|Washington–National]] |  
+<!-- --> 
+| [[Cape Air]] | [[Logan International Airport|Boston]], [[Barnstable Municipal Airport|Hyannis]], [[Nantucket Memorial Airport|Nantucket]], [[New Bedford Regional Airport|New Bedford]] <br /> '''Seasonal:''' [[John F. Kennedy International Airport|New York–JFK]], [[Westchester County Airport|White Plains]]  | 
+<!-- --> 
+| [[Delta Connection]] | '''Seasonal:'''  [[John F. Kennedy International Airport|New York–JFK]],   [[LaGuardia Airport|New York–LaGuardia]]  |  
+<!-- --> 
+| [[JetBlue]] | '''Seasonal:''' [[Logan International Airport|Boston]], [[John F. Kennedy International Airport|New York–JFK]], [[Ronald Reagan Washington National Airport|Washington–National]] |  
+<!-- --> 
+| [[Nantucket Airlines]] | [[Barnstable Municipal Airport|Hyannis]], [[Nantucket Memorial Airport|Nantucket]]|  
+<!-- --> 
+| [[Reliant Air]] | '''Seasonal charter:''' [[Danbury Municipal Airport|Danbury]] |
+<!-- --> 
+| {{nowrap|[[Tradewind Aviation]]}} | '''Charter:''' [[Westchester County Airport|White Plains]]<br />  '''Seasonal charter:'''  [[Teterboro Airport|Teterboro]] | 
+}}
+
+[[American Eagle (airline brand)|American Eagle]] operates seasonally from June till September using their [[Embraer E-Jet family|E175]]; [[American Eagle (airline brand)|American Eagle]] can operate up to 7x a day out of MVY.
+
+[[Cape Air]]/[[Nantucket Airlines]] operates the [[Cessna 402]] and [[Tecnam P2012]]. They operate year-round, with some days operating 40 times a day at the airport in the summer season and others operating 15 to 25 times a day in the winter.
+
+[[Delta Connection]] operates [[Embraer E-Jet family|E175]]/[[Embraer E-Jet family|E170]] regional jets to both [[John F. Kennedy International Airport|New York–Kennedy]] and [[LaGuardia Airport|New York–LaGuardia]]. They operate seasonally from around Memorial Day until late October.
+
+[[JetBlue]] operates the [[A220-300]] to Martha's Vineyard; [[JetBlue]] can operate up to 6x daily on peak season and 4x daily during the off-season.
+
+[[File:JetBlue33.jpg|thumb|JetBlue A220-300 at MVY Gate 1]]
+
+[[Tradewind Aviation]] operates the [[PC-12]] into Martha's Vineyard. They operate 15 times a day in summer and five times or more during winter.
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+! Domestic destinations map
+|-
+|{{Location map+ | USA Northeast |width=1000 |float=center
+|caption=All domestic destinations from Martha's Vineyard Airport (MVY)
+{{font color | red |• Red}} represents year-round destinations.<br />
+{{font color | green |• Green}} represents seasonal destinations.<br />
+{{font color | blue |• Blue}} represents future destinations.<br />
+{{font color | pink |• Pink}} represents destinations to which service is being terminated. 
+|places=
+{{Location map~ |USA Northeast |lat=41.388145|long=-70.6171506147648|position=bottom|label='''''Martha's Vineyard'''''|caption=|mark=Airplane_silhouette.svg |label_size=100|marksize=20}}
+{{Location map~ |USA Northeast |lat=41.2569516|long=-70.0670398274787|position=right|label='''{{nowrap|[[Nantucket Memorial Airport|Nantucket]]}}'''|label_size=90|marksize=7|mark=Red pog.svg}}
+{{Location map~ |USA Northeast |lat=42.3656132|long=-71.0127929946005|position=top|label='''{{nowrap|[[Logan International Airport|Boston]]}}'''|label_size=100|marksize=7|mark=Red pog.svg}}
+{{Location map~ |USA Northeast |lat=38.851242|long=-77.0436389448177|position=right|label='''{{nowrap|[[Ronald Reagan Washington National Airport|Washington–National]]}}'''|label_size=100|marksize=7|mark=Green pog.svg}}
+{{Location map~ |USA Northeast |lat=41.6673379|long=-70.2880129791294|position=right|label='''{{nowrap|[[Barnstable Municipal Airport|Hyannis]]}}'''|label_size=100|marksize=7|mark=Red pog.svg}}
+{{Location map~ |USA Northeast |lat=40.6413111975452|long=-73.7781391|position=bottom|label='''{{nowrap|[[John F. Kennedy International Airport|New York–JFK]]}}'''|label_size=100|marksize=7|mark=Red pog.svg}}
+{{Location map~ |USA Northeast |lat=40.7734851975452|long=-73.8855943|position=right|label='''{{nowrap|[[LaGuardia Airport|New York–LaGuardia]]}}'''|label_size=100|marksize=7|mark=Green pog.svg}}
+{{Location map~ |USA Northeast |lat=41.675297|long=-70.9614560733741|position=left|label='''{{nowrap|[[New Bedford Regional Airport|New Bedford]]}}'''|label_size=100|marksize=7|mark=Red pog.svg}}
+{{Location map~ |USA Northeast |lat=35.213889|long=-80.943056|position=top|label='''{{nowrap|[[Charlotte Douglas International Airport|Charlotte]]}}'''|label_size=100|marksize=7|mark=Green pog.svg}}
+{{Location map~ |USA Northeast |lat=39.871944|long=-75.241111|position=right|label='''{{nowrap|[[Philadelphia International Airport|Philadelphia]]}}'''|label_size=100|marksize=7|mark=Green pog.svg}}
+{{Location map~ |USA Northeast |lat=41.974186|long=-87.907783|position=left|label='''{{nowrap|[[O'Hare International Airport|Chicago-O'Hare]]}}'''|label_size=100 |marksize=7|mark=Green pog.svg }}
+{{Location map~ |USA Northeast |lat=41.0683325|long=-73.7119628133783|position=left|label='''{{nowrap|[[Westchester County Airport|White Plains]]}}'''|label_size=90|marksize=7|mark=Green pog.svg}}
+{{Location map~ |USA Northeast |lat=41.371667|long=-73.482222|position=right|label='''{{nowrap|[[Danbury Municipal Airport|Danbury]]}}'''|label_size=90|marksize=7|mark=Green pog.svg}}
+{{Location map~ |USA Northeast |lat=40.85|long=-74.060833|position=left|label='''{{nowrap|[[Teterboro Airport|Teterboro]]}}'''|label_size=90|marksize=7|mark=Green pog.svg}}
+}}
+|}
+
+===Cargo===
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+| [[Cape Air]] | [[Logan International Airport|Boston]], [[Barnstable Municipal Airport|Hyannis]]<br /> '''Seasonal:''' [[New Bedford Regional Airport|New Bedford]]|    
+| [[FedEx Feeder]] | [[T. F. Green Airport|Providence]]  | 
+}}
+
+[[FedEx Feeder]] offers a year-round flight from [[T. F. Green Airport|Providence]], during summer months cargo flight can go up to 5 times a day and one time a day in the winter, all cargo continue to their [[FedEx]] facility at the airport and then into their trucks for delivery.
+
+[[Cape Air]] offers cargo flights to [[Logan International Airport|Boston]] and [[Barnstable Municipal Airport|Hyannis]] year-round and adds seasonal cargo flight to [[New Bedford Regional Airport|New Bedford]]. Cape Air cargo is dropped off in terminal C on [[Cape Air]] ticker area in [[Logan International Airport|Boston]] or in the main terminal ticket area in MVY for [[Cape Air]].
+
+===Historical airline service===
+
+[[Northeast Airlines]] served Martha's Vineyard beginning in August 1944, when it acquired Mayflower Airlines. By the 1950s it was the dominant airline at the airport. [[Air New England (1970-1981)|Air New England]] served MVY from the 1970s until 1981; [[Provincetown-Boston Airline]] (PBA), operating as a feeder for [[Eastern Airlines]], served MVY in the 1980s. Bridgeport-based Atlantic Air served MVY in the mid-1980s before merging into [[Business Express Airlines]], which continued service to MVY under the [[Delta Connection]] brand. Other historical carriers at MVY included [[Bar Harbor Airlines]], [[Brockway Air]], [[Catskill Airways]], [[Edgartown Air]], [[Executive Airlines]], Express Air, [[Gull Air]], [[Holiday Airlines (US airline)|Holiday Airlines]], [[Island Airlines]], [[New Haven Airlines]], [[New York Air]], [[NorEast]], [[Northern Airlines]], [[Spectrum Airlines]] and [[Trans East Airlines]].

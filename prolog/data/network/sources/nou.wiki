@@ -1,0 +1,16 @@
+==Airlines and destinations==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+The following airlines operate regular scheduled and charter flights in Nouméa:
+
+{{airport-dest-list
+<!-- -->
+| [[Air Calédonie]] | [[Île des Pins Airport|Île-des-Pins]], [[Lifou Airport|Lifou]], [[Maré Airport|Maré]], [[Ouvéa Airport|Ouvéa]], [[Bauerfield International Airport|Port Vila]]
+<!-- -->
+| {{nowrap|[[Air New Zealand]]}} | [[Auckland Airport|Auckland]]
+<!-- -->
+| [[Aircalin]] | [[Auckland Airport|Auckland]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Brisbane Airport|Brisbane]], [[Nadi Airport|Nadi]], [[Faa'a International Airport|Papeete]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Bauerfield International Airport|Port Vila]], [[Changi Airport|Singapore]], [[Sydney Airport|Sydney]], [[Hihifo Airport|Wallis Island]]
+<!-- -->
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]] (resumes 22 September 2026)
+<!-- -->
+| [[Qantas]] |[[Sydney Airport|Sydney]]
+| [[QantasLink]]|[[Brisbane Airport|Brisbane]]}}

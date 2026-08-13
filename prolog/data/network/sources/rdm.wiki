@@ -1,0 +1,19 @@
+==Airlines and destinations==
+[[File:KRDM-FAA-23 FEB 2023.svg|thumb|right|130px|FAA diagram]]
+
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list
+| [[Alaska Airlines]] | [[Hollywood Burbank Airport|Burbank]], [[Los Angeles International Airport|Los Angeles]], [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[San Francisco International Airport|San Francisco]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]]
+| [[Breeze Airways]] |  [[Harry Reid International Airport|Las Vegas]]
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]
+| [[United Airlines]] | [[Denver International Airport|Denver]], [[San Francisco International Airport|San Francisco]]
+| [[United Express]] | [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]]
+}}
+
+===Cargo===
+{{Airport destination list
+| [[Ameriflight]] | [[Eugene Airport|Eugene]], [[Hillsboro Airport|Portland/Hillsboro (OR)]], [[Portland International Airport|Portland (OR)]]
+| [[FedEx Feeder]] | [[Portland International Airport|Portland (OR)]]
+}}

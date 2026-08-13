@@ -1,0 +1,14 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Bergerac Dordogne Périgord Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+|{{nowrap|[[British Airways]]}} | '''Seasonal:''' [[London City Airport|London–City]], [[London Stansted Airport|London–Stansted]]
+<!-- -->
+|[[Jet2.com]] | '''Seasonal:''' [[Birmingham Airport|Birmingham]] (begins 22 May 2027), [[Leeds Bradford Airport|Leeds/Bradford]], [[Manchester Airport|Manchester]] (begins 22 May 2027)
+<!-- -->
+|[[Ryanair]] | '''Seasonal:''' [[Bournemouth Airport|Bournemouth]], [[Bristol Airport|Bristol]], [[East Midlands Airport|East Midlands]], [[Edinburgh Airport|Edinburgh]], [[Liverpool John Lennon Airport|Liverpool]], [[London Stansted Airport|London–Stansted]]
+<!-- -->
+|[[Transavia]] | [[Rotterdam The Hague Airport|Rotterdam/The Hague]]
+<!-- -->
+}}

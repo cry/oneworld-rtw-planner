@@ -1,0 +1,15 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] |  [[Miami International Airport|Miami]] <br />'''Seasonal:''' [[Charlotte Douglas International Airport|Charlotte]]
+<!-- -->
+| [[Bahamasair]] | [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Lynden Pindling International Airport|Nassau]]<br />'''Seasonal:''' [[Orlando International Airport|Orlando]]
+<!-- -->
+| [[Flamingo Air]] | [[Marsh Harbour Airport|Marsh Harbour]], [[South Bimini Airport|South Bimini]]
+<!-- -->
+| [[WestJet]] |'''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Western Air]] |  [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Lynden Pindling International Airport|Nassau]] [[South Bimini Airport|South Bimini]]
+}}

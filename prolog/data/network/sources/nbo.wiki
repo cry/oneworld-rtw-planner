@@ -1,0 +1,75 @@
+==Airlines and destinations==
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD A REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED.  -->
+
+===Passenger===
+<!-- WHEN ADDING A NEW ROUTE, OR ADDING AN END DATE FOR A ROUTE PLEASE ADD AN INDEPENDENT REFERENCE, ALSO ADD THE ROUTE AND LINK ON THE CORRESPONDING AIRPORTS ARTICLE AND THE AIRLINES ARTICLE IF IT IS A NEW DESTINATION, ANYTHING WHICH IS NOT REFERENCED WILL BE REMOVED. -->
+{{Airport destination list
+<!-- -->
+|[[748 Air Services|748 Air]] |[[Moi International Airport|Mombasa]], [[Ukunda Airport|Ukunda/Diani Beach]]
+<!-- -->
+| [[Air Arabia]] | [[Sharjah International Airport|Sharjah]]
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Air Tanzania]] | [[Julius Nyerere International Airport|Dar es Salaam]], [[Abeid Amani Karume International Airport|Zanzibar]]
+<!-- -->
+| [[Airlink]] | [[O. R. Tambo International Airport|Johannesburg–O.R. Tambo]]
+
+<!-- -->
+| [[Asky Airlines|ASKY Airlines]] | [[Lomé–Tokoin International Airport|Lomé]]
+<!-- -->
+| [[British Airways]] | [[Heathrow Airport|London–Heathrow]]
+<!-- -->
+| [[Brussels Airlines]] | [[Brussels Airport|Brussels]]{{cn|date=May 2026}}
+<!-- -->
+| [[China Southern Airlines]] | [[Changsha Huanghua International Airport|Changsha]],{{cn|date=May 2026}} [[Guangzhou Baiyun International Airport|Guangzhou]]{{cn|date=May 2026}}
+<!-- -->
+| [[Egyptair]] | [[Cairo International Airport|Cairo]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Ethiopian Airlines]] | [[Bole International Airport|Addis Ababa]]
+<!-- -->
+| [[Etihad Airways]] | [[Zayed International Airport|Abu Dhabi]]
+<!-- -->
+| [[Flydubai]] | [[Dubai International Airport|Dubai–International]]{{cn|date=May 2026}}
+<!-- -->
+| [[Flynas]] | [[King Khalid International Airport|Riyadh]]{{cn|date=May 2026}}
+<!-- -->
+| [[Freedom Airline]] | [[Moi International Airport|Mombasa]]
+<!-- -->
+| [[Gulf Air]] | [[Bahrain International Airport|Bahrain]]
+<!-- -->
+| [[IndiGo]] | [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]]{{cn|date=May 2026}}
+<!-- -->
+| [[Kenya Airways]] | [[Port Bouet Airport|Abidjan]], [[Accra International Airport|Accra]], [[Bole International Airport|Addis Ababa]], [[Amsterdam Airport Schiphol|Amsterdam]], [[Ivato Airport|Antananarivo]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Bujumbura International Airport|Bujumbura]], [[Blaise Diagne International Airport|Dakar–Diass]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Douala International Airport|Douala]], [[Dubai International Airport|Dubai–International]], [[Dzaoudzi Pamandzi International Airport|Dzaoudzi]], [[Entebbe International Airport|Entebbe]], [[Lungi International Airport|Freetown]], [[Guangzhou Baiyun International Airport|Guangzhou]],{{cn|date=May 2026}} [[Robert Gabriel Mugabe International Airport|Harare]], [[O. R. Tambo International Airport|Johannesburg–O.R. Tambo]],{{cn|date=May 2026}} [[Juba Airport|Juba]], [[Kigali International Airport|Kigali]], [[Kilimanjaro International Airport|Kilimanjaro]], [[N'djili Airport|Kinshasa–N'djili]], [[Kisumu Airport|Kisumu]], [[Murtala Muhammed International Airport|Lagos]], [[Kamuzu International Airport|Lilongwe]], [[Livingstone Airport|Livingstone]], [[Gatwick Airport|London–Gatwick]],{{cn|date=May 2026}} [[Heathrow Airport|London–Heathrow]], [[Lubumbashi International Airport|Lubumbashi]], [[Lusaka International Airport|Lusaka]], [[Seychelles International Airport|Mahé]], [[Malindi Airport|Malindi]],{{cn|date=May 2026}} [[Maputo International Airport|Maputo]], [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]], [[Aden Adde International Airport|Mogadishu]],{{cn|date=May 2026}} [[Moi International Airport|Mombasa]], [[Roberts International Airport|Monrovia–Roberts]], [[Prince Said Ibrahim International Airport|Moroni]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Nampula Airport|Nampula]], [[Simon Mwansa Kapwepwe International Airport|Ndola]], [[John F. Kennedy International Airport|New York–JFK]],{{cn|date=May 2026}} [[Paris–Charles de Gaulle]], [[Victoria Falls Airport|Victoria Falls]], [[Abeid Amani Karume International Airport|Zanzibar]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]]
+<!-- -->
+| {{nowrap|[[LAM Mozambique Airlines]]}} | [[Julius Nyerere International Airport|Dar es Salaam]]{{cn|date=May 2026}}
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[SalamAir]] |[[Muscat International Airport|Muscat]]{{cn|date=May 2026}}
+<!-- -->
+| [[Saudia]] | [[King Abdulaziz International Airport|Jeddah]]
+<!-- -->
+| [[TAAG Angola Airlines]] | [[Dr. Antonio Agostinho Neto International Airport|Luanda–Agostinho Neto]]{{cn|date=May 2026}}
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+| [[Zambia Airways]] | [[Kenneth Kaunda International Airport|Lusaka]]{{cn|date=May 2026}}
+<!-- -->
+}}
+
+=== Cargo ===
+{{Airport destination list
+<!-- -->
+| [[Astral Aviation]] | [[Aktobe International Airport|Aktobe]], [[Julius Nyerere International Airport|Dar es Salaam]], [[Indira Gandhi International Airport|Delhi]], [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Entebbe International Airport|Entebbe]], [[Robert Mugabe International Airport|Harare]], [[Hong Kong International Airport|Hong Kong]], [[O. R. Tambo International Airport|Johannesburg–O.R. Tambo]], [[Juba Airport|Juba]], [[Kigali International Airport|Kigali]], [[Liège Airport|Liège]], [[Kamuzu International Airport|Lilongwe]], [[Kenneth Kaunda International Airport|Lusaka]], [[Maputo International Airport|Maputo]], [[Aden Adde International Airport|Mogadishu]], [[Chhatrapati Shivaji Maharaj International Airport|Mumbai]], [[Mwanza Airport|Mwanza]], [[Pemba Airport (Mozambique)|Pemba]], [[Abeid Amani Karume International Airport|Zanzibar]] <br/> '''Charter:''' [[Aden International Airport|Aden]], [[Djibouti International Airport|Djibouti]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Hargeisa International Airport|Hargeisa]]
+<!-- -->
+| [[FedEx Express]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[My Freighter Airlines]] | [[Islam Karimov Tashkent International Airport|Tashkent]]
+<!-- -->
+|[[Ethiopian Airlines]] | [[Eldoret International Airport|Eldoret]]
+}}

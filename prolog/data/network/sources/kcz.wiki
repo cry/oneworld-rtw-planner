@@ -1,0 +1,11 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport-dest-list
+| [[All Nippon Airways]] | [[Haneda Airport|Tokyo–Haneda]]
+| [[ANA Wings]] | [[Itami Airport|Osaka–Itami]]
+| [[Fuji Dream Airlines]] | [[Chubu Centrair International Airport|Nagoya–Centrair]], [[Nagoya Airfield|Nagoya–Komaki]]
+| [[J-Air]] | [[Fukuoka Airport|Fukuoka]]
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+| [[Jetstar Japan]] | [[Kansai International Airport|Osaka–Kansai]], [[Narita International Airport|Tokyo–Narita]]
+| [[Tigerair Taiwan]] | [[Taoyuan International Airport|Taipei–Taoyuan]]
+}}

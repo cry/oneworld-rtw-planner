@@ -1,0 +1,32 @@
+==Airlines and destinations==
+{{airport-dest-list
+<!-- -->
+|[[Afriqiyah Airways]] | [[Borg El Arab Airport|Alexandria]], [[Cairo International Airport|Cairo]], [[Kufra Airport|Kufra]], [[Misrata International Airport|Misrata]], [[Sabha Airport|Sabha]], [[Mitiga International Airport|Tripoli–Mitiga]], [[Tunis-Carthage International Airport|Tunis]]
+<!-- -->
+|{{nowrap|[[Air Mediterranean]]}} | [[Athens International Airport|Athens]]
+<!-- -->
+|[[Belavia]] | '''Seasonal charter:''' [[Minsk National Airport|Minsk]]
+<!-- -->
+|[[Berniq Airways]] | [[Al Maktoum International Airport|Dubai–Al Maktoum]], [[Istanbul Airport|Istanbul]], [[Misrata International Airport|Misrata]], [[Mitiga International Airport|Tripoli–Mitiga]], [[Tunis-Carthage International Airport|Tunis]], [[Alzintan Airport|Zintan]]
+<!-- -->
+|[[Buraq Air]] | [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+|[[Egyptair]] | [[Borg El Arab Airport|Alexandria]], [[Cairo International Airport|Cairo]]
+<!-- -->
+|[[Flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+|[[Fly Oya]] | [[Alzintan Airport|Zintan]]{{AI-retrieved source|date=March 2026|checked=no}}
+<!-- -->
+|[[Libyan Airlines]] | [[Borg El Arab Airport|Alexandria]], [[Cairo International Airport|Cairo]], [[Istanbul Airport|Istanbul]], [[King Abdulaziz International Airport|Jeddah]], [[Kufra Airport|Kufra]], [[Mitiga International Airport|Tripoli–Mitiga]], [[Tunis-Carthage International Airport|Tunis]]
+<!-- -->
+|[[Marathon Airlines]] | [[Athens International Airport|Athens]]
+<!-- -->
+|[[MedSky Airways]] | [[Athens International Airport|Athens]], [[Rome Fiumicino Airport|Rome–Fiumicino]], [[Malta International Airport|Valletta]], [[Mitiga International Airport|Tripoli–Mitiga]]
+<!-- -->
+|[[Royal Jordanian]] | [[Queen Alia International Airport|Amman–Queen Alia]]
+<!-- -->
+|[[Syrian Air]]| [[Damascus International Airport|Damascus]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]
+<!-- -->
+}}

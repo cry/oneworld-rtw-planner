@@ -1,0 +1,34 @@
+==Airlines and destinations==
+=== Passenger ===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York-JFK]]
+<!-- -->
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+| [[British Airways]] | [[Gatwick Airport|London–Gatwick]], [[Hewanorra International Airport|St. Lucia–Hewanorra]] <br /> '''Seasonal:''' [[Grantley Adams International Airport|Barbados]] (begins 26 October 2026)
+<!-- -->
+| [[Caribbean Airlines]] | [[John F. Kennedy International Airport|New York–JFK]], [[Piarco International Airport|Port of Spain]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City]]
+<!-- -->
+| [[Fly All Ways]] | [[José Martí International Airport|Havana]], [[Johan Adolf Pengel International Airport|Paramaribo]]
+<!-- -->
+| [[InterCaribbean Airways]] | [[Grantley Adams International Airport|Barbados]]
+<!-- -->
+| [[JetBlue]] | [[John F. Kennedy International Airport|New York–JFK]]
+<!-- -->
+| [[KLM]] | [[Amsterdam Airport Schiphol|Amsterdam]], [[Princess Juliana International Airport|St. Maarten]]
+<!-- -->
+| [[Liat20]] | [[V. C. Bird International Airport|Antigua]]
+<!-- -->
+| [[Sky High Aviation Services|Sky High]] | [[José Marti International Airport|Havana]], [[Las Américas International Airport|Santo Domingo–Las Américas]]
+<!-- -->
+| [[Surinam Airways]] | [[Grantley Adams International Airport|Barbados]], [[Miami International Airport|Miami]], [[Johan Adolf Pengel International Airport|Paramaribo]]
+<!-- -->
+| [[United Airlines]] |[[George Bush Intercontinental Airport|Houston–Intercontinental]]
+<!-- -->
+}}

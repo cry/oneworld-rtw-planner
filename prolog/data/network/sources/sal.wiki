@@ -1,0 +1,50 @@
+== Airlines and destinations ==
+===Passengers===
+<!-- Please use only independent sources. The airport and the airline itself are not independent sources. -->
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[Aeroméxico]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| [[Air Europa]] | [[Madrid-Barajas Airport|Madrid]] (begins 17 December 2026)
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]]
+<!-- -->
+| [[Avianca]] | [[El Dorado International Airport|Bogotá]]
+<!-- -->
+| [[Avianca Costa Rica]] | [[Juan Santamaría International Airport|San José (CR)]]
+<!-- -->
+| {{nowrap|[[Avianca El Salvador]]}} | [[El Dorado International Airport|Bogotá]], [[Logan International Airport|Boston]], [[Cancún International Airport|Cancún]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[La Aurora International Airport|Guatemala City]], [[José Joaquín de Olmedo International Airport|Guayaquil]], [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Jorge Chávez International Airport|Lima]], [[Los Angeles International Airport|Los Angeles]], [[Augusto C. Sandino International Airport|Managua]], [[José María Córdova International Airport|Medellín–JMC]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Madrid–Barajas Airport|Madrid]], [[Miami International Airport|Miami]], [[John F. Kennedy International Airport|New York–JFK]], [[Ontario International Airport|Ontario (CA)]], [[Tocumen International Airport|Panama City–Tocumen]], [[Mariscal Sucre International Airport|Quito]], [[San Francisco International Airport|San Francisco]], [[Juan Santamaría International Airport|San José (CR)]], [[Ramón Villeda Morales International Airport|San Pedro Sula]], [[Comayagua International Airport|Tegucigalpa/Comayagua]], [[Toronto Pearson International Airport|Toronto–Pearson]], [[Dulles International Airport|Washington–Dulles]] <br /> '''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]], [[Harry Reid International Airport|Las Vegas]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]]
+<!-- -->
+| [[Avianca Guatemala]] | [[La Aurora International Airport|Guatemala City]]
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[George Bush Intercontinental Airport|Houston–Intercontinental]] <br /> '''Seasonal:''' [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[Orlando International Airport|Orlando]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+| [[Iberia (airline)|Iberia]] | [[Madrid–Barajas Airport|Madrid]]
+<!-- -->
+| [[Iberojet (airline)|Iberojet]] | [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Madrid–Barajas Airport|Madrid]] (both begin 13 September 2026)
+<!-- -->
+| {{nowrap|[[Transportes Aéreos Guatemaltecos|TAG Airlines]]}} | [[La Aurora International Airport|Guatemala City]], [[Juan Manuel Gálvez International Airport|Roatán]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Los Angeles International Airport|Los Angeles]], [[Newark Liberty International Airport|Newark]] <br /> '''Seasonal:''' [[Dulles International Airport|Washington–Dulles]]{{cn|date=October 2024}}
+<!-- -->
+| [[Volaris El Salvador]] |[[George Bush Intercontinental Airport|Houston–Intercontinental]], [[Los Angeles International Airport|Los Angeles]], [[Mexico City International Airport|Mexico City–Benito Juárez]], [[Newark Liberty International Airport|Newark]], [[Oakland San Francisco Bay Airport|Oakland]], [[Ramón Villeda Morales International Airport|San Pedro Sula]], [[Dulles International Airport|Washington–Dulles]]}}
+
+=== Cargo ===
+
+{{Airport-dest-list
+| [[Amerijet International]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[Avianca Cargo]] | [[Miami International Airport|Miami]]
+<!-- -->
+| [[DHL Aero Expreso]] | [[La Aurora International Airport|Guatemala City]], [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[FedEx Feeder]]<br> operated by [[IFL Group]] | [[La Aurora International Airport|Guatemala City]], [[Miami International Airport|Miami]]
+<!-- -->
+|[[LATAM Cargo Colombia|LATAM Cargo]] | [[Miami International Airport|Miami]], [[Mariscal Sucre International Airport|Quito]]
+}}

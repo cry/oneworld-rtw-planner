@@ -1,0 +1,37 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list 
+<!-- -->
+| [[Allegiant Air]] | [[Akron–Canton Airport|Akron/Canton]], [[Logan International Airport|Boston]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Gerald R. Ford International Airport|Grand Rapids]], [[Punta Gorda Airport (Florida)|Punta Gorda (FL)]], [[St. Pete–Clearwater International Airport|St. Petersburg/Clearwater]], [[Washington–Dulles]]<br /> '''Seasonal:''' [[Appleton International Airport|Appleton]], [[Rickenbacker International Airport|Columbus–Rickenbacker]], [[Indianapolis International Airport|Indianapolis]], [[Pittsburgh International Airport|Pittsburgh]]  
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]] <br/> '''Seasonal:''' [[Chicago–O'Hare]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Charlotte Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]], [[New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Washington–National]] 
+<!-- -->
+| [[Avelo Airlines]]  | '''Seasonal:''' [[Tweed New Haven Airport|New Haven]]
+<!-- -->
+| [[Breeze Airways]] | [[Akron–Canton Airport|Akron/Canton]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Bradley International Airport|Hartford]], [[Louis Armstrong New Orleans International Airport|New Orleans]], [[Rhode Island T. F. Green International Airport|Providence]], [[Westchester County Airport|White Plains]] 
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Detroit Metropolitan Airport|Detroit]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] <br/> '''Seasonal:''' [[Logan International Airport|Boston]]
+<!-- -->
+| [[Delta Connection]] | [[Logan International Airport|Boston]], [[New York–JFK]], [[New York–LaGuardia]] <br/> '''Seasonal:''' [[Detroit Metropolitan Airport|Detroit]]
+<!-- -->
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[New York–JFK]]
+<!-- -->
+| [[Southwest Airlines]] | [[Baltimore/Washington International Airport|Baltimore]], [[Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Houston–Hobby]], [[Nashville International Airport|Nashville]] <br /> '''Seasonal:''' [[Denver International Airport|Denver]], [[Kansas City International Airport|Kansas City]], [[St._Louis_Lambert_International_Airport| St. Louis]] 
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]] 
+<!-- -->
+| [[United Airlines]] | [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Newark Liberty International Airport|Newark]] [[Washington–Dulles]] <br />
+<!-- -->
+| [[United Express]] | [[Chicago–O'Hare]], [[Houston–Intercontinental]], [[Washington–Dulles]] <br/> '''Seasonal:''' [[Newark Liberty International Airport|Newark]]
+<!-- -->
+}}
+
+===Cargo===
+{{Airport destination list
+| [[FedEx Express]] | [[Memphis International Airport|Memphis]]
+<!-- -->
+| [[UPS Airlines]] | [[Louisville Muhammad Ali International Airport|Louisville]]
+}}

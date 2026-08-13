@@ -1,0 +1,8 @@
+==Airlines and destinations==
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate regular scheduled and charter flights at Abel Santamaría Airport:
+
+{{Airport-dest-list
+<!-- -->
+| [[American Airlines]] | [[Miami International Airport|Miami]]
+}}

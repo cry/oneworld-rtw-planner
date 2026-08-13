@@ -1,0 +1,48 @@
+==Airlines and destinations==
+
+=== Passenger ===
+{{Airport-dest-list
+<!-- -->
+| {{nowrap|[[Aeroméxico]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| {{nowrap|[[Aeroméxico Connect]]}} | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+| [[Air Canada]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+<!-- -->
+| [[Air Transat]] | '''Seasonal:''' [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Québec City Jean Lesage International Airport|Quebec City]]
+<!-- -->
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Miami International Airport|Miami]]
+<!-- -->
+| {{nowrap|[[Delta Air Lines]]}} | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+| {{nowrap|[[Mexicana de Aviación (2023–present)|Mexicana de Aviación]]}} | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]]
+<!-- -->
+| [[United Airlines]] | [[George Bush Intercontinental Airport |Houston–Intercontinental]]<br>'''Seasonal:''' [[Newark Liberty International Airport|Newark]]
+<!-- -->
+| [[Viva (airline)|Viva]] | [[Felipe Ángeles International Airport|Mexico City–Felipe Ángeles]], [[Monterrey International Airport|Monterrey]]
+<!-- -->
+| [[Volaris]] | [[Guadalajara International Airport|Guadalajara]]
+<!-- -->
+| [[WestJet]] | '''Seasonal:''' [[Calgary International Airport|Calgary]], [[Montréal–Trudeau International Airport|Montréal–Trudeau]], [[Toronto Pearson International Airport|Toronto–Pearson]]
+}}
+
+=== Destination maps ===
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|{{Location map+|Mexico|width=650|float=right|caption=Domestic destinations from Tulum International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | Mexico|lat=20.216667 |long=-87.466667| position=left|label=<div style="position:relative; top:-5px;"><small>'''Tulum'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ | Mexico|lat=19.756667 |long=-99.015278|position=top|label='''[[Felipe Ángeles International Airport|{{nowrap|Mexico City–AIFA}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ |  mark = Red pog.svg | Mexico|lat=19.4361 |long=-99.0719|position=bottom|label='''[[Mexico City International Airport|{{nowrap|Mexico City}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico| lat=25.778333 |long=-100.106389|position=bottom|label='''[[Monterrey International Airport|{{nowrap|Monterrey}}]]'''|label_size=90 |marksize=7 }}
+{{Location map~ | Mexico|lat=20.5260 |long=-103.3076|position=bottom|label='''[[Guadalajara International Airport|{{nowrap|Guadalajara}}]]'''|label_size=90 |marksize=7 }}}}
+|-
+|{{Location map+|North_America|width=650|float=center|caption=North, Central and South American destinations from Tulum International Airport <br /> {{font color | red | Red}} = Year-round destination <br /> {{font color | blue | Blue}} = Future destination <br /> {{font color | green | Green}} = Seasonal destination|places={{Location map~ | North America|lat=20.216667 |long=-87.466667| position=left|label=<div style="position:relative; top:-5px;"><small>'''Tulum'''</small></div>|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+{{Location map~ |  mark = Red pog.svg  | North_America |lat=33.636667|long=-84.428056|position=right|label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |  mark = Red pog.svg  | North_America |lat=32.896944|long=-97.038056|position=top|label='''<small>[[Dallas Fort Worth International Airport|Dallas/Fort Worth]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |  mark = Red pog.svg  | North_America |lat=29.984444|long=-95.341389|position=right|label='''<small>[[George Bush Intercontinental Airport|Houston–Intercontinental]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |  mark = Red pog.svg  | North_America |lat=25.793333|long=-80.290556|position=bottom|label='''<small>[[Miami International Airport|Miami]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | North_America | mark = Green pog.svg  |lat=40.6925|long=-74.168611|position=left|label='''<small>[[Newark Liberty International Airport|Newark]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg   | North_America |lat=43.676667|long=-79.630556|position=right|label='''<small>[[Toronto Pearson International Airport|{{nowrap|Toronto–Pearson}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg   | North_America |lat=45.470556|long=-73.740833|position=right|label='''<small>[[Montréal–Trudeau International Airport|{{nowrap|Montréal–Trudeau}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ | mark = Green pog.svg   | North_America |lat=51.1225|long=-114.013333|position=right|label='''<small>[[Calgary International Airport|{{nowrap|Calgary}}]]</small>'''|label_size=100 |marksize=7 }}
+{{Location map~ |  mark = Green pog.svg  | North_America |lat=46.791111|long=-71.393333|position=top|label='''<small>[[Québec City Jean Lesage International Airport|Quebec City]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|}

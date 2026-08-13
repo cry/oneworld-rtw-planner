@@ -1,0 +1,66 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+The following airlines operate scheduled and charter services in Bergamo:
+
+{{Airport destination list
+<!-- -->
+| [[Aeroitalia]] | [[Foggia Gino Lisa Airport|Foggia]] <br/> '''Seasonal:''' [[Catania-Fontanarossa Airport|Catania]]
+<!-- -->
+| [[Air Arabia]] | [[Cairo International Airport|Cairo]], [[Mohammed V International Airport|Casablanca]],{{cn|date=July 2026}} [[Fes–Saïss Airport|Fès]] <br/> '''Seasonal:''' [[Borg El Arab Airport|Alexandria]]
+<!-- -->
+| [[Air Cairo]] | [[Sharm El Sheikh International Airport|Sharm El Sheikh]]{{cn|date=July 2026}}
+<!-- -->
+| [[Air Nostrum]] | '''Seasonal charter:''' [[Palma de Mallorca Airport|Palma de Mallorca]]{{cn|date=July 2026}}
+<!-- -->
+| [[AJet]] | [[Istanbul–Sabiha Gökçen]]{{cn|date=July 2026}}
+<!-- -->
+| [[Bluebird Airways]] | '''Seasonal:''' [[David Ben Gurion International Airport|Tel Aviv]]{{cn|date=July 2026}}
+<!-- -->
+| {{nowrap|[[Cabo Verde Airlines]]}} | [[Amílcar Cabral International Airport|Sal]]{{cn|date=July 2026}}
+<!-- -->
+| [[Corendon Airlines]] | '''Seasonal charter:''' [[İzmir Adnan Menderes Airport|İzmir]]{{cn|date=July 2026}}
+<!-- -->
+| [[Dan Air (Romania)|Dan Air]] | [[George Enescu International Airport|Bacău]]{{cn|date=July 2026}}
+<!-- -->
+| [[Eurowings]] | [[Düsseldorf Airport|Düsseldorf]]{{cn|date=July 2026}}
+<!-- -->
+| [[flyadeal]] | '''Seasonal:''' [[King Abdulaziz International Airport|Jeddah]], [[King Khalid International Airport|Riyadh]]
+<!-- -->
+| [[flydubai]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[FlyOne]] | [[Zvartnots International Airport|Yerevan]]
+<!-- -->
+| [[Georgian Airways]] | [[Tbilisi International Airport|Tbilisi]]{{cn|date=July 2026}}
+<!-- -->
+| [[HiSky]] | [[Chișinău International Airport|Chișinău]]
+<!-- -->
+| [[Israir]] | [[David Ben Gurion International Airport|Tel Aviv]]{{cn|date=July 2026}}
+<!-- -->
+| [[Jazeera Airways]] | [[Kuwait International Airport|Kuwait City]]
+<!-- -->
+| [[Neos (airline)|Neos]] | [[Blaise Diagne International Airport|Dakar–Diass]] <br/>  '''Seasonal:''' [[Aristides Pereira International Airport|Boa Vista]],{{cn|date=July 2026}} [[Cagliari Elmas Airport|Cagliari]],{{cn|date=July 2026}} [[Catania–Fontanarossa Airport|Catania]], [[Heraklion International Airport|Heraklion]], [[Ibiza Airport|Ibiza]], [[Karpathos Island National Airport|Karpathos]], [[Kos International Airport|Kos]], [[Marsa Alam International Airport|Marsa Alam]], [[Menorca Airport|Menorca]], [[Amílcar Cabral International Airport|Sal]],{{cn|date=July 2026}} [[Sharm El Sheikh International Airport|Sharm El Sheikh]]
+<!-- -->
+| [[Nile Air]] | [[Cairo International Airport|Cairo]]{{cn|date=July 2026}}
+<!-- -->
+| {{nowrap|[[Norwegian Air Shuttle]]}} | [[Copenhagen Airport|Copenhagen]],{{cn|date=July 2026}} [[Helsinki Airport|Helsinki]],{{cn|date=July 2026}} [[Oslo Airport, Gardermoen|Oslo]]{{cn|date=July 2026}} <br/> '''Seasonal:''' [[Bergen Airport, Flesland|Bergen]],{{cn|date=July 2026}} [[Billund Airport|Billund]], [[Harstad/Narvik Airport, Evenes|Harstad/Narvik]], [[Stavanger Airport|Stavanger]],{{cn|date=July 2026}} [[Tromsø Airport|Tromsø]]{{cn|date=July 2026}}
+<!-- -->
+| [[Pegasus Airlines]] | [[Istanbul–Sabiha Gökçen]]{{cn|date=July 2026}}
+<!-- -->
+| [[Ryanair]] | [[Agadir–Al Massira Airport|Agadir]], [[Alghero–Fertilia Airport|Alghero]], [[Alicante–Elche Miguel Hernández Airport|Alicante]], [[Queen Alia International Airport|Amman–Queen Alia]], [[Athens International Airport|Athens]], [[Josep Tarradellas Barcelona–El Prat Airport|Barcelona]], [[Bari Karol Wojtyła Airport|Bari]], [[Beauvais-Tillé Airport|Beauvais]], [[Beni Mellal Airport|Beni Mellal]], [[Berlin Brandenburg Airport|Berlin]],{{cn|date=July 2026}} [[Birmingham Airport|Birmingham]], [[Brindisi Airport|Brindisi]], [[Bristol Airport|Bristol]],{{cn|date=July 2026}} [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Budapest Ferenc Liszt International Airport|Budapest]], [[Cagliari Elmas Airport|Cagliari]], [[Catania-Fontanarossa Airport|Catania]], [[Brussels South Charleroi Airport|Charleroi]],{{cn|date=July 2026}} [[Cluj-Napoca International Airport|Cluj-Napoca]],{{cn|date=July 2026}} [[Cologne Bonn Airport|Cologne/Bonn]], [[Copenhagen Airport|Copenhagen]], [[Crotone Airport|Crotone]],{{cn|date=July 2026}} [[Dublin Airport|Dublin]], [[East Midlands Airport|East Midlands]],{{cn|date=July 2026}} [[Edinburgh Airport|Edinburgh]],{{cn|date=July 2026}} [[Eindhoven Airport|Eindhoven]], [[Gago Coutinho Airport|Faro]],{{cn|date=July 2026}} [[Fes–Saïss Airport|Fès]],{{cn|date=July 2026}} [[Fuerteventura Airport|Fuerteventura]], [[Gdańsk Airport|Gdańsk]],{{cn|date=July 2026}} [[Gran Canaria Airport|Gran Canaria]], [[Helsinki Airport|Helsinki]], [[Iași International Airport|Iași]],{{cn|date=July 2026}} [[Kaunas Airport|Kaunas]],{{cn|date=July 2026}} [[Kraków John Paul II International Airport|Kraków]], [[Lamezia Terme International Airport|Lamezia Terme]], [[Lanzarote Airport|Lanzarote]], [[Humberto Delgado Airport|Lisbon]], [[Liverpool John Lennon Airport|Liverpool]], [[London–Stansted]],{{cn|date=July 2026}} [[Tarbes–Lourdes–Pyrénées Airport|Lourdes]], [[Lublin Airport|Lublin]],{{cn|date=July 2026}} [[Luxembourg Airport|Luxembourg]], [[Adolfo Suárez Madrid–Barajas Airport|Madrid]], [[Málaga Airport|Málaga]],{{cn|date=July 2026}} [[Malta International Airport|Malta]], [[Manchester Airport|Manchester]],{{cn|date=July 2026}} [[Marrakesh Menara Airport|Marrakesh]],{{cn|date=July 2026}} [[Marseille Provence Airport|Marseille]], [[Naples International Airport|Naples]], [[Newcastle International Airport|Newcastle upon Tyne]], [[Olbia Costa Smeralda Airport|Olbia]], [[Falcone Borsellino Airport|Palermo]], [[Palma de Mallorca Airport|Palma de Mallorca]], [[Paphos International Airport|Paphos]], [[Francisco de Sá Carneiro Airport|Porto]],{{cn|date=July 2026}} [[Poznań–Ławica Airport|Poznan]], [[Václav Havel Airport Prague|Prague]],{{cn|date=July 2026}} [[Rabat Airport|Rabat]], [[Reggio Calabria Airport|Reggio Calabria]] (begins 25 October 2026), [[Riga International Airport|Riga]], [[Rovaniemi Airport|Rovaniemi]],{{cn|date=July 2026}} [[Salerno Costa d'Amalfi Airport|Salerno]], [[Sandefjord Airport|Sandefjord]], [[San Pablo Airport|Seville]], [[Sofia Airport|Sofia]],{{cn|date=July 2026}} [[Stockholm–Arlanda]],{{cn|date=July 2026}} [[Tangier Ibn Battouta Airport|Tangier]],{{cn|date=July 2026}} [[Tenerife South Airport|Tenerife–South]],{{cn|date=July 2026}} [[Thessaloniki Airport|Thessaloniki]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Toulouse–Blagnac Airport|Toulouse]], [[Trapani-Birgi Airport|Trapani]], [[Valencia Airport|Valencia]], [[Vienna Airport|Vienna]], [[Vilnius Airport|Vilnius]], [[Vitoria Airport|Vitoria]], [[Warsaw Modlin Airport|Warsaw–Modlin]], [[Wrocław Airport|Wrocław]],{{cn|date=July 2026}} [[Zagreb Airport|Zagreb]], [[Zaragoza Airport|Zaragoza]] <br/> '''Seasonal:''' [[Belfast–International]],{{cn|date=July 2026}} [[Biarritz Airport|Biarritz]],{{cn|date=July 2026}} [[Brno Airport|Brno]],{{cn|date=July 2026}} [[Castellón–Costa Azahar Airport|Castellón]],{{cn|date=July 2026}} [[Chania International Airport|Chania]], [[Corfu International Airport|Corfu]], [[Dubrovnik Airport|Dubrovnik]], [[Heraklion International Airport|Heraklion]], [[Ibiza Airport|Ibiza]], [[Kalamata International Airport|Kalamata]], [[Kefalonia International Airport|Kefalonia]], [[Ireland West Airport|Knock]], [[Lemnos International Airport|Lemnos]], [[Łódź Władysław Reymont Airport|Łódź]],{{cn|date=July 2026}} [[Menorca Airport|Menorca]],{{cn|date=July 2026}} [[Aktion National Airport|Preveza]], [[Rhodes International Airport|Rhodes]], [[Santorini (Thira) International Airport|Santorini]], [[Sarajevo Airport|Sarajevo]], [[Skiathos International Airport|Skiathos]],{{cn|date=July 2026}} [[Weeze Airport|Weeze]],{{cn|date=July 2026}} [[Zadar Airport|Zadar]],{{cn|date=July 2026}} [[Zakynthos International Airport|Zakynthos]]{{cn|date=July 2026}}
+<!-- -->
+| [[Sky Alps]] | [[Mostar International Airport|Mostar]]{{cn|date=July 2026}}
+<!-- -->
+| [[TUS Airways]] | [[David Ben Gurion Airport|Tel Aviv]]
+<!-- -->
+|[[Volotea]]|[[Asturias Airport|Asturias]], [[Nantes Atlantique Airport|Nantes]] <br/> '''Seasonal:''' [[Olbia Costa Smeralda Airport|Olbia]]
+<!-- -->
+| [[Wizz Air]]|[[Belgrade Nikola Tesla Airport|Belgrade]], [[Aurel Vlaicu International Airport|Bucharest–Băneasa]], [[Henri Coandă International Airport|Bucharest–Otopeni]], [[Chișinău Eugen Doga International Airport|Chișinău]],{{cn|date=July 2026}} [[Cluj International Airport|Cluj-Napoca]], [[Craiova International Airport|Craiova]], [[Iași International Airport|Iași]], [[Oradea International Airport|Oradea]], [[Sibiu International Airport|Sibiu]],{{cn|date=July 2026}} [[Skopje International Airport|Skopje]], [[Sofia Airport|Sofia]], [[Suceava Ștefan cel Mare International Airport|Suceava]], [[Târgu Mureș International Airport|Târgu Mureș]], [[Timișoara Traian Vuia International Airport|Timișoara]], [[Tirana International Airport Nënë Tereza|Tirana]], [[Varna Airport|Varna]], [[Warsaw–Chopin]], [[Warsaw Modlin Airport|Warsaw–Modlin]]
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| {{nowrap|[[UPS Airlines]]}} | [[Cologne Bonn Airport|Cologne/Bonn]]
+<!-- -->
+}}

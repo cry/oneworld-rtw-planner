@@ -1,0 +1,33 @@
+== Airlines and destinations ==
+=== Passenger ===
+{{As of|2025|8}}, Fresno Yosemite International Airport has non-stop passenger flights scheduled to 13 domestic and 3 international destinations in Mexico, operated by 8 airlines.
+<!-- Do not add or remove routes without giving a valid source. Exact dates are mandatory for new routes to be added. Add inline citations if possible. -->
+{{Airport destination list |3rdcoltitle={{Abbr|Refs.|References}} |3rdcolunsortable=yes
+<!-- -->
+| [[Aeroméxico]] | [[Guadalajara International Airport|Guadalajara]] | 
+<!-- -->
+| [[Alaska Airlines]] | [[Portland International Airport|Portland (OR)]], [[San Diego International Airport|San Diego]], [[Seattle–Tacoma International Airport|Seattle/Tacoma]]|  
+<!-- -->
+| [[Allegiant Air]] | [[Harry Reid International Airport|Las Vegas]]<br>'''Seasonal:''' [[Portland International Airport|Portland (OR)]] | 
+<!-- -->
+| [[American Airlines]] | [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] | 
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] |  
+<!-- -->
+| [[Delta Connection]] | [[Salt Lake City International Airport|Salt Lake City]] |  
+<!-- -->
+| {{nowrap|[[Southwest Airlines]]}} |[[Denver International Airport|Denver]], [[Harry Reid International Airport|Las Vegas]], [[San Diego International Airport|San Diego]]<br>'''Seasonal:''' [[Dallas Love Field|Dallas–Love]] | 
+<!-- -->
+| [[United Airlines]] | [[Denver International Airport|Denver]]<br>'''Seasonal:''' [[O'Hare International Airport|Chicago–O'Hare]] | 
+<!-- -->
+| [[United Express]] | [[Denver International Airport|Denver]], [[Los Angeles International Airport|Los Angeles]], [[San Francisco International Airport|San Francisco]] | 
+<!-- --> 
+| [[Volaris]] | [[Guadalajara International Airport|Guadalajara]], [[Bajío International Airport|León/El Bajío]], [[General Francisco Mujica International Airport|Morelia]] |  }}
+
+=== Cargo ===
+{{Airport destination list
+|3rdcoltitle={{Abbr|Refs.|References}}|3rdcolunsortable=yes
+| [[Ameriflight]] | [[Hollywood Burbank Airport|Burbank]], [[Ontario International Airport|Ontario]], [[Santa Maria Public Airport|Santa Maria]] | 
+| [[FedEx Express]] | [[Denver International Airport|Denver]], [[Grand Junction Regional Airport|Grand Junction]], [[Memphis International Airport|Memphis]], [[Oakland San Francisco Bay Airport|Oakland]], [[Tulsa International Airport|Tulsa]], [[Visalia Municipal Airport|Visalia]] | 
+| [[UPS Airlines]] | [[Louisville International Airport|Louisville]], [[Ontario International Airport|Ontario]] | 
+}}

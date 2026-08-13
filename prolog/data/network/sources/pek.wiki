@@ -1,0 +1,74 @@
+==Airlines and destinations==
+===Passenger===
+<!-- For each new route or each end date for a route, provide a source. A firm date must be provided when adding a new route. In addition, add the route and link on the corresponding airport's article and the airline's article if it is a new destination. Anything unsourced will be removed. -->
+{{Airport destination list
+<!-- -->
+| [[Air Canada]] | [[Vancouver International Airport|Vancouver]]
+<!-- -->
+| [[Air China]] | This list is incomplete, there are several missing destinations including the USA [[Almaty International Airport|Almaty]],{{cn|date=July 2026}} [[Zayed International Airport|Abu Dhabi]],{{cn|date=July 2026}} [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Baotou Donghe International Airport|Baotou]], [[Bayannur Tianjitai Airport|Bayannur]], [[Manas International Airport|Bishkek]], [[Brussels Airport|Brussels]], [[Bucharest Henri Coandă International Airport|Bucharest–Otopeni]] (resumes 4 September 2026), [[Cairo International Airport|Cairo]], [[Copenhagen Airport|Copenhagen]] (begins 26 October 2026), [[Dandong Langtou Airport|Dandong]], [[Indira Gandhi International Airport|Delhi–Indira Gandhi]], [[Hazrat Shahjalal International Airport|Dhaka]],{{cn|date=July 2026}} [[Dunhuang Mogao International Airport|Dunhuang]], [[Ganzhou Huangjin Airport|Ganzhou]], [[Hanzhong Chenggu Airport|Hanzhong]], [[Noi Bai International Airport|Hanoi]],{{cn|date=July 2026}} [[José Martí International Airport|Havana]], [[Hengyang Nanyue Airport|Hengyang]], [[Hohhot Baita International Airport|Hohhot]], [[Hong Kong International Airport|Hong Kong]], [[Huangshan Tunxi International Airport|Huangshan]], [[International Airport Irkutsk|Irkutsk]],{{cn|date=July 2026}} [[Istanbul Airport|Istanbul]],{{cn|date=July 2026}} [[Jiamusi Dongjiao Airport|Jiamusi]], [[Jiuzhai Huanglong Airport|Jiuzhaigou]], [[Lianyungang Huaguoshan Airport|Lianyungang]], [[Lishui Airport|Lishui]], [[Liupanshui Yuezhao Airport|Liupanshui]], [[Liuzhou Bailian Airport|Liuzhou]], [[London–Gatwick]],{{cn|date=July 2026}} [[Munich Airport|Munich]], [[Phuket Airport|Phuket]] (begins 25 October 2026), [[Pyongyang International Airport|Pyongyang]], [[Quzhou Airport|Quzhou]], [[King Khalid International Airport|Riyadh]],{{cn|date=July 2026}} [[Keflavík Airport|Reykjavik-Keflavík]] (begins 26 October 2026), [[San Francisco International Airport|San Francisco]],{{cn|date=July 2026}} [[São Paulo/Guarulhos International Airport|São Paulo–Guarulhos]],{{cn|date=July 2026}} [[Suifenhe Dongning Airport|Suifenhe]], [[Islam Karimov Tashkent International Airport|Tashkent]],{{cn|date=July 2026}} [[Tongliao Airport|Tongliao]], [[Toronto–Pearson]], [[Marco Polo Airport|Venice]], [[Vladivostok International Airport|Vladivostok]],{{cn|date=July 2026}} [[Washington–Dulles]],{{cn|date=July 2026}} [[Zagreb Airport|Zagreb]] (begins 4 September 2026)
+<!-- -->
+| [[Air France]] | [[Paris–Charles de Gaulle]]{{cn|date=July 2026}}
+<!-- -->
+| [[All Nippon Airways]] | [[Tokyo–Haneda]]
+<!-- -->
+| [[Asiana Airlines]] | [[Gimpo International Airport|Seoul–Gimpo]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| [[Azerbaijan Airlines]] | [[Heydar Aliyev International Airport|Baku]]{{cn|date=July 2026}}
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[China Airlines]] | [[Taipei–Taoyuan]]
+<!-- -->
+| [[China Eastern Airlines]] | [[Shanghai Pudong International Airport|Shanghai–Pudong]]{{cn|date=July 2026}}
+<!-- -->
+| [[Dalian Airlines]] | [[Dalian Zhoushuizi International Airport|Dalian]],{{cn|date=July 2026}}[[Xiamen Gaoqi International Airport|Xiamen]],{{cn|date=July 2026}} [[Xi'an Xianyang International Airport|Xi'an]]{{cn|date=July 2026}}
+<!-- -->
+| [[EVA Air]] | [[Taipei–Taoyuan]]
+<!-- -->
+| [[Grand China Air]] | [[Anqing Tianzhushan Airport|Anqing]], [[Jiujiang Lushan Airport|Jiujiang]]
+<!-- -->
+| [[Hainan Airlines]] | [[Altay Xuedu Airport|Altay]], [[Berlin Brandenburg Airport|Berlin]], [[Logan International Airport|Boston]], [[Dublin Airport|Dublin]],{{cn|date=July 2026}} [[Edinburgh Airport|Edinburgh]],{{cn|date=July 2026}} [[International Airport Irkutsk|Irkutsk]],{{cn|date=July 2026}} [[Jixi Xingkaihu Airport|Jixi]], [[Kashgar Laining International Airport|Kashgar]], [[Langzhong Gucheng Airport|Langzhong]], [[Longnan Chengxian Airport|Longnan]], [[Mexico City International Airport|Mexico City–Benito Juárez]],{{cn|date=July 2026}} [[Nanning Wuxu International Airport|Nanning]], [[Oslo Airport, Gardermoen|Oslo]],{{cn|date=July 2026}} [[Václav Havel Airport Prague|Prague]], [[Qianjiang Wulingshan Airport|Qianjiang]], [[Pulkovo Airport|Saint Petersburg]],{{cn|date=July 2026}} [[Seattle/Tacoma]], [[David Ben Gurion International Airport|Tel Aviv]], [[Tijuana International Airport|Tijuana]],{{cn|date=July 2026}} [[Toronto–Pearson]],{{cn|date=July 2026}} [[Vladivostok International Airport|Vladivostok]],{{cn|date=July 2026}} [[Wuhu Xuanzhou Airport|Wuhu]], [[Yueyang Sanhe Airport|Yueyang]], [[Yulin Fumian Airport|Yulin (Guangxi)]], [[Zhangye Ganzhou Airport|Zhangye]]
+<!-- -->
+| [[Hong Kong Airlines]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[Iraqi Airways]] | [[Basra International Airport|Basra]]{{cn|date=July 2026}}
+<!-- -->
+| [[Japan Airlines]] | [[Haneda Airport|Tokyo–Haneda]]
+<!-- -->
+| [[Korean Air]] | [[Gimhae International Airport|Busan]], [[Jeju International Airport|Jeju]], [[Gimpo International Airport|Seoul–Gimpo]], [[Incheon International Airport|Seoul–Incheon]]
+<!-- -->
+| {{nowrap|[[Pakistan International Airlines]]}} | [[Islamabad International Airport|Islamabad]]
+<!-- -->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]]{{cn|date=July 2026}}
+<!-- -->
+| [[Shenzhen Airlines]] | [[Chengdu–Tianfu]], [[Guangzhou Baiyun International Airport|Guangzhou]], [[Nanning Wuxu International Airport|Nanning]], [[Quanzhou Jinjiang International Airport|Quanzhou]]
+<!-- -->
+| [[Sichuan Airlines]] | [[Kashgar Laining International Airport|Kashgar]], [[Mianyang Nanjiao Airport|Mianyang]], [[Xishuangbanna Gasa International Airport|Xishuangbanna]], [[Yibin Wuliangye Airport|Yibin]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Spring Airlines Japan]] | [[Tokyo–Narita]]{{cn|date=July 2026}}
+<!-- -->
+| [[Thai Airways International]] | [[Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]],
+<!-- -->
+| [[Turkmenistan Airlines]] | [[Ashgabat International Airport|Ashgabat]]{{cn|date=July 2026}}
+<!-- -->
+| [[United Airlines]] | [[Los Angeles International Airport|Los Angeles]],{{cn|date=July 2026}} [[San Francisco International Airport|San Francisco]]
+<!-- -->
+| [[Vietnam Airlines]] | [[Noi Bai International Airport|Hanoi]]
+<!-- -->
+| [[Xizang Airlines]]| [[Chengdu–Shuangliu]], [[Qamdo Bamda Airport|Qamdo]]
+}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[Air China Cargo]] | [[Glasgow Prestwick Airport|Glasgow–Prestwick]], [[Munich Airport|Munich]],
+<!-- -->
+| [[Etihad Airways|Etihad Cargo]] | [[Almaty International Airport|Almaty]]
+<!-- -->
+| [[FedEx Express]] | [[Paris–Charles de Gaulle]]
+<!-- -->
+}}

@@ -1,0 +1,282 @@
+==Airlines and destinations==
+===Passenger===
+<!-- Please use only independent sources. The airport and airlines itself are not independent sources. -->
+{{Airport destination list|
+{{nowrap|[[Aer Lingus]]}} | [[Dublin Airport|Dublin]]
+<!-- -->
+| {{nowrap|[[Aeroméxico]]}} | '''Seasonal:''' [[Cancún International Airport|Cancún]]
+<!-- -->
+| {{nowrap|[[Aeroméxico Connect]]}} | [[Mexico City International Airport|Mexico City–Benito Juárez]]
+<!-- -->
+| {{nowrap|[[Air Canada]]}} | '''Seasonal:''' [[Toronto–Pearson]]
+<!-- -->
+| {{nowrap|[[Air Canada Express]]}} | [[Montréal–Trudeau]], [[Toronto–Pearson]]
+<!-- -->
+|[[Air Canada Rouge]]|'''Seasonal:''' [[Vancouver International Airport|Vancouver]] (begins May 1, 2027)
+| [[Air France]] | [[Paris–Charles de Gaulle]]
+<!-- -->
+| [[Alaska Airlines]] | [[San Diego International Airport|San Diego]], [[Seattle/Tacoma]]
+<!-- -->
+| [[American Airlines]] | [[Charlotte Douglas International Airport|Charlotte]], [[Chicago–O'Hare]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[London–Heathrow]], [[Los Angeles International Airport|Los Angeles]], [[Miami International Airport|Miami]], [[Philadelphia International Airport|Philadelphia]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]] <br/> '''Seasonal:''' [[Cancún International Airport|Cancún]], [[New York–LaGuardia]], [[Punta Cana International Airport|Punta Cana]], [[Washington–National]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Chicago–O'Hare]], [[Nashville International Airport|Nashville]], [[New York–JFK]], [[New York–LaGuardia]], [[Philadelphia International Airport|Philadelphia]], [[Pittsburgh International Airport|Pittsburgh]], [[Washington–National]] <br/> '''Seasonal:''' [[Miami International Airport|Miami]]
+<!-- -->
+| [[Avelo Airlines]] | [[Tweed New Haven Airport|New Haven]], [[Greater Rochester International Airport|Rochester (NY)]]
+<!-- -->
+|[[BermudAir]] | '''Seasonal:''' [[Philip S. W. Goldson International Airport|Belize City]], [[Providenciales International Airport|Providenciales]] (both begin December 20, 2026)
+<!-- -->
+| [[Breeze Airways]] | [[Akron–Canton Airport|Akron/Canton]], [[Albany International Airport|Albany]], [[Atlantic City International Airport|Atlantic City]], [[Birmingham–Shuttlesworth International Airport|Birmingham (AL)]], [[Patrick Leahy Burlington International Airport|Burlington (VT)]], [[John Glenn Columbus International Airport|Columbus–Glenn]], [[Dayton International Airport|Dayton]] (begins November 6, 2026), [[Daytona Beach International Airport|Daytona Beach]], [[Southwest Florida International Airport|Fort Myers]], [[Bradley International Airport|Hartford]], [[Jacksonville International Airport|Jacksonville (FL)]], [[Key West International Airport|Key West]], [[Long Island MacArthur Airport|Long Island/Islip]], [[Louisville Muhammad Ali International Airport|Louisville]], [[Manchester–Boston Regional Airport|Manchester (NH)]], [[Memphis International Airport|Memphis]], [[Stewart International Airport|Newburgh]], [[Tweed New Haven Airport|New Haven]], [[Louis Armstrong New Orleans International Airport|New Orleans]], [[Ogdensburg International Airport|Ogdensburg]], [[Orlando International Airport|Orlando]], [[Pensacola International Airport|Pensacola]], [[Pittsburgh International Airport|Pittsburgh]], [[Portland International Jetport|Portland (ME)]], [[Portsmouth International Airport at Pease|Portsmouth]], [[Rhode Island T. F. Green International Airport|Providence]], [[Provo Municipal Airport|Provo]] (begins October 2, 2026), [[Greater Rochester International Airport|Rochester (NY)]], [[San Antonio International Airport|San Antonio]], [[Tallahassee International Airport|Tallahassee]], [[Tampa International Airport|Tampa]], [[Vero Beach Regional Airport|Vero Beach]], [[Palm Beach International Airport|West Palm Beach]], [[Westchester County Airport|White Plains]] <br/> '''Seasonal:''' [[Bangor International Airport|Bangor]], [[Dane County Regional Airport|Madison]], [[John Wayne Airport|Orange County]], [[Punta Cana International Airport|Punta Cana]], [[San Diego International Airport|San Diego]], [[Sarasota–Bradenton International Airport|Sarasota]], [[Syracuse Hancock International Airport|Syracuse]] 
+<!-- -->
+| [[Copa Airlines]] | [[Tocumen International Airport|Panama City–Tocumen]]
+<!-- -->
+| [[Delta Air Lines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Logan International Airport|Boston]], [[Detroit Metropolitan Airport|Detroit]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Harry Reid International Airport|Las Vegas]], [[Los Angeles International Airport|Los Angeles]], [[Miami International Airport|Miami]], [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]], [[New York–LaGuardia]], [[Orlando International Airport|Orlando]], [[Salt Lake City International Airport|Salt Lake City]], [[Seattle/Tacoma]], [[Tampa International Airport|Tampa]] <br/> '''Seasonal:''' [[Cancún International Airport|Cancún]], [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| [[Delta Connection]] | [[Austin–Bergstrom International Airport|Austin]], [[Cincinnati/Northern Kentucky International Airport|Cincinnati]], [[Southwest Florida International Airport|Fort Myers]] (resumes November 21, 2026), [[Indianapolis International Airport|Indianapolis]], [[Kansas City International Airport|Kansas City]], [[Nashville International Airport|Nashville]], [[New York–JFK]], [[New York–LaGuardia]], [[Newark Liberty International Airport|Newark]], [[Orlando International Airport|Orlando]], [[Washington–National]]
+<!-- -->
+| [[Frontier Airlines]] | [[Hartsfield–Jackson Atlanta International Airport|Atlanta]], [[Logan International Airport|Boston]], [[Chicago–O'Hare]], [[Cleveland Hopkins International Airport|Cleveland]], [[Dallas Fort Worth International Airport|Dallas/Fort Worth]], [[Denver International Airport|Denver]], [[Detroit Metropolitan Airport|Detroit]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Harry Reid International Airport|Las Vegas]], [[Miami International Airport|Miami]], [[New York–LaGuardia]], [[Orlando International Airport|Orlando]], [[Philadelphia International Airport|Philadelphia]], [[Luis Muñoz Marín International Airport|San Juan]], [[Tampa International Airport|Tampa]] <br/> '''Seasonal:''' [[Buffalo Niagara International Airport|Buffalo]], [[Cancún International Airport|Cancún]], [[Houston–Intercontinental]]
+<!-- -->
+| [[Icelandair]] | [[Keflavík International Airport|Reykjavík–Keflavík]]
+<!-- -->
+| [[JetBlue]] | [[Logan International Airport|Boston]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[New York–JFK]], [[Luis Muñoz Marín International Airport|San Juan]]
+<!-- -->
+| [[Lufthansa]] | [[Frankfurt Airport|Frankfurt]]
+<!-- -->
+| [[Southwest Airlines]] | [[Austin–Bergstrom International Airport|Austin]], [[Baltimore/Washington International Airport|Baltimore]], [[Chicago–Midway]], [[Dallas Love Field|Dallas–Love]], [[Denver International Airport|Denver]], [[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]], [[Houston–Hobby]], [[Kansas City International Airport|Kansas City]], [[Harry Reid International Airport|Las Vegas]], [[Nashville International Airport|Nashville]], [[Louis Armstrong New Orleans International Airport|New Orleans]], [[Orlando International Airport|Orlando]], [[Phoenix Sky Harbor International Airport|Phoenix–Sky Harbor]], [[St. Louis Lambert International Airport|St. Louis]], [[Tampa International Airport|Tampa]]
+<!-- -->
+| {{nowrap|[[Sun Country Airlines]]}} | '''Seasonal:''' [[Minneapolis–Saint Paul International Airport|Minneapolis/St. Paul]]
+<!-- -->
+| [[United Airlines]] | [[Chicago–O'Hare]], [[Denver International Airport|Denver]], [[Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[San Francisco International Airport|San Francisco]], [[Washington–Dulles]]
+<!-- -->
+| [[United Express]] | [[Houston–Intercontinental]], [[Newark Liberty International Airport|Newark]], [[Washington–Dulles]] <br/> '''Seasonal:''' [[Chicago–O'Hare]]
+
+| }}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations maps
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=Domestic destinations from RDU (excludes Northeast U.S., and U.S. territories). {{font color | red | Red}} dots represent year-round destinations; {{font color | green | green}} dots represent seasonal destinations; {{font color | blue | blue}} dots represent future destinations.
+|places=
+{{Location map~ |United_States||lat=35.877778|long=-78.7875|position=right|label='''<small>RDU</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056|position=top|label='''<small>[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=30.221078|long=-97.659881|position=left|label='''<small>[[Austin–Bergstrom International Airport|Austin]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=41.411667|long=-81.849722|position=right|label='''<small>[[Cleveland Hopkins International Airport|Cleveland]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=39.9999|long=-82.8872|position=top|label='''<small>[[John Glenn Columbus International Airport|Columbus–Glenn]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=32.896944|long=-97.038056|position=left|label='''<small>[[Dallas Fort Worth International Airport|Dallas/<br>Fort Worth]]</small>'''|label_size=100 |marksize=7}}
+
+{{Location map~ |United_States |lat=32.847222|long=-96.851667|position=right|label='''<small>[[Dallas Love Field|Dallas–Love]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=47.450165|long=-122.309176|position=left|label='''<small>{{nowrap|[[Seattle/Tacoma]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=29.993333|long=-90.258056|position=right|label='''<small>[[Louis Armstrong New Orleans International Airport|New Orleans]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=26.536111|long=-81.755278|position=left|label='''<small>[[Southwest Florida International Airport|Fort Myers]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=41.974186|long=-87.907783|position=left|label='''<small>[[Chicago–O'Hare]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=33.941381|long=-118.408619|position=top|label='''<small>[[Los Angeles International Airport|Los Angeles]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=25.795965|long=-80.287326|position=bottom|label='''<small>[[Miami International Airport|Miami]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=27.983366|long=-82.537348|position=left|label='''<small>[[Tampa International Airport|Tampa]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=28.431206|long=-81.308386|position=Right|label='''<small>[[Orlando International Airport|Orlando]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=26.073989|long=-80.150725|position=right|label='''<small>{{nowrap|[[Fort Lauderdale–Hollywood International Airport|Fort Lauderdale]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=29.990140|long=-95.336792|position=right|label='''<small>[[Houston–Intercontinental]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=29.645556|long=-95.278889|position=left|label='''<small>[[Houston–Hobby]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=38.952746|long=-77.457226|position=top|label='''<small>[[Washington–Dulles]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=38.851047|long=-77.040320|position=bottom|label='''<small>[[Washington–National]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=39.177333|long=-76.668650|position=right|label='''<small>[[Baltimore/Washington International Airport|Baltimore]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=32.733611|long=-117.189722|position=left|label='''<small>[[San Diego International Airport|San Diego]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=39.2975|long=-94.713889|position=left|label='''<small>[[Kansas City International Airport|Kansas City]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=42.216112|long=-83.355586|position=left|label='''<small>[[Detroit Metropolitan Airport|Detroit]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=41.786589|long=-87.752356|position=right|label='''<small>[[Chicago–Midway]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=44.884690|long=-93.222430|position=left|label='''<small>[[Minneapolis–Saint Paul International Airport|Minneapolis/ St. Paul]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=36.126288|long=-86.677471|position=right|label='''<small>[[Nashville International Airport|Nashville]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=39.855193|long=-104.673849|position=left|label='''<small>[[Denver International Airport|Denver]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=40.789836|long=-111.979632|position=left|label='''<small>[[Salt Lake City International Airport|Salt Lake City]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=33.436921|long=-112.011667|position=top|label='''<small>[[Phoenix Sky Harbor International Airport|Phoenix–<br>Sky Harbor]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=36.083697|long=-115.153873|position=left|label='''<small>[[Harry Reid International Airport|Las Vegas]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=37.620811|long=-122.380049|position=top|label='''<small>[[San Francisco International Airport|San Francisco]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=35.213889|long=-80.943056|position=right|label='''<small>[[Charlotte Douglas International Airport|Charlotte]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=26.683056|long=-80.095556|position=right|label='''<small>{{nowrap|[[Palm Beach International Airport|West Palm Beach]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=30.494167|long=-81.687778|position=right|label='''<small>[[Jacksonville International Airport|Jacksonville]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=38.747222|long=-90.361389|position=right|label='''<small>[[St. Louis Lambert International Airport|St. Louis]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=39.0256 |long=-84.4004|position=right|label='''<small>[[Cincinnati/Northern Kentucky International Airport|Cincinnati]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=40.5490 |long=-81.2662|position=bottom|label='''<small>[[Akron–Canton Airport|Akron–Canton]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |mark=Green pog.svg |lat=27.2344 |long=-82.3316|position=left|label='''<small>[[Sarasota–Bradenton International Airport|Sarasota]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |mark=Red pog.svg |lat=29.1105 |long=-81.0338|position=right|label='''<small>{{nowrap|[[Daytona Beach International Airport|Daytona Beach]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=39.4302 |long=-86.1740|position=left|label='''<small>[[Indianapolis International Airport|Indianapolis]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=38.1027 |long=-85.4411|position=bottom|label='''<small>[[Louisville Muhammad Ali International Airport|Louisville]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |mark=Red pog.svg |lat=35.0425|long=-89.976667|position=left|label='''<small>{{nowrap|[[Memphis International Airport|Memphis]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=30.473333|long=-87.186667|position=left|label='''<small>{{nowrap|[[Pensacola International Airport|Pensacola]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |mark=Green pog.svg|lat=33.675556|long=-117.868333|position=left|label='''<small>{{nowrap|[[John Wayne Airport|Orange County]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=24.556111|long=-81.759444|position=right|label='''<small>{{nowrap|[[Key West International Airport|Key West]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=27.655556|long=-80.417944|position=right|label='''<small>{{nowrap|[[Vero Beach Regional Airport|Vero Beach]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |mark=Red pog.svg|lat=29.526667|long=-98.471944|position=left|label='''<small>{{nowrap|[[San Antonio International Airport|San Antonio]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |mark=Green pog.svg|lat=43.0824|long=-89.2015|position=top|label='''<small>{{nowrap|[[Dane County Regional Airport|Madison]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=30.396667|long=-84.350278|position=top|label='''<small>{{nowrap|[[Tallahassee International Airport|Tallahassee]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |lat=33.563889|long=-86.752222|position=bottom|label='''<small>{{nowrap|[[Birmingham–Shuttlesworth International Airport|Birmingham]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |mark=Blue pog.svg|lat=40.219194|long=-111.723361|position=left|label='''<small>{{nowrap|[[Provo Municipal Airport|Provo]]}}</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |United_States |mark=Blue pog.svg|lat=39.902222|long=-84.219444|position=left|label='''<small>{{nowrap|[[Dayton International Airport|Dayton]]}}</small>'''|label_size=100 |marksize=7 }}
+}}
+
+|-
+|{{Location map+ |USA Northeast (cropped)|width=500 |float=center
+|caption=Northeast U.S. destinations from RDU. {{font color | red | Red}} dots represent year-round destinations; {{font color | green | green}} dots represent seasonal destinations; {{font color | blue | blue}} dots represent future destinations.
+|places=
+<!-- Any destinations within similar comment brackets is merely hidden. This is so that they no longer show up on the destinations map, but can be easily added again should service to those destinations resume from STL. Simply delete the brackets to show those destinations again. Format reference purposes for future destinations:
+{{Location map~ |United_States |mark=Blue pog.svg|lat=xx.xxxxxx|long=-xx.xxxxxx|position=xxx|label='''<small>[[Destination Page Name|Destination]]</small>'''|label_size=110 |marksize=7 }} -->
+
+{{Location map~ | USA Northeast (cropped) |lat=41.2634 |long=-72.8864 |position=right|label='''<small>[[Tweed New Haven Airport|New Haven]]</small>''' |label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=42.364644|long=-71.010010|position=right|label='''<small>[[Logan International Airport|Boston]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=40.6413   |long=-73.7781    |position=right |label_size=100 |marksize=7  |label='''<small>[[John F. Kennedy International Airport|JFK]]</small>'''}}
+
+{{Location map~ |USA Northeast (cropped) |lat=40.777037|long=-73.874518|position=left|label='''<small>[[LaGuardia]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=40.689333|long=-74.174585|position=bottom|label='''<small>[[Newark Liberty International Airport|Newark]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=39.873918|long=-75.242466|position=right|label='''<small>[[Philadelphia International Airport|Philadelphia]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=40.495728|long=-80.241558|position=right|label='''<small>[[Pittsburgh International Airport|Pittsburgh]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=41.939167|long=-72.683333|position=top|label='''<small>[[Bradley International Airport|Hartford]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=42.7487|long=-73.8055|position=top|label='''<small>[[Albany International Airport|Albany]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=42.932 |long=-71.4356|position=right|label='''<small>[[Manchester–Boston Regional Airport|Manchester]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=43.12|long=-77.67|position=right|label='''<small>[[Greater Rochester International Airport|Rochester]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=40.79|long=-73.1|position=right|label='''<small>[[Long Island MacArthur Airport|Long Island]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |mark=Green pog.svg |lat=42.940556|long=-78.732222|position=right|label='''<small>[[Buffalo Niagara International Airport|Buffalo]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat= 41.72485|long=-71.435|position=right|label='''<small>[[Rhode Island T. F. Green International Airport|Providence]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=41.06619 |long=-73.705|position=right|label='''<small>[[Westchester County Airport|White Plains]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=44.2819 |long=-73.0912|position=right|label='''<small>[[Patrick Leahy Burlington International Airport|Burlington]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |mark=Green pog.svg|lat=43.64 |long=-70.303|position=right|label='''<small>[[Portland International Jetport|Portland]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |mark=Green pog.svg|lat=43.0640|long=-76.0623|position=right|label='''<small>[[Syracuse Hancock International Airport|Syracuse]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=44.681944|long=-75.465556|position=right|label='''<small>[[Ogdensburg International Airport|Ogdensburg]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped)|lat=43.078056|long=-70.823333|position=right|label='''<small>[[Portsmouth International Airport at Pease|Portsmouth]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=41.504167|long=-74.104722|position=top|label='''<small>[[Stewart International Airport|Newburgh]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped)|mark=Green pog.svg|lat=44.807222|long=-68.828056|position=top|label='''<small>[[Bangor International Airport|Bangor]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |USA Northeast (cropped) |lat=39.4575|long=-74.577222|position=right|label='''<small>[[Atlantic City International Airport|Atlantic City]]</small>'''|label_size=100 |marksize=7 }}
+}}
+|-
+
+|{{Location map+ |North America|width=500 |float=center
+|caption=North America destinations from RDU (excludes continental U.S.). {{font color | red | Red}} dots represent year-round destinations; {{font color | green | green}} dots represent seasonal destinations; {{font color | blue | blue}} dots represent future destinations.
+|places=
+
+{{Location map~ |North America||lat=35.877778|long=-78.7875|position=right|label='''<small>RDU</small>'''|caption=|mark=Airplane_silhouette.svg|marksize=15 }}
+
+{{Location map~ |North America |lat=19.2610 |long=-99.0419|position=left|label='''<small>[[Mexico City International Airport|Mexico City–Benito Juárez]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |North America ||lat=43.4036 |long=-79.3750|position=left|label='''<small>[[Toronto–Pearson]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |North America |mark=Green pog.svg|lat=49.1934|long=-123.1751|position=left|label='''<small>[[Vancouver International Airport|Vancouver]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |North America | lat=45.2814 |long=-73.4427|position=right|label='''<small>[[Montréal–Trudeau]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |North America |mark=Green pog.svg |lat=21.0212 |long=-86.5237|position=right|label='''<small>[[Cancún International Airport|Cancún]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |North America |lat= 9.0417 |long=-79.2301|position=left|label='''<small>[[Tocumen International Airport|Panama City–Tocumen]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |North America |lat= 18.2621 |long=-66.0007|position=right|label='''<small>[[Luis Muñoz Marín International Airport|San Juan]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |North America |mark=Green pog.svg |lat= 18.566667|long=-68.351944|position=bottom|label='''<small>[[Punta Cana International Airport|Punta Cana]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |North America |mark=Blue pog.svg |lat= 17.539167|long=-88.308333|position=right|label='''<small>[[Philip S. W. Goldson International Airport|Belize City]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |North America |mark=Blue pog.svg |lat= 21.773611|long=-72.265833|position=top|label='''<small>{{nowrap|[[Providenciales International Airport|Providenciales]]}}</small>'''|label_size=100 |marksize=7 }}
+
+}}
+
+|-
+|{{Location map+ |Europe |width=500 |float=center
+|caption=European destinations from RDU. {{font color | red | Red}} dots represent year-round destinations; {{font color | green | green}} dots represent seasonal destinations; {{font color | blue | blue}} dots represent future destinations.
+|places=
+
+{{Location map~ |Europe |lat= 49.0035|long=2.3252|position=bottom|label='''<small>[[Charles de Gaulle Airport|Paris–<br>Charles<br>de Gaulle]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |Europe |lat= 51.2839 |long=-0.2741|position=top|label='''<small>[[London–Heathrow]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |Europe |lat= 50.0200 |long=8.3414|position=top|label='''<small>[[Frankfurt Airport|Frankfurt]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |Europe |lat= 63.5906 |long=-22.3620|position=right|label='''<small>[[Keflavík International Airport|Reykjavík–Keflavík]]</small>'''|label_size=100 |marksize=7 }}
+
+{{Location map~ |Europe |lat=53.4256 |long=-6.2574|position=left|label='''<small>[[Dublin Airport|Dublin]]</small>'''|label_size=100 |marksize=7 }}
+
+}}
+|}
+
+===Cargo===
+{{Airport destination list | 3rdcoltitle = Refs | 3rdcolunsortable=yes
+<!-- -->
+| [[FedEx Express]]
+|[[Indianapolis International Airport|Indianapolis]], [[Memphis International Airport|Memphis]], [[Piedmont Triad International Airport|Greensboro]]|
+<!-- -->
+| [[FedEx Feeder]] | [[Coastal Carolina Regional Airport|New Bern]], [[Albert J. Ellis Airport|Jacksonville (NC)]], [[Wilmington International Airport|Wilmington (NC)]]
+|<!-- -->
+| [[UPS Airlines]]
+|[[Louisville Muhammad Ali International Airport|Louisville]], [[Dare County Regional Airport|Manteo/Dare County]], [[Coastal Carolina Regional Airport|New Bern]], [[Philadelphia International Airport|Philadelphia]], [[Wilmington International Airport|Wilmington (NC)]]| 
+<!-- -->
+|{{nowrap|[[Quest Diagnostics]]}}
+|[[Concord–Padgett Regional Airport|Concord]], [[Reading Regional Airport|Reading]]|
+}}

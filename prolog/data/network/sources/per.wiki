@@ -1,0 +1,78 @@
+==Airlines and destinations==
+Perth Airport is served by 30 scheduled airlines flying to over 50 destinations in Australia, Oceania, Asia, Africa and Europe. A total of 1258 scheduled domestic and regional flights arrive and depart from Perth Airport each week. A total of 213 scheduled international flights arrive and depart from Perth Airport each week.
+
+===Passenger===
+{{Airport-dest-list
+<!-- -->
+| [[Air Mauritius]] | [[Sir Seewoosagur Ramgoolam International Airport|Mauritius]]
+<!-- -->
+| [[Air New Zealand]] | [[Auckland Airport|Auckland]] <br/> '''Seasonal:'''  [[Christchurch Airport|Christchurch]] (resumes 30 November 2026)
+<!-- -->
+| [[AirAsia]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Airnorth]] | [[Alice Springs Airport|Alice Springs]], [[Kununurra Airport|Kununurra]]
+<!-- -->
+| [[All Nippon Airways]] | [[Narita International Airport|Tokyo–Narita]]
+<!-- -->
+| [[Alliance Airlines]] | [[Kalgoorlie Airport|Kalgoorlie]] <br />'''Charter:''' [[Port Hedland International Airport|Port Hedland]]
+<!-- -->
+| [[Batik Air]] | [[Ngurah Rai International Airport|Denpasar]], [[Soekarno-Hatta International Airport|Jakarta–Soekarno-Hatta]]
+<!-- -->
+| [[Batik Air Malaysia]] | [[Ngurah Rai International Airport|Denpasar]], [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[Cathay Pacific]] | [[Hong Kong International Airport|Hong Kong]]
+<!-- -->
+| [[China Southern Airlines]] | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Indonesia AirAsia]] | [[Ngurah Rai International Airport|Denpasar]]
+<!-- -->
+| [[Jetstar]] | [[Adelaide Airport|Adelaide]], [[Ngurah Rai International Airport|Denpasar]], [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]], [[Brisbane Airport|Brisbane]], [[Cairns Airport|Cairns]], [[Gold Coast Airport|Gold Coast]], [[Ninoy Aquino International Airport|Manila]], [[Melbourne Airport|Melbourne]], [[Phuket International Airport|Phuket]], [[Singapore Changi Airport|Singapore]], [[Sydney Airport|Sydney–Kingsford Smith]]<br />'''Seasonal:''' [[Christchurch Airport|Christchurch]] (begins 27 October 2026)
+<!-- -->
+| [[Malaysia Airlines]] | [[Kuala Lumpur International Airport|Kuala Lumpur–International]]
+<!-- -->
+| [[National Jet Express]] | '''Charter''': [[Barrow Island Airport|Barrow Island]], [[Cue Airport|Cue]], [[Jundee Airport|Jundee]], [[Kalgoorlie Airport|Kalgoorlie]], [[Kambalda Airport|Kambalda]], [[Laverton Airport|Laverton]], [[Meekatharra Airport|Meekatharra]], [[Murrin Murrin Airport|Murrin Murrin]], [[Nifty Airport|Nifty]], [[Plutonic Airport|Plutonic]], [[Sunrise Dam Airport|Sunrise Dam]], [[Tropicana Gold Mine|Tropicana]], [[Woodie Woodie Airport|Woodie Woodie]]
+<!-- -->
+| [[Nexus Airlines (Australia)|Nexus Airlines]] | [[Geraldton Airport|Geraldton]], [[Kalgoorlie Airport|Kalgoorlie]]
+<!-- -->
+| [[Philippine Airlines]] | [[Ninoy Aquino International Airport|Manila]]
+<!-- -->
+| [[Qantas]] | [[Adelaide Airport|Adelaide]], [[Auckland Airport|Auckland]], [[Brisbane Airport|Brisbane]], [[Broome Airport|Broome]], [[Canberra Airport|Canberra]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[London Heathrow Airport|London–Heathrow]], [[Melbourne Airport|Melbourne]], [[Charles de Gaulle Airport|Paris–Charles de Gaulle]], [[Singapore Changi Airport|Singapore]], [[Sydney Airport|Sydney–Kingsford Smith]] <br />'''Seasonal:''' [[Leonardo da Vinci–Fiumicino Airport|Rome–Fiumicino]]
+<!-- -->
+| [[QantasLink]] | [[Broome International Airport|Broome]], [[Christmas Island Airport|Christmas Island]], [[Cocos (Keeling) Islands Airport|Cocos (Keeling) Islands]], [[Darwin International Airport|Darwin]], [[Learmonth Airport|Exmouth (Learmonth)]], [[Geraldton Airport|Geraldton]], [[Kalgoorlie Airport|Kalgoorlie]], [[Karratha Airport|Karratha]], [[Newcastle Airport (New South Wales)|Newcastle]], [[Newman Airport|Newman]], [[Onslow Airport|Onslow]], [[Paraburdoo Airport|Paraburdoo]], [[Port Hedland International Airport|Port Hedland]] <br />'''Seasonal:''' [[Hobart Airport|Hobart]]
+<!-- -->
+| [[Qatar Airways]] | [[Hamad International Airport|Doha]]
+<!-- -->
+| [[Rex Airlines]] | [[Albany Airport (Western Australia)|Albany]], [[Carnarvon Airport (Western Australia)|Carnarvon]], [[Esperance Airport|Esperance]], [[Shark Bay Airport|Monkey Mia]] 
+<!-- -->
+| [[Scoot]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Skippers Aviation]] | [[Laverton Airport|Laverton]], [[Leonora Airport|Leonora]], [[Meekatharra Airport|Meekatharra]], [[Mount Magnet Airport|Mount Magnet]], [[Wiluna Airport|Wiluna]]
+<!-- -->
+| [[South African Airways]] | [[O. R. Tambo International Airport|Johannesburg–O.R. Tambo]]
+ <!-- --> 
+| {{nowrap|[[Thai Airways International]]}} | [[Suvarnabhumi Airport|Bangkok–Suvarnabhumi]]
+<!-- -->
+| [[TransNusa]] | [[Ngurah Rai International Airport|Denpasar]]
+<!-- -->
+| [[VietJet Air]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Vietnam Airlines]] | [[Tan Son Nhat International Airport|Ho Chi Minh City]]
+<!-- -->
+| [[Virgin Australia]] | [[Adelaide Airport|Adelaide]], [[Brisbane Airport|Brisbane]], [[Broome International Airport|Broome]], [[Darwin International Airport|Darwin]], [[Hamad International Airport|Doha]] (resumes 14 September 2026), [[Hobart Airport|Hobart]], [[Kalgoorlie Airport|Kalgoorlie]], [[Karratha Airport|Karratha]], [[East Kimberley Regional Airport|Kununurra]], [[Melbourne Airport|Melbourne]], [[Newman Airport|Newman]], [[Onslow Airport|Onslow]], [[Port Hedland International Airport|Port Hedland]], [[Sydney Airport|Sydney–Kingsford Smith]]
+<!-- -->
+| {{nowrap|[[Virgin Australia Regional Airlines]]}} | [[Broome International Airport|Broome]], [[Darwin International Airport|Darwin]], [[Kalgoorlie Airport|Kalgoorlie]], [[Karratha Airport|Karratha]], [[East Kimberley Regional Airport|Kununurra]], [[Newman Airport|Newman]], [[Onslow Airport|Onslow]], [[Port Hedland International Airport|Port Hedland]]
+<!-- -->
+}}
+
+Qantas operates dedicated 'flightseeing' services over [[Antarctica]] from Perth. These flights, using a [[Boeing 787 Dreamliner]], depart Perth from Terminals 3 and 4, and provide a guided aerial tour of Antarctica before returning to Australia. These flights are about thirteen hours in total.
+
+===Cargo===
+{{airport destination list 
+<!-- -->
+| [[Qantas Freight]] | [[Adelaide Airport|Adelaide]], [[Hong Kong International Airport|Hong Kong]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney–Kingsford Smith]], [[Western Sydney Airport|Sydney–Western]] 
+<!-- -->
+}}

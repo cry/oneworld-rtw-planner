@@ -1,0 +1,59 @@
+==Airlines and destinations==
+===Passenger===
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID INDEPENDENT SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport destination list
+<!-- -->
+| [[Airlink]] | [[Robert Gabriel Mugabe International Airport|Harare]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Kruger Mpumalanga International Airport|Mbombela]], [[Chief Dawid Stuurman International Airport|Port Elizabeth]]
+<!-- -->
+| [[CemAir]] | [[Bloemfontein Airport|Bloemfontein]], [[Cape Town International Airport|Cape Town]], [[George Airport|George]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Chief Dawid Stuurman International Airport|Port Elizabeth]]
+<!-- -->
+| [[Emirates (airline)|Emirates]] | [[Dubai International Airport|Dubai–International]]
+<!-- -->
+| [[Eswatini Air]] | [[King Mswati III International Airport|Manzini]]
+<!-- -->
+| [[FlySafair]] | [[Cape Town International Airport|Cape Town]], [[East London Airport|East London]], [[Lanseria International Airport|Johannesburg–Lanseria]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]], [[Chief Dawid Stuurman International Airport|Port Elizabeth]]
+<!-- -->
+| [[LIFT (airline)|LIFT]] | [[Cape Town International Airport|Cape Town]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[Qatar Airways]]| [[Hamad International Airport|Doha]]{{Ref|1|1}}
+<!-- -->
+| [[South African Airways]] | [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+| [[Turkish Airlines]] | [[Istanbul Airport|Istanbul]]{{Ref|2|2}}
+}}
+* {{Ref|1|1}}<small>This flight operates via Maputo. However, this carrier does not have rights to transport passengers solely between Durban and Maputo.</small>
+* {{Ref|2|2}}<small>This flight operates via Johannesburg. However, this carrier does not have rights to transport passengers solely between Durban and Johannesburg.</small>
+
+{{CSS crop
+|Location=center
+|Description=Destinations from DUR.
+|bSize=1700
+|cWidth=500
+|cHeight=400
+|oLeft=730
+|oTop=210
+|Content=
+{{Location map+ |Earth|width=1700|float=center
+|places=
+{{Location map~ |Earth|mark = Airplane_silhouette.svg |lat=-29.616667|long= 31.108333|position=right| label='''<small>DUR</small>''' |label_size=70|marksize=10 }}
+{{Location map~ |Earth |mark=Red pog.svg |lat=-17.9318 |long=31.0928 |position=left |label='''<small>[[Robert Gabriel Mugabe International Airport|HRE]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=-25.3832 |long=31.1056 |position=right|label='''<small>[[Kruger Mpumalanga International Airport|MQP]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=-29.0927 |long=26.3024 |position=left |label='''<small>[[Bram Fischer International Airport|BFN]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=-33.9648 |long=18.6017 |position=left |label='''<small>[[Cape Town International Airport|CPT]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=-34.005 |long=22.378 |position=top|label='''<small>[[George Airport|GRJ]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=-33.9849 |long=25.6173 |position=bottom|label='''<small>[[Chief Dawid Stuurman International Airport|PLZ]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=25.2532 |long=55.3657 |position=right|label='''<small>[[Dubai International Airport|DXB]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=-26.3586 |long=28.2460 |position=left |label='''<small>[[Lanseria International Airport|HLA]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=-33.0356 |long=27.8259 |position=right |label='''<small>[[King Phalo Airport|ELS]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=25.2731 |long=51.6081 |position=left |label='''<small>[[Hamad International Airport|DOH]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=41.2753 |long=28.7519 |position=right|label='''<small>[[Istanbul Airport|IST]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=-26.6709 |long=31.3087 |position=right|label='''<small>[[King Mswati III International Airport|SHO]]</small>''' |label_size=70 |marksize=7}}
+{{Location map~ |Earth |mark=Red pog.svg |lat=-26.1337 |long=28.2420 |position=top|label='''<small>[[O. R. Tambo International Airport|JNB]]</small>''' |label_size=70 |marksize=7}}
+}}}}
+
+===Cargo===
+{{Airport destination list
+<!-- -->
+| [[BidAir Cargo]] | [[Lanseria International Airport|Johannesburg-Lanseria]], [[O. R. Tambo International Airport|Johannesburg–O. R. Tambo]]
+<!-- -->
+}}

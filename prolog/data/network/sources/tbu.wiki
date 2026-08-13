@@ -1,0 +1,10 @@
+== Airlines and destinations==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport destination list
+<!-- -->
+| [[Air New Zealand]] | [[Auckland Airport|Auckland]]
+| [[Fiji Airways]] | [[Nadi International Airport|Nadi]]
+| [[Lulutai Airlines]] | [[ʻEua Airport|'Eua]], [[Lifuka Island Airport|Ha'apai]], [[Niuafoʻou Airport|Niuafoʻou]], [[Niuatoputapu Airport|Niuatoputapu]], [[Vavaʻu International Airport|Vava'u]]
+| [[Qantas]] | [[Sydney Airport|Sydney]]
+
+}}

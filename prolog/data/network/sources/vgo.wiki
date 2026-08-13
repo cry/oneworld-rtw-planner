@@ -1,0 +1,14 @@
+==Airlines and destinations==
+The following airlines operate regular scheduled and charter flights at Vigo–Peinador Airport:
+<!--DO NOT ADD OR REMOVE ROUTES WITHOUT GIVING A VALID SOURCE. EXACT DATES ARE MANDATORY FOR NEW ROUTES TO BE ADDED HERE. ALSO ADD INLINE CITATIONS IF POSSIBLE.-->
+{{Airport-dest-list
+<!-- -->
+|[[Air Europa]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]{{cn|date=July 2026}}
+<!-- -->
+|{{nowrap|[[Binter Canarias]]}} | [[Gran Canaria Airport|Gran Canaria]], [[Tenerife North–Ciudad de La Laguna Airport|Tenerife–North]]
+<!-- -->
+|[[Iberia (airline)|Iberia]] | [[Adolfo Suárez Madrid–Barajas Airport|Madrid]]{{cn|date=July 2026}} <br> '''Seasonal:''' [[Palma de Mallorca Airport|Palma de Mallorca]], [[Santander Airport|Santander]] <!--Valencia is no longer operated in 2026 as per the link provided.-->
+<!-- -->
+|[[Vueling]] | [[Barcelona–El Prat Airport|Barcelona]]{{cn|date=July 2026}}
+<!-- -->
+}}

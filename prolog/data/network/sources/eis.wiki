@@ -1,0 +1,28 @@
+==Airlines and destinations==
+
+===Passenger===
+{{Airport-dest-list
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]] | [[Miami International Airport|Miami]]
+<!-- -->
+| {{nowrap|[[InterCaribbean Airways]]}} | [[Grantley Adams International Airport|Barbados]]
+<!-- -->
+| [[Sunrise Airways]] | [[Santo Domingo–Las Américas]]{{cn|date=August 2026}}
+<!-- -->
+| [[Tradewind Aviation]] | '''Seasonal:''' [[Luis Muñoz Marín International Airport|San Juan]]{{cn|date=August 2026}}
+<!-- -->
+|[[Winair]] | [[Grantley Adams International Airport|Barbados]], [[Robert L. Bradshaw International Airport|Saint Kitts]],{{cn|date=August 2026}} [[Princess Juliana International Airport|Sint Maarten]]
+<!-- -->
+}}
+
+Historically, in 1986 the airport had scheduled passenger jet service operated by [[British Caribbean Airways]],{{cn|date=August 2026}} with direct flights to [[Miami International Airport|Miami]].  British Caribbean operated a [[British Aerospace]] [[BAe 146-100]] jetliner.  This was only jet service operated into Tortola at that time.{{cn|date=August 2026}}
+
+====The proposed return of jet service to Miami====
+
+Thirty years after the short-lived [[British Caribbean Airways]] offered jet service to [[Miami International Airport|Miami]] utilizing [[British Aerospace]] [[BAe 146-100]] aircraft, Tortola-based [[BVI Airways]] announced the start of new nonstop [[Miami International Airport|Miami]] service using [[Avro RJ100]] jet airliners with this aircraft being a later version of the Bae 146 jet. However the new service never flew, and BVI Airways is now presumed to be defunct having laid off all of its staff shortly before [[Effects of Hurricane Irma in the British Virgin Islands|Hurricane Irma struck in 2017]].
+
+[[American Airlines]] began nonstop jet service between Tortola and Miami in June 2023 with flights operated by [[American Eagle (airline brand)|American Eagle]] [[Embraer 175]] regional jets. The service began with a single daily seasonal flight, but has grown to several daily frequencies that operate year-round.
+
+=== Air BVI ===
+
+[[Air BVI]] was an airline based at the airport which operated scheduled passenger service from the early the 1970s to the mid 1990s with [[Britten-Norman BN-2 Islander]] and [[Douglas DC-3]] prop aircraft as well as with [[Hawker Siddeley HS 748]] turboprops during its existence. The regional air carrier served [[Anegada]], [[Antigua]], [[La Romana, Dominican Republic]], [[St. Thomas, U.S. Virgin Islands]], [[San Juan, Puerto Rico|San Juan]] and [[Virgin Gorda]] besides Tortola and also operated a small hub at the airport.{{cn|date=August 2026}}

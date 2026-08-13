@@ -1,0 +1,14 @@
+==Airlines and destinations==
+<!-- Please use independent sources, not the airport or airline as they are not independent. -->
+{{Airport-dest-list
+<!-- -->
+|{{nowrap|[[Air New Zealand]]}} | [[Auckland Airport|Auckland]]<br>'''Seasonal:''' [[Christchurch Airport|Christchurch]]
+<!-- -->
+|[[Air Rarotonga]] | [[Aitutaki Airport|Aitutaki]], [[Enua Airport|Atiu]], [[Mangaia Airport|Mangaia]], [[Manihiki Island Airport|Manihiki]], [[Mauke Airport|Mauke]], [[Mitiaro Airport|Mitiaro]], [[Faa'a International Airport|Papeete]]
+<!-- -->
+| [[Air Tahiti]] | [[Faa'a International Airport|Papeete]]
+<!-- -->
+| [[Hawaiian Airlines]] | [[Daniel K. Inouye International Airport|Honolulu]]
+<!-- -->
+| [[Jetstar]] | [[Auckland Airport|Auckland]], [[Brisbane Airport|Brisbane]], [[Sydney Airport|Sydney]]
+}}

@@ -1,0 +1,22 @@
+==Airlines and destinations==
+{{Airport-dest-list
+| [[Aero Dili]] | [[Presidente Nicolau Lobato International Airport|Dili]]
+<!-- -->
+| [[Airnorth]] | [[Alice Springs Airport|Alice Springs]], [[Cairns Airport|Cairns]], [[Presidente Nicolau Lobato International Airport|Dili]], [[Elcho Island Airport|Elcho Island]], [[Gove Airport|Gove]], [[Groote Eylandt Airport|Groote Eylandt]] [[RAAF Base Tindal|Katherine]], [[East Kimberley Regional Airport|Kununurra]], [[Tennant Creek Airport|Tennant Creek]], [[Townsville Airport|Townsville]]<br/> '''Charter:''' [[Frans Kaisiepo International Airport|Biak]]
+<!-- -->
+| {{nowrap|[[China Southern Airlines]]}} | [[Guangzhou Baiyun International Airport|Guangzhou]]
+<!-- -->
+| [[Fly Tiwi]] | [[South Goulburn Island Airport|Warruwi]]
+<!-- -->
+| [[Jetstar]] | [[Adelaide Airport|Adelaide]], [[Brisbane Airport|Brisbane]], [[Ngurah Rai International Airport|Denpasar]], [[Melbourne Airport|Melbourne]], [[Sydney Airport|Sydney]]<br/> '''Seasonal:''' [[Gold Coast Airport|Gold Coast]]
+<!-- -->
+| [[Qantas]] | [[Adelaide Airport|Adelaide]], [[Brisbane Airport|Brisbane]], [[Melbourne Airport|Melbourne]], [[Perth Airport|Perth]], [[Changi Airport|Singapore]] (ends 25 October 2026), [[Sydney Airport|Sydney]] <br/> '''Seasonal:''' [[Changi Airport|Singapore]] (begins 12 June 2027)
+
+<!-- -->
+| [[QantasLink]] | [[Alice Springs Airport|Alice Springs]], [[Cairns Airport|Cairns]], [[Presidente Nicolau Lobato International Airport|Dili]] <br/> '''Seasonal:''' [[Canberra Airport|Canberra]]
+<!-- -->
+| [[Singapore Airlines]] | [[Changi Airport|Singapore]]
+<!-- -->
+| [[Virgin Australia]] | [[Brisbane Airport|Brisbane]] [[Melbourne Airport|Melbourne]], [[Perth Airport|Perth]]<br/> '''Seasonal:''' [[Sydney Airport|Sydney]]
+<!-- -->
+}}

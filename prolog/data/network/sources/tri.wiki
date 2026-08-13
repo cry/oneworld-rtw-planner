@@ -1,0 +1,33 @@
+==Airlines and destinations==
+<!-- Please use only independent sources. The airport or the airline itself are not independent sources. -->
+{{Airport destination list
+| [[Allegiant Air]]| [[Orlando Sanford International Airport|Orlando/Sanford]]<br>'''Seasonal:''' [[St. Petersburg-Clearwater International Airport|St. Petersburg/Clearwater]]
+<!-- -->
+| [[American Eagle (airline brand)|American Eagle]]| [[Charlotte/Douglas International Airport|Charlotte]], [[O'Hare International Airport|Chicago–O'Hare]], [[Dallas/Fort Worth International Airport|Dallas/Fort Worth]]
+<!-- -->
+|[[Breeze Airways]] | [[Orlando International Airport|Orlando]], [[Dulles International Airport|Washington–Dulles]]
+<!-- -->
+|[[Delta Connection]]|[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]
+<!-- -->
+|{{nowrap|[[United Express]]}}|[[O'Hare International Airport|Chicago–O'Hare]] (begins October 25, 2026)
+<!-- -->}}
+
+{| class="collapsible uncollapsed" style="border:1px #aaa solid; width:50em; margin:0.2em auto"
+|-
+! Destinations map
+|-
+|{{Location map+ |United_States |width=1000 |float=center
+|caption=All destinations from Tri-Cities Regional Airport<br>{{font color | red | Red}} = Year-round destination <br />{{font color | green | Green }} = Seasonal destination <br />{{font color | blue | blue }} = Future destination
+
+|places=
+{{Location map~ |United_States |lat=36.475278 |long=-82.4075 |position=right |label=<small>'''[[Tri-Cities, Tennessee|Tri-Cities]]'''</small>|mark=Airplane_silhouette.svg |marksize=15}}
+{{Location map~ |United_States |lat=28.777778 |long=-81.2375 |position=right |label=<small>'''[[Orlando Sanford International Airport|Orlando/Sanford]]'''</small>|label_size=90 |marksize=7}}
+{{Location map~ | mark = Green pog.svg |United_States |lat=27.91 |long=-82.6875 |position=left |label=<small>'''[[St. Pete–Clearwater International Airport|{{nowrap|St. Petersburg}}/<br>Clearwater]]'''</small>|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=32.7767 |long=-96.7970|position=right |label=<small>'''[[Dallas/Fort Worth International Airport|Dallas/<br>Fort Worth]]'''</small>|label_size=90 |marksize=7}}
+{{Location map~ | United_States |lat=35.213889 |long=-80.943056 |position=right |label=<small>'''[[Charlotte Douglas International Airport|Charlotte]]'''</small>|label_size=90 |marksize=7}}
+{{Location map~ |United_States |lat=33.63666 |long=-84.428056 |position=right |label=<small>'''[[Hartsfield–Jackson Atlanta International Airport|Atlanta]]'''</small>|label_size=90 |marksize=7}}
+{{Location map~ | mark = Red pog.svg|United_States |lat=28.4306|long=-81.311|position=left |label=<small>'''[[Orlando International Airport|Orlando]]'''</small>|label_size=90 |marksize=7}}
+{{Location map~ | mark = Red pog.svg|United_States |lat=38.95|long=-77.455|position=right |label=<small>'''[[Dulles International Airport|Washington–Dulles]]'''</small>|label_size=90 |marksize=7}}
+{{Location map~ | mark = Red pog.svg|United_States |lat=41.974186|long=-87.907783|position=right |label=<small>'''[[O'Hare International Airport|Chicago–O'Hare]]'''</small>|label_size=90 |marksize=7}}
+}} 
+|}
