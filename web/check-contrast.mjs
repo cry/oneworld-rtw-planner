@@ -53,6 +53,7 @@ const PAIRS = [
   ['err','panel',4.5,'error severity label'], ['warn','panel',4.5,'warning severity label'],
   ['indet','panel',4.5,'indeterminate label'], ['ok','panel',4.5,'ok text'],
   ['fieldLine','panel',3,'input + select borders (WCAG 1.4.11)'],
+  ['muted','canvas',3,'the floating back-to-form button, whose edge is all that bounds it'],
   ['ruleStrong','panel',1.8,'column header rules'],
   ['rule','panel',1.4,'row hairlines (decorative)'],
   ['accent','panel',3,'focus ring (WCAG 1.4.11)'],

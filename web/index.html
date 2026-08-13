@@ -175,14 +175,25 @@
                    itineraries turn on, so it must not be what scrolls out of
                    sight when the time columns are shown. -->
               <th class="label pb-1.5 pr-2 text-left">Stop at arrival</th>
-              <th class="label pb-1.5 pr-2 text-left">Mkt</th>
-              <th class="label pb-1.5 pr-2 text-left">Op</th>
+              <!-- Thirteen columns is what forces the abbreviations, and an
+                   abbreviation the reader has to guess at is worse than the
+                   column being narrow. Each one carries its expansion; see
+                   .abbr in app.src.css for why it is not a `title`. Which
+                   carrier is which is the whole reason there are two columns,
+                   so both say what they distinguish and not just what they
+                   stand for. -->
+              <th class="label pb-1.5 pr-2 text-left"><span class="abbr"
+                  data-title="Marketing carrier — whose code is on the ticket">Mkt</span></th>
+              <th class="label pb-1.5 pr-2 text-left"><span class="abbr"
+                  data-title="Operating carrier — whose aircraft flies it">Op</span></th>
               <th class="label pb-1.5 pr-2 text-left">Flight</th>
               <!-- The class is what section 5(b) is written in and what every
                    earning table is read against; the fare family is what one of
                    them cannot price a sector without. Neither is required. -->
-              <th class="label pb-1.5 pr-2 text-left" title="Booking class (RBD)">Cls</th>
-              <th class="label c-fare pb-1.5 pr-2 text-left">Fare</th>
+              <th class="label pb-1.5 pr-2 text-left"><span class="abbr"
+                  data-title="Booking class — the single-letter RBD">Cls</span></th>
+              <th class="label c-fare pb-1.5 pr-2 text-left"><span class="abbr"
+                  data-title="Fare family, which one earning table prices by">Fare</span></th>
               <th class="label c-when pb-1.5 pr-2 text-left">Departs</th>
               <th class="label c-when pb-1.5 pr-2 text-left">Arrives</th>
               <th class="w-7 pb-1.5"><span class="sr-only">Remove</span></th>
@@ -282,6 +293,16 @@
     <p id="announce" class="sr-only" role="status" aria-live="polite"></p>
   </section>
 </main>
+
+<!-- Validating scrolls the answer into view, which leaves the form above the top
+     of the window. This is the return trip. It is hidden until the form is
+     entirely off screen -- see revealReport()'s neighbour in app.js -- so on a
+     wide screen, where the form is a sidebar beside the answer, it never shows.
+     The arrow is decorative: the words already say where it goes. -->
+<button type="button" id="totop" class="to-top" hidden>
+  <span aria-hidden="true" class="mono text-[11px]">&uarr;</span>
+  <span id="totop-label">Back to the routing</span>
+</button>
 
 <!-- ============================ help ============================ -->
 <!-- A native <dialog> opened with showModal(), which is the whole reason this is

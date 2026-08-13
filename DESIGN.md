@@ -389,6 +389,39 @@ would be allowed, which it decides by reading the `disabled` attribute the marku
 than keeping a second copy of the rule that a surface sector has no carrier and the last segment has
 no arrival to describe. A second copy is the one that goes out of date.
 
+**It fills sideways too, between the two carrier columns and nowhere else.** The same argument, one
+axis over: on a sector nobody codeshared the marketing and operating codes are the same code, so one
+is already the answer for the other. No other pair of neighbouring columns is like that — a booking
+class beside a flight number beside an airport are three different kinds of thing, and a value
+dragged between them could only be wrong — so the sideways fill is a property of a named group of
+columns rather than of the gesture. Dragging both ways at once fills the rectangle, which is what a
+spreadsheet does and what a whole ticket on one carrier wants. There is no keyboard twin: filling
+down replaces up to fifteen typings with one key and is worth taking <kbd>Ctrl</kbd>+<kbd>D</kbd>
+from the browser for, while filling across replaces exactly one, and the key a spreadsheet would use
+for it is the browser's reload.
+
+**Validating leaves the reader somewhere they did not choose to be, so there is a way back.** A
+button floats over the answer while the form is off screen, saying which of the two ways in it goes
+back to, and it disappears the moment the form is on screen again — which on a wide screen, where
+the form is a sidebar beside the answer, is always, so it never appears there at all. It is driven
+by an IntersectionObserver on the form rather than by a scroll position, because the question is
+where the form is and not how far the page has scrolled: switching tabs changes the answer with no
+scrolling at all. The root is shrunk by six rems from the top, which is not a fudge — the reveal
+scroll lands the report's top on the window's top, and the report's top *is* the form's bottom, so
+the exact test put the form's last pixel on the line where a browser may call it visible and the
+button never came. Clicking it puts focus on the open tab rather than on the section: focusing a
+section needs a `tabindex` and draws the focus ring around the whole panel, which is a great deal of
+accent for "you are here".
+
+**Column headings carry their own expansions.** Thirteen columns is what forces `Mkt`, `Op` and
+`Cls`, and an abbreviation the reader has to guess at is worse than a narrow column. Each one has a
+CSS tooltip rather than a native `title`, which waits a second and renders in the OS's type at the
+OS's size. Hover is the only way to *see* it and that is not a gap in the non-pointer path: generated
+content is in the accessibility tree, so the heading reads as "MKT, marketing carrier — whose code is
+on the ticket" whether or not anything is hovered, and every field under it says it again in its own
+`aria-label`. Making the headings focusable to add a keyboard path would put four new tab stops in
+front of the fields and give nothing that is not already said twice.
+
 **Earning is the only thing in the second column.** The connections table had a panel of its own
 there, which was a border and a heading spent on announcing that a table is a table. It is evidence
 for the verdict — a stopover the clock and the ticket disagree about is *why* a count came out the

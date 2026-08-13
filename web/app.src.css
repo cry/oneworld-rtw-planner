@@ -431,6 +431,62 @@
   background-color: color-mix(in oklch, var(--color-accent) 18%, var(--color-panel));
 }
 
+/* --- an abbreviated column heading ----------------------------------------
+ *
+ * Thirteen columns is what forces "Mkt" and "Op" and "Cls", and the expansion
+ * has to be one hover away rather than something the reader works out. Not a
+ * native `title`: that waits about a second, renders in the OS's type at the
+ * OS's size, and cannot say which of the two carrier columns is which without
+ * looking like a system message.
+ *
+ * Hover is the only way to *see* it, and that is not a gap. Generated content
+ * is in the accessibility tree, so the heading reads as "MKT, marketing carrier
+ * — whose code is on the ticket" whether or not anything is hovered, and every
+ * field under it carries the full name again in its own aria-label — "Segment 3
+ * operating carrier". Both paths that do not involve a pointer already have it.
+ * Making the headings focusable to add a keyboard path would put four new tab
+ * stops in front of the fields and give nothing that is not already said.
+ *
+ * It opens downward because the header sits at the top of a scroller that clips
+ * on both axes (overflow-x: auto computes overflow-y to auto, not visible), and
+ * a tooltip above the heading would be cut off by the box it is inside. */
+.abbr {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted var(--color-rule-strong);
+}
+
+.abbr::after {
+  content: attr(data-title);
+  position: absolute;
+  left: 0;
+  top: calc(100% + 5px);
+  z-index: 5;
+  white-space: nowrap;
+  padding: 3px 7px;
+  border: 1px solid var(--color-rule-strong);
+  border-radius: var(--radius-xs);
+  background: var(--color-panel);
+  color: var(--color-ink);
+  /* The heading is uppercase with tracking; a sentence is not. */
+  font-size: 11.5px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0;
+  text-transform: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms var(--ease-out-quart);
+}
+
+.abbr:hover::after {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .abbr::after { transition: none; }
+}
+
 /* Three states, not two: "follow the OS" is the default and has to stay
  * reachable after someone has overridden it. Real radio inputs, kept focusable
  * rather than display:none, so arrow keys move between them for free. */
@@ -544,6 +600,41 @@
   from {
     opacity: 0;
     transform: translateY(3px);
+  }
+}
+
+/* The way back up the page, floating over the answer. A border and the panel
+ * colour rather than a shadow: everything else that sits above the page here is
+ * a bordered flat panel, and a drop-shadowed pill would be the one element
+ * pretending to be somewhere else.
+ *
+ * Toggled with the `hidden` attribute rather than opacity, because a button
+ * faded to nothing is still in the tab order -- a control the keyboard can
+ * reach and the eye cannot find. The cost is that it cannot fade out; it fades
+ * in, which is the appearance anyone is looking at. */
+@layer components {
+  /* A firmer edge than the buttons inside the form, and for a reason rather than
+   * for emphasis: those sit in a panel that frames them, and this one floats
+   * over whatever the reader has scrolled to, with its own border as the only
+   * thing saying where it ends. That is the case WCAG 1.4.11 is about, and the
+   * background it has to clear is the page canvas as well as a panel -- where
+   * field-line, sized for a control sitting *on* a panel, reaches only 2.81:1.
+   * `muted` clears 3:1 on both grounds in both themes; check-contrast.mjs
+   * carries the pair. */
+  .to-top {
+    @apply fixed bottom-4 right-4 z-30 inline-flex cursor-pointer items-center gap-1.5
+           rounded-xs border border-muted bg-panel px-3 py-1.5 text-[12.5px]
+           font-semibold text-ink transition-colors duration-150;
+  }
+
+  .to-top:hover {
+    @apply border-accent text-accent;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .to-top {
+    animation: settle 160ms var(--ease-out-quart) both;
   }
 }
 

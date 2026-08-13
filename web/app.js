@@ -190,6 +190,9 @@ function apply(next, { focus = false } = {}) {
   // Toggling a class rather than restyling in place keeps both arrangements in
   // the stylesheet where the rest of the layout lives.
   $('layout').classList.toggle('wide-form', next === 'segments');
+  // The way back names what it goes back to, which is whichever of the two ways
+  // in is open.
+  $('totop-label').textContent = next === 'segments' ? 'Back to the segments' : 'Back to the routing';
   // The table can still be wider than its container on a narrow screen, and the
   // browser keeps a scroll offset from while the panel was hidden, which lands
   // the reader mid-table with the segment numbers off to the left.
@@ -346,12 +349,22 @@ function render() {
 // could fly. The handle is not offered where the only outcome is wrong data.
 const FILLABLE = new Set(['type', 'stop', 'marketing', 'operating', 'class', 'family']);
 
+// Which columns may also be filled sideways. Only the two carrier codes, and
+// only because of what they mean: on a sector nobody codeshared they hold the
+// same code, so the value in one is already the answer for the other, and
+// dragging across says so in one gesture instead of two typings. Nothing else on
+// a row is like its neighbour -- a booking class beside a flight number beside
+// an airport are three different kinds of thing, and a value dragged between
+// them could only be wrong. Each group is listed in the order the columns are
+// laid out, because a drag across fills everything between the two ends.
+const LATERAL = [['marketing', 'operating']];
+const lateralGroup = f => LATERAL.find(g => g.includes(f));
+
 const fillHandle = document.createElement('span');
 fillHandle.className = 'fill-handle';
-fillHandle.title = 'Drag to fill the column. Ctrl+D fills to the last segment.';
 
 let activeCell = null;   // {i, f} -- the cell the handle is attached to
-let drag = null;         // {i, f, to} while a fill is being dragged
+let drag = null;         // {i, f, to, toF} while a fill is being dragged
 
 const segRows = () => [...$('segments').children];
 const control = (i, f) => {
@@ -363,6 +376,11 @@ $('segments').addEventListener('focusin', e => {
   const el = e.target.closest('[data-f]');
   if (!el || !FILLABLE.has(el.dataset.f) || el.disabled) { fillHandle.remove(); activeCell = null; return; }
   activeCell = { i: segRows().indexOf(el.closest('tr')), f: el.dataset.f };
+  // The tooltip names both directions only where both exist, so it never offers
+  // a gesture the cell under it does not have.
+  fillHandle.title = lateralGroup(activeCell.f)
+    ? 'Drag down to fill the column, or across to the other carrier. Ctrl+D fills to the last segment.'
+    : 'Drag to fill the column. Ctrl+D fills to the last segment.';
   el.closest('.fillable').appendChild(fillHandle);
 });
 
@@ -389,22 +407,53 @@ function rowAt(clientY) {
   return trs.length - 1;
 }
 
+// Which column of the group the pointer is over, by distance rather than by
+// containment: there are eight pixels of cell padding between two fields, and a
+// pointer resting in the gap has to mean one of them. Measured on the row the
+// drag started from, whose cells are known to exist and whose columns sit at the
+// same x as every other row's.
+function fieldAt(from, clientX) {
+  const group = lateralGroup(from);
+  if (!group) return from;
+  let best = from, near = Infinity;
+  for (const g of group) {
+    const el = control(drag ? drag.i : 0, g);
+    if (!el) continue;
+    const b = el.getBoundingClientRect();
+    const d = clientX < b.left ? b.left - clientX : clientX > b.right ? clientX - b.right : 0;
+    if (d < near) { near = d; best = g; }
+  }
+  return best;
+}
+
 function paint() {
   for (const box of $('segments').querySelectorAll('.fill-target')) box.classList.remove('fill-target');
   if (!drag) return;
-  for (const k of span(drag.i, drag.to)) {
-    const el = control(k, drag.f);
+  for (const cell of covered(drag, { i: drag.to, f: drag.toF })) {
+    const el = control(cell.i, cell.f);
     if (el && !el.disabled) el.closest('.fillable').classList.add('fill-target');
   }
 }
 
-// Every row the fill covers except the one it started from, in either direction:
-// dragging up a column is as reasonable as dragging down it.
-function span(from, to) {
-  const [lo, hi] = to < from ? [to, from] : [from, to];
+// Every cell the fill covers except the one it started from -- the rectangle
+// between the two corners, which for a drag straight down is the column the
+// gesture began as. In either direction on both axes: dragging up a column is
+// as reasonable as dragging down it, and back across to the marketing carrier
+// as reasonable as out to the operating one.
+function covered(from, to) {
+  const [lo, hi] = to.i < from.i ? [to.i, from.i] : [from.i, to.i];
   const out = [];
-  for (let k = lo; k <= hi; k++) if (k !== from) out.push(k);
+  for (let k = lo; k <= hi; k++) {
+    for (const f of fieldSpan(from.f, to.f)) if (k !== from.i || f !== from.f) out.push({ i: k, f });
+  }
   return out;
+}
+
+function fieldSpan(from, to) {
+  const group = to === from ? null : lateralGroup(from);
+  if (!group || !group.includes(to)) return [from];
+  const [lo, hi] = [group.indexOf(from), group.indexOf(to)].sort((a, b) => a - b);
+  return group.slice(lo, hi + 1);
 }
 
 fillHandle.addEventListener('pointerdown', e => {
@@ -414,24 +463,25 @@ fillHandle.addEventListener('pointerdown', e => {
   // It can refuse -- a pointer that is already gone -- and the drag is still
   // well defined without it, because every listener below is on the handle.
   try { fillHandle.setPointerCapture(e.pointerId); } catch { /* not captured */ }
-  drag = { ...activeCell, to: activeCell.i };
+  drag = { ...activeCell, to: activeCell.i, toF: activeCell.f };
   paint();
 });
 
 fillHandle.addEventListener('pointermove', e => {
   if (!drag) return;
-  const to = rowAt(e.clientY);
-  if (to === drag.to) return;
+  const to = rowAt(e.clientY), toF = fieldAt(drag.f, e.clientX);
+  if (to === drag.to && toF === drag.toF) return;
   drag.to = to;
+  drag.toF = toF;
   paint();
 });
 
 fillHandle.addEventListener('pointerup', () => {
   if (!drag) return;
-  const { i, f, to } = drag;
+  const { i, f, to, toF } = drag;
   drag = null;
   paint();
-  fill(f, i, to);
+  fill({ i, f }, { i: to, f: toF });
 });
 
 const cancelDrag = () => { if (drag) { drag = null; paint(); } };
@@ -441,32 +491,40 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') cancelDrag()
 // The keyboard path, and the reason the gesture is not mouse-only. Ctrl+D is
 // what a spreadsheet binds fill-down to; the browser binds it to bookmarking,
 // which is why this takes the key rather than letting it through.
+//
+// There is no keyboard twin for the sideways fill, and it is not an oversight:
+// filling down replaces up to fifteen typings with one key, which is worth a
+// binding, while filling across replaces exactly one. Ctrl+R is what a
+// spreadsheet would use and it is the browser's reload -- a key worth taking
+// for fifteen keystrokes is not worth taking for one.
 $('segments').addEventListener('keydown', e => {
   if ((e.key !== 'd' && e.key !== 'D') || !(e.ctrlKey || e.metaKey) || e.altKey || e.shiftKey) return;
   const el = e.target.closest('[data-f]');
   if (!el || !FILLABLE.has(el.dataset.f) || el.disabled) return;
   e.preventDefault();
-  fill(el.dataset.f, segRows().indexOf(el.closest('tr')), rows.length - 1);
+  const f = el.dataset.f;
+  fill({ i: segRows().indexOf(el.closest('tr')), f }, { i: rows.length - 1, f });
 });
 
 // The fill writes only where typing would be allowed. A surface sector has no
 // carrier and the last segment has no arrival to describe, and both are already
 // disabled in the markup -- so this reads that rather than keeping a second copy
 // of the rule, which is the copy that would go out of date.
-function fill(f, from, to) {
-  const value = rows[from][f];
+function fill(from, to) {
+  const value = rows[from.i][from.f];
+  const cells = covered(from, to);
   let n = 0;
-  for (const k of span(from, to)) {
-    const el = control(k, f);
-    if (!el || el.disabled || rows[k][f] === value) continue;
-    rows[k][f] = value;
+  for (const { i, f } of cells) {
+    const el = control(i, f);
+    if (!el || el.disabled || rows[i][f] === value) continue;
+    rows[i][f] = value;
     n++;
   }
   if (!n) return;
-  if (!AUTHORED_ELSEWHERE.has(f)) segmentsDerived = false;
+  if (cells.some(c => !AUTHORED_ELSEWHERE.has(c.f))) segmentsDerived = false;
   markStale();
   render();
-  const back = control(from, f);
+  const back = control(from.i, from.f);
   if (back) back.focus();
   announce(`Filled ${n} cell${n === 1 ? '' : 's'}.`);
 }
@@ -581,15 +639,50 @@ for (const ev of ['input', 'change']) {
 // on screen moves the reader for nothing. The test is the panel's top: above
 // the fold, or far enough down that the verdict band is the only thing that
 // would fit, and it gets scrolled.
+const glide = () => (matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth');
+
 function revealReport() {
   const box = $('report-panel').getBoundingClientRect();
   const h = window.innerHeight || document.documentElement.clientHeight;
   if (box.top >= 0 && box.top < h * 0.5) return;
-  $('report-panel').scrollIntoView({
-    block: 'start',
-    behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
-  });
+  $('report-panel').scrollIntoView({ block: 'start', behavior: glide() });
 }
+
+// The way back. A page that scrolled itself owes the reader the return trip, and
+// the form it scrolled away from is now somewhere above the top of the window
+// with nothing on screen to say so.
+//
+// It appears while the form has effectively left the window, and not before:
+// with any usable amount of it still showing the reader can see where to go, and
+// on a wide screen, where the form is a sidebar beside the answer rather than
+// above it, that is always -- so the button never appears there at all.
+//
+// "Effectively" is the negative rootMargin, and it is not a fudge. Exactly is
+// what it was, and exactly is where revealReport() lands: the report's top is
+// the form's bottom, so scrolling one to the top of the window puts the other's
+// last pixel on the line, where a browser is within its rights to call it
+// visible and the button never came. Shrinking the root by six rems asks a
+// better question anyway -- a strip of form thinner than one row of fields is
+// not something anyone can work in.
+//
+// An observer rather than a scroll handler because the question is about where
+// the form is, not about scrolling: switching tabs changes the answer without
+// anyone scrolling anything.
+const toTop = $('totop');
+new IntersectionObserver(([e]) => { toTop.hidden = e.isIntersecting; },
+                         { threshold: 0, rootMargin: '-96px 0px 0px 0px' })
+  .observe($('entry'));
+
+toTop.addEventListener('click', () => {
+  $('entry').scrollIntoView({ block: 'start', behavior: glide() });
+  // Focus follows the scroll, or this is a control that moves the page and
+  // leaves the keyboard behind it. Onto the open tab rather than onto the
+  // section: a section is focusable only with a tabindex, and focusing one draws
+  // the focus ring around the whole panel, which is a great deal of accent for
+  // "you are here". The tab is the top of the form, it is where switching tabs
+  // already puts focus, and it is one Tab key from the first field.
+  $(TABS[view]).focus({ preventScroll: true });
+});
 
 // `reveal` is off for the one validation nobody asked for: a linked itinerary
 // validates itself at boot, and a page that scrolls away from its own form
