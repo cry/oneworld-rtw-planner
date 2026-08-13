@@ -220,8 +220,7 @@ levels of detail:
   per-segment stop-kind column, a booking class, a fare family, and a switch for whether dates and
   times are supplied at all. With no clock the time columns are hidden rather than offered and then
   refused; the fare-family column is hidden the same way when no registered earning programme prices
-  one, which the page learns from the validator rather than deciding for itself. **Show as routing**
-  sends the table through the `routing` operation and writes it back out as one line. This is the one
+  one, which the page learns from the validator rather than deciding for itself. This is the one
   view a sidebar cannot hold — thirteen columns, 1,262px with dates and times shown — so opening it
   gives the form the whole page and moves the answer underneath, and closing it puts both back. The
   panels animate between the two arrangements rather than jumping.
@@ -239,6 +238,15 @@ levels of detail:
 
   The abbreviated headings say what they stand for on hover: **Mkt** the marketing carrier, whose
   code is on the ticket, and **Op** the operating carrier, whose aircraft flies it.
+
+The two tabs are two ways of writing one journey, so **opening either converts what is in the
+other** — the table is sent through the `routing` operation and written out as one line, and a
+routing is read back into the table by the same annotation pass the validator uses. Nothing is
+converted when the two already agree, which is what keeps a date or a flight number — neither of
+which a routing can express — from being deleted by a round trip through a tab. If the itinerary
+cannot be written as a routing at all, because a point is neither a transfer nor a stopover or a
+carrier code is also an airport code, the Routing tab says which and why rather than quietly
+promoting the point and changing what the journey means.
 
 **Help** in the masthead opens a panel explaining what a oneworld Explorer fare is, what this
 answers, and how to drive the page. What the fare *is* is prose; every figure in it — the continent

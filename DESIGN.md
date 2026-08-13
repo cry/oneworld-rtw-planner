@@ -413,6 +413,33 @@ button never came. Clicking it puts focus on the open tab rather than on the sec
 section needs a `tabindex` and draws the focus ring around the whole panel, which is a great deal of
 accent for "you are here".
 
+**Opening a tab converts what is in the other one.** They are two ways of writing one journey, so a
+reader who fills in the table and presses Routing means "show me that as a routing" — which is what
+the tab is for. It used to be a button next to Clear, which asked them to notice that the two tabs
+might be showing different itineraries and to remember to say so; the button is gone. Neither
+direction is implemented in the browser: composing calls the `routing` operation, and reading calls
+`validate` and keeps only the annotations, because pressing a tab is not asking for a verdict.
+
+The conversion is started after the switch and never awaited, so the tab opens at once and fills in
+a beat later — a tab that waited on the worker before showing anything would make the cheapest thing
+on the page feel like the most expensive.
+
+**And it converts only when the two disagree**, which is the whole of what makes this safe. The
+guard is the routing text plus a signature over the table, and the signature covers only the columns
+a routing has notation for — the kind of sector, the two places, the marketing carrier, the stop, the
+origin, and whether the clock is on. A date or a flight number typed into a table the routing still
+describes exactly is not a disagreement. Counting it as one would send the table back through the
+parser on the way to a tab the reader only wanted to look at, and hand back the same journey with the
+date deleted. The clock is in the signature for the opposite reason: with times on, the validator
+reads a transfer off the ground time, so turning the clock off changes what the routing would say
+even though no cell moved. A link that arrives carrying both a routing and a table is recorded as
+already in agreement, because it was written by a page where they agreed.
+
+When composing fails — a point that is neither a transfer nor a stopover, a carrier code that is also
+an airport code — the message goes on the tab the reader just opened, and a routing field still
+holding the *previous* composition is cleared: it describes a journey the table no longer contains,
+and nobody typed it. Anything the reader typed themselves stays, because that is theirs.
+
 **Column headings carry their own expansions.** Thirteen columns is what forces `Mkt`, `Op` and
 `Cls`, and an abbreviation the reader has to guess at is worse than a narrow column. Each one has a
 CSS tooltip rather than a native `title`, which waits a second and renders in the OS's type at the
