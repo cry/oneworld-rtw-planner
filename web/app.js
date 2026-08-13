@@ -570,7 +570,31 @@ for (const ev of ['input', 'change']) {
   });
 }
 
-async function validate(routeString) {
+// A verdict the reader cannot see is not an answer. In the Segments tab the
+// answer is under a form that is taller than most viewports, and on any screen
+// too narrow for two columns it is under the form in either tab -- so pressing
+// Validate rendered a report off the bottom of the window and the page looked
+// like it had done nothing.
+//
+// Only when it is actually out of the way. On a wide screen in the Routing tab
+// the report is already beside the form, and scrolling a page whose answer is
+// on screen moves the reader for nothing. The test is the panel's top: above
+// the fold, or far enough down that the verdict band is the only thing that
+// would fit, and it gets scrolled.
+function revealReport() {
+  const box = $('report-panel').getBoundingClientRect();
+  const h = window.innerHeight || document.documentElement.clientHeight;
+  if (box.top >= 0 && box.top < h * 0.5) return;
+  $('report-panel').scrollIntoView({
+    block: 'start',
+    behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+  });
+}
+
+// `reveal` is off for the one validation nobody asked for: a linked itinerary
+// validates itself at boot, and a page that scrolls away from its own form
+// before the reader has touched anything is a page that moved on its own.
+async function validate(routeString, { reveal = true } = {}) {
   if (!routeString && rows.length === 0) {
     show('segments');
     return;
@@ -580,7 +604,7 @@ async function validate(routeString) {
   $('status').textContent = 'validating…';
   try {
     const res = await RTWApi.validate(body);
-    if (!res.ok) renderError(res.data, body);
+    if (!res.ok) { renderError(res.data, body); if (reveal) revealReport(); }
     else {
       // A routing that parsed becomes rows in the Segments tab, using the
       // validator's own reading of it, so it can be refined without retyping.
@@ -591,6 +615,11 @@ async function validate(routeString) {
         if (pendingClasses || pendingFamilies) { applyPositional(); render(); }
       }
       renderReport(res.data, body);
+      // Before earning rather than after it. The verdict is on screen now and
+      // the earn panel is below the report either way, so waiting for the second
+      // answer would only delay the scroll behind a round trip the reader is not
+      // waiting for.
+      if (reveal) revealReport();
       // Earning is asked separately. It runs no fare rules, so it is answered
       // even when the verdict is invalid -- being unable to sell a ticket does
       // not stop it earning.
@@ -607,6 +636,7 @@ async function validate(routeString) {
         <p class="verdict-word text-err">Unavailable</p>
         <p class="mt-1 text-[13px] text-muted">The validator did not answer. ${esc(e.message)}</p>
       </div>`;
+    if (reveal) revealReport();
   } finally {
     buttons().forEach(b => { b.disabled = false; });
     $('status').textContent = '';
@@ -867,10 +897,18 @@ function earnProgram(p) {
       </span>
       <span class="text-[13px]">${p.totals.map(t => total(t, p.currencies)).join(' · ')}</span>
     </summary>
-    <div class="px-4 pb-2.5 pl-7">
+    <!-- Flush with the chevron, not with the programme name. Indenting the body
+         past the disclosure marker hangs it under the words, which reads as a
+         sub-point of the name; the register is the section, so it starts where
+         the section does. It also bought nothing: the segment column is two
+         digits wide and the indent was pushing every figure right for it. -->
+    <div class="px-4 pb-2.5">
       ${tierPicker}
       ${detail ? `
-        <div class="scroll-x mt-1.5">${earnRows(p, groups, notes)}</div>
+        <!-- The control that changes every figure below it needs a gap wide
+             enough to read as a separate thing; at the register's own row
+             spacing it looked like the table's first line. -->
+        <div class="scroll-x ${tierPicker ? 'mt-3' : 'mt-1.5'}">${earnRows(p, groups, notes)}</div>
         <!-- The numbered notes stay open and stay next to the table, because the
              rows above point up at them: a marker whose text is behind a click
              is a figure the reader cannot finish reading. Hoisting them off the
@@ -1734,7 +1772,7 @@ booted = true;
 // them while the other was still working.
 if (linked !== undefined) {
   RTWApi.ready()
-    .then(() => validate(linked || undefined))
+    .then(() => validate(linked || undefined, { reveal: false }))
     .then(() => {
       if (pendingTab) { show(pendingTab); pendingTab = null; }
     });

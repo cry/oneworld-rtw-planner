@@ -237,7 +237,10 @@
          navigating by headings; it just does not take a row of the layout. -->
     <h2 id="report-heading" class="sr-only">Report</h2>
 
-    <div id="report-panel" class="relative min-w-0 rounded-sm border border-rule bg-panel">
+    <!-- scroll-mt-4 is for revealReport(): scrolled hard against the top edge the
+         verdict reads as cropped, and it matches the xl:top-4 the panel already
+         sticks at. -->
+    <div id="report-panel" class="relative min-w-0 scroll-mt-4 rounded-sm border border-rule bg-panel">
       <div id="report"></div>
 
       <!-- Both float over the top-right of the verdict band rather than sitting

@@ -247,7 +247,9 @@ there and are not called out separately above. The register is collapsed by defa
 times the length of the verdict it supports — and `ok` is the quietest thing in it, since on a valid
 itinerary it is every row and colouring them all would leave nothing for the one that is not. Editing
 the form after a verdict marks the report as out of date rather than leaving a stale answer looking
-current.
+current. Validating scrolls the report into view when it is not already there — under the full-width
+Segments table it is otherwise below the fold — and leaves the page alone when it is, which on a wide
+screen in the Routing tab it always is.
 
 **The earning panel** is its own panel, because earning is a different question answered by a
 different operation: an itinerary that cannot be sold can still be priced for what it would earn, and

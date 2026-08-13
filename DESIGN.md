@@ -363,6 +363,18 @@ nothing outside them moves and cross-fading it only makes the text underneath sh
 boot — a deep link into the Segments tab would animate from a layout that was never on screen — nor
 under `prefers-reduced-motion`, nor in a browser without the API, where the switch is simply instant.
 
+**Validating scrolls to the answer, but only when the answer is out of the way.** Under the
+full-width Segments table, and on any screen too narrow for two columns, the report renders below a
+form taller than the viewport — so pressing the button produced a verdict off the bottom of the
+window and a page that looked like it had done nothing. The test is the report panel's top edge:
+above the fold, or far enough down that only the verdict band would fit, and it scrolls. On a wide
+screen in the Routing tab the report is already beside the form and nothing moves, because scrolling
+a page whose answer is on screen is moving the reader for nothing. It scrolls before earning is
+asked rather than after, so the scroll is not queued behind a second round trip; and it is off for
+the one validation nobody asked for, the linked itinerary that validates itself at boot — a page
+that scrolls away from its own form before the reader has touched anything is a page that moved on
+its own.
+
 **A column fills down like a spreadsheet's.** A ticket is mostly one carrier, one booking class and
 one kind of connection repeated down a column, and typing that seven times is seven chances at a typo
 the validator will then faithfully report. The focused cell carries a handle; dragging it copies the
@@ -406,7 +418,10 @@ comparison itself. So every registered programme is always priced and always sho
 a section holds is the detail behind one. A membership tier is inside the programme that publishes
 it, because a tier is a fact about the traveller's standing with one airline and not a page-wide
 setting — which also means the control appears exactly when the validator says that programme has
-tiers, and never otherwise.
+tiers, and never otherwise. The register inside a section starts where the section does, flush with
+the disclosure marker rather than hanging under the programme's name: indented past the marker it
+read as a sub-point of the name, and the indent was spending width on nothing — the column it pushed
+right is two digits wide.
 
 **The help panel is the one modal, and it is a `<dialog>`.** Modals are usually the lazy answer, and
 everything else on this page is a section you can scroll to or a disclosure you can open. Help is the
