@@ -142,6 +142,11 @@
         Written from the segment table. Dates, times and flight numbers have no
         notation in a routing, so they are not carried across.
       </p>
+      <!-- Why the segment table could not be written out as a routing. Composed
+           by the server, not here: a routing written in the browser would be a
+           second definition of the grammar with no test behind it — so the
+           reason it could not be written is the server's to give too. -->
+      <p id="routingerr" class="hidden mt-2 max-w-[68ch] text-[12.5px] text-warn"></p>
     </div>
 
     <!-- ---------------------------- segments ---------------------------- -->
@@ -208,13 +213,17 @@
         <button type="button" class="jump-routing font-semibold text-accent underline underline-offset-2">routing</button>.
       </p>
 
-      <!-- Composed by the server, not here: a routing written in the browser
-           would be a second definition of the grammar with no test behind it. -->
-      <p id="routingerr" class="hidden mt-3 max-w-[68ch] text-[12.5px] text-warn"></p>
+      <!-- Why the routing in the other tab could not be turned into rows. It
+           sits here because this is the tab the reader is looking at when the
+           conversion runs, and the one with nothing in it to explain. -->
+      <p id="segerr" class="hidden mt-3 max-w-[68ch] text-[12.5px] text-warn"></p>
 
       <div class="mt-3 flex flex-wrap items-center gap-2">
+        <!-- "Show as routing" used to live here. Opening the Routing tab now
+             writes the table out as a routing on its own, which is what the tab
+             was always for; the button asked the reader to know the two tabs
+             might be showing different itineraries and to remember to say so. -->
         <button id="add" class="btn-quiet">Add segment</button>
-        <button id="toroute" class="btn-quiet">Show as routing</button>
         <button id="clear" class="btn-quiet">Clear</button>
         <!-- Clear discards a table that may have taken real typing. Undo costs one
              variable and removes the need for a confirmation dialog. -->
@@ -391,7 +400,16 @@
             the kind of connection — fill down: drag the small square at the corner of a cell, or
             press <kbd class="cite">Ctrl</kbd>&nbsp;<kbd class="cite">D</kbd>. Without dates, choose
             <em>No dates or times</em> and the rules that need a clock report as undecided rather than
-            guessing. <strong>Show as routing</strong> writes the table back out as one line.
+            guessing.
+          </dd>
+        </div>
+        <div>
+          <dt class="font-semibold">Switching between them</dt>
+          <dd class="text-muted">
+            The two tabs are two ways of writing one journey, so opening either converts what is in
+            the other: the table is written out as a routing, and a routing is read back into the
+            table. Dates, times and flight numbers have no notation in a routing, so a journey that
+            has been through one comes back without them.
           </dd>
         </div>
         <div>

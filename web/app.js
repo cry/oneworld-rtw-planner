@@ -167,11 +167,18 @@ const TABS = { routing: 'tab-routing', segments: 'tab-segments' };
 // Not at boot -- a deep link into the Segments tab would animate from a layout
 // that was never on screen -- and not when the reader has asked for less motion.
 function show(next, opts = {}) {
+  const moving = next !== view;
   if (!booted || !document.startViewTransition ||
       matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    return apply(next, opts);
+    apply(next, opts);
+  } else {
+    document.startViewTransition(() => apply(next, opts));
   }
-  document.startViewTransition(() => apply(next, opts));
+  // The conversion is started after the switch and never awaited, so the tab
+  // opens at once and fills in a beat later. A tab that waited on the worker
+  // before showing anything would make the cheapest thing on the page feel like
+  // the most expensive one.
+  if (moving && booted) carryOver(next);
 }
 
 function apply(next, { focus = false } = {}) {
@@ -222,6 +229,135 @@ document.querySelectorAll('.jump-segments').forEach(b =>
   b.addEventListener('click', () => show('segments', { focus: true })));
 document.querySelectorAll('.jump-routing').forEach(b =>
   b.addEventListener('click', () => show('routing', { focus: true })));
+
+// --- keeping the two tabs saying the same thing ----------------------------
+//
+// They are two ways of writing one journey, so opening one converts what is in
+// the other: the routing is composed from the table, and the table is the
+// validator's own reading of the routing. This used to be a button, which asked
+// the reader to know that the tabs were not already showing the same itinerary
+// and to remember to say so.
+//
+// Neither direction is implemented here. Composing calls the `routing`
+// operation, and reading is the annotation pass of a `validate` call whose
+// verdict is thrown away -- pressing a tab is not asking for a verdict. A copy
+// of the grammar in the browser would be the copy nothing tests.
+
+// What a routing can say about the table. The two sides are in agreement when
+// both the routing text and this signature are the ones recorded at the last
+// conversion, and a conversion only runs when they are not.
+//
+// It deliberately covers only the columns a routing has notation for. A date or
+// a flight number typed into a table the routing still describes exactly is not
+// a disagreement, and treating it as one would send the table back through the
+// parser -- which would hand back the same journey with the date deleted, on the
+// way to a tab the reader only wanted to look at.
+const SPOKEN = ['type', 'from', 'to', 'marketing', 'stop'];
+
+// The clock is part of it: a routing composed with times on can say things one
+// composed with them off cannot, because the validator reads a transfer off the
+// ground time. Switching the clock off is a change to what the routing would
+// say even though no cell moved.
+//
+// The separators are characters no cell can hold -- every value here is a code,
+// a place or one of two words -- so two different tables cannot sign the same.
+const tableSignature = () =>
+  [$('times').value, $('origin').value.trim(),
+   ...rows.map(r => SPOKEN.map(f => (r[f] || '').trim()).join('|'))]
+    .join(';').toUpperCase();
+
+let agreement = { route: null, sig: null };
+const agree = () => { agreement = { route: $('route').value.trim(), sig: tableSignature() }; };
+const agreed = () => agreement.route === $('route').value.trim() && agreement.sig === tableSignature();
+
+// One conversion at a time, and only the newest one gets to write anything: two
+// quick presses of the tabs would otherwise have the first reply land on top of
+// the second.
+let conversion = 0;
+
+function carryOver(next) {
+  const token = ++conversion;
+  const route = $('route').value.trim();
+  // Both messages are about a conversion, so both go stale the moment another
+  // one is attempted -- or the moment the two tabs turn out to agree, which is
+  // the state a message saying they cannot be reconciled contradicts.
+  $('routingerr').classList.add('hidden');
+  $('segerr').classList.add('hidden');
+  if (next === 'routing' && rows.length && !agreed()) compose(token);
+  else if (next === 'segments' && route && !agreed()) readIntoTable(route, token);
+  // Nothing to convert -- but this token has still superseded whatever was in
+  // flight, and that call's own release is now a no-op, so the release has to
+  // happen here or the buttons stay disabled behind a reply nobody wants.
+  else converting(token, false);
+}
+
+// Held while a conversion is in flight so that neither Validate can run against
+// half-converted state, and released only by the conversion that is still the
+// current one.
+function converting(token, on) {
+  if (token !== conversion) return;
+  buttons().forEach(b => { b.disabled = on; });
+  $('status').textContent = on ? 'converting…' : '';
+}
+
+async function compose(token) {
+  converting(token, true);
+  try {
+    const res = await RTWApi.routing(buildRequest());
+    if (token !== conversion) return;
+    if (res.ok) {
+      $('route').value = res.data.route;
+      $('adopted').classList.add('hidden');
+      $('composed').classList.remove('hidden');
+      agree();
+      announce(`Routing: ${res.data.route}`);
+    } else {
+      // The field holds the previous composition, which describes a journey the
+      // table no longer contains -- so it goes, rather than sitting under a
+      // message saying this itinerary has no routing. Anything the reader typed
+      // themselves stays: that is theirs, and the message explains the rest.
+      if ($('route').value.trim() === agreement.route) {
+        $('route').value = '';
+        $('composed').classList.add('hidden');
+      }
+      fail($('routingerr'), res.data.message || 'This itinerary cannot be written as a routing.');
+    }
+  } catch (e) {
+    fail($('routingerr'), `The validator did not answer. ${e.message}`);
+  } finally {
+    converting(token, false);
+  }
+}
+
+async function readIntoTable(route, token) {
+  converting(token, true);
+  try {
+    const res = await RTWApi.validate(buildRequest(route));
+    if (token !== conversion) return;
+    if (res.ok && res.data.annotations && res.data.annotations.segments) {
+      adoptSegments(res.data.annotations);
+      // A link may have carried classes for a routing whose rows only exist now.
+      if (pendingClasses || pendingFamilies) { applyPositional(); render(); }
+      agree();
+      // The rows are the validator's reading of the routing and not what any
+      // report on screen was about.
+      markStale();
+      announce(`${rows.length} segment${rows.length === 1 ? '' : 's'} from the routing.`);
+    } else {
+      fail($('segerr'), res.data.message || 'That routing could not be read.');
+    }
+  } catch (e) {
+    fail($('segerr'), `The validator did not answer. ${e.message}`);
+  } finally {
+    converting(token, false);
+  }
+}
+
+function fail(el, text) {
+  el.textContent = text;
+  el.classList.remove('hidden');
+  announce(text);
+}
 
 // Everything the page knows about earning programmes comes from the validator's
 // own programme list -- the names, the currencies, the fare families and the
@@ -706,6 +842,10 @@ async function validate(routeString, { reveal = true } = {}) {
         // A link may have carried classes for a routing whose rows only exist
         // now that it has been parsed.
         if (pendingClasses || pendingFamilies) { applyPositional(); render(); }
+        // Validating a routing is also a conversion, and the tabs now agree
+        // about this journey -- so opening Segments after it converts nothing
+        // and cannot discard anything.
+        agree();
       }
       renderReport(res.data, body);
       // Before earning rather than after it. The verdict is on screen now and
@@ -1609,6 +1749,11 @@ function readUrl() {
   pendingClasses = q.get('b') || null;
   pendingFamilies = q.get('f') || null;
   if (haveSegments) applyPositional();
+  // A link carrying both a routing and a table carries both because the reader
+  // had both, and they agreed when it was written. Recording that keeps the
+  // first tab switch after opening the link from deriving one side from the
+  // other -- which for a table with dates on it would mean deleting them.
+  if (haveSegments && route) agree();
 
   const segmentsActive = haveSegments && (q.get('t') === 's' || !route);
   show(segmentsActive ? 'segments' : 'routing');
@@ -1661,6 +1806,7 @@ $('clear').addEventListener('click', () => {
   $('adopted').classList.add('hidden');
   $('composed').classList.add('hidden');
   $('routingerr').classList.add('hidden');
+  $('segerr').classList.add('hidden');
   render();
 });
 $('undo').addEventListener('click', () => {
@@ -1695,42 +1841,6 @@ function readRouting() {
   const r = $('route').value.trim();
   if (r) validate(r);
 }
-
-// Segments -> routing. The string is composed by Prolog from the same annotation
-// pass the validator uses, so the browser never has to know the grammar in this
-// direction either. A routing cannot express a point that is neither a transfer
-// nor a stopover, and the validator says which ones rather than quietly
-// promoting them to stopovers and changing the itinerary's meaning.
-$('toroute').addEventListener('click', async () => {
-  $('routingerr').classList.add('hidden');
-  if (rows.length === 0) { show('segments'); return; }
-  const btn = $('toroute');
-  btn.disabled = true;
-  $('status').textContent = 'composing…';
-  try {
-    const res = await RTWApi.routing(buildRequest());
-    if (res.ok) {
-      const route = res.data.route;
-      $('route').value = route;
-      $('adopted').classList.add('hidden');
-      $('composed').classList.remove('hidden');
-      show('routing');
-      $('route').focus();
-      $('route').setSelectionRange(route.length, route.length);
-      announce(`Routing: ${route}`);
-    } else {
-      $('routingerr').textContent = res.data.message || 'Could not write this itinerary as a routing.';
-      $('routingerr').classList.remove('hidden');
-      announce($('routingerr').textContent);
-    }
-  } catch (e) {
-    $('routingerr').textContent = `The validator did not answer. ${e.message}`;
-    $('routingerr').classList.remove('hidden');
-  } finally {
-    btn.disabled = false;
-    $('status').textContent = '';
-  }
-});
 
 for (const name of Object.keys(EXAMPLES)) {
   const o = document.createElement('option');

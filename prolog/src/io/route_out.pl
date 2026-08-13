@@ -162,9 +162,13 @@ undecidable_message(Segments, Message) :-
     agree(N, 'The point', 'The points', Point),
     agree(N, 'is', 'are', Is),
     agree(N, 'it', 'them', It),
+    % The closing clause needs its own agreement rather than a second copy of
+    % `It`: "say which one it" is missing its verb, and the plural does not want
+    % "one" at all.
+    agree(N, 'which one it is', 'which they are', Which),
     format(atom(Message),
-           '~w after ~w ~w neither a transfer nor a stopover, so this itinerary cannot be written as a routing. Give ~w a ground time, or say which one ~w.',
-           [Point, Where, Is, It, It]).
+           '~w after ~w ~w neither a transfer nor a stopover, so this itinerary cannot be written as a routing. Give ~w a ground time, or say ~w.',
+           [Point, Where, Is, It, Which]).
 
 % A three-letter designator that is also an airport code has no unambiguous
 % spelling in this notation, so it is refused rather than written down as a
