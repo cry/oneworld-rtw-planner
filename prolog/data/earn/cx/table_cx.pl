@@ -19,7 +19,7 @@
     A zone nobody sampled has no Status Points rate at all rather than a zero.
     That is the whole reason this file is generated with a hole in it: the kernel
     reports an absent rate as undecided, and 0 would be a claim the observations
-    do not support. 106 of the 942 cells are such holes.
+    do not support. 106 of the 930 cells are such holes.
 
     Reach is `any` except on American's Business card, the one row in the table
     whose percentage varies: 150% where both airports are in the same country and

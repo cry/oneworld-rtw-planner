@@ -148,14 +148,37 @@ const enhancedCountries = ruleValue('rule', 'CX_zone2_enhanced').value
   .map((name) => COUNTRY_CODES[name] ?? die(`no ISO code for the enhanced-region country "${name}"`));
 if (enhancedCountries.length !== 7) die(`expected 7 enhanced-region countries, got ${enhancedCountries.length}`);
 
+// Cathay's calculator still files some airports under codes IATA has since
+// retired, and data/generated/airports.pl carries the current one. That gap is
+// silent and total: kernel.pl needs coordinates before it will look at a city
+// pair at all, so an override keyed on a code nothing else knows never fires and
+// the sector reads as undecided rather than as the exception it is. So the
+// override is written under the code the geography knows, and the capture keeps
+// Cathay's.
+const RETIRED_CODES = { TSE: 'NQZ' };  // Astana, retired in favour of NQZ in 2020
+
+const KNOWN_AIRPORTS = new Set(
+  [...fs.readFileSync(path.join(REPO, 'prolog', 'data', 'generated', 'airports.pl'), 'utf8')
+      .matchAll(/^airport\(([a-z]{3}),/gm)].map((m) => m[1].toUpperCase()));
+
+const canonical = (code) => RETIRED_CODES[code] ?? code;
+
 // City pairs that defy the distance rule. Cathay publishes no reason for any of
 // them; they are simply what its calculator returns, so they are applied before
 // the distance is looked at rather than reconciled with it.
 const overrides = ruleRows('override').map((r) => {
-  const pairs = r.key.split('/').map((s) => s.trim().split('-'));
   const pos = Number(/CX Zone (\d)/.exec(r.value)?.[1] ?? die(`cannot read a zone from "${r.value}"`));
   const standard = /2-standard/.test(r.value);
   if (standard && pos !== 2) die(`override "${r.key}" names zone 2-standard but zone ${pos}`);
+  const pairs = r.key.split('/').map((leg) => leg.trim().split('-').map(canonical));
+  // An override the geography cannot reach is worse than no override, because it
+  // reads as a covered case. Fail the build rather than emit one.
+  for (const code of new Set(pairs.flat())) {
+    if (!KNOWN_AIRPORTS.has(code)) {
+      die(`override "${r.key}" names ${code}, which is not in data/generated/airports.pl, `
+          + `so the kernel would never reach it. Add a RETIRED_CODES entry or fix the capture`);
+    }
+  }
   return { pairs, pos, why: r.notes };
 });
 
@@ -334,6 +357,7 @@ const unpricedFacts = [];
 let inferredZeros = 0;
 let unobserved = 0;
 let unpricedCards = 0;
+let cells = 0;
 for (const row of rows) {
   const cov = coverage[row.airline.toUpperCase()];
   const miles = milesExpr(row);
@@ -347,6 +371,7 @@ for (const row of rows) {
   }
   for (const zone of ZONES[row.scheme]) {
     const points = row.points[zone.pos - 1];
+    cells++;
     if (points === null) unobserved++;
     if (points === 0 && !cov.zones.includes(zone.pos)) inferredZeros++;
     const reaches = row.scheme === 'cx'
@@ -460,6 +485,12 @@ ${ruleRows('boundary').map((r) => {
 %  Either endpoint in one of these pulls a 751-2,750 mile Cathay sector onto the
 %  enhanced card. It is the one place a distance alone cannot decide a zone, and
 %  the reason route_basis/5 is handed the segment rather than only a number.
+%
+%  Seven countries here and six on Cathay's own change notice, which omits
+%  Kazakhstan. The calculator is the authority and it pays the enhanced card:
+%  HKG-ALA returns 35/25/18 across the three economy fares, which is the
+%  enhanced column and not the standard one. The published list is the thing
+%  that is short, so do not trim this one to match it.
 ${enhancedCountries.map((c) => `cx_enhanced_country('${c}').`).join('\n')}
 
 %! cx_override(?From, ?To, ?Position, ?Why) is nondet.
@@ -570,7 +601,7 @@ ${provenance(`    One fact per (card, zone position, reach), binding the rate li
     A zone nobody sampled has no Status Points rate at all rather than a zero.
     That is the whole reason this file is generated with a hole in it: the kernel
     reports an absent rate as undecided, and 0 would be a claim the observations
-    do not support. ${unobserved} of the ${rows.length * 6} cells are such holes.
+    do not support. ${unobserved} of the ${cells} cells are such holes.
 
     Reach is \`any\` except on American's Business card, the one row in the table
     whose percentage varies: 150% where both airports are in the same country and

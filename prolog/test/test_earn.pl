@@ -505,12 +505,15 @@ test(the_same_band_splits_on_the_endpoints) :-
     assertion(PE == 35),
     assertion(PS == 30).
 
-% Kazakhstan is on the enhanced list and was not on the six-country list this
-% programme was first built from, so it is asserted rather than left to the
-% generator's count.
+% Kazakhstan is on the enhanced list and is still missing from the six-country
+% list on Cathay's own change notice, so the disagreement is asserted here rather
+% than left to the generator's count. The calculator pays the enhanced card:
+% HKG-ALA is 2,554 miles and returns 35 rather than the standard card's 30.
 test(kazakhstan_is_on_the_enhanced_card) :-
     cx_family_sector("K", "flex", "HKG", "ALA", "economy", Row),
-    assertion(sub_atom(Row.basis, _, _, _, 'enhanced region')).
+    assertion(sub_atom(Row.basis, _, _, _, 'enhanced region')),
+    amount(Row, status_points, Points),
+    assertion(Points == 35).
 
 % A city pair whose card is not the one its distance predicts. Cathay publishes
 % no reason for any of the four, so the override is applied before the distance
@@ -522,6 +525,27 @@ test(an_override_beats_the_distance) :-
     assertion(sub_atom(Row.basis, _, _, _, 'exception to the distance rule')),
     amount(Row, status_points, Points),
     assertion(Points == 25).
+
+% The same rule pulling the other way, and by four positions rather than one.
+% Almaty-Astana is 591 miles, which predicts Zone 1, and Cathay pays the
+% 5,001-7,500 card for it. Nothing about the sector explains that, which is why
+% it is a written-down exception and why the figure is pinned here: the zone was
+% recorded as 4 until the calculator was re-read on 2026-08-19.
+%
+% Astana is NQZ, and Cathay's capture still calls it TSE. The generator maps the
+% retired code onto the one data/generated/airports.pl carries, because
+% kernel.pl resolves coordinates *before* it consults a city pair -- so an
+% override written under a code the geography does not know cannot fire at all,
+% and the sector reads as undecided rather than as the exception it is. This
+% test is the guard on that translation as much as on the zone.
+test(an_override_can_raise_the_zone_as_well_as_lower_it) :-
+    cx_family_sector("K", "flex", "ALA", "NQZ", "economy", Row),
+    assertion(Row.outcome == ok),
+    assertion(Row.distance < 750),
+    assertion(sub_atom(Row.basis, _, _, _, 'Zone 5')),
+    assertion(sub_atom(Row.basis, _, _, _, 'exception to the distance rule')),
+    amount(Row, status_points, Points),
+    assertion(Points == 70).
 
 % --- who operates the flight -------------------------------------------------
 

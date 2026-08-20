@@ -79,6 +79,12 @@ cx_boundary(7500, clean, 'CLEAN. Bracketed to 7312-7796').
 %  Either endpoint in one of these pulls a 751-2,750 mile Cathay sector onto the
 %  enhanced card. It is the one place a distance alone cannot decide a zone, and
 %  the reason route_basis/5 is handed the segment rather than only a number.
+%
+%  Seven countries here and six on Cathay's own change notice, which omits
+%  Kazakhstan. The calculator is the authority and it pays the enhanced card:
+%  HKG-ALA returns 35/25/18 across the three economy fares, which is the
+%  enhanced column and not the standard one. The published list is the thing
+%  that is short, so do not trim this one to match it.
 cx_enhanced_country('JP').
 cx_enhanced_country('IN').
 cx_enhanced_country('BD').
@@ -95,7 +101,7 @@ cx_override(hkg, czx, 1, 'Great-circle 755 mi predicts Zone 2; actual card is Zo
 cx_override(czx, hkg, 1, 'Great-circle 755 mi predicts Zone 2; actual card is Zone 1').
 cx_override(mfm, nkg, 2, 'Great-circle 738 mi predicts Zone 1; actual card is Zone 2').
 cx_override(nkg, mfm, 2, 'Great-circle 738 mi predicts Zone 1; actual card is Zone 2').
-cx_override(ala, tse, 4, 'Almaty-Astana is 591 gc mi but earns the 5001-7500 card. No rule explains this').
-cx_override(tse, ala, 4, 'Almaty-Astana is 591 gc mi but earns the 5001-7500 card. No rule explains this').
+cx_override(ala, nqz, 5, 'Almaty-Astana is 591 gc mi but earns the 5001-7500 card. No rule explains this. Re-verified against the live calculator 2026-08-19: Economy Flex returns 70/60/38, which is the 5001-7500 column; the zone was recorded as 4 until then').
+cx_override(nqz, ala, 5, 'Almaty-Astana is 591 gc mi but earns the 5001-7500 card. No rule explains this. Re-verified against the live calculator 2026-08-19: Economy Flex returns 70/60/38, which is the 5001-7500 column; the zone was recorded as 4 until then').
 cx_override(hkg, nop, 5, 'NOP could not be resolved to a location so distance is unverified').
 cx_override(nop, hkg, 5, 'NOP could not be resolved to a location so distance is unverified').

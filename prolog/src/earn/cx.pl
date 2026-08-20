@@ -442,7 +442,7 @@ earn_kernel:route_basis_edges(cx, zone(Scheme, _, _, _), Edges) :-
     cx_zone_edges(Scheme, Edges).
 
 % Reach is `any` on every card but American's Business one, so it is tried and
-% then fallen back on rather than written into all 942 rows.
+% then fallen back on rather than written into every row of the table.
 earn_kernel:accrual(cx, Card, zone(_, Position, Reach, _), _Carrier, Rates) :-
     (   cx_rate(Card, Position, Reach, Found)
     ->  Rates = Found

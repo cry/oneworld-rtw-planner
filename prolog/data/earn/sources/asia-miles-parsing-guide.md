@@ -335,3 +335,26 @@ partners were sampled 23–90 pairs each, which is why coverage gaps exist.
 
 Rate limits: roughly 3,000 requests per IP, then a block of about 15 minutes. Five concurrent requests
 proved sustainable indefinitely; more will trip it.
+
+### Partial re-verification, 2026-08-19
+
+The CX table was audited cell by cell against Cathay's published change notice, *Changes to Status
+Points and Asia Miles earnings on flights*. All 84 published Status Points cells and all 84 Asia Miles
+cells reproduce exactly, as do the eight booking-class groups and the CX zone structure. Two things did
+not line up, and both were re-read from the live calculator:
+
+- **Kazakhstan.** The notice names six enhanced-region countries — Japan, Indonesia, Sri Lanka, Nepal,
+  Bangladesh, India — and omits Kazakhstan, which this capture has. The calculator sides with the
+  capture: HKG–ALA returns 35/25/18 across Flex, Essential and Light, which is the enhanced column.
+  The published list is the short one. Seven stands.
+- **ALA–TSE.** Recorded as CX Zone 4 with a note reading "earns the 5001-7500 card", which is Zone 5.
+  The note was right: the calculator returns 70/60/38 for Economy Flex. Corrected to Zone 5.
+
+Also worth knowing for a rebuild: Cathay still files Astana under the retired code **TSE**, while
+`data/generated/airports.pl` carries the current **NQZ**. `kernel.pl` resolves coordinates before it
+consults a city-pair override, so an override written under a code the geography does not know never
+fires at all — it reads as an undecided sector rather than as the exception it is. The generator now
+translates retired codes and fails the build on an override it cannot reach.
+
+Not re-verified: the partner tables, and every CX cell outside the published notice (the codeshare
+card, which the calculator shows as Economy Light and which the notice does not publish at all).
